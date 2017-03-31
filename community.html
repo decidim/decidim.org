@@ -1,8 +1,8 @@
 ---
-title: Pricing
+title: Community
 heading: Find the perfect plan for your business
 description: All plans include our award winning sales optimization solution to track your sales in real time.
-pricing_table:
+community_table:
   - name: Basic
     color: "#8e8e8e"
     features:
@@ -58,17 +58,17 @@ pricing_table:
       link: http://mysite.com?plan=professional
       text: Get started
 faq:
-  - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
-  - question: Can I change my plan at a later time?
-    answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
+  - question: What types of community membership do you accept?
+    answer: All good faith, anybody with the right attitude towards democratic collaboration.
+  - question: Can I participate if I don't life in Barcelona?
+    answer: Yes, you can contribute online, but you might want to ride to Barcelona ocasionaly :)
+  - question: Do you offer support for nonprofit organizations?
+    answer: Yes, only if you are a Barcelona based organization. Send us a message and the Directorate for Research, Development and Innovation of Barcelona City Council might be able to help you.
   - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+    answer: Contact us for any further questions at <a href="#">hola@decidim.org</a>.
 ---
 <div class="plans">
-	{% for plan in page.pricing_table %}
+	{% for plan in page.community_table %}
 		<ul class="plan">
 			<li style="background: {{ plan.color }}">
 				<h3>{{ plan.name }}</h3>
@@ -78,14 +78,14 @@ faq:
 			{% endfor %}
 
 			{% if plan.call_to_action %}
-				<li class="pricing-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
+				<li class="community-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
 			{% endif %}
 		</ul>
 	{% endfor %}
 </div>
 
 {% if page.faq %}
-	<h2>Pricing FAQ</h2>
+	<h2>Community FAQ</h2>
 	<dl class="faq">
 		{% for item in page.faq %}
 			<div>
