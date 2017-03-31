@@ -23,6 +23,16 @@ header {
 	background: $brand-color; /* Old browsers */
 	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%) no-repeat $brand-color;
 
+        .logo-cityhall {
+		position: absolute;
+		z-index: 1;
+		right: 0;
+		top: 1em;
+		margin-top: 0;
+		text-align: right;
+		width: 10em;
+        }
+
 	a {
 		color: #fff;
 		text-decoration: none;

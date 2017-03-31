@@ -22,6 +22,9 @@
 </head>
 	<body>
 		<header>
+			<a class="logo-cityhall" href="https://ajuntament.barcelona.cat/">
+				<img alt="decidim.barcelona" src="/images/logo_header_barcelona.png">
+			</a>
 			<div class="container">
 				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" alt="Hydra Logo" width="95" height="33" /></a></div>
 				{% include navigation.html %}
@@ -44,7 +47,10 @@
 					</ul>
 					{% endfor %}
 				</div>
-				<p class="copyright">&copy; {{ site.time | date: '%Y' }} MyApp Ltd. • <a href="#">Terms</a> &amp; <a href="#">Privacy</a> • <a href="https://cloudcannon.com/">Template by CloudCannon</a></p>
+                                <p class="copyright">&copy; {{ site.time | date: '%Y' }} - Directorate for Research, Development and Innovation of Citizens' Rights, Participation and Transparency Area of  Barcelona City Council</p>
+				<div style="text-align: center; margin-top: 1em;">
+					<img style="width:150px;" alt="decidim.barcelona" src="/images/logo_footer_barcelona.png">
+				</div>
 			</div>
 		</footer>
 		<script>
