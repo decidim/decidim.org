@@ -1,4 +1,8 @@
-# Hydra
+# Decidim
+
+This is a work in progress of the future web for Decidim project, the participatory democracy framework. 
+
+## Hydra
 
 Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
 Increase the web presence of your brand with this configurable theme.
