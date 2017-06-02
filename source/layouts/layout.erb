@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "Middleman" %></title>
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <header>
+      <a class="logo-cityhall" href="https://ajuntament.barcelona.cat/">
+        <img alt="decidim.barcelona" src="/images/logo_header_barcelona.png">
+      </a>
+      <div class="container">
+        <div class="company-name">
+          <a href="/"><img src="/images/logo.svg" alt="Decidim" width="95" height="33" /></a>
+        </div>
+        <%= partial "partials/navigation" %>
+      </div>
+    </header>
+    <%= yield %>
+    <footer>
+			<div class="container">
+				<!-- p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
+				<div class="footer-columns">
+					{% for column in site.data.footer %}
+					<ul class="footer-links">
+						{% for link in column.links %}
+							<li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+								{% if link.social_icon %}
+									{% include social-icon.html icon=link.social_icon %}
+								{% endif %}
+								{{ link.name }}</a></li>
+						{% endfor %}
+					</ul>
+					{% endfor %}
+				</div -->
+                                <p class="copyright">&copy; 2017 - COPYLEFT with a Creative Commons By-SA license by the Directorate for Research, Development and Innovation of Citizens' Rights, Participation and Transparency Area of  Barcelona City Council</p>
+				<div style="text-align: center; margin-top: 1em;">
+					<img style="width:150px;" alt="decidim.barcelona" src="/images/logo_footer_barcelona.png">
+				</div>
+			</div>
+		</footer>
+		<script>
+			document.getElementById("open-nav").onclick = function () {
+				document.body.classList.toggle("nav-open");
+				return false;
+			};
+		</script>
+  </body>
+</html>
