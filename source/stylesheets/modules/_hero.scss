@@ -1,0 +1,35 @@
+.hero{
+  text-align: center;
+  border-bottom: 1px solid rgba(black, .1);
+  background: radial-gradient(circle at 100% 100%, darken($secondary, 30), $secondary);
+  padding-top: 6rem;
+}
+
+.hero__heading{
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 4rem;
+  font-weight: 300;
+  strong{
+    font-weight: 700;
+  }
+}
+
+.hero__buttons{
+  margin-bottom: 6rem;
+  .btn{
+    min-width: 12rem;
+  }
+}
+
+.hero__image{
+  max-width: 600px;
+  margin: 2rem auto 0;
+  img{
+    display: block;
+    border-top: 20px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-radius: 10px 10px 0 0;
+  }
+}

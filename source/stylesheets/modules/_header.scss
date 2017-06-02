@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+  align-items: center;
+  background-color: $light-grey;
+  padding: .5rem;
+  border-bottom: 1px solid rgba(black, .01);
+}
+
+.cityhall-logo{
+  max-width: 100px;
+  margin-right: -.5rem;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 1rem;
+  text-transform: uppercase;
+  a{
+    text-decoration: none;
+    color: inherit;
+    margin-right: 1.5rem;
+  }
+}
