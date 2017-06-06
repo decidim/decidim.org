@@ -5,6 +5,11 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+# Reload the browser automatically whenever files change
+configure :development do
+  activate :livereload
+end
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
