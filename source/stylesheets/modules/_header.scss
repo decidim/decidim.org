@@ -1,25 +1,18 @@
 .header{
-  display: flex;
-  align-items: center;
-  background-color: $light-grey;
-  padding: .5rem;
-  border-bottom: 1px solid rgba(black, .01);
+  position: relative;
+  padding-top: 3rem;
+  background-color: $darkblue;
+  color: white;
+  > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .cityhall-logo{
+  position: absolute;
+  right: 0;
+  top: 10px;
   max-width: 100px;
-  margin-right: -.5rem;
-}
-
-.navigation{
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  margin-right: 1rem;
-  text-transform: uppercase;
-  a{
-    text-decoration: none;
-    color: inherit;
-    margin-right: 1.5rem;
-  }
 }

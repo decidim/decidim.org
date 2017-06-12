@@ -1,15 +1,18 @@
 .btn{
   display: inline-block;
-  padding: .5em 2em;
+  padding: 1.1em 2em;
   text-decoration: none;
   color: inherit;
   margin-left: .3em;
   margin-right: .3em;
   border-radius: $radius;
   border: 1px solid;
+  font-size: $small-fontsize;
+  text-transform: uppercase;
+  letter-spacing: .04em;
 }
 
-.btn--lange{
+.btn--large{
   font-size: 1.2rem;
   font-weight: 300;
 }
@@ -23,4 +26,9 @@
 
 .btn--secondary{
   border-color: $light-grey;
+}
+
+.btn--frosted{
+  background-color: rgba(white,.2);
+  border-color: transparent;
 }

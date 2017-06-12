@@ -4,6 +4,8 @@ $secondary: #9fc7bc;
 $light-grey: #f1f1f1;
 $lighter-grey: #fafafa;
 $body-color: #333;
+$blue: #466BA0;
+$darkblue: #28446C;
 
 
 //Border radius
@@ -11,4 +13,12 @@ $radius: 3px;
 
 
 //Sizes
-$maxwidth: (1200 /16 ) + rem;
+$maxwidth: (1200/16 ) + rem;
+$maxwidth--hero: (700/16 ) + rem;
+
+//Font-sizes
+$body-fontsize: (16/16) + rem;
+$large-fontsize: (18/16) + rem;
+$larger-fontsize: (20/16) + rem;
+$small-fontsize: (14/16) + rem;
+$h1: (32/16) + rem;

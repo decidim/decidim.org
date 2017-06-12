@@ -9,41 +9,14 @@
     <title><%= current_page.data.title || "Middleman" %></title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/favicon.png">
   </head>
   <body>
-    <header class="header">
-      <div class="logo">
-        <a href="/"><img src="/images/decidim-logo.svg" alt="Decidim" width="120" /></a>
-      </div>
-      <%= partial "partials/navigation" %>
-      <a class="cityhall-logo" href="https://ajuntament.barcelona.cat/">
-        <img alt="decidim.barcelona" src="/images/logo_header_barcelona.png">
-      </a>
-    </header>
+    <%= partial "partials/header" %>
     <%= yield %>
     <footer>
-			<div class="container">
-				<!-- p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
-				<div class="footer-columns">
-					{% for column in site.data.footer %}
-					<ul class="footer-links">
-						{% for link in column.links %}
-							<li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
-								{% if link.social_icon %}
-									{% include social-icon.html icon=link.social_icon %}
-								{% endif %}
-								{{ link.name }}</a></li>
-						{% endfor %}
-					</ul>
-					{% endfor %}
-				</div -->
-                                <p class="copyright">&copy; 2017 - COPYLEFT with a Creative Commons By-SA license by the Directorate for Research, Development and Innovation of Citizens' Rights, Participation and Transparency Area of  Barcelona City Council</p>
-				<div style="text-align: center; margin-top: 1em;">
-					<img style="width:150px;" alt="decidim.barcelona" src="/images/logo_footer_barcelona.png">
-				</div>
-			</div>
+
 		</footer>
 		<script>
 			document.getElementById("open-nav").onclick = function () {
