@@ -7,4 +7,20 @@ body{
 
 h1{
   font-size: $h1;
+  font-weight: $heading-fontweight;
+  margin-top: 0;
+}
+h2{
+  font-size: $h2;
+  font-weight: $heading-fontweight;
+  margin-top: 0;
+}
+h3{
+  font-size: $h3;
+  font-weight: $heading-fontweight;
+  margin-top: 0;
+}
+
+p{
+  margin-top: 0;
 }

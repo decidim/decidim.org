@@ -1,11 +1,11 @@
 //Colors
-$primary: #ee5050;
+$primary: #ED4D4F;
 $secondary: #9fc7bc;
-$light-grey: #f1f1f1;
-$lighter-grey: #fafafa;
 $body-color: #333;
 $blue: #466BA0;
 $darkblue: #28446C;
+$light-grey: mix(white, $blue, 92%);
+$lighter-grey: #fafafa;
 
 
 //Border radius
@@ -23,3 +23,7 @@ $larger-fontsize: (20/16) + rem;
 $largest-fontsize: (22/16) + rem;
 $small-fontsize: (14/16) + rem;
 $h1: (32/16) + rem;
+$h2: (24/16) + rem;
+$h3: (18/16) + rem;
+
+$heading-fontweight: 600;
