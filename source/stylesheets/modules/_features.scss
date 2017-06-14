@@ -7,6 +7,7 @@
 .feature-container{
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .feature-list{
@@ -31,4 +32,15 @@
 
 .feature-item__title{
   margin-bottom: .5rem;
+}
+
+.feature-image-list{
+  flex-basis: 45%;
+}
+
+.feature-image{
+  display: none;
+  &.active{
+    display: block;
+  }
 }

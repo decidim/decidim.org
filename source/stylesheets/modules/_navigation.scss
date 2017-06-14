@@ -8,5 +8,8 @@
     text-decoration: none;
     color: inherit;
     margin-right: 2.5rem;
+    &:last-child{
+      margin-right: 0;
+    }
   }
 }

@@ -8,7 +8,6 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Middleman" %></title>
     <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/favicon.png">
   </head>
@@ -18,11 +17,6 @@
     <footer>
 
 		</footer>
-		<script>
-			document.getElementById("open-nav").onclick = function () {
-				document.body.classList.toggle("nav-open");
-				return false;
-			};
-		</script>
+		<%= javascript_include_tag "image-switch" %>
   </body>
 </html>
