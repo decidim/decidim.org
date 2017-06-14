@@ -1,0 +1,27 @@
+.logos-section{
+  padding: 3rem 0;
+}
+
+.logos-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.logo-item{
+  padding: 2rem;
+  flex-basis: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  > img{
+    max-width: 100%;
+    display: block;
+    transition: .3s;
+  }
+  &:hover{
+    > img{
+      transform: scale(1.25);
+    }
+  }
+}
