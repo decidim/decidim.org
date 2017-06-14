@@ -2,6 +2,14 @@
   padding: 3rem 0;
 }
 
+.logos-section__title{
+  font-size: $h3;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: $darkblue;
+}
+
 .logos-container{
   display: flex;
   flex-wrap: wrap;
@@ -23,6 +31,7 @@
   }
   > img{
     max-width: 100%;
+    max-height: 50px;
     display: block;
     transition: .3s;
   }
