@@ -10,6 +10,9 @@
   font-size: $small-fontsize;
   text-transform: uppercase;
   letter-spacing: .04em;
+  &:hover{
+    color: inherit;
+  }
 }
 
 .btn--large{
@@ -20,8 +23,11 @@
 
 .btn--primary{
   background-color: $primary;
-  border-color: $primary;
+  border-color: transparent;
   color: white;
+  &:hover{
+    background-color: mix(white,$primary,10%);
+  }
 }
 
 .btn--secondary{
@@ -31,4 +37,7 @@
 .btn--frosted{
   background-color: rgba(white,.2);
   border-color: transparent;
+  &:hover{
+    background-color: rgba(white,.3);
+  }
 }

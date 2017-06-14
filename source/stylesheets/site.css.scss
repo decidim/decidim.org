@@ -1,3 +1,15 @@
 @import "variables";
-@import "base/base";
-@import "modules/modules";
+
+@import "base/normalize";
+@import "base/general";
+@import "base/typography";
+
+@import "modules/layout";
+@import "modules/header";
+@import "modules/footer";
+@import "modules/navigation";
+@import "modules/hero";
+@import "modules/subhero";
+@import "modules/features";
+@import "modules/logos";
+@import "modules/buttons";

@@ -2,6 +2,10 @@
   text-align: center;
   font-size: $largest-fontsize;
   padding: 4rem 0;
+  &--cta{
+    background-color: $blue;
+    color: white;
+  }
 }
 
 .subhero__bullets{
@@ -23,4 +27,14 @@
   max-width: 80px;
   min-height: 100%;
   margin: 0 auto 1rem;
+}
+
+.subhero--cta{
+  h2{
+    font-size: $h1;
+    margin-bottom: 1rem;
+  }
+  .hero__buttons{
+    margin: 3rem 0;
+  }
 }
