@@ -6,14 +6,21 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .logo-item{
   padding: 2rem;
-  flex-basis: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
+  .logos-section--cityhalls &{
+    flex-basis: 25%;
+  }
+  .logos-section--partners &{
+    flex-basis: 16.66%;
+    padding: 1rem 3rem;
+  }
   > img{
     max-width: 100%;
     display: block;
