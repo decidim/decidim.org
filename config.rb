@@ -1,3 +1,6 @@
+# Activate multi-language
+activate :i18n
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
