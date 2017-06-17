@@ -6,7 +6,10 @@
   > .container{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    @media (min-width: $L){
+      align-items: baseline;
+    }
   }
   a{
     border: 0;
@@ -17,5 +20,8 @@
   position: absolute;
   right: 0;
   top: 10px;
-  max-width: 100px;
+  max-width: 80px;
+  @media (min-width: $L){
+    max-width: 100px;
+  }
 }

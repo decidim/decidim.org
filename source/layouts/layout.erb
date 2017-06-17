@@ -15,6 +15,8 @@
     <%= partial "partials/header" %>
     <%= yield %>
     <%= partial "partials/footer" %>
+    <%= javascript_include_tag "nav-toggle" %>
+    <%= javascript_include_tag "lang-toggle" %>
 		<%= javascript_include_tag "image-switch" %>
   </body>
 </html>

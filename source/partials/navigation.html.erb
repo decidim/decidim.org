@@ -1,8 +1,28 @@
 <nav class="main-nav">
-	<a href="/demo" class="main-nav__item">Demo</a>
-  <a href="/community" class="main-nav__item">Comunidad</a>
-  <a href="/contract"class="main-nav__item">Contrato social</a>
-	<a href="https://github.com/AjuntamentdeBarcelona/decidim" target="_blank" class="main-nav__item">
-    Código
-  </a>
+	<div class="lang-wrapper">
+		<a href="#lang" class="lang-trigger">ES</a>
+		<ul id="lang" class="lang" role="menu">
+			<li role="menuitem">
+				<a href="/">English</a>
+			</li>
+			<li role="menuitem">
+				<a href="/es">Castellano</a>
+			</li>
+			<li role="menuitem">
+				<a href="/ca">Català</a>
+			</li>
+		</ul>
+	</div>
+	<div class="main-nav__links" id="nav-links">
+		<a href="/demo" class="main-nav__item">Demo</a>
+	  <a href="/community" class="main-nav__item">Comunidad</a>
+	  <a href="/contract"class="main-nav__item">Contrato social</a>
+		<a href="https://github.com/AjuntamentdeBarcelona/decidim" target="_blank" class="main-nav__item">
+	    Código
+	  </a>
+	</div>
+		<a class="main-nav__trigger" href="#nav-links">
+			<span class="nav-icon"></span>
+			<span class="visually-hidden">Navegación</span>
+		</a>
 </nav>

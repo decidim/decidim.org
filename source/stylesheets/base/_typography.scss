@@ -15,19 +15,28 @@ a{
 }
 
 h1{
-  font-size: $h1;
+  font-size: $h1-small;
   font-weight: $heading-fontweight;
   margin-top: 0;
+  @media (min-width: $L){
+    font-size: $h1;
+  }
 }
 h2{
-  font-size: $h2;
+  font-size: $h2-small;
   font-weight: $heading-fontweight;
   margin-top: 0;
+  @media (min-width: $L){
+    font-size: $h2;
+  }
 }
 h3{
-  font-size: $h3;
+  font-size: $h3-small;
   font-weight: $heading-fontweight;
   margin-top: 0;
+  @media (min-width: $L){
+    font-size: $h3;
+  }
 }
 
 p{
@@ -36,4 +45,15 @@ p{
 
 .help{
   font-size: $body-fontsize;
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
 }

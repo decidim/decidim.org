@@ -1,14 +1,53 @@
 .main-nav{
-  display: flex;
-  align-items: center;
+  @media (min-width: $L){
+    display: flex;
+    align-items: center;
+  }
   margin-left: auto;
   font-weight: 200;
   a{
     text-decoration: none;
     color: inherit;
-    margin-right: 2.5rem;
-    &:last-child{
-      margin-right: 0;
+  }
+  @media (min-width: $L){
+    a{
+      margin-left: 2.5rem;
+      padding: 0 .3em;
     }
+  }
+}
+
+.main-nav__links{
+  @media (max-width: $L-max){
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 5.5rem;
+    background: $softblue;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    a{
+      display: block;
+      padding: .5rem 1rem;
+    }
+    body:not(.is-nav-active) &:target,
+    .is-nav-open &{
+      display: block;
+    }
+  }
+}
+
+.main-nav__trigger{
+  display: inline-block;
+  margin-bottom: -.15em;
+  .nav-icon{
+    @include burger(25px, 1px, 8px, white);
+    .is-nav-open &{
+      @include burger-to-cross;
+    }
+  }
+  @media (min-width: $L){
+    display: none;
   }
 }
