@@ -19,7 +19,7 @@
 
   .lang-trigger{
     display: inline-block;
-    padding-left: .3em;
+    padding-left: .5em;
     padding-right: .8em;
     position: relative;
     border-radius: 3px 3px 0 0;
@@ -51,7 +51,7 @@
   padding-left: 0;
   left: 0;
   top: .1em;
-  padding: .3em;
+  padding: .2em .5em;
   border-radius: 0 3px 3px 3px;
   body:not(.is-lang-active) &:target,
   .lang-trigger:hover + &,
@@ -63,7 +63,8 @@
   }
   a{
     display: block;
-    margin: .4em .5em;
+    margin: .4em .5em .4em 0;
+    padding-left: 0;
     &:hover{
       opacity: .7;
     }

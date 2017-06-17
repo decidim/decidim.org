@@ -1,8 +1,12 @@
 .header{
   position: relative;
   padding-top: 3rem;
+  padding-bottom: 1rem;
   background-color: $darkblue;
   color: white;
+  @media (min-width: $L){
+    padding-bottom: 2rem;
+  }
   > .container{
     display: flex;
     justify-content: space-between;

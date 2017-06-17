@@ -13,7 +13,9 @@
   </head>
   <body>
     <%= partial "partials/header" %>
-    <%= yield %>
+    <main class="main">
+      <%= yield %>
+    </main>
     <%= partial "partials/footer" %>
     <%= javascript_include_tag "nav-toggle" %>
     <%= javascript_include_tag "lang-toggle" %>
