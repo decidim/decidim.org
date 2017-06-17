@@ -64,5 +64,8 @@
   a{
     display: block;
     margin: .4em .5em;
+    &:hover{
+      opacity: .7;
+    }
   }
 }

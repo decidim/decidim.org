@@ -11,8 +11,14 @@
   }
   @media (min-width: $L){
     a{
-      margin-left: 2.5rem;
-      padding: 0 .3em;
+      margin-left: 2rem;
+      padding: .1em .5em .2em;
+      margin-bottom: -.2em;
+      &:hover,
+      &.active{
+        background-color: $softblue;
+        border-radius: 3px;
+      }
     }
   }
 }
@@ -21,6 +27,7 @@
   @media (max-width: $L-max){
     display: none;
     position: absolute;
+    z-index: $z-mobile-links;
     right: 0;
     left: 0;
     top: 5.5rem;
@@ -34,6 +41,11 @@
     body:not(.is-nav-active) &:target,
     .is-nav-open &{
       display: block;
+    }
+  }
+  @media (min-width: $L){
+    > a:last-child{
+      margin-right: -.5em;
     }
   }
 }
