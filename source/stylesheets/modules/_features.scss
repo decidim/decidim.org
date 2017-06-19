@@ -13,7 +13,7 @@
 }
 
 .feature-list{
-  flex-basis: 45%;
+  flex-basis: 40%;
 }
 
 .feature-item{
@@ -51,7 +51,7 @@
   display: none;
   @media (min-width: $L){
     display: block;
-    flex-basis: 45%;
+    flex-basis: 56%;
   }
 }
 

@@ -29,6 +29,13 @@
   }
 }
 
+.browser-shot--inline{
+  margin-top: 0;
+  img{
+    border-radius: 10px;
+  }
+}
+
 .image-shot--light,
 .browser-shot--light{
   img{
