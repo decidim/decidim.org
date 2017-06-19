@@ -44,6 +44,9 @@
     }
   }
   @media (min-width: $L){
+    a{
+      display: inline-block;
+    }
     > a:last-child{
       margin-right: -.5em;
     }
