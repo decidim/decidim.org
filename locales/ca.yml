@@ -3,34 +3,34 @@ ca:
   path: "/ca"
   activeLang: "CA"
   buttonDemo: "Demo online"
-  buttonCode: "Código en Github"
+  buttonCode: "Codi a Github"
 
   #Navigation links
-  navText: "Navegación"
+  navText: "Navegació"
   navDemo: "Demo"
-  navCommunity: "Comunidad"
-  navContract: "Contrato social"
-  navCode: "Código"
-  navCredits: "Créditos y atribuciones"
+  navCommunity: "Comunitat"
+  navContract: "Contracte social"
+  navCode: "Codi"
+  navCredits: "Crèdits i atribucions"
 
   # Index ---
   ## Hero
-  heroHeading: "<strong>Democracia participativa</strong> de código abierto para ciudades y organizaciones"
-  heroIntro: "Decidim es más que una plataforma digital: es un proyecto e infraestructura abiertos que incluye código, documentación, diseño, formación, un marco legal, interfaces colaborativas, una comunidad de usuarios y facilitadores y una visión global."
+  heroHeading: "<strong>Democràcia participativa</strong> de codi obert per a ciutats i organitzacions"
+  heroIntro: "Decidim és més que una plataforma digital: és un projecte i infraestructura oberts que inclou codi, documentació, disseny, formació, un marc legal, interficies col·laboratives, una comunitat d'usuaris i facilitadors i una visió global."
   ## Subhero
-  subheroIntro: "Decidim ayuda a ciudadanos, organizaciones e instituciones públicas a auto-organizarse democráticamente a todos los niveles."
-  subheroFeture1: "Co-producción de planificaciones estratégicas"
-  subheroFeture2: "Organización de presupuestos participativos"
-  subheroFeture3: "Construcción de procesos multitudinarios de deliberación"
-  subheroFeture4: "Promoción de toma de decisiones distribuidas"
+  subheroIntro: "Decidim ajuda a ciutadans, organitzacions i institucions públiques a auto-organitzar-se democràticament a tots els nivells."
+  subheroFeture1: "Co-producció de planificacions estratègiques"
+  subheroFeture2: "Organització de pressupostos participatius"
+  subheroFeture3: "Construcció de processos multitudinaris de deliberació"
+  subheroFeture4: "Promoció de presa de decisions distribuïdes"
   ## Logo sections
-  logosUsedByTitle: "Ya lo están usando"
-  logosDrivenByTitle: "Proyecto impulsado por"
-  logosPartnersTitle: "Entidades colaboradoras"
+  logosUsedByTitle: "Ja l'estan fent servir"
+  logosDrivenByTitle: "Projecte impulsat per"
+  logosPartnersTitle: "Entitats col·laboradores"
   ## CTA Block
-  ctaTitle: "Comienza a usar Decidim"
-  ctaIntro: "Prueba la demo online o descarga el código fuente"
-  ctaContact: "Si tienes alguna duda, <a href='mailto:hola@decidim.org'>ponte en contacto con nosotros</a>"
+  ctaTitle: "Comença a fer servir Decidim"
+  ctaIntro: "Prova la demo online o descarrega el codi font"
+  ctaContact: "Si tens algun dubte, <a href='mailto:hola@decidim.org'>posa't en contacte amb nosaltres</a>"
 
   # Demo --- translation directly in /localizable/demo.ca.html.erb
 
