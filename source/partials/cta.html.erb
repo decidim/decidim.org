@@ -1,13 +1,13 @@
 <section class="subhero subhero--cta">
   <div class="container">
-    <h2>Comienza a usar Decidim</h2>
-    <p>Prueba la demo online o descarga el código fuente</p>
+    <h2><%= t(:ctaTitle) %></h2>
+    <p><%= t(:ctaIntro) %></p>
     <div class="hero__buttons">
-  		<a href="#" class="btn btn--primary">Demo online</a>
-  		<a href="#" class="btn btn--frosted">Código en Github</a>
+      <a href="<%= t(:path) %>/demo/" class="btn btn--primary"><%= t(:buttonDemo) %></a>
+  		<a href="https://github.com/AjuntamentdeBarcelona/decidim" target="_blank" class="btn btn--frosted"><%= t(:buttonCode) %></a>
   	</div>
     <p class="help">
-      Si tienes alguna duda, <a href="mailto:hola@decidim.org">ponte en contacto con nosotros</a>
+      <%= t(:ctaContact) %>
     </p>
   </div>
 </section>

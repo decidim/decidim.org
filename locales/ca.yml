@@ -1,7 +1,7 @@
 ---
-es:
-  path: "/es"
-  activeLang: "ES"
+ca:
+  path: "/ca"
+  activeLang: "CA"
   buttonDemo: "Demo online"
   buttonCode: "Código en Github"
 
@@ -32,10 +32,10 @@ es:
   ctaIntro: "Prueba la demo online o descarga el código fuente"
   ctaContact: "Si tienes alguna duda, <a href='mailto:hola@decidim.org'>ponte en contacto con nosotros</a>"
 
-  # Demo --- translation directly in /localizable/demo.es.html.erb
+  # Demo --- translation directly in /localizable/demo.ca.html.erb
 
-  # Community --- translation directly in /localizable/community.es.html.erb
+  # Community --- translation directly in /localizable/community.ca.html.erb
 
-  # Social Contract --- translation directly in /localizable/contract.es.html.erb
+  # Social Contract --- translation directly in /localizable/contract.ca.html.erb
 
-  # Credits --- translation directly in /localizable/credits.es.html.erb
+  # Credits --- translation directly in /localizable/credits.ca.html.erb

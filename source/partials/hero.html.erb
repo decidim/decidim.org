@@ -1,14 +1,12 @@
 <section class="hero">
   <div class="container hero__container">
   	<h1 class="hero__heading">
-      <%= I18n.t(:heroHeading) %>
+      <%= t(:heroHeading) %>
   	</h1>
-    <p class="hero__subhead">Decidim es más que una plataforma digital: es un proyecto e infraestructura abiertos
-    que incluye código, documentación, diseño, formación, un marco legal, interfaces
-    colaborativas, una comunidad de usuarios y facilitadores y una visión global.</p>
+    <p class="hero__subhead"><%= t(:heroIntro) %></p>
   	<div class="hero__buttons">
-  		<a href="/demo" class="btn btn--primary">Demo online</a>
-  		<a href="https://github.com/AjuntamentdeBarcelona/decidim" target="_blank" class="btn btn--frosted">Código en Github</a>
+  		<a href="<%= t(:path) %>/demo/" class="btn btn--primary"><%= t(:buttonDemo) %></a>
+  		<a href="https://github.com/AjuntamentdeBarcelona/decidim" target="_blank" class="btn btn--frosted"><%= t(:buttonCode) %></a>
   	</div>
   </div>
   <div class="container">
