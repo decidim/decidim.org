@@ -1,0 +1,12 @@
+.faq{
+  dt{
+    font-weight: bold;
+  }
+  dd{
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  @media (min-width: $L){
+    column-count: 2;
+  }
+}
