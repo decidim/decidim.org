@@ -1,0 +1,105 @@
+---
+title: Community
+heading: Find your way to join the community
+description: We are the digital commons for participatory democracy
+community_table:
+  - name: Citizens
+    color: "#8e8e8e"
+    features:
+      - text: Become an decidimer
+        highlight: true
+      - text: Join community meetings
+        highlight: false
+      - text: Contribute to feature specifications
+        highlight: false
+      - text: Discuss and decide over the platform
+        highlight: false
+      - text: Meet other people
+        highlight: false
+      - text: Extend democracy to your local community
+        highlight: false
+    call_to_action:
+      link: https://decidim.barcelona/processes/12
+      text: Get started!
+  - name: Developers and Researchers
+    color: "#4a4a4a"
+    features:
+      - text: Contribute code to github
+        highlight: true
+      - text: Join research teams
+        highlight: false
+      - text: Write documentation
+        highlight: false
+      - text: Join our technology committee
+        highlight: false
+      - text: Install, configure and enjoy decicim
+        highlight: false
+      - text: Hack collaboratively
+        highlight: false
+    call_to_action:
+      link: https://github.com/decidim
+      text: Contribute now!
+  - name: Institutions
+    color: "#000000"
+    features:
+      - text: Deliver the best experience 
+        highlight: true
+      - text: Improve your democratic quality 
+        highlight: false
+      - text: Make your institution smarter
+        highlight: false
+      - text: Open your governance
+        highlight: false
+      - text: Let your members/citizens self-organize
+        highlight: false
+      - text: Be cool
+        highlight: false
+    call_to_action:
+      link: http://decidim.barcelona
+      text: Look cool!
+faq:
+  - question: What types of community membership do you accept?
+    answer: All type with good faith, anybody with the right attitude towards democratic collaboration.
+  - question: Can I participate if I don't live in Barcelona?
+    answer: Yes, you can contribute online, but you might want to ride to Barcelona ocasionally :)
+  - question: Do you offer a free install to non-profit organizations?
+    answer: Yes, only if you are a Barcelona based organization. Send us a message and the Directorate for Research, Development and Innovation of Citizens' Rights, Participation and Transparency Area of Barcelona City Council might be able to help you.
+  - question: Do you support for Institutions?
+    answer: Yes, but you need to be pacient. There are plenty of institutions that want to use Decidim right now, and we are helping them step by step. Contact us for any questions and we will respond as soon as possible. 
+  - question: More questions?
+    answer: Contact us for any further questions at <a href="#">hola@decidim.org</a>.
+---
+<div class="plans">
+	{% for plan in page.community_table %}
+		<ul class="plan">
+			<li style="background: {{ plan.color }}">
+				<h3>{{ plan.name }}</h3>
+			</li>
+			{% for feature in plan.features %}
+				<li {% if feature.highlight %} class="highlighted"{% endif %}>{{ feature.text }}</li>
+			{% endfor %}
+
+			{% if plan.call_to_action %}
+				<li class="community-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
+			{% endif %}
+		</ul>
+	{% endfor %}
+</div>
+
+{% if page.faq %}
+	<h2>Community FAQ</h2>
+	<dl class="faq">
+		{% for item in page.faq %}
+			<div>
+				<dt>{{ item.question }}</dt>
+				<dd>{{ item.answer }}</dd>
+			</div>
+		{% endfor %}
+	</dl>
+{% endif %}
+
+<p>
+  		<div class="image">
+				<img src="/images/community-picture.jpg" alt="Decidim Community Photo at Metadecidim Meeting 2016" class="screenshot editable" />
+  		</div>
+</p>
