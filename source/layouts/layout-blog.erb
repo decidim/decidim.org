@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <title>Decidim Blog - <%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= stylesheet_link_tag "site" %>
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
@@ -13,28 +13,21 @@
   <body>
     <%= partial "partials/header" %>
     <main class="main">
-      <%= yield %>
+      <div class="blog container container--text-col container-vertical-top">
+        <h1>
+          <div>
+            <%= current_article.title %>
+          </div>
+          <time class="post-date"><%= current_article.date.strftime('%e %b %Y') %></time>
+        </h1>
+        <%= yield %>
+      </div>
     </main>
 
-    <aside>
-      <h2>Recent Articles</h2>
-      <ol>
-        <% blog.articles[0...10].each do |article| %>
-          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-        <% end %>
-      </ol>
-
-      <h2>Tags</h2>
-      <ol>
+    <aside class="container container--text-col tags-wrapper">
+      <ol class="tags">
         <% blog.tags.each do |tag, articles| %>
-          <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-        <% end %>
-      </ol>
-
-      <h2>By Year</h2>
-      <ol>
-        <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-          <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+          <li><%= link_to "#{tag}", tag_path(tag) %></li>
         <% end %>
       </ol>
     </aside>
