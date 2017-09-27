@@ -1,15 +1,49 @@
 .blog{
   h1, h2{
     line-height: 1;
+    a{
+      border-bottom: 0;
+    }
   }
 }
 
 .post-preview{
-    margin-bottom: 3rem;
+  margin-bottom: 4rem;
+  &:after{
+    content: "";
+    display: block;
+    max-width: 50%;
+    border-bottom: 1px solid rgba(black, .1);
+    margin: 2rem auto 0;
+  }
+}
+
+.post-thumb{
+  margin-bottom: 2rem;
+}
+
+.post-preview__more{
+  border-bottom: 0;
+  font-weight: 600;
+  color: lighten($body-color, 50);
+  &:after{
+    content: "\25B6\FE0E";
+    font-size: .5em;
+    margin-left: .5em;
+    vertical-align: middle;
+    transition: margin-left .3s;
+  }
+  &:hover:after{
+    margin-left: .8em;
+  }
 }
 
 .post-date{
   font-size: .9rem;
+  display: block;
+  font-weight: 600;
+  color: lighten($body-color, 50);
+  margin-top: .3rem;
 }
 
 .blog-pages{
@@ -28,7 +62,7 @@
 }
 
 .tags-wrapper{
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .tags{

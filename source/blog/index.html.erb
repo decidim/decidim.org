@@ -8,12 +8,12 @@ per_page: 5
     <article class="post-preview">
       <h2>
         <a href="<%= article.url %>"><%= article.title %></a>
-        <time class="post-date"><%= article.date.strftime('%b %e %Y') %></time>
+        <time class="post-date"><%= article.date.strftime('%d/%m/%Y') %></time>
       </h2>
 
       <%= article.summary %>
 
-      <a href="<%= article.url %>">Read more</a>
+      <a href="<%= article.url %>" class="post-preview__more">Read more</a>
     </article>
   <% end %>
 
