@@ -38,3 +38,10 @@ body{
     padding-top: 4rem;
   }
 }
+
+.container-vertical-bottom{
+  padding-bottom: 2rem;
+  @media (min-width: $L){
+    padding-bottom: 4rem;
+  }
+}
