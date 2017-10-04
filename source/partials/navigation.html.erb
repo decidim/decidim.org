@@ -1,29 +1,29 @@
 <nav class="main-nav">
-	<div class="lang-wrapper">
-		<a href="#lang" class="lang-trigger"><%= t(:activeLang) %></a>
-		<ul id="lang" class="lang" role="menu">
-			<li role="menuitem">
-				<a href="/">English</a>
-			</li>
-			<li role="menuitem">
-				<a href="/es">Castellano</a>
-			</li>
-			<li role="menuitem">
-				<a href="/ca">Català</a>
-			</li>
-		</ul>
-	</div>
-	<div class="main-nav__links" id="nav-links">
-		<a href="<%= t(:path) %>/demo" class="main-nav__item"><%= t(:navDemo) %></a>
-	  <a href="<%= t(:path) %>/community" class="main-nav__item"><%= t(:navCommunity) %></a>
-	  <a href="<%= t(:path) %>/contract"class="main-nav__item"><%= t(:navContract) %></a>
-		<a href="https://github.com/decidim/decidim" target="_blank" class="main-nav__item">
-	    <%= t(:navCode) %>
-	  </a>
+  <div class="lang-wrapper">
+    <a href="#lang" class="lang-trigger"><%= t(:activeLang) %></a>
+    <ul id="lang" class="lang" role="menu">
+      <li role="menuitem">
+        <%= link_to "English", current_path_for_locale("en") %>
+      </li>
+      <li role="menuitem">
+        <%= link_to "Castellano", current_path_for_locale("es") %>
+      </li>
+      <li role="menuitem">
+        <%= link_to "Català", current_path_for_locale("ca") %>
+      </li>
+    </ul>
+  </div>
+  <div class="main-nav__links" id="nav-links">
+    <a href="<%= t(:path) %>/demo" class="main-nav__item"><%= t(:navDemo) %></a>
+    <a href="<%= t(:path) %>/community" class="main-nav__item"><%= t(:navCommunity) %></a>
+    <a href="<%= t(:path) %>/contract"class="main-nav__item"><%= t(:navContract) %></a>
+    <a href="https://github.com/decidim/decidim" target="_blank" class="main-nav__item">
+      <%= t(:navCode) %>
+    </a>
     <a href="<%= t(:path) %>/blog"class="main-nav__item"><%= t(:navBlog) %></a>
-	</div>
-		<a class="main-nav__trigger" href="#nav-links">
-			<span class="nav-icon"></span>
-			<span class="visually-hidden"><%= t(:navText) %></span>
-		</a>
+  </div>
+    <a class="main-nav__trigger" href="#nav-links">
+      <span class="nav-icon"></span>
+      <span class="visually-hidden"><%= t(:navText) %></span>
+    </a>
 </nav>
