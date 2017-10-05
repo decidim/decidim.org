@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+set -x 
+set -e 
+
 if !(test $(grep DISTRIB_ID /etc/lsb-release)  == "DISTRIB_ID=Ubuntu") ; then
   echo "You don't use Ubuntu. Please install it by hand" 
   exit 1
@@ -13,6 +16,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 source ~/.bashrc
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 rbenv install 2.4.0 
+rbenv global 2.4.0
 echo "gem: --no-document" > ~/.gemrc
 gem install bundler
 bundle install 
