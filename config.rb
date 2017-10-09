@@ -20,8 +20,6 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-proxy "_redirects", "netlify-redirects", ignore: true
-
 # Blog
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
