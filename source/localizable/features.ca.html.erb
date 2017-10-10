@@ -4,13 +4,39 @@ description: Característiques actuals i futures per Decidim
 ---
 <div class="container container--text-col container-vertical-top">
 
-    <div class="container container--text-col container-vertical">
-    <h1>Descobreix les característiques actuals i el futur full de ruta de Decidim</h1>
+  <div class="container container--text-col container-vertical">
+  <h1>Descobreix les característiques actuals i el futur full de ruta de Decidim</h1>
 
-    <p>
-      Baixeu un document PDF complet amb funcions actuals i futures per a Decidim 2017-2018:
-    </p>
-    <p class="cta-block">
-      <a href="/pdf/features-roadmap-ca.pdf" class="btn btn--primary">Funcions 2017-2018 (PDF)</a>
-    </p>
+  <p>
+    Baixeu un document PDF complet amb funcions actuals i futures per a Decidim 2017-2018:
+  </p>
+  <p class="cta-block">
+    <a href="/pdf/features-roadmap-ca.pdf" class="btn btn--primary">Funcions 2017-2018 (PDF)</a>
+  </p>
+
+  <p> A continuació tens un breu resum de les funcionalitats i l'arquitectura de Decidim: </p>
+  <h2> Resum Funcionalitats i característiques de Decidim <br />
+  Roadmap 2017-2018 </h2>
+
+  <p>Les persones usuàries de la plataforma (participants) interactuen a través dels mecanismes de participació anomenats <em>components</em>, que ofereixen funcionalitats específiques per a diferents <em>espais</em> de participació. Dit d&#39;una altra manera, els <em>espais</em> de participació, com les <em>Iniciatives</em>, les <em>Assemblees</em>, els <em>Processos</em> o les <em>Consultes</em> disposen de components que es combinen entre si com a mecanismes de participació. Entre els components més destacats hi ha les <em>trobades presencials</em>, les <em>enquestes</em>, les <em>propostes</em>, les <em>votacions,</em> el <em>seguiment de resultats</em> i els <em>comentaris</em>. Així, per exemple, un procés de participació específic (com l&#39;elaboració de pressupostos participatius) pot combinar, en les seves diferents fases, la possibilitat de convocar i registrar els resultats de trobades presencials amb la ciutadania, pot incloure una enquesta, també la possibilitat de fer propostes, després d&#39;un període de comentaris i debats, activar el component de votació per decidir sobre els projectes un sistema de despesa del pressupost, activar una enquesta d&#39;avaluació i finalment el component de seguiment de l&#39;execució dels projectes escollits.</p>
+  <div class="container">
+    <div class="browser-shot browser-shot--light">
+      <img src="/images/graph-features-ca.png" alt="" />
+    </div>
+  </div>
+  <p>Figura 1:<em> Diagrama resumit de Decidim com a combinació de components en instàncies d&#39;espais de participació. El component Votacions</em> permet diferents sistemes de vot, expressió de suport o adhesió a una proposta.*</p>
+  <p>L&#39;espai de <strong>Processos</strong> permet crear, activar/desactivar i administrar diferents processos de participació, articular-los en diferents fases en què poden combinar-se tots els components. L&#39;espai d’<strong>Assemblees</strong> ofereix la possibilitat de definir òrgans o grups que es reuneixen periòdicament, detallar-ne la composició, llistar i geolocalitzar les seves trobades i participar-hi (acudint-hi si l&#39;aforament i la naturalesa de l&#39;assemblea ho permet, introduint punts en l&#39;ordre del dia o comentant les propostes i decisions preses per l’òrgan esmentat). L&#39;espai d’<strong>Iniciatives</strong> permet crear iniciatives de manera col·laborativa, definir-ne la trajectòria o l’objectiu, recollir suports, debatre i difondre la iniciativa i definir punts de trobada per a la recollida de signatures presencial. L&#39;espai de <strong>Consultes</strong> fa possible articular referèndums, generar debats, connectar amb un sistema de vot electrònic segur i mostrar els resultats.</p>
+  <p>En relació amb els components, el component <strong>incubadora</strong> de propostes facilita realitzar col·laborativament propostes i fer un seguiment i control dels canvis. El component <strong>propostes</strong> permet crear oficialment una proposta, geolocalitzar-la, adjuntar documents, així com navegar i filtrar propostes. El component <strong>resultats</strong> serveix per convertir propostes en resultats i donar respostes oficials a la seva acceptació o rebuig. El component <strong>seguiment</strong> ofereix la possibilitat de subdividir resultats en projectes, definir i aplicar estats de progrés en la seva execució i visualitzar el grau d&#39;execució dels resultats. El component <strong>enquestes</strong> facilita dissenyar enquestes, publicar-les i visualitzar-ne i baixar-ne els resultats. El component <strong>comentaris</strong> permet realitzar comentaris niats, votar-los, respondre i notificar les respostes. El component <strong>textos participatius</strong> permet dividir un document de text en propostes o resultats i, inversament, compondre i visualitzar un text unificat partint d&#39;una col·lecció de propostes o resultats. El component <strong>votacions</strong> ofereix la possibilitat d&#39;activar diferents sistemes de vot sobre les propostes: vot directe il·limitat, limitat, ponderat, basat en costos, etcètera. El component <strong>pàgines</strong> serveix per crear pàgines informatives amb text enriquit, imatges i vídeos. El component <strong>blog</strong> permet crear, categoritzar i mostrar cronològicament notícies. El component <strong>trobades presencials</strong> ofereix la possibilitat de convocar, definir lloc i hora, realitzar la inscripció i el control d&#39;assistència, definir l&#39;estructura i els continguts d&#39;una cita o trobada presencial, així com de publicar-ne les actes, les propostes o els resultats. El component <strong>jornades</strong> permet crear un web d&#39;unes jornades unificant un conjunt de petites cites presencials (xerrades, tallers, etcètera), compondre un programa i gestionar-ne l&#39;assistència. El component <strong>newsletter</strong> o butlletí serveix per enviar correus electrònics a totes les persones registrades en la plataforma o, de manera selectiva, a aquelles que participin en un espai determinat (NOTE:  No tots els components funcionals aquí descrits corresponen un a un amb components de l&#39;arquitectura de Decidim. Per exemple, ara per ara no existeix el component de votacions com a tal, les votacions són una propietat del component propostes que s&#39;activa o desactiva des del tauler d&#39;administració. El mateix succeeix amb el component resultats i el component seguiment-de-resultats. Hem optat per realitzar una distinció funcional de component, ja que l&#39;arquitectura de Decidim pot variar pel que fa a això en el transcurs dels propers mesos.).</p>
+  <p>Quant a les persones participants, existeixen tres categories diferents:</p>
+  <ul>
+  <li><p><strong>Persona visitant.</strong> Pot veure: accedir a tot el contingut de la plataforma sense haver de registrar-se.</p>
+  </li>
+  <li><p><strong>Persona registrada.</strong> Pot contribuir: creant un nom de persona usuària, contrasenya i compte de correu electrònic (o de diferents xarxes socials). Pot realitzar comentaris, crear propostes, enviar missatges i seguir participants o elements de la plataforma i rebre notificacions.</p>
+  </li>
+  <li><p><strong>Persona verificada</strong>. Correspon a un nivell superior de participació. La persona pot acreditar-se com a membre d&#39;una organització, ciutadana d&#39;un municipi, o pertanyent a una comunitat de decisió (una associació, comunitat, col·lectiu, etcètera), i una vegada verificada pot inscriure&#39;s en trobades presencials, donar suport a propostes, signar iniciatives i votar en consultes.</p>
+  </li>
+  </ul>
+  <p>És possible inscriure&#39;s a títol <strong>personal</strong> o <strong>col·lectiu</strong> (associacions, entitats…) i poden crear-se grups d&#39;usuaris que s&#39;expressin de manera col·lectiva o individual. Les persones o col·lectius participants poden configurar/canviar les seves preferències sobre les notificacions.</p>
+  <p>Cada instància d&#39;un espai de participació (p. ex.: un procés de participació) se situa dins d&#39;un <strong>àmbit</strong> (territorial o sectorial) i es defineix per una sèrie de <strong>categories</strong> i subcategories (p. ex.: temàtiques) que afecten només l’espai esmentat. També és possible utilitzar <strong>etiquetes</strong> i fer ús d&#39;un cercador general o específic dins dels diferents espais.</p>
+  <p>A diferència d&#39;altres plataformes existents, l&#39;arquitectura de Decidim és<strong> modular,</strong> <strong>escalable</strong>, fàcilment <strong>configurable</strong> i <strong>integrable</strong> amb altres eines o aplicacions (analítica de dades, mapes, etcètera). La plataforma ha estat dissenyada per facilitar la configuració i el desplegament de processos, assemblees i mecanismes participatius des d&#39;un tauler d&#39;administració d&#39;una manera senzilla, no cal saber programar per instal·lar-la, configurar-la i activar-la. Els mòduls (components de participació) que la integren són independents entre si i poden ser desenvolupats, activats i desactivats de manera independent.</p>
 </div>
