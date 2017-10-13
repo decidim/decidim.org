@@ -1,0 +1,28 @@
+.alert{
+  background-color: $primary;
+  color: $lighter-grey;
+  text-align: center;
+  padding: 1rem;
+  a{
+    border-bottom: 0;
+    &:hover{
+      color: $lighter-grey;
+      opacity: .8;
+    }
+  }
+}
+
+.alert--expanded{
+  padding: 3rem 0 2.5rem;
+
+  p{
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+.alert__linkblock{
+  display: block;
+}
