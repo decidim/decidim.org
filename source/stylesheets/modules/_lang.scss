@@ -1,16 +1,15 @@
 .lang-wrapper{
   display: inline-block;
   position: relative;
+  position: absolute;
+  top: .8rem;
+  left: .8rem;
+  margin-left: -.3em;
+  z-index: $z-mobile-lang;
 
-  @media (max-width: $L-max){
-    position: absolute;
-    top: 15px;
-    left: 1rem;
-    margin-left: -.3em;
-    z-index: $z-mobile-lang;
-  }
-  @media (min-width: $M) and (max-width: $L-max){
-    left: 2rem;
+  @media (min-width: $M){
+    left: 1.8rem;
+    top: 1rem;
   }
 
   > a{
