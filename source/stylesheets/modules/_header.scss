@@ -1,11 +1,25 @@
 .header{
   position: relative;
-  padding-top: 3rem;
+  padding-top: 4rem;
   padding-bottom: 1rem;
   background-color: $darkblue;
   color: white;
   @media (min-width: $L){
+    padding-top: 5rem;
     padding-bottom: 2rem;
+  }
+
+  &:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 2.8rem;
+    background-color: rgba(black, .3);
+    @media (min-width: $L){
+      height: 3.4rem;
+    }
   }
   > .container{
     display: flex;
