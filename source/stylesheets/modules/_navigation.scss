@@ -11,7 +11,7 @@
   }
   @media (min-width: $L){
     a{
-      margin-left: 2rem;
+      margin-left: .5rem;
       padding: .1em .5em .2em;
       margin-bottom: -.2em;
       &:hover,
@@ -30,7 +30,7 @@
     z-index: $z-mobile-links;
     right: 0;
     left: 0;
-    top: 5.5rem;
+    top: 7rem;
     background: $softblue;
     padding-top: .5em;
     padding-bottom: .5em;
