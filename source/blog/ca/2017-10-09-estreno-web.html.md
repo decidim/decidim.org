@@ -15,7 +15,7 @@ Amb Decidim, la democràcia surt guanyant! **[Troba la manera d'unir-te a la com
 
 * Promoció de presa de decisions distribuïdes i obertes
 
-## Què puc fer amb el Decidim?
+### Què puc fer amb el Decidim?
 
 **Proposa, reuneix-te, delibera, decideix, monitoritza: uneix-te a la democràcia**
 
@@ -29,7 +29,7 @@ Vols fer un pla estratègic? O discutir noves normatives? O debatre sobre una pl
 
 Els ciutadans podran decidir directament com gastar els fons d'un pressupost públic. Pots obrir les propostes, discutir i establir les prioritats amb els ciutadans o membres de l'organització, estimar el preu dels projectes i obrir-los a votació, així com monitoritzar els resultats.
 
-## Participa democràticament amb totes les garanties
+### Participa democràticament amb totes les garanties
 
 L'ús i desenvolupament de la plataforma Decidim per part d'una institució o grup social de qualsevol tipus implica acceptar els següents termes (en diem [Contracte Social](https://decidim.org/ca/contract/)):
 
