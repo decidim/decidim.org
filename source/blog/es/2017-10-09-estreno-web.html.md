@@ -15,7 +15,7 @@ Con Decidim, ¡la democracia sale ganando! **[Encuentra la manera de unirte a la
 
 * Promoción de toma de decisiones distribuidas y abiertas
 
-## ¿Qué puedo hacer con Decidim?
+### ¿Qué puedo hacer con Decidim?
 
 **Propón, reúnete, delibera, decide, monitoriza: únete a la democracia**
 
@@ -29,7 +29,7 @@ Decidim hace posible que miles de personas se organicen democráticamente realiz
 
 Los ciudadanos podrán decidir directamente cómo gastar los fondos de un presupuesto público. Puedes abrir las propuestas, discutir y establecer las prioridades con los ciudadanos o miembros de la organización, estimar el precio de los proyectos y abrirlos a votación, así como monitorizar los resultados.
 
-## Participa democráticamente con todas las garantías
+### Participa democráticamente con todas las garantías
 
 El uso y desarrollo de la plataforma Decidim por parte de una institución o grupo social de cualquier tipo implica aceptar los siguientes asuntos (lo llamamos [Contrato Social](https://decidim.org/es/contract/)):
 
