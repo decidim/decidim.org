@@ -15,7 +15,7 @@ With Decidim, democracy wins! **[Find the way to join the community](https://dec
 
 * Promotion of distributed and open decision-making
 
-## What can I do with Decidim?
+### What can I do with Decidim?
 
 **Propose, meet, deliberate, decide, monitor: join democracy**
 
@@ -29,7 +29,7 @@ Do you want to make a strategic plan? Or discuss new regulations? Or debate abou
 
 Citizens will be able to decide directly how to spend the funds of a public budget. You can open calls for proposals, discuss and set up priorities with citizens or members of the organization, estimate the price of projects and open them to voting, as well as monitor the results.
 
-## Participate democratically with all guarantees
+### Participate democratically with all guarantees
 
 The use and development of the Decidim platform by an institution or social group of any kind implies accepting the following issues (we call it the [Social Contract](https://decidim.org/contract/)):
 

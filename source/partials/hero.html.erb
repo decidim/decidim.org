@@ -10,8 +10,17 @@
   	</div>
   </div>
   <div class="container">
-    <div class="browser-shot">
+    <div class="browser-shot play-video" data-playvideo>
   		<img src="/images/screenshot01.jpg" alt="" />
+      <a href="<%= t(:videoUrl) %>" target="_blank" class="play-video__button" data-playvideo-button>
+        <span class="play-video__play" aria-label="<%= t(:playVideo) %>"></span>
+      </a>
   	</div>
   </div>
 </section>
+<div class="video-wrapper" data-video-wrapper>
+  <a href="#" class="video-wrapper__close" data-closevideo aria-label="<%= t(:closeVideo) %>">
+    <span aria-hidden="true">&times;</span>
+  </a>
+  <iframe data-src='<%= t(:videoUrl) %>?rel=0&showinfo=0&autoplay=true' allowfullscreen></iframe>
+</div>
