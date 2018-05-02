@@ -1,77 +1,14 @@
+
 <section class="logos-section logos-section--cityhalls">
   <h2 class="logos-section__title"><%= t(:logosUsedByTitle) %></h2>
   <div class="container logos-container">
-    <a href="https://www.decidim.barcelona/" target="_blank" class="logo-item">
-      <img src="/images/partners/logo_partner_ajbcn.jpg" alt="Ajuntament de Barcelona" />
-    </a>
-    <a href="https://osallistu.hel.fi/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_helsinki.png" alt="Helsinki City Hall" />
-    </a>
-    <a href="https://erabaki.pamplona.es/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_pamplona.jpg" alt="Ayuntamiento de Pamplona" />
-    </a>
-    <a href="https://participons.debatpublic.fr/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_cndp.jpg" alt="Commission nationale du débat public" />
-    </a>
-    <a href="https://assembly.fundaction.eu/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_fundaction.png" alt="FundAction" />
-    </a>
-    <a href="https://participa.gencat.cat/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_gencat.png" alt="Generalitat de Catalunya" />
-    </a>
-    <a href="http://decidim.diba.cat" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_diba.jpg" alt="Diputació de Barcelona" />
-    </a>
-    <a href="http://participa.castillalamancha.es/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_jclm.jpg" alt="Castilla-La Mancha" />
-    </a>
-    <a href="http://decide.veracruzmunicipio.gob.mx/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_veracruz.jpg" alt="Ayuntamiento de la Ciudad y Puerto de Veracruz" />
-    </a>
-    <a href="https://concertations.nouvelle-aquitaine.fr/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_nouvelleaquitaine.png" alt="Nouvelle-Aquitaine" />
-    </a>
-    <a href="https://www.lhon-participa.cat/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_hospitalet.jpg" alt="Ajuntament de L'Hospitalet de Llobregat" />
-    </a>
-    <a href="https://participa.terrassa.cat/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_terrassa.jpg" alt="Ajuntament de Terrassa" />
-    </a>
-    <a href="http://decidim.badalona.cat/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_badalona.jpg" alt="Ajuntament de Badalona" />
-    </a>
-    <a href="https://decidim.sabadell.cat/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_sabadell.jpg" alt="Ajuntament de Sabadell" />
-    </a>
-    <a href="https://www.decidimmataro.cat" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_mataro.jpg" alt="Ajuntament de Mataró" />
-    </a>
-    <a href="https://decidim.santcugat.cat" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_santcugat.jpg" alt="Ajuntament de Sant Cugat del Vallès" />
-    </a>
-    <a href="https://participa.gavaciutat.cat/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_gava.jpg" alt="Ajuntament de Gavà" />
-    </a>
-    <a href="http://participa.vilanova.cat/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_vilanova.jpg" alt="Ajuntament de Vilanova i la Geltrú" />
-    </a>
-    <a href="http://decideix.esparreguera.cat/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_esparraguera.jpg" alt="Ajuntament de Esparraguera" />
-    </a>
-    <a href="https://decidim.calafell.cat" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_calafell.jpg" alt="Ajuntament de Calafell" />
-    </a>
-    <a href="https://participa.reus.cat" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_reus.jpg" alt="Ajuntament de Reus" />
-    </a>
-    <a href="https://participa.rubi.cat/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_rubi.png" alt="Ajuntament de Rubí" />
-    </a>
-    <a href="https://decideix.ajmalgrat.cat/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_malgrat.png" alt="Ajuntament de Malgrat de Mar" />
-    </a>
-    <a href="https://espluguesparticipa.diba.cat/" target="_blank" class="logo-item">
-      <img src="/images/cityhalls/logo_aj_esplugues.gif" alt="Ajuntament d'Esplugues" />
-    </a>
+
+    <% data.cities.each do |use| %>
+      <a href="<%= use.url %>" target="_blank" class="logo-item">
+        <img src="<%= use.image %>" alt="<%= use.name %>" />
+      </a>
+    <% end %>
+
   </div>
 </section>
+
