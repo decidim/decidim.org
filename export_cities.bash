@@ -27,7 +27,7 @@ IFS=,
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
 [ $# -eq 0 ] && { echo "No arguments supplied. Pass 'cities' or 'monitor'"; exit 99; }
 ORD_INPUT=/tmp/data.csv
-sort -n -t"," -k13 $INPUT > $ORD_INPUT
+sort -n -t"," -k12 $INPUT > $ORD_INPUT
 
 if [ $1 == "monitor" ] ; then
   OUTPUT=tmp/cities.ex
