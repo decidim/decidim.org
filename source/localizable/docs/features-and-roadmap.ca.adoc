@@ -1,0 +1,547 @@
+:page-layout: asciidoc
+:lang: ca
+// This directory provides translations for all built-in attributes in Asciidoctor that emit translatable strings.
+// See http://asciidoctor.org/docs/user-manual/#customizing-labels to learn how to apply this file.
+//
+// If you're introducing a new translation, create a file named attributes-<iana-subtag>.adoc, where <iana-subtag> is the IANA subtag for the language.
+// Next, assign a translation for each attribute, using attributes-en.adoc as a reference.
+//
+// IMPORTANT: Do not include any blank lines in the transation file.
+//
+// NOTE: Please wrap the listing-caption and preface-title entries in a preprocessor conditional directive.
+// These attributes should only be updated if set explicitly by the user.
+// Catalan translation, courtesy of Abel Salgado Romero <abelromero@gmail.com> and Alex Soto
+:appendix-caption: Apendix
+:appendix-refsig: {appendix-caption}
+:caution-caption: Atenció
+//:chapter-label: ???
+//:chapter-refsig: {chapter-label}
+:example-caption: Exemple
+:figure-caption: Figura
+:important-caption: Important
+:last-update-label: Última actualització
+//:manname-title: NOM
+:note-caption: Nota
+//:part-refsig: ???
+//:section-refsig: ???
+:table-caption: Taula
+:tip-caption: Suggeriment
+:toc-title: Índex
+:untitled-label: Sense títol
+:version-label: Versió
+:warning-caption: Advertència
+
+// OBLIGATORI. Títol del document. En format web apareix com a encapçalament de nivell 1.
+// En format PDF apareix a la portada.
+:_title: Funcionalitats i característiques de Decidim
+
+// OPCIONAL. Si no es deixa en blanc, ha de començar obligatòriament amb ": " (dos punts i
+// un espai en blanc). En format web apareix com a part del mateix encapçalament de nivell
+// 1 que el títol. En format PDF apareix a la portada, just a sota del títol.
+:_subtitle: : Roadmap 2017/2018
+
+// Normalment no és necessari modificar aquest camp.
+:doctitle: {_title}{_subtitle}
+
+// OBLIGATORI. Versió numèrica en format X.Y.Z on X, Y i Z son nombres, i Z és opcional.
+:revnumber: 1.0
+
+// OPCIONAL. Data de publicació de la versió. Si es deixa el valor per defecte,
+// "{docdate}", la data actual en format YYYY-MM-DD s'insereix automàticament en aquest
+// camp cada cop que es genera el document formatat (web o PDF). També és possible
+// escriure aquí una data fixa.
+:revdate: {docdate}
+
+// OPCIONAL. Veure la descripció d'aquest camp a l'apartat "Criteris d'autoria ..." de més
+// avall.
+:_editors: Xabier E. Barandiaran, Carolina Romero
+
+// OBLIGATORI. Veure la descripció d'aquest camp a l'apartat "Criteris d'autoria ..." de
+// més avall.
+:authors: Xabier E. Barandiaran, Carolina Romero
+
+// OPCIONAL. Veure la descripció d'aquest camp a l'apartat "Criteris d'autoria ..." de més
+// avall.
+:_contributors: Asier Amezaga, Andrés Pereira de Lucena
+
+// OPCIONAL. Veure la descripció d'aquest camp a l'apartat "Criteris d'autoria ..." de més
+// avall.
+:_proofreaders: Andrés Pereira de Lucena, Marta Almela, Juan Linares
+
+// OPCIONAL. Veure la descripció d'aquest camp a l'apartat "Criteris d'autoria ..." de més
+// avall.
+:_participants: Josan Minguela, Joana Guijarro
+
+// OBLIGATORI. Resum del contingut del document. En una publicació acadèmica es
+// correspondria amb l'"abstract".
+:_summary: Decidim [https://decidim.org] és una infraestructura digital per a la democràcia participativa basada en programari lliure (Ruby on Rails), que facilita la creació de portals de participació ciutadana. Les persones usuàries de la plataforma (participants) interactuen a través dels mecanismes de participació anomenats components, que ofereixen funcionalitats específiques per a diferents espais de participació. És a dir, els espais de participació, com les Iniciatives, les Assemblees, els Processos o les Consultes, disposen de components que es combinen com a mecanismes de participació. Entre els components més destacats hi ha les trobades presencials, les enquestes, les propostes, les votacions, el seguiment de resultats i els comentaris. Per exemple, un procés de participació específic com l'elaboració de pressupostos participatius pot combinar, en les seves diferents fases, diversos components per a: convocar i registrar els resultats de trobades presencials amb la ciutadania, realitzar una enquesta, fer propostes, i en les fases finals del procés, fer una votació per decidir sobre els projectes amb un sistema de despesa del pressupost (sempre després d'un període de comentaris i debats), realitzar una enquesta d'avaluació i, finalment, un seguiment de l'execució dels projectes escollits.
+
+// OBLIGATORI. Llistat de termes que ajudin a classificar i buscar el document, separats
+// per comes. En format web aquests termes van integrats com a metadades que ajuden a
+// millorar el SEO. En format PDF es mostren amb la resta de metadades.
+:keywords: Decidim, plataforma de participació democràtica, components, espais de participació, programari, e-democràcia, participació, assemblearisme, participació ciutadana, processos participatius, consells de barri, consultes ciutadanes, accountability, rendició de comptes, propostes, e-voting, transparència
+
+// OBLIGATORI. Història del document.
+:_dochistory: Aquest document inclou una descripció de les funcionalitats existents a Decidim i d'aquelles en fase de desenvolupament o d'adjudicació (definides en els plecs del concurs públic de contractació per al desenvolupament de Decidim publicats per l'Ajuntament de Barcelona, codi d'expedient 17000141). En el disseny de les funcionalitats existents i previstes hi van participar centenars de persones: durant les Jornades Anuals Metadecidim 2016, en el procés de participació Metadecidim del portal de participació de l'Ajuntament de Barcelona i en les trobades mensuals SOM.meta.decidim. El document també pren conceptes i procediment del nou reglament de participació de l'Ajuntament de Barcelona, que s’aprovarà previsiblement el dia 29 de setembre i ha estat elaborat participativament a través del portal decidim.barcelona. Amb motiu de les Jornades Anuals Metadecidim 2017, de la necessitat de coordinar la implementació de les futures funcionalitats amb diferents equips de tècnics municipals i de publicar un roadmap actualitzat, l'equip Decidim va començar a redactar aquest document perquè serveixi com a referència de les funcionalitats presents i previstes de Decidim en el període 2017-2018.
+
+// OBLIGATORI. Si el document no ha assolit encara la versió 1.0 es pot posar "ES PREGA NO
+// CITAR ENCARA FINS LA VERSIÓ 1.0". Es poden utilitzar variables com {_title}, {authors},
+// {doctitle} o {revnumber}.
+:_citation: Barandiaran, X.E. & Romero, C. (2017) {_title}. v{revnumber}.
+
+// OBLIGATORI. Termes legals en que aquest document es pot distribuir i/o modificar.
+// Normalment no cal modificar el contingut per defecte d'aquest camp.
+:_copyleft: pass:quotes[Ajuntament de Barcelona i persones autores del text, sota les llicències Creative Commons BY-SA (Reconeixement-CompartirIgual) Internacional (v4.0) i GFDL (Llicència de documentació lliure de GNU). + \
+_CC BY-SA: Creative Commons Reconeixement-CompartirIgual 4.0 Internacional_ + \
+Sou lliures de copiar i redistribuir el material en qualsevol mitjà o format, remesclar, transformar i crear a partir del material, per a qualsevol finalitat, fins i tot comercial. El llicenciador no pot revocar aquestes llibertats mentre compliu amb els termes de la llicència. Sota les condicions següents: a) Reconeixement: heu de reconèixer adequadament l'autoria, proporcionar un enllaç a la llicència i indicar si s'hi han fet canvis. Podeu fer-ho de qualsevol manera raonable, però no d'una manera que suggereixi que teniu el suport del llicenciador o el rebeu per l'ús que en feu; b) Compartir igual: si remescleu, transformeu o creeu a partir del material, haureu de difondre les vostres contribucions sota la mateixa llicència que l'original. No hi ha restriccions addicionals, no podeu aplicar termes legals o mesures tecnològiques que legalment restringeixin fer allò que la llicència permet. Podeu trobar les llicències completes en els enllaços següents: https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES. + \
+_GFDL: Llicència de documentació lliure de GNU_ + \
+Es concedeix permís per copiar, distribuir o modificar aquest document sota els termes de la llicència de documentació lliure GNU, versió 1.3 o qualsevol altra versió posterior publicada per la Free Software Foundation; sense seccions invariants ni textos de coberta davantera, tampoc textos de contraportada. Una còpia de la llicència es pot trobar a http://www.gnu.org/copyleft/fdl.html.]
+
+:toc: left
+:toclevels: 1
+:xrefstyle: short
+
+:sectnums!:
+== Metadades
+
+[cols="20,80"]
+|===
+| Títol                                 | {_title}
+| Versió                                | {revnumber}
+| Data                                  | {revdate}
+| Edició                                | {_editors}
+| Autoria                               | {authors}
+| Contribució                           | {_contributors}
+| Revisió                               | {_proofreaders}
+| Participació                          | {_participants}
+| Resum                                 | {_summary}
+| Paraules clau                         | {keywords}
+| Història del document                 | {_dochistory}
+| Com es cita                           | {_citation}
+| Copyleft                              | {_copyleft}
+|===
+<<<
+
+== Criteris d'autoria i com participar en aquest document
+
+Aquest document està obert a la participació. Podeu contribuir-hi de diverses maneres. Excepte la funció d'edició, la resta de les formes de participació i els nivells i criteris d'autoria s'especifiquen a continuació:
+
+Editor/a :: S'encarrega del monitoratge del text, les seves versions, correccions, estructuració, etcètera. Pot coincidir o no amb algun dels autors. Es tracta, en definitiva, d'un coordinador de la col·laboració del text. És funció de l'editor sol·licitar les revisions i llegir-les.
+
+Autor/a :: Són autors els qui pròpiament han redactat el text. L'ordre dels autors en reflecteix la contribució; el primer nom és el de qui més ha escrit. L’autor haurà llegit i revisat el text en la seva versió final o en versions anteriors, però no cal que estigui d'acord amb la configuració final del text. Aquesta tasca queda en mans de l'editor.
+
+Contribuïdor/a :: Aquí poden considerar-se dos grups de contribuïdors. D'una banda, les persones encarregades de la revisió acadèmica del document (en cas que la seva contribució sigui considerable) i, de l’altra, col·laboradors externs la contribució dels quals hagi estat valuosa i s'hagi consolidat en parts de text incloses al document. La diferència entre contribuïdor i autor queda en mans de l'editor o de la resta d'autors però, en tot cas, la contribució ha de ser inferior a la de la resta d'autors. Com a regla general, si un autor ha escrit menys del 10% del text s'hauria de considerar contribuïdor. Al seu torn, ser contribuïdor requereix almenys haver escrit dos o tres paràgrafs.
+
+Participant :: Es tracta d'una persona que, sense haver contribuït amb una part de text específica al document, ha fet contribucions de valor, com ara comentaris pertinents, o ha proporcionat criteris, referències o elements de discussió valuosos.
+
+Revisor/a :: Aquesta tasca inclou una lectura minuciosa de tot el text, la correcció d'errors i la proposta de millores. En general, és una feina per encàrrec (sol·licitada a una persona que es considera competent en la matèria), encara que és possible que algú contribueixi fent una revisió sense sol·licitud expressa. En tal cas, la profunditat i qualitat d'aquesta es poden valorar per considerar aquesta persona revisora.footnote:[Aquesta divisió i especificació de nivells d'autoria s'ha copiat directament dels criteris establerts en el projecte http://floksociety.org/[FLOK Society - Buen conocer] (veure http://book.floksociety.org/ec/[el llibre del mateix títol, Barandiaran et al. 2015], pàgines 38-39).]
+<<<
+
+// include::SUMMARY.adoc[]
+// <<<
+
+:leveloffset: +1
+// AFEGIR AQUÍ SOTA EL LLISTAT DE CAPÍTOLS O SECCIONS NO NUMERADES
+
+
+:sectnums:
+// AFEGIR AQUÍ SOTA EL LLISTAT DE CAPÍTOLS O SECCIONS NUMERADES
+= Descripció general i introducció al funcionament de Decidim
+
+Decidim (http://decidim.org) és una infraestructura digital per a la democràcia participativa construïda enterament en programari lliure de manera col·laborativa. Més concretament, Decidim és un entorn web (un _framework_) fet amb Ruby on Rails que permet crear i configurar un portal o plataforma web, a tall d'una xarxa social, per a la participació democràtica. El portal permet a qualsevol organització (un ajuntament, una associació, universitat, ONG, barri o cooperativa) crear processos massius de planificació, de pressupostos participatius, de disseny col·laboratiu de reglaments, disseny d'espais urbans i eleccions. També permet organitzar reunions presencials, convocar trobades, inscripcions, publicació d'actes, estructurar òrgans de governs o assemblees, convocar consultes o canalitzar iniciatives. Decidim també pot ajudar en l'organització d'òrgans de govern, consells o assemblees, en la convocatòria de consultes i referèndums o en la canalització d'iniciatives ciutadanes o dels membres per impactar en diferents processos de presa de decisions. Així doncs, Decidim permet estructurar digitalment un complert sistema de governança participativa i democràtica per a qualsevol organització.
+
+Per comprendre en detall el funcionament de Decidim, és necessari fer una diferenciació entre _espais_ i _components_ de participació (vegeu la <<arquitectura-funcional-fig>>).
+
+[#arquitectura-funcional-fig]
+._Diagrama resumit de Decidim com a combinació de components en instàncies d'espais de participació. El component Votacions* permet diferents sistemes de vot, expressió de suport o adhesió a una proposta._
+image::img/functional-architecture-ca.svg[]
+
+* *Espais de participació*. És el marc que defineix la manera en la qual la participació es durà a terme, els _canals_ o mitjans pels quals la ciutadania o els membres d'una organització poden tramitar demandes o articular propostes i prendre decisions. Són espais de participació les _Iniciatives_, els _Processos_, les _Assemblees_ i les _Consultes_. Exemples concrets de cada un d'ells són: una iniciativa ciutadana per canviar directament un reglament (_Iniciativa_), l'assemblea general o un consell de treballadors (_Assemblea_), uns pressupostos participatius, un procés electoral o un procés de planificació estratègica (_Processos_), un referèndum o una consulta per votar Si o No a una proposta concreta (_Consulta_).
+* *Components de participació*. Són els _mecanismes_ de participació que permeten la interacció entre les persones usuàries de la plataforma i cada un dels espais de participació. Els components de participació són: _trobades, jornades, incubadora, propostes, textos participatius, enquestes, debats, resultats, seguiment, votacions, pàgines, blog, comentaris, butlletí i cercador._ Altres components són: _textos participatius, seguiment de resultats i conferències_.
+
+[#espais-components-fig]
+._Decidim mostra espais participatius en el menú superior (fosc) i els components es mostren en el menú inferior (blanc)._
+image::img/spaces-components.png[]
+
+Les formes en què els espais i components interactuen són les següents. Les persones usuàries de la plataforma (participants) interactuen a través dels mecanismes de participació anomenats _components_ que ofereixen funcionalitats específiques per a diferents _espais_ de participació. Dit d'una altra manera, els _espais_ de participació com les _Iniciatives_, les _Assemblees_, els _Processos_ o les _Consultes_ disposen de components que es combinen entre si com a mecanismes de participació. Entre els components més destacats hi ha les _trobades presencials_, les _enquestes_, les _propostes_, les _votacions,_ el _seguiment de resultats_ i els _comentaris_. Així, per exemple, un procés de participació específic (com l'elaboració de pressupostos participatius) pot combinar, en les seves diferents fases, els següents components: en una fase primera es poden obrir reunions públiques perquè els ciutadans analitzin les diferents necessitats classificades per districtes. Alhora, aquestes reunions poden conduir al disseny d'una enquesta. Els resultats de l'enquesta es poden utilitzar per definir un conjunt de categories per als projectes que es proposin.  El component de proposta es pot activar perquè els participants creuen i publiquin els seus projectes com solucions a les necessitats identificades. Aquestes propostes poden ser comentades i, després de dues setmanes de deliberació, es pot activar el component de votació per seleccionar entre els projectes amb un sistema de despeses pressupostàries. Els participants poden ser convocats a una reunió pública per avaluar els resultats, i després es pot llançar una enquesta d'avaluació per a aquells que no van poder assistir a la reunió. Finalment, el component de seguiment de resultat pot ser activat per monitoritzar el grau d'execució dels projectes seleccionats, i la gent pot fer comentaris al respecte. El que fa de Decidim una eina molt potent és aquesta combinació dels components amb els diferents espais, el qual proporciona a una organització un complet conjunt d'eines per disseyar i implementar facilment un sistema democràtic i adaptar-lo a les necessitats de l'organització.
+
+La barra de navegació superior del Decidim mostra els diferents *espais* actius de la plataforma. L'espai de *Processos* permet crear, activar/desactivar i administrar diferents processos de participació, articular-los en diferents fases en què poden combinar-se tots els components. Exemples de processos participatius són: un procés d'elecció dels membres d'un consell, pressupostació participativa, un procés de planificació estratègica, la redacció col·laborativa d'un reglament o norma, el disseny d'un espai urbà o la producció d'un pla de polítiques públiques. L'espai d’*Assemblees* ofereix la possibilitat de definir òrgans o grups de decisió (consells, grups de treball, comitès, etc.) que es reuneixen periòdicament, detallar-ne la composició, llistant i geolocalitzant les seves trobades i permetent la participació (per exemple; acudint-hi si l'aforament i la naturalesa de l'assemblea ho permet, introduint punts en l'ordre del dia o comentant les propostes i decisions preses per l’òrgan esmentat). L'espai de *Consultes* fa possible articular referèndums, generar discussions i debats, connectar amb un sistema de vot electrònic segur i mostrar els resultats. L'espai d’*Iniciatives* permet crear iniciatives de manera col·laborativa, definir-ne la trajectòria i l’objectiu, recollir suports, discutir, debatre i difondre la iniciativa i definir punts de trobada per a la recollida de signatures presencial o debats oberts a altres membres de l'organització. Les iniciatives són un tipus especial d'espais a través dels quals els membres d'una organització poden sol·licitar que es facin accions que generalment estan restringides a òrgans electes o administradors de la plataforma, mitjançant una recollida (digital) de signatures. L'organització pot definir els tipus d''iniciatives i el nombre de suports (o signatures) necessàries per obtenir el resultat esperat (per exemple per demanar una consulta).
+
+Els *components* (també anomenats característiques) es mostren com un menú de segon nivell amb fons blanc dins dels espais (com es mostra a la <<espais-components-fig>>). El component *incubadora* de propostes facilita realitzar col·laborativament propostes i fer un seguiment i control dels canvis al llarg del procés. El component *propostes* permet a l'usuari crear una proposta utilitzant un assistent de creació comparar-la amb les existents, publicar-la a la plataforma i incloure informació addicional com geolocalització o adjuntar documents i imatges. Aquest component també permet navegar, filtrar i interactuar amb un conjunt de propostes. El component *votacions* ofereix a les organitzacions la possibilitat d'activar diferents sistemes de votació o suport sobre les propostes: vot il·limitat, a un determinat sector, ponderat, basat en costos, etcètera. El component *resultats* serveix per convertir propostes en resultats i donar respostes oficials a la seva acceptació o rebuig, fusionant diverses propostes en un sol resultat. El component *seguiment* ofereix la possibilitat de subdividir els resultats en projectes, definir i aplicar estats de progrés en la seva execució i visualitzar el grau d'execució dels resultats per categories. El component *enquestes* facilita dissenyar i publicar enquestes, i visualitzar-ne i baixar-ne els resultats. El component *sorteig* permet escollir un número de propostes (per exemple, candidats a un jurat) amb procediments aleatoris, però reproduïbles, que garanteixen distribucions no esbiaixades i uniformes. El component *comentaris* permet als usuaris afegir comentaris, identificar el comentari com a favor, en contra o neutral en relació amb l'objecte comentat, votar comentaris, respondre-hi i rebre notificacions sobre les respostes. El component *textos participatius* permet dividir un document de text en diverses propostes o resultats i, inversament, compondre i visualitzar un text unificat partint d'una col·lecció de propostes o resultats. El component *pàgines* serveix per crear pàgines informatives amb text enriquit, imatges i vídeos. El component *blog* permet la creació de missatges o notícies, i navegar cronològicament per ells. El component *trobades* ofereix a les organitzacions i als participants la possibilitat de convocar reunions, definir lloc i hora, registrar i limitar el nombre d'assistents, definir l'estructura i els continguts d'una cita o trobada presencial, així com de publicar-ne les actes i les propostes resultants. El component *jornades* permet crear un web d'unes jornades unificant un conjunt de petites cites presencials (xerrades, tallers, etcètera), compondre un programa i gestionar-ne l'assistència. El component *newsletter* o butlletí serveix per enviar correus electrònics a totes les persones registrades en la plataforma o, de manera selectiva, a aquelles que participin en un espai determinat.
+
+Els participants poden dur a terme diferents *tipus d'accions* dins de la plataforma:
+
+[start=0]
+. Poden *navegar* i buscar informació.
+. Poden *crear* continguts de diferents tipus (per exemple, propostes i debats).
+. Poden *votar, donar suport o signar* les tres maneres, permetent als participants afegir la seva preferència o voluntat per a una pregunta, proposta o iniciativa de consulta específica, respectivament (la diferència entre aquests tres tipus d'accions implica diferents nivells de seguretat i anonimat: les signatures poden ser auditades i atribuïdes a un participant, els suports no poden, per evitar la coerció, mentre que els vots impliquen majors garanties criptogràfiques que els suports).
+. Poden *comentar* qualsevol objecte de la plataforma (propostes, debats, resultats, sortejos, etc.).
+. Poden *aprovar* qualsevol contingut, el que significa que poden declarar públicament que li donen suport o que ho consideren rellevant, i que els participants que ho segueixen reben notificacions.
+. Poden *seguir* a altres participants, un procés participatiu, una iniciativa, una proposta específica, etc. i rebre notificacions.
+. Poden *inscriure* en una trobada.
+. També poden *compartir* i *incrustar* contingut fora de la plataforma, compartint l'enllaç a altres xarxes socials i incrustant contingut en altres llocs.
+
+Els elements dels components (per exemple, una proposta, una entrada de blog, una reunió) tenen la seva pàgina individual, però també es mostren com *targetes* en tota la plataforma, sent les targetes una important interfície de disseny per interactuar amb els components. La <<targeta-proposta-fig>> mostra una targeta de proposta amb els diferents tipus de dades i interaccions identificats dins de la targeta.
+
+[#targeta-proposta-fig]
+._Exemple de targeta de proposta de decisió._
+image::img/card-anatomy.png[]
+
+Els usuaris que participen en Decidim es poden agrupar en tres categories diferents:
+
+* *Persona visitant*. Pot accedir a tot el contingut de la plataforma sense haver de registrar-se i sense proporcionar cap informació..
+* *Persona registrada*. Pot crear contingut i comentaris, subscriure a trobades, recolzar contingut, seguir a altres participants i objectes de la plataforma, personalitzar el seu perfil i rebre notificacions, mencions i missatges privats. Creant un nom d'usuari i contrasenya, acceptant l'acord d'usuari, i proporcionant un compte de correu electrònic (o utilitzant un compte de diferents xarxes socials) els participants es registren. Els participants registrats també poden oficialitzar el seu compte (és a dir, el seu nom d'usuari va acompanyat d'un símbol especial que indica que realment són els que diuen ser en el seu perfil).
+* *Persona verificada*. Pot prendre decisions. Per entrar en aquesta categoria han de ser verificats primer com a membres d'una organització, ciutadana d'un municipi, o pertanyent a una comunitat de decisió (una associació, comunitat, col·lectiu, etcètera). Decidim ofereix diferents maneres de dur a terme aquesta verificació. Una vegada verificades, els participants podran prendre decisions recolzant propostes, signant iniciatives i votant en consultes.
+
+Els administradors poden *administrar permisos* per a usuaris registrats o verificats de manera selectiva. Per exemple, la creació de propostes es poden activar tant per als usuaris registrats com pels verificats, però només admet propostes per a usuaris verificats. També és possible (encara que no recomanat) considerar a tots els usuaris registrats com verificats i atorgar-los poders de decisió.
+
+Hi ha diferents tipus d'administradors: *administradors* de tota la plataforma o d'espais i components específics, també poden ser *moderadors* (amb el poder exclusiu de moderar propostes, comentaris o debats) o *col·laboradors* que poden llegir contingut inèdit, crear notes i donar respostes a propostes.
+
+Els participants poden inscriure com *individus* o com *col·lectius* (associacions, grups de treball, etc. dins de l'organització principal). També es poden crear grups d'usuaris perquè els individus puguin associar-se a un col·lectiu. La decisió permet als participants que pertanyen a un grup d'aquest tipus expressar o actuar individualment o encarnar la identitat col·lectiva.
+
+Els participants no només poden navegar pel contingut de Decidim mitjançant el menú superior i desplaçar-se per la jerarquia arquitectònica, des d'un espai a les seves diferents components, sinó que també poden obtenir informació a través del *cercador*, o mitjançant *notificacions* . Els participants també poden parlar entre si per missatges interns o *xat*.
+
+El contingut de la plataforma es pot classificar segons diferents criteris. A un espai participatiu i els seus continguts (per exemple, un procés participatiu o les propostes que conté) se li pot assignar (independentment) un *àmbit*. Els abastos es defineixen per a tota la plataforma, i poden ser temàtics o territorials (per exemple, una assemblea pot assignar-se a un tema o tema específic, com la "ecologia", i a un territori específic, com un districte dins d'una ciutat). El contingut dins d'una instal·lació espacial pot assignar-se a una *categoria* o subcategoria (per exemple, temes) que siguin específics per a aquesta instal·lació espacial. Per exemple, es poden crear les categories "instal·lacions esportives", "parcs" i "escoles" per a un procés de pressupost participatiu, i les propostes s'assignaran a aquestes categories. Els *Hashtags* també poden ser lliurement creats i introduïts en el text del cos gairebé en qualsevol part de la plataforma (propostes, debats, comentaris, descripció del procés, etc), tant pels participants com pels administradors, per classificar el contingut i buscar-ho fàcilment
+
+A diferència d'altres plataformes existents, l'arquitectura de Decidim és *modular, escalable*, fàcilment *configurable* i *integrable* amb altres eines o aplicacions (analítica de dades, mapes, etcètera). La plataforma ha estat dissenyada per facilitar la configuració i el desplegament de processos, assemblees i mecanismes participatius des d'un tauler d'administració d'una manera senzilla, no cal saber programar per instal·lar-la, configurar-la i activar-la. Els mòduls (components de participació) que la integren són independents entre si i poden ser desenvolupats, activats i desactivats de manera independent.
+
+= Espais de participació
+
+Els espais de participació defineixen els canals o vies de participació principals. Es mostren al menú superior principal de la plataforma.
+
+La lògica central de l'estructura del Decidim és que els *components es combinen en espais de participació*. Existeixen diferents tipus d'espais (iniciatives, processos, consultes i assemblees) i diferents instàncies dins de cada tipus (un procés d'eleccions i un altre de pressupostos participatius, un òrgan de consell de barri i un altre de treballadors, una iniciativa per canviar una llei i una altra per incloure alguna cosa en l'ordre del dia d'un ple, etcètera).
+
+== Processos
+
+Els processos de participació requereixen omplir un formulari de *configuració* general amb els camps següents: Títol o nom del procés, nom curt per a l'URL, etiqueta (_hashtag_, serveix de referència per a la comunicació en xarxes socials), descripció curta, descripció llarga, imatge de portada, imatge de bàner, data de començament i acabament, àmbit, grup promotor (responsable del procés participatiu en l’àmbit polític, pot ser l'ajuntament o un grup format per tècnics/polítics de l'ajuntament i associacions o altres entitats), a qui va dirigit, objecte del procés de participació i estructura participativa. El procés de participació permet incorporar *documents adjunts*.
+
+Els processos de participació estan dividits en *fases* (p. ex. 1. fase d'informació i convocatòria, 2. fase de diagnòstic, 3. fase de propostes, 4. fase de priorització, 5. fase de decisió, 6. fase d'avaluació i 7. fase de seguiment de resultats). Cada fase inclou els següents camps de configuració: títol, descripció, data d'inici, data fi.
+
+En els processos també es poden mostrar *anuncis o textos destacats*, tant en la portada com en l'encapçalament de cada component (propostes, debats, etcètera). Es poden configurar missatges diferents en funció de la fase que es troba activa.
+
+Un *configurador de processos de participació* permet activar i desactivar fases i els seus components de manera senzilla. El configurador de processos de Decidim és una de les seves funcionalitats més potents, aquest permet total flexibilitat en el disseny dels processos participatius segons les diferents realitats i formes de participació ciutadana.
+
+La funcionalitat de **grups de processos **permet agrupar diversos processos, per exemple per a pressupostos participatius de districtes o barris diferents.
+
+Els processos de participació poden estar en un dels *estats de procés* següents: 0) publicat o no publicat, 1) obert (ha començat), 2) tancat (ha acabat el procés de participació però els seus resultats són encara en via d'execució), 3) finalitzat (tant el procés com els seus resultats ja estan acabats) i 4) futur (encara no ha començat).
+
+És possible **marcar com destacat **un procés (augmentant-ne la visibilitat a la portada).
+
+També hi ha la possibilitat de *copiar processos de participació* des del tauler d'administració. Aquesta funcionalitat permet dissenyar processos model i fer-ne una còpia per configurar alguns detalls dels nous processos i no haver de crear-los del no-res.
+
+== Assemblees
+
+Decidim permet la *creació i configuració d'assemblees* de participació o govern (òrgans de govern, de participació, consells, grups de treball, etcètera), entesos com a grups estructurats de participants que, a títol individual o representatiu, es reuneixen periòdicament, amb la capacitat de crear propostes i prendre decisions.
+
+La *secció d'assemblees* permet veure un llistat complet de totes les assemblees que s'activen i es configuren des del tauler d'administració. La *configuració* bàsica exigeix determinar, per a cada òrgan, els camps següents: nom, imatge, àmbit (global, territorial o sectorial), funció de l'òrgan (objecte d'actuació), tipus d'òrgan (govern, executiu, consultiu/assessor, participatiu, grup de treball, comissió...), data de creació, creat per iniciativa de (Ajuntament, ciutadans o altres), durada (indefinida o determinada; en aquest cas, data d'acabament), data d'inclusió en el Decidim, data de tancament i motiu, com s'organitza (funcions, competències...), composició, si és possible adherir-s’hi i com fer-ho, la forma de selecció els membres, tipus/funció dels membres dins de l'òrgan, composició de grups de treball interns com a comissió de seguiment o comissió assessora), característiques de l'òrgan, xarxes socials de l'òrgan (nom de la xarxa social i enllaç), i properes trobades de l'òrgan.
+
+* *Convocatòries de reunions*: tramesa automàtica de convocatòria, creació col·laborativa de l'ordre del dia, inscripció a assistència. Per a un llistat complet de funcionalitats, vegeu el component "trobades" [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod2].
+* *Característiques de l'assemblea*: oberta, pública, transparent, o altres característiques del grau de participació que permet l'assemblea.
+* *Composició*: Permet definir la composició de l'òrgan amb més detall, fent ús dels perfils de participants associats a l'òrgan així com altres característiques. Es genera automàticament una visualització de la composició de l'òrgan a partir de la composició dels membres participants [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod3]:
+** *Tipus de membres*: President, vicepresident, secretaris, d'altres
+** *Origen de membres*: per sorteig, elecció directa, representació d'una altra assemblea, representació de govern, etcètera.
+** *Grups de treball intern*: creació de subassemblees. Els grups de treball es podran relacionar amb l'òrgan a què pertanyen.
+** *Característiques*: Obert/tancat, transparent, amb diferents permisos d'accés.
+* *Visualització*: permet visualitzar dades internes de cada òrgan, així com relacions entre assemblees [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod3]
+** *Composició*: mostra en forma de diagrama circular la composició de l'òrgan.
+** *Organigrames*: mostra la jerarquia o xarxa d'assemblees i les seves relacions.
+* *Mapa i calendari*: permet veure la localització de tots les assemblees en un mapa i en un calendari [funcionalitat prevista per a 2018Q3-4, AjB-Lot2Mod3].
+* *Relació amb altres espais i components*
+** *Relació amb processos*: les assemblees poden ser grup promotor, iniciar un procés o fer propostes dins d'un procés. La composició d'un òrgan ha de poder ser el resultat d'un procés (d'elecció de càrrecs) [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod3]
+** *Propostes i resultats*: un òrgan pot generar les seves pròpies propostes o resultats.
+*** Es mostra la manera en què la proposta va ser acordada (per consens, majoria, nombre de vots, etcètera). [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod3]
+** *Trobades*: les assemblees tindran una llista associada de trobades, però algunes funcionalitats poden saltar d'una trobada al següent, com les iniciatives ciutadanes d'inclusió d'un punt en l'ordre del dia. Igualment les actes han de poder mostrar-se independentment de la trobada, com associades directament a l'òrgan [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod3].
+
+== Iniciatives
+
+Aquest espai de participació permet a la ciutadania fer propostes i recollir el *nombre de signatures i suports requerits* segons la seva tipologia (els diferents tipus estan definits al reglament municipal), donant lloc a l'inici del procediment administratiu per a la seva tramitació i seguiment ciutadà.
+
+El funcionament de les iniciatives és el següent:
+
+* Qualsevol persona o entitat ciutadana verificada pot crear una proposta d'iniciativa ciutadana. Hi ha *diferents tipus d'iniciatives* amb diferent nombre de suports/signatures requerits per a la seva tramitació (totes elles configurables). Des de la portada de creació d'iniciatives es pot veure la descripció de cada una de les modalitats, el nombre de signatures requerides i exemples (p. ex. vídeos explicatius).
+* Per evitar duplicitats, una vegada creada una iniciativa el sistema presenta suggeriments *d'iniciatives similars* abans de continuar amb el pas següent. Una vegada descartades propostes similars es mostra el formulari específic per a cada tipus d'iniciativa, amb el nombre mínim de suports requerits. El creador disposa llavors d'una URL per convidar altres persones a sumar-s’hi i donar-hi suport. També es mostra un mapa amb els punts físics de recollida de signatures en cas que n'hi hagi.
+* Una vegada recollit el nombre mínim de suports, la iniciativa passa a una fase de *moderació i validació tècnica*, on personal de l'Ajuntament pot realitzar diferents accions (aprovar-la, rebutjar-la o suggerir modificacions).
+* Es pot fer el seguiment de la iniciativa i *rebre notificacions sobre actualitzacions* d'estat, a més la persona o grup promotor de la mateixa pot enviar butlletins periòdics informatius a la resta d'usuaris de la plataforma que hagin decidit fer el seguiment a la iniciativa.
+* Quan s’acaba el període establert, una iniciativa pot tenir dos estats possibles:
+** *Rebutjada*: en cas de no aconseguir el nombre mínim de signatures es mostra el missatge "no reuneix les signatures necessàries" i es notifica al seu creador.
+** *Acceptada*: en cas d'haver aconseguit les signatures o suports suficients s'accepta i s’inicia la tramitació corresponent.
+
+== Consultes
+
+L'espai de consultes (votacions a les quals són cridades totes les persones participants de l'organització sobre preguntes específiques) permet als participants** informar-se de les consultes** futures o en curs, *debatre* sobre l'objecte de la consulta i fer el *seguiment* del resultat. També ofereix una *passarel·la a un sistema de vot electrònic* extern a Decidim però integrat en termes d'interfície i de gestió i verificació d'identitats [Funcionalitat prevista per a 2018Q2-3, AjB].
+
+= Components
+
+Els components de Decidim són els mecanismes bàsics de participació que s'activen i configuren per als diferents espais de participació o subespais (fases d'un procés, grups de treball d'un òrgan, etcètera).
+
+== Propostes
+
+Les propostes són el component més important de Decidim. S'entén per proposta qualsevol element d'un pla estratègic, una normativa, un pla d'inversió, un canvi legislatiu o qualsevol altra unitat mínima de decisió. Les propostes poden tenir els següents *tipus de creadors*: per la mateixa organització que gestiona la plataforma (p. ex. un ajuntament), per participants registrats/ades, pot originar-se en una trobada com a resultat d'un debat o deliberació col·lectiva, o pot generar-los una assemblea o òrgan, o una organització registrada en la plataforma. També poden *crear-se de manera directa o col·laborativa* i estar subjectes a sistemes d’*esmenes*.
+
+Les propostes estan definides per un/a autor/a, un títol i un contingut de text. També podem incloure *imatges*, *geolocalització* i *arxius adjunts*.
+
+Una vegada publicada, una proposta pot estar subjecta a *moderació* (si algú l'etiqueta com a tal i defineix el motiu de moderació).
+
+Al tauler *d'administració* les propostes poden *ordenar-se* amb diferents criteris, es poden comentar internament (sense que els comentaris siguin públics), *baixar* en format JSON o CSV (compatible amb programari de fulls de càlcul), *recategoritzar*, o *moure* a diferents espais. A més, les propostes es poden *acceptar*, *rebutjar* o mantenir en estat d'avaluació.
+
+Altres funcionalitats associades a les propostes són les següents:
+
+* *Control de versions*:** *permet mantenir un registre de tots els canvis realitzats en una proposta, així com la generació de codis de verificació d'integritat de la proposta* **.[2018Q3]
+* *Detecció de similars*: Permet, a qui realitzi una proposta nova, trobar-ne d’altres de similars fetes anteriorment a la plataforma i així evitar duplicats.
+* *Relacions entre propostes*: les propostes poden relacionar-se a través d’enllaços a la secció de comentaris, mostrant-se les propostes relacionades com a targetes i notificant sobre l'existència d'una nova relació.
+* *Adhesió a propostes*: les organitzacions poden adherir-se a les propostes i aquesta adhesió pública es mostrarà en la proposta i notificarà a participants que segueixin l'activitat de l'organització.
+* *Modificació i retirada de propostes*: l'autor/a d'una proposta pot modificar-la o retirar-la abans que s'obri la fase de recollida de suports.
+* *Esmenes*: qualsevol participant pot editar el text d'una proposta i es crearà una proposta "filla" a tall d'esmena (tipus Pull Request a Github), aquesta proposta filla podrà recollir suports, l'autor/a de la proposta mare podrà acceptar o rebutjar l'esmena (o proposta filla). En cas de rebuig, l'autor/a de la proposta filla podrà elevar-la a proposta oficial.
+* *Creació guiada de propostes*: Durant la creació d'una proposta s'acompanya la persona participant a través del procés dividit en passos, amb ajudes contextuals i previsualització abans d'enviar la proposta.
+* *Incubadora de propostes*: Decidim permet la cocreació i la creació col·laborativa de propostes. Incorpora les funcionalitats següents:
+** Creació d'esborranys amb múltiples autors/ores.
+** Llista d’esborranys col·laboratius
+** Comentaris a esborranys
+** Sol·licitar ajuda d'altres col·laboradors i acceptar col·laboradors/ores
+** Vincular l'esborrany a una cita presencial
+** Promoure l'esborrany a iniciativa, proposta de procés o projecte.
+
+== Textos participatius
+
+Entenem per text participatiu una col·lecció ordenada de propostes que componen un document de text complet. La participació en el text es deriva de la interacció amb les propostes que la componen. Aquest component permet, fonamentalment, tres operacions [funcionalitat prevista per a 2018Q2, AjB-Lot3Mod4]:
+
+* *Descomposició d'un document de text en propostes ordenades* a partir d'un document en formats ODT, XDOC, MarkDown o HTML. Si el text està estructurat en seccions i subseccions, es crearan propostes ordenades a partir de la subsecció de nivell més baix; si el text no està estructurat, es crearà una proposta per cada paràgraf de text. La interfície permet reeditar les propostes, fusionar-les, separar-les, afegir-hi títols, etcètera.
+* *Composició de propostes en un text unificat*: a partir d'una conjunt de propostes, aquestes es podran ordenar i generar un text unificat i descarregable.
+* *Visualització i interacció* amb documents compostos de propostes: Es mostrarà la col·lecció de propostes com un text unificat i s’hi podran fer esmenes o comentaris al marge.
+
+== Resultats
+
+Els resultats són propostes (o modificacions de propostes) que han acabat sent el resultat de la presa de decisió en el Decidim, de manera directa (mitjançant el resultat de l'aplicació d'un sistema de vot) o bé intervinguda per trobades, assemblees o l'equip tècnic o polític a càrrec d'un àmbit de decisió a través de l'administració de la plataforma.
+
+El component de resultats permet gestionar la *resposta* **oficial **a totes les propostes realitzades: amb el motiu del rebuig o acceptació i en quin resultat ha estat acceptada la proposta.
+
+Els resultats recullen les** metadades de la traçabilitat** de les propostes incorporades en el resultat, així com les trobades en què es va debatre o es va crear (assistents a les trobades esmentades) i la suma de suports rebuts.
+
+== Seguiment de resultats
+
+El component de seguiment de resultats permet la *conversió de resultats a projectes* o permet descompondre'ls en projectes o subprojectes. Cada un dels projectes esmentats pot descriure's amb més detall i permet *definir l'estat d'execució*, en trams que van des de 0% d'execució al 100%. El component de seguiment permet, a més, a les persones que visiten la plataforma la *visualització del nivell d'execució* (global, per categories o subcategories), dels resultats i dels projectes. Els resultats, projectes i estats es pot actualitzar mitjançant un CVS i manualment mitjançant la interfície d'administració.
+
+== Votacions i suports
+
+Les persones participants poden donar suports a propostes. Els suports esmentats poden interpretar-se com a vots, signatures, suports, o de qualsevol altra manera que demostri un acord positiu de conformitat amb la voluntat política pròpia.
+
+Hi ha *diferents sistemes de vot i de gestió* a Decidim. El més senzill permet activar els suports i que les participants puguin emetre un suport únic a cada proposta que vulguin, sense límit de propostes votables. També es pot limitar el nombre de vots (p. ex. 10 per cada participant).
+
+Des del tauler d'administració és possible *configurar la vista dels resultats* de la votació o bé durant el període de vot o només quan aquest s'acabi.
+
+Hi ha una forma de *vot especial per a pressupostos participatius* que permet a participants votar "gastant" una quantitat equivalent al pressuposat objecte de participació entre els projectes proposats. El nombre de vots està limitat aquí per la quantitat de despesa acumulada dels projectes seleccionats.
+
+== Comentaris
+
+Els comentaris són un component especial que sol aparèixer associat a un altre component (propostes, debats, resultats, trobades, etcètera) per permetre un procés deliberatiu sobre un tema o proposta.
+
+El sistema de comentaris de Decidim ha estat dissenyat per afavorir la deliberació. Els comentaris de primer nivell, respecte a la finalitat de debat, es poden classificar de la manera següent: *a favor, en contra o neutral*. Els comentaris es poden *niar* en fils de subcomentaris i es poden *votar*. Decidim permet *ordenar comentaris* pels que estan a favor o en contra, en ordre cronològic i per quantitat de vots a favor.
+
+== Pàgines informatives
+
+Es tracta d'una pàgina amb contingut html i un títol que apareix al menú interior dels espais de participació. Permet incorporar imatges, vídeos encastats i text enriquit.
+
+== Debats
+
+Permet obrir debats sobre preguntes o temes específics definits pels administradors o pels participants.
+
+== Enquestes
+
+El component d'enquestes permet dissenyar, realitzar i visualitzar els resultats d'enquestes que poden activar-se en diferents espais de participació.
+
+* *Configurador d'enquestes*: permet a administradors/ores crear preguntes i respostes (obertes, tipus test, selecció múltiple, etcètera) i activar l'enquesta, i baixar-ne també les respostes en format csv.
+* *Interfície d'enquestes per a participants*: permet a les participants respondre a les preguntes de l'enquesta.
+
+== Trobades presencials
+
+Aquest component permet convocar trobades, *establir un calendari*, *geolocalitzar*, penjar les *actes* de la trobada, *debatre*, crear *propostes associades* a la trobada (indicant el tipus de suport col·lectiu a la proposta), recollir el *nombre* de participants, penjar *fotos* de la trobada i *categoritzar* la trobada dins d'un espai.
+
+La *configuració* d'una trobada inclou els *camps bàsics* següents: Títol, descripció, adreça, ubicació, detalls de la ubicació, hora d'inici i acabament, àmbit, categoria i aforament màxim.
+
+També s'inclouen els *camps avançats* següents: caràcter (públic, obert, tancat), grup organitzador, existència d'espai de conciliació, adequació a persones amb diversitat funcional, existència de traducció simultània, tipus de trobada (informatiu, creatiu, deliberatiu, decisiu, avaluatiu, rendició de comptes, d'altres) [funcionalitat prevista per a [2018Q2, AjB-Lot2Mod2]
+
+Les trobades relacionades amb una instància d'un espai (un procés específic o un òrgan) poden mostrar-se en un *mapa* i es poden *ordenar per dates o categories*. També poden mostrar-se totes les trobades en *mode calendari*, amb la possibilitat d'exportar-les a calendaris del mòbil o altres aplicacions.
+
+Algunes funcions avançades del component trobada inclouen les següents:
+
+* *Sistema d'inscripció i assistència*:
+** Permet administrar el *tipus d'inscripció* d'una trobada (obert i automàtic, tancat i accessible només a cert tipus de participants, etcètera), definir el **nombre de places *per a assistents, realitzar *reserves* de places, la *inscripció manual*, enviar *invitacions* i definir tipus de *condicions* que caldrà acceptar per acudir a la trobada (p. ex. cessió de drets d'imatge) i el* registre d'assistència **de participants.
+** Permet a les persones participants la *inscripció* per a una trobada, sol·licitar **servei de conciliació familiar **(ludoteca, espai de cures) i obtenir un *codi per acreditar-se* en presentar-se en la trobada.
+** Les persones inscrites que hagin anat a la trobada tindran** permisos especials** per poder avaluar-la o deixar comentaris i altres accions.
+** Participants o administradors/ores podran rebre *notificacions* sobre l'obertura del període d'inscripció, el nombre de places que queden per inscriure's, recordatoris de la trobada, publicació d'actes.
+* *Gestió de l'ordre del dia*: una secció d'ordre del dia permet definir la durada de la trobada, la creació de ítems i subítems de l'ordre del dia, el títol, contingut i durada estimada. Els participants poden proposar punts per a l'ordre del dia. [funcionalitat prevista per a 2018Q2, AjB-Lot2Mod2].
+* Sistema de** redacció, publicació i validació d'actes** de reunions [funcionalitat prevista per a 2018Q2, AjB-Lot2Mod2]:
+** Les actes es poden penjar en format vídeo, àudio i text.
+** Les actes en mode text van associades a una *pissarra d'escriptura col·laborativa* integrada a Decidim.
+** Les actes passen per quatre *fases d'elaboració*: 1. Escriptura col·laborativa durant el transcurs de la trobada, 2. Elaboració d'un esborrany oficial de les actes, 3. Fase d'esmenes a l'esborrany, 4. Publicació i validació final de les actes.
+** Les actes es poden *comentar* amb el component de comentaris.
+** Es poden afegir també *documents adjunts* a les actes.
+* *Autoconvocatòria*: les persones participants verificades podran convocar reunions a través de la plataforma de manera directa, amb el suport d'un nombre determinat d'altres persones participants s'activarà la trobada públicament i les participants convocants tindran accés al tauler d'administració [funcionalitat prevista per a 2018Q2, AjB-Lot2Mod2]
+* *Visualització i exportació de trobades*: les trobades es poden visualitzar en mode mapa (per espais o de manera general a la plataforma), en mode calendari, i es podran exportar a gestors d'agendes i calendaris (en format iCalendar) [funcionalitat prevista per a 2018Q2, AjB-Lot2Mod2].
+
+== Jornades
+
+Entenem jornades com un conjunt de trobades que tenen algunes característiques específiques (programa interactiu i descarregable, sistema d'inscripcions, sistema de generació de certificats d'assistència o diplomes).
+
+Decidim disposa d'un configurador i generador de pàgines de jornades, que permet crear un *web intern per a la realització d'esdeveniments* relacionats amb un procés participatiu o un altre espai de participació. [El component Jornades està previst per a 2018Q2, AjB-Lot2Mod5]
+
+Les opcions de configuració inclouen les següents:
+
+* Generació d'un *programa interactiu* de les jornades (en el cas de comptar amb ponents convidats, se n'inclou el nom, càrrec, organització, petita bio, enllaços a altres webs).
+* Enviament d’*invitacions* per correu electrònic.
+* *Generació de diplomes* de manera automatitzada per a les persones que ho sol·licitin, a través d'un tauler d'assistència que un administrador pugui verificar.
+* Enllaços a plataformes de *vídeo i materials* de les jornades en el programa i la documentació.
+* Enllaços automàtics a webs de mitjans digitals que donin cobertura a les jornades.
+* Seguiment de les jornades per *xarxes socials* (p. ex. incorporant un _feed_ de Twitter).
+
+== Blog
+
+El blog és un component que permet crear i visualitzar *notícies* en ordre cronològic. Les entrades d'un blog són un altre tipus de contingut, han d'estar associades a una instància d'un espai de participació. Les entrades del blog estan relacionades amb el sistema de classificació de continguts de la plataforma. Els *comentaris associats* a les entrades del blog seran tractats com la resta de comentaris de la plataforma, ja descrits anteriorment.
+
+== Newsletter
+
+Decidim permet enviar una *newsletter* (un correu electrònic) a totes les persones inscrites a la plataforma que hagin acceptat, en les condicions d'ús, rebre el correu electrònic esmentat a tall de butlletí informatiu. La tramesa és personalitzada amb el nom d'usuari/ària i en diversos idiomes (s'envia per defecte en l'idioma escollit per l'usuari/ària).
+
+Les persones participants podran *donar-se de baixa* de manera automàtica i directa des del mateix correu electrònic fent clic en un enllaç, i es podrà fer un *seguiment de visites* derivades dels newsletters.
+
+== Cercador
+
+El *cercador* permet realitzar recerques entre tots els continguts indexables de la plataforma, tant a escala general com en l’àmbit específic, fent la recerca dins d'un procés participatiu concret, o dins dels seus components (propostes, resultats, etcètera) mitjançant la cerca avançada.
+
+La *pàgina navegable i filtrable de resultats de la cerca* mostra els continguts segons la seva tipologia i ordenats segons la prioritat que s'hagi definit (p. ex., que es mostrin primer els termes trobats dins d'assemblees, i a continuació es mostrin els processos participatius).
+
+= Participants
+
+== Registre i verificació
+
+Qualsevol visitant pot accedir a tot el contingut de web directament. Tanmateix, per poder fer propostes o comentaris cal *registrar-s’hi*. El registre es pot fer *directament* a la plataforma o mitjançant passarel·les amb altres *xarxes socials* (Facebook, Twitter o Google+). El registre directe exigeix associar un compte de correu electrònic i una contrasenya al compte d'usuari/ària.
+
+Les funcionalitats orientades a la decisió (suports, vots, etcètera) requereixen *verificació*. El principal sistema de verificació és contra el padró municipal o una altra base de dades de persones registrades, amb qui Decidim es comunica via API. També es pot verificar *via SMS*, o amb un *codi* especial enviat per carta o altres mitjans, i des del tauler d'administració es pot *verificar manualment* una persona participant [funcionalitats previstes per a 2018Q2-3, AjB-Lot1].
+
+A més de la verificació, les persones participants poden sol·licitar *oficialitzar* el seu nom d'usuari/ària. Un cop oficialitzat, el seu nom d'usuari/ària apareixerà amb un símbol que permet reconèixer a tercers que aquest nom d'usuari/ària correspon a qui diu ser.
+
+*Associacions o organitzacions* la identitat de les quals pugui verificar-se d'alguna manera també poden registrar-se i verificar-se. La verificació donarà automàticament estatus d'oficialització.
+
+== Registre públic d'activitat d'administració
+
+La verificació manual de participants, així com altres accions d'administració, introdueixen vulnerabilitat o possibilitats d'usos perversos per part de les persones administradores de la plataforma. Per això, Decidim inclou un *registre públic de les activitats d'administració* per poder auditar de manera pública i transparent les accions esmentades.
+
+== Perfil d'usuari i configuració personal
+
+Existeix una *pàgina de perfil d'usuari* en la qual les persones participants poden *modificar les seves dades* (com el compte de correu electrònic, contrasenya, etcètera), pujar i habilitar una imatge d’*avatar*, configurar les notificacions i donar-se de baixa.
+
+La pàgina de perfil d'usuari permet també a participants definir el seu *perfil enriquit* d'interessos i habilitats, de manera voluntària i escollint el grau de visibilitat de la informació esmentada. Això permet rebre notificacions personalitzades o el _matching_ per a col·laboracions [funcionalitat prevista per a 2018Q4, AjB-Lot1].
+
+== Seguiment i notificacions
+
+Les persones participants reben *notificacions automàtiques* dels continguts que han creat: respostes a comentaris i comentaris a les seves propostes, així com dels resultats de les seves propostes (si han estat acceptades o rebutjades).
+
+A més de les notificacions automàtiques, una persona participant pot decidir *seguir qualsevol element* del sistema (altres propostes, resultats, processos, assemblees, iniciatives, grups o usuaris, etcètera) i rebre notificacions.
+
+== Comunicació entre participants
+
+És possible enviar *missatges directes* a participants a través de la plataforma, i es rebrà una notificació per correu electrònic.
+
+També es poden fer *mencions* (en els comentaris) a qualsevol usuari/ària registrat/ada, i aquest/a rebrà automàticament una notificació.
+
+== Engagement
+
+Decidim compta amb una sèrie de funcionalitats orientades a ludificar la plataforma, amb l'objectiu *d'atreure i mantenir interessats un nombre creixent de participants*, així com promoure pràctiques que potenciïn la qualitat democràtica i la intel·ligència col·lectiva en la participació [el sistema de ludificació està previst per a 2018Q2-3, AjB-Lot1].
+
+El sistema de ludificació inclou dues modalitats, una de centrada en les persones usuàries i una altra de centrada en les propostes.
+
+* La modalitat *centrada en els usuaris* incorpora un *sistema de punts* basats en diferents criteris (grau de detall del seu perfil d'usuari, nombre d'invitacions a altres persones a la plataforma, nombre de propostes realitzades i comentades, nombre de comentaris, nombre de suports obtinguts, nombre de seguidors, etcètera).
+
+La combinació d'aquests i altres indicadors serveix per generar recorreguts de ludificació per a cada usuari i definir fites com ara: persona més participativa del districte, lideratge en debats, etcètera.
+
+* La ludificació *centrada en propostes/iniciatives* permet als seus promotors, signants i seguidors dinamitzar-ne la interacció incorporant algunes *mètriques* (nombre de vegades que la proposta és compartida en xarxes socials, grau de controvèrsia (nombre de comentaris positius i negatius), qualitat de la deliberació (profunditat de l'arbre de comentaris), quantitat de visites rebudes, etcètera.
+
+== Grups d'usuaris
+
+Les persones participants poden registrar-se a la plataforma com a membres d'una o diverses organitzacions/col·lectius. Una vegada verificada l'organització i la condició de membre, la participant pot realitzar accions (fer propostes, realitzar comentaris, etcètera) amb el seu nom d'usuari/ària o amb el nom de l'organització. [Funcionalitat prevista per a 2018Q3, AjB-Lot1]
+
+Els grups d'usuaris també poden gestionar permisos d'usuari i administració assignats a grups, així com espais de debat privats o compartir informació entre el grup d'usuaris, per exemple, que va assistir a una trobada presencial. [Funcionalitat prevista per a 2018Q3, AjB-Lot1]
+
+= Funcionalitats generals
+
+A continuació s’expliquen una sèrie de funcionalitats i característiques generals de la plataforma que no queden recollides en els espais o components ni en les funcionalitats directament associades a participants.
+
+== Instal·lació i configuració
+
+Decidim *s'instal·la fàcilment* a través de la línia d'ordres a qualsevol servidor GNU/Linux amb els següents serveis instal·lats: PostgreSQL 9.4+, Ruby 2.4.1, NodeJS amb yarn (JavaScript dependency manage), ImageMagick i PhantomJS. Un script automàtic d'instal·lació permet desplegar tot el sistema de dependències, llibreries, bases de dades i altres serveis requerits de manera automàtica a Heroku o Docker [funcionalitat prevista per al 2018Q4].
+
+La *configuració* del portal permet una *personalització* amb els camps següents, que s'omplen en un formulari des del tauler d'administració: Nom del portal, perfils de xarxes socials (Twitter, Facebook, Instagram, Youtube, Github), descripció breu, text de benvinguda, idioma per defecte, imatge de portada, logotip de l'organització, favicon, prefix de referència (identificador únic que s'aplicarà als elements del portal) i URL de l'organització.
+
+== Integració amb altres serveis i compatibilitat/creació de serveis addicionals
+
+Decidim es pot integrar fàcilment amb els serveis següents, que poden instal·lar-se o configurar-se juntament amb Decidim:
+
+* *OpenStreetMap*: per mostrar esdeveniments i propostes geolocalitzades
+* *Piwik*: analítica de visites al web
+* *Pad*: pissarres d'escriptura col·laborativa en temps real (tecnologia per determinar) [Funcionalitat prevista per a 2018Q2-3 AjB-Lot1]
+* *Identitat i signatura digital*: integració amb el sistema de gestió d'identitat digital OAuth2, sistemes basats en blockchain i sistemes de gestió d'identitat i signatura digital institucionals reconeguts.
+* *Sistema distribuït d’arxius*: Difusió o rèplica de propostes o altres elements de la plataforma en sistema distribuïts d’arxius (tipus blockchain o IPFS) [Funcionalitat prevista per a 2018Q2-3, AjB-Lot1].
+* *Microblogging*: integració/compatibilitat amb un protocol/servei estandarditzat i obert de microblogging tipus GNU Social o StatusNet per a l'activitat de participants (propostes, comentaris i missatges) [Funcionalitat prevista per a 2018Q2-3, AjB-Lot1].
+
+Decidim genera automàticament els serveis següents, a més d'aquells pels quals es pot navegar mitjançant el web o accedir-hi mitjançant l'API:
+
+* *SMTP*: enviament de correus electrònics.
+* *Calendari*: integració o compatibilitat amb sistemes de gestió de calendaris i creació i actualització automàtica de calendaris d'esdeveniments, etcètera [Funcionalitat prevista per a 2018Q2-3, AjB-Lot1].
+
+== Multitinença
+
+*Múltiples tinences* de la plataforma poden servir-se partint d'una sola instal·lació. En altres paraules, una sola instal·lació de Decidim permet desplegar tants portals com es vulgui amb una configuració específica per a cada una de les instàncies. D'aquesta manera, una organització pot crear portals de participació per a suborganitzacions seves, o diverses organitzacions poden compartir servidor i reduir els costos de manteniment dels seus portals.
+
+== Multiidioma
+
+Decidim és una plataforma *multiidioma*. Durant la instal·lació es configuren els idiomes disponibles. Els menús, formularis d'administració i, en general, els textos fixos de la plataforma estan disponibles en diversos idiomes (català, castellà, eusquera, italià, francès, holandès i suomi). Un sistema de *traducció col·laborativa* a https://crowdin.com/project/decidim facilita la incorporació d'idiomes nous a la plataforma.
+
+Pel que fa al contingut, una vegada fixats els idiomes oficials de la instància durant la instal·lació, tots els continguts que es creen des del tauler d'administració tenen l'opció de generar-se en els idiomes esmentats. El tauler d'administració permet la *gestió de continguts en diferents idiomes* a través de pestanyes. El contingut generat per les persones usuàries es mostra a la plataforma en un sol idioma (l'escollit per la persona participant a través del selector d'idiomes en la part superior dels menús o automàticament a través de la configuració lingüística del seu navegador).
+
+== Estadístiques, dades obertes i baixades
+
+A més de la interfície de programació d'aplicacions (API) que proporciona accés a dades públiques de manera automàtica, a la portada de Decidim s’hi troba un *quadre d'estadístiques generals*, amb els següents camps: nombre de participants, processos, proposades, resultats, trobades, comentaris i vots.
+
+Un altre **quadre d'estadístiques de cada procés participatiu **mostra el nombre de trobades, propostes, vots i resultats d'un procés determinat.
+
+Des del tauler d'administració es poden **exportar les propostes, resultats i comentaris **d'un procés de participació a format CSV i JSON i respostes a les enquestes per al seu tractament o integració amb altres sistemes de gestió. Les persones participants poden *baixar els resultats d'un procés participatiu i el seu grau d'execució* mitjançant un fitxer CSV.
+
+Decidim disposa també d'un *mòdul de visualització de dades*, tant a escala general de la plataforma com de manera específica (mostrant dades d'un espai participatiu determinat) [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod4]. Entre els gràfics que es mostren hi ha els següents:
+
+* *Gràfic interactiu* de línia temporal amb l'evolució dels comptadors dels diferents components.
+* *Mapa de calor* del total de trobades, propostes o altres continguts geolocalitzables.
+* **Diagrames interactius **(de barres, circulars o de sectors) amb els resultats d'un procés (import de cada un dels projectes de pressupostos participatius, filtre per categories i estat de les propostes —seleccionades sí o no—, etcètera).
+
+Totes aquestes visualitzacions venen acompanyades d'una *opció de baixada de les dades* en format CSV [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod4].
+
+== API, Disseny web adaptable i aplicació mòbil
+
+Decidim disposa d’una interfície de programació d'aplicacions o API que és un conjunt de crides a serveis i dades de forma independent de la interfície web de Decidim. Això permet a tercers desenvolupar serveis sobre la plataforma, alliberar dades de manera automàtica o desenvolupar noves interfícies o integració d'altres serveis amb Decidim.
+
+L'API ve acompanyada d'una *documentació* i una *ontologia formal* de participació [funcionalitat prevista per a 2018Q2-3, AjB-Lot1]
+
+El *disseny* web de Decidim és completament *adaptable* (_responsive_), seguint la filosofia de disseny _mobile-first_ (primer es dissenya per al mòbil, després s'expandeix per a sistemes d'escriptori i tauletes tàctils).
+
+Tant el disseny web com l'API faciliten el desenvolupament d'aplicacions mòbils per a Decidim; està previst el desenvolupament d'una *app mòbil* per a finals del 2018 [AjB].
+
+== Sistemes de classificació de continguts
+
+Pel que fa a la classificació de continguts, Decidim permet diferenciar i configurar: àmbits, categories i etiquetes (o _tags_).
+
+Els *àmbits* són generals a tota la plataforma i es divideixen en els de tipus *territorial* i *temàtic*. Els àmbits territorials, una vegada definits, permeten classificar elements dels espais territorialment (p. ex. si un procés, o un òrgan o una iniciativa afecta a un districte o dos, a tota la ciutat, a una regió o a un país, depenent de l'organització). Igualment, els àmbits temàtics es defineixen per a tota la plataforma i permeten classificar els diferents elements dels espais de participació.
+
+Les *categories i subcategories* serveixen per classificar continguts dins dels diferents espais i es defineixen per a cada una de les instàncies dels espais. Així, per exemple, un procés de participació pot incloure diverses categories i subcategories (les defineix l'administrador/a del procés) i les trobades, enquestes, propostes o altres components del procés es poden classificar sota aquestes categories.
+
+A diferència dels àmbits i les categories, les *etiquetes* o _tags_ són transversals, són lliurement definides per les persones participants i es poden aplicar a qualsevol instància o component. Des del tauler d'administració es poden crear etiquetes, niar-les i definir-les. Un sistema de suggeriment d'etiquetes permet a les persones que participen escollir etiquetes similars a les que estan proposant per etiquetar qualsevol element de la plataforma. Es podrà navegar pels elements per etiquetes i mostrar les etiquetes més populars.
+
+== Sistema d'ajuda contextual, tests d'usabilitat i valoració
+
+Decidim inclou un sistema *d'ajudes contextuals editables* per guiar persones participants i administratives en l'ús de la plataforma. Igualment, inclou un sistema que permet fer *experiments d'usabilitat* amb tests i estadístiques d'ús, així com també *enquestes de valoració automàtiques* a les participants de cara a identificar errors d'usabilitat, de procediments de participació i millorar la qualitat democràtica i d'experiència del programari [funcionalitat prevista per a 2018Q2-3, AjB-Lot1].
+
+// AFEGIR AQUÍ SOTA EL LLISTAT D'ANNEOS. Cada annex ha d'anar precedit d'una línia amb
+// "[appendix]".
+
+
+// FINAL DEL LLISTAT DE CAPÍTOLS, SECCIONS O ANNEXOS
+
+:leveloffset: -1

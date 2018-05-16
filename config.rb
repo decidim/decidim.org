@@ -45,3 +45,6 @@ activate :blog do |blog|
   # blog.per_page = 10
   # blog.page_link = "page/{num}"
 end
+
+# Features page
+activate :asciidoc, layout: :asciidoc

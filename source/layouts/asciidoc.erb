@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+        <meta name="viewport" content="width=device-width, initial-scale=1", shrink-to-fit=no">
+        <!-- Use the title from a page's frontmatter if it has one -->
+        <title><%= current_page.data.title || "Decidim" %></title>
+        <%= stylesheet_link_tag "site" %>
+        <link rel="icon" type="image/png" href="/images/favicon.png">
+    </head>
+    <body>
+        <%# partial "/partials/alert" %>
+        <%= partial "partials/header" %>
+        <main class="main">
+            <div class="blog container container--text-col container-vertical-top container-vertical-bottom">
+                <h1>
+                    <div>
+                        <%= current_page.data.title || "Decidim" %>
+                    </div>
+                </h1>
+                <%= yield %>
+            </div>
+        </main>
+
+        <%= partial "partials/footer" %>
+        <%= javascript_include_tag "nav-toggle", :async => "async" %>
+        <%= javascript_include_tag "closest-polyfill", :async => "async" %>
+        <%= javascript_include_tag "lang-toggle", :async => "async" %>
+        <%= javascript_include_tag "image-switch", :async => "async" %>
+        <%= javascript_include_tag "play-video", :async => "async" %>
+        <%= partial "partials/tracking" %>
+    </body>
+</html>
