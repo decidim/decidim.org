@@ -46,5 +46,5 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
-# Pages in AsciiDoc
-activate :asciidoc, layout: :layout
+# Features page
+activate :asciidoc, layout: :asciidoc
