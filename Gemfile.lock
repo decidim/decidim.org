@@ -30,7 +30,7 @@ GEM
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.1)
-    ffi (1.9.18)
+    ffi (1.9.25)
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
@@ -141,4 +141,4 @@ DEPENDENCIES
   wdm (~> 0.1)
 
 BUNDLED WITH
-   1.16.1
+   1.16.4
