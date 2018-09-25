@@ -51,6 +51,38 @@
   name: Generalitat de Catalunya
   url: http://participa.gencat.cat/
   image: /images/cityhalls/logo_gencat.png
+- loiret:
+  name: Loiret
+  url: https://atelierdevosidees.loiret.fr/
+  image: /images/cityhalls/logo_aj_loiret.png
+- nivelles:
+  name: Nivelles
+  url: https://nivelles.monopinion.belgium.be/
+  image: /images/cityhalls/logo_aj_nivelles.png
+- quorum-global:
+  name: Quorum Global
+  url: https://participa.quorumglobal.org/
+  image: /images/cityhalls/logo_quorumglobal.jpg
+- romainville:
+  name: Romainville
+  url: https://www.budget-participatif-romainville.fr/
+  image: /images/cityhalls/logo_aj_romainville.jpg
+- tuusula:
+  name: Tuusula
+  url: https://osallistu.tuusula.fi/
+  image: /images/cityhalls/logo_aj_tuusula.png
+- uccle:
+  name: Uccle
+  url: https://uccle.monopinion.belgium.be/
+  image: /images/cityhalls/logo_aj_uccle.png
+- ville-de-nancy:
+  name: Ville de Nancy
+  url: https://participez.nancy.fr/
+  image: /images/cityhalls/logo_aj_nancy.png
+- waterloo:
+  name: Waterloo
+  url: https://waterloo.monopinion.belgium.be/
+  image: /images/cityhalls/logo_aj_waterloo.png
 - diputacio-de-barcelona:
   name: Diputació de Barcelona
   url: https://decidim.diba.cat/
@@ -59,6 +91,10 @@
   name: FCEG - Federació Catalana d'Escoltisme i Guiatge
   url: https://decidim.fceg.cat
   image: /images/cityhalls/logo_fceg.png
+- merida:
+  name: Mérida
+  url: http://decide.merida.gob.mx/
+  image: /images/cityhalls/logo_aj_merida.png
 - veracruz:
   name: Veracruz
   url: http://decide.veracruzmunicipio.gob.mx/
@@ -71,10 +107,6 @@
   name: Mairie d’Angers
   url: http://ecrivons.angers.fr
   image: /images/cityhalls/logo_angers.png
-- dialogue-de-trianon:
-  name: Dialogue de Trianon
-  url: http://forum.dialogue-trianon.fr/
-  image: /images/cityhalls/logo_forum-franco-ruse.png
 - amycos:
   name: AMYCOS
   url: http://burgos.decidimos.pt/
@@ -86,7 +118,7 @@
 - calafell:
   name: Calafell
   url: https://decidim.calafell.cat
-  image: /images/cityhalls/logo_aj_calafell.jpg
+  image: /images/cityhalls/logo_aj_calafell.png
 - coterrats:
   name: CoTerrats
   url: https://decidim.coterrats.com/
@@ -103,6 +135,10 @@
   name: Gavà
   url: https://participa.gavaciutat.cat
   image: /images/cityhalls/logo_aj_gava.jpg
+- ialimentec:
+  name: IALImentec
+  url: https://www.ialimentec.com/?locale=es
+  image: /images/cityhalls/logo_ialimentec.png
 - l-hospitalet-de-llobregat:
   name: L'Hospitalet de Llobregat
   url: https://www.lhon-participa.cat/
@@ -115,6 +151,10 @@
   name: Mataró
   url: https://www.decidimmataro.cat/
   image: /images/cityhalls/logo_aj_mataro.jpg
+- palamos:
+  name: Palamós
+  url: http://palamos.decidim.ddgi.cat/
+  image: /images/cityhalls/logo_aj_palamos.png
 - reus:
   name: Reus
   url: https://participa.reus.cat/
@@ -127,6 +167,14 @@
   name: Sabadell
   url: https://decidim.sabadell.cat/
   image: /images/cityhalls/logo_aj_sabadell.jpg
+- salt:
+  name: Salt
+  url: https://decidim.salt.cat
+  image: /images/cityhalls/logo_aj_salt.png
+- sant-boi-de-llobregat:
+  name: Sant Boi de Llobregat
+  url: https://participa.santboi.cat/
+  image: /images/cityhalls/logo_aj_santboi.png
 - sant-cugat-del-valles:
   name: Sant Cugat del Vallès
   url: https://decidim.santcugat.cat/
