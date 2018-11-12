@@ -5,16 +5,16 @@ $nav-width: 18rem;
   margin-left: auto;
   font-weight: 200;
   width: $nav-width;
-  height: 100vh;
   position: absolute;
+  top: 0;
+  bottom: 0;
   right: -$nav-width;
   transition: right .3s;
   z-index: $z-nav;
   padding-top: 4rem;
-  display: flex;
-  flex-direction: column;
   
   &__item{
+    display: block;
     text-decoration: none;
     border-bottom: 0;
     border-left: 0 solid $primary;
@@ -22,13 +22,15 @@ $nav-width: 18rem;
     color: white;
     
     &:hover{
-      border-left-width: 5px;
+      border-left-width: 8px;
       color: $primary;
+      background: rgba(white,.05);
     }
   }
 
   &__btn{
     margin-left: 1rem !important;
+    margin-top: 1rem;
   }
 
   body:not(.is-nav-active) &:target,
