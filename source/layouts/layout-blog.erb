@@ -11,7 +11,8 @@
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
-    <%= partial "partials/header" %>
+    <%= partial "partials/navigation" %>
+    <%= partial "partials/topbar" %>
     <main class="main">
       <div class="blog container container--text-col container-vertical-top container-vertical-bottom">
         <h1>

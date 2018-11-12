@@ -1,0 +1,31 @@
+.topbar{
+  position: relative;
+  padding: .5rem 2rem;
+  background-color: $primary;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+  a {
+    border: 0;
+  }
+
+  &__actions{
+    display: flex;
+    align-items: center;
+  }
+
+  &__links{
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.brand-logo{
+  width: 3rem;
+}
+
+

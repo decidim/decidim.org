@@ -1,20 +1,4 @@
-<nav class="main-nav">
-  <div class="lang-wrapper">
-    <a href="#lang" class="lang-trigger"><%= t(:activeLang) %></a>
-    <ul id="lang" class="lang" role="menu">
-      <li role="menuitem">
-        <a href="/">English</a>
-      </li>
-      <li role="menuitem">
-        <a href="/es">Castellano</a>
-      </li>
-      <li role="menuitem">
-        <a href="/ca">Català</a>
-      </li>
-    </ul>
-  </div>
-  <div class="main-nav__links" id="nav-links">
-    <a href="<%= t(:path) %>/demo" class="main-nav__item"><%= t(:navDemo) %></a>
+<nav class="main-nav" id="nav-links">
     <a href="<%= t(:path) %>/community" class="main-nav__item"><%= t(:navCommunity) %></a>
     <a href="<%= t(:path) %>/contract"class="main-nav__item"><%= t(:navContract) %></a>
     <a href="<%= t(:path) %>/features"class="main-nav__item"><%= t(:navFeatures) %></a>
@@ -24,9 +8,5 @@
     </a>
     <a href="<%= t(:path) %>/docs"class="main-nav__item"><%= t(:navDocs) %></a>
     </a>
-  </div>
-    <a class="main-nav__trigger" href="#nav-links">
-      <span class="nav-icon"></span>
-      <span class="visually-hidden"><%= t(:navText) %></span>
-    </a>
+    <a href="<%= t(:path) %>/demo" class="main-nav__btn btn btn--primary"><%= t(:navDemo) %></a>
 </nav>

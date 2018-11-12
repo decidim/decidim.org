@@ -7,8 +7,8 @@
   margin-right: .3em;
   border-radius: $radius;
   border: 1px solid;
-  font-size: $small-fontsize;
-  text-transform: uppercase;
+  font-weight: 600;
+  text-transform: lowercase;
   letter-spacing: .04em;
   &:hover{
     color: inherit;
@@ -21,7 +21,7 @@
 }
 
 .btn--small{
-  padding: .5em 1em;
+  padding: .25em .75em;
 }
 
 .btn--primary{
@@ -42,5 +42,15 @@
   border-color: transparent;
   &:hover{
     background-color: rgba(white,.3);
+  }
+}
+
+.btn--inverse{
+  background-color:white;
+  color: $primary;
+  border-color: transparent;
+  &:hover{
+    opacity: .9;
+    color: $primary;
   }
 }

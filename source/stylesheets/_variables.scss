@@ -1,5 +1,5 @@
 //Colors
-$primary: #ED4D4F;
+$primary: #FF3333;
 $secondary: #9fc7bc;
 $body-color: #333;
 $blue: #466BA0;
@@ -10,7 +10,7 @@ $lighter-grey: #fafafa;
 
 
 //Border radius
-$radius: 3px;
+$radius: 1px;
 
 
 //Sizes
@@ -53,6 +53,7 @@ $heading-fontweight: 600;
 //Z-index
 $z-play-video-bg: 0;
 $z-play-video-button: 1;
-$z-mobile-links: 1;
 $z-mobile-lang: 2;
-$z-video-wrapper: 3;
+$z-nav: 3;
+$z-nav-trigger: 4;
+$z-video-wrapper: 4;

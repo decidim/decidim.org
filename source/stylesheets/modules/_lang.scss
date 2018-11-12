@@ -1,16 +1,8 @@
 .lang-wrapper{
   display: inline-block;
   position: relative;
-  position: absolute;
-  top: .8rem;
-  left: .8rem;
-  margin-left: -.3em;
+  margin-right: .5rem;
   z-index: $z-mobile-lang;
-
-  @media (min-width: $M){
-    left: 1.8rem;
-    top: 1rem;
-  }
 
   > a{
     margin-left: 0;
@@ -39,7 +31,7 @@
   }
   &.is-lang-open .lang-trigger,
   &:hover .lang-trigger{
-    background-color: $softblue;
+    color: inherit;
   }
 }
 
@@ -48,22 +40,23 @@
   position: absolute;
   list-style: none;
   padding-left: 0;
-  left: 0;
-  top: .1em;
+  left: .5rem;
+  top: .4em;
   padding: .2em .5em;
-  border-radius: 0 3px 3px 3px;
+  border-radius: $radius;
   body:not(.is-lang-active) &:target,
   .lang-trigger:hover + &,
   .is-lang-open &,
   .lang-wrapper:hover &,
   .lang-wrapper:focus &{
     display: block;
-    background-color: $softblue;
+    background-color: white;
   }
   a{
     display: block;
     margin: .4em .5em .4em 0;
     padding-left: 0;
+    color: $primary;
     &:hover{
       opacity: .7;
     }
