@@ -1,70 +1,65 @@
----
 ca:
-  path: "/ca"
-  activeLang: "Català"
-  buttonDemo: "Demo online"
-  buttonCode: "Codi a Github"
+  path: '/ca'
+  activeLang: 'Català'
+  buttonDemo: 'Demo online'
+  buttonCode: 'Codi a Github'
 
   #Navigation links
-  navText: "Navegació"
-  navDemo: "Demo"
-  navCommunity: "Comunitat"
-  navContract: "Contracte social"
-  navCode: "Codi"
-  navDocs: "Documentació"
-  navCredits: "Crèdits i atribucions"
-  navBlog: "Blog"
-  navFeatures: "Funcionalitats"
+  navText: 'Navegació'
+  navDemo: 'Demo'
+  navCommunity: 'Comunitat'
+  navContract: 'Contracte social'
+  navCode: 'Codi'
+  navDocs: 'Documentació'
+  navCredits: 'Crèdits i atribucions'
+  navBlog: 'Blog'
+  navFeatures: 'Funcionalitats'
 
   # Index ---
   ## Alert
-  alertTitle: "JAM 2018"
+  alertTitle: 'JAM 2018'
   alertSubtitle: "T'esperem a les #JAM18 del 28 de novembre"
-  alertDesc: "Volem pensar i redissenyar una nova democracia en xarxa. Volem construir de forma oberta, transparent i col·laborativa el Decidim, ​​la plataforma digital per la democràcia participativa. Cap a una xarxa de ciutats i organitzacions&nbsp;democràtiques."
+  alertDesc: 'Volem pensar i redissenyar una nova democracia en xarxa. Volem construir de forma oberta, transparent i col·laborativa el Decidim, ​​la plataforma digital per la democràcia participativa. Cap a una xarxa de ciutats i organitzacions&nbsp;democràtiques.'
   ## Hero
-  heroHeading: "<strong>Democràcia participativa</strong> de codi obert per a ciutats i organitzacions"
-  heroIntro: "Decidim és més que una plataforma digital: és un projecte i infraestructura oberts que inclou codi, documentació, disseny, formació, un marc legal, interficies col·laboratives, una comunitat d'usuaris i facilitadors i una visió global."
-  playVideo: "Reproduir vídeo"
-  videoUrl: "https://www.youtube.com/embed/ahVZLOlE3GE"
-  closeVideo: "Tancar el vídeo"
+  heroHeading: 'Democràcia participativa de codi obert per a ciutats i organitzacions'
+  heroSubheading: 'Decidim es una plataforma digital<br/>de participación ciudadana'
+  heroIntro: 'Tecnología libre y segura.<br/>Con todas las garantías democráticas.<br/>Reprogramar la democracia ahora es posible con Decidim.'
+  playVideo: 'Reproduir vídeo'
+  videoUrl: 'https://www.youtube.com/embed/ahVZLOlE3GE'
+  closeVideo: 'Tancar el vídeo'
   ## Subhero
-  subheroIntro: "Decidim ajuda a ciutadans, organitzacions i institucions públiques a auto-organitzar-se democràticament a tots els nivells."
-  subheroFeture1: "Co-producció de planificacions estratègiques"
-  subheroFeture2: "Organització de pressupostos participatius"
-  subheroFeture3: "Construcció de processos multitudinaris de deliberació"
-  subheroFeture4: "Promoció de presa de decisions distribuïdes"
+  subheroIntro: 'Decidim ajuda a ciutadans, organitzacions i institucions públiques a auto-organitzar-se democràticament a tots els nivells.'
+  subheroFeture1: 'Co-producció de planificacions estratègiques'
+  subheroFeture2: 'Organització de pressupostos participatius'
+  subheroFeture3: 'Construcció de processos multitudinaris de deliberació'
+  subheroFeture4: 'Promoció de presa de decisions distribuïdes'
   ## Logo sections
   logosUsedByTitle: "Ja l'estan fent servir"
-  logosDrivenByTitle: "Projecte impulsat per"
-  logosPartnersTitle: "Entitats col·laboradores"
+  logosDrivenByTitle: 'Projecte impulsat per'
+  logosPartnersTitle: 'Entitats col·laboradores'
   ## CTA Block
-  ctaTitle: "Comença a fer servir Decidim"
-  ctaIntro: "Prova la demo online o descarrega el codi font"
+  ctaTitle: 'Comença a fer servir Decidim'
+  ctaIntro: 'Prova la demo online o descarrega el codi font'
   ctaContact: "Si tens algun dubte, <a href='mailto:hola@decidim.org'>posa't en contacte amb nosaltres</a>"
   ##Features
-  feature1Title: "Proposa, reuneix-te, delibera, decideix, monitoritza: uneix-te a la democràcia"
+  feature1Title: 'Proposa, reuneix-te, delibera, decideix, monitoritza: uneix-te a la democràcia'
   feature1Content: "Decidim fa possible que milers de persones s'organitzin democràticament realitzant propostes, assistint a reunions públiques, creant discussions deliberatives, decidint mitjançant distintes formes de votació i monitoritzant la implementació de les decisions."
-  feature2Title: "Configura processos participatius fàcilment"
+  feature2Title: 'Configura processos participatius fàcilment'
   feature2Content: "Vols fer un pla estratègic? O discutir noves normatives? O debatre sobre una plaça nova o un edifici públic per arribar al bé comú? Decidim és un configurador de processos participatius molt fàcil d'utlitzar que t'ajuda a estructurar i implementar pràcticament qualsevol tipus de procès."
-  feature3Title: "Pressupostos participatius de veritat"
+  feature3Title: 'Pressupostos participatius de veritat'
   feature3Content: "Els ciutadans podran decidir directament cóm gastar els fons d'un pressupost públic. Pots obrir les propostes, discutir i establir les prioritats amb els ciutadans o membres de l'organització, estimar el preu dels projectes y obrir-los a votació, així com monitoritzar els resultats."
-  feature4Title: "Integració online i offline"
+  feature4Title: 'Integració online i offline'
   feature4Content: "No es tracta tan sol d'una plataforma digital, Decidim és una aplicació per a persones de tots els orígens i edats. La plataforma està dissenyada per ajudar a reduir la bretxa digital i per crear noves formes de participació a tots els nivells."
-  feature5Title: "Permet que les iniciatives de la gent aconsegueixin el seu objectiu"
+  feature5Title: 'Permet que les iniciatives de la gent aconsegueixin el seu objectiu'
   feature5Content: "Decidim permet a la gent crear, gestionar i impulsar les seves pròpies iniciatives (p.e. crear una assemblea, crear un procés de participació, promoure una consulta, etc.) i aconseguir el seu objectiu. És possible definir diferents tipus d'iniciatives, assignant-los un nombre mínim de signatures o suports requerits, i les persones participants poden iniciar-les, recollir suports i impulsar la seva iniciativa a govern."
-  feature6Title: "Crea i Gestiona Assemblees, Comitès i Òrgans de Participació"
-  feature6Content: "Crea fàcilment qualsevol tipus de grup de treball, assemblea, comitè o òrgan participatiu, perquè la gent pugui acudir a les reunions, donar suport a les seves propostes, seguir els seus actes o auditar les seves activitats."
-  feature7Title: "Modular, escalable, configurable: actualitza i expan"
+  feature6Title: 'Crea i Gestiona Assemblees, Comitès i Òrgans de Participació'
+  feature6Content: 'Crea fàcilment qualsevol tipus de grup de treball, assemblea, comitè o òrgan participatiu, perquè la gent pugui acudir a les reunions, donar suport a les seves propostes, seguir els seus actes o auditar les seves activitats.'
+  feature7Title: 'Modular, escalable, configurable: actualitza i expan'
   feature7Content: "Decidim no és només una plataforma sinó un marc per la participació, dissenyat per escalar eficientment amb actualitzacions immediates i automàtiques, gràcies a la seva arquitectura modular i a la seva facilitat per incorporar contribucions de distintes institucions. Instala'l una sola vegada i beneficia't de totes les millores futures."
-  feature8Title: "Contribueix-hi i fes-lo teu"
-  feature8Content: "Decidim és 100% codi obert. Pots fer les teves propies extensions i contribuir al nucli de Decidim per beneficiar tota la comunitat."
-
+  feature8Title: 'Contribueix-hi i fes-lo teu'
+  feature8Content: 'Decidim és 100% codi obert. Pots fer les teves propies extensions i contribuir al nucli de Decidim per beneficiar tota la comunitat.'
   # Demo --- translation directly in /localizable/demo.ca.html.erb
-
   # Community --- translation directly in /localizable/community.ca.html.erb
-
   # Social Contract --- translation directly in /localizable/contract.ca.html.erb
-
   # Credits --- translation directly in /localizable/credits.ca.html.erb
-
   # Documentation --- translation directly in /localizable/docs.ca.html.erb
