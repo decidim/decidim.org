@@ -1,6 +1,6 @@
 .hero{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   color: $primary;
   @media (min-width: $L){
     padding-top: 10rem;
@@ -8,14 +8,19 @@
   }
 
   &__logo{
-    max-width: 25rem;
+    max-width: 15rem;
+    @media (min-width: $M){
+      max-width: 25rem;
+    }
   }
 
   &__content{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     margin-top: 1rem;
+    @media (min-width: $L){
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
   }
 
   &__heading{
@@ -23,7 +28,9 @@
     font-weight: 600;
     max-width: 40rem;
     line-height: 1.1;
-    margin-bottom: 0;
+    @media (min-width: $L){
+      margin-bottom: 0;
+    }
   }
 }
 
