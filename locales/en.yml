@@ -15,6 +15,8 @@ en:
   navCredits: 'Attribution and credits'
   navBlog: 'Blog'
   navFeatures: 'Features'
+  navFaqs: 'FAQs'
+  navContact: 'Contact'
 
   # Index ---
   ## Alert
@@ -39,9 +41,12 @@ en:
   logosDrivenByTitle: 'Promoter'
   logosPartnersTitle: 'Cooperating entities'
   ## CTA Block
-  ctaTitle: 'Start using Decidim today'
+  ctaTitle: 'start using Decidim today'
   ctaIntro: 'Test the online demo or download the source code'
   ctaContact: "Do you have any questions? <a href='mailto:hola@decidim.org'>Get in touch</a>"
+  ## Footer
+  footerDrivenByTitle: 'Promoter'
+  footerAttribution: '&copy; 2018 - Creative Commons By-SA'
   ##Features
   feature1Title: 'Propose, meet, deliberate, decide, monitor: join democracy'
   feature1Content: 'Decidim makes possible for thousands of people to organize democratically by making proposal, joining public meetings, creating delibarative discussion, deciding through different forms of voting, and monitoring the implementation of the decisions.'

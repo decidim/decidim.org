@@ -14,6 +14,8 @@ ca:
   navCredits: 'Crèdits i atribucions'
   navBlog: 'Blog'
   navFeatures: 'Funcionalitats'
+  navFaqs: 'FAQs'
+  navContact: 'Contacte'
 
   # Index ---
   ## Alert
@@ -38,9 +40,12 @@ ca:
   logosDrivenByTitle: 'Projecte impulsat per'
   logosPartnersTitle: 'Entitats col·laboradores'
   ## CTA Block
-  ctaTitle: 'Comença a fer servir Decidim'
+  ctaTitle: 'comença a fer servir Decidim'
   ctaIntro: 'Prova la demo online o descarrega el codi font'
   ctaContact: "Si tens algun dubte, <a href='mailto:hola@decidim.org'>posa't en contacte amb nosaltres</a>"
+  ## Footer
+  footerDrivenByTitle: 'Projecte impulsat per'
+  footerAttribution: '&copy; 2018 - Creative Commons By-SA'
   ##Features
   feature1Title: 'Proposa, reuneix-te, delibera, decideix, monitoritza: uneix-te a la democràcia'
   feature1Content: "Decidim fa possible que milers de persones s'organitzin democràticament realitzant propostes, assistint a reunions públiques, creant discussions deliberatives, decidint mitjançant distintes formes de votació i monitoritzant la implementació de les decisions."
