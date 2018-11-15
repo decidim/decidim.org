@@ -5,7 +5,7 @@ $nav-width: 18rem;
   margin-left: auto;
   font-weight: 200;
   width: $nav-width;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   right: -$nav-width;

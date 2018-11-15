@@ -50,7 +50,7 @@
     font-size: 2rem;
     font-weight: 800;
     color: $primary;
-    margin-left: 10px;
+    margin-left: 6px;
     margin-bottom: .5rem;
 
     span{
@@ -63,15 +63,19 @@
 
   &__subhead{
     font-size: 1.3rem;
-    color: $primary;
+    // color: $primary;
     font-weight: 600;
-    margin-left: 11px;
+    margin-left: 7px;
     span{
       box-shadow: -4px 1px 0 2px white, 4px 1px 0 2px white;
       background-color: white;
       box-decoration-break: clone;
       line-height: 1.5;
     }
+  }
+
+  [data-playvideo-button]{
+    margin-left: 0;
   }
 }
 

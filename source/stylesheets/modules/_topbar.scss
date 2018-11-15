@@ -1,12 +1,14 @@
 .topbar{
-  position: relative;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: $z-topbar;
   padding: .5rem 2rem;
   background-color: $primary;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 
   a {
     border: 0;
@@ -21,6 +23,22 @@
     padding-right: 1rem;
     display: flex;
     align-items: center;
+  }
+
+  .home & {
+    background-color: transparent;
+    .brand-logo,
+    .topbar__links{
+      opacity: 0;
+    }
+  }
+
+  .home:not(.is-nav-open) &{
+    .nav-icon,
+    .nav-icon:before,
+    .nav-icon:after{
+      background-color: $primary;
+    }
   }
 }
 
