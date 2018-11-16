@@ -1,0 +1,18 @@
+.testimonials{
+  background-color: $primary;
+  .container{
+    padding-top: 2rem; 
+    padding-bottom: 2rem;
+    @media (min-width: $L){
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &__block{
+    background-color: white;
+    padding: 3rem 2rem;
+    @media (min-width: $L){
+      width: 30%;
+    }
+  }
+}
