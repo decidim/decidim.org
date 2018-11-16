@@ -6,6 +6,7 @@
   padding: .5rem 2rem;
   background-color: $primary;
   color: white;
+  box-shadow: 0 2px 5px rgba(black,.05);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,6 +28,7 @@
 
   .home &:not(.topbar--is-visible) {
     background-color: transparent;
+    box-shadow: none;
     .brand-logo,
     .topbar__links{
       opacity: 0;
