@@ -6,8 +6,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding-top: 7rem;
-    padding-bottom: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
   }
 
   &__cta-title{
@@ -33,6 +33,7 @@
     text-transform: lowercase;
     &:hover{
       color: inherit;
+      opacity: .8;
     }
   }
 
@@ -40,7 +41,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding-top: 2rem;
+    padding-top: 1rem;
     a{
       border-bottom: 0;
     }

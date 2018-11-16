@@ -17,6 +17,7 @@
       <%= yield %>
     </main>
     <%= partial "partials/footer" %>
+    <%= javascript_include_tag "display-topbar", :async => "async" %>
     <%= javascript_include_tag "nav-toggle", :async => "async" %>
     <%= javascript_include_tag "closest-polyfill", :async => "async" %>
     <%= javascript_include_tag "lang-toggle", :async => "async" %>

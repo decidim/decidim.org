@@ -25,7 +25,7 @@
     align-items: center;
   }
 
-  .home & {
+  .home &:not(.topbar--is-visible) {
     background-color: transparent;
     .brand-logo,
     .topbar__links{
@@ -33,7 +33,7 @@
     }
   }
 
-  .home:not(.is-nav-open) &{
+  .home:not(.is-nav-open) &:not(.topbar--is-visible){
     .nav-icon,
     .nav-icon:before,
     .nav-icon:after{
