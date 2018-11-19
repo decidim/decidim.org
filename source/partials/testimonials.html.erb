@@ -1,19 +1,17 @@
+
 <section class="testimonials">
   <div class="container">
-    <div class="testimonials__block">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      </p>
-    </div>
-    <div class="testimonials__block">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      </p>
-    </div>
-    <div class="testimonials__block">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      </p>
-    </div>
+    <% data.testimonials.each do |use| %>
+      <div class="testimonials__block">
+        <img src="<%= use.image %>" alt="<%= use.name %>" class="testimonials__img"/>
+        <blockquote class="testimonials__quote">
+          <p><%= use[locale].quote %></p>
+        </blockquote>
+        <cite class="testimonials__attr">
+          <span class="testimonials__author"><%= use.name %></span>
+          <span class="testimonials__org"><%= use[locale].org %></span>
+        </cite>
+      </div>
+    <% end %>
   </div>
 </section>
