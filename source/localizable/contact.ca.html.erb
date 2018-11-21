@@ -1,0 +1,41 @@
+---
+title: Contacte | Decidim
+description:
+---
+
+<div class="container container--text-col container-vertical">
+  <h1 class="page-title">Contacta amb nosaltres</h1>
+  <form method="post" action="#">
+    <div class="form-field">
+      <label for="name">
+        Nom <span class="required" aria-label="required field">*</span>
+      </label> 
+      <input type="text" id="name" required/>
+    </div>
+    <div class="form-field">
+      <label for="entity">Entitat</label>
+      <input type="text" id="entity" />
+    </div>
+    <div class="form-field">
+      <label for="mail">Correu electrònic <span class="required" aria-label="required field">*</span></label>
+      <input type="text" id="mail" required/>
+    </div>
+    <div class="form-field">
+      <label for="reason">Motiu <span class="required" aria-label="required field">*</span></label>
+      <select id="reason">
+        <option>Premsa/comunicació</option>
+        <option>Investigació</option>
+        <option>Desenvolupament</option>
+        <option>Extensió</option>
+        <option>Més informació</option>
+      </select>
+    </div>
+    <div class="form-field message">
+      <label for="message">Missatge <span class="required" aria-label="required field">*</span></label> 
+      <textarea id="message"></textarea>
+    </div>
+    <div class="form-field">
+      <button type="submit" class="btn btn--primary">Enviar</button>
+    </div>
+  </form>
+</div>

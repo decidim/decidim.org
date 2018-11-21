@@ -54,6 +54,9 @@ p{
   text-transform: lowercase;
   line-height: 1.2;
   margin-bottom: 6rem;
+  &--nomargin{
+    margin-bottom: 0;
+  }
 }
 
 .help{

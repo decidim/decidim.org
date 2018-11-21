@@ -1,0 +1,41 @@
+---
+title: Contact us | Decidim
+description:
+---
+
+<div class="container container--text-col container-vertical">
+  <h1 class="page-title">Contact us</h1>
+  <form method="post" action="#">
+    <div class="form-field">
+      <label for="name">
+        Name <span class="required" aria-label="required field">*</span>
+      </label> 
+      <input type="text" id="name" required/>
+    </div>
+    <div class="form-field">
+      <label for="entity">Entity</label>
+      <input type="text" id="entity" />
+    </div>
+    <div class="form-field">
+      <label for="mail">Email <span class="required" aria-label="required field">*</span></label>
+      <input type="text" id="mail" required/>
+    </div>
+    <div class="form-field">
+      <label for="reason">Reason <span class="required" aria-label="required field">*</span></label>
+      <select id="reason">
+        <option>Press/communication</option>
+        <option>Investigation</option>
+        <option>Development</option>
+        <option>Extension</option>
+        <option>More information</option>
+      </select>
+    </div>
+    <div class="form-field message">
+      <label for="message">Message <span class="required" aria-label="required field">*</span></label> 
+      <textarea id="message"></textarea>
+    </div>
+    <div class="form-field">
+      <button type="submit" class="btn btn--primary">Send</button>
+    </div>
+  </form>
+</div>
