@@ -1,0 +1,21 @@
+---
+title: Cooperating entities | Decidim
+description:
+---
+<div class="container container-vertical">
+  <h1 class="page-title">Decidim partners</h1>
+  <% @partners = data.partners 
+  %>
+  <div class="partner__container">
+    <% @partners.each do |use| %>
+      <div class="partner__item">
+        <a href="<%= use.url %>" title="<%= use.name %>" target="_blank" class="partner__logo">
+          <img src="<%= use.image %>" alt="<%= use.name %>" />
+        </a>
+        <p class="partner__desc">
+          <%= use[locale].desc %>
+        </p>
+      </div>
+    <% end %>
+  </div>
+</div>
