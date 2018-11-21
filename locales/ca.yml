@@ -16,6 +16,8 @@ ca:
   navFeatures: 'Funcionalitats'
   navFaqs: 'FAQs'
   navContact: 'Contacte'
+  navUsedBy: 'Ja fan servir Decidim'
+  navPartners: 'Entitats col·laboradores'
 
   # Index ---
   ## Alert
@@ -37,10 +39,13 @@ ca:
   subheroFeature4: 'Procesos<br/>participativos'
   subheroFeature5: 'Órganos<br/>de participación'
   subheroFeature6: 'Comunicación<br/>en red'
+  ##Testimonials
+  testimonialsTitle: "Here's what our users are saying about Decidim"
   ## Logo sections
-  logosUsedByTitle: "Ja l'estan fent servir"
+  logosUsedByTitle: 'Ya están usando Decidim'
   logosDrivenByTitle: 'Projecte impulsat per'
   logosPartnersTitle: 'Entitats col·laboradores'
+  logosUsedByCta: 'Ver todos'
   ## CTA Block
   ctaTitle: 'comença a fer servir Decidim'
   ctaIntro: 'Prova la demo online o descarrega el codi font'

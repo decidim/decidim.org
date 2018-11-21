@@ -1,14 +1,20 @@
 
 <section class="logos-section logos-section--cityhalls">
-  <h2 class="logos-section__title"><%= t(:logosUsedByTitle) %></h2>
-  <div class="container logos-container">
+  <div class="container">
+    <h2 class="logos-section__title"><%= t(:logosUsedByTitle) %></h2>
+    <div class="logos-container">
 
-    <% data.cities.each do |use| %>
-      <a href="<%= use.url %>" target="_blank" class="logo-item">
-        <img src="<%= use.image %>" alt="<%= use.name %>" />
-      </a>
-    <% end %>
+      <% @homecities = data.cities.select {|city| city[:home] == true} %>
+      <% @homecities.each do |use| %>
+        <a href="<%= use.url %>" target="_blank" class="logo-item">
+          <img src="<%= use.image %>" alt="<%= use.name %>" />
+        </a>
+      <% end %>
 
+    </div>
+    <div class="logos-section__cta">
+      <a href="#" class="btn btn--primary"><%= t(:logosUsedByCta) %></a>
+    </div>
   </div>
 </section>
 

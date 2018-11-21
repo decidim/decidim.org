@@ -1,22 +1,36 @@
 .logos-section{
   padding: 3rem 0;
+  @media (min-width: $L){
+    padding: 6rem 0;
+  }
 }
 
 .logos-section__title{
-  font-size: $h3;
-  text-align: center;
-  text-transform: uppercase;
-  color: $darkblue;
+  font-size: $large-fontsize;
+  text-transform: lowercase;
+  font-weight: 600;
+  color: $primary;
   @media (min-width: $L){
-    letter-spacing: .2em;
+    font-size: $h1;
   }
+}
+
+.logos-subsection__title{
+  background: $primary;
+  color: white;
+  text-transform: lowercase;
+  padding: .5rem;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 6rem;
 }
 
 .logos-container{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 1rem;
 
   &:not(:last-child){
     margin-bottom: 3rem;
@@ -24,31 +38,16 @@
 }
 
 .logo-item{
+  flex-basis: 50%;
   padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   border: 0;
   @media (min-width: $L){
-    padding: 2rem;
+    padding: 2rem 2rem 2rem 0;
+    flex-basis: 25%;
   }
 
-  .logos-section--cityhalls &{
-    flex-basis: 50%;
-  }
-  .logos-section--partners &{
-    flex-basis: 50%;
-  }
-
-  @media (min-width: $L){
-    .logos-section--cityhalls &{
-      flex-basis: 25%;
-    }
-    .logos-section--partners &{
-      flex-basis: 17%;
-      padding: 1rem 3rem;
-    }
-  }
   &.highlighted{
     flex-basis: 80%;
   }

@@ -34,9 +34,9 @@
     transition: transform .2s;
     &.active,
     &:hover{
-      border-left: 5px solid $blue;
+      border-left: 5px solid $primary;
       transform: translateX(1rem);
-      background-color: $light-grey;
+      background-color: white;
     }
     > p{
       margin-bottom: 0;

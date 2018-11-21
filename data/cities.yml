@@ -7,183 +7,275 @@
   name: Barcelona
   url: https://www.decidim.barcelona/
   image: /images/partners/logo_partner_ajbcn.jpg
+  type: city
+  home: true
 - helsinki:
   name: Helsinki
   url: https://osallistu.hel.fi/
   image: /images/cityhalls/logo_aj_helsinki.png
+  type: city
+  home: true
 - castilla-la-mancha:
   name: Castilla-La Mancha
   url: https://participa.castillalamancha.es/
   image: /images/cityhalls/logo_jclm.jpg
+  type: region
+  home: true
 - pamplona:
   name: Pamplona
   url: https://erabaki.pamplona.es/
   image: /images/cityhalls/logo_aj_pamplona.jpg
+  type: city
+  home: true
 - som-energia:
   name: Som Enèrgia
   url: https://participa.somenergia.coop/
   image: /images/cityhalls/logo_somenergia.jpg
+  type: org
+  home: true
 - commission-nationale-du-debat-public:
   name: Commission Nationale du Débat Public
   url: http://participons.debatpublic.fr
   image: /images/cityhalls/logo_cndp.jpg
+  type: org
+  home: false
 - metropole-europeene-de-lille:
   name: Métropole Européene de Lille
   url: https://participation.lillemetropole.fr
   image: /images/cityhalls/logo_MEL.png
+  type: region
+  home: true
 - iopd-international-observatory-on-participatory-democracy:
   name: IOPD - International Observatory on Participatory Democracy
   url: https://participate.oidp.net/
   image: /images/cityhalls/logo_OIDP.png
+  type: org
+  home: false
 - fundaction:
   name: FundAction
   url: https://assembly.fundaction.eu
   image: /images/cityhalls/logo_fundaction.png
+  type: org
+  home: false
 - belgica:
   name: Bélgica
   url: https://monopinion.belgium.be/
   image: /images/cityhalls/logo_monopinion.png
+  type: region
+  home: true
 - elogie-siemp:
   name: Elogie Siemp
   url: https://budgetparticipatif.elogie-siemp.paris/
   image: /images/cityhalls/logo_elogiesiemp.png
+  type: org
+  home: false
 - generalitat-de-catalunya:
   name: Generalitat de Catalunya
   url: http://participa.gencat.cat/
   image: /images/cityhalls/logo_gencat.png
+  type: region
+  home: true
 - loiret:
   name: Loiret
   url: https://atelierdevosidees.loiret.fr/
   image: /images/cityhalls/logo_aj_loiret.png
+  type: city
+  home: false
 - nivelles:
   name: Nivelles
   url: https://nivelles.monopinion.belgium.be/
   image: /images/cityhalls/logo_aj_nivelles.png
+  type: city
+  home: false
 - quorum-global:
   name: Quorum Global
   url: https://participa.quorumglobal.org/
   image: /images/cityhalls/logo_quorumglobal.jpg
+  type: org
+  home: true
 - romainville:
   name: Romainville
   url: https://www.budget-participatif-romainville.fr/
   image: /images/cityhalls/logo_aj_romainville.jpg
+  type: city
+  home: false
 - tuusula:
   name: Tuusula
   url: https://osallistu.tuusula.fi/
   image: /images/cityhalls/logo_aj_tuusula.png
+  type: city
+  home: false
 - uccle:
   name: Uccle
   url: https://uccle.monopinion.belgium.be/
   image: /images/cityhalls/logo_aj_uccle.png
+  type: city
+  home: false
 - ville-de-nancy:
   name: Ville de Nancy
   url: https://participez.nancy.fr/
   image: /images/cityhalls/logo_aj_nancy.png
+  type: city
+  home: false
 - waterloo:
   name: Waterloo
   url: https://waterloo.monopinion.belgium.be/
   image: /images/cityhalls/logo_aj_waterloo.png
+  type: city
+  home: true
 - diputacio-de-barcelona:
   name: Diputació de Barcelona
   url: https://decidim.diba.cat/
   image: /images/cityhalls/logo_diba.jpg
+  type: region
+  home: true
 - fceg-federacio-catalana-d-escoltisme-i-guiatge:
   name: FCEG - Federació Catalana d'Escoltisme i Guiatge
   url: https://decidim.fceg.cat
   image: /images/cityhalls/logo_fceg.png
+  type: org
+  home: false
 - merida:
   name: Mérida
   url: http://decide.merida.gob.mx/
   image: /images/cityhalls/logo_aj_merida.png
+  type: city
+  home: false
 - veracruz:
   name: Veracruz
   url: http://decide.veracruzmunicipio.gob.mx/
   image: /images/cityhalls/logo_aj_veracruz.jpg
+  type: city
+  home: true
 - region-nouvelle-aquitaine:
   name: Région Nouvelle-Aquitaine
   url: https://concertations.nouvelle-aquitaine.fr
   image: /images/cityhalls/logo_nouvelleaquitaine.png
+  type: region
+  home: false
 - mairie-d-angers:
   name: Mairie d’Angers
   url: http://ecrivons.angers.fr
   image: /images/cityhalls/logo_angers.png
+  type: city
+  home: false
 - amycos:
   name: AMYCOS
   url: http://burgos.decidimos.pt/
   image: /images/cityhalls/logo_amycos.png
+  type: org
+  home: false
 - badalona:
   name: Badalona
   url: https://decidim.badalona.cat/
   image: /images/cityhalls/logo_aj_badalona.jpg
+  type: city
+  home: false
 - calafell:
   name: Calafell
   url: https://decidim.calafell.cat
   image: /images/cityhalls/logo_aj_calafell.png
+  type: city
+  home: false
 - coterrats:
   name: CoTerrats
   url: https://decidim.coterrats.com/
   image: /images/cityhalls/logo_coterrats.png
+  type: org
+  home: false
 - esparreguera:
   name: Esparreguera
   url: http://decideix.esparreguera.cat/
   image: /images/cityhalls/logo_aj_esparraguera.jpg
+  type: city
+  home: false
 - esplugues-de-llobregat:
   name: Esplugues de Llobregat
   url: https://espluguesparticipa.diba.cat/
   image: /images/cityhalls/logo_aj_esplugues.gif
+  type: city
+  home: false
 - gava:
   name: Gavà
   url: https://participa.gavaciutat.cat
   image: /images/cityhalls/logo_aj_gava.jpg
+  type: city
+  home: false
 - ialimentec:
   name: IALImentec
   url: https://www.ialimentec.com/?locale=es
   image: /images/cityhalls/logo_ialimentec.png
+  type: org
+  home: false
 - l-hospitalet-de-llobregat:
   name: L'Hospitalet de Llobregat
   url: https://www.lhon-participa.cat/
   image: /images/cityhalls/logo_aj_hospitalet.jpg
+  type: city
+  home: false
 - malgrat-de-mar:
   name: Malgrat de Mar
   url: https://decideix.ajmalgrat.cat/
   image: /images/cityhalls/logo_aj_malgrat.png
+  type: city
+  home: false
 - mataro:
   name: Mataró
   url: https://www.decidimmataro.cat/
   image: /images/cityhalls/logo_aj_mataro.jpg
+  type: city
+  home: false
 - palamos:
   name: Palamós
   url: http://palamos.decidim.ddgi.cat/
   image: /images/cityhalls/logo_aj_palamos.png
+  type: city
+  home: false
 - reus:
   name: Reus
   url: https://participa.reus.cat/
   image: /images/cityhalls/logo_aj_reus.jpg
+  type: city
+  home: false
 - rubi:
   name: Rubí
   url: http://participa.rubi.cat
   image: /images/cityhalls/logo_aj_rubi.png
+  type: city
+  home: false
 - sabadell:
   name: Sabadell
   url: https://decidim.sabadell.cat/
   image: /images/cityhalls/logo_aj_sabadell.jpg
+  type: city
+  home: false
 - salt:
   name: Salt
   url: https://decidim.salt.cat
   image: /images/cityhalls/logo_aj_salt.png
+  type: city
+  home: false
 - sant-boi-de-llobregat:
   name: Sant Boi de Llobregat
   url: https://participa.santboi.cat/
   image: /images/cityhalls/logo_aj_santboi.png
+  type: city
+  home: false
 - sant-cugat-del-valles:
   name: Sant Cugat del Vallès
   url: https://decidim.santcugat.cat/
   image: /images/cityhalls/logo_aj_santcugat.jpg
+  type: city
+  home: false
 - terrassa:
   name: Terrassa
   url: https://participa.terrassa.cat/
   image: /images/cityhalls/logo_aj_terrassa.jpg
+  type: city
+  home: false
 - vilanova-i-la-geltru:
   name: Vilanova i la Geltrú
   url: http://participa.vilanova.cat
   image: /images/cityhalls/logo_aj_vilanova.png
+  type: city
+  home: false

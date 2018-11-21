@@ -4,10 +4,25 @@
     padding-top: 2rem; 
     padding-bottom: 2rem;
     @media (min-width: $L){
+      padding-top: 5rem; 
+      padding-bottom: 5rem;
+    }
+    
+  }
+  &__title{
+    font-size: $large-fontsize;
+    text-transform: lowercase;
+    font-weight: 600;
+    color: white;
+    @media (min-width: $L){
+      font-size: $h1;
+    }
+  }
+  &__content{
+    padding-top: 1rem;
+    @media (min-width: $L){
       display: flex;
       justify-content: space-between;
-      padding-top: 6rem; 
-      padding-bottom: 6rem;
     }
   }
   &__block{
@@ -25,6 +40,12 @@
     max-width: 5rem;
     border-radius: 50%;
     margin-bottom: 1.5rem;
+    box-shadow: inset 0 0 8px black;
+    img{
+      border-radius: 50%;
+      display: block;
+      opacity: .95;
+    }
   }
   &__quote{
     margin: 0 0 .5rem 0;
