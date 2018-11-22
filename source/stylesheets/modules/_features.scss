@@ -17,6 +17,7 @@
 
 .feature-item{
   padding: 1rem 0;
+  color: white;
   @media (max-width: $L-max){
     &:not(:last-child){
       margin-bottom: 2rem;
@@ -25,14 +26,10 @@
   @media (min-width: $L){
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  @media (min-width: $L){
     margin-left: -1.5rem;
     border-left: 5px solid transparent;
     transition: transform .2s;
     opacity: .75;
-    color: white;
     &.active,
     &:hover{
       border-left: 5px solid $primary;
