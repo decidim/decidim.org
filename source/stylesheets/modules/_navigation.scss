@@ -38,6 +38,23 @@ $nav-width: 18rem;
     right: 0;
   }
   
+  &__lang{
+    padding-left: 1rem;
+    li{
+      margin-right: .5rem;
+      display: inline-block;
+      &::after{
+        content: "";
+        display: inline-block;
+        border-right: 1px solid;
+        margin-left: .5rem;
+        height: .7em;
+      }
+      &:last-child::after{
+        display: none;
+      }
+    }
+  }
 }
 
 .main-nav__trigger{
