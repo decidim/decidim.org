@@ -1,20 +1,14 @@
 .testimonials{
-  padding-top: 3rem;
-  padding-bottom: 6rem;
+  margin: 6rem 0;
+  background-color: $primary;
   &__block{
-    background-color: white;
-    box-shadow: 0 0 25px rgba(black, .1);
-    margin: auto;
-    max-width: 55rem;
-    padding: 1rem;
+    color: white;
     display: flex;
     align-items: flex-start;
-    background: url(/images/icons/quote.svg) no-repeat right bottom -90px;
+    background: url(/images/icons/quote.svg) no-repeat right bottom -130px;
   }
   &__img{
-    background-color: $primary;
     flex-shrink: 0;
-    margin-right: 1rem;
     img{
       display: block;
       opacity: .5;
@@ -23,12 +17,12 @@
   }
   &__content{
     font-size: $large-fontsize;
-    padding-right: 2rem;
+    padding: 2rem;
   }
 
   &__attr{
     display: block;
-    font-size: $largest-fontsize;
+    font-size: $h1;
     font-weight: 600;
     font-style: normal;
     margin-bottom: 1rem;
@@ -36,12 +30,11 @@
 
   &__author{
     font-weight: 800;
-    color: $primary;
     margin-right: .5rem;
   }
 
   &__org{
-    opacity: .5;
+    opacity: .75;
   }
 
   &__quote{

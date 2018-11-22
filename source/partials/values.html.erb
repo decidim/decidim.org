@@ -1,41 +1,32 @@
-<section class="features">
-  <div class="container feature-container">
-    <div class="feature-list">
-      <div class="feature-image-small browser-shot browser-shot--inline browser-shot--light">
-        <img src="/images/screenshot-scalable.jpg" alt="" />
+<section class="features container">
+    <div class="feature__item">
+      <div class="feature__image">
+        <img src="/images/features/landing-modular.svg" alt="" />
       </div>
-      <div class="feature-item active" data-feature-image="#feature-image-4">
-        <h3 class="feature-item__title"><%= t(:feature4Title) %></h3>
+      <div class="feature__content" >
+        <h3 class="feature__title"><%= t(:feature4Title) %></h3>
         <p><%= t(:feature4Content) %></p>
       </div>
-      <div class="feature-image-small browser-shot browser-shot--inline browser-shot--light">
-        <img src="/images/screenshot_process_backend.jpg" alt="" />
+    </div>
+    <div class="feature__item feature__item--alt">
+      <div class="feature__image">
+        <img src="/images/features/landing-security.svg" alt="" />
       </div>
-      <div class="feature-item" data-feature-image="#feature-image-5">
-        <h3 class="feature-item__title"><%= t(:feature5Title) %></h3>
+      <div class="feature__content" >
+        <h3 class="feature__title"><%= t(:feature5Title) %></h3>
         <p><%= t(:feature5Content) %></p>
       </div>
-      <div class="feature-image-small browser-shot browser-shot--inline browser-shot--light">
-        <img src="/images/screenshot_contribute.jpg" alt="" />
-      </div>
-      <div class="feature-item" data-feature-image="#feature-image-6">
-        <h3 class="feature-item__title"><%= t(:feature6Title) %></h3>
-        <p><%= t(:feature6Content) %></p>
-      </div>
     </div>
-    <div class="feature-image-list">
-      <div class="feature-image active browser-shot browser-shot--inline browser-shot--light" id="feature-image-4">
-        <img src="/images/screenshot-scalable.jpg" alt="" />
+      <div class="feature__item">
+        <div class="feature__image">
+          <img src="/images/features/landing-open.svg" alt="" />
+        </div>
+        <div class="feature__content" >
+          <h3 class="feature__title"><%= t(:feature6Title) %></h3>
+          <p><%= t(:feature6Content) %></p>
+        </div>
       </div>
-      <div class="feature-image browser-shot browser-shot--inline browser-shot--light" id="feature-image-5">
-        <img src="/images/screenshot_process_backend.jpg" alt="" />
-      </div>
-      <div class="feature-image browser-shot browser-shot--inline browser-shot--light" id="feature-image-6">
-        <img src="/images/screenshot_contribute.jpg" alt="" />
-      </div>
-    </div>
-  </div>
   <div class="feature__cta container">
-    <a href="<%= t(:path) %>/contract" class="btn btn--primary"><%= t(:valuesCta) %></a>
+    <a href="<%= t(:path) %>/features" class="btn btn--primary"><%= t(:valuesCta) %></a>
   </div>
 </section>

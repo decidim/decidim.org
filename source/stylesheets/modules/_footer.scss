@@ -1,6 +1,10 @@
 .footer{
   background-color: $primary;
   color: white;
+  margin-top: 3rem;
+  @media (min-width: $L){
+    margin-top: 6rem;
+  }
 
   &__cta{
     padding-top: 6rem;
