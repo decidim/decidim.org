@@ -3,13 +3,17 @@
   left: 0;
   right: 0;
   z-index: $z-topbar;
-  padding: .5rem 2rem;
+  padding: .5rem 1rem;
   background-color: $primary;
   color: white;
   box-shadow: 0 2px 5px rgba(black,.05);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (min-width: $M){
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
   a {
     border: 0;

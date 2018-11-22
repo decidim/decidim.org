@@ -1,8 +1,13 @@
 .lang-wrapper{
-  display: inline-block;
+  display: none;
   position: relative;
   margin-right: .5rem;
   z-index: $z-mobile-lang;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  @media (min-width: $M){
+    display: inline-block;
+  }
 
   > a{
     margin-left: 0;
@@ -41,9 +46,10 @@
   list-style: none;
   padding-left: 0;
   left: .5rem;
-  top: .4em;
+  top: 1.4em;
   padding: .2em .5em;
   border-radius: $radius;
+  box-shadow: 0 2px 5px rgba(black,.05);
   body:not(.is-lang-active) &:target,
   .lang-trigger:hover + &,
   .is-lang-open &,
