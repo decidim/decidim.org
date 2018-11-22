@@ -1,0 +1,18 @@
+
+<section class="testimonials container">
+  <% @testimonial = data.testimonials[2] %>
+  <div class="testimonials__block">
+    <div class="testimonials__img">
+      <img src="<%= @testimonial.image %>" alt="<%= @testimonial.name %>" />
+    </div>
+    <div class="testimonials__content">
+      <cite class="testimonials__attr">
+        <span class="testimonials__author"><%= @testimonial.name %></span> 
+        <span class="testimonials__org"><%= @testimonial[locale].org %></span>
+      </cite>
+      <blockquote class="testimonials__quote">
+        <p><%= @testimonial[locale].quote %></p>
+      </blockquote>
+    </div>
+  </div>
+</section>
