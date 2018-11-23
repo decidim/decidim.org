@@ -39,17 +39,11 @@ es:
   subheroFeature4: 'Procesos<br/>participativos'
   subheroFeature5: 'Órganos<br/>de participación'
   subheroFeature6: 'Comunicación<br/>en red'
-  ##Testimonials
-  testimonialsTitle: "Here's what our users are saying about Decidim"
   ## Logo sections
   logosUsedByTitle: 'Ya están usando Decidim'
-  logosDrivenByTitle: 'Proyecto impulsado por'
-  logosPartnersTitle: 'Entidades colaboradoras'
   logosUsedByCta: 'Ver todos'
   ## CTA Block
   ctaTitle: 'comienza a usar Decidim'
-  ctaIntro: 'Prueba la demo online o descarga el código fuente'
-  ctaContact: "Si tienes alguna duda, <a href='mailto:hola@decidim.org'>ponte en contacto con nosotros</a>"
   ## Footer
   footerDrivenByTitle: 'Proyecto impulsado por'
   footerAttribution: '&copy; 2018 - Creative Commons By-SA'
@@ -66,10 +60,6 @@ es:
   feature5Content: 'Decidim asegura la transparencia, trazabilidad e integridad de la información como nunca antes. Proporciona seguridad, privacidad y confidencialidad a todas las participantes.'
   feature6Title: 'Es vuestra.<br/>Compartidla. Mejoradla.'
   feature6Content: 'Una plataforma pensada enteramente con software libre, de contenido abierto y colaborativo gracias a la comunidad Metadecidim.'
-  # feature7Title: 'Modular, escalable, configurable: actualiza y expande'
-  # feature7Content: 'Decidim no es solo una plataforma sino un marco para la participación, diseñado para escalar eficientemente con actualizaciones inmediatas y automáticas, gracias a su arquitectura modular y a su facilidad para incorporar contribuciones de distintas instituciones. Instálalo una sola vez y benefíciate de todos las mejoras futuras.'
-  # feature8Title: 'Contribuye y hazlo tuyo'
-  # feature8Content: 'Decidim es 100% código, diseño, datos y contenidos libres y abiertos. Puedes hacer tus propias extensiones y contribuir al núcleo de Decidim para beneficiar a toda la comunidad.'
   featureCta: 'Ver todas las funcionalidades'
   valuesCta: 'Ir al contrato social'
   # Demo --- translation directly in /localizable/demo.es.html.erb
