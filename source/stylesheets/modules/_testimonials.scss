@@ -4,28 +4,58 @@
   &__block{
     color: white;
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    background: url(/images/icons/quote.svg) no-repeat right bottom -90px;
+    background-image: url(/images/icons/quote.svg);
+    background-repeat: no-repeat; 
+    background-position: right bottom -100px;
+    background-size: 15rem; 
+    @media (min-width: $L){
+      flex-direction: row;
+      background-position: right bottom -90px;
+      background-size: auto; 
+    }
   }
   &__img{
     flex-shrink: 0;
+    align-self: stretch;
+    @media (max-width: $L-max){
+      padding-top: 2rem;
+    }
+
     img{
       display: block;
       opacity: .5;
       filter: grayscale(100%);
+      @media (max-width: $L-max){
+        max-width: 150px;
+      }
+      @media (min-width: $L){
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
     }
   }
   &__content{
-    font-size: $large-fontsize;
-    padding: 2rem;
+    padding: 1rem 0 2rem;
+    @media (min-width: $M){
+      font-size: $large-fontsize;
+    }
+    @media (min-width: $L){
+      padding: 2rem;
+    }
   }
 
   &__attr{
     display: block;
-    font-size: $h1;
+    font-size: $h2;
     font-weight: 600;
     font-style: normal;
     margin-bottom: 1rem;
+    @media (min-width: $M){
+      font-size: $h1;
+    }
   }
 
   &__author{

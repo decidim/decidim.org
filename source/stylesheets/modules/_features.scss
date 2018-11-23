@@ -1,31 +1,58 @@
 .feature{
   &__item{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto 6rem;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto 4rem;
     max-width: 55rem;
+    @media (min-width: $M){
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6rem;
+    }
   }
   &__item--alt{
-    flex-direction: row-reverse;
+    @media (min-width: $M){
+      flex-direction: row-reverse;
+    }
     .feature__content{
-      padding-right: 5rem;
-      padding-left: 0;
+      @media (min-width: $M){
+        padding-right: 2rem;
+        padding-left: 0;
+      }
+      @media (min-width: $L){
+        padding-right: 5rem;
+      }
     }
   }
   &__content{
-    padding-left: 5rem;
-    font-size: $large-fontsize;
+    @media (min-width: $M){
+      font-size: $large-fontsize; 
+      padding-left: 2rem;
+    }
+    @media (min-width: $L){
+      padding-left: 5rem;
+    }
   }
   &__title{
-    font-size: $h1;
+    font-size: $h2;
     line-height: 1.2;
     color: $primary;
     text-transform: lowercase;
+    @media (min-width: $M){
+      font-size: $h1;
+    }
   }
   &__image{
     flex-shrink: 0;
-    max-width: 25rem;
+    max-width: 15rem;
+    @media (min-width: $S){
+      max-width: 20rem;
+    }
+    @media (min-width: $L){
+      max-width: 25rem;
+    }
   }
   
   &__cta{
