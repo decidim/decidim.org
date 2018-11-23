@@ -63,15 +63,10 @@
 
   &__subhead{
     font-size: 1.3rem;
-    // color: $primary;
+    color: white;
     font-weight: 600;
     margin-left: 7px;
-    span{
-      box-shadow: -4px 1px 0 2px white, 4px 1px 0 2px white;
-      background-color: white;
-      box-decoration-break: clone;
-      line-height: 1.5;
-    }
+    line-height: 1.5;
   }
 
   [data-playvideo-button]{
