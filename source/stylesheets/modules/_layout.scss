@@ -21,6 +21,11 @@ body{
 .container--text-col{
   max-width: $maxwidth-textcol;
 }
+
+.container--small-col{
+  max-width: $maxwidth-smallcol;
+}
+
 .container--center{
   text-align: center;
 }

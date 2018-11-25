@@ -3,40 +3,42 @@ title: Contacto | Decidim
 description:
 ---
 
-<div class="container container--text-col container-vertical">
-  <h1 class="page-title">Contacta con nosotros</h1>
-  <form method="post" name="contact" netlify>
-    <div class="form-field">
-      <label for="name">
-        Nombre <span class="required" aria-label="required field">*</span>
-      </label>
-      <input type="text" id="name" name="name" required/>
-    </div>
-    <div class="form-field">
-      <label for="entity">Entidad</label>
-      <input type="text" id="entity" name="entity" />
-    </div>
-    <div class="form-field">
-      <label for="email">Correo electrónico <span class="required" aria-label="required field">*</span></label>
-      <input type="email" id="email" name="email" required/>
-    </div>
-    <div class="form-field">
-      <label for="reason">Motivo <span class="required" aria-label="required field">*</span></label>
-      <select id="reason" name="reason" required>
-        <option value=""></option>
-        <option value="Prensa/comunicación">Prensa/comunicación</option>
-        <option value="Investigación">Investigación</option>
-        <option value="Desarrollo">Desarrollo</option>
-        <option value="Extensión">Extensión</option>
-        <option value="Más información">Más información</option>
-      </select>
-    </div>
-    <div class="form-field message">
-      <label for="message">Mensaje <span class="required" aria-label="required field">*</span></label>
-      <textarea id="message" name="message" required></textarea>
-    </div>
-    <div class="form-field">
-      <button type="submit" class="btn btn--primary">Enviar</button>
-    </div>
-  </form>
+<div class="container container-vertical">
+  <div class="container--small-col">
+    <h1 class="page-title">Contacta con nosotros</h1>
+    <form method="post" name="contact" netlify>
+      <div class="form-field">
+        <label for="name">
+          Nombre <span class="required" aria-label="required field">*</span>
+        </label>
+        <input type="text" id="name" name="name" required/>
+      </div>
+      <div class="form-field">
+        <label for="entity">Entidad</label>
+        <input type="text" id="entity" name="entity" />
+      </div>
+      <div class="form-field">
+        <label for="email">Correo electrónico <span class="required" aria-label="required field">*</span></label>
+        <input type="email" id="email" name="email" required/>
+      </div>
+      <div class="form-field">
+        <label for="reason">Motivo <span class="required" aria-label="required field">*</span></label>
+        <select id="reason" name="reason" required>
+          <option value=""></option>
+          <option value="Prensa/comunicación">Prensa/comunicación</option>
+          <option value="Investigación">Investigación</option>
+          <option value="Desarrollo">Desarrollo</option>
+          <option value="Extensión">Extensión</option>
+          <option value="Más información">Más información</option>
+        </select>
+      </div>
+      <div class="form-field message">
+        <label for="message">Mensaje <span class="required" aria-label="required field">*</span></label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <div class="form-field">
+        <button type="submit" class="btn btn--primary">Enviar</button>
+      </div>
+    </form>
+  </div>
 </div>

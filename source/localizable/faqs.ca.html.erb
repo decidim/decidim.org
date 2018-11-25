@@ -4,9 +4,9 @@ description:
 ---
 <div class="container container-vertical">
   <h1 class="page-title">Preguntes freqüents</h1>
-  <% @faqs = data.faqs 
+  <% @faqs = data.faqs
   %>
-  <div class="partner__container">
+  <div class="partner__container container--text-col">
     <% @faqs.each do |use| %>
       <dl class="faqs">
         <dt><%= use[locale].question %><dt>
