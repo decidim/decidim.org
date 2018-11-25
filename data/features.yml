@@ -1,0 +1,255 @@
+- feature1:
+  type: spaces
+  image: /images/features/processes.svg
+  en:
+    title: 'Participatory processes'
+    subtitle: 'to democratize common issues, step by step'
+    text: 'Processes is a space that allows to create, activate/deactivate, and manage various participatory processes. These are distinguished from other spaces by being structured in different phases within which all of the components can be incorporated. Examples of participatory processes are: an election process for members of a committee, participatory budgeting, a strategic planning process, the collaborative writing of a regulation or norm, the design of an urban space or the production of a public policy plan.'
+  es:
+    title: 'Procesos participativos'
+    subtitle: 'para democratizar asuntos comunes, paso a paso'
+    text: 'Procesos permite crear, activar/desactivar y administrar diferentes procesos de participación, articularlos en diferentes fases en las que pueden combinarse todos los componentes (un proceso de elección de los miembros de un comité, presupuestación participativa, un proceso de planificación estratégica, la redacción colaborativa de un reglamento o norma, el diseño de un espacio urbano o la producción de un plan de políticas públicas…).'
+  ca:
+    title: 'Processos participatius'
+    subtitle: 'Per democratitzar assumptes comuns, pas a pas'
+    text: 'Processos permet crear, activar/desactivar i administrar diferents processos de participació, articular-los en diferents fases en què poden combinar-se tots els components (un procés d’elecció dels membres d’un consell, pressupostació participativa, un procés de planificació estratègica, la redacció col·laborativa d’un reglament o norma, el disseny d’un espai urbà o la producció d’un pla de polítiques públiques…)'
+- feature2:
+  type: spaces
+  image: /images/features/assemblies.svg
+  en:
+    title: 'Assemblies'
+    subtitle: 'the power of collective self-organization'
+    text: 'Is a space that offers the possibility of setting decision-making bodies or groups (councils, working groups, committees, etc.) that meet up periodically, detailing their composition, listing and geolocating their meetings, and allowing to take part in them (for instance: attending if the seating capacity and nature of the assembly so permits, adding items to the agenda, or commenting on the proposals and decisions taken by that body).'
+  es:
+    title: 'Asambleas'
+    subtitle: 'el poder de la autorganización colectiva'
+    text: 'Las Asambleas es un espacio que ofrece la posibilidad de constituir órganos o grupos de decisión (consejos, grupos de trabajo, comisiones, etc.) que se reúnen periódicamente, detallando su composición, listando y geolocalizando sus reuniones, y permitiendo la participación en las mismas (por ejemplo: asistiendo si el aforo y la naturaleza de la asamblea lo permiten, añadiendo puntos al orden del día, o comentando las propuestas y decisiones tomadas por dicho órgano).'
+  ca:
+    title: 'Assemblees'
+    subtitle: 'El poder de la autorganització col·lectiva'
+    text: 'Les Assemblees ofereixen la possibilitat de definir òrgans o grups de decisió (consells, grups de treball, comitès, etc.) que es reuneixen periòdicament, detallar-ne la composició, llistant i geolocalitzant les seves trobades i permetent la participació (per exemple; acudint-hi si l’aforament i la naturalesa de l’assemblea ho permet, introduint punts en l’ordre del dia o comentant les propostes i decisions preses per l’òrgan esmentat)'
+- feature3:
+  type: spaces
+  image: /images/features/consultations.svg
+  en:
+    title: 'Consultations'
+    subtitle: 'the right to decide with all democratic guarantees'
+    text: 'Consultations is a space that makes it possible to coordinate referendums, trigger discussions and debates, get voting results published; it can be connected to a secure e-voting system.'
+  es:
+    title: 'Consultas'
+    subtitle: 'el derecho a decidir con todas las garantías democráticas'
+    text: 'Consultas es un espacio que permite coordinar referendos, organizar discusiones y debates, publicar los resultados de las votaciones y conectarse a un sistema seguro de voto electrónico.'
+  ca:
+    title: 'Consultes'
+    subtitle: 'El dret a decidir amb totes les garanties democràtiques'
+    text: 'Consultes fa possible articular referèndums, generar discussions i debats, connectar amb un sistema de vot electrònic segur i mostrar els resultats.'
+- feature4:
+  type: spaces
+  image: /images/features/initiatives.svg
+  en:
+    title: 'Initiatives'
+    subtitle: "setting everyone's agenda, within everyone's reach"
+    text: 'Initiatives is a space that allows participants to collaboratively create initiatives, define their trajectory and goals, gather endorsements, discuss, debate and disseminate initiatives and define meeting points where signatures can be collected from attendees or debates opened to other members of the organization.'
+  es:
+    title: 'Iniciativas'
+    subtitle: 'marcar la agenda de todas, al alcance de cualquiera'
+    text: 'Iniciativas es un espacio que permite a los participantes crear iniciativas de forma colaborativa, definir su trayectoria y objetivos, recoger apoyos, discutir, debatir y difundir iniciativas y definir puntos de encuentro donde se puedan recoger firmas de los asistentes o debates abiertos a otros miembros de la organización.'
+  ca:
+    title: 'Iniciatives'
+    subtitle: "Marcar l’agenda de totes,a l'abast de qualsevol"
+    text: 'Iniciatives permet crear iniciatives de manera col·laborativa, definir-ne la trajectòria i l’objectiu, recollir suports, discutir, debatre i difondre la iniciativa i definir punts de trobada per a la recollida de signatures presencial o debats oberts a altres membres de l’organització'
+- feature5:
+  type: components
+  image: /images/features/proposals.svg
+  en:
+    title: 'Proposals'
+    subtitle: 'your ideas in detail'
+    text: 'The proposals component allows users to create a proposal using a creation wizard, compare it with existing ones, publish it in the platform and include additional information like geolocation or attached documents and images. This component also enables you to browse, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.'
+  es:
+    title: 'Propuestas'
+    subtitle: 'vuestras ideas, en detalle'
+    text: 'El componente propuestas permite al usuario crear una propuesta utilizando un asistente de creación, compararla con las existentes, publicarla en la plataforma e incluir información adicional como geolocalización o documentos e imágenes adjuntos. Este componente también permite navegar, filtrar e interactuar con un conjunto de propuestas. Además, con la propuesta-incubadora podéis crear propuestas colaborativas.'
+  ca:
+    title: 'Propostes'
+    subtitle: 'Les vostres idees, detalladament'
+    text: 'El component propostes permet a l’usuari crear una proposta utilitzant un assistent de creació comparar-la amb les existents, publicar-la a la plataforma i incloure informació addicional com geolocalització o adjuntar documents i imatges. Aquest component també permet navegar, filtrar i interactuar amb un conjunt de propostes. A més, amb la proposta-incubadora podeu crear propostes col·laboratives.'
+- feature6:
+  type: components
+  image: /images/features/voting.svg
+  en:
+    title: 'Voting'
+    subtitle: 'decide your vote'
+    text: 'The voting component offers organizations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc.'
+  es:
+    title: 'Votaciones'
+    subtitle: 'decide tu voto'
+    text: 'El componente votación ofrece a las organizaciones la posibilidad de activar diferentes sistemas de votación o apoyo en torno a las propuestas: ilimitado, limitado a un determinado umbral, ponderado, basado en costes, etc.'
+  ca:
+    title: 'Votacions'
+    subtitle: 'Decideix el teu vot'
+    text: 'El component votacions ofereix a les organitzacions la possibilitat d’activar diferents sistemes de votació o suport sobre les propostes: vot il·limitat, a un determinat sector, ponderat, basat en costos, etcètera.'
+- feature7:
+  type: components
+  image: /images/features/results.svg
+  en:
+    title: 'Results'
+    subtitle: 'no proposal without an answer'
+    text: 'The results component is used to turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.'
+  es:
+    title: 'Resultados'
+    subtitle: 'ninguna propuesta sin respuesta'
+    text: 'El componente resultados se utiliza para convertir propuestas en resultados y dar respuestas oficiales sobre su aceptación o rechazo, fusionando varias propuestas en un solo resultado.'
+  ca:
+    title: 'Resultats'
+    subtitle: 'Cap proposta sense resposta'
+    text: 'El component resultats serveix per convertir propostes en resultats i donar respostes oficials a la seva acceptació o rebuig, fusionant diverses propostes en un sol resultat.'
+- feature8:
+  type: components
+  image: /images/features/accountability.svg
+  en:
+    title: 'Accountability'
+    subtitle: 'transparency from beginning to end'
+    text: 'The accountability component offers the possibility of subdividing results into projects, defining and applying progress statuses around their implementation, as well as displaying the extent of the results’ implementation grouped by categories and scopes.'
+  es:
+    title: 'Rendición de cuentas'
+    subtitle: 'transparencia de principio a fin'
+    text: 'El componente de rendición de cuentas ofrece la posibilidad de subdividir los resultados en proyectos, definir y aplicar estados de progreso en torno a su implementación, así como mostrar el grado de implementación de los resultados agrupados por categorías y alcances.'
+  ca:
+    title: 'Rendició de comptes'
+    subtitle: 'Transparència de principi a fi'
+    text: "El component de rendició de comptes ofereix la possibilitat de subdividir els resultats en projectes, definir i aplicar estats de progrés entorn de la seva implementació, així com mostrar el grau d'implementació dels resultats agrupats per categories i abast."
+- feature9:
+  type: components
+  image: /images/features/meetings.svg
+  en:
+    title: 'Meetings'
+    subtitle: 'to meet and not miss anything'
+    text: 'The meeting component offers organizations and participants the opportunity to convene meetings, determine their location and time, register and limit attendees, define the structure and content of the meeting as well as publishing the minutes, and the resulting proposals.'
+  es:
+    title: 'Encuentros'
+    subtitle: 'para encontrarse y no perderse nada'
+    text: 'El componente de encuentros ofrece a las organizaciones y a los participantes la oportunidad de convocar reuniones, determinar su lugar y hora, registrar y limitar el número de asistentes, definir la estructura y el contenido de la reunión, así como publicar las actas y las propuestas resultantes.'
+  ca:
+    title: 'Trobades'
+    subtitle: "Per trobar-se i no perdre's res"
+    text: 'El component trobades ofereix a les organitzacions i als participants la possibilitat de convocar reunions, definir lloc i hora, registrar i limitar el nombre d’assistents, definir l’estructura i els continguts d’una cita o trobada presencial, així com de publicar-ne les actes i les propostes resultants.'
+- feature10:
+  type: components
+  image: /images/features/texts.svg
+  en:
+    title: 'Participatory texts'
+    subtitle: 'to analyze, synthesize, and build in common'
+    text: 'The participatory texts component can be used to convert lengthy text documents into various proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.'
+  es:
+    title: 'Textos participativos'
+    subtitle: 'para analizar, sintetizar, y construir  en común'
+    text: 'Procesos permite crear, activar/desactivar y administrar diferentes procesos de participación, articularlos en diferentes fases en las que pueden combinarse todos los componentes (un proceso de elección de los miembros de un comité, presupuestación participativa, un proceso de planificación estratégica, la redacción colaborativa de un reglamento o norma, el diseño de un espacio urbano o la producción de un plan de políticas públicas…)'
+  ca:
+    title: 'Textos participatius'
+    subtitle: 'Per analitzar, sintetitzar, i construir  en comú'
+    text: 'El component textos participatius permet dividir un document de text en diverses propostes o resultats i, inversament, compondre i visualitzar un text unificat partint d’una col·lecció de propostes o resultats.'
+- feature11:
+  type: other
+  image: /images/features/conference.svg
+  en:
+    title: 'Conference'
+    subtitle: 'Where big events are premiered'
+    text: 'The conference component allows an organization to create a website for a big event by joining up a series predefined meetings (chats, workshops etc.), putting together a unified program and managing attendees.'
+  es:
+    title: 'Conferencia'
+    subtitle: 'donde los grandes eventos se estrenan'
+    text: 'El componente conferencia permite a una organización crear un sitio web para un gran evento uniendo una serie de encuentros predefinidos (chats, talleres, etc.), creando un programa unificado y gestionando los asistentes.'
+  ca:
+    title: 'Conferència'
+    subtitle: 'On els grans esdeveniments s’estrenen'
+    text: 'El component conferència permet a una organització crear un lloc web per a un gran esdeveniment unint tot una sèrie de trobades predefinides (xats, tallers, etc.), creant un programa unificat i gestionant l’assistència.'
+- feature12:
+  type: other
+  image: /images/features/survey.svg
+  en:
+    title: 'Surveys'
+    subtitle: 'Because the opinion of your community matters'
+    text: 'The surveys component can be used to design and publish surveys and to display and download their results.'
+  es:
+    title: 'Encuestas'
+    subtitle: 'porque la opinión de tu comunidad cuenta'
+    text: 'El componente encuestas se puede utilizar para diseñar y publicar encuestas y para mostrar y descargar sus resultados.'
+  ca:
+    title: 'Enquestes'
+    subtitle: "Perquè l'opinió de la teva comunitat importa"
+    text: 'El component enquestes es pot utilitzar per dissenyar i publicar enquestes i per mostrar i descarregar els seus resultats.'
+- feature13:
+  type: other
+  image: /images/features/sortition.svg
+  en:
+    title: 'Sortition'
+    subtitle: 'Equality and the justice of randomness'
+    text: 'The sortition component allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.'
+  es:
+    title: 'Sorteo'
+    subtitle: 'la igualdad y la justicia del azar'
+    text: 'El componente sorteo permite seleccionar un número de propuestas (por ejemplo, candidatos a un jurado) con procedimientos aleatorios, pero reproducibles, que garantizan distribuciones no sesgadas y uniformes.'
+  ca:
+    title: 'Sorteig'
+    subtitle: "La igualtat i la justícia de l'atzar"
+    text: 'El component sorteig permet escollir un número de propostes (per exemple, candidats a un jurat) amb procediments aleatoris, però reproduïbles, que garanteixen distribucions no esbiaixades i uniformes.'
+- feature14:
+  type: other
+  image: /images/features/comments.svg
+  en:
+    title: 'Comments'
+    subtitle: 'Building a collective intelligence'
+    text: 'The comments component enables users to add comments, to identify the comment as being in favor, against or neutral in relation to the commented object, to vote comments, respond to them and to receive notifications about responses.'
+  es:
+    title: 'Comentarios'
+    subtitle: 'construyendo la inteligencia colectiva'
+    text: 'El componente comentarios permite a los usuarios añadir comentarios, identificar el comentario como a favor, en contra o neutral en relación con el objeto comentado, votar comentarios, responder a ellos y recibir notificaciones sobre las respuestas.'
+  ca:
+    title: 'Comentaris'
+    subtitle: 'Construint la intel·ligència col·lectiva'
+    text: 'El component comentaris permet als usuaris afegir comentaris, identificar el comentari com a favor, en contra o neutral en relació amb l’objecte comentat, votar comentaris, respondre-hi i rebre notificacions sobre les respostes.'
+- feature15:
+  type: other
+  image: /images/features/blog.svg
+  en:
+    title: 'Pages and blogs'
+    subtitle: 'Your community, informed and up to date'
+    text: 'The pages component is used to create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.'
+  es:
+    title: 'Páginas y blogs'
+    subtitle: 'tu comunidad, informada y al día'
+    text: 'El componente páginas se utiliza para crear páginas informativas con formato de texto enriquecido, imágenes y vídeos incrustados. El componente blog permite la creación de mensajes o noticias, y navegar por ellos cronológicamente.'
+  ca:
+    title: 'Pàgines i blogs'
+    subtitle: 'La teva comunitat, informada i al dia'
+    text: 'El component pàgines serveix per crear pàgines informatives amb text enriquit, imatges i vídeos. El component blog permet la creació de missatges o notícies, i navegar cronològicament per ells.'
+- feature16:
+  type: other
+  image: /images/features/notifications.svg
+  en:
+    title: 'Notifications'
+    subtitle: 'Personalized information on interesting contents'
+    text: 'Decidim enables you to track any space or component to receive updates every time they happen.'
+  es:
+    title: 'Notificaciones'
+    subtitle: 'información personalizada sobre contenidos de interés'
+    text: 'Decidim permite seguir cualquier espacio o componente para recibir actualizaciones cada vez que se produzcan.'
+  ca:
+    title: 'Notificacions'
+    subtitle: 'Informació personalitzada de continguts d’interès'
+    text: 'Decidim permet seguir qualsevol espai o component per rebre actualitzacions cada vegada que es produeixin.'
+- feature17:
+  type: other
+  image: /images/features/newsletter.svg
+  en:
+    title: 'Newsletter'
+    subtitle: 'Simple but powerful'
+    text: 'The newsletter component makes possible to send emails to everyone registered in the platform or, more selectively, to those who participate in a specific space.'
+  es:
+    title: 'Boletín'
+    subtitle: 'sencillo pero potente'
+    text: 'El componente boletín permite enviar correos electrónicos a todas las personas registradas en la plataforma.'
+  ca:
+    title: 'Butlletí'
+    subtitle: 'Sencill però potent'
+    text: 'El component butlletí permet enviar correus electrònics a totes les persones registrades en la plataforma.'

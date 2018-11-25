@@ -47,18 +47,6 @@ p{
   margin-top: 0;
 }
 
-.page-title{
-  color: $primary;
-  max-width: 45rem;
-  font-size: $hero-fontsize;
-  text-transform: lowercase;
-  line-height: 1.2;
-  margin-bottom: 6rem;
-  &--nomargin{
-    margin-bottom: 0;
-  }
-}
-
 .help{
   font-size: $body-fontsize;
 }

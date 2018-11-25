@@ -1,0 +1,40 @@
+.feature-list{
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item{
+    width: 45%;
+    margin-top: 3rem;
+    margin-right: 10%;
+    &:nth-child(2n){
+      margin-right: 0;
+    }
+  }
+  &__image{
+    height: 12rem;
+    object-fit: cover;
+    margin-bottom: .5rem;
+  }
+  &__title{
+    color: $primary;
+    text-transform: lowercase;
+    line-height: 1.2;
+    margin-bottom: 0rem;
+  }
+  &__subtitle{
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    text-transform: lowercase;
+  }
+  &__item-mini{
+    width: 30%;
+    margin-top: 3rem;
+    margin-right: 5%;
+    &:nth-child(3n){
+      margin-right: 0;
+    }
+    .feature-list__image{
+      height: 6rem;
+    }
+  }
+}
