@@ -10,3 +10,24 @@
     column-count: 2;
   }
 }
+
+.faqs{
+  max-width: 55rem;
+  dt{
+    font-weight: 600;
+    color: $primary;
+    text-transform: lowercase;
+    font-size: $h2;
+  }
+  dd{
+    margin-left: 0;
+    margin-bottom: 1rem;
+    @media (min-width: $L){
+      font-size: $large-fontsize;
+    }
+    a{
+      border-color: $primary;
+    }
+  }
+  
+}

@@ -1,0 +1,17 @@
+---
+title: Preguntas frecuentes | Decidim
+description:
+---
+<div class="container container-vertical">
+  <h1 class="page-title">Preguntas frecuentes</h1>
+  <% @faqs = data.faqs 
+  %>
+  <div class="partner__container">
+    <% @faqs.each do |use| %>
+      <dl class="faqs">
+        <dt><%= use[locale].question %><dt>
+        <dd><%= use[locale].answer %></dd>
+      </dl>
+    <% end %>
+  </div>
+</div>
