@@ -5,7 +5,7 @@ per_page: 5
 <div class="blog container container--text-col container-vertical-top">
   <% blog.local_articles[0...5].each do |article| %>
     <article class="post-preview">
-      <h2>
+      <h2 class="page-title page-title--simplemargin">
         <a href="<%= article.url %>"><%= article.title %></a>
         <time class="post-date"><%= article.date.strftime('%d/%m/%Y') %></time>
       </h2>
