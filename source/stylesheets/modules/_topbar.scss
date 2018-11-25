@@ -1,7 +1,8 @@
 .topbar{
-  position: fixed;
+  position: sticky;
   left: 0;
   right: 0;
+  top: 0;
   z-index: $z-topbar;
   padding: .5rem 1rem;
   background-color: $primary;
