@@ -88,6 +88,24 @@
   image: /images/cityhalls/logo_quorumglobal.jpg
   type: org
   home: true
+- lafede:
+  name: La Fede
+  url: "#"
+  image: /images/cityhalls/logo_lafede.jpeg
+  type: org
+  home: false
+- agora:
+  name: Agora
+  url: "#"
+  image: /images/cityhalls/logo_agora.png
+  type: org
+  home: false
+- quorum-global:
+  name: Torre Jussana
+  url: "#"
+  image: /images/cityhalls/logo_tjussana.png
+  type: org
+  home: false
 - romainville:
   name: Romainville
   url: https://www.budget-participatif-romainville.fr/
@@ -172,6 +190,18 @@
   image: /images/cityhalls/logo_aj_calafell.png
   type: city
   home: false
+- fac:
+  name: FAC
+  url: "#"
+  type: org
+  home: true
+  image: /images/cityhalls/logo_fac.png
+- coterrats:
+  name: FAVB
+  url: "#"
+  image: /images/cityhalls/logo_favb.png
+  type: org
+  home: true
 - coterrats:
   name: CoTerrats
   url: https://decidim.coterrats.com/
