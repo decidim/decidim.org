@@ -24,16 +24,25 @@ en:
   ## Alert
   alertTitle: 'JAM 2018'
   alertSubtitle: 'Come to #JAM18 on 28 november'
-  alertDesc: 'We want to think and redesign participatory democracy. We want to build Decidim openly, transparently and collaboratively to make the best digital platform for participatory democracy. Towards a network of cities and democratic&nbsp;organizations.'
+  alertDesc:
+    'We want to think and redesign participatory democracy. We want to build
+    Decidim openly, transparently and collaboratively to make the best digital
+    platform for participatory democracy. Towards a network of cities and
+    democratic&nbsp;organizations.'
   ## Hero
-  heroHeading: 'Free Open-Source participatory democracy for cities and organizations'
+  heroHeading:
+    'Free Open-Source participatory democracy for cities and organizations'
   heroSubheading: 'Decidim is a digital platform<br/>for citizen participation'
-  heroIntro: 'Free and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.'
+  heroIntro:
+    'Free and safe technology.<br/>With all democratic
+    guarantees.<br/>Reprogramming democracy is now possible with Decidim.'
   playVideo: 'Play video'
-  videoUrl: 'https://www.youtube.com/embed/zhMMW0TENNA'
+  videoUrl: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
   closeVideo: 'Close video'
   ## Subhero
-  subheroIntro: 'Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.'
+  subheroIntro:
+    'Decidim helps citizens, organizations and public institutions self-organize
+    democratically at every scale.'
   subheroFeature1: 'Strategic<br/>planning'
   subheroFeature2: 'Participatory<br/>budgeting'
   subheroFeature3: 'Initiatives and<br/>citizen consultations'
@@ -50,17 +59,30 @@ en:
   footerAttribution: '&copy; 2018 - Creative Commons By-SA'
   ##Features
   feature1Title: 'Participatory<br/>budgets'
-  feature1Content: 'It analyses the submitted proposals and promotes a new way of distributing common resources.'
+  feature1Content:
+    'It analyses the submitted proposals and promotes a new way of distributing
+    common resources.'
   feature2Title: 'Citizen’s initiatives<br/>and consultations'
-  feature2Content: 'Empower your community through citizen initiatives. Promote relevant voting through consultations.'
+  feature2Content:
+    'Empower your community through citizen initiatives. Promote relevant voting
+    through consultations.'
   feature3Title: 'The power<br/>of a political network'
-  feature3Content: 'It takes deliberation, collaboration and decision to a massive dimension, with thousands of people participating in real time.'
+  feature3Content:
+    'It takes deliberation, collaboration and decision to a massive dimension,
+    with thousands of people participating in real time.'
   feature4Title: 'A democratic<br/>and flexible system'
-  feature4Content: 'Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic governance in all kinds of organizations.'
+  feature4Content:
+    'Thanks to its modular architecture and scalable logic, you can configure a
+    powerful system of democratic governance in all kinds of organizations.'
   feature5Title: 'We take democracy<br/>very seriously'
-  feature5Content: 'Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.'
+  feature5Content:
+    'Decidim ensures transparency, traceability and integrity of information
+    like never before. It provides security, privacy and confidentiality to all
+    participants.'
   feature6Title: "It's yours.<br/>Share it. Improve it."
-  feature6Content: 'A platform designed entirely with free software, open and collaborative content thanks to the community Metadecidim.'
+  feature6Content:
+    'A platform designed entirely with free software, open and collaborative
+    content thanks to the community Metadecidim.'
   featureCta: 'See all features'
   valuesCta: 'Go to social contract'
   # Demo --- translation directly in /localizable/demo.html.erb
@@ -70,11 +92,21 @@ en:
   # Documentation --- translation directly in /localizable/docs.html.erb
   # Features --- Intro texts
   featuresTitle: 'Features'
-  featuresIntro: '<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...</p><p>Thanks to Decidim you will be able to configure spaces for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).</p>'
+  featuresIntro:
+    '<p>You can use Decidim in a public or private organisation, with hundreds
+    or thousands of potential participants, such as a city council, an
+    association, a university, an NGO, a trade union, a neighbourhood collective
+    or a cooperative...</p><p>Thanks to Decidim you will be able to configure
+    spaces for participation (initiatives, assemblies, processes or
+    consultations) and enrich them through the multiple available components
+    (face-to-face meetings, surveys, proposals, voting, follow-up of results,
+    comments and many more).</p>'
   featuresType1Title: 'Spaces for participation'
   featuresType1Subtitle: 'For participants to make proposals and make decisions'
   featuresType2Title: 'Components'
   featuresType2Subtitle: 'For participants and spaces to interact'
-  featuresOtherSubtitle: 'Dare to combine the components. Design and deploy a powerful democratic system in an easy way and adapt it to your organization’s needs'
+  featuresOtherSubtitle:
+    'Dare to combine the components. Design and deploy a powerful democratic
+    system in an easy way and adapt it to your organization’s needs'
   featuresCtaTitle: 'Descubre cómo funciona Decidim a fondo'
   featuresCta: 'Functions and features'
