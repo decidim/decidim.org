@@ -1,0 +1,34 @@
+---
+title: Ya usan Decidim | Decidim
+description:
+---
+<div class="container container-vertical">
+  <h1 class="page-title">Estas ciudades, regiones y organizaciones ya están usando Decidim</h1>
+ <% @cities = data.cities.select {|city| city[:type] == "city"} %>
+ <% @regions = data.cities.select {|city| city[:type] == "region"} %>
+ <% @orgs = data.cities.select {|city| city[:type] == "org"} %>
+    <h2 class="subsection-title">Ciudades</h2>
+    <div class="logos-container">
+      <% @cities.each do |use| %>
+        <a href="<%= use.url %>" target="_blank" class="logo-item">
+          <img src="<%= use.image %>" alt="<%= use.name %>" />
+        </a>
+      <% end %>
+    </div>
+    <h2 class="subsection-title">Regiones</h2>
+    <div class="logos-container">
+      <% @regions.each do |use| %>
+        <a href="<%= use.url %>" target="_blank" class="logo-item">
+          <img src="<%= use.image %>" alt="<%= use.name %>" />
+        </a>
+      <% end %>
+    </div>
+    <h2 class="subsection-title">Organizaciones</h2>
+    <div class="logos-container">
+      <% @orgs.each do |use| %>
+        <a href="<%= use.url %>" target="_blank" class="logo-item">
+          <img src="<%= use.image %>" alt="<%= use.name %>" />
+        </a>
+      <% end %>
+    </div>
+</div>

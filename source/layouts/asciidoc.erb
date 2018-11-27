@@ -9,10 +9,19 @@
         <%= stylesheet_link_tag "site" %>
         <link rel="icon" type="image/png" href="/images/favicon.png">
     </head>
-    <body>
-        <%# partial "/partials/alert" %>
-        <%= partial "partials/header" %>
+
+    <body class="<%= current_page.data.pageClass || "" %>">
+        <%#= partial "/partials/alert" %>
+        <%= partial "partials/topbar" %>
         <main class="main">
+            <div class="container container--text-col container-vertical">
+                <h1 class="page-title">
+                    <%= current_page.data.title || "Decidim" %>
+                </h1>
+                <%= yield %>
+            </div>
+        </main>
+        <!--<main class="main">
             <div class="blog container container--text-col container-vertical-top container-vertical-bottom">
                 <h1>
                     <div>
@@ -21,9 +30,10 @@
                 </h1>
                 <%= yield %>
             </div>
-        </main>
+        </main>-->
 
         <%= partial "partials/footer" %>
+        <%= javascript_include_tag "display-topbar", :async => "async" %>
         <%= javascript_include_tag "nav-toggle", :async => "async" %>
         <%= javascript_include_tag "closest-polyfill", :async => "async" %>
         <%= javascript_include_tag "lang-toggle", :async => "async" %>

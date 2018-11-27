@@ -1,16 +1,19 @@
 //Colors
-$primary: #ED4D4F;
+$primary: #FF3333;
+$primary-alt: #e52d2e;
+$primaryLight: #FF9C9C;
 $secondary: #9fc7bc;
-$body-color: #333;
+$body-color: #231f20;
 $blue: #466BA0;
 $darkblue: #28446C;
 $softblue: #637fa5;
 $light-grey: mix(white, $blue, 92%);
 $lighter-grey: #fafafa;
+$dark-grey: #252525;
 
 
 //Border radius
-$radius: 3px;
+$radius: 1px;
 
 
 //Sizes
@@ -32,7 +35,8 @@ $XL-max: (1199 / 16) + em;
 
 $maxwidth: (1200/16 ) + rem;
 $maxwidth--hero: (700/16 ) + rem;
-$maxwidth-textcol: (760/16) + rem;
+$maxwidth-textcol: (880/16) + rem;
+$maxwidth-smallcol: (760/16) + rem;
 
 //Font-sizes
 $body-fontsize: (16/16) + rem;
@@ -40,6 +44,7 @@ $large-fontsize: (18/16) + rem;
 $larger-fontsize: (20/16) + rem;
 $largest-fontsize: (22/16) + rem;
 $small-fontsize: (14/16) + rem;
+$hero-fontsize: (40/16) + rem;
 $h1: (32/16) + rem;
 $h2: (24/16) + rem;
 $h3: (18/16) + rem;
@@ -53,6 +58,8 @@ $heading-fontweight: 600;
 //Z-index
 $z-play-video-bg: 0;
 $z-play-video-button: 1;
-$z-mobile-links: 1;
 $z-mobile-lang: 2;
-$z-video-wrapper: 3;
+$z-topbar: 4;
+$z-nav: 5;
+$z-nav-trigger: 6;
+$z-video-wrapper: 7;

@@ -1,70 +1,79 @@
----
 es:
-  path: "/es"
-  activeLang: "Castellano"
-  buttonDemo: "Demo online"
-  buttonCode: "Código en Github"
+  path: '/es'
+  activeLang: 'Castellano'
+  buttonDemo: 'Demo online'
+  buttonCode: 'Código en Github'
 
   #Navigation links
-  navText: "Navegación"
-  navDemo: "Demo"
-  navCommunity: "Comunidad"
-  navContract: "Contrato social"
-  navCode: "Código"
-  navDocs: "Documentación"
-  navCredits: "Créditos y atribuciones"
-  navBlog: "Blog"
-  navFeatures: "Funcionalidades"
+  navText: 'Navegación'
+  navDemo: 'Demo'
+  navCommunity: 'Comunidad'
+  navContract: 'Contrato social'
+  navCode: 'Código'
+  navDocs: 'Documentación'
+  navCredits: 'Créditos y atribuciones'
+  navBlog: 'Blog'
+  navFeatures: 'Funcionalidades'
+  navFaqs: 'FAQs'
+  navContact: 'Contacto'
+  navUsedBy: 'Ya usan Decidim'
+  navPartners: 'Entidades colaboradoras'
 
   # Index ---
   ## Alert
-  alertTitle: "JAM 2018"
-  alertSubtitle: "Te esperamos en las #JAM18 del 28 de noviembre"
-  alertDesc: "Queremos pensar y rediseñar una nueva democracia en red. Construir de forma abierta, transparente y colaborativa Decidim, ​​la plataforma digital de participación democrática. Hacia un red de ciudades y organizaciones&nbsp;democráticas."
+  alertTitle: 'JAM 2018'
+  alertSubtitle: 'Te esperamos en las #JAM18 del 28 de noviembre'
+  alertDesc: 'Queremos pensar y rediseñar una nueva democracia en red. Construir de forma abierta, transparente y colaborativa Decidim, ​​la plataforma digital de participación democrática. Hacia un red de ciudades y organizaciones&nbsp;democráticas.'
   ## Hero
-  heroHeading: "<strong>Democracia participativa</strong> de código libre para ciudades y organizaciones"
-  heroIntro: "Decidim es más que una plataforma digital: es un proyecto y una infraestructura abierta que incluye código, documentación, diseño, formación, un marco legal, interfaces colaborativas, una comunidad de usuarios y facilitadores y una visión global."
-  playVideo: "Reproducir vídeo"
-  videoUrl: "https://www.youtube.com/embed/ahVZLOlE3GE"
-  closeVideo: "Cerrar el vídeo"
+  heroHeading: 'Democracia participativa de código libre para ciudades y organizaciones'
+  heroSubheading: 'Decidim es una plataforma digital<br/>de participación ciudadana'
+  heroIntro: 'Tecnología libre y segura.<br/>Con todas las garantías democráticas.<br/>Reprogramar la democracia ahora es posible con Decidim.'
+  playVideo: 'Reproducir vídeo'
+  videoUrl: 'https://www.youtube.com/embed/ahVZLOlE3GE'
+  closeVideo: 'Cerrar el vídeo'
   ## Subhero
-  subheroIntro: "Decidim ayuda a ciudadanos, organizaciones e instituciones públicas a auto-organizarse democráticamente a todos los niveles."
-  subheroFeture1: "Co-producción de planificaciones estratégicas"
-  subheroFeture2: "Organización de presupuestos participativos"
-  subheroFeture3: "Construcción de procesos multitudinarios de deliberación"
-  subheroFeture4: "Promoción de toma de decisiones distribuidas"
+  subheroIntro: 'Decidim ayuda a ciudadanos, organizaciones e instituciones públicas a auto-organizarse democráticamente a todos los niveles.'
+  subheroFeature1: 'Planificación<br/>estratégica'
+  subheroFeature2: 'Presupuestos<br/>participativos'
+  subheroFeature3: 'Iniciativas y<br/>consultas ciudadanas'
+  subheroFeature4: 'Procesos<br/>participativos'
+  subheroFeature5: 'Órganos<br/>de participación'
+  subheroFeature6: 'Comunicación<br/>en red'
   ## Logo sections
-  logosUsedByTitle: "Ya lo están usando"
-  logosDrivenByTitle: "Proyecto impulsado por"
-  logosPartnersTitle: "Entidades colaboradoras"
+  logosUsedByTitle: 'Ya están usando Decidim'
+  logosUsedByCta: 'Ver todos'
   ## CTA Block
-  ctaTitle: "Comienza a usar Decidim"
-  ctaIntro: "Prueba la demo online o descarga el código fuente"
-  ctaContact: "Si tienes alguna duda, <a href='mailto:hola@decidim.org'>ponte en contacto con nosotros</a>"
+  ctaTitle: 'comienza a usar Decidim'
+  ## Footer
+  footerDrivenByTitle: 'Proyecto impulsado por'
+  footerAttribution: '&copy; 2018 - Creative Commons By-SA'
   ##Features
-  feature1Title: "Propón, reúnete, delibera, decide, monitoriza: únete a la democracia"
-  feature1Content: "Decidim hace posible que miles de personas se organicen democráticamente realizando propuestas, asistiendo a reuniones públicas, creando discusiones deliberativas, decidiendo mediante distintas formas de votación y monitorizando la implementación de las decisiones."
-  feature2Title: "Configura procesos participativos fácilmente"
-  feature2Content: "¿Quieres hacer un plan estratégico? ¿O discutir nuevas normativas? ¿O debatir sobre una plaza nueva o un edificio público para alcanzar el bien común? Decidim es un configurador de procesos participativos muy fácil de usar que te ayuda a estructurar e implementar prácticamente cualquier tipo de proceso."
-  feature3Title: "Presupuestos participativos de verdad"
-  feature3Content: "Los ciudadanos podrán decidir directamente cómo gastar los fondos de un presupuesto público. Puedes abrir las propuestas, discutir y establecer las prioridades con los ciudadanos o miembros de la organización, estimar el precio de los proyectos y abrirlos a votación, así como monitorizar los resultados."
-  feature4Title: "Integración online y offline"
-  feature4Content: "No se trata tan solo de una plataforma digital, Decidim es una aplicación para personas de todos los orígenes y edades. La plataforma está diseñada para ayudar a reducir la brecha digital y para crear nuevas formas de participación a todos los niveles."
-  feature5Title: "Permite que las iniciativas ciudadanas alcancen su objetivo"
-  feature5Content: "Decidim permite a la gente crear, gestionar e impulsar sus propias iniciativas (p.e. crear una asamblea, crear un proceso de participación, promover una consulta, etc.) y alcanzar su objetivo. Es posible definir diferentes tipos de iniciativas, asignándoles un número mínimo de firmas o apoyos requeridos, y las personas participantes pueden iniciarlas, recabar apoyos e impulsar su iniciativa a gobierno."
-  feature6Title: "Crea y Gestiona Asambleas, Comités y Órganos de Participación"
-  feature6Content: "Crea fácilmente cualquier tipo de grupo de trabajo, asamblea, comité o órgano participativo, para que la gente pueda acudir a las reuniones, apoyar sus propuestas, seguir sus actas o auditar sus actividades."
-  feature7Title: "Modular, escalable, configurable: actualiza y expande"
-  feature7Content: "Decidim no es solo una plataforma sino un marco para la participación, diseñado para escalar eficientemente con actualizaciones inmediatas y automáticas, gracias a su arquitectura modular y a su facilidad para incorporar contribuciones de distintas instituciones. Instálalo una sola vez y benefíciate de todos las mejoras futuras."
-  feature8Title: "Contribuye y hazlo tuyo"
-  feature8Content: "Decidim es 100% código, diseño, datos y contenidos libres y abiertos. Puedes hacer tus propias extensiones y contribuir al núcleo de Decidim para beneficiar a toda la comunidad."
-
+  feature1Title: 'Presupuestos<br/>participativos'
+  feature1Content: 'Analiza las propuestas recibidas y potencia una nueva forma de distribuir los recursos comunes.'
+  feature2Title: 'Iniciativas<br/>y consultas ciudadanas'
+  feature2Content: 'Empodera a tu comunidad a través de iniciativas ciudadanas. Promueve votaciones relevantes a través de consultas.'
+  feature3Title: 'La potencia<br/>de una red política'
+  feature3Content: 'Lleva la deliberación, la colaboración y la decisión a una dimensión multitudinaria, con miles de personas participando en tiempo real.'
+  feature4Title: 'Un sistema<br/>democrático y flexible'
+  feature4Content: 'Gracias a su arquitectura modular y su lógica escalable, podrás configurar un potente sistema de gobernanza democrática en todo tipo de organizaciones.'
+  feature5Title: 'Nos tomamos la democracia<br/>muy en serio'
+  feature5Content: 'Decidim asegura la transparencia, trazabilidad e integridad de la información como nunca antes. Proporciona seguridad, privacidad y confidencialidad a todas las participantes.'
+  feature6Title: 'Es vuestra.<br/>Compartidla. Mejoradla.'
+  feature6Content: 'Una plataforma pensada enteramente con software libre, de contenido abierto y colaborativo gracias a la comunidad Metadecidim.'
+  featureCta: 'Ver todas las funcionalidades'
+  valuesCta: 'Ir al contrato social'
   # Demo --- translation directly in /localizable/demo.es.html.erb
-
   # Community --- translation directly in /localizable/community.es.html.erb
-
   # Social Contract --- translation directly in /localizable/contract.es.html.erb
-
   # Credits --- translation directly in /localizable/credits.es.html.erb
-
   # Documentation --- translation directly in /localizable/docs.es.html.erb
+  # Features --- Intro texts
+  featuresTitle: 'Funcionalidades'
+  featuresIntro: '<p>Puedes utilizar Decidim en una organización pública o privada, con cientos o miles de potenciales participantes, como un ayuntamiento, una asociación, una universidad, una ONG, un sindicato, un colectivo de barrio o cooperativa…</p><p>Gracias a Decidim podrás configurar espacios de participación (iniciativas, asambleas, procesos o consultas) y enriquecerlos a través de los múltiples componentes disponibles (encuentros presenciales, encuestas, propuestas, votaciones, seguimiento de resultados, comentarios y muchos más).</p>'
+  featuresType1Title: 'Espacios de participación'
+  featuresType1Subtitle: 'Para que los participantes realicen propuestas y tomen decisiones'
+  featuresType2Title: 'Componentes'
+  featuresType2Subtitle: 'Para que las participantes y espacios interactuen'
+  featuresOtherSubtitle: 'Atrévete a combinar los componentes en los espacios para diseñar e implementar con facilidad un potente sistema democrático y adaptarlo a las necesidades de tu organización'
+  featuresCtaTitle: 'Descubre cómo funciona Decidim a fondo'
+  featuresCta: 'Funcionalidades y características'

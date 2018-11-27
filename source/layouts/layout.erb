@@ -10,13 +10,14 @@
     <%= stylesheet_link_tag "site" %>
     <link rel="icon" type="image/png" href="/images/favicon.png">
   </head>
-  <body>
+  <body class="<%= current_page.data.pageClass || "" %>">
     <%= partial "/partials/alert" %>
-    <%= partial "partials/header" %>
+    <%= partial "partials/topbar" %>
     <main class="main">
       <%= yield %>
     </main>
     <%= partial "partials/footer" %>
+    <%= javascript_include_tag "display-topbar", :async => "async" %>
     <%= javascript_include_tag "nav-toggle", :async => "async" %>
     <%= javascript_include_tag "closest-polyfill", :async => "async" %>
     <%= javascript_include_tag "lang-toggle", :async => "async" %>

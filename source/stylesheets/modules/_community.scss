@@ -4,12 +4,13 @@
   @media (min-width: $L){
     display: flex;
     justify-content: space-between;
+    margin-top: 6rem;
   }
 }
 
 .community__type{
-  border-top: 5px solid $blue;
-  background-color: $light-grey;
+  border-top: 5px solid $primary;
+  background-color: $lighter-grey;
   @media (max-width: $L-max){
     margin-bottom: 2rem;
   }

@@ -1,68 +1,70 @@
+$nav-width: 18rem;
+
 .main-nav{
-  @media (min-width: $L){
-    display: flex;
-    align-items: center;
-  }
+  background-color: darken($primary, 55);
   margin-left: auto;
   font-weight: 200;
-  a{
+  width: $nav-width;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -$nav-width;
+  transition: right .3s;
+  z-index: $z-nav;
+  padding-top: 4rem;
+  
+  &__item{
+    display: block;
     text-decoration: none;
-    color: inherit;
+    border-bottom: 0;
+    border-left: 0 solid $primary;
+    padding: .5rem 1rem;
+    color: white;
+    
+    &:hover{
+      border-left-width: 8px;
+      color: $primary;
+      background: rgba(white,.05);
+    }
   }
-  @media (min-width: $L){
-    a{
-      margin-left: .5rem;
-      padding: .1em .5em .2em;
-      margin-bottom: -.2em;
-      &:hover,
-      &.active{
-        background-color: $softblue;
-        border-radius: 3px;
+
+  &__btn{
+    margin-left: 1rem !important;
+    margin-top: 1rem;
+  }
+
+  body:not(.is-nav-active) &:target,
+  .is-nav-open &{
+    right: 0;
+  }
+  
+  &__lang{
+    padding-left: 1rem;
+    li{
+      margin-right: .5rem;
+      display: inline-block;
+      &::after{
+        content: "";
+        display: inline-block;
+        border-right: 1px solid;
+        margin-left: .5rem;
+        height: .7em;
+      }
+      &:last-child::after{
+        display: none;
       }
     }
   }
 }
 
-.main-nav__links{
-  @media (max-width: $L-max){
-    display: none;
-    position: absolute;
-    z-index: $z-mobile-links;
-    right: 0;
-    left: 0;
-    top: 7rem;
-    background: $softblue;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    a{
-      display: block;
-      padding: .5rem 1rem;
-    }
-    body:not(.is-nav-active) &:target,
-    .is-nav-open &{
-      display: block;
-    }
-  }
-  @media (min-width: $L){
-    a{
-      display: inline-block;
-    }
-    > a:last-child{
-      margin-right: -.5em;
-    }
-  }
-}
-
 .main-nav__trigger{
-  display: inline-block;
-  margin-bottom: -.15em;
+  z-index: $z-nav-trigger;
   .nav-icon{
-    @include burger(25px, 1px, 8px, white);
+    @include burger(25px, 3px, 6px, white);
     .is-nav-open &{
       @include burger-to-cross;
     }
   }
-  @media (min-width: $L){
-    display: none;
-  }
 }
+
+

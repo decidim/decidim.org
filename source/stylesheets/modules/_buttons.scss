@@ -1,14 +1,14 @@
 .btn{
   display: inline-block;
-  padding: 1.1em 2em;
+  padding: .5em 2.5em;
   text-decoration: none;
   color: inherit;
   margin-left: .3em;
   margin-right: .3em;
   border-radius: $radius;
   border: 1px solid;
-  font-size: $small-fontsize;
-  text-transform: uppercase;
+  font-weight: 600;
+  text-transform: lowercase;
   letter-spacing: .04em;
   &:hover{
     color: inherit;
@@ -16,12 +16,11 @@
 }
 
 .btn--large{
-  font-size: 1.2rem;
-  font-weight: 300;
+  font-size: 1.4rem;
 }
 
 .btn--small{
-  padding: .5em 1em;
+  padding: .25em .75em;
 }
 
 .btn--primary{
@@ -30,6 +29,7 @@
   color: white;
   &:hover{
     background-color: mix(white,$primary,10%);
+    color: white;
   }
 }
 
@@ -42,5 +42,15 @@
   border-color: transparent;
   &:hover{
     background-color: rgba(white,.3);
+  }
+}
+
+.btn--inverse{
+  background-color:white;
+  color: $primary;
+  border-color: transparent;
+  &:hover{
+    opacity: .9;
+    color: $primary;
   }
 }

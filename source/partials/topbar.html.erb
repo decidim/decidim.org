@@ -1,0 +1,16 @@
+<header class="topbar">
+  <%= partial "partials/navigation" %>
+  <div class="brand-logo">
+    <a href="<%= t(:path) %>/"><img src="/images/decidim-logo-topbar.svg" alt="Decidim" width="120" /></a>
+  </div>
+  <div class="topbar__actions">
+    <div class="topbar__links">
+      <%= partial "partials/lang-switcher" %>
+      <a href="<%= t(:path) %>/demo" class="btn btn--small btn--inverse">demo</a>
+    </div>
+    <a class="main-nav__trigger" href="#nav-links">
+      <span class="nav-icon"></span>
+      <span class="visually-hidden"><%= t(:navText) %></span>
+    </a>
+  </div>
+</header>

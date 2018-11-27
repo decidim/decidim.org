@@ -1,0 +1,34 @@
+---
+title: Ja fan servir Decidim | Decidim
+description:
+---
+<div class="container container-vertical">
+  <h1 class="page-title">Aquestes ciutats, regions i organitzacions ja fan servir Decidim</h1>
+ <% @cities = data.cities.select {|city| city[:type] == "city"} %>
+ <% @regions = data.cities.select {|city| city[:type] == "region"} %>
+ <% @orgs = data.cities.select {|city| city[:type] == "org"} %>
+    <h2 class="subsection-title">Ciutats</h2>
+    <div class="logos-container">
+      <% @cities.each do |use| %>
+        <a href="<%= use.url %>" target="_blank" class="logo-item">
+          <img src="<%= use.image %>" alt="<%= use.name %>" />
+        </a>
+      <% end %>
+    </div>
+    <h2 class="subsection-title">Regions</h2>
+    <div class="logos-container">
+      <% @regions.each do |use| %>
+        <a href="<%= use.url %>" target="_blank" class="logo-item">
+          <img src="<%= use.image %>" alt="<%= use.name %>" />
+        </a>
+      <% end %>
+    </div>
+    <h2 class="subsection-title">Organitzacions</h2>
+    <div class="logos-container">
+      <% @orgs.each do |use| %>
+        <a href="<%= use.url %>" target="_blank" class="logo-item">
+          <img src="<%= use.image %>" alt="<%= use.name %>" />
+        </a>
+      <% end %>
+    </div>
+</div>
