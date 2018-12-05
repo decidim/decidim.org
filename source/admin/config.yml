@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: decidim/decidim.org
-  branch: master
+  branch: content/new-post
 
 media_folder: "source/blog/images"
 
@@ -12,5 +12,24 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "published", widget: "hidden", default: "false"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "post-es"
+    label: "Post (ES)"
+    folder: "source/blog/es"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Draft", name: "published", widget: "hidden", default: "false"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "post-ca"
+    label: "Post (CA)"
+    folder: "source/blog/ca"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Draft", name: "published", widget: "hidden", default: "false"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
