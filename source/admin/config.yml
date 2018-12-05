@@ -6,9 +6,9 @@ backend:
 media_folder: "source/blog/images"
 
 collections:
-  - name: "post"
-    label: "Post"
-    folder: "source/blog"
+  - name: "post-en"
+    label: "Post (EN)"
+    folder: "source/blog/en"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
