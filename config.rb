@@ -48,3 +48,8 @@ end
 
 # Features page
 activate :asciidoc, layout: :asciidoc
+
+# 301 redirects
+redirect "docs/features-and-roadmap",    to: "https://docs.decidim.org/features/en/general-description/"
+redirect "ca/docs/features-and-roadmap", to: "https://docs.decidim.org/features/ca/general-description/"
+redirect "es/docs/features-and-roadmap", to: "https://docs.decidim.org/features/es/general-description/"
