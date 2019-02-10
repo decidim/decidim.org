@@ -1,97 +1,96 @@
 en:
   # General
   path: ''
-  activeLang: 'English'
+  activeLang: 'Magyar'
   buttonDemo: 'Online demo'
-  buttonCode: 'Code on Github'
+  buttonCode: 'Kód a Github-on'
 
   #Navigation links
-  navText: 'Navigation'
+  navText: 'Navigáció'
   navDemo: 'Demo'
-  navCommunity: 'Community'
-  navContract: 'Social Contract'
-  navCode: 'Code'
-  navDocs: 'Documentation'
+  navCommunity: 'Közösség'
+  navContract: 'Társadalmi szerződés'
+  navCode: 'Kód'
+  navDocs: 'Dokumentáció'
   navCredits: 'Attribution and credits'
   navBlog: 'Blog'
-  navFeatures: 'Features'
-  navFaqs: 'FAQs'
-  navContact: 'Contact'
-  navUsedBy: 'Decidim in use'
-  navPartners: 'Cooperating entities'
+  navFeatures: 'Tulajdonságok'
+  navFaqs: 'GYIK'
+  navContact: 'Kapcsolat'
+  navUsedBy: 'Decidim használatban'
+  navPartners: 'Együtmtűködő szervezetek'
 
   # Index ---
   ## Alert
-  alertTitle: 'Participate now in #Decidim.GOV'
-  alertSubtitle: 'Democratic Governance for an open community'
+  alertTitle: 'Vegyél részt most a #Decidim.GOV-ban'
+  alertSubtitle: 'Demokratikus Kormányzás egy nyitott közösségért'
   alertDesc:
-    'We want to think and redesign participatory democracy. We want to build
-    Decidim openly, transparently and collaboratively to make the best digital
-    platform for participatory democracy. Towards a network of cities and
-    democratic&nbsp;organizations.'
+    'Újra szeretnénk gondolni és tervezni a részvételi demokráciát. A Decidimet sokak együttműködésében
+    nyitottan és átláthatóan szeretnénk építeni, hogy a legjobb digitális részvételi demokrácia
+    platformmá váljon. A városok hálózata és demokratikus szervezetek számára.'
   ## Hero
   heroHeading:
-    'Free Open-Source participatory democracy for cities and organizations'
-  heroSubheading: 'Decidim is a digital platform<br/>for citizen participation'
+    'Szabad Nylít Forráskódú szoftver a városok és szervezetek részvételi demokráciájáért'
+  heroSubheading: 'Decidim egy digitális platform<br/>az állampolgári részvételért'
   heroIntro:
-    'Free and safe technology.<br/>With all democratic
-    guarantees.<br/>Reprogramming democracy is now possible with Decidim.'
-  playVideo: 'Play video'
+    'Szabad és ingyenes technológia<br/>Többféle demokratikus garanciával
+   <br/>A demokrácia újraprogramozása a Decidimmel lehetséges.'
+  playVideo: 'Videó lejátszása'
   videoUrl: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
-  closeVideo: 'Close video'
+  closeVideo: 'Videó bezárása'
   ## Subhero
   subheroIntro:
-    'Decidim helps citizens, organizations and public institutions self-organize
-    democratically at every scale.'
-  subheroFeature1: 'Strategic<br/>planning'
-  subheroFeature2: 'Participatory<br/>budgeting'
-  subheroFeature3: 'Initiatives and<br/>citizen consultations'
-  subheroFeature4: 'Participative<br/>processes'
-  subheroFeature5: 'Assemblies'
-  subheroFeature6: 'Networked<br/>communication'
+    'Decidim állampolgároknak, szervezeteknek és közintézményeknem minden szinten segít önmaguk
+    demokratikus újraszervezésében.'
+  subheroFeature1: 'Stratégiai<br/>tervezés'
+  subheroFeature2: 'Részvételi<br/>költségvetés'
+  subheroFeature3: 'Kezdeményezések és <br/>állampolgári konzultációk'
+  subheroFeature4: 'Részvételi<br/>folyamatok'
+  subheroFeature5: 'Gyűlések'
+  subheroFeature6: 'Hálózati<br/>kommunikáció'
   ## Logo sections
-  logosUsedByTitle: 'They are already using Decidim'
-  logosUsedByCta: 'See all'
+  logosUsedByTitle: 'Ők már használják a Decidim-et'
+  logosUsedByCta: 'Megnézem mindet'
   ## CTA Block
-  ctaTitle: 'start using Decidim today'
+  ctaTitle: 'Kezdd el ma a Decidim használatát'
   ## Footer
-  footerDrivenByTitle: 'Promoter'
+  footerDrivenByTitle: 'Kezdeményező'
   footerAttribution: '&copy; 2018 - Creative Commons By-SA'
   ##Features
-  feature1Title: 'Participatory<br/>budgets'
+  feature1Title: 'Részvételi<br/>költségvetések'
   feature1Content:
-    'It analyses the submitted proposals and promotes a new way of distributing
-    common resources.'
-  feature2Title: 'Citizen’s initiatives<br/>and consultations'
+    'A beérkezett javaslatokat elemzi és egy a közös erőforrások elosztásának új módját
+    mutatja.'
+  feature2Title: 'Állampolgári kezdeményezések<br/>és konzultációk'
   feature2Content:
-    'Empower your community through citizen initiatives. Promote relevant voting
-    through consultations.'
-  feature3Title: 'The power<br/>of a political network'
+    'Erősítsd meg a közösségedet polgári kezdeményezésekkel. Kezdeményezz érdemi szavazást 
+    konzultációkon keresztül.'
+  feature3Title: 'A politikai hálózat<br/>hatlama'
   feature3Content:
     'It takes deliberation, collaboration and decision to a massive dimension,
     with thousands of people participating in real time.'
-  feature4Title: 'A democratic<br/>and flexible system'
+  feature4Title: 'Egy demokratikus<br/>és rugalmas rendszer'
   feature4Content:
     'Thanks to its modular architecture and scalable logic, you can configure a
     powerful system of democratic governance in all kinds of organizations.'
-  feature5Title: 'We take democracy<br/>very seriously'
+  feature5Title: 'A demokráciát<br/>nagyon komolyan vesszük'
   feature5Content:
     'Decidim ensures transparency, traceability and integrity of information
     like never before. It provides security, privacy and confidentiality to all
     participants.'
-  feature6Title: "It's yours.<br/>Share it. Improve it."
+  feature6Title: "A tiéd.<br/>Oszd meg. Javítds, fejleszd."
   feature6Content:
-    'A platform designed entirely with free software, open and collaborative
-    content thanks to the community Metadecidim.'
-  featureCta: 'See all features'
-  valuesCta: 'Go to social contract'
+    'A platform teljes egészében szabad szoftverrel terveze, hála a Metadecidim nyitott és együttműködő
+    közösségének.'
+  featureCta: 'Minden tulajdonság megtekintése'
+  valuesCta: 'Irány a társadalmi szerződés'
   # Demo --- translation directly in /localizable/demo.html.erb
   # Community --- translation directly in /localizable/community.html.erb
   # Social Contract --- translation directly in /localizable/contract.html.erb
   # Credits --- translation directly in /localizable/credits.html.erb
   # Documentation --- translation directly in /localizable/docs.html.erb
   # Features --- Intro texts
-  featuresTitle: 'Features'
+  featuresTitle: 'Tulajdonságok'
   featuresIntro:
     '<p>You can use Decidim in a public or private organisation, with hundreds
     or thousands of potential participants, such as a city council, an
@@ -101,12 +100,12 @@ en:
     consultations) and enrich them through the multiple available components
     (face-to-face meetings, surveys, proposals, voting, follow-up of results,
     comments and many more).</p>'
-  featuresType1Title: 'Spaces for participation'
+  featuresType1Title: 'Terek a részvételért'
   featuresType1Subtitle: 'For participants to make proposals and make decisions'
-  featuresType2Title: 'Components'
-  featuresType2Subtitle: 'For participants and spaces to interact'
+  featuresType2Title: 'Komponensek'
+  featuresType2Subtitle: 'Kapcsolódási terek a résztvevőkért'
   featuresOtherSubtitle:
     'Dare to combine the components. Design and deploy a powerful democratic
     system in an easy way and adapt it to your organization’s needs'
-  featuresCtaTitle: 'Discover how Decidim works in depth'
-  featuresCta: 'Functions and features'
+  featuresCtaTitle: 'Ismerd meg mélyebben a decidim működését'
+  featuresCta: 'Funkciók és tulajdonságok'
