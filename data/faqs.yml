@@ -2,6 +2,9 @@
   en:
     question: 'What is Decidim?'
     answer: "Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common's free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision."
+
+ hu question: 'What is Decidim?'
+    answer: "Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common's free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision."
   es:
     question: '¿Qué es Decidim?'
     answer: 'Decidim es una plataforma de participación ciudadana de código libre y abierto para ciudades y organizaciones. Pero también Decidim es más que una plataforma digital: es un proyecto y una infraestructura abierta que incluye código, documentación, diseño, formación, un marco legal, interfaces colaborativas, una comunidad de usuarios y facilitadores y una visión global.'
@@ -10,6 +13,9 @@
     answer: "Decidim és una plataforma digital de participació ciutadana de codi lliure i obert per a ciutats i organitzacions. Però també Decidim és més que una plataforma digital: és un projecte i una infraestructura oberta que inclou codi, documentació, disseny, formació, un marc legal, interfícies col·laboratives, una comunitat d'usuaris i facilitadores i una visió global."
 - faq2:
   en:
+    question: 'What can a Decidim administrator do?'
+    answer: 'Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).'
+  hu:
     question: 'What can a Decidim administrator do?'
     answer: 'Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).'
   es:
@@ -22,6 +28,9 @@
   en:
     question: 'What do I need to install Decidim?'
     answer: 'Installing Decidim is easy but you need some  knowledge and technical requirements. <a href="https://github.com/decidim/decidim/blob/master/docs/manual-installation.md" target="_blank">Here</a> we tell you how to install and configure Decidim in your organization.'
+  hu:
+    question: 'What do I need to install Decidim?'
+    answer: 'Installing Decidim is easy but you need some  knowledge and technical requirements. <a href="https://github.com/decidim/decidim/blob/master/docs/manual-installation.md" target="_blank">Here</a> we tell you how to install and configure Decidim in your organization.'
   es:
     question: '¿Qué necesito para instalar Decidim?'
     answer: 'Instalar Decidim es fácil pero necesitas algunos conocimientos y requerimientos técnicos. Puedes consultar el <a href="https://github.com/decidim/decidim/blob/master/docs/manual-installation.md" target="_blank">tutorial de instalación manual oficial</a> y también otro <a href="https://github.com/Platoniq/decidim-install" target="_blank">tutorial de instalación manual</a> hecho por la buena gente de Platoniq'
@@ -30,6 +39,9 @@
     answer: 'Instal·lar Decidim és fàcil però necessites alguns coneixements i requeriments tècnics. Pots consultar el <a href="https://github.com/decidim/decidim/blob/master/docs/manual-installation.md" target="_blank">tutorial d’instal·lació manual oficial</a> i també un altre <a href="https://github.com/Platoniq/decidim-install" target="_blank">tutorial d’instal·lació manual</a> fet per la bona gent de Platoniq. '
 - faq4:
   en:
+    question: 'Is there any tutorial to start setting it up?'
+    answer: 'You can check the latest version of our admin manual in the <a href="https://decidim.org/docs/" target="_blank">Documentation section</a>. You can also check <a href="https://edu.decidim.org/" target="_blank">edu.decidim</a>, the perfect Decidim installation to be trained in the use of the platform. '
+  hu:
     question: 'Is there any tutorial to start setting it up?'
     answer: 'You can check the latest version of our admin manual in the <a href="https://decidim.org/docs/" target="_blank">Documentation section</a>. You can also check <a href="https://edu.decidim.org/" target="_blank">edu.decidim</a>, the perfect Decidim installation to be trained in the use of the platform. '
   es:
@@ -42,6 +54,9 @@
   en:
     question: 'Who is currently using Decidim?'
     answer: 'It is currently used by cities and organizations. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check <a href="http://decidim.org/usedby/">here</a> the complete list of currently active instances.'
+  hu:
+    question: 'Who is currently using Decidim?'
+    answer: 'It is currently used by cities and organizations. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check <a href="http://decidim.org/usedby/">here</a> the complete list of currently active instances.'
   es:
     question: '¿Quiénes están utilizando Decidim actualmente?'
     answer: 'Actualmente lo utilizan ciudades y organizaciones. De hecho cualquier grupo de personas puede utilizarlo, sea una ONG, universidad, sindicato, cooperativa, colectivo de barrio, etc. Consulta <a href="http://decidim.org/es/usedby/">aquí</a> el listado completo de instancias activas en la actualidad.'
@@ -50,6 +65,9 @@
     answer: "Actualment ho utilitzen ciutats i organitzacions. De fet qualsevol grup de persones pot utilitzar-ho, sigui una ONG, universitat, sindicat, cooperativa, col·lectiu de barri, etc. Consulta <a href='http://decidim.org/ca/usedby/'>aquí</a> el llistat complet d'instàncies actives en l'actualitat."
 - faq6:
   en:
+    question: 'What can a participant (user) of Decidim do?'
+    answer: 'Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.'
+  hu:
     question: 'What can a participant (user) of Decidim do?'
     answer: 'Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.'
   es:
@@ -62,6 +80,9 @@
   en:
     question: 'What does it mean that Decidim is for free, free and open source?'
     answer: "Decidim is a platform for citizen participation made by people and for people. The fact that it is for free means that you don't have to pay to download it and use it. You can use it as you want in your organization, as long as you respect our <a href='https://decidim.org/contract/'>Social Contract</a>. You can <a href='https://decidim.org/community/'>collaborate in the continuous improvement of the platform</a> to ensure that between all of us we can have a software that is increasingly useful for participatory democracy."
+  hu:
+    question: 'What does it mean that Decidim is for free, free and open source?'
+    answer: "Decidim is a platform for citizen participation made by people and for people. The fact that it is for free means that you don't have to pay to download it and use it. You can use it as you want in your organization, as long as you respect our <a href='https://decidim.org/contract/'>Social Contract</a>. You can <a href='https://decidim.org/community/'>collaborate in the continuous improvement of the platform</a> to ensure that between all of us we can have a software that is increasingly useful for participatory democracy."
   es:
     question: '¿Qué significa que Decidim sea gratuito, libre y de código abierto?'
     answer: 'Decidim es una plataforma de participación ciudadana hecha por la gente y para la gente. Que sea gratuito significa que no tienes que pagar para descargátelo y utilizarlo. Puedes utilizarlo como quieras en tu organización, siempre que respetes nuestro <a href="https://decidim.org/es/contract/">Contrato Social</a>. Puedes <a href="https://decidim.org/es/community/">colaborar en la mejora continua de la plataforma</a> para garantizar que entre todas tengamos un programa cada día más útil para la democracia participativa.'
@@ -70,6 +91,9 @@
     answer: "Decidim és una plataforma de participació ciutadana feta per la gent i per a la gent. Que sigui gratuït significa que no has de pagar para baixar-lo i utilitzar-ho. Pots utilitzar-ho com vulguis en la teva organització, sempre que respectis el nostre <a href='https://decidim.org/ca/contract/'>contracte social</a>. Pots <a href='https://decidim.org/ca/community/'>col·laborar en la millora contínua de la plataforma</a> per garantir que entre totes tinguem un programari cada dia més útil per a la democràcia participativa."
 - faq8:
   en:
+    question: 'I have many doubts, of all kinds...where can I ask them or solve them?'
+    answer: "The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process <a href='https://meta.decidim.org/processes/supportforum?locale=en' target='_blank'>Support Forum</a> and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the <a href='http://decidim.org/contact'>contact form</a>."
+  hu:
     question: 'I have many doubts, of all kinds...where can I ask them or solve them?'
     answer: "The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process <a href='https://meta.decidim.org/processes/supportforum?locale=en' target='_blank'>Support Forum</a> and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the <a href='http://decidim.org/contact'>contact form</a>."
   es:
@@ -82,6 +106,9 @@
   en:
     question: 'Do you provide free installation to non-profit organizations?'
     answer: 'Yes, only if you are a Barcelona based organization. Send us a message and you will be helped by the Directorate of Research, Development and Innovation of the Area of Citizenship Rights, Participation and Transparency of Barcelona City Council.'
+  hu:
+    question: 'Do you provide free installation to non-profit organizations?'
+    answer: 'Yes, only if you are a Barcelona based organization. Send us a message and you will be helped by the Directorate of Research, Development and Innovation of the Area of Citizenship Rights, Participation and Transparency of Barcelona City Council.'
   es:
     question: '¿Ofrecéis instalación gratuita a organizaciones sin ánimo de lucro?'
     answer: 'Sí, solo si eres una organización con sede en Barcelona. Envíanos un mensaje y la Dirección de Investigación, Desarrollo e Innovación del Área de Derechos de Ciudadanía, Participación y Transparencia del Ayuntamiento de Barcelona te ayudará.'
@@ -90,6 +117,9 @@
     answer: "Sí, solament si ets una organització amb seu a Barcelona. Envia'ns un missatge i la Direcció de Recerca, Desenvolupament i Innovació de l'Àrea de Drets de Ciutadania, Participació i Transparència de l'Ajuntament de Barcelona t'ajudarà."
 - faq10:
   en:
+    question: 'Do you support institutions?'
+    answer: 'Yes, but you have to be patient. There are a lot of institutions that want to use Decidim right now and we are helping them step by step. <a href="http://decidim.org/contact">Contact us</a> for any question and we will answer you as soon as possible.'
+  hu:
     question: 'Do you support institutions?'
     answer: 'Yes, but you have to be patient. There are a lot of institutions that want to use Decidim right now and we are helping them step by step. <a href="http://decidim.org/contact">Contact us</a> for any question and we will answer you as soon as possible.'
   es:
@@ -102,6 +132,9 @@
   en:
     question: 'Where can I find the project roadmap and the planned features?'
     answer: 'In the Decidim Document List you can find the updated project roadmap and the planned features. Check it <a href="https://docs.decidim.org/init/en/" target="_blank">here</a>.'
+  hu:
+    question: 'Where can I find the project roadmap and the planned features?'
+    answer: 'In the Decidim Document List you can find the updated project roadmap and the planned features. Check it <a href="https://docs.decidim.org/init/en/" target="_blank">here</a>.'
   es:
     question: '¿Dónde puedo encontrar el roadmap del proyecto y las funcionalidades planificadas?'
     answer: 'En el repositorio de Decidim puedes encontrar el roadmap actualizado del proyecto y las funcionalidades planificadas. Consultalo <a href="https://docs.decidim.org/init/en/" target="_blank">aquí</a>.'
@@ -110,6 +143,9 @@
     answer: 'En el repositori de Decidim pots trobar el roadmap actualitzat del projecte i les funcionalitats planificades. Consulta’l <a href="https://docs.decidim.org/init/en/" target="_blank">aquí</a>.'
 - faq12:
   en:
+    question: 'We want to make a formal collaboration agreement. Are there any templates we can use?'
+    answer: 'Yes, we have templates to formalize collaboration agreements. <a href="http://decidim.org/contact">Please contact us</a>.'
+  hu:
     question: 'We want to make a formal collaboration agreement. Are there any templates we can use?'
     answer: 'Yes, we have templates to formalize collaboration agreements. <a href="http://decidim.org/contact">Please contact us</a>.'
   es:
@@ -122,6 +158,9 @@
   en:
     question: 'How often is the platform updated?'
     answer: 'We release a new version approximately every month. In <a href="https://github.com/decidim/decidim/releases" target="_blank">this link</a> you can check the record of versions.'
+  hu:
+    question: 'How often is the platform updated?'
+    answer: 'We release a new version approximately every month. In <a href="https://github.com/decidim/decidim/releases" target="_blank">this link</a> you can check the record of versions.'
   es:
     question: '¿Con qué frecuencia hay actualizaciones de la plataforma?'
     answer: 'Cada mes, aproximadamente, liberamos una nueva versión. En <a href="https://github.com/decidim/decidim/releases" target="_blank">este enlace</a> puedes consultar el histórico de versiones. '
@@ -130,6 +169,9 @@
     answer: "Cada mes, aproximadament, alliberem una nova versió. En <a href='https://github.com/decidim/decidim/releases' target='_blank'>aquest enllaç</a> pots consultar l'històric de versions."
 - faq14:
   en:
+    question: 'What is the social contract?'
+    answer: 'This is how we call our Code of Democratic Guarantees and Democratic Collaboration. <a href="https://decidim.org/contract/">Check here</a> the social contract that all the members of the Decidim project undertake in order for Decidim to be free software and open content, transparent and to ensure that the data and its participants are not manipulated.'
+  hu:
     question: 'What is the social contract?'
     answer: 'This is how we call our Code of Democratic Guarantees and Democratic Collaboration. <a href="https://decidim.org/contract/">Check here</a> the social contract that all the members of the Decidim project undertake in order for Decidim to be free software and open content, transparent and to ensure that the data and its participants are not manipulated.'
   es:
@@ -142,6 +184,9 @@
   en:
     question: 'Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.'
     answer: 'Yes, <a href="https://decidim.org/demo/">here</a> you have an online demo for you to do magic with Decidim. '
+  hu:
+    question: 'Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.'
+    answer: 'Yes, <a href="https://decidim.org/demo/">here</a> you have an online demo for you to do magic with Decidim. '
   es:
     question: 'Quiero usar Decidim ya, sin instalármelo, para ver cómo funciona. ¿Tenéis una Demo?'
     answer: '<a href="https://decidim.org/es/demo/">Aquí</a> dispones de una Demo online para que hagas magia con Decidim.'
@@ -150,6 +195,9 @@
     answer: "<a href='https://decidim.org/es/demo/''>Aquí</a> disposes d'una Demo online perquè facis màgia amb Decidim."
 - faq16:
   en:
+    question: 'What is the Metadecidim community?'
+    answer: "<a href='http://meta.decidim.org' target='_blank'>Metadecidim</a> is the community of Decidim that collaborates in the design of the platform and the construction of the Decidim project. We meet regularly through the <a href='https://meta.decidim.org/assemblies/eix-comunitat?locale=es' target='_blank'>SOM (Metadecidim Operative Sessions)</a> and the <a href='https://meta.decidim.org/assemblies/eix-lab' target='_blank'>LAB Research Seminars</a>. Go to <a href='http://meta.decidim.org' target='_blank'>meta.decidim.org</a> to follow the calls closely and if you want to join the community. We'd love to ;-)"
+  hu:
     question: 'What is the Metadecidim community?'
     answer: "<a href='http://meta.decidim.org' target='_blank'>Metadecidim</a> is the community of Decidim that collaborates in the design of the platform and the construction of the Decidim project. We meet regularly through the <a href='https://meta.decidim.org/assemblies/eix-comunitat?locale=es' target='_blank'>SOM (Metadecidim Operative Sessions)</a> and the <a href='https://meta.decidim.org/assemblies/eix-lab' target='_blank'>LAB Research Seminars</a>. Go to <a href='http://meta.decidim.org' target='_blank'>meta.decidim.org</a> to follow the calls closely and if you want to join the community. We'd love to ;-)"
   es:
@@ -162,6 +210,9 @@
   en:
     question: 'I have ideas for new improvement features. I want to have a better understanding of the project or explore some issues in depth. What can I do?'
     answer: 'You can collaborate in multiple ways. One of them is through the <a href="http://meta.decidim.org" target="_blank">Metadecidim</a> community. If you want to propose new features, <a href="https://meta.decidim.org/processes/roadmap" target="_blank">go here</a>. If you have detected errors and want to notify them, <a href="https://meta.decidim.org/processes/bug-report?locale=es" target="_blank">go to this process</a>. If you want to actively participate in the Metadecidim community, you can attend the monthly <a href="https://meta.decidim.org/assemblies/eix-comunitat" target="_blank">Metadecidim Operative Sessions</a>. Register as a participant of the community and participate with us. If your thing is the code, <a href="https://github.com/decidim/decidim" target="_blank">come to Github</a>. If you are a researcher, you might be interested in coming to the <a href="https://meta.decidim.org/assemblies/eix-lab" target="_blank">LAB Metadecidim Seminars</a>.'
+  hu:
+    question: 'I have ideas for new improvement features. I want to have a better understanding of the project or explore some issues in depth. What can I do?'
+    answer: 'You can collaborate in multiple ways. One of them is through the <a href="http://meta.decidim.org" target="_blank">Metadecidim</a> community. If you want to propose new features, <a href="https://meta.decidim.org/processes/roadmap" target="_blank">go here</a>. If you have detected errors and want to notify them, <a href="https://meta.decidim.org/processes/bug-report?locale=es" target="_blank">go to this process</a>. If you want to actively participate in the Metadecidim community, you can attend the monthly <a href="https://meta.decidim.org/assemblies/eix-comunitat" target="_blank">Metadecidim Operative Sessions</a>. Register as a participant of the community and participate with us. If your thing is the code, <a href="https://github.com/decidim/decidim" target="_blank">come to Github</a>. If you are a researcher, you might be interested in coming to the <a href="https://meta.decidim.org/assemblies/eix-lab" target="_blank">LAB Metadecidim Seminars</a>.'
   es:
     question: 'Tengo ideas de nuevas funcionalidades, de mejora. Quiero conocer mejor el proyecto o investigar a fondo algunos asuntos. ¿Qué puedo hacer?'
     answer: 'Puedes colaborar de múltiples maneras, una de ellas a través de la comunidad <a href="http://meta.decidim.org" target="_blank">Metadecidim</a>. Si quieres proponer nuevas funcionalidades, <a href="https://meta.decidim.org/processes/roadmap" target="_blank">a través de este proceso</a>. Si has detectado errores y quieres notificarlos, <a href="https://meta.decidim.org/processes/bug-report?locale=es" target="_blank">a través de este proceso</a>. Si quieres participar activamente en la comunidad Metadecidim, puedes asistir a las <a href="https://meta.decidim.org/assemblies/eix-comunitat" target="_blank">Sesiones Operativas Metadecidim</a> que organizamos mensualmente. Date de alta como participante de la comunidad y participa con nosotras. Si lo tuyo es el código, <a href="https://github.com/decidim/decidim" target="_blank">vente a Github</a>. Si eres investigador, quizás te interese venir a los <a href="https://meta.decidim.org/assemblies/eix-lab" target="_blank">Seminarios LAB Metadecidim</a>.'
@@ -172,6 +223,9 @@
   en:
     question: 'What kind of members you accept into the Metadecidim community?'
     answer: 'To anybody who has good faith and a correct attitude towards democratic collaboration.'
+  hu:
+    question: 'What kind of members you accept into the Metadecidim community?'
+    answer: 'To anybody who has good faith and a correct attitude towards democratic collaboration.'
   es:
     question: '¿A qué tipo de miembros aceptáis en la comunidad Metadecidim?'
     answer: 'A cualquiera que tenga buena fe y una actitud correcta hacia la colaboración democrática.'
@@ -180,6 +234,9 @@
     answer: 'A qualsevol que tingui bona fe i una actitud correcta cap a la col·laboració democràtica.'
 - faq19:
   en:
+    question: "Can I join the Metadecidim community even if I don't live in Barcelona?"
+    answer: 'Decidim is a project that was born in Barcelona and that is why there is a strong territorial bond with this city. But yes, you can collaborate online, through participatory processes, debates, etc .... that we provide in Metadecidim. Although you might want to come to Barcelona sometime :)'
+  hu:
     question: "Can I join the Metadecidim community even if I don't live in Barcelona?"
     answer: 'Decidim is a project that was born in Barcelona and that is why there is a strong territorial bond with this city. But yes, you can collaborate online, through participatory processes, debates, etc .... that we provide in Metadecidim. Although you might want to come to Barcelona sometime :)'
   es:
