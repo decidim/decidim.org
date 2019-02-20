@@ -2,7 +2,7 @@ require 'lib/i18n_helpers'
 helpers I18nHelpers
 
 # Activate multi-language
-activate :i18n, :mount_at_root => :en
+activate :i18n, :mount_at_root => :hu
 
 activate :directory_indexes
 
