@@ -1,23 +1,23 @@
 ---
-title: Contact us | Decidim
+title: Lépjünk kapcsolatba | Decidim
 description:
 ---
 
 <div class="container container-vertical">
   <div class="container--small-col">
-    <h1 class="page-title">Contact us</h1>
+    <h1 class="page-title">Kapcsolat</h1>
     <form method="post" name="contact" netlify-honeypot="bot-field" data-netlify="true">
       <p class="visually-hidden">
-      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      <label>Ne töltsd ki, ha ember vagy: <input name="bot-field" /></label>
       </p>
       <div class="form-field">
         <label for="name">
-          Name <span class="required" aria-label="required field">*</span>
+          Név <span class="required" aria-label="required field">*</span>
         </label>
         <input type="text" id="name" name="name" required/>
       </div>
       <div class="form-field">
-        <label for="entity">Entity</label>
+        <label for="entity">Entitás</label>
         <input type="text" id="entity" name="entity" />
       </div>
       <div class="form-field">
@@ -25,22 +25,22 @@ description:
         <input type="email" id="email" name="email" required/>
       </div>
       <div class="form-field">
-        <label for="reason">Reason <span class="required" aria-label="required field">*</span></label>
+        <label for="reason">Ok <span class="required" aria-label="required field">*</span></label>
         <select id="reason" name="reason" required>
           <option value=""></option>
-          <option value="Press/communication">Press/communication</option>
-          <option value="Investigation">Investigation</option>
-          <option value="Development">Development</option>
-          <option value="Extension">Extension</option>
-          <option value="More information">More information</option>
+          <option value="Press/communication">Sajtó/kommunikáció</option>
+          <option value="Investigation">Vizsgálat</option>
+          <option value="Development">Fejlesztés</option>
+          <option value="Extension">Kiterjesztés</option>
+          <option value="More information">További információ</option>
         </select>
       </div>
       <div class="form-field message">
-        <label for="message">Message <span class="required" aria-label="required field">*</span></label>
+        <label for="message">Üzenet <span class="required" aria-label="required field">*</span></label>
         <textarea id="message" name="message" required></textarea>
       </div>
       <div class="form-field">
-        <button type="submit" class="btn btn--primary">Send</button>
+        <button type="submit" class="btn btn--primary">Küldés</button>
       </div>
     </form>
   </div>
