@@ -1,13 +1,13 @@
 ---
-title: Decidim in use | Decidim
+title: A Decidimet használják | Decidim
 description:
 ---
 <div class="container container-vertical">
-  <h1 class="page-title">These cities, regions and organizations are already using Decidim</h1>
+  <h1 class="page-title">Ezek a városok, régiók és szervezetek már használják a Decidim-et</h1>
  <% @cities = data.cities.select {|city| city[:type] == "city"} %>
  <% @regions = data.cities.select {|city| city[:type] == "region"} %>
  <% @orgs = data.cities.select {|city| city[:type] == "org"} %>
-    <h2 class="subsection-title">Cities</h2>
+    <h2 class="subsection-title">Városok</h2>
     <div class="logos-container">
       <% @cities.each do |use| %>
         <a href="<%= use.url %>" target="_blank" class="logo-item">
@@ -15,7 +15,7 @@ description:
         </a>
       <% end %>
     </div>
-    <h2 class="subsection-title">Regions</h2>
+    <h2 class="subsection-title">Régiók</h2>
     <div class="logos-container">
       <% @regions.each do |use| %>
         <a href="<%= use.url %>" target="_blank" class="logo-item">
@@ -23,7 +23,7 @@ description:
         </a>
       <% end %>
     </div>
-    <h2 class="subsection-title">Organizations</h2>
+    <h2 class="subsection-title">Szervezetek</h2>
     <div class="logos-container">
       <% @orgs.each do |use| %>
         <a href="<%= use.url %>" target="_blank" class="logo-item">
