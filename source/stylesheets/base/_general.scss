@@ -1,6 +1,31 @@
-*{
-  box-sizing: border-box;
+*, *:hover, *:active, *:focus {
+  outline: none !important;
 }
+
+*, *:before, *:after {
+  box-sizing: border-box !important;
+}
+
+::-moz-selection {
+  background: #008080;
+  color: #fff;
+}
+
+::selection {
+  background: #008080;
+  color: #fff;
+}
+
+a::-moz-selection {
+  background: #008080;
+  color: #fff;
+}
+
+a::selection {
+  background: #008080;
+  color: #fff;
+}
+
 img{
   max-width: 100%;
 }
