@@ -14,7 +14,7 @@
       padding-bottom: 3rem;
       display: flex;
       justify-content: space-between;
-      align-items: flex-end;  
+      align-items: flex-end;
     }
   }
 
@@ -60,7 +60,7 @@
     }
     @media (min-width: $M){
       display: flex;
-      justify-content: space-between;  
+      justify-content: space-between;
     }
   }
 
@@ -93,7 +93,7 @@
     flex-direction: column;
     font-size: 80%;
     font-weight: 600;
-    
+
     img{
       margin-top: .5rem;
       max-width: 8rem;
@@ -107,6 +107,12 @@
     }
     small{
       font-size: 100%;
+    }
+    a {
+      &:hover{
+        color: inherit;
+        opacity: .8;
+      }
     }
   }
 
