@@ -1,0 +1,114 @@
+.timeline {
+  display: flex;
+
+  &__block {
+    &--metadecidim {
+      width: 50%;
+    }
+
+    &--github {
+      width: 33.33%;
+    }
+
+    &--decidim {
+      width: 16.66%;
+    }
+  }
+
+  &__title {
+    width: 100%;
+    color: $primary;
+    margin-bottom: 0;
+    text-transform: lowercase;
+    padding-left: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -20px;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      border-left: 20px solid transparent;
+      z-index: 2;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -20px;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      border-left: 20px solid transparent;
+      z-index: 1;
+    }
+
+    .timeline__block--metadecidim & {
+      background-color: rgba(white, .7);
+      &:after {
+        content: "";
+        border-left-color: rgba(white, .7);
+      }
+      &:before {
+        content: "";
+        border-left-color: $primary;
+      }
+    }
+    .timeline__block--github & {
+      background-color: rgba(white, .85);
+      padding-left: 2rem;
+      &:after {
+        content: "";
+        border-left-color: rgba(white, .85);;
+      }
+      &:before {
+        content: "";
+        border-left-color: $primary;
+      }
+    }
+    .timeline__block--decidim & {
+      background-color: white;
+      padding-left: 2rem;
+    }
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+  }
+
+  &__item {
+    padding-right: 2rem;
+
+    .timeline__block--metadecidim & {
+      width: 33%;
+    }
+    .timeline__block--github & {
+      width: 50%;
+    }
+    .timeline__block--decidim & {
+      width: 100%;
+    }
+
+    p {
+      font-size: $small-fontsize;
+    }
+  }
+
+  &__icon {
+    height: 3rem;
+    width: auto;
+
+  }
+
+  &__item-title {
+    text-transform: lowercase;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
+}
