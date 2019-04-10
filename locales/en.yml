@@ -110,3 +110,26 @@ en:
     system in an easy way and adapt it to your organization’s needs'
   featuresCtaTitle: 'Discover how Decidim works in depth'
   featuresCta: 'Functions and features'
+
+  # Contact
+  contact:
+    title: Contact us
+    no_fill_human: "Don’t fill this out if you're human:"
+    name: Name
+    entity: Entity
+    email: Email
+    reason: Reason 
+    reasons:
+      press: Press/comunication
+      investigation: Investigation
+      development: Development
+      extension: Extension
+      more: More information
+    message: Message
+    send: Send
+
+   # Thanks (after Contact) 
+  thanks:
+    path: /thanks
+    title: Thanks for your email
+    intro: Thank you for contacting us, we will get back to you soon.

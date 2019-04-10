@@ -112,3 +112,26 @@ es:
     necesidades de tu organización'
   featuresCtaTitle: 'Descubre cómo funciona Decidim a fondo'
   featuresCta: 'Funcionalidades y características'
+
+  # Contact
+  contact:
+    title: Contacta con nosotros
+    no_fill_human: "No rellenes este campo si eres humano:"
+    name: Nombre
+    entity: Entidad
+    email: Correo electrónico
+    reason: Motivo 
+    reasons:
+      press: Prensa/comunicación
+      investigation: Investigación
+      development: Desarrollo
+      extension: Extensión
+      more: Más información
+    message: Mensaje
+    send: Enviar
+
+  # Thanks (after Contact) 
+  thanks:
+    path: /es/thanks
+    title: Gracias por contactarnos
+    intro: Gracias por tu email, te responderemos en breve.

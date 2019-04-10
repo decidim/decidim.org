@@ -113,3 +113,26 @@ ca:
     necessitats de la teva organització'
   featuresCtaTitle: 'Descobreix com funciona Decidim a fons'
   featuresCta: 'Funcionalitats i característiques'
+
+  # Contact
+  contact:
+    title: Contacta amb nosaltres
+    no_fill_human: "No omplis aquest camp si ets human:"
+    name: Nom
+    entity: Entitat
+    email: Correu electrònic
+    reason: Motiu 
+    reasons:
+      press: Premsa/comunicació
+      investigation: Investigació
+      development: Desenvolupament
+      extension: Extensió
+      more: Més informació
+    message: Missatge
+    send: Enviar
+
+  # Thanks (after Contact) 
+  thanks:
+    path: /ca/thanks
+    title: Gràcies per contactar-nos
+    intro: Gràcies pel teu correu electrònic, et respondrem en breu.

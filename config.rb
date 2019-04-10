@@ -51,3 +51,14 @@ activate :asciidoc, layout: :asciidoc
 
 # Copy Netlify's _redirects file on build
 proxy "_redirects", "netlify-redirects", ignore: true
+
+# Fix for Localized / i18n frontmatter for title & meta content
+# https://github.com/middleman/middleman/issues/1594#issuecomment-138964995
+helpers do
+  def page_title(page)
+    return page.data.title.send(I18n.locale) if
+      page.data.title.is_a?(Hash) && page.data.title[I18n.locale]
+    return page.data.title if page.data.title
+    return "Decidim"
+  end
+end
