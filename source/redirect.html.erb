@@ -1,0 +1,20 @@
+---
+title: Decidim
+description:
+---
+<script>
+  var url_string = window.location.href;
+  var url = new URL(url_string);
+  var page = url.searchParams.get("page");
+  if (page == null) {
+    page = "/thanks"
+  }
+  window.location = page;
+</script>
+<div class="container container-vertical">
+  <div class="container--small-col">
+    <p class="page-intro">
+      <a href="/thanks">Thanks</a>. <a href="/ca/thanks">Gràcies</a>. <a href="/es/thanks">Gracias</a>.
+    </p>
+  </div>
+</div>
