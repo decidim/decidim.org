@@ -55,6 +55,24 @@ $nav-width: 18rem;
       }
     }
   }
+
+  &__social {
+    padding-left: 1rem;
+    list-style: none;
+    li{
+      margin-right: 1rem;
+      display: inline-block;
+    }
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      fill: white;
+
+      &:hover{
+        fill: $primary;
+      }
+    }
+  }
 }
 
 .main-nav__trigger{
