@@ -12,7 +12,6 @@
         <nav class="footer__nav">
           <a href="<%= t(:path) %>/faqs" class="footer__nav-item"><%= t(:navFaqs) %></a>
           <a href="<%= t(:path) %>/contract" class="footer__nav-item"><%= t(:navContract) %></a>
-          <a href="<%= t(:path) %>/credits" class="footer__nav-item"><%= t(:navCredits) %></a>
           <a href="<%= t(:path) %>/partners" class="footer__nav-item"><%= t(:navPartners) %></a>
           <a href="<%= t(:path) %>/blog" class="footer__nav-item"><%= t(:navBlog) %></a>
           <a href="<%= t(:path) %>/contact" class="footer__nav-item"><%= t(:navContact) %></a>
@@ -24,12 +23,21 @@
               <img src="/images/logo_footer_barcelona.png" alt="Ajuntament de Barcelona" />
             </a>
           </div>
-          <div class="footer__attr">
-            <small><%= t(:footerAttribution) %></small>
-          </div>
           <div class="footer__logo">
             <a href="<%= t(:path) %>/"><img src="/images/decidim-logo-topbar.svg" alt="Decidim" width="120" /></a>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__attr-badge">
+      <div class="container">
+        <div class="footer__attr">
+          <small><a target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">&copy; <script>document.write(new Date().getFullYear())</script> <%= t(:footerAttribution) %></a></small>
+        </div>
+        <div class="footer__badge">
+          <a href="https://www.netlify.com">
+            <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" />
+          </a>
         </div>
       </div>
     </div>
