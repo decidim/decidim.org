@@ -1,0 +1,32 @@
+---
+title: Decidim
+description:
+---
+<%#
+ REASON OF THIS REDIRECT PAGE:
+ When sending a form, Netlify returns the designated feedback page
+ with a <script> tag in the <head> including the form answers, which
+ pushes the <meta charset="utf-8"> down and creates encoding issues
+ in non-English pages. This redirect page helps avoiding the default
+ Netlify behavoiur by loading a new page instead, since we don't
+ need to recover the previous sent data.
+
+ Fallback content is also presented in this page in case redirection
+ fails for some reason.
+ %>
+<script>
+  var url_string = window.location.href;
+  var url = new URL(url_string);
+  var page = url.searchParams.get("page");
+  if (page == null) {
+    page = "/thanks"
+  }
+  window.location = page;
+</script>
+<div class="container container-vertical">
+  <div class="container--small-col">
+    <p class="page-intro">
+      <a href="/thanks">Thanks</a>. <a href="/ca/thanks">Gràcies</a>. <a href="/es/thanks">Gracias</a>.
+    </p>
+  </div>
+</div>
