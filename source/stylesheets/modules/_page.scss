@@ -13,6 +13,12 @@
   }
 }
 
+.page-subtitle {
+  font-size: $h2;
+  text-transform: lowercase;
+  margin-bottom: 3rem;
+}
+
 .subsection-title{
   color: $primary;
   text-transform: lowercase;
@@ -33,6 +39,11 @@
   max-width: 52rem;
   font-size: $large-fontsize;
   margin-top: 1rem;
+
+  .btn {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
 }
 
 .page__cta{
