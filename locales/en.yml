@@ -30,11 +30,9 @@ en:
     platform for participatory democracy. Towards a network of cities and
     democratic&nbsp;organizations.'
   ## Hero
-  heroHeading:
-    'Free Open-Source participatory democracy for cities and organizations'
+  heroHeading: 'Free Open-Source participatory democracy for cities and organizations'
   heroSubheading: 'Decidim is a digital platform<br/>for citizen participation'
-  heroIntro:
-    'Free and safe technology.<br/>With all democratic
+  heroIntro: 'Free and safe technology.<br/>With all democratic
     guarantees.<br/>Reprogramming democracy is now possible with Decidim.'
   playVideo: 'Play video'
   videoUrl: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
@@ -86,7 +84,34 @@ en:
   featureCta: 'See all features'
   valuesCta: 'Go to social contract'
   # Demo --- translation directly in /localizable/demo.html.erb
-  # Community --- translation directly in /localizable/community.html.erb
+  # Community
+  communityTitle: 'Metadecidim, our community'
+  communitySubtitle: 'A democratic community that manages the Decidim project in all its dimensions'
+  communityIntro: 'Metadecidim is a community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.'
+  communityCta: 'Get started'
+  communityFeat1Title: 'Propose new features'
+  communityFeat1Subtitle: 'To design and develop Decidim among all'
+  communityFeat1Text: 'You can create debates about the future of Decidim or propose new features or improvements. Proposals can receive endorsements and comments, to show, for example, the interest they arouse in the community and value their development. Proposals that have a sponsor (such as a city council or any other entity), responsible for seeking and providing the necessary resources to carry out their development, will be useful for the project.'
+  communityFeat1Cta: 'Enter and participate now'
+  communityFeat2Title: 'Report a bug'
+  communityFeat2Subtitle: 'Collaboration for progressive improvement'
+  communityFeat2Text: 'Each new release of Decidim incorporates new features and usability improvements, but not everything works at first and errors may appear. Here you can report bugs you find and help the developers to fix them quickly.'
+  communityFeat2Cta: 'Enter and participate now'
+  communityImgAlt: 'Decidim Community Photo at Metadecidim Meeting 2016'
+  # Community Timeline
+  timelineTitle: 'Collaborative design of functionalities'
+  timelineStep1Title: 'New proposal'
+  timelineStep1Text: 'Functional description'
+  timelineStep2Title: 'Validated proposal'
+  timelineStep2Text: 'Technical and technopolitical validation'
+  timelineStep3Title: 'Planned proposal'
+  timelineStep3Text: 'Resources for development (shared or not)'
+  timelineStep4Title: 'Issue'
+  timelineStep4Text: 'Technical description'
+  timelineStep5Title: 'Pull request'
+  timelineStep5Text: 'Developed code'
+  timelineStep6Title: 'Funcionality done'
+  timelineStep6Text: 'Avaliable on the next version'
   # Social Contract --- translation directly in /localizable/contract.html.erb
   # Credits --- translation directly in /localizable/credits.html.erb
   # Documentation --- translation directly in /localizable/docs.html.erb
