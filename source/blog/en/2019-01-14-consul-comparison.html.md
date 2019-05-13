@@ -15,7 +15,7 @@ Roxu, Pablo, Andrés and Alberto contributed with feedback and a special mention
 
 ### Comparison Tables of Functions and Features
 
-We shall begin with the comparison table. It’s not easy to create because the two platforms have relatively different concepts with regard to the organisation of their functions. We will try to be as abstract and neutral as possible. The features are those that are available today (14 January 2018), downloading, installing and displaying the code of the latest version of each platform that can be found in the repository of each project. This is the result:
+We shall begin with the comparison table. It’s not easy to create because the two platforms have relatively different concepts with regard to the organisation of their functions. We will try to be as abstract and neutral as possible. The features are those that are available today (14 January 2019), downloading, installing and displaying the code of the latest version of each platform that can be found in the repository of each project. This is the result:
 
 <table>
   <thead>
