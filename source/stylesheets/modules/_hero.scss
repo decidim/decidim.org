@@ -62,6 +62,7 @@
   }
 
   &__subhead{
+    text-transform: lowercase;
     font-size: 1.3rem;
     color: white;
     font-weight: 600;
@@ -71,6 +72,26 @@
 
   [data-playvideo-button]{
     margin-left: 0;
+  }
+
+  &__download {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 0;
+    text-transform: lowercase;
+    font-weight: 600;
+    font-size: 90%;
+    margin-top: 1rem;
+    color: white;
+
+    svg {
+      margin-left: 0.5rem;
+    }
+
+    &:hover {
+      color: white;
+      opacity: 0.8;
+    }
   }
 }
 
