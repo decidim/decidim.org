@@ -16,6 +16,16 @@
     border-bottom: 1px solid rgba(black, .1);
     margin: 2rem auto 0;
   }
+  &.is-post-hidden {
+    display: none;
+  }
+}
+
+.paginate-control{
+  cursor: pointer;
+}
+.is-paginate-control-hidden{
+  display: none;
 }
 
 .post-thumb{
