@@ -4,7 +4,7 @@ per_page: 5
 ---
 <div class="blog container container-vertical-top">
   <div class="container--text-col">
-    <% blog.local_articles[0...5].each do |article| %>
+    <% blog.local_articles.each do |article| %>
       <article class="post-preview">
         <h2 class="page-title page-title--simplemargin">
           <a href="<%= article.url %>"><%= article.title %></a>
@@ -17,23 +17,7 @@ per_page: 5
       </article>
     <% end %>
 
-    <% if paginate && num_pages > 1 %>
-      <div class="blog-pages">
+    <button id="paginate-control" class="btn btn--primary paginate-control is-paginate-control-hidden">Veure més</button>
 
-        <% if prev_page %>
-          <span class="blog-pages__prev">
-            <%= link_to 'Anterior pàgina', prev_page %>
-          </span>
-        <% end %>
-
-        <%= page_number %> of <%= num_pages %>
-
-        <% if next_page %>
-          <span class="blog-pages__next">
-            <%= link_to 'Següent pàgina', next_page %>
-          </span>
-        <% end %>
-      </div>
-    <% end %>
   </div>
 </div>
