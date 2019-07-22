@@ -23,13 +23,15 @@ en:
 
   # Index ---
   ## Alert
-  alertTitle: 'Participate now in #Decidim.GOV'
-  alertSubtitle: 'Democratic Governance for an open community'
-  alertDesc:
-    'We want to think and redesign participatory democracy. We want to build
-    Decidim openly, transparently and collaboratively to make the best digital
-    platform for participatory democracy. Towards a network of cities and
-    democratic&nbsp;organizations.'
+  alert:
+    title: 'DecidimFest :: Democracy | Technology | Future :: Barcelona | October 29-31, 2019 ::'
+    subtitle: 'Join the Call4Nodes here'
+    link: https://meta.decidim.org/conferences/decidimfest19/f/1036/
+    desc:
+      'We want to think and redesign participatory democracy. We want to build
+      Decidim openly, transparently and collaboratively to make the best digital
+      platform for participatory democracy. Towards a network of cities and
+      democratic&nbsp;organizations.'
   ## Hero
   heroHeading: 'Free Open-Source participatory democracy for cities and organizations'
   heroSubheading: 'Decidim is a digital platform<br/>for citizen participation'
