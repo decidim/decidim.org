@@ -35,10 +35,11 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "FAQs"
     name: "faqs"
+    create: true
     files:
       - label: "FAQ questions"
         name: "faqs"
-        file: "site/content/faqs.yml"
+        file: "data/faqs.yml"
         fields:
           - label: EN
             name: en
