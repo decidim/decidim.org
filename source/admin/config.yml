@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: decidim/decidim.org
-  branch: content/new-post
+  branch: content/update
 
 media_folder: "source/blog/images"
 
@@ -33,3 +33,28 @@ collections:
       - {label: "Draft", name: "published", widget: "hidden", default: "false"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - label: "FAQs"
+    name: "faqs"
+    files:
+      - label: "FAQ questions"
+        name: "faqs"
+        file: "site/content/faqs.yml"
+        fields:
+          - label: EN
+            name: en
+            widget: list
+            fields:
+              - {label: question, name: question, widget: string}
+              - {label: answer, name: answer, widget: string}
+          - label: ES
+            name: es
+            widget: list
+            fields:
+              - {label: question, name: question, widget: string}
+              - {label: answer, name: answer, widget: string}
+          - label: CA
+            name: ca
+            widget: list
+            fields:
+              - {label: question, name: question, widget: string}
+              - {label: answer, name: answer, widget: string}
