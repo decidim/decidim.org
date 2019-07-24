@@ -60,14 +60,14 @@
     answer: "Decidim fa possible que milers de persones s'organitzin democràticament realitzant propostes, assistint a reunions públiques, creant discussions deliberatives, decidint mitjançant diferents formes de votació i monitoritzant la implementació de les decisions. Participants can also communicate between them through the networked communication Decidim functionalities."
 - faq7:
   en:
-    question: 'What does it mean that Decidim is for free, free and open source?'
-    answer: "Decidim is a platform for citizen participation made by people and for people. The fact that it is for free means that you don't have to pay to download it and use it. You can use it as you want in your organization, as long as you respect our <a href='https://decidim.org/contract/'>Social Contract</a>. You can <a href='https://decidim.org/community/'>collaborate in the continuous improvement of the platform</a> to ensure that between all of us we can have a software that is increasingly useful for participatory democracy."
+    question: 'What does it mean that Decidim is for free, "libre" and open source?'
+    answer: "Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the <a href='https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License'>AGPL license</a>. That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license."
   es:
     question: '¿Qué significa que Decidim sea gratuito, libre y de código abierto?'
-    answer: 'Decidim es una plataforma de participación ciudadana hecha por la gente y para la gente. Que sea gratuito significa que no tienes que pagar para descargátelo y utilizarlo. Puedes utilizarlo como quieras en tu organización, siempre que respetes nuestro <a href="https://decidim.org/es/contract/">Contrato Social</a>. Puedes <a href="https://decidim.org/es/community/">colaborar en la mejora continua de la plataforma</a> para garantizar que entre todas tengamos un programa cada día más útil para la democracia participativa.'
+    answer: "Decidim es una plataforma de participación ciudadana hecha por personas y para personas. Su código fuente es abierto y puede ser inspeccionado, modificado y mejorado por cualquiera. El software Decidim está cubierto por la <a href='https://es.wikipedia.org/wiki/GNU_Affero_General_Public_License'>licencia AGPL</a>. Eso significa que puedes usarlo, modificarlo y redistribuir versiones derivadas de él, siempre y cuando respetes la licencia AGPL."
   ca:
     question: 'Què significa que Decidim sigui gratuït, lliure i de codi obert?'
-    answer: "Decidim és una plataforma de participació ciutadana feta per la gent i per a la gent. Que sigui gratuït significa que no has de pagar para baixar-lo i utilitzar-ho. Pots utilitzar-ho com vulguis en la teva organització, sempre que respectis el nostre <a href='https://decidim.org/ca/contract/'>contracte social</a>. Pots <a href='https://decidim.org/ca/community/'>col·laborar en la millora contínua de la plataforma</a> per garantir que entre totes tinguem un programari cada dia més útil per a la democràcia participativa."
+    answer: "Decidim és una plataforma de participació ciutadana feta per persones i per a persones. El seu codi font és obert i pot ser inspeccionat, modificat i millorat per qualsevol. El programari Decidim està cobert per la <a href='https://ca.wikipedia.org/wiki/GNU_Affero_General_Public_License'>llicència AGPL</a>. Això vol dir que el pots utilitzar, modificar i redistribuir les seves versions derivades, sempre que respectis la llicència AGPL."
 - faq8:
   en:
     question: 'I have many doubts, of all kinds...where can I ask them or solve them?'
@@ -129,15 +129,15 @@
     question: 'Amb quina freqüència hi ha actualitzacions de la plataforma?'
     answer: "Cada mes, aproximadament, alliberem una nova versió. En <a href='https://github.com/decidim/decidim/releases' target='_blank'>aquest enllaç</a> pots consultar l'històric de versions."
 - faq14:
-  en:
-    question: 'What is the social contract?'
-    answer: 'This is how we call our Code of Democratic Guarantees and Democratic Collaboration. <a href="https://decidim.org/contract/">Check here</a> the social contract that all the members of the Decidim project undertake in order for Decidim to be free software and open content, transparent and to ensure that the data and its participants are not manipulated.'
+  en: 
+    question: "What is the Social Contract?"
+    answer: "That's how we call our Code of Democratic Guarantees and Democratic Collaboration. All members of the community must endorse the <a href='http://decidim.org/contract'>Social Contract</a>." 
   es:
-    question: '¿Qué es el contrato social?'
-    answer: 'Le llamamos así a nuestro Código de garantías democráticas y colaboración democrática. <a href="https://decidim.org/es/contract/">Consulta aquí el contrato social</a> que todos los miembros del proyecto Decidim se comprometen a seguir para que Decidim sea software libre y contenido abierto, transparente y que asegure la no manipulación de los datos y de sus participantes.'
+    question: ¿Qué es el Contrato Social?
+    answer: "Así es como llamamos a nuestro Código de Garantías Democráticas y Colaboración Democrática. Todos los miembros de la comunidad deben adherirse al <a href='http://decidim.org/es/contract'>Contrato Social</a>."
   ca:
-    question: 'Què és el contracte social?'
-    answer: 'És el nostre Codi de garanties i de col·laboració democràtica. <a href="https://decidim.org/ca/contract/">Consulta aquí</a> el Contracte Social que tots els membres del projecte Decidim es comprometen a seguir perquè Decidim sigui programari lliure, de contingut obert i transparent i que asseguri la no manipulació de les dades i dels seus participants.'
+    question: "Què és el Contracte Social?"
+    answer: "Així és com anomenem al nostre Codi de Garanties Democràtiques i Col·laboració Democràtica. Tots els membres de la comunitat han de adherir-se al <a href='http://decidim.org/ca/contract'>Contracte Social</a>."
 - faq15:
   en:
     question: 'Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.'
@@ -196,5 +196,15 @@
     question: '¿Cuáles son las diferencias con Consul Project / Decide Madrid?'
     answer: 'Hay muchas diferencias: funcionalidades, flexibilidad, arquitectura, modularidad, etc. Hemos <a href="/blog/en/2019-01-14-consul-comparison/">publicado un post</a> para intentar responder a esta pregunta.'
   ca:
-    question: 'Quines diferències hi ha amb el projecte Cònsol / Decide Madrid?'
+    question: 'Quines diferències hi ha amb el projecte Consul / Decide Madrid?'
     answer: 'Hi ha moltes diferències: característiques, flexibilitat, arquitectura, modularitat, etc. Hem <a href="/blog/en/2019-01-14-consul-comparison/"> publicat un post</a> per intentar respondre aquesta pregunta.'
+- faq21:
+  en:
+    question: "Where can I find the Corporate Identity Manual?"
+    answer: "You can find it <a href='/pdf/identity-manual-ca.pdf'>here</a>."
+  es:
+    question: "¿Dónde puedo encontrar el manual de identidad gráfica?"
+    answer: "Puedes encontrarlo <a href='/pdf/identity-manual-ca.pdf'>aquí</a>."
+  ca:
+    question: "On puc trobar el manual d'identitat gràfica?"
+    answer: "Pots trovar-ho <a href='/pdf/identity-manual-ca.pdf'>aquí</a>."
