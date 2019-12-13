@@ -40,7 +40,6 @@ collections:
     folder: data/installations/
     create: true
     slug: '{{title}}'
-    media_folder: source/images/cityhalls/
     fields:
       - {label: Name, name: name, widget: string, required: true}
       - {label: URL, name: url, widget: string, required: true}
@@ -57,27 +56,36 @@ collections:
         hint: Larger number is more priority (100 is Barcelona)
   - label: "FAQs"
     name: "faqs"
+    format: yml
+    extension: yml
+    folder: data/faqs/
     create: true
-    files:
-      - label: "FAQ questions"
-        name: "faqs"
-        file: "data/faqs.yml"
+    slug: '{{title}}'
+    fields:
+      - label: EN
+        name: en
+        widget: list
         fields:
-          - label: EN
-            name: en
-            widget: list
-            fields:
-              - {label: question, name: question, widget: string}
-              - {label: answer, name: answer, widget: string}
-          - label: ES
-            name: es
-            widget: list
-            fields:
-              - {label: question, name: question, widget: string}
-              - {label: answer, name: answer, widget: string}
-          - label: CA
-            name: ca
-            widget: list
-            fields:
-              - {label: question, name: question, widget: string}
-              - {label: answer, name: answer, widget: string}
+          - {label: question_en, name: question_en, widget: string}
+          - {label: answer_en, name: answer_en, widget: markdown}
+      - label: ES
+        name: es
+        widget: list
+        fields:
+          - {label: question_es, name: question_es, widget: string}
+          - {label: answer_es, name: answer_es, widget: markdown}
+      - label: CA
+        name: ca
+        widget: list
+        fields:
+          - {label: question_ca, name: question_ca, widget: string}
+          - {label: answer_ca, name: answer_ca, widget: markdown}
+      - label: "Priority"
+        name: "priority"
+        widget: "number"
+        default: 2
+        valueType: "int"
+        min: 1
+        max: 101
+        step: 2
+        hint: Larger number is more priority (first on list)
