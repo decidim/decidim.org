@@ -33,19 +33,6 @@ collections:
       - {label: "Draft", name: "published", widget: "hidden", default: "false"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - label: "Used By"
-    name: "usedby"
-    create: true
-    files:
-      - label: "Used By"
-        name: "usedby"
-        file: "data/cities.yml"
-        fields:
-          - {label: Name, name: name, widget: string}
-          - {label: URL, name: url, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Type, name: type, widget: "select", options: ["city", "org", "region"]}
-          - {label: Home, name: home, widget: boolean}
   - name: Installation
     label: Installation
     format: yml
@@ -59,20 +46,15 @@ collections:
       - {label: URL, name: url, widget: string, required: true}
       - {label: Image, name: image, widget: image, required: true}
       - {label: Type, name: type, widget: "select", options: ["city", "org", "region"], required: true}
-      - {label: Home, name: home, widget: boolean}
-  - label: "Used By test"
-    name: "usedbytest"
-    create: true
-    files:
-      - label: "Used By"
-        name: "usedby"
-        file: "data/cities/"
-        fields:
-          - {label: Name, name: name, widget: string}
-          - {label: URL, name: url, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Type, name: type, widget: "select", options: ["city", "org", "region"]}
-          - {label: Home, name: home, widget: boolean}
+      - label: "Priority"
+        name: "priority"
+        widget: "number"
+        default: 2
+        valueType: "int"
+        min: 1
+        max: 101
+        step: 2
+        hint: Larger number is more priority (100 is Barcelona)
   - label: "FAQs"
     name: "faqs"
     create: true
