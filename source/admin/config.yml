@@ -33,6 +33,17 @@ collections:
       - {label: "Draft", name: "published", widget: "hidden", default: "false"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Used By"
+    name: "usedby"
+    files:
+      - label: "Used By"
+        name: "usedby"
+        file: "site/content/about.yml"
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Type, name: type, widget: "select", options: ["city", "org", "region"]}
   - label: "FAQs"
     name: "faqs"
     create: true
