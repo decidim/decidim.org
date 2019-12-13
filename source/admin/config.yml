@@ -46,13 +46,26 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Type, name: type, widget: "select", options: ["city", "org", "region"]}
           - {label: Home, name: home, widget: boolean}
+  - name: Installation
+    label: Installation
+    format: yml
+    extension: yml
+    folder: data/installations/
+    create: true
+    slug: '{{title}}'
+    fields:
+      - {label: Name, name: name, widget: string, required: true}
+      - {label: URL, name: url, widget: string, required: true}
+      - {label: Image, name: image, widget: image, required: true}
+      - {label: Type, name: type, widget: "select", options: ["city", "org", "region"], required: true}
+      - {label: Home, name: home, widget: boolean}
   - label: "Used By test"
     name: "usedbytest"
     create: true
     files:
       - label: "Used By"
         name: "usedby"
-        file: "data/citiestest.yml"
+        file: "data/cities/"
         fields:
           - {label: Name, name: name, widget: string}
           - {label: URL, name: url, widget: string}
