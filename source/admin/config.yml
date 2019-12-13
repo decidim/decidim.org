@@ -64,25 +64,14 @@ collections:
     folder: data/faqs/
     create: true
     slug: '{{title}}'
+    identifier_field: question_en
     fields:
-      - label: EN
-        name: en
-        widget: list
-        fields:
-          - {label: question_en, name: question_en, widget: string}
-          - {label: answer_en, name: answer_en, widget: markdown}
-      - label: ES
-        name: es
-        widget: list
-        fields:
-          - {label: question_es, name: question_es, widget: string}
-          - {label: answer_es, name: answer_es, widget: markdown}
-      - label: CA
-        name: ca
-        widget: list
-        fields:
-          - {label: question_ca, name: question_ca, widget: string}
-          - {label: answer_ca, name: answer_ca, widget: markdown}
+      - {label: "Question EN", name: question_en, widget: string, required: true}
+      - {label: "Answer EN", name: answer_en, widget: markdown}
+      - {label: "Question ES", name: question_es, widget: string}
+      - {label: "Answer ES", name: answer_es, widget: markdown}
+      - {label: "Question CA", name: question_ca, widget: string}
+      - {label: "Answer CA", name: answer_ca, widget: markdown}
       - label: "Priority"
         name: "priority"
         widget: "number"
