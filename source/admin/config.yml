@@ -37,10 +37,8 @@ collections:
     extension: yml
     folder: data/installations/
     create: true
-    slug: '{{title}}'
-    identifier_field: name
     fields:
-      - {label: Name, name: name, widget: string, required: true}
+      - {label: Title, name: title, widget: string, required: true}
       - {label: URL, name: url, widget: string, required: true}
       - {label: Image, name: image, widget: image, required: true}
       - {label: Type, name: type, widget: "select", options: ["city", "org", "region"], required: true}
@@ -59,10 +57,8 @@ collections:
     extension: yml
     folder: data/faqs/
     create: true
-    slug: '{{title}}'
-    identifier_field: question_en
     fields:
-      - {label: "Question EN", name: question_en, widget: string, required: true}
+      - {label: "Question EN", name: title, widget: string, required: true}
       - {label: "Answer EN", name: answer_en, widget: markdown}
       - {label: "Question ES", name: question_es, widget: string}
       - {label: "Answer ES", name: answer_es, widget: markdown}
