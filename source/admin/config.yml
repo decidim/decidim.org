@@ -53,6 +53,7 @@ collections:
     folder: data/installations/
     create: true
     slug: '{{title}}'
+    media_folder: source/images/cityhalls/
     fields:
       - {label: Name, name: name, widget: string, required: true}
       - {label: URL, name: url, widget: string, required: true}
