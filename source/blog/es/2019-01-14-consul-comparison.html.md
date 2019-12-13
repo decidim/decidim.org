@@ -3,7 +3,7 @@ title: Comparison of Decidim and Consul
 date: 2019-01-14
 ---
 
-![consulproject.org](/blog/images/consul_comparison.png)
+![consulproject.org](/uploads/consul_comparison.png)
 
 **Translation note**: this document is a translation to English of a **[blog post by Xabier E. Barandiaran](https://xabier.barandiaran.net/2019/01/14/comparativa-decidim-vs-consul/)** (with permission). Since this document might evolve independently, we have substituted first person singular forms by first person plural.
 
