@@ -38,7 +38,7 @@ collections:
     files:
       - label: "Used By"
         name: "usedby"
-        file: "site/content/about.yml"
+        file: "data/cities.yml"
         fields:
           - {label: Name, name: name, widget: string}
           - {label: URL, name: url, widget: string}
