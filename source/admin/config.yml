@@ -1,7 +1,6 @@
 backend:
   name: github
   repo: decidim/decidim.org
-publish_mode: editorial_workflow
 media_folder: "source/uploads"
 collections:
   - name: "post-en"
