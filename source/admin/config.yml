@@ -35,6 +35,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Used By"
     name: "usedby"
+    create: true
     files:
       - label: "Used By"
         name: "usedby"
@@ -44,6 +45,20 @@ collections:
           - {label: URL, name: url, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Type, name: type, widget: "select", options: ["city", "org", "region"]}
+          - {label: Home, name: home, widget: boolean}
+  - label: "Used By test"
+    name: "usedbytest"
+    create: true
+    files:
+      - label: "Used By"
+        name: "usedby"
+        file: "data/citiestest.yml"
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Type, name: type, widget: "select", options: ["city", "org", "region"]}
+          - {label: Home, name: home, widget: boolean}
   - label: "FAQs"
     name: "faqs"
     create: true
