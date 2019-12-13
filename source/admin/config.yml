@@ -3,7 +3,7 @@ backend:
   repo: decidim/decidim.org
   branch: content/update
 
-media_folder: "source/blog/images"
+media_folder: "source/uploads"
 
 collections:
   - name: "post-en"
