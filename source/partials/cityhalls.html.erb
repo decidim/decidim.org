@@ -3,14 +3,14 @@
   <div class="container">
     <h2 class="logos-section__title"><%= t(:logosUsedByTitle) %></h2>
     <div class="logos-container">
-
-      <% @homecities = data.cities.select {|city| city[:home] == true} %>
-      <% @homecities.each do |use| %>
-        <a href="<%= use.url %>" target="_blank" class="logo-item">
-          <img src="<%= use.image %>" alt="<%= use.name %>" />
-        </a>
-      <% end %>
-
+      <% installations = installations_home(data.installations) %>
+      <div class="logos-container">
+        <% installations.each do |use| %>
+          <a href="<%= use[1].url %>" target="_blank" class="logo-item">
+            <img src="<%= image_clean_path(use[1].image) %>" alt="<%= use[1].title %>" />
+          </a>
+        <% end %>
+      </div>
     </div>
     <div class="logos-section__cta">
       <a href="<%= t(:path) %>/usedby" class="btn btn--primary"><%= t(:logosUsedByCta) %></a>

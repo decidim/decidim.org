@@ -1,34 +1,10 @@
 ---
 title: Decidim in use | Decidim
-description:
+description: Where's being used Decidim
 ---
 <div class="container container-vertical">
   <h1 class="page-title">These cities, regions and organizations are already using Decidim</h1>
- <% @cities = data.cities.select {|city| city[:type] == "city"} %>
- <% @regions = data.cities.select {|city| city[:type] == "region"} %>
- <% @orgs = data.cities.select {|city| city[:type] == "org"} %>
-    <h2 class="subsection-title">Cities</h2>
-    <div class="logos-container">
-      <% @cities.each do |use| %>
-        <a href="<%= use.url %>" target="_blank" class="logo-item">
-          <img src="<%= use.image %>" alt="<%= use.name %>" />
-        </a>
-      <% end %>
-    </div>
-    <h2 class="subsection-title">Regions</h2>
-    <div class="logos-container">
-      <% @regions.each do |use| %>
-        <a href="<%= use.url %>" target="_blank" class="logo-item">
-          <img src="<%= use.image %>" alt="<%= use.name %>" />
-        </a>
-      <% end %>
-    </div>
-    <h2 class="subsection-title">Organizations</h2>
-    <div class="logos-container">
-      <% @orgs.each do |use| %>
-        <a href="<%= use.url %>" target="_blank" class="logo-item">
-          <img src="<%= use.image %>" alt="<%= use.name %>" />
-        </a>
-      <% end %>
-    </div>
+  <%= partial "partials/used_by_type", locals: {type: "city", title: "Cities" } %>
+  <%= partial "partials/used_by_type", locals: {type: "region", title: "Regions" } %>
+  <%= partial "partials/used_by_type", locals: {type: "org", title: "Organizations" } %>
 </div>

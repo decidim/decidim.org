@@ -1,6 +1,9 @@
 require 'lib/i18n_helpers'
 helpers I18nHelpers
 
+require 'lib/installation_helpers'
+helpers InstallationHelpers
+
 # Activate multi-language
 activate :i18n, :mount_at_root => :en
 
