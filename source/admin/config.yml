@@ -50,11 +50,12 @@ collections:
         max: 101
         step: 2
         hint: Larger number is more priority (100 is Barcelona)
+      - {label: "Home", name: "home", widget: "boolean", hint: "Is it going to be published on homepage?"}
   - label: "FAQs"
     name: "faqs"
     format: yml
     extension: yml
-    folder: data/faqs/
+    folder: data/questions/
     create: true
     fields:
       - {label: "Question EN", name: title, widget: string, required: true}
