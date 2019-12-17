@@ -55,7 +55,7 @@ collections:
     name: "faqs"
     format: yml
     extension: yml
-    folder: data/faqs/
+    folder: data/questions/
     create: true
     fields:
       - {label: "Question EN", name: title, widget: string, required: true}
