@@ -1,8 +1,10 @@
 require 'lib/i18n_helpers'
-helpers I18nHelpers
-
 require 'lib/installation_helpers'
+require 'lib/format_helpers'
+
+helpers I18nHelpers
 helpers InstallationHelpers
+helpers FormatHelpers
 
 # Activate multi-language
 activate :i18n, :mount_at_root => :en
