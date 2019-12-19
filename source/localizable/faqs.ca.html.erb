@@ -4,13 +4,12 @@ description:
 ---
 <div class="container container-vertical">
   <h1 class="page-title">Preguntes freqüents</h1>
-  <% @faqs = data.faqs
-  %>
+  <% @faqs = data.faqs %>
   <div class="partner__container container--text-col">
-    <% @faqs.each do |use| %>
+    <% @faqs.each do |id, question| %>
       <dl class="faqs">
-        <dt><%= use[locale].question %><dt>
-        <dd><%= use[locale].answer %></dd>
+        <dt><%= question["question_ca"] %></dt>
+        <dd><%= markdown(question["answer_ca"]) %></dd>
       </dl>
     <% end %>
   </div>
