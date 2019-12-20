@@ -6,29 +6,35 @@ collections:
   - name: "post-en"
     label: "Post (EN)"
     folder: "source/blog/en"
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    extension: "html.md"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Draft", name: "published", widget: "hidden", default: "false"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "post-es"
     label: "Post (ES)"
     folder: "source/blog/es"
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    extension: "html.md"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Draft", name: "published", widget: "hidden", default: "false"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "post-ca"
     label: "Post (CA)"
     folder: "source/blog/ca"
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    extension: "html.md"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Draft", name: "published", widget: "hidden", default: "false"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "Installation"
     label: "Installation"
@@ -52,7 +58,7 @@ collections:
         hint: Larger number is more priority (100 is Barcelona)
       - {label: "Home", name: "home", widget: "boolean", hint: "Is it going to be published on homepage?"}
   - name: "Module"
-    label: "module"
+    label: "Module"
     format: yml
     extension: yml
     folder: data/modules/
