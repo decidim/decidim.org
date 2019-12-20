@@ -8,6 +8,7 @@ collections:
     folder: "source/blog/en"
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     extension: "html.md"
+    format: "frontmatter"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -19,6 +20,7 @@ collections:
     folder: "source/blog/es"
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     extension: "html.md"
+    format: "frontmatter"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -30,6 +32,7 @@ collections:
     folder: "source/blog/ca"
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     extension: "html.md"
+    format: "frontmatter"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
