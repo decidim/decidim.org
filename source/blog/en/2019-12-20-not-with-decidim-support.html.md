@@ -1,6 +1,5 @@
 ---
 title: Not with Decidim (support)
-published: 'false'
 date: 2019-12-20T15:01:47.276Z
 ---
 A company may announce a commitment to emit less CO2 in order to hide a court ruling on a toxic spill, but that doesn’t make the company any greener. A political party may submit parity lists to elections to silence criticism for restricting the right to abortion, but that doesn't make it any more feminist. A government can install and promote participation on digital platforms like Decidim to deactivate social movements that threaten its continuity, but that doesn't make it more democratic.
