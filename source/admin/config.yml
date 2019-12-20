@@ -30,17 +30,17 @@ collections:
       - {label: "Draft", name: "published", widget: "hidden", default: "false"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: Installation
-    label: Installation
+  - name: "Installation"
+    label: "Installation"
     format: yml
     extension: yml
     folder: data/installations/
     create: true
     fields:
-      - {label: Title, name: title, widget: string, required: true}
-      - {label: URL, name: url, widget: string, required: true}
-      - {label: Image, name: image, widget: image, required: true}
-      - {label: Type, name: type, widget: "select", options: ["city", "org", "region"], required: true}
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "URL", name: "url", widget: "string", required: true}
+      - {label: "Image", name: "image", widget: "image", required: true}
+      - {label: "Type", name: "type", widget: "select", options: ["city", "org", "region"], required: true}
       - label: "Priority"
         name: "priority"
         widget: "number"
@@ -51,6 +51,18 @@ collections:
         step: 2
         hint: Larger number is more priority (100 is Barcelona)
       - {label: "Home", name: "home", widget: "boolean", hint: "Is it going to be published on homepage?"}
+  - name: "Module"
+    label: "module"
+    format: yml
+    extension: yml
+    folder: data/modules/
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "URL", name: "url", widget: "string", required: true}
+      - {label: "Image", name: "image", widget: "image", required: true}
+      - {label: "Description", name: "description", widget: "text", required: true}
+      - {label: "Type", name: "type", widget: "select", options: ["official", "community", "auth"], required: true}
   - label: "FAQs"
     name: "faqs"
     format: yml
