@@ -16,8 +16,10 @@ Decidim is more than a free software project. Decidim is a technopolitical proje
 
 **References**
 
-(1) U.N. Human Rights Office denounced the restriction of rights of Yellow Vest demonstrators: <https://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx?NewsID=24166&LangID=E>\
-(2) Criticisms to the Grand Débat National: <https://concertation.hypotheses.org/1297>\
+(1) U.N. Human Rights Office denounced the restriction of rights of Yellow Vest demonstrators: <https://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx?NewsID=24166&LangID=E>
+
+(2) Criticisms to the Grand Débat National: <https://concertation.hypotheses.org/1297>
+
 (3) Preliminary report on human rights violations in Chile by Amnesty International[](https://www.amnesty.org/es/latest/news/2019/11/chile-amnistia-internacional-denunciara-violaciones-ante-cidh/)[ https://www.amnesty.org/en/latest/news/2019/11/chile-amnistia-internacional-denunciara-violaciones-ante-cidh/](https://www.amnesty.org/en/latest/news/2019/11/chile-amnistia-internacional-denunciara-violaciones-ante-cidh/) and the U.N. Human Rights Office<https://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx?NewsID=25423&LangID=E>
 
 This text has been debated[ here](https://meta.decidim.org/assemblies/PoliticaDecidim/f/1163/)
