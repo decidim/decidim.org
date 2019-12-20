@@ -1,6 +1,5 @@
 ---
 title: No (amb el suport) de Decidim
-published: 'false'
 date: 2019-12-20T15:12:47.072Z
 ---
 Una empresa pot anunciar que es compromet a emetre menys CO2 per amagar la condemna judicial per un abocament tòxic, però això no la faria més ecològica. Un partit polític pot presentar llistes paritàries a unes eleccions per a silenciar les crítiques que se li fan per haver restringit el dret a l'avortament, però això no el faria més feminista. Un govern pot instal·lar i promoure la participació en plataformes digitals com Decidim per tal de desactivar moviments socials que amenacen la seva continuïtat, però això no el faria pas més democràtic.
