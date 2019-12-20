@@ -6,37 +6,34 @@ collections:
   - name: "post-en"
     label: "Post (EN)"
     folder: "source/blog/en"
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     extension: "html.md"
     format: "frontmatter"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Draft", name: "published", widget: "hidden", default: "false"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "post-es"
     label: "Post (ES)"
     folder: "source/blog/es"
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     extension: "html.md"
     format: "frontmatter"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Draft", name: "published", widget: "hidden", default: "false"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "post-ca"
     label: "Post (CA)"
     folder: "source/blog/ca"
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     extension: "html.md"
     format: "frontmatter"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Draft", name: "published", widget: "hidden", default: "false"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "Installation"
