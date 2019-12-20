@@ -1,6 +1,5 @@
 ---
 title: No (con el apoyo) de Decidim
-published: 'false'
 date: 2019-12-20T15:10:20.819Z
 ---
 Una empresa puede anunciar que se compromete a emitir menos CO2 para ocultar una sentencia judicial por un vertido tóxico, pero eso no hace la empresa más ecológica. Un partido político puede presentar listas paritarias a unas elecciones para acallar críticas por restringir el derecho al aborto, pero eso no lo hace más feminista. Un gobierno puede instalar y promover la participación en plataformas digitales como Decidim para desactivar movimientos sociales que amenazan su continuidad, pero eso no lo hace más democrático.
