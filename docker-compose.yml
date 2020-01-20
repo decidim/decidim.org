@@ -5,5 +5,9 @@ services:
     command: bundle exec middleman --bind-address 0.0.0.0
     volumes:
       - .:/app
+      - gems:/usr/local/bundle:delegated
     ports:
       - "4567:4567"
+
+volumes:
+  gems: {}
