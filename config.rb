@@ -1,9 +1,9 @@
 require 'lib/i18n_helpers'
-require 'lib/installation_helpers'
+require 'lib/data_helpers'
 require 'lib/format_helpers'
 
 helpers I18nHelpers
-helpers InstallationHelpers
+helpers DataHelpers
 helpers FormatHelpers
 
 # Activate multi-language

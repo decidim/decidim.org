@@ -1,9 +1,10 @@
-<% installations = extract_by(data.installations, type) %>
+<% installations = data_sort_by_priority(data_select_by(data.installations, type)) %>
+
 <h2 class="subsection-title"><%= title %></h2>
 <div class="logos-container">
-  <% installations.each do |use| %>
-    <a href="<%= use[1].url %>" target="_blank" class="logo-item">
-      <img src="<%= image_clean_path(use[1].image) %>" alt="<%= use[1].title %>" />
+  <% installations.each do |id, i| %>
+    <a href="<%= i.url %>" target="_blank" class="logo-item">
+      <img src="<%= image_clean_path(i.image) %>" alt="<%= i.title %>" />
     </a>
   <% end %>
 </div>

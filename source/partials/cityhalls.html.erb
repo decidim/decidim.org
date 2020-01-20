@@ -3,11 +3,11 @@
   <div class="container">
     <h2 class="logos-section__title"><%= t(:logosUsedByTitle) %></h2>
     <div class="logos-container">
-      <% installations = installations_home(data.installations) %>
+      <% installations = data_sort_by_priority(data_select_home(data.installations)) %>
       <div class="logos-container">
-        <% installations.each do |use| %>
-          <a href="<%= use[1].url %>" target="_blank" class="logo-item">
-            <img src="<%= image_clean_path(use[1].image) %>" alt="<%= use[1].title %>" />
+        <% installations.each do |id, use| %>
+          <a href="<%= use.url %>" target="_blank" class="logo-item">
+            <img src="<%= image_clean_path(use.image) %>" alt="<%= use.title %>" />
           </a>
         <% end %>
       </div>
