@@ -2,6 +2,7 @@ backend:
   name: github
   repo: decidim/decidim.org
 media_folder: "source/uploads"
+public_folder: "/uploads/"
 collections:
   - name: "post-en"
     label: "Post (EN)"
@@ -91,3 +92,18 @@ collections:
         max: 101
         step: 2
         hint: Larger number is more priority (first on list)
+  - label: "Testimonial"
+    name: "testimonials"
+    format: yml
+    extension: yml
+    folder: data/testimonials/
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Image", name: "image", widget: "image", required: true}
+      - {label: "Organization EN", name: organization_en, widget: "string", required: true}
+      - {label: "Quote EN", name: "quote_en", widget: "text", required: true}
+      - {label: "Organization ES", name: organization_es, widget: "string", required: true}
+      - {label: "Quote ES", name: "quote_es", widget: "text", required: true}
+      - {label: "Organization CA", name: organization_ca, widget: "string", required: true}
+      - {label: "Quote CA", name: "quote_ca", widget: "text", required: true}
