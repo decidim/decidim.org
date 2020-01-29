@@ -16,8 +16,4 @@ module DataHelpers
     data.sort_by {|id,m| m["title"] }
   end
 
-  def image_clean_path image_path
-    image_path.sub("/source", "") if image_path.start_with? "/source"
-  end
-
 end
