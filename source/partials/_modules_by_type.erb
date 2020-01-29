@@ -4,7 +4,7 @@
   <% modules.each do |id, m| %>
     <div class="module-list__item">
       <a href="<%= m.url %>" target="_blank">
-        <img src="<%= image_clean_path(m.image) %>" alt="<%= m.title %>" class="module-list__image"/>
+        <img src="<%= m.image %>" alt="<%= m.title %>" class="module-list__image"/>
         <div class="module-list__content">
           <h2 class="module-list__title"><%= m.title %></h2>
           <p><%= m.description %></p>

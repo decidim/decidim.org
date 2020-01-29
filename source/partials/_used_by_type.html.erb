@@ -4,7 +4,7 @@
 <div class="logos-container">
   <% installations.each do |id, i| %>
     <a href="<%= i.url %>" target="_blank" class="logo-item">
-      <img src="<%= image_clean_path(i.image) %>" alt="<%= i.title %>" />
+      <img src="<%= i.image %>" alt="<%= i.title %>" />
     </a>
   <% end %>
 </div>
