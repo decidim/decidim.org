@@ -28,7 +28,6 @@ DecidimFemDev Programme ofrece:
 * Acceso a la bolsa de trabajo DecidimFemDev para que las empresas colaboradoras tengan preferencia a la hora de contratar .
 * Acceso al primer curso de la DecidimFemDev School (W.i.P)
 
-\
 Envíanos un email con tu candidatura a [femdev@decidim.org](mailto:femdev@decidim.org)
 
 **¿En qué consiste DecidimFemDev Programme?**
