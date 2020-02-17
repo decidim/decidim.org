@@ -5,10 +5,11 @@ description:
 <div class="container container-vertical">
   <h1 class="page-title">Modules</h1>
 
-  <%= partial "partials/modules_by_type", locals: {type: "official", title: "Official" } %>
-
   <%= partial "partials/modules_by_type", locals: {type: "community", title: "Community" } %>
 
   <%= partial "partials/modules_by_type", locals: {type: "auth", title: "Authorization" } %>
 
+  <%= partial "partials/modules_by_type", locals: {type: "official", title: "Official" } %>
+
 </div>
+  
