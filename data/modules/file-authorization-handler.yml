@@ -5,4 +5,4 @@ description: >-
   Allows admin users to upload a CSV file containing Document IDs and birthdates
   to a given organization. This information is used by a Decidim authorization
   handler to authorize real users.
-type: community
+type: auth
