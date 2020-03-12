@@ -5,20 +5,22 @@ en:
   buttonCode: 'Code on Github'
 
   #Navigation links
-  navText: 'Navigation'
-  navDemo: 'Demo'
-  navCommunity: 'Community'
-  navContract: 'Social Contract'
-  navCode: 'Code'
-  navDocs: 'Documentation'
-  navDocsPath: 'https://docs.decidim.org/init/en/'
-  navCredits: 'Attribution and credits'
-  navBlog: 'Blog'
-  navFeatures: 'Features'
-  navFaqs: 'FAQs'
-  navContact: 'Contact'
-  navUsedBy: 'Decidim in use'
-  navPartners: 'Cooperating entities'
+  nav:
+    text: 'Navigation'
+    demo: 'Demo'
+    community: 'Community'
+    contract: 'Social Contract'
+    code: 'Code'
+    docs:
+      title: 'Documentation'
+      path: 'https://docs.decidim.org/init/en/'
+    credits: 'Attribution and credits'
+    blog: 'Blog'
+    features: 'Features'
+    faqs: 'FAQs'
+    contact: 'Contact'
+    used_by: 'Decidim in use'
+    partners: 'Cooperating entities'
 
   # Index ---
   ## Alert
