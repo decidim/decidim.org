@@ -5,20 +5,23 @@ ca:
   buttonCode: 'Codi a Github'
 
   #Navigation links
-  navText: 'Navegació'
-  navDemo: 'Demo'
-  navCommunity: 'Comunitat'
-  navContract: 'Contracte social'
-  navCode: 'Codi'
-  navDocs: 'Documentació'
-  navDocsPath: 'https://docs.decidim.org/init/ca/'
-  navCredits: 'Crèdits i atribucions'
-  navBlog: 'Blog'
-  navFeatures: 'Funcionalitats'
-  navFaqs: 'FAQs'
-  navContact: 'Contacte'
-  navUsedBy: 'Ja fan servir Decidim'
-  navPartners: 'Entitats col·laboradores'
+  nav:
+    text: 'Navegació'
+    demo: 'Demo'
+    community: 'Comunitat'
+    contract: 'Contracte social'
+    code: 'Codi'
+    docs:
+      title: 'Documentació'
+      path: 'https://docs.decidim.org/init/ca/'
+    credits: 'Crèdits i atribucions'
+    blog: 'Blog'
+    features: 'Funcionalitats'
+    faqs: 'FAQs'
+    contact: 'Contacte'
+    used_by: 'Ja fan servir Decidim'
+    partners: 'Entitats col·laboradores'
+    modules: 'Moduls'
 
   # Index ---
   ## Alert

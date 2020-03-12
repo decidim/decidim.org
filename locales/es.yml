@@ -5,20 +5,23 @@ es:
   buttonCode: 'Código en Github'
 
   #Navigation links
-  navText: 'Navegación'
-  navDemo: 'Demo'
-  navCommunity: 'Comunidad'
-  navContract: 'Contrato social'
-  navCode: 'Código'
-  navDocs: 'Documentación'
-  navDocsPath: 'https://docs.decidim.org/init/es/'
-  navCredits: 'Créditos y atribuciones'
-  navBlog: 'Blog'
-  navFeatures: 'Funcionalidades'
-  navFaqs: 'FAQs'
-  navContact: 'Contacto'
-  navUsedBy: 'Ya usan Decidim'
-  navPartners: 'Entidades colaboradoras'
+  nav:
+    text: 'Navegación'
+    demo: 'Demo'
+    community: 'Comunidad'
+    contract: 'Contrato social'
+    code: 'Código'
+    docs:
+      title: 'Documentación'
+      path: 'https://docs.decidim.org/init/es/'
+    credits: 'Créditos y atribuciones'
+    blog: 'Blog'
+    features: 'Funcionalidades'
+    faqs: 'FAQs'
+    contact: 'Contacto'
+    used_by: 'Ya usan Decidim'
+    partners: 'Entidades colaboradoras'
+    modules: 'Módulos'
 
   # Index ---
   ## Alert
