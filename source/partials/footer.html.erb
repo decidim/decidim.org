@@ -18,9 +18,12 @@
         </nav>
         <div class="footer__credits">
           <div class="footer__promoter">
-            <%= t(:footerDrivenByTitle) %>
+            <p> <%= t('footer.driven_by') %> </p>
             <a href="http://www.barcelona.cat" target="_blank">
               <img src="/images/logo_footer_barcelona.png" alt="Ajuntament de Barcelona" />
+            </a>
+            <a href="<%= t('footer.feder_url') %>" target="_blank">
+              <img src="/images/badge_feder.png" alt="FEDER" />
             </a>
           </div>
           <div class="footer__logo">
@@ -32,11 +35,11 @@
     <div class="footer__attr-badge">
       <div class="container">
         <div class="footer__attr">
-          <small><a target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">&copy; <script>document.write(new Date().getFullYear())</script> <%= t(:footerAttribution) %></a></small>
+          <small><a target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">&copy; <script>document.write(new Date().getFullYear())</script> <%= t('footer.attribution') %></a></small>
         </div>
         <div class="footer__badge">
           <a href="https://www.netlify.com">
-            <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" />
+            <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Powered by Netlify" />
           </a>
         </div>
       </div>
