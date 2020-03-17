@@ -56,9 +56,13 @@ en:
   logosUsedByCta: 'See all'
   ## CTA Block
   ctaTitle: 'start using Decidim today'
+
   ## Footer
-  footerDrivenByTitle: 'Promoter'
-  footerAttribution: '- Creative Commons By-SA'
+  footer:
+    driven_by: 'Promoter'
+    attribution: '- Creative Commons By-SA'
+    feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/en/european-funds'
+
   ##Features
   feature1Title: 'Participatory<br/>budgets'
   feature1Content:

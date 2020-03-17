@@ -89,15 +89,12 @@
   }
 
   &__promoter{
-    display: flex;
-    flex-direction: column;
-    font-size: 80%;
     font-weight: 600;
 
     img{
-      margin-top: .5rem;
-      margin-bottom: .5rem;
-      max-width: 8rem;
+      display: inline;
+      margin: .5rem;
+      height: 2.5rem;
       @media (min-width: $S){
         margin-bottom: 0;
       }
@@ -144,7 +141,3 @@
     }
   }
 }
-
-
-
-
