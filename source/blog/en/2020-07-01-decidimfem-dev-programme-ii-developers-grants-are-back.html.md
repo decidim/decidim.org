@@ -1,5 +1,5 @@
 ---
-title: "DECIDIMFEM DEV PROGRAMME II: Developers grants are back "
+title: "DECIDIMFEM DEV PROGRAMME 2: Developers grants are back "
 date: 2020-07-01T09:25:05.638Z
 ---
 [Decidim](https://decidim.org/) is an open-source platform for participatory democracy that enables citizens to influence the creation of citizenship centric public policies and in the public agenda. At a global scale, over 150 institutions and organizations are using the software.
