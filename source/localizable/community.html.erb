@@ -1,8 +1,28 @@
 ---
-title: Community | Decidim
+title:
+  en: Community
+  es: Comunidad
+  ca: Comunitat
 description:
 ---
 
-<%= partial "/partials/community-page" %>
+<div class="container container-vertical">
+  <h1 class="page-title page-title--nomargin"><%= t('community.title') %></h1>
+  <h2 class="page-subtitle"><%= t('community.subtitle') %></h2>
+  <div class="page-intro">
+    <p><%= t('community.intro') %></p>
+    <a href="https://meta.decidim.org/" class="btn btn--primary"><%= t('community.cta') %></a>
+  </div>
+</div>
+  
+<%= partial "/partials/community-process" %>
 
-
+<div class="container container-vertical">
+  <div class="feature-list">
+    <%= partial "/partials/community-item", locals: {type: "features", url: "https://meta.decidim.org/processes/roadmap"} %>
+    <%= partial "/partials/community-item", locals: {type: "bug", url: "https://meta.decidim.org/processes/bug-report"} %>
+  </div>
+  <div class="community__team">
+    <img src="/images/community-picture.jpg" alt="<%= t('community.img_alt') %>" />
+  </div>
+</div>

@@ -94,19 +94,22 @@ es:
   valuesCta: 'Ir al contrato social'
   # Demo --- translation directly in /localizable/demo.es.html.erb
   # Community
-  communityTitle: 'Metadecidim, nuestra comunidad'
-  communitySubtitle: 'Una comunidad democrática que gestiona el proyecto Decidim en todas sus dimensiones'
-  communityIntro: 'Metadecidim es una comunidad que colabora en el diseño de la plataforma y la construcción del proyecto. Entre todas podemos diseñar y desarrollar nuevas funcionalides y notificar bugs para una mejora continua de la plataforma.'
-  communityCta: 'empezar'
-  communityFeat1Title: 'Propón nuevas funcionalidades'
-  communityFeat1Subtitle: 'Diseñar y desarrollar Decidim entre todas'
-  communityFeat1Text: 'Puedes crear debates sobre el futuro de Decidim o proponer nuevas funciones o mejoras. Las propuestas pueden recibir adhesiones y comentarios, para mostrar, por ejemplo, el interés que despiertan en la comunidad y valorar su desarrollo. Serán útiles para el proyecto las propuestas que cuenten con un patrocinador o sponsor (como un ayuntamiento o cualquier otra entidad), responsable de buscar y aportar los recursos necesarios para llevar a cabo su desarrollo.'
-  communityFeat1Cta: 'Entra y participa ahora'
-  communityFeat2Title: 'Notifica un bug'
-  communityFeat2Subtitle: 'Colaboración para la mejora continua'
-  communityFeat2Text: 'Cada nueva versión (release) de Decidim incorpora nuevas funcionalidades y mejoras de usabilidad, pero no siempre todo funciona a la primera y pueden aparecer errores. Aquí puedes reportar los errores (bugs) que encuentres. Así ayudas al equipo de desarrollo a corregirlos rápidamente.'
-  communityFeat2Cta: 'Entra y participa ahora'
-  communityImgAlt: 'Fotografía de la comunidad Decidim en la las jornadas MetaDecidim 2016'
+  community:
+    title: 'Metadecidim, nuestra comunidad'
+    subtitle: 'Una comunidad democrática que gestiona el proyecto Decidim en todas sus dimensiones'
+    intro: 'Metadecidim es una comunidad que colabora en el diseño de la plataforma y la construcción del proyecto. Entre todas podemos diseñar y desarrollar nuevas funcionalides y notificar bugs para una mejora continua de la plataforma.'
+    cta: 'empezar'
+    features:
+      title: 'Propón nuevas funcionalidades'
+      subtitle: 'Diseñar y desarrollar Decidim entre todas'
+      text: 'Puedes crear debates sobre el futuro de Decidim o proponer nuevas funciones o mejoras. Las propuestas pueden recibir adhesiones y comentarios, para mostrar, por ejemplo, el interés que despiertan en la comunidad y valorar su desarrollo. Serán útiles para el proyecto las propuestas que cuenten con un patrocinador o sponsor (como un ayuntamiento o cualquier otra entidad), responsable de buscar y aportar los recursos necesarios para llevar a cabo su desarrollo.'
+      cta: 'Entra y participa ahora'
+    bug:
+      title: 'Notifica un bug'
+      subtitle: 'Colaboración para la mejora continua'
+      text: 'Cada nueva versión (release) de Decidim incorpora nuevas funcionalidades y mejoras de usabilidad, pero no siempre todo funciona a la primera y pueden aparecer errores. Aquí puedes reportar los errores (bugs) que encuentres. Así ayudas al equipo de desarrollo a corregirlos rápidamente.'
+      cta: 'Entra y participa ahora'
+    img_alt: 'Fotografía de la comunidad Decidim en la las jornadas MetaDecidim 2016'
   # Community Timeline
   timelineTitle: 'Diseño colaborativo de funcionalidades'
   timelineStep1Title: 'Nueva propuesta'

@@ -94,19 +94,22 @@ en:
   valuesCta: 'Go to social contract'
   # Demo --- translation directly in /localizable/demo.html.erb
   # Community
-  communityTitle: 'Metadecidim, our community'
-  communitySubtitle: 'A democratic community that manages the Decidim project in all its dimensions'
-  communityIntro: 'Metadecidim is a community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.'
-  communityCta: 'Get started'
-  communityFeat1Title: 'Propose new features'
-  communityFeat1Subtitle: 'To design and develop Decidim among all'
-  communityFeat1Text: 'You can create debates about the future of Decidim or propose new features or improvements. Proposals can receive endorsements and comments, to show, for example, the interest they arouse in the community and value their development. Proposals that have a sponsor (such as a city council or any other entity), responsible for seeking and providing the necessary resources to carry out their development, will be useful for the project.'
-  communityFeat1Cta: 'Enter and participate now'
-  communityFeat2Title: 'Report a bug'
-  communityFeat2Subtitle: 'Collaboration for progressive improvement'
-  communityFeat2Text: 'Each new release of Decidim incorporates new features and usability improvements, but not everything works at first and errors may appear. Here you can report bugs you find and help the developers to fix them quickly.'
-  communityFeat2Cta: 'Enter and participate now'
-  communityImgAlt: 'Decidim Community Photo at Metadecidim Meeting 2016'
+  community:
+    title: 'Metadecidim, our community'
+    subitlt: 'A democratic community that manages the Decidim project in all its dimensions'
+    intro: 'Metadecidim is a community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.'
+    cta: 'Get started'
+    features:
+      title: 'Propose new features'
+      subtitle: 'To design and develop Decidim among all'
+      text: 'You can create debates about the future of Decidim or propose new features or improvements. Proposals can receive endorsements and comments, to show, for example, the interest they arouse in the community and value their development. Proposals that have a sponsor (such as a city council or any other entity), responsible for seeking and providing the necessary resources to carry out their development, will be useful for the project.'
+      cta: 'Enter and participate now'
+    bug:
+      title: 'Report a bug'
+      subtitle: 'Collaboration for progressive improvement'
+      text: 'Each new release of Decidim incorporates new features and usability improvements, but not everything works at first and errors may appear. Here you can report bugs you find and help the developers to fix them quickly.'
+      cta: 'Enter and participate now'
+    img_alt: 'Decidim Community Photo at Metadecidim Meeting 2016'
   # Community Timeline
   timelineTitle: 'Collaborative design of functionalities'
   timelineStep1Title: 'New proposal'
