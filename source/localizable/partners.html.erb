@@ -1,11 +1,13 @@
 ---
-title: Cooperating entities | Decidim
+title:
+  en: Cooperating entities
+  es: Entidades colaboradoras
+  ca: Entitats col·laboradores
 description:
 ---
 <div class="container container-vertical">
-  <h1 class="page-title">Cooperating entities</h1>
-  <% @partners = data.partners 
-  %>
+  <h1 class="page-title"><%= t('nav.partners') %></h1>
+  <% @partners = data.partners %>
   <div class="partner__container">
     <% @partners.each do |use| %>
       <div class="partner__item">
