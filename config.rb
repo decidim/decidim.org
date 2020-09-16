@@ -1,8 +1,10 @@
 require 'lib/i18n_helpers'
+require 'lib/i18n_title_helpers'
 require 'lib/data_helpers'
 require 'lib/format_helpers'
 
 helpers I18nHelpers
+helpers I18nTitleHelpers
 helpers DataHelpers
 helpers FormatHelpers
 
