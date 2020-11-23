@@ -3,13 +3,13 @@
 <% @other = data.features.select {|feature| feature[:type] == "other"} %>
 
 <div class="container container-vertical">
-  <h1 class="page-title page-title--nomargin"><%= t(:featuresTitle) %></h1>
+  <h1 class="page-title page-title--nomargin"><%= t("features.title") %></h1>
     <div class="page-intro">
-      <%= t(:featuresIntro) %>
+      <%= t("features.intro") %>
     </div>
     <h2 class="subsection-title">
-      <%= t(:featuresType1Title) %>
-      <span class="subsection-title__subtitle"><%= t(:featuresType1Subtitle) %></span>
+      <%= t("features.type1.title") %>
+      <span class="subsection-title__subtitle"><%= t("features.type1.subtitle") %></span>
     </h2>
     <div class="feature-list">
       <% @spaces.each do |use| %>
@@ -24,8 +24,8 @@
       <% end %>
     </div>
     <h2 class="subsection-title">
-      <%= t(:featuresType2Title) %>
-      <span class="subsection-title__subtitle"><%= t(:featuresType2Subtitle) %></span>
+      <%= t("features.type2.title") %>
+      <span class="subsection-title__subtitle"><%= t("features.type2.subtitle") %></span>
     </h2>
     <div class="feature-list">
       <% @components.each do |use| %>
@@ -40,7 +40,7 @@
       <% end %>
     </div>
     <h2 class="subsection-title">
-      <span class="subsection-title__subtitle"><%= t(:featuresOtherSubtitle) %></span>
+      <span class="subsection-title__subtitle"><%= t("features.other.subtitle") %></span>
     </h2>
     <div class="feature-list">
       <% @other.each do |use| %>
@@ -55,9 +55,9 @@
       <% end %>
     </div>
     <div class="page__cta">
-      <h2 class="page__cta-title"><%= t(:featuresCtaTitle) %></h2>
+      <h2 class="page__cta-title"><%= t("features.cta.title") %></h2>
       <a class="btn btn--primary" href="https://docs.decidim.org/en/features/" target="_blank">
-        <%= t(:featuresCta) %>
+        <%= t("features.cta.button") %>
       </a>
     </div>
 </div>

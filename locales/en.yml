@@ -31,8 +31,8 @@ en:
     subtitle: 'Join our call'
     link: https://meta.decidim.org/conferences/decidimfest2020/f/1338/
     desc:
-      'DecidimFest is an intense 3-day program of activities devoted to the Decidim project, 
-      participatory democracy and open source tools for collective intelligence in the era of 
+      'DecidimFest is an intense 3-day program of activities devoted to the Decidim project,
+      participatory democracy and open source tools for collective intelligence in the era of
       Global Democracy.'
   ## Hero
   heroHeading: 'Free Open-Source participatory democracy for cities and organizations'
@@ -64,34 +64,6 @@ en:
     attribution: '- Creative Commons By-SA'
     feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/en/european-funds'
 
-  ##Features
-  feature1Title: 'Participatory<br/>budgets'
-  feature1Content:
-    'It analyses the submitted proposals and promotes a new way of distributing
-    common resources.'
-  feature2Title: 'Citizen’s initiatives<br/>and consultations'
-  feature2Content:
-    'Empower your community through citizen initiatives. Promote relevant voting
-    through consultations.'
-  feature3Title: 'The power<br/>of a political network'
-  feature3Content:
-    'It takes deliberation, collaboration and decision to a massive dimension,
-    with thousands of people participating in real time.'
-  feature4Title: 'A democratic<br/>and flexible system'
-  feature4Content:
-    'Thanks to its modular architecture and scalable logic, you can configure a
-    powerful system of democratic governance in all kinds of organizations.'
-  feature5Title: 'We take democracy<br/>very seriously'
-  feature5Content:
-    'Decidim ensures transparency, traceability and integrity of information
-    like never before. It provides security, privacy and confidentiality to all
-    participants.'
-  feature6Title: "It's yours.<br/>Share it. Improve it."
-  feature6Content:
-    'A platform designed entirely with free software, open and collaborative
-    content thanks to the community Metadecidim.'
-  featureCta: 'See all features'
-  valuesCta: 'Go to social contract'
   # Demo --- translation directly in /localizable/demo.html.erb
   # Community
   community:
@@ -127,25 +99,70 @@ en:
   # Social Contract --- translation directly in /localizable/contract.html.erb
   # Credits --- translation directly in /localizable/credits.html.erb
   # Documentation --- translation directly in /localizable/docs.html.erb
+
   # Features --- Intro texts
-  featuresTitle: 'Features'
-  featuresIntro:
-    '<p>You can use Decidim in a public or private organisation, with hundreds
-    or thousands of potential participants, such as a city council, an
-    association, a university, an NGO, a trade union, a neighbourhood collective
-    or a cooperative...</p><p>Thanks to Decidim you will be able to configure
-    spaces for participation (initiatives, assemblies, processes or
-    consultations) and enrich them through the multiple available components
-    (face-to-face meetings, surveys, proposals, voting, follow-up of results,
-    comments and many more).</p>'
-  featuresType1Title: 'Spaces for participation'
-  featuresType1Subtitle: 'For participants to make proposals and make decisions'
-  featuresType2Title: 'Components'
-  featuresType2Subtitle: 'For participants and spaces to interact'
-  featuresOtherSubtitle:
-    'Dare to combine the components. Design and deploy a powerful democratic
-    system in an easy way and adapt it to your organization’s needs'
-  featuresCtaTitle: 'Discover how Decidim works in depth'
-  featuresCta: 'Functions and features'
+  features:
+    title: 'Features'
+    intro:
+      '<p>You can use Decidim in a public or private organisation, with hundreds
+      or thousands of potential participants, such as a city council, an
+      association, a university, an NGO, a trade union, a neighbourhood collective
+      or a cooperative...</p><p>Thanks to Decidim you will be able to configure
+      spaces for participation (initiatives, assemblies, processes or
+      consultations) and enrich them through the multiple available components
+      (face-to-face meetings, surveys, proposals, voting, follow-up of results,
+      comments and many more).</p>'
+    type1:
+      title: 'Spaces for participation'
+      subtitle: 'For participants to make proposals and make decisions'
+    type2:
+      title: 'Components'
+      subtitle: 'For participants and spaces to interact'
+    other:
+      subtitle::
+        'Dare to combine the components. Design and deploy a powerful democratic
+        system in an easy way and adapt it to your organization’s needs'
+    cta:
+      title: 'Discover how Decidim works in depth'
+      button: 'Functions and features'
+
   partners:
     notice: The cooperating entities logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
+
+  ##Features
+  home:
+    features:
+      n1:
+        title: 'Participatory<br/>budgets'
+        content:
+          'It analyses the submitted proposals and promotes a new way of distributing
+          common resources.'
+      n2:
+        title: 'Citizen’s initiatives<br/>and consultations'
+        content:
+          'Empower your community through citizen initiatives. Promote relevant voting
+          through consultations.'
+      n3:
+        title: 'The power<br/>of a political network'
+        content:
+          'It takes deliberation, collaboration and decision to a massive dimension,
+          with thousands of people participating in real time.'
+      n4:
+        title: 'A democratic<br/>and flexible system'
+        content:
+          'Thanks to its modular architecture and scalable logic, you can configure a
+          powerful system of democratic governance in all kinds of organizations.'
+      n5:
+        title: 'We take democracy<br/>very seriously'
+        content:
+          'Decidim ensures transparency, traceability and integrity of information
+          like never before. It provides security, privacy and confidentiality to all
+          participants.'
+      n6:
+        title: "It's yours.<br/>Share it. Improve it."
+        content:
+          'A platform designed entirely with free software, open and collaborative
+          content thanks to the community Metadecidim.'
+      cta:
+        features: 'See all features'
+        values: 'Go to social contract'
