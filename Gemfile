@@ -15,3 +15,5 @@ gem 'nokogiri', '~> 1.8.2'
 gem "builder", "~> 3.0"
 # For pages in AsciiDoc
 gem 'middleman-asciidoc'
+
+gem "byebug"
