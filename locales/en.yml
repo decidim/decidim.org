@@ -173,3 +173,10 @@ en:
       cta:
         features: 'See all features'
         values: 'Go to social contract'
+
+  used_by:
+    explain: These cities, regions and organizations are already using Decidim
+    type:
+      city: Cities
+      region: Regions
+      organizations: Organizations

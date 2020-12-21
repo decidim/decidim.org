@@ -1,0 +1,13 @@
+---
+title:
+  en: Decidim in use
+  es: Demo
+  ca: Demo
+description:
+---
+<div class="container container-vertical">
+  <h1 class="page-title"><%= t('used_by.explain') %></h1>
+  <%= partial "partials/used_by_type", locals: {type: "city", title: t('used_by.type.city') } %>
+  <%= partial "partials/used_by_type", locals: {type: "region", title: t('used_by.type.region') } %>
+  <%= partial "partials/used_by_type", locals: {type: "org", title: t('used_by.type.organizations') } %>
+</div>
