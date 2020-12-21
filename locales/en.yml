@@ -87,20 +87,26 @@ en:
       text: 'Each new release of Decidim incorporates new features and usability improvements, but not everything works at first and errors may appear. Here you can report bugs you find and help the developers to fix them quickly.'
       cta: 'Enter and participate now'
     img_alt: 'Decidim Community Photo at Metadecidim Meeting 2016'
-
-  timelineTitle: 'Collaborative design of functionalities'
-  timelineStep1Title: 'New proposal'
-  timelineStep1Text: 'Functional description'
-  timelineStep2Title: 'Validated proposal'
-  timelineStep2Text: 'Technical and technopolitical validation'
-  timelineStep3Title: 'Planned proposal'
-  timelineStep3Text: 'Resources for development (shared or not)'
-  timelineStep4Title: 'Issue'
-  timelineStep4Text: 'Technical description'
-  timelineStep5Title: 'Pull request'
-  timelineStep5Text: 'Developed code'
-  timelineStep6Title: 'Funcionality done'
-  timelineStep6Text: 'Avaliable on the next version'
+    timeline:
+      title: 'Collaborative design of functionalities'
+      step1:
+        title: 'New proposal'
+        text: 'Functional description'
+      step2:
+        title: 'Validated proposal'
+        text: 'Technical and technopolitical validation'
+      step3:
+        title: 'Planned proposal'
+        text: 'Resources for development (shared or not)'
+      step4:
+        title: 'Issue'
+        text: 'Technical description'
+      step5:
+        title: 'Pull request'
+        text: 'Developed code'
+      step6:
+        title: 'Funcionality done'
+        text: 'Avaliable on the next version'
 
   contact:
     title: Contact us

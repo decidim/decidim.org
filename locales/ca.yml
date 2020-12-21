@@ -125,21 +125,26 @@ ca:
       text: "Cada nova versió (release) de Decidim incorpora noves funcionalitats i millores d'usabilitat, però no sempre tot funciona a la primera i poden aparèixer errors. Aquí pots reportar els errors (bugs) que trobis. Així ajudes a l'equip de desenvolupament a corregir-los ràpidament."
       cta: 'Entra i participa ara'
     img_alt: 'Fotografia de la comunitat Decidim a les jornades MetaDecidim 2016'
-
-  timelineTitle: 'Disseny col·laboratiu de funcionalitats'
-  timelineStep1Title: 'Nova proposta'
-  timelineStep1Text: 'Descripció funcional'
-  timelineStep2Title: 'Proposta validada'
-  timelineStep2Text: 'Validació tècnica i tecnopolítica'
-  timelineStep3Title: 'Proposta planificada'
-  timelineStep3Text: 'Recursos pel desenvolupament (compartits o no)'
-  timelineStep4Title: 'Issue'
-  timelineStep4Text: 'Descripció tècnica'
-  timelineStep5Title: 'Pull request'
-  timelineStep5Text: 'Codi desenvolupat'
-  timelineStep6Title: 'Publicació'
-  timelineStep6Title: 'Funcionalitat feta'
-  timelineStep6Text: 'Disponible en la següent versió'
+    timeline:
+      title: 'Disseny col·laboratiu de funcionalitats'
+      step1:
+        title: 'Nova proposta'
+        text: 'Descripció funcional'
+      step2:
+        title: 'Proposta validada'
+        text: 'Validació tècnica i tecnopolítica'
+      step3:
+        title: 'Proposta planificada'
+        text: 'Recursos pel desenvolupament (compartits o no)'
+      step4:
+        title: 'Issue'
+        text: 'Descripció tècnica'
+      step5:
+        title: 'Pull request'
+        text: 'Codi desenvolupat'
+      step6:
+        title: 'Funcionalitat feta'
+        text: 'Disponible en la següent versió'
 
   contact:
     title: Contacta amb nosaltres
