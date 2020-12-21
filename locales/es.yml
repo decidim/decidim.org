@@ -1,7 +1,6 @@
 es:
   path: '/es'
   activeLang: 'Castellano'
-  buttonCode: 'Código en Github'
 
   nav:
     text: 'Navegación'
@@ -12,7 +11,6 @@ es:
     docs:
       title: 'Documentación'
       path: 'https://docs.decidim.org/'
-    credits: 'Créditos y atribuciones'
     blog: 'Blog'
     features: 'Funcionalidades'
     faqs: 'FAQs'
@@ -57,7 +55,7 @@ es:
     cta:
       title: 'comienza a usar Decidim'
     button:
-      code: 'Code on Github'
+      code: 'Código on Github'
 
   footer:
     driven_by: 'Proyecto impulsado por'
