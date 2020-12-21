@@ -70,28 +70,6 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: true}
       - {label: "Description", name: "description", widget: "text", required: true}
       - {label: "Type", name: "type", widget: "select", options: ["official", "community", "auth"], required: true}
-  - label: "FAQs"
-    name: "faqs"
-    format: yml
-    extension: yml
-    folder: data/faqs/
-    create: true
-    fields:
-      - {label: "Question EN", name: title, widget: string, required: true}
-      - {label: "Answer EN", name: answer_en, widget: markdown}
-      - {label: "Question ES", name: question_es, widget: string}
-      - {label: "Answer ES", name: answer_es, widget: markdown}
-      - {label: "Question CA", name: question_ca, widget: string}
-      - {label: "Answer CA", name: answer_ca, widget: markdown}
-      - label: "Priority"
-        name: "priority"
-        widget: "number"
-        default: 2
-        valueType: "int"
-        min: 1
-        max: 101
-        step: 2
-        hint: Larger number is more priority (first on list)
   - label: "Testimonial"
     name: "testimonials"
     format: yml
