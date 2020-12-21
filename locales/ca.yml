@@ -33,31 +33,35 @@ ca:
       "Un programa intensiu de 3 dies d'activitats dedicat al projecte Decidim, la democràcia
       participativa i les eines de codi obert per a la intel·ligència col·lectiva en l'era de
       la democràcia global."
-  ## Hero
-  heroHeading: 'Democràcia participativa de codi obert per a ciutats i organitzacions'
-  heroSubheading: 'Decidim és una plataforma digital<br/>de participació ciutadana'
-  heroIntro: 'Tecnologia lliure i segura.<br/>Amb totes les garanties
-    democràtiques.<br/>Reprogramar la democràcia ara és possible amb Decidim.'
-  playVideo: 'Reproduir vídeo'
-  videoUrl: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
-  closeVideo: 'Tancar el vídeo'
-  ## Subhero
-  subheroIntro:
-    'Decidim ajuda a ciutadans, organitzacions i institucions públiques a
-    auto-organitzar-se democràticament a tots els nivells.'
-  subheroFeature1: 'Planificació<br/>estratègica'
-  subheroFeature2: 'Pressupostos<br/>participatius'
-  subheroFeature3: 'Iniciatives i<br/>consultes ciutadanes'
-  subheroFeature4: 'Processos<br/>participatius'
-  subheroFeature5: 'Òrgans<br/>de participació'
-  subheroFeature6: 'Comunicació<br/>en xarxa'
-  ## Logo sections
-  logosUsedByTitle: 'Ja fan servir Decidim'
-  logosUsedByCta: 'Veure tots'
-  ## CTA Block
-  ctaTitle: 'comença a fer servir Decidim'
 
-  ## Footer
+  index:
+    hero:
+      heading: 'Democràcia participativa de codi obert per a ciutats i organitzacions'
+      subheading: 'Decidim és una plataforma digital<br/>de participació ciutadana'
+      intro: 'Tecnologia lliure i segura.<br/>Amb totes les garanties
+      democràtiques.<br/>Reprogramar la democràcia ara és possible amb Decidim.'
+    video:
+      play: 'Reproduir vídeo'
+      url: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
+      close: 'Tancar el vídeo'
+    subhero:
+      intro:
+        'Decidim ajuda a ciutadans, organitzacions i institucions públiques a
+        auto-organitzar-se democràticament a tots els nivells.'
+      feature1: 'Planificació<br/>estratègica'
+      feature2: 'Pressupostos<br/>participatius'
+      feature3: 'Iniciatives i<br/>consultes ciutadanes'
+      feature4: 'Processos<br/>participatius'
+      feature5: 'Òrgans<br/>de participació'
+      feature6: 'Comunicació<br/>en xarxa'
+    used_by:
+      title: 'Ja fan servir Decidim'
+      cta: 'Veure tots'
+    cta:
+      title: 'comença a fer servir Decidim'
+    button:
+      code: 'Codi a Github'
+
   footer:
     driven_by: 'Projecte impulsat per'
     attribution: '- Creative Commons By-SA'

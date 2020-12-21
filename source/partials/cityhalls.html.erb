@@ -1,7 +1,7 @@
 
 <section class="logos-section logos-section--cityhalls">
   <div class="container">
-    <h2 class="logos-section__title"><%= t(:logosUsedByTitle) %></h2>
+    <h2 class="logos-section__title"><%= t('index.used_by.title') %></h2>
     <div class="logos-container">
       <% installations = data_sort_by_priority(data_select_home(data.installations)) %>
       <div class="logos-container">
@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="logos-section__cta">
-      <a href="<%= t(:path) %>/usedby" class="btn btn--primary"><%= t(:logosUsedByCta) %></a>
+      <a href="<%= t(:path) %>/usedby" class="btn btn--primary"><%= t('index.used_by.cta') %></a>
     </div>
   </div>
 </section>

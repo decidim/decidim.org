@@ -33,37 +33,40 @@ en:
       'DecidimFest is an intense 3-day program of activities devoted to the Decidim project,
       participatory democracy and open source tools for collective intelligence in the era of
       Global Democracy.'
-  ## Hero
-  heroHeading: 'Free Open-Source participatory democracy for cities and organizations'
-  heroSubheading: 'Decidim is a digital platform<br/>for citizen participation'
-  heroIntro: 'Free and safe technology.<br/>With all democratic
-    guarantees.<br/>Reprogramming democracy is now possible with Decidim.'
-  playVideo: 'Play video'
-  videoUrl: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
-  closeVideo: 'Close video'
-  ## Subhero
-  subheroIntro:
-    'Decidim helps citizens, organizations and public institutions self-organize
-    democratically at every scale.'
-  subheroFeature1: 'Strategic<br/>planning'
-  subheroFeature2: 'Participatory<br/>budgeting'
-  subheroFeature3: 'Initiatives and<br/>citizen consultations'
-  subheroFeature4: 'Participative<br/>processes'
-  subheroFeature5: 'Assemblies'
-  subheroFeature6: 'Networked<br/>communication'
-  ## Logo sections
-  logosUsedByTitle: 'They are already using Decidim'
-  logosUsedByCta: 'See all'
-  ## CTA Block
-  ctaTitle: 'start using Decidim today'
 
-  ## Footer
+  index:
+    hero:
+      heading: 'Free Open-Source participatory democracy for cities and organizations'
+      subheading: 'Decidim is a digital platform<br/>for citizen participation'
+      intro: 'Free and safe technology.<br/>With all democratic
+      guarantees.<br/>Reprogramming democracy is now possible with Decidim.'
+    video:
+      play: 'Play video'
+      url: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
+      close: 'Close video'
+    subhero:
+      intro:
+        'Decidim helps citizens, organizations and public institutions self-organize
+        democratically at every scale.'
+      feature1: 'Strategic<br/>planning'
+      feature2: 'Participatory<br/>budgeting'
+      feature3: 'Initiatives and<br/>citizen consultations'
+      feature4: 'Participative<br/>processes'
+      feature5: 'Assemblies'
+      feature6: 'Networked<br/>communication'
+    used_by:
+      title: 'They are already using Decidim'
+      cta: 'See all'
+    cta:
+      title: 'start using Decidim today'
+    button:
+      code: 'Code on Github'
+
   footer:
     driven_by: 'Promoter'
     attribution: '- Creative Commons By-SA'
     feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/en/european-funds'
 
-  ## Demo
   demo:
     title: Online Demo
     p1: Play around and explore freely the Decidim platform with our online demo.

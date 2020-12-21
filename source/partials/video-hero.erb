@@ -1,19 +1,19 @@
 <section class="video-hero">
   <div class="container">
     <h2 class="video-hero__heading">
-      <span><%= t(:heroSubheading) %></span>
+      <span><%= t('index.hero.subheading') %></span>
     </h2>
     <p class="video-hero__subhead">
-      <%= t(:heroIntro) %>
+      <%= t('index.hero.intro') %>
     </p>
-    <a href="<%= t(:videoUrl) %>" target="_blank" class="btn btn--primary btn--large" data-playvideo-button>
-      <%= t(:playVideo) %>
+    <a href="<%= t('index.video.url') %>" target="_blank" class="btn btn--primary btn--large" data-playvideo-button>
+      <%= t('index.video.play') %>
       <%= partial "images/icons/play.svg" %>
     </a>
   </div>
 </section>
 <div class="video-wrapper" data-video-wrapper data-src='<%= t(:videoUrl) %>?rel=0&showinfo=0&autoplay=true'>
-  <a href="#" class="video-wrapper__close" data-closevideo aria-label="<%= t(:closeVideo) %>">
+  <a href="#" class="video-wrapper__close" data-closevideo aria-label="<%= t('index.video.close') %>">
     <span aria-hidden="true">&times;</span>
   </a>
 </div>

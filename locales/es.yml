@@ -33,31 +33,35 @@ es:
       'DecidimFest es programa intensivo de 3 días de actividades dedicado al proyecto Decidim,
       la democracia participativa y las herramientas de código abierto para la inteligencia
       colectiva en la era de la democracia global.'
-  ## Hero
-  heroHeading: 'Democracia participativa de código libre para ciudades y organizaciones'
-  heroSubheading: 'Decidim es una plataforma digital<br/>de participación ciudadana'
-  heroIntro: 'Tecnología libre y segura.<br/>Con todas las garantías
-    democráticas.<br/>Reprogramar la democracia ahora es posible con Decidim.'
-  playVideo: 'Reproducir vídeo'
-  videoUrl: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
-  closeVideo: 'Cerrar el vídeo'
-  ## Subhero
-  subheroIntro:
-    'Decidim ayuda a ciudadanos, organizaciones e instituciones públicas a
-    auto-organizarse democráticamente a todos los niveles.'
-  subheroFeature1: 'Planificación<br/>estratégica'
-  subheroFeature2: 'Presupuestos<br/>participativos'
-  subheroFeature3: 'Iniciativas y<br/>consultas ciudadanas'
-  subheroFeature4: 'Procesos<br/>participativos'
-  subheroFeature5: 'Órganos<br/>de participación'
-  subheroFeature6: 'Comunicación<br/>en red'
-  ## Logo sections
-  logosUsedByTitle: 'Ya están usando Decidim'
-  logosUsedByCta: 'Ver todos'
-  ## CTA Block
-  ctaTitle: 'comienza a usar Decidim'
 
-  ## Footer
+  index:
+    hero:
+      heading: 'Democracia participativa de código libre para ciudades y organizaciones'
+      subheading: 'Decidim es una plataforma digital<br/>de participación ciudadana'
+      intro: 'Tecnología libre y segura.<br/>Con todas las garantías
+      democráticas.<br/>Reprogramar la democracia ahora es posible con Decidim.'
+    video:
+      play: 'Reproducir vídeo'
+      url: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
+      close: 'Cerrar el vídeo'
+    subhero:
+      intro:
+        'Decidim ayuda a ciudadanos, organizaciones e instituciones públicas a
+        auto-organizarse democráticamente a todos los niveles.'
+      feature1: 'Planificación<br/>estratégica'
+      feature2: 'Presupuestos<br/>participativos'
+      feature3: 'Iniciativas y<br/>consultas ciudadanas'
+      feature4: 'Procesos<br/>participativos'
+      feature5: 'Órganos<br/>de participación'
+      feature6: 'Comunicación<br/>en red'
+    used_by:
+      title: 'Ya están usando Decidim'
+      cta: 'Ver todos'
+    cta:
+      title: 'comienza a usar Decidim'
+    button:
+      code: 'Code on Github'
+
   footer:
     driven_by: 'Proyecto impulsado por'
     attribution: '- Creative Commons By-SA'
