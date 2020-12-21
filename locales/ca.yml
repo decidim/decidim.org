@@ -1,9 +1,7 @@
 ca:
   path: '/ca'
   activeLang: 'Català'
-  buttonCode: 'Codi a Github'
 
-  #Navigation links
   nav:
     text: 'Navegació'
     demo: 'Demo'
@@ -23,8 +21,6 @@ ca:
     modules: 'Moduls'
     press: 'Prensa'
 
-  # Index ---
-  ## Alert
   alert:
     title: "Decidim Fest 2020 :: Democràcia i Tecnología en temps d'Emergència | 18, 19 i 20 de Novembre"
     subtitle: 'Oberta convocatòria'
@@ -67,37 +63,44 @@ ca:
     attribution: '- Creative Commons By-SA'
     feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/ca/fons-europeus'
 
-  ##Features
-  feature1Title: 'Pressupostos<br/>participatius'
-  feature1Content:
-    'Analitza les propostes rebudes i potencia una nova forma de distribuir els
-    recursos comuns.'
-  feature2Title: 'Iniciatives<br/>i consultes ciutadanes'
-  feature2Content:
-    "Empodera a la teva comunitat a través d'iniciatives ciutadanes. Promou
-    votacions rellevants a través de consultes."
-  feature3Title: "La potència<br/>d'una xarxa política"
-  feature3Content:
-    'Porta la deliberació, la col·laboració i la decisió a una dimensió
-    multitudinària, amb milers de persones participant en temps real.'
-  feature4Title: 'Un sistema<br/>democràtic i flexible'
-  feature4Content:
-    "Gràcies a la seva arquitectura modular i la seva lògica escalable, podràs
-    configurar un potent sistema de governança democràtica en tot tipus
-    d'organitzacions."
-  feature5Title: 'Ens prenem la democràcia<br/>seriosament'
-  feature5Content:
-    'Decidim assegura la transparència, traçabilitat i integritat de la
-    informació com mai abans. Proporciona seguretat, privadesa i
-    confidencialitat a totes les participants.'
-  feature6Title: 'És vostra.<br/>Compartiu-la. Milloreu-la.'
-  feature6Content:
-    'Una plataforma pensada completament amb programari lliure, de contingut
-    obert i col·laboratiu gràcies a la comunitat Metadecidim.'
-  featureCta: 'Veure totes les funcionalitats'
-  valuesCta: 'Anar al contracte social'
+  home:
+    features:
+      n1:
+        title: 'Pressupostos<br/>participatius'
+        content:
+          'Analitza les propostes rebudes i potencia una nova forma de distribuir els
+          recursos comuns.'
+      n2:
+        title: 'Iniciatives<br/>i consultes ciutadanes'
+        content:
+          "Empodera a la teva comunitat a través d'iniciatives ciutadanes. Promou
+          votacions rellevants a través de consultes."
+      n3:
+        title: "La potència<br/>d'una xarxa política"
+        content:
+          'Porta la deliberació, la col·laboració i la decisió a una dimensió
+          multitudinària, amb milers de persones participant en temps real.'
+      n4:
+        title: 'Un sistema<br/>democràtic i flexible'
+        content:
+          "Gràcies a la seva arquitectura modular i la seva lògica escalable, podràs
+          configurar un potent sistema de governança democràtica en tot tipus
+          d'organitzacions."
+      n5:
+        title: 'Ens prenem la democràcia<br/>seriosament'
+        content:
+          'Decidim assegura la transparència, traçabilitat i integritat de la
+          informació com mai abans. Proporciona seguretat, privadesa i
+          confidencialitat a totes les participants.'
+      n6:
+        title: 'És vostra.<br/>Compartiu-la. Milloreu-la.'
+        content:
+          'Una plataforma pensada completament amb programari lliure, de contingut
+          obert i col·laboratiu gràcies a la comunitat Metadecidim.'
+      cta:
+        features: 'Veure totes les funcionalitats'
+        values: 'Anar al contracte social'
 
-  ## Demo
   demo:
     title: Demo en línia
     p1: Coneix i prova lliurement la plataforma Decidim amb la demo en línia.
@@ -106,7 +109,6 @@ ca:
     p4: Pots accedir com a <strong>administrador</strong> (amb el nom d&apos;usuari <strong>admin@example.org</strong> i la contrasenya <strong>decidim123456</strong>).
     button: Demo en línia
 
-  # Community
   community:
     title: 'Metadecidim, la nostra comunitat'
     subtitle: 'Una comunitat democràtica que gestiona el projecte Decidim en totes les seves dimensions'
@@ -123,7 +125,7 @@ ca:
       text: "Cada nova versió (release) de Decidim incorpora noves funcionalitats i millores d'usabilitat, però no sempre tot funciona a la primera i poden aparèixer errors. Aquí pots reportar els errors (bugs) que trobis. Així ajudes a l'equip de desenvolupament a corregir-los ràpidament."
       cta: 'Entra i participa ara'
     img_alt: 'Fotografia de la comunitat Decidim a les jornades MetaDecidim 2016'
-  # Community Timeline
+
   timelineTitle: 'Disseny col·laboratiu de funcionalitats'
   timelineStep1Title: 'Nova proposta'
   timelineStep1Text: 'Descripció funcional'
@@ -138,9 +140,6 @@ ca:
   timelineStep6Title: 'Publicació'
   timelineStep6Title: 'Funcionalitat feta'
   timelineStep6Text: 'Disponible en la següent versió'
-  # Social Contract --- translation directly in /localizable/contract.ca.html.erb
-  # Credits --- translation directly in /localizable/credits.ca.html.erb
-  # Documentation --- translation directly in /localizable/docs.ca.html.erb
 
   contact:
     title: Contacta amb nosaltres
@@ -155,27 +154,32 @@ ca:
     title: Gràcies per contactar-nos
     message: Gràcies pel teu correu electrònic, et respondrem en breu.
 
-  # Features --- Intro texts
-  featuresTitle: 'Funcionalitats'
-  featuresIntro:
-    '<p>Pots utilitzar Decidim en una organització pública o privada, amb
-    centenars o milers de potencials participants, com un ajuntament, una
-    associació, una universitat, una ONG, un sindicat, un col·lectiu de barri o
-    cooperativa…</p><p>Gràcies a Decidim podràs configurar espais de
-    participació (iniciatives, assemblees, processos o consultes) i enriquir-los
-    a través dels múltiples components disponibles (trobades presencials,
-    enquestes, propostes, votacions, seguiment de resultats, comentaris i molts
-    més).</p>'
-  featuresType1Title: 'Espais de participació'
-  featuresType1Subtitle: 'Perquè els participants realitzin propostes i prenguin decisions'
-  featuresType2Title: 'Components'
-  featuresType2Subtitle: 'Perquè les participants i espais interactuin'
-  featuresOtherSubtitle:
-    'Atreveix-te a combinar els components als espais per dissenyar i
-    implementar amb facilitat un potent sistema democràtic i adaptar-ho a les
-    necessitats de la teva organització'
-  featuresCtaTitle: 'Descobreix com funciona Decidim a fons'
-  featuresCta: 'Funcionalitats i característiques'
+  features:
+    title: 'Funcionalitats'
+    intro:
+      '<p>Pots utilitzar Decidim en una organització pública o privada, amb
+      centenars o milers de potencials participants, com un ajuntament, una
+      associació, una universitat, una ONG, un sindicat, un col·lectiu de barri o
+      cooperativa…</p><p>Gràcies a Decidim podràs configurar espais de
+      participació (iniciatives, assemblees, processos o consultes) i enriquir-los
+      a través dels múltiples components disponibles (trobades presencials,
+      enquestes, propostes, votacions, seguiment de resultats, comentaris i molts
+      més).</p>'
+    type1:
+      title: 'Espais de participació'
+      subtitle: 'Perquè els participants realitzin propostes i prenguin decisions'
+    type2:
+      title: 'Components'
+      subtitle: 'Perquè les participants i espais interactuin'
+    other:
+      subtitle:
+        'Atreveix-te a combinar els components als espais per dissenyar i
+        implementar amb facilitat un potent sistema democràtic i adaptar-ho a les
+        necessitats de la teva organització'
+    cta:
+      title: 'Descobreix com funciona Decidim a fons'
+      button: 'Funcionalitats i característiques'
+
   partners:
     notice: Els logotips de les entitats col·laboradores són propietat intel·lectual dels seus respectius titulars de drets d'autor. No pertanyen a la <a href="https://creativecommons.org/licenses/by-sa/4.0/"> llicència Creative Commons By-SA </a>, la resta de continguts del lloc tenen llicència.
 

@@ -1,9 +1,7 @@
 en:
   path: ''
   activeLang: 'English'
-  buttonCode: 'Code on Github'
 
-  #Navigation links
   nav:
     text: 'Navigation'
     demo: 'Demo'
@@ -23,8 +21,6 @@ en:
     modules: 'Modules'
     press: 'Press'
 
-  # Index ---
-  ## Alert
   alert:
     title: 'Decidim Fest 2020 :: Democracy and Technology in times of Emergency | 18, 19 and 20 November'
     subtitle: 'Join our call'
@@ -75,7 +71,6 @@ en:
     p4: You can log in as <strong>Admin</strong> (username "<strong>admin@example.org</strong>" and password "<strong>decidim123456</strong>").
     button: Online demo
 
-  # Community
   community:
     title: 'Metadecidim, our community'
     subitlt: 'A democratic community that manages the Decidim project in all its dimensions'
@@ -92,7 +87,7 @@ en:
       text: 'Each new release of Decidim incorporates new features and usability improvements, but not everything works at first and errors may appear. Here you can report bugs you find and help the developers to fix them quickly.'
       cta: 'Enter and participate now'
     img_alt: 'Decidim Community Photo at Metadecidim Meeting 2016'
-  # Community Timeline
+
   timelineTitle: 'Collaborative design of functionalities'
   timelineStep1Title: 'New proposal'
   timelineStep1Text: 'Functional description'
@@ -120,7 +115,6 @@ en:
     title: Thanks for your email
     message: Thank you for contacting us, we will get back to you soon.
 
-  # Features --- Intro texts
   features:
     title: 'Features'
     intro:
@@ -139,7 +133,7 @@ en:
       title: 'Components'
       subtitle: 'For participants and spaces to interact'
     other:
-      subtitle::
+      subtitle:
         'Dare to combine the components. Design and deploy a powerful democratic
         system in an easy way and adapt it to your organization’s needs'
     cta:
@@ -149,7 +143,6 @@ en:
   partners:
     notice: The cooperating entities logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
 
-  ##Features
   home:
     features:
       n1:
@@ -193,3 +186,12 @@ en:
       city: Cities
       region: Regions
       organizations: Organizations
+
+  faqs:
+    q01:
+      question: Can I join the Metadecidim community even if I don't live in Barcelona?
+      answer: >-
+        Decidim is a project that was born in Barcelona and that is why there is a
+        strong territorial bond with this city. But yes, you can collaborate online,
+        through participatory processes, debates, etc .... that we provide in
+        Metadecidim. Although you might want to come to Barcelona sometime :)
