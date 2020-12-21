@@ -103,9 +103,19 @@ en:
   timelineStep5Text: 'Developed code'
   timelineStep6Title: 'Funcionality done'
   timelineStep6Text: 'Avaliable on the next version'
-  # Social Contract --- translation directly in /localizable/contract.html.erb
-  # Credits --- translation directly in /localizable/credits.html.erb
-  # Documentation --- translation directly in /localizable/docs.html.erb
+
+  contact:
+    title: Contact us
+    bot_field: "Don’t fill this out if you're human:"
+    name: Name
+    entity: Entity
+    email: Email
+    message: Message
+    send: Send
+
+  thanks:
+    title: Thanks for your email
+    message: Thank you for contacting us, we will get back to you soon.
 
   # Features --- Intro texts
   features:

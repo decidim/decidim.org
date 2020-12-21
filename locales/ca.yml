@@ -137,6 +137,20 @@ ca:
   # Social Contract --- translation directly in /localizable/contract.ca.html.erb
   # Credits --- translation directly in /localizable/credits.ca.html.erb
   # Documentation --- translation directly in /localizable/docs.ca.html.erb
+
+  contact:
+    title: Contacta amb nosaltres
+    bot_field: "No omplis aquest camp si ets human:"
+    name: Nom
+    entity: Entitat
+    email: Correu electrònic
+    message: Missatge
+    send: Enviar
+
+  thanks:
+    title: Gràcies per contactar-nos
+    message: Gràcies pel teu correu electrònic, et respondrem en breu.
+
   # Features --- Intro texts
   featuresTitle: 'Funcionalitats'
   featuresIntro:

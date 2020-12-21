@@ -135,6 +135,20 @@ es:
   # Social Contract --- translation directly in /localizable/contract.es.html.erb
   # Credits --- translation directly in /localizable/credits.es.html.erb
   # Documentation --- translation directly in /localizable/docs.es.html.erb
+
+  contact:
+    title: Contacta con nosotros
+    bot_field: "No rellenes este campo si eres humano:"
+    name: Nombre
+    entity: Entidad
+    email: Correo electrónico
+    message: Mensaje
+    send: Enviar
+
+  thanks:
+    title: Gracias por contactarnos
+    message: Gracias por tu email, te responderemos en breve.
+
   # Features --- Intro texts
   featuresTitle: 'Funcionalidades'
   featuresIntro:
