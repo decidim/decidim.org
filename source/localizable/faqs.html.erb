@@ -3,13 +3,13 @@ title: Frequently asked questions | Decidim
 description:
 ---
 <div class="container container-vertical">
-  <h1 class="page-title">Frequently asked questions</h1>
-  <% @faqs = data.faqs %>
+  <h1 class="page-title"><%= t('faqs.title') %></h1>
+
   <div class="partner__container container--text-col">
-    <% @faqs.each do |id, question| %>
+    <% (01..24).each do |n| %>
       <dl class="faqs">
-        <dt><%= question["title"] %></dt>
-        <dd><%= markdown(question["answer_en"]) %></dd>
+        <dt><%= t("faqs.q#{"%02d" % n}.question") %></dt>
+        <dd><%= markdown(t("faqs.q#{"%02d" % n}.answer")) %></dd>
       </dl>
     <% end %>
   </div>
