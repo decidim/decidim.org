@@ -1,7 +1,6 @@
 ca:
   path: '/ca'
   activeLang: 'Català'
-  buttonDemo: 'Demo online'
   buttonCode: 'Codi a Github'
 
   #Navigation links
@@ -31,8 +30,8 @@ ca:
     subtitle: 'Oberta convocatòria'
     link: https://meta.decidim.org/conferences/decidimfest2020/f/1338/
     desc:
-      "Un programa intensiu de 3 dies d'activitats dedicat al projecte Decidim, la democràcia 
-      participativa i les eines de codi obert per a la intel·ligència col·lectiva en l'era de 
+      "Un programa intensiu de 3 dies d'activitats dedicat al projecte Decidim, la democràcia
+      participativa i les eines de codi obert per a la intel·ligència col·lectiva en l'era de
       la democràcia global."
   ## Hero
   heroHeading: 'Democràcia participativa de codi obert per a ciutats i organitzacions'
@@ -93,7 +92,16 @@ ca:
     obert i col·laboratiu gràcies a la comunitat Metadecidim.'
   featureCta: 'Veure totes les funcionalitats'
   valuesCta: 'Anar al contracte social'
-  # Demo --- translation directly in /localizable/demo.ca.html.erb 
+
+  ## Demo
+  demo:
+    title: Demo en línia
+    p1: Coneix i prova lliurement la plataforma Decidim amb la demo en línia.
+    p2: La plataforma Decidim està activa en diversos exemples que pots visitar i explorar, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a>, de la ciutat de Barcelona, o bé pots visitar els llocs de <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> i de <a href="https://www.lhon-participa.cat/" target="_blank">l&apos;Hospitalet</a>. Però aquests són exemples reals i potser no els pots experimentar lliurement perquè no ets ciutadà o ciutadana d&apos;aquests municipis, i tampoc no pots explorar els llocs com a administrador.
+    p3: Si vols anar més enllà, et convidem a provar Decidim des del lloc web de demostració (cortesia dels desenvolupadors de <a href="http://alabs.org" target="_blank">aLabs</a>). Entra al lloc de demostració i prova lliurement el potencial de Decidim i les seves característiques.
+    p4: Pots accedir com a <strong>administrador</strong> (amb el nom d&apos;usuari <strong>admin@example.org</strong> i la contrasenya <strong>decidim123456</strong>).
+    button: Demo en línia
+
   # Community
   community:
     title: 'Metadecidim, la nostra comunitat'

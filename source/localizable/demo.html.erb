@@ -1,28 +1,20 @@
 ---
-title: Demo | Decidim
+title:
+  en: Demo
+  es: Demo
+  ca: Demo
 description:
 ---
 <div class="container container-vertical-top">
   <div class="container--text-col">
-    <h1 class="page-title">Online Demo</h1>
-    <p>
-      Play around and explore freely the Decidim platform with our online demo.
-    </p>
-
-    <p>
-      Decidim is up and running on several instances that you can visit and explore, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> at Barcelona City or you can visit the sites of <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> and <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. But these are real instances where you can't really play around freely, as you might not be a citizen of those municipalities, and you can't explore those sites as an admin.
-    </p>
-
-    <p>
-      If you want to go further you are welcome to test Decidim on our Decidim Demo Site (courtesy of our developers at <a href="http://alabs.org" target="_blank">aLabs</a>). Enter the demo site and freely explore the potential of Decidim and its features.
-    </p>
-    <p>
-      You can log in as <strong>Admin</strong> (username "<strong>admin@example.org</strong>" and password "<strong>decidim123456</strong>").
-    </p>
-
+    <h1 class="page-title"><%= t('demo.title') %></h1>
+    <p><%= t('demo.p1') %></p>
+    <p><%= t('demo.p2') %></p>
+    <p><%= t('demo.p3') %></p>
+    <p><%= t('demo.p4') %></p>
     <div class="page__cta">
-      <a href="http://try.decidim.org/" class="btn btn--primary"><%= t(:buttonDemo) %></a>
+      <a href="http://try.decidim.org/" class="btn btn--primary"><%= t('demo.button') %></a>
     </div>
   </div>
-  
+
 </div>
