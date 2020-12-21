@@ -1,15 +1,14 @@
 ---
-title: Modules | Decidim
+nav: modules
 description:
 ---
 <div class="container container-vertical">
-  <h1 class="page-title">Modules</h1>
+  <h1 class="page-title"><%= t('nav.modules') %></h1>
 
-  <%= partial "partials/modules_by_type", locals: {type: "community", title: "Community" } %>
+  <%= partial "partials/modules_by_type", locals: {type: "community", title: t('modules.type.community') } %>
 
-  <%= partial "partials/modules_by_type", locals: {type: "auth", title: "Authorization" } %>
+  <%= partial "partials/modules_by_type", locals: {type: "auth", title: t('modules.type.auth') } %>
 
-  <%= partial "partials/modules_by_type", locals: {type: "official", title: "Official" } %>
+  <%= partial "partials/modules_by_type", locals: {type: "official", title: t('modules.type.official') } %>
 
 </div>
-  

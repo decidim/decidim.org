@@ -186,6 +186,12 @@ en:
         features: 'See all features'
         values: 'Go to social contract'
 
+  modules:
+    type:
+      community: Community
+      auth: Authorization
+      official: Official
+
   used_by:
     explain: These cities, regions and organizations are already using Decidim
     type:
