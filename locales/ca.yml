@@ -62,44 +62,6 @@ ca:
     attribution: '- Creative Commons By-SA'
     feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/ca/fons-europeus'
 
-  home:
-    features:
-      n1:
-        title: 'Pressupostos<br/>participatius'
-        content:
-          'Analitza les propostes rebudes i potencia una nova forma de distribuir els
-          recursos comuns.'
-      n2:
-        title: 'Iniciatives<br/>i consultes ciutadanes'
-        content:
-          "Empodera a la teva comunitat a través d'iniciatives ciutadanes. Promou
-          votacions rellevants a través de consultes."
-      n3:
-        title: "La potència<br/>d'una xarxa política"
-        content:
-          'Porta la deliberació, la col·laboració i la decisió a una dimensió
-          multitudinària, amb milers de persones participant en temps real.'
-      n4:
-        title: 'Un sistema<br/>democràtic i flexible'
-        content:
-          "Gràcies a la seva arquitectura modular i la seva lògica escalable, podràs
-          configurar un potent sistema de governança democràtica en tot tipus
-          d'organitzacions."
-      n5:
-        title: 'Ens prenem la democràcia<br/>seriosament'
-        content:
-          'Decidim assegura la transparència, traçabilitat i integritat de la
-          informació com mai abans. Proporciona seguretat, privadesa i
-          confidencialitat a totes les participants.'
-      n6:
-        title: 'És vostra.<br/>Compartiu-la. Milloreu-la.'
-        content:
-          'Una plataforma pensada completament amb programari lliure, de contingut
-          obert i col·laboratiu gràcies a la comunitat Metadecidim.'
-      cta:
-        features: 'Veure totes les funcionalitats'
-        values: 'Anar al contracte social'
-
   demo:
     title: Demo en línia
     p1: Coneix i prova lliurement la plataforma Decidim amb la demo en línia.
@@ -169,6 +131,42 @@ ca:
       a través dels múltiples components disponibles (trobades presencials,
       enquestes, propostes, votacions, seguiment de resultats, comentaris i molts
       més).</p>'
+    list:
+      n1:
+        title: 'Pressupostos<br/>participatius'
+        content:
+          'Analitza les propostes rebudes i potencia una nova forma de distribuir els
+          recursos comuns.'
+      n2:
+        title: 'Iniciatives<br/>i consultes ciutadanes'
+        content:
+          "Empodera a la teva comunitat a través d'iniciatives ciutadanes. Promou
+          votacions rellevants a través de consultes."
+      n3:
+        title: "La potència<br/>d'una xarxa política"
+        content:
+          'Porta la deliberació, la col·laboració i la decisió a una dimensió
+          multitudinària, amb milers de persones participant en temps real.'
+      n4:
+        title: 'Un sistema<br/>democràtic i flexible'
+        content:
+          "Gràcies a la seva arquitectura modular i la seva lògica escalable, podràs
+          configurar un potent sistema de governança democràtica en tot tipus
+          d'organitzacions."
+      n5:
+        title: 'Ens prenem la democràcia<br/>seriosament'
+        content:
+          'Decidim assegura la transparència, traçabilitat i integritat de la
+          informació com mai abans. Proporciona seguretat, privadesa i
+          confidencialitat a totes les participants.'
+      n6:
+        title: 'És vostra.<br/>Compartiu-la. Milloreu-la.'
+        content:
+          'Una plataforma pensada completament amb programari lliure, de contingut
+          obert i col·laboratiu gràcies a la comunitat Metadecidim.'
+      cta:
+        features: 'Veure totes les funcionalitats'
+        values: 'Anar al contracte social'
     type1:
       title: 'Espais de participació'
       subtitle: 'Perquè els participants realitzin propostes i prenguin decisions'

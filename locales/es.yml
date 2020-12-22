@@ -62,43 +62,6 @@ es:
     attribution: '- Creative Commons By-SA'
     feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/es/fondos-europeos'
 
-  home:
-    features:
-      n1:
-        title: 'Presupuestos<br/>participativos'
-        content:
-          'Analiza las propuestas recibidas y potencia una nueva forma de distribuir
-          los recursos comunes.'
-      n2:
-        title: 'Iniciativas<br/>y consultas ciudadanas'
-        content:
-          'Empodera a tu comunidad a través de iniciativas ciudadanas. Promueve
-          votaciones relevantes a través de consultas.'
-      n3:
-        title: 'La potencia<br/>de una red política'
-        content:
-          'Lleva la deliberación, la colaboración y la decisión a una dimensión
-          multitudinaria, con miles de personas participando en tiempo real.'
-      n4:
-        title: 'Un sistema<br/>democrático y flexible'
-        content:
-          'Gracias a su arquitectura modular y su lógica escalable, podrás configurar
-          un potente sistema de gobernanza democrática en todo tipo de organizaciones.'
-      n5:
-        title: 'Nos tomamos la democracia<br/>muy en serio'
-        content:
-          'Decidim asegura la transparencia, trazabilidad e integridad de la
-          información como nunca antes. Proporciona seguridad, privacidad y
-          confidencialidad a todas las participantes.'
-      n6:
-        title: 'Es vuestra.<br/>Compartidla. Mejoradla.'
-        content:
-          'Una plataforma pensada enteramente con software libre, de contenido abierto
-          y colaborativo gracias a la comunidad Metadecidim.'
-      cta:
-        features: 'Ver todas las funcionalidades'
-        values: 'Ir al contrato social'
-
   demo:
     title: Demo en línea
     p1: Conoce y prueba libremente la plataforma Decidim con la demo en línea.
@@ -168,6 +131,41 @@ es:
       a través de los múltiples componentes disponibles (encuentros presenciales,
       encuestas, propuestas, votaciones, seguimiento de resultados, comentarios y
       muchos más).</p>'
+    list:
+      n1:
+        title: 'Presupuestos<br/>participativos'
+        content:
+          'Analiza las propuestas recibidas y potencia una nueva forma de distribuir
+          los recursos comunes.'
+      n2:
+        title: 'Iniciativas<br/>y consultas ciudadanas'
+        content:
+          'Empodera a tu comunidad a través de iniciativas ciudadanas. Promueve
+          votaciones relevantes a través de consultas.'
+      n3:
+        title: 'La potencia<br/>de una red política'
+        content:
+          'Lleva la deliberación, la colaboración y la decisión a una dimensión
+          multitudinaria, con miles de personas participando en tiempo real.'
+      n4:
+        title: 'Un sistema<br/>democrático y flexible'
+        content:
+          'Gracias a su arquitectura modular y su lógica escalable, podrás configurar
+          un potente sistema de gobernanza democrática en todo tipo de organizaciones.'
+      n5:
+        title: 'Nos tomamos la democracia<br/>muy en serio'
+        content:
+          'Decidim asegura la transparencia, trazabilidad e integridad de la
+          información como nunca antes. Proporciona seguridad, privacidad y
+          confidencialidad a todas las participantes.'
+      n6:
+        title: 'Es vuestra.<br/>Compartidla. Mejoradla.'
+        content:
+          'Una plataforma pensada enteramente con software libre, de contenido abierto
+          y colaborativo gracias a la comunidad Metadecidim.'
+      cta:
+        features: 'Ver todas las funcionalidades'
+        values: 'Ir al contrato social'
     type1:
       title: 'Espacios de participación'
       subtitle: 'Para que los participantes realicen propuestas y tomen decisiones'
