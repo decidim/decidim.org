@@ -1,5 +1,5 @@
 ca:
-  path: ''
+  path: '/ca'
   activeLang: 'Català'
   nav:
     text: 'Navegació'
@@ -49,7 +49,7 @@ ca:
       code: 'Codi a GitHub'
   footer:
     driven_by: 'Projecte impulsat per'
-    attribution: '- Creative Commons By-SA'
+    attribution: '- Amb llicència Creative Commons By-SA'
     feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/ca/fons-europeus'
   demo:
     title: Demo en línia
@@ -110,26 +110,26 @@ ca:
     intro: '<p>Pots utilitzar Decidim en una organització pública o privada, amb centenars o milers de potencials participants, com un ajuntament, una associació, una universitat, una ONG, un sindicat, un col·lectiu de barri o cooperativa…</p><p>Gràcies a Decidim podràs configurar espais de participació (iniciatives, assemblees, processos o consultes) i enriquir-los a través dels múltiples components disponibles (trobades presencials, enquestes, propostes, votacions, seguiment de resultats, comentaris i molts més).</p>'
     list:
       n1:
-        title: 'Participatory<br/>budgets'
-        content: 'It analyses the submitted proposals and promotes a new way of distributing common resources.'
+        title: 'Pressupostos<br/>participatius'
+        content: 'Analitza les propostes rebudes i potencia una nova forma de distribuir els recursos comuns.'
       n2:
-        title: 'Citizen’s initiatives<br/>and consultations'
-        content: 'Empower your community through citizen initiatives. Promote relevant voting through consultations.'
+        title: 'Iniciatives<br/>i consultes ciutadanes'
+        content: 'Empodera a la teva comunitat a través d''iniciatives ciutadanes. Promou votacions rellevants a través de consultes.'
       n3:
-        title: 'The power<br/>of a political network'
-        content: 'It takes deliberation, collaboration and decision to a massive dimension, with thousands of people participating in real time.'
+        title: 'La potència<br/>d''una xarxa política'
+        content: 'Porta la deliberació, la col·laboració i la decisió a una dimensió multitudinària, amb milers de persones participant en temps real.'
       n4:
-        title: 'A democratic<br/>and flexible system'
-        content: 'Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic governance in all kinds of organizations.'
+        title: 'Un sistema<br/>democràtic i flexible'
+        content: 'Gràcies a la seva arquitectura modular i la seva lògica escalable, podràs configurar un potent sistema de governança democràtica en tot tipus d''organitzacions.'
       n5:
-        title: 'We take democracy<br/>very seriously'
-        content: 'Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.'
+        title: 'Ens prenem la democràcia<br/>seriosament'
+        content: 'Decidim assegura la transparència, traçabilitat i integritat de la informació com mai abans. Proporciona seguretat, privadesa i confidencialitat a totes les participants.'
       n6:
-        title: "It's yours.<br/>Share it. Improve it."
-        content: 'A platform designed entirely with free software, open and collaborative content thanks to the community Metadecidim.'
+        title: "És vostra.<br/>Compartiu-la. Milloreu-la."
+        content: 'Una plataforma pensada completament amb programari lliure, de contingut obert i col·laboratiu gràcies a la comunitat Metadecidim.'
       cta:
-        features: 'See all features'
-        values: 'Go to social contract'
+        features: 'Veure totes les funcionalitats'
+        values: 'Anar al contracte social'
     type1:
       title: 'Espais de participació'
       subtitle: 'Perquè els participants realitzin propostes i prenguin decisions'
@@ -193,7 +193,7 @@ ca:
     q10:
       question: >-
         Tinc idees de noves funcionalitats, de millora. Vull conèixer millor el projecte. Què puc fer?
-      answer:
+      answer: /ca
     q11:
       question: Tinc molts dubtes, de tot tipus...on els puc plantejar o resoldre?
       answer: >-
@@ -237,7 +237,7 @@ ca:
       answer: >-
         L'Associació de Programari Lliure Decidim (Associació Decidim) és una associació democràtica que s'encarrega de la governança de la comunitat Decidim.
     q22:
-      question: Do you want more information about the Decidm Association?
+      question: Com puc obtenir més informació sobre l'Associació Decidim?
       answer: >-
         A l['assemblea general de l'Associació Decidim](https://meta.decidim.org/assemblies/general-assembly-association) podràs conèixer-nos millor, seguir l'activitat de les trobades i consultar informació rellevant (estatuts, convenis, el reglament intern)
     q23:
