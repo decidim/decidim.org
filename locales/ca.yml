@@ -1,7 +1,6 @@
 ca:
-  path: '/ca'
+  path: ''
   activeLang: 'Català'
-
   nav:
     text: 'Navegació'
     demo: 'Demo'
@@ -17,32 +16,24 @@ ca:
     contact: 'Contacte'
     used_by: 'Ja fan servir Decidim'
     partners: 'Entitats col·laboradores'
-    modules: 'Moduls'
+    modules: 'Mòduls'
     press: 'Prensa'
-
   alert:
-    title: "Decidim Fest 2020 :: Democràcia i Tecnología en temps d'Emergència | 18, 19 i 20 de Novembre"
+    title: 'Decidim Fest 2020 :: Democràcia i Tecnología en temps d''Emergència | 18, 19 i 20 de Novembre'
     subtitle: 'Oberta convocatòria'
     link: https://meta.decidim.org/conferences/decidimfest2020/f/1338/
-    desc:
-      "Un programa intensiu de 3 dies d'activitats dedicat al projecte Decidim, la democràcia
-      participativa i les eines de codi obert per a la intel·ligència col·lectiva en l'era de
-      la democràcia global."
-
+    desc: 'Un programa intensiu de 3 dies d''activitats dedicat al projecte Decidim, la democràcia participativa i les eines de codi obert per a la intel·ligència col·lectiva en l''era de la democràcia global.'
   index:
     hero:
       heading: 'Democràcia participativa de codi obert per a ciutats i organitzacions'
       subheading: 'Decidim és una plataforma digital<br/>de participació ciutadana'
-      intro: 'Tecnologia lliure i segura.<br/>Amb totes les garanties
-      democràtiques.<br/>Reprogramar la democràcia ara és possible amb Decidim.'
+      intro: 'Tecnologia lliure i segura.<br/>Amb totes les garanties democràtiques.<br/>Reprogramar la democràcia ara és possible amb Decidim.'
     video:
       play: 'Reproduir vídeo'
       url: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
       close: 'Tancar el vídeo'
     subhero:
-      intro:
-        'Decidim ajuda a ciutadans, organitzacions i institucions públiques a
-        auto-organitzar-se democràticament a tots els nivells.'
+      intro: 'Decidim ajuda a ciutadans, organitzacions i institucions públiques a auto-organitzar-se democràticament a tots els nivells.'
       feature1: 'Planificació<br/>estratègica'
       feature2: 'Pressupostos<br/>participatius'
       feature3: 'Iniciatives i<br/>consultes ciutadanes'
@@ -55,75 +46,34 @@ ca:
     cta:
       title: 'comença a fer servir Decidim'
     button:
-      code: 'Codi a Github'
-
+      code: 'Codi a GitHub'
   footer:
     driven_by: 'Projecte impulsat per'
     attribution: '- Creative Commons By-SA'
     feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/ca/fons-europeus'
-
-  home:
-    features:
-      n1:
-        title: 'Pressupostos<br/>participatius'
-        content:
-          'Analitza les propostes rebudes i potencia una nova forma de distribuir els
-          recursos comuns.'
-      n2:
-        title: 'Iniciatives<br/>i consultes ciutadanes'
-        content:
-          "Empodera a la teva comunitat a través d'iniciatives ciutadanes. Promou
-          votacions rellevants a través de consultes."
-      n3:
-        title: "La potència<br/>d'una xarxa política"
-        content:
-          'Porta la deliberació, la col·laboració i la decisió a una dimensió
-          multitudinària, amb milers de persones participant en temps real.'
-      n4:
-        title: 'Un sistema<br/>democràtic i flexible'
-        content:
-          "Gràcies a la seva arquitectura modular i la seva lògica escalable, podràs
-          configurar un potent sistema de governança democràtica en tot tipus
-          d'organitzacions."
-      n5:
-        title: 'Ens prenem la democràcia<br/>seriosament'
-        content:
-          'Decidim assegura la transparència, traçabilitat i integritat de la
-          informació com mai abans. Proporciona seguretat, privadesa i
-          confidencialitat a totes les participants.'
-      n6:
-        title: 'És vostra.<br/>Compartiu-la. Milloreu-la.'
-        content:
-          'Una plataforma pensada completament amb programari lliure, de contingut
-          obert i col·laboratiu gràcies a la comunitat Metadecidim.'
-      cta:
-        features: 'Veure totes les funcionalitats'
-        values: 'Anar al contracte social'
-
   demo:
     title: Demo en línia
     p1: Coneix i prova lliurement la plataforma Decidim amb la demo en línia.
-    p2: La plataforma Decidim està activa en diversos exemples que pots visitar i explorar, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a>, de la ciutat de Barcelona, o bé pots visitar els llocs de <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> i de <a href="https://www.lhon-participa.cat/" target="_blank">l&apos;Hospitalet</a>. Però aquests són exemples reals i potser no els pots experimentar lliurement perquè no ets ciutadà o ciutadana d&apos;aquests municipis, i tampoc no pots explorar els llocs com a administrador.
+    p2: La plataforma Decidim està activa en diversos exemples que pots visitar i explorar, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a>, de la ciutat de Barcelona, o bé pots visitar els llocs de <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> i de <a href="https://www.lhon-participa.cat/" target="_blank">l'Hospitalet</a>. Però aquests són exemples reals i potser no els pots experimentar lliurement perquè no ets ciutadà o ciutadana d'aquests municipis, i tampoc no pots explorar els llocs com a administrador.
     p3: Si vols anar més enllà, et convidem a provar Decidim des del lloc web de demostració (cortesia dels desenvolupadors de <a href="http://alabs.org" target="_blank">aLabs</a>). Entra al lloc de demostració i prova lliurement el potencial de Decidim i les seves característiques.
-    p4: Pots accedir com a <strong>administrador</strong> (amb el nom d&apos;usuari <strong>admin@example.org</strong> i la contrasenya <strong>decidim123456</strong>).
+    p4: Pots accedir com a <strong>administrador</strong> (amb el nom d'usuari <strong>admin@example.org</strong> i la contrasenya <strong>decidim123456</strong>).
     button: Demo en línia
-
   community:
     title: 'Metadecidim, la nostra comunitat'
     subtitle: 'Una comunitat democràtica que gestiona el projecte Decidim en totes les seves dimensions'
     intro: 'Metadecidim és una comunitat que col·labora en el disseny de la plataforma i la construcció del projecte. Entre totes podem dissenyar i desenvolupar noves funcionalitats i notificar bugs per una millora continua de la plataforma.'
-    cta: "començar"
+    cta: 'Començar'
     features:
       title: 'Proposa noves funcionalitats'
       subtitle: 'Dissenyar i desenvolupar Decidim entre totes'
-      text: "Pots crear debats sobre el futur de Decidim o proposar noves funcionalitats o millores. Les propostes poden rebre adhesions i comentaris, per mostrar, per exemple, l'interès que desperten en la comunitat i valorar el seu desenvolupament. Seran útils per al projecte les propostes que comptin amb un patrocinador o sponsor (com un ajuntament o qualsevol altra entitat), responsable de buscar i aportar els recursos necessaris per dur a terme el seu desenvolupament."
+      text: 'Pots crear debats sobre el futur de Decidim o proposar noves funcionalitats o millores. Les propostes poden rebre adhesions i comentaris, per mostrar, per exemple, l''interès que desperten en la comunitat i valorar el seu desenvolupament. Seran útils per al projecte les propostes que comptin amb un patrocinador o sponsor (com un ajuntament o qualsevol altra entitat), responsable de buscar i aportar els recursos necessaris per dur a terme el seu desenvolupament.'
       cta: 'Entra i participa ara'
     bug:
       title: 'Notifica un bug'
       subtitle: 'Col·laboració per a la millora contínua'
-      text: "Cada nova versió (release) de Decidim incorpora noves funcionalitats i millores d'usabilitat, però no sempre tot funciona a la primera i poden aparèixer errors. Aquí pots reportar els errors (bugs) que trobis. Així ajudes a l'equip de desenvolupament a corregir-los ràpidament."
+      text: 'Cada nova versió (release) de Decidim incorpora noves funcionalitats i millores d''usabilitat, però no sempre tot funciona a la primera i poden aparèixer errors. Aquí pots reportar els errors (bugs) que trobis. Així ajudes a l''equip de desenvolupament a corregir-los ràpidament.'
       cta: 'Entra i participa ara'
-    img_alt: 'Fotografia de la comunitat Decidim a les jornades MetaDecidim 2016'
+    img_alt: 'Fotografia de la comunitat Decidim a les jornades Metadecidim 2016'
     timeline:
       title: 'Disseny col·laboratiu de funcionalitats'
       step1:
@@ -144,7 +94,6 @@ ca:
       step6:
         title: 'Funcionalitat feta'
         text: 'Disponible en la següent versió'
-
   contact:
     title: Contacta amb nosaltres
     bot_field: "No omplis aquest camp si ets human:"
@@ -153,221 +102,149 @@ ca:
     email: Correu electrònic
     message: Missatge
     send: Enviar
-
   thanks:
     title: Gràcies per contactar-nos
     message: Gràcies pel teu correu electrònic, et respondrem en breu.
-
   features:
     title: 'Funcionalitats'
-    intro:
-      '<p>Pots utilitzar Decidim en una organització pública o privada, amb
-      centenars o milers de potencials participants, com un ajuntament, una
-      associació, una universitat, una ONG, un sindicat, un col·lectiu de barri o
-      cooperativa…</p><p>Gràcies a Decidim podràs configurar espais de
-      participació (iniciatives, assemblees, processos o consultes) i enriquir-los
-      a través dels múltiples components disponibles (trobades presencials,
-      enquestes, propostes, votacions, seguiment de resultats, comentaris i molts
-      més).</p>'
+    intro: '<p>Pots utilitzar Decidim en una organització pública o privada, amb centenars o milers de potencials participants, com un ajuntament, una associació, una universitat, una ONG, un sindicat, un col·lectiu de barri o cooperativa…</p><p>Gràcies a Decidim podràs configurar espais de participació (iniciatives, assemblees, processos o consultes) i enriquir-los a través dels múltiples components disponibles (trobades presencials, enquestes, propostes, votacions, seguiment de resultats, comentaris i molts més).</p>'
+    list:
+      n1:
+        title: 'Participatory<br/>budgets'
+        content: 'It analyses the submitted proposals and promotes a new way of distributing common resources.'
+      n2:
+        title: 'Citizen’s initiatives<br/>and consultations'
+        content: 'Empower your community through citizen initiatives. Promote relevant voting through consultations.'
+      n3:
+        title: 'The power<br/>of a political network'
+        content: 'It takes deliberation, collaboration and decision to a massive dimension, with thousands of people participating in real time.'
+      n4:
+        title: 'A democratic<br/>and flexible system'
+        content: 'Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic governance in all kinds of organizations.'
+      n5:
+        title: 'We take democracy<br/>very seriously'
+        content: 'Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.'
+      n6:
+        title: "It's yours.<br/>Share it. Improve it."
+        content: 'A platform designed entirely with free software, open and collaborative content thanks to the community Metadecidim.'
+      cta:
+        features: 'See all features'
+        values: 'Go to social contract'
     type1:
       title: 'Espais de participació'
       subtitle: 'Perquè els participants realitzin propostes i prenguin decisions'
     type2:
       title: 'Components'
-      subtitle: 'Perquè les participants i espais interactuin'
+      subtitle: 'Perquè les participants i espais interactuïn'
     other:
-      subtitle:
-        'Atreveix-te a combinar els components als espais per dissenyar i
-        implementar amb facilitat un potent sistema democràtic i adaptar-ho a les
-        necessitats de la teva organització'
+      subtitle: 'Atreveix-te a combinar els components als espais per dissenyar i implementar amb facilitat un potent sistema democràtic i adaptar-ho a les necessitats de la teva organització'
     cta:
       title: 'Descobreix com funciona Decidim a fons'
       button: 'Funcionalitats i característiques'
-
   partners:
     notice: Els logotips de les entitats col·laboradores són propietat intel·lectual dels seus respectius titulars de drets d'autor. No pertanyen a la <a href="https://creativecommons.org/licenses/by-sa/4.0/"> llicència Creative Commons By-SA </a>, la resta de continguts del lloc tenen llicència.
-
+  modules:
+    type:
+      community: Comunitat
+      auth: Autoritzacions
+      official: Oficials
   used_by:
     explain: Aquestes ciutats, regions i organitzacions ja fan servir Decidim
     type:
       city: Ciutats
       region: Regions
       organizations: Organitzacions
-
   faqs:
     title: Preguntes més freqüents
     q01:
       question: Què és Decidim?
       answer: >-
-        Decidim és una plataforma digital de participació ciutadana de codi lliure i
-        obert per a ciutats i organitzacions. Però també Decidim és més que una
-        plataforma digital: és un projecte i una infraestructura oberta que inclou
-        codi, documentació, disseny, formació, un marc legal, interfícies
-        col·laboratives, una comunitat d'usuaris i facilitadores i una visió global.
+        Decidim és una plataforma digital de participació ciutadana de codi lliure i obert per a ciutats i organitzacions. Però també Decidim és més que una plataforma digital: és un projecte i una infraestructura oberta que inclou codi, documentació, disseny, formació, un marc legal, interfícies col·laboratives, una comunitat d'usuaris i facilitadores i una visió global.
     q02:
       question: Qui està utilitzant Decidim actualment?
       answer: >-
-        Actualment ho utilitzen ciutats i organitzacions. De fet qualsevol grup de
-        persones pot utilitzar-ho, sigui una ONG, universitat, sindicat, cooperativa,
-        col·lectiu de barri, etc. Consulta [aquí](http://decidim.org/ca/usedby/) el
-        llistat complet d'instàncies actives en l'actualitat.
+        Actualment ho utilitzen ciutats i organitzacions. De fet qualsevol grup de persones pot utilitzar-ho, sigui una ONG, universitat, sindicat, cooperativa, col·lectiu de barri, etc. Consulta el [llistat sencer d'instàncies actives en l'actualitat](/ca/usedby/).
     q03:
       question: Què pot fer un administrador de Decidim?
       answer: >-
-        Configurar processos participatius fàcilment. Vols fer un pla estratègic? O
-        discutir noves normatives? O debatre sobre una plaça nova o un edifici públic
-        per aconseguir el be comú? Gràcies a Decidim podràs configurar espais de
-        participació (iniciatives, assemblees, processos o consultes) i enriquir-los a
-        través dels múltiples components disponibles (trobades presencials, enquestes,
-        propostes, votacions, seguiment de resultats, comentaris i molts més).
+        Configurar processos participatius fàcilment. Vols fer un pla estratègic? O discutir noves normatives? O debatre sobre una plaça nova o un edifici públic per aconseguir el be comú? Gràcies a Decidim podràs configurar espais de participació (iniciatives, assemblees, processos o consultes) i enriquir-los a través dels múltiples components disponibles (trobades presencials, enquestes, propostes, votacions, seguiment de resultats, comentaris i molts més).
     q04:
       question: Què pot fer un participant (usuari) de Decidim?
       answer: >-
-        Decidim fa possible que milers de persones s'organitzin democràticament
-        realitzant propostes, assistint a reunions públiques, creant discussions
-        deliberatives, decidint mitjançant diferents formes de votació i monitoritzant
-        la implementació de les decisions. Participants can also communicate between
-        them through the networked communication Decidim functionalities.
+        Decidim fa possible que milers de persones s'organitzin democràticament realitzant propostes, assistint a reunions públiques, creant discussions deliberatives, decidint mitjançant diferents formes de votació i monitoritzant la implementació de les decisions. Participants can also communicate between them through the networked communication Decidim functionalities.
     q05:
-      question:  Vull provar Decidim ja, sense instal·lar-m'ho, per veure com funciona. Teniu una Demo?
-      answer: Si, tenim una [demo](/ca/demo).
+      question: Vull provar Decidim ja, sense instal·lar-m'ho, per veure com funciona. Teniu una Demo?
+      answer: 'Si, tenim una [demo](/ca/demo).'
     q06:
       question: Amb quina freqüència hi ha actualitzacions de la plataforma?
       answer: >-
-        Cada mes, aproximadament, alliberem una nova versió. En [aquest
-        enllaç](https://github.com/decidim/decidim/releases) pots consultar l'històric
-        de versions.
+        Cada mes, aproximadament, alliberem una nova versió. En [aquest enllaç](https://github.com/decidim/decidim/releases) pots consultar l'històric de versions.
     q07:
       question: Què necessito per instal·lar Decidim?
       answer: >-
-        Instal·lar Decidim és fàcil però necessites alguns coneixements i requeriments
-        tècnics. Pots consultar el [tutorial d’instal·lació manual
-        oficial](https://github.com/decidim/decidim/blob/master/docs/manual-installation.md)
-        i també un altre [tutorial d’instal·lació
-        manual](https://github.com/Platoniq/decidim-install) fet per la bona gent de
-        Platoniq.
+        Instal·lar Decidim és fàcil però necessites alguns coneixements i requeriments tècnics. Pots consultar el [tutorial d’instal·lació manual oficial](https://docs.decidim.org/en/install/).
     q08:
       question: On puc trobar el roadmap del projecte i les funcionalitats planificades?
-      answer: >-
-        Pots trobar el roadmap de noves funcionalitats del projecte a
-        [GitHub](https://github.com/decidim/decidim/projects/16).
+      answer: Pots trobar el roadmap de noves funcionalitats del projecte a [GitHub](https://github.com/decidim/decidim/projects/16).
     q09:
       question: 'Què significa que Decidim sigui gratuït, lliure i de codi obert?'
       answer: >-
-        Decidim és una plataforma de participació ciutadana feta per persones i per a
-        persones. El seu codi font és obert i pot ser inspeccionat, modificat i
-        millorat per qualsevol. El programari Decidim està cobert per la [llicència
-        AGPL](https://ca.wikipedia.org/wiki/GNU_Affero_General_Public_License). Això
-        vol dir que el pots utilitzar, modificar i redistribuir les seves versions
-        derivades, sempre que respectis la llicència AGPL.
+        Decidim és una plataforma de participació ciutadana feta per persones i per a persones. El seu codi font és obert i pot ser inspeccionat, modificat i millorat per qualsevol. El programari Decidim està cobert per la [llicència AGPL](https://ca.wikipedia.org/wiki/GNU_Affero_General_Public_License). Això vol dir que el pots utilitzar, modificar i redistribuir les seves versions derivades, sempre que respectis la llicència AGPL.
     q10:
-      question:  Tinc idees de noves funcionalitats, de millora. Vull conèixer millor el projecte. Què puc fer?
-      answer: >-
-        Pots col·laborar de múltiples maneres, una d'elles a través de la comunitat
-        [Metadecidim](http://meta.decidim.org). Si vols proposar noves funcionalitats,
-        [a través d'aquest procés](https://meta.decidim.org/processes/roadmap). Si has
-        detectat errors i vols notificar-los, [a través d'aquest
-        procés](https://meta.decidim.org/processes/bug-report?locale=es). Si vols
-        participar activament en la comunitat Metadecidim, pots assistir a les
-        [Sessions Operatives
-        Metadecidim](https://meta.decidim.org/assemblies/eix-comunitat) que organitzem
-        mensualment. Dóna't d'alta com a participant de la comunitat i participa amb
-        nosaltres. Si lo teu és el programari, [vine't a
-        Github](https://github.com/decidim/decidim). Si ets investigador, potser
-        t'interessi venir als [Seminaris LAB
-        Metadecidim](https://meta.decidim.org/assemblies/eix-lab).\
+      question: >-
+        Tinc idees de noves funcionalitats, de millora. Vull conèixer millor el projecte. Què puc fer?
+      answer:
     q11:
-      question: 'Tinc molts dubtes, de tot tipus...on els puc plantejar o resoldre?'
+      question: Tinc molts dubtes, de tot tipus...on els puc plantejar o resoldre?
       answer: >-
-        La millor manera d'intentar resoldre àgilment els teus dubtes és a través de
-        la comunitat Metadecidim. Entra ara en el procés [“Fòrum de
-        Suport”](https://meta.decidim.org/processes/supportforum?locale=es) i fixa't
-        si el teu dubte existeix o si ha estat resolt i en cas contrari entra per
-        realitzar consultes. Si no aconsegueixes resoldre el teu assumpte en aquest
-        espai, potser és moment de contactar amb nosaltres a través del [formulari de
-        contacte](http://decidim.org/ca/contact).
+        La millor manera d'intentar resoldre àgilment els teus dubtes és a través de la comunitat Metadecidim. Entra ara en el procés [“Fòrum de Suport”](https://meta.decidim.org/processes/supportforum?locale=es) i fixa't si el teu dubte existeix o si ha estat resolt i en cas contrari entra per realitzar consultes. Si no aconsegueixes resoldre el teu assumpte en aquest espai, potser és moment de contactar amb nosaltres a través del [formulari de contacte](http://decidim.org/ca/contact).
     q12:
-      question:  Existeix algun manual d'ajuda per començar a configurar-ho?
+      question: Existeix algun manual d'ajuda per començar a configurar-ho?
       answer: >-
-        A l'apartat de [Documentació](https://decidim.org/ca/docs/) pots consultar
-        l'última versió del nostre manual d'administrador. Pots consultar també
-        [edu.decidim](https://edu.decidim.org/), la instal·lació de Decidim perfecta
-        per formar-se en l'ús de la plataforma.
+        A l'apartat de [Documentació](https://decidim.org/ca/docs/) pots consultar l'última versió del nostre manual d'administrador.
     q13:
       question: Què és el Contracte Social?
       answer: >-
-        Així és com anomenem al nostre Codi de Garanties Democràtiques i Col·laboració
-        Democràtica. Tots els membres de la comunitat han de adherir-se al [Contracte
-        Social](http://decidim.org/ca/contract).
+        Així és com anomenem al nostre Codi de Garanties Democràtiques i Col·laboració Democràtica. Tots els membres de la comunitat han de adherir-se al [Contracte Social](http://decidim.org/ca/contract).
     q14:
       question: Quines diferències hi ha amb el projecte Consul / Decide Madrid?
       answer: >-
-        Hi ha moltes diferències: característiques, flexibilitat, arquitectura,
-        modularitat, etc. Hem [publicat un
-        post](/blog/en/2019-01-14-consul-comparison/) per intentar respondre aquesta
-        pregunta.
+        Hi ha moltes diferències: característiques, flexibilitat, arquitectura, modularitat, etc. Hem [publicat un post](/blog/en/2019-01-14-consul-comparison/) per intentar respondre aquesta pregunta.
     q15:
       question: Què és la comunitat Metadecidim?
       answer: >-
-        [Metadecidim](http://meta.decidim.org) és la comunitat de Decidim que
-        col·labora en el disseny de la plataforma i la construcció del projecte
-        Decidim. Ens reunim periòdicament a través de les [SOM (Sessions Operatives
-        Metadecidim)](https://meta.decidim.org/assemblies/eix-comunitat?locale=es) i
-        dels [Seminaris LAB de recerca](https://meta.decidim.org/assemblies/eix-lab).
-        Entra a [meta.decidim.org](http://meta.decidim.org) per seguir d'a prop les
-        convocatòries i si vols unir-te a la comunitat, nosaltres encantades ;-)
+        [Metadecidim](http://meta.decidim.org) és la comunitat de Decidim que col·labora en el disseny de la plataforma i la construcció del projecte Decidim. Ens reunim periòdicament a través de les [SOM (Sessions Operatives Metadecidim)](https://meta.decidim.org/assemblies/eix-comunitat?locale=es) i dels [Seminaris LAB de recerca](https://meta.decidim.org/assemblies/eix-lab). Entra a [meta.decidim.org](http://meta.decidim.org) per seguir d'a prop les convocatòries i si vols unir-te a la comunitat, nosaltres encantades ;-)
     q16:
-      question:   Puc participar en la comunitat Metadecidim encara que no resideixi a Barcelona?
+      question: Puc participar en la comunitat Metadecidim encara que no resideixi a Barcelona?
       answer: >-
-        Decidim és un projecte que neix a Barcelona i és per això que hi ha un vincle
-        territorial fort amb aquest ciutat. Però sí, pots col·laborar en línia, a
-        través dels processos participatius, debats, etc...que proporcionem en
-        Metadecidim. Encara que potser vulguis venir a Barcelona alguna vegada :)
+        Decidim és un projecte que neix a Barcelona i és per això que hi ha un vincle territorial fort amb aquest ciutat. Però sí, pots col·laborar en línia, a través dels processos participatius, debats, etc...que proporcionem en Metadecidim. Encara que potser vulguis venir a Barcelona alguna vegada :)
     q17:
       question: Volem formalitzar un acord de col·laboració. Existeix alguna plantilla que puguem usar?
-      answer: >-
-        Sí, tenim plantilles per formalitzar acords de col·laboració. [Posa't en contacte amb nosaltres](http://decidim.org/ca/contact).
+      answer: Sí, tenim plantilles per formalitzar acords de col·laboració. [Posa't en contacte amb nosaltres](/ca/contact).
     q18:
       question: A quin tipus de membres accepteu en la comunitat Metadecidim?
-      answer: >-
-        A qualsevol que tingui bona fe i una actitud correcta cap a la col·laboració
-        democràtica.
+      answer: A qualsevol que tingui bona fe i una actitud correcta cap a la col·laboració democràtica.
     q19:
-      question:  Oferiu instal·lació gratuïta a organitzacions sense ànim de lucre?
+      question: Oferiu instal·lació gratuïta a organitzacions sense ànim de lucre?
       answer: >-
-        Sí, solament si ets una organització amb seu a Barcelona. Envia'ns un missatge
-        i la Direcció de Recerca, Desenvolupament i Innovació de l'Àrea de Drets de
-        Ciutadania, Participació i Transparència de l'Ajuntament de Barcelona
-        t'ajudarà.
+        Sí, solament si ets una organització amb seu a Barcelona. Envia'ns un missatge i la Direcció de Recerca, Desenvolupament i Innovació de l'Àrea de Drets de Ciutadania, Participació i Transparència de l'Ajuntament de Barcelona t'ajudarà.
     q20:
       question: Recolzeu a les institucions?
       answer: >-
-        Sí, però cal tenir paciència. Hi ha un munt d'institucions que volen usar
-        Decidim en aquests moments i els estem ajudant pas a pas. [Posa't en contacte
-        amb nosaltres](/ca/contact) per a qualsevol pregunta i et
-        respondrem al més aviat possible.
+        Sí, però cal tenir paciència. Hi ha un munt d'institucions que volen usar Decidim en aquests moments i els estem ajudant pas a pas. [Posa't en contacte amb nosaltres](/ca/contact) per a qualsevol pregunta i et respondrem al més aviat possible.
     q21:
       question: Què és l'Associació Decidim?
       answer: >-
-        L'Associació de Programari Lliure Decidim (Associació Decidim) és una
-        associació democràtica que s'encarrega de la governança de la comunitat
-        Decidim.
+        L'Associació de Programari Lliure Decidim (Associació Decidim) és una associació democràtica que s'encarrega de la governança de la comunitat Decidim.
     q22:
-      question: Com puc obtenir més informació sobre l'Associació Decidim?
+      question: Do you want more information about the Decidm Association?
       answer: >-
-        A l['assemblea general de l'Associació
-        Decidim](https://meta.decidim.org/assemblies/general-assembly-association)
-        podràs conèixer-nos millor, seguir l'activitat de les trobades i consultar
-        informació rellevant (estatuts, convenis, el reglament intern)
+        A l['assemblea general de l'Associació Decidim](https://meta.decidim.org/assemblies/general-assembly-association) podràs conèixer-nos millor, seguir l'activitat de les trobades i consultar informació rellevant (estatuts, convenis, el reglament intern)
     q23:
       question: Com em puc fer sòcia de l'Associació Decidim?
       answer: >-
-        Ara les persones implicades en el projecte poden ser sòcies. [Aquí t'expliquem
-        en detall com ho has de fer.](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=ca)
+        Ara les persones implicades en el projecte poden ser sòcies. [Aquí t'expliquem en detall com ho has de fer.](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=ca)
     q24:
       question: Quan neix l'Associació Decidim?
       answer: >-
-        L'Associació Decidim es funda [el 16 de febrer de 2019 a una assemblea
-        extraordinària de la
-        comunitat](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169),
-        amb l'aprovació dels estatuts.
+        L'Associació Decidim es funda [el 16 de febrer de 2019 a una assemblea extraordinària de la comunitat](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), amb l'aprovació dels estatuts.
