@@ -185,6 +185,12 @@ ca:
   partners:
     notice: Els logotips de les entitats col·laboradores són propietat intel·lectual dels seus respectius titulars de drets d'autor. No pertanyen a la <a href="https://creativecommons.org/licenses/by-sa/4.0/"> llicència Creative Commons By-SA </a>, la resta de continguts del lloc tenen llicència.
 
+  modules:
+    type:
+      community: Comunitat
+      auth: Authoritzacions
+      official: Oficials
+
   used_by:
     explain: Aquestes ciutats, regions i organitzacions ja fan servir Decidim
     type:
