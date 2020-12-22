@@ -1,5 +1,5 @@
 es:
-  path: ''
+  path: '/es'
   activeLang: 'Castellano'
   nav:
     text: 'Navegación'
@@ -114,19 +114,19 @@ es:
         content: 'Analiza las propuestas presentadas y promueve una nueva forma de distribuir recursos comunes.'
       n2:
         title: 'Iniciativas y consultas <br/> ciudadanas'
-        content: 'Empower your community through citizen initiatives. Promote relevant voting through consultations.'
+        content: 'Empodera a tu comunidad a través de iniciativas ciudadanas. Promueve votaciones relevantes a través de consultas.'
       n3:
-        title: 'The power<br/>of a political network'
-        content: 'It takes deliberation, collaboration and decision to a massive dimension, with thousands of people participating in real time.'
+        title: 'La potencia<br/>de una red política'
+        content: 'Lleva la deliberación, la colaboración y la decisión a una dimensión multitudinaria, con miles de personas participando en tiempo real.'
       n4:
-        title: 'A democratic<br/>and flexible system'
-        content: 'Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic governance in all kinds of organizations.'
+        title: 'Un sistema<br/>democrático y flexible'
+        content: 'Gracias a su arquitectura modular y a su lógica escalable, podrás configurar un poderoso sistema de gobernanza democrática en todo tipo de organizaciones.'
       n5:
-        title: 'We take democracy<br/>very seriously'
-        content: 'Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.'
+        title: 'Nos tomamos la democracia<br/> muy en serio'
+        content: 'Decidim asegura la transparencia, trazabilidad e integridad de la información como nunca antes. Proporciona seguridad, privacidad y confidencialidad a todas las participantes.'
       n6:
-        title: "It's yours.<br/>Share it. Improve it."
-        content: 'A platform designed entirely with free software, open and collaborative content thanks to the community Metadecidim.'
+        title: "Es vuestra.<br/>Compartidla. Mejoradla."
+        content: 'Una plataforma diseñada enteramente con software libre, abierto y colaborativo gracias a la comunidad Metadecidim.'
       cta:
         features: 'Ver todas las funcionalidades'
         values: 'Ir al contrato social'
@@ -193,7 +193,7 @@ es:
     q10:
       question: >-
         Tengo ideas de nuevas funcionalidades, de mejora. Quiero conocer mejor el proyecto. ¿Qué puedo hacer?
-      answer:
+      answer: /es
     q11:
       question: Tengo muchas dudas, de todo tipo...¿dónde las puedo plantear o resolver?
       answer: >-
@@ -237,7 +237,7 @@ es:
       answer: >-
         La Asociación de Software Libre Decidim (Associació Decidim) es una asociación democrática que se encarga de la gobernanza de la comunidad Decidim.
     q22:
-      question: Do you want more information about the Decidm Association?
+      question: '¿Quiere más información sobre la Asociación Decidim?'
       answer: >-
         En la [asamblea general de la Associació Decidim](https://meta.decidim.org/assemblies/general-assembly-association) puedes conocernos mejor, seguir la actividad de los encuentros y consultar información relevante (estatutos, convenios, el reglamento interno).
     q23:
