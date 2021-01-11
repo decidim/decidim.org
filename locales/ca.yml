@@ -130,6 +130,92 @@ ca:
       cta:
         features: 'Veure totes les funcionalitats'
         values: 'Anar al contracte social'
+    page:
+      feature1:
+        title: 'Processos participatius'
+        subtitle: 'per democratitzar assumptes comuns, pas a pas'
+        text: >-
+          Processos permet crear, activar/desactivar i administrar diferents processos de participació, articular-los en diferents fases en què poden combinar-se tots els components. Exemples de processos participatius son: un procés d’elecció dels membres d’un consell, pressupostació participativa, un procés de planificació estratègica, la redacció col·laborativa d’un reglament o norma, el disseny d’un espai urbà o la producció d’un pla de polítiques públiques.
+      feature2:
+        title: 'Òrgans<br/>de participació'
+        subtitle: 'el poder de la autorganització col·lectiva'
+        text: >-
+          Les Assemblees ofereixen la possibilitat de definir òrgans o grups de decisió (consells, grups de treball, comitès, etc.) que es reuneixen periòdicament, detallar-ne la composició, llistant i geolocalitzant les seves trobades i permetent la participació (per exemple; acudint-hi si l’aforament i la naturalesa de l’assemblea ho permet, introduint punts en l’ordre del dia o comentant les propostes i decisions preses per l’òrgan esmentat).
+      feature3:
+        title: 'Consultes'
+        subtitle: 'el dret a decidir amb totes les garanties democràtiques'
+        text: >-
+          Consultes fa possible articular referèndums, generar discussions i debats, connectar amb un sistema de vot electrònic segur i mostrar els resultats.
+      feature4:
+        title: 'Iniciatives'
+        subtitle: "marcar l’agenda de totes, a l'abast de qualsevol"
+        text: >-
+          Iniciatives permet crear iniciatives de manera col·laborativa, definir-ne la trajectòria i l’objectiu, recollir suports, discutir, debatre i difondre la iniciativa i definir punts de trobada per a la recollida de signatures presencial o debats oberts a altres membres de l’organització.
+      feature5:
+        title: 'Propostes'
+        subtitle: 'les vostres idees, detalladament'
+        text: >-
+          El component propostes permet a l’usuari crear una proposta utilitzant un assistent de creació comparar-la amb les existents, publicar-la a la plataforma i incloure informació addicional com geolocalització o adjuntar documents i imatges. Aquest component també permet navegar, filtrar i interactuar amb un conjunt de propostes. A més, amb la proposta-incubadora podeu crear propostes col·laboratives.
+      feature6:
+        title: 'Votacions'
+        subtitle: 'decideix el teu vot'
+        text: >-
+          El component votacions ofereix a les organitzacions la possibilitat d’activar diferents sistemes de votació o suport sobre les propostes: vot il·limitat, a un determinat sector, ponderat, basat en costos, etcètera.
+      feature7:
+        title: 'Resultats'
+        subtitle: 'cap proposta sense resposta'
+        text: >-
+          El component resultats serveix per convertir propostes en resultats i donar respostes oficials a la seva acceptació o rebuig, fusionant diverses propostes en un sol resultat.
+      feature8:
+        title: 'Rendició de comptes'
+        subtitle: 'transparència de principi a fi'
+        text: >-
+          El component de rendició de comptes ofereix la possibilitat de subdividir els resultats en projectes, definir i aplicar estats de progrés entorn de la seva implementació, així com mostrar el grau d'implementació dels resultats agrupats per categories i abast.
+      feature9:
+        title: 'Trobades'
+        subtitle: 'per trobar-se i no perdre''s res'
+        text: >-
+          El component trobades ofereix a les organitzacions i als participants la possibilitat de convocar reunions, definir lloc i hora, registrar i limitar el nombre d’assistents, definir l’estructura i els continguts d’una cita o trobada presencial, així com de publicar-ne les actes i les propostes resultants.
+      feature10:
+        title: 'Textos participatius'
+        subtitle: 'per analitzar, sintetitzar, i construir en comú'
+        text: >-
+          El component textos participatius permet dividir un document de text en diverses propostes o resultats i, inversament, compondre i visualitzar un text unificat partint d’una col·lecció de propostes o resultats.
+      feature11:
+        title: 'Conferència'
+        subtitle: 'On els grans esdeveniments s’estrenen'
+        text: >-
+          El component conferència permet a una organització crear un lloc web per a un gran esdeveniment unint tot una sèrie de trobades predefinides (xats, tallers, etc.), creant un programa unificat i gestionant l’assistència.
+      feature12:
+        title: 'Enquestes'
+        subtitle: 'Perquè l''opinió de la teva comunitat importa'
+        text: >-
+          El component enquestes es pot utilitzar per dissenyar i publicar enquestes i per mostrar i descarregar els seus resultats.
+      feature13:
+        title: 'Sorteig'
+        subtitle: 'La igualtat i la justícia de l''atzar'
+        text: >-
+          El component sorteig permet escollir un número de propostes (per exemple, candidats a un jurat) amb procediments aleatoris, però reproduïbles, que garanteixen distribucions no esbiaixades i uniformes.
+      feature14:
+        title: 'Comentaris'
+        subtitle: 'Construyendo la inteligencia colectiva'
+        text: >-
+          El component comentaris permet als usuaris afegir comentaris, identificar el comentari com a favor, en contra o neutral en relació amb l’objecte comentat, votar comentaris, respondre-hi i rebre notificacions sobre les respostes.
+      feature15:
+        title: 'Pàgines i blogs'
+        subtitle: 'La teva comunitat, informada i al dia'
+        text: >-
+          El component pàgines serveix per crear pàgines informatives amb text enriquit, imatges i vídeos. El component blog permet la creació de missatges o notícies, i navegar cronològicament per ells.
+      feature16:
+        title: 'Notificacions'
+        subtitle: 'Informació personalitzada de continguts d’interès'
+        text: >-
+          Decidim permet seguir qualsevol espai o component per rebre actualitzacions cada vegada que es produeixin.
+      feature17:
+        title: 'Butlletí'
+        subtitle: 'Sencill però potent'
+        text: >-
+          El component butlletí permet enviar correus electrònics a totes les persones registrades en la plataforma.
     type1:
       title: 'Espais de participació'
       subtitle: 'Perquè els participants realitzin propostes i prenguin decisions'
@@ -157,24 +243,24 @@ ca:
   testimonials:
     n1:
       quote: >-
-        Thanks to Decidim, in Barcelona we have managed to co-produce a strategic city plan together with the citizens. In 2016 we inaugurated the Municipal Action Plan in the form of a participatory process through Decidim Barcelona. Currently, this plan includes almost 7 thousand citizen proposals. One of the advantages of using this platform is that you can monitor at all times the state of implementation of the approved proposals.
-      org: Barcelona City Hall (2015-2019)
+        Gràcies a Decidim, hem aconseguit a Barcelona co-produir un pla estratègic de ciutat conjuntament amb la ciutadania. En el 2016 inaugurem el Pla d'Acció Municipal en forma de procés participatiu a través de Decidim Barcelona. Actualment aquest pla recull gairebé 7 mil propostes ciutadanes. Una dels avantatges d'utilitzar aquesta plataforma és que pots seguir en tot moment l'estat d'implementació de les propostes acceptades.
+      org: Ajuntament de Barcelona (2015-2019)
     n2:
       quote: >-
         With the implementation of Decidim in Som Energia we have generated a kinder space for participation. We released the tool in 2018, hosting the General Assembly of the Cooperative and months later we debated the Image Redesign and collaborative development of the School of Som Energia, among other participatory processes. In a few months, more than 3,500 participant people have registered, 5 participatory processes, 3 assemblies operating and more than 1,300 votes in the last General Assembly vote.
       org: Som Energia
     n3:
       quote: >-
-        The Decide Mérida digital platform was an opportunity that opened as never before the mechanisms of citizen participation for the elaboration of the Municipal Development Plan of Mérida 2018-2021. We had more than 3,000 citizen interactions including proposals, comments, suggestions and support that achieving the highest consensus possible about what is best for our city. Undoubtedly, the Decide Mérida platform will continue to be our ally in making Mérida an increasingly participative society.
-      org: Municipal President of Mérida Yucatán, Mexico. City Council of Mérida Yucatán, Mexico
+        La plataforma digital Decide Mèrida va ser una oportunitat que va obrir com mai els mecanismes de participació ciutadana per a l'elaboració del Pla Municipal de Desenvolupament de Mèrida 2018-2021. Vam tenir més de 3 mil interaccions ciutadanes entre propostes, comentaris, suggeriments i suports que van donar lloc al major consens possible sobre què és el millor per a la nostra ciutat. Sens dubte, la plataforma Decide Mèrida continuarà sent la nostra aliada per a fer de Mèrida una societat cada dia més participativa.
+      org: President Municipal de Mèrida Yucatán, Mèxic. Ajuntament de Mérida Yucatán, Mèxic
     n4:
       quote: >-
-        What we appreciate is that it’s built with democracy in mind and therefore democracy is a big focus. Democratic principles such as accountability, equality and transparency are in the core of the design.
-      org: City of Helsinki
+        Els principis democràtics com la rendició de comptes, la igualtat i la transparència estan en el centre del disseny. Decidim és està construït tenint al cap la democràcia, és el seu gran focus.
+      org: Ajuntament d’Helsinki
     n5:
       quote: >-
-        Almost every participatory process that has come to our table, we have been able to solve it using Decidim's business rules. As a tool, it is a very strong one. However, the part that seems strongest and most important to us is its community, both developers and those who use it for participatory processes. Coexisting with them has made us appreciate the challenges involved in implementing participatory democracy in the real world.
-      org: Open Government of Mexico City
+        Pràcticament cada procés participatiu que ens ha arribat, l'hem pogut resoldre utilitzant les regles de negoci de Decidim. És una eina molt potent. No obstant això, la part que ens sembla més forta i important és la seva comunitat, tant de desenvolupadores com d'aquelles persones que la utilitzen per a processos participatius. Conviure amb aquesta comunitat ens ha fet dimensionar els desafiaments que comporta implementar la democràcia participativa en el món real.
+      org: Govern Obert de Ciutat de Méxic
   faqs:
     title: Preguntes més freqüents
     q01:
