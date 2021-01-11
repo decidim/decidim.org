@@ -6,8 +6,8 @@
     {
       name: "<%= f.name %>",
       image: "<%= f.image %>",
-      org: "<%= f[locale].org %>",
-      quote: "<%= f[locale].quote %>"
+      org: "<%= t("testimonials.#{f.id}.org")%>",
+      quote: "<%= t("testimonials.#{f.id}.quote")%>"
     },
   <% end %>
   ]

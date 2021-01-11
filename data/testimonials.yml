@@ -1,152 +1,20 @@
 - testimonial1:
   name: Gala Pin
   image: /images/testimonials/gala_pin.jpg
-  en:
-    org: Barcelona City Hall (2015-2019)
-    quote:
-      Thanks to Decidim, in Barcelona we have managed to co-produce a strategic
-      city plan together with the citizens. In 2016 we inaugurated the Municipal
-      Action Plan in the form of a participatory process through Decidim
-      Barcelona. Currently, this plan includes almost 7 thousand citizen
-      proposals. One of the advantages of using this platform is that you can
-      monitor at all times the state of implementation of the approved
-      proposals.
-  es:
-    org: Ayuntamiento de Barcelona (2015-2019)
-    quote:
-      Gracias a Decidim, hemos conseguido en Barcelona coproducir un plan
-      estratégico de ciudad conjuntamente con la ciudadanía. En el 2016
-      inauguramos el Plan de Acción Municipal en forma de proceso participativo
-      a través de Decidim Barcelona. Actualmente dicho plan recoge casi 7 mil
-      propuestas ciudadanas. Una de las ventajas de utilizar esta plataforma es
-      que puedes seguir en todo momento el estado de implementación de las
-      propuestas aceptadas.
-  ca:
-    org: Ajuntament de Barcelona (2015-2019)
-    quote:
-      Gràcies a Decidim, hem aconseguit a Barcelona co-produir un pla estratègic
-      de ciutat conjuntament amb la ciutadania. En el 2016 inaugurem el Pla
-      d'Acció Municipal en forma de procés participatiu a través de Decidim
-      Barcelona. Actualment aquest pla recull gairebé 7 mil propostes
-      ciutadanes. Una dels avantatges d'utilitzar aquesta plataforma és que pots
-      seguir en tot moment l'estat d'implementació de les propostes acceptades.
+  id: n1
 - testimonial2:
   name: Yaiza Blanch
   image: /images/testimonials/yaiza_blanch.jpg
-  en:
-    org: Som Energia
-    quote:
-      With the implementation of Decidim in Som Energia we have generated a
-      kinder space for participation. We released the tool in 2018, hosting the
-      General Assembly of the Cooperative and months later we debated the Image
-      Redesign and collaborative development of the School of Som Energia, among
-      other participatory processes. In a few months, more than 3,500
-      participant people have registered, 5 participatory processes, 3
-      assemblies operating and more than 1,300 votes in the last General
-      Assembly vote.
-  es:
-    org: Som Energia
-    quote:
-      En Som Energia, con la implementación del Decidim, hemos generado un
-      espacio más amable de participación. Estrenamos la herramienta en 2018,
-      albergando la Asamblea General de la Cooperativa y meses más tarde, hemos
-      llevado a debate el Rediseño de Imagen y la elaboración colaborativa de la
-      Escuela de Som Energia, entre otros procesos de participación. En pocos
-      meses se han registrado más de 3.500 personas participantes, 5 procesos
-      participativos, 3 asambleas funcionando y más de 1.300 votos en la última
-      consulta de la Asamblea General.
-  ca:
-    org: Som Energia
-    quote:
-      A Som Energia, amb la implementació del Decidim, hem generat un espai més
-      amable de participació. Estrenem l'eina en el 2018, albergant l'Assemblea
-      General de la Cooperativa i mesos més tard, hem portat a debat el
-      Redisseny d'Imatge i l'elaboració col·laborativa de l'Escola de Som
-      Energia, entre altres processos de participació. En pocs mesos s'han
-      registrat més de 3.500 persones participants, 5 processos participatius, 3
-      assemblees funcionant i més de 1.300 vots en l'última consulta de
-      l'Assemblea General.
-- testimonial4:
+  id: n2
+- testimonial3:
   name: Renán A. Barrera Concha
   image: /images/testimonials/renain_barrera.jpg
-  en:
-    org: Municipal President of Mérida Yucatán, Mexico. City Council of Mérida Yucatán, Mexico
-    quote:
-      The Decide Mérida digital platform was an opportunity that opened as never 
-      before the mechanisms of citizen participation for the elaboration of the 
-      Municipal Development Plan of Mérida 2018-2021. We had more than 3,000 citizen 
-      interactions including proposals, comments, suggestions and support that 
-      achieving the highest consensus possible about what is best for our city. 
-      Undoubtedly, the Decide Mérida platform will continue to be our ally in making 
-      Mérida an increasingly participative society.
-  es:
-    org: Presidente Municipal de Mérida Yucatán, México. Ayuntamiento de Mérida Yucatán, México
-    quote:
-      La plataforma digital Decide Mérida fue una oportunidad que abrió como nunca 
-      los mecanismos de participación ciudadana para la elaboración del Plan Municipal 
-      de Desarrollo de Mérida 2018-2021. Tuvimos más de 3 mil interacciones ciudadanas 
-      entre propuestas, comentarios, sugerencias y apoyos que dieron lugar al mayor 
-      consenso posible sobre lo que es mejor para nuestra ciudad. Sin duda, la plataforma 
-      Decide Mérida seguirá siendo nuestra aliada para hacer de Mèrida una sociedad cada día 
-      más participativa.
-  ca:
-    org: President Municipal de Mèrida Yucatán, Mèxic. Ajuntament de Mérida Yucatán, Mèxic
-    quote:
-      La plataforma digital Decide Mèrida va ser una oportunitat que va obrir com mai 
-      els mecanismes de participació ciutadana per a l'elaboració del Pla Municipal 
-      de Desenvolupament de Mèrida 2018-2021. Vam tenir més de 3 mil interaccions 
-      ciutadanes entre propostes, comentaris, suggeriments i suports que van donar 
-      lloc al major consens possible sobre què és el millor per a la nostra ciutat. 
-      Sens dubte, la plataforma Decide Mèrida continuarà sent la nostra aliada per a 
-      fer de Mèrida una societat cada dia més participativa.
-- testimonail5:
+  id: n3
+- testimonail4:
   name: Katja Hentonnen
   image:  /images/testimonials/katja_hentonnen.jpg
-  en:
-    org: City of Helsinki
-    quote:
-      What we appreciate is that it’s built with democracy in mind and therefore 
-      democracy is a big focus. Democratic principles such as accountability, equality 
-      and transparency are in the core of the design.
-  es:
-    org: Ayuntamiento de Helsinki
-    quote:
-      Los principios democráticos como la rendición de cuentas, la igualdad y la 
-      transparencia están en el centro del diseño. Decidim es está construido teniendo en 
-      mente la democracia, es su gran foco
-  ca:
-    org: Ajuntament d’Helsinki
-    quote:
-      Els principis democràtics com la rendició de comptes, la igualtat i la transparència 
-      estan en el centre del disseny. Decidim és està construït tenint al cap la democràcia, 
-      és el seu gran focus.
-- testimonail6:
+  id: n4
+- testimonail5:
   name: Alejandra González
   image:  /images/testimonials/alejandra_gonzalez.jpg
-  en:
-    org: Open Government of Mexico City
-    quote: 
-      Almost every participatory process that has come to our table, we have been able 
-      to solve it using Decidim's business rules. As a tool, it is a very strong one. 
-      However, the part that seems strongest and most important to us is its community, 
-      both developers and those who use it for participatory processes. Coexisting with 
-      them has made us appreciate the challenges involved in implementing participatory 
-      democracy in the real world.
-  es:
-    org: Gobierno Abierto de Ciudad de México
-    quote: 
-      Prácticamente cada proceso participativo que ha llegado a nuestra mesa, lo 
-      hemos podido resolver usando las reglas de negocio de Decidim. Como herramienta,
-      es una muy robusta. Sin embargo, la parte que nos parece más fuerte e importante es su 
-      comunidad, tanto de desarrolladoras como de aquellas que lo usan para procesos participativos. 
-      Convivir con ellas nos ha hecho dimensionar los desafíos que conlleva implementar la 
-      democracia participativa en el mundo real.
-  ca:
-    org: Govern Obert de Ciutat de Méxic
-    quote: 
-      Pràcticament cada procés participatiu que ens ha arribat, l'hem pogut resoldre 
-      utilitzant les regles de negoci de Decidim. És una eina molt potent. No obstant això, 
-      la part que ens sembla més forta i important és la seva comunitat, tant de desenvolupadores 
-      com d'aquelles persones que la utilitzen per a processos participatius. Conviure amb 
-      aquesta comunitat ens ha fet dimensionar els desafiaments que comporta implementar la 
-      democràcia participativa en el món real.
+  id: n5
