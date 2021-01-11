@@ -131,25 +131,7 @@ en:
       consultations) and enrich them through the multiple available components
       (face-to-face meetings, surveys, proposals, voting, follow-up of results,
       comments and many more).</p>'
-    type1:
-      title: 'Spaces for participation'
-      subtitle: 'For participants to make proposals and make decisions'
-    type2:
-      title: 'Components'
-      subtitle: 'For participants and spaces to interact'
-    other:
-      subtitle:
-        'Dare to combine the components. Design and deploy a powerful democratic
-        system in an easy way and adapt it to your organization’s needs'
-    cta:
-      title: 'Discover how Decidim works in depth'
-      button: 'Functions and features'
-
-  partners:
-    notice: The cooperating entities logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
-
-  home:
-    features:
+    list:
       n1:
         title: 'Participatory<br/>budgets'
         content:
@@ -184,6 +166,22 @@ en:
       cta:
         features: 'See all features'
         values: 'Go to social contract'
+    type1:
+      title: 'Spaces for participation'
+      subtitle: 'For participants to make proposals and make decisions'
+    type2:
+      title: 'Components'
+      subtitle: 'For participants and spaces to interact'
+    other:
+      subtitle:
+        'Dare to combine the components. Design and deploy a powerful democratic
+        system in an easy way and adapt it to your organization’s needs'
+    cta:
+      title: 'Discover how Decidim works in depth'
+      button: 'Functions and features'
+
+  partners:
+    notice: The cooperating entities logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
 
   modules:
     type:
