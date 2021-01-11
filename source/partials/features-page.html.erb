@@ -16,11 +16,11 @@
         <div class="feature-list__item">
           <img src="<%= use.image %>" alt="" class="feature-list__image"/>
           <div class="feature-list__content">
-            <h2 class="feature-list__title"><%= use[locale].title %></h2>
-            <h3 class="feature-list__subtitle"><%= use[locale].subtitle %></h3>
-            <p><%= use[locale].text %></p>
+            <h2 class="feature-list__title"><%= I18n.t("features.page.#{use.id}.title") %></h2>
+            <h3 class="feature-list__subtitle"><%= I18n.t("features.page.#{use.id}.subtitle") %></h3>
+            <p><%= I18n.t("features.page.#{use.id}.text") %></p>
           </div>
-        </div> 
+        </div>
       <% end %>
     </div>
     <h2 class="subsection-title">
@@ -32,11 +32,11 @@
         <div class="feature-list__item">
           <img src="<%= use.image %>" alt="" class="feature-list__image"/>
           <div class="feature-list__content">
-            <h2 class="feature-list__title"><%= use[locale].title %></h2>
-            <h3 class="feature-list__subtitle"><%= use[locale].subtitle %></h3>
-            <p><%= use[locale].text %></p>
+            <h2 class="feature-list__title"><%= I18n.t("features.page.#{use.id}.title") %></h2>
+            <h3 class="feature-list__subtitle"><%= I18n.t("features.page.#{use.id}.subtitle") %></h3>
+            <p><%= I18n.t("features.page.#{use.id}.text") %></p>
           </div>
-        </div> 
+        </div>
       <% end %>
     </div>
     <h2 class="subsection-title">
@@ -44,12 +44,12 @@
     </h2>
     <div class="feature-list">
       <% @other.each do |use| %>
-        <div class="feature-list__item-mini">
+        <div class="feature-list__item">
           <img src="<%= use.image %>" alt="" class="feature-list__image"/>
           <div class="feature-list__content">
-            <h2 class="feature-list__title"><%= use[locale].title %></h2>
-            <h3 class="feature-list__subtitle"><%= use[locale].subtitle %></h3>
-            <p><%= use[locale].text %></p>
+            <h2 class="feature-list__title"><%= I18n.t("features.page.#{use.id}.title") %></h2>
+            <h3 class="feature-list__subtitle"><%= I18n.t("features.page.#{use.id}.subtitle") %></h3>
+            <p><%= I18n.t("features.page.#{use.id}.text") %></p>
           </div>
         </div>
       <% end %>
