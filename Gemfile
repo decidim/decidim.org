@@ -9,7 +9,7 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 
 #Blog dependencies
 gem "middleman-blog", "~> 4.0"
-gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+gem 'redcarpet', '~> 3.5'
 gem 'nokogiri', '~> 1.10.8'
 # For feed.xml.builder
 gem "builder", "~> 3.0"
