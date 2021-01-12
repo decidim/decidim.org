@@ -1,0 +1,357 @@
+zh-CN:
+  path: ''
+  activeLang: 'Distr.'
+  nav:
+    text: 'Navigation'
+    demo: '演示模式'
+    community: '社区'
+    contract: '社会合同'
+    code: '代码'
+    docs:
+      title: '文件'
+      path: 'https://docs.decidim.org/'
+    blog: '博客'
+    features: '功能'
+    faqs: '常见问题'
+    contact: '聯繫人'
+    used_by: '使用中的分解'
+    partners: '合作实体'
+    modules: '模块'
+    press: '新闻社'
+  alert:
+    title: '2020年危机：紧急时期的民主和技术 | 11月18日、19日和20日'
+    subtitle: '加入我们的通话'
+    link: https://meta.decision im.org/conferences/decisionimfest2020/f/1338/
+    desc: '十进制是一项为期3天的强化活动方案，专门用于十进制项目。 在全球民主时代，参与性民主和公开的集体情报来源工具。'
+  index:
+    hero:
+      heading: '面向城市和组织的开放源码参与性民主'
+      subheading: 'Decidim 是公民参与的数字平台<br/>'
+      intro: '自由和安全的技术。<br/>有所有的民主保障。<br/>现在可以通过十进制重新编程民主。'
+    video:
+      play: '播放视频'
+      url: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
+      close: '关闭视频'
+    subhero:
+      intro: '腐化有助于公民、组织和公共机构在每个规模上进行民主组织。'
+      feature1: '战略<br/>规划'
+      feature2: '参与式<br/>预算'
+      feature3: '倡议和<br/>公民协商'
+      feature4: '参与性的<br/>进程'
+      feature5: '程序集'
+      feature6: '网络<br/>通信'
+    used_by:
+      title: '他们已经在使用 Decidim'
+      cta: '查看全部'
+    cta:
+      title: '今天开始使用 Decidimm'
+    button:
+      code: 'Github 代码'
+  footer:
+    driven_by: '促销者'
+    attribution: '- 知识共享副版'
+    feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/en/european-funds'
+  demo:
+    title: 在线演示
+    p1: 使用我们的在线演示来自由地播放并探索“Decidim”平台。
+    p2: 你可以访问和探索的几个实例已经起步并在运行， <a href="http://decidim.barcelona" target="_blank">在巴塞罗那市腐烂巴塞罗那</a> 或您可以访问 <a href="https://participa.gavaciutat.cat/" target="_blank">Gavaadic</a> 和 <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>。 但这些是您真的不能自由玩的真实例子， 因为您可能不是这些市镇的公民，您不能作为管理员探索这些网站。
+    p3: 如果您想要更进一步，欢迎您在我们的Decidim Demo站点测试Decidim Decidim(我们的开发人员在 <a href="http://alabs.org" target="_blank">aLabs</a>上的礼貌)。 进入演示站点并自由探索Decidim及其功能的潜力。
+    p4: 您可以登录为 <strong>Admin</strong> (用户名"<strong>admin@example.org</strong>" 和密码"<strong>decision im123456</strong>").
+    button: 在线演示
+  community:
+    title: '梅塔决定姆，我们的社区'
+    subtitle: '一个民主社区，负责管理各方面的“Decidim”项目'
+    intro: 'Metadecidim 是一个在设计平台和建造项目方面进行协作的社区。 我们可以共同设计和开发新的功能并报告漏洞，以不断改进平台。'
+    cta: '开始使用'
+    features:
+      title: '提出新功能'
+      subtitle: '设计和开发在所有人之间的变形'
+      text: '您可以创建关于Decidim未来的辩论或提出新的功能或改进。 提案可以获得认可和评论，以表明它们对社区的兴趣并重视其发展。 有提案国的提案(例如城市理事会或任何其他实体) 负责寻求和提供必要资源以进行发展的项目将是有益的。'
+      cta: '现在进入并参与'
+    bug:
+      title: '报告错误'
+      subtitle: '为逐步改进而进行的合作'
+      text: '每个新版本的“Decidim”包含新的功能和可用性改进，但不是所有功能都能起作用，可能出现错误。 您可以在这里报告您发现的错误并帮助开发者快速修复它们。'
+      cta: '现在进入并参与'
+    img_alt: '2016 年Metadecidim Meeting at Decidim Community Photo'
+    timeline:
+      title: '功能的协作设计'
+      step1:
+        title: '新提案'
+        text: '函数描述'
+      step2:
+        title: '已验证的提案'
+        text: '技术和技术论证。'
+      step3:
+        title: '计划的提案'
+        text: '发展资源(分享与否)'
+      step4:
+        title: '问题'
+        text: '技术说明'
+      step5:
+        title: '拉取请求'
+        text: '已开发的代码'
+      step6:
+        title: '退约已完成'
+        text: '可在下一个版本上访问'
+  contact:
+    title: 联系我们
+    bot_field: "如果您是人类，请不要填写："
+    name: 名称
+    entity: 实体
+    email: 电子邮件地址
+    message: 留言
+    send: 发送
+  thanks:
+    title: 感谢您的电子邮件
+    message: 感谢您与我们联系，我们将很快与您联系。
+  features:
+    title: '功能'
+    intro: '<p>您可以在一个公共和私人组织中使用Decidim，拥有数百或数千名潜在参与者， 例如城市理事会、协会、大学、非政府组织、工会、邻里集体或合作社……</p><p>多亏了Decidim，您将能够配置参与空间(倡议、组装) 通过多种现有组成部分（面对面会议、调查、提案、表决、成果后续行动、评论和更多）丰富这些内容。</p>'
+    list:
+      n1:
+        title: '参与性<br/>预算'
+        content: '它分析了提交的提案，并促进了新的分配共同资源的方式。'
+      n2:
+        title: '公民倡议<br/>和协商'
+        content: '通过公民倡议赋予你的社区权力。通过协商促进相关的投票。'
+      n3:
+        title: '政治网络的<br/>权力'
+        content: '它需要大规模的审议、合作和决定，有数千人实时参与。'
+      n4:
+        title: '民主的<br/>和灵活的制度'
+        content: '由于其模块化结构和可调整的逻辑，你可以在各种组织中配置一个强有力的民主治理系统。'
+      n5:
+        title: '我们非常严肃地对待民主<br/>'
+        content: '欺骗性确保信息的透明度、可追踪性和完整性，它为所有参与者提供安全、隐私和保密性。'
+      n6:
+        title: "这是你的。<br/>分享它。提升它。"
+        content: '一个完全使用免费软件、开放和协作内容设计的平台，感谢社区Metadecision im。'
+      cta:
+        features: '查看所有功能'
+        values: '转到社交合同'
+    page:
+      feature1:
+        title: '参与进程'
+        subtitle: '逐步实现共同问题的民主化'
+        text: >-
+          进程是一个空间，可以创建、激活/取消激活和管理各种参与进程。 这些空间与其他空间不同，在不同阶段分成不同的结构，所有组成部分都可以纳入其中。 参与进程的例子有：委员会成员的选举进程、参与性预算编制、战略规划进程。 合作编写条例或规范、设计城市空间或制定公共政策计划。
+      feature2:
+        title: '程序集'
+        subtitle: '集体组织的权力'
+        text: >-
+          是否有可能设立决策机构或小组(理事会、工作组、委员会等)。 定期开会，详细说明他们的组成、名单和会议地理定位， 并允许参加这些会议(例如：如果座位容量和集会性质允许，出席) 在议程中增列项目，或对该机构提出的建议和决定作出评论）。
+      feature3:
+        title: '协商'
+        subtitle: '在所有民主保障下作出决定的权利'
+        text: >-
+          协商是一个能够协调全民投票、触发讨论和辩论、公布投票结果的场所。 它可以与安全的电子投票系统连接。
+      feature4:
+        title: '倡议'
+        subtitle: "设定每个人的议程，在每个人的能力范围内"
+        text: >-
+          倡议是一个空间，使参与者能够协作制定倡议，确定其轨迹和目标，收集赞同和讨论， • 辩论和宣传各项倡议，并确定会议点，以便能够从参加者或向该组织其他成员开放的辩论中收集签名。
+      feature5:
+        title: '建议'
+        subtitle: '您的想法详情'
+        text: >-
+          提议的组成部分允许用户使用创建向导创建一个提议，并将其与现有的提议进行比较。 在平台上发布，包含更多信息，如地理定位或附加文件和图像。 此组件还允许您浏览、过滤和与一组建议互动。此外，您可以通过建议孵化器创建合作建议。
+      feature6:
+        title: '表 决'
+        subtitle: '决定您的投票'
+        text: >-
+          表决部分为各组织提供了在提案周围启动不同的表决或支助系统的可能性：不受限制，只限于某个门槛、加权和基于成本等因素。
+      feature7:
+        title: '成果'
+        subtitle: '没有没有答案的提案'
+        text: >-
+          成果构成部分被用来将提案变成成果，并对其被接受或拒绝作出正式反应， 将各种提议合并为单一结果。
+      feature8:
+        title: '问责制'
+        subtitle: '透明度从开始到结束'
+        text: >-
+          问责制构成部分提供了将成果细分为项目的可能性，界定和适用围绕项目执行的进展状况。 并显示按类别和范围分类的结果实施程度。
+      feature9:
+        title: '会议'
+        subtitle: '不要错过任何内容'
+        text: >-
+          会议构成部分为各组织和与会者提供了召开会议的机会，确定会议地点和时间。 登记和限制与会者，确定会议的结构和内容以及出版会议记录和由此产生的建议。
+      feature10:
+        title: '参与性案文'
+        subtitle: '分析、合成和构建共同的'
+        text: >-
+          参与性案文部分可用于将冗长的文本文件转化为各种建议或结果， 反之亦然，以各种提案或结果为基础撰写和显示一个统一的文本。
+      feature11:
+        title: 'Original: ENGLISH'
+        subtitle: '大型事件被抢走的地方'
+        text: >-
+          会议构成部分允许一个组织通过联合预定的一系列会议(聊天室、讲习班等)，为一个大型活动创建一个网站。 ，建立一个统一的程序并管理参与者。
+      feature12:
+        title: '调查'
+        subtitle: '因为您的社区意见很重要。'
+        text: >-
+          调查部分可以用来设计和公布调查，并显示和下载其结果。
+      feature13:
+        title: '排序方式'
+        subtitle: '平等和随意司法'
+        text: >-
+          排序部分允许选择一些建议 (例如) 有保证不带偏见和统一分配的随机但可复现的程序的陪审团候选人名单。
+      feature14:
+        title: '评论'
+        subtitle: '建立集体情报'
+        text: >-
+          评论组件允许用户添加评论，以识别该评论为收藏夹， 对被评论的对象反对或保持中立，对其进行表决，对其进行表决，对其作出答复，并接收有关答复的通知。
+      feature15:
+        title: '页面和博客'
+        subtitle: '您的社群已知并已更新'
+        text: >-
+          页面组件用于创建内容丰富的文本格式、嵌入图片和视频的信息页面。 博客组件可以创建帖子或新闻，并按时间顺序导航。
+      feature16:
+        title: '通知'
+        subtitle: '关于有趣内容的个性化信息'
+        text: >-
+          Decidim 允许您跟踪任何空间或组件以便每次收到更新。
+      feature17:
+        title: '通讯'
+        subtitle: '简单但强力'
+        text: >-
+          通讯组件使得有可能向在平台注册的所有人发送电子邮件，或更加有选择地发送给参与特定空间的人。
+    type1:
+      title: '参与空间'
+      subtitle: '与会者提出建议和作出决定'
+    type2:
+      title: '组件'
+      subtitle: '与会者和空间进行互动'
+    other:
+      subtitle: '合成组件。轻松设计和部署一个强大的民主系统，使之适应您的组织的需要'
+    cta:
+      title: '发现Decidim如何深度工作'
+      button: '功能和功能'
+  partners:
+    notice: 合作实体标识是各自版权持有人的知识产权。 它们不属于 <a href="https://creativecommons.org/licenses/by-sa/4.0/">创作共用协议副协议</a> 的范围。网站其他内容被许可使用。
+  modules:
+    type:
+      community: 社区
+      auth: 授权
+      official: 官方的
+  used_by:
+    explain: 这些城市、地区和组织已经在使用 Decidim
+    type:
+      city: 城市
+      region: 地区
+      organizations: 组织
+  testimonials:
+    n1:
+      quote: >-
+        由于德基姆的努力，我们在巴塞罗那设法与公民共同制定了一项战略性城市计划。 2016年，我们启动了《城市行动计划》，其形式是通过Decidim Barcelona开展参与进程。 目前，这项计划包括近7 000个公民提案。 使用这个平台的优点之一是，您可以随时监测批准的建议的执行情况。
+      org: 巴塞罗那市政厅(2015-2019年)
+    n2:
+      quote: >-
+        随着《圣日报》的推行，我们为参与创造了一个更加狭窄的空间。 我们在2018年发布了该工具。 主持合作社大会的几个月后，我们讨论了“Som Energia学校的形象重新设计与合作发展”的问题。 在其他参与性进程中也应如此。 在几个月内，3 500多名参与者登记参加了5个参与进程。 大会上次投票中有3个正在运作的议会和1 300多个选票。
+      org: Som Energia
+    n3:
+      quote: >-
+        《1981年Merida决定》的数字平台是一个前所未有的机会，它为制定《1982年马里达2018-2021年城市发展计划》提供了公民参与机制。 我们有3 000多名公民的互动，包括建议、评论和意见。 建议和支持就我们城市的最佳做法达成尽可能最高的共识。 毫无疑问，我们将继续成为我们的盟友，促使《1981年决定》成为一个日益具有参与性的社会。
+      org: Participal President of Merida Yucatatann, Mexico. City Council of Merida Yucatan, 1981-1981. Mexico
+    n4:
+      quote: >-
+        我们赞赏的是，它是在牢记民主的基础上建立起来的，因此民主是一个主要的重点。 问责、平等和透明度等民主原则是设计的核心。
+      org: 赫尔辛基城
+    n5:
+      quote: >-
+        几乎每一个参与性进程都来到我们的桌面上，我们都能够利用十进制的商业规则解决这个问题。 作为一种工具，它是一种非常有力的工具。 然而，对我们来说似乎最强有力和最重要的部分是其社区，无论是开发者还是那些将其用于参与进程的人。 与他们合作使我们认识到在现实世界中实行参与性民主所涉及的挑战。
+      org: 墨西哥城开放政府
+  faqs:
+    title: 常见问题
+    q01:
+      question: 什么是十进制？
+      answer: >-
+        “变迁”是城市和组织的一个自由开放源码参与性民主平台。 但Decidim 不仅仅是一个数字平台：这是一个公共的免费开放项目和涉及代码、文档的基础设施。 设计、培训班、法律框架、协作接口、用户和促进社区以及共同愿景。
+    q02:
+      question: 目前谁在使用 Decidim？
+      answer: >-
+        城市和组织目前正在使用该系统。 事实上，无论是非政府组织、大学、工会、合作社、邻里协会等等，任何群体都可以使用它。 检查[当前活动实例的完整列表](/usedby/)。
+    q03:
+      question: Decidim管理员可以做什么？
+      answer: >-
+        轻松配置参与进程。你想要制定一个战略计划吗？ 或讨论新的条例？或讨论新的广场或公共建筑以实现共同利益？ 多亏了Decidim，您将能够配置参与空间 (倡议、组装、) 通过多种现有组成部分（面对面会议、调查、提案、表决、成果后续行动、评论和更多）丰富这些内容。
+    q04:
+      question: Decidim的参与者(用户)可以做什么？
+      answer: >-
+        欺骗使数以千计的人能够通过提出建议、出席公开会议而民主地组织自己。 • 促进决策讨论，通过不同形式的表决作出决定，并监测决定的执行情况。
+    q05:
+      question: 你有一个降级吗？我想现在在没有安装它的情况下使用Decidim来查看它是如何工作的。
+      answer: '是的，我们有一个[在线演示](/demo)。'
+    q06:
+      question: 平台更新频率？
+      answer: >-
+        我们大约每月发布一个新版本。查看[版本记录](https://github.com/decisionim/decisionim/releases)。
+    q07:
+      question: 我需要安装Decidim？
+      answer: >-
+        安装Decidim很容易，但您需要一些知识和技术要求。请参阅[安装Decidim的文档](https://docs.decisionim.org/en/install/)。
+    q08:
+      question: 我在哪里可以找到项目路线图和计划的特征？
+      answer: 您可以在 GitHub 找到[项目新特征路线图](https://github.com/decisionim/decisionim/projects/16)。
+    q09:
+      question: '虚线是指免费的“libre”和开源的？'
+      answer: >-
+        “欺骗”是人民和人民参与的一个平台。 其源代码已打开，可以由任何人检查、修改和增强。Decidim软件由[AGPL许可证](https://en)覆盖。 ikipedia.org/wiki/GNU_Affero_General_Public_Licse)。这意味着只要您尊重AGPL许可，您就可以使用它，修改它并重新发布派生版本。
+    q10:
+      question: >-
+        我有新的改进功能的想法。我想更好地了解这个项目，我可以做什么？
+      answer:
+    q11:
+      question: 我有许多疑虑，各种怀疑……我可以在哪里问他们或解决他们？
+      answer: >-
+        快速解决您的疑问的最好方法是通过 Metaddecidim 社区。现在进入进程 [Support Forum](https://meta.decision im)。 rg/process/supportforum?locale=en，查看您的问题是否存在，或者是否已经回答，或者输入提问。 如果你不能解决你在这个空间中的问题，也许现在是通过[联系表单](/contact)联系我们的时候了。
+    q12:
+      question: 有教程开始设置吗？
+      answer: >-
+        您可以在 [Documentation section ](https://docs.decisionim.org) 中查看最新版本的管理员手册。
+    q13:
+      question: 什么是社会契约？
+      answer: >-
+        这就是我们称之为《民主保障和民主协作守则》的方式，社区所有成员都必须认可[社会合同](http://decisionim.org/contract)。
+    q14:
+      question: 与马德里领事项目/决定有什么不同？
+      answer: >-
+        有许多不同之处：特征、灵活性、结构、模块等。我们已经[发表了一个帖子](/blog/en/2019-01-14-consul-comparon/)试图回答这个问题。
+    q15:
+      question: Metaddecidim社区是什么？
+      answer: >-
+        [Metadecidim](http://meta.decision im.org) 是协作设计平台和建造Decidim项目的Decidim社区。 我们通过[SOM（Metadecidim Operational Sessions）]（https://meta.decisionim）定期举行会议。 rg/assemblyes/eix-comunitat?locale=es) and [LAB Research Seminars](https://meta.decisionim.org/assemblyes/eix-lab). 跳到 [meta.decidim.org](http://meta.decisionim.org) 密切跟随呼叫，如果你想加入社区。我们很喜欢;-)
+    q16:
+      question: 即使我不住在巴塞罗那，我也能加入Metadecidim社区吗？
+      answer: >-
+        腐化是在巴塞罗那诞生的一个项目，这就是为什么与这个城市有着牢固的领土纽带。 但是的，你可以通过参与过程、辩论等在线合作... 我们在Metadecision im中提供。虽然你可能想来巴塞罗那某个时候:)
+    q17:
+      question: 我们想要达成一项正式的合作协议。我们是否可以使用任何模板？
+      answer: 是的，我们有格式化协作协议的模板。[请联系我们](/contact)。
+    q18:
+      question: 您接受了什么类型的成员加入Metaddecidim社区？
+      answer: 任何对民主协作有诚意和正确态度的人。
+    q19:
+      question: 您是否向非营利组织提供免费安装？
+      answer: >-
+        是的，只有当你是一个设在巴塞罗那的组织。 给我们一条消息，你将得到研究局的帮助。 巴塞罗那市委员会公民权利、参与和透明度领域的发展和创新。
+    q20:
+      question: 您是否支持机构？
+      answer: >-
+        是的，但你必须耐心等待。 现在有许多机构想要使用Decidim，我们正在一步一步地帮助它们。 [联系我们](/contact) 了解任何问题，我们将尽快回答您的问题。
+    q21:
+      question: 什么是解体协会？
+      answer: >-
+        “十进制自由软件协会”是一个治理十进制社区的民主协会。
+    q22:
+      question: 如何获取更多关于解密协会的信息？
+      answer: >-
+        在[Decidim协会大会](https://meta.decision im)。 rg/assembly/general-association) 您可以找到更多信息恶意，关注会议活动并检查相关信息（法规、法律协议、内部条例）
+    q23:
+      question: 我怎么能够成为解体协会的成员？
+      answer: >-
+        现在参与项目的人可以是合作伙伴。[我们在这里详细解释你必须如何做](https://meta.decisionim.org/assembouries/QuieroSerSocia?locale=es)
+    q24:
+      question: 代谢协会何时诞生？
+      answer: >-
+        该协会成立于2019年2月16日，成立于社区的一个特别集会](https://meta.decisionm.org/process/decisionim-gov/f/959/meetings/1169)，并得到该组织章程的批准。
