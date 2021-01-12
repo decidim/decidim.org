@@ -130,6 +130,92 @@ es:
       cta:
         features: 'Ver todas las funcionalidades'
         values: 'Ir al contrato social'
+    page:
+      feature1:
+        title: 'Procesos participativos'
+        subtitle: 'para democratizar asuntos comunes, paso a paso'
+        text: >-
+          Procesos permite crear, activar/desactivar y administrar diferentes procesos de participación, articularlos en diferentes fases en las que pueden combinarse todos los componentes (un proceso de elección de los miembros de un comité, presupuestos participativos, un proceso de planificación estratégica, la redacción colaborativa de un reglamento o norma, el diseño de un espacio urbano o la producción de un plan de políticas públicas…).
+      feature2:
+        title: 'Órganos<br/>de participación'
+        subtitle: 'el poder de la autorganización colectiva'
+        text: >-
+          Las Asambleas es un espacio que ofrece la posibilidad de constituir órganos o grupos de decisión (consejos, grupos de trabajo, comisiones, etc.) que se reúnen periódicamente, detallando su composición, listando y geolocalizando sus reuniones, y permitiendo la participación en las mismas (por ejemplo: asistiendo si el aforo y la naturaleza de la asamblea lo permiten, añadiendo puntos al orden del día, o comentando las propuestas y decisiones tomadas por dicho órgano).
+      feature3:
+        title: 'Consultas'
+        subtitle: 'el derecho a decidir con todas las garantías democráticas'
+        text: >-
+          Consultas es un espacio que permite coordinar referendos, organizar discusiones y debates, publicar los resultados de las votaciones y conectarse a un sistema seguro de voto electrónico.
+      feature4:
+        title: 'Iniciativas'
+        subtitle: "marcar la agenda de todas, al alcance de cualquiera"
+        text: >-
+          Iniciativas es un espacio que permite a los participantes crear iniciativas de forma colaborativa, definir su trayectoria y objetivos, recoger apoyos, discutir, debatir y difundir iniciativas y definir puntos de encuentro donde se puedan recoger firmas de los asistentes o debates abiertos a otros miembros de la organización.
+      feature5:
+        title: 'Propuestas'
+        subtitle: 'vuestras ideas, en detalle'
+        text: >-
+          El componente propuestas permite al usuario crear una propuesta utilizando un asistente de creación, compararla con las existentes, publicarla en la plataforma e incluir información adicional como geolocalización o documentos e imágenes adjuntos. Este componente también permite navegar, filtrar e interactuar con un conjunto de propuestas. Además, con la propuesta-incubadora podéis crear propuestas colaborativas.
+      feature6:
+        title: 'Votaciones'
+        subtitle: 'decide tu voto'
+        text: >-
+          El componente votación ofrece a las organizaciones la posibilidad de activar diferentes sistemas de votación o apoyo en torno a las propuestas: ilimitado, limitado a un determinado umbral, ponderado, basado en costes, etc.
+      feature7:
+        title: 'Resultados'
+        subtitle: 'ninguna propuesta sin respuesta'
+        text: >-
+          El componente resultados se utiliza para convertir propuestas en resultados y dar respuestas oficiales sobre su aceptación o rechazo, fusionando varias propuestas en un solo resultado.
+      feature8:
+        title: 'Rendición de cuentas'
+        subtitle: 'transparencia de principio a fin'
+        text: >-
+          El componente de rendición de cuentas ofrece la posibilidad de subdividir los resultados en proyectos, definir y aplicar estados de progreso en torno a su implementación, así como mostrar el grado de implementación de los resultados agrupados por categorías y alcances.
+      feature9:
+        title: 'Encuentros'
+        subtitle: 'para encontrarse y no perderse nada'
+        text: >-
+          El componente de encuentros ofrece a las organizaciones y a los participantes la oportunidad de convocar reuniones, determinar su lugar y hora, registrar y limitar el número de asistentes, definir la estructura y el contenido de la reunión, así como publicar las actas y las propuestas resultantes.
+      feature10:
+        title: 'Textos participativos'
+        subtitle: 'para analizar, sintetizar, y construir en común'
+        text: >-
+          El componente textos participativos se puede utilizar para convertir documentos de texto extenso en varias propuestas o resultados y, viceversa, para componer y mostrar un texto unificado basado en una colección de propuestas o resultados.
+      feature11:
+        title: 'Conferencia'
+        subtitle: 'Donde los grandes eventos se estrenan'
+        text: >-
+          El componente conferencia permite a una organización crear un sitio web para un gran evento uniendo una serie de encuentros predefinidos (chats, talleres, etc.), creando un programa unificado y gestionando los asistentes.
+      feature12:
+        title: 'Encuestas'
+        subtitle: 'Porque la opinión de tu comunidad cuenta'
+        text: >-
+          El componente encuestas se puede utilizar para diseñar y publicar encuestas y para mostrar y descargar sus resultados.
+      feature13:
+        title: 'Sorteo'
+        subtitle: 'La igualdad y la justicia del azar'
+        text: >-
+          El componente sorteo permite seleccionar un número de propuestas (por ejemplo, candidatos a un jurado) con procedimientos aleatorios, pero reproducibles, que garantizan distribuciones no sesgadas y uniformes.
+      feature14:
+        title: 'Comentarios'
+        subtitle: 'Construyendo la inteligencia colectiva'
+        text: >-
+          El componente comentarios permite a los usuarios añadir comentarios, identificar el comentario como a favor, en contra o neutral en relación con el objeto comentado, votar comentarios, responder a ellos y recibir notificaciones sobre las respuestas.
+      feature15:
+        title: 'Páginas y blogs'
+        subtitle: 'Tu comunidad, informada y al día'
+        text: >-
+          El componente páginas se utiliza para crear páginas informativas con formato de texto enriquecido, imágenes y vídeos incrustados. El componente blog permite la creación de mensajes o noticias, y navegar por ellos cronológicamente.
+      feature16:
+        title: 'Notificaciones'
+        subtitle: 'Información personalizada sobre contenidos de interés'
+        text: >-
+          Decidim permite seguir cualquier espacio o componente para recibir actualizaciones cada vez que se produzcan.
+      feature17:
+        title: 'Boletín'
+        subtitle: 'Sencillo pero potente'
+        text: >-
+          El componente boletín permite enviar correos electrónicos a todas las personas registradas en la plataforma.
     type1:
       title: 'Espacios de participación'
       subtitle: 'Para que los participantes realicen propuestas y tomen decisiones'
@@ -154,6 +240,27 @@ es:
       city: Ciudades
       region: Regiones
       organizations: Organizaciones
+  testimonials:
+    n1:
+      quote: >-
+        Gracias a Decidim, hemos conseguido en Barcelona coproducir un plan estratégico de ciudad conjuntamente con la ciudadanía. En el 2016 inauguramos el Plan de Acción Municipal en forma de proceso participativo a través de Decidim Barcelona. Actualmente dicho plan recoge casi 7 mil propuestas ciudadanas. Una de las ventajas de utilizar esta plataforma es que puedes seguir en todo momento el estado de implementación de las propuestas aceptadas.
+      org: Ayuntamiento de Barcelona (2015-2019)
+    n2:
+      quote: >-
+        En Som Energia, con la implementación del Decidim, hemos generado un espacio más amable de participación. Estrenamos la herramienta en 2018, albergando la Asamblea General de la Cooperativa y meses más tarde, hemos llevado a debate el Rediseño de Imagen y la elaboración colaborativa de la Escuela de Som Energia, entre otros procesos de participación. En pocos meses se han registrado más de 3.500 personas participantes, 5 procesos participativos, 3 asambleas funcionando y más de 1.300 votos en la última consulta de la Asamblea General.
+      org: Som Energia
+    n3:
+      quote: >-
+        La plataforma digital Decide Mérida fue una oportunidad que abrió como nunca los mecanismos de participación ciudadana para la elaboración del Plan Municipal de Desarrollo de Mérida 2018-2021. Tuvimos más de 3 mil interacciones ciudadanas entre propuestas, comentarios, sugerencias y apoyos que dieron lugar al mayor consenso posible sobre lo que es mejor para nuestra ciudad. Sin duda, la plataforma Decide Mérida seguirá siendo nuestra aliada para hacer de Mèrida una sociedad cada día más participativa.
+      org: Presidente Municipal de Mérida Yucatán, México. Ayuntamiento de Mérida Yucatán, México
+    n4:
+      quote: >-
+        Los principios democráticos como la rendición de cuentas, la igualdad y la transparencia están en el centro del diseño. Decidim es está construido teniendo en mente la democracia, es su gran foco.
+      org: Ayuntamiento de Helsinki
+    n5:
+      quote: >-
+        Prácticamente cada proceso participativo que ha llegado a nuestra mesa, lo hemos podido resolver usando las reglas de negocio de Decidim. Como herramienta, es una muy robusta. Sin embargo, la parte que nos parece más fuerte e importante es su comunidad, tanto de desarrolladoras como de aquellas que lo usan para procesos participativos. Convivir con ellas nos ha hecho dimensionar los desafíos que conlleva implementar la democracia participativa en el mundo real.
+      org: Gobierno Abierto de Ciudad de México
   faqs:
     title: Preguntas más frecuentes
     q01:
@@ -237,7 +344,7 @@ es:
       answer: >-
         La Asociación de Software Libre Decidim (Associació Decidim) es una asociación democrática que se encarga de la gobernanza de la comunidad Decidim.
     q22:
-      question: '¿Quiere más información sobre la Asociación Decidim?'
+      question: '¿Cómo puedo obtener más información sobre la Asociación Decidim?'
       answer: >-
         En la [asamblea general de la Associació Decidim](https://meta.decidim.org/assemblies/general-assembly-association) puedes conocernos mejor, seguir la actividad de los encuentros y consultar información relevante (estatutos, convenios, el reglamento interno).
     q23:
