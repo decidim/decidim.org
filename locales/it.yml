@@ -1,0 +1,357 @@
+it:
+  path: ''
+  activeLang: 'Italiano'
+  nav:
+    text: 'Navigazione'
+    demo: 'Demo'
+    community: 'Community'
+    contract: 'Contratto Sociale'
+    code: 'Codice'
+    docs:
+      title: 'Documentazione'
+      path: 'https://docs.decidim.org/'
+    blog: 'Blog'
+    features: 'Funzionalità (features)'
+    faqs: 'FAQ'
+    contact: 'Contatto'
+    used_by: 'Decidim in uso'
+    partners: 'Enti cooperanti'
+    modules: 'Moduli'
+    press: 'Stampa'
+  alert:
+    title: 'Decidim Fest 2020 :: Democrazia e Tecnologia in tempi di Emergenza 18, 19 e 20 novembre'
+    subtitle: 'Unisciti alla nostra chiamata'
+    link: https://meta.decidim.org/conferences/decidimfest2020/f/1338/
+    desc: 'DecidimFest è un intenso programma di attività di 3 giorni dedicate al progetto Decidim, democrazia partecipativa e strumenti open source per l''intelligenza collettiva nell''era della Democrazia Globale.'
+  index:
+    hero:
+      heading: 'Libera democrazia partecipativa Open-Source per città e organizzazioni'
+      subheading: 'Decidim è una piattaforma digitale<br/>per la partecipazione dei cittadini'
+      intro: 'Tecnologia gratuita e sicura.<br/>Con tutte le garanzie democratiche.<br/>La riprogrammazione della democrazia è ora possibile con Decidim.'
+    video:
+      play: 'Riproduci video'
+      url: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
+      close: 'Chiudi video'
+    subhero:
+      intro: 'Decidim aiuta i cittadini, le organizzazioni e le istituzioni pubbliche a organizzarsi democraticamente su ogni scala.'
+      feature1: 'Pianificazione strategica<br/>'
+      feature2: 'Bilancio partecipativo<br/>'
+      feature3: 'Iniziative e consultazioni dei cittadini<br/>'
+      feature4: 'Processi partecipativi<br/>'
+      feature5: 'assemblee'
+      feature6: 'Comunicazione in rete<br/>'
+    used_by:
+      title: 'Stanno già usando Decidim'
+      cta: 'Vedi tutto'
+    cta:
+      title: 'inizia ad usare Decidim oggi'
+    button:
+      code: 'Codice su Github'
+  footer:
+    driven_by: 'Promotore'
+    attribution: '- Creative Commons By-SA'
+    feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/en/european-funds'
+  demo:
+    title: Demo Online
+    p1: Gioca in giro ed esplora liberamente la piattaforma Decidim con la nostra demo online.
+    p2: Decidim è in esecuzione su diverse istanze che puoi visitare ed esplorare, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> a Barcelona City o puoi visitare i siti di <a href="https://participa.gavaciutat.cat/" target="_blank">Gava<unk></a> e <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. Ma questi sono casi reali in cui non si può davvero giocare liberamente, come si potrebbe non essere un cittadino di quei comuni, e non è possibile esplorare tali siti come un amministratore.
+    p3: Se volete andare oltre, siete invitati a testare Decidim sul nostro sito demo di Decidim (cortesia dei nostri sviluppatori presso <a href="http://alabs.org" target="_blank">aLabs</a>). Entra nel sito demo e esplora liberamente il potenziale di Decidim e le sue caratteristiche.
+    p4: Puoi accedere come <strong>Admin</strong> (username "<strong>admin@example.org</strong>" e password "<strong>decidim123456</strong>").
+    button: Demo online
+  community:
+    title: 'Metadecidim, la nostra comunità'
+    subtitle: 'Una comunità democratica che gestisce il progetto Decidim in tutte le sue dimensioni'
+    intro: 'Metadecidim è una comunità che collabora alla progettazione della piattaforma e alla costruzione del progetto. Insieme possiamo progettare e sviluppare nuove funzionalità e segnalare bug per il miglioramento continuo della piattaforma.'
+    cta: 'Per iniziare'
+    features:
+      title: 'Proponi nuove funzionalità'
+      subtitle: 'Progettare e sviluppare il Decidim tra tutti'
+      text: 'È possibile creare dibattiti sul futuro del Decidim o proporre nuove funzionalità o miglioramenti. Le proposte possono ricevere sostegni e commenti, per dimostrare, ad esempio, l''interesse che suscitano nella comunità e apprezzare il loro sviluppo. Proposte che hanno uno sponsor (come un consiglio comunale o qualsiasi altra entità), la ricerca e la messa a disposizione delle risorse necessarie per realizzare il loro sviluppo saranno utili per il progetto.'
+      cta: 'Entra e partecipa ora'
+    bug:
+      title: 'Segnala un bug'
+      subtitle: 'Collaborazione per il progressivo miglioramento'
+      text: 'Ogni nuovo rilascio di Decidim incorpora nuove funzionalità e miglioramenti di usabilità, ma non tutto funziona all''inizio e potrebbero apparire errori. Qui puoi segnalare i bug che trovi e aiutare gli sviluppatori a risolverli rapidamente.'
+      cta: 'Entra e partecipa ora'
+    img_alt: 'Decidim Community Photo al Metadecidim Meeting 2016'
+    timeline:
+      title: 'Progettazione collaborativa delle funzionalità'
+      step1:
+        title: 'Nuova proposta'
+        text: 'Descrizione funzionale'
+      step2:
+        title: 'Proposta convalidata'
+        text: 'Convalida tecnica e tecnopolitica'
+      step3:
+        title: 'Proposta pianificata'
+        text: 'Risorse per lo sviluppo (condivise o no)'
+      step4:
+        title: 'Problema'
+        text: 'Descrizione tecnica'
+      step5:
+        title: 'Pull request'
+        text: 'Codice sviluppato'
+      step6:
+        title: 'Funcionalità fatta'
+        text: 'Validabile alla prossima versione'
+  contact:
+    title: Contattaci
+    bot_field: "Non riempire questo se sei umano:"
+    name: Nome
+    entity: Entità
+    email: Email
+    message: Messaggio
+    send: Invia
+  thanks:
+    title: Grazie per la tua email
+    message: Grazie per averci contattato, torneremo presto a te.
+  features:
+    title: 'Funzionalità (features)'
+    intro: '<p>È possibile utilizzare Decidim in un''organizzazione pubblica o privata, con centinaia o migliaia di potenziali partecipanti, come un consiglio comunale, un''associazione, un''università, una ONG, un sindacato, un collettivo di quartieri o una cooperativa...</p><p>Grazie a Decidim potrai configurare gli spazi per la partecipazione (iniziative, assemblee, processi o consultazioni) e arricchirli attraverso le molteplici componenti disponibili (riunioni dirette, indagini, proposte, votazioni, follow-up dei risultati, commenti e molti altri).</p>'
+    list:
+      n1:
+        title: 'Bilanci partecipativi<br/>'
+        content: 'Essa analizza le proposte presentate e promuove un nuovo modo di distribuire le risorse comuni.'
+      n2:
+        title: 'Iniziative dei cittadini<br/>e consultazioni'
+        content: 'Potenzia la tua comunità attraverso le iniziative dei cittadini. Promuovi il voto pertinente attraverso le consultazioni.'
+      n3:
+        title: 'Il potere<br/>di una rete politica'
+        content: 'Ci vuole deliberazione, collaborazione e decisione ad una dimensione massiccia, con migliaia di persone che partecipano in tempo reale.'
+      n4:
+        title: 'Un sistema democratico<br/>e flessibile'
+        content: 'Grazie alla sua architettura modulare e alla sua logica scalabile, è possibile configurare un potente sistema di governance democratica in tutti i tipi di organizzazioni.'
+      n5:
+        title: 'Prendiamo la democrazia<br/>molto seriamente'
+        content: 'Il Decidim garantisce trasparenza, tracciabilità e integrità delle informazioni come mai prima d''ora, garantendo sicurezza, privacy e riservatezza a tutti i partecipanti.'
+      n6:
+        title: "È tuo.<br/>Condividilo. Miglioralo."
+        content: 'Una piattaforma progettata interamente con software libero, aperta e collaborativa grazie alla community Metadecidim.'
+      cta:
+        features: 'Vedi tutte le funzionalità'
+        values: 'Vai al contratto sociale'
+    page:
+      feature1:
+        title: 'Processi partecipativi'
+        subtitle: 'democratizzare le questioni comuni, passo dopo passo'
+        text: >-
+          I processi sono uno spazio che permette di creare, attivare/disattivare e gestire vari processi partecipativi. Questi sono distinti dagli altri spazi essendo strutturati in diverse fasi all'interno delle quali tutti i componenti possono essere incorporati. Esempi di processi partecipativi sono: un processo elettorale per i membri di un comitato, un bilancio partecipativo, un processo di pianificazione strategica, la redazione collaborativa di un regolamento o di una norma, la progettazione di uno spazio urbano o la produzione di un piano di politica pubblica.
+      feature2:
+        title: 'assemblee'
+        subtitle: 'il potere di auto-organizzazione collettiva'
+        text: >-
+          È uno spazio che offre la possibilità di istituire organi o gruppi decisionali (consigli, gruppi di lavoro, comitati, ecc.). che si riuniscono periodicamente, dettagliando la loro composizione, elencando e geo-localizzando le loro riunioni, e consentire di parteciparvi (ad esempio: assistere se la capacità dei posti a sedere e la natura del complesso lo consentono, aggiungere punti all’ordine del giorno o commentare le proposte e le decisioni prese da tale organismo).
+      feature3:
+        title: 'consultazioni'
+        subtitle: 'il diritto di decidere con tutte le garanzie democratiche'
+        text: >-
+          Le consultazioni sono uno spazio che consente di coordinare i referendum, innescare discussioni e dibattiti, ottenere la pubblicazione dei risultati delle votazioni; può essere collegato a un sistema sicuro di voto elettronico.
+      feature4:
+        title: 'Iniziative'
+        subtitle: "stabilire l'agenda di tutti, a portata di tutti"
+        text: >-
+          Iniziative è uno spazio che permette ai partecipanti di creare in collaborazione iniziative, definire la loro traiettoria e i loro obiettivi, raccogliere approvazioni, discutere, discutere e diffondere iniziative e definire punti di incontro in cui le firme possono essere raccolte da partecipanti o dibattiti aperti ad altri membri dell'organizzazione.
+      feature5:
+        title: 'Proposte'
+        subtitle: 'le tue idee in dettaglio'
+        text: >-
+          La componente delle proposte consente all'utente di creare una proposta utilizzando una procedura guidata di creazione, di confrontarla con quelle esistenti, pubblicarlo sulla piattaforma e includere ulteriori informazioni come la geo-localizzazione o documenti e immagini allegati. Questo componente consente anche di navigare, filtrare e interagire con una serie di proposte. Inoltre, con il proposto-incubatore è possibile creare proposte collaborative.
+      feature6:
+        title: 'Votazione'
+        subtitle: 'decidi il tuo voto'
+        text: >-
+          La componente votante offre alle organizzazioni la possibilità di attivare diversi sistemi di voto o di sostegno intorno alle proposte: illimitato, limitato ad una determinata soglia, ponderato, basato sui costi, ecc.
+      feature7:
+        title: 'Risultati'
+        subtitle: 'nessuna proposta senza risposta'
+        text: >-
+          La componente dei risultati è utilizzata per trasformare le proposte in risultati e fornire risposte ufficiali in merito alla loro accettazione o rifiuto, fondere varie proposte in un unico risultato.
+      feature8:
+        title: 'Accountability'
+        subtitle: 'trasparenza dall''inizio alla fine'
+        text: >-
+          La componente di responsabilità offre la possibilità di suddividere i risultati in progetti, definire e applicare gli stati di avanzamento relativi alla loro attuazione, oltre a mostrare la portata dell’attuazione dei risultati raggruppata per categorie e ambiti.
+      feature9:
+        title: 'Riunioni'
+        subtitle: 'per incontrare e non perdere nulla'
+        text: >-
+          La componente meeting offre alle organizzazioni e ai partecipanti la possibilità di convocare incontri, determinare la loro posizione e il loro tempo, registrare e limitare i partecipanti, definire la struttura e il contenuto della riunione, nonché pubblicare i verbali e le proposte che ne risultano.
+      feature10:
+        title: 'Testi partecipativi'
+        subtitle: 'per analizzare, sintetizzare e costruire in comune'
+        text: >-
+          La componente dei testi partecipativi può essere utilizzata per convertire documenti di testo lunghi in varie proposte o risultati e, viceversa, per comporre e visualizzare un testo unificato basato su una raccolta di proposte o risultati.
+      feature11:
+        title: 'Conferenza'
+        subtitle: 'Dove grandi eventi sono premiati'
+        text: >-
+          La componente della conferenza consente a un'organizzazione di creare un sito web per un grande evento unendo a una serie di riunioni predefinite (chat, workshop, ecc. , mettere insieme un programma unificato e gestire i partecipanti.
+      feature12:
+        title: 'Sondaggi'
+        subtitle: 'Perché il parere della vostra comunità conta'
+        text: >-
+          La componente di sondaggi può essere utilizzata per progettare e pubblicare sondaggi e per visualizzare e scaricare i loro risultati.
+      feature13:
+        title: 'sortition'
+        subtitle: 'Parità e giustizia di casualità'
+        text: >-
+          La componente di smistamento consente di selezionare un certo numero di proposte (ad es. candidati per una giuria) con procedure casuali, ma riproducibili, che garantiscono distribuzioni non parziali e uniformi.
+      feature14:
+        title: 'Commenti'
+        subtitle: 'Costruire un''intelligenza collettiva'
+        text: >-
+          Il componente commenti consente agli utenti di aggiungere commenti, per identificare il commento come a favore, contro o neutrale in relazione all'oggetto commentato, per votare commenti, rispondere a loro e per ricevere notifiche sulle risposte.
+      feature15:
+        title: 'Pagine e blog'
+        subtitle: 'La tua comunità, informata e aggiornata'
+        text: >-
+          Il componente delle pagine viene utilizzato per creare pagine informative con una ricca formattazione del testo, immagini e video incorporati. Il componente del blog rende possibile la creazione di post o notizie, e di navigare cronologicamente.
+      feature16:
+        title: 'Notifiche'
+        subtitle: 'Informazioni personalizzate sui contenuti interessanti'
+        text: >-
+          Decidim consente di tenere traccia di qualsiasi spazio o componente per ricevere aggiornamenti ogni volta che accadono.
+      feature17:
+        title: 'Newsletter'
+        subtitle: 'Semplice ma potente'
+        text: >-
+          Il componente newsletter consente di inviare email a tutti coloro che sono iscritti alla piattaforma o, più selettivamente, a coloro che partecipano a uno spazio specifico.
+    type1:
+      title: 'Spazi per la partecipazione'
+      subtitle: 'Per i partecipanti presentare proposte e prendere decisioni'
+    type2:
+      title: 'Componenti'
+      subtitle: 'Per i partecipanti e gli spazi per interagire'
+    other:
+      subtitle: 'Progettare e distribuire un potente sistema democratico in modo semplice e adattarlo alle esigenze della vostra organizzazione'
+    cta:
+      title: 'Scopri come funziona il Decidim in profondità'
+      button: 'Funzioni e funzioni'
+  partners:
+    notice: I loghi delle entità che hanno collaborato sono proprietà intellettuale dei rispettivi titolari di copyright. Non rientrano sotto la licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA</a> il resto dei contenuti del sito sono concessi in licenza.
+  modules:
+    type:
+      community: Community
+      auth: Autorizzazione
+      official: Ufficiale
+  used_by:
+    explain: Queste città, regioni e organizzazioni stanno già usando Decidim
+    type:
+      city: Città
+      region: Regioni
+      organizations: Organizzazioni
+  testimonials:
+    n1:
+      quote: >-
+        Grazie a Decidim, a Barcellona siamo riusciti a co-produrre un piano urbano strategico insieme ai cittadini. Nel 2016 abbiamo inaugurato il Piano d'azione comunale sotto forma di processo partecipativo attraverso Decidim Barcelona. Attualmente, questo piano comprende quasi 7 mila proposte dei cittadini. Uno dei vantaggi dell'utilizzo di questa piattaforma è che è possibile monitorare in ogni momento lo stato di attuazione delle proposte approvate.
+      org: Municipio Di Barcellona (2015-2019)
+    n2:
+      quote: >-
+        Con la realizzazione di Decidim in Som Energia abbiamo generato uno spazio più gentile per la partecipazione. Abbiamo rilasciato lo strumento nel 2018, ospitando l'Assemblea Generale della Cooperativa e mesi più tardi abbiamo discusso la Riedizione delle Immagini e lo sviluppo collaborativo della Scuola di Som Energia, tra gli altri processi partecipativi. In pochi mesi, più di 3.500 partecipanti hanno registrato, 5 processi partecipativi, 3 assemblee funzionanti e più di 1.300 voti nell'ultimo voto dell'Assemblea generale.
+      org: Som Energia
+    n3:
+      quote: >-
+        La Piattaforma digitale di Decide Medi rida è stata un’opportunità che si è aperta come mai prima dei meccanismi di partecipazione dei cittadini per l’elaborazione del Piano di Sviluppo Municipale di Medi rida 2018-2021. Abbiamo avuto più di 3.000 interazioni con i cittadini tra cui proposte, commenti, suggerimenti e sostegno per raggiungere il massimo consenso possibile su ciò che è meglio per la nostra città. Indubbiamente, la piattaforma Decide Meær rida continuerà ad essere il nostro alleato nel rendere Meær rida una società sempre più partecipativa.
+      org: Presidente comunale di Me<unk> rida Yucata<unk> n, Messico. Consiglio comunale di Me<unk> rida Yucata<unk> n, Messico
+    n4:
+      quote: >-
+        Quello che apprezziamo è che è costruito con la democrazia in mente e quindi la democrazia è un grande obiettivo. Principi democratici come la responsabilità, l'uguaglianza e la trasparenza sono al centro del progetto.
+      org: Città di Helsinki
+    n5:
+      quote: >-
+        Quasi ogni processo partecipativo che è venuto al nostro tavolo, siamo stati in grado di risolverlo utilizzando le regole commerciali di Decidim. Come strumento, è molto forte. Tuttavia, la parte che ci sembra più forte e più importante è la sua comunità, sia gli sviluppatori che quelli che la utilizzano per processi partecipativi. La coesistenza con loro ci ha fatto apprezzare le sfide legate all'attuazione della democrazia partecipativa nel mondo reale.
+      org: Governo aperto di Città del Messico
+  faqs:
+    title: Domande frequenti
+    q01:
+      question: Che cos’è Decidim?
+      answer: >-
+        Decidim è una piattaforma di democrazia partecipativa Open-Source gratuita per città e organizzazioni. Ma Decidim è più di una piattaforma digitale: è un progetto gratuito e aperto comune e un'infrastruttura che coinvolge codice, documentazione, progettazione, corsi di formazione, un quadro giuridico, interfacce collaborative, comunità di utenti e facilitazioni, e una visione comune.
+    q02:
+      question: Chi sta attualmente usando Decidim?
+      answer: >-
+        Attualmente è utilizzato da città e organizzazioni. Infatti, qualsiasi gruppo di persone può utilizzarlo, che si tratti di ONG, università, sindacato, cooperativa, associazione di vicinato, eccetera. Controlla la [lista completa delle istanze attualmente attive](/usedby/).
+    q03:
+      question: Cosa può fare un amministratore di Decidiam?
+      answer: >-
+        Configurare facilmente i processi partecipativi Vuoi fare un piano strategico? O discutere di nuovi regolamenti? O discutere di una nuova piazza o di un edificio pubblico per raggiungere il bene comune? Grazie a Decidim potrai configurare spazi di partecipazione (iniziative, assemblee, processi o consultazioni) e arricchirli attraverso le molteplici componenti disponibili (riunioni dirette, indagini, proposte, votazioni, follow-up dei risultati, commenti e molti altri).
+    q04:
+      question: Cosa può fare un partecipante (utente) di Decidim?
+      answer: >-
+        Decidim consente a migliaia di persone di organizzarsi democraticamente presentando proposte, partecipando a riunioni pubbliche, promuovere le discussioni decisionali, decidere attraverso diverse forme di voto e monitorare l'attuazione delle decisioni.
+    q05:
+      question: Hai una Demo? Voglio usare Decidim ora, senza installarla, per vedere come funziona.
+      answer: 'Sì, abbiamo una [demo online](/demo).'
+    q06:
+      question: Quanto spesso viene aggiornata la piattaforma?
+      answer: >-
+        Rilasciamo una nuova versione circa ogni mese. Vedi il [record di versioni](https://github.com/decidim/decidim/releases).
+    q07:
+      question: Di cosa ho bisogno per installare Decidim?
+      answer: >-
+        L'installazione di Decidim è facile, ma hai bisogno di conoscenze e requisiti tecnici. Vedi la [documentazione per l'installazione di Decidim](https://docs.decidim.org/en/install/).
+    q08:
+      question: Dove posso trovare la roadmap del progetto e le caratteristiche previste?
+      answer: Puoi trovare la [roadmap delle nuove funzionalità del progetto su GitHub](https://github.com/decidim/decidim/projects/16).
+    q09:
+      question: 'Che cosa significa che Decidim è gratuito, "libre" e open source?'
+      answer: >-
+        Decidim è una piattaforma per la partecipazione dei cittadini fatta dai cittadini e per le persone. Il suo codice sorgente è aperto e può essere controllato, modificato e migliorato da chiunque. Il software Decidim è coperto dalla [licenza AGPL](https://en. ikipedia.org/wiki/GNU_Affero_General_Public_License). Ciò significa che è possibile utilizzarla, modificarla e ridistribuire le versioni derivate, purché si rispetti la licenza AGPL.
+    q10:
+      question: >-
+        Ho idee per nuove funzionalità di miglioramento. Voglio avere una migliore comprensione del progetto. Cosa posso fare?
+      answer:
+    q11:
+      question: Ho molti dubbi, di tutti i tipi... dove posso chiedere loro o risolverli?
+      answer: >-
+        Il modo migliore per risolvere rapidamente i tuoi dubbi è attraverso la comunità di Metadecidim. Entra ora nel processo [Forum di supporto](https://meta.decidim. rg/processes/supportforum?locale=it) e vedere se esiste la tua domanda o se è stato risposto e altrimenti inserisci per fare domande. Se non riesci a risolvere il tuo problema in questo spazio, forse è il momento di contattarci attraverso il [modulo di contatto](/contact).
+    q12:
+      question: C'è qualche tutorial per iniziare a configurarlo?
+      answer: >-
+        Puoi controllare l'ultima versione del nostro manuale di amministrazione nella [sezione Documentazione](https://docs.decidim.org).
+    q13:
+      question: Qual è il contratto sociale?
+      answer: >-
+        È così che chiamiamo il nostro Codice delle Garanzie Democratiche e della Collaborazione Democratica. Tutti i membri della comunità devono avallare il [Contratto Sociale](http://decidim.org/contract).
+    q14:
+      question: Quali sono le differenze con Consul Project / Decide Madrid?
+      answer: >-
+        Ci sono molte differenze: caratteristiche, flessibilità, architettura, modularità, ecc Abbiamo [pubblicato un post](/blog/en/2019-01-14-consol-comparison/) per cercare di rispondere a questa domanda.
+    q15:
+      question: Che cos'è la comunità di Metadecidim?
+      answer: >-
+        [Metadecidim](http://meta.decidim.org) è la comunità di Decidim che collabora alla progettazione della piattaforma e alla costruzione del progetto Decidim. Ci incontriamo regolarmente attraverso [SOM (Metadecidim Operative Sessions)](https://meta.decidim. rg/assemblies/eix-comunitat?locale=es) e [LAB Research Seminars](https://meta.decidim.org/assemblies/eix-lab). Vai a [meta.decidim.org](http://meta.decidim.org) per seguire da vicino le chiamate e se vuoi unirti alla community. Ci piacerebbe ;-)
+    q16:
+      question: Posso unirmi alla comunità Metadecidim anche se non vivo a Barcellona?
+      answer: >-
+        Decidim è un progetto nato a Barcellona ed è per questo che esiste un forte legame territoriale con questa città. Ma sì, puoi collaborare online, attraverso processi partecipativi, dibattiti, ecc.... che forniamo a Metadecidim. Anche se potresti voler venire a Barcellona qualche volta :)
+    q17:
+      question: Vogliamo concludere un accordo formale di collaborazione. Ci sono modelli che possiamo utilizzare?
+      answer: Sì, abbiamo modelli per formalizzare gli accordi di collaborazione. [Per favore contattaci](/contact).
+    q18:
+      question: Che tipo di membri accettate nella comunità Metadecidim?
+      answer: Chiunque abbia buona fede e un atteggiamento corretto nei confronti della collaborazione democratica.
+    q19:
+      question: Fornisci l'installazione gratuita alle organizzazioni senza fini di lucro?
+      answer: >-
+        Sì, solo se sei un'organizzazione con sede a Barcellona. Inviaci un messaggio e sarai aiutato dalla Direzione della Ricerca, Sviluppo e innovazione dello spazio dei diritti di cittadinanza, partecipazione e trasparenza del consiglio comunale di Barcellona.
+    q20:
+      question: Sostiene le istituzioni?
+      answer: >-
+        Sì, ma devi essere paziente. Ci sono molte istituzioni che vogliono utilizzare Decidim in questo momento e le stiamo aiutando passo dopo passo. [Contattaci](/contact) per qualsiasi domanda e ti risponderemo il prima possibile.
+    q21:
+      question: Che cos'è l'Associazione Decidiam?
+      answer: >-
+        L'"Asociacion de Software Libre Decidim" (Associazione per il Software Libero Decidim) è un'associazione democratica per la governance della comunità Decidim.
+    q22:
+      question: Come posso ottenere maggiori informazioni sull'Associazione Decidiam?
+      answer: >-
+        Nell'[assemblea generale dell'associazione Decidim](https://meta.decidim. rg/assemblies/general-assembly-association) potete trovare più informazioni abous noi, seguire l'attività delle riunioni e controllare le informazioni pertinenti (statuti, accordi legali, i regolamenti interni)
+    q23:
+      question: Come posso diventare membro dell'Associazione Decidiam?
+      answer: >-
+        Ora le persone coinvolte nel progetto possono essere partner. [Qui spieghiamo in dettaglio come devi farlo](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+    q24:
+      question: Quando è nata l'Associazione Decidiam?
+      answer: >-
+        L'Associacio<unk> [Decidim è fondata il 16 febbraio 2019 in un'assemblea straordinaria della comunità](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), con l'approvazione dello statuto dell'organizzazione.
