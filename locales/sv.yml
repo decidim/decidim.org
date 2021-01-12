@@ -1,0 +1,357 @@
+sv:
+  path: ''
+  activeLang: 'Svenska'
+  nav:
+    text: 'Navigera'
+    demo: 'Demo'
+    community: 'Gemenskap'
+    contract: 'Socialt kontrakt'
+    code: 'Kod'
+    docs:
+      title: 'Dokumentation'
+      path: 'https://docs.decidim.org/'
+    blog: 'Blogg'
+    features: 'Funktioner'
+    faqs: 'Vanliga frågor'
+    contact: 'Kontakt'
+    used_by: 'Decidim används'
+    partners: 'Samarbete mellan enheter'
+    modules: 'Moduler'
+    press: 'Tryck'
+  alert:
+    title: 'Decidim Fest 2020 :: Demokrati och teknik i kristider 18, 19 och 20 november'
+    subtitle: 'Gå med i vårt samtal'
+    link: https://meta.decidim.org/konferenser/decidimfest2020/f/1338/
+    desc: 'DecidimFest är ett intensivt 3-dagars program av aktiviteter ägnas åt Decidim projektet, Deltagande demokrati och öppen källkod verktyg för kollektiv intelligens i en tid av global demokrati.'
+  index:
+    hero:
+      heading: 'Fri öppen källkod deltagandedemokrati för städer och organisationer'
+      subheading: 'Decidim är en digital plattform<br/>för medborgare delaktighet'
+      intro: 'Fri och säker teknik.<br/>Med alla demokratiska garantier.<br/>Omprogrammering av demokrati är nu möjligt med Decidim.'
+    video:
+      play: 'Spela upp video'
+      url: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
+      close: 'Stäng video'
+    subhero:
+      intro: 'Decidim hjälper medborgare, organisationer och offentliga institutioner att organisera sig demokratiskt i alla skalor.'
+      feature1: 'Strategisk<br/>planering'
+      feature2: 'Deltagare<br/>budgetering'
+      feature3: 'Initiativ och<br/>medborgare samråd'
+      feature4: 'Deltagande<br/>processer'
+      feature5: 'Grupper'
+      feature6: 'Nätverk<br/>kommunikation'
+    used_by:
+      title: 'De använder redan Decidim'
+      cta: 'Se alla'
+    cta:
+      title: 'börja använda Decidim idag'
+    button:
+      code: 'Kod på Github'
+  footer:
+    driven_by: 'Arrangör'
+    attribution: '- Creative Commons By-SA'
+    feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/se/European-funds'
+  demo:
+    title: Demo online
+    p1: Spela runt och utforska fritt Decidim plattform med vår online-demo.
+    p2: Decidim är igång på flera instanser som du kan besöka och utforska, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> i Barcelona City eller så kan du besöka platserna <a href="https://participa.gavaciutat.cat/" target="_blank">Gava<unk></a> och <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. Men detta är verkliga instanser där man inte riktigt kan leka fritt, som du kanske inte är medborgare i dessa kommuner, och du kan inte utforska dessa platser som administratör.
+    p3: Om du vill gå vidare är du välkommen att testa Decidim på vår Decidim Demo Site (artighet av våra utvecklare på <a href="http://alabs.org" target="_blank">aLabs</a>). Gå in på demosidan och utforska fritt potentialen i Decidim och dess funktioner.
+    p4: Du kan logga in som <strong>Admin</strong> (användarnamn "<strong>admin@example.org</strong>" och lösenord "<strong>decidim123456</strong>").
+    button: Demo online
+  community:
+    title: 'Metadecidim, vår gemenskap'
+    subtitle: 'En demokratisk gemenskap som förvaltar Decidim projektet i alla dess dimensioner'
+    intro: 'Metadecidim är en gemenskap som samarbetar i utformningen av plattformen och byggandet av projektet. Tillsammans kan vi utforma och utveckla nya funktioner och rapportera buggar för kontinuerlig förbättring av plattformen.'
+    cta: 'Kom igång'
+    features:
+      title: 'Föreslå nya funktioner'
+      subtitle: 'Att designa och utveckla Decidim bland alla'
+      text: 'Du kan skapa debatter om framtiden för Decidim eller föreslå nya funktioner eller förbättringar. Förslag kan få stöd och kommentarer för att visa till exempel det intresse de väcker för samhället och värderar deras utveckling. Förslag som har en sponsor (t.ex. ett kommunfullmäktige eller någon annan enhet), Ansvaret för att söka och tillhandahålla de resurser som krävs för att genomföra deras utveckling kommer att vara till nytta för projektet.'
+      cta: 'Ange och delta nu'
+    bug:
+      title: 'Rapportera en bugg'
+      subtitle: 'Samarbete för progressiv förbättring'
+      text: 'Varje ny utgåva av Decidim innehåller nya funktioner och förbättringar användbarhet, men inte allt fungerar först och fel kan dyka upp. Här kan du rapportera fel du hittar och hjälpa utvecklarna att fixa dem snabbt.'
+      cta: 'Ange och delta nu'
+    img_alt: 'Decidim Community Photo at Metadecidim Meeting 2016'
+    timeline:
+      title: 'Samarbetande design av funktioner'
+      step1:
+        title: 'Nytt förslag'
+        text: 'Funktionell beskrivning'
+      step2:
+        title: 'Validerat förslag'
+        text: 'Teknisk och teknopolitisk validering'
+      step3:
+        title: 'Planerat förslag'
+        text: 'Resurser för utveckling (delade eller inte)'
+      step4:
+        title: 'Ärende'
+        text: 'Teknisk beskrivning'
+      step5:
+        title: 'Dra begäran'
+        text: 'Utvecklad kod'
+      step6:
+        title: 'Funcionality gjort'
+        text: 'Kan användas på nästa version'
+  contact:
+    title: Kontakta oss
+    bot_field: "Fyll inte ut detta om du är människa:"
+    name: Namn
+    entity: Enhet
+    email: E-post
+    message: Meddelande
+    send: Skicka
+  thanks:
+    title: Tack för din e-post
+    message: Tack för att du kontaktar oss, vi återkommer till dig snart.
+  features:
+    title: 'Funktioner'
+    intro: '<p>Du kan använda Decidim i en offentlig eller privat organisation, med hundratals eller tusentals potentiella deltagare, till exempel ett kommunfullmäktige, en förening, ett universitet, en frivilligorganisation, ett fackförbund, ett grannkollektiv, eller ett kooperativ...</p><p>Tack vare Decidim kommer du att kunna konfigurera mellanslag för deltagande (initiativ, församlingar, processer eller konsultationer) och berika dem genom flera tillgängliga komponenter (ansikte mot ansikte möten, undersökningar, förslag, röstning, uppföljning av resultat, kommentarer och många fler).</p>'
+    list:
+      n1:
+        title: 'Deltagande<br/>budgetar'
+        content: 'Den analyserar de framlagda förslagen och främjar ett nytt sätt att fördela gemensamma resurser.'
+      n2:
+        title: 'Medborgarinitiativ<br/>och samråd'
+        content: 'Förstärk din gemenskap genom medborgarinitiativ. Främja relevant röstning genom samråd.'
+      n3:
+        title: 'Makten<br/>i ett politiskt nätverk'
+        content: 'Det krävs överläggningar, samarbete och beslut till en massiv dimension, med tusentals människor som deltar i realtid.'
+      n4:
+        title: 'Ett demokratiskt<br/>och flexibelt system'
+        content: 'Tack vare sin modulära arkitektur och skalbara logik kan du konfigurera ett kraftfullt system för demokratisk styrning i alla typer av organisationer.'
+      n5:
+        title: 'Vi tar demokratin<br/>mycket seriöst'
+        content: 'Decidim garanterar transparens, spårbarhet och integritet av information som aldrig förr. Det ger säkerhet, integritet och sekretess till alla deltagare.'
+      n6:
+        title: "Det är din.<br/>Dela det. Förbättra det."
+        content: 'En plattform designad helt med fri programvara, öppet och samarbetande innehåll tack vare communityn Metadecidim.'
+      cta:
+        features: 'Se alla funktioner'
+        values: 'Gå till socialt kontrakt'
+    page:
+      feature1:
+        title: 'Dialoger'
+        subtitle: 'att demokratisera gemensamma frågor, steg för steg'
+        text: >-
+          Processer är ett utrymme som gör det möjligt att skapa, aktivera/inaktivera och hantera olika deltagarprocesser. Dessa skiljer sig från andra utrymmen genom att vara strukturerade i olika faser där alla komponenter kan införlivas. Exempel på deltagandeprocesser är: en valprocess för medlemmar i en kommitté, deltagande budgetering, en strategisk planeringsprocess, samverkande skrivning av en förordning eller norm, utformning av ett stadsrum eller utformning av en offentlig politisk plan.
+      feature2:
+        title: 'Grupper'
+        subtitle: 'kraften i kollektiv självorganisering'
+        text: >-
+          Är ett utrymme som erbjuder möjligheten att inrätta beslutande organ eller grupper (råd, arbetsgrupper, kommittéer etc. som träffas med jämna mellanrum, beskriver deras sammansättning, notering och geolocating deras möten, och tillåta att delta i dem (till exempel: delta om sittande kapacitet och karaktär av monteringen så tillåter, lägga till punkter på dagordningen, eller kommentera de förslag och beslut som fattats av detta organ).
+      feature3:
+        title: 'Samråd'
+        subtitle: 'rätten att fatta beslut med alla demokratiska garantier'
+        text: >-
+          Samråd är ett utrymme som gör det möjligt att samordna folkomröstningar, utlösa diskussioner och debatter, få omröstningsresultat publicerade, den kan anslutas till ett säkert e-röstningssystem.
+      feature4:
+        title: 'Initiativ'
+        subtitle: "fastställa allas dagordning, inom allas räckvidd"
+        text: >-
+          Initiativ är ett utrymme som gör det möjligt för deltagarna att samarbeta skapa initiativ, definiera deras bana och mål, samla stöd, diskutera, debattera och sprida initiativ och definiera mötesplatser där underskrifter kan samlas in från deltagare eller debatter som öppnas för andra medlemmar i organisationen.
+      feature5:
+        title: 'Förslag'
+        subtitle: 'dina idéer i detalj'
+        text: >-
+          Komponenten förslag gör det möjligt för användaren att skapa ett förslag med hjälp av en skaparguide, jämföra det med de befintliga, publicera den på plattformen och inkludera ytterligare information såsom geolocation eller bifogade dokument och bilder. Denna komponent låter dig också navigera, filtrera och interagera med en uppsättning förslag. Dessutom kan du med den förslags-inkubator skapa samarbetsförslag.
+      feature6:
+        title: 'Omröstning'
+        subtitle: 'bestäm din röst'
+        text: >-
+          Röstkomponenten ger organisationer möjlighet att aktivera olika röstnings- eller stödsystem kring förslag: obegränsat, begränsat till en given tröskel, viktad, kostnadsbaserad, etc.
+      feature7:
+        title: 'Resultat'
+        subtitle: 'inget förslag utan svar'
+        text: >-
+          Resultatkomponenten används för att omvandla förslag till resultat och ge officiella svar på deras godkännande eller avslag. slå samman olika förslag till ett enda resultat.
+      feature8:
+        title: 'Ansvarsskyldighet'
+        subtitle: 'transparens från början till slut'
+        text: >-
+          Ansvarskomponenten ger möjlighet att dela in resultat i projekt, definiera och tillämpa framstegsstatus kring genomförandet, samt visa omfattningen av resultatens genomförande grupperat efter kategorier och omfattning.
+      feature9:
+        title: 'Möten'
+        subtitle: 'att träffas och inte missa något'
+        text: >-
+          Möteskomponenten ger organisationer och deltagare möjlighet att sammankalla möten, bestämma var de befinner sig och tid, registrera och begränsa deltagare, definiera strukturen och innehållet i mötet samt publicera protokollen och de resulterande förslagen.
+      feature10:
+        title: 'Deltagartexter'
+        subtitle: 'att analysera, syntetisera och bygga gemensamt'
+        text: >-
+          Komponent för deltagande texter kan användas för att omvandla långa textdokument till olika förslag eller resultat och, vice versa, att komponera och visa en enhetlig text baserad på en samling förslag eller resultat.
+      feature11:
+        title: 'Konferens'
+        subtitle: 'Där stora evenemang har premiär'
+        text: >-
+          Konferenskomponenten gör det möjligt för en organisation att skapa en webbplats för ett stort evenemang genom att gå med i en serie fördefinierade möten (chattar, workshops etc. , sätta ihop ett enhetligt program och hantera deltagare.
+      feature12:
+        title: 'Undersökningar'
+        subtitle: 'Eftersom åsikten i din gemenskap är viktig'
+        text: >-
+          Enkäternas komponent kan användas för att utforma och publicera enkäter samt för att visa och ladda ner resultaten.
+      feature13:
+        title: 'Tilldelning'
+        subtitle: 'Jämlikhet och rättvisa slumpmässighet'
+        text: >-
+          Tilldelningskomponenten gör det möjligt att välja ett antal förslag (t.ex. kandidater för en jury) med slumpmässiga, men reproducerbara, förfaranden som garanterar icke-partisk och enhetlig fördelning.
+      feature14:
+        title: 'Kommentarer'
+        subtitle: 'Att bygga en kollektiv intelligens'
+        text: >-
+          Komponenten kommentarer gör det möjligt för användare att lägga till kommentarer, för att identifiera kommentaren som favorit, mot eller neutralt i förhållande till det kommenterade objektet, att rösta kommentarer, svara på dem och att få meddelanden om svar.
+      feature15:
+        title: 'Sidor och bloggar'
+        subtitle: 'Din gemenskap, informerad och uppdaterad'
+        text: >-
+          Sidornas komponent används för att skapa informativa sidor med textformatering, inbäddade bilder och videor. Bloggen komponenten gör det möjligt att skapa inlägg eller nyheter, och att navigera dem kronologiskt.
+      feature16:
+        title: 'Notiser'
+        subtitle: 'Personlig information om intressant innehåll'
+        text: >-
+          Decidim gör att du kan spåra utrymme eller komponent för att få uppdateringar varje gång de inträffar.
+      feature17:
+        title: 'Nyhetsbrev'
+        subtitle: 'Enkel men kraftfull'
+        text: >-
+          Nyhetsbrevet komponenten gör det möjligt att skicka e-post till alla registrerade i plattformen eller, mer selektivt, till dem som deltar i ett visst utrymme.
+    type1:
+      title: 'Utrymmen för deltagande'
+      subtitle: 'För deltagare att göra förslag och fatta beslut'
+    type2:
+      title: 'Komponenter'
+      subtitle: 'För deltagare och utrymmen att interagera'
+    other:
+      subtitle: 'Våga kombinera komponenterna. Designa och implementera ett kraftfullt demokratiskt system på ett enkelt sätt och anpassa det till organisationens behov'
+    cta:
+      title: 'Upptäck hur Decidim fungerar på djupet'
+      button: 'Funktioner och funktioner'
+  partners:
+    notice: De samarbetande enheternas logotyper är immateriella rättigheter för respektive upphovsrättsinnehavare. De faller inte under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA-licensen</a> resten av webbplatsens innehåll är licensierade med.
+  modules:
+    type:
+      community: Gemenskap
+      auth: Tillstånd
+      official: Officiell
+  used_by:
+    explain: Dessa städer, regioner och organisationer använder redan Decidim
+    type:
+      city: Städer
+      region: Regioner
+      organizations: Organisationer
+  testimonials:
+    n1:
+      quote: >-
+        Tack vare Decidim har vi i Barcelona tillsammans med medborgarna lyckats producera en strategisk stadsplan. Under 2016 invigde vi den kommunala handlingsplanen i form av en deltagande process genom Decidim Barcelona. För närvarande omfattar denna plan nästan 7 tusen förslag medborgare. En av fördelarna med att använda denna plattform är att man hela tiden kan övervaka genomförandet av de godkända förslagen.
+      org: Stadshuset i Barcelona (2015-2019)
+    n2:
+      quote: >-
+        Med genomförandet av Decidim i Som Energia har vi genererat ett vänligare utrymme för deltagande. Vi släppte verktyget 2018, värd för generalförsamlingen av kooperativa och månader senare debatterade vi Image Redesign och samarbete utveckling av School of Som Energia, bland annat deltagande processer. På några månader har mer än 3500 deltagare anmält sig, 5 deltagarprocesser, 3 församlingar och mer än 1300 röster i den senaste generalförsamlingens omröstning.
+      org: Som Energia
+    n3:
+      quote: >-
+        Den Decide Me<unk> rida digital plattform var en möjlighet som öppnades som aldrig tidigare de mekanismer för medborgare deltagande för utarbetandet av den kommunala utvecklingsplanen för Me<unk> rida 2018-2021. Vi hade mer än 3000 medborgare interaktioner inklusive förslag, kommentarer, förslag och stöd för att uppnå högsta möjliga konsensus om vad som är bäst för vår stad. Utan tvekan kommer Decide Me<unk> rida plattformen fortsätta att vara vår bundsförvant för att göra Me<unk> rida till ett samhälle som blir alltmer delaktigt.
+      org: Kommunal president i Me<unk> rida Yucata<unk> n, Mexiko. Kommunfullmäktige i Me<unk> rida Yucata<unk> n, Mexiko
+    n4:
+      quote: >-
+        Vad vi uppskattar är att den är byggd med demokrati i åtanke och därför är demokratin ett stort fokus. Demokratiska principer som ansvarsskyldighet, jämlikhet och öppenhet är centrala i utformningen.
+      org: Helsingfors stad
+    n5:
+      quote: >-
+        Nästan varje deltagarprocess som har kommit till vårt bord har vi kunnat lösa den med hjälp av Decidids affärsregler. Som ett verktyg är det en mycket stark sådan. Men den del som verkar starkast och viktigast för oss är dess gemenskap, både utvecklare och de som använder den för deltagandeprocesser. Samexistens med dem har fått oss att inse de utmaningar som är förknippade med genomförandet av deltagandedemokrati i verkligheten.
+      org: Öppen regering i Mexico City
+  faqs:
+    title: Vanliga frågor
+    q01:
+      question: Vad är Decidim?
+      answer: >-
+        Decidim är en fri öppen källkod-plattform för deltagande demokrati för städer och organisationer. Men Decidim är mer än en digital plattform: det är en vanlig fri och öppen projekt och infrastruktur som involverar kod, dokumentation, design, utbildningskurser, en rättslig ram, samverkansgränssnitt, användar- och underlättandegemenskaper samt en gemensam vision.
+    q02:
+      question: Vem använder Decidim?
+      answer: >-
+        Den används för närvarande av städer och organisationer. I själva verket kan vilken grupp av människor som helst använda den, oavsett om det är en frivilligorganisation, universitet, fackföreningar, kooperativ, grannskapsförening, etc. Kontrollera [komplett lista över aktiva instanser](/usedby/).
+    q03:
+      question: Vad kan en Decidim administratör göra?
+      answer: >-
+        Konfigurera enkelt deltagarprocesser Vill du göra en strategisk plan? Eller diskutera nya bestämmelser? Eller diskutera ett nytt torg eller en offentlig byggnad för att uppnå det gemensamma bästa? Tack vare Decidim kommer du att kunna konfigurera deltagarutrymmen (initiativ, församlingar, processer eller konsultationer) och berika dem genom flera tillgängliga komponenter (ansikte mot ansikte möten, undersökningar, förslag, röstning, uppföljning av resultat, kommentarer och många fler).
+    q04:
+      question: Vad kan en deltagare (användare) av Decidim göra?
+      answer: >-
+        Decidim gör det möjligt för tusentals människor att organisera sig demokratiskt genom att lägga fram förslag, delta i offentliga möten, främja beslutsfattande diskussioner, besluta genom olika former av röstning och övervaka genomförandet av beslut.
+    q05:
+      question: Har du en Demo? Jag vill använda Decidim nu, utan att installera den, för att se hur det fungerar.
+      answer: 'Ja, vi har en [online demo](/demo).'
+    q06:
+      question: Hur ofta uppdateras plattformen?
+      answer: >-
+        Vi släpper en ny version ungefär varje månad. Se [rekordet av versioner](https://github.com/decidim/decidim/releases).
+    q07:
+      question: Vad behöver jag för att installera Decidim?
+      answer: >-
+        Det är enkelt att installera Decidim men du behöver lite kunskap och tekniska krav. Se [dokumentationen för installation av Decidim](https://docs.decidim.org/en/install/).
+    q08:
+      question: Var hittar jag projektets färdplan och de planerade funktionerna?
+      answer: Du hittar [färdplanen för nya funktioner i projektet på GitHub] (https://github.com/decidim/decidim/projects/16).
+    q09:
+      question: 'Vad betyder det att Decidim är gratis, "libre" och öppen källkod?'
+      answer: >-
+        Decidim är en plattform för medborgarnas deltagande som skapats av folket och för människorna. Dess källkod är öppen och kan inspekteras, modifieras och förbättras av vem som helst. Decidim mjukvaran omfattas av [AGPL licensen](https://en. ikipedia.org/wiki/GNU_Affero_General_Public_License). Det betyder att du kan använda den, modifiera och distribuera härledda versioner av den så länge du respekterar AGPL-licensen.
+    q10:
+      question: >-
+        Jag har idéer för nya förbättringar. Jag vill ha en bättre förståelse för projektet. Vad kan jag göra?
+      answer:
+    q11:
+      question: Jag har många tvivel, av alla slag ... var kan jag fråga dem eller lösa dem?
+      answer: >-
+        Det bästa sättet att lösa dina tvivel snabbt är genom Metadecidim gemenskapen. Ange nu i processen [Support Forum](https://meta.decidim. rg/processes/supportforum?locale=en) och se om din fråga finns eller om den har besvarats och annars matas in för att ställa frågor. Om du inte kan lösa ditt problem i detta utrymme, kanske är det dags att kontakta oss via [kontaktformuläret](/contact).
+    q12:
+      question: Finns det någon handledning för att börja ställa in den?
+      answer: >-
+        Du kan kontrollera den senaste versionen av vår administratörshandbok i avsnittet [Dokumentation (https://docs.decidim.org).
+    q13:
+      question: Vad är det sociala kontraktet?
+      answer: >-
+        Det är så vi kallar vår Code of Democratic Guarantees och Democratic Collaboration. Alla medlemmar i gemenskapen måste stödja [det sociala kontraktet](http://decidim.org/contract).
+    q14:
+      question: Vilka är skillnaderna med Consul Project / Bestäm Madrid?
+      answer: >-
+        Det finns många skillnader: funktioner, flexibilitet, arkitektur, modularitet, etc. Vi har [publicerat ett inlägg](/blog/en/2019-01-14-consul-comparison/) för att försöka besvara denna fråga.
+    q15:
+      question: Vad är Metadecidim gemenskapen?
+      answer: >-
+        [Metadecidim](http://meta.decidim.org) är den gemenskap av Decidim som samarbetar i utformningen av plattformen och byggandet av Decidim projektet. Vi träffas regelbundet genom [SOM (Metadecidim Operative Sessions)](https://meta.decidim. rg/assemblies/eix-comunitat?locale=es) och [LAB Research Seminars](https://meta.decidim.org/assemblies/eix-lab). Gå till [meta.decidim.org](http://meta.decidim.org) för att följa samtalen noga och om du vill gå med i communityn. Vi vill gärna ;-)
+    q16:
+      question: Kan jag gå med i Metadecidim samhället även om jag inte bor i Barcelona?
+      answer: >-
+        Decidim är ett projekt som föddes i Barcelona och det är därför det finns en stark territoriell förbindelse med denna stad. Men ja, du kan samarbeta online, genom deltagarprocesser, debatter etc. .... som vi tillhandahåller i Metadecidim. Även om du kanske vill komma till Barcelona någon gång :)
+    q17:
+      question: Vi vill ingå ett formellt samarbetsavtal. Finns det några mallar vi kan använda?
+      answer: Ja, vi har mallar för att formalisera samarbetsavtal. [Kontakta oss](/contact).
+    q18:
+      question: Vilken typ av medlemmar accepterar du i Metadecidim community?
+      answer: Alla som har god tro och en korrekt inställning till demokratiskt samarbete.
+    q19:
+      question: Har du gratis installation till ideella organisationer?
+      answer: >-
+        Ja, bara om du är en Barcelona baserad organisation. Skicka ett meddelande till oss så kommer ni att få hjälp av direktoratet för forskning, Utveckling och innovation av området för medborgarrätt, delaktighet och öppenhet i Barcelona stadsfullmäktige.
+    q20:
+      question: Stödjer du institutioner?
+      answer: >-
+        Ja, men du måste ha tålamod. Det finns många institutioner som vill använda Decidim just nu och vi hjälper dem steg för steg. [Kontakta oss](/contact) för alla frågor så svarar vi dig så snart som möjligt.
+    q21:
+      question: Vad är Decidim Association?
+      answer: >-
+        "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) är en demokratisk förening för styrningen av Decidim gemenskapen.
+    q22:
+      question: Hur kan jag få mer information om Decidim Association?
+      answer: >-
+        I [generalförsamlingen av Decidim Association](https://meta.decidim. rg/assemblies/general-assembly-association) Du kan hitta mer information abous oss, följa aktiviteten på mötena och kontrollera relevant information (stadgar, juridiska avtal, interna bestämmelser)
+    q23:
+      question: Hur kan jag bli medlem i Decidim Association?
+      answer: >-
+        Nu kan de personer som är involverade i projektet vara partners. [Här förklarar vi i detalj hur du måste göra det](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+    q24:
+      question: När föddes Decidim Association?
+      answer: >-
+        Associacio<unk> [Decidim är grundat den 16 februari 2019 i en extraordinär församling av samhället](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), med godkännande av organisationens stadgar.
