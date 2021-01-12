@@ -11,10 +11,10 @@ fr:
       title: 'Documentation'
       path: 'https://docs.decidim.org/'
     blog: 'Actualités'
-    features: 'Fonctions'
+    features: 'Fonctionnalités'
     faqs: 'Foire aux questions'
     contact: 'Contact'
-    used_by: 'Décidim utilisé'
+    used_by: 'Cas d''usages'
     partners: 'Entités coopératives'
     modules: 'Modules'
     press: 'Presse'
@@ -106,7 +106,7 @@ fr:
     title: Merci pour votre e-mail
     message: Merci de nous contacter, nous vous répondrons sous peu.
   features:
-    title: 'Fonctions'
+    title: 'Fonctionnalités'
     intro: '<p>Vous pouvez utiliser Decidim dans une organisation publique ou privée, avec des centaines ou des milliers de participants potentiels. comme un conseil municipal, une association, une université, une ONG, un syndicat, un collectif de voisinage ou une coopérative...</p><p>Merci à Decidim vous pourrez configurer les espaces de participation (initiatives, assemblages, les processus ou les consultations) et les enrichir grâce aux multiples composantes disponibles (réunions en face à face, sondages, propositions, votes, suivi des résultats, commentaires et bien d’autres).</p>'
     list:
       n1:
@@ -125,11 +125,11 @@ fr:
         title: 'Nous prenons la démocratie<br/>très au sérieux'
         content: 'Decidim assure la transparence, la traçabilité et l''intégrité de l''information comme jamais auparavant et assure la sécurité et la confidentialité à tous les participants.'
       n6:
-        title: "C'est à vous.<br/>Partagez-le. Améliorez-le."
+        title: "Elle est à vous.<br/>Partagez-la. Améliorez-la."
         content: 'Une plateforme entièrement conçue avec des logiciels libres, des contenus ouverts et collaboratifs grâce à la communauté Metadecidim.'
       cta:
         features: 'Voir toutes les fonctionnalités'
-        values: 'Aller au contrat social'
+        values: 'Lire le contrat social'
     page:
       feature1:
         title: 'Concertations'
@@ -274,18 +274,18 @@ fr:
     q03:
       question: Que peut faire un administrateur Decidim ?
       answer: >-
-        Configurez facilement les processus participatifs Voulez-vous faire un plan stratégique ? Ou discuter de nouvelles règlementations ou discuter d'une nouvelle place ou d'un bâtiment public pour atteindre le bien commun? Grâce à Decidim, vous pourrez configurer des espaces de participation (initiatives, assemblages, les processus ou les consultations) et les enrichir grâce aux multiples composantes disponibles (réunions en face à face, sondages, propositions, votes, suivi des résultats, commentaires et bien d’autres).
+        Configurez facilement les processus participatifs. Voulez-vous faire un plan stratégique ? Discuter de nouvelles règlementations ? Discuter de l'aménagement d'une nouvelle place ou d'un bâtiment public ? Grâce à Decidim, vous pourrez configurer des espaces de participation (initiatives, assemblées, processus ou consultations) et les enrichir grâce aux multiples fonctionnalités disponibles (rencontres, enquêtes, boîtes à idées, votes, suivi des résultats, commentaires et bien d’autres).
     q04:
       question: Que peut faire un utilisateur de Decidim ?
       answer: >-
-        Decidim permet à des milliers de personnes de s'organiser démocratiquement en faisant des propositions, en participant à des réunions publiques, encourager les discussions décisionnelles, décider par le biais de différentes formes de vote et surveiller la mise en œuvre des décisions.
+        Decidim permet à des milliers de personnes de s'organiser démocratiquement en faisant des propositions, en participant à des réunions publiques, en favorisant les prises de décision, en décidant par le biais de différentes formes de vote et en contrôlant la mise en œuvre des décisions.
     q05:
       question: Vous avez une démo ? Je veux utiliser Decidim maintenant, sans l'installer, pour voir comment cela fonctionne.
       answer: 'Oui, nous avons une [démo en ligne](/demo).'
     q06:
       question: À quelle fréquence la plateforme est-elle mise à jour ?
       answer: >-
-        Nous publions une nouvelle version environ chaque mois. Voir [l'enregistrement des versions](https://github.com/decidim/decidim/releases).
+        Nous publions une nouvelle version environ chaque mois. Voir [l'historique des versions](https://github.com/decidim/decidim/releases).
     q07:
       question: Que dois-je faire pour installer Decidim?
       answer: >-
@@ -294,19 +294,19 @@ fr:
       question: Où puis-je trouver la feuille de route du projet et les fonctionnalités prévues?
       answer: Vous pouvez trouver la [feuille de route des nouvelles fonctionnalités du projet sur GitHub](https://github.com/decidim/decidim/projects/16).
     q09:
-      question: 'Qu''est-ce que cela signifie que Decidim est gratuit, "libre" et open source?'
+      question: 'Qu''est-ce que cela signifie que Decidim soit gratuit, "libre" et open source?'
       answer: >-
-        Decidim est une plate-forme pour la participation citoyenne faite par le peuple et pour les personnes. Son code source est ouvert et peut être inspecté, modifié et amélioré par n'importe qui. Le logiciel Decidim est couvert par la [licence AGPL](https://en. ikipedia.org/wiki/GNU_Affero_General_Public_License). Cela signifie que vous pouvez l'utiliser, le modifier et redistribuer les versions dérivées de celui-ci tant que vous respectez la licence AGPL.
+        Decidim est une plate-forme pour la participation citoyenne faite par le peuple et pour le peuple. Son code source est ouvert et peut être inspecté, modifié et amélioré par n'importe qui. Le logiciel Decidim est couvert par la [licence AGPL](https://en. ikipedia.org/wiki/GNU_Affero_General_Public_License). Cela signifie que vous pouvez l'utiliser, le modifier et redistribuer les versions dérivées de celui-ci tant que vous respectez la licence AGPL.
     q10:
       question: >-
         J'ai des idées pour de nouvelles fonctionnalités d'amélioration. Je veux avoir une meilleure compréhension du projet. Que puis-je faire?
       answer:
     q11:
-      question: J'ai de nombreux doutes, de toutes sortes... où puis-je les poser ou les résoudre?
+      question: J'ai de nombreuses questions, de toutes sortes... où puis-je les poser ou les résoudre ?
       answer: >-
-        La meilleure façon de résoudre vos doutes rapidement est de passer par la communauté Metadecidim. Entrez maintenant dans le processus [Forum de support](https://meta.decidim. rg/processes/supportforum?locale=en) et vérifiez si votre question existe ou si elle a reçu une réponse et entrez pour poser des questions. Si vous ne pouvez pas résoudre votre problème dans cet espace, il est peut-être temps de nous contacter via le [formulaire de contact](/contact).
+        La meilleure façon de résoudre vos questions rapidement est de passer par la communauté Metadecidim. Consultez le processus [Forum de support](https://meta.decidim.org/processes/supportforum?locale=en) et vérifiez si votre question existe ou si elle a reçu une réponse, sinon posez vos propres questions. Si vous ne pouvez pas résoudre votre problème dans cet espace, il est peut-être temps de nous contacter via le [formulaire de contact](/contact).
     q12:
-      question: Y a-t-il un tutoriel pour commencer à le configurer ?
+      question: Y a-t-il un tutoriel pour commencer à configurer le logiciel ?
       answer: >-
         Vous pouvez consulter la dernière version de notre manuel d'administration dans la [section Documentation](https://docs.decidim.org).
     q13:
@@ -314,29 +314,29 @@ fr:
       answer: >-
         C'est ainsi que nous appelons notre Code de Garanties Démocratiques et la Collaboration Démocratique. Tous les membres de la communauté doivent approuver le [Contrat Social](http://decidim.org/contract).
     q14:
-      question: Quelles sont les différences avec le Consul Project / Décide Madrid?
+      question: Quelles sont les différences avec le projet Consul / Décide Madrid ?
       answer: >-
         Il y a de nombreuses différences : fonctionnalités, flexibilité, architecture, modularité, etc. Nous avons [publié un post](/blog/fr/2019-01-14-consul-comparison/) pour essayer de répondre à cette question.
     q15:
       question: Qu'est-ce que la communauté Metadecidim ?
       answer: >-
-        [Metadecidim](http://meta.decidim.org) est la communauté de Decidim qui collabore à la conception de la plate-forme et à la construction du projet Decidim. Nous nous rencontrons régulièrement à travers les [SOM (Metadecidim Operative Sessions)](https://meta.decidim. rg/assemblies/eix-comunitat?locale=es) et les [séminaires de recherche LAB](https://meta.decidim.org/assemblies/eix-lab). Allez sur [meta.decidim.org](http://meta.decidim.org) pour suivre les appels de près et si vous voulez rejoindre la communauté. Nous aimerions ;-)
+        [Metadecidim](http://meta.decidim.org) est la communauté de Decidim qui collabore à la conception de la plate-forme et à la construction du projet Decidim. Nous nous rencontrons régulièrement à travers les [SOM (Metadecidim Operative Sessions)](https://meta.decidim.org/assemblies/eix-comunitat?locale=es) et les [séminaires de recherche LAB](https://meta.decidim.org/assemblies/eix-lab). Allez sur [meta.decidim.org](http://meta.decidim.org) pour suivre les appels de près et si vous voulez rejoindre la communauté. Nous aimerions ;-)
     q16:
       question: Puis-je rejoindre la communauté Metadecidim même si je ne vis pas à Barcelone ?
       answer: >-
-        Decidim est un projet qui est né à Barcelone et c'est pourquoi il y a un lien territorial fort avec cette ville. Mais oui, vous pouvez collaborer en ligne, à travers des processus de participation, des débats, etc .... que nous fournissons dans Metadecidim. Bien que vous pourriez vouloir venir à Barcelone quelque temps :)
+        Decidim est un projet qui est né à Barcelone et c'est pourquoi il y a un lien territorial fort avec cette ville. Mais oui, vous pouvez collaborer en ligne, à travers des processus de participation, des débats, etc .... que nous fournissons dans Metadecidim. Bien que vous pourriez vouloir venir à Barcelone un jour :)
     q17:
       question: Nous voulons conclure un accord de collaboration formel, y a-t-il des modèles que nous pouvons utiliser?
       answer: Oui, nous avons des modèles pour formaliser les accords de collaboration. [Veuillez nous contacter](/contact).
     q18:
       question: Quel type de membres vous acceptez dans la communauté Metadecidim ?
-      answer: Quiconque a de bonne foi et une attitude correcte vis-à-vis de la collaboration démocratique.
+      answer: Toute personne de bonne foi et ayant une attitude correcte à l'égard de la collaboration démocratique.
     q19:
       question: Offrez-vous une installation gratuite aux organismes sans but lucratif?
       answer: >-
         Oui, seulement si vous êtes une organisation basée à Barcelone. Envoyez-nous un message et vous serez aidé par la Direction de la Recherche, Développement et innovation de l'espace des droits de la citoyenneté, de la participation et de la transparence de la Mairie de Barcelone.
     q20:
-      question: Soutenez vous les institutions ?
+      question: Aidez-vous les institutions ?
       answer: >-
         Oui, mais vous devez être patient. De nombreuses institutions veulent utiliser Decidim dès maintenant et nous les aidons pas à pas. [Contactez-nous](/contact) pour toute question et nous vous répondrons dans les plus brefs délais.
     q21:
@@ -346,7 +346,7 @@ fr:
     q22:
       question: Comment puis-je obtenir plus d'informations sur l'Association Decidim ?
       answer: >-
-        Dans l'[assemblée générale de l'Association Decidim](https://meta.decidim. rg/assemblies/association générale-assemblée) vous pouvez trouver plus d'infos, suivre l'activité des réunions et vérifier les informations pertinentes (statuts, accords juridiques, règlements internes)
+        Dans l'[assemblée générale de l'Association Decidim](https://meta.decidim.org/assemblies/association générale-assemblée) vous pouvez trouver plus d'infos, suivre l'activité des réunions et vérifier les informations pertinentes (statuts, accords juridiques, règlements internes)
     q23:
       question: Comment puis-je devenir membre de l'Association Decidim ?
       answer: >-
