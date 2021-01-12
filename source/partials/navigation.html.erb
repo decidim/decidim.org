@@ -30,14 +30,10 @@
     </li>
   </ul>
   <ul class="main-nav__lang">
-    <li>
-      <a href="/" aria-label="English">Eng</a>
-    </li>
-    <li>
-      <a href="/es" aria-label="Castellano">Cas</a>
-    </li>
-    <li>
-      <a href="/ca" aria-label="Català">Cat</a>
-    </li>
+    <% data.languages.each do |lang| %>
+      <li role="menuitem">
+        <a href="<%= lang.path %>" aria-label="<%= lang.name %>"><%= lang.short_code %></a>
+      </li>
+    <% end %>
   </ul>
 </nav>
