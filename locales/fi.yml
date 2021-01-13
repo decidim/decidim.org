@@ -111,94 +111,94 @@ fi:
     list:
       n1:
         title: 'Osallistuva<br/>budjetointi'
-        content: 'Siinä analysoidaan esitettyjä ehdotuksia ja edistetään uutta tapaa jakaa yhteisiä resursseja.'
+        content: 'Arvioi esitettyjä ehdotuksia ja mahdollista uudenlainen tapa jakaa yhteisiä resursseja.'
       n2:
-        title: 'Kansalaisten aloitteet<br/>ja kuulemiset'
-        content: 'Yhteiskuntasi valtuuttaminen kansalaisaloitteilla ja asiaa koskevan äänestyksen edistäminen kuulemisten avulla.'
+        title: 'Kansalaisaloitteet<br/>ja kuulemiset'
+        content: 'Vahvista yhteisöäsi kansalaisaloitteilla. Edistä asiaa koskevia äänestyksiä kuulemisten avulla.'
       n3:
-        title: 'Poliittisen verkon valta<br/>'
-        content: 'Se vaatii harkintaa, yhteistyötä ja päätöstä valtavaan ulottuvuuteen, ja tuhannet ihmiset osallistuvat siihen reaaliajassa.'
+        title: 'Poliittisen verkoston<br/>voima'
+        content: 'Vie deliberaatio, yhteistyö ja päätökset uuteen ulottuvuuteen osallistamalla tuhansia ihmisiä reaaliaikaisesti.'
       n4:
-        title: 'Demokraattinen<br/>ja joustava järjestelmä'
-        content: 'Sen modulaarisen arkkitehtuurin ja skaalautuvan logiikan ansiosta voit luoda tehokkaan demokraattisen hallintojärjestelmän kaikenlaisissa organisaatioissa.'
+        title: 'Demokraattinen<br/>ja mukautuva järjestelmä'
+        content: 'Modulaarisen arkkitehtuurin ja skaalatuvan ohjelmakoodin ansiosta voit luoda tehokkaan demokraattisen hallintojärjestelmän kaikenlaisissa organisaatioissa.'
       n5:
-        title: 'Suhtaudumme demokratiaan<br/>hyvin vakavasti'
-        content: 'Desidim varmistaa avoimuuden, jäljitettävyyden ja eheyden kuten ei koskaan ennen. Se tarjoaa turvallisuutta, yksityisyyttä ja luottamuksellisuutta kaikille osallistujille.'
+        title: 'Suhtaudumme demokratiaan<br/>erittäin vakavasti'
+        content: 'Decidim varmistaa ennennäkemättömällä tavalla avoimuuden, jäljitettävyyden ja tiedon eheyden. Se tarjoaa turvallisen, yksityisyyttä kunnioittavan ja luottamuksellisen ympäristön kaikille osallistujille.'
       n6:
-        title: "Se on sinun.<br/>Jaa se. Paranna sitä."
-        content: 'Alusta, joka on suunniteltu täysin vapailla ohjelmistoilla, avoimella ja yhteistoiminnallisella sisällöllä Metadecidimin ansiosta.'
+        title: "Sinun alustasi.<br/>Jaa se. Paranna sitä."
+        content: 'Alusta on suunniteltu täysin vapaiden ohjelmistojen avulla. Metadecidim-yhteisön avulla saat pääsyn myös avoimeen ja yhteisölliseen sisältöön.'
       cta:
         features: 'Näytä kaikki ominaisuudet'
         values: 'Siirry sosiaaliseen sopimukseen'
     page:
       feature1:
-        title: 'Osallisuusprosessit'
-        subtitle: 'yhteisten kysymysten demokratisoiminen askel askeleelta'
+        title: 'Osallistumisprosessit'
+        subtitle: 'Demokratisoi yhteiset asiat, askel askeleelta'
         text: >-
           Prosessit ovat tila, jonka avulla voidaan luoda, aktivoida/deaktivoida ja hallita erilaisia osallisuusprosesseja. Ne erotetaan muista tiloista siten, että ne on rakennettu eri vaiheisiin, joissa kaikki osat voidaan liittää. Esimerkkejä osallistuvista prosesseista ovat komitean jäsenten vaaliprosessi, osallistava budjetointi, strateginen suunnitteluprosessi, asetuksen tai normin yhteistoiminnallinen kirjoittaminen, kaupunkialueen suunnittelu tai julkisen politiikan suunnitelman laatiminen.
       feature2:
         title: 'Ryhmät'
-        subtitle: 'kollektiivisen itseorganisoinnin voima'
+        subtitle: 'Yhteisöllisen itseohjautuvuuden voima'
         text: >-
           On tila, joka tarjoaa mahdollisuuden perustaa päätöksentekoelimiä tai -ryhmiä (neuvostot, työryhmät, komiteat jne. jotka kokoontuvat säännöllisesti, yksityiskohtaisesti niiden kokoonpano, listalle ja geolocating niiden kokouksia, ja mahdollisuus osallistua niihin (esimerkiksi: osallistuminen, jos istumapaikkoja ja kokoonpanon luonne niin sallii, asialistalle lisätään kohtia tai kommentoidaan kyseisen elimen tekemiä ehdotuksia ja päätöksiä).
       feature3:
         title: 'Kuulemiset'
-        subtitle: 'oikeus päättää kaikista demokraattisista takeista'
+        subtitle: 'Oikeus päättää asioista demokraattisella tavalla'
         text: >-
           Kuulemiset ovat tila, joka mahdollistaa kansanäänestysten koordinoinnin, keskustelujen ja keskustelujen käynnistämisen, äänestysten tulosten julkaisemisen. se voidaan liittää turvalliseen sähköiseen äänestysjärjestelmään.
       feature4:
         title: 'Aloitteet'
-        subtitle: "asettamalla kaikkien asialistan kaikkien ulottuville"
+        subtitle: "Mahdollista jokaisen omat tavoitteet kaikkien ulottuville"
         text: >-
           Aloitteet ovat tila, joka antaa osallistujille mahdollisuuden luoda yhdessä aloitteita, määritellä niiden kehityspolut ja tavoitteet, kerätä hyväksyntöjä, keskustella, keskustellaan aloitteista ja levitetään niitä ja määritellään ne kohdat, joissa allekirjoituksia voidaan kerätä osallistujilta tai muille järjestön jäsenille avautuvilta keskusteluilta.
       feature5:
         title: 'Ehdotukset'
-        subtitle: 'ideasi yksityiskohtaisesti'
+        subtitle: 'Ideasi yksityiskohtaisesti'
         text: >-
           Ehdotusten osan avulla käyttäjä voi luoda ehdotuksen käyttäen luontiohjain, verrata sitä olemassa oleviin, julkaista sen alustalla ja sisältää lisätietoja, kuten geolocation tai liitetyt asiakirjat ja kuvat. Tämän komponentin avulla voit myös navigoida, suodattaa ja olla vuorovaikutuksessa ehdotusten kanssa. Lisäksi ehdotus-hautomo voit luoda yhteistyöehdotuksia.
       feature6:
         title: 'Äänestys'
-        subtitle: 'päätä äänesi'
+        subtitle: 'Anna oman äänesi kuulua'
         text: >-
           Äänestyskomponentti tarjoaa organisaatioille mahdollisuuden aktivoida erilaisia äänestys- tai tukijärjestelmiä ehdotusten ympärillä: rajoittamaton, rajattu tiettyyn kynnysarvoon, painotettu, kustannuspohjainen jne.
       feature7:
         title: 'Tulokset'
-        subtitle: 'ei ehdotusta ilman vastausta'
+        subtitle: 'Ei ehdotusta ilman vastausta'
         text: >-
           Tuloksia käytetään ehdotusten muuttamiseen tuloksiksi ja virallisten vastausten antamiseen niiden hyväksymisestä tai hylkäämisestä, eri ehdotusten yhdistäminen yhdeksi tulokseksi.
       feature8:
-        title: 'Tulokset'
-        subtitle: 'avoimuus alusta loppuun'
+        title: 'Vastuullisuus'
+        subtitle: 'Avointa toimintaa alusta loppuun'
         text: >-
           Vastuullisuutta koskeva osa-alue tarjoaa mahdollisuuden jakaa tulokset edelleen hankkeisiin, määritellä ja soveltaa edistymistilannetta niiden täytäntöönpanon osalta, tulosten laajuuden osoittaminen siten, että ne on ryhmitelty kategorioiden ja soveltamisalan mukaan.
       feature9:
         title: 'Tapaamiset'
-        subtitle: 'tavata ja ei missaa mitään'
+        subtitle: 'Tapaa ja pysy kartalla yhteisistä asioista'
         text: >-
           Kokouksen osa tarjoaa organisaatioille ja osallistujille mahdollisuuden kutsua kokouksia, määrittää niiden sijainti ja aika, rekisteröidä ja rajoittaa osallistujia, määritellä kokouksen rakenne ja sisältö sekä julkaista pöytäkirjoja ja niitä koskevia ehdotuksia.
       feature10:
         title: 'Ehdotusaineistot'
-        subtitle: 'analysoida, syntetisoida, ja rakentaa yhteistä'
+        subtitle: 'Analysoi, yhdistä ja luo uutta yhteisön avulla'
         text: >-
           Osallistuvia tekstejä koskevaa osaa voidaan käyttää muuntamaan pitkiä tekstiasiakirjoja erilaisiksi ehdotuksiksi tai tuloksiksi, ja päinvastoin, laatia ja näyttää yhtenäinen teksti, joka perustuu kokoelma ehdotuksia tai tuloksia.
       feature11:
-        title: 'Konferenssi'
-        subtitle: 'Jossa suuret tapahtumat ovat ensi-iltansa'
+        title: 'Konferenssit'
+        subtitle: 'Suuret tapahtumat saavat ensi-iltansa'
         text: >-
-          Konferenssikomponentti mahdollistaa sen, että organisaatio voi luoda verkkosivuston suureen tapahtumaan liittymällä sarjan ennalta määriteltyihin kokouksiin (chatit, työpajat jne. , koota yhtenäinen ohjelma ja hallita osallistujia.
+          Konferenssikomponenttin avulla organisaatio voi luoda verkkosivuston suurille tapahtumille määrittämällä aihealueiden ympärille muodostettavia ennalta määriteltyjä tapaamisia (esitykset, keskustelut, työpajat, jne.). Näistä tapahtumista muodostuu konferenssiohjelma ja osallistujalistat erilaisille tilaisuuksille.
       feature12:
-        title: 'Kyselyä'
-        subtitle: 'Koska mielipide yhteisösi asiat'
+        title: 'Kyselyt'
+        subtitle: 'Yhteisösi mielipiteellä on merkitystä'
         text: >-
           Kyselykokonaisuutta voidaan käyttää kyselyjen suunnitteluun ja julkaisuun sekä niiden tulosten näyttämiseen ja lataamiseen.
       feature13:
-        title: 'Satunnaistaminen'
-        subtitle: 'Tasa-arvo ja sattumanvaraisuuden oikeudenmukaisuus'
+        title: 'Satunnaisvalinta'
+        subtitle: 'Sattumanvaraisuuden mahdollistama tasa-arvoisuus ja oikeudenmukaisuus'
         text: >-
-          Satunnaistamisen komponentin avulla voidaan valita useita ehdotuksia (esim. ehdokkaat, joilla on satunnainen, mutta toistettavissa oleva menettely, joka takaa puolueettoman ja yhdenmukaisen jakautumisen.
+          Satunnaisvalintojen avulla voidaan valita ehdotuksia (esim. lautakunnan ehdokkaista) satunnaisesti toistettavissa olevalla menettelyllä, joka takaa puolueettoman ja yhdenmukaisen lopputuloksen.
       feature14:
         title: 'Kommentit'
-        subtitle: 'Kollektiivisen tiedustelun rakentaminen'
+        subtitle: 'Yhteisöllisen tiedon rakentaminen'
         text: >-
           Kommentointikomponentin avulla käyttäjät voivat lisätä kommentteja, jotta he voivat tunnistaa kommentin eduksi, vastalauseen vastaista tai puolueetonta vastausta vastaan, äänestämään kommentteja, vastaamaan niihin ja vastaanottamaan ilmoituksia vastauksista.
       feature15:
