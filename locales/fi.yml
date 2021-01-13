@@ -66,51 +66,51 @@ fi:
     features:
       title: 'Ehdota uusia ominaisuuksia'
       subtitle: 'Suunnitellaksemme ja kehittääksemme Decidimiä yhteisön kanssa'
-      text: 'Voit luoda keskusteluja dekanidiumin tulevaisuudesta tai ehdottaa uusia ominaisuuksia tai parannuksia. Ehdotukset voivat saada kannatuksia ja kommentteja, joista käy ilmi esimerkiksi kiinnostus yhteisöä kohtaan ja jotka arvostavat niiden kehitystä. Ehdotukset, joissa on sponsori (kuten kaupunginvaltuustossa tai missä tahansa muussa yhteisössä), hankkeelle on hyötyä siitä, että se hakee ja antaa tarvittavat voimavarat kehityksen toteuttamiseksi.'
-      cta: 'Syötä ja osallistu nyt'
+      text: 'Voit luoda keskusteluja Decidimin tulevaisuudesta ja ehdottaa uusia ominaisuuksia tai parannuksia. Ehdotukset voivat kerätä kannatuksia ja niitä voi kommentoida. Näistä käy ilmi ehdotusten keräämä kiinnostus yhteisössä ja kuinka tärkeäksi muut kokevat kyseiset ehdotukset. Ehdotukset, joille on vastuun kantava rahoittaja (kuten kaupunginvaltuusto tai jokin muu yhteisö), joka tarjoaa resurssit kehitykselle, ovat erityisen hyödyllisiä projektille.'
+      cta: 'Liity ja osallistu nyt'
     bug:
       title: 'Ilmoita virheestä'
-      subtitle: 'Yhteistyö progressiivisen parantamisen edistämiseksi'
-      text: 'Jokainen uusi julkaisu Decidim sisältää uusia ominaisuuksia ja käytettävyyttä parannuksia, mutta kaikki toimii aluksi ja virheet voivat ilmetä. Täältä voit raportoida löydetyistä vioista ja auttaa kehittäjiä korjaamaan ne nopeasti.'
-      cta: 'Syötä ja osallistu nyt'
-    img_alt: 'Desidim Community Photo Metadecidim Meeting 2016'
+      subtitle: 'Osallistu yhteisöllisen kehityksen edistämiseksi'
+      text: 'Jokainen uusi Decidim-versio sisältää uusia ominaisuuksia ja käytettävyysparannuksia, mutta kaikki toiminnot eivät välttämättä toimi täydellisesti aluksi ja virheitä voi esiintyä. Täällä voit ilmoittaa ongelmista ja auttaa kehittäjiä korjaamaan ne nopeasti.'
+      cta: 'Liity ja osallistu nyt'
+    img_alt: 'Kuva Decidim-yhteisöstä Metadecidim-tapaamisessa 2016'
     timeline:
-      title: 'Toimintojen yhteistyösuunnittelu'
+      title: 'Yhteisöllinen ominaisuuksien suunnittelu'
       step1:
         title: 'Uusi ehdotus'
-        text: 'Toiminnallinen kuvaus'
+        text: 'Kuvaus toiminnallisuudesta'
       step2:
-        title: 'Vahvistettu ehdotus'
-        text: 'Tekninen ja tekninen validointi'
+        title: 'Hyväksytty ehdotus'
+        text: 'Tekninen ja teknopoliittinen validointi'
       step3:
         title: 'Suunniteltu ehdotus'
-        text: 'Kehitysyhteistyön määrärahat (jaetut tai ei)'
+        text: 'Kehitysyhteistyön resurssit (jaetut tai ei)'
       step4:
-        title: 'Ongelma'
-        text: 'Tekninen kuvaus'
+        title: 'Tekninen työtehtävä'
+        text: 'Tekninen kuvaus ominaisuudesta'
       step5:
-        title: 'Vedä pyyntö'
-        text: 'Kehitetty koodi'
+        title: 'Tekninen kehitys (pull request)'
+        text: 'Ominaisuuden valmiiksi kehitetty koodi'
       step6:
-        title: 'Funcionality done'
-        text: 'Valitavissa seuraavassa versiossa'
+        title: 'Valmis ominaisuus'
+        text: 'Ominaisuus julkaistaan seuraavassa versiossa'
   contact:
     title: Ota yhteyttä
-    bot_field: "Älä täytä tätä, jos olet ihminen:"
+    bot_field: "Älä täytä tätä kenttää, jos olet ihminen:"
     name: Nimi
-    entity: Entiteetti
-    email: Sähköposti
+    entity: Organisaatio
+    email: Sähköpostiosoite
     message: Viesti
     send: Lähetä
   thanks:
-    title: Kiitos sähköpostistasi
-    message: Kiitos yhteydenotosta meihin, tulemme pian takaisin luoksenne.
+    title: Kiitos yhteydenotostasi
+    message: Kiitos yhteydenotostasi. Palaamme asiaan pian.
   features:
     title: 'Ominaisuudet'
-    intro: '<p>Decidim voi käyttää julkisessa tai yksityisessä organisaatiossa, jossa on satoja tai tuhansia potentiaalisia osallistujia, kuten kaupunginvaltuusto, yhdistys, yliopisto, kansalaisjärjestö, ammattiliitto, naapuruston yhteinen järjestö tai osuuskunta...</p><p>Decidim avulla voit määrittää tiloja osallistumiseen (aloitteet, kokoonpanot, prosessit tai kuulemiset) ja rikastuttaa niitä useilla käytettävissä olevilla osa-alueilla (tapaamiset, kyselytutkimukset, ehdotukset, äänestykset, tulosten seuranta ja monet muut).</p>'
+    intro: '<p>Voit käyttää Decidimiä julkisessa tai yksityisessä organisaatiossa, jossa on satoja tai tuhansia potentiaalisia osallistujia. Organisaationa voi toimi esimerkiksi kaupunginvaltuusto, yhdistys, yliopisto, kansalaisjärjestö, ammattiliitto, asukasyhteisö tai osuuskunta...</p><p>Decidimin avulla voit määrittää osallistumistiloja (aloitteet, ryhmät, prosessit tai kuulemiset) ja lisätä niihin useita käytettävissä olevia ominaisuuksia (tapaamiset, kyselyt, ehdotukset, äänestykset, äänestystulosten seuranta, jne.).</p>'
     list:
       n1:
-        title: 'Osallisuusbudjetit<br/>'
+        title: 'Osallistuva<br/>budjetointi'
         content: 'Siinä analysoidaan esitettyjä ehdotuksia ja edistetään uutta tapaa jakaa yhteisiä resursseja.'
       n2:
         title: 'Kansalaisten aloitteet<br/>ja kuulemiset'
