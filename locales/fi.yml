@@ -1,0 +1,358 @@
+fi:
+  path: ''
+  activeLang: 'Suomi'
+  nav:
+    text: 'Navigaatio'
+    demo: 'Demo'
+    community: 'Yhteisö'
+    contract: 'Sosiaalinen sopimus'
+    code: 'Koodi'
+    docs:
+      title: 'Dokumentaatio'
+      path: 'https://docs.decidim.org/'
+    blog: 'Blogi'
+    features: 'Ominaisuudet'
+    faqs: 'UKK'
+    contact: 'Ota yhteyttä'
+    used_by: 'Decidimiä käyttävät organisaatiot'
+    partners: 'Yhteistyökumppanit'
+    modules: 'Moduulit'
+    press: 'Lehdistö'
+  alert:
+    title: 'Decidim Fest 2020 :: Demokratia ja teknologia hätätilanteessa 18., 19. ja 20. marraskuuta'
+    subtitle: 'Liity mukaan'
+    link: https://meta.decidim.org/conferences/decidimfest2020/f/1338/
+    desc: 'DecidimFest on intensiivinen 3 päivän toiminnan täyteinen Decidim-hankkeelle omistettu tapahtuma, kollektiivista osallistuvaa demokratiaa ja avoimen lähdekoodin työkaluja globaalin demokratian aikakaudella.'
+  index:
+    hero:
+      heading: 'Vapaa avoimen lähdekoodin osallistuvan demokratian työkalu kaupungeille ja organisaatioille'
+      subheading: 'Decidim on digitaalinen alusta<br/>osallisuudelle ja kansalaisaktivismille'
+      intro: 'Vapaa ja turvallinen teknologia.<br/>Demokraattisilla takuilla.<br/>Demokratian uudelleenohjelmointi on nyt mahdollista Decidimin avulla.'
+    video:
+      play: 'Toista video'
+      url: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
+      close: 'Sulje video'
+    subhero:
+      intro: 'Decidim auttaa kansalaisia, organisaatioita ja julkisia toimijoita itseohjautumaan demokraattisesti. Alusta mukautuu kaiken kokoisille toimijoille.'
+      feature1: 'Strateginen<br/>suunnittelu'
+      feature2: 'Osallistuva<br/>budjetointi'
+      feature3: 'Aloitteet ja<br/>kansalaisten kuuleminen'
+      feature4: 'Osallistumis<br/>-prosessit'
+      feature5: 'Ryhmät'
+      feature6: 'Sosiaaliset<br/>verkostot'
+    used_by:
+      title: 'He käyttävät jo Decidimiä'
+      cta: 'Näytä kaikki'
+    cta:
+      title: 'Aloita Decidimin käyttö tänään'
+    button:
+      code: 'Koodi GitHubissa'
+  footer:
+    driven_by: 'Tukijat'
+    attribution: '- Creative Commons By-SA'
+    feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/en/european-funds'
+  demo:
+    title: Verkkopohjainen Demo
+    p1: Kokeile ja tutki Decidim-alustaa vapaasti verkkopohjaisen demon avulla.
+    p2: Decidim on käytössä useilla verkkosivustoilla, joilla voit vierailla ja joita voit tutkia vapaasti, kuten Barcelonan kaupungin <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona -alusta</a> tai voit vierailla muiden muassa <a href="https://participa.gavaciutat.cat/" target="_blank">Gavàn</a> ja <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitaletin</a> Decidim-sivustoilla. Näissä julkisissa ympäristöissä et voi kuitenkaan kokeilla asioita niin helposti, mikäli et ole kyseisten kuntien asukas tai hallintakäyttäjä kyseisillä sivustoilla.
+    p3: Jos haluat tutkia tarkemmin, voit kokeilla Decidimin demo-sivustoa (jota ylläpitää <a href="http://alabs.org" target="_blank">aLabs:in</a> kehittäjät). Siirry demo-sivustolle ja tutki vapaasti Decidimin potentiaalia ja sen ominaisuuksia.
+    p4: Voit kirjautua sisään <strong>hallintakäyttäjänä</strong> (käyttäjänimi "<strong>admin@example.org</strong>" ja salasana "<strong>decidim123456</strong>").
+    button: Verkkopohjainen demo
+  community:
+    title: 'Metadecidim-yhteisömme'
+    subtitle: 'Demokraattinen yhteisö, joka hallinnoi Decidim-hanketta sen kaikissa ulottuvuuksissa'
+    intro: 'Metadecidim on yhteisö, joka tekee yhteistyötä alustan suunnittelussa ja projektin kehittämisessä. Yhdessä voimme suunnitella ja kehittää uusia ominaisuuksia sekä raportoida vikoja parantaakseemme alustaa jatkuvasti.'
+    cta: 'Aloita'
+    features:
+      title: 'Ehdota uusia ominaisuuksia'
+      subtitle: 'Suunnitellaksemme ja kehittääksemme Decidimiä yhteisön kanssa'
+      text: 'Voit luoda keskusteluja Decidimin tulevaisuudesta ja ehdottaa uusia ominaisuuksia tai parannuksia. Ehdotukset voivat kerätä kannatuksia ja niitä voi kommentoida. Näistä käy ilmi ehdotusten keräämä kiinnostus yhteisössä ja kuinka tärkeäksi muut kokevat kyseiset ehdotukset. Ehdotukset, joille on vastuun kantava rahoittaja (kuten kaupunginvaltuusto tai jokin muu yhteisö), joka tarjoaa resurssit kehitykselle, ovat erityisen hyödyllisiä projektille.'
+      cta: 'Liity ja osallistu nyt'
+    bug:
+      title: 'Ilmoita virheestä'
+      subtitle: 'Osallistu yhteisöllisen kehityksen edistämiseksi'
+      text: 'Jokainen uusi Decidim-versio sisältää uusia ominaisuuksia ja käytettävyysparannuksia, mutta kaikki toiminnot eivät välttämättä toimi täydellisesti aluksi ja virheitä voi esiintyä. Täällä voit ilmoittaa ongelmista ja auttaa kehittäjiä korjaamaan ne nopeasti.'
+      cta: 'Liity ja osallistu nyt'
+    img_alt: 'Kuva Decidim-yhteisöstä Metadecidim-tapaamisessa 2016'
+    timeline:
+      title: 'Yhteisöllinen ominaisuuksien suunnittelu'
+      step1:
+        title: 'Uusi ehdotus'
+        text: 'Kuvaus toiminnallisuudesta'
+      step2:
+        title: 'Hyväksytty ehdotus'
+        text: 'Tekninen ja teknopoliittinen validointi'
+      step3:
+        title: 'Suunniteltu ehdotus'
+        text: 'Kehitysyhteistyön resurssit (jaetut tai ei)'
+      step4:
+        title: 'Tekninen työtehtävä'
+        text: 'Tekninen kuvaus ominaisuudesta'
+      step5:
+        title: 'Tekninen kehitys (pull request)'
+        text: 'Ominaisuuden valmiiksi kehitetty koodi'
+      step6:
+        title: 'Valmis ominaisuus'
+        text: 'Ominaisuus julkaistaan seuraavassa versiossa'
+  contact:
+    title: Ota yhteyttä
+    bot_field: "Älä täytä tätä kenttää, jos olet ihminen:"
+    name: Nimi
+    entity: Organisaatio
+    email: Sähköpostiosoite
+    message: Viesti
+    send: Lähetä
+  thanks:
+    title: Kiitos yhteydenotostasi
+    message: Kiitos yhteydenotostasi. Palaamme asiaan pian.
+  features:
+    title: 'Ominaisuudet'
+    intro: '<p>Voit käyttää Decidimiä julkisessa tai yksityisessä organisaatiossa, jossa on satoja tai tuhansia potentiaalisia osallistujia. Organisaationa voi toimi esimerkiksi kaupunginvaltuusto, yhdistys, yliopisto, kansalaisjärjestö, ammattiliitto, asukasyhteisö tai osuuskunta...</p><p>Decidimin avulla voit määrittää osallistumistiloja (aloitteet, ryhmät, prosessit tai kuulemiset) ja lisätä niihin useita käytettävissä olevia ominaisuuksia (tapaamiset, kyselyt, ehdotukset, äänestykset, äänestystulosten seuranta, jne.).</p>'
+    list:
+      n1:
+        title: 'Osallistuva<br/>budjetointi'
+        content: 'Arvioi esitettyjä ehdotuksia ja mahdollista uudenlainen tapa jakaa yhteisiä resursseja.'
+      n2:
+        title: 'Kansalaisaloitteet<br/>ja kuulemiset'
+        content: 'Vahvista yhteisöäsi kansalaisaloitteilla. Edistä asiaa koskevia äänestyksiä kuulemisten avulla.'
+      n3:
+        title: 'Poliittisen verkoston<br/>voima'
+        content: 'Vie deliberaatio, yhteistyö ja päätökset uuteen ulottuvuuteen osallistamalla tuhansia ihmisiä reaaliaikaisesti.'
+      n4:
+        title: 'Demokraattinen<br/>ja mukautuva järjestelmä'
+        content: 'Modulaarisen arkkitehtuurin ja skaalatuvan ohjelmakoodin ansiosta voit luoda tehokkaan demokraattisen hallintojärjestelmän kaikenlaisissa organisaatioissa.'
+      n5:
+        title: 'Suhtaudumme demokratiaan<br/>erittäin vakavasti'
+        content: 'Decidim varmistaa ennennäkemättömällä tavalla avoimuuden, jäljitettävyyden ja tiedon eheyden. Se tarjoaa turvallisen, yksityisyyttä kunnioittavan ja luottamuksellisen ympäristön kaikille osallistujille.'
+      n6:
+        title: "Sinun alustasi.<br/>Jaa se. Paranna sitä."
+        content: 'Alusta on suunniteltu täysin vapaiden ohjelmistojen avulla. Metadecidim-yhteisön avulla saat pääsyn myös avoimeen ja yhteisölliseen sisältöön.'
+      cta:
+        features: 'Näytä kaikki ominaisuudet'
+        values: 'Siirry sosiaaliseen sopimukseen'
+    page:
+      feature1:
+        title: 'Osallistumisprosessit'
+        subtitle: 'Demokratisoi yhteiset asiat, askel askeleelta'
+        text: >-
+          Prosessit ovat tila, jonka avulla voidaan luoda, aktivoida/deaktivoida ja hallita erilaisia osallisuusprosesseja. Ne erotetaan muista tiloista siten, että ne on rakennettu eri vaiheisiin, joissa kaikki osat voidaan liittää. Esimerkkejä osallistuvista prosesseista ovat komitean jäsenten vaaliprosessi, osallistava budjetointi, strateginen suunnitteluprosessi, asetuksen tai normin yhteistoiminnallinen kirjoittaminen, kaupunkialueen suunnittelu tai julkisen politiikan suunnitelman laatiminen.
+      feature2:
+        title: 'Ryhmät'
+        subtitle: 'Yhteisöllisen itseohjautuvuuden voima'
+        text: >-
+          On tila, joka tarjoaa mahdollisuuden perustaa päätöksentekoelimiä tai -ryhmiä (neuvostot, työryhmät, komiteat jne. jotka kokoontuvat säännöllisesti, yksityiskohtaisesti niiden kokoonpano, listalle ja geolocating niiden kokouksia, ja mahdollisuus osallistua niihin (esimerkiksi: osallistuminen, jos istumapaikkoja ja kokoonpanon luonne niin sallii, asialistalle lisätään kohtia tai kommentoidaan kyseisen elimen tekemiä ehdotuksia ja päätöksiä).
+      feature3:
+        title: 'Kuulemiset'
+        subtitle: 'Oikeus päättää asioista demokraattisella tavalla'
+        text: >-
+          Kuulemiset ovat tila, joka mahdollistaa kansanäänestysten koordinoinnin, keskustelujen ja keskustelujen käynnistämisen, äänestysten tulosten julkaisemisen. se voidaan liittää turvalliseen sähköiseen äänestysjärjestelmään.
+      feature4:
+        title: 'Aloitteet'
+        subtitle: "Mahdollista jokaisen omat tavoitteet kaikkien ulottuville"
+        text: >-
+          Aloitteet ovat tila, joka antaa osallistujille mahdollisuuden luoda yhdessä aloitteita, määritellä niiden kehityspolut ja tavoitteet, kerätä hyväksyntöjä, keskustella, keskustellaan aloitteista ja levitetään niitä ja määritellään ne kohdat, joissa allekirjoituksia voidaan kerätä osallistujilta tai muille järjestön jäsenille avautuvilta keskusteluilta.
+      feature5:
+        title: 'Ehdotukset'
+        subtitle: 'Ideasi yksityiskohtaisesti'
+        text: >-
+          Ehdotusten osan avulla käyttäjä voi luoda ehdotuksen käyttäen luontiohjain, verrata sitä olemassa oleviin, julkaista sen alustalla ja sisältää lisätietoja, kuten geolocation tai liitetyt asiakirjat ja kuvat. Tämän komponentin avulla voit myös navigoida, suodattaa ja olla vuorovaikutuksessa ehdotusten kanssa. Lisäksi ehdotus-hautomo voit luoda yhteistyöehdotuksia.
+      feature6:
+        title: 'Äänestys'
+        subtitle: 'Anna oman äänesi kuulua'
+        text: >-
+          Äänestyskomponentti tarjoaa organisaatioille mahdollisuuden aktivoida erilaisia äänestys- tai tukijärjestelmiä ehdotusten ympärillä: rajoittamaton, rajattu tiettyyn kynnysarvoon, painotettu, kustannuspohjainen jne.
+      feature7:
+        title: 'Tulokset'
+        subtitle: 'Ei ehdotusta ilman vastausta'
+        text: >-
+          Tuloksia käytetään ehdotusten muuttamiseen tuloksiksi ja virallisten vastausten antamiseen niiden hyväksymisestä tai hylkäämisestä, eri ehdotusten yhdistäminen yhdeksi tulokseksi.
+      feature8:
+        title: 'Vastuullisuus'
+        subtitle: 'Avointa toimintaa alusta loppuun'
+        text: >-
+          Vastuullisuutta koskeva osa-alue tarjoaa mahdollisuuden jakaa tulokset edelleen hankkeisiin, määritellä ja soveltaa edistymistilannetta niiden täytäntöönpanon osalta, tulosten laajuuden osoittaminen siten, että ne on ryhmitelty kategorioiden ja soveltamisalan mukaan.
+      feature9:
+        title: 'Tapaamiset'
+        subtitle: 'Tapaa ja pysy kartalla yhteisistä asioista'
+        text: >-
+          Kokouksen osa tarjoaa organisaatioille ja osallistujille mahdollisuuden kutsua kokouksia, määrittää niiden sijainti ja aika, rekisteröidä ja rajoittaa osallistujia, määritellä kokouksen rakenne ja sisältö sekä julkaista pöytäkirjoja ja niitä koskevia ehdotuksia.
+      feature10:
+        title: 'Ehdotusaineistot'
+        subtitle: 'Analysoi, yhdistä ja luo uutta yhteisön avulla'
+        text: >-
+          Osallistuvia tekstejä koskevaa osaa voidaan käyttää muuntamaan pitkiä tekstiasiakirjoja erilaisiksi ehdotuksiksi tai tuloksiksi, ja päinvastoin, laatia ja näyttää yhtenäinen teksti, joka perustuu kokoelma ehdotuksia tai tuloksia.
+      feature11:
+        title: 'Konferenssit'
+        subtitle: 'Suuret tapahtumat saavat ensi-iltansa'
+        text: >-
+          Konferenssikomponenttin avulla organisaatio voi luoda verkkosivuston suurille tapahtumille määrittämällä aihealueiden ympärille muodostettavia ennalta määriteltyjä tapaamisia (esitykset, keskustelut, työpajat, jne.). Näistä tapahtumista muodostuu konferenssiohjelma ja osallistujalistat erilaisille tilaisuuksille.
+      feature12:
+        title: 'Kyselyt'
+        subtitle: 'Yhteisösi mielipiteellä on merkitystä'
+        text: >-
+          Kyselykokonaisuutta voidaan käyttää kyselyjen suunnitteluun ja julkaisuun sekä niiden tulosten näyttämiseen ja lataamiseen.
+      feature13:
+        title: 'Satunnaisvalinta'
+        subtitle: 'Sattumanvaraisuuden mahdollistama tasa-arvoisuus ja oikeudenmukaisuus'
+        text: >-
+          Satunnaisvalintojen avulla voidaan valita ehdotuksia (esim. lautakunnan ehdokkaista) satunnaisesti toistettavissa olevalla menettelyllä, joka takaa puolueettoman ja yhdenmukaisen lopputuloksen.
+      feature14:
+        title: 'Kommentit'
+        subtitle: 'Yhteisöllisen tiedon rakentaminen'
+        text: >-
+          Kommentointikomponentin avulla käyttäjät voivat lisätä kommentteja, jotta he voivat tunnistaa kommentin eduksi, vastalauseen vastaista tai puolueetonta vastausta vastaan, äänestämään kommentteja, vastaamaan niihin ja vastaanottamaan ilmoituksia vastauksista.
+      feature15:
+        title: 'Sivut ja blogit'
+        subtitle: 'Yhteiskuntasi, tietosi ja ajan tasalla'
+        text: >-
+          Sivukomponenttia käytetään luomaan informatiivisia sivuja, joissa on runsaasti tekstimuotoilua, upotettuja kuvia ja videoita. Blogikomponentti mahdollistaa työpaikkojen tai uutisten luomisen, ja navigoida ne aikajärjestyksessä.
+      feature16:
+        title: 'Ilmoitukset'
+        subtitle: 'Personoitu tieto kiinnostavista sisällöistä'
+        text: >-
+          Desidim avulla voit seurata mitä tahansa tilaa tai komponenttia vastaanottaa päivityksiä aina kun ne tapahtuvat.
+      feature17:
+        title: 'Uutiskirje'
+        subtitle: 'Yksinkertainen mutta tehokas'
+        text: >-
+          Uutiskirjeen komponentin avulla voidaan lähettää sähköposteja kaikille foorumiin rekisteröityneille tai valikoivammin, niille, jotka osallistuvat tiettyyn tilaan.
+    type1:
+      title: 'Tilat osallistumiselle'
+      subtitle: 'Osallistujien on tehtävä ehdotuksia ja tehtävä päätöksiä'
+    type2:
+      title: 'Komponentit'
+      subtitle: 'Osallistujien ja tilojen vuorovaikutuksessa'
+    other:
+      subtitle: 'Uskalla yhdistää komponentit. Suunnittele ja ota käyttöön tehokas demokraattinen järjestelmä helposti ja mukauta se organisaation tarpeisiin'
+    cta:
+      title: 'Selvitä miten desidim toimii perusteellisesti'
+      button: 'Funktiot ja ominaisuudet'
+  partners:
+    notice: Yhteistyössä toimineiden yhteisöjen logot ovat niiden tekijänoikeuksien haltijoiden teollis- ja tekijänoikeuksia. Ne eivät kuulu <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA -lisenssin</a> soveltamisalaan, jolla sivuston muu sisältö on lisensoitu.
+  modules:
+    type:
+      community: Yhteisö
+      auth: Valtuutus
+      official: Virallinen
+  used_by:
+    explain: Nämä kaupungit, alueet ja järjestöt käyttävät jo desidiimiä
+    type:
+      city: Kaupungit
+      region: Alueet
+      organizations: Organisaatiot
+  testimonials:
+    n1:
+      quote: >-
+        Barcelonassa olemme päättäjien ansiosta onnistuneet yhdessä laatimaan strategisen kaupunkisuunnitelman yhdessä kansalaisten kanssa. Vuonna 2016 käynnistimme kaupungin toimintasuunnitelman, joka oli osallistava prosessi Decidim Barcelonassa. Tällä hetkellä tähän suunnitelmaan sisältyy lähes 7 000 kansalaisehdotusta. Yksi tämän alustan käytön eduista on se, että voit aina seurata hyväksyttyjen ehdotusten täytäntöönpanon tilannetta.
+      org: Barcelonan Kaupunginhalli (2015-2019)
+    n2:
+      quote: >-
+        Decidim toteutuksen myötä Som Energia on luonut lempeän tilan osallistumiselle. Julkaisimme työkalun vuonna 2018, Osuuskunnan yleiskokouksen isännöimisessä ja kuukausia myöhemmin keskustelimme Som Energian koulun kuvien uudelleensuunnittelusta ja yhteistoiminnallisesta kehittämisestä, muiden osallisuusprosessien ohella. Muutaman kuukauden kuluttua yli 3 500 osallistujaa on rekisteröinyt viisi osallistumisprosessia, Yleiskokouksen viimeisimmässä äänestyksessä kolme edustajakokousta ja yli 1300 ääntä.
+      org: Som Energia
+    n3:
+      quote: >-
+        The Decide MeŽrida -digitaalinen alusta oli tilaisuus, joka avautui kuin koskaan ennen mekanismeja kansalaisten osallistumisesta MeŽrida kunnallisen kehityssuunnitelman laatimiseen vuosina 2018–2021. Meillä oli yli 3000 kansalainen vuorovaikutusta, mukaan lukien ehdotukset, ehdotuksia ja tukea, että päästään mahdollisimman korkeaan yhteisymmärrykseen siitä, mikä on kaupungillemme parasta. Epäilemättä Decide MeŽrida -alusta on edelleen liittolaisemme tekemässä MeŽridasta yhä osallistavampaa yhteiskuntaa.
+      org: Kunnallinen puheenjohtaja MeŽrida Yucata◄ n, Meksiko. Kaupunginvaltuusto MeŽrida Yucata◄ , Meksiko
+    n4:
+      quote: >-
+        Arvostamme sitä, että se on rakennettu demokratian kanssa ja siksi demokratia on suuri painopiste. Demokraattiset periaatteet, kuten vastuullisuus, tasa-arvo ja avoimuus, ovat mallin ytimessä.
+      org: Helsingin kaupunki
+    n5:
+      quote: >-
+        Lähes kaikki pöydällemme tulleet osallistumisprosessi, olemme kyenneet ratkaisemaan sen päätteeksi päättävän liiketoiminnan sääntöjen avulla. Se on työkalu, joka on hyvin vahva. Voimakkaaksi ja meille tärkeintä on kuitenkin sen yhteisö, sekä kehittäjät että ne, jotka käyttävät sitä osallisuusprosesseihin. Yhteistyössä heidän kanssaan olemme saaneet meidät arvostamaan haasteita, jotka liittyvät osallistavan demokratian toteuttamiseen todellisessa maailmassa.
+      org: Open Government of Mexico City
+  faqs:
+    title: Usein kysytyt kysymykset
+    q01:
+      question: Mitä Decidim on?
+      answer: >-
+        Decidim on ilmainen avoimen lähdekoodin osallistavan demokratian foorumi kaupungeille ja organisaatioille. Decidim on kuitenkin muutakin kuin digitaalinen alusta: se on yhteinen vapaa ja avoin projekti ja infrastruktuuri, johon kuuluu koodi, dokumentaatio, suunnittelu, koulutuskurssit, oikeudellinen kehys, yhteistyörajapinnat, käyttäjä- ja fasilitointiyhteisöt sekä yhteinen visio.
+    q02:
+      question: Kuka käyttää tällä hetkellä Decidimia?
+      answer: >-
+        Sitä käytetään tällä hetkellä kaupungeissa ja organisaatioissa. Itse asiassa kuka tahansa ihmisryhmä voi käyttää sitä, olipa kyseessä sitten kansalaisjärjestö, yliopisto, ammattiliitto, osuuskunta, naapurustoyhdistys jne. Tarkista [täydellinen luettelo aktiivisista instansseista](/usedby/).
+    q03:
+      question: Mitä desidiimin ylläpitäjä voi tehdä?
+      answer: >-
+        Osallistumisprosessien määritys Helposti Haluatko tehdä strategisen suunnitelman? Vai keskustellaanko uusista asetuksista? Tai keskustellaanko uudesta aukiosta vai julkisesta rakennuksesta yhteisen edun saavuttamiseksi? Decidim ansiosta voit määrittää osallistumispaikkoja (aloitteet, kokoonpanot, prosessit tai kuulemiset) ja rikastuttaa niitä useilla käytettävissä olevilla osa-alueilla (tapaamiset, kyselytutkimukset, ehdotukset, äänestykset, tulosten seuranta ja monet muut).
+    q04:
+      question: Mitä Decidim osallistuja (käyttäjä) voi tehdä?
+      answer: >-
+        Decidim mahdollistaa sen, että tuhannet ihmiset voivat järjestää itsensä demokraattisesti tekemällä ehdotuksia, osallistumalla julkisiin kokouksiin, edistetään päätöksentekomenettelyjä ja päätetään erilaisilla äänestysmuodoilla ja valvotaan päätösten täytäntöönpanoa.
+    q05:
+      question: Onko sinulla Demo? Haluan käyttää desidim nyt, asentamatta sitä, nähdä, miten se toimii.
+      answer: 'Kyllä, meillä on [online demo](/demo).'
+    q06:
+      question: Kuinka usein alustaa päivitetään?
+      answer: >-
+        Julkaisemme uuden version noin joka kuukausi. Katso [versio versioista](https://github.com/decidim/decidim/releases).
+    q07:
+      question: Mitä minun täytyy asentaa Decidim?
+      answer: >-
+        Decidimin asentaminen on helppoa, mutta tarvitset jonkin verran tietoa ja teknisiä vaatimuksia. Katso [dokumentaatio Decidimin asentamiseen](https://docs.decidim.org/en/install/).
+    q08:
+      question: Mistä voin löytää projektin etenemissuunnitelman ja suunnitellut ominaisuudet?
+      answer: Löydät [tiekartan hankkeen uusista ominaisuuksista GitHubissa](https://github.com/decidim/decidim/projects/16).
+    q09:
+      question: 'Mitä se tarkoittaa, että Decidim on ilmaista, "libre" ja avoimen lähdekoodin?'
+      answer: >-
+        Decidim on foorumi, jolla kansalaiset voivat osallistua ja ihmiset voivat osallistua. Sen lähdekoodi on avoin ja sen voi tarkastaa, muokata ja parantaa kuka tahansa. Decidim ohjelmisto kuuluu [AGPL lisenssi](https://en. ikipedia.org/wiki/GNU_Affero_General_Public_License). Se tarkoittaa, että voit käyttää sitä, muokata sitä ja levittää johdettuja versioita siitä niin kauan kuin noudatat AGPL-lisenssiä.
+    q10:
+      question: >-
+        Minulla on ideoita uusiin parannusominaisuuksiin. Haluan saada paremman käsityksen projektista. Mitä voin tehdä?
+      answer: >-
+        You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report?locale=es). If you want to actively participate in the Metadecidim community, you can attend the monthly [Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat). Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
+    q11:
+      question: Minulla on monia epäilyksiä, kaikenlaisiachar@@0 mistä voin kysyä tai ratkaista ne?
+      answer: >-
+        Paras tapa ratkaista epäilyksesi nopeasti on Metadecidim yhteisön kautta. Syötä nyt prosessi [Tukifoorumi](https://meta.decidim. rg/processes/supportforum?locale=en) ja katso onko kysymyksesi olemassa tai jos siihen on vastattu ja muuten kirjoita kysymään kysymyksiä. Jos et pysty ratkaisemaan ongelmiasi tässä tilassa, ehkä on aika ottaa meihin yhteyttä [yhteydenottolomake](/contact).
+    q12:
+      question: Onko mitään opetusohjelma aloittaa sen perustaminen?
+      answer: >-
+        Voit tarkistaa ylläpidon uusimman version [Documentation section](https://docs.decidim.org).
+    q13:
+      question: Mikä on sosiaalinen sopimus?
+      answer: >-
+        Niin me kutsumme meidän Code of Democratic Guarantees and Democratic Collaboration. Kaikkien yhteisön jäsenten on hyväksyttävä [Social Contract](http://decidim.org/contract).
+    q14:
+      question: Mitkä ovat erot Consul Project / Päättää Madrid?
+      answer: >-
+        On monia eroja: ominaisuuksia, joustavuutta, arkkitehtuuria, modulaarisuutta jne. Olemme [julkaisseet post](/blog/en/2019-01-14-consul-comparison/) yrittäneet vastata tähän kysymykseen.
+    q15:
+      question: Mikä on Metadecidim yhteisö?
+      answer: >-
+        [Metadecidim](http://meta.decidim.org) on Decidim yhteisö, joka tekee yhteistyötä alustan suunnittelussa ja Decidim projektin rakentamisessa. Tapaamme säännöllisesti [SOM (Metadecidim Operative Sessions)](https://meta.decidim. rg/assemblies/eix-comunitat?locale=es) ja [LAB Research Seminars](https://meta.decidim.org/assemblies/eix-lab). Mene [meta.decidim.org](http://meta.decidim.org) seuraamaan puheluita tarkasti ja jos haluat liittyä yhteisöön. Me rakastamme ;-)
+    q16:
+      question: Voinko liittyä Metadecidim yhteisöön, vaikka en asu Barcelonassa?
+      answer: >-
+        Decidim on hanke, joka syntyi Barcelonassa, ja siksi on olemassa vahva alueellinen side tähän kaupunkiin. Mutta kyllä, voit tehdä yhteistyötä verkossa, kautta osallistumisprosesseja, keskusteluja, jne .... että annamme Metadecidim. Vaikka haluat tulla Barcelonaan joskus :)
+    q17:
+      question: Haluamme tehdä muodollisen yhteistyösopimuksen, onko olemassa mitään malleja, joita voimme käyttää?
+      answer: Kyllä, meillä on malleja yhteistyösopimusten virallistamiseksi. [Ota yhteyttä](/contact).
+    q18:
+      question: Minkälaisia jäseniä sinä hyväksyt Metadecidim -yhteisöön?
+      answer: Jokainen, jolla on hyvää uskoa ja oikea asenne demokraattista yhteistyötä kohtaan.
+    q19:
+      question: Tarjoatko ilmaisen asennuksen voittoa tavoittelemattomille järjestöille?
+      answer: >-
+        Kyllä, vain jos olet Barcelonassa toimiva organisaatio. Lähetä meille viesti, ja teitä autetaan tutkimuksen pääosasto, Kansalaisoikeuksien alueen kehittäminen ja innovaatio, osallistuminen ja avoimuus Barcelonan kaupunginvaltuuston kanssa.
+    q20:
+      question: Tuetteko toimielimiä?
+      answer: >-
+        Kyllä, mutta sinun täytyy olla kärsivällinen. On paljon instituutioita, jotka haluavat käyttää desidiimiä juuri nyt, ja autamme niitä askel askeleelta. [Ota yhteyttä](/contact) vastaan mistä tahansa kysymyksestä ja vastaamme sinulle mahdollisimman pian.
+    q21:
+      question: Mikä on Decidim Association?
+      answer: >-
+        The "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) on demokraattinen yhdistys hallinnon Decidim yhteisö.
+    q22:
+      question: Miten voin saada lisää tietoa Decidim Association?
+      answer: >-
+        Didim-yhdistyksen [yleiskokouksessa] [https://meta.decidim. rg/kokoonpanot / yleiskokoonpano yhdistys) löydät lisää info abous meitä, seurata tapahtumien toimintaa ja tarkista tarvittavat tiedot (ohjesäännöt, oikeudelliset sopimukset, sisäiset määräykset)
+    q23:
+      question: Miten voin tulla jäseneksi Decidim Association?
+      answer: >-
+        Nyt projektissa mukana olevat ihmiset voivat olla kumppaneita. [Tässä selitämme yksityiskohtaisesti, miten sinun täytyy tehdä sitä](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+    q24:
+      question: Milloin Decidim Association syntyi?
+      answer: >-
+        Assosiaatiot [Decidim on perustettu 16. helmikuuta 2019 yhteisön ylimääräisessä kokoontumisessa](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), organisaation ohjesäännön hyväksymisen kanssa.
