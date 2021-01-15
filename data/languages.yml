@@ -1,16 +1,16 @@
-- lang1:
-  name: 'English'
-  path: '/'
-  short_code: "Eng"
-- lang2:
+- spanish:
   name: 'Castellano'
   path: '/es'
   short_code: "Cas"
-- lang3:
+- catalan:
   name: 'Català'
   path: '/ca'
   short_code: "Cat"
-- lang4:
+- english:
+  name: 'English'
+  path: '/'
+  short_code: "Eng"
+- french:
   name: 'Français'
   path: '/fr'
   short_code: "Fre"
