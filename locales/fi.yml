@@ -200,12 +200,12 @@ fi:
         title: 'Kommentit'
         subtitle: 'Yhteisöllisen tiedon rakentaminen'
         text: >-
-          Kommentointikomponentin avulla käyttäjät voivat lisätä kommentteja, jotta he voivat tunnistaa kommentin eduksi, vastalauseen vastaista tai puolueetonta vastausta vastaan, äänestämään kommentteja, vastaamaan niihin ja vastaanottamaan ilmoituksia vastauksista.
+          Kommentointikomponentin avulla käyttäjät voivat kommentoida asioita sekä osoittaa mielipiteensä keskusteltavasta aiheesta esimerkiksi olemalla sen puolella, sitä vastaan tai neutraali. Käyttäjät voivat myös äänestää kommentteja ja vastata niihin. Kommenteista saa myös ilmoitukset järjestelmässä ja ne voidaan lähettää myös sähköpostiin.
       feature15:
         title: 'Sivut ja blogit'
-        subtitle: 'Yhteiskuntasi, tietosi ja ajan tasalla'
+        subtitle: 'Pidä yhteisösi ajan tasalla ja tietoisena päivänpolttavista asioista'
         text: >-
-          Sivukomponenttia käytetään luomaan informatiivisia sivuja, joissa on runsaasti tekstimuotoilua, upotettuja kuvia ja videoita. Blogikomponentti mahdollistaa työpaikkojen tai uutisten luomisen, ja navigoida ne aikajärjestyksessä.
+          Sivut-komponenttia käytetään informatiivisten tekstisivujen luomiseen rikkaalla tekstisisällöllä, johon voidaan liittää kuvia ja videoita. Blogi-komponentti mahdollistaa artikkelien tai uutisten luomisen ja niiden navigoinnin kronologisessa järjestyksessä.
       feature16:
         title: 'Ilmoitukset'
         subtitle: 'Personoitu tieto kiinnostavista sisällöistä'
@@ -301,7 +301,7 @@ fi:
       question: >-
         Minulla on ideoita uusiin parannusominaisuuksiin. Haluan saada paremman käsityksen projektista. Mitä voin tehdä?
       answer: >-
-        You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report?locale=es). If you want to actively participate in the Metadecidim community, you can attend the monthly [Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat). Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
+        Voit osallistua usealla tavalla. Yksi osallistumismahdollisuus on [Metadecidim](http://meta.decidim.org)-yhteisö. Jos haluat ehdottaa uusia ominaisuuksia, mene [yhteisön tiekartta-osioon](https://meta.decidim.org/processes/roadmap). Jos olet huomannut virheellistä toimintaa tai ohjelmointivirheitä, mene [yhteisön virheraportointi-osioon](https://meta.decidim.org/processes/bug-report). Jos haluat osalistua aktiivisemmin Metadecidim-yhteisöön, voit osallistua kuukausittaisiin [Metadecidimin operatiivisiin tapaamisiin](https://meta.decidim.org/assemblies/eix-comunitat). Liity osallistujaksi yhteisöön luomalla oma tilisi ja osallistu kanssamme järjestelmän kehittämiseen. Jos osaat ohjelmoida, [tervetuloa GitHubiin](https://github.com/decidim/decidim). Jos olet tutkija, sinua voisi kiinnostaa tulla [Metadecidimin LAB-seminaareihin](https://meta.decidim.org/assemblies/eix-lab).
     q11:
       question: Minulla on monia epäilyksiä, kaikenlaisiachar@@0 mistä voin kysyä tai ratkaista ne?
       answer: >-
