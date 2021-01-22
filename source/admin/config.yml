@@ -38,7 +38,7 @@ collections:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Installation"
+  - name: "Installation (usedby)"
     label: "Installation"
     format: yml
     extension: yml
