@@ -24,6 +24,10 @@ description:
         <label for="email"><%= t('contact.email') %> <span class="required" aria-label="required field">*</span></label>
         <input type="email" id="email" name="email" required/>
       </div>
+      <div class="form-field">
+        <label for="subject"><%= t('contact.subject') %> <span class="required" aria-label="required field">*</span></label>
+        <input type="subject" id="subject" name="subject" required/>
+      </div>
       <div class="form-field message">
         <label for="message"><%= t('contact.message') %> <span class="required" aria-label="required field">*</span></label>
         <textarea id="message" name="message" required></textarea>
