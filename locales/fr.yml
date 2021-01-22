@@ -15,19 +15,19 @@ fr:
     faqs: 'Foire aux questions'
     contact: 'Contact'
     used_by: 'Cas d''usages'
-    partners: 'Entités coopératives'
+    partners: 'Partenaires'
     modules: 'Modules'
     press: 'Presse'
   alert:
     title: 'Decidim Fest 2020 :: Démocratie et technologie en temps d''urgence | 18, 19 et 20 novembre'
-    subtitle: 'Rejoignez notre appel'
+    subtitle: 'Candidatez'
     link: https://meta.decidim.org/conferences/decidimfest2020/f/1338/
-    desc: 'DecidimFest est un programme intensif de 3 jours d''activités consacré au projet Decidim. la démocratie participative et les outils open source pour l''intelligence collective à l''ère de la démocratie mondiale.'
+    desc: 'DecidimFest est un programme intensif de 3 jours d''activités consacré au projet Decidim. La démocratie participative et les outils open source pour l''intelligence collective à l''ère de la démocratie mondiale.'
   index:
     hero:
       heading: 'démocratie participative libre et open source pour les villes et les organisations'
       subheading: 'Decidim est une plateforme numérique<br/>pour la participation des citoyens'
-      intro: 'Technologie libre et sûre.<br/>Avec toutes les garanties démocratiques.<br/>La reprogrammation de la démocratie est maintenant possible avec Decidim.'
+      intro: 'Technologie libre et sûre.<br/>Avec toutes les garanties démocratiques.<br/>La modernisation de la démocratie est maintenant possible avec Decidim.'
     video:
       play: 'Lire la vidéo'
       url: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
@@ -44,7 +44,7 @@ fr:
       title: 'Ils utilisent déjà Decidim'
       cta: 'Tout voir'
     cta:
-      title: 'commencer à utiliser Decidim aujourd''hui'
+      title: 'débutez avec Decidim aujourd''hui'
     button:
       code: 'Code sur Github'
   footer:
@@ -53,19 +53,19 @@ fr:
     feder_url: 'https://ajuntament.barcelona.cat/estrs3.amazonaws.com/aifinances/fr/european-funds'
   demo:
     title: Démo en ligne
-    p1: Jouez et explorez librement la plateforme Decidim avec notre démo en ligne.
-    p2: Decidim est opérationnel sur plusieurs instances que vous pouvez visiter et explorer, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> à Barcelone City ou vous pouvez visiter les sites de <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> et <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. Mais ce sont des cas réels où vous ne pouvez pas vraiment jouer librement, car vous ne serez peut-être pas citoyen de ces municipalités, et vous ne pouvez pas explorer ces sites en tant qu'administrateur.
+    p1: Explorez librement la plateforme Decidim avec notre démo en ligne.
+    p2: Decidim est opérationnel sur plusieurs instances que vous pouvez visiter et explorer, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> de la ville de Barcelone ou encore celles de <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> et <a href="https://www.lhon-participa.cat/" target="_blank">de L'Hospitalet</a>. Il s'agit d'instances en production, évitez les tests, car vous n'êtes peut-être pas citoyen de ces municipalités, et vous ne pouvez pas explorer ces sites en tant qu'administrateur.
     p3: Si vous voulez aller plus loin, vous pouvez tester Decidim sur notre site de démo Decidim (grâce à nos développeurs sur <a href="http://alabs.org" target="_blank">aLabs</a>). Accédez au site de démonstration et explorez librement le potentiel de Decidim et ses fonctionnalités.
-    p4: Vous pouvez vous connecter en tant que <strong>Admin</strong> (nom d'utilisateur "<strong>admin@example.org</strong>" et mot de passe "<strong>decidim123456</strong>").
+    p4: Vous pouvez vous connecter en tant qu'<strong>Administrateur</strong> (nom d'utilisateur "<strong>admin@example.org</strong>" et mot de passe "<strong>decidim123456</strong>").
     button: Démo en ligne
   community:
     title: 'Metadecidim, notre communauté'
     subtitle: 'Une communauté démocratique qui gère le projet Decidim dans toutes ses dimensions'
-    intro: 'Metadecidim est une communauté qui collabore à la conception de la plate-forme et à la construction du projet. Ensemble, nous pouvons concevoir et développer de nouvelles fonctionnalités et rapporter des bogues pour améliorer continuellement la plate-forme.'
-    cta: 'Commencer'
+    intro: 'Metadecidim est une communauté qui collabore à la conception de la plate-forme et à la construction du projet. Ensemble, nous pouvons concevoir et développer de nouvelles fonctionnalités et rapporter des bugs pour améliorer continuellement la plate-forme.'
+    cta: 'Premiers pas'
     features:
       title: 'Proposer de nouvelles fonctionnalités'
-      subtitle: 'Concevoir et développer Decidim entre tous'
+      subtitle: 'Concevoir et développer Decidim tous ensemble'
       text: 'Vous pouvez créer des débats sur l''avenir de Decidim ou proposer de nouvelles fonctionnalités ou améliorations. Les propositions peuvent être approuvées et commentaires, afin de montrer, par exemple, l''intérêt qu''elles suscitent pour la communauté et la valeur de leur développement. Propositions ayant un sponsor (comme un conseil municipal ou toute autre entité), responsable de la recherche et de la fourniture des ressources nécessaires à la réalisation de leur développement, sera utile pour le projet.'
       cta: 'Entrez et participez maintenant'
     bug:
