@@ -15,11 +15,11 @@
   name: 'English'
   path: '/'
   short_code: "Eng"
-- suomi:
-  name: 'Suomi'
-  path: '/fi'
-  short_code: "Fin"
 - french:
   name: 'Français'
   path: '/fr'
   short_code: "Fre"
+- suomi:
+  name: 'Suomi'
+  path: '/fi'
+  short_code: "Fin"
