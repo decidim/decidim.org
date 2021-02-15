@@ -2,7 +2,7 @@ cs:
   path: ''
   activeLang: 'Čeština'
   nav:
-    text: 'Navigation'
+    text: 'Navigace'
     demo: 'Demo'
     community: 'Komunita'
     contract: 'Sociální smlouva'
@@ -14,18 +14,18 @@ cs:
     features: 'Vlastnosti'
     faqs: 'Časté dotazy'
     contact: 'Kontakt'
-    used_by: 'Vyjmout'
+    used_by: 'Kde se používá'
     partners: 'Spolupracující subjekty'
     modules: 'Moduly'
     press: 'Tisk'
   alert:
     title: 'Decidim z roku 2020 :: Demokracie a technologie v nouzových dobách | 18, 19 a 20 listopadu'
-    subtitle: 'Připojte se k hovoru'
+    subtitle: 'Připojte se k výzvě'
     link: https://meta.decidim.org/conferences/decidimfest2020/f/1338/
-    desc: 'DecidimFest je intenzivní 3denní program aktivit věnovaný projektu Decidim, participativní demokracie a nástroje otevřených zdrojů pro kolektivní inteligenci v éře globální demokracie.'
+    desc: 'DecidimFest je intenzivní 3denní program aktivit věnovaný projektu Decidim, participativní demokracie a nástrojům otevřených zdrojů pro kolektivní inteligenci v éře globální demokracie.'
   index:
     hero:
-      heading: 'Volná Open-Source participativní demokracie pro města a organizace'
+      heading: 'Participativní demokracie pro města a organizace s otevřeným kódem'
       subheading: 'Decidim je digitální platforma<br/>pro účast občanů'
       intro: 'Volná a bezpečná technologie.<br/>Se všemi demokratickými zárukami.<br/>Přeprogramování demokracie je nyní možné s Deidimem.'
     video:
@@ -44,7 +44,7 @@ cs:
       title: 'Již používají Decidim'
       cta: 'Zobrazit vše'
     cta:
-      title: 'začít používat Decidim dnes'
+      title: 'začněte používat Decidim už dnes'
     button:
       code: 'Kód na Githubu'
   footer:
@@ -53,8 +53,8 @@ cs:
     feder_url: 'https://ajuntament.barcelona.cat/estrategiaifinances/en/european-funds'
   demo:
     title: Online demo
-    p1: Hrajte kolem a prozkoumejte zdarma platformu Decidim s naším online demo.
-    p2: Decidim je spuštěn na několika instancích, které můžete navštívit a prozkoumat, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> v Barceloně nebo můžete navštívit stránky <a href="https://participa.gavaciutat.cat/" target="_blank">Gava<unk></a> a <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. Ale toto jsou skutečné případy, kdy opravdu nemůžete hrát volně, protože nemusíte být občanem těchto obcí, a nemůžete tyto stránky prozkoumat jako správce.
+    p1: Zkoušejte a prozkoumejte zdarma platformu Decidim s naším online demo.
+    p2: Decidim je spuštěn na několika instancích, které můžete navštívit a prozkoumat, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> v Barceloně nebo můžete navštívit stránky <a href="https://participa.gavaciutat.cat/" target="_blank">Gava<unk></a> a <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. Ale toto jsou skutečné případy, kdy opravdu nemůžete volně zkoušet, protože nejste občanem těchto obcí, a nemůžete tyto stránky prozkoumat jako správce.
     p3: Pokud chcete jít dál, můžete vyzkoušet Decidim na našem webu Decidim (laskavost našich vývojářů na <a href="http://alabs.org" target="_blank">aLabs</a>). Vstupte do demo stránky a volně prozkoumejte potenciál Decidim a jeho funkce.
     p4: Můžete se přihlásit jako <strong>Admin</strong> (uživatelské jméno "<strong>admin@example.org</strong>" a heslo "<strong>decidim123456</strong>").
     button: Online ukázka
