@@ -54,7 +54,7 @@ cs:
   demo:
     title: Online demo
     p1: Zkoušejte a prozkoumejte zdarma platformu Decidim s naším online demo.
-    p2: Decidim je spuštěn na několika instancích, které můžete navštívit a prozkoumat, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> v Barceloně nebo můžete navštívit stránky <a href="https://participa.gavaciutat.cat/" target="_blank">Gava<unk></a> a <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. Ale toto jsou skutečné případy, kdy opravdu nemůžete volně zkoušet, protože nejste občanem těchto obcí, a nemůžete tyto stránky prozkoumat jako správce.
+    p2: Decidim běží na několika instancích, které můžete navštívit a prozkoumat, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> v Barceloně nebo můžete navštívit stránky <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> a <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. Ale toto jsou skutečné případy, kdy opravdu nemůžete volně zkoušet, protože nejste občanem těchto obcí, a nemůžete tyto stránky prozkoumat jako správce.
     p3: Pokud chcete zjisti více, můžete vyzkoušet Decidim na našem zkušebním webu Decidim (díky laskavosti našich vývojářů na <a href="http://alabs.org" target="_blank">aLabs</a>). Vstupte do demo stránky a volně prozkoumejte potenciál Decidim a jeho funkce.
     p4: Můžete se přihlásit jako <strong>Admin</strong> (uživatelské jméno "<strong>admin@example.org</strong>" a heslo "<strong>decidim123456</strong>").
     button: Online demo
@@ -179,7 +179,7 @@ cs:
           Komponenta Schůzky nabízí organizacím a účastníkům možnost svolat zasedání, určit jejich polohu a čas, zaregistrují a omezují účastníky, definují strukturu a obsah zasedání, jakož i zveřejňují zápisy a výsledné návrhy.
       feature10:
         title: 'Texty participace'
-        subtitle: 'analyzovat, syntetizovat a stavět společně.'
+        subtitle: 'analyzovat, syntetizovat a společně budovat'
         text: >-
           Komponenta Participativní texty lze použít k převodu zdlouhavých textových dokumentů na různé návrhy nebo výsledky a naopak, vytvořit a zobrazit jednotný text založený na souboru návrhů nebo výsledků.
       feature11:
@@ -297,7 +297,7 @@ cs:
     q09:
       question: 'Co to znamená, že Decidim je pro zdarma, "libre" a open source?'
       answer: >-
-        Decidim je platforma pro účast občanů a lidí. Jeho zdrojový kód je otevřený a může být kontrolován, upraven a vylepšen kýmkoliv. Program Decidim je pokryt [licencí AGPL](https://en. ikipedia.org/wiki/GNU_Affero_General_Public_License). To znamená, že jej můžete používat, upravovat a šířit odvozené verze, pokud respektujete licenci AGPL.
+        Decidim je platforma pro účast občanů a lidí. Jeho zdrojový kód je otevřený a může být kýmkoliv kontrolován, upraven a vylepšen. Aplikace Decidim je pokryta [licencí AGPL](https://en.ikipedia.org/wiki/GNU_Affero_General_Public_License). To znamená, že jej můžete používat, upravovat a šířit odvozené verze, pokud respektujete licenci AGPL.
     q10:
       question: >-
         Mám nápady na nové vylepšení. Chci projektu lépe porozumět. Co mohu udělat?
@@ -314,7 +314,7 @@ cs:
     q13:
       question: Co je Sociální smlouva?
       answer: >-
-        Takto nazýváme náš Kodex demokratických záruk a demokratické spolupráce. Všichni členové komunity musí schválit [sociální smlouvu](http://decidim.org/contract).
+        Takto nazýváme náš Kodex demokratických záruk a demokratické spolupráce. Všichni členové komunity musí schválit [Sociální smlouvu](http://decidim.org/contract).
     q14:
       question: Jaké jsou rozdíly proti projektu Consul Project / Decide Madrid?
       answer: >-
@@ -352,7 +352,7 @@ cs:
     q23:
       question: Jak se mohu stát členem sdružení Decidim?
       answer: >-
-        Nyní lidé zapojení do projektu mohou být partnery. [Zde podrobně vysvětlíme, jak to máte](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+        Lidé zapojení do projektu mohou být nyní partnery. [Zde podrobně vysvětlíme, co to znamená](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
     q24:
       question: Kdy sdružení Decidim vzniklo?
       answer: >-
