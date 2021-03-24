@@ -1,29 +1,29 @@
 # https://www.loc.gov/standards/iso639-2/php/code_list.php
 - spanish:
   name: 'Castellano'
-  path: '/es'
+  path: 'es'
   short_code: "Cas"
 - catalan:
   name: 'Català'
-  path: '/ca'
+  path: 'ca'
   short_code: "Cat"
 - czech:
   name: 'Čeština'
-  path: '/cs'
+  path: 'cs'
   short_code: "Cze"
 - english:
   name: 'English'
-  path: '/'
+  path: 'en'
   short_code: "Eng"
 - french:
   name: 'Français'
-  path: '/fr'
+  path: 'fr'
   short_code: "Fre"
 - german:
   name: 'Deutsch'
-  path: '/de'
+  path: 'de'
   short_code: "Deu"
 - suomi:
   name: 'Suomi'
-  path: '/fi'
+  path: 'fi'
   short_code: "Fin"

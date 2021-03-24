@@ -3,7 +3,7 @@
   <ul id="lang" class="lang" role="menu">
     <% data.languages.each do |lang| %>
       <li role="menuitem">
-        <a href="<%= lang.path %>"><%= lang.name %></a>
+        <a href="<%= current_path_for_locale lang.path %>"><%= lang.name %></a>
       </li>
     <% end %>
   </ul>
