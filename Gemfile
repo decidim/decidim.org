@@ -13,7 +13,5 @@ gem 'redcarpet', '~> 3.5'
 gem 'nokogiri', '~> 1.11.0'
 # For feed.xml.builder
 gem "builder", "~> 3.0"
-# For pages in AsciiDoc
-gem 'middleman-asciidoc'
 
 gem "byebug"

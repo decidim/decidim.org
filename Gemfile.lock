@@ -8,7 +8,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    asciidoctor (2.0.10)
     autoprefixer-rails (9.8.6.5)
       execjs
     backports (3.18.2)
@@ -51,9 +50,6 @@ GEM
       kramdown (>= 2.3.0)
       middleman-cli (= 4.3.11)
       middleman-core (= 4.3.11)
-    middleman-asciidoc (1.0.0)
-      asciidoctor (>= 1.5.0)
-      middleman-core (~> 4.0)
     middleman-autoprefixer (2.10.1)
       autoprefixer-rails (~> 9.1)
       middleman-core (>= 3.3.3)
@@ -134,7 +130,6 @@ DEPENDENCIES
   builder (~> 3.0)
   byebug
   middleman (~> 4.3)
-  middleman-asciidoc
   middleman-autoprefixer (~> 2.7)
   middleman-blog (~> 4.0)
   middleman-gh-pages

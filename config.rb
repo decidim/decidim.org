@@ -53,8 +53,5 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
-# Features page
-activate :asciidoc, layout: :asciidoc
-
 # Copy Netlify's _redirects file on build
 proxy "_redirects", "netlify-redirects", ignore: true
