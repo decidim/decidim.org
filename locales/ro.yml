@@ -1,5 +1,5 @@
 ro:
-  path: ''
+  path: '/ro'
   activeLang: 'Română'
   nav:
     text: 'Navigation'
@@ -100,6 +100,7 @@ ro:
     name: Nume
     entity: Entitate
     email: E-mail
+    subject: Subject
     message: Mesaj
     send: Trimite
   thanks:

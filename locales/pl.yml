@@ -1,5 +1,5 @@
 pl:
-  path: ''
+  path: '/pl'
   activeLang: 'Polski'
   nav:
     text: 'Nawigacja'
@@ -100,6 +100,7 @@ pl:
     name: Nazwa
     entity: Jednostka
     email: Adres e-mail
+    subject: Temat
     message: Wiadomość
     send: Wyślij
   thanks:
@@ -122,7 +123,7 @@ pl:
         title: 'Demokratyczny<br/>i elastyczny system'
         content: 'Dzięki modułowej architekturze i skalowalnej logice można skonfigurować potężny system demokratycznego zarządzania we wszystkich rodzajach organizacji.'
       n5:
-        title: 'We take democracy<br/>very seriously'
+        title: 'Traktujemy demokrację<br/>poważnie'
         content: 'Decydując zapewnia przejrzystość, identyfikowalność i integralność informacji, jak nigdy przedtem. Zapewnia ona bezpieczeństwo, prywatność i poufność wszystkim uczestnikom.'
       n6:
         title: "To twoje.<br/>Udostępnij to. Ulepsz to."

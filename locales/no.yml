@@ -1,5 +1,5 @@
 "no":
-  path: ''
+  path: '/no'
   activeLang: 'Engelsk'
   nav:
     text: 'Navigasjon'
@@ -100,6 +100,7 @@
     name: Navn
     entity: Enhet
     email: Epost
+    subject: Subject
     message: Melding
     send: Send
   thanks:

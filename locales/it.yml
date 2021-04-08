@@ -1,5 +1,5 @@
 it:
-  path: ''
+  path: '/it'
   activeLang: 'Italiano'
   nav:
     text: 'Navigazione'
@@ -100,6 +100,7 @@ it:
     name: Nome
     entity: Entità
     email: Email
+    subject: Subject
     message: Messaggio
     send: Invia
   thanks:

@@ -1,5 +1,5 @@
 pt:
-  path: ''
+  path: '/pt'
   activeLang: 'Português'
   nav:
     text: 'Navegação'
@@ -100,6 +100,7 @@ pt:
     name: Nome
     entity: Entidade
     email: E-mail
+    subject: Subject
     message: mensagem
     send: Enviar
   thanks:

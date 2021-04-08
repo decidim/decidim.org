@@ -1,5 +1,5 @@
 lv:
-  path: ''
+  path: '/lv'
   activeLang: 'Angliski'
   nav:
     text: 'Navigācija'
@@ -100,6 +100,7 @@ lv:
     name: Nosaukums
     entity: Entity
     email: E-pasts
+    subject: Subject
     message: Message
     send: Sūtīt
   thanks:
