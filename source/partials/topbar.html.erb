@@ -5,7 +5,9 @@
   </div>
   <div class="topbar__actions">
     <div class="topbar__links">
-      <%= partial "partials/lang-switcher" %>
+      <% if show_language_switcher? %>
+        <%= partial "partials/lang-switcher" %>
+      <% end %>
       <a href="<%= t(:path) %>/demo" class="btn btn--small btn--inverse">demo</a>
     </div>
     <a class="main-nav__trigger" href="#nav-links">

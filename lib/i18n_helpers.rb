@@ -22,4 +22,8 @@ module I18nHelpers
     loc == "en" ? '/' : "/#{loc}/"
   end
 
+  def show_language_switcher?
+    current_page.path.include?("blog") ? false : true
+  end
+
 end

@@ -29,11 +29,13 @@
       </a>
     </li>
   </ul>
-  <ul class="main-nav__lang">
-    <% data.languages.each do |lang| %>
-      <li role="menuitem">
-        <%= link_to lang.short_code, current_path_for_locale(lang.path), "aria-label": lang.name %>
-      </li>
-    <% end %>
-  </ul>
+  <% if show_language_switcher? %>
+    <ul class="main-nav__lang">
+      <% data.languages.each do |lang| %>
+        <li role="menuitem">
+          <%= link_to lang.short_code, current_path_for_locale(lang.path), "aria-label": lang.name %>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
 </nav>
