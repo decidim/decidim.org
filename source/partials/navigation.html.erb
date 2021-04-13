@@ -1,18 +1,19 @@
 <nav class="main-nav" id="nav-links">
-  <a href="<%= t(:path) %>/features" class="main-nav__item"><%= t('nav.features') %></a>
-  <a href="<%= t(:path) %>/community" class="main-nav__item"><%= t('nav.community') %></a>
-  <a href="<%= t('nav.docs.path') %>" target="_blank" class="main-nav__item"><%= t('nav.docs.title') %></a>
-  <a href="<%= t(:path) %>/usedby" class="main-nav__item"><%= t('nav.used_by') %></a>
-  <a href="<%= t(:path) %>/blog" class="main-nav__item"><%= t('nav.blog') %></a>
-  <a href="<%= t(:path) %>/contract" class="main-nav__item"><%= t('nav.contract') %></a>
-  <a href="https://github.com/decidim/decidim" target="_blank" class="main-nav__item">
-    <%= t('nav.code') %>
-  </a>
-  <a href="<%= t(:path) %>/modules" class="main-nav__item"><%= t('nav.modules') %></a>
-  <a href="<%= t(:path) %>/faqs" class="main-nav__item"><%= t('nav.faqs') %></a>
-  <a href="<%= t(:path) %>/press" class="main-nav__item"><%= t('nav.press') %></a>
-  <a href="<%= t(:path) %>/contact" class="main-nav__item"><%= t('nav.contact') %></a>
-  <a href="<%= t(:path) %>/demo" class="main-nav__btn btn btn--primary btn--small"><%= t('nav.demo') %></a>
+  <%= link_to t('nav.features'), "#{t(:path)}/features", class: "main-nav__item" %>
+  <%= link_to t('nav.community'), "#{t(:path)}/community", class: "main-nav__item" %>
+  <%= link_to t('nav.docs.title'), "https://docs.decidim.org", class: "main-nav__item" %>
+  <%= link_to t('nav.used_by'), "#{t(:path)}/usedby", class: "main-nav__item" %>
+  <% if I18n.locale == :en %>
+    <%= link_to t('nav.blog'), "#{t(:path)}/blog", class: "main-nav__item" %>
+  <% end %>
+  <%= link_to t('nav.contract'), "#{t(:path)}/contract", class: "main-nav__item" %>
+  <%= link_to t('nav.code'), "https://github.com/decidim/decidim", class: "main-nav__item" %>
+  <%= link_to t('nav.modules'), "#{t(:path)}/modules", class: "main-nav__item" %>
+  <%= link_to t('nav.faqs'), "#{t(:path)}/faqs", class: "main-nav__item" %>
+  <%= link_to t('nav.press'), "#{t(:path)}/press", class: "main-nav__item" %>
+  <%= link_to t('nav.contact'), "#{t(:path)}/contact", class: "main-nav__item" %>
+  <%= link_to t('nav.demo'), "#{t(:path)}/demo", class: "main-nav__item" %>
+
   <ul class="main-nav__social">
     <li>
       <a href="https://twitter.com/decidim_org" title="Twitter" target="_blank">
