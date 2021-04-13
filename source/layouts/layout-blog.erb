@@ -4,8 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Decidim Blog - <%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <title><%= current_article.title unless current_article.nil? %> | Blog | Decidim</title>
     <%= stylesheet_link_tag "site" %>
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/blog/feed.xml", title: "Atom Feed" %>
