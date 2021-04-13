@@ -8,7 +8,7 @@
     <title>Decidim Blog - <%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= stylesheet_link_tag "site" %>
     <link rel="icon" type="image/png" href="/images/favicon.png">
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/blog/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
     <%= partial "partials/navigation" %>
