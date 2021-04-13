@@ -4,17 +4,8 @@ nav: blog
 
 <div class="blog container container-vertical-top">
   <div class="container--text-col">
-    <% blog.local_articles.each do |article| %>
-      <article class="post-preview">
-        <h2 class="page-title page-title--simplemargin">
-          <a href="<%= article.url %>"><%= article.title %></a>
-          <time class="post-date"><%= article.date.strftime('%d/%m/%Y') %></time>
-        </h2>
-
-        <%= article.summary %>
-
-        <a href="<%= article.url %>" class="post-preview__more">Read more</a>
-      </article>
+    <% blog.articles.each do |article| %>
+      <%= partial "partials/article_preview", locals: {article: article} %>
     <% end %>
     <button id="paginate-control" class="btn btn--primary paginate-control is-paginate-control-hidden">Load more</button>
   </div>

@@ -2,39 +2,10 @@
 pageable: true
 per_page: 10
 ---
-<div class="blog container container--text-col container-vertical-top">
-  <h1>Articles by category</h1>
+<div class="blog container container-vertical-top">
+  <h1>Articles by tag "<%= tagname %>"</h1>
   <% page_articles.each_with_index do |article| %>
-    <article class="post-preview">
-      <h2>
-        <a href="<%= article.url %>"><%= article.title %></a>
-        <time class="post-date"><%= article.date.strftime('%b %e %Y') %></time>
-      </h2>
-
-      <%= article.summary %>
-
-      <a href="<%= article.url %>" class="post-preview__more">Read more</a>
-    </article>
+    <%= partial "partials/article_preview", locals: {article: article} %>
   <% end %>
-
-
-  <% if paginate && num_pages > 1 %>
-    <div class="blog-pages">
-
-      <% if prev_page %>
-        <span class="blog-pages__prev">
-          <%= link_to 'Previous page', prev_page %>
-        </span>
-      <% end %>
-
-      <%= page_number %> of <%= num_pages %>
-
-      <% if next_page %>
-        <span class="blog-pages__next">
-          <%= link_to 'Next page', next_page %>
-        </span>
-      <% end %>
-    </div>
-  <% end %>
-
+  <button id="paginate-control" class="btn btn--primary paginate-control is-paginate-control-hidden">Load more</button>
 </div>
