@@ -1,5 +1,5 @@
 fi:
-  path: ''
+  path: '/fi'
   activeLang: 'Suomi'
   nav:
     text: 'Navigaatio'
@@ -100,6 +100,7 @@ fi:
     name: Nimi
     entity: Organisaatio
     email: Sähköpostiosoite
+    subject: Aihe
     message: Viesti
     send: Lähetä
   thanks:

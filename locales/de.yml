@@ -1,10 +1,10 @@
 de:
-  path: ''
+  path: '/de'
   activeLang: 'Deutsch'
   nav:
     text: 'Navigation'
     demo: 'Demo'
-    community: 'Community'
+    community: 'Gemeinschaft'
     contract: 'Gesellschaftsvertrag'
     code: 'Code'
     docs:
@@ -100,6 +100,7 @@ de:
     name: Name
     entity: Entität
     email: E-Mail
+    subject: Betreff
     message: Nachricht
     send: Senden
   thanks:
@@ -231,7 +232,7 @@ de:
     notice: Die Genossenschaftslogos sind geistiges Eigentum der jeweiligen Rechteinhaber. Sie fallen nicht unter die <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA Lizenz</a> der Rest der Seite ist lizenziert.
   modules:
     type:
-      community: Community
+      community: Gemeinschaft
       auth: Autorisierung
       official: Offiziell
   used_by:
@@ -301,7 +302,7 @@ de:
       question: >-
         Ich habe Ideen für neue Verbesserungsmerkmale. Ich möchte das Projekt besser verstehen. Was kann ich tun?
       answer: >-
-        You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report?locale=es). If you want to actively participate in the Metadecidim community, you can attend the monthly [Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat). Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
+        Du kannst auf mehrere Arten zusammenarbeiten. Einer davon ist durch die [Metadecidim](http://meta.decidim.org) Community. Wenn du neue Funktionen vorschlagen möchtest, [gehe hier](https://meta.decidim.org/processes/roadmap). Wenn du Fehler entdeckt hast und sie benachrichtigen möchtest, [gehe zu diesem Prozess](https://meta.decidim.org/processes/bug-report?locale=es). Wenn du aktiv an der Metadecidim Community teilnehmen möchtest, kannst du an den monatlichen [Metadecidim Operative Sessions](https://meta. ecidim.org/assemblies/eix-comunitat). Registrieren Sie sich als Teilnehmer der Community und nehmen Sie mit uns teil. Wenn deine Sache der Code ist, [komm zu Github](https://github.com/decidim/decidim). Wenn du ein Forscher bist, bist du vielleicht daran interessiert, zum [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab) zu kommen.
     q11:
       question: Ich habe viele Zweifel aller Arten...wo kann ich sie fragen oder lösen?
       answer: >-

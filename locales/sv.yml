@@ -1,5 +1,5 @@
 sv:
-  path: ''
+  path: '/sv'
   activeLang: 'Svenska'
   nav:
     text: 'Navigera'
@@ -100,6 +100,7 @@ sv:
     name: Namn
     entity: Enhet
     email: E-post
+    subject: Subject
     message: Meddelande
     send: Skicka
   thanks:
