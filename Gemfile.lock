@@ -88,9 +88,9 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
-    mini_portile2 (2.5.0)
+    mini_portile2 (2.5.1)
     minitest (5.14.2)
-    nokogiri (1.11.0)
+    nokogiri (1.11.4)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     padrino-helpers (0.13.3.4)
@@ -134,7 +134,7 @@ DEPENDENCIES
   middleman-blog (~> 4.0)
   middleman-gh-pages
   middleman-livereload
-  nokogiri (~> 1.11.0)
+  nokogiri (~> 1.11.4)
   redcarpet (~> 3.5)
   tzinfo-data
   wdm (~> 0.1)
