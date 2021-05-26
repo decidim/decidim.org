@@ -230,6 +230,10 @@
   partners:
     notice: Samarbeidsorganenes logoer er er immaterielle rettigheter for sine respektive rettighetshavere. De faller ikke under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA lisensen</a> resten av nettstedets innhold er lisensiert med.
   modules:
+    description: Description
+    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
+    image: Image
+    name: Navn
     type:
       community: Fellesskap
       auth: Autorisasjon
