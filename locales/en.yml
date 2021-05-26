@@ -322,14 +322,12 @@ en:
   modules:
     description: Description
     explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
-    go: Go
     image: Image
     name: Name
     type:
       community: Community
       auth: Authorization
       official: Official
-    url: URL
 
   used_by:
     explain: These cities, regions and organizations are already using Decidim
