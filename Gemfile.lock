@@ -133,7 +133,7 @@ DEPENDENCIES
   middleman-autoprefixer (~> 2.7)
   middleman-blog (~> 4.0)
   middleman-gh-pages
-  middleman-livereload
+  middleman-livereload (~> 3.4)
   nokogiri (~> 1.11.0)
   redcarpet (~> 3.5)
   tzinfo-data
