@@ -230,6 +230,10 @@ nl:
   partners:
     notice: De samenwerkende entiteiten zijn de intellectuele eigendom van hun respectieve houders van auteursrechten. Ze vallen niet onder de <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA licentie</a> van de rest van de inhoud van de site zijn gelicenseerd.
   modules:
+    description: Description
+    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
+    image: Image
+    name: Naam
     type:
       community: Gemeenschap
       auth: Autorisatie
