@@ -1,15 +1,29 @@
-<% modules = data_sort_by_title(data_select_by(data.modules, type)) %>
 <h2 class="subsection-title"><%= title %></h2>
-<div class="module-list">
-  <% modules.each do |id, m| %>
-    <div class="module-list__item">
-      <a href="<%= m.url %>" target="_blank">
-        <img src="<%= m.image %>" alt="<%= m.title %>" class="module-list__image"/>
-        <div class="module-list__content">
-          <h2 class="module-list__title"><%= m.title %></h2>
-          <p><%= m.description %></p>
-        </div>
-      </a>
-    </div>
-  <% end %>
-</div>
+
+<table class="hover">
+  <thead>
+    <tr>
+      <th><%= t 'modules.name' %></th>
+      <th><%= t 'modules.description' %></th>
+      <th><%= t 'modules.url' %></th>
+      <th><%= t 'modules.image' %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% modules = data_sort_by_title(data_select_by(data.modules, type)) %>
+    <% modules.each do |id, m| %>
+      <tr>
+        <td><%= m.title %></td>
+        <td><%= m.description %></td>
+        <td><%= link_to t('modules.go'), m.url, target: '_blank' %></td>
+        <td>
+          <% if m.image %>
+            <% link_to m.image do %>
+              <% image_tag m.image, alt: m.title, class: "module-list__image" %>
+            <% end %>
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
