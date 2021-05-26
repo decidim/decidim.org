@@ -5,6 +5,8 @@ description:
 <div class="container container-vertical">
   <h1 class="page-title"><%= t('nav.modules') %></h1>
 
+  <p><%= t('modules.explanation') %></p>
+
   <%= partial "partials/modules_by_type", locals: {type: "community", title: t('modules.type.community') } %>
 
   <%= partial "partials/modules_by_type", locals: {type: "auth", title: t('modules.type.auth') } %>
