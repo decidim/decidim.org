@@ -1,0 +1,8 @@
+title: URL Aliases
+url: https://github.com/OpenSourcePolitics/decidim-urlaliases
+description: "Allow admins to create url aliases for resources within a
+  Decidim::ParticipatorySpace. The module is based on the Redirector gem and
+  creates an interface for admins to manage redirect rules. Redirect rules have
+  two parts: the source defines how to match the incoming request path and the
+  destination is where to send the visitor if the match is made."
+type: community
