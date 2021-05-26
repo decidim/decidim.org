@@ -1,0 +1,6 @@
+title: Custom CSV Census
+url: https://github.com/CodiTramuntana/decidim-verifications-custom_csv_census
+description: Allow uploading a CSV file to perform verifications against data
+  that can be configured at installation level. It is inspired in Decidim File
+  Authorization Handler gem and based on the Decidim::Verifications module.
+type: auth
