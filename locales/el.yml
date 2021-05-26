@@ -230,6 +230,10 @@ el:
   partners:
     notice: Τα λογότυπα των συνεργαζόμενων οντοτήτων αποτελούν πνευματική ιδιοκτησία των αντίστοιχων κατόχων δικαιωμάτων πνευματικής ιδιοκτησίας. Δεν εμπίπτουν στην <a href="https://creativecommons.org/licenses/by-sa/4.0/">άδεια Creative Commons By-SA</a> το υπόλοιπο περιεχόμενο του ιστότοπου έχει αδειοδοτηθεί.
   modules:
+    description: Description
+    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
+    image: Image
+    name: Όνομα
     type:
       community: Κοινότητα
       auth: Εξουσιοδότηση
