@@ -230,6 +230,10 @@ pt:
   partners:
     notice: Os logotipos das entidades cooperantes são propriedade intelectual dos respectivos titulares de direitos de autor. Eles não são abrangidos pela <a href="https://creativecommons.org/licenses/by-sa/4.0/">licença Creative Commons By-SA</a> com a licença restante do conteúdo do site.
   modules:
+    description: Description
+    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
+    image: Image
+    name: Nome
     type:
       community: Comunidade
       auth: Autorização
