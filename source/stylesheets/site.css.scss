@@ -2,6 +2,9 @@
 
 @import "mixins/burger";
 
+@import "foundation/foundation";
+@include foundation-table;
+
 @import "base/fontface";
 @import "base/normalize";
 @import "base/general";
