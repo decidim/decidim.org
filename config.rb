@@ -39,5 +39,7 @@ activate :blog do |blog|
   blog.calendar_template = "blog/calendar.html"
 end
 
+activate :images
+
 # Copy Netlify's _redirects file on build
 proxy "_redirects", "netlify-redirects", ignore: true

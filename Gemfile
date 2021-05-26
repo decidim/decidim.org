@@ -10,3 +10,7 @@ gem 'middleman-blog', '~> 4.0'
 gem 'redcarpet', '~> 3.5'
 gem 'nokogiri', '~> 1.11.0'
 gem 'builder', '~> 3.0'
+
+gem 'middleman-images', '~> 0.2'
+gem 'mini_magick', '~> 4.11'
+gem 'image_optim', '~> 0.30'

@@ -19,7 +19,7 @@
         <td>
           <% if m.image %>
             <% link_to m.image do %>
-              <% image_tag m.image, alt: m.title, class: "module-list__image" %>
+              <% image_tag m.image, alt: m.title, class: "module-list__image", resize: "150x150" %>
             <% end %>
           <% end %>
         </td>
