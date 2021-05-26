@@ -4,6 +4,8 @@
 // [---] middle -> &
 // (---) bottom -> &::after
 
+$burger-height: null;
+$burger-gutter: null;
 
 // Vendor prefixes
 $sass-burger-add-vendor-prefixes: true !default;
