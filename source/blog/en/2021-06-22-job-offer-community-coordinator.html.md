@@ -50,7 +50,7 @@ If you’re worried about making lots of money quickly, this is not the best pla
 * Work from home.
 * Flexible hours to organize your schedule according to your needs.
 * Full time (35 hours per week).
-* Salary between 32k and 36k per year.
+* Salary between 32k and 36k € per year.
 * To be part of a project for the democratization of society with a global projection. And most important, together with a team of good people.
 
 ## Wishlist
