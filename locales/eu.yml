@@ -230,6 +230,10 @@ eu:
   partners:
     notice: The cooperating entities logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
   modules:
+    description: Description
+    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
+    image: Image
+    name: Izena
     type:
       community: Community
       auth: Authorization
@@ -261,6 +265,14 @@ eu:
       quote: >-
         Almost every participatory process that has come to our table, we have been able to solve it using Decidim's business rules. As a tool, it is a very strong one. However, the part that seems strongest and most important to us is its community, both developers and those who use it for participatory processes. Coexisting with them has made us appreciate the challenges involved in implementing participatory democracy in the real world.
       org: Open Government of Mexico City
+    n6:
+      quote: >-
+        We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+      org: Mozilla Foundation
+    n7:
+      quote: >-
+        The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
+      org: OpenForum Europe Research Director, European Union
   faqs:
     title: Frequently asked questions
     q01:

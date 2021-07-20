@@ -230,6 +230,10 @@ pl:
   partners:
     notice: Logo podmiotów współpracujących stanowią własność intelektualną ich odpowiednich właścicieli praw autorskich. Nie są objęte licencją <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA</a> , a reszta zawartości witryny jest licencjonowana.
   modules:
+    description: Description
+    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
+    image: Image
+    name: Nazwa
     type:
       community: Społeczność
       auth: Autoryzacja
@@ -261,6 +265,14 @@ pl:
       quote: >-
         Prawie każdy proces partycypacyjny, który dotarł do naszego stołu, udało nam się rozwiązać go za pomocą zasad biznesowych decydów. Jest to narzędzie, które jest bardzo silne. Jednak najsilniejszą i najważniejszą dla nas częścią jest jej społeczność, zarówno deweloperzy, jak i ci, którzy korzystają z niej w procesach partycypacyjnych. Współistniejące z nimi sprawiły, że doceniamy wyzwania związane z wdrażaniem demokracji uczestniczącej w świecie rzeczywistym.
       org: Otwarty rząd miasta Meksyk
+    n6:
+      quote: >-
+        We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+      org: Mozilla Foundation
+    n7:
+      quote: >-
+        The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
+      org: OpenForum Europe Research Director, European Union
   faqs:
     title: Często zadawane pytania
     q01:

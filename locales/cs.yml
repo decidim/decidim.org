@@ -230,6 +230,10 @@ cs:
   partners:
     notice: Loga spolupracujících subjektů jsou duševním vlastnictvím příslušných držitelů autorských práv. Nespadají pod licenci <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA</a>, kterou je ošetřen zbytek obsahu webu.
   modules:
+    description: Popis
+    explanation: Používáním modulů můžete rozšířit funkce Decidim a sdílet je s ostatními. Umožňují vám snadno aktualizovat v budoucnu. Podívejte se na <a href="https://docs.decidim.org/en/develop/modules/">dokumentaci pro vytvoření vašeho vlastního modulu</a>.
+    image: Obrázek
+    name: Jméno
     type:
       community: Komunita
       auth: Autorizace
@@ -261,6 +265,14 @@ cs:
       quote: >-
         Téměř každý participativní proces, který se dostal k našemu stolu, jsme dokázali vyřešit pomocí pravidel pro podnikání Decidim. Jako nástroj je velmi silný. Avšak část, která se nám zdá nejsilnější a nejdůležitější, je její společenství, jak vývojářů, tak těch, kteří ji používají k participačním procesům. Díky spolupráci s nimi jsme si cenili výzev spojených s uplatňováním participativní demokracie v reálném světě.
       org: Otevřená vláda Mexico City
+    n6:
+      quote: >-
+        Trpíme nedostatkem veřejného prostoru. Je obzvláště důležité, abychom tyto veřejné prostory získali zpět pro nás. Otevřené platformy, jako je Decidim, dělají přesně to. Je nejen to, že je open source, takže ostatní lidé ji mohou forknout, znovu použít a vybudovat proces. Má také ve způsobu, jakým je navržena, zakódovány tyto hodnoty, které chceme odrážet v naší společnosti.
+      org: Mozilla nadace
+    n7:
+      quote: >-
+        Proces byl zahájen v říjnu 2019 na oddělení Evropské komise pro komunikaci a elektronickou demokracii ve Společném výzkumném středisku, což je vědecká a znalostní služba Evropské komise. Analýza potřeb konference a toho, které nástroje jim odpovídají, vedla k výběru open source nástroje Decidim pro jeho technickou vyspělost, širokou komunitu a přizpůsobivost.
+      org: OpenForum Europe Research Director, Evropská unie
   faqs:
     title: Často kladené otázky
     q01:

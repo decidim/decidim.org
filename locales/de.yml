@@ -230,6 +230,10 @@ de:
   partners:
     notice: Die Genossenschaftslogos sind geistiges Eigentum der jeweiligen Rechteinhaber. Sie fallen nicht unter die <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA Lizenz</a> der Rest der Seite ist lizenziert.
   modules:
+    description: Description
+    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
+    image: Image
+    name: Name
     type:
       community: Gemeinschaft
       auth: Autorisierung
@@ -261,6 +265,14 @@ de:
       quote: >-
         Fast jeder partizipatorische Prozess, der an unseren Tisch gekommen ist, ist es uns gelungen, ihn nach den Geschäftsregeln von Decidim zu lösen. Als Werkzeug ist es ein sehr starkes Werkzeug. Der Teil, der uns jedoch am stärksten und am wichtigsten erscheint, ist seine Gemeinschaft, sowohl Entwickler als auch diejenigen, die es für partizipative Prozesse verwenden. Die Koexistenz mit ihnen hat uns veranlaßt, die Herausforderungen zu erkennen, die mit der Umsetzung der partizipatorischen Demokratie in der realen Welt verbunden sind.
       org: Offene Regierung von Mexiko-Stadt
+    n6:
+      quote: >-
+        We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+      org: Mozilla Foundation
+    n7:
+      quote: >-
+        The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
+      org: OpenForum Europe Research Director, European Union
   faqs:
     title: Häufig gestellte Fragen
     q01:
