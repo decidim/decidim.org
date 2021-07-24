@@ -290,30 +290,30 @@ ja:
     q04:
       question: Decidimの参加者（ユーザー）は何ができますか？
       answer: >-
-        デシディムは何千人もの人々が提案をすることによって民主的に自分自身を組織することを可能にします, 公共会議に出席します. 意思決定の議論を促進し、異なる投票形態で決定し、意思決定の実施を監視する。
+        Decidimは、何千人もの人々が、提案をしたり、公聴会に出席したり、意思決定のための議論を促進したり、さまざまな形式の投票で決定したり、決定事項の実施を監視したりすることで、民主的に組織化することを可能にしています。
     q05:
-      question: デモはありますか？今はインストールせずに Decidim を使用して、どのように動作するかを確認します。
-      answer: 'はい、format@@0(/demo) があります。'
+      question: デモはありますか？　インストールせずに Decidim を試用して、どのように動作するかを確認したいです。
+      answer: 'はい、[オンラインデモサイト](/demo) があります。'
     q06:
       question: プラットフォームはどれくらいの頻度で更新されますか?
       answer: >-
-        私たちは毎月新しいバージョンをリリースしています。format@@0(https://github.com/decidim/decidim/releases) を参照してください。
+        私たちは毎月新しいバージョンをリリースしています。[更新履歴](https://github.com/decidim/decidim/releases) を参照してください。
     q07:
       question: Decidim をインストールするには何が必要ですか?
       answer: >-
-        Decidimのインストールは簡単ですが、いくつかの知識と技術的な要件が必要です。format@@0(https://docs.decidim.org/en/install/)を参照してください。
+        Decidimのインストールは簡単ですが、多少の知識と技術的な要件が必要です。[Decidimをインストールするためのドキュメント](https://docs.decidim.org/en/install/)を参照してください。
     q08:
       question: プロジェクトのロードマップと予定されている機能はどこで確認できますか?
       answer: '[GitHubの新機能のロードマップ](https://github.com/decidim/decidim/projects/16)をご覧ください。'
     q09:
-      question: 'デシジムが無料で、「リブレ」とオープンソースであることは何を意味するのでしょうか?'
+      question: 'Decidimが自由、「リブレ(libre)」、オープンソースであることは何を意味するのでしょうか?'
       answer: >-
-        デシディムは、人々や人々が市民に参加するためのプラットフォームです。 ソースコードはオープンで誰でも閲覧、修正、拡張ができます。Decidim ソフトウェアは [AGPL ライセンス](https://en) でカバーされています。 ikipedia.org/wiki/GNU_Affero_General_Public_License). つまり、AGPL ライセンスを尊重する限り、それを使用し、それを修正し、派生したバージョンを再配布することができます。
+        Decidimは、人々によって、人々のために作られた、市民参加型のプラットフォームです。ソースコードは公開されており、誰でも閲覧、修正、改良することができます。Decidimのソフトウェアには、[AGPLライセンス](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)が適用されています。つまり、AGPLライセンスを尊重する限り、使用、変更、派生版の再配布が可能です。
     q10:
       question: >-
-        新しい改善機能のアイデアがあります。プロジェクトについてもっと理解したいです。どうしたらいいですか？
+        新しい機能改善のアイデアがあります。プロジェクトについてもっと理解したいです。どうしたらいいですか？
       answer: >-
-        あなたは複数の方法でコラボレーションすることができます。その一つは [Metadecidim](http://meta.decidim.org) コミュニティを通じて行うことができます。新しい機能を提案したい場合は、format@@1(https://meta) ecidim.org/processes/roadmap). エラーを検出し、通知したい場合は、[Metadecidim](https://meta.decidim.org/processes/bug-report?locale=es) Metadecidimコミュニティに積極的に参加したい場合は、毎月[Metadecidim Operative Sessions](https://meta) に参加できます。 ecidim.org/assemblies/eix-comunitat). コミュニティの参加者として登録し、私たちと一緒に参加してください。 もしあなたのものがコードの場合、[Metadecidim](https://github.com/decidim/decidim)format@@1(https://github.com/decidim)。もしあなたが研究者なら、[LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab)に興味があるかもしれません。
+        いろいろな方法でコラボレーションすることができます。その一つは [Metadecidim](http://meta.decidim.org) コミュニティを通じて行うことができます。新しい機能を提案したい場合は、[こちらをどうぞ](https://meta.decidim.org/processes/roadmap). エラーを検出し、通知したい場合は、[このプロセスにご参加ください](https://meta.decidim.org/processes/bug-report)。Metadecidimコミュニティに積極的に参加したい場合は、毎月[Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat)に参加できます。 コミュニティの参加者として登録し、私たちと一緒に参加してください。 もしあなたのものがコードの場合、[Githubにお越しください](https://github.com/decidim/decidim)。もしあなたが研究者なら、[LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab)に興味があるかもしれません。
     q11:
       question: 私は多くの疑問を持っています。すべての種類の...私は彼らに尋ねるか、それらを解決することができますか?
       answer: >-
