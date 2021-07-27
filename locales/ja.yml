@@ -14,73 +14,73 @@ ja:
     features: '機能'
     faqs: 'よくある質問'
     contact: 'お問い合わせ'
-    used_by: '使用中のデシーム'
-    partners: '協力エンティティ'
+    used_by: '使用中のDecidim'
+    partners: '協力団体'
     modules: 'モジュール'
     press: 'プレス'
   alert:
-    title: 'デシム・フェスト2020 :: 緊急時の民主主義とテクノロジー | 11月18日、19日、20日に開催されるデシム・フェスト2020'
+    title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
     subtitle: '通話に参加する'
-    link: https://meta.decidim.org/conferences/decidimfest2020/f/1338/
-    desc: 'DecidimFestは、Decidimプロジェクトに専念する3日間の強力な活動プログラムです。 世界民主主義の時代における集合知のための参加型民主主義とオープンソースのツール。'
+    link: https://meta.decidim.org/conferences/DecidimFest21/f/1615/
+    desc: 'DecidimFestは、 ブローバルな民主主義の時代における集合知のための参加型民主主義とそのためのオープンソースのツールからなるDecidimプロジェクトに専念する3日間の強力な活動プログラムです。'
   index:
     hero:
-      heading: '都市と組織のための自由なオープンソース参加型民主主義、'
-      subheading: 'デシウムは市民参加のためのデジタルプラットフォーム<br/>です'
-      intro: '自由で安全な技術。<br/><br/>民主主義の再プログラミングがDecidimで可能になりました。'
+      heading: '都市や組織のための自由なオープンソース参加型民主主義'
+      subheading: 'Decidimは市民参加のための<br/>デジタルプラットフォームです'
+      intro: '自由で安全な技術。<br/>民主主義の再構築（Reprogramming）が<br/>Decidimで可能になりました。'
     video:
       play: '動画を再生'
       url: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
-      close: 'ビデオを閉じる'
+      close: '動画を閉じる'
     subhero:
-      intro: 'デシディムは、市民、組織、公的機関があらゆる規模で民主的に自己組織化するのを支援します。'
-      feature1: '戦略<br/>計画'
-      feature2: '参加予算<br/>'
+      intro: 'Decidimは、市民、組織、公的機関があらゆる規模で民主的に自己組織化するのを支援します。'
+      feature1: '戦略立案'
+      feature2: '参加型予算'
       feature3: 'イニシアチブと<br/>市民相談'
       feature4: '参加型<br/>プロセス'
       feature5: '参加スペース'
-      feature6: 'ネットワーク<br/>通信'
+      feature6: 'ネットワークと<br/>コミュニケーション'
     used_by:
-      title: '彼らは既にDecidimを使用しています'
-      cta: 'すべて見る'
+      title: 'Decidimは広く使われています'
+      cta: 'すべて表示'
     cta:
-      title: '今日からデシウムを使い始めましょう'
+      title: 'Decidimをお試しください'
     button:
-      code: 'Github でコード'
+      code: 'GitHub上のコード'
   footer:
-    driven_by: '販促者'
+    driven_by: '後援'
     attribution: '- Creative Commons BY-SA'
   demo:
     title: オンラインデモ
-    p1: 私たちのオンラインデモで周りを再生し、自由にDecidimプラットフォームを探索してください。
-    p2: デシウムはあなたが訪問し、探索することができるいくつかのインスタンスで稼働しています。 <a href="http://decidim.barcelona" target="_blank">バルセロナのデシム バルセロナ</a> または <a href="https://participa.gavaciutat.cat/" target="_blank">Gava<unk></a> と <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>のサイトを訪れることができます。 しかし、これらはあなたが実際に自由に遊ぶことができない本当の例です。 あなたはそれらの自治体の市民ではないかもしれませんし、管理者としてそれらのサイトを探索することはできません。
-    p3: さらに進みたい場合は、Decidimデモサイト( <a href="http://alabs.org" target="_blank">aLabs</a>にて開発者の方々をお待ちしております)でDecidimをテストしていただけます。 デモサイトに入って、Decidimの可能性とその特徴を自由に探索してください。
-    p4: You can log in as <strong>Admin</strong> (username "<strong>admin@example.org</strong>" and password "<strong>decidim123456</strong>").
+    p1: オンラインデモを利用して、Decidimプラットフォームを自由に触れてみてください
+    p2: Decidimが稼働しているいくつかのインスタンスには、あなたも訪問し、探索することができます。 バルセロナ市の<a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a>や、 <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> 、<a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>のサイトを訪れることができます。 しかし、これらは実際に使われている本物のインスタンスであり、実際の自治体の市民でなければお使いいただけるものではありません。また、管理者としてそれらのサイトを探索することもできません。
+    p3: さらに詳しく知りたい場合は、Decidimデモサイト( <a href="http://alabs.org" target="_blank">aLabs</a>にて開発者の方々をお待ちしております)でDecidimをテストしていただけます。 デモサイトに入って、Decidimの可能性とその特徴を自由に探索してください。
+    p4: <strong>Admin</strong>としてログインできます (username "<strong>admin@example.org</strong>", password "<strong>decidim123456</strong>").
     button: オンラインデモ
   community:
     title: 'Metadecidim, our community'
-    subtitle: 'あらゆる面でデシディムプロジェクトを管理する民主的なコミュニティ'
+    subtitle: 'Decidimプロジェクトをあらゆる面で統括する民主的コミュニティ'
     intro: 'Metadecidimはプラットフォームの設計とプロジェクトの構築に協力するコミュニティです。 プラットフォームを継続的に改善するために、新しい機能とレポートのバグを設計・開発できます。'
-    cta: '始めよう'
+    cta: '参加する'
     features:
-      title: '新機能を提案'
-      subtitle: 'すべての間でデシウムを設計し、開発するには'
+      title: '新機能の提案'
+      subtitle: 'Decidimを設計し、開発するには'
       text: 'Decidimの将来についての議論を作成したり、新機能や改善点を提案したりできます。 提案は、例えば、コミュニティの中で関心を喚起し、彼らの開発を重視するように、推薦やコメントを受け取ることができます。 スポンサーを持つ提案（市議会やその他の団体など） 開発を遂行するために必要なリソースを求め、提供する責任は、プロジェクトのために役立つでしょう。'
       cta: '今すぐ参加する'
     bug:
-      title: 'バグを報告'
-      subtitle: 'プログレッシブ改善のためのコラボレーション'
+      title: 'バグの報告'
+      subtitle: '漸進的改善のためのコラボレーション'
       text: 'Decidim の新しいリリースには、新機能とユーザビリティの向上が組み込まれていますが、最初はすべてが機能するわけではなく、エラーが発生する可能性があります。 ここでは、見つけたバグを報告し、開発者が迅速に修正できるようにすることができます。'
       cta: '今すぐ参加する'
-    img_alt: 'Metadecidim Meeting 2016 デシム コミュニティ 写真'
+    img_alt: 'Metadecidim Meeting 2016 でのDecidimコミュニティの写真'
     timeline:
       title: '機能の共同設計'
       step1:
         title: '新しい提案'
-        text: '機能的な説明'
+        text: '機能の説明'
       step2:
         title: '検証済みの提案'
-        text: '技術的・技術的検証'
+        text: '技術的・技術-政治的(technopolitical) 検証'
       step3:
         title: '計画された提案'
         text: '開発のためのリソース (共有または非公開)'
@@ -91,45 +91,45 @@ ja:
         title: 'Pull request'
         text: '開発されたコード'
       step6:
-        title: 'Funcionality done'
+        title: '機能の完成'
         text: '次のバージョンで使用可能'
   contact:
     title: お問い合わせ
-    bot_field: "人間である場合はこれを記入しないでください："
+    bot_field: "人間である場合はここを記入しないでください："
     name: 名前
-    entity: エンティティ
+    entity: 所属
     email: Eメールアドレス
     subject: 件名
-    message: メッセージ
+    message: 本文
     send: 送信
   thanks:
-    title: メールアドレスに感謝します。
-    message: ご連絡いただきありがとうございます。すぐにご連絡いたします。
+    title: お問い合わせありがとうございます
+    message: ご連絡いただきありがとうございます。折返しご連絡いたします。
   features:
     title: '機能'
-    intro: '<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...</p><p>Thanks to Decidim you will be able to configure spaces for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).</p>'
+    intro: '<p>Decidimは、市議会、協会、大学、NGO、労働組合、近隣の共同体や協同組合など、数百人から数千人以上の参加者を想定した公共または民間の組織で使用できます。</p><p>Decidimによって、参加のための空間 (イニシアチブ、集会、プロセス、協議) を構成し、利用可能な複数のコンポーネント (オフラインでのミーティング、アンケート、提案、投票、結果のフォローアップ、コメントなど) を通じて、それらを充実させることができます。</p>'
     list:
       n1:
-        title: '参加<br/>予算'
-        content: '提出された提案を分析し、共通の資源を分配する新しい方法を促進します。'
+        title: '参加型予算'
+        content: '提出された提案を分析し、共有資源を分配する新しい方法を促進します。'
       n2:
         title: '市民のイニシアチブ<br/>と相談'
-        content: '市民イニシアチブを通じてあなたのコミュニティを強化します。協議を通じて関連する投票を促進します。'
+        content: '市民イニシアチブを通じてあなたのコミュニティをサポートします。協議を通じて関連する投票を促進します。'
       n3:
-        title: '政治ネットワークの力<br/>'
-        content: '何千人もの人々がリアルタイムで参加している、大規模な次元への審議、コラボレーション、そして決定が必要です。'
+        title: '政治ネットワーク<br/>の力'
+        content: '何千人もの人々がリアルタイムに参加することで、熟議、コラボレーション、決定を大規模な次元で行うことができます。'
       n4:
-        title: '民主的で柔軟なシステム<br/>'
-        content: 'モジュラーアーキテクチャとスケーラブルなロジックのおかげで、あらゆる種類の組織における民主的ガバナンスの強力なシステムを構成することができます。'
+        title: '民主的で<br/>柔軟なシステム'
+        content: 'モジュール化されたアーキテクチャとスケーラブルなロジックにより、あらゆる種類の組織における民主的ガバナンスの強力なシステムを構成することができます。'
       n5:
-        title: '私たちは民主主義<br/>を非常に真剣に受け止めています'
+        title: '私たちは民主主義<br/>を真摯に受け止めています'
         content: 'Decidimは、これまでにないような情報の透明性、トレーサビリティと整合性を保証します。すべての参加者にセキュリティ、プライバシーと機密性を提供します。'
       n6:
-        title: "あなたのものです。<br/>シェアして改善しましょう。"
-        content: 'コミュニティMetadecidimのおかげで、完全に無料のソフトウェア、オープンで共同作業のコンテンツで設計されたプラットフォーム。'
+        title: "あなたも参加できます。<br/>シェアして改善しましょう。"
+        content: 'Metadecidimコミュニティによる、自由なソフトウェアとオープンでコラボレーティブなコンテンツで設計されたプラットフォーム。'
       cta:
         features: 'すべての機能を見る'
-        values: 'ソーシャルコントラクトに移動'
+        values: '社会契約に移動'
     page:
       feature1:
         title: '参加型プロセス'
@@ -168,7 +168,7 @@ ja:
           結果コンポーネントは、提案を結果に変換し、それらの受け入れまたは拒否に関する公式の回答を与えるために使用されます. さまざまな提案を一つの結果にまとめています
       feature8:
         title: 'アカウンタビリティ'
-        subtitle: '最初から最後までの透明性は'
+        subtitle: '最初から最後まで一貫した透明性'
         text: >-
           アカウンタビリティコンポーネントは、結果をプロジェクトに分割し、その実装に関する進捗状況を定義し、適用する可能性を提供します。 カテゴリとスコープごとにグループ化された結果の実装の範囲を表示することもできます。
       feature9:
@@ -225,10 +225,10 @@ ja:
     other:
       subtitle: 'コンポーネントを組み合わせることを恐れています。強力な民主的なシステムを簡単な方法で設計し、組織のニーズに適応させます。'
     cta:
-      title: 'Decidimがどのように深く機能するかを発見する'
-      button: '機能と機能'
+      title: 'Decidimがどのように機能するか詳細を知る'
+      button: '機能と特徴'
   partners:
-    notice: 協力する団体のロゴは、それぞれの著作権者の知的財産権です。 それらは <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA ライセンス</a> に該当するものではありません。
+    notice: 協力団体のロゴは、それぞれの著作権者による知的財産権です。 これらは <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA ライセンス</a> が適用されるものではありません。
   modules:
     description: 説明
     explanation: モジュールを使用することで、Decidimの機能を拡張し、他の人と共有することができます。 将来的に簡単にアップグレードできるようになります。 <a href="https://docs.decidim.org/en/develop/modules/">独自のモジュール</a> を作るためのドキュメントを参照してください。
@@ -247,42 +247,42 @@ ja:
   testimonials:
     n1:
       quote: >-
-        Decidimのおかげで、バルセロナでは市民と共に戦略的な都市計画を作成することができました。 2016では、デシド・バルセロナを通じて参加プロセスの形で市町村行動計画を発足しました。 現在、この計画には、ほぼ7千人の市民の提案が含まれています。 このプラットフォームを使用する利点の一つは、あなたが承認された提案の実装の状態を常に監視することができることです。
+        Decidimのおかげで、バルセロナでは市民と一緒に戦略的な都市計画を共同制作することができました。2016年には、Decidim Barcelonaによる参加型プロセスの形で、市のアクションプランを発足させました。現在、この計画には約7,000件の市民提案が含まれています。このプラットフォームを利用するメリットのひとつは、承認された提案の実施状況をいつでもモニターできることです。
       org: バルセロナ シティホール (2015-2019)
     n2:
       quote: >-
-        Som Energia で Decidim の実装により、私たちは参加のためのより優しいスペースを生成しました。 2018年にこのツールをリリースしました。 協同組合総会を主催し、数ヶ月後には、Som Energiaのイメージ再設計と共同開発について議論しました。 他の参加者の過程の中で 数ヶ月で、3,500人以上の参加者が登録し、5つの参加プロセスがあります。 前回の総会投票では、3つの会合が運営され、1,300以上の票が得られました。
+        Som Energia で Decidim の実装により、私たちは参加のためのより優しいスペースを生成しました。 2018年にこのツールをリリースしました。 協同組合総会を主催し、数ヶ月後には、Som Energiaのイメージ再設計と共同開発について議論しました。 他の参加者の過程の中で、 数ヶ月で3,500人以上の参加者が登録し、5つの参加プロセスができました。 前回の総会投票では、3つの会合が運営され、1,300以上の票が得られました。
       org: Som Energia
     n3:
       quote: >-
-        決定Me'ridaデジタルプラットフォームは、2018-2021の市町村開発計画の策定のための市民参加のメカニズムの前に開かれた機会でした。 私たちは、提案、コメントを含む3,000人以上の市民とのやり取りを行いました。 我々の街にとって何が最善なのかについて可能な限り最高のコンセンサスを達成することを提案し支持します 決定Méridaプラットフォームは、ますます参加的な社会にするための私たちの同盟者であり続けるでしょう。
-      org: メキシコ、メイダユーカータインの市長、メキシコ、メイダユーカータインの市議会。
+        デジタルプラットフォーム「Decide Mérida」は、メリダ市開発計画2018-2021の策定において、市民参加の仕組みをかつてないほどに開放する機会となりました。提案、コメント、提案、支援など、3,000人以上の市民が参加し、私たちの街にとって何がベストなのか、可能な限り高いコンセンサスを得ることができました。Decide Méridaプラットフォームは、メリダをますます参加しやすい社会にするための味方であり続けることは間違いありません。
+      org: メキシコ、ユカタン州メリダ市の市長。メキシコ・ユカタン州メリダ市議会
     n4:
       quote: >-
-        私たちが感謝しているのは、民主主義を念頭に置いて構築されていることであり、したがって、民主主義は大きな焦点となっています。 説明責任、平等、透明性などの民主主義の原則がデザインの中心にあります。
+        私たちが評価しているのは、民主主義を念頭に置いて作られているため、民主主義が大きな焦点となっていることです。説明責任、平等性、透明性といった民主主義の原則が、設計の中核をなしています。
       org: ヘルシンキ市
     n5:
       quote: >-
-        私たちのテーブルに来たほとんどすべての参加プロセスは、Decidimのビジネスルールを使用してそれを解決することができました。 道具として、それは非常に強いものです。 しかし、私たちにとって最も強く、最も重要と思われる部分は、そのコミュニティ、開発者、そしてそれを参加型プロセスに使用する人々です。 彼らと共存することで、現実の世界で参加型民主主義を実施する上での課題を評価することができました。
-      org: 開放的なメキシコシティ
+        私たちのテーブルに来たほとんどすべての参加型プロセスは、Decidimのビジネスルールを使って解決することができました。ツールとしては非常に強力なものです。しかし、私たちにとって最も強力で重要な部分は、開発者と参加型プロセスに使用している人たちの両方のコミュニティです。彼らと共存することで、現実の世界で参加型民主主義を実現するための課題を理解することができました。
+      org: メキシコシティでのオープンガバメント
     n6:
       quote: >-
-        私たちは公共空間の欠如に苦しんでいます特に重要なのは 公共空間を取り戻すことです Decidimのようなオープンなプラットフォームはまさにそれを行います。 他の人々がそれをフォークし、それを再利用し、プロセスを構築できるように、それはオープンソースであるだけではありません。 また私たちがデザインされた社会に反映したいという価値観もあります
+        私たちは、パブリックスペースの不足に悩まされています。このようなパブリックスペースを自分たちのために取り戻すことは特に重要です。Decidimのようなオープンプラットフォームはまさにそれを可能にします。Decidimはオープンソースなので、他の人がフォークして再利用したり、プロセスを構築したりできるだけではありません。それに加えて、私たちが社会に反映させたいと考えている価値観がデザインされているのです。
       org: Mozilla Foundation
     n7:
       quote: >-
-        このプロセスは、2019年10月に欧州委員会のDGコミュニケーションおよびeDemocracyユニットの共同研究センターで始まりました。 欧州委員会の科学と知識サービスです 会議のニーズとそれらに適したツールの分析 技術的成熟度、幅広いコミュニティ、適応性のためのオープンソースツールDecidimを選択することにつながります。
-      org: OpenForum Europe Research Director Europe(欧州連合)
+        このプロセスは、2019年10月に欧州委員会の科学・知識サービスである共同研究センターのコミュニケーション総局とeDemocracyユニットで始まりました。会議のニーズを分析し、どのツールがそれに適合するかを検討した結果、技術的な成熟度、幅広いコミュニティ、適応性を考慮して、オープンソースのツールDecidimを選択しました。
+      org: オープンフォーラム・ヨーロッパ リサーチ・ディレクター, 欧州連合（EU）
   faqs:
     title: よくある質問
     q01:
-      question: Decidimとは?
+      question: Decidimとは何ですか?
       answer: >-
-        デシディムは、都市や組織のための自由なオープンソース参加型民主主義プラットフォームです。 しかし、Decidimはデジタルプラットフォーム以上のものであり、コード、ドキュメントを含むコモンズの無料でオープンなプロジェクトとインフラストラクチャです。 デザイン、トレーニングコース、法的枠組み、コラボレーションインターフェイス、ユーザーと円滑化コミュニティ、そして共通のビジョン。
+        Decidimは、都市や組織のための自由でオープンソースの参加型民主主義プラットフォームです。しかし、Decidimは単なるデジタルプラットフォームではありません。コード、ドキュメント、デザイン、トレーニングコース、法的枠組み、コラボレーションインターフェース、ユーザーとファシリテーションコミュニティ、そして共通のビジョンを含む、共有のフリーでオープンなプロジェクトとインフラなのです。
     q02:
-      question: 現在Decidimを使用しているのは誰ですか?
+      question: 現在Decidimはどのような人々に使われていますか?
       answer: >-
-        現在、都市や組織で使用されています。 実際、NGO、大学、労働組合、協同組合、近隣団体など、どのグループでも利用できます。 format@@0(/usedby/) を確認してください。
+        現在、都市や組織で使用されています。 実際、NGO、大学、労働組合、協同組合、近隣団体など、どのグループでも利用できます。 [現在稼働しているインスタンスの一覧](/usedby/) を確認してください。
     q03:
       question: Decidimの管理者は何ができますか?
       answer: >-
@@ -290,30 +290,30 @@ ja:
     q04:
       question: Decidimの参加者（ユーザー）は何ができますか？
       answer: >-
-        デシディムは何千人もの人々が提案をすることによって民主的に自分自身を組織することを可能にします, 公共会議に出席します. 意思決定の議論を促進し、異なる投票形態で決定し、意思決定の実施を監視する。
+        Decidimは、何千人もの人々が、提案をしたり、公聴会に出席したり、意思決定のための議論を促進したり、さまざまな形式の投票で決定したり、決定事項の実施を監視したりすることで、民主的に組織化することを可能にしています。
     q05:
-      question: デモはありますか？今はインストールせずに Decidim を使用して、どのように動作するかを確認します。
-      answer: 'はい、format@@0(/demo) があります。'
+      question: デモはありますか？　インストールせずに Decidim を試用して、どのように動作するかを確認したいです。
+      answer: 'はい、[オンラインデモサイト](/demo) があります。'
     q06:
       question: プラットフォームはどれくらいの頻度で更新されますか?
       answer: >-
-        私たちは毎月新しいバージョンをリリースしています。format@@0(https://github.com/decidim/decidim/releases) を参照してください。
+        私たちは毎月新しいバージョンをリリースしています。[更新履歴](https://github.com/decidim/decidim/releases) を参照してください。
     q07:
       question: Decidim をインストールするには何が必要ですか?
       answer: >-
-        Decidimのインストールは簡単ですが、いくつかの知識と技術的な要件が必要です。format@@0(https://docs.decidim.org/en/install/)を参照してください。
+        Decidimのインストールは簡単ですが、多少の知識と技術的な要件が必要です。[Decidimをインストールするためのドキュメント](https://docs.decidim.org/en/install/)を参照してください。
     q08:
       question: プロジェクトのロードマップと予定されている機能はどこで確認できますか?
       answer: '[GitHubの新機能のロードマップ](https://github.com/decidim/decidim/projects/16)をご覧ください。'
     q09:
-      question: 'デシジムが無料で、「リブレ」とオープンソースであることは何を意味するのでしょうか?'
+      question: 'Decidimが自由、「リブレ(libre)」、オープンソースであることは何を意味するのでしょうか?'
       answer: >-
-        デシディムは、人々や人々が市民に参加するためのプラットフォームです。 ソースコードはオープンで誰でも閲覧、修正、拡張ができます。Decidim ソフトウェアは [AGPL ライセンス](https://en) でカバーされています。 ikipedia.org/wiki/GNU_Affero_General_Public_License). つまり、AGPL ライセンスを尊重する限り、それを使用し、それを修正し、派生したバージョンを再配布することができます。
+        Decidimは、人々によって、人々のために作られた、市民参加型のプラットフォームです。ソースコードは公開されており、誰でも閲覧、修正、改良することができます。Decidimのソフトウェアには、[AGPLライセンス](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)が適用されています。つまり、AGPLライセンスを尊重する限り、使用、変更、派生版の再配布が可能です。
     q10:
       question: >-
-        新しい改善機能のアイデアがあります。プロジェクトについてもっと理解したいです。どうしたらいいですか？
+        新しい機能改善のアイデアがあります。プロジェクトについてもっと理解したいです。どうしたらいいですか？
       answer: >-
-        あなたは複数の方法でコラボレーションすることができます。その一つは [Metadecidim](http://meta.decidim.org) コミュニティを通じて行うことができます。新しい機能を提案したい場合は、format@@1(https://meta) ecidim.org/processes/roadmap). エラーを検出し、通知したい場合は、[Metadecidim](https://meta.decidim.org/processes/bug-report?locale=es) Metadecidimコミュニティに積極的に参加したい場合は、毎月[Metadecidim Operative Sessions](https://meta) に参加できます。 ecidim.org/assemblies/eix-comunitat). コミュニティの参加者として登録し、私たちと一緒に参加してください。 もしあなたのものがコードの場合、[Metadecidim](https://github.com/decidim/decidim)format@@1(https://github.com/decidim)。もしあなたが研究者なら、[LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab)に興味があるかもしれません。
+        いろいろな方法でコラボレーションすることができます。その一つは [Metadecidim](http://meta.decidim.org) コミュニティを通じて行うことができます。新しい機能を提案したい場合は、[こちらをどうぞ](https://meta.decidim.org/processes/roadmap). エラーを検出し、通知したい場合は、[このプロセスにご参加ください](https://meta.decidim.org/processes/bug-report)。Metadecidimコミュニティに積極的に参加したい場合は、毎月[Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat)に参加できます。 コミュニティの参加者として登録し、私たちと一緒に参加してください。 もしあなたのものがコードの場合、[Githubにお越しください](https://github.com/decidim/decidim)。もしあなたが研究者なら、[LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab)に興味があるかもしれません。
     q11:
       question: 私は多くの疑問を持っています。すべての種類の...私は彼らに尋ねるか、それらを解決することができますか?
       answer: >-
@@ -353,7 +353,7 @@ ja:
       answer: >-
         はい、しかし、あなたは忍耐強くなければなりません。 現在Decidimを使用したいと考えている機関はたくさんありますが、私たちは彼らを一歩一歩一歩手助けしています。 format@@0(/contact) で質問があれば、できるだけ早くお答えします。
     q21:
-      question: デシウム協会とは？
+      question: Decidim Associationとは何ですか？
       answer: >-
         "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) は、Decidim コミュニティのガバナンスのための民主的な団体です。
     q22:
@@ -365,6 +365,6 @@ ja:
       answer: >-
         これでプロジェクトに関わる人たちはパートナーになれます。format@@0(https://meta.decidim.org/assembles/QuieroSerSocia?locale=es)
     q24:
-      question: デシダム協会はいつ生まれたのですか。
+      question: Decidim Associationはいつ発足したのですか。
       answer: >-
         Associacio's [Decidim is found on February 16, 2019 in an experent assembly of the community](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169) with the organization statites.
