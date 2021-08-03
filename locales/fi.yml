@@ -19,10 +19,10 @@ fi:
     modules: 'Moduulit'
     press: 'Lehdistö'
   alert:
-    title: 'Decidim Fest 2021 :: Demokratia, Teknologia ja globaali oikeustiede 20, 21. ja 22. lokakuuta'
+    title: 'Decidim Fest 2021 :: Demokratia, teknologia ja globaali oikeudenmukaisuus | 20.-22. lokakuuta'
     subtitle: 'Liity mukaan'
     link: https://meta.decidim.org/conferences/DecidimFest21/f/1615/
-    desc: 'DecidimFest on intensiivinen 3 päivän toiminnan täyteinen Decidim-hankkeelle omistettu tapahtuma, kollektiivista osallistuvaa demokratiaa ja avoimen lähdekoodin työkaluja globaalin demokratian aikakaudella.'
+    desc: 'DecidimFest on intensiivinen kolmipäiväinen toiminnan täyteinen Decidim-hankkeelle omistettu tapahtuma, osallistuvaa demokratiaa ja avoimen lähdekoodin työkaluja globaalin demokratian aikakaudella.'
   index:
     hero:
       heading: 'Vapaa avoimen lähdekoodin osallistuvan demokratian työkalu kaupungeille ja organisaatioille'
@@ -230,9 +230,9 @@ fi:
   partners:
     notice: Yhteistyötoimijoiden logot ovat kyseisten yhteisöjen aineetonta omaisuutta ja kyseisten toimijoiden tekijänoikeuksien alaisia. Ne eivät ole <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA -lisenssin</a> alaisia materiaaleja, kuten muu tämän sivuston sisältö.
   modules:
-    description: Description
-    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
-    image: Image
+    description: Kuvaus
+    explanation: Käyttämällä moduuleita voit laajentaa Decidimin toiminnallisuuksia ja jakaa toiminallisuuksia muiden Decidim-käyttäjien kanssa. Moduulit helpottavat Decidimin päivittämistä tulevaisuudessa. Tutustu <a href="https://docs.decidim.org/en/develop/modules/">dokumentaatioon omien moduulien rakentamisesta</a>.
+    image: Kuva
     name: Nimi
     type:
       community: Yhteisö
@@ -267,12 +267,12 @@ fi:
       org: Méxicon kaupungin avoin hallinto
     n6:
       quote: >-
-        We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+        Kärsimme julkisen tilan puutteesta. On erityisen tärkeää, että saamme takaisin nämä julkiset tilat ihmisille. Avoimet alustat, kuten Decidim, mahdollistavat juuri tämän. Avoimen lähdekoodin ansiosta kuka tahansa voi käyttää alustaa hyödykseen, muokata sitä ja rakentaa sillä prosesseja. Tämän lisäksi hanke edustaa niitä arvoja, joita haluamme yhteiskuntamme edustavan ja joita varten yhteiskuntamme on rakennettu.
       org: Mozilla Foundation
     n7:
       quote: >-
-        The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
-      org: OpenForum Europe Research Director, European Union
+        Prosessi alkoi lokakuussa 2019 Euroopan komission viestintä- ja eDemokratia-yksikössä yhteisessä tutkimuskeskuksessa, Euroopan komission tiede- ja osaamispalvelussa. Konferenssin tarpeiden analysointi ja erilaisten työkalujen vertaaminen johtivat avoimen lähdekoodin Decidim-työkalun valitsemiseen sen teknisen kypsyyden, laajan yhteisön ja soveltamiskyvyn takia.
+      org: OpenForum Europe tutkimusjohtaja, Euroopan unioni
   faqs:
     title: Usein kysytyt kysymykset
     q01:
