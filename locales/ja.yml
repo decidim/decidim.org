@@ -25,21 +25,21 @@ ja:
     desc: 'DecidimFestは、 ブローバルな民主主義の時代における集合知のための参加型民主主義とそのためのオープンソースのツールからなるDecidimプロジェクトに専念する3日間の強力な活動プログラムです。'
   index:
     hero:
-      heading: '都市や組織のための自由なオープンソース参加型民主主義'
+      heading: '都市や組織のための自由でオープンソースの直接参加型民主主義'
       subheading: 'Decidimは市民参加のための<br/>デジタルプラットフォームです'
-      intro: '自由で安全な技術。<br/>民主主義の再構築（Reprogramming）が<br/>Decidimで可能になりました。'
+      intro: '自由で安全なテクノロジー。<br/>民主的な意思決定の保証によって。<br/>民主主義の再構築（Reprogramming）がDecidimで可能になります。'
     video:
       play: '動画を再生'
       url: 'https://www.youtube.com/embed/f6JMgJAQ2tc'
       close: '動画を閉じる'
     subhero:
-      intro: 'Decidimは、市民、組織、公的機関があらゆる規模で民主的に自己組織化するのを支援します。'
-      feature1: '戦略立案'
-      feature2: '参加型予算'
-      feature3: 'イニシアチブと<br/>市民相談'
-      feature4: '参加型<br/>プロセス'
-      feature5: '参加スペース'
-      feature6: 'ネットワークと<br/>コミュニケーション'
+      intro: 'Decidim は、市民、組織、公的機関が民主的に自律するのを、小さな単位から大きな単位まで支援します。'
+      feature1: '戦略的な計画立案'
+      feature2: '直接参加型の予算編成'
+      feature3: '市民の自発と相談'
+      feature4: '直接参加型のプロセス'
+      feature5: '直接参加型の機関'
+      feature6: 'コミュニケーションの<br/>ネットワーク'
     used_by:
       title: 'Decidimは広く使われています'
       cta: 'すべて表示'
@@ -137,7 +137,7 @@ ja:
         text: >-
           プロセスは、様々な参加プロセスを作成、アクティブ/非アクティブ化、および管理することができる空間です。 これらは、すべてのコンポーネントを組み込むことができる異なるフェーズで構成されていることによって、他の空間と区別されます。 参加プロセスの例としては、委員会のメンバーの選挙プロセス、参加予算、戦略計画プロセスなどが挙げられます。 規則や規範の共同執筆都市空間の設計 あるいは公共政策計画の作成
       feature2:
-        title: '参加スペース'
+        title: '直接参加型の機関'
         subtitle: '集団的自己組織化の力は'
         text: >-
           意思決定機関またはグループ(協議会、ワーキンググループ、委員会など)の設置の可能性を提供する空間である。 定期的に集まり構成を詳細に記録し 会合の位置を特定し 参加することができます(例えば:集合体の座席数と性格が許された場合に出席すること)。 議題に項目を追加したり、その体がとった提案や決定についてコメントしたり)。
@@ -286,13 +286,13 @@ ja:
     q03:
       question: Decidimの管理者は何ができますか?
       answer: >-
-        参加プロセスを簡単に設定できます。戦略プランを作成しますか？ または新しい規則について議論するか? または一般的な善を達成するために新しい広場、又は公的な建物を議論するか? Decidimのおかげで、参加スペースを設定することができます（イニシアティブ、アセンブリ） プロセスまたは相談) 複数の利用可能なコンポーネント(対面ミーティング、アンケート、提案、投票、結果のフォローアップ、コメントなど)を通じてそれらを豊かにします。
+        参加型プロセスを簡単に構成することができます。戦略的な計画を立てたいですか？あるいは新しい規制について議論したいですか？あるいは、共通の利益を達成するために、新しい広場や公共の建物について話し合いたいですか？Decidimを使えば、参加スペース（イニシアチブ、アセンブリー、プロセス、協議）を構成し、利用可能な複数のコンポーネント（対面のミーティング、アンケート、提案、投票、結果のフォローアップ、コメントなど）を通じて、参加スペースを充実させることができます。
     q04:
       question: Decidimの参加者（ユーザー）は何ができますか？
       answer: >-
         Decidimは、何千人もの人々が、提案をしたり、公聴会に出席したり、意思決定のための議論を促進したり、さまざまな形式の投票で決定したり、決定事項の実施を監視したりすることで、民主的に組織化することを可能にしています。
     q05:
-      question: デモはありますか？　インストールせずに Decidim を試用して、どのように動作するかを確認したいです。
+      question: デモサイトはありますか？インストールせずに Decidim を試用して、どのように動作するかを確認したいです。
       answer: 'はい、[オンラインデモサイト](/demo) があります。'
     q06:
       question: プラットフォームはどれくらいの頻度で更新されますか?
@@ -313,58 +313,58 @@ ja:
       question: >-
         新しい機能改善のアイデアがあります。プロジェクトについてもっと理解したいです。どうしたらいいですか？
       answer: >-
-        いろいろな方法でコラボレーションすることができます。その一つは [Metadecidim](http://meta.decidim.org) コミュニティを通じて行うことができます。新しい機能を提案したい場合は、[こちらをどうぞ](https://meta.decidim.org/processes/roadmap). エラーを検出し、通知したい場合は、[このプロセスにご参加ください](https://meta.decidim.org/processes/bug-report)。Metadecidimコミュニティに積極的に参加したい場合は、毎月[Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat)に参加できます。 コミュニティの参加者として登録し、私たちと一緒に参加してください。 もしあなたのものがコードの場合、[Githubにお越しください](https://github.com/decidim/decidim)。もしあなたが研究者なら、[LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab)に興味があるかもしれません。
+        いろいろな方法でコラボレーションすることができます。その一つは [Metadecidim](http://meta.decidim.org) コミュニティを通じて行うことができます。新しい機能を提案したい場合は、[こちらをどうぞ](https://meta.decidim.org/processes/roadmap). エラーを検出し、通知したい場合は、[このプロセスにご参加ください](https://meta.decidim.org/processes/bug-report)。Metadecidimコミュニティに積極的に参加したい場合は、毎月[Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat)に参加できます。 コミュニティの参加者として登録し、私たちと一緒に参加してください。 もしあなたのものがコードの場合、[Githubにお越しください](https://github.com/decidim/decidim)。もしあなたが研究者なら、[LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab)に興味を持つかもしれません。
     q11:
-      question: 私は多くの疑問を持っています。すべての種類の...私は彼らに尋ねるか、それらを解決することができますか?
+      question: 心配ごとがいろいろ、たくさんあります…。解消するには、どこで質問すればいいですか?
       answer: >-
         疑問を素早く解決する最善の方法はMetadecidimコミュニティです。今すぐformat@@0(https://meta.decidim) に参加してください。 rg/processes/supportforum?locale=en) 質問が存在するかどうかを確認し、回答されているかどうかを確認し、それ以外の場合は質問を入力します。 このスペースで問題を解決できない場合は、format@@0(/contact) からお問い合わせください。
     q12:
-      question: セットアップを開始するチュートリアルはありますか?
+      question: セットアップを始めるにあたって、チュートリアルはありますか?
       answer: >-
-        最新バージョンの管理者マニュアルは、format@@0(https://docs.decidim.org)でご確認いただけます。
+        最新版の管理者マニュアルを ["Documentation" (英語)](https://docs.decidim.org/en/) でご確認いただけます。
     q13:
-      question: 社会契約とは何ですか?
+      question: 社会契約（social contract）とは何ですか?
       answer: >-
-        これが私たちの民主的保証と民主的コラボレーションのコードです。コミュニティのすべてのメンバーはformat@@0(http://decidim.org/contract)を承認しなければなりません。
+        私たちが民主的な意思決定を保証し、民主的に協力するための行動規範（code）を、「社会契約」と呼んでいます。コミュニティのすべてのメンバーは、この[社会契約（Social Contract）](http://decidim.org/contract) を受け入れなければなりません。
     q14:
-      question: 総領事との違いは何ですか?
+      question: Consul プロジェクト（マドリードの "Decide Madrid" プロジェクト）との違いは何ですか?
       answer: >-
-        機能、柔軟性、アーキテクチャ、モジュール性など、多くの違いがあります。format@@0(/blog/en/2019-01-14-consult-comparison/) この質問に答えようとしています。
+        機能、柔軟性、アーキテクチャ、モジュール性など、多くの違いがあります。[この投稿](/blog/2019-01-14-consul-comparison/) で、その質問に答えようとしています。
     q15:
-      question: Metadecidimコミュニティとは?
+      question: '"Metadecidim" コミュニティとは何ですか?'
       answer: >-
-        [Metadecidim](http://meta.decidim.org) は、Decidimのコミュニティであり、プラットフォームの設計とDecidimプロジェクトの構築に協力しています。 私たちは定期的に[SOM(Metadecidim Operative Sessions)](https://meta.decidim)を通して会います。 rg/assemblies/eix-comunitat?locale=es) と [LAB Research Seminars](https://meta.decidim.org/assemblis/eix-lab). [Metadecidim] (http://meta.decidim.org) に移動して、通話を密接にフォローし、コミュニティに参加したい場合は、 [meta.decidim.org]に移動してください。
+        [Metadecidim](http://meta.decidim.org) は、プラットフォームの設計や Decidim プロジェクトの構築を協力しておこなう Decidim 自体のコミュニティです。メンバーは ["SOM" (コミュニティ・ミーティング、もとはスペイン語の "Sesiones Operativas Metadecidim")](https://meta.decidim.org/assemblies/eix-comunitat?locale=en) や ["LAB Research Seminars"（英語）](https://meta.decidim.org/assemblies/eix-lab?locale=en) を通じて、定期的に話し合いをしています。コミュニティに入ってみたい場合は [meta.decidim.org](https://meta.decidim.org/) に行って、話し合いを追ってみてください。歓迎します ;-)
     q16:
-      question: バルセロナに住んでいなくてもMetadecidimコミュニティに参加できますか?
+      question: バルセロナに住んでいなくても Metadecidim コミュニティに参加できますか?
       answer: >-
-        デシディムはバルセロナで生まれたプロジェクトであり、だからこそこの都市との強い領土的な絆があるのです。 しかし、はい、あなたは参加プロセス、討論などを通じてオンラインでコラボレーションすることができます.... Metadecidimで提供しています。バルセロナにいつか来たいと思うかもしれませんが:)
+        Decidim はバルセロナで生まれたプロジェクトで、そのためバルセロナとは強い地理的な結びつきがあります。ですが、Metadecidim の参加プロセスやディベートなどを通じて、オンラインで協力できます。と言っても、あなたはバルセロナにいつか来たいと思うかもしれませんが :)
     q17:
       question: 正式なコラボレーション契約をしたいです。テンプレートはありますか?
-      answer: はい、コラボレーション契約を正式化するテンプレートがあります。format@@0(/contact) にご連絡ください。
+      answer: はい、コラボレーション契約を正式化するテンプレートがあります。[ご連絡ください](/contact)。
     q18:
-      question: Metadecidimのコミュニティにあなたが受け入れるどんなメンバー?
-      answer: 誠実で民主的なコラボレーションに対する正しい姿勢を持っている誰でも。
+      question: Metadecidim のコミュニティには、どんなメンバーを受け入れていますか?
+      answer: 誠実で、民主的な共同作業に対する正しい姿勢を持つ方なら、どなたでも。
     q19:
-      question: 非営利団体に無料インストールを提供していますか?
+      question: 非営利団体への導入を無償で提供していますか?
       answer: >-
-        はい、バルセロナを拠点とする組織の場合に限ります。 私たちにメッセージを送信すると、あなたは研究所によって助けられます。 市民権の分野の発展とイノベーション バルセロナ市議会の参加と透明性。
+        はい、ただしバルセロナを拠点とする団体に限り、提供しています。 私たちにメッセージを送信していただければ、バルセロナ市議会の「市民の権利・参加・透明性」領域「研究・開発・イノベーション部門」がお手伝いします。
     q20:
-      question: 教育機関を支援していますか？
+      question: 公共機関をサポートしていますか?
       answer: >-
-        はい、しかし、あなたは忍耐強くなければなりません。 現在Decidimを使用したいと考えている機関はたくさんありますが、私たちは彼らを一歩一歩一歩手助けしています。 format@@0(/contact) で質問があれば、できるだけ早くお答えします。
+        はい、ですが、しばらく我慢してください。 現在 Decidim を使用したいと考えている公共機関はたくさんあり、私たちは彼らを一歩一歩お手伝いしているところです。質問がありましたら、[ご連絡](/contact) いただければできるだけ早くお答えします。
     q21:
       question: Decidim Associationとは何ですか？
       answer: >-
-        "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) は、Decidim コミュニティのガバナンスのための民主的な団体です。
+        "Asociacion de Software Libre Decidim" (Decidim Free Software Association; Decidim Association) は、Decidim コミュニティのガバナンスのための民主的な協会です。
     q22:
-      question: Decidim Associationの詳細情報はどのように入手できますか?
+      question: Decidim Association について、もっと詳細な情報はありますか?
       answer: >-
-        format@@0(https://meta.decidim) rg/assemblies/general-assembly-association) あなたは、私たちが嫌われているより多くの情報を見つけることができます, 会議の活動に従って、関連情報をチェックします(法令, 法的協定, 内部規制)
+        さらに詳細な情報は Metadecidim の [General Assembly of the Decidim Association（英語）](https://meta.decidim.org/assemblies/general-assembly-association) にあります。ミーティングの活動状況や、関連情報 (定款、規約、手続規則など) もここにあります。
     q23:
       question: Decidim Associationのメンバーになるにはどうしたらいいですか?
       answer: >-
-        これでプロジェクトに関わる人たちはパートナーになれます。format@@0(https://meta.decidim.org/assembles/QuieroSerSocia?locale=es)
+        現在では、プロジェクトに関わっている人はメンバーになれます。[参加するための詳細はこちら（英語）で説明しています](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=en)。
     q24:
       question: Decidim Associationはいつ発足したのですか。
       answer: >-
-        Associacio's [Decidim is found on February 16, 2019 in an experent assembly of the community](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169) with the organization statites.
+        Decidim Association は、定款の承認にあわせて [2019年 2月 16日にコミュニティの臨時集会で設立されました](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169)。
