@@ -8,8 +8,7 @@ The Free Software Association Decidim has signed a collaboration agreement betwe
 
 The aim is to promote participatory democracy and to develop and implement open, free and democratic digital infrastructures for participation.
 
-It also seeks to promote the use of Decidim
-(External link) for citizen participation by both public administrations and social entities and to work collaboratively with other public institutions such as social entities and social agents in order to join forces to deepen technological sovereignty and improve the quality of democracy in the digital age.
+It also seeks to promote the use of Decidim for citizen participation by both public administrations and social entities and to work collaboratively with other public institutions such as social entities and social agents in order to join forces to deepen technological sovereignty and improve the quality of democracy in the digital age.
 
 Both institutions recognise Decidim as a key infrastructure for the deployment of citizen participation policies and as a tool for the extension of democracy in all types of organisations.
 
@@ -22,4 +21,3 @@ The agreement establishes a financial contribution framework that serves as a sc
 The event was attended by Jordi Foz Dalmau, Secretary for Transparency and Open Government. Department of External Action, Institutional Relations and Transparency, Marc Serra, Councillor for Participation of Barcelona City Council, Guillem Marpons, President of the Association Decidim and Carol Romero, President Elected of the Association.
 
 See discussion at [Metadecidim](https://meta.decidim.org/assemblies/general-assembly-association/f/1204/posts/166?locale=en).
-
