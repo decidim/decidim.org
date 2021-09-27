@@ -8,7 +8,7 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 
 gem 'middleman-blog', '~> 4.0'
 gem 'redcarpet', '~> 3.5'
-gem 'nokogiri', '~> 1.11.4'
+gem 'nokogiri', '~> 1.12.5'
 gem 'builder', '~> 3.0'
 
 gem 'middleman-images', '~> 0.2'
