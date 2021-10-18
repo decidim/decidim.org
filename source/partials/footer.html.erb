@@ -18,10 +18,13 @@
           <a href="<%= t(:path) %>/contact" class="footer__nav-item"><%= t('nav.contact') %></a>
         </nav>
         <div class="footer__credits">
-          <div class="footer__promoter">
-            <p> <%= t('footer.driven_by') %> </p>
+          <div class="footer__supported_by">
+            <p> <%= t('footer.supported_by') %> </p>
             <a href="http://www.barcelona.cat" target="_blank">
-              <img src="/images/logo_footer_barcelona.png" alt="Ajuntament de Barcelona" />
+              <%= image_tag "/images/logo_footer_barcelona.png", resize: "150x50", alt: "Ajuntament de Barcelona" %>
+            </a>
+            <a href="http://www.gencat.cat" target="_blank">
+              <%= image_tag "/images/logo_footer_gencat.png", resize: "150x50", alt: "Generalitat de Catalunya" %>
             </a>
           </div>
           <div class="footer__logo">
