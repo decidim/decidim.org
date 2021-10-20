@@ -98,7 +98,7 @@ We will promote the DecidimFemDev programme to the tech community who develops D
 
 - - -
 
-#### <a name="cast"></a> DECIDIMFEM DEV PROGRAMME 2: Regresan las Becas para desarrolladoras
+#### <a name="cast"></a> DECIDIMFEM DEV PROGRAMME 3: Regresan las Becas para desarrolladoras
 
 [Decidim](https://decidim.org/) es una plataforma tecnológica de código abierto para la participación democrática que permite a la ciudadanía incidir en la creación de políticas públicas citizenship centric y en la agenda política. A nivel global, [más de 150 instituciones y entidades](https://decidim.org/usedby/) utilizan el software actualmente.
 
