@@ -8,9 +8,7 @@
   <%= link_to t('nav.docs.title'), "https://docs.decidim.org", class: "main-nav__item" %>
   <%= link_to t('nav.code'), "https://github.com/decidim/decidim", class: "main-nav__item" %>
   <%= link_to t('nav.modules'), "#{t(:path)}/modules", class: "main-nav__item" %>
-  <% if I18n.locale == :en %>
-    <%= link_to t('nav.blog'), "#{t(:path)}/blog", class: "main-nav__item" %>
-  <% end %>
+  <%= link_to t('nav.blog'), "/blog", class: "main-nav__item", target: "_blank" %>
   <%= link_to t('nav.press'), "#{t(:path)}/press", class: "main-nav__item" %>
   <%= link_to t('nav.faqs'), "#{t(:path)}/faqs", class: "main-nav__item" %>
   <%= link_to t('nav.contact'), "#{t(:path)}/contact", class: "main-nav__item" %>
