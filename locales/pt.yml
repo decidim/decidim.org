@@ -1,5 +1,5 @@
-pt:
-  path: '/pt'
+pt-BR:
+  path: ''
   activeLang: 'Português'
   nav:
     text: 'Navegação'
@@ -10,16 +10,16 @@ pt:
     docs:
       title: 'Documentação'
       path: 'https://docs.decidim.org/'
-    blog: 'Blogue'
+    blog: 'Blog'
     features: 'Funcionalidades'
     faqs: 'FAQs'
-    contact: 'Contacto'
+    contact: 'Contato'
     used_by: 'Decidim em uso'
     partners: 'Entidades de co-operação'
     modules: 'módulos'
     press: 'Pressionar'
   alert:
-    title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
+    title: 'Decidim Fest 2021 :: Democracia, Tecnologia e Justiça Global £20, 21 e 22 de outubro'
     subtitle: 'Junte-se à nossa chamada'
     link: https://meta.decidim.org/conferences/DecidimFest21/f/1615/
     desc: 'O DecidimFest é um intenso programa de atividades de 3 dias dedicado ao projeto Decidim, democracia participativa e ferramentas de fonte aberta para inteligência colectiva na era da Democracia Global.'
@@ -38,11 +38,11 @@ pt:
       feature2: 'Orçamento<br/>participativo'
       feature3: 'Iniciativas e<br/>consultas cidadãs'
       feature4: 'Processos<br/>participativos'
-      feature5: 'Reuniões'
+      feature5: 'Assembleias'
       feature6: 'Comunicação em rede<br/>'
     used_by:
       title: 'Eles já estão usando o Decidim'
-      cta: 'Ver todos'
+      cta: 'Veja tudo'
     cta:
       title: 'comece a usar Decidim hoje'
     button:
@@ -98,8 +98,8 @@ pt:
     bot_field: "Não preencha isto se você é humano:"
     name: Nome
     entity: Entidade
-    email: E-mail
-    subject: Subject
+    email: O email
+    subject: Sujeito
     message: mensagem
     send: Enviar
   thanks:
@@ -137,7 +137,7 @@ pt:
         text: >-
           Processos é um espaço que permite criar, ativar/desativar e gerenciar vários processos participativos. Eles se distinguem de outros espaços por serem estruturados em diferentes fases dentro das quais todos os componentes podem ser incorporados. Exemplos de processos participativos são: um processo eleitoral para os membros de uma comissão, orçamento participativo, um processo de planejamento estratégico. a redacção colaborativa de um regulamento ou norma, a concepção de um espaço urbano ou a elaboração de um plano de política pública.
       feature2:
-        title: 'Reuniões'
+        title: 'Assembleias'
         subtitle: 'o poder da auto-organização colectiva'
         text: >-
           É um espaço que oferece a possibilidade de criar órgãos de decisão ou grupos (conselhos, grupos de trabalho, comissões, etc.). que se reúnem periodicamente, detalhando sua composição, listando e geolocalizando suas reuniões, e permitindo participar deles (por exemplo: participar da capacidade e natureza do assembly Acrescentar à ordem do dia ou comentar as propostas e decisões tomadas por esse organismo).
@@ -167,12 +167,12 @@ pt:
         text: >-
           O componente de resultados é utilizado para transformar propostas em resultados e dar respostas oficiais sobre a sua aceitação ou rejeição, A fusão de várias propostas num único resultado.
       feature8:
-        title: 'Responsabilidade'
+        title: 'Prestação de contas'
         subtitle: 'transparência do início ao fim'
         text: >-
           O componente responsável oferece a possibilidade de subdividir resultados em projectos, definindo e aplicando status de progresso em torno da sua implementação, Além de mostrar a extensão da implementação dos resultados agrupada por categorias e âmbitos.
       feature9:
-        title: 'Encontros'
+        title: 'Reuniões'
         subtitle: 'para encontrar e não perder nada'
         text: >-
           O componente de reunião oferece a organizações e participantes a oportunidade de convocar reuniões, determinar sua localização e hora registar e limitar os participantes, definir a estrutura e o conteúdo da reunião, bem como publicar as actas e as propostas resultantes.
@@ -187,7 +187,7 @@ pt:
         text: >-
           O componente de conferência permite que uma organização crie um site para um grande evento, participando de uma série predefinida de reuniões (chats, workshops etc. , formando um programa unificado e gerindo os participantes.
       feature12:
-        title: 'Inquéritos'
+        title: 'pesquisas'
         subtitle: 'Porque a opinião da sua comunidade é importante'
         text: >-
           O componente de pesquisas pode ser usado para projetar e publicar pesquisas, para exibir e baixar seus resultados.
@@ -212,7 +212,7 @@ pt:
         text: >-
           Decidim permite que você acompanhe qualquer espaço ou componente para receber atualizações toda vez que elas acontecem.
       feature17:
-        title: 'Boletim Informativo'
+        title: 'Newsletter'
         subtitle: 'Simples, mas poderosa'
         text: >-
           O componente de boletins informativos torna possível o envio de e-mails para todos aqueles que estão registrados na plataforma ou, de forma mais seletiva, para aqueles que participam de um espaço específico.
@@ -230,9 +230,9 @@ pt:
   partners:
     notice: Os logotipos das entidades cooperantes são propriedade intelectual dos respectivos titulares de direitos de autor. Eles não são abrangidos pela <a href="https://creativecommons.org/licenses/by-sa/4.0/">licença Creative Commons By-SA</a> com a licença restante do conteúdo do site.
   modules:
-    description: Description
-    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
-    image: Image
+    description: Descrição
+    explanation: Ao usar módulos, você pode estender a funcionalidade do Decidim e compartilhá-la com outras pessoas. Eles permitem que você atualize facilmente no futuro. Veja a <a href="https://docs.decidim.org/en/develop/modules/">documentação para criar seu próprio módulo</a>.
+    image: Imagem
     name: Nome
     type:
       community: Comunidade
@@ -267,12 +267,12 @@ pt:
       org: Abrir Governo da Cidade do México
     n6:
       quote: >-
-        We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
-      org: Mozilla Foundation
+        Sofremos sob falta de espaço público. É particularmente importante recuperarmos esses espaços públicos para nós. Plataformas abertas, como o Decidim, fazem exatamente isso. Não é só isso que é open source para que outras pessoas possam bifurcá-lo, reutilizá-lo e construir um processo. Também tem esses valores que queremos refletir na nossa sociedade codificada da forma como ela é projetada.
+      org: Fundação Mozilla
     n7:
       quote: >-
-        The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
-      org: OpenForum Europe Research Director, European Union
+        O processo teve início em Outubro de 2019 na unidade da DG Comunicação e Democracia da Comissão Europeia no Centro Comum de Investigação, o serviço científico e de conhecimento da Comissão Europeia. Uma análise das necessidades da Conferência e dos instrumentos que se adequam a estas, levar a escolher a ferramenta de código aberto Decidim para sua maturidade técnica, ampla comunidade e adaptabilidade.
+      org: Director Europeu de Investigação de Fórum Aberto, União Europeia
   faqs:
     title: Perguntas mais frequentes
     q01:
@@ -313,7 +313,7 @@ pt:
       question: >-
         Eu tenho idéias para novos recursos de melhoria. Eu quero ter uma melhor compreensão do projeto. O que posso fazer?
       answer: >-
-        You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report?locale=es). If you want to actively participate in the Metadecidim community, you can attend the monthly [Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat). Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
+        Você pode colaborar de várias maneiras. Um deles é através da comunidade [Metadecidim](http://meta.decidim.org). Se você deseja propor novas funcionalidades, [vá aqui](https://meta. ecidim.org/processes/roadmap). Se você detectou erros e quer notificá-los, [vá para este processo](https://meta.decidim.org/processes/bug-report?locale=es). Se você deseja participar ativamente da comunidade Metadecidim, você pode assistir às [sessões operacionais do Metadecidim](https://meta. ecidim.org/assemblies/eix-comunitat). Registre-se como um participante da comunidade e participe conosco. Se sua coisa é o código, [acesse o Github](https://github.com/decidim/decidim). Se você é um pesquisador, você deve estar interessado em vir para os [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
     q11:
       question: Tenho muitas dúvidas, de todo o tipo... onde é que lhes posso pedir ou resolvê-las?
       answer: >-
@@ -329,7 +329,7 @@ pt:
     q14:
       question: Quais são as diferenças com o Projeto Cônsul / Decide Madrid?
       answer: >-
-        Há muitas diferenças: recursos, flexibilidade, arquitetura, modularidade, etc. Nós publicamos um post](/blog/2019-01-14-consul-comparison/) para tentar responder a esta questão.
+        There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.
     q15:
       question: O que é a comunidade Metadecidim?
       answer: >-
