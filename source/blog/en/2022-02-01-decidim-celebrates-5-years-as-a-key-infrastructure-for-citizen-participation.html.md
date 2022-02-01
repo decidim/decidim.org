@@ -2,7 +2,7 @@
 title: Decidim celebrates 5 years as a key infrastructure for citizen participation
 date: 2022-02-01T09:36:03.718Z
 ---
-Ver post en castellano
+[Ver post en castellano](/blog/2022-02-01-decidim-celebrates-5-years-as-a-key-infrastructure-for-citizen-participation/#cast)
 
 On 1 February 2017 decidim.org was born, the free and open source platform for participatory democracy, conceived and promoted by the Barcelona City Council.
 
