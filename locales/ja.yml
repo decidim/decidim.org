@@ -19,7 +19,7 @@ ja:
     modules: 'モジュール'
     press: 'プレス'
     legal-notice: 'Legal notice'
-    privacy-policy: 'Privacy policy'
+    privacy-policy: 'プライバシーポリシー'
   alert:
     title: 'Decidim Fest 2021 :: 民主主義、テクノロジー、グローバルな正義 | 10月20〜22日'
     subtitle: '参加者募集中'
@@ -373,11 +373,11 @@ ja:
   legal-notice:
     title: Legal notice
     section-1:
-      title: Who we are
+      title: 私たちについて
       paragraph: >-
         <p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>
     section-2:
-      title: Purpose
+      title: 目的
       paragraph: >-
         <p>The purpose of this Website is to provide general information to the public about Decidim, its activities and technology, consisting in a free open-source participatory democracy platform for cities and organizations, and the management of the Decidim community generated around the world from our collaborative technology allowing the development of citizen and associative projects with greater social participation. You may freely test the Decidim platform with our online demo.</p> <p>The purpose of the terms of use of this Legal Notice is to govern the permitted use of this Website and the services and/or contents hosted in accordance with the Law 34/2002 on Information Society Services and Electronic Commerce and other applicable legal provisions.</p>
     section-3:
@@ -409,7 +409,7 @@ ja:
       paragraph: >-
         <p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>
   privacy-policy:
-    title: Privacy policy
+    title: プライバシーポリシー
     section-1:
       title: Introduction
       paragraph: >-
