@@ -18,8 +18,8 @@ fr:
     partners: 'Partenaires'
     modules: 'Modules'
     press: 'Presse'
-    legal-notice: 'Legal notice'
-    privacy-policy: 'Privacy policy'
+    legal-notice: 'Mentions légales'
+    privacy-policy: 'Politique de confidentialité'
   alert:
     title: 'Decidim Fest 2021 :: Démocratie, technologie et justice mondiale | 20, 21 et 22 Octobre'
     subtitle: 'Candidatez'
@@ -50,7 +50,7 @@ fr:
     button:
       code: 'Code sur Github'
   footer:
-    supported_by: 'Supported by'
+    supported_by: 'Avec le soutien de'
     attribution: '- Creative Commons By-SA'
   demo:
     title: Démo en ligne
@@ -270,7 +270,7 @@ fr:
     n6:
       quote: >-
         We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
-      org: Mozilla Foundation
+      org: Fondation Mozilla
     n7:
       quote: >-
         The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
@@ -371,7 +371,7 @@ fr:
       answer: >-
         L'Association [Decidim est fondée le 16 février 2019 dans une assemblée extraordinaire de la communauté](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), avec l'approbation des statuts de l'organisation.
   legal-notice:
-    title: Legal notice
+    title: Mentions légales
     section-1:
       title: Who we are
       paragraph: >-
@@ -409,7 +409,7 @@ fr:
       paragraph: >-
         <p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>
   privacy-policy:
-    title: Privacy policy
+    title: Politique de confidentialité
     section-1:
       title: Introduction
       paragraph: >-
@@ -439,6 +439,6 @@ fr:
       paragraph: >-
         <p>You have rights under data protection laws in relation to your personal data. Specifically, you have the right to: </p> <ul> <li><b>Request access</b> to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</li> <li><b>Request correction</b> of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</li> <li><b>Request erasure</b> of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</li> <li><b>Object to processing</b> of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</li> <li><b>Request restriction of processing</b> of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data's accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</li> <li><b>Request the transfer</b> of your personal data to you or to a third party (right to data portability). We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</li> <li><b>Withdraw consent at any time</b> where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</li> </ul> <p>The aforementioned rights may be effective by contacting us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>. <p>You also have the right to make any complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spain.
     section-8:
-      title: General
+      title: Général
       paragraph: >-
         <p>We reserve the right to amend the terms of this Privacy Policy and will notify you by providing a clear notice of these changes by email or on our Website, and in this Privacy Policy. If you continue to use our services after such update, you will be deemed to accept the new terms. If you do not accept the update, please terminate your account or notify us and we will terminate your Account and remove any of your personal data (except as required to be maintained for legal purposes), and you will not be able to continue to use our services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>
