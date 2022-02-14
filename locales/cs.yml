@@ -18,8 +18,8 @@ cs:
     partners: 'Spolupracující subjekty'
     modules: 'Moduly'
     press: 'Pro média'
-    legal-notice: 'Legal notice'
-    privacy-policy: 'Privacy policy'
+    legal-notice: 'Právní ustanovení'
+    privacy-policy: 'Zásady ochrany soukromí'
   alert:
     title: 'Decidim Fest 2021 :: Demoacy, Technology and Global Justice | 20, 21. a 22. října'
     subtitle: 'Připojte se k výzvě'
@@ -371,9 +371,9 @@ cs:
       answer: >-
         Sdružení [Decidim bylo založeno 16. února 2019 na mimořádném shromáždění komunity](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169) se souhlasem stanov organizace.
   legal-notice:
-    title: Legal notice
+    title: Právní ustanovení
     section-1:
-      title: Who we are
+      title: Kdo jsme
       paragraph: >-
         <p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>
     section-2:
@@ -409,7 +409,7 @@ cs:
       paragraph: >-
         <p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>
   privacy-policy:
-    title: Privacy policy
+    title: Zásady ochrany soukromí
     section-1:
       title: Introduction
       paragraph: >-
