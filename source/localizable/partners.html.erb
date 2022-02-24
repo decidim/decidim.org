@@ -6,10 +6,10 @@ description:
   <h1 class="page-title"><%= t('nav.partners') %></h1>
   <% @partners = data.partners %>
   <div class="partner__container">
-    <% @partners.each do |use| %>
+    <% @partners.each do |partner| %>
       <div class="partner__item">
-        <a href="<%= use.url %>" title="<%= use.name %>" target="_blank" class="partner__logo">
-          <img src="<%= use.image %>" alt="<%= use.name %>" />
+        <a href="<%= partner.url %>" title="<%= partner.name %>" target="_blank" class="partner__logo">
+          <%= image_tag partner.image, alt: partner.name, resize: "160x50" %>
         </a>
       </div>
     <% end %>
