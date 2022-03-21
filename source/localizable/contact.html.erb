@@ -32,6 +32,11 @@ description:
         <label for="message"><%= t('contact.message') %> <span class="required" aria-label="required field">*</span></label>
         <textarea id="message" name="message" required></textarea>
       </div>
+      <div>
+        <input type="checkbox" id="accept_privacy_policy" name="accept_privacy_policy" required/>
+        <label for="accept_privacy_policy"><%= t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></label>
+      </div>
+      <p><%= t('contact.privacy_policy.message') %></p>
       <div class="form-field">
         <button type="submit" class="btn btn--primary"><%= t('contact.send') %></button>
       </div>
