@@ -3,5 +3,7 @@
 .DS_Store
 .sass-cache
 build/
-tmp/
+.tmp/
 .byebug_history
+node_modules/
+cache/

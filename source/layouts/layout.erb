@@ -7,7 +7,10 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#e52d2e">
     <title><%= page_title current_page %></title>
-    <%= stylesheet_link_tag "site" %>
+
+    <%= stylesheet_link_tag "styles" %>
+    <%= javascript_include_tag "application", async: true %>
+
     <link rel="icon" type="image/png" href="/images/favicon.png">
   </head>
   <body class="<%= current_page.data.pageClass || "" %>">
@@ -18,12 +21,5 @@
       <%= yield %>
     </main>
     <%= partial "partials/footer" %>
-    <%= javascript_include_tag "display-topbar", :async => "async" %>
-    <%= javascript_include_tag "nav-toggle", :async => "async" %>
-    <%= javascript_include_tag "closest-polyfill", :async => "async" %>
-    <%= javascript_include_tag "lang-toggle", :async => "async" %>
-    <%= javascript_include_tag "image-switch", :async => "async" %>
-    <%= javascript_include_tag "play-video", :async => "async" %>
-    <%= javascript_include_tag "paginate-blog", :async => "async" %>
   </body>
 </html>

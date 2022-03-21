@@ -5,7 +5,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= current_article.title unless current_article.nil? %> | Blog | Decidim</title>
-    <%= stylesheet_link_tag "site" %>
+
+    <%= stylesheet_link_tag "styles" %>
+    <%= javascript_include_tag "application", async: true %>
+
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/blog/feed.xml", title: "Atom Feed" %>
   </head>
@@ -31,9 +34,5 @@
       </ol>
     </aside>
     <%= partial "partials/footer" %>
-    <%= javascript_include_tag "nav-toggle", :async => "async" %>
-    <%= javascript_include_tag "closest-polyfill", :async => "async" %>
-    <%= javascript_include_tag "lang-toggle", :async => "async" %>
-    <%= javascript_include_tag "image-switch", :async => "async" %>
   </body>
 </html>
