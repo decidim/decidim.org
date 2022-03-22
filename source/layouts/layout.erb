@@ -7,19 +7,27 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#e52d2e">
     <title><%= page_title current_page %></title>
-
-    <%= stylesheet_link_tag "styles" %>
-    <%= javascript_include_tag "application", async: true %>
-
+    <%= stylesheet_link_tag "tailwind" %>
     <link rel="icon" type="image/png" href="/images/favicon.png">
   </head>
   <body class="<%= current_page.data.pageClass || "" %>">
     <%# partial "partials/alert" %>
     <%# partial "partials/alert--expanded" %>
     <%= partial "partials/topbar" %>
+
+    <h1 class="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+
     <main class="main">
       <%= yield %>
     </main>
     <%= partial "partials/footer" %>
+    <%= javascript_include_tag "display-topbar", :async => "async" %>
+    <%= javascript_include_tag "nav-toggle", :async => "async" %>
+    <%= javascript_include_tag "lang-toggle", :async => "async" %>
+    <%= javascript_include_tag "image-switch", :async => "async" %>
+    <%= javascript_include_tag "play-video", :async => "async" %>
+    <%= javascript_include_tag "paginate-blog", :async => "async" %>
   </body>
 </html>

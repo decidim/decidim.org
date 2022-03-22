@@ -19,9 +19,9 @@ configure :development do
 end
 
 activate :external_pipeline,
-  name: :webpack,
-  command: build? ? './node_modules/webpack/bin/webpack.js --bail' : './node_modules/webpack/bin/webpack.js --watch --mode development --color',
-  source: ".tmp/dist",
+  name: :tailwindcss,
+  command: build? ? 'npx tailwindcss -i ./source/stylesheets/site.css -o ./source/stylesheets/tailwind.css --minify' : 'npx tailwindcss -i ./source/stylesheets/site.css -o ./source/stylesheets/tailwind.css --watch',
+  source: 'source/stylesheets',
   latency: 1
 
 # Per-page layout changes
