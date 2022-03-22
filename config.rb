@@ -32,10 +32,8 @@ page '/*.txt', layout: false
 # Blog
 activate :blog do |blog|
   blog.paginate = false
-
   blog.permalink = "blog/{year}-{month}-{day}-{title}.html"
   blog.sources = "blog/en/{year}-{month}-{day}-{title}.html"
-  blog.layout = "layout-blog"
   blog.default_extension = ".md"
   blog.tag_template = "blog/tag.html"
   blog.calendar_template = "blog/calendar.html"
