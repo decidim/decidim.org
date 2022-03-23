@@ -1,0 +1,52 @@
+# As a names, you can add both translations keys or plain texts
+decidim:
+  - name: nav.faqs
+    url: /faqs
+  - name: nav.features
+    url: /features
+  - name: nav.contract
+    url: /contracts
+  - name: nav.partners
+    url: /partners
+  - name: nav.demo
+    url: /demo
+  - name: nav.modules
+    url: /modules
+  - name: nav.docs.title
+    url: https://docs.decidim.org/
+  - name: nav.code
+    url: /code
+
+about_us:
+  - name: nav.faqs
+    url: /faqs
+
+stay_up_to_date:
+  - name: nav.faqs
+    url: /faqs
+
+legal:
+  - name: nav.legal-notice
+    url: /legal-notice
+  - name: nav.privacy-policy
+    url: /privacy-policy
+
+social_media:
+  - name: github
+    icon: ri-github-fill
+    url: https://github.com/decidim/decidim
+  - name: twitter
+    icon: ri-twitter-fill
+    url: https://twitter.com/decidim_org
+  - name: youtube
+    icon: ri-youtube-fill
+    url: https://www.youtube.com/playlist?list=PLGqsHW77DVq_98DB5w2owG1XEhGPSnZyM
+  - name: telegram
+    icon: ri-telegram-fill
+    url: https://t.me/s/decidim
+  - name: instagram
+    icon: ri-instagram-fill
+    url: https://www.instagram.com/decidim_org/
+  - name: linkedin
+    icon: ri-linkedin-fill
+    url: https://gt.linkedin.com/company/decidim/

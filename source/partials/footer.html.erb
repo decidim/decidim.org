@@ -1,50 +1,80 @@
-<footer class="footer">
-    <div class="footer__cta container">
-      <h2 class="footer__cta-title"><%= t('index.cta.title') %></h2>
-      <!--<p><%= t(:ctaIntro) %></p>-->
-      <div class="footer__cta-buttons">
-        <a href="<%= t(:path) %>/demo/" class="btn btn--inverse"><%= t('demo.button') %></a>
-  		  <a href="https://github.com/decidim/decidim" target="_blank" class="btn btn--frosted"><%= t('index.button.code') %></a>
-  	  </div>
+<footer class="bg-black text-white text-sm">
+  <div class="container mx-auto py-4 space-y-12">
+    <div class="flex items-center mt-8">
+      <a class="w-3/4" href="<%= t(:path) %>/"><img src="/images/decidim-symbol.svg" alt="Decidim" /></a>
+
+      <nav class="w-1/4 flex items-center space-x-2">
+        <% data.links.social_media.each do |link| %>
+          <% link_to link.url do %>
+            <%= icon link.icon, class: "text-xl" %>
+          <% end %>
+        <% end %>
+      </nav>
     </div>
-    <div class="footer__main">
-      <div class="container">
-        <nav class="footer__nav">
-          <a href="<%= t(:path) %>/faqs" class="footer__nav-item"><%= t('nav.faqs') %></a>
-          <a href="<%= t(:path) %>/contract" class="footer__nav-item"><%= t('nav.contract') %></a>
-          <a href="<%= t(:path) %>/partners" class="footer__nav-item"><%= t('nav.partners') %></a>
-          <a href="/blog" target="_blank" class="footer__nav-item"><%= t('nav.blog') %></a>
-          <a href="<%= t(:path) %>/press" class="footer__nav-item"><%= t('nav.press') %></a>
-          <a href="<%= t(:path) %>/contact" class="footer__nav-item"><%= t('nav.contact') %></a>
+
+    <div class="flex">
+      <div class="w-3/4 flex">
+        <div class="w-1/3">
+          <h3 class="font-bold mb-3">Decidim</h3>
+          <nav class="space-y-3">
+            <% data.links.decidim.each do |link| %>
+              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+            <% end %>
+          </nav>
+        </div>
+
+        <div class="w-1/3">
+          <h3 class="font-bold mb-3">About us</h3>
+          <nav class="space-y-3">
+            <% data.links.about_us.each do |link| %>
+              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+            <% end %>
+          </nav>
+        </div>
+
+        <div class="w-1/3">
+          <h3 class="font-bold mb-3">Stay up to date</h3>
+          <nav class="space-y-3">
+            <% data.links.stay_up_to_date.each do |link| %>
+              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+            <% end %>
+          </nav>
+          <h3 class="font-bold mt-8 mb-3">Legal</h3>
+          <nav class="space-y-3">
+            <% data.links.legal.each do |link| %>
+              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+            <% end %>
+          </nav>
+        </div>
+      </div>
+
+      <div class="w-1/4">
+        <h3 class="font-bold mb-3">Follow us on social media</h3>
+        <nav class="space-y-3">
+          <% data.links.social_media.each do |link| %>
+            <%= link_to t(link.name, default: link.name), link.url, class: "block first-letter:uppercase" %>
+          <% end %>
         </nav>
-        <div class="footer__credits">
-          <div class="footer__supported_by">
-            <p> <%= t('footer.supported_by') %> </p>
-            <a href="http://www.barcelona.cat" target="_blank">
-              <%= image_tag "/images/logo_footer_barcelona.png", resize: "150x50", alt: "Ajuntament de Barcelona" %>
-            </a>
-            <a href="http://www.gencat.cat" target="_blank">
-              <%= image_tag "/images/logo_footer_gencat.png", resize: "150x50", alt: "Generalitat de Catalunya" %>
-            </a>
-          </div>
-          <div class="footer__logo">
-            <a href="<%= t(:path) %>/"><img src="/images/decidim-logo-topbar.svg" alt="Decidim" width="120" /></a>
-          </div>
-        </div>
       </div>
     </div>
-    <div class="footer__attr-badge">
-      <div class="container">
-        <div class="footer__attr">
-          <small><a target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">&copy; <script>document.write(new Date().getFullYear())</script> <%= t('footer.attribution') %></a></small>
-        </div>
-        <small><a href="<%= t(:path) %>/legal-notice"><%= t('nav.legal-notice') %></a></small>
-        <small><a href="<%= t(:path) %>/privacy-policy"><%= t('nav.privacy-policy') %></a></small>
-        <div class="footer__badge">
-          <a href="https://www.netlify.com">
-            <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Powered by Netlify" />
-          </a>
-        </div>
+
+    <div>
+      <h3 class="font-bold mb-3"><%= t('footer.supported_by') %></h3>
+      <div class="flex items-center space-x-8">
+        <a class="w-36 h-12 flex items-center" href="http://www.barcelona.cat" target="_blank">
+          <%= image_tag "/images/logo_footer_barcelona.png", resize: "150x50", alt: "Ajuntament de Barcelona" %>
+        </a>
+        <a class="w-36 h-12 flex items-center" href="http://www.gencat.cat" target="_blank">
+          <%= image_tag "/images/logo_footer_gencat.png", resize: "150x50", alt: "Generalitat de Catalunya" %>
+        </a>
       </div>
     </div>
+
+    <div class="flex items-center justify-between">
+      <span class="text-gray-500">&copy; 2021 - Creative Commons By-SA</span>
+
+      <%= partial "/partials/language-selector", :locals => { :direction => "up" } %>
+    </div>
+
+  </div>
 </footer>
