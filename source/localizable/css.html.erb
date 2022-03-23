@@ -1,0 +1,44 @@
+---
+nav: css
+description:
+---
+
+<div class="container mx-auto py-16">
+
+  <section class="bg-gray-100 rounded p-4 space-y-8">
+    <div class="space-y-4">
+      <h2 class="text-2xl font-bold">button colors</h2>
+      <div class="flex space-x-4 items-baseline">
+        <div class="button">.button</div>
+        <div class="button hollow">.button.hollow</div>
+        <div class="button white">.button.white</div>
+        <div class="button white hollow">.button.white.hollow</div>
+        <div class="button black">.button.black</div>
+        <div class="button hollow black">.button.hollow.black</div>
+      </div>
+    </div>
+
+    <div class="space-y-4">
+      <h2 class="text-2xl font-bold">button sizes</h2>
+      <div class="flex space-x-4 items-baseline">
+        <div class="button">.button</div>
+        <div class="button small">.button.small</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-100 rounded p-4 space-y-8">
+    <div class="space-y-4">
+      <h2 class="text-2xl font-bold">icons</h2>
+      <div class="columns-5">
+        <% list_icons.each do |i| %>
+          <div class="flex space-x-2 items-center">
+            <span class="text-lg"><%= icon i %></span>
+            <span><%= i %></span>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </section>
+
+</div>

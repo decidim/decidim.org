@@ -1,0 +1,22 @@
+<header class="container mx-auto py-4 flex justify-between">
+
+  <a href="<%= t(:path) %>/"><img src="/images/decidim-logo-claim.svg" alt="Decidim" /></a>
+
+  <nav class="space-x-8">
+    <%= link_to t('nav.features'), "#{t(:path)}/features" %>
+    <%= link_to t('nav.community'), "#{t(:path)}/community" %>
+    <%= link_to t('nav.demo'), "#{t(:path)}/demo", class: "button" %>
+
+    <% if false %>
+    <%# if show_language_switcher? %>
+      <ul>
+        <% data.languages.each do |lang| %>
+          <li role="menuitem">
+            <%= link_to lang.short_code, current_path_for_locale(lang.path), "aria-label": lang.name %>
+          </li>
+        <% end %>
+      </ul>
+    <% end %>
+  </nav>
+
+</header>
