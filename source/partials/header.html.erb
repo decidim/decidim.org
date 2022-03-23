@@ -1,4 +1,4 @@
-<header class="container mx-auto py-4 flex justify-between">
+<header class="container mx-auto py-4 flex justify-between items-center">
 
   <a href="<%= t(:path) %>/"><img src="/images/decidim-logo-claim.svg" alt="Decidim" /></a>
 
@@ -7,15 +7,20 @@
     <%= link_to t('nav.community'), "#{t(:path)}/community" %>
     <%= link_to t('nav.demo'), "#{t(:path)}/demo", class: "button" %>
 
-    <% if false %>
-    <%# if show_language_switcher? %>
-      <ul>
-        <% data.languages.each do |lang| %>
-          <li role="menuitem">
-            <%= link_to lang.short_code, current_path_for_locale(lang.path), "aria-label": lang.name %>
-          </li>
-        <% end %>
-      </ul>
+    <% if show_language_switcher? %>
+      <div class="inline-block relative group">
+        <span class="flex space-x-2 items-center"><%= icon "ri-global-line" %> <span class="uppercase"><%= I18n.locale %></span></span>
+        <ul class="absolute -top-3 -left-3 -translate-y-1/4 shadow-md rounded-xl pt-10 pb-3 invisible group-hover:visible group-hover:translate-y-0 transition">
+          <% data.languages.each do |lang| %>
+            <li>
+              <% link_to(current_path_for_locale(lang.path), class: "flex items-center justify-end space-x-2 px-6 hover:bg-gray-300") do %>
+                <%= icon "ri-check-fill", class: "text-red-500 text-xl" if I18n.locale.to_s == lang.path.to_s %>
+                <span><%= lang.name %></span>
+              <% end %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
     <% end %>
   </nav>
 
