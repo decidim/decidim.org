@@ -15,7 +15,25 @@ module.exports = {
       },
       white: "#fff",
       black: "#000",
-      transparent: 'transparent'
+      transparent: "transparent"
     },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1.5rem",
+        md: "4rem",
+        xl: "8rem"
+      },
+    },
+    fontSize: {
+      xs: "14px",
+      sm: "16px",
+      md: "20px",
+      lg: "24px",
+      xl: "32px",
+      "2xl": "36px",
+      "3xl": "48px",
+      "4xl": "56px",
+    }
   }
 };

@@ -1,68 +1,41 @@
-- feature1:
-  type: spaces
-  image: /images/features/processes.svg
-  id: feature1
-- feature2:
-  type: spaces
-  image: /images/features/assemblies.svg
-  id: feature2
-- feature3:
-  type: spaces
-  image: /images/features/consultations.svg
-  id: feature3
-- feature4:
-  type: spaces
-  image: /images/features/initiatives.svg
-  id: feature4
-- feature5:
-  type: components
-  image: /images/features/proposals.svg
-  id: feature5
-- feature6:
-  type: components
-  image: /images/features/voting.svg
-  id: feature6
-- feature7:
-  type: components
-  image: /images/features/results.svg
-  id: feature7
-- feature8:
-  type: components
-  image: /images/features/accountability.svg
-  id: feature8
-- feature9:
-  type: components
-  image: /images/features/meetings.svg
-  id: feature9
-- feature10:
-  type: components
-  image: /images/features/texts.svg
-  id: feature10
-- feature11:
-  type: other
-  image: /images/features/conference.svg
-  id: feature11
-- feature12:
-  type: other
-  image: /images/features/survey.svg
-  id: feature12
-- feature13:
-  type: other
-  image: /images/features/sortition.svg
-  id: feature13
-- feature14:
-  type: other
-  image: /images/features/comments.svg
-  id: feature14
-- feature15:
-  type: other
-  image: /images/features/blog.svg
-  id: feature15
-- feature16:
-  type: other
-  image: /images/features/notifications.svg
-  id: feature16
-- feature17:
-  type: other
-  image: /images/features/newsletter.svg
-  id: feature17
+spaces:
+  - image: /images/features/processes.svg
+    icon: ri-user-voice-line
+    id: feature1
+  - image: /images/features/assemblies.svg
+    icon: ri-team-line
+    id: feature2
+  - image: /images/features/consultations.svg
+    icon: ri-question-line
+    id: feature3
+  - image: /images/features/initiatives.svg
+    icon: ri-guide-line
+    id: feature4
+
+components:
+  - icon: ri-git-commit-line
+    id: feature5
+  - icon: ri-checkbox-multiple-fill
+    id: feature6
+  - icon: ri-auction-line
+    id: feature7
+  - icon: ri-microscope-line
+    id: feature8
+  - icon: ri-auction-line
+    id: feature9
+  - icon: ri-calendar-line
+    id: feature10
+  - icon: ri-mic-line
+    id: feature11
+  - icon: ri-list-unordered
+    id: feature12
+  - icon: ri-shuffle-fill
+    id: feature13
+  - icon: ri-question-answer-fill
+    id: feature14
+  - icon: ri-dashboard-fill
+    id: feature15
+  - icon: ri-notification-3-line
+    id: feature16
+  - icon: ri-mail-send-line
+    id: feature17

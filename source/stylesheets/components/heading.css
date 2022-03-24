@@ -1,0 +1,23 @@
+.h1 {
+  @apply font-bold text-xl md:text-4xl text-black;
+}
+
+.h2 {
+  @apply font-bold text-xl md:text-3xl text-black;
+}
+
+.h3 {
+  @apply font-bold text-lg md:text-2xl text-black;
+}
+
+.h4 {
+  @apply font-bold text-md md:text-xl text-black;
+}
+
+.h5 {
+  @apply font-bold text-md md:text-lg text-black;
+}
+
+.h6 {
+  @apply font-bold text-md text-black;
+}

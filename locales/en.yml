@@ -124,15 +124,16 @@ en:
 
   features:
     title: 'Features'
+    subtitle: For democratic organizations and collectives big and small.
     intro:
       '<p>You can use Decidim in a public or private organisation, with hundreds
       or thousands of potential participants, such as a city council, an
       association, a university, an NGO, a trade union, a neighbourhood collective
       or a cooperative...</p><p>Thanks to Decidim you will be able to configure
-      spaces for participation (initiatives, assemblies, processes or
-      consultations) and enrich them through the multiple available components
+      <strong>spaces</strong> for participation (initiatives, assemblies, processes or
+      consultations) and enrich them through the multiple available <strong>components</strong>
       (face-to-face meetings, surveys, proposals, voting, follow-up of results,
-      comments and many more).</p>'
+      <strong>comments</strong> and many more).</p>'
     list:
       n1:
         title: 'Participatory<br/>budgets'
@@ -310,6 +311,10 @@ en:
     type2:
       title: 'Components'
       subtitle: 'For participants and spaces to interact'
+    type3:
+      title: 'Modules'
+      subtitle: 'Grow beyond the default components. The Decidim community has developed hundreds of modules to expandthe platform beyond the basics and cater even better to your needs.'
+      cta: Explore the modules
     other:
       subtitle:
         'Dare to combine the components. Design and deploy a powerful democratic
