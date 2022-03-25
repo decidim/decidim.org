@@ -6,12 +6,25 @@ pageClass: home
 <%#= partial "/partials/hero" %>
 <%#= partial "/partials/video-hero" %>
 <%#= partial "/partials/subhero" %>
-<%#= partial "/partials/testimonial" %>
-<%#= partial "/partials/features" %>
 
 <section>
-
+  <div class="container">
+    <p class="w-3/4 mx-auto text-center text-gray-500 text-3xl"><%= t("index.subhero.intro") %></p>
+  </div>
 </section>
+
+<section>
+  <div class="container flex flex-col md:flex-row items-center">
+    <div class="flex-col">
+      <%= icon "" %>
+      <h5 class="h5">Implementing a flexible democratic system</h5>
+      <p class="">We can help configure a system of democratic governance in all kinds of organizations.</p>
+      <%= partial "partials/arrow-link", locals: { text: t("blog.read_more"), url: article.url } %>
+    </div>
+  </div>
+</section>
+
+<%= partial "/partials/testimonials" %>
 
 <section class="bg-red-100">
   <div class="container text-red-500 py-20">
@@ -32,5 +45,18 @@ pageClass: home
   </div>
 </section>
 
-<%#= partial "/partials/testimonial" %>
-<%#= partial "/partials/values" %>
+<section>
+  <div class="container py-20">
+    <div class="flex items-end space-x-2">
+      <h6 class="button"><%= t("blog.latest") %></h6>
+      <span class="w-4 h-4 rounded-full bg-red-500"></span>
+    </div>
+    <div class="flex flex-col md:flex-row gap-6 mt-4">
+      <% blog.articles.take(2).each do |article| %>
+        <div class="md:w-1/2 bg-gray-100 p-6 rounded-xl">
+          <%= partial "partials/article_preview", locals: {article: article} %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>

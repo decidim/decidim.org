@@ -6,8 +6,6 @@
   <div class="text-gray-500 text-md">
     <%= article.summary %>
   </div>
-  <a href="<%= article.url %>" class="flex items-center space-x-1 text-md text-red-500">
-    <span>Read more</span>
-    <%= icon "ri-arrow-right-line" %>
-  </a>
+
+  <%= partial "partials/arrow-link", locals: { text: t("blog.read_more"), url: article.url } %>
 </article>
