@@ -3,13 +3,31 @@ description:
 pageClass: home
 ---
 
-<%= partial "/partials/hero" %>
-<%= partial "/partials/video-hero" %>
-<%= partial "/partials/subhero" %>
-<%= partial "/partials/testimonial" %>
-<%= partial "/partials/features" %>
-<%= partial "/partials/testimonial" %>
-<%= partial "/partials/cityhalls" %>
-<%= partial "/partials/testimonial" %>
-<%= partial "/partials/values" %>
-<%= partial "/partials/testimonials-random" %>
+<%#= partial "/partials/hero" %>
+<%#= partial "/partials/video-hero" %>
+<%#= partial "/partials/subhero" %>
+<%#= partial "/partials/testimonial" %>
+<%#= partial "/partials/features" %>
+<%#= partial "/partials/testimonial" %>
+
+<section class="bg-red-100">
+  <div class="container text-red-500 py-20">
+    <h6 class="h6 text-md text-red-500"><%= t('index.used_by.title') %></h2>
+    <p class="text-3xl leading-tight mt-2"><%= t('index.used_by.heading') %></p>
+    <a class="text-md underline mt-4 block" href="<%= t(:path) %>/usedby"><%= t('index.used_by.link') %></a>
+
+    <div class="mt-24">
+      <% installations = data_sort_by_priority(data_select_home(data.installations)) %>
+      <div class="-mx-4 -my-2 md:-mx-16 md:-my-6 flex flex-wrap items-center">
+        <% installations.each do |id, use| %>
+          <a class="inline-block px-4 py-2 md:px-16 md:py-6 max-w-[120px] md:max-w-xs" href="<%= use.url %>" target="_blank">
+            <img class="object-cover w-full h-full" src="<%= use.image %>" alt="<%= use.title %>" />
+          </a>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%#= partial "/partials/testimonial" %>
+<%#= partial "/partials/values" %>
