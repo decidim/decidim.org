@@ -1,8 +1,13 @@
-<article class="post-preview">
-  <h2 class="page-title page-title--simplemargin">
+<article class="space-y-2">
+  <h3 class="h3">
     <a href="<%= article.url %>"><%= article.title %></a>
-    <time class="post-date"><%= article.date.strftime('%d/%m/%Y') %></time>
-  </h2>
-  <%= article.summary %>
-  <a href="<%= article.url %>" class="post-preview__more">Read more</a>
+  </h3>
+  <time class="text-gray-500"><%= article.date.strftime('%d/%m/%Y') %></time>
+  <div class="text-gray-500 text-md">
+    <%= article.summary %>
+  </div>
+  <a href="<%= article.url %>" class="flex items-center space-x-1 text-md text-red-500">
+    <span>Read more</span>
+    <%= icon "ri-arrow-right-line" %>
+  </a>
 </article>
