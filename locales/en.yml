@@ -116,6 +116,14 @@ en:
     email: Email
     subject: Subject
     message: Message
+    privacy_policy:
+      accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
+      message: >-
+        <p>When people contact Us by the contact form, email or similar communication means, we will automatically
+        collect the following information: name, entity, email address and the content of the User message in order
+        to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for
+        statistical studies through pseudonymization and even anonymization techniques, such as data aggregation,
+        preventing this subsequent processing from identifying Users individually.</p>
     send: Send
 
   thanks:
