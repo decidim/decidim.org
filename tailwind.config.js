@@ -25,6 +25,9 @@ module.exports = {
         xl: "8rem"
       },
     },
+    fontFamily: {
+      'sans': ['Barlow', 'system-ui', 'sans-serif']
+    },
     fontSize: {
       xs: "14px",
       sm: "16px",
@@ -34,6 +37,18 @@ module.exports = {
       "2xl": "36px",
       "3xl": "48px",
       "4xl": "56px",
+    },
+    lineHeight: {
+      xs: "20px",
+      sm: "22px",
+      md: "24px",
+      lg: "28px",
+      xl: "32px",
+      "2xl": "38px",
+      "3xl": "40px",
+      "4xl": "50px",
+      "5xl": "54px",
+      "6xl": "60px",
     }
   }
 };

@@ -1,23 +1,23 @@
 .h1 {
-  @apply font-bold text-xl md:text-4xl;
+  @apply font-semibold text-xl md:text-4xl leading-2xl md:leading-6xl;
 }
 
 .h2 {
-  @apply font-bold text-xl md:text-3xl;
+  @apply font-semibold text-xl md:text-3xl leading-2xl md:leading-4xl;
 }
 
 .h3 {
-  @apply font-bold text-lg md:text-2xl;
+  @apply font-semibold text-lg md:text-2xl leading-lg md:leading-3xl;
 }
 
 .h4 {
-  @apply font-bold text-md md:text-xl;
+  @apply font-semibold text-md md:text-xl leading-md md:leading-2xl;
 }
 
 .h5 {
-  @apply font-bold text-md md:text-lg;
+  @apply font-semibold text-md md:text-lg leading-md md:leading-lg;
 }
 
 .h6 {
-  @apply font-bold text-md;
+  @apply font-semibold text-md leading-md;
 }

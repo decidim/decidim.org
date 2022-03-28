@@ -3,8 +3,8 @@ nav: features
 description:
 ---
 
-<div class="container space-y-24 py-24">
-  <section>
+<section>
+  <div class="container pt-24 pb-12">
     <div class="w-3/5 space-y-6">
       <h1 class="h1">
         <%= t("features.title") %>
@@ -40,9 +40,11 @@ description:
         </div>
       </a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
+<section>
+  <div class="container py-12">
     <h3 class="h3">
       <%= t("features.type1.title") %>
     </h3>
@@ -74,9 +76,11 @@ description:
         </div>
       <% end %>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
+<section>
+  <div class="container py-12">
     <h3 class="h3">
       <%= t("features.type2.title") %>
     </h3>
@@ -97,22 +101,21 @@ description:
         </div>
       <% end %>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <div class="space-y-6">
-      <h3 class="h3">
-        <%= t("features.type3.title") %>
-      </h3>
-      <p class="text-lg text-gray-500">
-        <%= t("features.type3.subtitle") %>
-      </p>
-      <a class="inline-block button" href="/modules">
-        <%= t("features.type3.cta") %>
-      </a>
-    </div>
-  </section>
-
-</div>
+<section>
+  <div class="container pt-12 pb-24 space-y-6">
+    <h3 class="h3">
+      <%= t("features.type3.title") %>
+    </h3>
+    <p class="text-lg text-gray-500">
+      <%= t("features.type3.subtitle") %>
+    </p>
+    <a class="inline-block button" href="/modules">
+      <%= t("features.type3.cta") %>
+    </a>
+  </div>
+</section>
 
 <%= partial "/partials/cta-banner" %>
