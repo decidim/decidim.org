@@ -47,7 +47,7 @@ description:
       <%= t("features.type1.title") %>
     </h3>
 
-    <div class="mt-8" data-tabs>
+    <div class="mt-8" data-tabs="features">
       <ul class="flex items-center space-x-8">
         <% data.features.spaces.each_with_index do |use, i| %>
           <li class="flex items-center space-x-3 py-2 relative text-md text-gray-500 hover:text-red-500 transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:top-full after:hover:bg-red-500 after:w-full after:bg-gray-100 after:transition <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">

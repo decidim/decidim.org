@@ -5,8 +5,8 @@ function getTabId(node) {
   return tabId || tabContent
 }
 
-function handleTabClick({ target }) {
-  const parent = target.closest("[data-tabs]")
+function handleTabClick({ target }, tabType) {
+  const parent = target.closest(`[data-tabs=${tabType}]`)
 
   if (parent) {
     const ids = parent.querySelectorAll(`[data-tab-id]`)
@@ -20,7 +20,7 @@ function handleTabClick({ target }) {
 
 function tabs() {
   const selectors = document.querySelectorAll("[data-tabs]")
-  selectors.forEach(tabs => tabs.addEventListener("click", handleTabClick))
+  selectors.forEach(tabs => tabs.addEventListener("click", e => handleTabClick(e, tabs.dataset.tabs)))
 }
 
 tabs()

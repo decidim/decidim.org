@@ -43,6 +43,7 @@ en:
       subheading: 'Decidim is a digital platform<br/>for citizen participation'
       intro: 'Free and safe technology.<br/>With all democratic
       guarantees.<br/>Reprogramming democracy is now possible with Decidim.'
+      cta: Get started
     video:
       play: 'Play video'
       url: 'https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc'
@@ -51,12 +52,31 @@ en:
       intro:
         'Decidim helps citizens, organizations and public institutions self-organize
         democratically at every scale.'
-      feature1: 'Strategic<br/>planning'
-      feature2: 'Participatory<br/>budgeting'
-      feature3: 'Initiatives and<br/>citizen consultations'
-      feature4: 'Participative<br/>processes'
-      feature5: 'Assemblies'
-      feature6: 'Networked<br/>communication'
+      feature1: Strategic planning
+      feature2: Participatory budgeting
+      feature3: Initiatives and citizen consultations
+      feature4: Participative processes
+      feature5: Assemblies
+      feature6: Networked communication
+      cta: Explore all features
+    elements:
+      services:
+        title: Implementing a flexible democratic system
+        content: We can help configure a system of democratic governance in all kinds of organizations.
+        link: Our services
+      contract:
+        title: We take democracy very seriously
+        content:
+          'Decidim ensures transparency, traceability and integrity of information
+          like never before. It provides security, privacy and confidentiality to all
+          participants.'
+        link: Social contract
+      community:
+        title: "It's yours. Use it. Share it. Improve it."
+        content:
+          'A platform designed entirely with free software, open and collaborative
+          content thanks to the community Metadecidim.'
+        link: The community
     used_by:
       title: Already using Decidim
       heading: Hundreds of organizations trust Decidim for their democratic processes
@@ -164,11 +184,7 @@ en:
           'Thanks to its modular architecture and scalable logic, you can configure a
           powerful system of democratic governance in all kinds of organizations.'
       n5:
-        title: 'We take democracy<br/>very seriously'
-        content:
-          'Decidim ensures transparency, traceability and integrity of information
-          like never before. It provides security, privacy and confidentiality to all
-          participants.'
+
       n6:
         title: "It's yours.<br/>Share it. Improve it."
         content:
