@@ -5,8 +5,15 @@ pageClass: home
 
 <section>
   <div class="bg-black absolute top-0 left-0 z-[-1] w-full h-[680px]">
-    <img class="w-full h-full object-cover" src="/images/video-cover.jpg" alt="">
-    <div class="container flex items-center space-x-16 py-8 z-10">
+    <img class="w-full h-full object-cover mix-blend-luminosity" src="/images/hero_cover.jpg" alt="Decidim">
+  </div>
+  <div class="container py-24">
+    <div class="md:bg-red-500 p-8 text-white rounded-xl w-1/2">
+      <h2 class="h2"><%= t("index.hero.subheading") %></h2>
+      <p class="text-md"><%= t("index.hero.intro") %></p>
+    </div>
+    <a href="/get-started" class="inline-block mt-6 button text-md"><%= t("index.hero.cta") %></a>
+    <div class="flex items-center space-x-16 py-8 mt-16">
       <% data.partners.sample(6).each do |logo| %>
         <a class="w-1/6 h-16 block cursor-pointer" href="<%= logo.url %>">
           <img class="w-full h-full object-contain grayscale" src="<%= logo.image %>" alt="<%= logo.name %>">
@@ -14,21 +21,14 @@ pageClass: home
       <% end %>
     </div>
   </div>
-  <div class="container mt-20 mb-64">
-    <div class="md:bg-red-500 p-8 text-white rounded-xl w-1/2">
-      <h2 class="h2"><%= t("index.hero.subheading") %></h2>
-      <p class="text-md"><%= t("index.hero.intro") %></p>
-    </div>
-    <a href="/get-started" class="inline-block mt-6 button text-md"><%= t("index.hero.cta") %></a>
-  </div>
 </section>
 
 <section>
-  <div class="container py-24 flex space-x-8 items-stretch" data-tabs="index">
-    <div class="w-3/4 grow-0 flex flex-col h-full">
+  <div class="container py-24 flex space-x-4 items-stretch" data-tabs="index">
+    <div class="w-3/4 rounded-xl overflow-hidden relative">
       <% data.index.features.each_with_index do |feat, i| %>
-        <div class="hidden grid place-items-center rounded-xl overflow-hidden <%= 'is-selected' if i == 0 %>" data-tab-content="<%= feat.id %>">
-          <img class="h-full object-cover" src="<%= feat.image %>" alt="<%= t("index.subhero.#{feat.id}") %>">
+        <div class="hidden absolute top-0 left-0 w-full h-full <%= 'is-selected' if i == 0 %>" data-tab-content="<%= feat.id %>">
+          <img class="w-full h-full object-contain" src="<%= feat.image %>" alt="<%= t("index.subhero.#{feat.id}") %>">
         </div>
       <% end %>
     </div>

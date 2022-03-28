@@ -20,7 +20,10 @@ function handleTabClick({ target }, tabType) {
 
 function tabs() {
   const selectors = document.querySelectorAll("[data-tabs]")
-  selectors.forEach(tabs => tabs.addEventListener("click", e => handleTabClick(e, tabs.dataset.tabs)))
+  selectors.forEach(tabs => {
+    tabs.addEventListener("click", e => handleTabClick(e, tabs.dataset.tabs))
+    tabs.addEventListener("pointerover", e => handleTabClick(e, tabs.dataset.tabs))
+  })
 }
 
 tabs()
