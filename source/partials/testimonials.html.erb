@@ -7,7 +7,7 @@
   <div class="container py-24 grid grid-cols-6 gap-6 items-start">
     <% data.testimonials.sample(3).each_with_index do |f, i| %>
       <div class="space-y-3 <%= columns[i] %> <%= rows[i] %> <%= '-mt-20' if i == 1 %>">
-        <blockquote class="p-8 text-md rounded-t-xl rounded-br-xl <%= bg[i] %> <%= text[i] %>">
+        <blockquote class="p-8 par-md rounded-t-xl rounded-br-xl <%= bg[i] %> <%= text[i] %>">
           <%= t("testimonials.#{f.id}.quote") %>
         </blockquote>
         <div class="flex items-start space-x-4 <%= 'w-1/2' if i == 0 %>">

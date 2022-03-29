@@ -2,34 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import "./components/fonts.css";
+@import "./components/typography.css";
 @import "./components/button.css";
-@import "./components/heading.css";
 @import "./components/tabs.css";
-
-
-@font-face {
-  font-family: 'Barlow';
-  src:
-    url('/fonts/barlow-light.woff2') format('woff2'),
-    url('/fonts/barlow-light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Barlow';
-  src:
-    url('/fonts/barlow-regular.woff2') format('woff2'),
-    url('/fonts/barlow-regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Barlow';
-  src:
-    url('/fonts/barlow-semibold.woff2') format('woff2'),
-    url('/fonts/barlow-semibold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-}

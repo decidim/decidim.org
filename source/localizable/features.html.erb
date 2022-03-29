@@ -9,34 +9,34 @@ description:
       <h1 class="h1">
         <%= t("features.title") %>
       </h1>
-      <p class="text-3xl text-gray-500">
+      <p class="par-xl text-gray-500">
         <%= t("features.subtitle") %>
       </p>
-      <div class="text-md text-gray-500">
+      <div class="par-md text-gray-500">
         <%= t("features.intro") %>
       </div>
     </div>
 
     <div class="flex space-x-16 mt-16">
       <a href="/docs" class="text-red-500">
-        <%= icon "ri-book-3-line" , class: "text-4xl" %>
-        <div class="flex items-center text-md">
+        <%= icon "ri-book-3-line", class: "w-9 h-10" %>
+        <div class="flex items-center par-md">
           <%= t("nav.docs.title") %>
-          <%= icon "ri-arrow-right-line" %>
+          <%= icon "ri-arrow-right-line", class: "w-5 h-5" %>
         </div>
       </a>
       <a href="/modules" class="text-red-500">
-        <%= icon "ri-collage-line" , class: "text-4xl" %>
-        <div class="flex items-center text-md">
+        <%= icon "ri-collage-line", class: "w-9 h-10" %>
+        <div class="flex items-center par-md">
           <%= t("nav.modules") %>
-          <%= icon "ri-arrow-right-line" %>
+          <%= icon "ri-arrow-right-line", class: "w-5 h-5" %>
         </div>
       </a>
       <a href="/demo" class="text-red-500">
-        <%= icon "ri-window-line" , class: "text-4xl" %>
-        <div class="flex items-center text-md">
+        <%= icon "ri-window-line", class: "w-9 h-10" %>
+        <div class="flex items-center par-md">
           <%= t("demo.title") %>
-          <%= icon "ri-arrow-right-line" %>
+          <%= icon "ri-arrow-right-line", class: "w-5 h-5" %>
         </div>
       </a>
     </div>
@@ -52,9 +52,9 @@ description:
     <div class="mt-8" data-tabs="features">
       <ul class="flex items-center space-x-8">
         <% data.features.spaces.each_with_index do |use, i| %>
-          <li class="flex items-center space-x-3 py-2 relative text-md text-gray-500 hover:text-red-500 transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:top-full after:hover:bg-red-500 after:w-full after:bg-gray-100 after:transition <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
-            <%= icon use.icon, class: "text-lg" %>
-            <span class="p-md">
+          <li class="flex items-center space-x-3 py-2 relative par-md text-gray-500 hover:text-red-500 transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:top-full after:hover:bg-red-500 after:w-full after:bg-gray-100 after:transition <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
+            <%= icon use.icon, class: "w-5 h-5" %>
+            <span class="par-md">
               <%= I18n.t("features.page.#{use.id}.title") %>
             </span>
           </li>
@@ -63,10 +63,10 @@ description:
       <% data.features.spaces.each_with_index do |use, i| %>
         <div class="hidden flex items-center space-x-6 mt-10 <%= 'is-selected' if i == 0 %>" data-tab-content="<%= use.id %>">
           <div class="w-3/5">
-            <p class="text-lg">
+            <p class="par-lg">
               <%= I18n.t("features.page.#{use.id}.title") %>&nbsp;<%= I18n.t("features.page.#{use.id}.subtitle") %>
             </p>
-            <p class="text-md text-gray-500 mt-2">
+            <p class="par-md text-gray-500 mt-2">
               <%= I18n.t("features.page.#{use.id}.text") %>
             </p>
           </div>
@@ -88,11 +88,11 @@ description:
     <div class="column-1 md:columns-3 gap-4 md:gap-6 mt-8">
       <% data.features.components.each do |use| %>
         <div class="bg-gray-100 p-6 rounded-xl mb-6 break-inside-avoid">
-          <%= icon use.icon, class: "text-red-500 text-xl" %>
+          <%= icon use.icon, class: "text-red-500 w-5 h-5" %>
           <h6 class="h6 mt-8">
             <%= I18n.t("features.page.#{use.id}.title") %>
           </h6>
-          <p class="p-md first-letter:uppercase">
+          <p class="par-md first-letter:uppercase">
             <%= I18n.t("features.page.#{use.id}.subtitle") %>
           </p>
           <p class="mt-6 text-gray-500">
@@ -109,10 +109,10 @@ description:
     <h3 class="h3">
       <%= t("features.type3.title") %>
     </h3>
-    <p class="text-lg text-gray-500">
+    <p class="par-lg text-gray-500">
       <%= t("features.type3.subtitle") %>
     </p>
-    <a class="inline-block button" href="/modules">
+    <a class="par-md inline-block button" href="/modules">
       <%= t("features.type3.cta") %>
     </a>
   </div>

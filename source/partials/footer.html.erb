@@ -1,4 +1,4 @@
-<footer class="bg-black text-white text-xs">
+<footer class="bg-black text-white par-xs">
   <div class="container py-4 space-y-12">
     <div class="flex items-center mt-8">
       <a class="w-3/4" href="<%= t(:path) %>/"><img src="/images/decidim-symbol.svg" alt="Decidim" /></a>
@@ -6,7 +6,7 @@
       <nav class="w-1/4 flex items-center space-x-2">
         <% data.links.social_media.each do |link| %>
           <% link_to link.url do %>
-            <%= icon link.icon, class: "text-xl" %>
+            <%= icon link.icon, class: "w-4 h-4" %>
           <% end %>
         <% end %>
       </nav>

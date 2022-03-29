@@ -10,10 +10,10 @@ pageClass: home
   <div class="container pt-24 pb-12">
     <div class="md:bg-red-500 p-8 text-white rounded-xl w-1/2">
       <h2 class="h2"><%= t("index.hero.subheading") %></h2>
-      <p class="text-md"><%= t("index.hero.intro") %></p>
+      <p class="par-md mt-6"><%= t("index.hero.intro") %></p>
     </div>
-    <a href="/get-started" class="inline-block mt-6 button text-md"><%= t("index.hero.cta") %></a>
-    <div class="flex items-center space-x-16 py-8 mt-16">
+    <a href="/get-started" class="inline-block mt-6 button par-md"><%= t("index.hero.cta") %></a>
+    <div class="flex items-center space-x-16 py-8 mt-24">
       <% data.partners.sample(6).each do |logo| %>
         <a class="w-1/6 h-16 block cursor-pointer" href="<%= logo.url %>">
           <img class="w-full h-full object-contain grayscale" src="<%= logo.image %>" alt="<%= logo.name %>">
@@ -36,40 +36,40 @@ pageClass: home
       <ul class="divide-y-8 divide-gray-100">
         <% data.index.features.each_with_index do |feat, i| %>
           <li class="flex items-center space-x-4 py-5 cursor-pointer hover:text-red-500 transition <%= 'is-selected' if i == 0 %>" data-tab-id="<%= feat.id %>">
-            <%= icon feat.icon, class: "text-2xl text-red-500" %>
-            <span class="font-bold text-md"><%= t("index.subhero.#{feat.id}") %></span>
+            <%= icon feat.icon, class: "w-6 h-6 text-red-500" %>
+            <h6 class="h6"><%= t("index.subhero.#{feat.id}") %></h6>
           </li>
         <% end %>
       </ul>
-      <a href="/features" class="button block text-center w-full text-md"><%= t("index.subhero.cta") %></a>
+      <a href="/features" class="button block text-center w-full par-md"><%= t("index.subhero.cta") %></a>
     </div>
   </div>
 </section>
 
 <section>
   <div class="container py-12">
-    <p class="w-3/4 mx-auto text-center text-gray-500 text-3xl"><%= t("index.subhero.intro") %></p>
+    <p class="w-3/4 mx-auto text-center text-gray-500 par-xl"><%= t("index.subhero.intro") %></p>
   </div>
 </section>
 
 <section>
   <div class="container py-12 flex flex-col md:flex-row justify-between items-stretch">
     <div class="flex flex-col border-l-8 border-gray-100 px-10 w-1/3">
-      <%= icon "ri-briefcase-line", class: "text-3xl text-red-500" %>
+      <%= icon "ri-briefcase-line", class: "w-8 h-8 text-red-500" %>
       <h5 class="h5 mt-8"><%= t("index.elements.services.title") %></h5>
-      <p class="text-md text-gray-500 mt-4 mb-6"><%= t("index.elements.services.content") %></p>
+      <p class="par-md text-gray-500 mt-4 mb-6"><%= t("index.elements.services.content") %></p>
       <%= partial "partials/arrow-link", locals: { text: t("index.elements.services.link"), url: "/services", classes: "mt-auto" } %>
     </div>
     <div class="flex flex-col border-l-8 border-gray-100 px-10 w-1/3">
-      <%= icon "ri-service-line", class: "text-3xl text-red-500" %>
+      <%= icon "ri-service-line", class: "w-8 h-8 text-red-500" %>
       <h5 class="h5 mt-8"><%= t("index.elements.contract.title") %></h5>
-      <p class="text-md text-gray-500 mt-4 mb-6"><%= t("index.elements.contract.content") %></p>
+      <p class="par-md text-gray-500 mt-4 mb-6"><%= t("index.elements.contract.content") %></p>
       <%= partial "partials/arrow-link", locals: { text: t("index.elements.contract.link"), url: "/contract", classes: "mt-auto" } %>
     </div>
     <div class="flex flex-col border-l-8 border-gray-100 px-10 w-1/3">
-      <%= icon "ri-hand-heart-line", class: "text-3xl text-red-500" %>
+      <%= icon "ri-hand-heart-line", class: "w-8 h-8 text-red-500" %>
       <h5 class="h5 mt-8"><%= t("index.elements.community.title") %></h5>
-      <p class="text-md text-gray-500 mt-4 mb-6"><%= t("index.elements.community.content") %></p>
+      <p class="par-md text-gray-500 mt-4 mb-6"><%= t("index.elements.community.content") %></p>
       <%= partial "partials/arrow-link", locals: { text: t("index.elements.community.link"), url: "/community", classes: "mt-auto" } %>
     </div>
   </div>
@@ -79,9 +79,9 @@ pageClass: home
 
 <section class="bg-red-100">
   <div class="container text-red-500 py-12">
-    <h6 class="h6 text-md text-red-500"><%= t('index.used_by.title') %></h2>
-    <p class="text-3xl leading-tight mt-2"><%= t('index.used_by.heading') %></p>
-    <a class="text-md underline mt-4 block" href="<%= t(:path) %>/usedby"><%= t('index.used_by.link') %></a>
+    <h6 class="h6 par-md text-red-500"><%= t('index.used_by.title') %></h2>
+    <p class="par-xl mt-2"><%= t('index.used_by.heading') %></p>
+    <a class="par-md underline mt-4 block" href="<%= t(:path) %>/usedby"><%= t('index.used_by.link') %></a>
 
     <div class="mt-24">
       <% installations = data_sort_by_priority(data_select_home(data.installations)) %>
