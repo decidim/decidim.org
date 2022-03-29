@@ -22,6 +22,7 @@ en:
     legal-notice: 'Legal notice'
     privacy-policy: 'Privacy policy'
     get-started: First steps
+    services: Services
 
   alert:
     title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
@@ -852,22 +853,24 @@ en:
     subtitle: Decidim is a digital platform<br/>for citizen participation
     intro:
       'It’s a free and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...'
-    elements:
-      e1:
-        title: For technologists
-        content: You can install Decidim yourself or find someone to help you with tech support.
-        link1: Documentation
-        link2: Our services
-      e2:
-        title: For organizations
-        content: For big or small organisations, discover how Decidim can cater to your needs.
-        link1: Features
-        link2: Our services
-      e3:
-        title: For citizens
-        content: Find out if your city is planning to use Decidim or how you can convince them to do it.
-        link1: Find a partner
-        link2: Case studies
+    get-started1:
+      pre: For technologists
+      title: Installing Decidim
+      content: You can install Decidim yourself or find someone to help you with tech support.
+      link1: Documentation
+      link2: Our services
+    get-started2:
+      pre: For organizations
+      title: The right tool for you
+      content: For big or small organisations, discover how Decidim can cater to your needs.
+      link1: Features
+      link2: Our services
+    get-started3:
+      pre: For citizens
+      title: Decidim in your city
+      content: Find out if your city is planning to use Decidim or how you can convince them to do it.
+      link1: Find a partner
+      link2: Case studies
     section2:
       title: Is Decidim the right tool for you?
       subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
@@ -881,3 +884,20 @@ en:
       intro: The <strong>Decidim Free Software Association</strong>  is a democratic association for the governance of the Decidim community.
       button1: About the association
       button2: Join the community
+
+  services:
+    title: Services
+    subtitle: The Decidim Association offers consulting services to help you install and run your instance of Decidim.
+    service1:
+      title: Research
+      content: Research and creation of new forms of participation through digital technologies and hybridization of participation between analog and digital forms.
+    service2:
+      title: Dissemination
+      content: Design, development, dissemination and extension of digital participation tools that contribute to making a more democratic and participatory society.
+    service3:
+      title: Project management
+      content: Management of projects for initiatives related to systems of participation and democracy through digital technologies.
+    service4:
+      title: Promotion of participation systems
+      content: Implementation and promotion of participation systems in countries or regions with democratic deficits through international cooperation.
+    touch: Get in touch

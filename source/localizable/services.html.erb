@@ -1,0 +1,59 @@
+---
+nav: services
+description:
+---
+
+<section>
+  <div class="container pt-24 pb-12">
+    <div class="w-3/5 space-y-6">
+      <h1 class="h1">
+        <%= t("services.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("services.subtitle") %>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container py-12">
+    <div class="grid md:grid-cols-2 gap-6">
+      <% data.services.each do |service| %>
+        <div class="flex flex-col border-l-8 border-gray-100 px-10">
+          <%= icon service.icon, class: "w-9 h-10 text-red-500" %>
+          <h5 class="h5 mt-8"><%= t("services.#{service.title}") %></h5>
+          <p class="par-md text-gray-500 mt-4 mb-6"><%= t("services.#{service.content}") %></p>
+          <div class="mt-auto">
+            <%= partial "partials/arrow-link", locals: { text: t("services.touch"), url: service.url } %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container pt-12 pb-24">
+    <div class="flex items-stretch space-x-12">
+      <div class="w-2/5 rounded-xl overflow-hidden">
+        <img class="w-full h-full object-cover bg-gray-300" src="" alt="">
+      </div>
+      <div class="w-3/5">
+        <h3 class="h3">A team of experts at your service</h3>
+        <p class="par-lg text-gray-500 mt-6">The Decidim Free Software Association is a democratic association for the governance of the Decidim community.</p>
+        <ul class="par-md space-y-6 mt-8">
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span>Tech experts</span></li>
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span>Legal advisors</span></li>
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span>Tech experts</span></li>
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span>Tech experts</span></li>
+        </ul>
+        <a href="" class="button inline-block par-md mt-8">Learn more about us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%= partial "/partials/faq" %>
+
+<%= partial "/partials/cta-banner" %>
