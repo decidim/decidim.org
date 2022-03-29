@@ -846,3 +846,38 @@ en:
         (except as required to be maintained for legal purposes), and you will not be able to continue to use our
         services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed
         by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>
+
+  get-started:
+    title: Get started with Decidim
+    subtitle: Decidim is a digital platform<br/>for citizen participation
+    intro:
+      'It’s a free and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...'
+    elements:
+      e1:
+        title: For technologists
+        content: You can install Decidim yourself or find someone to help you with tech support.
+        link1: Documentation
+        link2: Our services
+      e2:
+        title: For organizations
+        content: For big or small organisations, discover how Decidim can cater to your needs.
+        link1: Features
+        link2: Our services
+      e3:
+        title: For citizens
+        content: Find out if your city is planning to use Decidim or how you can convince them to do it.
+        link1: Find a partner
+        link2: Case studies
+    section2:
+      title: Is Decidim the right tool for you?
+      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
+      link: Explore all features
+    section3:
+      title: Backed by technology, democracy and experience
+      link: Read the case study
+    section4:
+      title: Who’s behind the platform?
+      subtitle: <strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.
+      intro: The <strong>Decidim Free Software Association</strong>  is a democratic association for the governance of the Decidim community.
+      button1: About the association
+      button2: Join the community

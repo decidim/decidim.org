@@ -3,4 +3,127 @@ nav: get-started
 description:
 ---
 
-hola
+<section>
+  <div class="container pt-24 pb-12">
+    <div class="w-3/5 space-y-6">
+      <h1 class="h1">
+        <%= t("get-started.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("get-started.subtitle") %>
+      </p>
+      <div class="par-md text-gray-500">
+        <%= t("get-started.intro") %>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row justify-between items-stretch mt-16">
+      <div class="flex flex-col border-l-8 border-gray-100 px-10 w-1/3">
+        <%= icon "ri-briefcase-line", class: "w-8 h-8 text-red-500" %>
+        <h5 class="h5 mt-8"><%= t("get-started.elements.e1.title") %></h5>
+        <p class="par-md text-gray-500 mt-4 mb-6"><%= t("get-started.elements.e1.content") %></p>
+        <div class="mt-auto">
+          <%= partial "partials/arrow-link", locals: { text: t("get-started.elements.e1.link1"), url: "/docs" } %>
+          <%= partial "partials/arrow-link", locals: { text: t("get-started.elements.e1.link2"), url: "/services" } %>
+        </div>
+      </div>
+      <div class="flex flex-col border-l-8 border-gray-100 px-10 w-1/3">
+        <%= icon "ri-service-line", class: "w-8 h-8 text-red-500" %>
+        <h5 class="h5 mt-8"><%= t("get-started.elements.e2.title") %></h5>
+        <p class="par-md text-gray-500 mt-4 mb-6"><%= t("get-started.elements.e2.content") %></p>
+        <div class="mt-auto">
+          <%= partial "partials/arrow-link", locals: { text: t("get-started.elements.e2.link1"), url: "/features" } %>
+          <%= partial "partials/arrow-link", locals: { text: t("get-started.elements.e2.link2"), url: "/services" } %>
+        </div>
+      </div>
+      <div class="flex flex-col border-l-8 border-gray-100 px-10 w-1/3">
+        <%= icon "ri-hand-heart-line", class: "w-8 h-8 text-red-500" %>
+        <h5 class="h5 mt-8"><%= t("get-started.elements.e3.title") %></h5>
+        <p class="par-md text-gray-500 mt-4 mb-6"><%= t("get-started.elements.e3.content") %></p>
+        <div class="mt-auto">
+          <%= partial "partials/arrow-link", locals: { text: t("get-started.elements.e3.link1"), url: "/partners" } %>
+          <%= partial "partials/arrow-link", locals: { text: t("get-started.elements.e3.link2"), url: "/contract" } %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="py-12 overflow-hidden">
+    <div class="container space-y-6">
+      <h3 class="h3">
+        <%= t("get-started.section2.title") %>
+      </h3>
+      <p class="par-lg text-gray-500">
+        <%= t("get-started.section2.subtitle") %>
+      </p>
+      <%= partial "partials/arrow-link", locals: { text: t("get-started.section2.link"), url: "/features" } %>
+    </div>
+
+    <div class="mt-12 -ml-[5vw] w-[110vw]">
+      <div class="flex flex-wrap -m-3">
+
+        <% t("features.page").each do |f| %>
+          <div class="p-3">
+            <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2">
+              <%= icon "ri-check-line", class: "w-5 h-4" %>
+              <span><%= f[1][:title]  %></span>
+            </div>
+          </div>
+        <% end %>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container py-12">
+    <h3 class="h3"><%= t("get-started.section3.title") %></h3>
+    <div class="flex items-stretch space-x-6 mt-12">
+      <% data.testimonials.sample(2).each do |f| %>
+        <div class="w-1/3 flex flex-col">
+          <div class="rounded-xl overflow-hidden mb-4"><img class="w-full aspect-[4/3] object-cover" src="<%= f.image %>" alt="<%= f.name %>"></div>
+          <h5 class="h5 mb-4"><%= t("testimonials.#{f.id}.org") %></h5>
+          <p class="par-md mb-4"><%= t("testimonials.#{f.id}.quote").truncate(120, separator: ' ') %></p>
+          <%= partial "partials/arrow-link", locals: { text: t("get-started.section3.link"), url: "/features", classes: "mt-auto block" } %>
+        </div>
+      <% end %>
+      <div class="w-1/3 bg-red-100 rounded-xl text-red-500 p-6">
+        <h4 class="h4">Read more case studies on our blog</h4>
+        <%= icon "ri-arrow-right-line", class: "w-7 h-7 mt-4" %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-gray-100 mt-12 py-16">
+  <div class="container space-y-6">
+    <h3 class="h3">
+      <%= t("get-started.section4.title") %>
+    </h3>
+    <p class="par-lg text-gray-500">
+      <%= t("get-started.section4.subtitle") %>
+    </p>
+    <p class="par-md text-gray-500">
+      <%= t("get-started.section4.intro") %>
+    </p>
+    <div class="flex space-x-4 par-md">
+      <a href="/community" class="button black"><%= t("get-started.section4.button1") %></a>
+      <a href="/demo" class="button hollow black"><%= t("get-started.section4.button2") %></a>
+    </div>
+  </div>
+</section>
+
+<%= partial "/partials/testimonials" %>
+
+<section>
+  <div class="container py-12">
+    <%= partial "partials/random_partners" %>
+  </div>
+</section>
+
+<%= partial "/partials/faq" %>
+
+<%= partial "/partials/cta-banner" %>

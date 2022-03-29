@@ -13,21 +13,15 @@ pageClass: home
       <p class="par-md mt-6"><%= t("index.hero.intro") %></p>
     </div>
     <a href="/get-started" class="inline-block mt-6 button par-md"><%= t("index.hero.cta") %></a>
-    <div class="flex items-center space-x-16 py-8 mt-24">
-      <% data.partners.sample(6).each do |logo| %>
-        <a class="w-1/6 h-16 block cursor-pointer" href="<%= logo.url %>">
-          <img class="w-full h-full object-contain grayscale" src="<%= logo.image %>" alt="<%= logo.name %>">
-        </a>
-      <% end %>
-    </div>
+    <%= partial "partials/random_partners", locals: { classes: "py-8 mt-24" } %>
   </div>
 </section>
 
 <section>
   <div class="container py-12 flex space-x-4 items-stretch" data-tabs="index">
-    <div class="w-3/4 rounded-xl overflow-hidden relative">
+    <div class="w-3/4 relative">
       <% data.index.features.each_with_index do |feat, i| %>
-        <div class="hidden absolute top-0 left-0 w-full h-full <%= 'is-selected' if i == 0 %>" data-tab-content="<%= feat.id %>">
+        <div class="hidden absolute top-0 left-0 w-full h-full rounded-xl overflow-hidden <%= 'is-selected' if i == 0 %>" data-tab-content="<%= feat.id %>">
           <img class="w-full h-full object-contain" src="<%= feat.image %>" alt="<%= t("index.subhero.#{feat.id}") %>">
         </div>
       <% end %>

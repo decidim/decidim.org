@@ -7,7 +7,7 @@ description:
 
   <section class="bg-gray-100 rounded p-4 space-y-8">
     <div class="space-y-4">
-      <h2 class="h2">button colors</h2>
+      <h4 class="h4">button colors</h4>
       <div class="flex space-x-4 items-baseline">
         <div class="button">.button</div>
         <div class="button hollow">.button.hollow</div>
@@ -19,7 +19,7 @@ description:
     </div>
 
     <div class="space-y-4">
-      <h2 class="h2">button sizes</h2>
+      <h4 class="h4">button sizes</h4>
       <div class="flex space-x-4 items-baseline">
         <div class="button">.button</div>
         <div class="button small">.button.small</div>
@@ -28,7 +28,7 @@ description:
   </section>
 
   <section class="bg-gray-100 rounded p-4 space-y-8">
-    <h2 class="h2">headings and font-sizes</h2>
+    <h4 class="h4">headings and paragraphs</h4>
 
     <div class="flex space-x-16">
       <div>
@@ -52,11 +52,21 @@ description:
 
   <section class="bg-gray-100 rounded p-4 space-y-8">
     <div class="space-y-4">
-      <h2 class="h2">icons</h2>
+      <h4 class="h4">icons size</h4>
+      <div class="flex space-x-2 items-center">
+        <% [["w-4", "h-4"], ["w-6", "h-6"], ["w-12", "h-12"], ["w-20", "h-20"], ["w-24", "h-24"], ["w-48", "h-48"]].each do |size| %>
+          <div class="flex space-x-2 items-center">
+            <%= icon "ri-football-fill", class: size.join(" ") %>
+            <span>.<%= size.join(".") %></span>
+          </div>
+        <% end %>
+      </div>
+
+      <h4 class="h4">icons list</h4>
       <div class="columns-5">
         <% list_icons.each do |i| %>
           <div class="flex space-x-2 items-center">
-            <span class="par-md"><%= icon i %></span>
+            <span class="par-md"><%= icon i, class: "w-6 h-6" %></span>
             <span><%= i %></span>
           </div>
         <% end %>
