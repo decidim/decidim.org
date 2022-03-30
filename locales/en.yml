@@ -336,11 +336,29 @@ en:
       official: Official
 
   used_by:
-    explain: These cities, regions and organizations are already using Decidim
-    type:
-      city: Cities
-      region: Regions
-      organizations: Organizations
+    title: Decidim in use
+    subtitle: These cities, regions and organizations are already using Decidim
+    intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
+    facts:
+      title: Facts & Figures
+      subtitle: Decidim keeps growing and being adopted by organizations and the community.
+      f1: countries using Decidim
+      f2: individual contributors
+      f3: citizens using the platform
+      f4: surveys since 2016
+      f5: assemblies backed by Decidim
+      f6: community members
+      f7: access to democratic processes
+      f8: versions released
+      f9: cities using Decidim
+    filters:
+      f0: See all
+      f1: Government
+      f2: Cities
+      f3: NGOs
+    disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
+    join: Join more than 100 cities, regions and organisations in over 20 countries using Decidim in their democratic processes.
+    cta: Get started
 
   testimonials:
     n1:
@@ -851,6 +869,7 @@ en:
     section3:
       title: Backed by technology, democracy and experience
       link: Read the case study
+      cta: Read more case studies on our blog
     section4:
       title: Who’s behind the platform?
       subtitle: <strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.

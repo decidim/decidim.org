@@ -55,7 +55,7 @@ description:
           <li class="flex items-center space-x-3 py-2 relative par-md text-gray-500 hover:text-red-500 transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:top-full after:hover:bg-red-500 after:w-full after:bg-gray-100 after:transition <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
             <%= icon use.icon, class: "w-5 h-5" %>
             <span class="par-md">
-              <%= I18n.t("features.page.#{use.id}.title") %>
+              <%= t("features.page.#{use.id}.title") %>
             </span>
           </li>
         <% end %>
@@ -64,10 +64,10 @@ description:
         <div class="hidden flex items-center space-x-6 mt-10 <%= 'is-selected' if i == 0 %>" data-tab-content="<%= use.id %>">
           <div class="w-3/5">
             <p class="par-lg">
-              <%= I18n.t("features.page.#{use.id}.title") %>&nbsp;<%= I18n.t("features.page.#{use.id}.subtitle") %>
+              <%= t("features.page.#{use.id}.title") %>&nbsp;<%= t("features.page.#{use.id}.subtitle") %>
             </p>
             <p class="par-md text-gray-500 mt-2">
-              <%= I18n.t("features.page.#{use.id}.text") %>
+              <%= t("features.page.#{use.id}.text") %>
             </p>
           </div>
           <div class="w-2/5 rounded-xl overflow-hidden bg-gray-300">
