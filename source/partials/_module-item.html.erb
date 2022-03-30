@@ -1,0 +1,12 @@
+<div class="flex items-center space-x-6 py-6 <%= classes ||= '' %>">
+  <% if item.image %>
+    <div class="w-1/5 rounded-xl overflow-hidden">
+      <img src="<%= item.image %>" alt="<%= item.title %>" resize="150x150">
+    </div>
+  <% end %>
+  <div class="w-4/5 flex flex-col space-y-2">
+    <h6 class="h6"><%= item.title %></h6>
+    <p class="par-sm text-gray-500"><%= item.description %></p>
+    <a href="<%= item.url %>" class="inline-block underline par-sm text-gray-500"><%= t("modules.more_info") %></a>
+  </div>
+</div>

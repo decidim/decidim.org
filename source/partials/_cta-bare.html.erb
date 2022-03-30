@@ -1,7 +1,10 @@
-<a href="<%= url %>" class="w-full md:w-auto flex md:flex-col space-x-2 md:space-x-0 md:space-y-2 <%= classes %>">
-  <%= icon icon, class: "w-9 h-10" %>
+<% icon_name = icon ||= nil %>
+<a href="<%= url ||= '' %>" class="w-full md:w-auto flex md:flex-col space-x-2 md:space-x-0 md:space-y-2 <%= classes ||= '' %>">
+  <% if icon_name %>
+    <%= icon icon_name, class: "w-9 h-10" %>
+  <% end %>
   <div class="w-full md:w-auto flex justify-between md:justify-start items-center space-x-2 par-md">
-    <span><%= text %></span>
+    <span><%= text ||= '' %></span>
     <%= icon "ri-arrow-right-line", class: "w-5 h-5" %>
   </div>
 </a>

@@ -331,11 +331,13 @@ en:
   modules:
     title: Modules
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-
-    type:
-      community: Community
-      auth: Authorization
-      official: Official modules
+    community: Community
+    auth: Authorization
+    official: Official modules
+    more_info: More information
+    develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
+    cta: Learn how
+    placeholder: Search...
 
   used_by:
     title: Decidim in use
