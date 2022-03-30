@@ -61,19 +61,19 @@ en:
       feature5: Assemblies
       feature6: Networked communication
       cta: Explore all features
-    elements:
-      services:
+    cards:
+      card1:
         title: Implementing a flexible democratic system
         content: We can help configure a system of democratic governance in all kinds of organizations.
         link: Our services
-      contract:
+      card2:
         title: We take democracy very seriously
         content:
           'Decidim ensures transparency, traceability and integrity of information
           like never before. It provides security, privacy and confidentiality to all
           participants.'
         link: Social contract
-      community:
+      card3:
         title: "It's yours. Use it. Share it. Improve it."
         content:
           'A platform designed entirely with free software, open and collaborative
@@ -105,38 +105,11 @@ en:
     title: 'Metadecidim, our community'
     subtitle: 'A democratic community that manages the Decidim project in all its dimensions'
     intro: 'Metadecidim is a community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.'
-    cta: 'Get started'
-    features:
-      title: 'Propose new features'
-      subtitle: 'To design and develop Decidim among all'
-      text: 'You can create debates about the future of Decidim or propose new features or improvements. Proposals can receive endorsements and comments, to show, for example, the interest they arouse in the community and value their development. Proposals that have a sponsor (such as a city council or any other entity), responsible for seeking and providing the necessary resources to carry out their development, will be useful for the project.'
-      cta: 'Enter and participate now'
-    bug:
-      title: 'Report a bug'
-      subtitle: 'Collaboration for progressive improvement'
-      text: 'Each new release of Decidim incorporates new features and usability improvements, but not everything works at first and errors may appear. Here you can report bugs you find and help the developers to fix them quickly.'
-      cta: 'Enter and participate now'
-    img_alt: 'Decidim Community Photo at Metadecidim Meeting 2016'
-    timeline:
-      title: 'Collaborative design of functionalities'
-      step1:
-        title: 'New proposal'
-        text: 'Functional description'
-      step2:
-        title: 'Validated proposal'
-        text: 'Technical and technopolitical validation'
-      step3:
-        title: 'Planned proposal'
-        text: 'Resources for development (shared or not)'
-      step4:
-        title: 'Issue'
-        text: 'Technical description'
-      step5:
-        title: 'Pull request'
-        text: 'Developed code'
-      step6:
-        title: 'Funcionality done'
-        text: 'Avaliable on the next version'
+    cta: 'Go to Metadecidim'
+    community1: Propose and help define new features
+    community2: Report bugs and help the developers fix them
+    community3: Help shape the future of the platform
+    figcaption: The Decidim Community during the Decidim Fest 2021
 
   contact:
     title: Contact us
@@ -901,3 +874,10 @@ en:
       title: Promotion of participation systems
       content: Implementation and promotion of participation systems in countries or regions with democratic deficits through international cooperation.
     touch: Get in touch
+    team: A team of experts at your service
+    dfsa: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
+    li1: Tech experts
+    li2: Legal advisors
+    li3: Trainers & coaches
+    li4: International cooperation experts
+    cta: Learn more about us

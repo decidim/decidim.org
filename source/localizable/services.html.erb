@@ -5,7 +5,7 @@ description:
 
 <section>
   <div class="container pt-24 pb-12">
-    <div class="w-3/5 space-y-6">
+    <div class="md:w-3/5 space-y-6">
       <h1 class="h1">
         <%= t("services.title") %>
       </h1>
@@ -36,19 +36,19 @@ description:
 <section>
   <div class="container pt-12 pb-24">
     <div class="flex items-stretch space-x-12">
-      <div class="w-2/5 rounded-xl overflow-hidden">
-        <img class="w-full h-full object-cover bg-gray-300" src="" alt="">
+      <div class="w-2/5 rounded-xl overflow-hidden bg-gray-300">
+        <img class="w-full h-full object-cover" src="" alt="">
       </div>
       <div class="w-3/5">
-        <h3 class="h3">A team of experts at your service</h3>
-        <p class="par-lg text-gray-500 mt-6">The Decidim Free Software Association is a democratic association for the governance of the Decidim community.</p>
+        <h3 class="h3"><%= t("services.team") %></h3>
+        <p class="par-lg text-gray-500 mt-6"><%= t("services.dfsa") %></p>
         <ul class="par-md space-y-6 mt-8">
-          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span>Tech experts</span></li>
-          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span>Legal advisors</span></li>
-          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span>Tech experts</span></li>
-          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span>Tech experts</span></li>
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li1") %></span></li>
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li2") %></span></li>
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li3") %></span></li>
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li4") %></span></li>
         </ul>
-        <a href="" class="button inline-block par-md mt-8">Learn more about us</a>
+        <a href="" class="button inline-block par-md mt-8"><%= t("services.cta") %></a>
       </div>
     </div>
   </div>

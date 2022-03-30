@@ -5,7 +5,7 @@ description:
 
 <section>
   <div class="container pt-24 pb-12">
-    <div class="w-3/5 space-y-6">
+    <div class="md:w-3/5 space-y-6">
       <h1 class="h1">
         <%= t("features.title") %>
       </h1>
@@ -70,8 +70,8 @@ description:
               <%= I18n.t("features.page.#{use.id}.text") %>
             </p>
           </div>
-          <div class="w-2/5">
-            <img class="object-cover w-full h-full" src="<%= use.image %>">
+          <div class="w-2/5 rounded-xl overflow-hidden bg-gray-300">
+            <img class="object-cover w-full aspect-[4/3]" src="<%= use.image %>">
           </div>
         </div>
       <% end %>

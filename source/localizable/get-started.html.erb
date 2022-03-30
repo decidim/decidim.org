@@ -5,7 +5,7 @@ description:
 
 <section>
   <div class="container pt-24 pb-12">
-    <div class="w-3/5 space-y-6">
+    <div class="md:w-3/5 space-y-6">
       <h1 class="h1">
         <%= t("get-started.title") %>
       </h1>
@@ -19,7 +19,7 @@ description:
 
     <div class="flex flex-col md:flex-row justify-between items-stretch mt-16">
       <% data.get_started.each do |item| %>
-        <div class="flex flex-col border-l-8 border-gray-100 px-10 w-1/3">
+        <div class="flex flex-col border-l-8 border-gray-100 px-10 md:w-1/3">
           <div class="flex items-center text-red-500 space-x-2">
             <%= icon item.icon, class: "w-8 h-8" %>
             <span class="font-semibold uppercase"><%= t("get-started.#{item.pre}") %></span>
@@ -71,7 +71,7 @@ description:
     <div class="flex items-stretch space-x-6 mt-12">
       <% data.testimonials.sample(2).each do |f| %>
         <div class="w-1/3 flex flex-col">
-          <div class="rounded-xl overflow-hidden mb-4"><img class="w-full aspect-[4/3] object-cover" src="<%= f.image %>" alt="<%= f.name %>"></div>
+          <div class="rounded-xl overflow-hidden bg-gray-300 mb-4"><img class="w-full aspect-[4/3] object-cover" src="<%= f.image %>" alt="<%= f.name %>"></div>
           <h5 class="h5 mb-4"><%= t("testimonials.#{f.id}.org") %></h5>
           <p class="par-md mb-4"><%= t("testimonials.#{f.id}.quote").truncate(120, separator: ' ') %></p>
           <%= partial "partials/arrow-link", locals: { text: t("get-started.section3.link"), url: "/features", classes: "mt-auto block" } %>

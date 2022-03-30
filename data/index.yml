@@ -1,19 +1,39 @@
 features:
   - id: feature1
     icon: ri-flow-chart
-    image: https://picsum.photos/300/200?random=1
+    image:
   - id: feature2
     icon: ri-user-voice-line
-    image: https://picsum.photos/500/200?random=2
+    image:
   - id: feature3
     icon: ri-team-line
-    image: https://picsum.photos/200/600?random=3
+    image:
   - id: feature4
     icon: ri-question-line
-    image: https://picsum.photos/100/400?random=4
+    image:
   - id: feature5
     icon: ri-pie-chart-line
-    image: https://picsum.photos/400/400?random=5
+    image:
   - id: feature6
     icon: ri-discuss-line
-    image: https://picsum.photos/200/300?random=6
+    image:
+
+cards:
+  - id: feature1
+    icon: ri-briefcase-line
+    title: card1.title
+    content: card1.content
+    link: card1.link
+    url: /services
+  - id: feature1
+    icon: ri-service-line
+    title: card2.title
+    content: card2.content
+    link: card2.link
+    url: /contract
+  - id: feature1
+    icon: ri-hand-heart-line
+    title: card3.title
+    content: card3.content
+    link: card3.link
+    url: /community
