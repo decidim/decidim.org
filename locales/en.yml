@@ -112,7 +112,8 @@ en:
     figcaption: The Decidim Community during the Decidim Fest 2021
 
   contact:
-    title: Contact us
+    title: Contact Decidim
+    subtitle: If you’d like to get in touch, fill in the contact form or send us an email at hola@decidim.org
     bot_field: "Don’t fill this out if you're human:"
     name: Name
     entity: Entity
@@ -323,17 +324,18 @@ en:
       button: 'Functions and features'
 
   partners:
-    notice: The cooperating entities logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
+    title: Partners
+    subtitle: These entities and organizations collaborate with Decidim.
+    intro: The cooperating entities logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
 
   modules:
-    description: Description
-    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
-    image: Image
-    name: Name
+    title: Modules
+    subtitle: By using modules you can extend the functionality of Decidim and share it with others.
+
     type:
       community: Community
       auth: Authorization
-      official: Official
+      official: Official modules
 
   used_by:
     title: Decidim in use
@@ -423,8 +425,10 @@ en:
         those, lead to choosing the open source tool Decidim for its technical maturity, broad
         community and adaptability.
       org: OpenForum Europe Research Director, European Union
+
   faqs:
-    title: Frequently asked questions
+    title: FAQs
+    subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
     q01:
       question: What is Decidim?
       answer: >-
@@ -671,6 +675,7 @@ en:
         <p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is
         governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising
         from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>
+
   privacy-policy:
     title: Privacy policy
     section-1:
@@ -900,3 +905,16 @@ en:
     li3: Trainers & coaches
     li4: International cooperation experts
     cta: Learn more about us
+
+  about:
+    title: About Decidim
+    subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
+    intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
+
+  press:
+    title: Press
+    subtitle: For media enquiries, please send us an email at hola@decidim.org
+
+  newsletter:
+    title: Newsletter
+    subtitle: News and updates about the Decidim platform and the community.

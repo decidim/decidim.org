@@ -17,28 +17,10 @@ description:
       </p>
     </div>
 
-    <div class="flex space-x-16 mt-16">
-      <a href="/docs" class="text-red-500">
-        <%= icon "ri-book-3-line", class: "w-9 h-10" %>
-        <div class="flex items-center par-md">
-          <%= t("nav.docs.title") %>
-          <%= icon "ri-arrow-right-line", class: "w-5 h-5" %>
-        </div>
-      </a>
-      <a href="/modules" class="text-red-500">
-        <%= icon "ri-collage-line", class: "w-9 h-10" %>
-        <div class="flex items-center par-md">
-          <%= t("nav.modules") %>
-          <%= icon "ri-arrow-right-line", class: "w-5 h-5" %>
-        </div>
-      </a>
-      <a href="/demo" class="text-red-500">
-        <%= icon "ri-window-line", class: "w-9 h-10" %>
-        <div class="flex items-center par-md">
-          <%= t("demo.title") %>
-          <%= icon "ri-arrow-right-line", class: "w-5 h-5" %>
-        </div>
-      </a>
+    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-16">
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-book-3-line", text: t("nav.docs.title"), url: "/docs" } %>
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-collage-line", text: t("nav.modules"), url: "/modules" } %>
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-window-line", text: t("demo.title"), url: "/demo" } %>
     </div>
   </div>
 </section>

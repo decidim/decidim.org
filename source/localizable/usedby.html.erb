@@ -48,9 +48,9 @@ description:
 <section>
   <div class="container py-12" data-tabs="used_by">
       <% installations = data_sort_by_priority(data.installations) %>
-      <% region = installations.select {|id,m| m["type"] == "region"} %>
-      <% city = installations.select {|id,m| m["type"] == "city"} %>
-      <% org = installations.select {|id,m| m["type"] == "org"} %>
+      <% region = data_select_by(installations, "region") %>
+      <% city = data_select_by(installations, "city") %>
+      <% org = data_select_by(installations, "org") %>
       <% filters = [installations, region, city, org] %>
 
       <ul class="flex items-center space-x-8 mb-16">

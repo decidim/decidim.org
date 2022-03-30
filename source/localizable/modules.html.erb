@@ -2,15 +2,43 @@
 nav: modules
 description:
 ---
-<div class="container container-vertical">
-  <h1 class="page-title"><%= t('nav.modules') %></h1>
 
-  <p><%= t('modules.explanation') %></p>
+<section>
+  <div class="container pt-24 pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1">
+        <%= t("modules.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("modules.subtitle") %>
+      </p>
+    </div>
 
-  <%= partial "partials/modules_by_type", locals: {type: "community", title: t('modules.type.community') } %>
+    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-16">
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-book-3-line", text: t("nav.docs.title"), url: "/docs" } %>
+    </div>
+  </div>
+</section>
 
-  <%= partial "partials/modules_by_type", locals: {type: "auth", title: t('modules.type.auth') } %>
+<section>
+  <div class="container py-24 grid">
+    <% modules = data_sort_by_title(data.modules) %>
+    <% modules.each do |id, m| %>
+      <tr>
+        <td><%= link_to m.title, m.url, target: '_blank' %></td>
+        <td><%= m.description %></td>
+        <td>
+          <% if m.image %>
+            <% link_to m.image do %>
+              <% image_tag m.image, alt: m.title, class: "module-list__image", resize: "300x300" %>
+            <% end %>
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </div>
+</section>
 
-  <%= partial "partials/modules_by_type", locals: {type: "official", title: t('modules.type.official') } %>
+<%= partial "/partials/faq" %>
 
-</div>
+<%= partial "/partials/cta-banner" %>

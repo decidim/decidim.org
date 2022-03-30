@@ -2,7 +2,27 @@
 nav: faqs
 description:
 ---
-<div class="container container-vertical">
+
+<section>
+  <div class="container pt-24 pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1">
+        <%= t("faqs.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("faqs.subtitle") %>
+      </p>
+    </div>
+
+    <!-- INCOMPLETE -->
+  </div>
+</section>
+
+<section>
+  <p class="container py-48 par-xl">TBC</p>
+</section>
+
+<!-- <div class="container container-vertical">
   <h1 class="page-title"><%= t('faqs.title') %></h1>
 
   <div class="partner__container container--text-col">
@@ -13,4 +33,7 @@ description:
       </dl>
     <% end %>
   </div>
-</div>
+</div> -->
+<%= partial "/partials/faq" %>
+
+<%= partial "/partials/cta-banner" %>

@@ -2,17 +2,26 @@
 nav: privacy-policy
 description:
 ---
-<div class="container container-vertical">
-  <h1 class="page-title"><%= t('privacy-policy.title') %></h1>
 
-  <div class="container--text-col">
+<section>
+  <div class="container pt-24 pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1">
+        <%= t("privacy-policy.title") %>
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container py-12">
     <% (1..8).each do |n| %>
-      <section>
-        <h2><%= t("privacy-policy.section-#{n}.title") %></h2>
-        <div><%= t("privacy-policy.section-#{n}.paragraph", decidim_url: "#{t(:path)}/legal-notice#decidim", legal_notice_url: "#{t(:path)}/legal-notice") %></div>
-      </section>
+      <h5 class="h5 first:mt-0 mt-8"><%= t("privacy-policy.section-#{n}.title") %></h5>
+      <p class="par-md mt-4"><%= t("privacy-policy.section-#{n}.paragraph", decidim_url: "#{t(:path)}/legal-notice#decidim", legal_notice_url: "#{t(:path)}/legal-notice") %></p>
     <% end %>
   </div>
-</div>
+</section>
 
+<%= partial "/partials/faq" %>
 
+<%= partial "/partials/cta-banner" %>
