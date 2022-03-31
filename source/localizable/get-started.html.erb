@@ -6,7 +6,7 @@ description:
 <section>
   <div class="container pt-24 pb-12">
     <div class="md:w-3/5 space-y-6">
-      <h1 class="h1">
+      <h1 class="h1 whitespace-nowrap">
         <%= t("get-started.title") %>
       </h1>
       <p class="par-xl text-gray-500">
@@ -24,9 +24,9 @@ description:
             <%= icon item.icon, class: "w-8 h-8" %>
             <span class="font-semibold uppercase"><%= t("get-started.#{item.pre}") %></span>
           </div>
-          <h5 class="h5 mt-8"><%= t("get-started.#{item.title}") %></h5>
+          <h5 class="h5 mt-7"><%= t("get-started.#{item.title}") %></h5>
           <p class="par-md text-gray-500 mt-4 mb-6"><%= t("get-started.#{item.content}") %></p>
-          <div class="mt-auto">
+          <div class="text-gray-500 mt-auto">
             <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link1}"), url: item.url1 } %>
             <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link2}"), url: item.url2 } %>
           </div>
