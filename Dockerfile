@@ -13,6 +13,7 @@ WORKDIR /app
 ADD Gemfile /app/Gemfile
 ADD Gemfile.lock /app/Gemfile.lock
 RUN bundle install
+RUN npm install
 
 ENV LANG C.UTF-8
 ENV LANGUAGE C.UTF-8
