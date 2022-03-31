@@ -4,7 +4,11 @@
   </h5>
   <time class="text-gray-500"><%= article.date.strftime('%d/%m/%Y') %></time>
   <div class="text-gray-500 text-md">
-    <%= article.summary %>
+    <% if strip ||= false %>
+      <%= strip_img article.summary %>
+    <% else %>
+      <%= article.summary %>
+    <% end %>
   </div>
 
   <%= partial "partials/arrow-link", locals: { text: t("blog.read_more"), url: article.url } %>

@@ -23,6 +23,7 @@ en:
     privacy-policy: 'Privacy policy'
     get-started: First steps
     services: Services
+    about: About
 
   alert:
     title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
@@ -912,6 +913,25 @@ en:
     title: About Decidim
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
+    about:
+      - Support us
+      - Contact us
+      - Our assembly
+      - Press
+    values_title: Our values
+    values_intro: '<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>'
+    values_cta: Read the social contract
+    values:
+      - Compromise and responsibility
+      - Equal opportunities and quality indicators
+      - Open content to share and cooperate
+      - Free software to enable autonomy
+      - Data confidentiality
+      - Transparency, traceability and integrity
+      - Continuous improvement and collaboration between organizations
+    support_title: Support Decidim
+    support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
+    support_intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
 
   press:
     title: Press
