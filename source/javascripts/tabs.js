@@ -1,3 +1,20 @@
+/**
+ * Use [data-tabs] tag in some parent node relative of the tabs and their contents
+ * Use [data-filter-id=UNIQUE_ID] tag in the tabs, setting the unique id
+ * Use [data-filter-content=UNIQUE_ID] tag in content relative to the tab id
+ *
+ * @example
+ * <div data-tabs="type">
+ *   <ul>
+ *     <li data-tab-id="value1">...</li>
+ *     <li data-tab-id="value2">...</li>
+ *     <li data-tab-id="value3">...</li>
+ *   </ul>
+ *   <div data-tab-content="value1">...</div>
+ *   <div data-tab-content="value1">...</div>
+ *   <div data-tab-content="value1">...</div>
+ * </div>
+ */
 const ACTIVE_CSS_CLASS = "is-selected"
 
 function getTabId(node) {
