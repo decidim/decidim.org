@@ -4,21 +4,22 @@ pageClass: home
 ---
 
 <section>
-  <div class="bg-black absolute top-0 left-0 z-[-1] w-full h-[680px]">
-    <img class="w-full h-full object-cover mix-blend-luminosity" src="/images/hero_cover.jpg" alt="Decidim">
-  </div>
-  <div class="container pt-24 pb-12">
-    <div class="md:bg-red-500 p-8 text-white rounded-xl w-1/2">
-      <h2 class="h2"><%= t("index.hero.subheading") %></h2>
-      <p class="par-md mt-6"><%= t("index.hero.intro") %></p>
+  <div class="bg-[url('/images/hero_cover.jpg')] bg-cover bg-center bg-no-repeat">
+    <div class="container pt-56 pb-12">
+      <div class="md:bg-red-500 p-8 text-white rounded-xl w-3/5">
+        <h2 class="h2"><%= t("index.hero.subheading") %></h2>
+        <p class="par-md mt-6"><%= t("index.hero.intro") %></p>
+      </div>
+      <a href="/get-started" class="inline-block mt-6 button par-md"><%= t("index.hero.cta") %></a>
     </div>
-    <a href="/get-started" class="inline-block mt-6 button par-md"><%= t("index.hero.cta") %></a>
-    <%= partial "partials/random_partners", locals: { classes: "py-8 mt-24" } %>
+  </div>
+  <div class="container">
+    <%= partial "partials/random_partners", locals: { classes: "py-8" } %>
   </div>
 </section>
 
 <section>
-  <div class="container py-12 flex space-x-4 items-stretch" data-tabs="index">
+  <div class="container py-24 pb-12 flex space-x-4 items-stretch" data-tabs="index">
     <div class="w-3/4 relative">
       <% data.index.features.each_with_index do |feat, i| %>
         <div class="hidden absolute top-0 left-0 w-full h-full rounded-xl overflow-hidden <%= 'is-selected' if i == 0 %>" data-tab-content="<%= feat.id %>">
