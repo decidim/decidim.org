@@ -20,14 +20,14 @@ pageClass: home
 
 <section>
   <div class="container py-24 pb-12 flex space-x-4 items-stretch" data-tabs="index">
-    <div class="w-3/4 relative">
+    <div class="w-2/3 relative">
       <% data.index.features.each_with_index do |feat, i| %>
         <div class="hidden absolute top-0 left-0 w-full h-full rounded-xl overflow-hidden <%= 'is-selected' if i == 0 %>" data-tab-content="<%= feat.id %>">
           <img class="w-full h-full object-contain" src="<%= feat.image %>" alt="<%= t("index.subhero.#{feat.id}") %>">
         </div>
       <% end %>
     </div>
-    <div class="w-1/4">
+    <div class="w-1/3">
       <ul class="divide-y-8 divide-gray-100">
         <% data.index.features.each_with_index do |feat, i| %>
           <li class="flex items-center space-x-4 py-5 cursor-pointer hover:text-red-500 transition <%= 'is-selected' if i == 0 %>" data-tab-id="<%= feat.id %>">
@@ -82,9 +82,9 @@ pageClass: home
 </section>
 
 <section>
-  <div class="container pt-12 pb-24">
+  <div class="container py-32">
     <div class="flex items-end space-x-2">
-      <h6 class="button"><%= t("blog.latest") %></h6>
+      <h6 class="h6 button"><%= t("blog.latest") %></h6>
       <span class="w-4 h-4 rounded-full bg-red-500"></span>
     </div>
     <div class="flex flex-col md:flex-row gap-6 mt-4">
