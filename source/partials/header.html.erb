@@ -1,7 +1,7 @@
-<header class="bg-transparent <%= 'text-white' if current_page.url == '/' %>">
+<% is_home = current_page.url == '/' %>
+<header class="bg-transparent <%= 'text-white' if is_home %>">
   <div class="container py-4 flex justify-between items-center">
-    <a href="<%= t(:path) %>/"><img src="/images/decidim-logo-claim.svg" alt="Decidim" /></a>
-
+    <a href="<%= t(:path) %>/"><img src="/images/decidim-logo-claim.svg" alt="Decidim" style="<%= 'filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(243deg) brightness(100%) contrast(105%);' if is_home %>" /></a>
     <nav class="space-x-8">
       <%= link_to t('nav.get-started'), "#{t(:path)}/get-started" %>
       <%= link_to t('nav.features'), "#{t(:path)}/features" %>
