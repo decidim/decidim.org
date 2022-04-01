@@ -1,1 +1,26 @@
-<section></section>
+<section class="bg-gray-100">
+  <div class="container py-32">
+    <div class="flex items-end space-x-2">
+      <h6 class="h6 button"><%= t("blog.latest") %></h6>
+      <span class="w-4 h-4 rounded-full bg-red-500"></span>
+    </div>
+
+    <div class="mt-4 space-y-4" data-accordion>
+      <% (01..04).each do |n| %>
+        <div class="p-5 rounded-xl overflow-hidden bg-white cursor-pointer" data-accordion-id="<%= n %>">
+          <div class="flex items-center justify-between space-x-4">
+            <h6 class="h6"><%= t("faqs.q#{"%02d" % n}.question") %></h6>
+            <%= icon "ri-add-line", class: "flex-none w-5 h-5" %>
+          </div>
+          <div class="hidden par-md text-gray-500 mt-4">
+            <%= markdown(t("faqs.q#{"%02d" % n}.answer")) %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="mt-4 par-md">
+      <%= partial "partials/arrow-link", locals: { text: t("faqs.cta"), url: "/faqs" } %>
+    </div>
+  </div>
+</section>

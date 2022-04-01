@@ -10,7 +10,7 @@
  *    <div data-filter-target>...</div>
  *  </div>
  */
-function handleTabClick({ target }) {
+function handleClick({ target }) {
   const parent = target.closest(`[data-filter]`);
   const { value } = target;
 
@@ -23,7 +23,7 @@ function handleTabClick({ target }) {
 
 function filterContent() {
   const selectors = document.querySelectorAll("[data-filter]");
-  selectors.forEach((container) => container.addEventListener("input", handleTabClick));
+  selectors.forEach(container => container.addEventListener("input", handleClick));
 }
 
 filterContent();

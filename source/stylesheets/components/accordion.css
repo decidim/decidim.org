@@ -1,0 +1,3 @@
+[data-accordion] [data-accordion-id].is-selected > :last-child{
+  @apply block;
+}
