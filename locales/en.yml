@@ -114,14 +114,12 @@ en:
 
   contact:
     title: Contact Decidim
-    subtitle: If you’d like to get in touch, fill in the contact form or send us an email at hola@decidim.org
+    subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     bot_field: "Don’t fill this out if you're human:"
     name: Name
-    entity: Entity
     email: Email
-    subject: Subject
     message: Message
-    send: Send
+    send: Send message
 
   thanks:
     title: Thanks for your email

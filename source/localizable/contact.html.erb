@@ -4,22 +4,47 @@ description:
 ---
 
 <section>
-  <div class="container pt-24 pb-12">
+  <div class="container pt-12 pb-6 md:pt-24 md:pb-12">
     <div class="md:w-3/5 space-y-6">
       <h1 class="h1 whitespace-nowrap">
         <%= t("contact.title") %>
       </h1>
       <p class="par-xl text-gray-500">
-        <%= t("contact.subtitle") %>
+        <%= t("contact.subtitle") %>&nbsp;<a class="underline" href="mailto:hola@decidim.org">hola@decidim.org</a>
       </p>
     </div>
-
-    <!-- INCOMPLETE -->
   </div>
 </section>
 
 <section>
-  <p class="container py-48 par-xl">TBC</p>
+  <div class="container container pt-6 pb-12 md:pt-20 md:pb-32">
+    <form class="flex flex-col space-y-6 md:w-1/2" method="post" action="/redirect/?page=/thanks" name="contact-en" netlify-honeypot="bot-field" data-netlify="true">
+      <p class="hidden" hidden>
+        <label><%= t('contact.bot_field') %> <input name="bot-field" /></label>
+      </p>
+      <label for="name" class="form-input">
+        <input id="name" name="name" type="text" required>
+        <span>
+          <%= t("contact.name") %>
+        </span>
+      </label>
+      <label for="email" class="form-input">
+        <span>
+          <%= t("contact.email") %>
+        </span>
+        <input id="email" name="email" type="email" required>
+      </label>
+      <label for="message" class="form-input">
+        <span>
+          <%= t("contact.message") %>
+        </span>
+        <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+      </label>
+      <div>
+        <button type="submit" class="button"><%= t("contact.send") %></button>
+      </div>
+    </form>
+  </div>
 </section>
 
 <%= partial "/partials/faq" %>
