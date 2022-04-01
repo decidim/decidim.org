@@ -4,22 +4,88 @@ description:
 ---
 
 <section>
-  <div class="container pt-24 pb-12">
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
     <div class="md:w-3/5 space-y-6">
       <h1 class="h1 whitespace-nowrap">
         <%= t("press.title") %>
       </h1>
       <p class="par-xl text-gray-500">
-        <%= t("press.subtitle") %>
+        <%= t("press.subtitle") %>&nbsp;<a class="underline" href="mailto:hola@decidim.org">hola@decidim.org</a>
       </p>
     </div>
-
-    <!-- INCOMPLETE -->
   </div>
 </section>
 
 <section>
-  <p class="container py-48 par-xl">TBC</p>
+  <div class="container pt-6 pb-12 md:pt-16 md:pb-32">
+    <div class="md:w-3/4">
+      <h3 class="h3"><%= t("press.highlights") %></h3>
+      <div class="divide-y-4 divide-gray-100 mt-6 md:mt-8">
+        <div></div>
+        <% data.press.media.each do |media| %>
+          <a href="<%= media.url %>" target="_blank" rel="noopener noreferrer" class="flex justify-between space-x-4 py-6">
+            <div>
+              <h6 class="h6"><%= media.title %></h6>
+              <p class="par-sm text-gray-500"><%= media.source %></p>
+            </div>
+            <%= icon "ri-newspaper-line", class: "w-10 h-10 text-gray-300 flex-none" %>
+          </a>
+        <% end %>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%= partial "/partials/facts" %>
+
+<section>
+  <div class="container pt-12 pb-16 md:pt-32 mb:pb-16">
+    <img class="w-full" src="/images/world-map.png" alt="world map">
+  </div>
+</section>
+
+<section>
+  <div class="container py-6 md:py-16">
+    <h3 class="h3"><%= t("press.kit") %></h3>
+    <div class="grid md:grid-cols-3 gap-2 md:gap-16 mt-6 md:mt-12">
+      <% data.press.kit.each_with_index do |item, i| %>
+        <div class="flex md:flex-col space-x-7 md:space-x-0 md:space-y-6 rounded-xl md:rounded-none bg-red-100 md:bg-transparent md:border-l-8 border-gray-100 p-6 md:py-0 md:px-10">
+          <%= icon item.icon, class: "w-10 h-10 text-red-500 flex-none" %>
+          <div class="md:space-y-6">
+            <h5 class="h5"><%= t("press.links")[i][:title] %></h5>
+            <%= partial "partials/arrow-link", locals: { text: t("press.links")[i][:link], url: item.url, classes: "mt-auto block" } %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container py-8 md:py-16">
+    <h3 class="h3"><%= t("press.social_media") %></h3>
+    <div class="grid md:grid-cols-4 gap-2 md:gap-10 mt-7 md:mt-14">
+      <% data.links.social_media.each do |link| %>
+        <a href="<%= link.url %>" class="flex items-center space-x-7">
+          <%= icon link.icon, class: "text-gray-300 w-10 h-10" %>
+          <h5 class="h5 first-letter:uppercase"><%= t(link.name, default: link.name) %></h5>
+        </a>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container pt-6 md:pt-16 pb-12 md:pb-32">
+    <h3 class="h3"><%= t("press.issues") %></h3>
+
+    <%= partial "/partials/newsletter-widget", locals: { length: 3 } %>
+
+    <div class="mt-6 par-md">
+      <%= partial "partials/arrow-link", locals: { text: t("press.read_all"), url: "/blog" } %>
+    </div>
+  </div>
 </section>
 
 <%= partial "/partials/faq" %>

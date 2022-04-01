@@ -4,7 +4,7 @@ description:
 ---
 
 <section>
-  <div class="container pt-24 pb-12">
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
     <div class="md:w-3/5 space-y-6">
       <h1 class="h1 whitespace-nowrap">
         <%= t("newsletter.title") %>
@@ -13,15 +13,14 @@ description:
         <%= t("newsletter.subtitle") %>
       </p>
     </div>
-
-    <!-- INCOMPLETE -->
   </div>
 </section>
 
 <section>
-  <p class="container py-48 par-xl">TBC</p>
+  <div class="container pt-6 pb-12 md:pt-16 md:pb-32">
+    <h3 class="h3"><%= t("newsletter.past") %></h3>
+    <%= partial "/partials/newsletter-widget" %>
+  </div>
 </section>
-
-<%= partial "/partials/faq" %>
 
 <%= partial "/partials/cta-banner" %>
