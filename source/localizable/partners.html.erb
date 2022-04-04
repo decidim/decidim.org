@@ -16,34 +16,19 @@ description:
         <%= t("partners.intro") %>
       </p>
     </div>
-
-    <!-- INCOMPLETE -->
   </div>
 </section>
 
 <section>
-  <div class="container pt-6 pb-12 md:pt-16 md:pb-32 grid grid-cols-4 md:grid-cols-5 gap-6 md:gap-24 items-center">
-    <% data.partners.each do |partner| %>
-      <a href="<%= partner.url %>" title="<%= partner.name %>" target="_blank">
-        <%= image_tag partner.image, alt: partner.name %>
-      </a>
-    <% end %>
+  <div class="container pt-6 pb-12 md:pt-16 md:pb-32">
+    <div class="grid grid-cols-4 md:grid-cols-5 gap-6 md:gap-24 items-center">
+      <% data.partners.each do |partner| %>
+        <a href="<%= partner.url %>" title="<%= partner.name %>" target="_blank">
+          <%= image_tag partner.image, alt: partner.name %>
+        </a>
+      <% end %>
+    </div>
   </div>
 </section>
 
 <%= partial "/partials/cta-banner" %>
-<!--
-<div class="container container-vertical">
-  <h1 class="page-title"><%= t('nav.partners') %></h1>
-  <% @partners = data.partners %>
-  <div class="partner__container">
-    <% @partners.each do |partner| %>
-      <div class="partner__item">
-        <a href="<%= partner.url %>" title="<%= partner.name %>" target="_blank" class="partner__logo">
-          <%= image_tag partner.image, alt: partner.name, resize: "160x50" %>
-        </a>
-      </div>
-    <% end %>
-  </div>
-  <p><%= t('partners.notice') %></p>
-</div> -->

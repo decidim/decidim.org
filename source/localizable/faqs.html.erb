@@ -4,7 +4,7 @@ description:
 ---
 
 <section>
-  <div class="container pt-24 pb-12">
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
     <div class="md:w-3/5 space-y-6">
       <h1 class="h1 whitespace-nowrap">
         <%= t("faqs.title") %>
@@ -13,27 +13,29 @@ description:
         <%= t("faqs.subtitle") %>
       </p>
     </div>
-
-    <!-- INCOMPLETE -->
   </div>
 </section>
 
 <section>
-  <p class="container py-48 par-xl">TBC</p>
-</section>
+  <div class="container pt-6 pb-12 md:pt-16 md:pb-32 space-y-16">
+    <% t("faqs.types").each_with_index do |type, ix| %>
+      <% questions = t("faqs.questions").select {|m| m[:type] == ix} %>
+      <% if questions.length > 0 %>
+        <div class="space-y-4">
+          <div class="flex items-end space-x-2">
+            <h6 class="h6 button black"><%= type %></h6>
+            <span class="w-4 h-4 rounded-full bg-black"></span>
+          </div>
 
-<!-- <div class="container container-vertical">
-  <h1 class="page-title"><%= t('faqs.title') %></h1>
-
-  <div class="partner__container container--text-col">
-    <% (01..24).each do |n| %>
-      <dl class="faqs">
-        <dt><%= t("faqs.q#{"%02d" % n}.question") %></dt>
-        <dd><%= markdown(t("faqs.q#{"%02d" % n}.answer")) %></dd>
-      </dl>
+          <div class="mt-4 space-y-4" data-accordion>
+            <% questions.each do |item| %>
+              <%= partial "partials/faq-item", locals: { item: item, classes: "bg-gray-100" } %>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
     <% end %>
   </div>
-</div> -->
-<%= partial "/partials/faq" %>
+</section>
 
 <%= partial "/partials/cta-banner" %>

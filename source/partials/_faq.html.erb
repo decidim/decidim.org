@@ -6,19 +6,8 @@
     </div>
 
     <div class="mt-4 space-y-4" data-accordion>
-      <% (01..04).each do |n| %>
-        <div class="p-5 rounded-xl overflow-hidden bg-white cursor-pointer" data-accordion-id="<%= n %>">
-          <div class="flex items-center justify-between space-x-4">
-            <h6 class="h6"><%= t("faqs.q#{"%02d" % n}.question") %></h6>
-            <div class="flex-none relative inline w-5 h-5">
-              <%= icon "ri-add-line", class: "absolute w-5 h-5" %>
-              <%= icon "ri-subtract-line", class: "absolute w-5 h-5" %>
-            </div>
-          </div>
-          <div class="par-md text-gray-500 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
-            <%= markdown(t("faqs.q#{"%02d" % n}.answer")) %>
-          </div>
-        </div>
+      <% t("faqs.questions").sample(3).each do |item| %>
+        <%= partial "partials/faq-item", locals: { item: item, classes: "bg-white" } %>
       <% end %>
     </div>
 
