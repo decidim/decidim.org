@@ -83,7 +83,7 @@ description:
     <%= partial "/partials/newsletter-widget", locals: { length: 3 } %>
 
     <div class="mt-6 par-md">
-      <%= partial "partials/arrow-link", locals: { text: t("press.read_all"), url: "/blog" } %>
+      <%= partial "partials/arrow-link", locals: { text: t("press.read_all"), url: "#{t(:path)}/blog" } %>
     </div>
   </div>
 </section>

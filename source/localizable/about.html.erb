@@ -18,10 +18,10 @@ description:
     </div>
 
     <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-16">
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-hand-heart-line", text: t("about.about")[0], url: "/" } %>
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-mail-line", text: t("about.about")[1], url: "/contact" } %>
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-team-line", text: t("about.about")[2], url: "/" } %>
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-newspaper-line", text: t("about.about")[3], url: "/press" } %>
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-hand-heart-line", text: t("about.about")[0], url: "#{t(:path)}/" } %>
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-mail-line", text: t("about.about")[1], url: "#{t(:path)}/contact" } %>
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-team-line", text: t("about.about")[2], url: "#{t(:path)}/" } %>
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-newspaper-line", text: t("about.about")[3], url: "#{t(:path)}/press" } %>
     </div>
   </div>
 </section>
@@ -43,7 +43,7 @@ description:
     <div class="container text-red-500">
       <h6 class="h6"><%= t("about.values_title") %></h6>
       <div class="par-xl mt-2"><%= t("about.values_intro") %></div>
-      <a class="block par-md mt-4 underline" href="/contract"><%= t("about.values_cta") %></a>
+      <a class="block par-md mt-4 underline" href="<%= t(:path) %>/contract"><%= t("about.values_cta") %></a>
     </div>
     <div class="mt-16 -ml-[200vw] w-[500vw] md:-ml-[5vw] md:w-[110vw]">
       <div class="-m-3 flex flex-wrap">

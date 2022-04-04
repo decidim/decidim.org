@@ -27,8 +27,8 @@ description:
           <h5 class="h5 mt-7"><%= t("get-started.#{item.title}") %></h5>
           <p class="par-md text-gray-500 mt-4 mb-6"><%= t("get-started.#{item.content}") %></p>
           <div class="text-gray-500 mt-auto">
-            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link1}"), url: item.url1 } %>
-            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link2}"), url: item.url2 } %>
+            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link1}"), url: t(:path) + item.url1 } %>
+            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link2}"), url: t(:path) + item.url2 } %>
           </div>
         </div>
       <% end %>
@@ -45,7 +45,7 @@ description:
       <p class="par-lg text-gray-500">
         <%= t("get-started.section2.subtitle") %>
       </p>
-      <%= partial "partials/arrow-link", locals: { text: t("get-started.section2.link"), url: "/features" } %>
+      <%= partial "partials/arrow-link", locals: { text: t("get-started.section2.link"), url: "#{t(:path)}/features" } %>
     </div>
 
     <div class="mt-12 -ml-[5vw] w-[110vw]">
@@ -82,8 +82,8 @@ description:
       <%= t("get-started.section4.intro") %>
     </p>
     <div class="flex space-x-4 par-md">
-      <a href="/community" class="button black"><%= t("get-started.section4.button1") %></a>
-      <a href="/demo" class="button hollow black"><%= t("get-started.section4.button2") %></a>
+      <a href="<%= t(:path) %>/community" class="button black"><%= t("get-started.section4.button1") %></a>
+      <a href="https://try.decidim.org/" class="button hollow black"><%= t("get-started.section4.button2") %></a>
     </div>
   </div>
 </section>

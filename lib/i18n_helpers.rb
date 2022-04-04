@@ -10,10 +10,6 @@ module I18nHelpers
         current_page.url.gsub(url_regex, root_for_locale(loc))
   end
 
-  def path_for_locale(path, loc = I18n.locale)
-    root_for_locale(loc) + path
-  end
-
   def home_for_locale(loc = I18n.locale)
     root_for_locale(loc)
   end

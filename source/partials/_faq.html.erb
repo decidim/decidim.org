@@ -6,13 +6,13 @@
     </div>
 
     <div class="mt-4 space-y-4" data-accordion>
-      <% t("faqs.questions").sample(3).each do |item| %>
+      <% t("faqs.questions").sample(4).each do |item| %>
         <%= partial "partials/faq-item", locals: { item: item, classes: "bg-white" } %>
       <% end %>
     </div>
 
     <div class="mt-4 par-md">
-      <%= partial "partials/arrow-link", locals: { text: t("faqs.cta"), url: "/faqs" } %>
+      <%= partial "partials/arrow-link", locals: { text: t("faqs.cta"), url: "#{t(:path)}/faqs" } %>
     </div>
   </div>
 </section>
