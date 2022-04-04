@@ -1,18 +1,12 @@
 /**
- * Use [data-tabs] tag in some parent node relative of the tabs and their contents
- * Use [data-filter-id=UNIQUE_ID] tag in the tabs, setting the unique id
- * Use [data-filter-content=UNIQUE_ID] tag in content relative to the tab id
+ * Use [data-accordion] tag in the parent node of every element
+ * Use [data-accordion-id=UNIQUE_ID] tag in the items, setting an unique id
  *
  * @example
- * <div data-tabs="type">
- *   <ul>
- *     <li data-tab-id="value1">...</li>
- *     <li data-tab-id="value2">...</li>
- *     <li data-tab-id="value3">...</li>
- *   </ul>
- *   <div data-tab-content="value1">...</div>
- *   <div data-tab-content="value1">...</div>
- *   <div data-tab-content="value1">...</div>
+ * <div data-accordion>
+ *   <div data-accordion-id="value1">...</div>
+ *   <div data-accordion-id="value2">...</div>
+ *   <div data-accordion-id="value3">...</div>
  * </div>
  */
 function getAccordionId(node) {
@@ -29,7 +23,7 @@ function handleAccordionClick({ target }) {
     const itemId = getAccordionId(item);
 
     [...accordion.children].forEach((node) =>
-      getAccordionId(node) === itemId
+      getAccordionId(node) === itemId && !node.classList.contains(ACTIVE_CSS_CLASS)
         ? node.classList.add(ACTIVE_CSS_CLASS)
         : node.classList.remove(ACTIVE_CSS_CLASS)
     );

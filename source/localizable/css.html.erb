@@ -62,14 +62,19 @@ description:
         <% end %>
       </div>
 
-      <h4 class="h4">icons list</h4>
-      <div class="md:columns-5">
-        <% list_icons.each do |i| %>
-          <div class="flex space-x-2 items-center">
-            <span class="par-md"><%= icon i, class: "w-6 h-6" %></span>
-            <span><%= i %></span>
-          </div>
-        <% end %>
+      <div data-filter>
+        <div class="flex justify-between items-center">
+          <h4 class="h4">icons list</h4>
+          <input type="text" class="bg-gray-300 rounded-xl my-3 p-3 placeholder:text-gray-500" placeholder="Search icon..">
+        </div>
+        <div class="md:columns-5">
+          <% list_icons.each do |i| %>
+            <div class="flex space-x-2 items-center" data-filter-target>
+              <span class="par-md"><%= icon i, class: "w-6 h-6" %></span>
+              <span><%= i %></span>
+            </div>
+          <% end %>
+        </div>
       </div>
     </div>
   </section>

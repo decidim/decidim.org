@@ -8,7 +8,9 @@ module IconHelpers
   end
 
   def list_icons
-    file = File.open("./source/images/remixicon.symbol.svg")
-    Nokogiri::XML(file).css("symbol").map { |node| node["id"] }
+    @list_icons ||= begin
+      file = File.open("./source/images/remixicon.symbol.svg")
+      Nokogiri::XML(file).css("symbol").map { |node| node["id"] }
+    end
   end
 end
