@@ -277,99 +277,76 @@ cs:
       org: OpenForum Europe Research Director, Evropská unie
   faqs:
     title: Často kladené otázky
-    q01:
-      question: Co je Decidim?
-      answer: >-
-        Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.
-    q02:
-      question: Kdo v současné době používá Decidim?
-      answer: >-
-        V současné době jej využívají města a organizace. Ve skutečnosti ji může využít jakákoli skupina lidí, ať už je to nevládní organizace, univerzita, odbory, družstvo, sdružení sousedů atd. Prohlédněte si [kompletní seznam aktuálně aktivních instancí](/usedby/).
-    q03:
-      question: Co může správce Decidim dělat?
-      answer: >-
-        Snadno konfigurovatelné participační procesy. Chcete vytvořit strategický plán? Nebo diskutovat o nových vyhláškách? Nebo diskutovat o novém náměstí, nebo veřejné budově s cílem dosáhnout společného výsledku? Díky Decidim budete moci nakonfigurovat participační témata (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných složek (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).
-    q04:
-      question: Co může účastník (uživatel) Decidim dělat?
-      answer: >-
-        Decidim umožňuje tisícům lidí demokraticky se organizovat prostřednictvím návrhů, účastnit se veřejných setkání, podpora rozhodovacích jednání, rozhodování prostřednictvím různých forem hlasování a sledování provádění rozhodnutí.
-    q05:
-      question: Máte Demo? Chci si vyzkoušet Decidim bez instalace a zjistit, jak funguje.
-      answer: 'Ano, máme [online demo](/demo).'
-    q06:
-      question: Jak často se platforma aktualizuje?
-      answer: >-
-        Přibližně každý měsíc vydáváme novou verzi. Viz [záznam verzí](https://github.com/decidim/decidim/releases).
-    q07:
-      question: Co potřebuji k instalaci Decidim?
-      answer: >-
-        Instalace Decidim je jednoduchá, ale potřebujete nějaké znalosti a technické požadavky. Podívejte se na [dokumentaci pro instalaci Decidim](https://docs.decidim.org/en/install/).
-    q08:
-      question: Kde najdu plán projektu a plánované prvky?
-      answer: Můžete je najít na [plán nových funkcí projektu na GitHub](https://github.com/decidim/decidim/projects/16).
-    q09:
-      question: 'Co to znamená, že Decidim je zdarma, "svobodný" a s otevřenými zdroji?'
-      answer: >-
-        Decidim je platforma pro účast občanů a lidí. Jeho zdrojový kód je otevřený a může být kýmkoliv kontrolován, upraven a vylepšen. Aplikace Decidim je pokryta [licencí AGPL](https://en.ikipedia.org/wiki/GNU_Affero_General_Public_License). To znamená, že jej můžete používat, upravovat a šířit odvozené verze, pokud respektujete licenci AGPL.
-    q10:
-      question: >-
-        Mám nápady na nové vylepšení. Chci projektu lépe porozumět. Co mohu udělat?
-      answer: >-
-        Můžete spolupracovat více způsoby. Jeden z nich je přes komunitu [Metadecidim](http://meta.decidim.org). Pokud chcete navrhnout nové funkce, [jděte sem](https://meta. decidim.org/processes/roadmap). Pokud jste zjistili chyby a chcete je oznámit, [přejděte na tento proces](https://meta.decidim.org/processes/bug-report?locale=es). Pokud se chcete aktivně účastnit Metadecidim komunity, můžete se účastnit [Metadecidim Operative Sessions](https://meta. ecidim.org/assemblies/eix-comunitat). Zaregistrujte se jako účastník komunity a zapojte se. Pokud máte svůj kód, [jděte na Github](https://github.com/decidim/decidim). Pokud se zajímáte jako výzkumník, můžete přijít do [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-    q11:
-      question: Mám mnoho pochybností všeho druhu...kde se na ně mohu zeptat nebo je vyřešit?
-      answer: >-
-        Nejlepší způsob, jak rychle vyřešit své pochybnosti, je prostřednictvím Metadecidim komunity. Vstupte do procesu [fóra podpory](https://meta.decidim.org/processes/supportforum?locale=en) a podívejte se, zda vaše otázka existuje nebo zda byla zodpovězena a jinak zadejte pro položení otázek. Pokud nemůžete vyřešit svůj problém v tomto prostoru, možná je čas nás kontaktovat prostřednictvím [kontaktního formuláře](/contact).
-    q12:
-      question: Je k dispozici nějaký návod k jeho nastavení?
-      answer: >-
-        Nejnovější verzi naší admin příručky můžete zkontrolovat v [Documentation section](https://docs.decidim.org).
-    q13:
-      question: Co je Sociální smlouva?
-      answer: >-
-        Takto nazýváme náš Kodex demokratických záruk a demokratické spolupráce. Všichni členové komunity musí schválit [Sociální smlouvu](http://decidim.org/contract).
-    q14:
-      question: Jaké jsou rozdíly proti projektu Consul Project / Decide Madrid?
-      answer: >-
-        Existuje mnoho rozdílů: funkce, flexibilita, architektura, modularita atd. Máme [zveřejněný příspěvekt](/blog/2019-01-14-consul-comparison/) s odpověďmi na tuto otázku.
-    q15:
-      question: Co je to Metadecidim komunita?
-      answer: >-
-        [Metadecidim](http://meta.decidim.org) je komunita Decidim, která spolupracuje na návrhu platformy a výstavbě projektu Decidim. Pravidelně se setkáváme prostřednictvím [SOM (Metadecidim Operative Sessions)](https://meta.decidim.org/assemblies/eix-comunitat?locale=es) a [LAB Research Seminars](https://meta.decidim.org/assemblies/eix-lab). Přejděte na [meta.decidim.org](http://meta.decidim.org) a sledujte diskuse zblízka a pokud se chcete připojit k komunitě, jste vítaní ;-)
-    q16:
-      question: Mohu se připojit ke komunitě Metadecidim, i když nežiji v Barceloně?
-      answer: >-
-        Decidim je projekt, který se narodil v Barceloně, a proto existuje silná územní vazba s tímto městem. Ale ano, můžete spolupracovat online, prostřednictvím participačních procesů, diskusí atd. .... , který poskytujeme v Metadecidim. I když budete chtít přijít někdy do Barcelony :)
-    q17:
-      question: Chceme uzavřít formální dohodu o spolupráci. Existují nějaké šablony, které můžeme použít?
-      answer: Ano, máme šablony pro formalizaci dohod o spolupráci. [Kontaktujte nás](/contact).
-    q18:
-      question: Jaké členy přijímáte v komunitě Metadecidim?
-      answer: Každý, kdo má dobrou víru a správný postoj k demokratické spolupráci.
-    q19:
-      question: Poskytujete zdarma instalaci neziskovým organizacím?
-      answer: >-
-        Ano, pouze v případě, že jste barcelonská organizace. Pošlete nám zprávu a budete vám nápomocni ředitelství pro výzkum, Rozvoj a inovace oblasti práv občanství, účast a transparentnost barcelonského městského zastupitelství.
-    q20:
-      question: Podporujete instituce?
-      answer: >-
-        Ano, ale musíte být trpěliví. Existuje mnoho institucí, které nyní chtějí použít Decidim a my jim pomáháme krok za krokem. [Kontaktujte nás](/contact) pro jakoukoli otázku a my vám odpovíme co nejdříve.
-    q21:
-      question: Co je to Decidim asociace?
-      answer: >-
-        "Asociacion de Software Libre Decidim" (Decidim Free Software Association) je demokratické sdružení pro správu komunity Decidim.
-    q22:
-      question: Jak mohu získat více informací o sdružení Decidim?
-      answer: >-
-        Ve [valné hromadě sdružení Decidim](https://meta.decidim.org/assemblies/General assembly-Association) můžete najít více informací, sledovat činnost schůzek a kontrolovat příslušné informace (stanovy, právní dohody, vnitřní nařízení)
-    q23:
-      question: Jak se mohu stát členem sdružení Decidim?
-      answer: >-
-        Lidé zapojení do projektu mohou být nyní partnery. [Zde podrobně vysvětlíme, co to znamená](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
-    q24:
-      question: Kdy sdružení Decidim vzniklo?
-      answer: >-
-        Sdružení [Decidim bylo založeno 16. února 2019 na mimořádném shromáždění komunity](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169) se souhlasem stanov organizace.
+    questions:
+      - question: Co je Decidim?
+        answer: >-
+          Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.
+      - question: Kdo v současné době používá Decidim?
+        answer: >-
+          V současné době jej využívají města a organizace. Ve skutečnosti ji může využít jakákoli skupina lidí, ať už je to nevládní organizace, univerzita, odbory, družstvo, sdružení sousedů atd. Prohlédněte si [kompletní seznam aktuálně aktivních instancí](/usedby/).
+      - question: Co může správce Decidim dělat?
+        answer: >-
+          Snadno konfigurovatelné participační procesy. Chcete vytvořit strategický plán? Nebo diskutovat o nových vyhláškách? Nebo diskutovat o novém náměstí, nebo veřejné budově s cílem dosáhnout společného výsledku? Díky Decidim budete moci nakonfigurovat participační témata (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných složek (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).
+      - question: Co může účastník (uživatel) Decidim dělat?
+        answer: >-
+          Decidim umožňuje tisícům lidí demokraticky se organizovat prostřednictvím návrhů, účastnit se veřejných setkání, podpora rozhodovacích jednání, rozhodování prostřednictvím různých forem hlasování a sledování provádění rozhodnutí.
+      - question: Máte Demo? Chci si vyzkoušet Decidim bez instalace a zjistit, jak funguje.
+        answer: 'Ano, máme [online demo](/demo).'
+      - question: Jak často se platforma aktualizuje?
+        answer: >-
+          Přibližně každý měsíc vydáváme novou verzi. Viz [záznam verzí](https://github.com/decidim/decidim/releases).
+      - question: Co potřebuji k instalaci Decidim?
+        answer: >-
+          Instalace Decidim je jednoduchá, ale potřebujete nějaké znalosti a technické požadavky. Podívejte se na [dokumentaci pro instalaci Decidim](https://docs.decidim.org/en/install/).
+      - question: Kde najdu plán projektu a plánované prvky?
+        answer: Můžete je najít na [plán nových funkcí projektu na GitHub](https://github.com/decidim/decidim/projects/16).
+      - question: 'Co to znamená, že Decidim je zdarma, "svobodný" a s otevřenými zdroji?'
+        answer: >-
+          Decidim je platforma pro účast občanů a lidí. Jeho zdrojový kód je otevřený a může být kýmkoliv kontrolován, upraven a vylepšen. Aplikace Decidim je pokryta [licencí AGPL](https://en.ikipedia.org/wiki/GNU_Affero_General_Public_License). To znamená, že jej můžete používat, upravovat a šířit odvozené verze, pokud respektujete licenci AGPL.
+      - question: >-
+          Mám nápady na nové vylepšení. Chci projektu lépe porozumět. Co mohu udělat?
+        answer: >-
+          Můžete spolupracovat více způsoby. Jeden z nich je přes komunitu [Metadecidim](http://meta.decidim.org). Pokud chcete navrhnout nové funkce, [jděte sem](https://meta. decidim.org/processes/roadmap). Pokud jste zjistili chyby a chcete je oznámit, [přejděte na tento proces](https://meta.decidim.org/processes/bug-report?locale=es). Pokud se chcete aktivně účastnit Metadecidim komunity, můžete se účastnit [Metadecidim Operative Sessions](https://meta. ecidim.org/assemblies/eix-comunitat). Zaregistrujte se jako účastník komunity a zapojte se. Pokud máte svůj kód, [jděte na Github](https://github.com/decidim/decidim). Pokud se zajímáte jako výzkumník, můžete přijít do [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
+      - question: Mám mnoho pochybností všeho druhu...kde se na ně mohu zeptat nebo je vyřešit?
+        answer: >-
+          Nejlepší způsob, jak rychle vyřešit své pochybnosti, je prostřednictvím Metadecidim komunity. Vstupte do procesu [fóra podpory](https://meta.decidim.org/processes/supportforum?locale=en) a podívejte se, zda vaše otázka existuje nebo zda byla zodpovězena a jinak zadejte pro položení otázek. Pokud nemůžete vyřešit svůj problém v tomto prostoru, možná je čas nás kontaktovat prostřednictvím [kontaktního formuláře](/contact).
+      - question: Je k dispozici nějaký návod k jeho nastavení?
+        answer: >-
+          Nejnovější verzi naší admin příručky můžete zkontrolovat v [Documentation section](https://docs.decidim.org).
+      - question: Co je Sociální smlouva?
+        answer: >-
+          Takto nazýváme náš Kodex demokratických záruk a demokratické spolupráce. Všichni členové komunity musí schválit [Sociální smlouvu](http://decidim.org/contract).
+      - question: Jaké jsou rozdíly proti projektu Consul Project / Decide Madrid?
+        answer: >-
+          Existuje mnoho rozdílů: funkce, flexibilita, architektura, modularita atd. Máme [zveřejněný příspěvekt](/blog/2019-01-14-consul-comparison/) s odpověďmi na tuto otázku.
+      - question: Co je to Metadecidim komunita?
+        answer: >-
+          [Metadecidim](http://meta.decidim.org) je komunita Decidim, která spolupracuje na návrhu platformy a výstavbě projektu Decidim. Pravidelně se setkáváme prostřednictvím [SOM (Metadecidim Operative Sessions)](https://meta.decidim.org/assemblies/eix-comunitat?locale=es) a [LAB Research Seminars](https://meta.decidim.org/assemblies/eix-lab). Přejděte na [meta.decidim.org](http://meta.decidim.org) a sledujte diskuse zblízka a pokud se chcete připojit k komunitě, jste vítaní ;-)
+      - question: Mohu se připojit ke komunitě Metadecidim, i když nežiji v Barceloně?
+        answer: >-
+          Decidim je projekt, který se narodil v Barceloně, a proto existuje silná územní vazba s tímto městem. Ale ano, můžete spolupracovat online, prostřednictvím participačních procesů, diskusí atd. .... , který poskytujeme v Metadecidim. I když budete chtít přijít někdy do Barcelony :)
+      - question: Chceme uzavřít formální dohodu o spolupráci. Existují nějaké šablony, které můžeme použít?
+        answer: Ano, máme šablony pro formalizaci dohod o spolupráci. [Kontaktujte nás](/contact).
+      - question: Jaké členy přijímáte v komunitě Metadecidim?
+        answer: Každý, kdo má dobrou víru a správný postoj k demokratické spolupráci.
+      - question: Poskytujete zdarma instalaci neziskovým organizacím?
+        answer: >-
+          Ano, pouze v případě, že jste barcelonská organizace. Pošlete nám zprávu a budete vám nápomocni ředitelství pro výzkum, Rozvoj a inovace oblasti práv občanství, účast a transparentnost barcelonského městského zastupitelství.
+      - question: Podporujete instituce?
+        answer: >-
+          Ano, ale musíte být trpěliví. Existuje mnoho institucí, které nyní chtějí použít Decidim a my jim pomáháme krok za krokem. [Kontaktujte nás](/contact) pro jakoukoli otázku a my vám odpovíme co nejdříve.
+      - question: Co je to Decidim asociace?
+        answer: >-
+          "Asociacion de Software Libre Decidim" (Decidim Free Software Association) je demokratické sdružení pro správu komunity Decidim.
+      - question: Jak mohu získat více informací o sdružení Decidim?
+        answer: >-
+          Ve [valné hromadě sdružení Decidim](https://meta.decidim.org/assemblies/General assembly-Association) můžete najít více informací, sledovat činnost schůzek a kontrolovat příslušné informace (stanovy, právní dohody, vnitřní nařízení)
+      - question: Jak se mohu stát členem sdružení Decidim?
+        answer: >-
+          Lidé zapojení do projektu mohou být nyní partnery. [Zde podrobně vysvětlíme, co to znamená](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+      - question: Kdy sdružení Decidim vzniklo?
+        answer: >-
+          Sdružení [Decidim bylo založeno 16. února 2019 na mimořádném shromáždění komunity](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169) se souhlasem stanov organizace.
   legal-notice:
     title: Právní ustanovení
     section-1:

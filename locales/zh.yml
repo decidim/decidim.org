@@ -277,99 +277,76 @@ zh-CN:
       org: OpenForum Europe Research Director, European Union
   faqs:
     title: 常见问题
-    q01:
-      question: 什么是十进制？
-      answer: >-
-        “变迁”是城市和组织的一个自由开放源码参与性民主平台。 但Decidim 不仅仅是一个数字平台：这是一个公共的免费开放项目和涉及代码、文档的基础设施。 设计、培训班、法律框架、协作接口、用户和促进社区以及共同愿景。
-    q02:
-      question: 目前谁在使用 Decidim？
-      answer: >-
-        城市和组织目前正在使用该系统。 事实上，无论是非政府组织、大学、工会、合作社、邻里协会等等，任何群体都可以使用它。 检查[当前活动实例的完整列表](/usedby/)。
-    q03:
-      question: Decidim管理员可以做什么？
-      answer: >-
-        轻松配置参与进程。你想要制定一个战略计划吗？ 或讨论新的条例？或讨论新的广场或公共建筑以实现共同利益？ 多亏了Decidim，您将能够配置参与空间 (倡议、组装、) 通过多种现有组成部分（面对面会议、调查、提案、表决、成果后续行动、评论和更多）丰富这些内容。
-    q04:
-      question: Decidim的参与者(用户)可以做什么？
-      answer: >-
-        欺骗使数以千计的人能够通过提出建议、出席公开会议而民主地组织自己。 • 促进决策讨论，通过不同形式的表决作出决定，并监测决定的执行情况。
-    q05:
-      question: 你有一个降级吗？我想现在在没有安装它的情况下使用Decidim来查看它是如何工作的。
-      answer: '是的，我们有一个[在线演示](/demo)。'
-    q06:
-      question: 平台更新频率？
-      answer: >-
-        我们大约每月发布一个新版本。查看[版本记录](https://github.com/decisionim/decisionim/releases)。
-    q07:
-      question: 我需要安装Decidim？
-      answer: >-
-        安装Decidim很容易，但您需要一些知识和技术要求。请参阅[安装Decidim的文档](https://docs.decisionim.org/en/install/)。
-    q08:
-      question: 我在哪里可以找到项目路线图和计划的特征？
-      answer: 您可以在 GitHub 找到[项目新特征路线图](https://github.com/decisionim/decisionim/projects/16)。
-    q09:
-      question: '虚线是指免费的“libre”和开源的？'
-      answer: >-
-        “欺骗”是人民和人民参与的一个平台。 其源代码已打开，可以由任何人检查、修改和增强。Decidim软件由[AGPL许可证](https://en)覆盖。 ikipedia.org/wiki/GNU_Affero_General_Public_Licse)。这意味着只要您尊重AGPL许可，您就可以使用它，修改它并重新发布派生版本。
-    q10:
-      question: >-
-        我有新的改进功能的想法。我想更好地了解这个项目，我可以做什么？
-      answer: >-
-        You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report?locale=es). If you want to actively participate in the Metadecidim community, you can attend the monthly [Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat). Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-    q11:
-      question: 我有许多疑虑，各种怀疑……我可以在哪里问他们或解决他们？
-      answer: >-
-        快速解决您的疑问的最好方法是通过 Metaddecidim 社区。现在进入进程 [Support Forum](https://meta.decision im)。 rg/process/supportforum?locale=en，查看您的问题是否存在，或者是否已经回答，或者输入提问。 如果你不能解决你在这个空间中的问题，也许现在是通过[联系表单](/contact)联系我们的时候了。
-    q12:
-      question: 有教程开始设置吗？
-      answer: >-
-        您可以在 [Documentation section ](https://docs.decisionim.org) 中查看最新版本的管理员手册。
-    q13:
-      question: 什么是社会契约？
-      answer: >-
-        这就是我们称之为《民主保障和民主协作守则》的方式，社区所有成员都必须认可[社会合同](http://decisionim.org/contract)。
-    q14:
-      question: 与马德里领事项目/决定有什么不同？
-      answer: >-
-        There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.
-    q15:
-      question: Metaddecidim社区是什么？
-      answer: >-
-        [Metadecidim](http://meta.decision im.org) 是协作设计平台和建造Decidim项目的Decidim社区。 我们通过[SOM（Metadecidim Operational Sessions）]（https://meta.decisionim）定期举行会议。 rg/assemblyes/eix-comunitat?locale=es) and [LAB Research Seminars](https://meta.decisionim.org/assemblyes/eix-lab). 跳到 [meta.decidim.org](http://meta.decisionim.org) 密切跟随呼叫，如果你想加入社区。我们很喜欢;-)
-    q16:
-      question: 即使我不住在巴塞罗那，我也能加入Metadecidim社区吗？
-      answer: >-
-        腐化是在巴塞罗那诞生的一个项目，这就是为什么与这个城市有着牢固的领土纽带。 但是的，你可以通过参与过程、辩论等在线合作... 我们在Metadecision im中提供。虽然你可能想来巴塞罗那某个时候:)
-    q17:
-      question: 我们想要达成一项正式的合作协议。我们是否可以使用任何模板？
-      answer: 是的，我们有格式化协作协议的模板。[请联系我们](/contact)。
-    q18:
-      question: 您接受了什么类型的成员加入Metaddecidim社区？
-      answer: 任何对民主协作有诚意和正确态度的人。
-    q19:
-      question: 您是否向非营利组织提供免费安装？
-      answer: >-
-        是的，只有当你是一个设在巴塞罗那的组织。 给我们一条消息，你将得到研究局的帮助。 巴塞罗那市委员会公民权利、参与和透明度领域的发展和创新。
-    q20:
-      question: 您是否支持机构？
-      answer: >-
-        是的，但你必须耐心等待。 现在有许多机构想要使用Decidim，我们正在一步一步地帮助它们。 [联系我们](/contact) 了解任何问题，我们将尽快回答您的问题。
-    q21:
-      question: 什么是解体协会？
-      answer: >-
-        “十进制自由软件协会”是一个治理十进制社区的民主协会。
-    q22:
-      question: 如何获取更多关于解密协会的信息？
-      answer: >-
-        在[Decidim协会大会](https://meta.decision im)。 rg/assembly/general-association) 您可以找到更多信息恶意，关注会议活动并检查相关信息（法规、法律协议、内部条例）
-    q23:
-      question: 我怎么能够成为解体协会的成员？
-      answer: >-
-        现在参与项目的人可以是合作伙伴。[我们在这里详细解释你必须如何做](https://meta.decisionim.org/assembouries/QuieroSerSocia?locale=es)
-    q24:
-      question: 代谢协会何时诞生？
-      answer: >-
-        该协会成立于2019年2月16日，成立于社区的一个特别集会](https://meta.decisionm.org/process/decisionim-gov/f/959/meetings/1169)，并得到该组织章程的批准。
+    questions:
+      - question: 什么是十进制？
+        answer: >-
+          “变迁”是城市和组织的一个自由开放源码参与性民主平台。 但Decidim 不仅仅是一个数字平台：这是一个公共的免费开放项目和涉及代码、文档的基础设施。 设计、培训班、法律框架、协作接口、用户和促进社区以及共同愿景。
+      - question: 目前谁在使用 Decidim？
+        answer: >-
+          城市和组织目前正在使用该系统。 事实上，无论是非政府组织、大学、工会、合作社、邻里协会等等，任何群体都可以使用它。 检查[当前活动实例的完整列表](/usedby/)。
+      - question: Decidim管理员可以做什么？
+        answer: >-
+          轻松配置参与进程。你想要制定一个战略计划吗？ 或讨论新的条例？或讨论新的广场或公共建筑以实现共同利益？ 多亏了Decidim，您将能够配置参与空间 (倡议、组装、) 通过多种现有组成部分（面对面会议、调查、提案、表决、成果后续行动、评论和更多）丰富这些内容。
+      - question: Decidim的参与者(用户)可以做什么？
+        answer: >-
+          欺骗使数以千计的人能够通过提出建议、出席公开会议而民主地组织自己。 • 促进决策讨论，通过不同形式的表决作出决定，并监测决定的执行情况。
+      - question: 你有一个降级吗？我想现在在没有安装它的情况下使用Decidim来查看它是如何工作的。
+        answer: '是的，我们有一个[在线演示](/demo)。'
+      - question: 平台更新频率？
+        answer: >-
+          我们大约每月发布一个新版本。查看[版本记录](https://github.com/decisionim/decisionim/releases)。
+      - question: 我需要安装Decidim？
+        answer: >-
+          安装Decidim很容易，但您需要一些知识和技术要求。请参阅[安装Decidim的文档](https://docs.decisionim.org/en/install/)。
+      - question: 我在哪里可以找到项目路线图和计划的特征？
+        answer: 您可以在 GitHub 找到[项目新特征路线图](https://github.com/decisionim/decisionim/projects/16)。
+      - question: '虚线是指免费的“libre”和开源的？'
+        answer: >-
+          “欺骗”是人民和人民参与的一个平台。 其源代码已打开，可以由任何人检查、修改和增强。Decidim软件由[AGPL许可证](https://en)覆盖。 ikipedia.org/wiki/GNU_Affero_General_Public_Licse)。这意味着只要您尊重AGPL许可，您就可以使用它，修改它并重新发布派生版本。
+      - question: >-
+          我有新的改进功能的想法。我想更好地了解这个项目，我可以做什么？
+        answer: >-
+          You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report?locale=es). If you want to actively participate in the Metadecidim community, you can attend the monthly [Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat). Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
+      - question: 我有许多疑虑，各种怀疑……我可以在哪里问他们或解决他们？
+        answer: >-
+          快速解决您的疑问的最好方法是通过 Metaddecidim 社区。现在进入进程 [Support Forum](https://meta.decision im)。 rg/process/supportforum?locale=en，查看您的问题是否存在，或者是否已经回答，或者输入提问。 如果你不能解决你在这个空间中的问题，也许现在是通过[联系表单](/contact)联系我们的时候了。
+      - question: 有教程开始设置吗？
+        answer: >-
+          您可以在 [Documentation section ](https://docs.decisionim.org) 中查看最新版本的管理员手册。
+      - question: 什么是社会契约？
+        answer: >-
+          这就是我们称之为《民主保障和民主协作守则》的方式，社区所有成员都必须认可[社会合同](http://decisionim.org/contract)。
+      - question: 与马德里领事项目/决定有什么不同？
+        answer: >-
+          There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.
+      - question: Metaddecidim社区是什么？
+        answer: >-
+          [Metadecidim](http://meta.decision im.org) 是协作设计平台和建造Decidim项目的Decidim社区。 我们通过[SOM（Metadecidim Operational Sessions）]（https://meta.decisionim）定期举行会议。 rg/assemblyes/eix-comunitat?locale=es) and [LAB Research Seminars](https://meta.decisionim.org/assemblyes/eix-lab). 跳到 [meta.decidim.org](http://meta.decisionim.org) 密切跟随呼叫，如果你想加入社区。我们很喜欢;-)
+      - question: 即使我不住在巴塞罗那，我也能加入Metadecidim社区吗？
+        answer: >-
+          腐化是在巴塞罗那诞生的一个项目，这就是为什么与这个城市有着牢固的领土纽带。 但是的，你可以通过参与过程、辩论等在线合作... 我们在Metadecision im中提供。虽然你可能想来巴塞罗那某个时候:)
+      - question: 我们想要达成一项正式的合作协议。我们是否可以使用任何模板？
+        answer: 是的，我们有格式化协作协议的模板。[请联系我们](/contact)。
+      - question: 您接受了什么类型的成员加入Metaddecidim社区？
+        answer: 任何对民主协作有诚意和正确态度的人。
+      - question: 您是否向非营利组织提供免费安装？
+        answer: >-
+          是的，只有当你是一个设在巴塞罗那的组织。 给我们一条消息，你将得到研究局的帮助。 巴塞罗那市委员会公民权利、参与和透明度领域的发展和创新。
+      - question: 您是否支持机构？
+        answer: >-
+          是的，但你必须耐心等待。 现在有许多机构想要使用Decidim，我们正在一步一步地帮助它们。 [联系我们](/contact) 了解任何问题，我们将尽快回答您的问题。
+      - question: 什么是解体协会？
+        answer: >-
+          “十进制自由软件协会”是一个治理十进制社区的民主协会。
+      - question: 如何获取更多关于解密协会的信息？
+        answer: >-
+          在[Decidim协会大会](https://meta.decision im)。 rg/assembly/general-association) 您可以找到更多信息恶意，关注会议活动并检查相关信息（法规、法律协议、内部条例）
+      - question: 我怎么能够成为解体协会的成员？
+        answer: >-
+          现在参与项目的人可以是合作伙伴。[我们在这里详细解释你必须如何做](https://meta.decisionim.org/assembouries/QuieroSerSocia?locale=es)
+      - question: 代谢协会何时诞生？
+        answer: >-
+          该协会成立于2019年2月16日，成立于社区的一个特别集会](https://meta.decisionm.org/process/decisionim-gov/f/959/meetings/1169)，并得到该组织章程的批准。
   legal-notice:
     title: Legal notice
     section-1:
