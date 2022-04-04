@@ -27,8 +27,8 @@ description:
           <h5 class="h5 mt-7"><%= t("get-started.#{item.title}") %></h5>
           <p class="par-md text-gray-500 mt-4 mb-6"><%= t("get-started.#{item.content}") %></p>
           <div class="text-gray-500 mt-auto">
-            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link1}"), url: t(:path) + item.url1 } %>
-            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link2}"), url: t(:path) + item.url2 } %>
+            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link1}"), url: url(item.url1) } %>
+            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link2}"), url: url(item.url2) } %>
           </div>
         </div>
       <% end %>

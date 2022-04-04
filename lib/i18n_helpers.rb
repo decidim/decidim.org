@@ -18,6 +18,13 @@ module I18nHelpers
     loc == "en" ? '/' : "/#{loc}/"
   end
 
+  def url(path)
+    # Don't append pathname if these match
+    return path if URI(path).scheme.present? || path.start_with?("/blog")
+
+    t(:path) + path
+  end
+
   def show_language_switcher?
     current_page.path.include?("blog") ? false : true
   end
