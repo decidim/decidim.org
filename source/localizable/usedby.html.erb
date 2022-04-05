@@ -54,7 +54,7 @@ description:
         <div class="hidden <%= 'is-selected' if i == 0 %>" data-tab-content="f<%= i %>">
           <div class="grid grid-cols-5 gap-x-28 gap-y-16">
             <% filter.each do |id, use| %>
-              <a class="inline-block" href="<%= use.url %>" target="_blank">
+              <a class="inline-block" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">
                 <img class="object-contain w-full h-full" src="<%= use.image %>" alt="<%= use.title %>" />
               </a>
             <% end %>

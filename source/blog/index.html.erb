@@ -12,9 +12,9 @@ nav: blog
 
   <div class="divide-y-4 divide-gray-100 mt-16">
     <% blog.articles.each do |article| %>
-      <div class="py-12 md:w-3/5">
+      <article class="py-12 md:w-3/5">
         <%= partial "partials/article_preview", locals: {article: article} %>
-      </div>
+      </article>
     <% end %>
   </div>
 </div>

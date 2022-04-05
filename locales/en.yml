@@ -3,6 +3,7 @@ en:
   activeLang: 'English'
 
   nav:
+    home: Home
     text: 'Navigation'
     demo: 'Demo'
     community: 'Community'
@@ -968,3 +969,8 @@ en:
     title: Newsletter
     subtitle: News and updates about the Decidim platform and the community.
     past: Past newsletters
+
+  404:
+    title: Page not found
+    subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
+    intro: Maybe you were looking for...

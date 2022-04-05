@@ -1,0 +1,11 @@
+<% wrap_layout :layout do %>
+<div class="container pt-6 pb-6 md:pt-24 md:pb-12">
+  <a href="/blog" class="flex items-center space-x-1 par-md text-red-500 mb-6">
+    <%= icon "ri-arrow-left-line", class: "w-4 h-4 flex-none" %>
+    <span><%= t("nav.blog") %></span>
+  </a>
+  <article class="prose prose-xl">
+    <%= yield %>
+  </article>
+</div>
+<% end %>

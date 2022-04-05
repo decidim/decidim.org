@@ -28,5 +28,8 @@ module.exports = {
     fontFamily: {
       'sans': ['Barlow', 'system-ui', 'sans-serif']
     }
-  }
+  },
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };

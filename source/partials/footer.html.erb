@@ -5,7 +5,7 @@
 
       <nav class="w-1/4 flex items-center space-x-2">
         <% data.links.social_media.each do |link| %>
-          <% link_to link.url do %>
+          <% link_to link.url, target: "_blank", rel: "noopener noreferrer" do %>
             <%= icon link.icon, class: "w-4 h-4" %>
           <% end %>
         <% end %>
@@ -52,7 +52,7 @@
         <h3 class="font-bold mb-3">Follow us on social media</h3>
         <nav class="space-y-3">
           <% data.links.social_media.each do |link| %>
-            <%= link_to t(link.name, default: link.name), link.url, class: "block first-letter:uppercase" %>
+            <%= link_to t(link.name, default: link.name), link.url, class: "block first-letter:uppercase", target: "_blank", rel: "noopener noreferrer" %>
           <% end %>
         </nav>
       </div>
@@ -61,12 +61,12 @@
     <div>
       <h3 class="font-bold mb-3"><%= t('footer.supported_by') %></h3>
       <div class="flex items-center space-x-8">
-        <a class="w-36 h-12 flex items-center" href="http://www.barcelona.cat" target="_blank">
+        <% link_to "http://www.barcelona.cat", class: "w-36 h-12 flex items-center", target: "_blank", rel: "noopener noreferrer" do %>
           <%= image_tag "/images/logo_footer_barcelona.png", resize: "150x50", alt: "Ajuntament de Barcelona" %>
-        </a>
-        <a class="w-36 h-12 flex items-center" href="http://www.gencat.cat" target="_blank">
+        <% end %>
+        <% link_to "http://www.gencat.cat", class: "w-36 h-12 flex items-center", target: "_blank", rel: "noopener noreferrer" do %>
           <%= image_tag "/images/logo_footer_gencat.png", resize: "150x50", alt: "Generalitat de Catalunya" %>
-        </a>
+        <% end %>
       </div>
     </div>
 
