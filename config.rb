@@ -22,7 +22,7 @@ end
 
 activate :external_pipeline,
   name: :tailwindcss,
-  command: "./node_modules/tailwindcss/lib/cli.js --postcss -i ./source/stylesheets/site.css -o ./source/stylesheets/tailwind.css #{ build? ? "--minify" : "--watch" }",
+  command: "node -v && ./node_modules/tailwindcss/lib/cli.js --postcss -i ./source/stylesheets/site.css -o ./source/stylesheets/tailwind.css #{ build? ? "--minify" : "--watch" }",
   source: "source/stylesheets",
   latency: 1
 
