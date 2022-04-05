@@ -54,7 +54,7 @@ description:
           <%= icon item.icon, class: "w-10 h-10 text-red-500 flex-none" %>
           <div class="md:space-y-6">
             <h5 class="h5"><%= t("press.links")[i][:title] %></h5>
-            <%= partial "partials/arrow-link", locals: { text: t("press.links")[i][:link], url: item.url, classes: "mt-auto block" } %>
+            <%= partial "partials/arrow-link", locals: { text: t("press.links")[i][:link], url: item.url, classes: "text-red-500 mt-auto block" } %>
           </div>
         </div>
       <% end %>

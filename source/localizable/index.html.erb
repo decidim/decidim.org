@@ -54,7 +54,7 @@ pageClass: home
         <%= icon item.icon, class: "w-8 h-8 text-red-500" %>
         <h5 class="h5 mt-8"><%= t("index.cards.#{item.title}") %></h5>
         <p class="par-md text-gray-500 mt-4 mb-6"><%= t("index.cards.#{item.content}") %></p>
-        <%= partial "partials/arrow-link", locals: { text: t("index.cards.#{item.link}"), url: url(item.url), classes: "mt-auto block" } %>
+        <%= partial "partials/arrow-link", locals: { text: t("index.cards.#{item.link}"), url: url(item.url), classes: "text-red-500 mt-auto block" } %>
       </div>
     <% end %>
   </div>

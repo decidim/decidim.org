@@ -4,7 +4,7 @@ description:
 ---
 
 <section>
-  <div class="container pt-24 pb-12">
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
     <div class="md:w-3/5 space-y-6">
       <h1 class="h1 whitespace-nowrap">
         <%= t("get-started.title") %>
@@ -26,9 +26,9 @@ description:
           </div>
           <h5 class="h5 mt-7"><%= t("get-started.#{item.title}") %></h5>
           <p class="par-md text-gray-500 mt-4 mb-6"><%= t("get-started.#{item.content}") %></p>
-          <div class="text-gray-500 mt-auto">
-            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link1}"), url: url(item.url1) } %>
-            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link2}"), url: url(item.url2) } %>
+          <div class="mt-auto">
+            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link1}"), url: url(item.url1), classes: "text-gray-500" } %>
+            <%= partial "partials/arrow-link", locals: { text: t("get-started.#{item.link2}"), url: url(item.url2), classes: "text-gray-500" } %>
           </div>
         </div>
       <% end %>
@@ -54,7 +54,7 @@ description:
         <% t("features.page").each do |f| %>
           <div class="text-red-500 bg-red-100 rounded-xl par-lg m-3 p-6 flex items-baseline space-x-2">
             <%= icon "ri-check-line", class: "w-5 h-4" %>
-            <span><%= f[1][:title]  %></span>
+            <span><%= f[1][:title] %></span>
           </div>
         <% end %>
       </div>

@@ -4,7 +4,7 @@ description:
 ---
 
 <section>
-  <div class="container pt-24 pb-12">
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
     <div class="md:w-3/5 space-y-6">
       <h1 class="h1 whitespace-nowrap">
         <%= t("services.title") %>
@@ -48,7 +48,7 @@ description:
           <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li3") %></span></li>
           <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li4") %></span></li>
         </ul>
-        <a href="" class="button inline-block par-md mt-8"><%= t("services.cta") %></a>
+        <a href="<%= t(:path) %>/about" class="button inline-block par-md mt-8"><%= t("services.cta") %></a>
       </div>
     </div>
   </div>

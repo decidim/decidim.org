@@ -4,7 +4,7 @@ description:
 ---
 
 <section>
-  <div class="container pt-24 pb-12">
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
     <div class="md:w-3/5 space-y-6">
       <h1 class="h1 whitespace-nowrap">
         <%= t("modules.title") %>
@@ -48,7 +48,7 @@ description:
 
       <div class="hidden md:block py-20">
         <p class="par-xl text-gray-500 mb-8"><%= t("modules.develop") %></p>
-        <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", text: t("modules.cta"), url: "#{t(:path)}/" } %>
+        <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", text: t("modules.cta"), url: "https://docs.decidim.org" } %>
       </div>
 
       <h4 id="community" class="h4 mb-10"><%= t("modules.community") %></h4>

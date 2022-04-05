@@ -1,6 +1,6 @@
 <% is_home = current_page.url == '/' %>
 <header class="bg-transparent w-full <%= 'absolute top-0 left-0 text-white' if is_home %>">
-  <div class="container py-4 flex justify-between items-center">
+  <div class="container pt-6 md:pt-12 pb-4 flex justify-between items-center">
     <a href="<%= t(:path) %>/">
       <img class="hidden md:block" src="/images/decidim-logo-claim.svg" alt="Decidim"
         style="<%= 'filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(243deg) brightness(100%) contrast(105%);' if is_home %>" />
