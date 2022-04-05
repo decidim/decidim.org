@@ -2,16 +2,26 @@
 nav: legal-notice
 description:
 ---
-<div class="container container-vertical">
-  <h1 id="decidim" class="page-title"><%= t('legal-notice.title') %></h1>
 
-  <div class="container--text-col">
+<section>
+  <div class="container pt-24 pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1 whitespace-nowrap">
+        <%= t('legal-notice.title') %>
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container pt-12 pb-20">
     <% (1..9).each do |n| %>
-      <section>
-        <h2> <%= t("legal-notice.section-#{n}.title") %> </h2>
-        <div> <%= t("legal-notice.section-#{n}.paragraph", privacy_policy_url: "#{t(:path)}/privacy-policy") %> </div>
-      </section>
+      <h5 class="h5 first:mt-0 mt-8"><%= t("legal-notice.section-#{n}.title") %></h5>
+      <div class="par-md mt-4 prose prose-xl"><%= t("legal-notice.section-#{n}.paragraph", privacy_policy_url: "#{t(:path)}/privacy-policy") %></div>
     <% end %>
   </div>
-</div>
+</section>
 
+<%= partial "/partials/faq" %>
+
+<%= partial "/partials/cta-banner" %>

@@ -1,11 +1,21 @@
 <% wrap_layout :layout do %>
-<div class="container pt-6 pb-6 md:pt-24 md:pb-12">
-  <a href="/blog" class="flex items-center space-x-1 par-md text-red-500 mb-6">
-    <%= icon "ri-arrow-left-line", class: "w-4 h-4 flex-none" %>
-    <span><%= t("nav.blog") %></span>
-  </a>
-  <article class="prose prose-xl">
-    <%= yield %>
-  </article>
-</div>
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-32">
+    <div class="space-y-6">
+      <a href="/blog" class="flex items-center space-x-1 par-md text-red-500 mb-6">
+        <%= icon "ri-arrow-left-line", class: "w-4 h-4 flex-none" %>
+        <span><%= t("nav.blog") %></span>
+      </a>
+      <h2 class="h2"><%= current_article.title %></h2>
+      <div class="par-md text-gray-500 flex">
+        <time><%= current_article.date.strftime('%d/%m/%Y') %></time>
+        <% if current_article.tags.present? && current_article.tags.length > 0 %>
+        &nbsp;&mdash;&nbsp;<span class="inline-block first-letter:uppercase"><%= current_article.tags.join(", ") %></span>
+        <% end %>
+      </div>
+    </div>
+
+    <article class="prose prose-xl mt-8 md:mt-20">
+      <%= yield %>
+    </article>
+  </div>
 <% end %>

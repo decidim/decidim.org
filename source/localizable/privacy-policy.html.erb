@@ -14,10 +14,10 @@ description:
 </section>
 
 <section>
-  <div class="container py-12">
+  <div class="container pt-12 pb-20">
     <% (1..8).each do |n| %>
       <h5 class="h5 first:mt-0 mt-8"><%= t("privacy-policy.section-#{n}.title") %></h5>
-      <p class="par-md mt-4"><%= t("privacy-policy.section-#{n}.paragraph", decidim_url: "#{t(:path)}/legal-notice#decidim", legal_notice_url: "#{t(:path)}/legal-notice") %></p>
+      <div class="par-md mt-4 prose prose-xl"><%= t("privacy-policy.section-#{n}.paragraph", decidim_url: "#{t(:path)}/legal-notice#decidim", legal_notice_url: "#{t(:path)}/legal-notice") %></div>
     <% end %>
   </div>
 </section>
