@@ -104,9 +104,9 @@ fr:
     subject: Objet
     message: Message
     privacy_policy:
-      accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
+      accept: J'accepte la <a href="%{privacy_policy_url}">Politique de confidentialité</a>
       message: >-
-        <p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>
+        <p>Lorsque des personnes nous contactent par le formulaire de contact, par e-mail ou par des moyens de communication similaires, nous recueillerons automatiquement les informations suivantes : nom, entité, adresse e-mail et le contenu du message de l'Utilisateur afin de répondre à vos commentaires, demandes, suggestions, etc.</p> <p>En outre, nous pouvons traiter ces données pour des études statistiques par pseudonymisation et même des techniques d'anonymisation, tels que l'agrégation des données, empêchant ce traitement ultérieur d'identifier les Utilisateurs individuellement.</p>
     send: Envoyer
   thanks:
     title: Merci pour votre e-mail
