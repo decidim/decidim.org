@@ -1,7 +1,7 @@
 <div class="mt-6 md:mt-8 flex flex-col md:flex-row items-start space-y-6 md:space-y-0 md:space-x-48">
   <div class="divide-y-4 divide-gray-100">
     <div></div>
-    <% blog.articles.take(length ||= blog.articles.length).each do |article| %>
+    <% blog.articles.take(length ||= blog.articles.length)&.each do |article| %>
       <a href="<%= article.url %>" target="_blank" rel="noopener noreferrer" class="flex justify-between space-x-4 py-6">
         <div>
           <h6 class="h6"><%= article.title %></h6>

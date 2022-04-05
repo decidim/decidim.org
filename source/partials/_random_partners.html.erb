@@ -1,5 +1,5 @@
 <div class="flex items-center space-x-16 <%= classes ||= '' %>">
-  <% data.partners.sample(6).each do |logo| %>
+  <% data.partners.sample(6)&.each do |logo| %>
     <a class="md:w-1/6 h-16 block cursor-pointer" href="<%= logo.url %>">
       <img class="w-full h-full object-contain grayscale" src="<%= logo.image %>" alt="<%= logo.name %>">
     </a>

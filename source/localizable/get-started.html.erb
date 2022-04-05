@@ -51,7 +51,7 @@ description:
     <div class="mt-12 -ml-[5vw] w-[110vw]">
       <div class="flex flex-wrap -m-3">
 
-        <% t("features.page").each do |f| %>
+        <% t_with_default("features.page").each do |f| %>
           <div class="text-red-500 bg-red-100 rounded-xl par-lg m-3 p-6 flex items-baseline space-x-2">
             <%= icon "ri-check-line", class: "w-5 h-4" %>
             <span><%= f[1][:title] %></span>

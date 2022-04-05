@@ -47,7 +47,7 @@ description:
     </div>
     <div class="mt-16 -ml-[200vw] w-[500vw] md:-ml-[5vw] md:w-[110vw]">
       <div class="-m-3 flex flex-wrap">
-        <% t("about.values").each do |value| %>
+        <% t_with_default("about.values", []).each do |value| %>
           <div class="inline-block text-red-500 par-lg m-3 p-6 border border-red-500 rounded-xl"><%= value %></div>
         <% end %>
       </div>

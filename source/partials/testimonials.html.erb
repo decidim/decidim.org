@@ -5,7 +5,7 @@
 
 <section>
   <div class="container py-24 grid grid-cols-6 gap-6 items-start">
-    <% data.testimonials.sample(3).each_with_index do |f, i| %>
+    <% data.testimonials.sample(3)&.each_with_index do |f, i| %>
       <div class="<%= columns[i] %> <%= rows[i] %> <%= '-mt-24' if i == 1 %>">
         <blockquote class="p-8 par-md rounded-t-xl rounded-br-xl <%= bg[i] %> <%= text[i] %>">
           <%= t("testimonials.#{f.id}.quote") %>

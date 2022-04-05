@@ -29,4 +29,8 @@ module I18nHelpers
     current_page.path.include?("blog") ? false : true
   end
 
+  def t_with_default(key, default = {})
+    t(key, default: "").presence || default
+  end
+
 end

@@ -18,23 +18,23 @@ description:
 
 <section>
   <div class="container pt-6 pb-12 md:pt-16 md:pb-32 space-y-16">
-    <% t("faqs.types").each_with_index do |type, ix| %>
-      <% questions = t("faqs.questions").select {|m| m[:type] == ix} %>
-      <% if questions.length > 0 %>
-        <div class="space-y-4">
-          <div class="flex items-end space-x-2">
-            <h6 class="h6 button black"><%= type %></h6>
-            <span class="w-4 h-4 rounded-full bg-black"></span>
-          </div>
-
-          <div class="mt-4 space-y-4" data-accordion>
-            <% questions.each do |item| %>
-              <%= partial "partials/faq-item", locals: { item: item, classes: "bg-gray-100" } %>
-            <% end %>
-          </div>
+    <% t_with_default("faqs.types", []).each_with_index do |type, ix| %>
+    <% questions = t("faqs.questions").select {|m| m[:type] == ix} %>
+    <% if questions.length > 0 %>
+      <div class="space-y-4">
+        <div class="flex items-end space-x-2">
+          <h6 class="h6 button black"><%= type %></h6>
+          <span class="w-4 h-4 rounded-full bg-black"></span>
         </div>
-      <% end %>
+
+        <div class="mt-4 space-y-4" data-accordion>
+          <% questions.each do |item| %>
+            <%= partial "partials/faq-item", locals: { item: item, classes: "bg-gray-100" } %>
+          <% end %>
+        </div>
+      </div>
     <% end %>
+  <% end %>
   </div>
 </section>
 
