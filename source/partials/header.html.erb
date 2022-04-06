@@ -7,14 +7,20 @@
       <img class="block md:hidden" src="/images/decidim-symbol.svg" alt="Decidim"
         style="<%= 'filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(243deg) brightness(100%) contrast(105%);' if is_home %>" />
     </a>
-    <nav class="space-x-8">
-      <%= link_to t('nav.get-started'), "#{t(:path)}/get-started" %>
-      <%= link_to t('nav.features'), "#{t(:path)}/features" %>
-      <%= link_to t('nav.services'), "#{t(:path)}/services" %>
-      <%= link_to t('nav.community'), "#{t(:path)}/community" %>
-      <%= link_to t('nav.demo'), "https://try.decidim.org/", target: "_blank", rel: "noopener noreferrer", class: "button" %>
+    <div>
+      <button class="md:hidden flex items-center space-x-3">
+        <span class="par-sm"><%= t('nav.menu') %></span>
+        <%= icon "ri-menu-fill", class: "w-5 h-4 mt-1" %>
+      </button>
+      <nav class="hidden md:block space-x-8">
+        <%= link_to t('nav.get-started'), "#{t(:path)}/get-started" %>
+        <%= link_to t('nav.features'), "#{t(:path)}/features" %>
+        <%= link_to t('nav.services'), "#{t(:path)}/services" %>
+        <%= link_to t('nav.community'), "#{t(:path)}/community" %>
+        <%= link_to t('nav.demo'), "https://try.decidim.org/", target: "_blank", rel: "noopener noreferrer", class: "button" %>
 
-      <%= partial "/partials/language-selector" %>
-    </nav>
+        <%= partial "/partials/language-selector" %>
+      </nav>
+    </div>
   </div>
 </header>

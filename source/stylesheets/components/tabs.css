@@ -1,6 +1,10 @@
 [data-tabs] {
   [data-tab-id].is-selected {
     @apply text-red-500 after:bg-red-500;
+
+    > :last-child {
+      @apply block;
+    }
   }
 
   [data-tab-content].is-selected {

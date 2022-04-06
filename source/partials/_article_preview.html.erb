@@ -1,10 +1,11 @@
+<% strip = strip ||= false %>
 <article class="space-y-2">
   <h5 class="h5">
     <a href="<%= article.url %>"><%= article.title %></a>
   </h5>
   <time class="text-gray-500"><%= article.date.strftime('%d/%m/%Y') %></time>
-  <div class="text-gray-500 text-md">
-    <% if strip ||= false %>
+  <div class="text-gray-500 text-md <%= 'hidden md:block' if strip %>">
+    <% if strip %>
       <%= strip_img article.summary %>
     <% else %>
       <%= article.summary %>
