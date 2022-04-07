@@ -1,36 +1,13 @@
-[data-accordion] [data-accordion-id] {
+[data-accordion] [data-accordion-id].is-selected {
   svg {
-    animation: fade2 0.3s ease-in-out forwards;
+    @apply animate-fade-out;
   }
 
   svg + svg {
-    animation: fade1 0.3s ease-in-out forwards;
+    @apply animate-fade-in;
   }
 
-  &.is-selected {
-    svg {
-      animation: fade1 0.3s ease-in-out forwards;
-    }
-
-    svg + svg {
-      animation: fade2 0.3s ease-in-out forwards;
-    }
-
-    > :last-child{
-      @apply pointer-events-auto translate-y-0 opacity-100 max-h-full mt-4;
-    }
-  }
-}
-
-
-@keyframes fade1 {
-  to {
-    @apply opacity-0 rotate-180;
-  }
-}
-
-@keyframes fade2 {
-  to {
-    @apply opacity-100 rotate-180;
+  > :last-child{
+    @apply pointer-events-auto translate-y-0 opacity-100 max-h-full mt-4;
   }
 }

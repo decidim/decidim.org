@@ -1,6 +1,6 @@
 module.exports = {
   content: ["./source/**/*.{html,js,erb}"],
-  // safelist: [{ pattern: /.*/ }],
+  safelist: [{ pattern: /.*/ }], // uncomment to disable purging
   theme: {
     colors: {
       red: {
@@ -26,10 +26,24 @@ module.exports = {
       },
     },
     fontFamily: {
-      'sans': ['Barlow', 'system-ui', 'sans-serif']
+      "sans": ["Barlow", "system-ui", "sans-serif"]
+    },
+    extend: {
+      keyframes: {
+        fadeIn: {
+          to: { opacity: "100%", transform: "rotate(180deg)" },
+        },
+        fadeOut: {
+          to: { opacity: "0%", transform: "rotate(180deg)" },
+        }
+      },
+      animation: {
+        "fade-in": "fadeIn 0.3s ease-in-out forwards",
+        "fade-out": "fadeOut 0.3s ease-in-out forwards",
+      }
     }
   },
   plugins: [
-    require('@tailwindcss/typography'),
+    require("@tailwindcss/typography"),
   ],
 };
