@@ -104,9 +104,9 @@ cs:
     subject: Předmět
     message: Zpráva
     privacy_policy:
-      accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
+      accept: Přijímám <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a>
       message: >-
-        <p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>
+        <p>Když nás lidé kontaktují kontaktním formulářem, e-mailem nebo podobným komunikačním prostředkem, budeme automaticky shromažďovat následující informace: jméno, entita, e-mailová adresa a obsah zprávy uživatele pro účast na vašich komentářích, žádostech, návrzích atd.</p> <p>Kromě toho můžeme zpracovat tato data pro statistické studie pomocí pseudonymizace a dokonce i anonymizačních technik, jako je agregace údajů, které brání tomuto následnému zpracování v identifikaci jednotlivých uživatelů.</p>
     send: Odeslat
   thanks:
     title: Děkujeme za váš e-mail
