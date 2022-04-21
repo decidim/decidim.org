@@ -40,8 +40,8 @@ description:
         </span>
         <textarea id="message" name="message" cols="30" rows="10" required></textarea>
       </label>
-      <label for="accept_privacy_policy">
-        <span><%= t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></span>
+      <label for="accept_privacy_policy" class="flex flex-row-reverse gap-x-2 hover:cursor-pointer">
+        <span class="prose"><%= t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></span>
         <input type="checkbox" id="accept_privacy_policy" name="accept_privacy_policy" required/>
       </label>
       <p><%= t('contact.privacy_policy.message') %></p>
