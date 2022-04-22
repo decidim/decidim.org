@@ -48,17 +48,35 @@ description:
       <%= partial "partials/arrow-link", locals: { text: t("get-started.section2.link"), url: "#{t(:path)}/features" } %>
     </div>
 
-    <div class="mt-12 -ml-[5vw] w-[110vw]">
-      <div class="flex flex-wrap -m-3">
-
-        <% t_with_default("features.page").each do |f| %>
-          <div class="text-red-500 bg-red-100 rounded-xl par-lg m-3 p-6 flex items-baseline space-x-2">
+    <div class="mt-12 -ml-[5vw] w-[110vw] space-y-4 md:space-y-6 overflow-hidden">
+      <% chunks = t_with_default("features.page").to_a.each_slice(6).to_a %>
+      <% chunk0 = (chunks[0] * 5) + chunks[0].take(2) %>
+      <% chunk1 = (chunks[1] * 5) + chunks[1].take(2) %>
+      <% chunk2 = (chunks[2] * 5) + chunks[2].take(2) %>
+      <div class="flex gap-4 md:gap-6 animate-slide" style="--translate-slide: -1380px">
+        <% chunk0.each do |f| %>
+          <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
             <%= icon "ri-check-line", class: "w-5 h-4" %>
             <span><%= f[1][:title] %></span>
           </div>
         <% end %>
       </div>
-
+      <div class="flex gap-4 md:gap-6 -translate-x-full animate-slide" style="--translate-slide: calc(-100% + 1313px)">
+        <% chunk1.each do |f| %>
+          <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
+            <%= icon "ri-check-line", class: "w-5 h-4" %>
+            <span><%= f[1][:title] %></span>
+          </div>
+        <% end %>
+      </div>
+      <div class="flex gap-4 md:gap-6 animate-slide" style="--translate-slide: -1120px">
+        <% chunk2.each do |f| %>
+          <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
+            <%= icon "ri-check-line", class: "w-5 h-4" %>
+            <span><%= f[1][:title] %></span>
+          </div>
+        <% end %>
+      </div>
     </div>
   </div>
 </section>

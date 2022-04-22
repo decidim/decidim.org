@@ -35,11 +35,15 @@ module.exports = {
         },
         fadeOut: {
           to: { opacity: "0%", transform: "rotate(180deg)" },
+        },
+        slide: {
+          to: { transform: "translate3d(var(--translate-slide), 0, 0)" },
         }
       },
       animation: {
         "fade-in": "fadeIn 0.3s ease-in-out forwards",
         "fade-out": "fadeOut 0.3s ease-in-out forwards",
+        "slide": "slide 10s linear infinite"
       }
     }
   },
