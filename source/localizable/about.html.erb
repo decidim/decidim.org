@@ -6,7 +6,7 @@ description:
 <section>
   <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
     <div class="md:w-3/5 space-y-6">
-      <h1 class="h1 whitespace-nowrap">
+      <h1 class="h1 md:whitespace-nowrap">
         <%= t("about.title") %>
       </h1>
       <p class="par-xl text-gray-500">
@@ -45,10 +45,19 @@ description:
       <div class="par-xl mt-2"><%= t("about.values_intro") %></div>
       <a class="block par-md mt-4 underline" href="<%= t(:path) %>/contract"><%= t("about.values_cta") %></a>
     </div>
-    <div class="mt-16 -ml-[200vw] w-[500vw] md:-ml-[5vw] md:w-[110vw]">
-      <div class="-m-3 flex flex-wrap">
-        <% t_with_default("about.values", []).each do |value| %>
-          <div class="inline-block text-red-500 par-lg m-3 p-6 border border-red-500 rounded-xl"><%= value %></div>
+    <div class="mt-16 w-screen space-y-4 md:space-y-6 overflow-hidden">
+      <% texts = t_with_default("about.values", []).to_a %>
+      <% chunks = texts.each_slice((texts.length / 2) + 1).to_a %>
+      <% chunk0 = (chunks[0] * 4) + chunks[0].take(2) %>
+      <% chunk1 = (chunks[1] * 4) + chunks[1].take(2) %>
+      <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1770px">
+        <% chunk0.each do |value| %>
+          <div class="inline-block text-red-500 par-lg p-6 border border-red-500 rounded-xl whitespace-nowrap"><%= value %></div>
+        <% end %>
+      </div>
+      <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1475px)">
+        <% chunk1.each do |value| %>
+          <div class="inline-block text-red-500 par-lg p-6 border border-red-500 rounded-xl whitespace-nowrap"><%= value %></div>
         <% end %>
       </div>
     </div>
