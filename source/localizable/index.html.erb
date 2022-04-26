@@ -30,7 +30,7 @@ pageClass: home
     <div class="md:w-1/3">
       <div class="flex md:hidden space-x-3">
         <% data.index.features.each_with_index do |feat, i| %>
-          <div class="h-2 w-10 bg-gray-300 rounded-xl cursor-pointer" data-tab-id="<%= feat.id %>"></div>
+          <div class="h-2 w-10 bg-gray-300 rounded-xl cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= feat.id %>" data-tab-mobile></div>
         <% end %>
       </div>
       <ul class="flex md:block md:divide-y-8 divide-gray-100">
@@ -79,7 +79,7 @@ pageClass: home
       <% installations = data_sort_by_priority(data_select_home(data.installations)) %>
       <div class="-mx-4 -my-2 md:-mx-16 md:-my-6 flex flex-wrap items-center">
         <% installations.each do |id, use| %>
-          <a class="inline-block px-4 py-2 md:px-16 md:py-6 max-w-[120px] md:max-w-xs" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">
+          <a class="inline-block px-4 py-2 md:px-16 md:py-6 max-w-[120px] md:max-w-[240px]" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">
             <img class="object-cover w-full h-full" src="<%= use.image %>" alt="<%= use.title %>" />
           </a>
         <% end %>
