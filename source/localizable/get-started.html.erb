@@ -49,35 +49,37 @@ description:
     </div>
 
     <div class="mt-12 w-screen space-y-4 md:space-y-6 overflow-hidden">
-      <% texts = t_with_default("features.page").to_a %>
-      <% chunks = texts.each_slice((texts.length / 3) + 1).to_a %>
-      <% chunk0 = (chunks[0] * 4) + chunks[0].take(2) %>
-      <% chunk1 = (chunks[1] * 4) + chunks[1].take(2) %>
-      <% chunk2 = (chunks[2] * 4) + chunks[2].take(2) %>
-      <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1380px">
-        <% chunk0.each do |f| %>
-          <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
-            <%= icon "ri-check-line", class: "w-5 h-4" %>
-            <span><%= f[1][:title] %></span>
-          </div>
-        <% end %>
-      </div>
-      <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1313px)">
-        <% chunk1.each do |f| %>
-          <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
-            <%= icon "ri-check-line", class: "w-5 h-4" %>
-            <span><%= f[1][:title] %></span>
-          </div>
-        <% end %>
-      </div>
-      <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1120px">
-        <% chunk2.each do |f| %>
-          <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
-            <%= icon "ri-check-line", class: "w-5 h-4" %>
-            <span><%= f[1][:title] %></span>
-          </div>
-        <% end %>
-      </div>
+      <% texts = t_with_default("features.page", []).to_a ||= [] %>
+      <% if texts.length > 0 %>
+        <% chunks = texts.each_slice((texts.length / 3) + 1).to_a %>
+        <% chunk0 = (chunks[0] * 4) + chunks[0].take(2) %>
+        <% chunk1 = (chunks[1] * 4) + chunks[1].take(2) %>
+        <% chunk2 = (chunks[2] * 4) + chunks[2].take(2) %>
+        <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1380px">
+          <% chunk0.each do |f| %>
+            <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
+              <%= icon "ri-check-line", class: "w-5 h-4" %>
+              <span><%= f[1][:title] %></span>
+            </div>
+          <% end %>
+        </div>
+        <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1313px)">
+          <% chunk1.each do |f| %>
+            <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
+              <%= icon "ri-check-line", class: "w-5 h-4" %>
+              <span><%= f[1][:title] %></span>
+            </div>
+          <% end %>
+        </div>
+        <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1120px">
+          <% chunk2.each do |f| %>
+            <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
+              <%= icon "ri-check-line", class: "w-5 h-4" %>
+              <span><%= f[1][:title] %></span>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
     </div>
   </div>
 </section>
