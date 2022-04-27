@@ -1,14 +1,20 @@
-[data-accordion] [data-accordion-id].is-selected {
-  svg {
-    @apply animate-fade-out;
+[data-accordion] [data-accordion-id] {
+  > :last-child {
+    @apply pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all;
   }
 
-  svg + svg {
-    @apply animate-fade-in;
-  }
+  &.is-selected {
+    svg:not(.no-toggle) {
+      @apply animate-fade-out;
+    }
 
-  :last-child {
-    @apply pointer-events-auto translate-y-0 opacity-100 max-h-full;
+    svg:not(.no-toggle) + svg:not(.no-toggle) {
+      @apply animate-fade-in;
+    }
+
+    > :last-child {
+      @apply pointer-events-auto translate-y-0 opacity-100 max-h-full;
+    }
   }
 }
 
@@ -18,4 +24,14 @@
 
 [data-accordion="footer"] [data-accordion-id].is-selected > :last-child {
   @apply py-3;
+}
+
+[data-accordion="features"] [data-accordion-id].is-selected {
+  > :first-child {
+    @apply text-red-500 after:bg-red-500;
+  }
+
+  > :last-child {
+    @apply pt-6;
+  }
 }

@@ -1,6 +1,7 @@
 /**
  * Use [data-accordion] tag in the parent node of every element
  * Use [data-accordion-id=UNIQUE_ID] tag in the items, setting an unique id
+ * The first child's item will be the trigger, and the last-child the toggle content
  *
  * @example
  * <div data-accordion>

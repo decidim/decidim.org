@@ -26,7 +26,7 @@
               <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
             </div>
           </div>
-          <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
+          <nav class="space-y-3 break-inside-avoid md:pointer-events-auto md:translate-y-0 md:max-h-full md:opacity-100">
             <% data.links.decidim.each do |link| %>
               <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
             <% end %>
