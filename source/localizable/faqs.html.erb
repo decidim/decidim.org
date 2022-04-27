@@ -27,7 +27,7 @@ description:
           <span class="w-4 h-4 rounded-full bg-black"></span>
         </div>
 
-        <div class="mt-4 space-y-4" data-accordion>
+        <div class="mt-4 space-y-4" data-accordion="faqs">
           <% questions.each do |item| %>
             <%= partial "partials/faq-item", locals: { item: item, classes: "bg-gray-100" } %>
           <% end %>

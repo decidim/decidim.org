@@ -7,7 +7,15 @@
     @apply animate-fade-in;
   }
 
-  > :last-child{
-    @apply pointer-events-auto translate-y-0 opacity-100 max-h-full mt-4;
+  :last-child {
+    @apply pointer-events-auto translate-y-0 opacity-100 max-h-full;
   }
+}
+
+[data-accordion="faqs"] [data-accordion-id].is-selected > :last-child {
+  @apply mt-4;
+}
+
+[data-accordion="footer"] [data-accordion-id].is-selected > :last-child {
+  @apply py-3;
 }

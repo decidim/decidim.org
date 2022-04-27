@@ -17,12 +17,24 @@ decidim:
     url: https://github.com/decidim/decidim
 
 about_us:
+  - name: nav.services
+    url: /services
+  - name: nav.about
+    url: /about
+  - name: nav.community
+    url: /community
+  - name: nav.press
+    url: /press
+  - name: nav.contact
+    url: /contact
+  - name: nav.partners
+    url: /partners
   - name: nav.faqs
     url: /faqs
 
 stay_up_to_date:
-  - name: nav.faqs
-    url: /faqs
+  - name: nav.blog
+    url: /blog
 
 legal:
   - name: nav.legal-notice

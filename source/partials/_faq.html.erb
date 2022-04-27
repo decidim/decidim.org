@@ -5,7 +5,7 @@
       <span class="w-4 h-4 rounded-full bg-red-500"></span>
     </div>
 
-    <div class="mt-4 space-y-4" data-accordion>
+    <div class="mt-4 space-y-4" data-accordion="faqs">
       <% t_with_default("faqs.questions", []).sample(4).each do |item| %>
         <%= partial "partials/faq-item", locals: { item: item, classes: "bg-white" } %>
       <% end %>
