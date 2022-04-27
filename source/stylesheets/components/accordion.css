@@ -1,7 +1,7 @@
 [data-accordion] [data-accordion-id] {
-  > :last-child {
+  /* > :last-child {
     @apply pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all;
-  }
+  } */
 
   &.is-selected {
     svg:not(.no-toggle) {

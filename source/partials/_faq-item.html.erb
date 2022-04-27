@@ -1,5 +1,5 @@
 <% if item.is_a?(Hash) %>
-<div class="p-5 rounded-xl overflow-hidden cursor-pointer <%= classes ||= '' %>" data-accordion-id="<%= SecureRandom.hex[0..7] %>">
+<div role="tab" class="p-5 rounded-xl overflow-hidden cursor-pointer <%= classes ||= '' %>" data-accordion-id="<%= SecureRandom.hex[0..7] %>">
   <div class="flex items-center justify-between space-x-4">
     <h6 class="h6"><%= item[:question] %></h6>
     <div class="flex-none relative inline w-5 h-5">
@@ -7,7 +7,7 @@
       <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
     </div>
   </div>
-  <div class="par-md text-gray-500 prose max-w-full">
+  <div class="par-md text-gray-500 prose max-w-full pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
     <%= item && markdown(item[:answer]) %>
   </div>
 </div>
