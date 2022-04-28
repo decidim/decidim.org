@@ -44,14 +44,12 @@ description:
         <span class="prose"><%= t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></span>
         <input type="checkbox" id="accept_privacy_policy" name="accept_privacy_policy" required/>
       </label>
-      <p><%= t('contact.privacy_policy.message') %></p>
-      <div>
+      <%= t('contact.privacy_policy.message') %>
+      <div class="par-md">
         <button type="submit" class="button"><%= t("contact.send") %></button>
       </div>
     </form>
   </div>
 </section>
-
-<%= partial "/partials/faq" %>
 
 <%= partial "/partials/cta-banner" %>
