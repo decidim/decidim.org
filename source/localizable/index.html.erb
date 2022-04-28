@@ -33,9 +33,9 @@ pageClass: home
           <div class="h-2 w-10 bg-gray-300 rounded-xl cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= feat.id %>" data-tab-mobile></div>
         <% end %>
       </div>
-      <ul class="flex md:block md:divide-y-8 divide-gray-100">
+      <ul role="tablist" class="flex md:block md:divide-y-8 divide-gray-100">
         <% data.index.features.each_with_index do |feat, i| %>
-          <li class="flex items-center md:space-x-4 py-5 cursor-pointer hover:text-red-500 transition <%= 'is-selected' if i == 0 %>" data-tab-id="<%= feat.id %>">
+          <li role="tab" tabindex="0" class="flex items-center md:space-x-4 py-5 cursor-pointer hover:text-red-500 transition <%= 'is-selected' if i == 0 %>" data-tab-id="<%= feat.id %>">
             <%= icon feat.icon, class: "w-6 h-6 text-red-500 hidden md:block" %>
             <h6 class="h6 hidden md:block"><%= t("index.subhero.#{feat.id}") %></h6>
           </li>

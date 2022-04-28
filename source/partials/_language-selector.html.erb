@@ -3,9 +3,9 @@
 <% if show_language_switcher? %>
 <div class="inline-block relative group">
 
-  <span class="flex space-x-2 items-center"><%= icon "ri-global-line", class: "w-5 h-5" %> <span class="uppercase"><%= I18n.locale %></span></span>
+  <button class="flex space-x-2 items-center"><%= icon "ri-global-line", class: "w-5 h-5" %> <span class="uppercase"><%= I18n.locale %></span></button>
 
-  <ul class="absolute -left-3 shadow-md overflow-hidden hidden transition group-hover:block <%= direction == 'up' ? 'top-full pb-8 rounded-t-xl translate-y-1/4 group-hover:-translate-y-full' : '-top-3 pt-10 rounded-b-xl -translate-y-1/4 group-hover:translate-y-0' %>">
+  <ul class="absolute -left-3 shadow-md overflow-hidden hidden transition group-hover:block group-focus-within:block <%= direction == 'up' ? 'top-full pb-8 rounded-t-xl translate-y-1/4 group-hover:-translate-y-full' : '-top-3 pt-10 rounded-b-xl -translate-y-1/4 group-hover:translate-y-0' %>">
     <% data.languages.each do |lang| %>
       <li class="bg-white text-black last:pb-3 <%= 'first:pt-3' if direction == 'up' %>">
         <% link_to(current_path_for_locale(lang.path), class: "flex items-center justify-end space-x-2 px-6 hover:bg-gray-300") do %>

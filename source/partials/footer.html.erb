@@ -17,15 +17,77 @@
     </div>
 
     <div class="flex mt-6 md:mt-12">
-      <div class="w-full md:w-3/4 md:columns-3 md:space-y-9 divide-y-2 md:divide-y-0 divide-gray-500 border-y-2 md:border-y-0 border-gray-500 cursor-pointer md:cursor-auto" data-accordion="footer">
-        <div class="w-full break-inside-avoid" data-accordion-id="decidim">
-          <div class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
+      <div class="block md:hidden w-full divide-y-2 divide-gray-500 border-y-2 border-gray-500 cursor-pointer" data-accordion="footer">
+        <details class="w-full">
+          <summary class="flex items-center justify-between space-x-4 py-2">
+            <h3 class="font-bold">Decidim</h3>
+            <div class="flex-none relative inline w-5 h-5">
+              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
+              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
+            </div>
+          </summary>
+          <nav class="space-y-3 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
+            <% data.links.decidim.each do |link| %>
+              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+            <% end %>
+          </nav>
+        </details>
+
+        <details class="w-full">
+          <summary class="flex items-center justify-between space-x-4 py-2">
+            <h3 class="font-bold"><%= t("footer.about_us") %></h3>
+            <div class="flex-none relative inline w-5 h-5">
+              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
+              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
+            </div>
+          </summary>
+          <nav class="space-y-3 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
+            <% data.links.about_us.each do |link| %>
+              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+            <% end %>
+          </nav>
+        </details>
+
+        <details class="w-full">
+          <summary class="flex items-center justify-between space-x-4 py-2">
+            <h3 class="font-bold"><%= t("footer.up_to_date") %></h3>
+            <div class="flex-none relative inline w-5 h-5">
+              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
+              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
+            </div>
+          </summary>
+          <nav class="space-y-3 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
+            <% data.links.stay_up_to_date.each do |link| %>
+              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+            <% end %>
+          </nav>
+        </details>
+
+        <details class="w-full">
+          <summary class="flex items-center justify-between space-x-4 py-2">
+            <h3 class="font-bold"><%= t("footer.legal") %></h3>
+            <div class="flex-none relative inline w-5 h-5">
+              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
+              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
+            </div>
+          </summary>
+          <nav class="space-y-3 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
+            <% data.links.legal.each do |link| %>
+              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+            <% end %>
+          </nav>
+        </details>
+      </div>
+
+      <div class="hidden md:block w-3/4 columns-3 space-y-9">
+        <div class="break-inside-avoid">
+          <summary class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
             <h3 class="font-bold">Decidim</h3>
             <div class="block md:hidden flex-none relative inline w-5 h-5">
               <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
               <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
             </div>
-          </div>
+          </summary>
           <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
             <% data.links.decidim.each do |link| %>
               <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
@@ -33,14 +95,14 @@
           </nav>
         </div>
 
-        <div class="w-full break-inside-avoid" data-accordion-id="about_us">
-          <div class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
+        <div class="break-inside-avoid">
+          <summary class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
             <h3 class="font-bold"><%= t("footer.about_us") %></h3>
             <div class="block md:hidden flex-none relative inline w-5 h-5">
               <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
               <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
             </div>
-          </div>
+          </summary>
           <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
             <% data.links.about_us.each do |link| %>
               <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
@@ -48,14 +110,14 @@
           </nav>
         </div>
 
-        <div class="w-full break-inside-avoid" data-accordion-id="stay_up_to_date">
-          <div class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
+        <div class="break-inside-avoid">
+          <summary class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
             <h3 class="font-bold"><%= t("footer.up_to_date") %></h3>
             <div class="block md:hidden flex-none relative inline w-5 h-5">
               <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
               <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
             </div>
-          </div>
+          </summary>
           <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
             <% data.links.stay_up_to_date.each do |link| %>
               <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
@@ -63,14 +125,14 @@
           </nav>
         </div>
 
-        <div class="w-full break-inside-avoid" data-accordion-id="legal">
-          <div class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
+        <div class="break-inside-avoid">
+          <summary class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
             <h3 class="font-bold"><%= t("footer.legal") %></h3>
             <div class="block md:hidden flex-none relative inline w-5 h-5">
               <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
               <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
             </div>
-          </div>
+          </summary>
           <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
             <% data.links.legal.each do |link| %>
               <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
