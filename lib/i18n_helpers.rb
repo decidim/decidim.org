@@ -10,14 +10,6 @@ module I18nHelpers
         current_page.url.gsub(url_regex, root_for_locale(loc))
   end
 
-  def home_for_locale(loc = I18n.locale)
-    root_for_locale(loc)
-  end
-
-  def root_for_locale(loc = I18n.locale)
-    loc == "en" ? '/' : "/#{loc}/"
-  end
-
   def url(path)
     # Don't append pathname if these match
     return path if URI(path).scheme.present? || path.start_with?("/blog")

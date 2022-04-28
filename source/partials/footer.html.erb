@@ -93,7 +93,7 @@
           </div>
           <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
             <% data.links.decidim.each do |link| %>
-              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+              <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
             <% end %>
           </nav>
         </div>
@@ -108,7 +108,7 @@
           </div>
           <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
             <% data.links.about_us.each do |link| %>
-              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+              <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
             <% end %>
           </nav>
         </div>
@@ -123,7 +123,7 @@
           </div>
           <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
             <% data.links.stay_up_to_date.each do |link| %>
-              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+              <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
             <% end %>
           </nav>
         </div>
@@ -138,7 +138,7 @@
           </div>
           <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
             <% data.links.legal.each do |link| %>
-              <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
+              <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
             <% end %>
           </nav>
         </div>
