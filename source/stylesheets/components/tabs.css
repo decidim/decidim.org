@@ -2,10 +2,6 @@
   [data-tab-id].is-selected {
     @apply md:text-red-500;
 
-    /* &:empty {
-      @apply bg-red-500;
-    } */
-
     > :last-child {
       @apply block;
     }
@@ -26,5 +22,11 @@
 [data-tabs="testimonials"] {
   [data-tab-id].is-selected {
     @apply flex flex-col gap-6;
+  }
+}
+
+[data-tabs="used_by"] {
+  [data-tab-id].is-selected {
+    @apply text-red-500 after:bg-red-500;
   }
 }
