@@ -17,7 +17,7 @@ description:
       </p>
     </div>
 
-    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-16">
+    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-12 md:mt-16">
       <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-hand-heart-line", text: t("about.about")[0], url: "#{t(:path)}/about#support" } %>
       <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-mail-line", text: t("about.about")[1], url: "#{t(:path)}/contact" } %>
       <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-team-line", text: t("about.about")[2], url: "#{t(:path)}/" } %>
@@ -27,7 +27,7 @@ description:
 </section>
 
 <section>
-  <div class="container py-32 grid grid-cols-2 md:grid-cols-4 gap-6">
+  <div class="container py-12 md:py-32 grid grid-cols-2 md:grid-cols-4 gap-6">
     <% data.about_us.each do |about| %>
       <div>
         <div class="rounded-xl overflow-hidden bg-gray-100"><img class="aspect-square" src="<%= about.image %>" alt="<%= about.name %>"></div>
@@ -39,13 +39,13 @@ description:
 </section>
 
 <section class="bg-red-100">
-  <div class="pt-16 pb-20 overflow-hidden">
+  <div class="py-12 md:pt-16 md:pb-20 overflow-hidden">
     <div class="container text-red-500">
       <h6 class="h6"><%= t("about.values_title") %></h6>
       <div class="par-xl mt-2"><%= t("about.values_intro") %></div>
       <a class="block par-md mt-4 underline" href="<%= t(:path) %>/contract"><%= t("about.values_cta") %></a>
     </div>
-    <div class="mt-16 w-screen space-y-4 md:space-y-6 overflow-hidden">
+    <div class="mt-12 md:mt-16 w-screen space-y-4 md:space-y-6 overflow-hidden">
       <% texts = t_with_default("about.values", []).to_a %>
       <% if texts.length > 0 %>
         <% chunks = texts.each_slice((texts.length / 2) + 1).to_a %>
@@ -67,7 +67,7 @@ description:
 </section>
 
 <section>
-  <div class="container py-32" id="support">
+  <div class="container py-12 md:py-32" id="support">
     <div class="space-y-6 md:w-3/4">
       <h3 class="h3"><%= t("about.support_title") %></h3>
       <p class="par-lg text-gray-500"><%= t("about.support_subtitle") %></p>
