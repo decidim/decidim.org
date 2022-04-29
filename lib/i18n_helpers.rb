@@ -15,7 +15,7 @@ module I18nHelpers
   end
 
   def root_for_locale(loc = I18n.locale)
-    loc == "en" ? '/' : "/#{loc}/"
+    loc == "en" ? "../" : "/#{loc}/"
   end
 
   def url(path)
