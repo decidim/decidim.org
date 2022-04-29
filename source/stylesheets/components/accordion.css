@@ -1,4 +1,4 @@
-details[open] summary {
+details[open]:not(.no-animate) summary {
   svg:not(.no-toggle) {
     @apply animate-fade-out;
   }
@@ -8,24 +8,6 @@ details[open] summary {
   }
 
   ~ * {
-    @apply pointer-events-auto translate-y-0 opacity-100 max-h-full;
-  }
-}
-
-[data-accordion="faqs"] [open] summary ~ * {
-  @apply mt-4;
-}
-
-[data-accordion="footer"] [open] summary ~ * {
-  @apply py-3;
-}
-
-[data-accordion="features"] [open] {
-  summary {
-    @apply text-red-500 after:bg-red-500;
-  }
-
-  summary ~ * {
-    @apply pt-6;
+    @apply pointer-events-auto translate-y-0 opacity-100 max-h-max;
   }
 }
