@@ -21,25 +21,52 @@ function getTabId(node) {
   return tabId || tabContent
 }
 
-function handleTabClick({ target }, tabType) {
-  const parent = target.closest(`[data-tabs=${tabType}]`)
-  const tabId = getTabId(target.closest("[data-tab-id]"))
+function setSelection({ parent, activeId }) {
+  const ids = parent.querySelectorAll(`[data-tab-id]`)
+  const contents = parent.querySelectorAll(`[data-tab-content]`)
+  const ACTIVE_CSS_CLASS = "is-selected"
 
-  if (parent && tabId) {
-    const ids = parent.querySelectorAll(`[data-tab-id]`)
-    const contents = parent.querySelectorAll(`[data-tab-content]`)
-    const ACTIVE_CSS_CLASS = "is-selected"
+  ids.forEach((node) => getTabId(node) === activeId ? node.classList.add(ACTIVE_CSS_CLASS) : node.classList.remove(ACTIVE_CSS_CLASS))
+  contents.forEach((node) => getTabId(node) === activeId ? node.classList.add(ACTIVE_CSS_CLASS) : node.classList.remove(ACTIVE_CSS_CLASS))
+}
 
-    ids.forEach((node) => getTabId(node) === tabId ? node.classList.add(ACTIVE_CSS_CLASS) : node.classList.remove(ACTIVE_CSS_CLASS))
-    contents.forEach((node) => getTabId(node) === tabId ? node.classList.add(ACTIVE_CSS_CLASS) : node.classList.remove(ACTIVE_CSS_CLASS))
+function handleTabClick({ event: { target }, type }) {
+  const parent = target.closest(`[data-tabs=${type}]`);
+  const activeId = getTabId(target.closest("[data-tab-id]"));
+
+  if (parent && activeId) {
+    setSelection({ parent, activeId });
   }
+}
+
+function handleTouch({ event: { target }, startX, endX, type }) {
+  const parent = target.closest(`[data-tabs=${type}]`);
+  const activeId = getTabId(target.closest("[data-tab-id]") || target.closest("[data-tab-content]"));
+  const slides = [...new Set(Array.from(parent.querySelectorAll("[data-tab-id]")).map(getTabId))]
+
+  if (!parent || !activeId || !slides.length) return false
+
+  const i = slides.findIndex(x => x === activeId)
+  const prev = slides[i == 0 ? slides.length - 1 : i - 1];
+  const next = slides[i == slides.length - 1 ? 0 : i + 1];
+  return endX - startX < 0
+    ? setSelection({ parent, activeId: next })
+    : setSelection({ parent, activeId: prev });
 }
 
 function tabs() {
   const selectors = document.querySelectorAll("[data-tabs]")
   selectors.forEach(container => {
-    container.addEventListener("click", e => handleTabClick(e, container.dataset.tabs))
-    container.addEventListener("pointerover", e => handleTabClick(e, container.dataset.tabs))
+    container.addEventListener("click", (event) => handleTabClick({ event, type: container.dataset.tabs }));
+    container.addEventListener("pointerover", (event) => handleTabClick({ event, type: container.dataset.tabs }));
+
+    let startX;
+    let endX;
+    container.addEventListener("touchstart", event => (startX = event.touches[0].clientX));
+    container.addEventListener("touchend", function (event) {
+      endX = event.changedTouches[0].clientX;
+      handleTouch({ event, startX, endX, type: container.dataset.tabs });
+    });
   })
 }
 
