@@ -41,9 +41,9 @@ description:
     <% org = data_select_by(installations, "org") %>
     <% filters = [installations, region, city, org] %>
 
-    <ul class="flex items-center space-x-8 mb-8 md:mb-16">
+    <ul role="tablist" class="flex items-center space-x-8 mb-8 md:mb-16">
       <% filters.each_with_index do |filter, i| %>
-        <li class="flex items-center space-x-3 py-2 relative par-md text-gray-500 hover:text-red-500 transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:top-full after:hover:bg-red-500 after:w-full after:bg-gray-100 after:transition <%= 'is-selected' if i == 0 %>" data-tab-id="f<%= i %>">
+        <li role="tab" tabindex="0" class="flex items-center space-x-3 py-2 relative par-md text-gray-500 hover:text-red-500 transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:top-full after:hover:bg-red-500 after:w-full after:bg-gray-100 after:transition <%= 'is-selected' if i == 0 %>" data-tab-id="f<%= i %>">
           <span class="par-md whitespace-nowrap">
             <%= t("used_by.filters.f#{i}") %>
           </span>

@@ -23,10 +23,10 @@
         </div>
       </div>
     <% end %>
-    <div class="flex md:hidden space-x-3 mt-8 md:mt-0">
+    <ul role="tablist" class="flex md:hidden space-x-3 mt-8 md:mt-0">
       <% testimonials&.each_with_index do |feat, i| %>
-        <div class="h-2 w-10 bg-gray-300 rounded-xl cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= i %>" data-tab-mobile></div>
+        <li role="tab" tabindex="0" class="h-2 w-10 bg-gray-300 rounded-xl cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= i %>" data-tab-mobile></li>
       <% end %>
-    </div>
+    </ul>
   </div>
 </section>

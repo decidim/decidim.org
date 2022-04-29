@@ -59,6 +59,7 @@ function tabs() {
   selectors.forEach(container => {
     container.addEventListener("click", (event) => handleTabClick({ event, type: container.dataset.tabs }));
     container.addEventListener("pointerover", (event) => handleTabClick({ event, type: container.dataset.tabs }));
+    container.addEventListener("keydown", (event) => event.key === "Enter" && handleTabClick({ event, type: container.dataset.tabs }));
 
     let startX;
     let endX;
