@@ -6,7 +6,7 @@
     </h5>
     <time class="block text-gray-500"><%= article.date.strftime('%d/%m/%Y') %></time>
   </div>
-  <div class="text-gray-500 text-md <%= 'hidden md:block' if strip %>">
+  <div class="text-gray-500 par-md <%= 'hidden md:block' if strip %>">
     <% if strip %>
       <%= strip_img article.summary %>
     <% else %>
