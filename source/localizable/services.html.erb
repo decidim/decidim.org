@@ -25,7 +25,7 @@ description:
             <%= icon service.icon, class: "w-9 h-10 text-red-500" %>
             <h5 class="h5 md:mt-8"><%= t("services.#{service.title}") %></h5>
           </div>
-          <p class="par-md text-gray-500 mt-4 mb-6"><%= t("services.#{service.content}") %></p>
+          <p class="par-md max-w-prose text-gray-500 mt-4 mb-6"><%= t("services.#{service.content}") %></p>
           <div class="mt-auto">
             <%= partial "partials/arrow-link", locals: { text: t("services.touch"), url: url(service.url) } %>
           </div>
@@ -43,7 +43,7 @@ description:
       </div>
       <div class="md:w-3/5 container md:px-0">
         <h3 class="h3"><%= t("services.team") %></h3>
-        <p class="par-lg text-gray-500 mt-6"><%= t("services.dfsa") %></p>
+        <p class="par-lg max-w-prose text-gray-500 mt-6"><%= t("services.dfsa") %></p>
         <ul class="par-md space-y-6 mt-8">
           <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li1") %></span></li>
           <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li2") %></span></li>

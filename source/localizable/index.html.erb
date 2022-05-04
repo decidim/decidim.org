@@ -60,7 +60,7 @@ pageClass: home
           <%= icon item.icon, class: "w-10 h-10 text-red-500 flex-none" %>
           <h5 class="h5 md:mt-8"><%= t("index.cards.#{item.title}") %></h5>
         </div>
-        <p class="par-md text-gray-500 mt-4 mb-6"><%= t("index.cards.#{item.content}") %></p>
+        <p class="par-md max-w-prose text-gray-500 mt-4 mb-6"><%= t("index.cards.#{item.content}") %></p>
         <%= partial "partials/arrow-link", locals: { text: t("index.cards.#{item.link}"), url: url(item.url), classes: "text-red-500 mt-auto block" } %>
       </div>
     <% end %>
@@ -72,8 +72,8 @@ pageClass: home
 <section class="bg-red-100">
   <div class="container text-red-500 py-6 md:py-24">
     <h6 class="h6 par-md text-red-500"><%= t('index.used_by.title') %></h2>
-    <p class="par-xl mt-2"><%= t('index.used_by.heading') %></p>
-    <a class="par-md underline mt-4 block" href="<%= t(:path) %>/usedby"><%= t('index.used_by.link') %></a>
+    <p class="par-xl max-w-prose mt-2"><%= t('index.used_by.heading') %></p>
+    <a class="par-md max-w-prose underline mt-4 block" href="<%= t(:path) %>/usedby"><%= t('index.used_by.link') %></a>
 
     <div class="mt-6 md:mt-24">
       <% installations = data_sort_by_priority(data_select_home(data.installations)) %>
