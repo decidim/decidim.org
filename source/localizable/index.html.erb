@@ -2,5 +2,106 @@
 description:
 pageClass: home
 ---
-<%= partial "/partials/index" %>
 
+<section>
+  <div class="bg-cover bg-center xl:bg-[position:center_20%] 2xl:bg-[position:center_25%] bg-no-repeat hero">
+    <div class="container pt-32 md:pt-56 pb-12 md:pb-16">
+      <div class="md:bg-red-500 md:p-8 text-white rounded-xl md:w-1/2">
+        <h2 class="h2"><%= t("index.hero.subheading") %></h2>
+        <p class="par-md mt-6"><%= t("index.hero.intro") %></p>
+      </div>
+      <a href="<%= t(:path) %>/get-started" class="inline-block mt-6 button par-md"><%= t("index.hero.cta") %></a>
+    </div>
+  </div>
+  <div class="container hidden md:block">
+    <%= partial "partials/main_installations", locals: { classes: "py-8" } %>
+  </div>
+</section>
+
+<section>
+  <div class="container pt-12 md:pt-24 pb-12 flex flex-col md:flex-row gap-4 items-stretch" data-tabs="index">
+    <div class="md:w-2/3 relative aspect-video md:aspect-auto">
+      <% data.index.features.each_with_index do |feat, i| %>
+        <div class="hidden absolute top-0 left-0 w-full h-full bg-gray-100 rounded-xl overflow-hidden <%= 'is-selected' if i == 0 %>" data-tab-content="<%= feat.id %>">
+          <img class="w-full h-full object-contain" src="<%= feat.image %>" alt="<%= t("index.subhero.#{feat.id}") %>">
+        </div>
+      <% end %>
+    </div>
+    <div class="md:w-1/3">
+      <div class="flex md:hidden space-x-3">
+        <% data.index.features.each_with_index do |feat, i| %>
+          <div class="h-2 w-10 bg-gray-300 rounded-xl cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= feat.id %>" data-tab-mobile></div>
+        <% end %>
+      </div>
+      <ul role="tablist" class="flex md:block md:divide-y-8 divide-gray-100">
+        <% data.index.features.each_with_index do |feat, i| %>
+          <li role="tab" tabindex="0" class="flex items-center md:space-x-4 py-5 cursor-pointer hover:text-red-500 transition <%= 'is-selected' if i == 0 %>" data-tab-id="<%= feat.id %>">
+            <%= icon feat.icon, class: "w-6 h-6 text-red-500 hidden md:block" %>
+            <h6 class="h6 hidden md:block"><%= t("index.subhero.#{feat.id}") %></h6>
+          </li>
+        <% end %>
+      </ul>
+      <a href="<%= t(:path) %>/features" class="button block text-center w-full par-md"><%= t("index.subhero.cta") %></a>
+    </div>
+  </div>
+</section>
+
+<section class="bg-red-100 md:bg-transparent">
+  <div class="container py-12">
+    <p class="md:w-3/4 mx-auto text-center text-red-500 md:text-gray-500 par-xl"><%= t("index.subhero.intro") %></p>
+  </div>
+</section>
+
+<section>
+  <div class="container py-4 flex flex-col md:flex-row justify-between items-stretch divide-y-8 md:divide-y-0 divide-gray-100">
+    <% data.index.cards.each do |item| %>
+      <div class="flex flex-col md:border-l-8 border-gray-100 py-8 md:py-0 md:px-10 md:w-1/3">
+        <div class="flex flex-row-reverse md:flex-col">
+          <%= icon item.icon, class: "w-10 h-10 text-red-500 flex-none" %>
+          <h5 class="h5 md:mt-8"><%= t("index.cards.#{item.title}") %></h5>
+        </div>
+        <p class="par-md max-w-prose text-gray-500 mt-4 mb-6"><%= t("index.cards.#{item.content}") %></p>
+        <%= partial "partials/arrow-link", locals: { text: t("index.cards.#{item.link}"), url: url(item.url), classes: "text-red-500 mt-auto block" } %>
+      </div>
+    <% end %>
+  </div>
+</section>
+
+<%= partial "/partials/testimonials" %>
+
+<section class="bg-red-100">
+  <div class="container text-red-500 py-6 md:py-24">
+    <h6 class="h6 par-md text-red-500"><%= t('index.used_by.title') %></h2>
+    <p class="par-xl max-w-prose mt-2"><%= t('index.used_by.heading') %></p>
+    <a class="par-md max-w-prose underline mt-4 block" href="<%= t(:path) %>/usedby"><%= t('index.used_by.link') %></a>
+
+    <div class="mt-6 md:mt-24">
+      <% installations = data_sort_by_priority(data_select_home(data.installations)) %>
+      <div class="-mx-4 -my-2 md:-mx-16 md:-my-6 flex flex-wrap items-center">
+        <% installations.each do |id, use| %>
+          <a class="inline-block px-4 py-2 md:px-16 md:py-6 max-w-[120px] md:max-w-[240px]" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">
+            <img class="object-cover w-full h-full" src="<%= use.image %>" alt="<%= use.title %>" />
+          </a>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container py-12 md:py-32">
+    <div class="flex items-end space-x-2">
+      <h6 class="h6 text-white bg-red-500 px-4 py-2 rounded-xl"><%= t("blog.latest") %></h6>
+      <span class="w-4 h-4 rounded-full bg-red-500"></span>
+    </div>
+    <div class="flex flex-col md:flex-row gap-6 mt-4">
+      <% blog.articles.take(2)&.each do |article| %>
+        <article class="md:w-1/2 bg-gray-100 p-6 rounded-xl">
+          <%= partial "partials/article_preview", locals: { article: article, strip: true } %>
+        </article>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<%= partial "/partials/cta-banner" %>

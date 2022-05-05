@@ -2,9 +2,79 @@
 nav: used_by
 description:
 ---
-<div class="container container-vertical">
-  <h1 class="page-title"><%= t('used_by.explain') %></h1>
-  <%= partial "partials/used_by_type", locals: {type: "city", title: t('used_by.type.city') } %>
-  <%= partial "partials/used_by_type", locals: {type: "region", title: t('used_by.type.region') } %>
-  <%= partial "partials/used_by_type", locals: {type: "org", title: t('used_by.type.organizations') } %>
-</div>
+
+<section>
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("used_by.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("used_by.subtitle") %>
+      </p>
+      <div class="par-md text-gray-500">
+        <%= t("used_by.intro") %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container py-12">
+    <%= partial "partials/main_installations" %>
+  </div>
+</section>
+
+<section>
+  <div class="container pt-12 pb-24">
+    <%= partial "/partials/testimonial-cards" %>
+  </div>
+</section>
+
+<%= partial "/partials/facts" %>
+
+<section>
+  <div class="container py-12" data-tabs="used_by">
+    <% installations = data_sort_by_priority(data.installations) %>
+    <% region = data_select_by(installations, "region") %>
+    <% city = data_select_by(installations, "city") %>
+    <% org = data_select_by(installations, "org") %>
+    <% filters = [installations, region, city, org] %>
+
+    <ul role="tablist" class="flex items-center space-x-8 mb-8 md:mb-16">
+      <% filters.each_with_index do |filter, i| %>
+        <li role="tab" tabindex="0" class="flex items-center space-x-3 py-2 relative par-md text-gray-500 hover:text-red-500 transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:top-full after:hover:bg-red-500 after:w-full after:bg-gray-100 after:transition <%= 'is-selected' if i == 0 %>" data-tab-id="f<%= i %>">
+          <span class="par-md whitespace-nowrap">
+            <%= t("used_by.filters.f#{i}") %>
+          </span>
+        </li>
+      <% end %>
+    </ul>
+    <% filters.each_with_index do |filter, i| %>
+      <div class="hidden <%= 'is-selected' if i == 0 %>" data-tab-content="f<%= i %>">
+        <div class="grid grid-cols-3 md:grid-cols-5 gap-4 md:gap-x-28 md:gap-y-16">
+          <% filter.each do |id, use| %>
+            <a class="inline-block" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">
+              <img class="object-contain w-full h-full" src="<%= use.image %>" alt="<%= use.title %>" />
+            </a>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+
+    <div class="par-xs text-gray-500 mt-7">
+      <%= t("used_by.disclaimer") %>
+    </div>
+  </div>
+</section>
+
+<%= partial "/partials/testimonials" %>
+
+<section>
+  <div class="container pt-6 md:pt-12 pb-12 md:pb-24 text-center">
+    <p class="w-3/4 mx-auto par-xl text-gray-500"><%= t("used_by.join") %></p>
+    <a href="<%= t(:path) %>/get-started" class="button inline-block mt-10 par-md"><%= t("used_by.cta") %></a>
+  </div>
+</section>
+
+<%= partial "/partials/cta-banner" %>

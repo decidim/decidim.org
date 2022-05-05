@@ -1,8 +1,18 @@
-<article class="post-preview">
-  <h2 class="page-title page-title--simplemargin">
-    <a href="<%= article.url %>"><%= article.title %></a>
-    <time class="post-date"><%= article.date.strftime('%d/%m/%Y') %></time>
-  </h2>
-  <%= article.summary %>
-  <a href="<%= article.url %>" class="post-preview__more">Read more</a>
+<% strip = strip ||= false %>
+<article class="space-y-2">
+  <div class="flex flex-col-reverse md:flex-col <%= strip ? 'gap-y-3' : 'gap-y-2' %>">
+    <h5 class="h5">
+      <a href="<%= article.url %>"><%= article.title %></a>
+    </h5>
+    <time class="block text-gray-500"><%= article.date.strftime('%d/%m/%Y') %></time>
+  </div>
+  <div class="text-gray-500 par-md <%= 'hidden md:block' if strip %>">
+    <% if strip %>
+      <%= strip_img article.summary %>
+    <% else %>
+      <%= article.summary %>
+    <% end %>
+  </div>
+
+  <%= partial "partials/arrow-link", locals: { text: t("blog.read_more"), url: article.url } %>
 </article>

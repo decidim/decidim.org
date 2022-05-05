@@ -16,4 +16,9 @@ module DataHelpers
     data.sort_by {|id,m| m["title"] }
   end
 
+  def strip_img(data)
+    doc = Nokogiri::HTML(data)
+    doc.search('.//img').remove
+    doc.to_html
+  end
 end

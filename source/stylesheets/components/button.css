@@ -1,0 +1,37 @@
+.button {
+  @apply text-white bg-red-500 px-4 py-2 rounded-xl transition cursor-pointer;
+
+  &:active,
+  &:hover {
+    @apply bg-red-900;
+  }
+
+  &.small {
+    @apply rounded-lg py-1;
+  }
+
+  &.hollow {
+    @apply bg-transparent border text-red-500;
+
+    &:active,
+    &:hover {
+      @apply text-red-900;
+    }
+  }
+
+  &.black {
+    @apply bg-black text-white;
+
+    &.hollow {
+      @apply bg-transparent border text-black;
+    }
+  }
+
+  &.white {
+    @apply bg-white text-black;
+
+    &.hollow {
+      @apply bg-transparent border text-white;
+    }
+  }
+}

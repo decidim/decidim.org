@@ -1,0 +1,9 @@
+.hero {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 59.25%, rgba(0, 0, 0, 0) 102.92%), linear-gradient(0deg, #000, #000), url('/images/hero_cover.jpg');
+  background-blend-mode: normal, saturation, normal;
+
+  @media (min-width: 768px) {
+    background-image: linear-gradient(0deg, #000, #000), url('/images/hero_cover.jpg');
+    background-blend-mode: saturation, normal;
+  }
+}

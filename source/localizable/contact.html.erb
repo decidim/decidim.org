@@ -3,43 +3,53 @@ nav: contact
 description:
 ---
 
-<div class="container container-vertical">
-  <div class="container--small-col">
-    <h1 class="page-title"><%= t('contact.title') %></h1>
-    <form method="post" action="/redirect/?page=/thanks" name="contact-en" netlify-honeypot="bot-field" data-netlify="true">
-      <p class="visually-hidden">
-      <label><%= t('contact.bot_field') %> <input name="bot-field" /></label>
+<section>
+  <div class="container pt-12 pb-6 md:pt-24 md:pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("contact.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("contact.subtitle") %>&nbsp;<a class="underline" href="mailto:hola@decidim.org">hola@decidim.org</a>
       </p>
-      <div class="form-field">
-        <label for="name">
-          <%= t('contact.name') %> <span class="required" aria-label="required field">*</span>
-        </label>
-        <input type="text" id="name" name="name" required/>
-      </div>
-      <div class="form-field">
-        <label for="entity"><%= t('contact.entity') %></label>
-        <input type="text" id="entity" name="entity" />
-      </div>
-      <div class="form-field">
-        <label for="email"><%= t('contact.email') %> <span class="required" aria-label="required field">*</span></label>
-        <input type="email" id="email" name="email" required/>
-      </div>
-      <div class="form-field">
-        <label for="subject"><%= t('contact.subject') %> <span class="required" aria-label="required field">*</span></label>
-        <input type="text" id="subject" name="subject" required/>
-      </div>
-      <div class="form-field message">
-        <label for="message"><%= t('contact.message') %> <span class="required" aria-label="required field">*</span></label>
-        <textarea id="message" name="message" required></textarea>
-      </div>
-      <div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container container pt-6 pb-12 md:pt-20 md:pb-32">
+    <form class="flex flex-col space-y-6 md:w-1/2" method="post" action="/redirect/?page=/thanks" name="contact-en" netlify-honeypot="bot-field" data-netlify="true">
+      <p class="hidden" hidden>
+        <label><%= t('contact.bot_field') %> <input name="bot-field" /></label>
+      </p>
+      <label for="name" class="form-input">
+        <input id="name" name="name" type="text" required>
+        <span>
+          <%= t("contact.name") %>
+        </span>
+      </label>
+      <label for="email" class="form-input">
+        <span>
+          <%= t("contact.email") %>
+        </span>
+        <input id="email" name="email" type="email" required>
+      </label>
+      <label for="message" class="form-input">
+        <span>
+          <%= t("contact.message") %>
+        </span>
+        <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+      </label>
+      <label for="accept_privacy_policy" class="flex flex-row-reverse gap-x-2 hover:cursor-pointer">
+        <span class="prose"><%= t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></span>
         <input type="checkbox" id="accept_privacy_policy" name="accept_privacy_policy" required/>
-        <label for="accept_privacy_policy"><%= t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></label>
-      </div>
-      <p><%= t('contact.privacy_policy.message') %></p>
-      <div class="form-field">
-        <button type="submit" class="btn btn--primary"><%= t('contact.send') %></button>
+      </label>
+      <%= t('contact.privacy_policy.message') %>
+      <div class="par-md">
+        <button type="submit" class="button"><%= t("contact.send") %></button>
       </div>
     </form>
   </div>
-</div>
+</section>
+
+<%= partial "/partials/cta-banner" %>

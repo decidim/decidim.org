@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./components/fonts.css";
+@import "./components/typography.css";
+@import "./components/header.css";
+@import "./components/button.css";
+@import "./components/form-input.css";
+@import "./components/tabs.css";
+@import "./components/filter-by-content.css";
+@import "./components/accordion.css";
+@import "./components/hero.css";

@@ -8,6 +8,7 @@ Install the dependencies and start the middleman server.
 
 ```bash
 bundle install
+npm install
 bundle exec middleman s
 ```
 

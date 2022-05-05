@@ -1,0 +1,61 @@
+---
+nav: services
+description:
+---
+
+<section>
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("services.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("services.subtitle") %>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container py-6 md:py-12">
+    <div class="grid md:grid-cols-2 md:gap-x-6 md:gap-y-12 divide-y-8 md:divide-y-0 divide-gray-100">
+      <% data.services.each do |service| %>
+        <div class="flex flex-col md:border-l-8 border-gray-100 md:px-10 py-6 md:py-0">
+          <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-start">
+            <%= icon service.icon, class: "w-9 h-10 text-red-500" %>
+            <h5 class="h5 md:mt-8"><%= t("services.#{service.title}") %></h5>
+          </div>
+          <p class="par-md max-w-prose text-gray-500 mt-4 mb-6"><%= t("services.#{service.content}") %></p>
+          <div class="mt-auto">
+            <%= partial "partials/arrow-link", locals: { text: t("services.touch"), url: url(service.url) } %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="md:container pt-0 md:pt-12 pb-12 md:pb-24">
+    <div class="flex flex-col md:flex-row items-stretch gap-8 md:gap-12">
+      <div class="md:w-2/5 md:rounded-xl overflow-hidden bg-gray-300">
+        <img class="w-full h-full object-cover" src="https://via.placeholder.com/300/5ab/fff.png?text=filler" alt="">
+      </div>
+      <div class="md:w-3/5 container md:px-0">
+        <h3 class="h3"><%= t("services.team") %></h3>
+        <p class="par-lg max-w-prose text-gray-500 mt-6"><%= t("services.dfsa") %></p>
+        <ul class="par-md space-y-6 mt-8">
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li1") %></span></li>
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li2") %></span></li>
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li3") %></span></li>
+          <li class="flex items-center space-x-2"><%= icon "ri-check-line", class: "w-4 h-4 text-red-500" %><span><%= t("services.li4") %></span></li>
+        </ul>
+        <a href="<%= t(:path) %>/about" class="button inline-block par-md mt-8"><%= t("services.cta") %></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%= partial "/partials/faq" %>
+
+<%= partial "/partials/cta-banner" %>

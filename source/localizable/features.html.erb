@@ -3,4 +3,129 @@ nav: features
 description:
 ---
 
-<%= partial "/partials/features-page" %>
+<section>
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("features.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("features.subtitle") %>
+      </p>
+      <div class="par-md text-gray-500 space-y-3">
+        <%= t("features.intro") %>
+      </div>
+    </div>
+
+    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-16">
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-book-3-line", text: t("nav.docs.title"), url: "https://docs.decidim.org" } %>
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-collage-line", text: t("nav.modules"), url: "#{t(:path)}/modules" } %>
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-window-line", text: t("demo.title"), url: "https://try.decidim.org/" } %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container py-6 md:py-12">
+    <h3 class="h3">
+      <%= t("features.type1.title") %>
+    </h3>
+
+    <div class="hidden md:block mt-8 border-b-8 border-gray-100 pb-12" data-tabs="features">
+      <ul role="tablist" class="flex items-center space-x-8">
+        <% data.features.spaces.each_with_index do |use, i| %>
+          <li role="tab" tabindex="0" class="flex items-center space-x-3 py-2 relative par-md text-gray-500 hover:text-red-500 transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:top-full after:hover:bg-red-500 after:w-full after:bg-gray-100 after:transition <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
+            <%= icon use.icon, class: "w-5 h-5" %>
+            <span class="par-md">
+              <%= t("features.page.#{use.id}.title") %>
+            </span>
+          </li>
+        <% end %>
+      </ul>
+      <% data.features.spaces.each_with_index do |use, i| %>
+        <div class="hidden flex flex-col md:flex-row items-stretch md:items-center gap-6 mt-10 <%= 'is-selected' if i == 0 %>" data-tab-content="<%= use.id %>">
+          <div class="md:w-3/5">
+            <p class="par-lg max-w-prose">
+              <%= t("features.page.#{use.id}.title") %>&nbsp;<%= t("features.page.#{use.id}.subtitle") %>
+            </p>
+            <p class="par-md text-gray-500 mt-2 max-w-prose">
+              <%= t("features.page.#{use.id}.text") %>
+            </p>
+          </div>
+          <div class="md:w-2/5 rounded-xl overflow-hidden bg-gray-300">
+            <img class="object-cover w-full aspect-[4/3]" src="<%= use.image %>">
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="block md:hidden mt-6" data-accordion="features">
+      <% data.features.spaces.each_with_index do |use, i| %>
+        <details class="group">
+          <summary class="flex items-center space-x-3 pt-4 pb-3 relative par-md text-gray-500 hover:text-red-500 group-open:text-red-500 group-open:after:bg-red-500 transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:top-full after:hover:bg-red-500 after:w-full after:bg-gray-100 after:transition">
+            <%= icon use.icon, class: "w-5 h-5 no-toggle" %>
+            <span class="par-md">
+              <%= t("features.page.#{use.id}.title") %>
+            </span>
+          </summary>
+          <div class="flex flex-col md:flex-row items-stretch md:items-center gap-6 group-open:pt-6 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
+            <div class="md:w-3/5">
+              <p class="par-lg max-w-prose">
+                <%= t("features.page.#{use.id}.title") %>&nbsp;<%= t("features.page.#{use.id}.subtitle") %>
+              </p>
+              <p class="par-md text-gray-500 mt-2 max-w-prose">
+                <%= t("features.page.#{use.id}.text") %>
+              </p>
+            </div>
+            <div class="md:w-2/5 rounded-xl overflow-hidden bg-gray-300">
+              <img class="object-cover w-full aspect-[4/3]" src="<%= use.image %>">
+            </div>
+          </div>
+        </details>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container py-6 md:py-12">
+    <h3 class="h3">
+      <%= t("features.type2.title") %>
+    </h3>
+
+    <div class="column-1 md:columns-3 gap-4 md:gap-6 mt-8">
+      <% data.features.components.each do |use| %>
+        <div class="bg-gray-100 p-6 rounded-xl mb-6 break-inside-avoid">
+          <%= icon use.icon, class: "text-red-500 w-7 h-7" %>
+          <h6 class="h6 mt-8">
+            <%= I18n.t("features.page.#{use.id}.title") %>
+          </h6>
+          <p class="par-md max-w-prose first-letter:uppercase">
+            <%= I18n.t("features.page.#{use.id}.subtitle") %>
+          </p>
+          <p class="mt-6 max-w-prose text-gray-500">
+            <%= I18n.t("features.page.#{use.id}.text") %>
+          </p>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container pt-6 md:pt-12 pb-12 md:pb-24 space-y-6">
+    <h3 class="h3">
+      <%= t("features.type3.title") %>
+    </h3>
+    <p class="par-lg max-w-prose text-gray-500">
+      <%= t("features.type3.subtitle") %>
+    </p>
+    <a class="par-md inline-block button" href="<%= t(:path) %>/modules">
+      <%= t("features.type3.cta") %>
+    </a>
+  </div>
+</section>
+
+<%= partial "/partials/faq" %>
+
+<%= partial "/partials/cta-banner" %>

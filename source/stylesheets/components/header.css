@@ -1,0 +1,35 @@
+header {
+  &.filter-img-alt img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(243deg) brightness(100%) contrast(105%);
+  }
+
+  &.is-active {
+    @apply bg-white text-black overflow-auto max-h-screen h-screen;
+
+    nav {
+      @apply h-auto translate-y-0;
+    }
+
+    img {
+      @apply filter-none;
+    }
+
+    [data-toggle-header] {
+      span:first-child {
+        @apply hidden;
+      }
+
+      span:not(:first-child) {
+        @apply block;
+      }
+
+      svg {
+        @apply animate-fade-out;
+      }
+
+      svg + svg {
+        @apply animate-fade-in;
+      }
+    }
+  }
+}

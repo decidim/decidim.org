@@ -1,0 +1,16 @@
+<section class="bg-red-100">
+  <div class="container pt-8 md:py-24 text-red-500">
+    <h6 class="h6"><%= t("used_by.facts.title") %></h6>
+    <p class="par-xl max-w-prose"><%= t("used_by.facts.subtitle") %></p>
+    <div class="h-32 md:h-auto py-8 md:py-0 md:mt-16">
+      <div class="grid md:grid-cols-3 gap-x-7 md:gap-y-24">
+        <% data.used_by.each_with_index do |use, ix| %>
+          <div class="md:space-y-3 opacity-0 md:opacity-100 animate-slide-y md:animate-none" style="--translate-ix: <%= ix %>;">
+            <h2 class="h2"><%= use.value %></h2>
+            <h6 class="h6"><%= t("used_by.facts.#{use.text}") %></h6>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>

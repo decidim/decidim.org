@@ -2,17 +2,33 @@
 nav: partners
 description:
 ---
-<div class="container container-vertical">
-  <h1 class="page-title"><%= t('nav.partners') %></h1>
-  <% @partners = data.partners %>
-  <div class="partner__container">
-    <% @partners.each do |partner| %>
-      <div class="partner__item">
-        <a href="<%= partner.url %>" title="<%= partner.name %>" target="_blank" class="partner__logo">
-          <%= image_tag partner.image, alt: partner.name, resize: "160x50" %>
-        </a>
-      </div>
-    <% end %>
+
+<section>
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("partners.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("partners.subtitle") %>
+      </p>
+      <p class="par-md text-gray-500">
+        <%= t("partners.intro") %>
+      </p>
+    </div>
   </div>
-  <p><%= t('partners.notice') %></p>
-</div>
+</section>
+
+<section>
+  <div class="container pt-6 pb-12 md:pt-16 md:pb-32">
+    <div class="grid grid-cols-4 md:grid-cols-5 gap-6 md:gap-24 items-center">
+      <% data.partners.each do |partner| %>
+        <a href="<%= partner.url %>" title="<%= partner.name %>" target="_blank" rel="noopener noreferrer">
+          <%= image_tag partner.image, alt: partner.name %>
+        </a>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<%= partial "/partials/cta-banner" %>

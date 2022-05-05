@@ -10,20 +10,30 @@ module I18nHelpers
         current_page.url.gsub(url_regex, root_for_locale(loc))
   end
 
-  def path_for_locale(path, loc = I18n.locale)
-    root_for_locale(loc) + path
-  end
-
   def home_for_locale(loc = I18n.locale)
     root_for_locale(loc)
   end
 
   def root_for_locale(loc = I18n.locale)
-    loc == "en" ? '/' : "/#{loc}/"
+    loc == "en" ? "../" : "/#{loc}/"
+  end
+
+  def url(path)
+    # Don't append pathname if these match
+    return path if URI(path).scheme.present? || path.start_with?("/blog")
+
+    t(:path) + path
   end
 
   def show_language_switcher?
     current_page.path.include?("blog") ? false : true
+  end
+
+  # In order to get a successful build, it requires to parse the missing i18n keys
+  # for languages others than english, so this function returns the translations if exists
+  # otherwise it returns a default value
+  def t_with_default(key, default = {})
+    t(key, default: "").presence || default
   end
 
 end

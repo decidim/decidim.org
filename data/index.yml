@@ -1,0 +1,39 @@
+features:
+  - id: feature1
+    icon: ri-flow-chart
+    image: https://via.placeholder.com/300/5ab/fff.png?text=feature1
+  - id: feature2
+    icon: ri-user-voice-line
+    image: https://via.placeholder.com/600/5ab/fff.png?text=feature2
+  - id: feature3
+    icon: ri-team-line
+    image: https://via.placeholder.com/400/5ab/fff.png?text=feature3
+  - id: feature4
+    icon: ri-question-line
+    image: https://via.placeholder.com/500/5ab/fff.png?text=feature4
+  - id: feature5
+    icon: ri-pie-chart-line
+    image: https://via.placeholder.com/300/5ab/fff.png?text=feature5
+  - id: feature6
+    icon: ri-discuss-line
+    image: https://via.placeholder.com/400/5ab/fff.png?text=feature6
+
+cards:
+  - id: feature1
+    icon: ri-briefcase-line
+    title: card1.title
+    content: card1.content
+    link: card1.link
+    url: /services
+  - id: feature1
+    icon: ri-service-line
+    title: card2.title
+    content: card2.content
+    link: card2.link
+    url: /contract
+  - id: feature1
+    icon: ri-hand-heart-line
+    title: card3.title
+    content: card3.content
+    link: card3.link
+    url: /community
