@@ -47,7 +47,7 @@ en:
     hero:
       heading: 'Free Open-Source participatory democracy for cities and organizations'
       subheading: 'Decidim is a digital platform for citizen participation'
-      intro: 'Free and safe technology.<br/>With all democratic
+      intro: 'Free/libre, open and safe technology.<br/>With all democratic
       guarantees.<br/>Reprogramming democracy is now possible with Decidim.'
       cta: Get started
     video:
@@ -61,7 +61,7 @@ en:
       feature1: Strategic planning
       feature2: Participatory budgeting
       feature3: Initiatives and citizen consultations
-      feature4: Participative processes
+      feature4: Participatory processes
       feature5: Assemblies
       feature6: Networked communication
       cta: Explore all features
@@ -81,11 +81,11 @@ en:
         title: "It's yours. Use it. Share it. Improve it."
         content:
           'A platform designed entirely with free software, open and collaborative
-          content thanks to the community Metadecidim.'
+          content thanks to the Metadecidim community.'
         link: The community
     used_by:
       title: Already using Decidim
-      heading: Hundreds of organizations trust Decidim for their democratic processes
+      heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
     cta:
       title: 'start using Decidim today'
@@ -141,11 +141,11 @@ en:
 
   features:
     title: 'Features'
-    subtitle: For democratic organizations and collectives big and small.
+    subtitle: For democratic organizations and collectives of any size and kind.
     intro:
       '<p>You can use Decidim in a public or private organisation, with hundreds
       or thousands of potential participants, such as a city council, an
-      association, a university, an NGO, a trade union, a neighbourhood collective
+      association, a university, an NGO, a trade union, a neighbourhood association
       or a cooperative...</p><p>Thanks to Decidim you will be able to configure
       <strong>spaces</strong> for participation (initiatives, assemblies, processes or
       consultations) and enrich them through the multiple available <strong>components</strong>
@@ -178,14 +178,14 @@ en:
         title: "It's yours.<br/>Share it. Improve it."
         content:
           'A platform designed entirely with free software, open and collaborative
-          content thanks to the community Metadecidim.'
+          content thanks to the Metadecidim community.'
       cta:
         features: 'See all features'
         values: 'Go to social contract'
     page:
       feature1:
         title: 'Participatory processes'
-        subtitle: 'to democratize common issues, step by step'
+        subtitle: 'To democratize common issues, step by step'
         text: >-
           Processes is a space that allows to create, activate/deactivate, and
           manage various participatory processes. These are distinguished from other
@@ -197,66 +197,60 @@ en:
           plan.
       feature2:
         title: 'Assemblies'
-        subtitle: 'the power of collective self-organization'
+        subtitle: 'The power of collective self-organization'
         text:  >-
-          Is a space that offers the possibility of setting decision-making bodies
-          or groups (councils, working groups, committees, etc.) that meet up
-          periodically, detailing their composition, listing and geolocating their
-          meetings, and allowing to take part in them (for instance: attending if
-          the seating capacity and nature of the assembly so permits, adding items
-          to the agenda, or commenting on the proposals and decisions taken by that
-          body).
+          Makes it possible to set up decision-making bodies or groups (councils,
+          working groups, commissions, etc.) that meet regularly, detailing their
+          composition, listing and geolocating their meetings. It allows participation
+          in them, for example, attending in person or online, adding issues to the
+          agenda, or commenting on the proposals and decisions taken by that body.
       feature3:
-        title: 'Consultations'
-        subtitle: 'the right to decide with all democratic guarantees'
+        title: 'Votings'
+        subtitle: 'The right to decide with all democratic guarantees'
         text: >-
-          Consultations is a space that makes it possible to coordinate
-          referendums, trigger discussions and debates, get voting results
-          published; it can be connected to a secure e-voting system.
+          Makes it possible to coordinate referendums, trigger discussions and debates,
+          get voting results published and connect to a secure e-voting system.
       feature4:
         title: 'Initiatives'
-        subtitle: "setting everyone's agenda, within everyone's reach"
+        subtitle: "Setting everyone's agenda, within everyone's reach"
         text: >-
-          Initiatives is a space that allows participants to collaboratively create
-          initiatives, define their trajectory and goals, gather endorsements,
-          discuss, debate and disseminate initiatives and define meeting points
-          where signatures can be collected from attendees or debates opened to
-          other members of the organization.
+          Participants can create collaborative initiatives, define their path and goals,
+          gather endorsements, discuss, debate and disseminate initiatives, set meeting
+          points where signatures can be collected from attendees or debates open to
+          other members of the organisation.
       feature5:
         title: 'Proposals'
-        subtitle: 'your ideas in detail'
+        subtitle: 'Your ideas in detail'
         text: >-
-          The proposals component allows the user to create a proposal using a
-          creation wizard, compare it with the existing ones, publish it on the
-          platform and include additional information such as geolocation
-          or attached documents and images. This component also allows you to
-          navigate, filter and interact with a set of proposals. In addition, with
-          the proposal-incubator you can create collaborative proposals.
+          Create a proposal using a creation wizard, compare it with the existing ones,
+          publish it on the platform and include additional information such as
+          geolocation or attached documents and images. This component also allows
+          you to navigate, filter and interact with a set of proposals. In addition,
+          with the proposal-incubator you can create collaborative proposals.
       feature6:
         title: 'Voting'
-        subtitle: 'decide your vote'
+        subtitle: 'Decide your choice'
         text: >-
-          The voting component offers organizations the possibility of activating
-          different voting or support systems around proposals: unlimited, limited
-          to a given threshold, weighted, cost-based, etc.
+          Offers organisations the possibility of activating different voting or
+          support systems around proposals: unlimited, limited to a given threshold,
+          weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.
       feature7:
         title: 'Results'
-        subtitle: 'no proposal without an answer'
+        subtitle: 'No proposal without an answer'
         text: >-
-          The results component is used to turn proposals into results and give
-          official responses concerning their acceptance or rejection, merging
-          various proposals into a single result.
+          Turn proposals into results and give official responses concerning
+          their acceptance or rejection, merging various proposals into a single
+          result.
       feature8:
         title: 'Accountability'
-        subtitle: 'transparency from beginning to end'
+        subtitle: 'End-to-end transparency'
         text: >-
-          The accountability component offers the possibility of subdividing
-          results into projects, defining and applying progress statuses around
-          their implementation, as well as displaying the extent of the results’
-          implementation grouped by categories and scopes.
+          It offers the possibility to subdivide results into projects, to define
+          and apply progress states around their implementation, as well as to show
+          the degree of achievement of results grouped by categories and scopes.
       feature9:
         title: 'Meetings'
-        subtitle: 'to meet and not miss anything'
+        subtitle: 'To meet and not miss anything'
         text: >-
           The meeting component offers organizations and participants the
           opportunity to convene meetings, determine their location and time,
@@ -264,60 +258,54 @@ en:
           meeting as well as publishing the minutes, and the resulting proposals.
       feature10:
         title: 'Participatory texts'
-        subtitle: 'to analyze, synthesize, and build in common'
+        subtitle: 'To analyze, synthesize, and build in common'
         text: >-
-          The participatory texts component can be used to convert lengthy text
-          documents into various proposals or results and, vice versa, to compose
-          and display a unified text based on a collection of proposals or results.
+          Can be used to convert long text documents into several proposals or
+          results and, vice versa, to compose and display a unified text based on
+          a collection of proposals or results.
       feature11:
         title: 'Conference'
         subtitle: 'Where big events are premiered'
         text: >-
-          The conference component allows an organization to create a website for a
-          big event by joining up a series predefined meetings (chats, workshops
-          etc.), putting together a unified program and managing attendees.
+          Create a website for a big event. Unify the program by joining up a series
+          predefined meetings (chats, workshops, etc.), and manage attendees.
       feature12:
         title: 'Surveys'
         subtitle: 'Because the opinion of your community matters'
         text: >-
-          The surveys component can be used to design and publish surveys and to
-          display and download their results.
+          Design and publish surveys. Display and download results.
       feature13:
         title: 'Sortition'
         subtitle: 'Equality and the justice of randomness'
         text: >-
-          The sortition component allows to select a number of proposals (e.g.
-          candidates for a jury) with random, yet reproducible, procedures that
-          guarantees non-biased and uniform distributions.
+          Allows to select a number of proposals (e.g. candidates for a jury)
+          with random, yet reproducible, procedures that guarantees non-biased
+          and uniform distributions.
       feature14:
         title: 'Comments'
         subtitle: 'Building a collective intelligence'
         text: >-
-          The comments component enables users to add comments, to identify the
-          comment as being in favor, against or neutral in relation to the commented
-          object, to vote comments, respond to them and to receive notifications
-          about responses.
+          Enables users to add comments, to value them in favour, against or
+          neutral, vote them, answer and receive notifications about responses.
       feature15:
         title: 'Pages and blogs'
         subtitle: 'Your community, informed and up to date'
         text: >-
-          The pages component is used to create informative pages with rich text
-          formatting, embedded pictures and videos. The blog component makes
-          possible the creation of posts or news, and to navigate them
-          chronologically.
+          Create informative pages with rich text formatting, embedded pictures
+          and videos. The blog component makes possible the creation of posts or
+          news, and to navigate them chronologically.
       feature16:
         title: 'Notifications'
-        subtitle: 'Personalized information on interesting contents'
+        subtitle: 'Personalised information on interesting content'
         text: >-
-          Decidim enables you to track any space or component to receive updates
-          every time they happen.
+          Decidim enables you to track any space or component so that you can
+          receive updates whenever they happen.
       feature17:
         title: 'Newsletter'
         subtitle: 'Simple but powerful'
         text: >-
-          The newsletter component makes possible to send emails to everyone
-          registered in the platform or, more selectively, to those who participate
-          in a specific space.
+          Send emails to everyone registered in the platform or to those who
+          participate in a specific space.
     type1:
       title: 'Spaces for participation'
       subtitle: 'For participants to make proposals and make decisions'
@@ -326,7 +314,7 @@ en:
       subtitle: 'For participants and spaces to interact'
     type3:
       title: 'Modules'
-      subtitle: 'Grow beyond the default components. The Decidim community has developed hundreds of modules to expandthe platform beyond the basics and cater even better to your needs.'
+      subtitle: 'Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.'
       cta: Explore the modules
     other:
       subtitle:
@@ -374,7 +362,7 @@ en:
       f2: Cities
       f3: NGOs
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
-    join: Join more than 100 cities, regions and organisations in over 20 countries using Decidim in their democratic processes.
+    join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     cta: Get started
 
   testimonials:
@@ -872,11 +860,11 @@ en:
     title: Get started with Decidim
     subtitle: Decidim is a digital platform<br/>for citizen participation
     intro:
-      'It’s a free and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...'
+      'It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...'
     get-started1:
       pre: For technologists
       title: Installing Decidim
-      content: You can install Decidim yourself or find someone to help you with tech support.
+      content: You can install it yourself or find someone to help you with tech support.
       link1: Documentation
       link2: Our services
     get-started2:
@@ -888,7 +876,7 @@ en:
     get-started3:
       pre: For citizens
       title: Decidim in your city
-      content: Find out if your city is planning to use Decidim or how you can convince them to do it.
+      content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
       link1: Find a partner
       link2: Case studies
     section2:
@@ -901,7 +889,7 @@ en:
       cta: Read more case studies on our blog
     section4:
       title: Who’s behind the platform?
-      subtitle: <strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.
+      subtitle: <strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform.
       intro: The <strong>Decidim Free Software Association</strong>  is a democratic association for the governance of the Decidim community.
       button1: About the association
       button2: Join the community
