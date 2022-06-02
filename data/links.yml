@@ -1,12 +1,10 @@
 decidim:
-  - name: nav.faqs
-    url: /faqs
+  - name: nav.first-steps
+    url: /first-steps
   - name: nav.features
     url: /features
-  - name: nav.contract
-    url: /contract
-  - name: nav.partners
-    url: /partners
+  - name: nav.use-cases
+    url: /tags/casestudy
   - name: nav.demo
     url: https://try.decidim.org/
   - name: nav.modules
@@ -17,20 +15,20 @@ decidim:
     url: https://github.com/decidim/decidim
 
 about_us:
-  - name: nav.services
-    url: /services
-  - name: nav.about
+  - name: nav.association
     url: /about
   - name: nav.community
     url: /community
-  - name: nav.press
-    url: /press
-  - name: nav.contact
-    url: /contact
+  - name: nav.contract
+    url: /contract
   - name: nav.partners
     url: /partners
   - name: nav.faqs
     url: /faqs
+  - name: nav.press
+    url: /press
+  - name: nav.contact
+    url: /contact
 
 stay_up_to_date:
   - name: nav.blog
