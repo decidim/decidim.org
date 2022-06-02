@@ -4,6 +4,9 @@ module I18nTitleHelpers
       title = I18n.t("nav.#{page.data.nav}")
       return "#{title} | Decidim"
     end
+    if defined?(page.data.title)
+      return "#{page.data.title} | Decidim"
+    end
     return "Decidim"
   end
 end
