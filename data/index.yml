@@ -1,22 +1,22 @@
 features:
   - id: feature1
     icon: ri-flow-chart
-    image: https://via.placeholder.com/300/5ab/fff.png?text=feature1
+    image: /images/index/accountability.png
   - id: feature2
     icon: ri-user-voice-line
-    image: https://via.placeholder.com/600/5ab/fff.png?text=feature2
+    image: /images/index/participatory_processes.png
   - id: feature3
     icon: ri-team-line
-    image: https://via.placeholder.com/400/5ab/fff.png?text=feature3
+    image: /images/index/assemblies.png
   - id: feature4
     icon: ri-question-line
-    image: https://via.placeholder.com/500/5ab/fff.png?text=feature4
+    image: /images/index/initiatives.png
   - id: feature5
     icon: ri-pie-chart-line
-    image: https://via.placeholder.com/300/5ab/fff.png?text=feature5
+    image: /images/index/budgets.png
   - id: feature6
     icon: ri-discuss-line
-    image: https://via.placeholder.com/400/5ab/fff.png?text=feature6
+    image: /images/index/conversations.png
 
 cards:
   - id: feature1
