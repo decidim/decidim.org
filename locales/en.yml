@@ -3,30 +3,32 @@ en:
   activeLang: 'English'
 
   nav:
-    home: Home
-    text: 'Navigation'
-    demo: 'Demo'
-    community: 'Community'
-    contract: 'Social Contract'
-    code: 'Code'
-    docs:
-      title: 'Documentation'
-      path: 'https://docs.decidim.org/'
-    blog: 'Blog'
-    features: 'Features'
-    faqs: 'FAQs'
-    contact: 'Contact'
-    used_by: 'Decidim in use'
-    partners: 'Cooperating entities'
-    modules: 'Modules'
-    press: 'Press'
-    legal-notice: 'Legal notice'
-    privacy-policy: 'Privacy policy'
-    get-started: First steps
-    services: Services
     about: About
-    menu: Menu
+    association: Association
+    blog: Blog
     close_menu: Close menu
+    code: Code
+    community: Community
+    contact: Contact
+    contract: Social Contract
+    demo: Demo
+    home: Home
+    text: Navigation
+    docs:
+      title: Documentation
+      path: https://docs.decidim.org/
+    faqs: FAQs
+    features: Features
+    first-steps: First steps
+    legal-notice: Legal notice
+    menu: Menu
+    modules: Modules
+    partners: Partners
+    press: Press
+    privacy-policy: Privacy policy
+    services: Services
+    use-cases: Use cases
+    used_by: Decidim in use
 
   alert:
     title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
@@ -42,6 +44,8 @@ en:
     subtitle: Latest news from Decidim.
     latest: Latest blog post
     read_more: Read more
+    tags:
+      title: Articles tagged with %{tagname}
 
   index:
     hero:
@@ -59,17 +63,17 @@ en:
         'Decidim helps citizens, organizations and public institutions self-organize
         democratically at every scale.'
       feature1: Strategic planning
-      feature2: Participatory budgeting
-      feature3: Initiatives and citizen consultations
-      feature4: Participatory processes
-      feature5: Assemblies
+      feature2: Participatory processes
+      feature3: Assemblies
+      feature4: Initiatives and citizen consultations
+      feature5: Participatory budgeting
       feature6: Networked communication
       cta: Explore all features
     cards:
       card1:
         title: Implementing a flexible democratic system
         content: We can help configure a system of democratic governance in all kinds of organizations.
-        link: Our services
+        link: Our features
       card2:
         title: We take democracy very seriously
         content:
@@ -364,6 +368,27 @@ en:
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     cta: Get started
+
+  case_study:
+    n1:
+      quote: >-
+        We evaluated seven different kinds of participatory budgeting options to find
+        the right platform to support Helsinki's process with an easy to use interface
+        and required modularity for different kinds of needs. Decidim won the evaluation
+        and first instances were built in 2018.
+      org: City of Helsinki
+    n2:
+      quote: >-
+        Decidim provides customize-friendly architecture so that we can adapt it to our domestic situation.
+      org: Code for Japan
+    n3:
+      quote: >-
+        The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May
+        2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were
+        organised. Contributions gathered through the digital platform were taken on board by the European
+        Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other
+        two main pillars.
+      org: European Commission
 
   testimonials:
     n1:
@@ -856,25 +881,25 @@ en:
         services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed
         by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>
 
-  get-started:
-    title: Get started with Decidim
+  first-steps:
+    title: First steps with Decidim
     subtitle: Decidim is a digital platform<br/>for citizen participation
     intro:
       'It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...'
-    get-started1:
+    first-steps1:
       pre: For technologists
       title: Installing Decidim
       content: You can install it yourself or find someone to help you with tech support.
       link1: Documentation
       link2: Our services
-    get-started2:
+    first-steps2:
       pre: For organizations
       title: The right tool for you
       content: For big or small organisations, discover how Decidim can cater to your needs.
       link1: Features
       link2: Our services
-    get-started3:
-      pre: For citizens
+    first-steps3:
+      pre: For governments
       title: Decidim in your city
       content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
       link1: Find a partner
@@ -922,6 +947,7 @@ en:
     title: About Decidim
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
+    support_at_opencollective: Support us at Open Collective
     about:
       - Support us
       - Contact us

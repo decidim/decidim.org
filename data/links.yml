@@ -1,12 +1,10 @@
 decidim:
-  - name: nav.faqs
-    url: /faqs
+  - name: nav.first-steps
+    url: /first-steps
   - name: nav.features
     url: /features
-  - name: nav.contract
-    url: /contract
-  - name: nav.partners
-    url: /partners
+  - name: nav.use-cases
+    url: /tags/casestudy
   - name: nav.demo
     url: https://try.decidim.org/
   - name: nav.modules
@@ -17,20 +15,20 @@ decidim:
     url: https://github.com/decidim/decidim
 
 about_us:
-  - name: nav.services
-    url: /services
-  - name: nav.about
+  - name: nav.association
     url: /about
   - name: nav.community
     url: /community
-  - name: nav.press
-    url: /press
-  - name: nav.contact
-    url: /contact
+  - name: nav.contract
+    url: /contract
   - name: nav.partners
     url: /partners
   - name: nav.faqs
     url: /faqs
+  - name: nav.press
+    url: /press
+  - name: nav.contact
+    url: /contact
 
 stay_up_to_date:
   - name: nav.blog
@@ -43,21 +41,30 @@ legal:
     url: /privacy-policy
 
 social_media:
-  - name: github
-    icon: ri-github-fill
-    url: https://github.com/decidim/decidim
   - name: twitter
     icon: ri-twitter-fill
     url: https://twitter.com/decidim_org
-  - name: youtube
-    icon: ri-youtube-fill
-    url: https://www.youtube.com/playlist?list=PLGqsHW77DVq_98DB5w2owG1XEhGPSnZyM
   - name: telegram
     icon: ri-telegram-fill
     url: https://t.me/s/decidim
+  - name: matrix
+    icon: ri-markdown-fill
+    url: https://matrix.to/#/#decidim:matrix.org
+  - name: mastodon
+    icon: ri-mastodon-fill
+    url:  https://freeradical.zone/@decidim
+  - name: youtube
+    icon: ri-youtube-fill
+    url: https://www.youtube.com/playlist?list=PLGqsHW77DVq_98DB5w2owG1XEhGPSnZyM
   - name: instagram
     icon: ri-instagram-fill
     url: https://www.instagram.com/decidim_org/
   - name: linkedin
     icon: ri-linkedin-fill
     url: https://gt.linkedin.com/company/decidim/
+  - name: github
+    icon: ri-github-fill
+    url: https://github.com/decidim/decidim
+  - name: opencollective
+    icon: ri-donut-chart-fill
+    url: https://opencollective.com/decidim
