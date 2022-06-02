@@ -3,30 +3,32 @@ en:
   activeLang: 'English'
 
   nav:
-    home: Home
-    text: 'Navigation'
-    demo: 'Demo'
-    community: 'Community'
-    contract: 'Social Contract'
-    code: 'Code'
-    docs:
-      title: 'Documentation'
-      path: 'https://docs.decidim.org/'
-    blog: 'Blog'
-    features: 'Features'
-    faqs: 'FAQs'
-    contact: 'Contact'
-    used_by: 'Decidim in use'
-    partners: 'Cooperating entities'
-    modules: 'Modules'
-    press: 'Press'
-    legal-notice: 'Legal notice'
-    privacy-policy: 'Privacy policy'
-    get-started: First steps
-    services: Services
     about: About
-    menu: Menu
+    association: Association
+    blog: Blog
     close_menu: Close menu
+    code: Code
+    community: Community
+    contact: Contact
+    contract: Social Contract
+    demo: Demo
+    home: Home
+    text: Navigation
+    docs:
+      title: Documentation
+      path: https://docs.decidim.org/
+    faqs: FAQs
+    features: Features
+    first-steps: First steps
+    legal-notice: Legal notice
+    menu: Menu
+    modules: Modules
+    partners: Partners
+    press: Press
+    privacy-policy: Privacy policy
+    services: Services
+    use-cases: Use cases
+    used_by: Decidim in use
 
   alert:
     title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
