@@ -77,10 +77,10 @@ pageClass: home
 
     <div class="mt-6 md:mt-24">
       <% installations = data_sort_by_priority(data_select_home(data.installations)) %>
-      <div class="-mx-4 -my-2 md:-mx-16 md:-my-6 flex flex-wrap items-center">
+      <div class="-mx-4 -my-2 md:-mx-16 md:-my-6 grid grid-cols-6 gap-4 items-center">
         <% installations.each do |id, use| %>
           <a class="inline-block px-3 py-1 md:px-14 md:py-5 max-w-[100px] md:max-w-[220px]" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">
-            <img class="object-cover w-full h-full" src="<%= use.image %>" alt="<%= use.title %>" />
+            <img class="object-cover w-full h-full" src="<%= use.home_image %>" alt="<%= use.title %>" />
           </a>
         <% end %>
       </div>
