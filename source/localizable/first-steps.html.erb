@@ -28,7 +28,6 @@ description:
           <p class="par-md max-w-prose text-gray-500 mt-4 mb-6"><%= t("first-steps.#{item.content}") %></p>
           <div class="mt-auto">
             <%= partial "partials/arrow-link", locals: { text: t("first-steps.#{item.link1}"), url: url(item.url1), classes: "text-gray-500" } %>
-            <%= partial "partials/arrow-link", locals: { text: t("first-steps.#{item.link2}"), url: url(item.url2), classes: "text-gray-500" } %>
           </div>
         </div>
       <% end %>
