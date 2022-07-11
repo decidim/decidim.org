@@ -28,6 +28,7 @@ en:
     privacy-policy: Privacy policy
     use-cases: Use cases
     used_by: Decidim in use
+    trademark: Trademark policy
 
   alert:
     title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
@@ -101,6 +102,7 @@ en:
     legal: Legal
     follow_us: Follow us on social media
     supported_by: Supported by
+    trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
 
   demo:
     title: Online Demo
@@ -893,6 +895,37 @@ en:
         (except as required to be maintained for legal purposes), and you will not be able to continue to use our
         services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed
         by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>
+
+  trademark:
+    title: Trademark policy
+    p1: >-
+      "Decidim" and the Decidim logo are registered trademarks of Associació de Software Lliure Decidim. You may not use
+      these trademarks in a commercial setting to infer that your product or service is endorsed or associated with Decidim
+      without permission. You may use these marks to refer to Decidim in a way where it's clear that you're simply referring
+      to the project, not claiming endorsement or association.
+    p2: >-
+      If you’re using the Decidim logo in any way you need to add the following text: <i>"Decidim name and logo is a registered
+      trademark of the Associació de Software Lliure Decidim."</i>
+    p3: "We have developed this trademark usage policy with the following goals in mind:"
+    goals:
+      l1: We’d like to make it easy for anyone to use the Decidim name or logo for community-oriented efforts that help spread and improve Decidim.
+      l2: We’d like to make it clear how Decidim-related businesses and projects can (and cannot) use the Decidim name and logo.
+      l3: We’d like to make it hard for anyone to use the Decidim name and logo to unfairly profit from, trick or confuse people who are looking for official Decidim resources.
+    examples-1:
+      title: Examples of use that do not need permission
+      l1: Including the Decidim logo on product pages to say "we work with Decidim" (e.g., hosting, consultancy services, developments based on Decidim).
+      l2: Use of the trademark "Decidim" in book titles and research articles.
+      l3: Use of the Decidim logo in the footer of an instance (“Powered by Decidim”).
+    examples-2:
+      title: Examples of use that do need permission
+      l1: Selling merchandise (stickers, t-shirts, mugs, etc).
+      l2: Use of the Decidim logo on a book cover.
+      l3: Use of the Decidim logo in a header in a website, implying that you’re the Decidim organization.
+    examples-3:
+      title: Examples of use that will not get permission
+      l1: Naming your company or product after Decidim, like "The Decidim Consultants".
+    p4: You can request permission by emailing associacio@decidim.org.
+    p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
 
   first-steps:
     title: First steps with Decidim
