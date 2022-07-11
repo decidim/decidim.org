@@ -103,6 +103,10 @@ cs:
     email: E-mail
     subject: Předmět
     message: Zpráva
+    privacy_policy:
+      accept: Přijímám <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a>
+      message: >-
+        <p>Když nás lidé kontaktují kontaktním formulářem, e-mailem nebo podobným komunikačním prostředkem, budeme automaticky shromažďovat následující informace: jméno, entita, e-mailová adresa a obsah zprávy uživatele pro účast na vašich komentářích, žádostech, návrzích atd.</p> <p>Kromě toho můžeme zpracovat tato data pro statistické studie pomocí pseudonymizace a dokonce i anonymizačních technik, jako je agregace údajů, které brání tomuto následnému zpracování v identifikaci jednotlivých uživatelů.</p>
     send: Odeslat
   thanks:
     title: Děkujeme za váš e-mail

@@ -103,6 +103,10 @@ fr:
     email: Email
     subject: Objet
     message: Message
+    privacy_policy:
+      accept: J'accepte la <a href="%{privacy_policy_url}">Politique de confidentialité</a>
+      message: >-
+        <p>Lorsque des personnes nous contactent par le formulaire de contact, par e-mail ou par des moyens de communication similaires, nous recueillerons automatiquement les informations suivantes : nom, entité, adresse e-mail et le contenu du message de l'Utilisateur afin de répondre à vos commentaires, demandes, suggestions, etc.</p> <p>En outre, nous pouvons traiter ces données pour des études statistiques par pseudonymisation et même des techniques d'anonymisation, tels que l'agrégation des données, empêchant ce traitement ultérieur d'identifier les Utilisateurs individuellement.</p>
     send: Envoyer
   thanks:
     title: Merci pour votre e-mail
@@ -303,7 +307,7 @@ fr:
     q07:
       question: Que dois-je faire pour installer Decidim?
       answer: >-
-        L'installation de Decidim est facile, mais vous avez besoin de connaissances et d'exigences techniques. Consultez la [documentation pour installer Decidim](https://docs.decidim.org/fr/install/).
+        L'installation de Decidim est facile, mais vous avez besoin de connaissances et d'exigences techniques. Consultez la [documentation pour installer Decidim](https://docs.decidim.org/en/install/).
     q08:
       question: Où puis-je trouver la feuille de route du projet et les fonctionnalités prévues?
       answer: Vous pouvez trouver la [feuille de route des nouvelles fonctionnalités du projet sur GitHub](https://github.com/decidim/decidim/projects/16).
