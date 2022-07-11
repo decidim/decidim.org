@@ -76,18 +76,6 @@ description:
   </div>
 </section>
 
-<section>
-  <div class="container pt-6 md:pt-16 pb-12 md:pb-32">
-    <h3 class="h3"><%= t("press.issues") %></h3>
-
-    <%= partial "/partials/newsletter-widget", locals: { length: 3 } %>
-
-    <div class="mt-6 par-md">
-      <%= partial "partials/arrow-link", locals: { text: t("press.read_all"), url: "#{t(:path)}/blog" } %>
-    </div>
-  </div>
-</section>
-
 <%= partial "/partials/faq" %>
 
 <%= partial "/partials/cta-banner" %>
