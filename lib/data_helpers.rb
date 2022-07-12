@@ -1,7 +1,13 @@
 # frozen_string_literal: true
 
 module DataHelpers
-  def data_select_by(data, type)
+  # Extract the data files that has a given key
+  # Used for filtering the installations by type
+  #
+  # @param data [Array<String, Middleman::Util::EnhancedHash>] An array with the name of the installation and the data hash from Middleman
+  # @param type [String] The type key to use in the selection
+  # @return [Array<String, Middleman::Util::EnhancedHash>]
+  def data_select_by_type(data, type)
     data.select { |_, m| m["type"] == type }
   end
 

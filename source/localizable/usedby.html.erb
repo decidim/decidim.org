@@ -36,9 +36,9 @@ description:
 <section>
   <div class="container py-12" data-tabs="used_by">
     <% installations = data_sort_by_priority(data.installations) %>
-    <% region = data_select_by(installations, "region") %>
-    <% city = data_select_by(installations, "city") %>
-    <% org = data_select_by(installations, "org") %>
+    <% region = data_select_by_type(installations, "region") %>
+    <% city = data_select_by_type(installations, "city") %>
+    <% org = data_select_by_type(installations, "org") %>
     <% filters = [installations, region, city, org] %>
 
     <ul role="tablist" class="flex items-center space-x-8 mb-8 md:mb-16">
