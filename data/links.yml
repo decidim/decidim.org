@@ -46,36 +46,48 @@ social_media:
   - name: twitter
     icon: ri-twitter-fill
     url: https://twitter.com/decidim_org
+    footer: true
   - name: telegram
     icon: ri-telegram-fill
     url: https://t.me/s/decidim
+    footer: true
   - name: matrix
     icon: ri-markdown-fill
     url: https://matrix.to/#/#decidim:matrix.org
+    footer: true
   - name: mastodon
     icon: ri-mastodon-fill
     url:  https://freeradical.zone/@decidim
+    footer: false
   - name: youtube
     icon: ri-youtube-fill
     url: https://www.youtube.com/channel/UCbxXpC5MmKImcGFzUJxdAUw
+    footer: true
   - name: instagram
     icon: ri-instagram-fill
     url: https://www.instagram.com/decidim_org/
+    footer: true
   - name: linkedin
     icon: ri-linkedin-fill
     url: https://gt.linkedin.com/company/decidim/
+    footer: false
   - name: github
     icon: ri-github-fill
     url: https://github.com/decidim/decidim
+    footer: false
   - name: opencollective
     icon: ri-donut-chart-fill
     url: https://opencollective.com/decidim
+    footer: true
   - name: spotify
     icon: ri-spotify-fill
     url: https://open.spotify.com/show/1Cf4HJkv3M3SYanO8iEE1t
+    footer: false
   - name: ivoox
     icon: ri-information-fill
     url: https://www.ivoox.com/en/podcast-radio-decidim_sq_f1990276_1.html
+    footer: false
   - name: xrcb
     icon: ri-close-fill
     url: https://xrcb.cat/ca/radio/radio-decidim/
+    footer: true

@@ -17,7 +17,16 @@ module DataHelpers
   # @param data [Middleman::Util::EnhancedHash] The data hash from Middleman
   # @return [Middleman::Util::EnhancedHash]
   def data_select_home(data)
-    data.select { |_, m| m["home"] == true }
+    data.select { |_, m| m["home"] }
+  end
+
+  # Extract from the data files that has the footer=true key and value
+  # Used for the social media links in the footer
+  #
+  # @param data [Hashie::Array] The data hash from Middleman
+  # @return [Hashie::Array]
+  def data_select_footer_social_media(hash)
+    hash.select { |m| m["footer"] }
   end
 
   # Sort from the data files that has the numeric priority key
