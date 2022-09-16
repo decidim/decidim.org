@@ -1,421 +1,360 @@
+---
 ca:
-  path: '/ca'
-  activeLang: 'Català'
-  nav:
-    text: 'Navegació'
-    demo: 'Demo'
-    community: 'Comunitat'
-    contract: 'Contracte social'
-    code: 'Codi'
-    docs:
-      title: 'Documentació'
-      path: 'https://docs.decidim.org/'
-    blog: 'Blog'
-    features: 'Funcionalitats'
-    faqs: 'FAQs'
-    contact: 'Contacte'
-    used_by: 'Ja fan servir Decidim'
-    partners: 'Entitats col·laboradores'
-    modules: 'Mòduls'
-    press: 'Prensa'
-    legal-notice: 'Legal notice'
-    privacy-policy: 'Privacy policy'
+  activeLang: Català
   alert:
-    title: 'Decidim Fest 2021 :: Democràcia, Tecnologia i Justícia Global | 20, 21 i 22 Octubre'
-    subtitle: 'Oberta convocatòria'
+    desc: Un programa intensiu de 3 dies d'activitats dedicat al projecte Decidim, la democràcia participativa i les eines de codi obert per a la intel·ligència col·lectiva en l'era de la democràcia global.
     link: https://meta.decidim.org/conferences/DecidimFest21/f/1615/?locale=ca
-    desc: 'Un programa intensiu de 3 dies d''activitats dedicat al projecte Decidim, la democràcia participativa i les eines de codi obert per a la intel·ligència col·lectiva en l''era de la democràcia global.'
-  index:
-    hero:
-      heading: 'Democràcia participativa de codi obert per a ciutats i organitzacions'
-      subheading: 'Decidim és una plataforma digital<br/>de participació ciutadana'
-      intro: 'Tecnologia lliure i segura.<br/>Amb totes les garanties democràtiques.<br/>Reprogramar la democràcia ara és possible amb Decidim.'
-    video:
-      play: 'Reproduir vídeo'
-      url: 'https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc'
-      close: 'Tancar el vídeo'
-    subhero:
-      intro: 'Decidim ajuda a ciutadans, organitzacions i institucions públiques a auto-organitzar-se democràticament a tots els nivells.'
-      feature1: 'Planificació<br/>estratègica'
-      feature2: 'Pressupostos<br/>participatius'
-      feature3: 'Iniciatives i<br/>consultes ciutadanes'
-      feature4: 'Processos<br/>participatius'
-      feature5: 'Òrgans<br/>de participació'
-      feature6: 'Comunicació<br/>en xarxa'
-    used_by:
-      title: 'Ja fan servir Decidim'
-      cta: 'Veure tots'
-    cta:
-      title: 'comença a fer servir Decidim'
-    button:
-      code: 'Codi a GitHub'
-  footer:
-    supported_by: 'Supported by'
-    attribution: '- Amb llicència Creative Commons By-SA'
+    subtitle: Oberta convocatòria
+    title: 'Decidim Fest 2021 :: Democràcia, Tecnologia i Justícia Global | 20, 21 i 22 Octubre'
+  community:
+    bug:
+      cta: Entra i participa ara
+      subtitle: Col·laboració per a la millora contínua
+      text: Cada nova versió (release) de Decidim incorpora noves funcionalitats i millores d'usabilitat, però no sempre tot funciona a la primera i poden aparèixer errors. Aquí pots reportar els errors (bugs) que trobis. Així ajudes a l'equip de desenvolupament a corregir-los ràpidament.
+      title: Notifica un bug
+    cta: Començar
+    features:
+      cta: Entra i participa ara
+      subtitle: Dissenyar i desenvolupar Decidim entre totes
+      text: Pots crear debats sobre el futur de Decidim o proposar noves funcionalitats o millores. Les propostes poden rebre adhesions i comentaris, per mostrar, per exemple, l'interès que desperten en la comunitat i valorar el seu desenvolupament. Seran útils per al projecte les propostes que comptin amb un patrocinador o sponsor (com un ajuntament o qualsevol altra entitat), responsable de buscar i aportar els recursos necessaris per dur a terme el seu desenvolupament.
+      title: Proposa noves funcionalitats
+    img_alt: Fotografia de la comunitat Decidim a les jornades Metadecidim 2016
+    intro: Metadecidim és una comunitat que col·labora en el disseny de la plataforma i la construcció del projecte. Entre totes podem dissenyar i desenvolupar noves funcionalitats i notificar bugs per una millora continua de la plataforma.
+    subtitle: Una comunitat democràtica que gestiona el projecte Decidim en totes les seves dimensions
+    timeline:
+      step1:
+        text: Descripció funcional
+        title: Nova proposta
+      step2:
+        text: Validació tècnica i tecnopolítica
+        title: Proposta validada
+      step3:
+        text: Recursos pel desenvolupament (compartits o no)
+        title: Proposta planificada
+      step4:
+        text: Descripció tècnica
+        title: Issue
+      step5:
+        text: Codi desenvolupat
+        title: Pull request
+      step6:
+        text: Disponible en la següent versió
+        title: Funcionalitat feta
+      title: Disseny col·laboratiu de funcionalitats
+    title: Metadecidim, la nostra comunitat
+  contact:
+    bot_field: 'No omplis aquest camp si ets human:'
+    email: Correu electrònic
+    entity: Entitat
+    message: Missatge
+    name: Nom
+    send: Enviar
+    subject: Assumpte
+    title: Contacta amb nosaltres
   demo:
-    title: Demo en línia
+    button: Demo en línia
     p1: Coneix i prova lliurement la plataforma Decidim amb la demo en línia.
     p2: La plataforma Decidim està activa en diversos exemples que pots visitar i explorar, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a>, de la ciutat de Barcelona, o bé pots visitar els llocs de <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> i de <a href="https://www.lhon-participa.cat/" target="_blank">l'Hospitalet</a>. Però aquests són exemples reals i potser no els pots experimentar lliurement perquè no ets ciutadà o ciutadana d'aquests municipis, i tampoc no pots explorar els llocs com a administrador.
     p3: Si vols anar més enllà, et convidem a provar Decidim des del lloc web de demostració (cortesia dels desenvolupadors de <a href="http://alabs.org" target="_blank">aLabs</a>). Entra al lloc de demostració i prova lliurement el potencial de Decidim i les seves característiques.
     p4: Pots accedir com a <strong>administrador</strong> (amb el nom d'usuari <strong>admin@example.org</strong> i la contrasenya <strong>decidim123456</strong>).
-    button: Demo en línia
-  community:
-    title: 'Metadecidim, la nostra comunitat'
-    subtitle: 'Una comunitat democràtica que gestiona el projecte Decidim en totes les seves dimensions'
-    intro: 'Metadecidim és una comunitat que col·labora en el disseny de la plataforma i la construcció del projecte. Entre totes podem dissenyar i desenvolupar noves funcionalitats i notificar bugs per una millora continua de la plataforma.'
-    cta: 'Començar'
-    features:
-      title: 'Proposa noves funcionalitats'
-      subtitle: 'Dissenyar i desenvolupar Decidim entre totes'
-      text: 'Pots crear debats sobre el futur de Decidim o proposar noves funcionalitats o millores. Les propostes poden rebre adhesions i comentaris, per mostrar, per exemple, l''interès que desperten en la comunitat i valorar el seu desenvolupament. Seran útils per al projecte les propostes que comptin amb un patrocinador o sponsor (com un ajuntament o qualsevol altra entitat), responsable de buscar i aportar els recursos necessaris per dur a terme el seu desenvolupament.'
-      cta: 'Entra i participa ara'
-    bug:
-      title: 'Notifica un bug'
-      subtitle: 'Col·laboració per a la millora contínua'
-      text: 'Cada nova versió (release) de Decidim incorpora noves funcionalitats i millores d''usabilitat, però no sempre tot funciona a la primera i poden aparèixer errors. Aquí pots reportar els errors (bugs) que trobis. Així ajudes a l''equip de desenvolupament a corregir-los ràpidament.'
-      cta: 'Entra i participa ara'
-    img_alt: 'Fotografia de la comunitat Decidim a les jornades Metadecidim 2016'
-    timeline:
-      title: 'Disseny col·laboratiu de funcionalitats'
-      step1:
-        title: 'Nova proposta'
-        text: 'Descripció funcional'
-      step2:
-        title: 'Proposta validada'
-        text: 'Validació tècnica i tecnopolítica'
-      step3:
-        title: 'Proposta planificada'
-        text: 'Recursos pel desenvolupament (compartits o no)'
-      step4:
-        title: 'Issue'
-        text: 'Descripció tècnica'
-      step5:
-        title: 'Pull request'
-        text: 'Codi desenvolupat'
-      step6:
-        title: 'Funcionalitat feta'
-        text: 'Disponible en la següent versió'
-  contact:
-    title: Contacta amb nosaltres
-    bot_field: "No omplis aquest camp si ets human:"
-    name: Nom
-    entity: Entitat
-    email: Correu electrònic
-    subject: Assumpte
-    message: Missatge
-    send: Enviar
-  thanks:
-    title: Gràcies per contactar-nos
-    message: Gràcies pel teu correu electrònic, et respondrem en breu.
+    title: Demo en línia
+  faqs:
+    questions:
+    - question: Què és Decidim?
+      answer: 'Decidim és una plataforma digital de participació ciutadana de codi lliure i obert per a ciutats i organitzacions. Però també Decidim és més que una plataforma digital: és un projecte i una infraestructura oberta que inclou codi, documentació, disseny, formació, un marc legal, interfícies col·laboratives, una comunitat d''usuaris i facilitadores i una visió global.'
+    - question: Qui està utilitzant Decidim actualment?
+      answer: Actualment ho utilitzen ciutats i organitzacions. De fet qualsevol grup de persones pot utilitzar-ho, sigui una ONG, universitat, sindicat, cooperativa, col·lectiu de barri, etc. Consulta el [llistat sencer d'instàncies actives en l'actualitat](/ca/usedby/).
+    - question: Què pot fer un administrador de Decidim?
+      answer: Configurar processos participatius fàcilment. Vols fer un pla estratègic? O discutir noves normatives? O debatre sobre una plaça nova o un edifici públic per aconseguir el be comú? Gràcies a Decidim podràs configurar espais de participació (iniciatives, assemblees, processos o consultes) i enriquir-los a través dels múltiples components disponibles (trobades presencials, enquestes, propostes, votacions, seguiment de resultats, comentaris i molts més).
+    - question: Què pot fer un participant (usuari) de Decidim?
+      answer: Decidim fa possible que milers de persones s'organitzin democràticament realitzant propostes, assistint a reunions públiques, creant discussions deliberatives, decidint mitjançant diferents formes de votació i monitoritzant la implementació de les decisions. Participants can also communicate between them through the networked communication Decidim functionalities.
+    - question: Vull provar Decidim ja, sense instal·lar-m'ho, per veure com funciona. Teniu una Demo?
+      answer: Si, tenim una [demo](/ca/demo).
+    - question: Amb quina freqüència hi ha actualitzacions de la plataforma?
+      answer: Cada mes, aproximadament, alliberem una nova versió. En [aquest enllaç](https://github.com/decidim/decidim/releases) pots consultar l'històric de versions.
+    - question: Què necessito per instal·lar Decidim?
+      answer: Instal·lar Decidim és fàcil però necessites alguns coneixements i requeriments tècnics. Pots consultar el [tutorial d’instal·lació manual oficial](https://docs.decidim.org/en/install/).
+    - question: On puc trobar el roadmap del projecte i les funcionalitats planificades?
+      answer: Pots trobar el roadmap de noves funcionalitats del projecte a [GitHub](https://github.com/decidim/decidim/projects/16).
+    - question: Què significa que Decidim sigui gratuït, lliure i de codi obert?
+      answer: Decidim és una plataforma de participació ciutadana feta per persones i per a persones. El seu codi font és obert i pot ser inspeccionat, modificat i millorat per qualsevol. El programari Decidim està cobert per la [llicència AGPL](https://ca.wikipedia.org/wiki/GNU_Affero_General_Public_License). Això vol dir que el pots utilitzar, modificar i redistribuir les seves versions derivades, sempre que respectis la llicència AGPL.
+    - question: Tinc idees de noves funcionalitats, de millora. Vull conèixer millor el projecte. Què puc fer?
+      answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report?locale=es). If you want to actively participate in the Metadecidim community, you can attend the monthly [Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat). Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
+    - question: Tinc molts dubtes, de tot tipus...on els puc plantejar o resoldre?
+      answer: La millor manera d'intentar resoldre àgilment els teus dubtes és a través de la comunitat Metadecidim. Entra ara en el procés [“Fòrum de Suport”](https://meta.decidim.org/processes/supportforum?locale=es) i fixa't si el teu dubte existeix o si ha estat resolt i en cas contrari entra per realitzar consultes. Si no aconsegueixes resoldre el teu assumpte en aquest espai, potser és moment de contactar amb nosaltres a través del [formulari de contacte](http://decidim.org/ca/contact).
+    - question: Existeix algun manual d'ajuda per començar a configurar-ho?
+      answer: A l'apartat de [Documentació](https://decidim.org/ca/docs/) pots consultar l'última versió del nostre manual d'administrador.
+    - question: Què és el Contracte Social?
+      answer: Així és com anomenem al nostre Codi de Garanties Democràtiques i Col·laboració Democràtica. Tots els membres de la comunitat han de adherir-se al [Contracte Social](http://decidim.org/ca/contract).
+    - question: Quines diferències hi ha amb el projecte Consul / Decide Madrid?
+      answer: 'There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.'
+    - question: Què és la comunitat Metadecidim?
+      answer: "[Metadecidim](http://meta.decidim.org) és la comunitat de Decidim que col·labora en el disseny de la plataforma i la construcció del projecte Decidim. Ens reunim periòdicament a través de les [SOM (Sessions Operatives Metadecidim)](https://meta.decidim.org/assemblies/eix-comunitat?locale=es) i dels [Seminaris LAB de recerca](https://meta.decidim.org/assemblies/eix-lab). Entra a [meta.decidim.org](http://meta.decidim.org) per seguir d'a prop les convocatòries i si vols unir-te a la comunitat, nosaltres encantades ;-)"
+    - question: Puc participar en la comunitat Metadecidim encara que no resideixi a Barcelona?
+      answer: Decidim és un projecte que neix a Barcelona i és per això que hi ha un vincle territorial fort amb aquest ciutat. Però sí, pots col·laborar en línia, a través dels processos participatius, debats, etc...que proporcionem en Metadecidim. Encara que potser vulguis venir a Barcelona alguna vegada :)
+    - question: Volem formalitzar un acord de col·laboració. Existeix alguna plantilla que puguem usar?
+      answer: Sí, tenim plantilles per formalitzar acords de col·laboració. [Posa't en contacte amb nosaltres](/ca/contact).
+    - question: A quin tipus de membres accepteu en la comunitat Metadecidim?
+      answer: A qualsevol que tingui bona fe i una actitud correcta cap a la col·laboració democràtica.
+    - question: Oferiu instal·lació gratuïta a organitzacions sense ànim de lucre?
+      answer: Sí, solament si ets una organització amb seu a Barcelona. Envia'ns un missatge i la Direcció de Recerca, Desenvolupament i Innovació de l'Àrea de Drets de Ciutadania, Participació i Transparència de l'Ajuntament de Barcelona t'ajudarà.
+    - question: Recolzeu a les institucions?
+      answer: Sí, però cal tenir paciència. Hi ha un munt d'institucions que volen usar Decidim en aquests moments i els estem ajudant pas a pas. [Posa't en contacte amb nosaltres](/ca/contact) per a qualsevol pregunta i et respondrem al més aviat possible.
+    - question: Què és l'Associació Decidim?
+      answer: L'Associació de Programari Lliure Decidim (Associació Decidim) és una associació democràtica que s'encarrega de la governança de la comunitat Decidim.
+    - question: Com puc obtenir més informació sobre l'Associació Decidim?
+      answer: A l['assemblea general de l'Associació Decidim](https://meta.decidim.org/assemblies/general-assembly-association) podràs conèixer-nos millor, seguir l'activitat de les trobades i consultar informació rellevant (estatuts, convenis, el reglament intern)
+    - question: Com em puc fer sòcia de l'Associació Decidim?
+      answer: Ara les persones implicades en el projecte poden ser sòcies. [Aquí t'expliquem en detall com ho has de fer.](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=ca)
+    - question: Quan neix l'Associació Decidim?
+      answer: L'Associació Decidim es funda [el 16 de febrer de 2019 a una assemblea extraordinària de la comunitat](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), amb l'aprovació dels estatuts.
+    title: Preguntes més freqüents
   features:
-    title: 'Funcionalitats'
-    intro: '<p>Pots utilitzar Decidim en una organització pública o privada, amb centenars o milers de potencials participants, com un ajuntament, una associació, una universitat, una ONG, un sindicat, un col·lectiu de barri o cooperativa…</p><p>Gràcies a Decidim podràs configurar espais de participació (iniciatives, assemblees, processos o consultes) i enriquir-los a través dels múltiples components disponibles (trobades presencials, enquestes, propostes, votacions, seguiment de resultats, comentaris i molts més).</p>'
+    cta:
+      button: Funcionalitats i característiques
+      title: Descobreix com funciona Decidim a fons
+    intro: "<p>Pots utilitzar Decidim en una organització pública o privada, amb centenars o milers de potencials participants, com un ajuntament, una associació, una universitat, una ONG, un sindicat, un col·lectiu de barri o cooperativa…</p><p>Gràcies a Decidim podràs configurar espais de participació (iniciatives, assemblees, processos o consultes) i enriquir-los a través dels múltiples components disponibles (trobades presencials, enquestes, propostes, votacions, seguiment de resultats, comentaris i molts més).</p>"
     list:
-      n1:
-        title: 'Pressupostos<br/>participatius'
-        content: 'Analitza les propostes rebudes i potencia una nova forma de distribuir els recursos comuns.'
-      n2:
-        title: 'Iniciatives<br/>i consultes ciutadanes'
-        content: 'Empodera a la teva comunitat a través d''iniciatives ciutadanes. Promou votacions rellevants a través de consultes.'
-      n3:
-        title: 'La potència<br/>d''una xarxa política'
-        content: 'Porta la deliberació, la col·laboració i la decisió a una dimensió multitudinària, amb milers de persones participant en temps real.'
-      n4:
-        title: 'Un sistema<br/>democràtic i flexible'
-        content: 'Gràcies a la seva arquitectura modular i la seva lògica escalable, podràs configurar un potent sistema de governança democràtica en tot tipus d''organitzacions.'
-      n5:
-        title: 'Ens prenem la democràcia<br/>seriosament'
-        content: 'Decidim assegura la transparència, traçabilitat i integritat de la informació com mai abans. Proporciona seguretat, privadesa i confidencialitat a totes les participants.'
-      n6:
-        title: "És vostra.<br/>Compartiu-la. Milloreu-la."
-        content: 'Una plataforma pensada completament amb programari lliure, de contingut obert i col·laboratiu gràcies a la comunitat Metadecidim.'
       cta:
-        features: 'Veure totes les funcionalitats'
-        values: 'Anar al contracte social'
+        features: Veure totes les funcionalitats
+        values: Anar al contracte social
+      n1:
+        content: Analitza les propostes rebudes i potencia una nova forma de distribuir els recursos comuns.
+        title: Pressupostos<br/>participatius
+      n2:
+        content: Empodera a la teva comunitat a través d'iniciatives ciutadanes. Promou votacions rellevants a través de consultes.
+        title: Iniciatives<br/>i consultes ciutadanes
+      n3:
+        content: Porta la deliberació, la col·laboració i la decisió a una dimensió multitudinària, amb milers de persones participant en temps real.
+        title: La potència<br/>d'una xarxa política
+      n4:
+        content: Gràcies a la seva arquitectura modular i la seva lògica escalable, podràs configurar un potent sistema de governança democràtica en tot tipus d'organitzacions.
+        title: Un sistema<br/>democràtic i flexible
+      n5:
+        content: Decidim assegura la transparència, traçabilitat i integritat de la informació com mai abans. Proporciona seguretat, privadesa i confidencialitat a totes les participants.
+        title: Ens prenem la democràcia<br/>seriosament
+      n6:
+        content: Una plataforma pensada completament amb programari lliure, de contingut obert i col·laboratiu gràcies a la comunitat Metadecidim.
+        title: És vostra.<br/>Compartiu-la. Milloreu-la.
+    other:
+      subtitle: Atreveix-te a combinar els components als espais per dissenyar i implementar amb facilitat un potent sistema democràtic i adaptar-ho a les necessitats de la teva organització
     page:
       feature1:
-        title: 'Processos participatius'
-        subtitle: 'per democratitzar assumptes comuns, pas a pas'
-        text: >-
-          Processos permet crear, activar/desactivar i administrar diferents processos de participació, articular-los en diferents fases en què poden combinar-se tots els components. Exemples de processos participatius son: un procés d’elecció dels membres d’un consell, pressupostació participativa, un procés de planificació estratègica, la redacció col·laborativa d’un reglament o norma, el disseny d’un espai urbà o la producció d’un pla de polítiques públiques.
-      feature2:
-        title: 'Òrgans<br/>de participació'
-        subtitle: 'el poder de la autorganització col·lectiva'
-        text: >-
-          Les Assemblees ofereixen la possibilitat de definir òrgans o grups de decisió (consells, grups de treball, comitès, etc.) que es reuneixen periòdicament, detallar-ne la composició, llistant i geolocalitzant les seves trobades i permetent la participació (per exemple; acudint-hi si l’aforament i la naturalesa de l’assemblea ho permet, introduint punts en l’ordre del dia o comentant les propostes i decisions preses per l’òrgan esmentat).
-      feature3:
-        title: 'Consultes'
-        subtitle: 'el dret a decidir amb totes les garanties democràtiques'
-        text: >-
-          Consultes fa possible articular referèndums, generar discussions i debats, connectar amb un sistema de vot electrònic segur i mostrar els resultats.
-      feature4:
-        title: 'Iniciatives'
-        subtitle: "marcar l’agenda de totes, a l'abast de qualsevol"
-        text: >-
-          Iniciatives permet crear iniciatives de manera col·laborativa, definir-ne la trajectòria i l’objectiu, recollir suports, discutir, debatre i difondre la iniciativa i definir punts de trobada per a la recollida de signatures presencial o debats oberts a altres membres de l’organització.
-      feature5:
-        title: 'Propostes'
-        subtitle: 'les vostres idees, detalladament'
-        text: >-
-          El component propostes permet a l’usuari crear una proposta utilitzant un assistent de creació comparar-la amb les existents, publicar-la a la plataforma i incloure informació addicional com geolocalització o adjuntar documents i imatges. Aquest component també permet navegar, filtrar i interactuar amb un conjunt de propostes. A més, amb la proposta-incubadora podeu crear propostes col·laboratives.
-      feature6:
-        title: 'Votacions'
-        subtitle: 'decideix el teu vot'
-        text: >-
-          El component votacions ofereix a les organitzacions la possibilitat d’activar diferents sistemes de votació o suport sobre les propostes: vot il·limitat, a un determinat sector, ponderat, basat en costos, etcètera.
-      feature7:
-        title: 'Resultats'
-        subtitle: 'cap proposta sense resposta'
-        text: >-
-          El component resultats serveix per convertir propostes en resultats i donar respostes oficials a la seva acceptació o rebuig, fusionant diverses propostes en un sol resultat.
-      feature8:
-        title: 'Rendició de comptes'
-        subtitle: 'transparència de principi a fi'
-        text: >-
-          El component de rendició de comptes ofereix la possibilitat de subdividir els resultats en projectes, definir i aplicar estats de progrés entorn de la seva implementació, així com mostrar el grau d'implementació dels resultats agrupats per categories i abast.
-      feature9:
-        title: 'Trobades'
-        subtitle: 'per trobar-se i no perdre''s res'
-        text: >-
-          El component trobades ofereix a les organitzacions i als participants la possibilitat de convocar reunions, definir lloc i hora, registrar i limitar el nombre d’assistents, definir l’estructura i els continguts d’una cita o trobada presencial, així com de publicar-ne les actes i les propostes resultants.
+        subtitle: per democratitzar assumptes comuns, pas a pas
+        text: 'Processos permet crear, activar/desactivar i administrar diferents processos de participació, articular-los en diferents fases en què poden combinar-se tots els components. Exemples de processos participatius son: un procés d’elecció dels membres d’un consell, pressupostació participativa, un procés de planificació estratègica, la redacció col·laborativa d’un reglament o norma, el disseny d’un espai urbà o la producció d’un pla de polítiques públiques.'
+        title: Processos participatius
       feature10:
-        title: 'Textos participatius'
-        subtitle: 'per analitzar, sintetitzar, i construir en comú'
-        text: >-
-          El component textos participatius permet dividir un document de text en diverses propostes o resultats i, inversament, compondre i visualitzar un text unificat partint d’una col·lecció de propostes o resultats.
+        subtitle: per analitzar, sintetitzar, i construir en comú
+        text: El component textos participatius permet dividir un document de text en diverses propostes o resultats i, inversament, compondre i visualitzar un text unificat partint d’una col·lecció de propostes o resultats.
+        title: Textos participatius
       feature11:
-        title: 'Conferència'
-        subtitle: 'On els grans esdeveniments s’estrenen'
-        text: >-
-          El component conferència permet a una organització crear un lloc web per a un gran esdeveniment unint tot una sèrie de trobades predefinides (xats, tallers, etc.), creant un programa unificat i gestionant l’assistència.
+        subtitle: On els grans esdeveniments s’estrenen
+        text: El component conferència permet a una organització crear un lloc web per a un gran esdeveniment unint tot una sèrie de trobades predefinides (xats, tallers, etc.), creant un programa unificat i gestionant l’assistència.
+        title: Conferència
       feature12:
-        title: 'Enquestes'
-        subtitle: 'Perquè l''opinió de la teva comunitat importa'
-        text: >-
-          El component enquestes es pot utilitzar per dissenyar i publicar enquestes i per mostrar i descarregar els seus resultats.
+        subtitle: Perquè l'opinió de la teva comunitat importa
+        text: El component enquestes es pot utilitzar per dissenyar i publicar enquestes i per mostrar i descarregar els seus resultats.
+        title: Enquestes
       feature13:
-        title: 'Sorteig'
-        subtitle: 'La igualtat i la justícia de l''atzar'
-        text: >-
-          El component sorteig permet escollir un número de propostes (per exemple, candidats a un jurat) amb procediments aleatoris, però reproduïbles, que garanteixen distribucions no esbiaixades i uniformes.
+        subtitle: La igualtat i la justícia de l'atzar
+        text: El component sorteig permet escollir un número de propostes (per exemple, candidats a un jurat) amb procediments aleatoris, però reproduïbles, que garanteixen distribucions no esbiaixades i uniformes.
+        title: Sorteig
       feature14:
-        title: 'Comentaris'
-        subtitle: 'Construyendo la inteligencia colectiva'
-        text: >-
-          El component comentaris permet als usuaris afegir comentaris, identificar el comentari com a favor, en contra o neutral en relació amb l’objecte comentat, votar comentaris, respondre-hi i rebre notificacions sobre les respostes.
+        subtitle: Construyendo la inteligencia colectiva
+        text: El component comentaris permet als usuaris afegir comentaris, identificar el comentari com a favor, en contra o neutral en relació amb l’objecte comentat, votar comentaris, respondre-hi i rebre notificacions sobre les respostes.
+        title: Comentaris
       feature15:
-        title: 'Pàgines i blogs'
-        subtitle: 'La teva comunitat, informada i al dia'
-        text: >-
-          El component pàgines serveix per crear pàgines informatives amb text enriquit, imatges i vídeos. El component blog permet la creació de missatges o notícies, i navegar cronològicament per ells.
+        subtitle: La teva comunitat, informada i al dia
+        text: El component pàgines serveix per crear pàgines informatives amb text enriquit, imatges i vídeos. El component blog permet la creació de missatges o notícies, i navegar cronològicament per ells.
+        title: Pàgines i blogs
       feature16:
-        title: 'Notificacions'
-        subtitle: 'Informació personalitzada de continguts d’interès'
-        text: >-
-          Decidim permet seguir qualsevol espai o component per rebre actualitzacions cada vegada que es produeixin.
+        subtitle: Informació personalitzada de continguts d’interès
+        text: Decidim permet seguir qualsevol espai o component per rebre actualitzacions cada vegada que es produeixin.
+        title: Notificacions
       feature17:
-        title: 'Butlletí'
-        subtitle: 'Sencill però potent'
-        text: >-
-          El component butlletí permet enviar correus electrònics a totes les persones registrades en la plataforma.
+        subtitle: Sencill però potent
+        text: El component butlletí permet enviar correus electrònics a totes les persones registrades en la plataforma.
+        title: Butlletí
+      feature2:
+        subtitle: el poder de la autorganització col·lectiva
+        text: Les Assemblees ofereixen la possibilitat de definir òrgans o grups de decisió (consells, grups de treball, comitès, etc.) que es reuneixen periòdicament, detallar-ne la composició, llistant i geolocalitzant les seves trobades i permetent la participació (per exemple; acudint-hi si l’aforament i la naturalesa de l’assemblea ho permet, introduint punts en l’ordre del dia o comentant les propostes i decisions preses per l’òrgan esmentat).
+        title: Òrgans<br/>de participació
+      feature3:
+        subtitle: el dret a decidir amb totes les garanties democràtiques
+        text: Consultes fa possible articular referèndums, generar discussions i debats, connectar amb un sistema de vot electrònic segur i mostrar els resultats.
+        title: Consultes
+      feature4:
+        subtitle: marcar l’agenda de totes, a l'abast de qualsevol
+        text: Iniciatives permet crear iniciatives de manera col·laborativa, definir-ne la trajectòria i l’objectiu, recollir suports, discutir, debatre i difondre la iniciativa i definir punts de trobada per a la recollida de signatures presencial o debats oberts a altres membres de l’organització.
+        title: Iniciatives
+      feature5:
+        subtitle: les vostres idees, detalladament
+        text: El component propostes permet a l’usuari crear una proposta utilitzant un assistent de creació comparar-la amb les existents, publicar-la a la plataforma i incloure informació addicional com geolocalització o adjuntar documents i imatges. Aquest component també permet navegar, filtrar i interactuar amb un conjunt de propostes. A més, amb la proposta-incubadora podeu crear propostes col·laboratives.
+        title: Propostes
+      feature6:
+        subtitle: decideix el teu vot
+        text: 'El component votacions ofereix a les organitzacions la possibilitat d’activar diferents sistemes de votació o suport sobre les propostes: vot il·limitat, a un determinat sector, ponderat, basat en costos, etcètera.'
+        title: Votacions
+      feature7:
+        subtitle: cap proposta sense resposta
+        text: El component resultats serveix per convertir propostes en resultats i donar respostes oficials a la seva acceptació o rebuig, fusionant diverses propostes en un sol resultat.
+        title: Resultats
+      feature8:
+        subtitle: transparència de principi a fi
+        text: El component de rendició de comptes ofereix la possibilitat de subdividir els resultats en projectes, definir i aplicar estats de progrés entorn de la seva implementació, així com mostrar el grau d'implementació dels resultats agrupats per categories i abast.
+        title: Rendició de comptes
+      feature9:
+        subtitle: per trobar-se i no perdre's res
+        text: El component trobades ofereix a les organitzacions i als participants la possibilitat de convocar reunions, definir lloc i hora, registrar i limitar el nombre d’assistents, definir l’estructura i els continguts d’una cita o trobada presencial, així com de publicar-ne les actes i les propostes resultants.
+        title: Trobades
+    title: Funcionalitats
     type1:
-      title: 'Espais de participació'
-      subtitle: 'Perquè els participants realitzin propostes i prenguin decisions'
+      subtitle: Perquè els participants realitzin propostes i prenguin decisions
+      title: Espais de participació
     type2:
-      title: 'Components'
-      subtitle: 'Perquè les participants i espais interactuïn'
-    other:
-      subtitle: 'Atreveix-te a combinar els components als espais per dissenyar i implementar amb facilitat un potent sistema democràtic i adaptar-ho a les necessitats de la teva organització'
+      subtitle: Perquè les participants i espais interactuïn
+      title: Components
+  footer:
+    attribution: "- Amb llicència Creative Commons By-SA"
+    supported_by: Supported by
+  index:
+    button:
+      code: Codi a GitHub
     cta:
-      title: 'Descobreix com funciona Decidim a fons'
-      button: 'Funcionalitats i característiques'
-  partners:
-    notice: Els logotips de les entitats col·laboradores són propietat intel·lectual dels seus respectius titulars de drets d'autor. No pertanyen a la <a href="https://creativecommons.org/licenses/by-sa/4.0/"> llicència Creative Commons By-SA </a>, la resta de continguts del lloc tenen llicència.
+      title: comença a fer servir Decidim
+    hero:
+      heading: Democràcia participativa de codi obert per a ciutats i organitzacions
+      intro: Tecnologia lliure i segura.<br/>Amb totes les garanties democràtiques.<br/>Reprogramar la democràcia ara és possible amb Decidim.
+      subheading: Decidim és una plataforma digital<br/>de participació ciutadana
+    subhero:
+      feature1: Planificació<br/>estratègica
+      feature2: Pressupostos<br/>participatius
+      feature3: Iniciatives i<br/>consultes ciutadanes
+      feature4: Processos<br/>participatius
+      feature5: Òrgans<br/>de participació
+      feature6: Comunicació<br/>en xarxa
+      intro: Decidim ajuda a ciutadans, organitzacions i institucions públiques a auto-organitzar-se democràticament a tots els nivells.
+    used_by:
+      cta: Veure tots
+      title: Ja fan servir Decidim
+    video:
+      close: Tancar el vídeo
+      play: Reproduir vídeo
+      url: https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc
+  legal-notice:
+    section-1:
+      paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
+      title: Who we are
+    section-2:
+      paragraph: "<p>The purpose of this Website is to provide general information to the public about Decidim, its activities and technology, consisting in a free open-source participatory democracy platform for cities and organizations, and the management of the Decidim community generated around the world from our collaborative technology allowing the development of citizen and associative projects with greater social participation. You may freely test the Decidim platform with our online demo.</p> <p>The purpose of the terms of use of this Legal Notice is to govern the permitted use of this Website and the services and/or contents hosted in accordance with the Law 34/2002 on Information Society Services and Electronic Commerce and other applicable legal provisions.</p>"
+      title: Purpose
+    section-3:
+      paragraph: '<p>The access to this Website is free. No application form is required for browsing the information and/or contents of this Website in general terms. Otherwise, please refer to our <a href="%{privacy_policy_url}">Privacy Policy</a>.<p> <p>By accessing and using the Website, You are accepting the terms of use of this Legal Notice and You undertake to make proper, diligent and lawful use of the Website and, in particular: (i) use the Website for its intended purposes, i.e. information about our services, you will refrain from using the Website or its contents for illegal purposes, or for purposes that go against public order, morality and good customs; (ii) respect the intellectual and industrial property rights of the Website and its contents, as well as all rights that correspond to Decidim; (iii) not to reproduce, copy, convert, modify, distribute, publicly display or make available to the public the Website or any of its content or any modification thereof; (iv) You shall be liable for any loss or damage suffered by Decidim due to a direct or indirect misuse by You of the Website, the provisions of the "Legal Texts" (collectively referred to, this Legal Notice and the <a href="%{privacy_policy_url}">Privacy Policy</a>) and the applicable legislation.<p>'
+      title: Website use
+    section-4:
+      paragraph: "<p>All intellectual property rights over the contents of this Website including, but not limited to, images, trademarks, logos, distinctive signs, sounds and animations, texts, sound, visual or audiovisual recordings and databases are the property of Decidim or its licensors and are protected by national and international laws. Such rights are reserved in favor of Decidim and/or its licensors. The reproduction, copying, public communication, distribution, modification, transformation, elimination, manipulation and any other use, including the extraction and reuse, whether for profit or not, direct or indirect, temporary or permanent, of all or part of this Website or any of its contents, is expressly prohibited without the prior express written authorization of Decidim. We may take any legal and/or extrajudicial action it deems appropriate in the event of a possible violation of these rights.</p>"
+      title: Industrial and Intellectual Property
+    section-5:
+      paragraph: "<p>Decidim is not responsible for third party web pages that can be accessed from the Website, nor for the accuracy, veracity and validity of the information on the Website that is not of its own elaboration. However, pursuant to article 17 of Law 34/2002, in the event that Decidim becomes aware of the unlawfulness of such content or links, it undertakes to remove or disable them, as well as, where appropriate, to block any content that may be unlawful or violate the rights of any third party, in accordance with articles 11 and 16 of the aforementioned Law.</p> <p>Furthermore, Decidim is not responsible for any damage that may occur due to failures or misconfigurations in the browser installed by the user on his computer. Decidim is not responsible for any incident or technical failure caused by the user's connection to the Internet.</p> <p>Decidim will use its best efforts to effect, in the shortest period of time, updates and corrections of errors and deficiencies, including those occurring in the access and/or connection to the Website and/or its contents, but does not warrant the absence of interruptions, errors in the connection and/or access to the Website and update of its contents.</p> <p>You are liable for your use of and access to the Website. Decidim shall not be liable for the presence of viruses nor for security errors neither for the damages that may be caused to your devices or to the files or documents stored in such devices for the access and/or connection to the Website, neither for the damages caused to third parties by means of illegal intromissions out of Decidim control.</p> <p>Decidim shall not be liable for the breach of your obligations You accept when accessing this Website which are contained in this Legal Notice and, in particular, shall not be liable for any infringement of the intellectual property rights, copyright, advertising and image rights, or any other rights with regard to the goods and rights of any third party.</p>"
+      title: Responsibility
+    section-6:
+      paragraph: <p>Decidim may modify this Legal Notice, the <a href="%{privacy_policy_url}">Privacy Policy</a> and/or any other text of contractual nature applicable to this Website without previous notice. Such modifications shall be effective at the moment of its publication on the Website.</p> <p>Decidim may also terminate or suspend the services of the Website at any time. Whenever is possible, Decidim will warn/alert previously about such termination or suspension through this Website.</p>
+      title: Modifications
+    section-7:
+      paragraph: <p>Your personal data collected on our Website or when you contact us through the contact form or by sending an email will be treated strictly in accordance with our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
+      title: Personal Data
+    section-8:
+      paragraph: <p>This Website does not use cookies. More information in our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
+      title: Cookies
+    section-9:
+      paragraph: '<p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>'
+      title: Governing law and jurisdiction
+    title: Legal notice
   modules:
     description: Descripció
     explanation: Utilitzant mòduls, podeu ampliar la funcionalitat Decidim i compartir-la amb altres usuaris. Et permet actualitzar fàcilment en el futur. Consulta la <a href="https://docs.decidim.org/en/develop/modules/"> documentació per crear el teu propi mòdul </a>.
     image: Imatge
     name: Nom
     type:
-      community: Comunitat
       auth: Autoritzacions
+      community: Comunitat
       official: Oficials
+  nav:
+    blog: Blog
+    code: Codi
+    community: Comunitat
+    contact: Contacte
+    contract: Contracte social
+    demo: Demo
+    docs:
+      path: https://docs.decidim.org/
+      title: Documentació
+    faqs: FAQs
+    features: Funcionalitats
+    legal-notice: Legal notice
+    modules: Mòduls
+    partners: Entitats col·laboradores
+    press: Prensa
+    privacy-policy: Privacy policy
+    text: Navegació
+    used_by: Ja fan servir Decidim
+  partners:
+    notice: Els logotips de les entitats col·laboradores són propietat intel·lectual dels seus respectius titulars de drets d'autor. No pertanyen a la <a href="https://creativecommons.org/licenses/by-sa/4.0/"> llicència Creative Commons By-SA </a>, la resta de continguts del lloc tenen llicència.
+  path: "/ca"
+  privacy-policy:
+    section-1:
+      paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
+      title: Introduction
+    section-2:
+      paragraph: '<h3>a. Data collected from surfing the Website</h3> <p>When using our website, <a href="%{decidim_url}">Decidim</a> uses the services of Plausible analysis software.  Its is software that, when tracking user data, this data is kept fully and securely encrypted. The purpose of Plausible Analytics is to track general traffic trends on your website and not individual visitors. Each HTTP request sends the IP address and user agent to the server, so that''s what they use, generating an identifier that changes daily using the visitor''s IP address and user agent. To anonymise this data, it is passed through a hash function with a rotating salt. This generates a random string of letters and numbers that is used to calculate the number of unique visitors for the day. The IP address of the raw data and the user agent are never stored in the logs, databases or anywhere on Plausible analytics disk. Older salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next.   In this way, no personal user data is collected while browsing our website, for more information about the data processing by Plausible Analytics, you can visit their website at <a href="https://plausible.io/privacy-focused-web-analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Data collected from our Demo</h3> <p>The access to the <a href="%{decidim_url}">Decidim</a> platform demo, available through the Website in the URL <a href="https://try.decidim.org/">https://try.decidim.org/</a> is anonymous, since it is done through generic credentials for testing and knowledge of the operation, features and capabilities of the <a href="%{decidim_url}">Decidim</a> platform by the users. <p>Only a session cookie ("Session_id") is activated, whose purpose is to obtain or establish the session id for the current session. This cookie is strictly necessary for the technical functionality of detecting the session in the Website in order to ensure the connection through http protocols and to keep the User''s session and Web Site services available, and are exempted from User consent in accordance with Opinion 4/2012 on the exemption from the cookie consent requirement issued by the European Data Protection Authority.</p> <h3>c. Data collected from contact forms, emails or other communication means</h3> <p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p> <h3>d. Data collected from <a href="%{decidim_url}">Decidim</a> community</h3> <p><a href="%{decidim_url}">Decidim</a> uses other platforms linked to this Website  for the management of the <a href="%{decidim_url}">Decidim</a> community generated around our technology, as a meeting point for the <a href="%{decidim_url}">Decidim</a> community and where most of the activities and communications between users and <a href="%{decidim_url}">Decidim</a> take place. These platforms, such as <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> or GitHub (<a href="https://github.com/decidim/decidim">https://github.com/decidim/decidim</a>) are governed by their own terms of use and privacy policies.</p> <p>Notwithstanding, <a href="%{decidim_url}">Decidim</a> may process User''s personal data collected from these platforms for the management of the community projects developed in those platforms respectively, in particular these personal data may consist in connection data to these platforms, User profile on the platform, and the content of the comments and remarks that the User may contribute to the <a href="%{decidim_url}">Decidim</a> projects from time to time. Please note that this information may be public and, consequently, accessible and visible to other Users.</p> <h3>e. Data collected from our associate members</h3> <p>Any person or organization that wants to participate freely in the <a href="%{decidim_url}">Decidim</a> community, attending debates, collaborating in the organization of events, promoting a working group or community days, as well as contributing to the code or documentation of our free open-source participatory democracy platform, management of instances, etc., can choose to become a member of <a href="%{decidim_url}">Decidim</a>, as long as they have demonstrated sufficient commitment to the community through the realization of any of the above activities. To do so, you must complete a form to submit your application, which will be evaluated by the <a href="%{decidim_url}">Decidim</a> Coordination Committee.</p> <p>The processing of <a href="%{decidim_url}">Decidim</a> members'' personal data is carried out for the purpose of managing the aforementioned projects and activities in which the associate member participates, accounting management of membership fees and, in general, the governance of projects and activities of <a href="%{decidim_url}">Decidim</a>, in order to ensure compliance with the <a href="%{decidim_url}">Decidim</a>''s principles and values as well as the associates'' duties and rights.</p>'
+      title: Personal data we collect about you and how we use it
+    section-3:
+      paragraph: <p>The legal basis of our processing of personal data are the following:</p> <ul> <li>The processing of Users and associate data is necessary to perform the contract, consisting in the Users acceptance of the Legal Text of the Website, in order to provide them all the information about <a href="%{decidim_url}">Decidim</a> and its technology, projects and activities, as well as to allow them participating in the projects and activities carried out by <a href="%{decidim_url}">Decidim</a>.</li> <li>We may also process your personal data when you give us express consent to make publications about <a href="%{decidim_url}">Decidim</a> projects and activities in which you have participated, press releases or other forms of communication and dissemination of <a href="%{decidim_url}">Decidim</a>'s activities, as well as to receive particular information on a regular basis and/or when you contact us through the website contact form or by e-mail. </li> <li>Additionally, we may process your data on our legitimate interest to perform statistical studies or other knowledge generation techniques, implementing pseudonymization and, if possible, anonymization measures, such as data aggregation, in order to protect the privacy of Users, in accordance with art. 89 GDPR.</li> </ul> <p>In certain circumstances, we may process your data in accordance with this policy to comply with a legal or regulatory obligation to which we are subject.</p>
+      title: Legal basis
+    section-4:
+      paragraph: '<p>We process your personal data confidentially in accordance with the applicable legislation. Unless stated otherwise, your personal data will not be provided to third parties. </p> <p>Specifically, we disclose your data as follows:</p> <ul> <li>We can give access to your personal data to our IT service providers under contracts for the provision of services in favour of <a href="%{decidim_url}">Decidim</a>. Among the others, Netlify, Inc., an American entity who provide to Us web hosting services. <a href="%{decidim_url}">Decidim</a> has subscribed with Netlify a <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Data Processing Agreement</a>, including the Standard Contractual Clauses currently approved by the European Commission, in order to ensure that your personal data are processed with all adequate guarantees. More information about how Netlify use your personal data may be consulted here: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a>. </li> <li>We can make the data available to the public administration or authorities to investigate suspicions of fraud, harassment or other violations of any law, rule or regulation, or the policies of the website.</li> </ul> <p>For more information about our service providers who make international transfers, please contact us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>'
+      title: Data disclosure
+    section-5:
+      paragraph: "<p>We only keep your personal data for as long as it is necessary to fulfil the purposes for which we have collected them, even to comply with legal, accounting or information requirements.</p> <p>To determine the appropriate retention period for personal data, we consider the amount, nature and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which we process your personal data, if we can achieve those purposes through other means and the applicable legal requirements.</p>"
+      title: Data retention
+    section-6:
+      paragraph: "<p>We implement security measures and personal data protection schemes as required by law to maintain the confidentiality and integrity of your data and protection against unauthorised access, modification or destruction. </p>"
+      title: Security measures
+    section-7:
+      paragraph: '<p>You have rights under data protection laws in relation to your personal data. Specifically, you have the right to: </p> <ul> <li><b>Request access</b> to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</li> <li><b>Request correction</b> of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</li> <li><b>Request erasure</b> of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</li> <li><b>Object to processing</b> of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</li> <li><b>Request restriction of processing</b> of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data''s accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</li> <li><b>Request the transfer</b> of your personal data to you or to a third party (right to data portability). We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</li> <li><b>Withdraw consent at any time</b> where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</li> </ul> <p>The aforementioned rights may be effective by contacting us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>. <p>You also have the right to make any complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spain.'
+      title: Your rights
+    section-8:
+      paragraph: "<p>We reserve the right to amend the terms of this Privacy Policy and will notify you by providing a clear notice of these changes by email or on our Website, and in this Privacy Policy. If you continue to use our services after such update, you will be deemed to accept the new terms. If you do not accept the update, please terminate your account or notify us and we will terminate your Account and remove any of your personal data (except as required to be maintained for legal purposes), and you will not be able to continue to use our services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>"
+      title: General
+    title: Privacy policy
+  testimonials:
+    n1:
+      org: Ajuntament de Barcelona (2015-2019)
+      quote: Gràcies a Decidim, hem aconseguit a Barcelona co-produir un pla estratègic de ciutat conjuntament amb la ciutadania. En el 2016 inaugurem el Pla d'Acció Municipal en forma de procés participatiu a través de Decidim Barcelona. Actualment aquest pla recull gairebé 7 mil propostes ciutadanes. Una dels avantatges d'utilitzar aquesta plataforma és que pots seguir en tot moment l'estat d'implementació de les propostes acceptades.
+    n2:
+      org: Som Energia
+      quote: With the implementation of Decidim in Som Energia we have generated a kinder space for participation. We released the tool in 2018, hosting the General Assembly of the Cooperative and months later we debated the Image Redesign and collaborative development of the School of Som Energia, among other participatory processes. In a few months, more than 3,500 participant people have registered, 5 participatory processes, 3 assemblies operating and more than 1,300 votes in the last General Assembly vote.
+    n3:
+      org: President Municipal de Mèrida Yucatán, Mèxic. Ajuntament de Mérida Yucatán, Mèxic
+      quote: La plataforma digital Decide Mèrida va ser una oportunitat que va obrir com mai els mecanismes de participació ciutadana per a l'elaboració del Pla Municipal de Desenvolupament de Mèrida 2018-2021. Vam tenir més de 3 mil interaccions ciutadanes entre propostes, comentaris, suggeriments i suports que van donar lloc al major consens possible sobre què és el millor per a la nostra ciutat. Sens dubte, la plataforma Decide Mèrida continuarà sent la nostra aliada per a fer de Mèrida una societat cada dia més participativa.
+    n4:
+      org: Ajuntament d’Helsinki
+      quote: Els principis democràtics com la rendició de comptes, la igualtat i la transparència estan en el centre del disseny. Decidim és està construït tenint al cap la democràcia, és el seu gran focus.
+    n5:
+      org: Govern Obert de Ciutat de Méxic
+      quote: Pràcticament cada procés participatiu que ens ha arribat, l'hem pogut resoldre utilitzant les regles de negoci de Decidim. És una eina molt potent. No obstant això, la part que ens sembla més forta i important és la seva comunitat, tant de desenvolupadores com d'aquelles persones que la utilitzen per a processos participatius. Conviure amb aquesta comunitat ens ha fet dimensionar els desafiaments que comporta implementar la democràcia participativa en el món real.
+    n6:
+      org: Mozilla Foundation
+      quote: We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+    n7:
+      org: OpenForum Europe Research Director, European Union
+      quote: The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
+  thanks:
+    message: Gràcies pel teu correu electrònic, et respondrem en breu.
+    title: Gràcies per contactar-nos
   used_by:
     explain: Aquestes ciutats, regions i organitzacions ja fan servir Decidim
     type:
       city: Ciutats
-      region: Regions
       organizations: Organitzacions
-  testimonials:
-    n1:
-      quote: >-
-        Gràcies a Decidim, hem aconseguit a Barcelona co-produir un pla estratègic de ciutat conjuntament amb la ciutadania. En el 2016 inaugurem el Pla d'Acció Municipal en forma de procés participatiu a través de Decidim Barcelona. Actualment aquest pla recull gairebé 7 mil propostes ciutadanes. Una dels avantatges d'utilitzar aquesta plataforma és que pots seguir en tot moment l'estat d'implementació de les propostes acceptades.
-      org: Ajuntament de Barcelona (2015-2019)
-    n2:
-      quote: >-
-        With the implementation of Decidim in Som Energia we have generated a kinder space for participation. We released the tool in 2018, hosting the General Assembly of the Cooperative and months later we debated the Image Redesign and collaborative development of the School of Som Energia, among other participatory processes. In a few months, more than 3,500 participant people have registered, 5 participatory processes, 3 assemblies operating and more than 1,300 votes in the last General Assembly vote.
-      org: Som Energia
-    n3:
-      quote: >-
-        La plataforma digital Decide Mèrida va ser una oportunitat que va obrir com mai els mecanismes de participació ciutadana per a l'elaboració del Pla Municipal de Desenvolupament de Mèrida 2018-2021. Vam tenir més de 3 mil interaccions ciutadanes entre propostes, comentaris, suggeriments i suports que van donar lloc al major consens possible sobre què és el millor per a la nostra ciutat. Sens dubte, la plataforma Decide Mèrida continuarà sent la nostra aliada per a fer de Mèrida una societat cada dia més participativa.
-      org: President Municipal de Mèrida Yucatán, Mèxic. Ajuntament de Mérida Yucatán, Mèxic
-    n4:
-      quote: >-
-        Els principis democràtics com la rendició de comptes, la igualtat i la transparència estan en el centre del disseny. Decidim és està construït tenint al cap la democràcia, és el seu gran focus.
-      org: Ajuntament d’Helsinki
-    n5:
-      quote: >-
-        Pràcticament cada procés participatiu que ens ha arribat, l'hem pogut resoldre utilitzant les regles de negoci de Decidim. És una eina molt potent. No obstant això, la part que ens sembla més forta i important és la seva comunitat, tant de desenvolupadores com d'aquelles persones que la utilitzen per a processos participatius. Conviure amb aquesta comunitat ens ha fet dimensionar els desafiaments que comporta implementar la democràcia participativa en el món real.
-      org: Govern Obert de Ciutat de Méxic
-    n6:
-      quote: >-
-        We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
-      org: Mozilla Foundation
-    n7:
-      quote: >-
-        The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
-      org: OpenForum Europe Research Director, European Union
-  faqs:
-    title: Preguntes més freqüents
-    questions:
-      - question: Què és Decidim?
-        answer: >-
-          Decidim és una plataforma digital de participació ciutadana de codi lliure i obert per a ciutats i organitzacions. Però també Decidim és més que una plataforma digital: és un projecte i una infraestructura oberta que inclou codi, documentació, disseny, formació, un marc legal, interfícies col·laboratives, una comunitat d'usuaris i facilitadores i una visió global.
-      - question: Qui està utilitzant Decidim actualment?
-        answer: >-
-          Actualment ho utilitzen ciutats i organitzacions. De fet qualsevol grup de persones pot utilitzar-ho, sigui una ONG, universitat, sindicat, cooperativa, col·lectiu de barri, etc. Consulta el [llistat sencer d'instàncies actives en l'actualitat](/ca/usedby/).
-      - question: Què pot fer un administrador de Decidim?
-        answer: >-
-          Configurar processos participatius fàcilment. Vols fer un pla estratègic? O discutir noves normatives? O debatre sobre una plaça nova o un edifici públic per aconseguir el be comú? Gràcies a Decidim podràs configurar espais de participació (iniciatives, assemblees, processos o consultes) i enriquir-los a través dels múltiples components disponibles (trobades presencials, enquestes, propostes, votacions, seguiment de resultats, comentaris i molts més).
-      - question: Què pot fer un participant (usuari) de Decidim?
-        answer: >-
-          Decidim fa possible que milers de persones s'organitzin democràticament realitzant propostes, assistint a reunions públiques, creant discussions deliberatives, decidint mitjançant diferents formes de votació i monitoritzant la implementació de les decisions. Participants can also communicate between them through the networked communication Decidim functionalities.
-      - question: Vull provar Decidim ja, sense instal·lar-m'ho, per veure com funciona. Teniu una Demo?
-        answer: 'Si, tenim una [demo](/ca/demo).'
-      - question: Amb quina freqüència hi ha actualitzacions de la plataforma?
-        answer: >-
-          Cada mes, aproximadament, alliberem una nova versió. En [aquest enllaç](https://github.com/decidim/decidim/releases) pots consultar l'històric de versions.
-      - question: Què necessito per instal·lar Decidim?
-        answer: >-
-          Instal·lar Decidim és fàcil però necessites alguns coneixements i requeriments tècnics. Pots consultar el [tutorial d’instal·lació manual oficial](https://docs.decidim.org/en/install/).
-      - question: On puc trobar el roadmap del projecte i les funcionalitats planificades?
-        answer: Pots trobar el roadmap de noves funcionalitats del projecte a [GitHub](https://github.com/decidim/decidim/projects/16).
-      - question: 'Què significa que Decidim sigui gratuït, lliure i de codi obert?'
-        answer: >-
-          Decidim és una plataforma de participació ciutadana feta per persones i per a persones. El seu codi font és obert i pot ser inspeccionat, modificat i millorat per qualsevol. El programari Decidim està cobert per la [llicència AGPL](https://ca.wikipedia.org/wiki/GNU_Affero_General_Public_License). Això vol dir que el pots utilitzar, modificar i redistribuir les seves versions derivades, sempre que respectis la llicència AGPL.
-      - question: >-
-          Tinc idees de noves funcionalitats, de millora. Vull conèixer millor el projecte. Què puc fer?
-        answer: >-
-          You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report?locale=es). If you want to actively participate in the Metadecidim community, you can attend the monthly [Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat). Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-      - question: Tinc molts dubtes, de tot tipus...on els puc plantejar o resoldre?
-        answer: >-
-          La millor manera d'intentar resoldre àgilment els teus dubtes és a través de la comunitat Metadecidim. Entra ara en el procés [“Fòrum de Suport”](https://meta.decidim.org/processes/supportforum?locale=es) i fixa't si el teu dubte existeix o si ha estat resolt i en cas contrari entra per realitzar consultes. Si no aconsegueixes resoldre el teu assumpte en aquest espai, potser és moment de contactar amb nosaltres a través del [formulari de contacte](http://decidim.org/ca/contact).
-      - question: Existeix algun manual d'ajuda per començar a configurar-ho?
-        answer: >-
-          A l'apartat de [Documentació](https://decidim.org/ca/docs/) pots consultar l'última versió del nostre manual d'administrador.
-      - question: Què és el Contracte Social?
-        answer: >-
-          Així és com anomenem al nostre Codi de Garanties Democràtiques i Col·laboració Democràtica. Tots els membres de la comunitat han de adherir-se al [Contracte Social](http://decidim.org/ca/contract).
-      - question: Quines diferències hi ha amb el projecte Consul / Decide Madrid?
-        answer: >-
-          There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.
-      - question: Què és la comunitat Metadecidim?
-        answer: >-
-          [Metadecidim](http://meta.decidim.org) és la comunitat de Decidim que col·labora en el disseny de la plataforma i la construcció del projecte Decidim. Ens reunim periòdicament a través de les [SOM (Sessions Operatives Metadecidim)](https://meta.decidim.org/assemblies/eix-comunitat?locale=es) i dels [Seminaris LAB de recerca](https://meta.decidim.org/assemblies/eix-lab). Entra a [meta.decidim.org](http://meta.decidim.org) per seguir d'a prop les convocatòries i si vols unir-te a la comunitat, nosaltres encantades ;-)
-      - question: Puc participar en la comunitat Metadecidim encara que no resideixi a Barcelona?
-        answer: >-
-          Decidim és un projecte que neix a Barcelona i és per això que hi ha un vincle territorial fort amb aquest ciutat. Però sí, pots col·laborar en línia, a través dels processos participatius, debats, etc...que proporcionem en Metadecidim. Encara que potser vulguis venir a Barcelona alguna vegada :)
-      - question: Volem formalitzar un acord de col·laboració. Existeix alguna plantilla que puguem usar?
-        answer: Sí, tenim plantilles per formalitzar acords de col·laboració. [Posa't en contacte amb nosaltres](/ca/contact).
-      - question: A quin tipus de membres accepteu en la comunitat Metadecidim?
-        answer: A qualsevol que tingui bona fe i una actitud correcta cap a la col·laboració democràtica.
-      - question: Oferiu instal·lació gratuïta a organitzacions sense ànim de lucre?
-        answer: >-
-          Sí, solament si ets una organització amb seu a Barcelona. Envia'ns un missatge i la Direcció de Recerca, Desenvolupament i Innovació de l'Àrea de Drets de Ciutadania, Participació i Transparència de l'Ajuntament de Barcelona t'ajudarà.
-      - question: Recolzeu a les institucions?
-        answer: >-
-          Sí, però cal tenir paciència. Hi ha un munt d'institucions que volen usar Decidim en aquests moments i els estem ajudant pas a pas. [Posa't en contacte amb nosaltres](/ca/contact) per a qualsevol pregunta i et respondrem al més aviat possible.
-      - question: Què és l'Associació Decidim?
-        answer: >-
-          L'Associació de Programari Lliure Decidim (Associació Decidim) és una associació democràtica que s'encarrega de la governança de la comunitat Decidim.
-      - question: Com puc obtenir més informació sobre l'Associació Decidim?
-        answer: >-
-          A l['assemblea general de l'Associació Decidim](https://meta.decidim.org/assemblies/general-assembly-association) podràs conèixer-nos millor, seguir l'activitat de les trobades i consultar informació rellevant (estatuts, convenis, el reglament intern)
-      - question: Com em puc fer sòcia de l'Associació Decidim?
-        answer: >-
-          Ara les persones implicades en el projecte poden ser sòcies. [Aquí t'expliquem en detall com ho has de fer.](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=ca)
-      - question: Quan neix l'Associació Decidim?
-        answer: >-
-          L'Associació Decidim es funda [el 16 de febrer de 2019 a una assemblea extraordinària de la comunitat](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), amb l'aprovació dels estatuts.
-  legal-notice:
-    title: Legal notice
-    section-1:
-      title: Who we are
-      paragraph: >-
-        <p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>
-    section-2:
-      title: Purpose
-      paragraph: >-
-        <p>The purpose of this Website is to provide general information to the public about Decidim, its activities and technology, consisting in a free open-source participatory democracy platform for cities and organizations, and the management of the Decidim community generated around the world from our collaborative technology allowing the development of citizen and associative projects with greater social participation. You may freely test the Decidim platform with our online demo.</p> <p>The purpose of the terms of use of this Legal Notice is to govern the permitted use of this Website and the services and/or contents hosted in accordance with the Law 34/2002 on Information Society Services and Electronic Commerce and other applicable legal provisions.</p>
-    section-3:
-      title: Website use
-      paragraph: >-
-        <p>The access to this Website is free. No application form is required for browsing the information and/or contents of this Website in general terms. Otherwise, please refer to our <a href="%{privacy_policy_url}">Privacy Policy</a>.<p> <p>By accessing and using the Website, You are accepting the terms of use of this Legal Notice and You undertake to make proper, diligent and lawful use of the Website and, in particular: (i) use the Website for its intended purposes, i.e. information about our services, you will refrain from using the Website or its contents for illegal purposes, or for purposes that go against public order, morality and good customs; (ii) respect the intellectual and industrial property rights of the Website and its contents, as well as all rights that correspond to Decidim; (iii) not to reproduce, copy, convert, modify, distribute, publicly display or make available to the public the Website or any of its content or any modification thereof; (iv) You shall be liable for any loss or damage suffered by Decidim due to a direct or indirect misuse by You of the Website, the provisions of the "Legal Texts" (collectively referred to, this Legal Notice and the <a href="%{privacy_policy_url}">Privacy Policy</a>) and the applicable legislation.<p>
-    section-4:
-      title: Industrial and Intellectual Property
-      paragraph: >-
-        <p>All intellectual property rights over the contents of this Website including, but not limited to, images, trademarks, logos, distinctive signs, sounds and animations, texts, sound, visual or audiovisual recordings and databases are the property of Decidim or its licensors and are protected by national and international laws. Such rights are reserved in favor of Decidim and/or its licensors. The reproduction, copying, public communication, distribution, modification, transformation, elimination, manipulation and any other use, including the extraction and reuse, whether for profit or not, direct or indirect, temporary or permanent, of all or part of this Website or any of its contents, is expressly prohibited without the prior express written authorization of Decidim. We may take any legal and/or extrajudicial action it deems appropriate in the event of a possible violation of these rights.</p>
-    section-5:
-      title: Responsibility
-      paragraph: >-
-        <p>Decidim is not responsible for third party web pages that can be accessed from the Website, nor for the accuracy, veracity and validity of the information on the Website that is not of its own elaboration. However, pursuant to article 17 of Law 34/2002, in the event that Decidim becomes aware of the unlawfulness of such content or links, it undertakes to remove or disable them, as well as, where appropriate, to block any content that may be unlawful or violate the rights of any third party, in accordance with articles 11 and 16 of the aforementioned Law.</p> <p>Furthermore, Decidim is not responsible for any damage that may occur due to failures or misconfigurations in the browser installed by the user on his computer. Decidim is not responsible for any incident or technical failure caused by the user's connection to the Internet.</p> <p>Decidim will use its best efforts to effect, in the shortest period of time, updates and corrections of errors and deficiencies, including those occurring in the access and/or connection to the Website and/or its contents, but does not warrant the absence of interruptions, errors in the connection and/or access to the Website and update of its contents.</p> <p>You are liable for your use of and access to the Website. Decidim shall not be liable for the presence of viruses nor for security errors neither for the damages that may be caused to your devices or to the files or documents stored in such devices for the access and/or connection to the Website, neither for the damages caused to third parties by means of illegal intromissions out of Decidim control.</p> <p>Decidim shall not be liable for the breach of your obligations You accept when accessing this Website which are contained in this Legal Notice and, in particular, shall not be liable for any infringement of the intellectual property rights, copyright, advertising and image rights, or any other rights with regard to the goods and rights of any third party.</p>
-    section-6:
-      title: Modifications
-      paragraph: >-
-        <p>Decidim may modify this Legal Notice, the <a href="%{privacy_policy_url}">Privacy Policy</a> and/or any other text of contractual nature applicable to this Website without previous notice. Such modifications shall be effective at the moment of its publication on the Website.</p> <p>Decidim may also terminate or suspend the services of the Website at any time. Whenever is possible, Decidim will warn/alert previously about such termination or suspension through this Website.</p>
-    section-7:
-      title: Personal Data
-      paragraph: >-
-        <p>Your personal data collected on our Website or when you contact us through the contact form or by sending an email will be treated strictly in accordance with our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
-    section-8:
-      title: Cookies
-      paragraph: >-
-        <p>This Website does not use cookies. More information in our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
-    section-9:
-      title: Governing law and jurisdiction
-      paragraph: >-
-        <p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>
-  privacy-policy:
-    title: Privacy policy
-    section-1:
-      title: Introduction
-      paragraph: >-
-        <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
-    section-2:
-      title: Personal data we collect about you and how we use it
-      paragraph: >-
-        <h3>a. Data collected from surfing the Website</h3> <p>When using our website, <a href="%{decidim_url}">Decidim</a> uses the services of Plausible analysis software.  Its is software that, when tracking user data, this data is kept fully and securely encrypted. The purpose of Plausible Analytics is to track general traffic trends on your website and not individual visitors. Each HTTP request sends the IP address and user agent to the server, so that's what they use, generating an identifier that changes daily using the visitor's IP address and user agent. To anonymise this data, it is passed through a hash function with a rotating salt. This generates a random string of letters and numbers that is used to calculate the number of unique visitors for the day. The IP address of the raw data and the user agent are never stored in the logs, databases or anywhere on Plausible analytics disk. Older salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next.   In this way, no personal user data is collected while browsing our website, for more information about the data processing by Plausible Analytics, you can visit their website at <a href="https://plausible.io/privacy-focused-web-analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Data collected from our Demo</h3> <p>The access to the <a href="%{decidim_url}">Decidim</a> platform demo, available through the Website in the URL <a href="https://try.decidim.org/">https://try.decidim.org/</a> is anonymous, since it is done through generic credentials for testing and knowledge of the operation, features and capabilities of the <a href="%{decidim_url}">Decidim</a> platform by the users. <p>Only a session cookie ("Session_id") is activated, whose purpose is to obtain or establish the session id for the current session. This cookie is strictly necessary for the technical functionality of detecting the session in the Website in order to ensure the connection through http protocols and to keep the User's session and Web Site services available, and are exempted from User consent in accordance with Opinion 4/2012 on the exemption from the cookie consent requirement issued by the European Data Protection Authority.</p> <h3>c. Data collected from contact forms, emails or other communication means</h3> <p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p> <h3>d. Data collected from <a href="%{decidim_url}">Decidim</a> community</h3> <p><a href="%{decidim_url}">Decidim</a> uses other platforms linked to this Website  for the management of the <a href="%{decidim_url}">Decidim</a> community generated around our technology, as a meeting point for the <a href="%{decidim_url}">Decidim</a> community and where most of the activities and communications between users and <a href="%{decidim_url}">Decidim</a> take place. These platforms, such as <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> or GitHub (<a href="https://github.com/decidim/decidim">https://github.com/decidim/decidim</a>) are governed by their own terms of use and privacy policies.</p> <p>Notwithstanding, <a href="%{decidim_url}">Decidim</a> may process User's personal data collected from these platforms for the management of the community projects developed in those platforms respectively, in particular these personal data may consist in connection data to these platforms, User profile on the platform, and the content of the comments and remarks that the User may contribute to the <a href="%{decidim_url}">Decidim</a> projects from time to time. Please note that this information may be public and, consequently, accessible and visible to other Users.</p> <h3>e. Data collected from our associate members</h3> <p>Any person or organization that wants to participate freely in the <a href="%{decidim_url}">Decidim</a> community, attending debates, collaborating in the organization of events, promoting a working group or community days, as well as contributing to the code or documentation of our free open-source participatory democracy platform, management of instances, etc., can choose to become a member of <a href="%{decidim_url}">Decidim</a>, as long as they have demonstrated sufficient commitment to the community through the realization of any of the above activities. To do so, you must complete a form to submit your application, which will be evaluated by the <a href="%{decidim_url}">Decidim</a> Coordination Committee.</p> <p>The processing of <a href="%{decidim_url}">Decidim</a> members' personal data is carried out for the purpose of managing the aforementioned projects and activities in which the associate member participates, accounting management of membership fees and, in general, the governance of projects and activities of <a href="%{decidim_url}">Decidim</a>, in order to ensure compliance with the <a href="%{decidim_url}">Decidim</a>'s principles and values as well as the associates' duties and rights.</p>
-    section-3:
-      title: Legal basis
-      paragraph: >-
-        <p>The legal basis of our processing of personal data are the following:</p> <ul> <li>The processing of Users and associate data is necessary to perform the contract, consisting in the Users acceptance of the Legal Text of the Website, in order to provide them all the information about <a href="%{decidim_url}">Decidim</a> and its technology, projects and activities, as well as to allow them participating in the projects and activities carried out by <a href="%{decidim_url}">Decidim</a>.</li> <li>We may also process your personal data when you give us express consent to make publications about <a href="%{decidim_url}">Decidim</a> projects and activities in which you have participated, press releases or other forms of communication and dissemination of <a href="%{decidim_url}">Decidim</a>'s activities, as well as to receive particular information on a regular basis and/or when you contact us through the website contact form or by e-mail. </li> <li>Additionally, we may process your data on our legitimate interest to perform statistical studies or other knowledge generation techniques, implementing pseudonymization and, if possible, anonymization measures, such as data aggregation, in order to protect the privacy of Users, in accordance with art. 89 GDPR.</li> </ul> <p>In certain circumstances, we may process your data in accordance with this policy to comply with a legal or regulatory obligation to which we are subject.</p>
-    section-4:
-      title: Data disclosure
-      paragraph: >-
-        <p>We process your personal data confidentially in accordance with the applicable legislation. Unless stated otherwise, your personal data will not be provided to third parties. </p> <p>Specifically, we disclose your data as follows:</p> <ul> <li>We can give access to your personal data to our IT service providers under contracts for the provision of services in favour of <a href="%{decidim_url}">Decidim</a>. Among the others, Netlify, Inc., an American entity who provide to Us web hosting services. <a href="%{decidim_url}">Decidim</a> has subscribed with Netlify a <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Data Processing Agreement</a>, including the Standard Contractual Clauses currently approved by the European Commission, in order to ensure that your personal data are processed with all adequate guarantees. More information about how Netlify use your personal data may be consulted here: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a>. </li> <li>We can make the data available to the public administration or authorities to investigate suspicions of fraud, harassment or other violations of any law, rule or regulation, or the policies of the website.</li> </ul> <p>For more information about our service providers who make international transfers, please contact us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>
-    section-5:
-      title: Data retention
-      paragraph: >-
-        <p>We only keep your personal data for as long as it is necessary to fulfil the purposes for which we have collected them, even to comply with legal, accounting or information requirements.</p> <p>To determine the appropriate retention period for personal data, we consider the amount, nature and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which we process your personal data, if we can achieve those purposes through other means and the applicable legal requirements.</p>
-    section-6:
-      title: Security measures
-      paragraph: >-
-        <p>We implement security measures and personal data protection schemes as required by law to maintain the confidentiality and integrity of your data and protection against unauthorised access, modification or destruction. </p>
-    section-7:
-      title: Your rights
-      paragraph: >-
-        <p>You have rights under data protection laws in relation to your personal data. Specifically, you have the right to: </p> <ul> <li><b>Request access</b> to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</li> <li><b>Request correction</b> of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</li> <li><b>Request erasure</b> of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</li> <li><b>Object to processing</b> of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</li> <li><b>Request restriction of processing</b> of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data's accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</li> <li><b>Request the transfer</b> of your personal data to you or to a third party (right to data portability). We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</li> <li><b>Withdraw consent at any time</b> where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</li> </ul> <p>The aforementioned rights may be effective by contacting us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>. <p>You also have the right to make any complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spain.
-    section-8:
-      title: General
-      paragraph: >-
-        <p>We reserve the right to amend the terms of this Privacy Policy and will notify you by providing a clear notice of these changes by email or on our Website, and in this Privacy Policy. If you continue to use our services after such update, you will be deemed to accept the new terms. If you do not accept the update, please terminate your account or notify us and we will terminate your Account and remove any of your personal data (except as required to be maintained for legal purposes), and you will not be able to continue to use our services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>
+      region: Regions

@@ -1,421 +1,360 @@
+---
 cs:
-  path: '/cs'
-  activeLang: 'Čeština'
-  nav:
-    text: 'Navigace'
-    demo: 'Demo'
-    community: 'Komunita'
-    contract: 'Sociální smlouva'
-    code: 'Kód'
-    docs:
-      title: 'Dokumentace'
-      path: 'https://docs.decidim.org/'
-    blog: 'Blog'
-    features: 'Vlastnosti'
-    faqs: 'Časté dotazy'
-    contact: 'Kontakt'
-    used_by: 'Kde se používá'
-    partners: 'Spolupracující subjekty'
-    modules: 'Moduly'
-    press: 'Pro média'
-    legal-notice: 'Právní ustanovení'
-    privacy-policy: 'Zásady ochrany soukromí'
+  activeLang: Čeština
   alert:
-    title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21. a 22. října'
-    subtitle: 'Připojte se k výzvě'
+    desc: DecidimFest je intenzivní třídenní program aktivit věnovaný projektu Decidim, participativní demokracie a nástrojům otevřených zdrojů pro kolektivní inteligenci v éře globální demokracie.
     link: https://meta.decidim.org/conferences/DecidimFest21/f/1615/
-    desc: 'DecidimFest je intenzivní třídenní program aktivit věnovaný projektu Decidim, participativní demokracie a nástrojům otevřených zdrojů pro kolektivní inteligenci v éře globální demokracie.'
-  index:
-    hero:
-      heading: 'Participativní demokracie pro města a organizace s otevřeným kódem'
-      subheading: 'Decidim je digitální platforma<br/>pro participaci občanů'
-      intro: 'Dostupná a bezpečná technologie.<br/>Se všemi demokratickými zárukami.<br/>Přeprogramování demokracie je nyní možné s Decidim.'
-    video:
-      play: 'Přehrát video'
-      url: 'https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc'
-      close: 'Zavřít video'
-    subhero:
-      intro: 'Decidim pomáhá občanům, organizacím a veřejným institucím, aby se demokraticky organizovali v jakémkoliv rozsahu.'
-      feature1: 'Strategické<br/>plánování'
-      feature2: 'Účastnické<br/>sestavování rozpočtu'
-      feature3: 'Iniciativy a<br/>konzultace občanů'
-      feature4: 'Účastnické<br/>procesy'
-      feature5: 'Shromáždění'
-      feature6: 'Síťová komunikace<br/>'
-    used_by:
-      title: 'Již používají Decidim'
-      cta: 'Zobrazit vše'
-    cta:
-      title: 'začněte používat Decidim už dnes'
-    button:
-      code: 'Kód na Github'
-  footer:
-    supported_by: 'Podporováno'
-    attribution: '- Creative Commons By-SA'
+    subtitle: Připojte se k výzvě
+    title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21. a 22. října'
+  community:
+    bug:
+      cta: Vstupte a zúčastněte se
+      subtitle: Spolupráce za účelem postupného zlepšování
+      text: Každé nové vydání Decidim obsahuje nové funkce a vylepšení použitelnosti, ale ne všechno funguje na poprvé a mohou se objevit chyby. Zde můžete nahlásit chyby, které najdete a pomoci vývojářům je rychle opravit.
+      title: Nahlašte chybu
+    cta: Začněte
+    features:
+      cta: Vstupte a zúčastněte se
+      subtitle: Navrhujte a vyvíjejte Decidim pro všechny
+      text: Můžete vytvářet debaty o budoucnosti projektu Decidim nebo navrhovat nové funkce nebo vylepšení. Návrhy mohou obdržet potvrzení a komentáře, ukázat například zájem, který vzbuzují v komunitě a oceňují jejich rozvoj. Návrhy sponzora (např. městská rada nebo jakýkoli jiný subjekt), Pro projekt bude užitečný i pro hledání a poskytování nezbytných zdrojů pro jejich rozvoj.
+      title: Navrhněte nové funkce
+    img_alt: Fotografie komunity Decidim na Metadecidim setkání v roce 2016
+    intro: Metadecidim je komunita, která spolupracuje na návrhu platformy a výstavbě projektu. Společně můžeme navrhnout a vyvinout nové funkce a nahlásit chyby pro trvalé zlepšování platformy.
+    subtitle: Demokratická komunita, která řídí projekt Decidim ve všech jeho rozměrech
+    timeline:
+      step1:
+        text: Popis funkčnosti
+        title: Nový návrh
+      step2:
+        text: Technické a technopolitické ověření
+        title: Schválený návrh
+      step3:
+        text: Zdroje pro vývoj (sdílené či nesdílené)
+        title: Plánovaný návrh
+      step4:
+        text: Technický popis
+        title: Problém
+      step5:
+        text: Vývojový kód
+        title: Pull požadavek
+      step6:
+        text: Dostupné v další verzi
+        title: Funkce dokončena
+      title: Kolaborativní návrh funkcí
+    title: Metadecidim, naše komunita
+  contact:
+    bot_field: 'Nevyplňujte, pokud jste člověk:'
+    email: E-mail
+    entity: Subjekt
+    message: Zpráva
+    name: Jméno
+    send: Odeslat
+    subject: Předmět
+    title: Kontaktujte nás
   demo:
-    title: Online demo
+    button: Online demo
     p1: Zkoušejte a prozkoumejte zdarma platformu Decidim s naším online demo.
     p2: Decidim běží na několika instancích, které můžete navštívit a prozkoumat, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> v Barceloně nebo můžete navštívit stránky <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> a <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. Ale toto jsou skutečné případy, kdy opravdu nemůžete volně zkoušet, protože nejste občanem těchto obcí, a nemůžete tyto stránky prozkoumat jako správce.
     p3: Pokud chcete zjistit více, můžete vyzkoušet Decidim na našem zkušebním webu Decidim (díky laskavosti našich vývojářů z <a href="http://alabs.org" target="_blank">aLabs</a>). Vstupte do demo stránky a bez obav prozkoumejte potenciál Decidim a jeho funkce.
     p4: Můžete se přihlásit jako <strong>Admin</strong> (uživatelské jméno "<strong>admin@example.org</strong>" a heslo "<strong>decidim123456</strong>").
-    button: Online demo
-  community:
-    title: 'Metadecidim, naše komunita'
-    subtitle: 'Demokratická komunita, která řídí projekt Decidim ve všech jeho rozměrech'
-    intro: 'Metadecidim je komunita, která spolupracuje na návrhu platformy a výstavbě projektu. Společně můžeme navrhnout a vyvinout nové funkce a nahlásit chyby pro trvalé zlepšování platformy.'
-    cta: 'Začněte'
-    features:
-      title: 'Navrhněte nové funkce'
-      subtitle: 'Navrhujte a vyvíjejte Decidim pro všechny'
-      text: 'Můžete vytvářet debaty o budoucnosti projektu Decidim nebo navrhovat nové funkce nebo vylepšení. Návrhy mohou obdržet potvrzení a komentáře, ukázat například zájem, který vzbuzují v komunitě a oceňují jejich rozvoj. Návrhy sponzora (např. městská rada nebo jakýkoli jiný subjekt), Pro projekt bude užitečný i pro hledání a poskytování nezbytných zdrojů pro jejich rozvoj.'
-      cta: 'Vstupte a zúčastněte se'
-    bug:
-      title: 'Nahlašte chybu'
-      subtitle: 'Spolupráce za účelem postupného zlepšování'
-      text: 'Každé nové vydání Decidim obsahuje nové funkce a vylepšení použitelnosti, ale ne všechno funguje na poprvé a mohou se objevit chyby. Zde můžete nahlásit chyby, které najdete a pomoci vývojářům je rychle opravit.'
-      cta: 'Vstupte a zúčastněte se'
-    img_alt: 'Fotografie komunity Decidim na Metadecidim setkání v roce 2016'
-    timeline:
-      title: 'Kolaborativní návrh funkcí'
-      step1:
-        title: 'Nový návrh'
-        text: 'Popis funkčnosti'
-      step2:
-        title: 'Schválený návrh'
-        text: 'Technické a technopolitické ověření'
-      step3:
-        title: 'Plánovaný návrh'
-        text: 'Zdroje pro vývoj (sdílené či nesdílené)'
-      step4:
-        title: 'Problém'
-        text: 'Technický popis'
-      step5:
-        title: 'Pull požadavek'
-        text: 'Vývojový kód'
-      step6:
-        title: 'Funkce dokončena'
-        text: 'Dostupné v další verzi'
-  contact:
-    title: Kontaktujte nás
-    bot_field: "Nevyplňujte, pokud jste člověk:"
-    name: Jméno
-    entity: Subjekt
-    email: E-mail
-    subject: Předmět
-    message: Zpráva
-    send: Odeslat
-  thanks:
-    title: Děkujeme za váš e-mail
-    message: Děkujeme, že jste nás kontaktovali, brzy se k vám vrátíme.
+    title: Online demo
+  faqs:
+    questions:
+    - question: Co je Decidim?
+      answer: 'Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.'
+    - question: Kdo v současné době používá Decidim?
+      answer: V současné době jej využívají města a organizace. Ve skutečnosti ji může využít jakákoli skupina lidí, ať už je to nevládní organizace, univerzita, odbory, družstvo, sdružení sousedů atd. Prohlédněte si [kompletní seznam aktuálně aktivních instancí](/usedby/).
+    - question: Co může správce Decidim dělat?
+      answer: Snadno konfigurovatelné participační procesy. Chcete vytvořit strategický plán? Nebo diskutovat o nových vyhláškách? Nebo diskutovat o novém náměstí, nebo veřejné budově s cílem dosáhnout společného výsledku? Díky Decidim budete moci nakonfigurovat participační témata (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných složek (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).
+    - question: Co může účastník (uživatel) Decidim dělat?
+      answer: Decidim umožňuje tisícům lidí demokraticky se organizovat prostřednictvím návrhů, účastnit se veřejných setkání, podpora rozhodovacích jednání, rozhodování prostřednictvím různých forem hlasování a sledování provádění rozhodnutí.
+    - question: Máte Demo? Chci si vyzkoušet Decidim bez instalace a zjistit, jak funguje.
+      answer: Ano, máme [online demo](/demo).
+    - question: Jak často se platforma aktualizuje?
+      answer: Přibližně každý měsíc vydáváme novou verzi. Viz [záznam verzí](https://github.com/decidim/decidim/releases).
+    - question: Co potřebuji k instalaci Decidim?
+      answer: Instalace Decidim je jednoduchá, ale potřebujete nějaké znalosti a technické požadavky. Podívejte se na [dokumentaci pro instalaci Decidim](https://docs.decidim.org/en/install/).
+    - question: Kde najdu plán projektu a plánované prvky?
+      answer: Můžete je najít na [plán nových funkcí projektu na GitHub](https://github.com/decidim/decidim/projects/16).
+    - question: Co to znamená, že Decidim je zdarma, "svobodný" a s otevřenými zdroji?
+      answer: Decidim je platforma pro účast občanů a lidí. Jeho zdrojový kód je otevřený a může být kýmkoliv kontrolován, upraven a vylepšen. Aplikace Decidim je pokryta [licencí AGPL](https://en.ikipedia.org/wiki/GNU_Affero_General_Public_License). To znamená, že jej můžete používat, upravovat a šířit odvozené verze, pokud respektujete licenci AGPL.
+    - question: Mám nápady na nové vylepšení. Chci projektu lépe porozumět. Co mohu udělat?
+      answer: Můžete spolupracovat více způsoby. Jeden z nich je přes komunitu [Metadecidim](http://meta.decidim.org). Pokud chcete navrhnout nové funkce, [jděte sem](https://meta. decidim.org/processes/roadmap). Pokud jste zjistili chyby a chcete je oznámit, [přejděte na tento proces](https://meta.decidim.org/processes/bug-report?locale=es). Pokud se chcete aktivně účastnit Metadecidim komunity, můžete se účastnit [Metadecidim Operative Sessions](https://meta. ecidim.org/assemblies/eix-comunitat). Zaregistrujte se jako účastník komunity a zapojte se. Pokud máte svůj kód, [jděte na Github](https://github.com/decidim/decidim). Pokud se zajímáte jako výzkumník, můžete přijít do [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
+    - question: Mám mnoho pochybností všeho druhu...kde se na ně mohu zeptat nebo je vyřešit?
+      answer: Nejlepší způsob, jak rychle vyřešit své pochybnosti, je prostřednictvím Metadecidim komunity. Vstupte do procesu [fóra podpory](https://meta.decidim.org/processes/supportforum?locale=en) a podívejte se, zda vaše otázka existuje nebo zda byla zodpovězena a jinak zadejte pro položení otázek. Pokud nemůžete vyřešit svůj problém v tomto prostoru, možná je čas nás kontaktovat prostřednictvím [kontaktního formuláře](/contact).
+    - question: Je k dispozici nějaký návod k jeho nastavení?
+      answer: Nejnovější verzi naší admin příručky můžete zkontrolovat v [Documentation section](https://docs.decidim.org).
+    - question: Co je Sociální smlouva?
+      answer: Takto nazýváme náš Kodex demokratických záruk a demokratické spolupráce. Všichni členové komunity musí schválit [Sociální smlouvu](http://decidim.org/contract).
+    - question: Jaké jsou rozdíly proti projektu Consul Project / Decide Madrid?
+      answer: 'Existuje mnoho rozdílů: funkce, flexibilita, architektura, modularita atd. Máme [zveřejněný příspěvekt](/blog/2019-01-14-consul-comparison/) s odpověďmi na tuto otázku.'
+    - question: Co je to Metadecidim komunita?
+      answer: "[Metadecidim](http://meta.decidim.org) je komunita Decidim, která spolupracuje na návrhu platformy a výstavbě projektu Decidim. Pravidelně se setkáváme prostřednictvím [SOM (Metadecidim Operative Sessions)](https://meta.decidim.org/assemblies/eix-comunitat?locale=es) a [LAB Research Seminars](https://meta.decidim.org/assemblies/eix-lab). Přejděte na [meta.decidim.org](http://meta.decidim.org) a sledujte diskuse zblízka a pokud se chcete připojit k komunitě, jste vítaní ;-)"
+    - question: Mohu se připojit ke komunitě Metadecidim, i když nežiji v Barceloně?
+      answer: Decidim je projekt, který se narodil v Barceloně, a proto existuje silná územní vazba s tímto městem. Ale ano, můžete spolupracovat online, prostřednictvím participačních procesů, diskusí atd. .... , který poskytujeme v Metadecidim. I když budete chtít přijít někdy do Barcelony :)
+    - question: Chceme uzavřít formální dohodu o spolupráci. Existují nějaké šablony, které můžeme použít?
+      answer: Ano, máme šablony pro formalizaci dohod o spolupráci. [Kontaktujte nás](/contact).
+    - question: Jaké členy přijímáte v komunitě Metadecidim?
+      answer: Každý, kdo má dobrou víru a správný postoj k demokratické spolupráci.
+    - question: Poskytujete zdarma instalaci neziskovým organizacím?
+      answer: Ano, pouze v případě, že jste barcelonská organizace. Pošlete nám zprávu a budete vám nápomocni ředitelství pro výzkum, Rozvoj a inovace oblasti práv občanství, účast a transparentnost barcelonského městského zastupitelství.
+    - question: Podporujete instituce?
+      answer: Ano, ale musíte být trpěliví. Existuje mnoho institucí, které nyní chtějí použít Decidim a my jim pomáháme krok za krokem. [Kontaktujte nás](/contact) pro jakoukoli otázku a my vám odpovíme co nejdříve.
+    - question: Co je to Decidim asociace?
+      answer: '"Asociacion de Software Libre Decidim" (Decidim Free Software Association) je demokratické sdružení pro správu komunity Decidim.'
+    - question: Jak mohu získat více informací o sdružení Decidim?
+      answer: Ve [valné hromadě sdružení Decidim](https://meta.decidim.org/assemblies/General assembly-Association) můžete najít více informací, sledovat činnost schůzek a kontrolovat příslušné informace (stanovy, právní dohody, vnitřní nařízení)
+    - question: Jak se mohu stát členem sdružení Decidim?
+      answer: Lidé zapojení do projektu mohou být nyní partnery. [Zde podrobně vysvětlíme, co to znamená](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+    - question: Kdy sdružení Decidim vzniklo?
+      answer: Sdružení [Decidim bylo založeno 16. února 2019 na mimořádném shromáždění komunity](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169) se souhlasem stanov organizace.
+    title: Často kladené otázky
   features:
-    title: 'Vlastnosti'
-    intro: '<p>Můžete použít Decidim ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, sdružení, univerzita, nevládní organizace, odborový svaz, spolek, nebo družstvo...</p><p>Díky Decidim budete moci nakonfigurovat prostory pro účast (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných doplňků (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).</p>'
+    cta:
+      button: Funkce a vlastnosti
+      title: Zjistěte detailně, jak Decidim funguje
+    intro: "<p>Můžete použít Decidim ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, sdružení, univerzita, nevládní organizace, odborový svaz, spolek, nebo družstvo...</p><p>Díky Decidim budete moci nakonfigurovat prostory pro účast (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných doplňků (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).</p>"
     list:
-      n1:
-        title: 'Účastnické<br/>rozpočty'
-        content: 'Rozebírá předložené návrhy a podporuje nový způsob rozdělování společných zdrojů.'
-      n2:
-        title: 'Občanské iniciativy<br/>a konzultace'
-        content: 'Posilujte vaši komunitu prostřednictvím iniciativ občanů. Propagujte příslušné hlasování prostřednictvím konzultací.'
-      n3:
-        title: 'Síla<br/>politické sítě'
-        content: 'Vyžaduje to promyšlení, spolupráci a rozhodování v obrovském rozsahu, při kterém se tisíce lidí účastní v reálném čase.'
-      n4:
-        title: 'Demokratický<br/>a pružný systém'
-        content: 'Díky své modulární architektuře a škálovatelné logice můžete konfigurovat výkonný systém demokratické správy ve všech typech organizací.'
-      n5:
-        title: 'Demokracii<br/>bereme velmi vážně'
-        content: 'Decidim zajišťuje transparentnost, sledovatelnost a integritu informací jako nikdy předtím. Poskytuje bezpečnost a soukromí a důvěrnost všem účastníkům.'
-      n6:
-        title: "Je to na vás.<br/>Sdílejte. Zlepšete to."
-        content: 'Platforma navržená zcela se svobodným softwarem, otevřeným a kooperativním obsahem díky komunitě Metadecidim.'
       cta:
-        features: 'Zobrazit všechny funkce'
-        values: 'Přejít na sociální smlouvu'
+        features: Zobrazit všechny funkce
+        values: Přejít na sociální smlouvu
+      n1:
+        content: Rozebírá předložené návrhy a podporuje nový způsob rozdělování společných zdrojů.
+        title: Účastnické<br/>rozpočty
+      n2:
+        content: Posilujte vaši komunitu prostřednictvím iniciativ občanů. Propagujte příslušné hlasování prostřednictvím konzultací.
+        title: Občanské iniciativy<br/>a konzultace
+      n3:
+        content: Vyžaduje to promyšlení, spolupráci a rozhodování v obrovském rozsahu, při kterém se tisíce lidí účastní v reálném čase.
+        title: Síla<br/>politické sítě
+      n4:
+        content: Díky své modulární architektuře a škálovatelné logice můžete konfigurovat výkonný systém demokratické správy ve všech typech organizací.
+        title: Demokratický<br/>a pružný systém
+      n5:
+        content: Decidim zajišťuje transparentnost, sledovatelnost a integritu informací jako nikdy předtím. Poskytuje bezpečnost a soukromí a důvěrnost všem účastníkům.
+        title: Demokracii<br/>bereme velmi vážně
+      n6:
+        content: Platforma navržená zcela se svobodným softwarem, otevřeným a kooperativním obsahem díky komunitě Metadecidim.
+        title: Je to na vás.<br/>Sdílejte. Zlepšete to.
+    other:
+      subtitle: Zajímáme se o kombinaci komponent. Navrhujte a nasazujte mocný demokratický systém snadným způsobem a přizpůsobte jej potřebám vaší organizace
     page:
       feature1:
-        title: 'Participační procesy'
-        subtitle: 'demokratizovat společné problémy, krok za krokem'
-        text: >-
-          Proces je prostor, který umožňuje vytvářet, aktivovat/deaktivovat a spravovat různé participativní procesy. Rozlišují se od ostatních prostor tím, že jsou strukturovány v různých fázích, do nichž mohou být začleněny všechny součásti. Příklady participačních procesů jsou: volební proces pro členy výboru, participativní sestavování rozpočtu, proces strategického plánování, společné vypracování nařízení nebo normy, návrh městského prostoru nebo vypracování plánu veřejné politiky.
-      feature2:
-        title: 'Shromáždění'
-        subtitle: 'pravomoci kolektivní organizace'
-        text: >-
-          Je prostor, který nabízí možnost ustavit rozhodovací orgány nebo skupiny (rady, pracovní skupiny, výbory atd.) které se pravidelně scházejí s podrobnými údaji o složení, seznamu a místě svých zasedání, a umožňují jejich účast (například účast, pokud to dovoluje kapacita míst a povaha shromáždění, doplnění bodů na pořad jednání nebo připomínky k návrhům a rozhodnutím přijatým tímto orgánem).
-      feature3:
-        title: 'Konzultace'
-        subtitle: 'právo rozhodovat se všemi demokratickými zárukami'
-        text: >-
-          Konzultace jsou prostorem, který umožňuje koordinovat referenda, rozpoutat diskuse a debaty, zveřejňovat výsledky hlasování; může být připojen k zabezpečenému systému elektronického hlasování.
-      feature4:
-        title: 'Iniciativy'
-        subtitle: "nastavení agendy pro všechny, v dosahu všech"
-        text: >-
-          Iniciativy jsou prostorem, který účastníkům umožňuje společně vytvářet iniciativy, definovat jejich trajektorii a cíle, shromažďovat schválení, diskutovat, debatovat a šířit iniciativy a vymezovat místa zasedání, kde mohou být podpisy shromažďovány od účastníků nebo diskusí, které byly otevřeny ostatním členům organizace.
-      feature5:
-        title: 'Návrhy'
-        subtitle: 'vaše nápady podrobně'
-        text: >-
-          Komponenta návrhů umožňuje uživateli vytvořit návrh pomocí průvodce vytvořením a porovnat jej s existujícími, zveřejňuje jej na platformě a obsahuje další informace, jako je geolokace nebo přiložené dokumenty a obrázky. Tato komponenta vám také umožňuje navigovat, filtrovat a komunikovat se souborem návrhů. Kromě toho můžete s navrhovaným inkubátorem vytvořit společné návrhy.
-      feature6:
-        title: 'Hlasování'
-        subtitle: 'rozhodne váš hlas'
-        text: >-
-          Komponenta Hlasování nabízí organizacím možnost aktivovat různé hlasovací nebo podpůrné systémy kolem návrhů: neomezené, omezené na určitou prahovou hodnotu, vážené, zaměřené na náklady atd.
-      feature7:
-        title: 'Výsledky'
-        subtitle: 'žádný návrh nezůstane bez odpovědi'
-        text: >-
-          Komponenta Výsledky se používají k přeměně návrhů na výsledky a k oficiálním odpovědím týkajícím se jejich přijetí nebo odmítnutí, sloučení různých návrhů do jediného výsledku.
-      feature8:
-        title: 'Odpovědnost'
-        subtitle: 'transparentnost od začátku do konce'
-        text: >-
-          Komponenta Odpovědnosti nabízí možnost rozdělení výsledků na projekty, definování a uplatňování stavů pokroku při jejich provádění, a rovněž zobrazování rozsahu provádění výsledků seskupených podle kategorií a oblastí působnosti.
-      feature9:
-        title: 'Zasedání'
-        subtitle: 'potkat se a nenechat si nic ujít'
-        text: >-
-          Komponenta Schůzky nabízí organizacím a účastníkům možnost svolat zasedání, určit jejich polohu a čas, zaregistrují a omezují účastníky, definují strukturu a obsah zasedání, jakož i zveřejňují zápisy a výsledné návrhy.
+        subtitle: demokratizovat společné problémy, krok za krokem
+        text: 'Proces je prostor, který umožňuje vytvářet, aktivovat/deaktivovat a spravovat různé participativní procesy. Rozlišují se od ostatních prostor tím, že jsou strukturovány v různých fázích, do nichž mohou být začleněny všechny součásti. Příklady participačních procesů jsou: volební proces pro členy výboru, participativní sestavování rozpočtu, proces strategického plánování, společné vypracování nařízení nebo normy, návrh městského prostoru nebo vypracování plánu veřejné politiky.'
+        title: Participační procesy
       feature10:
-        title: 'Texty participace'
-        subtitle: 'analyzovat, syntetizovat a společně budovat'
-        text: >-
-          Komponenta Participativní texty lze použít k převodu zdlouhavých textových dokumentů na různé návrhy nebo výsledky a naopak, vytvořit a zobrazit jednotný text založený na souboru návrhů nebo výsledků.
+        subtitle: analyzovat, syntetizovat a společně budovat
+        text: Komponenta Participativní texty lze použít k převodu zdlouhavých textových dokumentů na různé návrhy nebo výsledky a naopak, vytvořit a zobrazit jednotný text založený na souboru návrhů nebo výsledků.
+        title: Texty participace
       feature11:
-        title: 'Konference'
-        subtitle: 'Kde jsou velké události poprvé představeny'
-        text: >-
-          Komponenta Konference umožňuje organizaci vytvořit webové stránky pro velkou událost připojením se k sérii předem definovaných schůzek (chaty, workshopy atd.), sestavování sjednoceného programu a řízení účastníků.
+        subtitle: Kde jsou velké události poprvé představeny
+        text: Komponenta Konference umožňuje organizaci vytvořit webové stránky pro velkou událost připojením se k sérii předem definovaných schůzek (chaty, workshopy atd.), sestavování sjednoceného programu a řízení účastníků.
+        title: Konference
       feature12:
-        title: 'Průzkumy'
-        subtitle: 'Protože na názoru vaší komunity záleží'
-        text: >-
-          Komponentu Průzkumy lze použít k navrhování a publikování průzkumů a k zobrazení a stažení jejich výsledků.
+        subtitle: Protože na názoru vaší komunity záleží
+        text: Komponentu Průzkumy lze použít k navrhování a publikování průzkumů a k zobrazení a stažení jejich výsledků.
+        title: Průzkumy
       feature13:
-        title: 'Losování'
-        subtitle: 'Rovnost a spravedlnost náhodnosti'
-        text: >-
-          Komponenta pro Losování umožňuje vybrat několik návrhů (např. zájemci o účast v porotě) s náhodnými, avšak reprodukovatelnými postupy, které zaručují nestranné a jednotné rozdělování.
+        subtitle: Rovnost a spravedlnost náhodnosti
+        text: Komponenta pro Losování umožňuje vybrat několik návrhů (např. zájemci o účast v porotě) s náhodnými, avšak reprodukovatelnými postupy, které zaručují nestranné a jednotné rozdělování.
+        title: Losování
       feature14:
-        title: 'Komentáře'
-        subtitle: 'Budování kolektivní inteligence'
-        text: >-
-          Komponenta komentářů umožňuje uživatelům přidávat komentáře, označit komentář jako oblíbený, proti připomínkám nebo neutrální v souvislosti s nimi, hlasovat o připomínkách, reagovat na ně a přijímat oznámení o odpovědích.
+        subtitle: Budování kolektivní inteligence
+        text: Komponenta komentářů umožňuje uživatelům přidávat komentáře, označit komentář jako oblíbený, proti připomínkám nebo neutrální v souvislosti s nimi, hlasovat o připomínkách, reagovat na ně a přijímat oznámení o odpovědích.
+        title: Komentáře
       feature15:
-        title: 'Stránky a blogy'
-        subtitle: 'Vaše komunita, informovaná a aktuální'
-        text: >-
-          Komponenta Stránky se používá k vytváření informativních stránek s bohatým formátováním textu, vloženými obrázky a videi. Komponenta blogu umožňuje tvorbu příspěvků nebo zpráv a jejich navigaci chronologicky.
+        subtitle: Vaše komunita, informovaná a aktuální
+        text: Komponenta Stránky se používá k vytváření informativních stránek s bohatým formátováním textu, vloženými obrázky a videi. Komponenta blogu umožňuje tvorbu příspěvků nebo zpráv a jejich navigaci chronologicky.
+        title: Stránky a blogy
       feature16:
-        title: 'Oznámení'
-        subtitle: 'Osobní informace o zajímavém obsahu'
-        text: >-
-          Decidim vám umožňuje sledovat každý prostor nebo komponentu, abyste mohli dostávat aktualizace pokaždé, když se tak stane.
+        subtitle: Osobní informace o zajímavém obsahu
+        text: Decidim vám umožňuje sledovat každý prostor nebo komponentu, abyste mohli dostávat aktualizace pokaždé, když se tak stane.
+        title: Oznámení
       feature17:
-        title: 'Zpravodaj'
-        subtitle: 'Jednoduchý, ale výkonný'
-        text: >-
-          Komponenta Zpravodaje umožňuje posílat e-maily všem registrovaným na platformě nebo selektivněji těm, kteří se účastní určitého prostoru.
+        subtitle: Jednoduchý, ale výkonný
+        text: Komponenta Zpravodaje umožňuje posílat e-maily všem registrovaným na platformě nebo selektivněji těm, kteří se účastní určitého prostoru.
+        title: Zpravodaj
+      feature2:
+        subtitle: pravomoci kolektivní organizace
+        text: Je prostor, který nabízí možnost ustavit rozhodovací orgány nebo skupiny (rady, pracovní skupiny, výbory atd.) které se pravidelně scházejí s podrobnými údaji o složení, seznamu a místě svých zasedání, a umožňují jejich účast (například účast, pokud to dovoluje kapacita míst a povaha shromáždění, doplnění bodů na pořad jednání nebo připomínky k návrhům a rozhodnutím přijatým tímto orgánem).
+        title: Shromáždění
+      feature3:
+        subtitle: právo rozhodovat se všemi demokratickými zárukami
+        text: Konzultace jsou prostorem, který umožňuje koordinovat referenda, rozpoutat diskuse a debaty, zveřejňovat výsledky hlasování; může být připojen k zabezpečenému systému elektronického hlasování.
+        title: Konzultace
+      feature4:
+        subtitle: nastavení agendy pro všechny, v dosahu všech
+        text: Iniciativy jsou prostorem, který účastníkům umožňuje společně vytvářet iniciativy, definovat jejich trajektorii a cíle, shromažďovat schválení, diskutovat, debatovat a šířit iniciativy a vymezovat místa zasedání, kde mohou být podpisy shromažďovány od účastníků nebo diskusí, které byly otevřeny ostatním členům organizace.
+        title: Iniciativy
+      feature5:
+        subtitle: vaše nápady podrobně
+        text: Komponenta návrhů umožňuje uživateli vytvořit návrh pomocí průvodce vytvořením a porovnat jej s existujícími, zveřejňuje jej na platformě a obsahuje další informace, jako je geolokace nebo přiložené dokumenty a obrázky. Tato komponenta vám také umožňuje navigovat, filtrovat a komunikovat se souborem návrhů. Kromě toho můžete s navrhovaným inkubátorem vytvořit společné návrhy.
+        title: Návrhy
+      feature6:
+        subtitle: rozhodne váš hlas
+        text: 'Komponenta Hlasování nabízí organizacím možnost aktivovat různé hlasovací nebo podpůrné systémy kolem návrhů: neomezené, omezené na určitou prahovou hodnotu, vážené, zaměřené na náklady atd.'
+        title: Hlasování
+      feature7:
+        subtitle: žádný návrh nezůstane bez odpovědi
+        text: Komponenta Výsledky se používají k přeměně návrhů na výsledky a k oficiálním odpovědím týkajícím se jejich přijetí nebo odmítnutí, sloučení různých návrhů do jediného výsledku.
+        title: Výsledky
+      feature8:
+        subtitle: transparentnost od začátku do konce
+        text: Komponenta Odpovědnosti nabízí možnost rozdělení výsledků na projekty, definování a uplatňování stavů pokroku při jejich provádění, a rovněž zobrazování rozsahu provádění výsledků seskupených podle kategorií a oblastí působnosti.
+        title: Odpovědnost
+      feature9:
+        subtitle: potkat se a nenechat si nic ujít
+        text: Komponenta Schůzky nabízí organizacím a účastníkům možnost svolat zasedání, určit jejich polohu a čas, zaregistrují a omezují účastníky, definují strukturu a obsah zasedání, jakož i zveřejňují zápisy a výsledné návrhy.
+        title: Zasedání
+    title: Vlastnosti
     type1:
-      title: 'Prostory pro účast'
-      subtitle: 'Aby účastníci předkládali návrhy a rozhodovali'
+      subtitle: Aby účastníci předkládali návrhy a rozhodovali
+      title: Prostory pro účast
     type2:
-      title: 'Komponenty'
-      subtitle: 'Pro účastníky a místa kde se setkají'
-    other:
-      subtitle: 'Zajímáme se o kombinaci komponent. Navrhujte a nasazujte mocný demokratický systém snadným způsobem a přizpůsobte jej potřebám vaší organizace'
+      subtitle: Pro účastníky a místa kde se setkají
+      title: Komponenty
+  footer:
+    attribution: "- Creative Commons By-SA"
+    supported_by: Podporováno
+  index:
+    button:
+      code: Kód na Github
     cta:
-      title: 'Zjistěte detailně, jak Decidim funguje'
-      button: 'Funkce a vlastnosti'
-  partners:
-    notice: Loga spolupracujících subjektů jsou duševním vlastnictvím příslušných držitelů autorských práv. Nespadají pod licenci <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA</a>, kterou je ošetřen zbytek obsahu webu.
+      title: začněte používat Decidim už dnes
+    hero:
+      heading: Participativní demokracie pro města a organizace s otevřeným kódem
+      intro: Dostupná a bezpečná technologie.<br/>Se všemi demokratickými zárukami.<br/>Přeprogramování demokracie je nyní možné s Decidim.
+      subheading: Decidim je digitální platforma<br/>pro participaci občanů
+    subhero:
+      feature1: Strategické<br/>plánování
+      feature2: Účastnické<br/>sestavování rozpočtu
+      feature3: Iniciativy a<br/>konzultace občanů
+      feature4: Účastnické<br/>procesy
+      feature5: Shromáždění
+      feature6: Síťová komunikace<br/>
+      intro: Decidim pomáhá občanům, organizacím a veřejným institucím, aby se demokraticky organizovali v jakémkoliv rozsahu.
+    used_by:
+      cta: Zobrazit vše
+      title: Již používají Decidim
+    video:
+      close: Zavřít video
+      play: Přehrát video
+      url: https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc
+  legal-notice:
+    section-1:
+      paragraph: '<p>Vstupujete na webovou stránku Associació de Software Lliure Decidim („Decidim“, „nás“ nebo „my“) dostupnou prostřednictvím webové domény <a href="https://decidim.org">https://decidim.org/</a> (dále jen „webová stránka“) se sídlem v Sant Adria, číslo 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Španělsko a identifikační číslo G67401174.<p><p><b >Můžete nás kontaktovat na: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
+      title: Kdo jsme
+    section-2:
+      paragraph: "<p>Účelem této webové stránky je poskytovat veřejnosti obecné informace o Decidim, Rozhodnutí Rady 2013/743/Eu ze dne 3. prosince 2013 o zavedení zvláštního programu, kterým se provádí Horizont 2020 –rámcový program pro výzkum a inovace (2014–2020), a o zrušení rozhodnutí 2006/971/Es, 2006/972/Es, 2006/973/Es, 2006/974/Es a 2006/975/Es (Úř. věst. a správa komunity Decidim vytvořené po celém světě z naší společné technologie umožňující rozvoj občanů a přidružených projektů s větší sociální účastí. S naším online demo můžete svobodně testovat platformu Decidim.</p> <p>Účelem podmínek používání tohoto právního oznámení je řídit povolené používání těchto webových stránek a služeb a/nebo obsahu v souladu se zákonem č. 34/2002 o službách informační společnosti a elektronickém obchodu a dalšími platnými právními předpisy.</p>"
+      title: Účel
+    section-3:
+      paragraph: '<p>Přístup na tento web je zdarma. Pro prohlížení informací a/nebo obsahu těchto webových stránek není obecně vyžadován žádný formulář žádosti. V opačném případě se podívejte na naše <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a>.<p> <p>Přístupem a používáním webových stránek, Přijímáte podmínky používání tohoto právního oznámení a zavazujete se, že učiníte správně, důsledné a zákonné používání webové stránky, a zejména: i) používat tuto webovou stránku k zamýšleným účelům, tj. informace o našich službách, nebudete používat webové stránky nebo jejich obsah pro nezákonné účely, nebo pro účely, které jsou v rozporu s veřejným pořádkem, morálkou a dobrými zvyky; ii) respektovat práva duševního a průmyslového vlastnictví webových stránek a jejich obsahu, jakož i všechna práva, která odpovídají rozhodování; iii) nereprodukovat, kopírovat, převádět, upravovat, distribuovat, veřejně zobrazovat nebo zpřístupňovat veřejnosti webovou stránku nebo jakýkoli její obsah nebo jakoukoli jeho změnu; iv) Odpovídáte za jakoukoli ztrátu nebo škodu, kterou jste utrpěli v důsledku přímého nebo nepřímého zneužití webové stránky, ustanovení „Právní texty“ (společně uvedená, toto právní oznámení a <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a>) a platné právní předpisy.<p>'
+      title: Použití webových stránek
+    section-4:
+      paragraph: "<p>Všechna práva duševního vlastnictví k obsahu této webové stránky, včetně obrázků, ochranných známek, log, rozlišovacích značek, zvuků a animací, texty, zvukové, vizuální nebo audiovizuální nahrávky a databáze jsou majetkem Decidim nebo jeho držitelů a jsou chráněny vnitrostátními a mezinárodními právními předpisy. Tato práva jsou vyhrazena ve prospěch společnosti Decidim a/nebo jejích držitelů. Reprodukce, kopírování, veřejná komunikace, distribuce, úprava, přeměna, odstranění, manipulace a jakékoli jiné použití, včetně extrakce a opakovaného použití, též pro zisk, přímé nebo nepřímé, dočasné nebo trvalé internetové stránky nebo jejich části, je výslovně zakázán bez předchozího výslovného písemného povolení Decidim. V případě možného porušení těchto práv můžeme podniknout jakékoli právní a/nebo mimosoudní žaloby, které považuje za vhodné.</p>"
+      title: Průmyslové a duševní vlastnictví
+    section-5:
+      paragraph: "<p>Decidim nenese odpovědnost za webové stránky třetích stran, které mohou být přístupné z webových stránek, ani z důvodu přesnosti, pravdivosti a platnosti informací na webových stránkách, které nejsou jeho vlastní zpracování. Avšak podle článku 17 zákona č. 34/2002, v případě, že se rozhodčí soud dozví o protiprávnosti takového obsahu nebo vazeb, zavazuje se k jejich odstranění nebo vypovězení, a případně zablokovat jakýkoli obsah, který může být nezákonný nebo porušující práva jakékoli třetí strany, v souladu s články 11 a 16 výše uvedeného zákona.</p> <p>Kromě toho Deidim není zodpovědný za žádné poškození, ke kterému může dojít v důsledku poruch nebo chybných konfigurací prohlížeče, který uživatel nainstaluje na svém počítači. Vyhlášení neodpovídá za žádný incident nebo technické selhání způsobené připojením uživatele k internetu.</p> <p>Decidim použije své maximální úsilí k tomu, aby v co nejkratší době provedl aktualizace a opravy chyb a nedostatků, včetně těch, které se vyskytují v přístupu k webové stránce a/nebo k jejímu obsahu, ale neopravňuje k absenci přerušení, chyb v připojení a/nebo přístupu k webové stránce a k aktualizaci jejího obsahu.</p> <p>Jste zodpovědní za používání a přístup k webu. Vyhlášení neodpovídá za přítomnost virů ani za bezpečnostní chyby ani za škody, které mohou být způsobeny vašim zařízením, nebo za škody, které mohou být způsobeny souborům či dokumentům uloženým v takových zařízeních, za účelem přístupu k těmto stránkám a/nebo jejich připojení, ani pro náhradu škody způsobené třetím stranám prostřednictvím nezákonných úvodů mimo kontrolu Decidim.</p> <p>Deklarace neodpovídá za porušení vašich povinností při přístupu na tyto webové stránky, které jsou obsaženy v tomto právním oznámení, a zejména neodpovídá za žádné porušení práv duševního vlastnictví, autorských práv, práva na reklamu a obraz nebo jakákoli jiná práva týkající se zboží a práv jakékoli třetí strany.</p>"
+      title: Odpovědnost
+    section-6:
+      paragraph: <p>Decidim může změnit toto právní oznámení, <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a> a/nebo jakýkoli jiný text smluvní povahy vztahující se na tyto webové stránky bez předchozího oznámení. Tyto změny musí být účinné v okamžiku zveřejnění na webové stránce.</p> <p>Vyhlášení může také kdykoliv ukončit nebo pozastavit služby webové stránky. Kdykoli je to možné, Decidim dříve upozorní na takové ukončení nebo pozastavení prostřednictvím této webové stránky.</p>
+      title: Úpravy
+    section-7:
+      paragraph: <p>S vašimi osobními údaji shromážděnými na našich webových stránkách nebo při kontaktování nás prostřednictvím kontaktního formuláře nebo zasláním e-mailu bude zacházeno přísně v souladu s našimi <a href="%{privacy_policy_url}">Zásadami ochrany osobních údajů</a>.</p>
+      title: Osobní údaje
+    section-8:
+      paragraph: <p>Tento web nepoužívá cookies. Více informací v našich <a href="%{privacy_policy_url}">Zásadách ochrany osobních údajů</a>.</p>
+      title: Cookies
+    section-9:
+      paragraph: '<p>Naše právní texty, včetně tohoto právního oznámení a našich <a href="%{privacy_policy_url}">Zásad ochrany osobních údajů</a>se řídí španělským právem. Soudy města Barcelona budou příslušné rozhodovat o jakémkoli sporu vyplývajícím z používání našich webových stránek.</p> <p><b>Poslední aktualizace</b>: únor 2022.</p>'
+      title: Rozhodné právo a příslušnost
+    title: Právní ustanovení
   modules:
     description: Popis
     explanation: Používáním modulů můžete rozšířit funkce Decidim a sdílet je s ostatními. Umožňují vám snadno aktualizovat v budoucnu. Podívejte se na <a href="https://docs.decidim.org/en/develop/modules/">dokumentaci pro vytvoření vašeho vlastního modulu</a>.
     image: Obrázek
     name: Jméno
     type:
-      community: Komunita
       auth: Autorizace
+      community: Komunita
       official: Oficiální
+  nav:
+    blog: Blog
+    code: Kód
+    community: Komunita
+    contact: Kontakt
+    contract: Sociální smlouva
+    demo: Demo
+    docs:
+      path: https://docs.decidim.org/
+      title: Dokumentace
+    faqs: Časté dotazy
+    features: Vlastnosti
+    legal-notice: Právní ustanovení
+    modules: Moduly
+    partners: Spolupracující subjekty
+    press: Pro média
+    privacy-policy: Zásady ochrany soukromí
+    text: Navigace
+    used_by: Kde se používá
+  partners:
+    notice: Loga spolupracujících subjektů jsou duševním vlastnictvím příslušných držitelů autorských práv. Nespadají pod licenci <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA</a>, kterou je ošetřen zbytek obsahu webu.
+  path: "/cs"
+  privacy-policy:
+    section-1:
+      paragraph: <p>Associacio© de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" nebo "my / nám") je vlastníkem této webové stránky, k dispozici prostřednictvím webové domény <a href="https://decidim.org/">https://decidim.org/</a> (dále jen „webová stránka“), a vystupuje jako správce údajů pro zpracování osobních údajů všech uživatelů webových stránek („vy/vám“, „uživatel“).</p> <p><a href="%{decidim_url}">Decidim</a> je odhodlán chránit soukromí všech uživatelů webových stránek, jeho společníků a členů komunity <a href="%{decidim_url}">Decidim</a>. Tyto zásady ochrany osobních údajů vysvětlují naše postupy týkající se používání osobních údajů shromážděných prostřednictvím webových stránek. včetně demo naší svobodné participativní demokratické platformy s otevřeným zdrojem, stejně jako zpracování údajů jednotlivců spojených s <a href="%{decidim_url}">Decidim</a> a správa <a href="%{decidim_url}">Decidim</a> komunity, buď na této webové stránce nebo na jiných platformách spravovaných <a href="%{decidim_url}">Decidim</a>.</p> <p>Tyto zásady ochrany osobních údajů jsou součástí našich právních textů spolu s <a href="%{legal_notice_url}">právním upozorněním</a>.</p>
+      title: Úvod
+    section-2:
+      paragraph: '<h3>a. Údaje shromážděné při procházení webových stránek</h3> <p>Při používání našich webových stránek <a href="%{decidim_url}">Decidim</a> využíváme služeb analytického softwaru Plausible. Jedná se o software, který při sledování uživatelských dat udržuje tato data plně a bezpečně šifrovaná. Účelem Plausible Analytics je sledovat obecné trendy návštěvnosti na vašem webu, nikoli jednotlivé návštěvníky. Každý požadavek HTTP posílá IP adresu a uživatelského agenta na server, takže to je to, co používají, generuje identifikátor, který se denně mění pomocí IP adresy návštěvníka a uživatelského agenta. Aby byla tato data anonymizována, jsou předávána přes hashovací funkci s rotující kryptografickou solí. Tím se vygeneruje náhodný řetězec písmen a čísel, který se používá k výpočtu počtu unikátních návštěvníků za daný den. IP adresa nezpracovaných dat a uživatelského agenta nejsou nikdy uloženy v protokolech, databázích ani kdekoli na disku Plausible analytics. Starší soli se mažou každých 24 hodin, aby se předešlo možnosti propojení informací o návštěvnících z jednoho dne na druhý. Tímto způsobem se při procházení našich webových stránek neshromažďují žádné osobní údaje o uživateli, pro více informací o zpracování údajů společností Plausible Analytics můžete navštívit jejich web na adrese <a href="https://plausible.io/privacy-focused-web -analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Údaje shromážděné z naší ukázky</h3> <p>Přístup k ukázce platformy <a href="%{decidim_url}">Decidim</a>, která je k dispozici prostřednictvím webové stránky na adrese URL <a href="https://try.decidim.org/">https://try.decidim.org/</a> je anonymní, protože se provádí prostřednictvím obecných přihlašovacích údajů pro testování a znalost provozu, funkcí a možností <a href= "%{decidim_url}">Decidim</a> platformě uživateli. <p>Je aktivován pouze soubor cookie relace ("Session_id"), jehož účelem je získat nebo stanovit ID relace pro aktuální relaci. Tento soubor cookie je nezbytně nutný pro technickou funkčnost detekce relace na Webu, aby bylo zajištěno připojení prostřednictvím protokolů http a aby byla relace uživatele a služby Webu k dispozici, a jsou osvobozeny od souhlasu uživatele v souladu se Stanoviskem 4/2012 o výjimce z požadavku souhlasu se soubory cookie vydaného Evropským úřadem pro ochranu údajů.</p> <h3>c. Údaje shromážděné z kontaktních formulářů, e-mailů nebo jiných komunikačních prostředků</h3> <p>Když nás lidé kontaktují prostřednictvím kontaktního formuláře, e-mailu nebo podobných komunikačních prostředků, automaticky shromáždíme následující informace: jméno, subjekt, e-mailovou adresu a obsah uživatelské zprávy, abychom se mohli zúčastnit vašich komentářů, žádostí, návrhů atd.</p> <p>Navíc můžeme tato data zpracovávat pro statistické studie pomocí pseudonymizačních a dokonce i anonymizačních technik, jako je agregace dat, abychom tomuto následnému zpracování zabránili od individuální identifikace uživatelů.</p> <h3>d. Data shromážděná z <a href="%{decidim_url}">komunity Decidim</a></h3> <p><a href="%{decidim_url}">Decidim</a> využívá jiné platformy propojené s tímto webem za správu komunity <a href="%{decidim_url}">Decidim</a> vytvořené kolem naší technologie, jako místo setkání komunity <a href="%{decidim_url}">Decidim</a> a kde se odehrává většina aktivit a komunikace mezi uživateli a <a href="%{decidim_url}">Decidim</a>. Tyto platformy, jako je <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> nebo GitHub (<a href="https://github. com/decidim/decidim">https://github.com/decidim/decidim</a>) se řídí svými vlastními podmínkami použití a zásadami ochrany osobních údajů.</p> <p>Nehledě na to, <a href="%{decidim_url}">Decidim</a> může zpracovávat osobní údaje uživatele shromážděné z těchto platforem za účelem správy komunitních projektů vyvinutých na těchto platformách, zejména tyto osobní údaje mohou spočívat v údajích o připojení k těmto platformám, profilu uživatele na platforma a obsah komentářů a poznámek, které může uživatel čas od času přispívat do projektů <a href="%{decidim_url}">Decidim</a>. Vezměte prosím na vědomí, že tyto informace mohou být veřejné a v důsledku toho přístupné a viditelné pro ostatní uživatele.</p> <h3>e. Údaje shromážděné od našich přidružených členů</h3> <p>Jakákoli osoba nebo organizace, která se chce svobodně zapojit do komunity <a href="%{decidim_url}">Decidim</a>, účastnit se diskusí, spolupracovat na organizaci akce, propagace pracovních skupin nebo dnů komunity, stejně jako přispívání do kódu nebo dokumentace naší bezplatné open-source platformy participativní demokracie, správa instancí atd., se mohou rozhodnout stát se členem <a href="%{decidim_url}">Decidim</a>, pokud prokázali dostatečný závazek vůči komunitě prostřednictvím realizace některé z výše uvedených aktivit. Chcete-li tak učinit, musíte vyplnit formulář pro odeslání žádosti, kterou vyhodnotí Koordinační výbor <a href="%{decidim_url}">Decidim</a>.</p> <p>Zpracování <p> a href="%{decidim_url}">Decidim</a> členů osobní údaje jsou prováděny za účelem řízení výše uvedených projektů a aktivit, na kterých se přidružený člen podílí, vedení účetnictví členských příspěvků a obecně řízení projektů a aktivit <a href="%{decidim_url}"> Decidim</a>, aby bylo zajištěno dodržování zásad a hodnot <a href="%{decidim_url}">Decidim</a> a také povinností a práv spolupracovníků.</p>'
+      title: Osobní údaje, které o Vás shromažďujeme a jak je používáme
+    section-3:
+      paragraph: <p>Právním základem našeho zpracování osobních údajů je následující:</p> <ul> <li>Zpracování Uživatelů a souvisejících údajů je nezbytné pro plnění smlouvy, spočívající v přijetí Právního textu ze strany Uživatelů webové stránky, abychom jim poskytli veškeré informace o <a href="%{decidim_url}">Decidim</a> a jejích technologiích, projektech a činnostech a také jim umožnili účastnit se projektů a prováděných činností od <a href="%{decidim_url}">Decidim</a>.</li> <li>Vaše osobní údaje můžeme také zpracovávat, když nám dáte výslovný souhlas se zveřejněním o <a href="%{decidim_url}">Decidim</a> projekty a aktivity, na kterých jste se podíleli, tiskové zprávy nebo jiné formy komunikace a šíření aktivit <a href="%{decidim_url}">Decidim</a> a také abychom pravidelně dostávali konkrétní informace a/nebo když nás kontaktujete prostřednictvím kontaktního formuláře na webu nebo e-mailem. </li> <li>Kromě toho můžeme zpracovávat vaše údaje na základě našeho oprávněného zájmu za účelem provádění statistických studií nebo jiných technik generování znalostí, zavádění pseudonymizačních a pokud možno anonymizačních opatření, jako je agregace dat, za účelem ochrany soukromí uživatelů v souladu s čl. 89 GDPR.</li> </ul> <p>Za určitých okolností můžeme zpracovávat vaše údaje v souladu s těmito zásadami, abychom splnili zákonnou nebo regulační povinnost, která se na nás vztahuje.</p>
+      title: Právní základ
+    section-4:
+      paragraph: '<p>Vaše osobní údaje zpracováváme důvěrně v souladu s platnou legislativou. Pokud není uvedeno jinak, nebudou Vaše osobní údaje poskytnuty třetím osobám. </p> <p>Vaše údaje zpřístupňujeme konkrétně následovně:</p> <ul> <li>Na základě smluv o poskytování služeb můžeme poskytnout přístup k vašim osobním údajům našim poskytovatelům IT služeb ve prospěch <a href="%{decidim_url}">Decidim</a>. Mimo jiné Netlify, Inc., americký subjekt, který nám poskytuje webhostingové služby. <a href="%{decidim_url}">Decidim</a> se přihlásil k odběru u Netlify <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Data Smlouva o zpracování</a>, včetně Standardních smluvních doložek aktuálně schválených Evropskou komisí, aby bylo zajištěno, že vaše osobní údaje budou zpracovávány se všemi odpovídajícími zárukami. Více informací o tom, jak Netlify používá vaše osobní údaje, najdete zde: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a >. </li> <li>Údaje můžeme zpřístupnit veřejné správě nebo úřadům za účelem prošetření podezření z podvodu, obtěžování nebo jiného porušení jakéhokoli zákona, pravidla nebo nařízení nebo zásad webu.</li> </ul> <p>Pro více informací o našich poskytovatelích služeb, kteří provádějí mezinárodní převody, nás prosím kontaktujte na adrese <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>'
+      title: Zveřejňování údajů
+    section-5:
+      paragraph: "<p>Vaše osobní údaje uchováváme pouze po dobu nezbytně nutnou k naplnění účelů, pro které jsme je shromáždili, a to i za účelem splnění zákonných, účetních nebo informačních požadavků.</p> <p>Pro určení vhodné doby uchovávání osobních údajů zvažujeme množství, povahu a citlivost osobních údajů, potenciální riziko újmy v důsledku neoprávněného použití nebo zveřejnění vašich osobních údajů, účely, pro které vaše osobní údaje zpracováváme, zda můžeme těchto účelů dosáhnout jinými prostředky, a platné právní požadavky.</p>"
+      title: Uchovávání údajů
+    section-6:
+      paragraph: "<p>Zavádíme bezpečnostní opatření a systémy ochrany osobních údajů podle právních předpisů pro zachování důvěrnosti a integrity vašich údajů a ochranu před neoprávněným přístupem, změnou nebo zničením. </p>"
+      title: Bezpečnostní opatření
+    section-7:
+      paragraph: '<p>V souvislosti s vašimi osobními údaji máte práva podle zákonů na ochranu údajů. Konkrétně máte právo: </p> <ul> <li><b>Požádat o přístup</b> ke svým osobním údajům (běžně známé jako „žádost o přístup subjektu údajů“). To vám umožní obdržet kopii osobních údajů, které o vás uchováváme, a zkontrolovat, zda je zpracováváme zákonným způsobem.</li> <li><b>Požádat o opravu</b> osobních údajů, které o vás uchováváme. To vám umožní opravit jakékoli neúplné nebo nepřesné údaje, které o vás máme, i když možná budeme muset ověřit přesnost nových údajů, které nám poskytnete.</li> <li><b>Požádat o vymazání</b> ze dne vaše osobní údaje. To vám umožňuje požádat nás o vymazání nebo odstranění osobních údajů, pokud neexistuje dobrý důvod, abychom je nadále zpracovávali. Máte také právo požádat nás o vymazání nebo odstranění vašich osobních údajů, pokud jste úspěšně uplatnili své právo vznést námitku proti zpracování (viz níže), kdy jsme mohli zpracovávat vaše údaje nezákonně nebo kdy jsme povinni vymazat vaše osobní údaje dodržovat místní zákony. Upozorňujeme však, že nemusíme být vždy schopni vyhovět vaší žádosti o vymazání z konkrétních právních důvodů, které vám budou případně oznámeny v době vaší žádosti.</li> <li><b>Námítky ke zpracování</b> vašich osobních údajů, pokud se spoléháme na oprávněný zájem (nebo zájmy třetí strany) a existuje něco ohledně vaší konkrétní situace, která vás nutí vznést námitku proti zpracování z tohoto důvodu, protože se domníváte, že to ovlivňuje o vašich základních právech a svobodách. Máte také právo vznést námitku tam, kde zpracováváme vaše osobní údaje pro účely přímého marketingu. V některých případech můžeme prokázat, že máme závažné legitimní důvody pro zpracování vašich údajů, které převažují nad vašimi právy a svobodami.</li> <li><b>Požádat o omezení zpracování</b> vašich osobních údajů. To vám umožňuje požádat nás o pozastavení zpracování vašich osobních údajů v následujících scénářích: (a) pokud chcete, abychom prokázali přesnost údajů; (b) pokud je naše použití údajů nezákonné, ale nechcete, abychom je vymazali; (c) pokud potřebujete, abychom údaje uchovávali, i když je již nepotřebujeme, protože je potřebujete pro stanovení, výkon nebo obhajobu právních nároků; nebo (d) vznesli jste námitku proti našemu používání vašich údajů, ale my potřebujeme ověřit, zda máme převažující oprávněné důvody k jejich použití.</li> <li><b>Požádejte o přenos</b> vašich osobních údajů k vám nebo třetí straně (právo na přenositelnost údajů). Vám nebo Vámi zvolené třetí straně poskytneme Vaše osobní údaje ve strukturovaném, běžně používaném, strojově čitelném formátu. Upozorňujeme, že toto právo se vztahuje pouze na automatizované informace, k jejichž použití jste nám původně poskytli souhlas nebo kde jsme tyto informace použili k plnění smlouvy s vámi.</li> <li><b>Souhlas můžete kdykoli odvolat</b> kde se spoléháme na souhlas se zpracováním vašich osobních údajů. To však neovlivní zákonnost jakéhokoli zpracování provedeného před odvoláním svého souhlasu. Pokud svůj souhlas odvoláte, je možné, že vám nebudeme moci poskytovat určité produkty nebo služby. Pokud se tak stane, upozorníme vás v okamžiku, kdy svůj souhlas odvoláte.</li> </ul> <p>Výše uvedená práva mohou být účinná, když nás kontaktujete na adrese <a href="mailto:privacy@decidim.org ">privacy@decidim.org</a>. <p>Máte také právo podat jakoukoli stížnost příslušnému orgánu, v tomto případě španělské agentuře pro ochranu údajů (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Španělsko.'
+      title: Vaše práva
+    section-8:
+      paragraph: "<p>Vyhrazujeme si právo změnit podmínky těchto Zásad ochrany osobních údajů a upozorníme vás jasným oznámením o těchto změnách e-mailem nebo na našich webových stránkách a v těchto Zásadách ochrany osobních údajů. Pokud budete po takové aktualizaci nadále používat naše služby, bude to považováno za přijetí nových podmínek. Pokud aktualizaci nepřijmete, ukončete prosím svůj účet nebo nám to oznamte a my ukončíme váš účet a odstraníme jakékoli vaše osobní údaje (kromě případů, kdy je to nutné pro zákonné účely), a nebudete moci nadále používat naše služby. </p> <p>Pokud konkrétní místní nařízení nestanoví jinak, zásady ochrany osobních údajů se řídí zákony Španělska.</p> <p><b>Poslední aktualizace</b>: únor 2022.</p>"
+      title: Obecná ustanovení
+    title: Zásady ochrany soukromí
+  testimonials:
+    n1:
+      org: Barcelonská radnice (2015–2019)
+      quote: Díky Decidim se nám v Barceloně podařilo společně s občany vytvořit strategický plán města. V roce 2016 jsme prostřednictvím Decidim Barcelony zahájili akční plán ve formě participačního procesu. V současné době tento plán obsahuje téměř 7 tisíc občanských návrhů. Jednou z výhod používání této platformy je, že můžete kdykoli sledovat stav provádění schválených návrhů.
+    n2:
+      org: Som Energia
+      quote: S implementací Decidim v Som Energia jsme vytvořili příjemný prostor pro občanskou participaci. Tento nástroj jsme uvolnili v roce 2018, za hostování valného shromáždění družstva a po pár měsících později jsme diskutovali o projektu přepracování vizuálního stylu a spolupracujícímu rozvoji School of Som Energia, kromě jiných participačních procesů. Za několik měsíců se zaregistrovalo více než 3500 účastníků, 5 participačních procesů, 3 shromáždění pracující a více než 1,300 hlasů při posledním hlasování Valného shromáždění.
+    n3:
+      org: Starosta města Mérida Yucatán, Mexiko, Městská rada Mérida Yucatán, Mexiko
+      quote: Digitální platforma Decide Mérida byla příležitostí, která se otevřela jako nikdy před mechanismy účasti občanů na vypracování plánu rozvoje měst Mérida 2018-2021. Měli jsme více než 3000 občanských interakcí včetně návrhů, připomínek, návrhy a podporu, aby bylo dosaženo co největšího konsenzu o tom, co je nejlepší pro naše město. Bezpochyby bude platforma „Decide Mérida“ i nadále naším spojencem při vytváření participativní společnosti města Mérida.
+    n4:
+      org: Město Helsinki
+      quote: Jsme si vědomi toho, že je vybudována s ohledem na demokracii, a proto je demokracie velkým zaměřením. Jádrem návrhu jsou demokratické principy, jako je zodpovědnost, rovnost a transparentnost.
+    n5:
+      org: Otevřená vláda Mexico City
+      quote: Téměř každý participativní proces, který se dostal k našemu stolu, jsme dokázali vyřešit pomocí pravidel pro podnikání Decidim. Jako nástroj je velmi silný. Avšak část, která se nám zdá nejsilnější a nejdůležitější, je její společenství, jak vývojářů, tak těch, kteří ji používají k participačním procesům. Díky spolupráci s nimi jsme si cenili výzev spojených s uplatňováním participativní demokracie v reálném světě.
+    n6:
+      org: Mozilla nadace
+      quote: Trpíme nedostatkem veřejného prostoru. Je obzvláště důležité, abychom tyto veřejné prostory získali zpět pro nás. Otevřené platformy, jako je Decidim, dělají přesně to. Je nejen to, že je open source, takže ostatní lidé ji mohou forknout, znovu použít a vybudovat proces. Má také ve způsobu, jakým je navržena, zakódovány tyto hodnoty, které chceme odrážet v naší společnosti.
+    n7:
+      org: OpenForum Europe Research Director, Evropská unie
+      quote: Proces byl zahájen v říjnu 2019 na oddělení Evropské komise pro komunikaci a elektronickou demokracii ve Společném výzkumném středisku, což je vědecká a znalostní služba Evropské komise. Analýza potřeb konference a toho, které nástroje jim odpovídají, vedla k výběru open source nástroje Decidim pro jeho technickou vyspělost, širokou komunitu a přizpůsobivost.
+  thanks:
+    message: Děkujeme, že jste nás kontaktovali, brzy se k vám vrátíme.
+    title: Děkujeme za váš e-mail
   used_by:
     explain: Tato města, regiony a organizace již používají Decidim
     type:
       city: Města
-      region: Regiony
       organizations: Organizace
-  testimonials:
-    n1:
-      quote: >-
-        Díky Decidim se nám v Barceloně podařilo společně s občany vytvořit strategický plán města. V roce 2016 jsme prostřednictvím Decidim Barcelony zahájili akční plán ve formě participačního procesu. V současné době tento plán obsahuje téměř 7 tisíc občanských návrhů. Jednou z výhod používání této platformy je, že můžete kdykoli sledovat stav provádění schválených návrhů.
-      org: Barcelonská radnice (2015–2019)
-    n2:
-      quote: >-
-        S implementací Decidim v Som Energia jsme vytvořili příjemný prostor pro občanskou participaci. Tento nástroj jsme uvolnili v roce 2018, za hostování valného shromáždění družstva a po pár měsících později jsme diskutovali o projektu přepracování vizuálního stylu a spolupracujícímu rozvoji School of Som Energia, kromě jiných participačních procesů. Za několik měsíců se zaregistrovalo více než 3500 účastníků, 5 participačních procesů, 3 shromáždění pracující a více než 1,300 hlasů při posledním hlasování Valného shromáždění.
-      org: Som Energia
-    n3:
-      quote: >-
-        Digitální platforma Decide Mérida byla příležitostí, která se otevřela jako nikdy před mechanismy účasti občanů na vypracování plánu rozvoje měst Mérida 2018-2021. Měli jsme více než 3000 občanských interakcí včetně návrhů, připomínek, návrhy a podporu, aby bylo dosaženo co největšího konsenzu o tom, co je nejlepší pro naše město. Bezpochyby bude platforma „Decide Mérida“ i nadále naším spojencem při vytváření participativní společnosti města Mérida.
-      org: Starosta města Mérida Yucatán, Mexiko, Městská rada Mérida Yucatán, Mexiko
-    n4:
-      quote: >-
-        Jsme si vědomi toho, že je vybudována s ohledem na demokracii, a proto je demokracie velkým zaměřením. Jádrem návrhu jsou demokratické principy, jako je zodpovědnost, rovnost a transparentnost.
-      org: Město Helsinki
-    n5:
-      quote: >-
-        Téměř každý participativní proces, který se dostal k našemu stolu, jsme dokázali vyřešit pomocí pravidel pro podnikání Decidim. Jako nástroj je velmi silný. Avšak část, která se nám zdá nejsilnější a nejdůležitější, je její společenství, jak vývojářů, tak těch, kteří ji používají k participačním procesům. Díky spolupráci s nimi jsme si cenili výzev spojených s uplatňováním participativní demokracie v reálném světě.
-      org: Otevřená vláda Mexico City
-    n6:
-      quote: >-
-        Trpíme nedostatkem veřejného prostoru. Je obzvláště důležité, abychom tyto veřejné prostory získali zpět pro nás. Otevřené platformy, jako je Decidim, dělají přesně to. Je nejen to, že je open source, takže ostatní lidé ji mohou forknout, znovu použít a vybudovat proces. Má také ve způsobu, jakým je navržena, zakódovány tyto hodnoty, které chceme odrážet v naší společnosti.
-      org: Mozilla nadace
-    n7:
-      quote: >-
-        Proces byl zahájen v říjnu 2019 na oddělení Evropské komise pro komunikaci a elektronickou demokracii ve Společném výzkumném středisku, což je vědecká a znalostní služba Evropské komise. Analýza potřeb konference a toho, které nástroje jim odpovídají, vedla k výběru open source nástroje Decidim pro jeho technickou vyspělost, širokou komunitu a přizpůsobivost.
-      org: OpenForum Europe Research Director, Evropská unie
-  faqs:
-    title: Často kladené otázky
-    questions:
-      - question: Co je Decidim?
-        answer: >-
-          Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.
-      - question: Kdo v současné době používá Decidim?
-        answer: >-
-          V současné době jej využívají města a organizace. Ve skutečnosti ji může využít jakákoli skupina lidí, ať už je to nevládní organizace, univerzita, odbory, družstvo, sdružení sousedů atd. Prohlédněte si [kompletní seznam aktuálně aktivních instancí](/usedby/).
-      - question: Co může správce Decidim dělat?
-        answer: >-
-          Snadno konfigurovatelné participační procesy. Chcete vytvořit strategický plán? Nebo diskutovat o nových vyhláškách? Nebo diskutovat o novém náměstí, nebo veřejné budově s cílem dosáhnout společného výsledku? Díky Decidim budete moci nakonfigurovat participační témata (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných složek (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).
-      - question: Co může účastník (uživatel) Decidim dělat?
-        answer: >-
-          Decidim umožňuje tisícům lidí demokraticky se organizovat prostřednictvím návrhů, účastnit se veřejných setkání, podpora rozhodovacích jednání, rozhodování prostřednictvím různých forem hlasování a sledování provádění rozhodnutí.
-      - question: Máte Demo? Chci si vyzkoušet Decidim bez instalace a zjistit, jak funguje.
-        answer: 'Ano, máme [online demo](/demo).'
-      - question: Jak často se platforma aktualizuje?
-        answer: >-
-          Přibližně každý měsíc vydáváme novou verzi. Viz [záznam verzí](https://github.com/decidim/decidim/releases).
-      - question: Co potřebuji k instalaci Decidim?
-        answer: >-
-          Instalace Decidim je jednoduchá, ale potřebujete nějaké znalosti a technické požadavky. Podívejte se na [dokumentaci pro instalaci Decidim](https://docs.decidim.org/en/install/).
-      - question: Kde najdu plán projektu a plánované prvky?
-        answer: Můžete je najít na [plán nových funkcí projektu na GitHub](https://github.com/decidim/decidim/projects/16).
-      - question: 'Co to znamená, že Decidim je zdarma, "svobodný" a s otevřenými zdroji?'
-        answer: >-
-          Decidim je platforma pro účast občanů a lidí. Jeho zdrojový kód je otevřený a může být kýmkoliv kontrolován, upraven a vylepšen. Aplikace Decidim je pokryta [licencí AGPL](https://en.ikipedia.org/wiki/GNU_Affero_General_Public_License). To znamená, že jej můžete používat, upravovat a šířit odvozené verze, pokud respektujete licenci AGPL.
-      - question: >-
-          Mám nápady na nové vylepšení. Chci projektu lépe porozumět. Co mohu udělat?
-        answer: >-
-          Můžete spolupracovat více způsoby. Jeden z nich je přes komunitu [Metadecidim](http://meta.decidim.org). Pokud chcete navrhnout nové funkce, [jděte sem](https://meta. decidim.org/processes/roadmap). Pokud jste zjistili chyby a chcete je oznámit, [přejděte na tento proces](https://meta.decidim.org/processes/bug-report?locale=es). Pokud se chcete aktivně účastnit Metadecidim komunity, můžete se účastnit [Metadecidim Operative Sessions](https://meta. ecidim.org/assemblies/eix-comunitat). Zaregistrujte se jako účastník komunity a zapojte se. Pokud máte svůj kód, [jděte na Github](https://github.com/decidim/decidim). Pokud se zajímáte jako výzkumník, můžete přijít do [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-      - question: Mám mnoho pochybností všeho druhu...kde se na ně mohu zeptat nebo je vyřešit?
-        answer: >-
-          Nejlepší způsob, jak rychle vyřešit své pochybnosti, je prostřednictvím Metadecidim komunity. Vstupte do procesu [fóra podpory](https://meta.decidim.org/processes/supportforum?locale=en) a podívejte se, zda vaše otázka existuje nebo zda byla zodpovězena a jinak zadejte pro položení otázek. Pokud nemůžete vyřešit svůj problém v tomto prostoru, možná je čas nás kontaktovat prostřednictvím [kontaktního formuláře](/contact).
-      - question: Je k dispozici nějaký návod k jeho nastavení?
-        answer: >-
-          Nejnovější verzi naší admin příručky můžete zkontrolovat v [Documentation section](https://docs.decidim.org).
-      - question: Co je Sociální smlouva?
-        answer: >-
-          Takto nazýváme náš Kodex demokratických záruk a demokratické spolupráce. Všichni členové komunity musí schválit [Sociální smlouvu](http://decidim.org/contract).
-      - question: Jaké jsou rozdíly proti projektu Consul Project / Decide Madrid?
-        answer: >-
-          Existuje mnoho rozdílů: funkce, flexibilita, architektura, modularita atd. Máme [zveřejněný příspěvekt](/blog/2019-01-14-consul-comparison/) s odpověďmi na tuto otázku.
-      - question: Co je to Metadecidim komunita?
-        answer: >-
-          [Metadecidim](http://meta.decidim.org) je komunita Decidim, která spolupracuje na návrhu platformy a výstavbě projektu Decidim. Pravidelně se setkáváme prostřednictvím [SOM (Metadecidim Operative Sessions)](https://meta.decidim.org/assemblies/eix-comunitat?locale=es) a [LAB Research Seminars](https://meta.decidim.org/assemblies/eix-lab). Přejděte na [meta.decidim.org](http://meta.decidim.org) a sledujte diskuse zblízka a pokud se chcete připojit k komunitě, jste vítaní ;-)
-      - question: Mohu se připojit ke komunitě Metadecidim, i když nežiji v Barceloně?
-        answer: >-
-          Decidim je projekt, který se narodil v Barceloně, a proto existuje silná územní vazba s tímto městem. Ale ano, můžete spolupracovat online, prostřednictvím participačních procesů, diskusí atd. .... , který poskytujeme v Metadecidim. I když budete chtít přijít někdy do Barcelony :)
-      - question: Chceme uzavřít formální dohodu o spolupráci. Existují nějaké šablony, které můžeme použít?
-        answer: Ano, máme šablony pro formalizaci dohod o spolupráci. [Kontaktujte nás](/contact).
-      - question: Jaké členy přijímáte v komunitě Metadecidim?
-        answer: Každý, kdo má dobrou víru a správný postoj k demokratické spolupráci.
-      - question: Poskytujete zdarma instalaci neziskovým organizacím?
-        answer: >-
-          Ano, pouze v případě, že jste barcelonská organizace. Pošlete nám zprávu a budete vám nápomocni ředitelství pro výzkum, Rozvoj a inovace oblasti práv občanství, účast a transparentnost barcelonského městského zastupitelství.
-      - question: Podporujete instituce?
-        answer: >-
-          Ano, ale musíte být trpěliví. Existuje mnoho institucí, které nyní chtějí použít Decidim a my jim pomáháme krok za krokem. [Kontaktujte nás](/contact) pro jakoukoli otázku a my vám odpovíme co nejdříve.
-      - question: Co je to Decidim asociace?
-        answer: >-
-          "Asociacion de Software Libre Decidim" (Decidim Free Software Association) je demokratické sdružení pro správu komunity Decidim.
-      - question: Jak mohu získat více informací o sdružení Decidim?
-        answer: >-
-          Ve [valné hromadě sdružení Decidim](https://meta.decidim.org/assemblies/General assembly-Association) můžete najít více informací, sledovat činnost schůzek a kontrolovat příslušné informace (stanovy, právní dohody, vnitřní nařízení)
-      - question: Jak se mohu stát členem sdružení Decidim?
-        answer: >-
-          Lidé zapojení do projektu mohou být nyní partnery. [Zde podrobně vysvětlíme, co to znamená](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
-      - question: Kdy sdružení Decidim vzniklo?
-        answer: >-
-          Sdružení [Decidim bylo založeno 16. února 2019 na mimořádném shromáždění komunity](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169) se souhlasem stanov organizace.
-  legal-notice:
-    title: Právní ustanovení
-    section-1:
-      title: Kdo jsme
-      paragraph: >-
-        <p>Vstupujete na webovou stránku Associació de Software Lliure Decidim („Decidim“, „nás“ nebo „my“) dostupnou prostřednictvím webové domény <a href="https://decidim.org">https://decidim.org/</a> (dále jen „webová stránka“) se sídlem v Sant Adria, číslo 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Španělsko a identifikační číslo G67401174.<p><p><b >Můžete nás kontaktovat na: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>
-    section-2:
-      title: Účel
-      paragraph: >-
-        <p>Účelem této webové stránky je poskytovat veřejnosti obecné informace o Decidim, Rozhodnutí Rady 2013/743/Eu ze dne 3. prosince 2013 o zavedení zvláštního programu, kterým se provádí Horizont 2020 –rámcový program pro výzkum a inovace (2014–2020), a o zrušení rozhodnutí 2006/971/Es, 2006/972/Es, 2006/973/Es, 2006/974/Es a 2006/975/Es (Úř. věst. a správa komunity Decidim vytvořené po celém světě z naší společné technologie umožňující rozvoj občanů a přidružených projektů s větší sociální účastí. S naším online demo můžete svobodně testovat platformu Decidim.</p> <p>Účelem podmínek používání tohoto právního oznámení je řídit povolené používání těchto webových stránek a služeb a/nebo obsahu v souladu se zákonem č. 34/2002 o službách informační společnosti a elektronickém obchodu a dalšími platnými právními předpisy.</p>
-    section-3:
-      title: Použití webových stránek
-      paragraph: >-
-        <p>Přístup na tento web je zdarma. Pro prohlížení informací a/nebo obsahu těchto webových stránek není obecně vyžadován žádný formulář žádosti. V opačném případě se podívejte na naše <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a>.<p> <p>Přístupem a používáním webových stránek, Přijímáte podmínky používání tohoto právního oznámení a zavazujete se, že učiníte správně, důsledné a zákonné používání webové stránky, a zejména: i) používat tuto webovou stránku k zamýšleným účelům, tj. informace o našich službách, nebudete používat webové stránky nebo jejich obsah pro nezákonné účely, nebo pro účely, které jsou v rozporu s veřejným pořádkem, morálkou a dobrými zvyky; ii) respektovat práva duševního a průmyslového vlastnictví webových stránek a jejich obsahu, jakož i všechna práva, která odpovídají rozhodování; iii) nereprodukovat, kopírovat, převádět, upravovat, distribuovat, veřejně zobrazovat nebo zpřístupňovat veřejnosti webovou stránku nebo jakýkoli její obsah nebo jakoukoli jeho změnu; iv) Odpovídáte za jakoukoli ztrátu nebo škodu, kterou jste utrpěli v důsledku přímého nebo nepřímého zneužití webové stránky, ustanovení „Právní texty“ (společně uvedená, toto právní oznámení a <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a>) a platné právní předpisy.<p>
-    section-4:
-      title: Průmyslové a duševní vlastnictví
-      paragraph: >-
-        <p>Všechna práva duševního vlastnictví k obsahu této webové stránky, včetně obrázků, ochranných známek, log, rozlišovacích značek, zvuků a animací, texty, zvukové, vizuální nebo audiovizuální nahrávky a databáze jsou majetkem Decidim nebo jeho držitelů a jsou chráněny vnitrostátními a mezinárodními právními předpisy. Tato práva jsou vyhrazena ve prospěch společnosti Decidim a/nebo jejích držitelů. Reprodukce, kopírování, veřejná komunikace, distribuce, úprava, přeměna, odstranění, manipulace a jakékoli jiné použití, včetně extrakce a opakovaného použití, též pro zisk, přímé nebo nepřímé, dočasné nebo trvalé internetové stránky nebo jejich části, je výslovně zakázán bez předchozího výslovného písemného povolení Decidim. V případě možného porušení těchto práv můžeme podniknout jakékoli právní a/nebo mimosoudní žaloby, které považuje za vhodné.</p>
-    section-5:
-      title: Odpovědnost
-      paragraph: >-
-        <p>Decidim nenese odpovědnost za webové stránky třetích stran, které mohou být přístupné z webových stránek, ani z důvodu přesnosti, pravdivosti a platnosti informací na webových stránkách, které nejsou jeho vlastní zpracování. Avšak podle článku 17 zákona č. 34/2002, v případě, že se rozhodčí soud dozví o protiprávnosti takového obsahu nebo vazeb, zavazuje se k jejich odstranění nebo vypovězení, a případně zablokovat jakýkoli obsah, který může být nezákonný nebo porušující práva jakékoli třetí strany, v souladu s články 11 a 16 výše uvedeného zákona.</p> <p>Kromě toho Deidim není zodpovědný za žádné poškození, ke kterému může dojít v důsledku poruch nebo chybných konfigurací prohlížeče, který uživatel nainstaluje na svém počítači. Vyhlášení neodpovídá za žádný incident nebo technické selhání způsobené připojením uživatele k internetu.</p> <p>Decidim použije své maximální úsilí k tomu, aby v co nejkratší době provedl aktualizace a opravy chyb a nedostatků, včetně těch, které se vyskytují v přístupu k webové stránce a/nebo k jejímu obsahu, ale neopravňuje k absenci přerušení, chyb v připojení a/nebo přístupu k webové stránce a k aktualizaci jejího obsahu.</p> <p>Jste zodpovědní za používání a přístup k webu. Vyhlášení neodpovídá za přítomnost virů ani za bezpečnostní chyby ani za škody, které mohou být způsobeny vašim zařízením, nebo za škody, které mohou být způsobeny souborům či dokumentům uloženým v takových zařízeních, za účelem přístupu k těmto stránkám a/nebo jejich připojení, ani pro náhradu škody způsobené třetím stranám prostřednictvím nezákonných úvodů mimo kontrolu Decidim.</p> <p>Deklarace neodpovídá za porušení vašich povinností při přístupu na tyto webové stránky, které jsou obsaženy v tomto právním oznámení, a zejména neodpovídá za žádné porušení práv duševního vlastnictví, autorských práv, práva na reklamu a obraz nebo jakákoli jiná práva týkající se zboží a práv jakékoli třetí strany.</p>
-    section-6:
-      title: Úpravy
-      paragraph: >-
-        <p>Decidim může změnit toto právní oznámení, <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a> a/nebo jakýkoli jiný text smluvní povahy vztahující se na tyto webové stránky bez předchozího oznámení. Tyto změny musí být účinné v okamžiku zveřejnění na webové stránce.</p> <p>Vyhlášení může také kdykoliv ukončit nebo pozastavit služby webové stránky. Kdykoli je to možné, Decidim dříve upozorní na takové ukončení nebo pozastavení prostřednictvím této webové stránky.</p>
-    section-7:
-      title: Osobní údaje
-      paragraph: >-
-        <p>S vašimi osobními údaji shromážděnými na našich webových stránkách nebo při kontaktování nás prostřednictvím kontaktního formuláře nebo zasláním e-mailu bude zacházeno přísně v souladu s našimi <a href="%{privacy_policy_url}">Zásadami ochrany osobních údajů</a>.</p>
-    section-8:
-      title: Cookies
-      paragraph: >-
-        <p>Tento web nepoužívá cookies. Více informací v našich <a href="%{privacy_policy_url}">Zásadách ochrany osobních údajů</a>.</p>
-    section-9:
-      title: Rozhodné právo a příslušnost
-      paragraph: >-
-        <p>Naše právní texty, včetně tohoto právního oznámení a našich <a href="%{privacy_policy_url}">Zásad ochrany osobních údajů</a>se řídí španělským právem. Soudy města Barcelona budou příslušné rozhodovat o jakémkoli sporu vyplývajícím z používání našich webových stránek.</p> <p><b>Poslední aktualizace</b>: únor 2022.</p>
-  privacy-policy:
-    title: Zásady ochrany soukromí
-    section-1:
-      title: Úvod
-      paragraph: >-
-        <p>Associacio© de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" nebo "my / nám") je vlastníkem této webové stránky, k dispozici prostřednictvím webové domény <a href="https://decidim.org/">https://decidim.org/</a> (dále jen „webová stránka“), a vystupuje jako správce údajů pro zpracování osobních údajů všech uživatelů webových stránek („vy/vám“, „uživatel“).</p> <p><a href="%{decidim_url}">Decidim</a> je odhodlán chránit soukromí všech uživatelů webových stránek, jeho společníků a členů komunity <a href="%{decidim_url}">Decidim</a>. Tyto zásady ochrany osobních údajů vysvětlují naše postupy týkající se používání osobních údajů shromážděných prostřednictvím webových stránek. včetně demo naší svobodné participativní demokratické platformy s otevřeným zdrojem, stejně jako zpracování údajů jednotlivců spojených s <a href="%{decidim_url}">Decidim</a> a správa <a href="%{decidim_url}">Decidim</a> komunity, buď na této webové stránce nebo na jiných platformách spravovaných <a href="%{decidim_url}">Decidim</a>.</p> <p>Tyto zásady ochrany osobních údajů jsou součástí našich právních textů spolu s <a href="%{legal_notice_url}">právním upozorněním</a>.</p>
-    section-2:
-      title: Osobní údaje, které o Vás shromažďujeme a jak je používáme
-      paragraph: >-
-        <h3>a. Údaje shromážděné při procházení webových stránek</h3> <p>Při používání našich webových stránek <a href="%{decidim_url}">Decidim</a> využíváme služeb analytického softwaru Plausible. Jedná se o software, který při sledování uživatelských dat udržuje tato data plně a bezpečně šifrovaná. Účelem Plausible Analytics je sledovat obecné trendy návštěvnosti na vašem webu, nikoli jednotlivé návštěvníky. Každý požadavek HTTP posílá IP adresu a uživatelského agenta na server, takže to je to, co používají, generuje identifikátor, který se denně mění pomocí IP adresy návštěvníka a uživatelského agenta. Aby byla tato data anonymizována, jsou předávána přes hashovací funkci s rotující kryptografickou solí. Tím se vygeneruje náhodný řetězec písmen a čísel, který se používá k výpočtu počtu unikátních návštěvníků za daný den. IP adresa nezpracovaných dat a uživatelského agenta nejsou nikdy uloženy v protokolech, databázích ani kdekoli na disku Plausible analytics. Starší soli se mažou každých 24 hodin, aby se předešlo možnosti propojení informací o návštěvnících z jednoho dne na druhý. Tímto způsobem se při procházení našich webových stránek neshromažďují žádné osobní údaje o uživateli, pro více informací o zpracování údajů společností Plausible Analytics můžete navštívit jejich web na adrese <a href="https://plausible.io/privacy-focused-web -analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Údaje shromážděné z naší ukázky</h3> <p>Přístup k ukázce platformy <a href="%{decidim_url}">Decidim</a>, která je k dispozici prostřednictvím webové stránky na adrese URL <a href="https://try.decidim.org/">https://try.decidim.org/</a> je anonymní, protože se provádí prostřednictvím obecných přihlašovacích údajů pro testování a znalost provozu, funkcí a možností <a href= "%{decidim_url}">Decidim</a> platformě uživateli. <p>Je aktivován pouze soubor cookie relace ("Session_id"), jehož účelem je získat nebo stanovit ID relace pro aktuální relaci. Tento soubor cookie je nezbytně nutný pro technickou funkčnost detekce relace na Webu, aby bylo zajištěno připojení prostřednictvím protokolů http a aby byla relace uživatele a služby Webu k dispozici, a jsou osvobozeny od souhlasu uživatele v souladu se Stanoviskem 4/2012 o výjimce z požadavku souhlasu se soubory cookie vydaného Evropským úřadem pro ochranu údajů.</p> <h3>c. Údaje shromážděné z kontaktních formulářů, e-mailů nebo jiných komunikačních prostředků</h3> <p>Když nás lidé kontaktují prostřednictvím kontaktního formuláře, e-mailu nebo podobných komunikačních prostředků, automaticky shromáždíme následující informace: jméno, subjekt, e-mailovou adresu a obsah uživatelské zprávy, abychom se mohli zúčastnit vašich komentářů, žádostí, návrhů atd.</p> <p>Navíc můžeme tato data zpracovávat pro statistické studie pomocí pseudonymizačních a dokonce i anonymizačních technik, jako je agregace dat, abychom tomuto následnému zpracování zabránili od individuální identifikace uživatelů.</p> <h3>d. Data shromážděná z <a href="%{decidim_url}">komunity Decidim</a></h3> <p><a href="%{decidim_url}">Decidim</a> využívá jiné platformy propojené s tímto webem za správu komunity <a href="%{decidim_url}">Decidim</a> vytvořené kolem naší technologie, jako místo setkání komunity <a href="%{decidim_url}">Decidim</a> a kde se odehrává většina aktivit a komunikace mezi uživateli a <a href="%{decidim_url}">Decidim</a>. Tyto platformy, jako je <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> nebo GitHub (<a href="https://github. com/decidim/decidim">https://github.com/decidim/decidim</a>) se řídí svými vlastními podmínkami použití a zásadami ochrany osobních údajů.</p> <p>Nehledě na to, <a href="%{decidim_url}">Decidim</a> může zpracovávat osobní údaje uživatele shromážděné z těchto platforem za účelem správy komunitních projektů vyvinutých na těchto platformách, zejména tyto osobní údaje mohou spočívat v údajích o připojení k těmto platformám, profilu uživatele na platforma a obsah komentářů a poznámek, které může uživatel čas od času přispívat do projektů <a href="%{decidim_url}">Decidim</a>. Vezměte prosím na vědomí, že tyto informace mohou být veřejné a v důsledku toho přístupné a viditelné pro ostatní uživatele.</p> <h3>e. Údaje shromážděné od našich přidružených členů</h3> <p>Jakákoli osoba nebo organizace, která se chce svobodně zapojit do komunity <a href="%{decidim_url}">Decidim</a>, účastnit se diskusí, spolupracovat na organizaci akce, propagace pracovních skupin nebo dnů komunity, stejně jako přispívání do kódu nebo dokumentace naší bezplatné open-source platformy participativní demokracie, správa instancí atd., se mohou rozhodnout stát se členem <a href="%{decidim_url}">Decidim</a>, pokud prokázali dostatečný závazek vůči komunitě prostřednictvím realizace některé z výše uvedených aktivit. Chcete-li tak učinit, musíte vyplnit formulář pro odeslání žádosti, kterou vyhodnotí Koordinační výbor <a href="%{decidim_url}">Decidim</a>.</p> <p>Zpracování <p> a href="%{decidim_url}">Decidim</a> členů osobní údaje jsou prováděny za účelem řízení výše uvedených projektů a aktivit, na kterých se přidružený člen podílí, vedení účetnictví členských příspěvků a obecně řízení projektů a aktivit <a href="%{decidim_url}"> Decidim</a>, aby bylo zajištěno dodržování zásad a hodnot <a href="%{decidim_url}">Decidim</a> a také povinností a práv spolupracovníků.</p>
-    section-3:
-      title: Právní základ
-      paragraph: >-
-        <p>Právním základem našeho zpracování osobních údajů je následující:</p> <ul> <li>Zpracování Uživatelů a souvisejících údajů je nezbytné pro plnění smlouvy, spočívající v přijetí Právního textu ze strany Uživatelů webové stránky, abychom jim poskytli veškeré informace o <a href="%{decidim_url}">Decidim</a> a jejích technologiích, projektech a činnostech a také jim umožnili účastnit se projektů a prováděných činností od <a href="%{decidim_url}">Decidim</a>.</li> <li>Vaše osobní údaje můžeme také zpracovávat, když nám dáte výslovný souhlas se zveřejněním o <a href="%{decidim_url}">Decidim</a> projekty a aktivity, na kterých jste se podíleli, tiskové zprávy nebo jiné formy komunikace a šíření aktivit <a href="%{decidim_url}">Decidim</a> a také abychom pravidelně dostávali konkrétní informace a/nebo když nás kontaktujete prostřednictvím kontaktního formuláře na webu nebo e-mailem. </li> <li>Kromě toho můžeme zpracovávat vaše údaje na základě našeho oprávněného zájmu za účelem provádění statistických studií nebo jiných technik generování znalostí, zavádění pseudonymizačních a pokud možno anonymizačních opatření, jako je agregace dat, za účelem ochrany soukromí uživatelů v souladu s čl. 89 GDPR.</li> </ul> <p>Za určitých okolností můžeme zpracovávat vaše údaje v souladu s těmito zásadami, abychom splnili zákonnou nebo regulační povinnost, která se na nás vztahuje.</p>
-    section-4:
-      title: Zveřejňování údajů
-      paragraph: >-
-        <p>Vaše osobní údaje zpracováváme důvěrně v souladu s platnou legislativou. Pokud není uvedeno jinak, nebudou Vaše osobní údaje poskytnuty třetím osobám. </p> <p>Vaše údaje zpřístupňujeme konkrétně následovně:</p> <ul> <li>Na základě smluv o poskytování služeb můžeme poskytnout přístup k vašim osobním údajům našim poskytovatelům IT služeb ve prospěch <a href="%{decidim_url}">Decidim</a>. Mimo jiné Netlify, Inc., americký subjekt, který nám poskytuje webhostingové služby. <a href="%{decidim_url}">Decidim</a> se přihlásil k odběru u Netlify <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Data Smlouva o zpracování</a>, včetně Standardních smluvních doložek aktuálně schválených Evropskou komisí, aby bylo zajištěno, že vaše osobní údaje budou zpracovávány se všemi odpovídajícími zárukami. Více informací o tom, jak Netlify používá vaše osobní údaje, najdete zde: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a >. </li> <li>Údaje můžeme zpřístupnit veřejné správě nebo úřadům za účelem prošetření podezření z podvodu, obtěžování nebo jiného porušení jakéhokoli zákona, pravidla nebo nařízení nebo zásad webu.</li> </ul> <p>Pro více informací o našich poskytovatelích služeb, kteří provádějí mezinárodní převody, nás prosím kontaktujte na adrese <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>
-    section-5:
-      title: Uchovávání údajů
-      paragraph: >-
-        <p>Vaše osobní údaje uchováváme pouze po dobu nezbytně nutnou k naplnění účelů, pro které jsme je shromáždili, a to i za účelem splnění zákonných, účetních nebo informačních požadavků.</p> <p>Pro určení vhodné doby uchovávání osobních údajů zvažujeme množství, povahu a citlivost osobních údajů, potenciální riziko újmy v důsledku neoprávněného použití nebo zveřejnění vašich osobních údajů, účely, pro které vaše osobní údaje zpracováváme, zda můžeme těchto účelů dosáhnout jinými prostředky, a platné právní požadavky.</p>
-    section-6:
-      title: Bezpečnostní opatření
-      paragraph: >-
-        <p>Zavádíme bezpečnostní opatření a systémy ochrany osobních údajů podle právních předpisů pro zachování důvěrnosti a integrity vašich údajů a ochranu před neoprávněným přístupem, změnou nebo zničením. </p>
-    section-7:
-      title: Vaše práva
-      paragraph: >-
-        <p>V souvislosti s vašimi osobními údaji máte práva podle zákonů na ochranu údajů. Konkrétně máte právo: </p> <ul> <li><b>Požádat o přístup</b> ke svým osobním údajům (běžně známé jako „žádost o přístup subjektu údajů“). To vám umožní obdržet kopii osobních údajů, které o vás uchováváme, a zkontrolovat, zda je zpracováváme zákonným způsobem.</li> <li><b>Požádat o opravu</b> osobních údajů, které o vás uchováváme. To vám umožní opravit jakékoli neúplné nebo nepřesné údaje, které o vás máme, i když možná budeme muset ověřit přesnost nových údajů, které nám poskytnete.</li> <li><b>Požádat o vymazání</b> ze dne vaše osobní údaje. To vám umožňuje požádat nás o vymazání nebo odstranění osobních údajů, pokud neexistuje dobrý důvod, abychom je nadále zpracovávali. Máte také právo požádat nás o vymazání nebo odstranění vašich osobních údajů, pokud jste úspěšně uplatnili své právo vznést námitku proti zpracování (viz níže), kdy jsme mohli zpracovávat vaše údaje nezákonně nebo kdy jsme povinni vymazat vaše osobní údaje dodržovat místní zákony. Upozorňujeme však, že nemusíme být vždy schopni vyhovět vaší žádosti o vymazání z konkrétních právních důvodů, které vám budou případně oznámeny v době vaší žádosti.</li> <li><b>Námítky ke zpracování</b> vašich osobních údajů, pokud se spoléháme na oprávněný zájem (nebo zájmy třetí strany) a existuje něco ohledně vaší konkrétní situace, která vás nutí vznést námitku proti zpracování z tohoto důvodu, protože se domníváte, že to ovlivňuje o vašich základních právech a svobodách. Máte také právo vznést námitku tam, kde zpracováváme vaše osobní údaje pro účely přímého marketingu. V některých případech můžeme prokázat, že máme závažné legitimní důvody pro zpracování vašich údajů, které převažují nad vašimi právy a svobodami.</li> <li><b>Požádat o omezení zpracování</b> vašich osobních údajů. To vám umožňuje požádat nás o pozastavení zpracování vašich osobních údajů v následujících scénářích: (a) pokud chcete, abychom prokázali přesnost údajů; (b) pokud je naše použití údajů nezákonné, ale nechcete, abychom je vymazali; (c) pokud potřebujete, abychom údaje uchovávali, i když je již nepotřebujeme, protože je potřebujete pro stanovení, výkon nebo obhajobu právních nároků; nebo (d) vznesli jste námitku proti našemu používání vašich údajů, ale my potřebujeme ověřit, zda máme převažující oprávněné důvody k jejich použití.</li> <li><b>Požádejte o přenos</b> vašich osobních údajů k vám nebo třetí straně (právo na přenositelnost údajů). Vám nebo Vámi zvolené třetí straně poskytneme Vaše osobní údaje ve strukturovaném, běžně používaném, strojově čitelném formátu. Upozorňujeme, že toto právo se vztahuje pouze na automatizované informace, k jejichž použití jste nám původně poskytli souhlas nebo kde jsme tyto informace použili k plnění smlouvy s vámi.</li> <li><b>Souhlas můžete kdykoli odvolat</b> kde se spoléháme na souhlas se zpracováním vašich osobních údajů. To však neovlivní zákonnost jakéhokoli zpracování provedeného před odvoláním svého souhlasu. Pokud svůj souhlas odvoláte, je možné, že vám nebudeme moci poskytovat určité produkty nebo služby. Pokud se tak stane, upozorníme vás v okamžiku, kdy svůj souhlas odvoláte.</li> </ul> <p>Výše uvedená práva mohou být účinná, když nás kontaktujete na adrese <a href="mailto:privacy@decidim.org ">privacy@decidim.org</a>. <p>Máte také právo podat jakoukoli stížnost příslušnému orgánu, v tomto případě španělské agentuře pro ochranu údajů (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Španělsko.
-    section-8:
-      title: Obecná ustanovení
-      paragraph: >-
-        <p>Vyhrazujeme si právo změnit podmínky těchto Zásad ochrany osobních údajů a upozorníme vás jasným oznámením o těchto změnách e-mailem nebo na našich webových stránkách a v těchto Zásadách ochrany osobních údajů. Pokud budete po takové aktualizaci nadále používat naše služby, bude to považováno za přijetí nových podmínek. Pokud aktualizaci nepřijmete, ukončete prosím svůj účet nebo nám to oznamte a my ukončíme váš účet a odstraníme jakékoli vaše osobní údaje (kromě případů, kdy je to nutné pro zákonné účely), a nebudete moci nadále používat naše služby. </p> <p>Pokud konkrétní místní nařízení nestanoví jinak, zásady ochrany osobních údajů se řídí zákony Španělska.</p> <p><b>Poslední aktualizace</b>: únor 2022.</p>
+      region: Regiony

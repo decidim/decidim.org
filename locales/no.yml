@@ -1,421 +1,360 @@
-"no":
-  path: '/no'
-  activeLang: 'Engelsk'
-  nav:
-    text: 'Navigasjon'
-    demo: 'Demonstrasjon'
-    community: 'Fellesskap'
-    contract: 'Sosial Kontrakt'
-    code: 'Kode'
-    docs:
-      title: 'Dokumentasjon'
-      path: 'https://docs.decidim.org/'
-    blog: 'Blogg'
-    features: 'Funksjoner'
-    faqs: 'OSS''er'
-    contact: 'Kontakt'
-    used_by: 'Dekidim i bruk'
-    partners: 'Samarbeidsenheter'
-    modules: 'Moduler'
-    press: 'Presse'
-    legal-notice: 'Legal notice'
-    privacy-policy: 'Privacy policy'
+---
+'no':
+  activeLang: Engelsk
   alert:
-    title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
-    subtitle: 'Bli med i vår samtale'
+    desc: DecidimFest er et intenst 3-dagers program av aktiviteter som er viet Decidim prosjektet. deltakerdemokrati og åpen kildekode verktøy for kollektiv etterretning i tid av Global Democracy.
     link: https://meta.decidim.org/conferences/DecidimFest21/f/1615/
-    desc: 'DecidimFest er et intenst 3-dagers program av aktiviteter som er viet Decidim prosjektet. deltakerdemokrati og åpen kildekode verktøy for kollektiv etterretning i tid av Global Democracy.'
-  index:
-    hero:
-      heading: 'Fri åpen kildekode som deltar demokrati for byer og organisasjoner'
-      subheading: 'Dekidim er en digital plattform<br/>for medborgernes deltakelse'
-      intro: 'Gratis og sikker teknologi.<br/>Med alle demokratiske garantier.<br/>Reprogrammering demokrati er nå mulig med Decidim.'
-    video:
-      play: 'Spill av video'
-      url: 'https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc'
-      close: 'Lukk video'
-    subhero:
-      intro: 'Dekidim hjelper borgere, organisasjoner og offentlige institusjoner selv å organisere demokratisk i alle skala.'
-      feature1: 'Strategisk<br/>planlegger'
-      feature2: 'Deltagende<br/>budsjettering'
-      feature3: 'Initiativer og<br/>borgerkonsultasjoner'
-      feature4: 'Participative<br/>prosesser'
-      feature5: 'Forsamlinger'
-      feature6: 'Nettverk<br/>kommunikasjon'
-    used_by:
-      title: 'They are already using Decidim'
-      cta: 'Se alle'
-    cta:
-      title: 'begynn å bruke Decidim i dag'
-    button:
-      code: 'Kode for Github'
-  footer:
-    supported_by: 'Supported by'
-    attribution: '- Creative Commons By-SA'
+    subtitle: Bli med i vår samtale
+    title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
+  community:
+    bug:
+      cta: Angi og delta nå
+      subtitle: Samarbeid for progressiv forbedring
+      text: Hver nye utgivelse av desidim inneholder nye funksjoner og brukervennlighetsforbedringer, men ikke alt fungerer ved første og feilene kan komme til syne. Her kan du rapportere feil du finner og hjelpe utviklerne med å fikse dem raskt.
+      title: Rapporter feil
+    cta: Kom i gang
+    features:
+      cta: Angi og delta nå
+      subtitle: Å utforme og utvikle desidim hos alle
+      text: Du kan skape debatter om dekidiums fremtid eller foreslå nye funksjoner eller forbedringer. Forslag kan få påtegninger og kommentarer, for eksempel den interessen de vekker for samfunnet og deres utvikling. forslag som har en sponsor (for eksempel byråd eller andre enheter), Ansvaret for å søke og framskaffe nødvendige ressurser for å gjennomføre utviklingen av disse, vil være nyttig i prosjektet.
+      title: Foreslå nye funksjoner
+    img_alt: Decidim Community Photo at Metadecidim Meeting 2016
+    intro: Metadesidim er et fellesskap som samarbeider om utforming av plattformen og byggingen av prosjektet. Sammen kan vi utforme og utvikle nye funksjoner og rapportere problemer for kontinuerlig forbedring av plattformen.
+    subtitle: Et demokratisk samfunn som leder prosjektet Decidim i alle sine dimensjoner
+    timeline:
+      step1:
+        text: Funksjonell beskrivelse
+        title: Nytt forslag
+      step2:
+        text: Teknisk og teknisk validering
+        title: Validert forslag
+      step3:
+        text: Ressurser for utvikling (delt eller ikke)
+        title: Planlagte forslag
+      step4:
+        text: Teknisk beskrivelse
+        title: Problem
+      step5:
+        text: Utviklet kode
+        title: Trekk forespørsel
+      step6:
+        text: FÃ¸rlig på neste versjon
+        title: Funksjonalitet utført
+      title: Samarbeidende utforming av funksjoner
+    title: Metadesidim, vårt samfunn
+  contact:
+    bot_field: 'Fyll ikke ut dette hvis du er mennesket:'
+    email: Epost
+    entity: Enhet
+    message: Melding
+    name: Navn
+    send: Send
+    subject: Subject
+    title: Kontakt oss
   demo:
-    title: Demo på nett
+    button: Elektronisk demo
     p1: Spill rundt og utforsk fritt Decidim-plattformen med vår nettbaserte demo.
     p2: Dekidim er opp og kjører på flere forekomster som du kan besøke og utforske <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> ved Barcelona byen eller du kan besøke <a href="https://participa.gavaciutat.cat/" target="_blank">Gavaephal</a> og <a href="https://www.lhon-participa.cat/" target="_blank">L'Sykehuset</a>. Men dette er virkelige forekomster hvor du virkelig ikke kan spille fritt rundt omkring, som du kanskje ikke er statsborger av disse kommunene, og du kan ikke utforske disse områdene som en admin.
     p3: Hvis du vil gå videre, er du velkommen til å teste Decidim på vår Decidim Demo Site (courtesy of our developers at <a href="http://alabs.org" target="_blank">aLabs</a>). Angi demo området og fritt utforske potensialet av dekidim og dens egenskaper.
     p4: Du kan logge inn som <strong>Admin</strong> (brukernavn "<strong>admin@example.org</strong>" og passord "<strong>decidim123456</strong>").
-    button: Elektronisk demo
-  community:
-    title: 'Metadesidim, vårt samfunn'
-    subtitle: 'Et demokratisk samfunn som leder prosjektet Decidim i alle sine dimensjoner'
-    intro: 'Metadesidim er et fellesskap som samarbeider om utforming av plattformen og byggingen av prosjektet. Sammen kan vi utforme og utvikle nye funksjoner og rapportere problemer for kontinuerlig forbedring av plattformen.'
-    cta: 'Kom i gang'
-    features:
-      title: 'Foreslå nye funksjoner'
-      subtitle: 'Å utforme og utvikle desidim hos alle'
-      text: 'Du kan skape debatter om dekidiums fremtid eller foreslå nye funksjoner eller forbedringer. Forslag kan få påtegninger og kommentarer, for eksempel den interessen de vekker for samfunnet og deres utvikling. forslag som har en sponsor (for eksempel byråd eller andre enheter), Ansvaret for å søke og framskaffe nødvendige ressurser for å gjennomføre utviklingen av disse, vil være nyttig i prosjektet.'
-      cta: 'Angi og delta nå'
-    bug:
-      title: 'Rapporter feil'
-      subtitle: 'Samarbeid for progressiv forbedring'
-      text: 'Hver nye utgivelse av desidim inneholder nye funksjoner og brukervennlighetsforbedringer, men ikke alt fungerer ved første og feilene kan komme til syne. Her kan du rapportere feil du finner og hjelpe utviklerne med å fikse dem raskt.'
-      cta: 'Angi og delta nå'
-    img_alt: 'Decidim Community Photo at Metadecidim Meeting 2016'
-    timeline:
-      title: 'Samarbeidende utforming av funksjoner'
-      step1:
-        title: 'Nytt forslag'
-        text: 'Funksjonell beskrivelse'
-      step2:
-        title: 'Validert forslag'
-        text: 'Teknisk og teknisk validering'
-      step3:
-        title: 'Planlagte forslag'
-        text: 'Ressurser for utvikling (delt eller ikke)'
-      step4:
-        title: 'Problem'
-        text: 'Teknisk beskrivelse'
-      step5:
-        title: 'Trekk forespørsel'
-        text: 'Utviklet kode'
-      step6:
-        title: 'Funksjonalitet utført'
-        text: 'FÃ¸rlig på neste versjon'
-  contact:
-    title: Kontakt oss
-    bot_field: "Fyll ikke ut dette hvis du er mennesket:"
-    name: Navn
-    entity: Enhet
-    email: Epost
-    subject: Subject
-    message: Melding
-    send: Send
-  thanks:
-    title: Takk for din e-post
-    message: Takk for at du kontakter oss, vi kommer snart tilbake til deg.
+    title: Demo på nett
+  faqs:
+    questions:
+    - question: Hva er Decidim?
+      answer: Dekidim er en gratis åpen kilde som deltaker demokratiplattform for byer og organisasjoner. Dekidim er mer enn en digital plattform, men det er et felles fritt og åpent prosjekt og infrastruktur som involverer kode, dokumentasjon, prosjektering, opplæringskurs, en juridisk rammeverk, samarbeidsvinduer, bruker- og tilretteleggingssamfunn og en felles visjon.
+    - question: Hvem bruker Decidim?
+      answer: Den brukes for tiden av byer og organisasjoner. Faktisk kan alle grupper av mennesker benytte seg av den, enten dette er NGO, universitet, fagforening, samarbeidsledelse eller naboforening. Sjekk [komplett liste over aktive instanser](/usedby/).
+    - question: Hva kan en Decidim administrator gjøre?
+      answer: Enkelt konfigurere deltakende prosesser Vil du lage en strategisk plan? Eller diskutere nye reguleringer? Eller diskutere et nytt kvadrat, eller et offentlig bygg for å oppnå det felles godset? Takket være å dekidiere vil du kunne konfigurere deltagerområder (initiativ, forsamlinger, prosesser eller konsultasjoner) og rike dem gjennom flere tilgjengelige komponenter (møter møter i ansiktet, spørreundersøkelser, forslag, stemme, oppfølging av resultater, kommentarer og mange flere).
+    - question: Hva kan en deltaker (bruker) av dekidim gjøre?
+      answer: Desidim gjør det mulig for tusenvis av mennesker å organisere seg demokratisk ved å lage forslag, delta på offentlige møter, fremme beslutningsdiskusjoner, beslutte gjennom ulike stemmeformer og overvåking av iverksettingen av beslutninger.
+    - question: Har du en demobel? Jeg vil bruke Dekidim nå, uten å installere den for å se hvordan den virker.
+      answer: Ja, vi har en [online demo](/demo).
+    - question: Hvor ofte blir plattformen oppdatert?
+      answer: Vi lanserer en ny versjon ca. hver måned. Se [record of versions](https://github.com/decidim/decidim/releases).
+    - question: Hva må jeg installere Decidim?
+      answer: Installering av Decim er enkel, men du trenger litt kunnskap og tekniske krav. Se [dokumentasjon for installasjon av Decidim](https://docs.decidim.org/en/install/).
+    - question: Hvor finner jeg prosjektveikartet og de planlagte funksjonene?
+      answer: Du kan finne [roadmap for nye funksjoner til prosjektet på GitHub](https://github.com/decidim/decidim/projects/16).
+    - question: Hva betyr det at desidim er gratis og "libre" og åpen kildekode?
+      answer: Dekidim er en plattform for medborgernes deltakelse fra menneskene og befolkningen. Kildekoden er åpen og kan inspiseres, endres, og forbedres av hvem som helst. Dekidim programvare er dekket av [AGPL lisens](https://en. ikipedia.org/wiki/GNU_Affero_General_Public_License). Det betyr at du kan bruke den, endre den og redistribuere avledede versjoner av den så lenge du respekterer AGPL-lisensen.
+    - question: Jeg har ideer til nye forbedringsfunksjoner. Jeg vil få en bedre forståelse av prosjektet. Hva kan jeg gjøre?
+      answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report?locale=es). If you want to actively participate in the Metadecidim community, you can attend the monthly [Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat). Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
+    - question: Jeg har mange tviler, av alle sorter...hvor kan jeg spørre dem eller løse dem?
+      answer: Den beste måten å løse tvilen din på er raskt gjennom Metadecidimsamfunnet. Enter now in the process [Support Forum](https://meta.decidim. rg/prosesser/supportforum?locale=en) og se om ditt spørsmål finnes, eller om det er besvart og oppgi ellers spørsmål for å stille spørsmål. Hvis du ikke kan løse problemet ditt i dette grupperommet, kanskje er det på tide å kontakte oss gjennom [kontakt skjema](/contact).
+    - question: Finnes det noen veiledning for å starte å sette det opp?
+      answer: Du kan sjekke den nyeste versjonen av vår admin manual i format@@0(https://docs.decidim.org).
+    - question: Hva er den sosiale kontrakten?
+      answer: Slik kaller vi vårt Code of Democratic Guarantees og Democratic Collaboration. Alle medlemmer av samfunnet må støtte seg i [Social Contract](http://decidim.org/contract).
+    - question: Hva er forskjellene i Consul Project / Decide Madrid?
+      answer: 'There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.'
+    - question: Hva er Metadesidimmiljøet?
+      answer: "[Metadecidim](http://meta.decidim.org) er det Decidim fellesskapet som samarbeider om design av plattformen og byggingen av Decidim-prosjektet. Vi møtes regelmessig gjennom [SOM (Metadecidim Operative Sessions)](https://meta.decidim. rg/assemblies/eix-comunitat?locale=es) og [LAB Research Seminars](https://meta.decidim.org/assemblies/eix-lab). Gå til [meta.decidim.org](http://meta.decidim.org) for å følge anropene tett og hvis du vil bli med i samfunnet. Vi har lyst til ;-)"
+    - question: Kan jeg bli med i Metadesidimsamfunnet selv om jeg ikke lever i Barcelona?
+      answer: Dekidim er et prosjekt som er født i Barcelona, og derfor er det et sterkt territorielt bånd til denne byen. Men ja, gjennom deltakende prosesser, debatter osv., osv. som vi tilbyr i Metadecidim. Selv om du kanskje ønsker å komme til Barcelona en stund :)
+    - question: Vi ønsker å lage en formell samarbeidsavtale. Er det noen maler vi kan bruke?
+      answer: Ja, vi har maler for å formalisere samarbeidsavtaler. [Vennligst kontakt oss](/contact).
+    - question: Hva slags medlemmer aksepterer i Metadesidimsamfunnet?
+      answer: Den som har god tro og en riktig holdning til demokratisk samarbeid.
+    - question: Gir du gratis installasjon til ikke-kommersielle organisasjoner?
+      answer: Ja, bare hvis du er en Barcelona-basert organisasjon. Send oss et budskap og du vil bli hjulpet av forskningsdirektoratet, Utvikling og innovasjon av området for borgerskap, deltakelse og Transparency of Barcelona byråd.
+    - question: Støtter dere institusjoner?
+      answer: Ja, men du må være tålmodig. Det er mange institusjoner som ønsker å bruke Dekidim akkurat nå og vi bidrar til at de kan ta skritt. [Kontakt oss](/contact) for et hvilket som helst spørsmål og vi vil svare deg så snart som mulig.
+    - question: Hva er Decidim tilknytningen?
+      answer: The "Asociacion de Software Libre Decidim" er en demokratisk sammenslutning for styringen av Decidim community.
+    - question: Hvordan får jeg mer informasjon om Decidim Associationen?
+      answer: I [generell samling av Decidim Association](https://meta.decidim. rg/menigheter/generalforsamlingsforening) du finner mer informasjon om oss, følge møtenes aktivitet og sjekke relevant informasjon (vedtekter, lovavtaler, indre bestemmelser)
+    - question: Hvordan kan jeg bli medlem av Decidim Associationen?
+      answer: Nå kan menneskene involvert i prosjektet være partnere. [Her forklarer vi i detalj hvordan du må gjøre det](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+    - question: Når ble Decidim Association født?
+      answer: Assosiasyl [Decidim er grunnlagt 16. februar 2019 i en ekstraordinær sammenstilling av samfunnet](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), med godkjenning av organisasjonens vedtekter.
+    title: Ofte stilte spørsmål
   features:
-    title: 'Funksjoner'
-    intro: '<p>Du kan bruke Decidim i en offentlig eller privat organisasjon, med hundrevis eller tusenvis av potensielle deltakere, slikt som byråd, en forening, et universitet, en NGO, en fagforening, et nabolag, kollektivt eller samarbeidet...</p><p>Takket være å forkaste deg vil du kunne konfigurere lokaler for deltakelse (initiativ, forsamlinger, prosesser eller konsultasjoner) og rike dem gjennom flere tilgjengelige komponenter (møter møter i ansiktet, spørreundersøkelser, forslag, stemme, oppfølging av resultater, kommentarer og mange flere).</p>'
+    cta:
+      button: Funksjoner og funksjoner
+      title: Oppdag hvordan desidim virker dybdevis
+    intro: "<p>Du kan bruke Decidim i en offentlig eller privat organisasjon, med hundrevis eller tusenvis av potensielle deltakere, slikt som byråd, en forening, et universitet, en NGO, en fagforening, et nabolag, kollektivt eller samarbeidet...</p><p>Takket være å forkaste deg vil du kunne konfigurere lokaler for deltakelse (initiativ, forsamlinger, prosesser eller konsultasjoner) og rike dem gjennom flere tilgjengelige komponenter (møter møter i ansiktet, spørreundersøkelser, forslag, stemme, oppfølging av resultater, kommentarer og mange flere).</p>"
     list:
-      n1:
-        title: 'Deltaker<br/>budsjett'
-        content: 'Kommisjonen analyserer forslaget og fremmer en ny måte å fordele felles ressurser på.'
-      n2:
-        title: 'Borgernes initiativer<br/>og konsultasjoner'
-        content: 'Gi samfunnet ditt makt ved hjelp av borgerinitiativ. Gi lokalbefolkningen relevant stemmegivning gjennom konsultasjoner.'
-      n3:
-        title: 'Kraften<br/>i et politisk nettverk'
-        content: 'It takes deliberation, cooperation and decision to a massive dimension, with thousands of people participating in real time.'
-      n4:
-        title: 'Et demokratisk<br/>og fleksibelt system'
-        content: 'Takket være dens modulære arkitektur og skalerbare logikk, kan du konfigurere et kraftig system med demokratisk styring i alle typer organisasjoner.'
-      n5:
-        title: 'Vi tar demokrati<br/>veldig alvorlig'
-        content: 'Avtale sikrer innsyn, sporbarhet og integritet til informasjon som aldri før. Den gir sikkerhet, personvern og konfidensialitet for alle deltakerne.'
-      n6:
-        title: "Det er ditt.<br/>Del det. Forbedre det."
-        content: 'En plattform designet helt med gratis programvare, åpent og samarbeidende innhold takket være fellesskapets Metadesidim.'
       cta:
-        features: 'Se alle funksjoner'
-        values: 'Gå til sosial kontrakt'
+        features: Se alle funksjoner
+        values: Gå til sosial kontrakt
+      n1:
+        content: Kommisjonen analyserer forslaget og fremmer en ny måte å fordele felles ressurser på.
+        title: Deltaker<br/>budsjett
+      n2:
+        content: Gi samfunnet ditt makt ved hjelp av borgerinitiativ. Gi lokalbefolkningen relevant stemmegivning gjennom konsultasjoner.
+        title: Borgernes initiativer<br/>og konsultasjoner
+      n3:
+        content: It takes deliberation, cooperation and decision to a massive dimension, with thousands of people participating in real time.
+        title: Kraften<br/>i et politisk nettverk
+      n4:
+        content: Takket være dens modulære arkitektur og skalerbare logikk, kan du konfigurere et kraftig system med demokratisk styring i alle typer organisasjoner.
+        title: Et demokratisk<br/>og fleksibelt system
+      n5:
+        content: Avtale sikrer innsyn, sporbarhet og integritet til informasjon som aldri før. Den gir sikkerhet, personvern og konfidensialitet for alle deltakerne.
+        title: Vi tar demokrati<br/>veldig alvorlig
+      n6:
+        content: En plattform designet helt med gratis programvare, åpent og samarbeidende innhold takket være fellesskapets Metadesidim.
+        title: Det er ditt.<br/>Del det. Forbedre det.
+    other:
+      subtitle: Tror å kombinere komponentene. Design og distribuere et sterkt demokratisk system på en enkel måte og tilpasse det til organisasjonens behov
     page:
       feature1:
-        title: 'Deltakende prosesser'
-        subtitle: 'å degradere felles utfordringer, steg for steg'
-        text: >-
-          Prosesser er et område som gjør det mulig å opprette, aktivere/deaktivere og administrere ulike deltakende prosesser. Det skilles fra andre rom ved at de er bygd opp i forskjellige faser der alle komponentene kan innlemmes. Eksempler på deltakerprosesser er en valgprosess for medlemmer av en komité, deltaker budsjettering, en strategisk planleggingsprosess, samarbeidsskriving av en forskrift eller en norm, utforming av en bydel eller produksjon av en plan for offentlig politikk.
-      feature2:
-        title: 'Forsamlinger'
-        subtitle: 'kraften til kollektiv egenorganisasjon'
-        text: >-
-          Er det plass som gir mulighet til å sette beslutningsorganer eller grupper (råd, arbeidsgrupper, utvalg o.l. som møter opp periodisk, beskriver komposisjonen, oppføring og geolokalisering av møtene, det tas hensyn til å ta del i dem (for eksempel ved at det skal være mulig å delta i konstruksjonens plasseringsevne, og dermed delta i dem Å legge frem saker på dagsordenen eller kommentere forslagene og beslutningene som treffes av instansen).
-      feature3:
-        title: 'Konsultasjoner'
-        subtitle: 'retten til å beslutte med alle demokratiske garantier'
-        text: >-
-          Konsultasjoner er et rom som gjør det mulig å samordne referanser, utløse diskusjoner og debatter, få framlagt stemmeresultater; den kan knyttes til et sikkert e-valgsystem.
-      feature4:
-        title: 'Initiativer'
-        subtitle: "hvordan alle setter sin agenda, for alles rekkevidde"
-        text: >-
-          Initiativer er et rom som gjør det mulig for deltakerne å skape initiativ, definere sine baner og mål, samle påtegninger, samtaler, debatter og formidle initiativer og definere møtepunkter der det kan hentes inn signaturer fra deltakere eller debatter åpnet for andre medlemmer av organisasjonen.
-      feature5:
-        title: 'Forslag'
-        subtitle: 'dine ideer i detalj'
-        text: >-
-          Med komponenten forslag kan brukeren opprette et forslag ved hjelp av opprettelsesveiviseren, sammenlign det med de eksisterende, offentliggjøre den på plattformen og omfatte tilleggsopplysninger, for eksempel posisjonering eller vedlagte dokumenter og bilder. Denne komponenten lar deg også navigere, filtrere og samhandle med et sett med forslag. I tillegg kan du lage felles forslag.
-      feature6:
-        title: 'Stemming'
-        subtitle: 'bestemme stemmen din'
-        text: >-
-          Stemmegivningen tilbyr organisasjoner muligheten til å aktivere ulike stemme- eller støttesystemer rundt forslag: ubegrenset, begrenset til en gitt terskelverdi, vektet, kostnadsbasert osv.
-      feature7:
-        title: 'Resultater'
-        subtitle: 'ingen forslag uten svar'
-        text: >-
-          Resultatkomponenten brukes til å gjøre om forslag til resultater og gi offisielle svar på aksept eller avvisning, sammenslåing av ulike forslag til ett felles resultat.
-      feature8:
-        title: 'Ansvarlighet'
-        subtitle: 'gjennomsiktighet fra begynnelsen til slutten'
-        text: >-
-          Den ansvarlige komponenten gir mulighet for å dele resultater i prosjekter, definere og anvende fremdriftsstatus rundt implementeringen, i tillegg til å vise omfanget av resultatenes iverksettelse gruppert etter kategorier og omfang.
-      feature9:
-        title: 'Møter'
-        subtitle: 'Å møte og ikke gå glipp av noe'
-        text: >-
-          Møtekomponenten tilbyr organisasjoner og deltakere muligheten til å samle møter, finne sted og tid, registeret og begrense deltakerne, definerer strukturen til og innholdet i møtet og publiserer også protokollen og forslaget som følger.
+        subtitle: å degradere felles utfordringer, steg for steg
+        text: Prosesser er et område som gjør det mulig å opprette, aktivere/deaktivere og administrere ulike deltakende prosesser. Det skilles fra andre rom ved at de er bygd opp i forskjellige faser der alle komponentene kan innlemmes. Eksempler på deltakerprosesser er en valgprosess for medlemmer av en komité, deltaker budsjettering, en strategisk planleggingsprosess, samarbeidsskriving av en forskrift eller en norm, utforming av en bydel eller produksjon av en plan for offentlig politikk.
+        title: Deltakende prosesser
       feature10:
-        title: 'Deltakende tekster'
-        subtitle: 'å analysere, syntetiser og bygge på felles'
-        text: >-
-          Deltakertekstkomponenten kan brukes til å konvertere tekstdokumenter over til ulike forslag eller resultater og vice versa, to compose and display a unified text based on a collection of proposals or results.
+        subtitle: å analysere, syntetiser og bygge på felles
+        text: Deltakertekstkomponenten kan brukes til å konvertere tekstdokumenter over til ulike forslag eller resultater og vice versa, to compose and display a unified text based on a collection of proposals or results.
+        title: Deltakende tekster
       feature11:
-        title: 'Konferanse'
-        subtitle: 'Der store arrangementer blir premiert'
-        text: >-
-          Konferansekomponenten gjør det mulig for en organisasjon å opprette et nettsted for et stort arrangement ved å delta på en rekke forhåndsdefinerte møter (chat, workshops etc. , sette sammen et felles program og administrere deltakere.
+        subtitle: Der store arrangementer blir premiert
+        text: Konferansekomponenten gjør det mulig for en organisasjon å opprette et nettsted for et stort arrangement ved å delta på en rekke forhåndsdefinerte møter (chat, workshops etc. , sette sammen et felles program og administrere deltakere.
+        title: Konferanse
       feature12:
-        title: 'Undersøkelser'
-        subtitle: 'Fordi fellesskapets oppfatning av saken din'
-        text: >-
-          Undersøkelseskomponenten kan brukes til å utforme og publisere undersøkelser og til å vise og laste ned sine resultater.
+        subtitle: Fordi fellesskapets oppfatning av saken din
+        text: Undersøkelseskomponenten kan brukes til å utforme og publisere undersøkelser og til å vise og laste ned sine resultater.
+        title: Undersøkelser
       feature13:
-        title: 'Sortering'
-        subtitle: 'Likestilling og rettferdighet for tilfeldighet'
-        text: >-
-          Sorteringskomponenten tillater å velge en rekke forslag (f.eks. kandidater til jury) med tilfeldig, men likevel reproduserbar, prosedyrer som garanterer for ikke-partisk og ensartet fordeling.
+        subtitle: Likestilling og rettferdighet for tilfeldighet
+        text: Sorteringskomponenten tillater å velge en rekke forslag (f.eks. kandidater til jury) med tilfeldig, men likevel reproduserbar, prosedyrer som garanterer for ikke-partisk og ensartet fordeling.
+        title: Sortering
       feature14:
-        title: 'Kommentarer'
-        subtitle: 'Bygge en kollektiv informasjon'
-        text: >-
-          Kommentarkomponenten gjør det mulig for brukerne å legge til kommentarer, identifisere kommentaren som er til favoritt. mot eller nøytral i forhold til det kommenterte objektet og stemmekommentarene, svare på dem og motta varsel om svar.
+        subtitle: Bygge en kollektiv informasjon
+        text: Kommentarkomponenten gjør det mulig for brukerne å legge til kommentarer, identifisere kommentaren som er til favoritt. mot eller nøytral i forhold til det kommenterte objektet og stemmekommentarene, svare på dem og motta varsel om svar.
+        title: Kommentarer
       feature15:
-        title: 'Sider og blogger'
-        subtitle: 'Ditt samfunn, informert og oppdatert'
-        text: >-
-          Sidens komponent brukes til å opprette informative sider med rik tekstformatering, innebygde bilder og videoer. Bloggkomponenten gjør det mulig å opprette innlegg eller nyheter, og å orientere dem kronologisk.
+        subtitle: Ditt samfunn, informert og oppdatert
+        text: Sidens komponent brukes til å opprette informative sider med rik tekstformatering, innebygde bilder og videoer. Bloggkomponenten gjør det mulig å opprette innlegg eller nyheter, og å orientere dem kronologisk.
+        title: Sider og blogger
       feature16:
-        title: 'Varsler'
-        subtitle: 'Personlig informasjon om interessante innhold'
-        text: >-
-          Dekidim lar deg spore hvilken som helst plass eller komponent til å motta oppdateringer hver gang de skjer.
+        subtitle: Personlig informasjon om interessante innhold
+        text: Dekidim lar deg spore hvilken som helst plass eller komponent til å motta oppdateringer hver gang de skjer.
+        title: Varsler
       feature17:
-        title: 'Nyhetsbrev'
-        subtitle: 'Enkel, men kraftig'
-        text: >-
-          Nyhetsbrevkomponenten gjør det mulig å sende e-post til alle som er registrert på plattformen, eller i større grad selektivt, til de som deltar i et bestemt område.
+        subtitle: Enkel, men kraftig
+        text: Nyhetsbrevkomponenten gjør det mulig å sende e-post til alle som er registrert på plattformen, eller i større grad selektivt, til de som deltar i et bestemt område.
+        title: Nyhetsbrev
+      feature2:
+        subtitle: kraften til kollektiv egenorganisasjon
+        text: Er det plass som gir mulighet til å sette beslutningsorganer eller grupper (råd, arbeidsgrupper, utvalg o.l. som møter opp periodisk, beskriver komposisjonen, oppføring og geolokalisering av møtene, det tas hensyn til å ta del i dem (for eksempel ved at det skal være mulig å delta i konstruksjonens plasseringsevne, og dermed delta i dem Å legge frem saker på dagsordenen eller kommentere forslagene og beslutningene som treffes av instansen).
+        title: Forsamlinger
+      feature3:
+        subtitle: retten til å beslutte med alle demokratiske garantier
+        text: Konsultasjoner er et rom som gjør det mulig å samordne referanser, utløse diskusjoner og debatter, få framlagt stemmeresultater; den kan knyttes til et sikkert e-valgsystem.
+        title: Konsultasjoner
+      feature4:
+        subtitle: hvordan alle setter sin agenda, for alles rekkevidde
+        text: Initiativer er et rom som gjør det mulig for deltakerne å skape initiativ, definere sine baner og mål, samle påtegninger, samtaler, debatter og formidle initiativer og definere møtepunkter der det kan hentes inn signaturer fra deltakere eller debatter åpnet for andre medlemmer av organisasjonen.
+        title: Initiativer
+      feature5:
+        subtitle: dine ideer i detalj
+        text: Med komponenten forslag kan brukeren opprette et forslag ved hjelp av opprettelsesveiviseren, sammenlign det med de eksisterende, offentliggjøre den på plattformen og omfatte tilleggsopplysninger, for eksempel posisjonering eller vedlagte dokumenter og bilder. Denne komponenten lar deg også navigere, filtrere og samhandle med et sett med forslag. I tillegg kan du lage felles forslag.
+        title: Forslag
+      feature6:
+        subtitle: bestemme stemmen din
+        text: 'Stemmegivningen tilbyr organisasjoner muligheten til å aktivere ulike stemme- eller støttesystemer rundt forslag: ubegrenset, begrenset til en gitt terskelverdi, vektet, kostnadsbasert osv.'
+        title: Stemming
+      feature7:
+        subtitle: ingen forslag uten svar
+        text: Resultatkomponenten brukes til å gjøre om forslag til resultater og gi offisielle svar på aksept eller avvisning, sammenslåing av ulike forslag til ett felles resultat.
+        title: Resultater
+      feature8:
+        subtitle: gjennomsiktighet fra begynnelsen til slutten
+        text: Den ansvarlige komponenten gir mulighet for å dele resultater i prosjekter, definere og anvende fremdriftsstatus rundt implementeringen, i tillegg til å vise omfanget av resultatenes iverksettelse gruppert etter kategorier og omfang.
+        title: Ansvarlighet
+      feature9:
+        subtitle: Å møte og ikke gå glipp av noe
+        text: Møtekomponenten tilbyr organisasjoner og deltakere muligheten til å samle møter, finne sted og tid, registeret og begrense deltakerne, definerer strukturen til og innholdet i møtet og publiserer også protokollen og forslaget som følger.
+        title: Møter
+    title: Funksjoner
     type1:
-      title: 'Fellesskap for deltakelse'
-      subtitle: 'For deltakerne å komme med forslag og treffe beslutninger'
+      subtitle: For deltakerne å komme med forslag og treffe beslutninger
+      title: Fellesskap for deltakelse
     type2:
-      title: 'Komponenter'
-      subtitle: 'For deltakere og rom å samhandle'
-    other:
-      subtitle: 'Tror å kombinere komponentene. Design og distribuere et sterkt demokratisk system på en enkel måte og tilpasse det til organisasjonens behov'
+      subtitle: For deltakere og rom å samhandle
+      title: Komponenter
+  footer:
+    attribution: "- Creative Commons By-SA"
+    supported_by: Supported by
+  index:
+    button:
+      code: Kode for Github
     cta:
-      title: 'Oppdag hvordan desidim virker dybdevis'
-      button: 'Funksjoner og funksjoner'
-  partners:
-    notice: Samarbeidsorganenes logoer er er immaterielle rettigheter for sine respektive rettighetshavere. De faller ikke under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA lisensen</a> resten av nettstedets innhold er lisensiert med.
+      title: begynn å bruke Decidim i dag
+    hero:
+      heading: Fri åpen kildekode som deltar demokrati for byer og organisasjoner
+      intro: Gratis og sikker teknologi.<br/>Med alle demokratiske garantier.<br/>Reprogrammering demokrati er nå mulig med Decidim.
+      subheading: Dekidim er en digital plattform<br/>for medborgernes deltakelse
+    subhero:
+      feature1: Strategisk<br/>planlegger
+      feature2: Deltagende<br/>budsjettering
+      feature3: Initiativer og<br/>borgerkonsultasjoner
+      feature4: Participative<br/>prosesser
+      feature5: Forsamlinger
+      feature6: Nettverk<br/>kommunikasjon
+      intro: Dekidim hjelper borgere, organisasjoner og offentlige institusjoner selv å organisere demokratisk i alle skala.
+    used_by:
+      cta: Se alle
+      title: They are already using Decidim
+    video:
+      close: Lukk video
+      play: Spill av video
+      url: https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc
+  legal-notice:
+    section-1:
+      paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
+      title: Who we are
+    section-2:
+      paragraph: "<p>The purpose of this Website is to provide general information to the public about Decidim, its activities and technology, consisting in a free open-source participatory democracy platform for cities and organizations, and the management of the Decidim community generated around the world from our collaborative technology allowing the development of citizen and associative projects with greater social participation. You may freely test the Decidim platform with our online demo.</p> <p>The purpose of the terms of use of this Legal Notice is to govern the permitted use of this Website and the services and/or contents hosted in accordance with the Law 34/2002 on Information Society Services and Electronic Commerce and other applicable legal provisions.</p>"
+      title: Purpose
+    section-3:
+      paragraph: '<p>The access to this Website is free. No application form is required for browsing the information and/or contents of this Website in general terms. Otherwise, please refer to our <a href="%{privacy_policy_url}">Privacy Policy</a>.<p> <p>By accessing and using the Website, You are accepting the terms of use of this Legal Notice and You undertake to make proper, diligent and lawful use of the Website and, in particular: (i) use the Website for its intended purposes, i.e. information about our services, you will refrain from using the Website or its contents for illegal purposes, or for purposes that go against public order, morality and good customs; (ii) respect the intellectual and industrial property rights of the Website and its contents, as well as all rights that correspond to Decidim; (iii) not to reproduce, copy, convert, modify, distribute, publicly display or make available to the public the Website or any of its content or any modification thereof; (iv) You shall be liable for any loss or damage suffered by Decidim due to a direct or indirect misuse by You of the Website, the provisions of the "Legal Texts" (collectively referred to, this Legal Notice and the <a href="%{privacy_policy_url}">Privacy Policy</a>) and the applicable legislation.<p>'
+      title: Website use
+    section-4:
+      paragraph: "<p>All intellectual property rights over the contents of this Website including, but not limited to, images, trademarks, logos, distinctive signs, sounds and animations, texts, sound, visual or audiovisual recordings and databases are the property of Decidim or its licensors and are protected by national and international laws. Such rights are reserved in favor of Decidim and/or its licensors. The reproduction, copying, public communication, distribution, modification, transformation, elimination, manipulation and any other use, including the extraction and reuse, whether for profit or not, direct or indirect, temporary or permanent, of all or part of this Website or any of its contents, is expressly prohibited without the prior express written authorization of Decidim. We may take any legal and/or extrajudicial action it deems appropriate in the event of a possible violation of these rights.</p>"
+      title: Industrial and Intellectual Property
+    section-5:
+      paragraph: "<p>Decidim is not responsible for third party web pages that can be accessed from the Website, nor for the accuracy, veracity and validity of the information on the Website that is not of its own elaboration. However, pursuant to article 17 of Law 34/2002, in the event that Decidim becomes aware of the unlawfulness of such content or links, it undertakes to remove or disable them, as well as, where appropriate, to block any content that may be unlawful or violate the rights of any third party, in accordance with articles 11 and 16 of the aforementioned Law.</p> <p>Furthermore, Decidim is not responsible for any damage that may occur due to failures or misconfigurations in the browser installed by the user on his computer. Decidim is not responsible for any incident or technical failure caused by the user's connection to the Internet.</p> <p>Decidim will use its best efforts to effect, in the shortest period of time, updates and corrections of errors and deficiencies, including those occurring in the access and/or connection to the Website and/or its contents, but does not warrant the absence of interruptions, errors in the connection and/or access to the Website and update of its contents.</p> <p>You are liable for your use of and access to the Website. Decidim shall not be liable for the presence of viruses nor for security errors neither for the damages that may be caused to your devices or to the files or documents stored in such devices for the access and/or connection to the Website, neither for the damages caused to third parties by means of illegal intromissions out of Decidim control.</p> <p>Decidim shall not be liable for the breach of your obligations You accept when accessing this Website which are contained in this Legal Notice and, in particular, shall not be liable for any infringement of the intellectual property rights, copyright, advertising and image rights, or any other rights with regard to the goods and rights of any third party.</p>"
+      title: Responsibility
+    section-6:
+      paragraph: <p>Decidim may modify this Legal Notice, the <a href="%{privacy_policy_url}">Privacy Policy</a> and/or any other text of contractual nature applicable to this Website without previous notice. Such modifications shall be effective at the moment of its publication on the Website.</p> <p>Decidim may also terminate or suspend the services of the Website at any time. Whenever is possible, Decidim will warn/alert previously about such termination or suspension through this Website.</p>
+      title: Modifications
+    section-7:
+      paragraph: <p>Your personal data collected on our Website or when you contact us through the contact form or by sending an email will be treated strictly in accordance with our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
+      title: Personal Data
+    section-8:
+      paragraph: <p>This Website does not use cookies. More information in our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
+      title: Cookies
+    section-9:
+      paragraph: '<p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>'
+      title: Governing law and jurisdiction
+    title: Legal notice
   modules:
     description: Description
     explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
     image: Image
     name: Navn
     type:
-      community: Fellesskap
       auth: Autorisasjon
+      community: Fellesskap
       official: Offentlig
+  nav:
+    blog: Blogg
+    code: Kode
+    community: Fellesskap
+    contact: Kontakt
+    contract: Sosial Kontrakt
+    demo: Demonstrasjon
+    docs:
+      path: https://docs.decidim.org/
+      title: Dokumentasjon
+    faqs: OSS'er
+    features: Funksjoner
+    legal-notice: Legal notice
+    modules: Moduler
+    partners: Samarbeidsenheter
+    press: Presse
+    privacy-policy: Privacy policy
+    text: Navigasjon
+    used_by: Dekidim i bruk
+  partners:
+    notice: Samarbeidsorganenes logoer er er immaterielle rettigheter for sine respektive rettighetshavere. De faller ikke under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA lisensen</a> resten av nettstedets innhold er lisensiert med.
+  path: "/no"
+  privacy-policy:
+    section-1:
+      paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
+      title: Introduction
+    section-2:
+      paragraph: '<h3>a. Data collected from surfing the Website</h3> <p>When using our website, <a href="%{decidim_url}">Decidim</a> uses the services of Plausible analysis software.  Its is software that, when tracking user data, this data is kept fully and securely encrypted. The purpose of Plausible Analytics is to track general traffic trends on your website and not individual visitors. Each HTTP request sends the IP address and user agent to the server, so that''s what they use, generating an identifier that changes daily using the visitor''s IP address and user agent. To anonymise this data, it is passed through a hash function with a rotating salt. This generates a random string of letters and numbers that is used to calculate the number of unique visitors for the day. The IP address of the raw data and the user agent are never stored in the logs, databases or anywhere on Plausible analytics disk. Older salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next.   In this way, no personal user data is collected while browsing our website, for more information about the data processing by Plausible Analytics, you can visit their website at <a href="https://plausible.io/privacy-focused-web-analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Data collected from our Demo</h3> <p>The access to the <a href="%{decidim_url}">Decidim</a> platform demo, available through the Website in the URL <a href="https://try.decidim.org/">https://try.decidim.org/</a> is anonymous, since it is done through generic credentials for testing and knowledge of the operation, features and capabilities of the <a href="%{decidim_url}">Decidim</a> platform by the users. <p>Only a session cookie ("Session_id") is activated, whose purpose is to obtain or establish the session id for the current session. This cookie is strictly necessary for the technical functionality of detecting the session in the Website in order to ensure the connection through http protocols and to keep the User''s session and Web Site services available, and are exempted from User consent in accordance with Opinion 4/2012 on the exemption from the cookie consent requirement issued by the European Data Protection Authority.</p> <h3>c. Data collected from contact forms, emails or other communication means</h3> <p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p> <h3>d. Data collected from <a href="%{decidim_url}">Decidim</a> community</h3> <p><a href="%{decidim_url}">Decidim</a> uses other platforms linked to this Website  for the management of the <a href="%{decidim_url}">Decidim</a> community generated around our technology, as a meeting point for the <a href="%{decidim_url}">Decidim</a> community and where most of the activities and communications between users and <a href="%{decidim_url}">Decidim</a> take place. These platforms, such as <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> or GitHub (<a href="https://github.com/decidim/decidim">https://github.com/decidim/decidim</a>) are governed by their own terms of use and privacy policies.</p> <p>Notwithstanding, <a href="%{decidim_url}">Decidim</a> may process User''s personal data collected from these platforms for the management of the community projects developed in those platforms respectively, in particular these personal data may consist in connection data to these platforms, User profile on the platform, and the content of the comments and remarks that the User may contribute to the <a href="%{decidim_url}">Decidim</a> projects from time to time. Please note that this information may be public and, consequently, accessible and visible to other Users.</p> <h3>e. Data collected from our associate members</h3> <p>Any person or organization that wants to participate freely in the <a href="%{decidim_url}">Decidim</a> community, attending debates, collaborating in the organization of events, promoting a working group or community days, as well as contributing to the code or documentation of our free open-source participatory democracy platform, management of instances, etc., can choose to become a member of <a href="%{decidim_url}">Decidim</a>, as long as they have demonstrated sufficient commitment to the community through the realization of any of the above activities. To do so, you must complete a form to submit your application, which will be evaluated by the <a href="%{decidim_url}">Decidim</a> Coordination Committee.</p> <p>The processing of <a href="%{decidim_url}">Decidim</a> members'' personal data is carried out for the purpose of managing the aforementioned projects and activities in which the associate member participates, accounting management of membership fees and, in general, the governance of projects and activities of <a href="%{decidim_url}">Decidim</a>, in order to ensure compliance with the <a href="%{decidim_url}">Decidim</a>''s principles and values as well as the associates'' duties and rights.</p>'
+      title: Personal data we collect about you and how we use it
+    section-3:
+      paragraph: <p>The legal basis of our processing of personal data are the following:</p> <ul> <li>The processing of Users and associate data is necessary to perform the contract, consisting in the Users acceptance of the Legal Text of the Website, in order to provide them all the information about <a href="%{decidim_url}">Decidim</a> and its technology, projects and activities, as well as to allow them participating in the projects and activities carried out by <a href="%{decidim_url}">Decidim</a>.</li> <li>We may also process your personal data when you give us express consent to make publications about <a href="%{decidim_url}">Decidim</a> projects and activities in which you have participated, press releases or other forms of communication and dissemination of <a href="%{decidim_url}">Decidim</a>'s activities, as well as to receive particular information on a regular basis and/or when you contact us through the website contact form or by e-mail. </li> <li>Additionally, we may process your data on our legitimate interest to perform statistical studies or other knowledge generation techniques, implementing pseudonymization and, if possible, anonymization measures, such as data aggregation, in order to protect the privacy of Users, in accordance with art. 89 GDPR.</li> </ul> <p>In certain circumstances, we may process your data in accordance with this policy to comply with a legal or regulatory obligation to which we are subject.</p>
+      title: Legal basis
+    section-4:
+      paragraph: '<p>We process your personal data confidentially in accordance with the applicable legislation. Unless stated otherwise, your personal data will not be provided to third parties. </p> <p>Specifically, we disclose your data as follows:</p> <ul> <li>We can give access to your personal data to our IT service providers under contracts for the provision of services in favour of <a href="%{decidim_url}">Decidim</a>. Among the others, Netlify, Inc., an American entity who provide to Us web hosting services. <a href="%{decidim_url}">Decidim</a> has subscribed with Netlify a <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Data Processing Agreement</a>, including the Standard Contractual Clauses currently approved by the European Commission, in order to ensure that your personal data are processed with all adequate guarantees. More information about how Netlify use your personal data may be consulted here: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a>. </li> <li>We can make the data available to the public administration or authorities to investigate suspicions of fraud, harassment or other violations of any law, rule or regulation, or the policies of the website.</li> </ul> <p>For more information about our service providers who make international transfers, please contact us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>'
+      title: Data disclosure
+    section-5:
+      paragraph: "<p>We only keep your personal data for as long as it is necessary to fulfil the purposes for which we have collected them, even to comply with legal, accounting or information requirements.</p> <p>To determine the appropriate retention period for personal data, we consider the amount, nature and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which we process your personal data, if we can achieve those purposes through other means and the applicable legal requirements.</p>"
+      title: Data retention
+    section-6:
+      paragraph: "<p>We implement security measures and personal data protection schemes as required by law to maintain the confidentiality and integrity of your data and protection against unauthorised access, modification or destruction. </p>"
+      title: Security measures
+    section-7:
+      paragraph: '<p>You have rights under data protection laws in relation to your personal data. Specifically, you have the right to: </p> <ul> <li><b>Request access</b> to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</li> <li><b>Request correction</b> of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</li> <li><b>Request erasure</b> of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</li> <li><b>Object to processing</b> of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</li> <li><b>Request restriction of processing</b> of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data''s accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</li> <li><b>Request the transfer</b> of your personal data to you or to a third party (right to data portability). We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</li> <li><b>Withdraw consent at any time</b> where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</li> </ul> <p>The aforementioned rights may be effective by contacting us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>. <p>You also have the right to make any complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spain.'
+      title: Your rights
+    section-8:
+      paragraph: "<p>We reserve the right to amend the terms of this Privacy Policy and will notify you by providing a clear notice of these changes by email or on our Website, and in this Privacy Policy. If you continue to use our services after such update, you will be deemed to accept the new terms. If you do not accept the update, please terminate your account or notify us and we will terminate your Account and remove any of your personal data (except as required to be maintained for legal purposes), and you will not be able to continue to use our services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>"
+      title: General
+    title: Privacy policy
+  testimonials:
+    n1:
+      org: Barcelona City Hall (2015-2019)
+      quote: Takket være Decidim, i Barcelona har vi klart å medutarbeide en strategisk byplan sammen med borgerne. I 2016 innførte vi den kommunale handlingsplanen i form av en deltakende prosess gjennom Decidim Barcelona. Denne planen omfatter i dag nærmere 7 tusen forslag. En av fordelene ved å bruke denne plattformen er at du til enhver tid kan overvåke tilstanden til de godkjente forslagene.
+    n2:
+      org: Som Energia
+      quote: Med implementeringen av dekidim i Som Energia har vi skapt et barnehagerom for deltakelse. Vi la ut verktøyet i 2018, vertskap for generalforsamlingen i samarbeidet, og månedene senere debatterte vi Image Redesign and collaborative development of the School of Som Energia, blant andre deltakende prosesser. I løpet av noen måneder har mer enn 3500 deltakere registrert seg, 5 deltakerprosesser, 3 avtaler som opererer med mer enn 1300 stemmer i forrige generalforsamling.
+    n3:
+      org: Kommunepresident i Me∙rida Yucatañn, Mexico. Kommunestyret Meephalrida Yucataεn, Mexico
+      quote: Bestemmelsesmetoden for digital plattform var en mulighet som aldri ble åpnet før borgernes deltakelsesmekanismer for utarbeidelse av den kommunale utviklingsplanen for Me∙rida 2018-2021. Vi hadde mer enn 3000 borgerinteraksjoner med forslag, kommentarer. forslag og støtte som oppnår høyest mulig enighet om hva som er best for vår by. Beslutningsplattformen «skjev» vil uansett fortsette å være vårt forhold til å gjøre Meephalrida til et stadig appativ samfunn.
+    n4:
+      org: Byen Helsinki
+      quote: Det vi setter pris på, er at det er med demokrati i tankene, og derfor er demokratiet et et stort fokus. Demokratiske prinsipper som ansvarlighet, likestilling og åpenhet står i kjernen av designet.
+    n5:
+      org: Åpne myndigheter i Mexico by
+      quote: Nesten hver deltakerprosess som er kommet til vårt bord, har vi vært i stand til å løse den ved hjelp av Decidims forretningsregler. Som et verktøy er det et veldig sterkt virkemiddel. Den delen som fremstår som sterkest og viktigst for oss, er imidlertid fellesskapet, både de som utvikler og de som bruker det på deltakende prosesser. Samspillet med dem har gjort at vi setter pris på utfordringene med å gjennomføre deltakende demokrati i den virkelige verden.
+    n6:
+      org: Mozilla Foundation
+      quote: We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+    n7:
+      org: OpenForum Europe Research Director, European Union
+      quote: The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
+  thanks:
+    message: Takk for at du kontakter oss, vi kommer snart tilbake til deg.
+    title: Takk for din e-post
   used_by:
     explain: Disse byene, regionene og organisasjonene bruker allerede desidim
     type:
       city: Byer
-      region: Regioner
       organizations: Organisasjoner
-  testimonials:
-    n1:
-      quote: >-
-        Takket være Decidim, i Barcelona har vi klart å medutarbeide en strategisk byplan sammen med borgerne. I 2016 innførte vi den kommunale handlingsplanen i form av en deltakende prosess gjennom Decidim Barcelona. Denne planen omfatter i dag nærmere 7 tusen forslag. En av fordelene ved å bruke denne plattformen er at du til enhver tid kan overvåke tilstanden til de godkjente forslagene.
-      org: Barcelona City Hall (2015-2019)
-    n2:
-      quote: >-
-        Med implementeringen av dekidim i Som Energia har vi skapt et barnehagerom for deltakelse. Vi la ut verktøyet i 2018, vertskap for generalforsamlingen i samarbeidet, og månedene senere debatterte vi Image Redesign and collaborative development of the School of Som Energia, blant andre deltakende prosesser. I løpet av noen måneder har mer enn 3500 deltakere registrert seg, 5 deltakerprosesser, 3 avtaler som opererer med mer enn 1300 stemmer i forrige generalforsamling.
-      org: Som Energia
-    n3:
-      quote: >-
-        Bestemmelsesmetoden for digital plattform var en mulighet som aldri ble åpnet før borgernes deltakelsesmekanismer for utarbeidelse av den kommunale utviklingsplanen for Me∙rida 2018-2021. Vi hadde mer enn 3000 borgerinteraksjoner med forslag, kommentarer. forslag og støtte som oppnår høyest mulig enighet om hva som er best for vår by. Beslutningsplattformen «skjev» vil uansett fortsette å være vårt forhold til å gjøre Meephalrida til et stadig appativ samfunn.
-      org: Kommunepresident i Me∙rida Yucatañn, Mexico. Kommunestyret Meephalrida Yucataεn, Mexico
-    n4:
-      quote: >-
-        Det vi setter pris på, er at det er med demokrati i tankene, og derfor er demokratiet et et stort fokus. Demokratiske prinsipper som ansvarlighet, likestilling og åpenhet står i kjernen av designet.
-      org: Byen Helsinki
-    n5:
-      quote: >-
-        Nesten hver deltakerprosess som er kommet til vårt bord, har vi vært i stand til å løse den ved hjelp av Decidims forretningsregler. Som et verktøy er det et veldig sterkt virkemiddel. Den delen som fremstår som sterkest og viktigst for oss, er imidlertid fellesskapet, både de som utvikler og de som bruker det på deltakende prosesser. Samspillet med dem har gjort at vi setter pris på utfordringene med å gjennomføre deltakende demokrati i den virkelige verden.
-      org: Åpne myndigheter i Mexico by
-    n6:
-      quote: >-
-        We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
-      org: Mozilla Foundation
-    n7:
-      quote: >-
-        The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
-      org: OpenForum Europe Research Director, European Union
-  faqs:
-    title: Ofte stilte spørsmål
-    questions:
-      - question: Hva er Decidim?
-        answer: >-
-          Dekidim er en gratis åpen kilde som deltaker demokratiplattform for byer og organisasjoner. Dekidim er mer enn en digital plattform, men det er et felles fritt og åpent prosjekt og infrastruktur som involverer kode, dokumentasjon, prosjektering, opplæringskurs, en juridisk rammeverk, samarbeidsvinduer, bruker- og tilretteleggingssamfunn og en felles visjon.
-      - question: Hvem bruker Decidim?
-        answer: >-
-          Den brukes for tiden av byer og organisasjoner. Faktisk kan alle grupper av mennesker benytte seg av den, enten dette er NGO, universitet, fagforening, samarbeidsledelse eller naboforening. Sjekk [komplett liste over aktive instanser](/usedby/).
-      - question: Hva kan en Decidim administrator gjøre?
-        answer: >-
-          Enkelt konfigurere deltakende prosesser Vil du lage en strategisk plan? Eller diskutere nye reguleringer? Eller diskutere et nytt kvadrat, eller et offentlig bygg for å oppnå det felles godset? Takket være å dekidiere vil du kunne konfigurere deltagerområder (initiativ, forsamlinger, prosesser eller konsultasjoner) og rike dem gjennom flere tilgjengelige komponenter (møter møter i ansiktet, spørreundersøkelser, forslag, stemme, oppfølging av resultater, kommentarer og mange flere).
-      - question: Hva kan en deltaker (bruker) av dekidim gjøre?
-        answer: >-
-          Desidim gjør det mulig for tusenvis av mennesker å organisere seg demokratisk ved å lage forslag, delta på offentlige møter, fremme beslutningsdiskusjoner, beslutte gjennom ulike stemmeformer og overvåking av iverksettingen av beslutninger.
-      - question: Har du en demobel? Jeg vil bruke Dekidim nå, uten å installere den for å se hvordan den virker.
-        answer: 'Ja, vi har en [online demo](/demo).'
-      - question: Hvor ofte blir plattformen oppdatert?
-        answer: >-
-          Vi lanserer en ny versjon ca. hver måned. Se [record of versions](https://github.com/decidim/decidim/releases).
-      - question: Hva må jeg installere Decidim?
-        answer: >-
-          Installering av Decim er enkel, men du trenger litt kunnskap og tekniske krav. Se [dokumentasjon for installasjon av Decidim](https://docs.decidim.org/en/install/).
-      - question: Hvor finner jeg prosjektveikartet og de planlagte funksjonene?
-        answer: Du kan finne [roadmap for nye funksjoner til prosjektet på GitHub](https://github.com/decidim/decidim/projects/16).
-      - question: 'Hva betyr det at desidim er gratis og "libre" og åpen kildekode?'
-        answer: >-
-          Dekidim er en plattform for medborgernes deltakelse fra menneskene og befolkningen. Kildekoden er åpen og kan inspiseres, endres, og forbedres av hvem som helst. Dekidim programvare er dekket av [AGPL lisens](https://en. ikipedia.org/wiki/GNU_Affero_General_Public_License). Det betyr at du kan bruke den, endre den og redistribuere avledede versjoner av den så lenge du respekterer AGPL-lisensen.
-      - question: >-
-          Jeg har ideer til nye forbedringsfunksjoner. Jeg vil få en bedre forståelse av prosjektet. Hva kan jeg gjøre?
-        answer: >-
-          You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report?locale=es). If you want to actively participate in the Metadecidim community, you can attend the monthly [Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat). Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-      - question: Jeg har mange tviler, av alle sorter...hvor kan jeg spørre dem eller løse dem?
-        answer: >-
-          Den beste måten å løse tvilen din på er raskt gjennom Metadecidimsamfunnet. Enter now in the process [Support Forum](https://meta.decidim. rg/prosesser/supportforum?locale=en) og se om ditt spørsmål finnes, eller om det er besvart og oppgi ellers spørsmål for å stille spørsmål. Hvis du ikke kan løse problemet ditt i dette grupperommet, kanskje er det på tide å kontakte oss gjennom [kontakt skjema](/contact).
-      - question: Finnes det noen veiledning for å starte å sette det opp?
-        answer: >-
-          Du kan sjekke den nyeste versjonen av vår admin manual i format@@0(https://docs.decidim.org).
-      - question: Hva er den sosiale kontrakten?
-        answer: >-
-          Slik kaller vi vårt Code of Democratic Guarantees og Democratic Collaboration. Alle medlemmer av samfunnet må støtte seg i [Social Contract](http://decidim.org/contract).
-      - question: Hva er forskjellene i Consul Project / Decide Madrid?
-        answer: >-
-          There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.
-      - question: Hva er Metadesidimmiljøet?
-        answer: >-
-          [Metadecidim](http://meta.decidim.org) er det Decidim fellesskapet som samarbeider om design av plattformen og byggingen av Decidim-prosjektet. Vi møtes regelmessig gjennom [SOM (Metadecidim Operative Sessions)](https://meta.decidim. rg/assemblies/eix-comunitat?locale=es) og [LAB Research Seminars](https://meta.decidim.org/assemblies/eix-lab). Gå til [meta.decidim.org](http://meta.decidim.org) for å følge anropene tett og hvis du vil bli med i samfunnet. Vi har lyst til ;-)
-      - question: Kan jeg bli med i Metadesidimsamfunnet selv om jeg ikke lever i Barcelona?
-        answer: >-
-          Dekidim er et prosjekt som er født i Barcelona, og derfor er det et sterkt territorielt bånd til denne byen. Men ja, gjennom deltakende prosesser, debatter osv., osv. som vi tilbyr i Metadecidim. Selv om du kanskje ønsker å komme til Barcelona en stund :)
-      - question: Vi ønsker å lage en formell samarbeidsavtale. Er det noen maler vi kan bruke?
-        answer: Ja, vi har maler for å formalisere samarbeidsavtaler. [Vennligst kontakt oss](/contact).
-      - question: Hva slags medlemmer aksepterer i Metadesidimsamfunnet?
-        answer: Den som har god tro og en riktig holdning til demokratisk samarbeid.
-      - question: Gir du gratis installasjon til ikke-kommersielle organisasjoner?
-        answer: >-
-          Ja, bare hvis du er en Barcelona-basert organisasjon. Send oss et budskap og du vil bli hjulpet av forskningsdirektoratet, Utvikling og innovasjon av området for borgerskap, deltakelse og Transparency of Barcelona byråd.
-      - question: Støtter dere institusjoner?
-        answer: >-
-          Ja, men du må være tålmodig. Det er mange institusjoner som ønsker å bruke Dekidim akkurat nå og vi bidrar til at de kan ta skritt. [Kontakt oss](/contact) for et hvilket som helst spørsmål og vi vil svare deg så snart som mulig.
-      - question: Hva er Decidim tilknytningen?
-        answer: >-
-          The "Asociacion de Software Libre Decidim" er en demokratisk sammenslutning for styringen av Decidim community.
-      - question: Hvordan får jeg mer informasjon om Decidim Associationen?
-        answer: >-
-          I [generell samling av Decidim Association](https://meta.decidim. rg/menigheter/generalforsamlingsforening) du finner mer informasjon om oss, følge møtenes aktivitet og sjekke relevant informasjon (vedtekter, lovavtaler, indre bestemmelser)
-      - question: Hvordan kan jeg bli medlem av Decidim Associationen?
-        answer: >-
-          Nå kan menneskene involvert i prosjektet være partnere. [Her forklarer vi i detalj hvordan du må gjøre det](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
-      - question: Når ble Decidim Association født?
-        answer: >-
-          Assosiasyl [Decidim er grunnlagt 16. februar 2019 i en ekstraordinær sammenstilling av samfunnet](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), med godkjenning av organisasjonens vedtekter.
-  legal-notice:
-    title: Legal notice
-    section-1:
-      title: Who we are
-      paragraph: >-
-        <p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>
-    section-2:
-      title: Purpose
-      paragraph: >-
-        <p>The purpose of this Website is to provide general information to the public about Decidim, its activities and technology, consisting in a free open-source participatory democracy platform for cities and organizations, and the management of the Decidim community generated around the world from our collaborative technology allowing the development of citizen and associative projects with greater social participation. You may freely test the Decidim platform with our online demo.</p> <p>The purpose of the terms of use of this Legal Notice is to govern the permitted use of this Website and the services and/or contents hosted in accordance with the Law 34/2002 on Information Society Services and Electronic Commerce and other applicable legal provisions.</p>
-    section-3:
-      title: Website use
-      paragraph: >-
-        <p>The access to this Website is free. No application form is required for browsing the information and/or contents of this Website in general terms. Otherwise, please refer to our <a href="%{privacy_policy_url}">Privacy Policy</a>.<p> <p>By accessing and using the Website, You are accepting the terms of use of this Legal Notice and You undertake to make proper, diligent and lawful use of the Website and, in particular: (i) use the Website for its intended purposes, i.e. information about our services, you will refrain from using the Website or its contents for illegal purposes, or for purposes that go against public order, morality and good customs; (ii) respect the intellectual and industrial property rights of the Website and its contents, as well as all rights that correspond to Decidim; (iii) not to reproduce, copy, convert, modify, distribute, publicly display or make available to the public the Website or any of its content or any modification thereof; (iv) You shall be liable for any loss or damage suffered by Decidim due to a direct or indirect misuse by You of the Website, the provisions of the "Legal Texts" (collectively referred to, this Legal Notice and the <a href="%{privacy_policy_url}">Privacy Policy</a>) and the applicable legislation.<p>
-    section-4:
-      title: Industrial and Intellectual Property
-      paragraph: >-
-        <p>All intellectual property rights over the contents of this Website including, but not limited to, images, trademarks, logos, distinctive signs, sounds and animations, texts, sound, visual or audiovisual recordings and databases are the property of Decidim or its licensors and are protected by national and international laws. Such rights are reserved in favor of Decidim and/or its licensors. The reproduction, copying, public communication, distribution, modification, transformation, elimination, manipulation and any other use, including the extraction and reuse, whether for profit or not, direct or indirect, temporary or permanent, of all or part of this Website or any of its contents, is expressly prohibited without the prior express written authorization of Decidim. We may take any legal and/or extrajudicial action it deems appropriate in the event of a possible violation of these rights.</p>
-    section-5:
-      title: Responsibility
-      paragraph: >-
-        <p>Decidim is not responsible for third party web pages that can be accessed from the Website, nor for the accuracy, veracity and validity of the information on the Website that is not of its own elaboration. However, pursuant to article 17 of Law 34/2002, in the event that Decidim becomes aware of the unlawfulness of such content or links, it undertakes to remove or disable them, as well as, where appropriate, to block any content that may be unlawful or violate the rights of any third party, in accordance with articles 11 and 16 of the aforementioned Law.</p> <p>Furthermore, Decidim is not responsible for any damage that may occur due to failures or misconfigurations in the browser installed by the user on his computer. Decidim is not responsible for any incident or technical failure caused by the user's connection to the Internet.</p> <p>Decidim will use its best efforts to effect, in the shortest period of time, updates and corrections of errors and deficiencies, including those occurring in the access and/or connection to the Website and/or its contents, but does not warrant the absence of interruptions, errors in the connection and/or access to the Website and update of its contents.</p> <p>You are liable for your use of and access to the Website. Decidim shall not be liable for the presence of viruses nor for security errors neither for the damages that may be caused to your devices or to the files or documents stored in such devices for the access and/or connection to the Website, neither for the damages caused to third parties by means of illegal intromissions out of Decidim control.</p> <p>Decidim shall not be liable for the breach of your obligations You accept when accessing this Website which are contained in this Legal Notice and, in particular, shall not be liable for any infringement of the intellectual property rights, copyright, advertising and image rights, or any other rights with regard to the goods and rights of any third party.</p>
-    section-6:
-      title: Modifications
-      paragraph: >-
-        <p>Decidim may modify this Legal Notice, the <a href="%{privacy_policy_url}">Privacy Policy</a> and/or any other text of contractual nature applicable to this Website without previous notice. Such modifications shall be effective at the moment of its publication on the Website.</p> <p>Decidim may also terminate or suspend the services of the Website at any time. Whenever is possible, Decidim will warn/alert previously about such termination or suspension through this Website.</p>
-    section-7:
-      title: Personal Data
-      paragraph: >-
-        <p>Your personal data collected on our Website or when you contact us through the contact form or by sending an email will be treated strictly in accordance with our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
-    section-8:
-      title: Cookies
-      paragraph: >-
-        <p>This Website does not use cookies. More information in our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
-    section-9:
-      title: Governing law and jurisdiction
-      paragraph: >-
-        <p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>
-  privacy-policy:
-    title: Privacy policy
-    section-1:
-      title: Introduction
-      paragraph: >-
-        <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
-    section-2:
-      title: Personal data we collect about you and how we use it
-      paragraph: >-
-        <h3>a. Data collected from surfing the Website</h3> <p>When using our website, <a href="%{decidim_url}">Decidim</a> uses the services of Plausible analysis software.  Its is software that, when tracking user data, this data is kept fully and securely encrypted. The purpose of Plausible Analytics is to track general traffic trends on your website and not individual visitors. Each HTTP request sends the IP address and user agent to the server, so that's what they use, generating an identifier that changes daily using the visitor's IP address and user agent. To anonymise this data, it is passed through a hash function with a rotating salt. This generates a random string of letters and numbers that is used to calculate the number of unique visitors for the day. The IP address of the raw data and the user agent are never stored in the logs, databases or anywhere on Plausible analytics disk. Older salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next.   In this way, no personal user data is collected while browsing our website, for more information about the data processing by Plausible Analytics, you can visit their website at <a href="https://plausible.io/privacy-focused-web-analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Data collected from our Demo</h3> <p>The access to the <a href="%{decidim_url}">Decidim</a> platform demo, available through the Website in the URL <a href="https://try.decidim.org/">https://try.decidim.org/</a> is anonymous, since it is done through generic credentials for testing and knowledge of the operation, features and capabilities of the <a href="%{decidim_url}">Decidim</a> platform by the users. <p>Only a session cookie ("Session_id") is activated, whose purpose is to obtain or establish the session id for the current session. This cookie is strictly necessary for the technical functionality of detecting the session in the Website in order to ensure the connection through http protocols and to keep the User's session and Web Site services available, and are exempted from User consent in accordance with Opinion 4/2012 on the exemption from the cookie consent requirement issued by the European Data Protection Authority.</p> <h3>c. Data collected from contact forms, emails or other communication means</h3> <p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p> <h3>d. Data collected from <a href="%{decidim_url}">Decidim</a> community</h3> <p><a href="%{decidim_url}">Decidim</a> uses other platforms linked to this Website  for the management of the <a href="%{decidim_url}">Decidim</a> community generated around our technology, as a meeting point for the <a href="%{decidim_url}">Decidim</a> community and where most of the activities and communications between users and <a href="%{decidim_url}">Decidim</a> take place. These platforms, such as <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> or GitHub (<a href="https://github.com/decidim/decidim">https://github.com/decidim/decidim</a>) are governed by their own terms of use and privacy policies.</p> <p>Notwithstanding, <a href="%{decidim_url}">Decidim</a> may process User's personal data collected from these platforms for the management of the community projects developed in those platforms respectively, in particular these personal data may consist in connection data to these platforms, User profile on the platform, and the content of the comments and remarks that the User may contribute to the <a href="%{decidim_url}">Decidim</a> projects from time to time. Please note that this information may be public and, consequently, accessible and visible to other Users.</p> <h3>e. Data collected from our associate members</h3> <p>Any person or organization that wants to participate freely in the <a href="%{decidim_url}">Decidim</a> community, attending debates, collaborating in the organization of events, promoting a working group or community days, as well as contributing to the code or documentation of our free open-source participatory democracy platform, management of instances, etc., can choose to become a member of <a href="%{decidim_url}">Decidim</a>, as long as they have demonstrated sufficient commitment to the community through the realization of any of the above activities. To do so, you must complete a form to submit your application, which will be evaluated by the <a href="%{decidim_url}">Decidim</a> Coordination Committee.</p> <p>The processing of <a href="%{decidim_url}">Decidim</a> members' personal data is carried out for the purpose of managing the aforementioned projects and activities in which the associate member participates, accounting management of membership fees and, in general, the governance of projects and activities of <a href="%{decidim_url}">Decidim</a>, in order to ensure compliance with the <a href="%{decidim_url}">Decidim</a>'s principles and values as well as the associates' duties and rights.</p>
-    section-3:
-      title: Legal basis
-      paragraph: >-
-        <p>The legal basis of our processing of personal data are the following:</p> <ul> <li>The processing of Users and associate data is necessary to perform the contract, consisting in the Users acceptance of the Legal Text of the Website, in order to provide them all the information about <a href="%{decidim_url}">Decidim</a> and its technology, projects and activities, as well as to allow them participating in the projects and activities carried out by <a href="%{decidim_url}">Decidim</a>.</li> <li>We may also process your personal data when you give us express consent to make publications about <a href="%{decidim_url}">Decidim</a> projects and activities in which you have participated, press releases or other forms of communication and dissemination of <a href="%{decidim_url}">Decidim</a>'s activities, as well as to receive particular information on a regular basis and/or when you contact us through the website contact form or by e-mail. </li> <li>Additionally, we may process your data on our legitimate interest to perform statistical studies or other knowledge generation techniques, implementing pseudonymization and, if possible, anonymization measures, such as data aggregation, in order to protect the privacy of Users, in accordance with art. 89 GDPR.</li> </ul> <p>In certain circumstances, we may process your data in accordance with this policy to comply with a legal or regulatory obligation to which we are subject.</p>
-    section-4:
-      title: Data disclosure
-      paragraph: >-
-        <p>We process your personal data confidentially in accordance with the applicable legislation. Unless stated otherwise, your personal data will not be provided to third parties. </p> <p>Specifically, we disclose your data as follows:</p> <ul> <li>We can give access to your personal data to our IT service providers under contracts for the provision of services in favour of <a href="%{decidim_url}">Decidim</a>. Among the others, Netlify, Inc., an American entity who provide to Us web hosting services. <a href="%{decidim_url}">Decidim</a> has subscribed with Netlify a <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Data Processing Agreement</a>, including the Standard Contractual Clauses currently approved by the European Commission, in order to ensure that your personal data are processed with all adequate guarantees. More information about how Netlify use your personal data may be consulted here: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a>. </li> <li>We can make the data available to the public administration or authorities to investigate suspicions of fraud, harassment or other violations of any law, rule or regulation, or the policies of the website.</li> </ul> <p>For more information about our service providers who make international transfers, please contact us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>
-    section-5:
-      title: Data retention
-      paragraph: >-
-        <p>We only keep your personal data for as long as it is necessary to fulfil the purposes for which we have collected them, even to comply with legal, accounting or information requirements.</p> <p>To determine the appropriate retention period for personal data, we consider the amount, nature and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which we process your personal data, if we can achieve those purposes through other means and the applicable legal requirements.</p>
-    section-6:
-      title: Security measures
-      paragraph: >-
-        <p>We implement security measures and personal data protection schemes as required by law to maintain the confidentiality and integrity of your data and protection against unauthorised access, modification or destruction. </p>
-    section-7:
-      title: Your rights
-      paragraph: >-
-        <p>You have rights under data protection laws in relation to your personal data. Specifically, you have the right to: </p> <ul> <li><b>Request access</b> to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</li> <li><b>Request correction</b> of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</li> <li><b>Request erasure</b> of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</li> <li><b>Object to processing</b> of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</li> <li><b>Request restriction of processing</b> of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data's accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</li> <li><b>Request the transfer</b> of your personal data to you or to a third party (right to data portability). We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</li> <li><b>Withdraw consent at any time</b> where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</li> </ul> <p>The aforementioned rights may be effective by contacting us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>. <p>You also have the right to make any complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spain.
-    section-8:
-      title: General
-      paragraph: >-
-        <p>We reserve the right to amend the terms of this Privacy Policy and will notify you by providing a clear notice of these changes by email or on our Website, and in this Privacy Policy. If you continue to use our services after such update, you will be deemed to accept the new terms. If you do not accept the update, please terminate your account or notify us and we will terminate your Account and remove any of your personal data (except as required to be maintained for legal purposes), and you will not be able to continue to use our services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>
+      region: Regioner
