@@ -17,12 +17,6 @@
     values_cta: Read the social contract
     values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
     values_title: Our values
-  activeLang: Engelsk
-  alert:
-    desc: DecidimFest er et intenst 3-dagers program av aktiviteter som er viet Decidim prosjektet. deltakerdemokrati og åpen kildekode verktøy for kollektiv etterretning i tid av Global Democracy.
-    link: https://meta.decidim.org/conferences/DecidimFest21/f/1615/
-    subtitle: Bli med i vår samtale
-    title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
   blog:
     latest: Latest blog post
     read_more: Read more
@@ -41,64 +35,29 @@
       org: European Commission
       quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
   community:
-    bug:
-      cta: Angi og delta nå
-      subtitle: Samarbeid for progressiv forbedring
-      text: Hver nye utgivelse av desidim inneholder nye funksjoner og brukervennlighetsforbedringer, men ikke alt fungerer ved første og feilene kan komme til syne. Her kan du rapportere feil du finner og hjelpe utviklerne med å fikse dem raskt.
-      title: Rapporter feil
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
     cta: Kom i gang
-    features:
-      cta: Angi og delta nå
-      subtitle: Å utforme og utvikle desidim hos alle
-      text: Du kan skape debatter om dekidiums fremtid eller foreslå nye funksjoner eller forbedringer. Forslag kan få påtegninger og kommentarer, for eksempel den interessen de vekker for samfunnet og deres utvikling. forslag som har en sponsor (for eksempel byråd eller andre enheter), Ansvaret for å søke og framskaffe nødvendige ressurser for å gjennomføre utviklingen av disse, vil være nyttig i prosjektet.
-      title: Foreslå nye funksjoner
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Decidim Community Photo at Metadecidim Meeting 2016
     intro: Metadesidim er et fellesskap som samarbeider om utforming av plattformen og byggingen av prosjektet. Sammen kan vi utforme og utvikle nye funksjoner og rapportere problemer for kontinuerlig forbedring av plattformen.
     subtitle: Et demokratisk samfunn som leder prosjektet Decidim i alle sine dimensjoner
-    timeline:
-      step1:
-        text: Funksjonell beskrivelse
-        title: Nytt forslag
-      step2:
-        text: Teknisk og teknisk validering
-        title: Validert forslag
-      step3:
-        text: Ressurser for utvikling (delt eller ikke)
-        title: Planlagte forslag
-      step4:
-        text: Teknisk beskrivelse
-        title: Problem
-      step5:
-        text: Utviklet kode
-        title: Trekk forespørsel
-      step6:
-        text: FÃ¸rlig på neste versjon
-        title: Funksjonalitet utført
-      title: Samarbeidende utforming av funksjoner
     title: Metadesidim, vårt samfunn
   contact:
     bot_field: 'Fyll ikke ut dette hvis du er mennesket:'
     email: Epost
-    entity: Enhet
     message: Melding
     name: Navn
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
     send: Send
-    subject: Subject
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     title: Kontakt oss
   demo:
     button: Elektronisk demo
     p1: Spill rundt og utforsk fritt Decidim-plattformen med vår nettbaserte demo.
-    p2: Dekidim er opp og kjører på flere forekomster som du kan besøke og utforske <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> ved Barcelona byen eller du kan besøke <a href="https://participa.gavaciutat.cat/" target="_blank">Gavaephal</a> og <a href="https://www.lhon-participa.cat/" target="_blank">L'Sykehuset</a>. Men dette er virkelige forekomster hvor du virkelig ikke kan spille fritt rundt omkring, som du kanskje ikke er statsborger av disse kommunene, og du kan ikke utforske disse områdene som en admin.
-    p3: Hvis du vil gå videre, er du velkommen til å teste Decidim på vår Decidim Demo Site (courtesy of our developers at <a href="http://alabs.org" target="_blank">aLabs</a>). Angi demo området og fritt utforske potensialet av dekidim og dens egenskaper.
-    p4: Du kan logge inn som <strong>Admin</strong> (brukernavn "<strong>admin@example.org</strong>" og passord "<strong>decidim123456</strong>").
     strong: Try Online
     title: Demo på nett
   faqs:
@@ -156,34 +115,7 @@
     title: Ofte stilte spørsmål
     types: '["About Decidim", "Users and roles", "Roadmap and features", "Community and social contract", "Installation and license", "Association"]'
   features:
-    cta:
-      button: Funksjoner og funksjoner
-      title: Oppdag hvordan desidim virker dybdevis
     intro: "<p>Du kan bruke Decidim i en offentlig eller privat organisasjon, med hundrevis eller tusenvis av potensielle deltakere, slikt som byråd, en forening, et universitet, en NGO, en fagforening, et nabolag, kollektivt eller samarbeidet...</p><p>Takket være å forkaste deg vil du kunne konfigurere lokaler for deltakelse (initiativ, forsamlinger, prosesser eller konsultasjoner) og rike dem gjennom flere tilgjengelige komponenter (møter møter i ansiktet, spørreundersøkelser, forslag, stemme, oppfølging av resultater, kommentarer og mange flere).</p>"
-    list:
-      cta:
-        features: Se alle funksjoner
-        values: Gå til sosial kontrakt
-      n1:
-        content: Kommisjonen analyserer forslaget og fremmer en ny måte å fordele felles ressurser på.
-        title: Deltaker<br/>budsjett
-      n2:
-        content: Gi samfunnet ditt makt ved hjelp av borgerinitiativ. Gi lokalbefolkningen relevant stemmegivning gjennom konsultasjoner.
-        title: Borgernes initiativer<br/>og konsultasjoner
-      n3:
-        content: It takes deliberation, cooperation and decision to a massive dimension, with thousands of people participating in real time.
-        title: Kraften<br/>i et politisk nettverk
-      n4:
-        content: Takket være dens modulære arkitektur og skalerbare logikk, kan du konfigurere et kraftig system med demokratisk styring i alle typer organisasjoner.
-        title: Et demokratisk<br/>og fleksibelt system
-      n5:
-        content: Avtale sikrer innsyn, sporbarhet og integritet til informasjon som aldri før. Den gir sikkerhet, personvern og konfidensialitet for alle deltakerne.
-        title: Vi tar demokrati<br/>veldig alvorlig
-      n6:
-        content: En plattform designet helt med gratis programvare, åpent og samarbeidende innhold takket være fellesskapets Metadesidim.
-        title: Det er ditt.<br/>Del det. Forbedre det.
-    other:
-      subtitle: Tror å kombinere komponentene. Design og distribuere et sterkt demokratisk system på en enkel måte og tilpasse det til organisasjonens behov
     page:
       feature1:
         subtitle: å degradere felles utfordringer, steg for steg
@@ -256,10 +188,8 @@
     subtitle: For democratic organizations and collectives of any size and kind.
     title: Funksjoner
     type1:
-      subtitle: For deltakerne å komme med forslag og treffe beslutninger
       title: Fellesskap for deltakelse
     type2:
-      subtitle: For deltakere og rom å samhandle
       title: Komponenter
     type3:
       cta: Explore the modules
@@ -300,15 +230,12 @@
     title: First steps with Decidim
   footer:
     about_us: About us
-    attribution: "- Creative Commons By-SA"
     follow_us: Follow us on social media
     legal: Legal
     supported_by: Supported by
     trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
     up_to_date: Stay up to date
   index:
-    button:
-      code: Kode for Github
     cards:
       card1:
         content: We can help configure a system of democratic governance in all kinds of organizations.
@@ -322,11 +249,8 @@
         content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
         link: The community
         title: It's yours. Use it. Share it. Improve it.
-    cta:
-      title: begynn å bruke Decidim i dag
     hero:
       cta: Get started
-      heading: Fri åpen kildekode som deltar demokrati for byer og organisasjoner
       intro: Gratis og sikker teknologi.<br/>Med alle demokratiske garantier.<br/>Reprogrammering demokrati er nå mulig med Decidim.
       subheading: Dekidim er en digital plattform<br/>for medborgernes deltakelse
     subhero:
@@ -339,14 +263,9 @@
       feature6: Nettverk<br/>kommunikasjon
       intro: Dekidim hjelper borgere, organisasjoner og offentlige institusjoner selv å organisere demokratisk i alle skala.
     used_by:
-      cta: Se alle
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
       title: They are already using Decidim
-    video:
-      close: Lukk video
-      play: Spill av video
-      url: https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc
   legal-notice:
     section-1:
       paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -380,20 +299,12 @@
     auth: Authorization
     community: Community
     cta: Learn how
-    description: Description
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
-    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
-    image: Image
     more_info: More information
-    name: Navn
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
     title: Modules
-    type:
-      auth: Autorisasjon
-      community: Fellesskap
-      official: Offentlig
   nav:
     about: About
     association: Association
@@ -429,7 +340,6 @@
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
-    notice: Samarbeidsorganenes logoer er er immaterielle rettigheter for sine respektive rettighetshavere. De faller ikke under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA lisensen</a> resten av nettstedets innhold er lisensiert med.
     subtitle: These entities and organizations collaborate with Decidim.
     title: Partners
   partnership-policy:
@@ -454,10 +364,7 @@
   path: "/no"
   press:
     highlights: Media highlights
-    issues: Latest issues of our newsletter
     kit: Press kit
-    links: '[{"title"=>"Logo files", "link"=>"Download"}, {"title"=>"Promotional spot", "link"=>"Watch"}, {"title"=>"Decidim Fest 2021", "link"=>"To the site"}, {"title"=>"Videos", "link"=>"Youtube channel"}, {"title"=>"Brochure", "link"=>"Download"}, {"title"=>"Community photos", "link"=>"Downloads"}]'
-    read_all: Read all newsletter issues
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
@@ -543,7 +450,6 @@
   used_by:
     cta: Get started
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
-    explain: Disse byene, regionene og organisasjonene bruker allerede desidim
     facts:
       f1: instances
       f2: countries
@@ -556,16 +462,7 @@
       f9: meetings
       subtitle: Decidim keeps growing and being adopted by organizations and the community.
       title: Facts & Figures
-    filters:
-      f0: See all
-      f1: Government
-      f2: Cities
-      f3: NGOs
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
     title: Decidim in use
-    type:
-      city: Byer
-      organizations: Organisasjoner
-      region: Regioner

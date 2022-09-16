@@ -17,12 +17,6 @@ el:
     values_cta: Read the social contract
     values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
     values_title: Our values
-  activeLang: Αγγλικά
-  alert:
-    desc: Το DecidimFest είναι ένα έντονο τριήμερο πρόγραμμα δραστηριοτήτων αφιερωμένο στο έργο Decidim, συμμετοχική δημοκρατία και εργαλεία ανοικτού κώδικα για συλλογική ευφυΐα στην εποχή της Παγκόσμιας Δημοκρατίας.
-    link: https://meta.decidim.org/conferences/DecidimFest21/f/1615/
-    subtitle: Συμμετοχή στην κλήση μας
-    title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
   blog:
     latest: Latest blog post
     read_more: Read more
@@ -41,64 +35,29 @@ el:
       org: European Commission
       quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
   community:
-    bug:
-      cta: Εισάγετε και συμμετάσχετε τώρα
-      subtitle: Συνεργασία για προοδευτική βελτίωση
-      text: Κάθε νέα έκδοση του Decidim ενσωματώνει νέα χαρακτηριστικά και βελτιώσεις χρηστικότητας, αλλά δεν είναι όλα έργα στην αρχή και μπορεί να εμφανιστούν λάθη. Εδώ μπορείτε να αναφέρετε σφάλματα που θα βρείτε και να βοηθήσετε τους προγραμματιστές να τα διορθώσουν γρήγορα.
-      title: Αναφορά σφάλματος
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
     cta: Ας αρχίσουμε
-    features:
-      cta: Εισάγετε και συμμετάσχετε τώρα
-      subtitle: Για το σχεδιασμό και την ανάπτυξη Decidim μεταξύ όλων
-      text: Μπορείτε να δημιουργήσετε συζητήσεις σχετικά με το μέλλον του Decidim ή να προτείνετε νέα χαρακτηριστικά ή βελτιώσεις. Οι προτάσεις μπορούν να λάβουν προσυπογραφές και σχόλια, για να δείξουν, για παράδειγμα, το ενδιαφέρον τους για την κοινότητα και να εκτιμήσουν την ανάπτυξή τους. Προτάσεις που έχουν χορηγό (όπως δημοτικό συμβούλιο ή οποιαδήποτε άλλη οντότητα), υπεύθυνος για την αναζήτηση και την παροχή των απαραίτητων πόρων για την υλοποίηση της ανάπτυξής τους, θα είναι χρήσιμος για το έργο.
-      title: Προτείνετε νέα χαρακτηριστικά
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Αποχρωματισμός φωτογραφία κοινότητας στο Metadecidim Meeting 2016
     intro: Το Metadecidim είναι μια κοινότητα που συνεργάζεται στο σχεδιασμό της πλατφόρμας και στην κατασκευή του έργου. Μαζί μπορούμε να σχεδιάσουμε και να αναπτύξουμε νέα χαρακτηριστικά και να αναφέρουμε σφάλματα για συνεχή βελτίωση της πλατφόρμας.
     subtitle: Μια δημοκρατική κοινότητα που διαχειρίζεται το σχέδιο Decidim σε όλες του τις διαστάσεις
-    timeline:
-      step1:
-        text: Λειτουργική περιγραφή
-        title: Νέα πρόταση
-      step2:
-        text: Τεχνική και τεχνοπολιτική επικύρωση
-        title: Επικυρωμένη πρόταση
-      step3:
-        text: Πόροι ανάπτυξης (κοινόχρηστοι ή όχι)
-        title: Προγραμματισμένη πρόταση
-      step4:
-        text: Τεχνική περιγραφή
-        title: Πρόβλημα
-      step5:
-        text: Προγραμματισμένος κώδικας
-        title: Αίτημα έλξης
-      step6:
-        text: Διαθέσιμο στην επόμενη έκδοση
-        title: Ολοκληρώθηκε η ψευδαίσθηση
-      title: Συνεργατικός σχεδιασμός λειτουργιών
     title: Μεταδεκτικότητα, η κοινότητά μας
   contact:
     bot_field: 'Μην το γεμίσετε αυτό αν είστε άνθρωπος:'
     email: Email
-    entity: Οντότητα
     message: Μήνυμα
     name: Όνομα
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
     send: Αποστολή
-    subject: Subject
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     title: Επικοινωνήστε μαζί μας
   demo:
     button: Online demo
     p1: Παίξτε γύρω και να εξερευνήσετε ελεύθερα την πλατφόρμα Decidim με online demo.
-    p2: Decidim είναι σε λειτουργία και να λειτουργήσει σε πολλές περιπτώσεις που μπορείτε να επισκεφθείτε και να εξερευνήσετε, <a href="http://decidim.barcelona" target="_blank">Αποδέξια Βαρκελώνη</a> στην πόλη της Βαρκελώνης ή μπορείτε να επισκεφθείτε τις τοποθεσίες <a href="https://participa.gavaciutat.cat/" target="_blank">Γκάβα</a> και <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. Αλλά αυτές είναι πραγματικές περιπτώσεις όπου δεν μπορείτε πραγματικά να παίξετε ελεύθερα, καθώς μπορεί να μην είστε υπήκοος αυτών των δήμων, και δεν μπορείτε να εξερευνήσετε αυτές τις ιστοσελίδες ως διαχειριστή.
-    p3: Αν θέλετε να προχωρήσετε περαιτέρω είστε ευπρόσδεκτοι να δοκιμάσετε Decidim στην ιστοσελίδα μας Decidim Demo (ευγενική προσφορά των προγραμματιστών μας στο <a href="http://alabs.org" target="_blank">aLabs</a>). Εισάγετε τον ιστότοπο επίδειξης και εξερευνήστε ελεύθερα τις δυνατότητες του Decidim και τα χαρακτηριστικά του.
-    p4: Μπορείτε να συνδεθείτε ως <strong>Διαχειριστής</strong> (όνομα χρήστη "<strong>admin@example.org</strong>" και κωδικός πρόσβασης "<strong>decidim123456</strong>").
     strong: Try Online
     title: Ηλεκτρονική Επίδειξη
   faqs:
@@ -156,34 +115,7 @@ el:
     title: Συχνές ερωτήσεις
     types: '["About Decidim", "Users and roles", "Roadmap and features", "Community and social contract", "Installation and license", "Association"]'
   features:
-    cta:
-      button: Λειτουργίες και χαρακτηριστικά
-      title: Ανακαλύψτε πώς λειτουργεί το Decidim σε βάθος
     intro: "<p>Μπορείτε να χρησιμοποιήσετε το Decidim σε έναν δημόσιο ή ιδιωτικό οργανισμό, με εκατοντάδες ή χιλιάδες πιθανούς συμμετέχοντες, όπως ένα δημοτικό συμβούλιο, μια ένωση, ένα πανεπιστήμιο, μια ΜΚΟ, μια συνδικαλιστική ένωση, μια συλλογική γειτονιά ή ένας συνεταιρισμός...</p><p>Χάρη στο Decidim θα είστε σε θέση να διαμορφώσετε χώρους για συμμετοχή (πρωτοβουλίες, συνελεύσεις, επεξεργάζεται ή διαβουλεύσεις), και τις εμπλουτίζει μέσω των πολλαπλών διαθέσιμων στοιχείων (πρόσωπο με πρόσωπο συναντήσεις, έρευνες, προτάσεις, ψηφοφορία, παρακολούθηση των αποτελεσμάτων, σχόλια και πολλά άλλα).</p>"
-    list:
-      cta:
-        features: Δείτε όλα τα χαρακτηριστικά
-        values: Πηγαίνετε στο κοινωνικό συμβόλαιο
-      n1:
-        content: Αναλύει τις υποβληθείσες προτάσεις και προωθεί έναν νέο τρόπο κατανομής των κοινών πόρων.
-        title: Συμμετοχικοί<br/>προϋπολογισμοί
-      n2:
-        content: Ενδυναμώστε την κοινότητά σας μέσω πρωτοβουλιών πολιτών. Προωθήστε τη σχετική ψηφοφορία μέσω διαβουλεύσεων.
-        title: Πρωτοβουλίες πολιτών<br/>και διαβουλεύσεις
-      n3:
-        content: Παίρνει τη διαβούλευση, τη συνεργασία και την απόφαση σε μια μαζική διάσταση, με χιλιάδες ανθρώπους να συμμετέχουν σε πραγματικό χρόνο.
-        title: Η εξουσία<br/>ενός πολιτικού δικτύου
-      n4:
-        content: Χάρη στην αρθρωτή αρχιτεκτονική και τη επεκτάσιμη λογική του, μπορείτε να διαμορφώσετε ένα ισχυρό σύστημα δημοκρατικής διακυβέρνησης σε όλα τα είδη των οργανώσεων.
-        title: Ένα δημοκρατικό<br/>και ευέλικτο σύστημα
-      n5:
-        content: Το Decidim διασφαλίζει τη διαφάνεια, την ιχνηλασιμότητα και την ακεραιότητα των πληροφοριών όπως ποτέ άλλοτε.
-        title: Παίρνουμε τη δημοκρατία<br/>πολύ σοβαρά
-      n6:
-        content: Μια πλατφόρμα σχεδιασμένη εξ ολοκλήρου με ελεύθερο λογισμικό, ανοιχτό και συνεργατικό περιεχόμενο χάρη στην κοινότητα Metadecidim.
-        title: Είναι δική σας.<br/>Μοιραστείτε το.
-    other:
-      subtitle: Τόλμησε να συνδυάσεις τα εξαρτήματα. Σχεδίασε και χρησιμοποίησε ένα ισχυρό δημοκρατικό σύστημα με εύκολο τρόπο και προσάρμοσε το στις ανάγκες του οργανισμού σου
     page:
       feature1:
         subtitle: να εκδημοκρατίσουμε κοινά ζητήματα, βήμα προς βήμα
@@ -256,10 +188,8 @@ el:
     subtitle: For democratic organizations and collectives of any size and kind.
     title: Χαρακτηριστικά
     type1:
-      subtitle: Για τους συμμετέχοντες να κάνουν προτάσεις και να λάβουν αποφάσεις
       title: Χώροι συμμετοχής
     type2:
-      subtitle: Για τους συμμετέχοντες και τους χώρους αλληλεπίδρασης
       title: Στοιχεία
     type3:
       cta: Explore the modules
@@ -300,15 +230,12 @@ el:
     title: First steps with Decidim
   footer:
     about_us: About us
-    attribution: "- Creative Commons By-SA"
     follow_us: Follow us on social media
     legal: Legal
     supported_by: Supported by
     trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
     up_to_date: Stay up to date
   index:
-    button:
-      code: Κωδικός στο Github
     cards:
       card1:
         content: We can help configure a system of democratic governance in all kinds of organizations.
@@ -322,11 +249,8 @@ el:
         content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
         link: The community
         title: It's yours. Use it. Share it. Improve it.
-    cta:
-      title: αρχίστε να χρησιμοποιείτε το Decidim σήμερα
     hero:
       cta: Get started
-      heading: Δωρεάν Συμμετέχουσα δημοκρατία ανοιχτού κώδικα για τις πόλεις και τους οργανισμούς
       intro: Δωρεάν και ασφαλής τεχνολογία.<br/>Με όλες τις δημοκρατικές εγγυήσεις.<br/>Ο επαναπρογραμματισμός της δημοκρατίας είναι πλέον δυνατός με το Decidim.
       subheading: Decidim είναι μια ψηφιακή πλατφόρμα<br/>για τη συμμετοχή των πολιτών
     subhero:
@@ -339,14 +263,9 @@ el:
       feature6: Δικτυωμένη<br/>επικοινωνία
       intro: Ο Decidim βοηθά τους πολίτες, τους οργανισμούς και τους δημόσιους θεσμούς να αυτοοργανώνονται δημοκρατικά σε κάθε κλίμακα.
     used_by:
-      cta: Εμφάνιση όλων
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
       title: Χρησιμοποιούν ήδη Decidim
-    video:
-      close: Κλείσιμο βίντεο
-      play: Αναπαραγωγή βίντεο
-      url: https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc
   legal-notice:
     section-1:
       paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -380,20 +299,12 @@ el:
     auth: Authorization
     community: Community
     cta: Learn how
-    description: Description
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
-    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
-    image: Image
     more_info: More information
-    name: Όνομα
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
     title: Modules
-    type:
-      auth: Εξουσιοδότηση
-      community: Κοινότητα
-      official: Επίσημη
   nav:
     about: About
     association: Association
@@ -429,7 +340,6 @@ el:
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
-    notice: Τα λογότυπα των συνεργαζόμενων οντοτήτων αποτελούν πνευματική ιδιοκτησία των αντίστοιχων κατόχων δικαιωμάτων πνευματικής ιδιοκτησίας. Δεν εμπίπτουν στην <a href="https://creativecommons.org/licenses/by-sa/4.0/">άδεια Creative Commons By-SA</a> το υπόλοιπο περιεχόμενο του ιστότοπου έχει αδειοδοτηθεί.
     subtitle: These entities and organizations collaborate with Decidim.
     title: Partners
   partnership-policy:
@@ -454,10 +364,7 @@ el:
   path: "/el"
   press:
     highlights: Media highlights
-    issues: Latest issues of our newsletter
     kit: Press kit
-    links: '[{"title"=>"Logo files", "link"=>"Download"}, {"title"=>"Promotional spot", "link"=>"Watch"}, {"title"=>"Decidim Fest 2021", "link"=>"To the site"}, {"title"=>"Videos", "link"=>"Youtube channel"}, {"title"=>"Brochure", "link"=>"Download"}, {"title"=>"Community photos", "link"=>"Downloads"}]'
-    read_all: Read all newsletter issues
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
@@ -543,7 +450,6 @@ el:
   used_by:
     cta: Get started
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
-    explain: Αυτές οι πόλεις, οι περιοχές και οι οργανισμοί χρησιμοποιούν ήδη Decidim
     facts:
       f1: instances
       f2: countries
@@ -556,16 +462,7 @@ el:
       f9: meetings
       subtitle: Decidim keeps growing and being adopted by organizations and the community.
       title: Facts & Figures
-    filters:
-      f0: See all
-      f1: Government
-      f2: Cities
-      f3: NGOs
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
     title: Decidim in use
-    type:
-      city: Πόλεις
-      organizations: Οργανισμοί
-      region: Περιφέρειες

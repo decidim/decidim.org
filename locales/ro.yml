@@ -17,12 +17,6 @@ ro:
     values_cta: Read the social contract
     values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
     values_title: Our values
-  activeLang: Română
-  alert:
-    desc: DecidimFest este un program intens de activităţi de 3 zile dedicate proiectului Decidim, democraţia participativă şi instrumentele open source pentru inteligenţa colectivă în era democraţiei globale.
-    link: https://meta.decidim.org/conferences/DecidimFest21/f/1615/
-    subtitle: Alătură-te apelului nostru
-    title: 'Decidim Fest 2021 :: Democraţie, Tehnologie şi Justiţie Globală 20, 21 şi 22 octombrie'
   blog:
     latest: Latest blog post
     read_more: Read more
@@ -41,64 +35,29 @@ ro:
       org: European Commission
       quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
   community:
-    bug:
-      cta: Intră și participă acum
-      subtitle: Colaborare în vederea îmbunătăţirii progresive
-      text: Fiecare nouă versiune de Decidim încorporează noi caracteristici şi îmbunătăţiri ale gradului de utilizare, dar nu totul funcţionează la început şi pot apărea erori. Aici puteți raporta erorile pe care le găsiți și puteți ajuta dezvoltatorii să le rezolve rapid.
-      title: Raportează o eroare
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
     cta: Începeți
-    features:
-      cta: Intră și participă acum
-      subtitle: Să proiecteze și să dezvolte Decidim printre toți
-      text: Puteţi crea dezbateri despre viitorul Decidim sau propune noi caracteristici sau îmbunătăţiri. Propunerile pot primi aprobări și comentarii pentru a arăta, de exemplu, interesul pe care îl trezesc pentru comunitate și pentru a-și aprecia dezvoltarea. propuneri care au un sponsor (cum ar fi un consiliu municipal sau orice altă entitate), pentru proiect va fi util să caute şi să furnizeze resursele necesare realizării dezvoltării lor.
-      title: Propune caracteristici noi
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Fotografie comunitară decidiană la ședința Metadecidim din 2016
     intro: Metadecidim este o comunitate care colaborează la proiectarea platformei şi la construcţia proiectului. Împreună putem proiecta și dezvolta noi caracteristici și raporta erorile pentru îmbunătățirea continuă a platformei.
     subtitle: O comunitate democratică care gestionează proiectul Decidim în toate dimensiunile sale
-    timeline:
-      step1:
-        text: Descriere funcţională
-        title: Propunere nouă
-      step2:
-        text: Validarea tehnică și tehnopolitică
-        title: Propunere validată
-      step3:
-        text: Resurse pentru dezvoltare (partajate sau nu)
-        title: Propunere planificată
-      step4:
-        text: Descriere tehnică
-        title: Problemă
-      step5:
-        text: Cod dezvoltat
-        title: Cerere de tragere
-      step6:
-        text: Avaliable on the next version
-        title: Funcionalitate realizată
-      title: Proiectarea în colaborare a funcționalităților
     title: Metadecidim, comunitatea noastră
   contact:
     bot_field: 'Nu completați acest lucru dacă sunteți uman:'
     email: E-mail
-    entity: Entitate
     message: Mesaj
     name: Nume
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
     send: Trimite
-    subject: Subiect
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     title: Contactați-ne
   demo:
     button: Demo online
     p1: Joacă-te și explorează liber platforma Decidim cu demo-ul nostru online.
-    p2: Decidim funcționează în mai multe cazuri pe care le poți vizita și explora, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> la Barcelona City sau puteți vizita site-urile <a href="https://participa.gavaciutat.cat/" target="_blank">Gava<unk></a> și <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. Dar acestea sunt situaţii reale în care nu te poţi juca cu adevărat liber, pentru că s-ar putea să nu fii un cetăţean al acelor municipalităţi şi nu poţi explora aceste site-uri ca administrator.
-    p3: Dacă vrei să mergi mai departe, ești binevenit să testezi Decidim Site Demo Decidim (grație dezvoltatorilor noștri la <a href="http://alabs.org" target="_blank">aLabs</a>). Intră în site-ul demo şi explorează liber potenţialul Decidim şi caracteristicile sale.
-    p4: Vă puteți autentifica ca <strong>Admin</strong> (numele de utilizator "<strong>admin@example.org</strong>" și parola "<strong>decidim123456</strong>).
     strong: Try Online
     title: Demo online
   faqs:
@@ -156,34 +115,7 @@ ro:
     title: Întrebări frecvente
     types: '["About Decidim", "Users and roles", "Roadmap and features", "Community and social contract", "Installation and license", "Association"]'
   features:
-    cta:
-      button: Funcții și caracteristici
-      title: Descoperă cum funcționează Decidim în profunzime
     intro: "<p>Poți folosi Decidim într-o organizație publică sau privată, cu sute sau mii de potențiali participanți, cum ar fi un consiliu urban, o asociaţie, o universitate, o ONG, un sindicat, un colectiv de cartiere sau o cooperativă...</p><p>Mulțumită Decidim vei putea configura spațiile pentru participare (inițiative, adunări, procedează sau consultări) și le îmbogățește prin multiple componente disponibile (reuniuni față în față, sondaje, propuneri, votare, urmărirea rezultatelor, observații și multe altele).</p>"
-    list:
-      cta:
-        features: Vezi toate caracteristicile
-        values: Du-te la contractul social
-      n1:
-        content: Acesta analizează propunerile prezentate și promovează o nouă modalitate de distribuire a resurselor comune.
-        title: Bugete<br/>participative
-      n2:
-        content: Responsabilizarea comunității prin inițiative cetățenești. Promovarea votului relevant prin consultări.
-        title: Inițiative ale cetățenilor<br/>și consultări
-      n3:
-        content: Are nevoie de deliberare, colaborare şi decizie la o dimensiune masivă, mii de oameni participând în timp real.
-        title: Puterea<br/>unei rețele politice
-      n4:
-        content: Datorită arhitecturii sale modulare și logicii scalabile, poți configura un sistem puternic de guvernanță democratică în toate tipurile de organizații.
-        title: Un<br/>democratic și un sistem flexibil
-      n5:
-        content: Decidim asigură transparenţa, trasabilitatea şi integritatea informaţiilor ca niciodată până acum, oferind securitate, confidenţialitate şi confidenţialitate tuturor participanţilor.
-        title: Luăm democrația<br/>foarte în serios
-      n6:
-        content: O platformă proiectată în întregime cu software gratuit, cu conținut deschis și colaborativ datorită Metadecidimului comunității.
-        title: Este al tău.<br/>Distribuie. Îmbunătățește-l.
-    other:
-      subtitle: Dare pentru a combina componentele. Proiectați și implementați un sistem democratic puternic într-un mod ușor și adaptați-l la nevoile organizației dvs.
     page:
       feature1:
         subtitle: democratizarea problemelor comune, pas cu pas
@@ -256,10 +188,8 @@ ro:
     subtitle: For democratic organizations and collectives of any size and kind.
     title: Caracteristici
     type1:
-      subtitle: Pentru ca participanții să facă propuneri și să ia decizii
       title: Spaţii de participare
     type2:
-      subtitle: Pentru ca participanții și spațiile să interacționeze
       title: Componente
     type3:
       cta: Explore the modules
@@ -300,15 +230,12 @@ ro:
     title: First steps with Decidim
   footer:
     about_us: About us
-    attribution: "- Creative Commons By-SA"
     follow_us: Follow us on social media
     legal: Legal
     supported_by: Supported by
     trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
     up_to_date: Stay up to date
   index:
-    button:
-      code: Cod pe Github
     cards:
       card1:
         content: We can help configure a system of democratic governance in all kinds of organizations.
@@ -322,11 +249,8 @@ ro:
         content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
         link: The community
         title: It's yours. Use it. Share it. Improve it.
-    cta:
-      title: Începe să folosești Decidim astăzi
     hero:
       cta: Get started
-      heading: Democraţia participativă gratuită deschisă pentru oraşe şi organizaţii
       intro: Tehnologie liberă și sigură.<br/>Cu toate garanțiile democratice.<br/>Reprogramarea democrației este posibilă acum cu Decidim.
       subheading: Decidim este o platformă digitală<br/>pentru participarea cetăţenilor
     subhero:
@@ -339,14 +263,9 @@ ro:
       feature6: Comunicare<br/>rețea
       intro: Decidim ajută cetăţenii, organizaţiile şi instituţiile publice să se autoorganizeze democratic la toate nivelurile.
     used_by:
-      cta: Vezi toate
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
       title: Acestea folosesc deja Decidim
-    video:
-      close: Închide videoclipul
-      play: Redare videoclip
-      url: https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc
   legal-notice:
     section-1:
       paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -380,20 +299,12 @@ ro:
     auth: Authorization
     community: Community
     cta: Learn how
-    description: Descriere
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
-    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
-    image: Imagine
     more_info: More information
-    name: Nume
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
     title: Modules
-    type:
-      auth: Autorizare
-      community: Comunitate
-      official: Oficial
   nav:
     about: About
     association: Association
@@ -429,7 +340,6 @@ ro:
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
-    notice: Logourile entităților cooperante sunt proprietatea intelectuală a titularilor de drepturi de autor respectivi. Acestea nu se încadrează în <a href="https://creativecommons.org/licenses/by-sa/4.0/">licența Creative Commons By-SA</a> restul conținutului site-ului este licențiat.
     subtitle: These entities and organizations collaborate with Decidim.
     title: Partners
   partnership-policy:
@@ -454,10 +364,7 @@ ro:
   path: "/ro"
   press:
     highlights: Media highlights
-    issues: Latest issues of our newsletter
     kit: Press kit
-    links: '[{"title"=>"Logo files", "link"=>"Download"}, {"title"=>"Promotional spot", "link"=>"Watch"}, {"title"=>"Decidim Fest 2021", "link"=>"To the site"}, {"title"=>"Videos", "link"=>"Youtube channel"}, {"title"=>"Brochure", "link"=>"Download"}, {"title"=>"Community photos", "link"=>"Downloads"}]'
-    read_all: Read all newsletter issues
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
@@ -543,7 +450,6 @@ ro:
   used_by:
     cta: Get started
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
-    explain: Aceste oraşe, regiuni şi organizaţii folosesc deja Decidim
     facts:
       f1: instances
       f2: countries
@@ -556,16 +462,7 @@ ro:
       f9: meetings
       subtitle: Decidim keeps growing and being adopted by organizations and the community.
       title: Facts & Figures
-    filters:
-      f0: See all
-      f1: Government
-      f2: Cities
-      f3: NGOs
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
     title: Decidim in use
-    type:
-      city: Orașe
-      organizations: Organizații
-      region: Regiuni

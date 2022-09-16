@@ -54,8 +54,8 @@ data:
 # Find translate calls
 search:
   ## Paths or `File.find` patterns to search in:
-  # paths:
-  #  - app/
+  paths:
+   - source/
 
   ## Root directories for relative keys resolution.
   # relative_roots:
@@ -120,7 +120,18 @@ search:
 # - '{devise,simple_form}.*'
 
 ## Consider these keys used:
-# ignore_unused:
+ignore_unused:
+  - 'nav.*'
+  - 'about.values'
+  - 'index.cards.*.{title,link,content}'
+  - 'first-steps.*.{pre,title,content,link1}'
+  - 'partnership-policy.explanation.{p1,p2,p3}'
+  - 'faqs.types'
+  - 'press.links.*.{title,link}'
+  - '{legal-notice,privacy-policy}.*.{title,paragraph}'
+  - 'trademark.{p1,p2,p3}'
+  - 'trademark.goals.{l1,l2,l3}'
+  - 'trademark.{examples-1,examples-2,examples-3}.{title,l1,l2,l3}'
 # - 'activerecord.attributes.*'
 # - '{devise,kaminari,will_paginate}.*'
 # - 'simple_form.{yes,no}'

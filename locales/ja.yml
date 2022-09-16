@@ -17,12 +17,6 @@ ja:
     values_cta: Read the social contract
     values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
     values_title: Our values
-  activeLang: 日本語
-  alert:
-    desc: DecidimFestは、 ブローバルな民主主義の時代における集合知のための参加型民主主義とそのためのオープンソースのツールからなるDecidimプロジェクトに専念する3日間の強力な活動プログラムです。
-    link: https://meta.decidim.org/conferences/DecidimFest21/f/1615/
-    subtitle: 参加者募集中
-    title: 'Decidim Fest 2021 :: 民主主義、テクノロジー、グローバルな正義 | 10月20〜22日'
   blog:
     latest: Latest blog post
     read_more: Read more
@@ -41,64 +35,29 @@ ja:
       org: European Commission
       quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
   community:
-    bug:
-      cta: 今すぐ参加する
-      subtitle: 漸進的改善のためのコラボレーション
-      text: Decidim の新しいリリースには、新機能とユーザビリティの向上が組み込まれていますが、最初はすべてが機能するわけではなく、エラーが発生する可能性があります。 ここでは、見つけたバグを報告し、開発者が迅速に修正できるようにすることができます。
-      title: バグの報告
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
     cta: 参加する
-    features:
-      cta: 今すぐ参加する
-      subtitle: Decidimを設計し、開発するには
-      text: Decidimの将来についての議論を作成したり、新機能や改善点を提案したりできます。 提案は、例えば、コミュニティの中で関心を喚起し、彼らの開発を重視するように、推薦やコメントを受け取ることができます。 スポンサーを持つ提案（市議会やその他の団体など） 開発を遂行するために必要なリソースを求め、提供する責任は、プロジェクトのために役立つでしょう。
-      title: 新機能の提案
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Metadecidim Meeting 2016 でのDecidimコミュニティの写真
     intro: Metadecidimはプラットフォームの設計とプロジェクトの構築に協力するコミュニティです。 プラットフォームを継続的に改善するために、新しい機能とレポートのバグを設計・開発できます。
     subtitle: Decidimプロジェクトをあらゆる面で統括する民主的コミュニティ
-    timeline:
-      step1:
-        text: 機能の説明
-        title: 新しい提案
-      step2:
-        text: 技術的・技術-政治的(technopolitical) 検証
-        title: 検証済みの提案
-      step3:
-        text: 開発のためのリソース (共有または非公開)
-        title: 計画された提案
-      step4:
-        text: 技術的な説明
-        title: 課題
-      step5:
-        text: 開発されたコード
-        title: Pull request
-      step6:
-        text: 次のバージョンで使用可能
-        title: 機能の完成
-      title: 機能の共同設計
     title: Metadecidim, our community
   contact:
     bot_field: 人間である場合はここを記入しないでください：
     email: Eメールアドレス
-    entity: 所属
     message: 本文
     name: 名前
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
     send: 送信
-    subject: 件名
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     title: お問い合わせ
   demo:
     button: オンラインデモ
     p1: オンラインデモを利用して、Decidimプラットフォームを自由に触れてみてください
-    p2: Decidimが稼働しているいくつかのインスタンスには、あなたも訪問し、探索することができます。 バルセロナ市の<a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a>や、 <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> 、<a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>のサイトを訪れることができます。 しかし、これらは実際に使われている本物のインスタンスであり、実際の自治体の市民でなければお使いいただけるものではありません。また、管理者としてそれらのサイトを探索することもできません。
-    p3: さらに詳しく知りたい場合は、Decidimデモサイト( <a href="http://alabs.org" target="_blank">aLabs</a>にて開発者の方々をお待ちしております)でDecidimをテストしていただけます。 デモサイトに入って、Decidimの可能性とその特徴を自由に探索してください。
-    p4: <strong>Admin</strong>としてログインできます (username "<strong>admin@example.org</strong>", password "<strong>decidim123456</strong>").
     strong: Try Online
     title: オンラインデモ
   faqs:
@@ -156,34 +115,7 @@ ja:
     title: よくある質問
     types: '["About Decidim", "Users and roles", "Roadmap and features", "Community and social contract", "Installation and license", "Association"]'
   features:
-    cta:
-      button: 機能と特徴
-      title: Decidimがどのように機能するか詳細を知る
     intro: "<p>Decidimは、市議会、協会、大学、NGO、労働組合、近隣の共同体や協同組合など、数百人から数千人以上の参加者を想定した公共または民間の組織で使用できます。</p><p>Decidimによって、参加のための空間 (イニシアチブ、集会、プロセス、協議) を構成し、利用可能な複数のコンポーネント (オフラインでのミーティング、アンケート、提案、投票、結果のフォローアップ、コメントなど) を通じて、それらを充実させることができます。</p>"
-    list:
-      cta:
-        features: すべての機能を見る
-        values: 社会契約に移動
-      n1:
-        content: 提出された提案を分析し、共有資源を分配する新しい方法を促進します。
-        title: 参加型予算
-      n2:
-        content: 市民イニシアチブを通じてあなたのコミュニティをサポートします。協議を通じて関連する投票を促進します。
-        title: 市民のイニシアチブ<br/>と相談
-      n3:
-        content: 何千人もの人々がリアルタイムに参加することで、熟議、コラボレーション、決定を大規模な次元で行うことができます。
-        title: 政治ネットワーク<br/>の力
-      n4:
-        content: モジュール化されたアーキテクチャとスケーラブルなロジックにより、あらゆる種類の組織における民主的ガバナンスの強力なシステムを構成することができます。
-        title: 民主的で<br/>柔軟なシステム
-      n5:
-        content: Decidimは、これまでにないような情報の透明性、トレーサビリティと整合性を保証します。すべての参加者にセキュリティ、プライバシーと機密性を提供します。
-        title: 私たちは民主主義<br/>を真摯に受け止めています
-      n6:
-        content: Metadecidimコミュニティによる、自由なソフトウェアとオープンでコラボレーティブなコンテンツで設計されたプラットフォーム。
-        title: あなたも参加できます。<br/>シェアして改善しましょう。
-    other:
-      subtitle: コンポーネントを組み合わせることを恐れています。強力な民主的なシステムを簡単な方法で設計し、組織のニーズに適応させます。
     page:
       feature1:
         subtitle: 一歩ずつ共通の問題を民主化し
@@ -256,10 +188,8 @@ ja:
     subtitle: For democratic organizations and collectives of any size and kind.
     title: 機能
     type1:
-      subtitle: 参加者が提案や意思決定を行うために
       title: 参加用スペース
     type2:
-      subtitle: 参加者とスペースが交流できるようにします
       title: コンポーネント
     type3:
       cta: Explore the modules
@@ -300,15 +230,12 @@ ja:
     title: First steps with Decidim
   footer:
     about_us: About us
-    attribution: "- Creative Commons BY-SA"
     follow_us: Follow us on social media
     legal: Legal
     supported_by: '後援:'
     trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
     up_to_date: Stay up to date
   index:
-    button:
-      code: GitHub上のコード
     cards:
       card1:
         content: We can help configure a system of democratic governance in all kinds of organizations.
@@ -322,11 +249,8 @@ ja:
         content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
         link: The community
         title: It's yours. Use it. Share it. Improve it.
-    cta:
-      title: Decidimをお試しください
     hero:
       cta: Get started
-      heading: 都市や組織のための自由でオープンソースの直接参加型民主主義
       intro: 自由で安全なテクノロジー。<br/>民主的な意思決定の保証によって。<br/>民主主義の再構築（Reprogramming）がDecidimで可能になります。
       subheading: Decidimは市民参加のための<br/>デジタルプラットフォームです
     subhero:
@@ -339,14 +263,9 @@ ja:
       feature6: コミュニケーションの<br/>ネットワーク
       intro: Decidim は、市民、組織、公的機関が民主的に自律するのを、小さな単位から大きな単位まで支援します。
     used_by:
-      cta: すべて表示
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
       title: Decidimは広く使われています
-    video:
-      close: 動画を閉じる
-      play: 動画を再生
-      url: https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc
   legal-notice:
     section-1:
       paragraph: '<p>このサイトはDecidim自由ソフトウェアアソシエーション ("Decidim", "Us" or "We")のWebサイトであり、Webドメイン<a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website")を通じて提供され, 所在地は Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174になります.<p><p><b>連絡先は以下です: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -380,20 +299,12 @@ ja:
     auth: Authorization
     community: Community
     cta: Learn how
-    description: 説明
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
-    explanation: モジュールを使用することで、Decidimの機能を拡張し、他の人と共有することができます。 将来的に簡単にアップグレードできるようになります。 <a href="https://docs.decidim.org/en/develop/modules/">独自のモジュール</a> を作るためのドキュメントを参照してください。
-    image: 画像
     more_info: More information
-    name: 名前
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
     title: Modules
-    type:
-      auth: 承認
-      community: コミュニティ
-      official: 事務局
   nav:
     about: About
     association: Association
@@ -429,7 +340,6 @@ ja:
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
-    notice: 協力団体のロゴは、それぞれの著作権者による知的財産権です。 これらは <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA ライセンス</a> が適用されるものではありません。
     subtitle: These entities and organizations collaborate with Decidim.
     title: Partners
   partnership-policy:
@@ -454,10 +364,7 @@ ja:
   path: "/ja"
   press:
     highlights: Media highlights
-    issues: Latest issues of our newsletter
     kit: Press kit
-    links: '[{"title"=>"Logo files", "link"=>"Download"}, {"title"=>"Promotional spot", "link"=>"Watch"}, {"title"=>"Decidim Fest 2021", "link"=>"To the site"}, {"title"=>"Videos", "link"=>"Youtube channel"}, {"title"=>"Brochure", "link"=>"Download"}, {"title"=>"Community photos", "link"=>"Downloads"}]'
-    read_all: Read all newsletter issues
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
@@ -543,7 +450,6 @@ ja:
   used_by:
     cta: Get started
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
-    explain: これらの都市、地域、組織はすでにDecidimを使用しています
     facts:
       f1: instances
       f2: countries
@@ -556,16 +462,7 @@ ja:
       f9: meetings
       subtitle: Decidim keeps growing and being adopted by organizations and the community.
       title: Facts & Figures
-    filters:
-      f0: See all
-      f1: Government
-      f2: Cities
-      f3: NGOs
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
     title: Decidim in use
-    type:
-      city: 都市
-      organizations: 組織
-      region: 地域

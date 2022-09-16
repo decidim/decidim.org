@@ -17,12 +17,6 @@ tr:
     values_cta: Read the social contract
     values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
     values_title: Our values
-  activeLang: English
-  alert:
-    desc: DecidimFest is an intense 3-day program of activities devoted to the Decidim project, participatory democracy and open source tools for collective intelligence in the era of Global Democracy.
-    link: https://meta.decidim.org/conferences/DecidimFest21/f/1615/
-    subtitle: Join our call
-    title: 'Decidim Fest 2021 :: Democracy, Technology and Global Justice | 20, 21 and 22 October'
   blog:
     latest: Latest blog post
     read_more: Read more
@@ -41,64 +35,29 @@ tr:
       org: European Commission
       quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
   community:
-    bug:
-      cta: Enter and participate now
-      subtitle: Collaboration for progressive improvement
-      text: Each new release of Decidim incorporates new features and usability improvements, but not everything works at first and errors may appear. Here you can report bugs you find and help the developers to fix them quickly.
-      title: Report a bug
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
     cta: Get started
-    features:
-      cta: Enter and participate now
-      subtitle: To design and develop Decidim among all
-      text: You can create debates about the future of Decidim or propose new features or improvements. Proposals can receive endorsements and comments, to show, for example, the interest they arouse in the community and value their development. Proposals that have a sponsor (such as a city council or any other entity), responsible for seeking and providing the necessary resources to carry out their development, will be useful for the project.
-      title: Propose new features
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Decidim Community Photo at Metadecidim Meeting 2016
     intro: Metadecidim is a community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.
     subtitle: A democratic community that manages the Decidim project in all its dimensions
-    timeline:
-      step1:
-        text: Functional description
-        title: Yeni teklif
-      step2:
-        text: Technical and technopolitical validation
-        title: Validated proposal
-      step3:
-        text: Resources for development (shared or not)
-        title: Planned proposal
-      step4:
-        text: Technical description
-        title: Issue
-      step5:
-        text: Developed code
-        title: Pull request
-      step6:
-        text: Avaliable on the next version
-        title: Funcionality done
-      title: Collaborative design of functionalities
     title: Metadecidim, our community
   contact:
     bot_field: 'Don’t fill this out if you''re human:'
     email: E-posta
-    entity: Entity
     message: Message
     name: Adı
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
     send: Gönder
-    subject: Subject
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     title: Contact us
   demo:
     button: Online demo
     p1: Play around and explore freely the Decidim platform with our online demo.
-    p2: Decidim is up and running on several instances that you can visit and explore, <a href="http://decidim.barcelona" target="_blank">Decidim Barcelona</a> at Barcelona City or you can visit the sites of <a href="https://participa.gavaciutat.cat/" target="_blank">Gavà</a> and <a href="https://www.lhon-participa.cat/" target="_blank">L'Hospitalet</a>. But these are real instances where you can't really play around freely, as you might not be a citizen of those municipalities, and you can't explore those sites as an admin.
-    p3: If you want to go further you are welcome to test Decidim on our Decidim Demo Site (courtesy of our developers at <a href="http://alabs.org" target="_blank">aLabs</a>). Enter the demo site and freely explore the potential of Decidim and its features.
-    p4: You can log in as <strong>Admin</strong> (username "<strong>admin@example.org</strong>" and password "<strong>decidim123456</strong>").
     strong: Try Online
     title: Online Demo
   faqs:
@@ -156,34 +115,7 @@ tr:
     title: Frequently asked questions
     types: '["About Decidim", "Users and roles", "Roadmap and features", "Community and social contract", "Installation and license", "Association"]'
   features:
-    cta:
-      button: Functions and features
-      title: Discover how Decidim works in depth
     intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...</p><p>Thanks to Decidim you will be able to configure spaces for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).</p>"
-    list:
-      cta:
-        features: See all features
-        values: Go to social contract
-      n1:
-        content: It analyses the submitted proposals and promotes a new way of distributing common resources.
-        title: Participatory<br/>budgets
-      n2:
-        content: Empower your community through citizen initiatives. Promote relevant voting through consultations.
-        title: Citizen’s initiatives<br/>and consultations
-      n3:
-        content: It takes deliberation, collaboration and decision to a massive dimension, with thousands of people participating in real time.
-        title: The power<br/>of a political network
-      n4:
-        content: Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic governance in all kinds of organizations.
-        title: A democratic<br/>and flexible system
-      n5:
-        content: Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.
-        title: We take democracy<br/>very seriously
-      n6:
-        content: A platform designed entirely with free software, open and collaborative content thanks to the community Metadecidim.
-        title: It's yours.<br/>Share it. Improve it.
-    other:
-      subtitle: Dare to combine the components. Design and deploy a powerful democratic system in an easy way and adapt it to your organization’s needs
     page:
       feature1:
         subtitle: to democratize common issues, step by step
@@ -256,10 +188,8 @@ tr:
     subtitle: For democratic organizations and collectives of any size and kind.
     title: Özellikler
     type1:
-      subtitle: For participants to make proposals and make decisions
       title: Spaces for participation
     type2:
-      subtitle: For participants and spaces to interact
       title: Bileşenler
     type3:
       cta: Explore the modules
@@ -300,15 +230,12 @@ tr:
     title: First steps with Decidim
   footer:
     about_us: About us
-    attribution: "- Creative Commons By-SA"
     follow_us: Follow us on social media
     legal: Legal
     supported_by: Supported by
     trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
     up_to_date: Stay up to date
   index:
-    button:
-      code: Code on Github
     cards:
       card1:
         content: We can help configure a system of democratic governance in all kinds of organizations.
@@ -322,11 +249,8 @@ tr:
         content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
         link: The community
         title: It's yours. Use it. Share it. Improve it.
-    cta:
-      title: start using Decidim today
     hero:
       cta: Get started
-      heading: Free Open-Source participatory democracy for cities and organizations
       intro: Free and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
       subheading: Decidim is a digital platform<br/>for citizen participation
     subhero:
@@ -339,14 +263,9 @@ tr:
       feature6: Networked<br/>communication
       intro: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
     used_by:
-      cta: See all
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
       title: They are already using Decidim
-    video:
-      close: Close video
-      play: Play video
-      url: https://www.youtube-nocookie.com/embed/f6JMgJAQ2tc
   legal-notice:
     section-1:
       paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -380,20 +299,12 @@ tr:
     auth: Authorization
     community: Community
     cta: Learn how
-    description: Açıklama
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
-    explanation: By using modules you can extend Decidim functionality and share it with others. They allow you to easily upgrade in the future. See the <a href="https://docs.decidim.org/en/develop/modules/">documentation for making your own module</a>.
-    image: Fotoğraf
     more_info: More information
-    name: Adı
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
     title: Modules
-    type:
-      auth: Authorization
-      community: Community
-      official: Resmi
   nav:
     about: About
     association: Association
@@ -429,7 +340,6 @@ tr:
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
-    notice: The cooperating entities logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     subtitle: These entities and organizations collaborate with Decidim.
     title: Partners
   partnership-policy:
@@ -454,10 +364,7 @@ tr:
   path: "/tr"
   press:
     highlights: Media highlights
-    issues: Latest issues of our newsletter
     kit: Press kit
-    links: '[{"title"=>"Logo files", "link"=>"Download"}, {"title"=>"Promotional spot", "link"=>"Watch"}, {"title"=>"Decidim Fest 2021", "link"=>"To the site"}, {"title"=>"Videos", "link"=>"Youtube channel"}, {"title"=>"Brochure", "link"=>"Download"}, {"title"=>"Community photos", "link"=>"Downloads"}]'
-    read_all: Read all newsletter issues
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
@@ -543,7 +450,6 @@ tr:
   used_by:
     cta: Get started
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
-    explain: These cities, regions and organizations are already using Decidim
     facts:
       f1: instances
       f2: countries
@@ -556,16 +462,7 @@ tr:
       f9: meetings
       subtitle: Decidim keeps growing and being adopted by organizations and the community.
       title: Facts & Figures
-    filters:
-      f0: See all
-      f1: Government
-      f2: Cities
-      f3: NGOs
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
     title: Decidim in use
-    type:
-      city: Cities
-      organizations: Organizasyonlar
-      region: Regions
