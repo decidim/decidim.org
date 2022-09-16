@@ -495,22 +495,26 @@ en:
   path: ''
   press:
     highlights: Media highlights
-    issues: Latest issues of our newsletter
     kit: Press kit
     links:
-    - title: Logo files
-      link: Download
-    - title: Promotional spot
-      link: Watch
-    - title: Decidim Fest 2021
-      link: To the site
-    - title: Videos
-      link: Youtube channel
-    - title: Brochure
-      link: Download
-    - title: Community photos
-      link: Downloads
-    read_all: Read all newsletter issues
+      link1:
+        title: Logo files
+        link: Download
+      link2:
+        title: Promotional spot
+        link: Watch
+      link3:
+        title: Decidim Fest 2021
+        link: To the site
+      link4:
+        title: Videos
+        link: Youtube channel
+      link5:
+        title: Brochure
+        link: Download
+      link6:
+        title: Community photos
+        link: Downloads
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
