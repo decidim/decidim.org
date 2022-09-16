@@ -561,7 +561,7 @@ en:
           by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
           That means that you can use it, modify it and redistribute derived
           versions of it as long as you respect the AGPL license.
-        type: 3
+        type: 4
       - question: >-
           I have ideas for new improvement features. I want to have a better
           understanding of the project. What can I do?
@@ -573,7 +573,7 @@ en:
           Register as a participant of the community and participate with us. If your thing is the code,
           [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be
           interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-        type: 3
+        type: 2
       - question: I have many doubts, of all kinds...where can I ask them or solve them?
         answer: >-
           The best way to solve your doubts quickly is through the Metadecidim
@@ -581,7 +581,7 @@ en:
           and see if your question exists or if it has been answered and otherwise enter to ask
           questions. If you can't resolve your problem in this space, maybe it's time to
           contact us through the [contact form](/contact).
-        type: 3
+        type: 0
       - question: Is there any tutorial to start setting it up?
         answer: >-
           You can check the latest version of our admin manual in the [Documentation section](https://docs.decidim.org).
@@ -596,7 +596,7 @@ en:
           There are many differences: features, flexibility, architecture, modularity,
           etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try
           to answer this question.
-        type: 4
+        type: 2
       - question: What is the Metadecidim community?
         answer: >-
           [Metadecidim](http://meta.decidim.org) is the community of Decidim that collaborates
@@ -605,16 +605,16 @@ en:
           aspects of the platform and the Labs witc are [Research](https://meta.decidim.org/assemblies/eix-lab)
           oriented meetings. Our annual conference is Decidim Fest. Go to [meta.decidim.org](http://meta.decidim.org)
           to follow the calls closely and if you want to join the community. We'd love to ;-)
-        type: 1
+        type: 3
       - question: Can I join the Metadecidim community even if I don't live in Barcelona?
         answer: >-
           Of course you can. People do so through participatory processes, debates, translations, etc.
           that you might find in Metadecidim. Decidim was born in Barcelona and that is why there
           is a strong territorial bond with this city, but above all, it's a project for the commons.
-        type: 1
+        type: 3
       - question: What kind of members you accept into the Metadecidim community?
         answer: Anybody who has good faith and a correct attitude towards democratic collaboration.
-        type: 4
+        type: 3
       - question: What is the Decidim Association?
         answer: >-
           The "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) is a democratic
@@ -648,7 +648,7 @@ en:
           use Decidim right now and we are helping them step by step.
           [Contact us](/contact) for any question and we will answer you as
           soon as possible.
-        type: 5
+        type: 0
       - question: What is Decidim's trademark policy?
         answer: >-
           Decidim and the Decidim logo are registered by the Association, they cannot be used
