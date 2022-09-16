@@ -5,7 +5,7 @@
 
       <nav class="hidden md:flex items-center w-1/4 space-x-2">
         <% data.links.social_media.each do |link| %>
-          <% link_to link.url, target: "_blank", rel: "noopener noreferrer" do %>
+          <% link_to link.url, target: "_blank", rel: "noopener noreferrer", title: link.name do %>
             <%= icon link.icon, class: "w-4 h-4" %>
           <% end %>
         <% end %>
@@ -148,7 +148,7 @@
         <h3 class="font-bold mb-3"><%= t("footer.follow_us") %></h3>
         <nav class="space-y-3">
           <% data_select_footer_social_media(data.links.social_media).each do |link| %>
-            <%= link_to t(link.name, default: link.name), link.url, class: "block first-letter:uppercase", target: "_blank", rel: "noopener noreferrer" %>
+            <%= link_to link.name, link.url, class: "block first-letter:uppercase", target: "_blank", rel: "noopener noreferrer" %>
           <% end %>
         </nav>
       </div>
