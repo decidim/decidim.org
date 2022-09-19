@@ -63,57 +63,148 @@ ja:
   faqs:
     cta: Read all FAQs
     questions:
-    - question: Decidimとは何ですか?
-      answer: Decidimは、都市や組織のための自由でオープンソースの参加型民主主義プラットフォームです。しかし、Decidimは単なるデジタルプラットフォームではありません。コード、ドキュメント、デザイン、トレーニングコース、法的枠組み、コラボレーションインターフェース、ユーザーとファシリテーションコミュニティ、そして共通のビジョンを含む、共有のフリーでオープンなプロジェクトとインフラなのです。
-    - question: 現在Decidimはどのような人々に使われていますか?
-      answer: 現在、都市や組織で使用されています。 実際、NGO、大学、労働組合、協同組合、近隣団体など、どのグループでも利用できます。 [現在稼働しているインスタンスの一覧](/usedby/) を確認してください。
-    - question: Decidimの管理者は何ができますか?
-      answer: 参加型プロセスを簡単に構成することができます。戦略的な計画を立てたいですか？あるいは新しい規制について議論したいですか？あるいは、共通の利益を達成するために、新しい広場や公共の建物について話し合いたいですか？Decidimを使えば、参加スペース（イニシアチブ、アセンブリー、プロセス、協議）を構成し、利用可能な複数のコンポーネント（対面のミーティング、アンケート、提案、投票、結果のフォローアップ、コメントなど）を通じて、参加スペースを充実させることができます。
-    - question: Decidimの参加者（ユーザー）は何ができますか？
-      answer: Decidimは、何千人もの人々が、提案をしたり、公聴会に出席したり、意思決定のための議論を促進したり、さまざまな形式の投票で決定したり、決定事項の実施を監視したりすることで、民主的に組織化することを可能にしています。
-    - question: デモサイトはありますか？インストールせずに Decidim を試用して、どのように動作するかを確認したいです。
-      answer: はい、[オンラインデモサイト](/demo) があります。
-    - question: プラットフォームはどれくらいの頻度で更新されますか?
-      answer: 私たちは毎月新しいバージョンをリリースしています。[更新履歴](https://github.com/decidim/decidim/releases) を参照してください。
-    - question: Decidim をインストールするには何が必要ですか?
-      answer: Decidimのインストールは簡単ですが、多少の知識と技術的な要件が必要です。[Decidimをインストールするためのドキュメント](https://docs.decidim.org/en/install/)を参照してください。
-    - question: プロジェクトのロードマップと予定されている機能はどこで確認できますか?
-      answer: "[GitHubの新機能のロードマップ](https://github.com/decidim/decidim/projects/16)をご覧ください。"
-    - question: Decidimが自由、「リブレ(libre)」、オープンソースであることは何を意味するのでしょうか?
-      answer: Decidimは、人々によって、人々のために作られた、市民参加型のプラットフォームです。ソースコードは公開されており、誰でも閲覧、修正、改良することができます。Decidimのソフトウェアには、[AGPLライセンス](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)が適用されています。つまり、AGPLライセンスを尊重する限り、使用、変更、派生版の再配布が可能です。
-    - question: 新しい機能改善のアイデアがあります。プロジェクトについてもっと理解したいです。どうしたらいいですか？
-      answer: いろいろな方法でコラボレーションすることができます。その一つは [Metadecidim](http://meta.decidim.org) コミュニティを通じて行うことができます。新しい機能を提案したい場合は、[こちらをどうぞ](https://meta.decidim.org/processes/roadmap). エラーを検出し、通知したい場合は、[このプロセスにご参加ください](https://meta.decidim.org/processes/bug-report)。Metadecidimコミュニティに積極的に参加したい場合は、毎月[Metadecidim Operative Sessions](https://meta.decidim.org/assemblies/eix-comunitat)に参加できます。 コミュニティの参加者として登録し、私たちと一緒に参加してください。 もしあなたのものがコードの場合、[Githubにお越しください](https://github.com/decidim/decidim)。もしあなたが研究者なら、[LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab)に興味を持つかもしれません。
-    - question: 心配ごとがいろいろ、たくさんあります…。解消するには、どこで質問すればいいですか?
-      answer: 疑問を素早く解決する最善の方法はMetadecidimコミュニティです。今すぐformat@@0(https://meta.decidim) に参加してください。 rg/processes/supportforum?locale=en) 質問が存在するかどうかを確認し、回答されているかどうかを確認し、それ以外の場合は質問を入力します。 このスペースで問題を解決できない場合は、format@@0(/contact) からお問い合わせください。
-    - question: セットアップを始めるにあたって、チュートリアルはありますか?
-      answer: 最新版の管理者マニュアルを ["Documentation" (英語)](https://docs.decidim.org/en/) でご確認いただけます。
-    - question: 社会契約（social contract）とは何ですか?
-      answer: 私たちが民主的な意思決定を保証し、民主的に協力するための行動規範（code）を、「社会契約」と呼んでいます。コミュニティのすべてのメンバーは、この[社会契約（Social Contract）](http://decidim.org/contract) を受け入れなければなりません。
-    - question: Consul プロジェクト（マドリードの "Decide Madrid" プロジェクト）との違いは何ですか?
-      answer: 機能、柔軟性、アーキテクチャ、モジュール性など、さまざまな違いがあります。私たちが[公開したブログエントリ](/blog/2019-01-14-consult-comparison/) では、この質問に答えようとしています。
-    - question: '"Metadecidim" コミュニティとは何ですか?'
-      answer: '[Metadecidim](http://meta.decidim.org) は、プラットフォームの設計や Decidim プロジェクトの構築を協力しておこなう Decidim 自体のコミュニティです。メンバーは ["SOM" (コミュニティ・ミーティング、もとはスペイン語の "Sesiones Operativas Metadecidim")](https://meta.decidim.org/assemblies/eix-comunitat?locale=en) や ["LAB Research Seminars"（英語）](https://meta.decidim.org/assemblies/eix-lab?locale=en) を通じて、定期的に話し合いをしています。コミュニティに入ってみたい場合は [meta.decidim.org](https://meta.decidim.org/) に行って、話し合いを追ってみてください。歓迎します ;-)'
-    - question: バルセロナに住んでいなくても Metadecidim コミュニティに参加できますか?
-      answer: Decidim はバルセロナで生まれたプロジェクトで、そのためバルセロナとは強い地理的な結びつきがあります。ですが、Metadecidim の参加プロセスやディベートなどを通じて、オンラインで協力できます。と言っても、あなたはバルセロナにいつか来たいと思うかもしれませんが :)
-    - question: 正式なコラボレーション契約をしたいです。テンプレートはありますか?
-      answer: はい、コラボレーション契約を正式化するテンプレートがあります。[ご連絡ください](/contact)。
-    - question: Metadecidim のコミュニティには、どんなメンバーを受け入れていますか?
-      answer: 誠実で、民主的な共同作業に対する正しい姿勢を持つ方なら、どなたでも。
-    - question: 非営利団体への導入を無償で提供していますか?
-      answer: はい、ただしバルセロナを拠点とする団体に限り、提供しています。 私たちにメッセージを送信していただければ、バルセロナ市議会の「市民の権利・参加・透明性」領域「研究・開発・イノベーション部門」がお手伝いします。
-    - question: 公共機関をサポートしていますか?
-      answer: はい、ですが、しばらく我慢してください。 現在 Decidim を使用したいと考えている公共機関はたくさんあり、私たちは彼らを一歩一歩お手伝いしているところです。質問がありましたら、[ご連絡](/contact) いただければできるだけ早くお答えします。
-    - question: Decidim Associationとは何ですか？
-      answer: '"Asociacion de Software Libre Decidim" (Decidim Free Software Association; Decidim Association) は、Decidim コミュニティのガバナンスのための民主的な協会です。'
-    - question: Decidim Association について、もっと詳細な情報はありますか?
-      answer: さらに詳細な情報は Metadecidim の [General Assembly of the Decidim Association（英語）](https://meta.decidim.org/assemblies/general-assembly-association) にあります。ミーティングの活動状況や、関連情報 (定款、規約、手続規則など) もここにあります。
-    - question: Decidim Associationのメンバーになるにはどうしたらいいですか?
-      answer: 現在では、プロジェクトに関わっている人はメンバーになれます。[参加するための詳細はこちら（英語）で説明しています](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=en)。
-    - question: Decidim Associationはいつ発足したのですか。
-      answer: Decidim Association は、定款の承認にあわせて [2019年 2月 16日にコミュニティの臨時集会で設立されました](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169)。
+      q01:
+        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
+        question: What is Decidim?
+        type: about
+      q02:
+        answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
+        question: Who is currently using Decidim?
+        type: about
+      q03:
+        answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
+        question: What can a Decidim administrator do?
+        type: users
+      q04:
+        answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
+        question: What can a participant (user) of Decidim do?
+        type: users
+      q05:
+        answer: Yes, we have an [online demo](/demo).
+        question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
+        type: features
+      q06:
+        answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
+        question: How often is the platform updated?
+        type: features
+      q07:
+        answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
+        question: What do I need to install Decidim?
+        type: install
+      q08:
+        answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
+        question: Where can I find the project roadmap and the planned features?
+        type: features
+      q09:
+        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
+        question: What does it mean that Decidim is for free, "libre" and open source?
+        type: install
+      q1:
+        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
+        question: What is Decidim?
+        type: about
+      q10:
+        answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report). If you want to actively participate in the Metadecidim community, you can attend Community Meetings. Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
+        question: I have ideas for new improvement features. I want to have a better understanding of the project. What can I do?
+        type: features
+      q11:
+        answer: The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en) and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the [contact form](/contact).
+        question: I have many doubts, of all kinds...where can I ask them or solve them?
+        type: about
+      q12:
+        answer: You can check the latest version of our admin manual in the [Documentation section](https://docs.decidim.org).
+        question: Is there any tutorial to start setting it up?
+        type: install
+      q13:
+        answer: That's how we call our Code of Democratic Guarantees and Democratic Collaboration. All members of the community must endorse the [Social Contract](http://decidim.org/contract).
+        question: What is the Social Contract?
+        type: community
+      q14:
+        answer: 'There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.'
+        question: What are the differences with Consul Project / Decide Madrid?
+        type: features
+      q15:
+        answer: "[Metadecidim](http://meta.decidim.org) is the community of Decidim that collaborates in the design of the platform and the construction of the Decidim project. We meet regularly through the Community Meetings, for issues related to the technological aspects of the platform and the Labs witc are [Research](https://meta.decidim.org/assemblies/eix-lab) oriented meetings. Our annual conference is Decidim Fest. Go to [meta.decidim.org](http://meta.decidim.org) to follow the calls closely and if you want to join the community. We'd love to ;-)"
+        question: What is the Metadecidim community?
+        type: community
+      q16:
+        answer: Of course you can. People do so through participatory processes, debates, translations, etc. that you might find in Metadecidim. Decidim was born in Barcelona and that is why there is a strong territorial bond with this city, but above all, it's a project for the commons.
+        question: Can I join the Metadecidim community even if I don't live in Barcelona?
+        type: community
+      q17:
+        answer: Anybody who has good faith and a correct attitude towards democratic collaboration.
+        question: What kind of members you accept into the Metadecidim community?
+        type: community
+      q18:
+        answer: The "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) is a democratic association for the governance of the Decidim community. It was founded on [February 16, 2019 in an extraordinary assembly of the community](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), with the approval of the organization statutes.
+        question: What is the Decidim Association?
+        type: association
+      q19:
+        answer: In the [general assembly of the Decidim Association](https://meta.decidim.org/assemblies/general-assembly-association) you can find more info abous us, follow the activity of the meetings and check relevant information (statutes, legal agreements, the internal regulations)
+        question: How can I get more information about the Decidim Association?
+        type: association
+      q2:
+        answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
+        question: Who is currently using Decidim?
+        type: about
+      q20:
+        answer: Now the people involved in the project can be partners. [Here we explain in detail how you have to do it](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+        question: How can I become a member of the Decidim Association?
+        type: association
+      q21:
+        answer: Yes you can! Decidim is a non profit project and for the moment it depends completely on funding. Please find all details to fund the project at [OpenCollective](https://opencollective.com/decidim)
+        question: I want to fund the project. How can I proceed?
+        type: association
+      q22:
+        answer: Yes, we have templates to formalize collaboration agreements. [Please contact us](/contact).
+        question: We want to make a formal collaboration agreement. Are there any templates we can use?
+        type: association
+      q23:
+        answer: Yes, but you have to be patient. There are a lot of institutions that want to use Decidim right now and we are helping them step by step. [Contact us](/contact) for any question and we will answer you as soon as possible.
+        question: Do you support institutions?
+        type: about
+      q24:
+        answer: Decidim and the Decidim logo are registered by the Association, they cannot be used as a commercial product nor cannot be sold. If used, the credit has to be referenced to the project. You can read more about this in our [Trademark policy](/trademark-policy).
+        question: What is Decidim's trademark policy?
+        type: association
+      q3:
+        answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
+        question: What can a Decidim administrator do?
+        type: users
+      q4:
+        answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
+        question: What can a participant (user) of Decidim do?
+        type: users
+      q5:
+        answer: Yes, we have an [online demo](/demo).
+        question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
+        type: features
+      q6:
+        answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
+        question: How often is the platform updated?
+        type: features
+      q7:
+        answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
+        question: What do I need to install Decidim?
+        type: install
+      q8:
+        answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
+        question: Where can I find the project roadmap and the planned features?
+        type: features
+      q9:
+        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
+        question: What does it mean that Decidim is for free, "libre" and open source?
+        type: install
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
     title: よくある質問
-    types: '["About Decidim", "Users and roles", "Roadmap and features", "Community and social contract", "Installation and license", "Association"]'
+    types:
+      about: About Decidim
+      association: Association
+      community: Community and social contract
+      features: Roadmap and features
+      install: Installation and license
+      installation: Installation and license
+      users: Users and roles
   features:
     intro: "<p>Decidimは、市議会、協会、大学、NGO、労働組合、近隣の共同体や協同組合など、数百人から数千人以上の参加者を想定した公共または民間の組織で使用できます。</p><p>Decidimによって、参加のための空間 (イニシアチブ、集会、プロセス、協議) を構成し、利用可能な複数のコンポーネント (オフラインでのミーティング、アンケート、提案、投票、結果のフォローアップ、コメントなど) を通じて、それらを充実させることができます。</p>"
     page:
@@ -365,6 +456,25 @@ ja:
   press:
     highlights: Media highlights
     kit: Press kit
+    links:
+      link1:
+        link: Download
+        title: Logo files
+      link2:
+        link: Watch
+        title: Promotional spot
+      link3:
+        link: To the site
+        title: Decidim Fest 2021
+      link4:
+        link: Youtube channel
+        title: Videos
+      link5:
+        link: Download
+        title: Brochure
+      link6:
+        link: Downloads
+        title: Community photos
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at

@@ -6,7 +6,7 @@
     </div>
 
     <div class="mt-4 space-y-4" data-accordion="faqs">
-      <% t_with_default("faqs.questions", []).sample(4).each do |item| %>
+      <% t("faqs.questions").to_a.sample(4).each do |_key, item| %>
         <%= partial "partials/faq-item", locals: { item: item, classes: "bg-white" } %>
       <% end %>
     </div>

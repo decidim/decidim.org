@@ -123,10 +123,10 @@ search:
 ignore_unused:
   - 'nav.*'
   - 'about.values'
+  - 'faqs.questions.*.type'
   - 'index.cards.*.{title,link,content}'
   - 'first-steps.*.{pre,title,content,link1}'
   - 'partnership-policy.explanation.{p1,p2,p3}'
-  - 'faqs.types'
   - 'press.links.*.{title,link}'
   - '{legal-notice,privacy-policy}.*.{title,paragraph}'
   - 'trademark.{p1,p2,p3}'
