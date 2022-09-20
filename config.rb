@@ -5,12 +5,14 @@ require 'lib/i18n_title_helpers'
 require 'lib/data_helpers'
 require 'lib/format_helpers'
 require 'lib/icon_helpers'
+require 'lib/page_helpers'
 
 helpers I18nHelpers
 helpers I18nTitleHelpers
 helpers DataHelpers
 helpers FormatHelpers
 helpers IconHelpers
+helpers PageHelpers
 
 # Activate multi-language
 activate :i18n, :mount_at_root => :en

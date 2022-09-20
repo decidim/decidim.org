@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require "i18n_helpers"
-require "ostruct"
 
 RSpec.describe I18nHelpers do
   include I18nHelpers
@@ -28,19 +27,18 @@ RSpec.describe I18nHelpers do
 
   describe "#current_path_for_locale" do
     let(:subject) { current_path_for_locale(locale, current_path) }
-    let(:current_path) { current_page = OpenStruct.new(url: path) }
 
     context "English locale" do
       let(:locale) { :en }
 
       context "Homepage" do
-        let(:path) { "/" }
+        let(:current_path) { "/" }
 
         it { is_expected.to eq("/") } 
       end
 
       context "About" do
-        let(:path) { "/about" }
+        let(:current_path) { "/about" }
 
         it { is_expected.to eq("/about") } 
       end
@@ -50,13 +48,13 @@ RSpec.describe I18nHelpers do
       let(:locale) { :ca }
 
       context "Homepage" do
-        let(:path) { "/" }
+        let(:current_path) { "/" }
 
         it { is_expected.to eq("/ca/") } 
       end
 
       context "About" do
-        let(:path) { "/about" }
+        let(:current_path) { "/about" }
 
         it { is_expected.to eq("/ca/about") } 
       end
