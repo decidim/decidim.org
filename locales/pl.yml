@@ -13,7 +13,14 @@ pl:
     support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_title: Support Decidim
     title: About Decidim
-    values: '["Compromise and responsibility", "Equal opportunities and quality indicators", "Open content to share and cooperate", "Free software to enable autonomy", "Data confidentiality", "Transparency, traceability and integrity", "Continuous improvement and collaboration between organizations"]'
+    values:
+      v1: Compromise and responsibility
+      v2: Equal opportunities and quality indicators
+      v3: Open content to share and cooperate
+      v4: Free software to enable autonomy
+      v5: Data confidentiality
+      v6: Transparency, traceability and integrity
+      v7: Continuous improvement and collaboration between organizations
     values_cta: Read the social contract
     values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
     values_title: Our values
