@@ -1,6 +1,5 @@
 ---
 title: Comparison of Decidim and Consul
-date: 2019-01-14
 ---
 
 ![consulproject.org](/uploads/consul_comparison.png)

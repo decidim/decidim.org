@@ -1,6 +1,5 @@
 ---
 title: "Job offer: Senior RoR developer"
-date: 2021-06-22T11:51:55.728Z
 ---
 ## What’s the job
 

@@ -1,6 +1,5 @@
 ---
 title: The Japanese case
-date: 2022-06-01T09:10:42.537Z
 tags: ["casestudy"]
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Decidim celebrates 5 years as a key infrastructure for citizen participation
-date: 2022-02-01T09:36:03.718Z
 ---
 [Ver post en castellano](/blog/2022-02-01-decidim-celebrates-5-years-as-a-key-infrastructure-for-citizen-participation/#cast)
 

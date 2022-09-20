@@ -1,6 +1,5 @@
 ---
 title: "Job offer: Community coordinator"
-date: 2021-06-22T11:44:13.388Z
 ---
 ## What’s the job
 

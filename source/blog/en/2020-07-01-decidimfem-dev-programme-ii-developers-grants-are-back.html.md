@@ -1,6 +1,5 @@
 ---
 title: "DECIDIMFEM DEV PROGRAMME 2: Developers grants are back "
-date: 2020-07-01T09:25:05.638Z
 ---
 
 * [Ver post en Castellano](/blog/2020-07-01-decidimfem-dev-programme-ii-developers-grants-are-back/#cast)

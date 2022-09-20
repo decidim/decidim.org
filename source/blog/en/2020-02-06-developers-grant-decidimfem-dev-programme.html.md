@@ -1,6 +1,5 @@
 ---
 title: 'Developers grant: DECIDIMFEM DEV PROGRAMME'
-date: 2020-02-06T15:11:37.772Z
 ---
 
 * [Ver post en Castellano](/blog/2020-02-06-developers-grant-decidimfem-dev-programme/#cast)

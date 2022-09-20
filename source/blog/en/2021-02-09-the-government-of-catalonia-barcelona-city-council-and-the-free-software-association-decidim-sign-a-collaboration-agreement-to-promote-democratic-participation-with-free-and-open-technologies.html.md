@@ -2,7 +2,6 @@
 title: The Government of Catalonia, Barcelona City Council and the Free Software
   Association Decidim sign a collaboration agreement to promote democratic
   participation with free and open technologies
-date: 2021-02-09T12:03:03.097Z
 ---
 The Free Software Association Decidim has signed a collaboration agreement between the Department of External Action, Institutional Relations and Transparency of the Generalitat de Catalunya and the Barcelona City Council.
 

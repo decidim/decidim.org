@@ -1,6 +1,5 @@
 ---
 title: Decidim's website is live!
-date: 2017-10-09
 ---
 
 * [Veure post a Català](/blog/2017-10-09-estreno-web/#cat)

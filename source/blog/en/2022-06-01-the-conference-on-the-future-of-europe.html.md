@@ -1,6 +1,5 @@
 ---
 title: The Conference on the Future of Europe, UE
-date: 2022-06-01T09:10:42.537Z
 tags: ["casestudy"]
 ---
 
