@@ -34,7 +34,7 @@ description:
       <a class="block par-md mt-4 underline" href="<%= t(:path) %>/contract"><%= t("about.values_cta") %></a>
     </div>
     <div class="mt-12 md:mt-16 w-screen space-y-4 md:space-y-6 overflow-hidden">
-      <% texts = t_with_default("about.values", []).to_a %>
+      <% texts = t("about.values").map {|_k,v| v} %>
       <% if texts.length > 0 %>
         <% chunks = texts.each_slice((texts.length / 2) + 1).to_a %>
         <% chunk0 = (chunks[0] * 4) + chunks[0].take(2) %>

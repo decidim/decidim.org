@@ -53,8 +53,8 @@ description:
         <div class="flex md:flex-col space-x-7 md:space-x-0 md:space-y-6 rounded-xl md:rounded-none bg-red-100 md:bg-transparent md:border-l-8 border-gray-100 p-6 md:py-0 md:px-10">
           <%= icon item.icon, class: "w-10 h-10 text-red-500 flex-none" %>
           <div class="md:space-y-6">
-            <h5 class="h5"><%= (t_with_default("press.links", [])[i] || {})[:title] %></h5>
-            <%= partial "partials/arrow-link", locals: { text: (t_with_default("press.links", [])[i] || {})[:link], url: item.url, classes: "text-red-500 mt-auto block" } %>
+            <h5 class="h5"><%= t("press.links.link#{i+1}.title") %></h5>
+            <%= partial "partials/arrow-link", locals: { text: t("press.links.link#{i+1}.link"), url: item.url, classes: "text-red-500 mt-auto block" } %>
           </div>
         </div>
       <% end %>
@@ -69,7 +69,7 @@ description:
       <% data.links.social_media.each do |link| %>
         <a href="<%= link.url %>" class="flex items-center space-x-7">
           <%= icon link.icon, class: "text-gray-300 w-10 h-10" %>
-          <h5 class="h5 first-letter:uppercase"><%= t(link.name, default: link.name) %></h5>
+          <h5 class="h5 first-letter:uppercase"><%= link.name %></h5>
         </a>
       <% end %>
     </div>

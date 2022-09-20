@@ -1,3 +1,5 @@
+require "debug"
+
 require 'lib/i18n_helpers'
 require 'lib/i18n_title_helpers'
 require 'lib/data_helpers'

@@ -1,7 +1,11 @@
+# frozen_string_literal: true
+
 module IconHelpers
   def icon(id, args = {})
     if list_icons.include?(id)
-      content_tag(:svg, content_tag(:use, "", { "xlink:href" => "/images/remixicon.symbol.svg#" + id.to_s }), { "fill" => "currentColor" }.merge(args))
+      icon_reference = { "xlink:href" => "/images/remixicon.symbol.svg##{id}" }
+      opts = { "fill" => "currentColor" }.merge(args)
+      content_tag(:svg, content_tag(:use, "", icon_reference), opts)
     else
       image_tag(id, **args)
     end

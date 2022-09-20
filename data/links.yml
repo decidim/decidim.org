@@ -40,42 +40,54 @@ legal:
   - name: nav.privacy-policy
     url: /privacy-policy
   - name: nav.trademark
-    url: /trademark
+    url: /trademark-policy
 
 social_media:
-  - name: twitter
+  - name: Twitter
     icon: ri-twitter-fill
     url: https://twitter.com/decidim_org
-  - name: telegram
+    footer: true
+  - name: Telegram
     icon: ri-telegram-fill
     url: https://t.me/s/decidim
-  - name: matrix
+    footer: true
+  - name: Matrix
     icon: ri-markdown-fill
     url: https://matrix.to/#/#decidim:matrix.org
-  - name: mastodon
+    footer: true
+  - name: Mastodon
     icon: ri-mastodon-fill
     url:  https://freeradical.zone/@decidim
-  - name: youtube
+    footer: false
+  - name: YouTube
     icon: ri-youtube-fill
     url: https://www.youtube.com/channel/UCbxXpC5MmKImcGFzUJxdAUw
-  - name: instagram
+    footer: true
+  - name: Instagram
     icon: ri-instagram-fill
     url: https://www.instagram.com/decidim_org/
-  - name: linkedin
+    footer: true
+  - name: Linkedin
     icon: ri-linkedin-fill
     url: https://gt.linkedin.com/company/decidim/
-  - name: github
+    footer: false
+  - name: GitHub
     icon: ri-github-fill
     url: https://github.com/decidim/decidim
-  - name: opencollective
+    footer: false
+  - name: OpenCollective
     icon: ri-donut-chart-fill
     url: https://opencollective.com/decidim
-  - name: spotify
+    footer: true
+  - name: Spotify
     icon: ri-spotify-fill
     url: https://open.spotify.com/show/1Cf4HJkv3M3SYanO8iEE1t
-  - name: ivoox
+    footer: false
+  - name: iVoox
     icon: ri-information-fill
     url: https://www.ivoox.com/en/podcast-radio-decidim_sq_f1990276_1.html
-  - name: xrcb
+    footer: false
+  - name: XRCB
     icon: ri-close-fill
     url: https://xrcb.cat/ca/radio/radio-decidim/
+    footer: true
