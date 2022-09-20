@@ -1,6 +1,8 @@
-<% is_home = I18n.available_locales.map{|code| "/#{code}/"}.push("/").include? current_page.url %>
-<header class="bg-transparent w-full min-h-[5rem] <%= 'absolute top-0 left-0 z-10 text-white filter-img-alt' if is_home %>">
-  <div class="container pt-6 md:pt-12 pb-4 flex flex-col md:flex-row justify-between items-center pointer-events-none <%= 'absolute md:relative' if !is_home %>">
+<% if alert_enabled? && !is_homepage? %>
+  <%= partial "/partials/alert-banner" %>
+<% end %>
+<header class="bg-transparent w-full min-h-[5rem] <%= 'absolute top-0 left-0 z-10 text-white filter-img-alt' if is_homepage? %>">
+  <div class="container pt-6 md:pt-12 pb-4 flex flex-col md:flex-row justify-between items-center pointer-events-none <%= 'absolute md:relative' unless is_homepage? %>">
     <div class="w-full md:w-auto flex justify-between items-center pointer-events-auto">
       <a href="<%= t(:path) %>/">
         <img class="hidden md:block" src="/images/decidim-logo-claim.svg" alt="Decidim" />
