@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "debug"
-
 module I18nHelpers
   # Return the current path for a given locale.
   # This is used on the language switcher, so we can link to the same page where we are,
