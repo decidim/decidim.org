@@ -122,8 +122,8 @@ search:
 ## Consider these keys used:
 ignore_unused:
   - 'nav.*'
-  - 'about.values'
-  - 'faqs.questions.*.type'
+  - 'about.values.*'
+  - 'faqs.questions.*.{question, answer, type}'
   - 'index.cards.*.{title,link,content}'
   - 'first-steps.*.{pre,title,content,link1}'
   - 'partnership-policy.explanation.{p1,p2,p3}'
