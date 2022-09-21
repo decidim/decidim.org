@@ -1,11 +1,14 @@
----
 nl:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
-    about: '["Support us", "Contact us", "Our assembly", "Press"]'
+    about:
+      - Support us
+      - Contact us
+      - Our assembly
+      - Indrukken
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
@@ -33,11 +36,11 @@ nl:
     read_more: Read more
     subtitle: Latest news from Decidim.
     tags:
-      title: Articles tagged with %{tagname}
-    title: Blog
+      title: Articles tagged with
+    title: blog
   case_study:
     n1:
-      org: City of Helsinki
+      org: Stad van Helsinki
       quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
     n2:
       org: Code for Japan
@@ -49,7 +52,7 @@ nl:
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
-    cta: Aan de slag
+    cta: Go to Metadecidim
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Decidim Gemeenschapsfoto tijdens de vergadering van Metadecidim 2016
     intro: Metadecidim is een gemeenschap die samenwerkt met het ontwerp van het platform en de constructie van het project. Samen kunnen we nieuwe functies ontwerpen en bugs melden voor voortdurende verbetering van het platform.
@@ -63,9 +66,9 @@ nl:
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Verzenden
+    send: Send message
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Contacteer ons
+    title: Contact Decidim
   demo:
     button: Online demo
     p1: Speel rond en verken vrij het Decidim platform met onze online demo.
@@ -207,7 +210,7 @@ nl:
         question: What does it mean that Decidim is for free, "libre" and open source?
         type: install
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
-    title: Veel gestelde vragen
+    title: FAQs
     types:
       about: About Decidim
       association: Association
@@ -217,74 +220,74 @@ nl:
       installation: Installation and license
       users: Users and roles
   features:
-    intro: "<p>Je kunt Decidim gebruiken in een openbare of private organisatie, met honderden of duizenden potentiële deelnemers, zoals een stadsraad, een vereniging, een universiteit, een NGO, een vakbond, een collectieve of coöperatieve gemeenschap...</p><p>Dankzij Decidim kan je ruimtes configureren voor deelname (initiatieven, assemblies, processen of raadplegingen) en ze verrijken via de meerdere beschikbare componenten (individuele vergaderingen, enquêtes, voorstellen, stemmen, follow-up van resultaten, commentaren en nog veel meer).</p>"
+    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
       feature1:
-        subtitle: om gemeenschappelijke kwesties stap voor stap te democratiseren
+        subtitle: To democratize common issues, step by step
         text: 'Processen is een ruimte die het mogelijk maakt verschillende participatieve processen te maken, te activeren/deactiveren, en te beheren. Dit onderscheidt zich van andere ruimten door in verschillende fasen een structuur op te zetten waarin alle onderdelen kunnen worden opgenomen. Voorbeelden van participatieprocessen zijn: een verkiezingsproces voor leden van een comité, participerende budgettering, een strategisch planningsproces. het gezamenlijk opstellen van een verordening of norm, het ontwerpen van een stedelijke ruimte of het opstellen van een plan voor overheidsbeleid.'
         title: Inspraakproces
       feature10:
-        subtitle: om te analyseren, samen te voegen en gemeenschappelijk te bouwen
-        text: Het participerende tekstcomponent kan worden gebruikt om lange tekstdocumenten om te zetten in verschillende voorstellen of resultaten en, vice versa, om een uniforme tekst op te stellen en weer te geven op basis van een verzameling voorstellen of resultaten.
+        subtitle: To analyze, synthesize, and build in common
+        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
         title: Participatieve teksten
       feature11:
         subtitle: Waar grote evenementen worden opgewaardeerd
-        text: Het conferentiecomponent staat een organisatie toe om een website voor een groot evenement te maken door deel te nemen aan vooraf gedefinieerde vergaderingen (chats, workshops etc. , het samenstellen van een eengemaakt programma en het beheren van deelnemers.
+        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
         title: Conferentie
       feature12:
         subtitle: Omdat de mening van uw gemeenschap belangrijk is
-        text: De enquête-component kan worden gebruikt om enquêtes te ontwerpen en te publiceren en de resultaten ervan weer te geven.
+        text: Design and publish surveys. Display and download results.
         title: Enquêtes
       feature13:
         subtitle: Gelijkheid en rechtvaardigheid van willekeurigheid
-        text: De loting component maakt het mogelijk om een aantal voorstellen te selecteren (bijv. kandidaten voor een jury) met willekeurige, maar reproduceerbare procedures die niet-bevooroordeelde en uniforme verdelingen garanderen.
+        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
         title: Loting
       feature14:
         subtitle: Gezamenlijke intelligentie opbouwen
-        text: Het commentaarcomponent stelt gebruikers in staat om opmerkingen toe te voegen, om de reactie te identificeren als favoriet, tegen of neutraal met betrekking tot het becommentarieerde object, om opmerkingen te stemmen, erop te reageren en om meldingen over reacties te ontvangen.
+        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
         title: Reacties
       feature15:
         subtitle: Uw gemeenschap, op de hoogte en up-to-date
-        text: Het pagina-component wordt gebruikt om informatieve pagina's te maken met rich text-opmaak, ingebedde foto's en video's. De blog component maakt het mogelijk om posten of nieuws aan te maken en deze chronologisch te navigeren.
+        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
         title: Pagina's en blogs
       feature16:
-        subtitle: Gepersonaliseerde informatie over interessante inhoud
-        text: Decidim stelt u in staat om elke ruimte of component bij te houden om updates te ontvangen telkens wanneer ze gebeuren.
+        subtitle: Personalised information on interesting content
+        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
         title: Meldingen
       feature17:
         subtitle: Eenvoudig maar krachtig
-        text: Het nieuwsbriefcomponent maakt het mogelijk om e-mails te sturen naar iedereen die is geregistreerd in het platform of selectiever naar degenen die deelnemen aan een specifieke ruimte.
+        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
         title: Nieuwsbrief
       feature2:
-        subtitle: de macht van de collectieve zelforganisatie
-        text: Is een ruimte die de mogelijkheid biedt besluitvormingsorganen of groepen op te richten (raden, werkgroepen, comités, enzovoorts? die regelmatig samenkomen, hun samenstelling, plaatsen en geoloceren van hun vergaderingen, en de mogelijkheid om deel te nemen aan ze (bijvoorbeeld het bijwonen als het zittingsvermogen en de aard van de vergadering dit toestaan, punten aan de agenda toe te voegen of commentaar te leveren op de voorstellen en besluiten die door dat orgaan zijn genomen).
+        subtitle: The power of collective self-organization
+        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
         title: Groepen
       feature3:
-        subtitle: het recht om met alle democratische waarborgen te beslissen
-        text: Consultatie is een ruimte die het mogelijk maakt om referenda, discussies en debatten te coördineren, stemresultaten openbaar te maken; het kan worden gekoppeld aan een veilig e-Stimuleringssysteem.
-        title: Burgerinspraaken
+        subtitle: The right to decide with all democratic guarantees
+        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
+        title: Votings
       feature4:
-        subtitle: ieders agenda bepalen, binnen ieders bereik
-        text: Initiatieven zijn een ruimte die deelnemers in staat stelt samen initiatieven te ontwikkelen, hun trajecten en doelen te definiëren, ondersteuningen, discussies, initiatieven bespreken en verspreiden en vergaderpunten definiëren waar handtekeningen kunnen worden verzameld uit deelnemers of debatten die zijn geopend voor andere leden van de organisatie.
+        subtitle: Setting everyone's agenda, within everyone's reach
+        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
         title: Initiatieven
       feature5:
-        subtitle: je ideeën in detail
-        text: De voorstellen component stelt de gebruiker in staat een voorstel te maken met behulp van een aanmaakmagiër, vergelijk het met de bestaande, publiceer het op het platform en voeg aanvullende informatie toe zoals geolocatie of bijgevoegde documenten en afbeeldingen. Dit onderdeel stelt u in staat om te navigeren, filteren en interactie met een reeks voorstellen. Daarnaast kunt u met de voorgestelde incubator samenwerkingsvoorstellen maken.
+        subtitle: Your ideas in detail
+        text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Voorstellen
       feature6:
-        subtitle: beslis je stem
-        text: 'Het stemcomponent biedt organisaties de mogelijkheid om verschillende stem- of ondersteuningssystemen rond voorstellen te activeren: ongelimiteerd, beperkt tot een bepaalde drempel, gewogen kosten, enz.'
+        subtitle: Decide your choice
+        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Stemmen
       feature7:
-        subtitle: geen voorstel zonder antwoord
-        text: Het resultaatcomponent wordt gebruikt om voorstellen in resultaten om te zetten en officiële antwoorden te geven over de acceptatie of afwijzing, Het samenvoegen van verschillende voorstellen tot één enkel resultaat.
+        subtitle: No proposal without an answer
+        text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Resultaten
       feature8:
-        subtitle: transparantie van begin tot einde
-        text: Het accountability component biedt de mogelijkheid om resultaten te verdelen in projecten, voortgangsstatussen te definiëren en toe te passen rond de uitvoering ervan. evenals de omvang van de uitvoering van de resultaten, gegroepeerd op categorieën en reikwijdte.
+        subtitle: End-to-end transparency
+        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Verantwoording
       feature9:
-        subtitle: elkaar ontmoeten en niets missen
+        subtitle: To meet and not miss anything
         text: Het vergadercomponent biedt organisaties en deelnemers de mogelijkheid om vergaderingen bijeen te roepen, hun locatie en tijd te bepalen. de deelnemers registreren en beperken, definieer de structuur en de inhoud van de vergadering en publiceer de notulen en de daaruit voortvloeiende voorstellen.
         title: Vergaderingen
     subtitle: For democratic organizations and collectives of any size and kind.
@@ -296,16 +299,16 @@ nl:
     type3:
       cta: Explore the modules
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
-      title: Modules
+      title: modules
   first-steps:
     first-steps1:
       content: You can install it yourself or find someone to help you with tech support.
-      link1: Documentation
+      link1: Documentatie
       pre: For technologists
       title: Installing Decidim
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
-      link1: Features
+      link1: Faciliteiten
       pre: For organizations
       title: The right tool for you
     first-steps3:
@@ -353,21 +356,21 @@ nl:
         title: It's yours. Use it. Share it. Improve it.
     hero:
       cta: Get started
-      intro: Gratis en veilige technologie.<br/>Met alle democratische garanties.<br/>Herprogrammeren van democratie is nu mogelijk met Decidim.
-      subheading: Decidim is een digitaal platform<br/>voor deelname van burgers
+      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
+      subheading: Decidim is a digital platform for citizen participation
     subhero:
       cta: Explore all features
-      feature1: Strategische<br/>planning
-      feature2: Participatief<br/>budgetteren
-      feature3: Initiatieven en<br/>burgeroverleg
-      feature4: Participatieve<br/>processen
-      feature5: Groepen
-      feature6: Netwerk<br/>communicatie
+      feature1: Strategic planning
+      feature2: Inspraakproces
+      feature3: Groepen
+      feature4: Initiatives and citizen consultations
+      feature5: Participatory budgeting
+      feature6: Networked communication
       intro: Decidim helpt burgers, organisaties en publieke instellingen zich op elke schaal democratisch te organiseren.
     used_by:
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
-      title: Ze gebruiken al Decidim
+      title: Already using Decidim
   legal-notice:
     section-1:
       paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -399,14 +402,14 @@ nl:
     title: Legal notice
   modules:
     auth: Authorization
-    community: Community
+    community: Gemeenschap
     cta: Learn how
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
     more_info: More information
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-    title: Modules
+    title: modules
   nav:
     about: About
     association: Association
@@ -427,7 +430,7 @@ nl:
     legal-notice: Legal notice
     menu: Menu
     modules: modules
-    partners: Cooperating entiteiten
+    partners: Partners
     partnership-policy: Partnership policy
     press: Indrukken
     privacy-policy: Privacy policy
@@ -438,7 +441,7 @@ nl:
   newsletter:
     past: Past newsletters
     subtitle: News and updates about the Decidim platform and the community.
-    title: Newsletter
+    title: Nieuwsbrief
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
@@ -463,7 +466,7 @@ nl:
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
     title: Partnership policy
-  path: "/nl"
+  path: '/nl'
   press:
     highlights: Media highlights
     kit: Press kit
@@ -489,7 +492,7 @@ nl:
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
-    title: Press
+    title: Indrukken
   privacy-policy:
     section-1:
       paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
@@ -586,4 +589,4 @@ nl:
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
-    title: Decidim in use
+    title: Decidim in gebruik
