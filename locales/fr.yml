@@ -1,11 +1,14 @@
----
 fr:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
-    about: '["Support us", "Contact us", "Our assembly", "Press"]'
+    about:
+      - Support us
+      - Contact us
+      - Our assembly
+      - Presse
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
@@ -33,11 +36,11 @@ fr:
     read_more: Read more
     subtitle: Latest news from Decidim.
     tags:
-      title: Articles tagged with %{tagname}
-    title: Blog
+      title: Articles tagged with
+    title: Actualités
   case_study:
     n1:
-      org: City of Helsinki
+      org: Ville d'Helsinki
       quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
     n2:
       org: Code for Japan
@@ -49,7 +52,7 @@ fr:
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
-    cta: Premiers pas
+    cta: Go to Metadecidim
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Photo de la communauté Decidim à la réunion Metadecidim 2016
     intro: Metadecidim est une communauté qui collabore à la conception de la plate-forme et à la construction du projet. Ensemble, nous pouvons concevoir et développer de nouvelles fonctionnalités et rapporter des bugs pour améliorer continuellement la plate-forme.
@@ -61,11 +64,11 @@ fr:
     message: Message
     name: Nom
     privacy_policy:
-      accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
-      message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Envoyer
+      accept: J'accepte la <a href="%{privacy_policy_url}">Politique de confidentialité</a>
+      message: "<p>Lorsque des personnes nous contactent par le formulaire de contact, par e-mail ou par des moyens de communication similaires, nous recueillerons automatiquement les informations suivantes : nom, entité, adresse e-mail et le contenu du message de l'Utilisateur afin de répondre à vos commentaires, demandes, suggestions, etc.</p> <p>En outre, nous pouvons traiter ces données pour des études statistiques par pseudonymisation et même des techniques d'anonymisation, tels que l'agrégation des données, empêchant ce traitement ultérieur d'identifier les Utilisateurs individuellement.</p>"
+    send: Send message
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Contactez-nous
+    title: Contact Decidim
   demo:
     button: Démo en ligne
     p1: Explorez librement la plateforme Decidim avec notre démo en ligne.
@@ -217,74 +220,74 @@ fr:
       installation: Installation and license
       users: Users and roles
   features:
-    intro: "<p>Vous pouvez utiliser Decidim dans une organisation publique ou privée, avec des centaines ou des milliers de participants potentiels, comme un conseil municipal, une association, une université, une ONG, un syndicat, un collectif de voisinage ou encore une coopérative...</p><p>Grâce à Decidim, vous pourrez configurer les espaces de participation (initiatives, assemblées, processus ou consultations) et les enrichir grâce aux multiples fonctionnalités disponibles (rencontres, questionnaires, propositions, votes, suivi des résultats, commentaires et bien d’autres).</p>"
+    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
       feature1:
-        subtitle: pour démocratiser les questions communes, pas à pas
+        subtitle: To democratize common issues, step by step
         text: 'Les concertations sont des espaces qui permettent de créer, activer/désactiver et gérer différents processus participatifs. Ils se distinguent des autres espaces par leur structuration en différentes étpaes au sein desquelles toutes les fonctionnalités peuvent être incorporées. Les exemples de concertations sont : un processus électoral pour les membres d''un comité, un budget participatif, un processus de planification stratégique, la rédaction collaborative d''un règlement ou d''une norme, la conception d''un espace urbain ou la production d''un plan de politique publique.'
         title: Concertations
       feature10:
-        subtitle: pour analyser, synthétiser et construire en commun
-        text: La fonctionnalité de textes participatifs peut être utilisé pour convertir de longs documents textes en différentes propositions ou résultats et, vice versa, pour composer et afficher un texte unifié basé sur un ensemble de propositions ou de résultats.
+        subtitle: To analyze, synthesize, and build in common
+        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
         title: Textes participatifs
       feature11:
         subtitle: Là où les grands événements sont mis en avant
-        text: Le composant conférence permet à une organisation de créer un site web pour un grand événement en participant à une série de réunions prédéfinies (chats, ateliers, etc.). , en formant un programme unifié et en gérant les participants.
+        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
         title: Conférence
       feature12:
         subtitle: Parce que l'opinion de votre communauté importe
-        text: Le composant Enquêtes peut être utilisé pour concevoir et publier des sondages et pour afficher et télécharger leurs résultats.
+        text: Design and publish surveys. Display and download results.
         title: Enquêtes
       feature13:
         subtitle: Égalité et justice du hasard
-        text: Le composant de tirage au sort permet de sélectionner un certain nombre de propositions (par ex. les candidats pour un jury) avec des procédures aléatoires, mais reproductibles, qui garantissent des distributions non partiales et uniformes.
+        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
         title: Tirage au sort
       feature14:
         subtitle: Construire une intelligence collective
-        text: Le composant Commentaires permet aux utilisateurs d'ajouter des commentaires, d'identifier le commentaire comme étant en faveur, contre ou neutre par rapport à l'objet commenté, pour les commentaires de vote, pour y répondre et pour recevoir des notifications sur les réponses.
+        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
         title: Commentaires
       feature15:
         subtitle: Votre communauté, informée et à jour
-        text: Le composant de pages est utilisé pour créer des pages informatives avec mise en forme de texte riche, des images et des vidéos intégrées. Le composant blog permet la création de messages ou de nouvelles, et de les naviguer de manière chronologique.
+        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
         title: Pages et blogs
       feature16:
-        subtitle: Informations personnalisées sur les contenus intéressants
-        text: Decidim vous permet de suivre n'importe quel espace ou composant pour recevoir des mises à jour chaque fois qu'elles arrivent.
+        subtitle: Personalised information on interesting content
+        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
         title: Notifications
       feature17:
         subtitle: Simple mais puissant
-        text: Le volet newsletter permet d'envoyer des courriels à tous ceux qui sont inscrits sur la plateforme ou, plus sélectivement, à ceux qui participent à un espace spécifique.
+        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
         title: Bulletin d'information (newsletter)
       feature2:
-        subtitle: le pouvoir de l'auto-organisation collective
-        text: 'Les assemblées sont des espaces qui offrent la possibilité de mettre en place des organes ou des groupes de décision (conseils, groupes de travail, comités, etc.) qui se réunissent périodiquement, et qui permet de détailler leur composition, de répertorier et géolocaliser leurs réunions, et d''y participer (par exemple : assister à une réunion s''il reste des places, ajouter des points à l''ordre du jour ou commenter les propositions et les décisions prises par cet organisme).'
+        subtitle: The power of collective self-organization
+        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
         title: Assemblées
       feature3:
-        subtitle: le droit de décider avec toutes les garanties démocratiques
-        text: Les votations sont des espaces qui permettent de coordonner des référendums, de déclencher des discussions et des débats, de publier les résultats de votes, etc. Ils peuvent être connectés à un système de vote électronique sécurisé.
-        title: Votations
+        subtitle: The right to decide with all democratic guarantees
+        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
+        title: Votings
       feature4:
-        subtitle: définir les objectifs de chacun, à portée de tous
-        text: Les initiatives sont un espace qui permet aux participants de créer des initiatives collaboratives, de définir leurs trajectoires et leurs objectifs, de recueillir des votes, de discuter, de débattre, de diffuser des initiatives et de définir des points de rencontre où des signatures peuvent être recueillies auprès des participants ou des débats ouverts à d'autres membres de l'organisation.
+        subtitle: Setting everyone's agenda, within everyone's reach
+        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
         title: Initiatives
       feature5:
-        subtitle: vos idées en détail
-        text: La fonctionnalité Propositions permet à l'utilisateur de créer une proposition en plusieurs étapes, de la comparer avec les propositions existantes, de la publier sur la plateforme et d'inclure des informations supplémentaires telles que la géolocalisation ou les documents et images joints. Cette fonctionnalité vous permet également de naviguer, de filtrer et d'interagir avec un ensemble de propositions. De plus, avec l'incubateur de proposition vous pouvez créer des propositions collaboratives.
+        subtitle: Your ideas in detail
+        text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Propositions
       feature6:
-        subtitle: décidez de votre vote
-        text: 'Le vote offre aux organisations la possibilité d''activer différents systèmes de vote ou de soutien autour de propositions : possibilité de vote illimitée, limitée à un seuil donné, pondéré, basé sur les coûts, etc.'
+        subtitle: Decide your choice
+        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Vote
       feature7:
-        subtitle: aucune proposition sans réponse
-        text: La fonctionnalité résultats est utilisée pour transformer les propositions en résultats et donner des réponses officielles concernant leur acceptation ou leur rejet, ou en fusionnant différentes propositions en un seul résultat.
+        subtitle: No proposal without an answer
+        text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Résultats
       feature8:
-        subtitle: la transparence du début à la fin
-        text: La fonctionnalité suivi des réalisations offre la possibilité de subdiviser les résultats en différents projets, de définir et d'appliquer des statuts de progression de leur mise en œuvre, mais aussi d’afficher l’étendue de l’implémentation des résultats par catégories et secteurs.
+        subtitle: End-to-end transparency
+        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Suivi des réalisations
       feature9:
-        subtitle: pour se rencontrer et ne rien rater
+        subtitle: To meet and not miss anything
         text: La fonctionnalité rencontres offre aux organisations et aux participants la possibilité de convoquer des réunions, de déterminer leur lieu et leur heure, de s'y inscrire, d'en limiter les places, de définir la structure et le contenu de la réunion ainsi que publier les comptes-rendus et les propositions qui en résultent.
         title: Rencontres
     subtitle: For democratic organizations and collectives of any size and kind.
@@ -305,7 +308,7 @@ fr:
       title: Installing Decidim
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
-      link1: Features
+      link1: Fonctionnalités
       pre: For organizations
       title: The right tool for you
     first-steps3:
@@ -353,21 +356,21 @@ fr:
         title: It's yours. Use it. Share it. Improve it.
     hero:
       cta: Get started
-      intro: Technologie libre et sûre.<br/>Avec toutes les garanties démocratiques.<br/>La modernisation de la démocratie est maintenant possible avec Decidim.
-      subheading: Decidim est une plateforme numérique<br/>pour la participation des citoyens
+      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
+      subheading: Decidim is a digital platform for citizen participation
     subhero:
       cta: Explore all features
-      feature1: Planification<br/>stratégique
-      feature2: Budgets<br/>participatifs
-      feature3: Initiatives et<br/>consultations citoyennes
-      feature4: Processus<br/>participatifs
-      feature5: Assemblées
-      feature6: Communication<br/>en réseau
+      feature1: Strategic planning
+      feature2: Concertations
+      feature3: Assemblées
+      feature4: Initiatives and citizen consultations
+      feature5: Participatory budgeting
+      feature6: Networked communication
       intro: Decidim aide les citoyens, les organisations et les institutions publiques à s'organiser démocratiquement à toutes les échelles.
     used_by:
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
-      title: Ils utilisent déjà Decidim
+      title: Already using Decidim
   legal-notice:
     section-1:
       paragraph: '<p>Vous accédez au site web de l''Association du Logiciel Libre ("Decidim" ou "Nous") disponible via le domaine web <a href="https://decidim.org">https://decidim.org/</a> (ci-après, le "site web"), domiciliée à Sant Adria, 20 Fabrica de Creacio, Fabra I Coats, Barcelone, 08030, Espagne et numéro d''identification G67401174.<p><p><b>Vous pouvez nous contacter à : <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -399,7 +402,7 @@ fr:
     title: Mentions légales
   modules:
     auth: Authorization
-    community: Community
+    community: Communauté
     cta: Learn how
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
     more_info: More information
@@ -427,7 +430,7 @@ fr:
     legal-notice: Mentions légales
     menu: Menu
     modules: Modules
-    partners: Partenaires
+    partners: Partners
     partnership-policy: Partnership policy
     press: Presse
     privacy-policy: Politique de confidentialité
@@ -438,7 +441,7 @@ fr:
   newsletter:
     past: Past newsletters
     subtitle: News and updates about the Decidim platform and the community.
-    title: Newsletter
+    title: Bulletin d'information (newsletter)
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
@@ -463,7 +466,7 @@ fr:
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
     title: Partnership policy
-  path: "/fr"
+  path: '/fr'
   press:
     highlights: Media highlights
     kit: Press kit
@@ -489,7 +492,7 @@ fr:
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
-    title: Press
+    title: Presse
   privacy-policy:
     section-1:
       paragraph: <p>L' Association d Logiciel Libre Decidim ("<a href="%{decidim_url}">Decidim</a>" ou "nous") est le propriétaire de ce site web. disponible via le domaine web <a href="https://decidim.org/">https://decidim.org/</a> (ci-après, le "Site Web"), et agit en tant que contrôleur de données pour le traitement des données personnelles de tous les utilisateurs du Site Internet (« Vous », « Utilisateur »).</p> <p><a href="%{decidim_url}">Decidim</a> s'engage à protéger la vie privée de tous les Utilisateurs du Site, ses membres associés et membres de la communauté <a href="%{decidim_url}">Decidim</a> . Cette politique de confidentialité explique nos pratiques concernant l'utilisation des données personnelles collectées par le biais du site Web, y compris la démo de notre plateforme de démocratie participative libre et open-source, ainsi que le traitement des données des personnes associées à <a href="%{decidim_url}">Decidim</a> et la gestion de la communauté <a href="%{decidim_url}">Decidim</a> soit sur ce site Web, soit sur d'autres plates-formes gérées par <a href="%{decidim_url}">Decidim</a>.</p> <p>La présente politique de confidentialité fait partie de nos textes légaux avec l' <a href="%{legal_notice_url}">Avis légal</a>.</p>
@@ -510,7 +513,7 @@ fr:
       paragraph: "<p>Nous mettons en œuvre des mesures de sécurité et des plans de protection des données personnelles conformément à la loi pour maintenir la confidentialité et l'intégrité de vos données et la protection contre l'accès non autorisé, la modification ou la destruction de ces données. </p>"
       title: Mesures de sécurité
     section-7:
-      paragraph: <p>Vous avez différents droits de par les lois concernant la protection de vos données personnelles. Spécifiquement, vous avez le droit à:</p><ul><li><b>Demande d'accès</b> à vos données personnelles. Cela vous permet de recevoir une copie des données personnelles que nous avons sur vous et vous permet de vérfier si nous les traitons légalement.</li><li><b>Demande de correction</b> de vos données personnelles. Cela vous permet de corriger toute information incorrecte au incomplète à votre sujet, après vérification des nouvelles données fournies.</li><li><b>Demande de suppression</b> de vos données personnelles. Cela vous permet de nous demander la suppression des données n'ayant plus aucune raison d'être traité par nos soins. Vous avez également le droit de nous demander supprimer vos données personnelles lorsque vous avez exercé avec succès votre droit d'opposition au traitement (voir ci-dessous), si nous avons traité vos données de manière illégale ou lorsque nous sommes tenus d'effacer vos données personnelles pour nous conformer à la législation locale. Notez toutefois que nous ne serons pas toujours en mesure de satisfaire à votre demande d'effacement pour des raisons juridiques spécifiques qui vous vous seront notifiées, le cas échéant, au moment de votre demande.</li><li><b>S'opposer au traitement de vos données personnelles</b> lorsque nous nous appuyons sur un légitime (ou celui d'un tiers) et qu'un élément de votre situation particulière vous incite à vous opposer au traitement sur ce motif car vous estimez qu'il a un impact sur vos droits et libertés fondamentaux. Vous avez également le droit de vous opposer lorsque nous traitons vos données à caractère personnel à des fins de marketing direct. Dans certains cas, nous pouvons démontrer que nous avons des motifs légitimes impérieux de traiter vos informations qui l'emportent sur vos droits et libertés.</li><li><b>Demande de restriction sur les traitements de vos données personnelles</b>.Cela vous permet de nous demander de suspendre le traitement de vos données personnelles dans les scénarios suivants:(a) si vous voulez établir la véracité des données; (b) là où notre utilisation des données est illégale mais vous ne voulez pas que nous les supprimions; (c) lorsque vous avez besoin que nous conservions vos données même si nous n'en avons plus besoin, car vous en avez besoin pour exercer ou défendre des revendications juridiques; ou (d) vous avez émis des objections quant à notre utilisation de vos données mais nous avons besoins de vérifier si nous avons des motifs légitimes impérieux pour les utiliser.</li><li><b>Demander le transfert de vos données personnelles</b> à vous ou à un tiers (droit à la portabilités des données). Nous vous fournirons à vous ou à une tierce organisation que vous aurez choisie vos données personnelles dans un format structuré, communément utilisé,. et traitable informatiquement. Notez que ce droit s'applique uniquement aux informations fournies automatiquement sur lesquelles. vous auriez accorder votre consentement à notre égard pour que nous les traitions, ou à des moments où nous aurions utilisées ces informations pour effectuer un contrat avec vous.</li><li><b>Retirer votre consentement à tout moment</b>. Cependant, cela n'affectera pas la légalité de tout traitement réalisé avant cette action.Si vous retirez votre consentement, nous ne serons potentiellement plus en mesure de vous fournir certains produits ou services. Nous vous en informerons si c'est le cas au moment où vous retirez votre consentement.</li></ul><p>Les droits sus-mentionnés sont actionnables en nous contactant via <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p><p>Vous avez également le droit de vous plaindre auprès de l'autorité compétente, dans ce cas la Comission Nationale Informatique et Libertés (Cnil).</p>.
+      paragraph: '<p>Vous avez différents droits de par les lois concernant la protection de vos données personnelles. Spécifiquement, vous avez le droit à:</p><ul><li><b>Demande d''accès</b> à vos données personnelles. Cela vous permet de recevoir une copie des données personnelles que nous avons sur vous et vous permet de vérfier si nous les traitons légalement.</li><li><b>Demande de correction</b> de vos données personnelles. Cela vous permet de corriger toute information incorrecte au incomplète à votre sujet, après vérification des nouvelles données fournies.</li><li><b>Demande de suppression</b> de vos données personnelles. Cela vous permet de nous demander la suppression des données n''ayant plus aucune raison d''être traité par nos soins. Vous avez également le droit de nous demander supprimer vos données personnelles lorsque vous avez exercé avec succès votre droit d''opposition au traitement (voir ci-dessous), si nous avons traité vos données de manière illégale ou lorsque nous sommes tenus d''effacer vos données personnelles pour nous conformer à la législation locale. Notez toutefois que nous ne serons pas toujours en mesure de satisfaire à votre demande d''effacement pour des raisons juridiques spécifiques qui vous vous seront notifiées, le cas échéant, au moment de votre demande.</li><li><b>S''opposer au traitement de vos données personnelles</b> lorsque nous nous appuyons sur un légitime (ou celui d''un tiers) et qu''un élément de votre situation particulière vous incite à vous opposer au traitement sur ce motif car vous estimez qu''il a un impact sur vos droits et libertés fondamentaux. Vous avez également le droit de vous opposer lorsque nous traitons vos données à caractère personnel à des fins de marketing direct. Dans certains cas, nous pouvons démontrer que nous avons des motifs légitimes impérieux de traiter vos informations qui l''emportent sur vos droits et libertés.</li><li><b>Demande de restriction sur les traitements de vos données personnelles</b>.Cela vous permet de nous demander de suspendre le traitement de vos données personnelles dans les scénarios suivants:(a) si vous voulez établir la véracité des données; (b) là où notre utilisation des données est illégale mais vous ne voulez pas que nous les supprimions; (c) lorsque vous avez besoin que nous conservions vos données même si nous n''en avons plus besoin, car vous en avez besoin pour exercer ou défendre des revendications juridiques; ou (d) vous avez émis des objections quant à notre utilisation de vos données mais nous avons besoins de vérifier si nous avons des motifs légitimes impérieux pour les utiliser.</li><li><b>Demander le transfert de vos données personnelles</b> à vous ou à un tiers (droit à la portabilités des données). Nous vous fournirons à vous ou à une tierce organisation que vous aurez choisie vos données personnelles dans un format structuré, communément utilisé,. et traitable informatiquement. Notez que ce droit s''applique uniquement aux informations fournies automatiquement sur lesquelles. vous auriez accorder votre consentement à notre égard pour que nous les traitions, ou à des moments où nous aurions utilisées ces informations pour effectuer un contrat avec vous.</li><li><b>Retirer votre consentement à tout moment</b>. Cependant, cela n''affectera pas la légalité de tout traitement réalisé avant cette action.Si vous retirez votre consentement, nous ne serons potentiellement plus en mesure de vous fournir certains produits ou services. Nous vous en informerons si c''est le cas au moment où vous retirez votre consentement.</li></ul><p>Les droits sus-mentionnés sont actionnables en nous contactant via <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p><p>Vous avez également le droit de vous plaindre auprès de l''autorité compétente, dans ce cas la Comission Nationale Informatique et Libertés (Cnil).</p>.'
       title: Vos droits
     section-8:
       paragraph: "<p>Nous nous réservons le droit de modifier les conditions de cette politique de confidentialité et nous vous en informerons en fournissant un avis clair de ces modifications par e-mail ou sur notre site Web, et dans cette politique de confidentialité. Si vous continuez à utiliser nos services après cette mise à jour, vous serez supposé accepter les nouvelles conditions. Si vous n'acceptez pas la mise à jour, veuillez résilier votre compte ou nous en aviser et nous clôturerons votre compte et supprimerons vos données personnelles (sauf si elles doivent être conservées à des fins légales), et vous ne pourrez pas continuer à utiliser nos services. </p> <p>Sauf disposition contraire d'un règlement local spécifique, la Politique de Confidentialité est régie par les lois espagnoles.</p> <p><b>Dernière mise à jour</b>: février 2022.</p>"
@@ -586,4 +589,4 @@ fr:
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
-    title: Decidim in use
+    title: Cas d'usages
