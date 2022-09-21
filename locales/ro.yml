@@ -1,11 +1,14 @@
----
 ro:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
-    about: '["Support us", "Contact us", "Our assembly", "Press"]'
+    about:
+      - Support us
+      - Contact us
+      - Our assembly
+      - Apăsați
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
@@ -33,11 +36,11 @@ ro:
     read_more: Read more
     subtitle: Latest news from Decidim.
     tags:
-      title: Articles tagged with %{tagname}
+      title: Articles tagged with
     title: Blog
   case_study:
     n1:
-      org: City of Helsinki
+      org: Orașul Helsinki
       quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
     n2:
       org: Code for Japan
@@ -49,7 +52,7 @@ ro:
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
-    cta: Începeți
+    cta: Go to Metadecidim
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Fotografie comunitară decidiană la ședința Metadecidim din 2016
     intro: Metadecidim este o comunitate care colaborează la proiectarea platformei şi la construcţia proiectului. Împreună putem proiecta și dezvolta noi caracteristici și raporta erorile pentru îmbunătățirea continuă a platformei.
@@ -63,9 +66,9 @@ ro:
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Trimite
+    send: Send message
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Contactați-ne
+    title: Contact Decidim
   demo:
     button: Demo online
     p1: Joacă-te și explorează liber platforma Decidim cu demo-ul nostru online.
@@ -217,74 +220,74 @@ ro:
       installation: Installation and license
       users: Users and roles
   features:
-    intro: "<p>Poți folosi Decidim într-o organizație publică sau privată, cu sute sau mii de potențiali participanți, cum ar fi un consiliu urban, o asociaţie, o universitate, o ONG, un sindicat, un colectiv de cartiere sau o cooperativă...</p><p>Mulțumită Decidim vei putea configura spațiile pentru participare (inițiative, adunări, procedează sau consultări) și le îmbogățește prin multiple componente disponibile (reuniuni față în față, sondaje, propuneri, votare, urmărirea rezultatelor, observații și multe altele).</p>"
+    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
       feature1:
-        subtitle: democratizarea problemelor comune, pas cu pas
+        subtitle: To democratize common issues, step by step
         text: 'Procesele sunt un spațiu care permite crearea, activarea/dezactivarea și gestionarea diferitelor procese participative. Acestea se deosebesc de alte spaţii prin structurarea lor în diferite faze în care pot fi încorporate toate componentele. Exemple de procese participative sunt: un proces electoral pentru membrii unui comitet, un buget participativ, un proces de planificare strategică. scrierea în colaborare a unui regulament sau normă, proiectarea unui spațiu urban sau elaborarea unui plan de politică publică.'
         title: Procese participative
       feature10:
-        subtitle: pentru a analiza, sintetiza și construi în comun
-        text: Componenta „texte participative” poate fi utilizată pentru a transforma în diferite propuneri sau rezultate lungi și vice versa, să compună și să afișeze un text unificat bazat pe o colecție de propuneri sau rezultate.
+        subtitle: To analyze, synthesize, and build in common
+        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
         title: Textele participative
       feature11:
         subtitle: Acolo unde evenimentele mari sunt primordiale
-        text: Componenta conferinţei permite unei organizaţii să creeze un site web pentru un eveniment de mare anvergură, prin unirea unei serii de întâlniri predefinite (conversaţii, ateliere etc. , care elaborează un program unificat și gestionează participanții.
+        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
         title: Conferință
       feature12:
         subtitle: Pentru că opinia comunității tale contează
-        text: Componenta de chestionare poate fi utilizată pentru elaborarea și publicarea de sondaje, precum și pentru afișarea și descărcarea rezultatelor.
+        text: Design and publish surveys. Display and download results.
         title: Chestionare
       feature13:
         subtitle: Egalitatea și justiția aleatorie
-        text: Componenta de sortare permite selectarea unui număr de propuneri (de ex. candidații la un juriu) cu proceduri aleatorii, dar reproductibile, care să garanteze o distribuție nepărtinitoare și uniformă.
+        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
         title: Sortare
       feature14:
         subtitle: Construirea unei inteligențe colective
-        text: Componenta de comentarii permite utilizatorilor să adauge comentarii, pentru a identifica comentariul ca fiind favorabil, împotriva obiectului comentat sau neutru, să voteze, să răspundă la acestea și să primească notificări cu privire la răspunsuri.
+        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
         title: Comentarii
       feature15:
         subtitle: Comunitatea ta, informată și actualizată
-        text: Componenta de pagini este folosită pentru a crea pagini informative cu formatare de text bogată, imagini și videoclipuri încorporate. Componenta de blog face posibilă crearea postărilor sau ştirilor şi navigarea lor în ordine cronologică.
+        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
         title: Pagini și bloguri
       feature16:
-        subtitle: Informatii personalizate despre continutul interesant
-        text: Decidim vă permite să urmăriți orice spațiu sau componentă pentru a primi actualizări de fiecare dată când se întâmplă.
+        subtitle: Personalised information on interesting content
+        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
         title: Notificări
       feature17:
         subtitle: Simplu, dar puternic
-        text: Componenta newsletter face posibilă trimiterea de e-mailuri tuturor celor înregistrați pe platformă sau, mai selectiv, celor care participă într-un anumit spațiu.
+        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
         title: Newsletter
       feature2:
-        subtitle: puterea de auto-organizare colectivă.
-        text: 'Este un spaţiu care oferă posibilitatea de a înfiinţa organe sau grupuri de decizie (consilii, grupuri de lucru, comitete etc.). care se reunesc periodic, detaliind componența, enumerarea și geolocalizarea reuniunilor lor; posibilitatea de a participa la aceste lucrări (de exemplu: la participarea în cazul în care capacitatea şi natura reunirii permit acest lucru; adăugarea de puncte pe ordinea de zi sau formularea de observații cu privire la propunerile și deciziile luate de organul respectiv).'
+        subtitle: The power of collective self-organization
+        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
         title: Adunări
       feature3:
-        subtitle: dreptul de a decide cu toate garanțiile democratice
-        text: Consultările reprezintă un spaţiu care face posibilă coordonarea referendumurilor, declanşarea de discuţii şi dezbateri, publicarea rezultatelor votului; poate fi conectat la un sistem securizat de votare electronică.
-        title: Consultări
+        subtitle: The right to decide with all democratic guarantees
+        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
+        title: Votings
       feature4:
-        subtitle: fixarea ordinii de zi a tuturor, la îndemâna tuturor
-        text: Iniţiativele sunt un spaţiu care permite participanţilor să creeze iniţiative, să îşi definească traiectoria şi obiectivele, să adune aprobări, discuţii, să dezbată şi să difuzeze iniţiative şi să definească punctele de întâlnire în care pot fi colectate semnături de la participanţii sau dezbaterile deschise altor membri ai organizaţiei.
+        subtitle: Setting everyone's agenda, within everyone's reach
+        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
         title: Inițiative
       feature5:
-        subtitle: ideile tale în detaliu
-        text: Componenta de propuneri permite utilizatorului să creeze o propunere folosind un asistent de creație, în comparație cu cele existente, să-l publice pe platformă și să includă informații suplimentare, cum ar fi geolocalizarea sau documentele și imaginile anexate. Această componentă îți permite, de asemenea, să navighezi, să filtrezi și să interacționezi cu un set de propuneri. În plus, cu incubatorul de propuneri poți crea propuneri de colaborare.
+        subtitle: Your ideas in detail
+        text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Propuneri
       feature6:
-        subtitle: decide votul tău
-        text: 'Componenta de vot oferă organizațiilor posibilitatea de a activa diferite sisteme de vot sau de sprijin în jurul propunerilor: nelimitată, limitată la un anumit prag, ponderată, bazată pe costuri etc.'
+        subtitle: Decide your choice
+        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Votare
       feature7:
-        subtitle: nicio propunere fără un răspuns
-        text: Componenta de rezultate este utilizată pentru a transforma propunerile în rezultate și pentru a oferi răspunsuri oficiale cu privire la acceptarea sau respingerea acestora, fuzionarea mai multor propuneri într-un singur rezultat.
+        subtitle: No proposal without an answer
+        text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Rezultate
       feature8:
-        subtitle: transparența de la început la sfârșit
-        text: Componenta „responsabilitate” oferă posibilitatea de a subdiviza rezultatele în proiecte, de a defini și de a aplica statutul progreselor înregistrate în ceea ce privește punerea lor în aplicare, pe lângă expunerea amplorii punerii în aplicare a rezultatelor, grupate pe categorii și domenii de aplicare.
+        subtitle: End-to-end transparency
+        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Responsabilitate
       feature9:
-        subtitle: să se întâlnească și să nu rateze nimic
+        subtitle: To meet and not miss anything
         text: Componenta de reuniune oferă organizațiilor și participanților posibilitatea de a convoca întâlniri, de a-și stabili locația și ora, să înregistreze și să limiteze participanții, să definească structura și conținutul reuniunii, precum și să publice procesele verbale și propunerile care decurg din acestea.
         title: Întâlniri
     subtitle: For democratic organizations and collectives of any size and kind.
@@ -296,16 +299,16 @@ ro:
     type3:
       cta: Explore the modules
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
-      title: Modules
+      title: Module
   first-steps:
     first-steps1:
       content: You can install it yourself or find someone to help you with tech support.
-      link1: Documentation
+      link1: Documentație
       pre: For technologists
       title: Installing Decidim
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
-      link1: Features
+      link1: Caracteristici
       pre: For organizations
       title: The right tool for you
     first-steps3:
@@ -353,21 +356,21 @@ ro:
         title: It's yours. Use it. Share it. Improve it.
     hero:
       cta: Get started
-      intro: Tehnologie liberă și sigură.<br/>Cu toate garanțiile democratice.<br/>Reprogramarea democrației este posibilă acum cu Decidim.
-      subheading: Decidim este o platformă digitală<br/>pentru participarea cetăţenilor
+      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
+      subheading: Decidim is a digital platform for citizen participation
     subhero:
       cta: Explore all features
-      feature1: Planificarea strategică<br/>
-      feature2: Bugetarea participativă<br/>
-      feature3: Inițiative și<br/>consultări ale cetățenilor
-      feature4: Procesele<br/>participative
-      feature5: Adunări
-      feature6: Comunicare<br/>rețea
+      feature1: Strategic planning
+      feature2: Procese participative
+      feature3: Adunări
+      feature4: Initiatives and citizen consultations
+      feature5: Participatory budgeting
+      feature6: Networked communication
       intro: Decidim ajută cetăţenii, organizaţiile şi instituţiile publice să se autoorganizeze democratic la toate nivelurile.
     used_by:
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
-      title: Acestea folosesc deja Decidim
+      title: Already using Decidim
   legal-notice:
     section-1:
       paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -399,14 +402,14 @@ ro:
     title: Legal notice
   modules:
     auth: Authorization
-    community: Community
+    community: Comunitate
     cta: Learn how
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
     more_info: More information
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-    title: Modules
+    title: Module
   nav:
     about: About
     association: Association
@@ -427,7 +430,7 @@ ro:
     legal-notice: Legal notice
     menu: Menu
     modules: Module
-    partners: Entități de cooperare
+    partners: Partners
     partnership-policy: Partnership policy
     press: Apăsați
     privacy-policy: Privacy policy
@@ -463,7 +466,7 @@ ro:
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
     title: Partnership policy
-  path: "/ro"
+  path: '/ro'
   press:
     highlights: Media highlights
     kit: Press kit
@@ -489,7 +492,7 @@ ro:
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
-    title: Press
+    title: Apăsați
   privacy-policy:
     section-1:
       paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
@@ -586,4 +589,4 @@ ro:
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
-    title: Decidim in use
+    title: Decidim în utilizare
