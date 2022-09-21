@@ -9,7 +9,7 @@ gem "i18n-tasks", "~> 1.0"
 
 gem 'middleman-blog', '~> 4.0'
 gem 'redcarpet', '~> 3.5'
-gem 'nokogiri', '~> 1.12.5'
+gem 'nokogiri', '~> 1.13.6'
 gem 'builder', '~> 3.0'
 gem "debug", "~> 1.6"
 
