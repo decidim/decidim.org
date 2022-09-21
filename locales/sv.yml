@@ -1,11 +1,14 @@
----
 sv:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
-    about: '["Support us", "Contact us", "Our assembly", "Press"]'
+    about:
+      - Support us
+      - Contact us
+      - Our assembly
+      - Tryck
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
@@ -33,11 +36,11 @@ sv:
     read_more: Read more
     subtitle: Latest news from Decidim.
     tags:
-      title: Articles tagged with %{tagname}
-    title: Blog
+      title: Articles tagged with
+    title: Blogg
   case_study:
     n1:
-      org: City of Helsinki
+      org: Helsingfors stad
       quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
     n2:
       org: Code for Japan
@@ -49,7 +52,7 @@ sv:
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
-    cta: Kom igång
+    cta: Go to Metadecidim
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Decidim Community Photo at Metadecidim Meeting 2016
     intro: Metadecidim är en gemenskap som samarbetar i utformningen av plattformen och byggandet av projektet. Tillsammans kan vi utforma och utveckla nya funktioner och rapportera buggar för kontinuerlig förbättring av plattformen.
@@ -63,9 +66,9 @@ sv:
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Skicka
+    send: Send message
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Kontakta oss
+    title: Contact Decidim
   demo:
     button: Demo online
     p1: Spela runt och utforska fritt Decidim plattform med vår online-demo.
@@ -217,74 +220,74 @@ sv:
       installation: Installation and license
       users: Users and roles
   features:
-    intro: "<p>Du kan använda Decidim i en offentlig eller privat organisation, med hundratals eller tusentals potentiella deltagare, till exempel ett kommunfullmäktige, en förening, ett universitet, en frivilligorganisation, ett fackförbund, ett grannkollektiv, eller ett kooperativ...</p><p>Tack vare Decidim kommer du att kunna konfigurera mellanslag för deltagande (initiativ, församlingar, processer eller konsultationer) och berika dem genom flera tillgängliga komponenter (ansikte mot ansikte möten, undersökningar, förslag, röstning, uppföljning av resultat, kommentarer och många fler).</p>"
+    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
       feature1:
-        subtitle: att demokratisera gemensamma frågor, steg för steg
+        subtitle: To democratize common issues, step by step
         text: 'Processer är ett utrymme som gör det möjligt att skapa, aktivera/inaktivera och hantera olika deltagarprocesser. Dessa skiljer sig från andra utrymmen genom att vara strukturerade i olika faser där alla komponenter kan införlivas. Exempel på deltagandeprocesser är: en valprocess för medlemmar i en kommitté, deltagande budgetering, en strategisk planeringsprocess, samverkande skrivning av en förordning eller norm, utformning av ett stadsrum eller utformning av en offentlig politisk plan.'
         title: Dialoger
       feature10:
-        subtitle: att analysera, syntetisera och bygga gemensamt
-        text: Komponent för deltagande texter kan användas för att omvandla långa textdokument till olika förslag eller resultat och, vice versa, att komponera och visa en enhetlig text baserad på en samling förslag eller resultat.
+        subtitle: To analyze, synthesize, and build in common
+        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
         title: Deltagartexter
       feature11:
         subtitle: Där stora evenemang har premiär
-        text: Konferenskomponenten gör det möjligt för en organisation att skapa en webbplats för ett stort evenemang genom att gå med i en serie fördefinierade möten (chattar, workshops etc. , sätta ihop ett enhetligt program och hantera deltagare.
+        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
         title: Konferens
       feature12:
         subtitle: Eftersom åsikten i din gemenskap är viktig
-        text: Enkäternas komponent kan användas för att utforma och publicera enkäter samt för att visa och ladda ner resultaten.
+        text: Design and publish surveys. Display and download results.
         title: Undersökningar
       feature13:
         subtitle: Jämlikhet och rättvisa slumpmässighet
-        text: Tilldelningskomponenten gör det möjligt att välja ett antal förslag (t.ex. kandidater för en jury) med slumpmässiga, men reproducerbara, förfaranden som garanterar icke-partisk och enhetlig fördelning.
+        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
         title: Tilldelning
       feature14:
         subtitle: Att bygga en kollektiv intelligens
-        text: Komponenten kommentarer gör det möjligt för användare att lägga till kommentarer, för att identifiera kommentaren som favorit, mot eller neutralt i förhållande till det kommenterade objektet, att rösta kommentarer, svara på dem och att få meddelanden om svar.
+        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
         title: Kommentarer
       feature15:
         subtitle: Din gemenskap, informerad och uppdaterad
-        text: Sidornas komponent används för att skapa informativa sidor med textformatering, inbäddade bilder och videor. Bloggen komponenten gör det möjligt att skapa inlägg eller nyheter, och att navigera dem kronologiskt.
+        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
         title: Sidor och bloggar
       feature16:
-        subtitle: Personlig information om intressant innehåll
-        text: Decidim gör att du kan spåra utrymme eller komponent för att få uppdateringar varje gång de inträffar.
+        subtitle: Personalised information on interesting content
+        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
         title: Notiser
       feature17:
         subtitle: Enkel men kraftfull
-        text: Nyhetsbrevet komponenten gör det möjligt att skicka e-post till alla registrerade i plattformen eller, mer selektivt, till dem som deltar i ett visst utrymme.
+        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
         title: Nyhetsbrev
       feature2:
-        subtitle: kraften i kollektiv självorganisering
-        text: 'Är ett utrymme som erbjuder möjligheten att inrätta beslutande organ eller grupper (råd, arbetsgrupper, kommittéer etc. som träffas med jämna mellanrum, beskriver deras sammansättning, notering och geolocating deras möten, och tillåta att delta i dem (till exempel: delta om sittande kapacitet och karaktär av monteringen så tillåter, lägga till punkter på dagordningen, eller kommentera de förslag och beslut som fattats av detta organ).'
+        subtitle: The power of collective self-organization
+        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
         title: Grupper
       feature3:
-        subtitle: rätten att fatta beslut med alla demokratiska garantier
-        text: Samråd är ett utrymme som gör det möjligt att samordna folkomröstningar, utlösa diskussioner och debatter, få omröstningsresultat publicerade, den kan anslutas till ett säkert e-röstningssystem.
-        title: Samråd
+        subtitle: The right to decide with all democratic guarantees
+        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
+        title: Votings
       feature4:
-        subtitle: fastställa allas dagordning, inom allas räckvidd
-        text: Initiativ är ett utrymme som gör det möjligt för deltagarna att samarbeta skapa initiativ, definiera deras bana och mål, samla stöd, diskutera, debattera och sprida initiativ och definiera mötesplatser där underskrifter kan samlas in från deltagare eller debatter som öppnas för andra medlemmar i organisationen.
+        subtitle: Setting everyone's agenda, within everyone's reach
+        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
         title: Initiativ
       feature5:
-        subtitle: dina idéer i detalj
-        text: Komponenten förslag gör det möjligt för användaren att skapa ett förslag med hjälp av en skaparguide, jämföra det med de befintliga, publicera den på plattformen och inkludera ytterligare information såsom geolocation eller bifogade dokument och bilder. Denna komponent låter dig också navigera, filtrera och interagera med en uppsättning förslag. Dessutom kan du med den förslags-inkubator skapa samarbetsförslag.
+        subtitle: Your ideas in detail
+        text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Förslag
       feature6:
-        subtitle: bestäm din röst
-        text: 'Röstkomponenten ger organisationer möjlighet att aktivera olika röstnings- eller stödsystem kring förslag: obegränsat, begränsat till en given tröskel, viktad, kostnadsbaserad, etc.'
+        subtitle: Decide your choice
+        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Omröstning
       feature7:
-        subtitle: inget förslag utan svar
-        text: Resultatkomponenten används för att omvandla förslag till resultat och ge officiella svar på deras godkännande eller avslag. slå samman olika förslag till ett enda resultat.
+        subtitle: No proposal without an answer
+        text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Resultat
       feature8:
-        subtitle: transparens från början till slut
-        text: Ansvarskomponenten ger möjlighet att dela in resultat i projekt, definiera och tillämpa framstegsstatus kring genomförandet, samt visa omfattningen av resultatens genomförande grupperat efter kategorier och omfattning.
+        subtitle: End-to-end transparency
+        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Ansvarsskyldighet
       feature9:
-        subtitle: att träffas och inte missa något
+        subtitle: To meet and not miss anything
         text: Möteskomponenten ger organisationer och deltagare möjlighet att sammankalla möten, bestämma var de befinner sig och tid, registrera och begränsa deltagare, definiera strukturen och innehållet i mötet samt publicera protokollen och de resulterande förslagen.
         title: Möten
     subtitle: For democratic organizations and collectives of any size and kind.
@@ -296,16 +299,16 @@ sv:
     type3:
       cta: Explore the modules
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
-      title: Modules
+      title: Moduler
   first-steps:
     first-steps1:
       content: You can install it yourself or find someone to help you with tech support.
-      link1: Documentation
+      link1: Dokumentation
       pre: For technologists
       title: Installing Decidim
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
-      link1: Features
+      link1: Funktioner
       pre: For organizations
       title: The right tool for you
     first-steps3:
@@ -353,21 +356,21 @@ sv:
         title: It's yours. Use it. Share it. Improve it.
     hero:
       cta: Get started
-      intro: Fri och säker teknik.<br/>Med alla demokratiska garantier.<br/>Omprogrammering av demokrati är nu möjligt med Decidim.
-      subheading: Decidim är en digital plattform<br/>för medborgare delaktighet
+      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
+      subheading: Decidim is a digital platform for citizen participation
     subhero:
       cta: Explore all features
-      feature1: Strategisk<br/>planering
-      feature2: Deltagare<br/>budgetering
-      feature3: Initiativ och<br/>medborgare samråd
-      feature4: Deltagande<br/>processer
-      feature5: Grupper
-      feature6: Nätverk<br/>kommunikation
+      feature1: Strategic planning
+      feature2: Dialoger
+      feature3: Grupper
+      feature4: Initiatives and citizen consultations
+      feature5: Participatory budgeting
+      feature6: Networked communication
       intro: Decidim hjälper medborgare, organisationer och offentliga institutioner att organisera sig demokratiskt i alla skalor.
     used_by:
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
-      title: De använder redan Decidim
+      title: Already using Decidim
   legal-notice:
     section-1:
       paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -399,14 +402,14 @@ sv:
     title: Legal notice
   modules:
     auth: Authorization
-    community: Community
+    community: Gemenskap
     cta: Learn how
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
     more_info: More information
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-    title: Modules
+    title: Moduler
   nav:
     about: About
     association: Association
@@ -427,7 +430,7 @@ sv:
     legal-notice: Legal notice
     menu: Menu
     modules: Moduler
-    partners: Samarbete mellan enheter
+    partners: Partners
     partnership-policy: Partnership policy
     press: Tryck
     privacy-policy: Privacy policy
@@ -438,7 +441,7 @@ sv:
   newsletter:
     past: Past newsletters
     subtitle: News and updates about the Decidim platform and the community.
-    title: Newsletter
+    title: Nyhetsbrev
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
@@ -463,7 +466,7 @@ sv:
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
     title: Partnership policy
-  path: "/sv"
+  path: '/sv'
   press:
     highlights: Media highlights
     kit: Press kit
@@ -489,7 +492,7 @@ sv:
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
-    title: Press
+    title: Tryck
   privacy-policy:
     section-1:
       paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
@@ -586,4 +589,4 @@ sv:
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
-    title: Decidim in use
+    title: Decidim används
