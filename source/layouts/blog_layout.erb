@@ -9,7 +9,12 @@
       <div class="par-md text-gray-500 flex">
         <time><%= current_article.date.strftime('%d/%m/%Y') %></time>
         <% if current_article.tags.present? && current_article.tags.length > 0 %>
-        &nbsp;&mdash;&nbsp;<span class="inline-block first-letter:uppercase"><%= current_article.tags.join(", ") %></span>
+          &nbsp;&mdash;&nbsp;
+          <span class="inline-block first-letter:uppercase">
+            <% current_article.tags.each_with_index do |tag, index| %>
+              <%= link_to "#{tag}", tag_path(tag) %> <%= "- " unless index+1 == current_article.tags.length %>
+            <% end %>
+          </span>
         <% end %>
       </div>
     </div>
