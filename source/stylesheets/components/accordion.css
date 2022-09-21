@@ -1,0 +1,13 @@
+details[open]:not(.no-animate) summary {
+  svg:not(.no-toggle) {
+    @apply animate-fade-out;
+  }
+
+  svg:not(.no-toggle) + svg:not(.no-toggle) {
+    @apply animate-fade-in;
+  }
+
+  ~ * {
+    @apply pointer-events-auto translate-y-0 opacity-100 max-h-max;
+  }
+}

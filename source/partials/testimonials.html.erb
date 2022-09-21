@@ -1,0 +1,32 @@
+<% bg=[ "bg-red-500", "bg-black" , "bg-gray-100" ] %>
+<% text=[ "text-white", "text-white" , "text-black" ] %>
+<% columns=[ "col-start-2 col-span-4" , "col-start-4 col-span-3" , "col-start-1 col-span-3" ] %>
+<% rows=[ "row-start-1" , "row-start-2" , "row-start-2" ] %>
+<% testimonials = data.testimonials.sample(3) %>
+<section>
+  <div class="container pt-8 pb-12 md:py-24 md:grid grid-cols-6 gap-6 items-start" data-tabs="testimonials">
+    <% testimonials&.each_with_index do |f, i| %>
+      <div class="hidden flex flex-col md:block <%= columns[i] %> <%= rows[i] %> <%= 'md:-mt-24' if i == 1 %> <%= 'is-selected' if i == 0 %>" data-tab-content="<%= i %>">
+        <blockquote class="p-8 par-md rounded-t-xl rounded-br-xl <%= bg[i] %> <%= text[i] %>">
+          <%= t("testimonials.#{f.id}.quote") %>
+        </blockquote>
+        <div class="flex items-start mt-6 space-x-4 <%= 'md:w-1/2' if i == 0 %>">
+          <img class="w-16 h-16 rounded-xl" src="<%= f.image %>" alt="<%= f.name %>">
+          <cite class="not-italic">
+            <span class="block font-bold">
+              <%= f.name %>
+            </span>
+            <span class="block text-gray-500">
+              <%= t("testimonials.#{f.id}.org") %>
+            </span>
+          </cite>
+        </div>
+      </div>
+    <% end %>
+    <ul role="tablist" class="flex md:hidden space-x-3 mt-8 md:mt-0">
+      <% testimonials&.each_with_index do |feat, i| %>
+        <li role="tab" tabindex="0" class="h-2 w-10 bg-gray-300 rounded-xl cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= i %>" data-tab-mobile></li>
+      <% end %>
+    </ul>
+  </div>
+</section>

@@ -3,27 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#e52d2e">
     <title><%= page_title current_page %></title>
-    <%= stylesheet_link_tag "site" %>
+    <%= stylesheet_link_tag "tailwind" %>
     <link rel="icon" type="image/png" href="/images/favicon.png">
   </head>
-  <body class="<%= current_page.data.pageClass || "" %>">
-    <%# partial "partials/alert" %>
-    <%# partial "partials/alert--expanded" %>
-    <%= partial "partials/topbar" %>
-    <main class="main">
+  <body class="text-defaults scroll-smooth <%= current_page.data.pageClass || "" %>">
+
+    <%= partial "partials/header" %>
+
+    <main>
       <%= yield %>
     </main>
+
     <%= partial "partials/footer" %>
-    <%= javascript_include_tag "display-topbar", :async => "async" %>
-    <%= javascript_include_tag "nav-toggle", :async => "async" %>
-    <%= javascript_include_tag "closest-polyfill", :async => "async" %>
-    <%= javascript_include_tag "lang-toggle", :async => "async" %>
-    <%= javascript_include_tag "image-switch", :async => "async" %>
-    <%= javascript_include_tag "play-video", :async => "async" %>
-    <%= javascript_include_tag "paginate-blog", :async => "async" %>
+
+    <%= javascript_include_tag "header", :async => "async" %>
+    <%= javascript_include_tag "tabs", :async => "async" %>
+    <%= javascript_include_tag "filter-by-content", :async => "async" %>
+    <%= javascript_include_tag "accordion", :async => "async" %>
   </body>
 </html>

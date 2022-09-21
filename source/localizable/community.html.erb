@@ -3,23 +3,48 @@ nav: community
 description:
 ---
 
-<div class="container container-vertical">
-  <h1 class="page-title page-title--nomargin"><%= t('community.title') %></h1>
-  <h2 class="page-subtitle"><%= t('community.subtitle') %></h2>
-  <div class="page-intro">
-    <p><%= t('community.intro') %></p>
-    <a href="https://meta.decidim.org/" class="btn btn--primary"><%= t('community.cta') %></a>
-  </div>
-</div>
+<section>
+  <div class="container pt-6 pb-12 md:pt-24 md:pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("community.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("community.subtitle") %>
+      </p>
+      <div class="par-md text-gray-500">
+        <%= t("community.intro") %>
+      </div>
+    </div>
 
-<%= partial "/partials/community-process" %>
+    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 py-3 mt-16">
+      <%= partial "partials/cta-bare", locals: { classes: "text-red-500", text: t("community.cta"), url: "https://meta.decidim.org/" } %>
+    </div>
+  </div>
+</section>
 
-<div class="container container-vertical">
-  <div class="feature-list">
-    <%= partial "/partials/community-item", locals: {type: "features", url: "https://meta.decidim.org/processes/roadmap"} %>
-    <%= partial "/partials/community-item", locals: {type: "bug", url: "https://meta.decidim.org/processes/bug-report"} %>
+<section class="bg-red-100 md:bg-white">
+  <div class="container py-12 flex flex-col md:flex-row gap-y-6 md:gap-y-0 justify-between items-stretch">
+    <% data.community.each do |community| %>
+      <div class="flex md:flex-col gap-x-7 items-center md:items-start md:gap-x-0 md:border-l-8 border-gray-100 md:px-10 md:w-1/3">
+        <%= icon community.icon, class: "w-8 h-8 flex-none text-red-500" %>
+        <h5 class="h5 md:mt-8 text-red-500 md:text-black"><%= t("community.#{community.title}") %></h5>
+      </div>
+    <% end %>
   </div>
-  <div class="community__team">
-    <img src="/images/community-picture.jpg" alt="<%= t('community.img_alt') %>" />
+</section>
+
+<section>
+  <div class="md:container mb-12 md:my-24">
+    <figure>
+      <div class="md:rounded-xl overflow-hidden bg-gray-300">
+        <img class="w-full h-full object-cover" src="/images/community-picture.jpg" alt="community-picture">
+      </div>
+      <figcaption class="par-xs text-center md:text-right text-gray-500 mt-4"><%= t("community.figcaption") %></figcaption>
+    </figure>
   </div>
-</div>
+</section>
+
+<%= partial "/partials/faq" %>
+
+<%= partial "/partials/cta-banner" %>

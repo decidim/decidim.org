@@ -2,10 +2,19 @@
 pageable: true
 per_page: 10
 ---
-<div class="blog container container-vertical-top">
-  <h1>Articles by tag "<%= tagname %>"</h1>
-  <% page_articles.each_with_index do |article| %>
-    <%= partial "partials/article_preview", locals: {article: article} %>
-  <% end %>
-  <button id="paginate-control" class="btn btn--primary paginate-control is-paginate-control-hidden">Load more</button>
+<div class="container py-24">
+  <div class="md:w-3/5">
+    <h1 class="h1 md:whitespace-nowrap"><%= t("blog.title") %></h1>
+    <p class="par-xl text-gray-500">
+      <%= t("blog.tags.title") %> <%= tagname %>
+    </p>
+  </div>
+
+  <div class="divide-y-4 divide-gray-100 mt-16">
+    <% page_articles.each_with_index do |article| %>
+      <article class="py-6 md:py-12 md:w-3/5">
+        <%= partial "partials/article_preview", locals: {article: article} %>
+      </article>
+    <% end %>
+  </div>
 </div>

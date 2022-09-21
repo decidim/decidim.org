@@ -2,15 +2,40 @@
 nav: faqs
 description:
 ---
-<div class="container container-vertical">
-  <h1 class="page-title"><%= t('faqs.title') %></h1>
 
-  <div class="partner__container container--text-col">
-    <% (01..24).each do |n| %>
-      <dl class="faqs">
-        <dt><%= t("faqs.q#{"%02d" % n}.question") %></dt>
-        <dd><%= markdown(t("faqs.q#{"%02d" % n}.answer")) %></dd>
-      </dl>
-    <% end %>
+<section>
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("faqs.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("faqs.subtitle") %>
+      </p>
+    </div>
   </div>
-</div>
+</section>
+
+<section>
+  <div class="container pt-6 pb-12 md:pt-16 md:pb-32 space-y-16">
+  <% data.faqs.types.each do |type| %>
+    <% questions = t("faqs.questions").select {|_key, question| question[:type] == type } %>
+    <% if questions.length > 0 %>
+      <div class="space-y-4">
+        <div class="flex items-end space-x-2">
+          <h6 class="h6 bg-black text-white px-4 py-2 rounded-xl"><%= t("faqs.types.#{type}") %></h6>
+          <span class="w-4 h-4 rounded-full bg-black"></span>
+        </div>
+
+        <div class="mt-4 space-y-4" data-accordion="faqs">
+          <% questions.each do |key, item| %>
+            <%= partial "partials/faq-item", locals: { item: item, classes: "bg-gray-100" } %>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+  </div>
+</section>
+
+<%= partial "/partials/cta-banner" %>

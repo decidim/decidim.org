@@ -1,0 +1,18 @@
+<section class="bg-gray-100">
+  <div class="container py-12 md:py-32">
+    <div class="flex items-end space-x-2">
+      <h6 class="h6 text-white bg-red-500 px-4 py-2 rounded-xl"><%= t("faqs.title") %></h6>
+      <span class="w-4 h-4 rounded-full bg-red-500"></span>
+    </div>
+
+    <div class="mt-4 space-y-4" data-accordion="faqs">
+      <% t("faqs.questions").to_a.sample(4).each do |_key, item| %>
+        <%= partial "partials/faq-item", locals: { item: item, classes: "bg-white" } %>
+      <% end %>
+    </div>
+
+    <div class="mt-4 par-md">
+      <%= partial "partials/arrow-link", locals: { text: t("faqs.cta"), url: "#{t(:path)}/faqs", classes: "text-gray-500" } %>
+    </div>
+  </div>
+</section>

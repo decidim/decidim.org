@@ -1,0 +1,49 @@
+.text-defaults {
+  @apply font-sans font-normal text-[16px];
+}
+
+/* headings */
+.h1 {
+  @apply font-semibold text-[32px] md:text-[60px] leading-[38px] md:leading-[60px];
+}
+
+.h2 {
+  @apply font-semibold text-[32px] md:text-[48px] leading-[38px] md:leading-[50px];
+}
+
+.h3 {
+  @apply font-semibold text-[24px] md:text-[36px] leading-[28px] md:leading-[40px];
+}
+
+.h4 {
+  @apply font-semibold text-[20px] md:text-[32px] leading-[24px] md:leading-[38px];
+}
+
+.h5 {
+  @apply font-semibold text-[20px] md:text-[24px] leading-[24px] md:leading-[28px];
+}
+
+.h6 {
+  @apply font-semibold text-[20px] leading-[24px];
+}
+
+/* paragraphs */
+.par-xl {
+  @apply text-[24px] leading-[32px] md:text-[48px] md:leading-[54px] md:font-light;
+}
+
+.par-lg {
+  @apply text-[24px] leading-[32px];
+}
+
+.par-md {
+  @apply text-[20px] leading-[28px];
+}
+
+.par-sm {
+  @apply text-[16px] leading-[22px];
+}
+
+.par-xs {
+  @apply text-[14px] leading-[20px];
+}

@@ -5,3 +5,11 @@
 build/
 tmp/
 .byebug_history
+cache/
+source/stylesheets/tailwind.css
+node_modules/
+
+# Ignore rubocop rules from decidim
+.rubocop-https---raw-githubusercontent-com-decidim-decidim-*
+
+spec/examples.txt

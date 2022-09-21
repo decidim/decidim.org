@@ -2,11 +2,19 @@
 nav: blog
 ---
 
-<div class="blog container container-vertical-top">
-  <div class="container--text-col">
+<div class="container py-24">
+  <div class="md:w-3/5">
+    <h1 class="h1 md:whitespace-nowrap"><%= t("blog.title") %></h1>
+    <p class="par-xl text-gray-500">
+      <%= t("blog.subtitle") %>
+    </p>
+  </div>
+
+  <div class="divide-y-4 divide-gray-100 mt-16">
     <% blog.articles.each do |article| %>
-      <%= partial "partials/article_preview", locals: {article: article} %>
+      <article class="py-6 md:py-12 md:w-3/5">
+        <%= partial "partials/article_preview", locals: {article: article} %>
+      </article>
     <% end %>
-    <button id="paginate-control" class="btn btn--primary paginate-control is-paginate-control-hidden">Load more</button>
   </div>
 </div>

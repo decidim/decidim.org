@@ -1,6 +1,5 @@
 ---
 title: Not with Decidim (support)
-date: 2019-12-20T15:01:47.276Z
 ---
 
 * [Veure post a Català](/blog/2019-12-20-not-with-decidim-support/#cat)

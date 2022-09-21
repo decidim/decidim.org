@@ -1,6 +1,5 @@
 ---
 title: "DECIDIMFEM DEV PROGRAMME 3: Developers grants are back "
-date: 2021-10-19T22:54:53.379Z
 ---
 * [Ver post en Castellano](https://decidim.org/blog/2021-10-19-decidimfem-dev-programme-3-developers-grants-are-back/#cast)
 

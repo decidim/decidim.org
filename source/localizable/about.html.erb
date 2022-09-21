@@ -1,0 +1,72 @@
+---
+nav: about
+description:
+---
+
+<section>
+  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("about.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("about.subtitle") %>
+      </p>
+      <p class="par-md text-gray-500">
+        <%= t("about.intro") %>
+      </p>
+    </div>
+
+    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-12 md:mt-16">
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-hand-heart-line", text: t("about.about")[0], url: "#{t(:path)}/about#support" } %>
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-mail-line", text: t("about.about")[1], url: "#{t(:path)}/contact" } %>
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-team-line", text: t("about.about")[2], url: "https://meta.decidim.org" } %>
+      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-newspaper-line", text: t("about.about")[3], url: "#{t(:path)}/press" } %>
+    </div>
+  </div>
+</section>
+
+<section class="bg-red-100">
+  <div class="py-12 md:pt-16 md:pb-20 overflow-hidden">
+    <div class="container text-red-500">
+      <h6 class="h6"><%= t("about.values_title") %></h6>
+      <div class="par-xl mt-2"><%= t("about.values_intro") %></div>
+      <a class="block par-md mt-4 underline" href="<%= t(:path) %>/contract"><%= t("about.values_cta") %></a>
+    </div>
+    <div class="mt-12 md:mt-16 w-screen space-y-4 md:space-y-6 overflow-hidden">
+      <% texts = t("about.values").map {|_k,v| v} %>
+      <% if texts.length > 0 %>
+        <% chunks = texts.each_slice((texts.length / 2) + 1).to_a %>
+        <% chunk0 = (chunks[0] * 4) + chunks[0].take(2) %>
+        <% chunk1 = (chunks[1] * 4) + chunks[1].take(2) %>
+        <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1770px">
+          <% chunk0.each do |value| %>
+            <div class="inline-block text-red-500 par-lg p-6 border border-red-500 rounded-xl whitespace-nowrap"><%= value %></div>
+          <% end %>
+        </div>
+        <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1475px)">
+          <% chunk1.each do |value| %>
+            <div class="inline-block text-red-500 par-lg p-6 border border-red-500 rounded-xl whitespace-nowrap"><%= value %></div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container py-12 md:py-32" id="support">
+    <div class="space-y-6 md:w-3/4">
+      <h3 class="h3"><%= t("about.support_title") %></h3>
+      <p class="par-lg text-gray-500"><%= t("about.support_subtitle") %></p>
+      <p class="par-md text-gray-500"><%= t("about.support_intro") %></p>
+      <a class="par-md inline-block button" href="https://opencollective.com/decidim">
+        <%= t("about.support_at_opencollective") %>
+      </a>
+    </div>
+  </div>
+</section>
+
+<%= partial "/partials/faq" %>
+
+<%= partial "/partials/cta-banner" %>

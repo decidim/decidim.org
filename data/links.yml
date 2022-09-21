@@ -1,0 +1,93 @@
+decidim:
+  - name: nav.first-steps
+    url: /first-steps
+  - name: nav.features
+    url: /features
+  - name: nav.use-cases
+    url: /tags/casestudy
+  - name: nav.demo
+    url: https://try.decidim.org/
+  - name: nav.modules
+    url: /modules
+  - name: nav.docs.title
+    url: https://docs.decidim.org/
+  - name: nav.code
+    url: https://github.com/decidim/decidim
+
+about_us:
+  - name: nav.association
+    url: /about
+  - name: nav.community
+    url: /community
+  - name: nav.contract
+    url: /contract
+  - name: nav.partners
+    url: /partners
+  - name: nav.faqs
+    url: /faqs
+  - name: nav.press
+    url: /press
+  - name: nav.contact
+    url: /contact
+
+stay_up_to_date:
+  - name: nav.blog
+    url: /blog
+
+legal:
+  - name: nav.legal-notice
+    url: /legal-notice
+  - name: nav.privacy-policy
+    url: /privacy-policy
+  - name: nav.trademark
+    url: /trademark-policy
+
+social_media:
+  - name: Twitter
+    icon: ri-twitter-fill
+    url: https://twitter.com/decidim_org
+    footer: true
+  - name: Telegram
+    icon: ri-telegram-fill
+    url: https://t.me/s/decidim
+    footer: true
+  - name: Matrix
+    icon: ri-markdown-fill
+    url: https://matrix.to/#/#decidim:matrix.org
+    footer: true
+  - name: Mastodon
+    icon: ri-mastodon-fill
+    url:  https://freeradical.zone/@decidim
+    footer: false
+  - name: YouTube
+    icon: ri-youtube-fill
+    url: https://www.youtube.com/channel/UCbxXpC5MmKImcGFzUJxdAUw
+    footer: true
+  - name: Instagram
+    icon: ri-instagram-fill
+    url: https://www.instagram.com/decidim_org/
+    footer: true
+  - name: Linkedin
+    icon: ri-linkedin-fill
+    url: https://gt.linkedin.com/company/decidim/
+    footer: false
+  - name: GitHub
+    icon: ri-github-fill
+    url: https://github.com/decidim/decidim
+    footer: false
+  - name: OpenCollective
+    icon: ri-donut-chart-fill
+    url: https://opencollective.com/decidim
+    footer: true
+  - name: Spotify
+    icon: ri-spotify-fill
+    url: https://open.spotify.com/show/1Cf4HJkv3M3SYanO8iEE1t
+    footer: false
+  - name: iVoox
+    icon: ri-information-fill
+    url: https://www.ivoox.com/en/podcast-radio-decidim_sq_f1990276_1.html
+    footer: false
+  - name: XRCB
+    icon: ri-close-fill
+    url: https://xrcb.cat/ca/radio/radio-decidim/
+    footer: true
