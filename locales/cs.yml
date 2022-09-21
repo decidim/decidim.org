@@ -1,11 +1,14 @@
----
 cs:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
-    about: '["Support us", "Contact us", "Our assembly", "Press"]'
+    about:
+      - Support us
+      - Contact us
+      - Our assembly
+      - Pro média
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
@@ -33,11 +36,11 @@ cs:
     read_more: Read more
     subtitle: Latest news from Decidim.
     tags:
-      title: Articles tagged with %{tagname}
+      title: Articles tagged with
     title: Blog
   case_study:
     n1:
-      org: City of Helsinki
+      org: Město Helsinki
       quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
     n2:
       org: Code for Japan
@@ -49,7 +52,7 @@ cs:
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
-    cta: Začněte
+    cta: Go to Metadecidim
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Fotografie komunity Decidim na Metadecidim setkání v roce 2016
     intro: Metadecidim je komunita, která spolupracuje na návrhu platformy a výstavbě projektu. Společně můžeme navrhnout a vyvinout nové funkce a nahlásit chyby pro trvalé zlepšování platformy.
@@ -61,11 +64,11 @@ cs:
     message: Zpráva
     name: Jméno
     privacy_policy:
-      accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
-      message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Odeslat
+      accept: Přijímám <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a>
+      message: "<p>Když nás lidé kontaktují kontaktním formulářem, e-mailem nebo podobným komunikačním prostředkem, budeme automaticky shromažďovat následující informace: jméno, entita, e-mailová adresa a obsah zprávy uživatele pro účast na vašich komentářích, žádostech, návrzích atd.</p> <p>Kromě toho můžeme zpracovat tato data pro statistické studie pomocí pseudonymizace a dokonce i anonymizačních technik, jako je agregace údajů, které brání tomuto následnému zpracování v identifikaci jednotlivých uživatelů.</p>"
+    send: Send message
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Kontaktujte nás
+    title: Contact Decidim
   demo:
     button: Online demo
     p1: Zkoušejte a prozkoumejte zdarma platformu Decidim s naším online demo.
@@ -207,7 +210,7 @@ cs:
         question: What does it mean that Decidim is for free, "libre" and open source?
         type: install
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
-    title: Často kladené otázky
+    title: Časté dotazy
     types:
       about: About Decidim
       association: Association
@@ -217,74 +220,74 @@ cs:
       installation: Installation and license
       users: Users and roles
   features:
-    intro: "<p>Můžete použít Decidim ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, sdružení, univerzita, nevládní organizace, odborový svaz, spolek, nebo družstvo...</p><p>Díky Decidim budete moci nakonfigurovat prostory pro účast (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných doplňků (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).</p>"
+    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
       feature1:
-        subtitle: demokratizovat společné problémy, krok za krokem
+        subtitle: To democratize common issues, step by step
         text: 'Proces je prostor, který umožňuje vytvářet, aktivovat/deaktivovat a spravovat různé participativní procesy. Rozlišují se od ostatních prostor tím, že jsou strukturovány v různých fázích, do nichž mohou být začleněny všechny součásti. Příklady participačních procesů jsou: volební proces pro členy výboru, participativní sestavování rozpočtu, proces strategického plánování, společné vypracování nařízení nebo normy, návrh městského prostoru nebo vypracování plánu veřejné politiky.'
         title: Participační procesy
       feature10:
-        subtitle: analyzovat, syntetizovat a společně budovat
-        text: Komponenta Participativní texty lze použít k převodu zdlouhavých textových dokumentů na různé návrhy nebo výsledky a naopak, vytvořit a zobrazit jednotný text založený na souboru návrhů nebo výsledků.
+        subtitle: To analyze, synthesize, and build in common
+        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
         title: Texty participace
       feature11:
         subtitle: Kde jsou velké události poprvé představeny
-        text: Komponenta Konference umožňuje organizaci vytvořit webové stránky pro velkou událost připojením se k sérii předem definovaných schůzek (chaty, workshopy atd.), sestavování sjednoceného programu a řízení účastníků.
+        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
         title: Konference
       feature12:
         subtitle: Protože na názoru vaší komunity záleží
-        text: Komponentu Průzkumy lze použít k navrhování a publikování průzkumů a k zobrazení a stažení jejich výsledků.
+        text: Design and publish surveys. Display and download results.
         title: Průzkumy
       feature13:
         subtitle: Rovnost a spravedlnost náhodnosti
-        text: Komponenta pro Losování umožňuje vybrat několik návrhů (např. zájemci o účast v porotě) s náhodnými, avšak reprodukovatelnými postupy, které zaručují nestranné a jednotné rozdělování.
+        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
         title: Losování
       feature14:
         subtitle: Budování kolektivní inteligence
-        text: Komponenta komentářů umožňuje uživatelům přidávat komentáře, označit komentář jako oblíbený, proti připomínkám nebo neutrální v souvislosti s nimi, hlasovat o připomínkách, reagovat na ně a přijímat oznámení o odpovědích.
+        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
         title: Komentáře
       feature15:
         subtitle: Vaše komunita, informovaná a aktuální
-        text: Komponenta Stránky se používá k vytváření informativních stránek s bohatým formátováním textu, vloženými obrázky a videi. Komponenta blogu umožňuje tvorbu příspěvků nebo zpráv a jejich navigaci chronologicky.
+        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
         title: Stránky a blogy
       feature16:
-        subtitle: Osobní informace o zajímavém obsahu
-        text: Decidim vám umožňuje sledovat každý prostor nebo komponentu, abyste mohli dostávat aktualizace pokaždé, když se tak stane.
+        subtitle: Personalised information on interesting content
+        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
         title: Oznámení
       feature17:
         subtitle: Jednoduchý, ale výkonný
-        text: Komponenta Zpravodaje umožňuje posílat e-maily všem registrovaným na platformě nebo selektivněji těm, kteří se účastní určitého prostoru.
+        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
         title: Zpravodaj
       feature2:
-        subtitle: pravomoci kolektivní organizace
-        text: Je prostor, který nabízí možnost ustavit rozhodovací orgány nebo skupiny (rady, pracovní skupiny, výbory atd.) které se pravidelně scházejí s podrobnými údaji o složení, seznamu a místě svých zasedání, a umožňují jejich účast (například účast, pokud to dovoluje kapacita míst a povaha shromáždění, doplnění bodů na pořad jednání nebo připomínky k návrhům a rozhodnutím přijatým tímto orgánem).
+        subtitle: The power of collective self-organization
+        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
         title: Shromáždění
       feature3:
-        subtitle: právo rozhodovat se všemi demokratickými zárukami
-        text: Konzultace jsou prostorem, který umožňuje koordinovat referenda, rozpoutat diskuse a debaty, zveřejňovat výsledky hlasování; může být připojen k zabezpečenému systému elektronického hlasování.
-        title: Konzultace
+        subtitle: The right to decide with all democratic guarantees
+        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
+        title: Votings
       feature4:
-        subtitle: nastavení agendy pro všechny, v dosahu všech
-        text: Iniciativy jsou prostorem, který účastníkům umožňuje společně vytvářet iniciativy, definovat jejich trajektorii a cíle, shromažďovat schválení, diskutovat, debatovat a šířit iniciativy a vymezovat místa zasedání, kde mohou být podpisy shromažďovány od účastníků nebo diskusí, které byly otevřeny ostatním členům organizace.
+        subtitle: Setting everyone's agenda, within everyone's reach
+        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
         title: Iniciativy
       feature5:
-        subtitle: vaše nápady podrobně
-        text: Komponenta návrhů umožňuje uživateli vytvořit návrh pomocí průvodce vytvořením a porovnat jej s existujícími, zveřejňuje jej na platformě a obsahuje další informace, jako je geolokace nebo přiložené dokumenty a obrázky. Tato komponenta vám také umožňuje navigovat, filtrovat a komunikovat se souborem návrhů. Kromě toho můžete s navrhovaným inkubátorem vytvořit společné návrhy.
+        subtitle: Your ideas in detail
+        text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Návrhy
       feature6:
-        subtitle: rozhodne váš hlas
-        text: 'Komponenta Hlasování nabízí organizacím možnost aktivovat různé hlasovací nebo podpůrné systémy kolem návrhů: neomezené, omezené na určitou prahovou hodnotu, vážené, zaměřené na náklady atd.'
+        subtitle: Decide your choice
+        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Hlasování
       feature7:
-        subtitle: žádný návrh nezůstane bez odpovědi
-        text: Komponenta Výsledky se používají k přeměně návrhů na výsledky a k oficiálním odpovědím týkajícím se jejich přijetí nebo odmítnutí, sloučení různých návrhů do jediného výsledku.
+        subtitle: No proposal without an answer
+        text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Výsledky
       feature8:
-        subtitle: transparentnost od začátku do konce
-        text: Komponenta Odpovědnosti nabízí možnost rozdělení výsledků na projekty, definování a uplatňování stavů pokroku při jejich provádění, a rovněž zobrazování rozsahu provádění výsledků seskupených podle kategorií a oblastí působnosti.
+        subtitle: End-to-end transparency
+        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Odpovědnost
       feature9:
-        subtitle: potkat se a nenechat si nic ujít
+        subtitle: To meet and not miss anything
         text: Komponenta Schůzky nabízí organizacím a účastníkům možnost svolat zasedání, určit jejich polohu a čas, zaregistrují a omezují účastníky, definují strukturu a obsah zasedání, jakož i zveřejňují zápisy a výsledné návrhy.
         title: Zasedání
     subtitle: For democratic organizations and collectives of any size and kind.
@@ -296,16 +299,16 @@ cs:
     type3:
       cta: Explore the modules
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
-      title: Modules
+      title: Moduly
   first-steps:
     first-steps1:
       content: You can install it yourself or find someone to help you with tech support.
-      link1: Documentation
+      link1: Dokumentace
       pre: For technologists
       title: Installing Decidim
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
-      link1: Features
+      link1: Vlastnosti
       pre: For organizations
       title: The right tool for you
     first-steps3:
@@ -353,21 +356,21 @@ cs:
         title: It's yours. Use it. Share it. Improve it.
     hero:
       cta: Get started
-      intro: Dostupná a bezpečná technologie.<br/>Se všemi demokratickými zárukami.<br/>Přeprogramování demokracie je nyní možné s Decidim.
-      subheading: Decidim je digitální platforma<br/>pro participaci občanů
+      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
+      subheading: Decidim is a digital platform for citizen participation
     subhero:
       cta: Explore all features
-      feature1: Strategické<br/>plánování
-      feature2: Účastnické<br/>sestavování rozpočtu
-      feature3: Iniciativy a<br/>konzultace občanů
-      feature4: Účastnické<br/>procesy
-      feature5: Shromáždění
-      feature6: Síťová komunikace<br/>
+      feature1: Strategic planning
+      feature2: Participační procesy
+      feature3: Shromáždění
+      feature4: Initiatives and citizen consultations
+      feature5: Participatory budgeting
+      feature6: Networked communication
       intro: Decidim pomáhá občanům, organizacím a veřejným institucím, aby se demokraticky organizovali v jakémkoliv rozsahu.
     used_by:
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
-      title: Již používají Decidim
+      title: Already using Decidim
   legal-notice:
     section-1:
       paragraph: '<p>Vstupujete na webovou stránku Associació de Software Lliure Decidim („Decidim“, „nás“ nebo „my“) dostupnou prostřednictvím webové domény <a href="https://decidim.org">https://decidim.org/</a> (dále jen „webová stránka“) se sídlem v Sant Adria, číslo 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Španělsko a identifikační číslo G67401174.<p><p><b >Můžete nás kontaktovat na: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -399,14 +402,14 @@ cs:
     title: Právní ustanovení
   modules:
     auth: Authorization
-    community: Community
+    community: Komunita
     cta: Learn how
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
     more_info: More information
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-    title: Modules
+    title: Moduly
   nav:
     about: About
     association: Association
@@ -427,7 +430,7 @@ cs:
     legal-notice: Právní ustanovení
     menu: Menu
     modules: Moduly
-    partners: Spolupracující subjekty
+    partners: Partners
     partnership-policy: Partnership policy
     press: Pro média
     privacy-policy: Zásady ochrany soukromí
@@ -438,7 +441,7 @@ cs:
   newsletter:
     past: Past newsletters
     subtitle: News and updates about the Decidim platform and the community.
-    title: Newsletter
+    title: Zpravodaj
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
@@ -463,7 +466,7 @@ cs:
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
     title: Partnership policy
-  path: "/cs"
+  path: '/cs'
   press:
     highlights: Media highlights
     kit: Press kit
@@ -489,7 +492,7 @@ cs:
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
-    title: Press
+    title: Pro média
   privacy-policy:
     section-1:
       paragraph: <p>Associacio© de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" nebo "my / nám") je vlastníkem této webové stránky, k dispozici prostřednictvím webové domény <a href="https://decidim.org/">https://decidim.org/</a> (dále jen „webová stránka“), a vystupuje jako správce údajů pro zpracování osobních údajů všech uživatelů webových stránek („vy/vám“, „uživatel“).</p> <p><a href="%{decidim_url}">Decidim</a> je odhodlán chránit soukromí všech uživatelů webových stránek, jeho společníků a členů komunity <a href="%{decidim_url}">Decidim</a>. Tyto zásady ochrany osobních údajů vysvětlují naše postupy týkající se používání osobních údajů shromážděných prostřednictvím webových stránek. včetně demo naší svobodné participativní demokratické platformy s otevřeným zdrojem, stejně jako zpracování údajů jednotlivců spojených s <a href="%{decidim_url}">Decidim</a> a správa <a href="%{decidim_url}">Decidim</a> komunity, buď na této webové stránce nebo na jiných platformách spravovaných <a href="%{decidim_url}">Decidim</a>.</p> <p>Tyto zásady ochrany osobních údajů jsou součástí našich právních textů spolu s <a href="%{legal_notice_url}">právním upozorněním</a>.</p>
@@ -586,4 +589,4 @@ cs:
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
-    title: Decidim in use
+    title: Kde se používá
