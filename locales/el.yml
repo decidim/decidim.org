@@ -1,11 +1,14 @@
----
 el:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
-    about: '["Support us", "Contact us", "Our assembly", "Press"]'
+    about:
+      - Support us
+      - Contact us
+      - Our assembly
+      - Τύπος
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
@@ -33,11 +36,11 @@ el:
     read_more: Read more
     subtitle: Latest news from Decidim.
     tags:
-      title: Articles tagged with %{tagname}
-    title: Blog
+      title: Articles tagged with
+    title: Ιστολόγιο
   case_study:
     n1:
-      org: City of Helsinki
+      org: Πόλη του Ελσίνκι
       quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
     n2:
       org: Code for Japan
@@ -49,7 +52,7 @@ el:
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
-    cta: Ας αρχίσουμε
+    cta: Go to Metadecidim
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Αποχρωματισμός φωτογραφία κοινότητας στο Metadecidim Meeting 2016
     intro: Το Metadecidim είναι μια κοινότητα που συνεργάζεται στο σχεδιασμό της πλατφόρμας και στην κατασκευή του έργου. Μαζί μπορούμε να σχεδιάσουμε και να αναπτύξουμε νέα χαρακτηριστικά και να αναφέρουμε σφάλματα για συνεχή βελτίωση της πλατφόρμας.
@@ -63,9 +66,9 @@ el:
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Αποστολή
+    send: Send message
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Επικοινωνήστε μαζί μας
+    title: Contact Decidim
   demo:
     button: Online demo
     p1: Παίξτε γύρω και να εξερευνήσετε ελεύθερα την πλατφόρμα Decidim με online demo.
@@ -217,74 +220,74 @@ el:
       installation: Installation and license
       users: Users and roles
   features:
-    intro: "<p>Μπορείτε να χρησιμοποιήσετε το Decidim σε έναν δημόσιο ή ιδιωτικό οργανισμό, με εκατοντάδες ή χιλιάδες πιθανούς συμμετέχοντες, όπως ένα δημοτικό συμβούλιο, μια ένωση, ένα πανεπιστήμιο, μια ΜΚΟ, μια συνδικαλιστική ένωση, μια συλλογική γειτονιά ή ένας συνεταιρισμός...</p><p>Χάρη στο Decidim θα είστε σε θέση να διαμορφώσετε χώρους για συμμετοχή (πρωτοβουλίες, συνελεύσεις, επεξεργάζεται ή διαβουλεύσεις), και τις εμπλουτίζει μέσω των πολλαπλών διαθέσιμων στοιχείων (πρόσωπο με πρόσωπο συναντήσεις, έρευνες, προτάσεις, ψηφοφορία, παρακολούθηση των αποτελεσμάτων, σχόλια και πολλά άλλα).</p>"
+    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
       feature1:
-        subtitle: να εκδημοκρατίσουμε κοινά ζητήματα, βήμα προς βήμα
+        subtitle: To democratize common issues, step by step
         text: 'Οι διεργασίες είναι ένας χώρος που επιτρέπει τη δημιουργία, την ενεργοποίηση/απενεργοποίηση και τη διαχείριση διαφόρων συμμετοχικών διαδικασιών. Οι χώροι αυτοί διακρίνονται από άλλους χώρους με το να είναι δομημένοι σε διαφορετικές φάσεις εντός των οποίων μπορούν να ενσωματωθούν όλα τα κατασκευαστικά στοιχεία. Παραδείγματα συμμετοχικών διαδικασιών είναι: μια εκλογική διαδικασία για τα μέλη μιας επιτροπής, συμμετοχικός προϋπολογισμός, μια διαδικασία στρατηγικού σχεδιασμού. τη συνεργατική γραφή ενός κανονισμού ή ενός κανόνα, τον σχεδιασμό ενός αστικού χώρου ή την παραγωγή ενός σχεδίου δημόσιας πολιτικής.'
         title: Διαδικασίες συμμετοχής
       feature10:
-        subtitle: να αναλύσει, να συνθέσει, και να οικοδομήσουμε κοινά
-        text: Η συνιστώσα των συμμετοχικών κειμένων μπορεί να χρησιμοποιηθεί για τη μετατροπή μακροσκελών εγγράφων κειμένου σε διάφορες προτάσεις ή αποτελέσματα και αντίστροφα, για να συνθέσει και να εμφανίσει ένα ενοποιημένο κείμενο βασισμένο σε μια συλλογή προτάσεων ή αποτελεσμάτων.
+        subtitle: To analyze, synthesize, and build in common
+        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
         title: Κείμενα συμμετοχής
       feature11:
         subtitle: Όπου οι μεγάλες εκδηλώσεις είναι πρεμιέρα
-        text: Η συνιστώσα του συνεδρίου επιτρέπει σε έναν οργανισμό να δημιουργήσει μια ιστοσελίδα για μια μεγάλη εκδήλωση συμμετέχοντας σε μια σειρά προκαθορισμένων συναντήσεων (chats, workshops κλπ. , βάζοντας μαζί ένα ενοποιημένο πρόγραμμα και τη διαχείριση των συμμετεχόντων.
+        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
         title: Διάσκεψη
       feature12:
         subtitle: Επειδή η γνώμη της κοινότητάς σας έχει σημασία
-        text: Το στοιχείο των ερευνών μπορεί να χρησιμοποιηθεί για το σχεδιασμό και τη δημοσίευση ερευνών και για την εμφάνιση και λήψη των αποτελεσμάτων τους.
+        text: Design and publish surveys. Display and download results.
         title: Έρευνες
       feature13:
         subtitle: Ισότητα και η δικαιοσύνη της τυχαιότητας
-        text: Η συνιστώσα ταξινόμησης επιτρέπει την επιλογή ενός αριθμού προτάσεων (π.χ. οι υποψήφιοι για κριτική επιτροπή) με τυχαία, αλλά και αναπαραγώγιμες, διαδικασίες που εγγυώνται αμερόληπτες και ομοιόμορφες διανομές.
+        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
         title: Κλήρωση
       feature14:
         subtitle: Η οικοδόμηση μιας συλλογικής νοημοσύνης
-        text: Το στοιχείο σχολίων επιτρέπει στους χρήστες να προσθέσουν σχόλια, να προσδιορίσουν το σχόλιο ως προτιμώμενο, κατά ή ουδέτερο σε σχέση με το αντικείμενο που σχολιάστηκε, να ψηφίσουν σχόλια, να απαντήσουν σε αυτά και να λάβουν ειδοποιήσεις σχετικά με απαντήσεις.
+        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
         title: Σχόλια
       feature15:
         subtitle: Η κοινότητά σας, ενημερωμένη και ενημερωμένη
-        text: Το στοιχείο σελίδων χρησιμοποιείται για τη δημιουργία ενημερωτικών σελίδων με πλούσια μορφοποίηση κειμένου, ενσωματωμένες εικόνες και βίντεο. Το στοιχείο blog καθιστά δυνατή τη δημιουργία θέσεων ή ειδήσεων, και να τους περιηγηθείτε χρονολογικά.
+        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
         title: Σελίδες και ιστολόγια
       feature16:
-        subtitle: Εξατομικευμένες πληροφορίες σχετικά με ενδιαφέροντα περιεχόμενα
-        text: Decidim σας επιτρέπει να παρακολουθείτε οποιοδήποτε χώρο ή συστατικό για να λαμβάνετε ενημερώσεις κάθε φορά που συμβαίνουν.
+        subtitle: Personalised information on interesting content
+        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
         title: Ειδοποιήσεις
       feature17:
         subtitle: Απλό αλλά ισχυρό
-        text: Το στοιχείο του ενημερωτικού δελτίου καθιστά δυνατή την αποστολή μηνυμάτων ηλεκτρονικού ταχυδρομείου σε όλους τους εγγεγραμμένους στην πλατφόρμα ή, πιο επιλεκτικά, σε όσους συμμετέχουν σε ένα συγκεκριμένο χώρο.
+        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
         title: Ενημερωτικό δελτίο
       feature2:
-        subtitle: η δύναμη της συλλογικής αυτοοργάνωσης
-        text: 'Είναι ένας χώρος που προσφέρει τη δυνατότητα δημιουργίας οργάνων λήψης αποφάσεων ή ομάδων (συμβούλια, ομάδες εργασίας, επιτροπές, κλπ. που συναντώνται περιοδικά, περιγράφοντας τη σύνθεση, την απαρίθμηση και τη γεωσυγκίνηση των συναντήσεών τους, και επιτρέποντας να λάβουν μέρος σε αυτά (για παράδειγμα: παρακολούθηση εάν η χωρητικότητα των καθισμάτων και η φύση του συγκροτήματος το επιτρέπουν, προσθήκη θεμάτων στην ημερήσια διάταξη ή σχολιασμός των προτάσεων και των αποφάσεων που λαμβάνονται από τον εν λόγω οργανισμό).'
+        subtitle: The power of collective self-organization
+        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
         title: Συνελεύσεις
       feature3:
-        subtitle: το δικαίωμα να αποφασίζουν με όλες τις δημοκρατικές εγγυήσεις
-        text: Οι διαβουλεύσεις είναι ένας χώρος που επιτρέπει τον συντονισμό των δημοψηφισμάτων, την έναρξη συζητήσεων και συζητήσεων, τη δημοσίευση των αποτελεσμάτων της ψηφοφορίας. μπορεί να συνδεθεί με ένα ασφαλές σύστημα ηλεκτρονικής ψηφοφορίας.
-        title: Διαβουλεύσεις
+        subtitle: The right to decide with all democratic guarantees
+        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
+        title: Votings
       feature4:
-        subtitle: καθορίζοντας την ατζέντα όλων, με την πρόσβαση όλων
-        text: Οι πρωτοβουλίες είναι ένας χώρος που επιτρέπει στους συμμετέχοντες να δημιουργήσουν συνεργατικά πρωτοβουλίες, να καθορίσουν την τροχιά και τους στόχους τους, να συγκεντρώσουν θεωρήσεις, συζητήσεις, συζήτηση και διάδοση πρωτοβουλιών και καθορισμός σημείων συνάντησης όπου μπορούν να συλλεχθούν υπογραφές από τους συμμετέχοντες ή συζητήσεις που είναι ανοιχτές σε άλλα μέλη της οργάνωσης.
+        subtitle: Setting everyone's agenda, within everyone's reach
+        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
         title: Πρωτοβουλίες
       feature5:
-        subtitle: τις ιδέες σας λεπτομερώς
-        text: Η συνιστώσα προτάσεων επιτρέπει στο χρήστη να δημιουργήσει μια πρόταση χρησιμοποιώντας έναν οδηγό δημιουργίας, συγκρίνετε την με τις υπάρχουσες, το δημοσιεύει στην πλατφόρμα και περιλαμβάνει πρόσθετες πληροφορίες όπως γεωεντοπισμός ή συνημμένα έγγραφα και εικόνες. Αυτό το στοιχείο σας επιτρέπει επίσης να πλοηγηθείτε, να φιλτράρετε και να αλληλεπιδράτε με ένα σύνολο προτάσεων. Επιπλέον, με την πρόταση-εκκολαπτήριο μπορείτε να δημιουργήσετε συνεργατικές προτάσεις.
+        subtitle: Your ideas in detail
+        text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Προτάσεις
       feature6:
-        subtitle: αποφασίστε την ψήφο σας
-        text: 'Η συνιστώσα της ψηφοφορίας προσφέρει στους οργανισμούς τη δυνατότητα να ενεργοποιούν διαφορετικά συστήματα ψηφοφορίας ή υποστήριξης γύρω από προτάσεις: απεριόριστη, περιορισμένη σε ένα δεδομένο κατώτατο όριο, σταθμισμένο, με βάση το κόστος κλπ.'
+        subtitle: Decide your choice
+        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Ψηφοφορία
       feature7:
-        subtitle: καμία πρόταση χωρίς απάντηση
-        text: Το στοιχείο αποτελεσμάτων χρησιμοποιείται για να μετατρέψει τις προτάσεις σε αποτελέσματα και να δώσει επίσημες απαντήσεις σχετικά με την αποδοχή ή την απόρριψή τους, η συγχώνευση διαφόρων προτάσεων σε ένα μόνο αποτέλεσμα.
+        subtitle: No proposal without an answer
+        text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Αποτελέσματα
       feature8:
-        subtitle: διαφάνεια από την αρχή έως το τέλος
-        text: Η συνιστώσα της λογοδοσίας παρέχει τη δυνατότητα υποδιαίρεσης των αποτελεσμάτων σε έργα, ορίζοντας και εφαρμόζοντας τις καταστάσεις προόδου γύρω από την εφαρμογή τους, καθώς και την εμφάνιση της έκτασης της εφαρμογής των αποτελεσμάτων ομαδοποιημένη ανά κατηγορίες και πεδία.
+        subtitle: End-to-end transparency
+        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Υπευθυνότητα
       feature9:
-        subtitle: να συναντηθούν και να μην χάσετε τίποτα
+        subtitle: To meet and not miss anything
         text: Η συνιστώσα της συνάντησης προσφέρει στους οργανισμούς και τους συμμετέχοντες την ευκαιρία να συγκαλέσουν συναντήσεις, να καθορίσουν την τοποθεσία και τον χρόνο τους, να καταχωρίζουν και να περιορίζουν τους συμμετέχοντες, να καθορίζουν τη δομή και το περιεχόμενο της συνεδρίασης, καθώς και να δημοσιεύουν τα πρακτικά και τις συνακόλουθες προτάσεις.
         title: Συσκέψεις
     subtitle: For democratic organizations and collectives of any size and kind.
@@ -296,16 +299,16 @@ el:
     type3:
       cta: Explore the modules
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
-      title: Modules
+      title: Πρόσθετα
   first-steps:
     first-steps1:
       content: You can install it yourself or find someone to help you with tech support.
-      link1: Documentation
+      link1: Τεκμηρίωση
       pre: For technologists
       title: Installing Decidim
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
-      link1: Features
+      link1: Χαρακτηριστικά
       pre: For organizations
       title: The right tool for you
     first-steps3:
@@ -353,21 +356,21 @@ el:
         title: It's yours. Use it. Share it. Improve it.
     hero:
       cta: Get started
-      intro: Δωρεάν και ασφαλής τεχνολογία.<br/>Με όλες τις δημοκρατικές εγγυήσεις.<br/>Ο επαναπρογραμματισμός της δημοκρατίας είναι πλέον δυνατός με το Decidim.
-      subheading: Decidim είναι μια ψηφιακή πλατφόρμα<br/>για τη συμμετοχή των πολιτών
+      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
+      subheading: Decidim is a digital platform for citizen participation
     subhero:
       cta: Explore all features
-      feature1: Στρατηγικός σχεδιασμός<br/>
-      feature2: Συμμετοχικός<br/>προϋπολογισμός
-      feature3: Πρωτοβουλίες και<br/>διαβουλεύσεις πολιτών
-      feature4: Συμμετοχικές<br/>διαδικασίες
-      feature5: Συνελεύσεις
-      feature6: Δικτυωμένη<br/>επικοινωνία
+      feature1: Strategic planning
+      feature2: Διαδικασίες συμμετοχής
+      feature3: Συνελεύσεις
+      feature4: Initiatives and citizen consultations
+      feature5: Participatory budgeting
+      feature6: Networked communication
       intro: Ο Decidim βοηθά τους πολίτες, τους οργανισμούς και τους δημόσιους θεσμούς να αυτοοργανώνονται δημοκρατικά σε κάθε κλίμακα.
     used_by:
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
-      title: Χρησιμοποιούν ήδη Decidim
+      title: Already using Decidim
   legal-notice:
     section-1:
       paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -399,14 +402,14 @@ el:
     title: Legal notice
   modules:
     auth: Authorization
-    community: Community
+    community: Κοινότητα
     cta: Learn how
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
     more_info: More information
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-    title: Modules
+    title: Πρόσθετα
   nav:
     about: About
     association: Association
@@ -427,7 +430,7 @@ el:
     legal-notice: Legal notice
     menu: Menu
     modules: Πρόσθετα
-    partners: Συνεταιριστικές οντότητες
+    partners: Partners
     partnership-policy: Partnership policy
     press: Τύπος
     privacy-policy: Privacy policy
@@ -438,7 +441,7 @@ el:
   newsletter:
     past: Past newsletters
     subtitle: News and updates about the Decidim platform and the community.
-    title: Newsletter
+    title: Ενημερωτικό δελτίο
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
@@ -463,7 +466,7 @@ el:
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
     title: Partnership policy
-  path: "/el"
+  path: '/el'
   press:
     highlights: Media highlights
     kit: Press kit
@@ -489,7 +492,7 @@ el:
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
-    title: Press
+    title: Τύπος
   privacy-policy:
     section-1:
       paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
@@ -586,4 +589,4 @@ el:
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
-    title: Decidim in use
+    title: Απομίμηση σε χρήση
