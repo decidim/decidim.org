@@ -1,6 +1,5 @@
 ---
 title: "Job offer: Project Manager"
-date: 2021-07-19T07:23:24.322Z
 ---
 ## What’s the job
 
