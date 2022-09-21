@@ -1,11 +1,14 @@
----
 fi:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
-    about: '["Support us", "Contact us", "Our assembly", "Press"]'
+    about:
+      - Support us
+      - Contact us
+      - Our assembly
+      - Lehdistö
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
@@ -33,11 +36,11 @@ fi:
     read_more: Read more
     subtitle: Latest news from Decidim.
     tags:
-      title: Articles tagged with %{tagname}
-    title: Blog
+      title: Articles tagged with
+    title: Blogi
   case_study:
     n1:
-      org: City of Helsinki
+      org: Helsingin kaupunki
       quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
     n2:
       org: Code for Japan
@@ -49,7 +52,7 @@ fi:
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
-    cta: Aloita
+    cta: Go to Metadecidim
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Kuva Decidim-yhteisöstä Metadecidim-tapaamisessa 2016
     intro: Metadecidim on yhteisö, joka tekee yhteistyötä alustan suunnittelussa ja projektin kehittämisessä. Yhdessä voimme suunnitella ja kehittää uusia ominaisuuksia sekä raportoida vikoja parantaakseemme alustaa jatkuvasti.
@@ -61,11 +64,11 @@ fi:
     message: Viesti
     name: Nimi
     privacy_policy:
-      accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
-      message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Lähetä
+      accept: Hyväksyn <a href="%{privacy_policy_url}">tietosuojaselosteen</a>
+      message: "<p>Kun otat meihin yhteyttä yhteydenottolomakkeella, sähköpostilla tai muulla vastaavalla viestintävälineellä, keräämme automaattisesti sinusta seuraavat tiedot: nimi, organisaatio, sähköpostiosoite ja viestin sisältö, jotta voimme käsitellä yhteydenottosi, kommenttisi, pyyntösi, ehdotuksesi, jne.</p><p>Lisäksi voimme käsitellä tätä tietoa tilastollisissa tutkimuksissa käyttäen hyväksi pseudonymisointi- ja anonymisointitekniikoita, kuten tietojen aggrekointia tai koontia, mikä estää yksittäisten käyttäjien tunnistamisen ja yksilöinnin datan jatkokäsittelyn yhteydessä.</p>"
+    send: Send message
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Ota yhteyttä
+    title: Contact Decidim
   demo:
     button: Verkkopohjainen demo
     p1: Kokeile ja tutki Decidim-alustaa vapaasti verkkopohjaisen demon avulla.
@@ -207,7 +210,7 @@ fi:
         question: What does it mean that Decidim is for free, "libre" and open source?
         type: install
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
-    title: Usein kysytyt kysymykset
+    title: UKK
     types:
       about: About Decidim
       association: Association
@@ -217,74 +220,74 @@ fi:
       installation: Installation and license
       users: Users and roles
   features:
-    intro: "<p>Voit käyttää Decidimiä julkisessa tai yksityisessä organisaatiossa, jossa on satoja tai tuhansia potentiaalisia osallistujia. Organisaationa voi toimi esimerkiksi kaupunginvaltuusto, yhdistys, yliopisto, kansalaisjärjestö, ammattiliitto, asukasyhteisö tai osuuskunta...</p><p>Decidimin avulla voit määrittää osallistumistiloja (aloitteet, ryhmät, prosessit tai kuulemiset) ja lisätä niihin useita käytettävissä olevia ominaisuuksia (tapaamiset, kyselyt, ehdotukset, äänestykset, äänestystulosten seuranta, jne.).</p>"
+    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
       feature1:
-        subtitle: Demokratisoi yhteiset asiat, askel askeleelta
-        text: Prosessit ovat tila, jonka avulla voidaan luoda, aktivoida/deaktivoida ja hallita erilaisia osallisuusprosesseja. Ne erotetaan muista tiloista siten, että ne on rakennettu eri vaiheisiin, joissa kaikki osat voidaan liittää. Esimerkkejä osallistuvista prosesseista ovat komitean jäsenten vaaliprosessi, osallistava budjetointi, strateginen suunnitteluprosessi, asetuksen tai normin yhteistoiminnallinen kirjoittaminen, kaupunkialueen suunnittelu tai julkisen politiikan suunnitelman laatiminen.
+        subtitle: To democratize common issues, step by step
+        text: 'Prosessit ovat tila, jonka avulla voidaan luoda, aktivoida/deaktivoida ja hallita erilaisia osallisuusprosesseja. Ne erotetaan muista tiloista siten, että ne on rakennettu eri vaiheisiin, joissa kaikki osat voidaan liittää. Esimerkkejä osallistuvista prosesseista ovat komitean jäsenten vaaliprosessi, osallistava budjetointi, strateginen suunnitteluprosessi, asetuksen tai normin yhteistoiminnallinen kirjoittaminen, kaupunkialueen suunnittelu tai julkisen politiikan suunnitelman laatiminen.'
         title: Osallistumisprosessit
       feature10:
-        subtitle: Analysoi, yhdistä ja luo uutta yhteisön avulla
-        text: Osallistuvia tekstejä koskevaa osaa voidaan käyttää muuntamaan pitkiä tekstiasiakirjoja erilaisiksi ehdotuksiksi tai tuloksiksi, ja päinvastoin, laatia ja näyttää yhtenäinen teksti, joka perustuu kokoelma ehdotuksia tai tuloksia.
+        subtitle: To analyze, synthesize, and build in common
+        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
         title: Ehdotusaineistot
       feature11:
         subtitle: Suuret tapahtumat saavat ensi-iltansa
-        text: Konferenssikomponenttin avulla organisaatio voi luoda verkkosivuston suurille tapahtumille määrittämällä aihealueiden ympärille muodostettavia ennalta määriteltyjä tapaamisia (esitykset, keskustelut, työpajat, jne.). Näistä tapahtumista muodostuu konferenssiohjelma ja osallistujalistat erilaisille tilaisuuksille.
+        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
         title: Konferenssit
       feature12:
         subtitle: Yhteisösi mielipiteellä on merkitystä
-        text: Kyselykokonaisuutta voidaan käyttää kyselyjen suunnitteluun ja julkaisuun sekä niiden tulosten näyttämiseen ja lataamiseen.
+        text: Design and publish surveys. Display and download results.
         title: Kyselyt
       feature13:
         subtitle: Sattumanvaraisuuden mahdollistama tasa-arvoisuus ja oikeudenmukaisuus
-        text: Satunnaisvalintojen avulla voidaan valita ehdotuksia (esim. lautakunnan ehdokkaista) satunnaisesti toistettavissa olevalla menettelyllä, joka takaa puolueettoman ja yhdenmukaisen lopputuloksen.
+        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
         title: Satunnaisvalinta
       feature14:
         subtitle: Yhteisöllisen tiedon rakentaminen
-        text: Kommentointikomponentin avulla käyttäjät voivat kommentoida asioita sekä osoittaa mielipiteensä keskusteltavasta aiheesta esimerkiksi olemalla sen puolella, sitä vastaan tai neutraali. Käyttäjät voivat myös äänestää kommentteja ja vastata niihin. Kommenteista saa myös ilmoitukset järjestelmässä ja ne voidaan lähettää myös sähköpostiin.
+        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
         title: Kommentit
       feature15:
         subtitle: Pidä yhteisösi ajan tasalla ja tietoisena päivänpolttavista asioista
-        text: Sivut-komponenttia käytetään informatiivisten tekstisivujen luomiseen rikkaalla tekstisisällöllä, johon voidaan liittää kuvia ja videoita. Blogi-komponentti mahdollistaa artikkelien tai uutisten luomisen ja niiden navigoinnin kronologisessa järjestyksessä.
+        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
         title: Sivut ja blogit
       feature16:
-        subtitle: Yksilöityä tietoa mielenkiintoisista sisällöistä
-        text: Decidimin avulla voit seurata mitä tahansa osallistumistilaa tai -komponenttia sekä vastaanottaa päivityksiä aina kun jotain tapahtuu.
+        subtitle: Personalised information on interesting content
+        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
         title: Ilmoitukset
       feature17:
         subtitle: Yksinkertainen, mutta tehokas
-        text: Uutiskirje-komponentin avulla voidaan lähettää sähköposteja kaikille alustalle rekisteröityneille käyttäjille tai valikoivammin niille, jotka ovat osallistuneet tietyssä osallistumistilassa.
+        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
         title: Uutiskirje
       feature2:
-        subtitle: Yhteisöllisen itseohjautuvuuden voima
-        text: 'On tila, joka tarjoaa mahdollisuuden perustaa päätöksentekoelimiä tai -ryhmiä (neuvostot, työryhmät, komiteat jne. jotka kokoontuvat säännöllisesti, yksityiskohtaisesti niiden kokoonpano, listalle ja geolocating niiden kokouksia, ja mahdollisuus osallistua niihin (esimerkiksi: osallistuminen, jos istumapaikkoja ja kokoonpanon luonne niin sallii, asialistalle lisätään kohtia tai kommentoidaan kyseisen elimen tekemiä ehdotuksia ja päätöksiä).'
+        subtitle: The power of collective self-organization
+        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
         title: Ryhmät
       feature3:
-        subtitle: Oikeus päättää asioista demokraattisella tavalla
-        text: Kuulemiset ovat tila, joka mahdollistaa kansanäänestysten koordinoinnin, keskustelujen ja keskustelujen käynnistämisen, äänestysten tulosten julkaisemisen. se voidaan liittää turvalliseen sähköiseen äänestysjärjestelmään.
-        title: Kuulemiset
+        subtitle: The right to decide with all democratic guarantees
+        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
+        title: Votings
       feature4:
-        subtitle: Mahdollista jokaisen omat tavoitteet kaikkien ulottuville
-        text: Aloitteet ovat tila, joka antaa osallistujille mahdollisuuden luoda yhdessä aloitteita, määritellä niiden kehityspolut ja tavoitteet, kerätä hyväksyntöjä, keskustella, keskustellaan aloitteista ja levitetään niitä ja määritellään ne kohdat, joissa allekirjoituksia voidaan kerätä osallistujilta tai muille järjestön jäsenille avautuvilta keskusteluilta.
+        subtitle: Setting everyone's agenda, within everyone's reach
+        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
         title: Aloitteet
       feature5:
-        subtitle: Ideasi yksityiskohtaisesti
-        text: Ehdotusten osan avulla käyttäjä voi luoda ehdotuksen käyttäen luontiohjain, verrata sitä olemassa oleviin, julkaista sen alustalla ja sisältää lisätietoja, kuten geolocation tai liitetyt asiakirjat ja kuvat. Tämän komponentin avulla voit myös navigoida, suodattaa ja olla vuorovaikutuksessa ehdotusten kanssa. Lisäksi ehdotus-hautomo voit luoda yhteistyöehdotuksia.
+        subtitle: Your ideas in detail
+        text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Ehdotukset
       feature6:
-        subtitle: Anna oman äänesi kuulua
-        text: 'Äänestyskomponentti tarjoaa organisaatioille mahdollisuuden aktivoida erilaisia äänestys- tai tukijärjestelmiä ehdotusten ympärillä: rajoittamaton, rajattu tiettyyn kynnysarvoon, painotettu, kustannuspohjainen jne.'
+        subtitle: Decide your choice
+        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Äänestys
       feature7:
-        subtitle: Ei ehdotusta ilman vastausta
-        text: Tuloksia käytetään ehdotusten muuttamiseen tuloksiksi ja virallisten vastausten antamiseen niiden hyväksymisestä tai hylkäämisestä, eri ehdotusten yhdistäminen yhdeksi tulokseksi.
+        subtitle: No proposal without an answer
+        text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Tulokset
       feature8:
-        subtitle: Avointa toimintaa alusta loppuun
-        text: Vastuullisuutta koskeva osa-alue tarjoaa mahdollisuuden jakaa tulokset edelleen hankkeisiin, määritellä ja soveltaa edistymistilannetta niiden täytäntöönpanon osalta, tulosten laajuuden osoittaminen siten, että ne on ryhmitelty kategorioiden ja soveltamisalan mukaan.
+        subtitle: End-to-end transparency
+        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Vastuullisuus
       feature9:
-        subtitle: Tapaa ja pysy kartalla yhteisistä asioista
+        subtitle: To meet and not miss anything
         text: Kokouksen osa tarjoaa organisaatioille ja osallistujille mahdollisuuden kutsua kokouksia, määrittää niiden sijainti ja aika, rekisteröidä ja rajoittaa osallistujia, määritellä kokouksen rakenne ja sisältö sekä julkaista pöytäkirjoja ja niitä koskevia ehdotuksia.
         title: Tapaamiset
     subtitle: For democratic organizations and collectives of any size and kind.
@@ -296,16 +299,16 @@ fi:
     type3:
       cta: Explore the modules
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
-      title: Modules
+      title: Moduulit
   first-steps:
     first-steps1:
       content: You can install it yourself or find someone to help you with tech support.
-      link1: Documentation
+      link1: Dokumentaatio
       pre: For technologists
       title: Installing Decidim
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
-      link1: Features
+      link1: Ominaisuudet
       pre: For organizations
       title: The right tool for you
     first-steps3:
@@ -353,24 +356,24 @@ fi:
         title: It's yours. Use it. Share it. Improve it.
     hero:
       cta: Get started
-      intro: Vapaa ja turvallinen teknologia.<br/>Demokraattisilla takuilla.<br/>Demokratian uudelleenohjelmointi on nyt mahdollista Decidimin avulla.
-      subheading: Decidim on digitaalinen alusta<br/>osallisuudelle ja kansalaisaktivismille
+      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
+      subheading: Decidim is a digital platform for citizen participation
     subhero:
       cta: Explore all features
-      feature1: Strateginen<br/>suunnittelu
-      feature2: Osallistuva<br/>budjetointi
-      feature3: Aloitteet ja<br/>kansalaisten kuuleminen
-      feature4: Osallistumis<br/>-prosessit
-      feature5: Ryhmät
-      feature6: Sosiaaliset<br/>verkostot
+      feature1: Strategic planning
+      feature2: Osallistumisprosessit
+      feature3: Ryhmät
+      feature4: Initiatives and citizen consultations
+      feature5: Participatory budgeting
+      feature6: Networked communication
       intro: Decidim auttaa kansalaisia, organisaatioita ja julkisia toimijoita itseohjautumaan demokraattisesti. Alusta mukautuu kaiken kokoisille toimijoille.
     used_by:
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
-      title: He käyttävät jo Decidimiä
+      title: Already using Decidim
   legal-notice:
     section-1:
-      paragraph: <p>Käytät Associació de Software Lliure Decidim:n ("Decidim", "Yhdistys", "Me") verkkosivustoa, joka on saatavissa verkko-osoitteessa <a href="https://decidim.org/fi/">https://decidim.org/</a> (jäljempänä "Verkkosivusto"), kotipaikkana Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Espanja ja ID-numero G67401174.</p><p><b>Voit ottaa meihin yhteyttä sähköpostitse osoitteen <a href="mailto:hola@decidim.org">hola@decidim.org</a> kautta</b></p>
+      paragraph: '<p>Käytät Associació de Software Lliure Decidim:n ("Decidim", "Yhdistys", "Me") verkkosivustoa, joka on saatavissa verkko-osoitteessa <a href="https://decidim.org/fi/">https://decidim.org/</a> (jäljempänä "Verkkosivusto"), kotipaikkana Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Espanja ja ID-numero G67401174.</p><p><b>Voit ottaa meihin yhteyttä sähköpostitse osoitteen <a href="mailto:hola@decidim.org">hola@decidim.org</a> kautta</b></p>'
       title: Keitä me olemme
     section-2:
       paragraph: "<p>Tämän Verkkosivuston tarkoitus on tarjota yleistä julkista tietoa Decidimistä, sen toiminnasta ja teknologiasta, jotka koostuvat vapaasta avoimen lähdekoodin osallistuvan demokratian alustasta kaupungeille ja organisaatioille sekä sen ympärille muodostuneen maailmanlaajuisen Decidim-yhteisön hallinnoinnista. Teknologiamme mahdollistaa kansalais- ja yhteisöhankkeiden kehittämisen laajemman yhteisöllisen osallistumisen avulla. Voit vapaasti kokeilla Decidim-alustaa julkisessa verkossa olevan demo-palvelumme kautta.</p><p>Tämän Oikeudellisen ilmoituksen sisältämien käyttöehtojen tarkoitus on säädellä tämän Verkkosivuston ja lain 34/2002 informaatioyhteiskunnan palveluista ja sähköisestä kaupasta (Law 34/2002 on Information Society Services and Electronic Commerce) sekä muiden sovellettavien lakien ja säädösten mukaan tarjottujen palveluiden ja/tai sisältöjen sallittua käyttöä.</p>"
@@ -399,14 +402,14 @@ fi:
     title: Oikeudellinen ilmoitus
   modules:
     auth: Authorization
-    community: Community
+    community: Yhteisö
     cta: Learn how
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
     more_info: More information
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-    title: Modules
+    title: Moduulit
   nav:
     about: About
     association: Association
@@ -427,7 +430,7 @@ fi:
     legal-notice: Oikeudellinen ilmoitus
     menu: Menu
     modules: Moduulit
-    partners: Yhteistyökumppanit
+    partners: Partners
     partnership-policy: Partnership policy
     press: Lehdistö
     privacy-policy: Tietosuojaseloste
@@ -438,7 +441,7 @@ fi:
   newsletter:
     past: Past newsletters
     subtitle: News and updates about the Decidim platform and the community.
-    title: Newsletter
+    title: Uutiskirje
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
@@ -463,7 +466,7 @@ fi:
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
     title: Partnership policy
-  path: "/fi"
+  path: '/fi'
   press:
     highlights: Media highlights
     kit: Press kit
@@ -489,19 +492,19 @@ fi:
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
-    title: Press
+    title: Lehdistö
   privacy-policy:
     section-1:
-      paragraph: <p>Associació de Software Lliure Decidim (<a href="%{decidim_url}">Decidim</a>", "Yhdistys" tai "me") omistaa tämän verkkosivuston, joka on saatavissa verkko-osoitteessa <a href="https://decidim.org/fi/">https://decidim.org/</a> (jäljempänä "Verkkosivusto"), ja toimii henkilötietojen rekisterinpitäjänä kaikille Verkkosivuston käyttäjille ("Sinä", "Käyttäjä").</p><p><a href="%{decidim_url}">Decidim</a> on sitoutunut suojaamaan kaikkien Verkkosivuston Käyttäjien, kumppanijäsenten ja <a href="%{decidim_url}">Decidim</a>-yhteisön jäsenten yksityisyyttä. Tämä Tietosuojaseloste esittää Verkkosivuston kautta kerättyjen henkilötietojen käyttöön, mukaan lukien vapaan avoimen lähdekoodin osallistuvan demokratian alustamme demo-palvelu, sekä <a href="%{decidim_url}">Decidimiin</a> ja <a href="%{decidim_url}">Decidim</a>-yhteisön hallinnointiin liittyvien yksilöiden tietojen käsittelyyn liittyvät käytäntömme, joko tällä Verkkosivustolla tai millä tahansa muulla <a href="%{decidim_url}">Decidimin</a> hallinnoimalla alustalla.</p><p>Tämä Tietosuojaseloste on osa Lakitekstejämme yhdessä <a href="%{legal_notice_url}">Oikeudellisen ilmoituksen</a> kanssa.</p>
+      paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>", "Yhdistys" tai "me") omistaa tämän verkkosivuston, joka on saatavissa verkko-osoitteessa <a href="https://decidim.org/fi/">https://decidim.org/</a> (jäljempänä "Verkkosivusto"), ja toimii henkilötietojen rekisterinpitäjänä kaikille Verkkosivuston käyttäjille ("Sinä", "Käyttäjä").</p><p><a href="%{decidim_url}">Decidim</a> on sitoutunut suojaamaan kaikkien Verkkosivuston Käyttäjien, kumppanijäsenten ja <a href="%{decidim_url}">Decidim</a>-yhteisön jäsenten yksityisyyttä. Tämä Tietosuojaseloste esittää Verkkosivuston kautta kerättyjen henkilötietojen käyttöön, mukaan lukien vapaan avoimen lähdekoodin osallistuvan demokratian alustamme demo-palvelu, sekä <a href="%{decidim_url}">Decidimiin</a> ja <a href="%{decidim_url}">Decidim</a>-yhteisön hallinnointiin liittyvien yksilöiden tietojen käsittelyyn liittyvät käytäntömme, joko tällä Verkkosivustolla tai millä tahansa muulla <a href="%{decidim_url}">Decidimin</a> hallinnoimalla alustalla.</p><p>Tämä Tietosuojaseloste on osa Lakitekstejämme yhdessä <a href="%{legal_notice_url}">Oikeudellisen ilmoituksen</a> kanssa.</p>
       title: Johdanto
     section-2:
-      paragraph: '<h3>a. Data collected from surfing the Website</h3> <p>When using our website, <a href="%{decidim_url}">Decidim</a> uses the services of Plausible analysis software.  Its is software that, when tracking user data, this data is kept fully and securely encrypted. The purpose of Plausible Analytics is to track general traffic trends on your website and not individual visitors. Each HTTP request sends the IP address and user agent to the server, so that''s what they use, generating an identifier that changes daily using the visitor''s IP address and user agent. To anonymise this data, it is passed through a hash function with a rotating salt. This generates a random string of letters and numbers that is used to calculate the number of unique visitors for the day. The IP address of the raw data and the user agent are never stored in the logs, databases or anywhere on Plausible analytics disk. Older salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next.   In this way, no personal user data is collected while browsing our website, for more information about the data processing by Plausible Analytics, you can visit their website at <a href="https://plausible.io/privacy-focused-web-analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Data collected from our Demo</h3> <p>The access to the <a href="%{decidim_url}">Decidim</a> platform demo, available through the Website in the URL <a href="https://try.decidim.org/">https://try.decidim.org/</a> is anonymous, since it is done through generic credentials for testing and knowledge of the operation, features and capabilities of the <a href="%{decidim_url}">Decidim</a> platform by the users. <p>Only a session cookie ("Session_id") is activated, whose purpose is to obtain or establish the session id for the current session. This cookie is strictly necessary for the technical functionality of detecting the session in the Website in order to ensure the connection through http protocols and to keep the User''s session and Web Site services available, and are exempted from User consent in accordance with Opinion 4/2012 on the exemption from the cookie consent requirement issued by the European Data Protection Authority.</p> <h3>c. Data collected from contact forms, emails or other communication means</h3> <p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p> <h3>d. Data collected from <a href="%{decidim_url}">Decidim</a> community</h3> <p><a href="%{decidim_url}">Decidim</a> uses other platforms linked to this Website  for the management of the <a href="%{decidim_url}">Decidim</a> community generated around our technology, as a meeting point for the <a href="%{decidim_url}">Decidim</a> community and where most of the activities and communications between users and <a href="%{decidim_url}">Decidim</a> take place. These platforms, such as <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> or GitHub (<a href="https://github.com/decidim/decidim">https://github.com/decidim/decidim</a>) are governed by their own terms of use and privacy policies.</p> <p>Notwithstanding, <a href="%{decidim_url}">Decidim</a> may process User''s personal data collected from these platforms for the management of the community projects developed in those platforms respectively, in particular these personal data may consist in connection data to these platforms, User profile on the platform, and the content of the comments and remarks that the User may contribute to the <a href="%{decidim_url}">Decidim</a> projects from time to time. Please note that this information may be public and, consequently, accessible and visible to other Users.</p> <h3>e. Data collected from our associate members</h3> <p>Any person or organization that wants to participate freely in the <a href="%{decidim_url}">Decidim</a> community, attending debates, collaborating in the organization of events, promoting a working group or community days, as well as contributing to the code or documentation of our free open-source participatory democracy platform, management of instances, etc., can choose to become a member of <a href="%{decidim_url}">Decidim</a>, as long as they have demonstrated sufficient commitment to the community through the realization of any of the above activities. To do so, you must complete a form to submit your application, which will be evaluated by the <a href="%{decidim_url}">Decidim</a> Coordination Committee.</p> <p>The processing of <a href="%{decidim_url}">Decidim</a> members'' personal data is carried out for the purpose of managing the aforementioned projects and activities in which the associate member participates, accounting management of membership fees and, in general, the governance of projects and activities of <a href="%{decidim_url}">Decidim</a>, in order to ensure compliance with the <a href="%{decidim_url}">Decidim</a>''s principles and values as well as the associates'' duties and rights.</p>'
+      paragraph: '<h3>a. Verkkosivuston selaamisen yhteydessä kerättävät tiedot</h3> <p>Käyttäessään verkkosivustoamme <a href="%{decidim_url}">Decidim</a> käyttää Plausible-analytiikkaohjelmistoa. Kyseinen ohjelmisto pitää kaikki keräämänsä käyttäjätiedot täysin ja turvallisesti salattuna. Plausible Analyticsin tarkoituksena on seurata yleisiä liikennetrendejä verkkosivustolla, ei yksittäisiä vierailijoita. Jokainen HTTP-pyyntö lähettää IP-osoitteen ja käyttäjäagentin palvelimelle, joita käytetään luomaan yksilöivä tunniste, joka vaihtuu päivittäin ja perustuu näihin tietoihin. Tiedot anonymisoidaan suolaustekniikkaa hyödyntävällä hajautusalgoritmilla. Tämä luo satunnaisen kirjain- ja numeromerkkijonon, jota käytetään yksilöityjen vierailijoiden määrän selvittämiseen kultakin päivältä. IP-osoitteen ja käyttäjäagentin raakatietoja ei koskaan tallenneta lokeihin, tietokantoihin tai minnekään Plausible Analytics -ohjelmiston tallennusvälineelle. Vanhentuneet suolausarvot poistetaan 24 tunnin välein, jotta vierailijatietoja ei voida yhdistää eri päivien välillä. Tällä tavalla käyttäjien yksilöityjä henkilötietoja ei kerätä selatessasi verkkosivustoamme. Lisätietoja Plausible Analyticsin tietojenkäsittelystä saat vierailemalla heidän verkkosivustollaan osoitteessa <a href="https://plausible.io/privacy-focused-web -analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Demo-palvelussamme kerättävät tiedot</h3> <p><a href="%{decidim_url}">Decidim</a>-alustan demo-palvelua, joka on saatavilla verkkosivuston kautta osoitteessa <a href="https://try.decidim.org/">https://try.decidim.org/</a> on anonyymi, voi käyttää anonyyminä, koska kyseistä alustaa voi käyttää yleisten tunnusten avulla alustan toiminnan, ominaisuuksien ja mahdollisuuksien tutkimiseen ja tiedonkeruuseen <a href="%{decidim_url}">Decidim</a>-alustasta käyttäjien näkökulmasta.</p> <p>Ainoastaan istuntoeväste ("Session_id") on aktivoitu, jonka tarkoituksena on hankkia tai määrittää istuntotunnus kunkin käyttäjän istunnolle. Tämä eväste on ehdottoman välttämätön verkkosivuston yksilöllisten istuntojen tunnistamiseen HTTP-protokollan avulla tehtyjen yhteyksien kautta ja käyttäjän istunnon tunnistamiseen kyseisessä verkkopalvelussa. Tällaiset välttämättömät evästeet eivät vaadi käyttäjän etukäteishyväksyntää Euroopan tietosuojaviranomaisen lausunnon 4/2012 mukaisesti koskien evästeiden etukäteishyväksynnän vaatimuksia.</p> <h3>c. Yhteydenottolomakkeista, sähköposteista tai muista viestintävälineistä kerättävät tiedot</h3> <p>Ihmisten ottaessa meihin yhteyttä yhteydenottolomakkeella, sähköpostilla tai vastaavalla viestintävälineellä, keräämme automaattisesti seuraavat tiedot: nimi, organisaatio, sähköpostiosoite ja lähetetyn viestin sisältö, jotta voimme vastata kommentteihin, pyyntöihin, ehdotuksiin, jne.</p> <p>Lisäksi saatamme käsitellä näitä tietoja tilastotutkimustarkoituksiin käyttäen hyväksi pseudonymisointi- ja anonymisointitekniikoita, kuten tietojen yhdistämistä, mikä estää yksilöityjen Käyttäjien tunnistamisen tietojen jatkokäsittelyn yhteydessä.</p> <h3>d. <a href="%{decidim_url}">Decidim</a>-yhteisöstä kerättävät tiedot</h3> <p><a href="%{decidim_url}">Decidim</a> käyttää muita tähän Verkkosivustoon linkitettyjä alustoja hallinnoidakseen <a href="%{decidim_url}">Decidimin</a> teknologian ympärille kehittynyttä yhteisöä, <a href="%{decidim_url}">Decidim</a>-yhteisön tapaamispaikkana, jossa suurin osa toiminnasta ja viestinnästä <a href="%{decidim_url}">Decidimin</a> ja sen käyttäjien välillä tapahtuu. Nämä alustat, kuten <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> tai GitHub (<a href="https://github.com/decidim/decidim">https://github.com/decidim/decidim</a>) ovat niiden omien käyttöehtojen ja tietosuojakäytäntöjen alaisia.</p> <p>Siitä huolimatta <a href="%{decidim_url}">Decidim</a> voi käsitellä näiltä alustoilta kerättyjä Käyttäjän henkilötietoja kyseisillä alustoilla kehitettyjen yhteisöhankkeiden hallinnoimiseksi, erityisesti nämä henkilötiedot voivat olla yhteydessä näihin alustoihin, alustojen käyttäjäprofiileihin sekä kommentteihin ja huomautuksiin, joita käyttäjä voi esittää näiden alustojen kautta <a href="%{decidim_url}">Decidim</a>-hankkeisiin. Huomioi, että nämä tiedot voivat olla julkisia ja siten muiden käyttäjien saatavilla ja näkyvissä.</p> <h3>e. Kumppanijäseniltämme kerättävät tiedot</h3> <p>Jokainen henkilö tai organisaatio, joka haluaa osallistua vapaasti <a href="%{decidim_url}">Decidim</a>-yhteisöön, sen keskusteluihin, tapahtumien järjestämiseen, työryhmien tai yhteisöpäivien edistämiseen, sekä vapaan avoimen lähdekoodin avoimen demokratian alustamme koodin tai dokumentaation kehittämiseen, instanssien hallintaan, jne., voi halutessaan ryhtyä <a href="%{decidim_url}">Decidimin</a> jäseneksi, mikäli he ovat osoittaneet riittävää sitoutumista yhteisöön toteuttamalla jotain edellä mainituista toimista. Jäseneksi liittymisen voi tehdä täyttämällä ja lähettämällä hakemuslomakkeen, jonka <a href="%{decidim_url}">Decidimin</a> koordinointikomitea arvioi.</p> <p><a href="%{decidim_url}">Decidim</a>-jäsenten henkilötietoja käsitellään edellä mainittujen hankkeiden ja toimintojen hallinnointiin, jäsenmaksuihin liittyviin kirjanpidollisiin toimiin ja <a href="%{decidim_url}">Decidim</a>-hankkeiden ja toiminnan hallinnointiin yleisesti, jotta voimme taata kaiken tällaisen toiminnan sekä työtovereiden velvollisuuksien ja oikeuksien noudattavan <a href="%{decidim_url}">Decidimin</a> periaatteita ja arvoja.</p>'
       title: Kerättävät henkilötiedot ja käsittelyn tarkoitus
     section-3:
       paragraph: <p>Henkilötietojen käsittelyn oikeusperusteet ovat seuraavat:</p><ul><li>Käyttäjien ja kumppanien henkilötietojen käsittely on välttämätöntä solmiaksemme sopimuksen, joka koostuu Käyttäjien antamasta hyväksynnästä Verkkosivuston Lakiteksteille, tarjotaksemme heille kaiken tiedon <a href="%{decidim_url}">Decidimistä</a> ja sen teknologiasta, hankkeista ja toiminnasta, kuten myös mahdollistaaksemme heidän osallistumisen <a href="%{decidim_url}">Decidimin</a> toteuttamiin hankkeisiin ja toimintaan.</li><li>Voimme myös käsitellä henkilötietojasi kun annat meille nimenomaisen suostumuksesi julkaisujen tekemiseen <a href="%{decidim_url}">Decidimiin</a> liittyvistä hankkeista ja toiminnasta, joihin olet osallistunut, lehdistötiedotteisiin tai muihin viestintämuotoihin ja levitykseen <a href="%{decidim_url}">Decidimin</a> toiminnasta, kuten myös säännöllisen tiedon vastaanottamiseen ja/tai ottaessasi meihin yhteyttä Verkkosivuston yhteydenottolomakkeen kautta tai sähköpostilla.</li><li>Lisäksi voimme käsitelläsi tietojasi oikeutettujen etujemme perusteella toteuttaaksemme tilastollisia tutkimuksia tai muita tiedontuottotapoja käyttämällä pseudonymisointi- ja mahdollisuuksien mukaan anonymisointitoimenpiteitä, kuten tietojen yhdistäminen, suojataksemme Käyttäjien yksityisyyttä GDPR 89 artiklan mukaisesti.</li></ul><p>Tietyissä tilanteissa voimme käsitellä tietojasi tämän selosteen mukaisesti noudattaaksemme meitä koskevia lakisääteisiä tai asetusten mukaisia velvotteita.</p>
       title: Käsittelyn oikeusperuste
     section-4:
-      paragraph: '<p>We process your personal data confidentially in accordance with the applicable legislation. Unless stated otherwise, your personal data will not be provided to third parties. </p> <p>Specifically, we disclose your data as follows:</p> <ul> <li>We can give access to your personal data to our IT service providers under contracts for the provision of services in favour of <a href="%{decidim_url}">Decidim</a>. Among the others, Netlify, Inc., an American entity who provide to Us web hosting services. <a href="%{decidim_url}">Decidim</a> has subscribed with Netlify a <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Data Processing Agreement</a>, including the Standard Contractual Clauses currently approved by the European Commission, in order to ensure that your personal data are processed with all adequate guarantees. More information about how Netlify use your personal data may be consulted here: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a>. </li> <li>We can make the data available to the public administration or authorities to investigate suspicions of fraud, harassment or other violations of any law, rule or regulation, or the policies of the website.</li> </ul> <p>For more information about our service providers who make international transfers, please contact us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>'
+      paragraph: '<p>Käsittelemme henkilötietojasi luottamuksellisesti ja sovellettavan lainsäädännön mukaisesti. Ellei toisin ole mainittu, henkilötietojasi ei luovuteta kolmansille osapuolille.</p><p>Erityisesti luovutamme henkilötietojasi seuraavasti:</p><ul><li>Voimme antaa pääsyn henkilötietoihisi IT-palveluntarjoajillemme niiden sopimusten mukaisesti, joita kyseiset toimijat ovat solmineet <a href="%{decidim_url}">Decidimin</a> kanssa. Muiden muassa amerikkalainen yritys Netlify, Inc., joka tarjoaa meille verkkosivuston hosting-palveluita. <a href="%{decidim_url}">Decidim</a> on allekirjoittanut Netlifyn kanssa <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">henkilötietojen käsittelysopimuksen</a>, joka pitää sisällään Euroopan komission hyväksymät vakiosopimuslausekkeet, taatakseen asianmukaisen henkilötietojesi käsittelyn. Lisätietoja siitä, miten Netlify käsittelee henkilötietojasi, on saatavilla täältä: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a>.</li><li>Voimme antaa tiedot julkishallinnon tai viranomaisten käyttöön tutkimustarkoituksiin petosepäilyissä, häirintätapauksissa tai muissa lain- tai säädösten vastaisissa tapauksissa tai Verkkosivuston ehtojen rikkomuksissa.</li></ul><p>Mikäli haluat lisätietoja palveluntarjoajistamme, jotka siirtävät henkilötietoja kansainvälisesti, ota meihin yhteyttä sähköpostitse osoitteella <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>'
       title: Tietojen julkaisu
     section-5:
       paragraph: "<p>Säilytämme henkilötietojasi ainoastaan niin kauan kuin niiden keräämisen tarkoituksen täyttämiseksi niitä on tarpeen säilyttää tai noudattaaksemme laillisia, kirjanpidollisia tai tietoja koskevia vaatimuksia.</p><p>Määrittääksemme asianmukaisen ajan henkilötietojen säilyttämiseen, otamme huomioon henkilötietojen määrän, luonteen ja arkaluonteisuuden, henkilötietojesi luvattomasta käytöstä tai luovuttamisesta aiheutuvan haittariskin, henkilötietojen käsittelyn tarkoituksen, käsittelyn tarkoituksen saavuttamisen muilla keinoin sekä sovellettavat oikeudelliset vaatimukset.</p>"
@@ -510,7 +513,7 @@ fi:
       paragraph: "<p>Olemme toteuttaneet lain vaatimat turvatoimet ja henkilötietojen suojausmenetelmät taataksemme tietojesi luottamuksellisuuden ja eheyden sekä suojataksemme tietojasi luvattomalta pääsyltä, muutoksilta tai tuhoutumiselta.</p>"
       title: Turvatoimet
     section-7:
-      paragraph: '<p>You have rights under data protection laws in relation to your personal data. Specifically, you have the right to: </p> <ul> <li><b>Request access</b> to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</li> <li><b>Request correction</b> of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</li> <li><b>Request erasure</b> of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</li> <li><b>Object to processing</b> of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</li> <li><b>Request restriction of processing</b> of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data''s accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</li> <li><b>Request the transfer</b> of your personal data to you or to a third party (right to data portability). We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</li> <li><b>Withdraw consent at any time</b> where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</li> </ul> <p>The aforementioned rights may be effective by contacting us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>. <p>You also have the right to make any complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spain.'
+      paragraph: '<p>Sinulla on tietosuojalakien mukaiset oikeudet henkilötietoihisi liittyen. Erityisesti sinulla on oikeus: </p><ul><li><b>Pyytää pääsyä</b> henkilötietoihisi (tunnetaan yleisesti nimellä "oikeus saada pääsy henkilötietoihin"). Tämän oikeuden kautta voit saada jäljennöksen hallussamme olevista henkilötiedoistasi ja tarkastaa, että käsittelemme niitä lain mukaisesti.</li><li><b>Pyytää oikaisua</b> hallussamme oleviin henkilötietoihisi. Tämän oikeuden kautta voit pyytää virheellisen tai epätarkan tiedon korjaamista, mutta meidän on mahdollisesti tarkistettava antamiesi uusien tietojen oikeellisuus.</li><li><b>Pyytää poistamaan</b> henkilötietosi. Tämän oikeuden kautta voit pyytää meitä poistamaan henkilötietosi, mikäli niiden käsittelyn jatkamiseen ei ole hyvää syytä. Sinulla on myös oikeus pyytää meitä poistamaan henkilötietosi, jos olet onnistuneesti käyttänyt oikeuttasi vastustaa henkilötietojesi käsittelyä (lisätietoja alla), mikäli olemme käsitelleet henkilötietojasi lain vastaisesti tai mikäli meidän täytyy poistaa henkilötietosi noudattaaksemme paikallisia lakeja. Huomioi kuitenkin, että emme välttämättä aina pysty toteuttamaan poistopyyntöäsi erityisistä oikeudellisista syistä, joista ilmoitamme sinulle tarvittaessa pyyntösi yhteydessä.</li><li><b>Vastustaa</b> henkilötietojesi käsittelyä, jos käsittely perustuu oikeutettuun etuun (tai kolmannen osapuolen oikeutettuun etuun) ja omaan erityistilanteeseesi liittyy jotain sellaista, minkä takia haluat vastustaa henkilötietojesi käsittelyä tällä perusteella kokiessasi, että käsittely vaikuttaa perusoikeuksiisi tai -vapauksiisi. Sinulla on myös oikeus vastustaa henkilötietojesi käsittelyä suoramarkkinointitarkoituksiin. Joissain tapauksissa voimme osoittaa, että meillä on pakottavia lakiperusteita käsitellä henkilötietojasi, mikä ohittaa oikeutesi ja vapautesi.</li><li><b>Rajoittaa</b> henkilötietojesi käsittelyä. Tämän oikeuden kautta voit pyytää meitä keskeyttämään henkilötietojesi käsittelyn seuraavissa tilanteissa: (a) haluat meidän varmistavan tietojesi oikeellisuuden; (b) haluat meidän säilyttävän tietosi vaikka käsittelymme olisi lain vastaista; (c) haluat meidän säilyttävän tietosi oikeudellisten vaatimusten esittämiseen, tekemiseen tai puolustamiseen, vaikka emme enää tarvitsisi tietojasi; tai (d) olet vastustanut henkilötietojesi käsittelyä, mutta meidän on tarkistettava, onko meillä oikeudellisia perusteita jatkaa niiden käsittelyä.</li><li><b>Pyytää siirtämään</b> henkilötietosi kolmannelle osapuolelle (oikeus henkilötietojen siirtämiseen). Toimitamme sinulle tai valitsemallesi kolmannelle osapuolelle henkilötietosi jäsennellyssä, yleisesti käytetyssä ja koneellisesti luettavassa muodossa. Huomioi, että tämä oikeus koskee vain automatisoituja tietojasi, joiden käsittelyyn annoit alun perin suostumuksen tai joita käytimme solmiaksemme sopimuksen kanssasi.</li><li><b>Peruuttaa suostumuksesi</b> henkilötietojen käsittelyyn milloin tahansa, jos henkilötietojesi käsittely perustuu antamaasi suostumukseen. Tämä ei kuitenkaan vaikuta ennen peruuttamista suorittamamme henkilötietojen käsittelyn lainmukaisuuteen. Jos peruutat suostumuksesi, emme välttämättä voi tarjota sinulle tiettyjä tuotteita tai palveluita. Kerromme sinulle mikäli näin on, kun vastaamme henkilötietojesi käsittelyn peruutuspyyntöösi.</li></ul><p>Sinulla on myös oikeus tehdä valitus toimivaltaiselle viranomaiselle, tässä tapauksessa Espanjan tietosuojavirastolle (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Espanja.</p>'
       title: Rekisteröityjen oikeudet
     section-8:
       paragraph: "<p>Pidätämme oikeuden muuttaa tämän Tietosuojaselosteen ehtoja ja ilmoitamme sinulle selkeällä ilmoituksella näistä muutoksista sähköpostitse tai Verkkosivustollamme ja tässä Tietosuojaselosteessa. Jatkamalla palveluidemme käyttöä tällaisten päivitysten jälkeen, sinun katsotaan hyväksyvän uudet ehdot. Jos et hyväksy ehtojen päivitystä, ilmoita siitä meille, niin poistamme Tilisi ja kaikki siihen liittyvät henkilötietosi (poislukien sellaiset tiedot, jotka on säilytettävä lain vaatimiin tarkoituksiin), minkä jälkeen et voi jatkaa palveluidemme käyttöä.</p><p>Ellei jokin paikallinen säännös muuta määrää, tähän Tietosuojaselosteeseen sovelletaan Espanjan lakeja.</p><p><b>Viimeksi päivitetty</b>: helmikuu 2022.</p>"
@@ -586,4 +589,4 @@ fi:
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
-    title: Decidim in use
+    title: Decidimiä käyttävät organisaatiot
