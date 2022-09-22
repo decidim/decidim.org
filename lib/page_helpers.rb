@@ -5,7 +5,7 @@ module PageHelpers
   #
   # @param current_path [String] The current page. We give it as a parameter to it's easier to test.
   # @return [Boolean]
-  def is_homepage?(current_path = current_page.url)
+  def homepage?(current_path = current_page.url)
     I18n.available_locales.map { |code| "/#{code}/" }.push("/").include? current_path
   end
 
