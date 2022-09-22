@@ -1,59 +1,59 @@
 cs:
   '404':
-    intro: Maybe you were looking for...
-    subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
-    title: Page not found
+    intro: Možná jste hledali...
+    subtitle: Zdá se, že jste následovali nefunkční odkaz nebo jste zadali URL, která neexistuje na tomto webu.
+    title: Stránka nenalezena
   about:
     about:
-      - Support us
-      - Contact us
-      - Our assembly
+      - Podpořte nás
+      - Kontaktujte nás
+      - Naše shromáždění
       - Pro média
-    intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_at_opencollective: Support us at Open Collective
-    support_intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_title: Support Decidim
-    title: About Decidim
+    intro: Chceme přispět k demokratizaci společnosti prostřednictvím budování technologií, metodik, praktik, standardů, činností, interpretací a hodnot svobodně, otevřeným, spolupracujícím a přemýšlivým způsobem.
+    subtitle: Sdružení svobodného softwaru Decidim je demokratické sdružení pro správu komunity Decidim.
+    support_at_opencollective: Podpořte nás na Open Collective
+    support_intro: Chceme přispět k demokratizaci společnosti prostřednictvím budování technologií, metodik, praktik, standardů, činností, interpretací a hodnot svobodně, otevřeným, spolupracujícím a přemýšlivým způsobem.
+    support_subtitle: Sdružení svobodného softwaru Decidim je demokratické sdružení pro správu komunity Decidim.
+    support_title: Podpořte Decidim
+    title: O Decidim
     values:
-      v1: Compromise and responsibility
-      v2: Equal opportunities and quality indicators
-      v3: Open content to share and cooperate
-      v4: Free software to enable autonomy
-      v5: Data confidentiality
-      v6: Transparency, traceability and integrity
-      v7: Continuous improvement and collaboration between organizations
-    values_cta: Read the social contract
-    values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
-    values_title: Our values
+      v1: Kompromis a odpovědnost
+      v2: Rovné příležitosti a ukazatele kvality
+      v3: Otevřený obsah pro sdílení a spolupráci
+      v4: Volný software pro povolení autonomie
+      v5: Důvěrnost údajů
+      v6: Transparentnost, sledovatelnost a integrita
+      v7: Průběžné zlepšování a spolupráce mezi organizacemi
+    values_cta: Přečtěte si sociální smlouvu
+    values_intro: "<p>Od začátku má Decidim společenskou smlouvu, která obsahuje hodnoty projektu.</p><p>Všichni členové sdružení Decidim Free Software se zavazují dodržovat tuto smlouvu.</p>"
+    values_title: Naše hodnoty
   alert:
-    button: Read more
-    p1: The Future of The Internet · October 13-14
+    button: Přečtěte si více
+    p1: Budoucnost internetu · 13. až 14. října
     strong: Decidim Fest 22
   blog:
-    latest: Latest blog post
-    read_more: Read more
-    subtitle: Latest news from Decidim.
+    latest: Poslední příspěvky na blogu
+    read_more: Přečtěte si více
+    subtitle: Poslední zprávy z Decidim.
     tags:
-      title: Articles tagged with
+      title: Články označené s
     title: Blog
   case_study:
     n1:
       org: Město Helsinki
-      quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
+      quote: Zhodnotili jsme sedm různých možností participativního sestavování rozpočtu, abychom našli správnou platformu pro Helsinský proces s jednoduchým rozhraním a požadovanou modularitou pro různé druhy potřeb. Společnost Decidim vyhrála hodnocení a první instance byly postaveny v roce 2018.
     n2:
-      org: Code for Japan
-      quote: Decidim provides customize-friendly architecture so that we can adapt it to our domestic situation.
+      org: Kód pro Japonsko
+      quote: Decidim poskytuje přizpůsobivou architekturu, abychom ji mohli přizpůsobit naší domácí situaci.
     n3:
-      org: European Commission
-      quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
+      org: Evropská komise
+      quote: Tyto prostředky jsou určeny na pokrytí výdajů na zaměstnance a správních výdajů úřadu (hlavy 1 a 2) a provozních výdajů na pracovní program (hlava 3). V tomto období bylo předloženo 18 859 myšlenek a 22 167 připomínek a bylo uspořádáno 6 661 akcí. Příspěvky shromážděné prostřednictvím digitální platformy byly přijaty komisí evropských občanů a projednány na plenárním zasedání konference - dalších dvou hlavních pilířů konference.
   community:
-    community1: Propose and help define new features
-    community2: Report bugs and help the developers fix them
-    community3: Help shape the future of the platform
-    cta: Go to Metadecidim
-    figcaption: The Decidim Community during the Decidim Fest 2021
+    community1: Navrhněte a pomozte definovat nové funkce
+    community2: Nahlásit chyby a pomoci vývojářům je opravit
+    community3: Pomozte utvářet budoucnost platformy
+    cta: Přejít na Metadecidim
+    figcaption: Decidim komunita během Decidim Fest 2021
     img_alt: Fotografie komunity Decidim na Metadecidim setkání v roce 2016
     intro: Metadecidim je komunita, která spolupracuje na návrhu platformy a výstavbě projektu. Společně můžeme navrhnout a vyvinout nové funkce a nahlásit chyby pro trvalé zlepšování platformy.
     subtitle: Demokratická komunita, která řídí projekt Decidim ve všech jeho rozměrech
@@ -66,20 +66,20 @@ cs:
     privacy_policy:
       accept: Přijímám <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a>
       message: "<p>Když nás lidé kontaktují kontaktním formulářem, e-mailem nebo podobným komunikačním prostředkem, budeme automaticky shromažďovat následující informace: jméno, entita, e-mailová adresa a obsah zprávy uživatele pro účast na vašich komentářích, žádostech, návrzích atd.</p> <p>Kromě toho můžeme zpracovat tato data pro statistické studie pomocí pseudonymizace a dokonce i anonymizačních technik, jako je agregace údajů, které brání tomuto následnému zpracování v identifikaci jednotlivých uživatelů.</p>"
-    send: Send message
-    subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Contact Decidim
+    send: Poslat zprávu
+    subtitle: Pokud byste chtěli kontaktovat, vyplňte kontaktní formulář nebo nám zašlete e-mail na
+    title: Kontaktujte Decidim
   demo:
     button: Online demo
     p1: Zkoušejte a prozkoumejte zdarma platformu Decidim s naším online demo.
-    strong: Try Online
+    strong: Zkuste online
     title: Online demo
   faqs:
-    cta: Read all FAQs
+    cta: Přečíst všechny FAQ
     questions:
       q01:
-        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
-        question: What is Decidim?
+        answer: 'Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.'
+        question: Co je Decidim?
         type: about
       q02:
         answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
@@ -114,8 +114,8 @@ cs:
         question: What does it mean that Decidim is for free, "libre" and open source?
         type: install
       q1:
-        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
-        question: What is Decidim?
+        answer: 'Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.'
+        question: Co je Decidim?
         type: about
       q10:
         answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report). If you want to actively participate in the Metadecidim community, you can attend Community Meetings. Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
@@ -212,7 +212,7 @@ cs:
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
     title: Časté dotazy
     types:
-      about: About Decidim
+      about: O Decidim
       association: Association
       community: Community and social contract
       features: Roadmap and features
