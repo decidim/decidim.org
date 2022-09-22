@@ -50,11 +50,4 @@ module I18nHelpers
   def show_language_switcher?
     !current_page.path.include?("blog") # rubocop:disable Rails/NegateInclude
   end
-
-  # In order to get a successful build, it requires to parse the missing i18n keys
-  # for languages others than english, so this function returns the translations if exists
-  # otherwise it returns a default value
-  def t_with_default(key, default = {})
-    t(key, default: "").presence || default
-  end
 end
