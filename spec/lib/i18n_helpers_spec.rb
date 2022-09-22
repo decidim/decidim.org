@@ -10,7 +10,7 @@ RSpec.describe I18nHelpers do
   end
 
   describe "#root_for_locale" do
-    let(:subject) { root_for_locale(locale) }
+    subject { root_for_locale(locale) }
 
     context "with English locale" do
       let(:locale) { :en }
@@ -26,7 +26,7 @@ RSpec.describe I18nHelpers do
   end
 
   describe "#current_path_for_locale" do
-    let(:subject) { current_path_for_locale(locale, current_path) }
+    subject { current_path_for_locale(locale, current_path) }
 
     context "with English locale" do
       let(:locale) { :en }

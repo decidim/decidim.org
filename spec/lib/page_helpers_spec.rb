@@ -12,7 +12,7 @@ RSpec.describe PageHelpers do
   end
 
   describe "#homepage?" do
-    let(:subject) { homepage?(current_page) }
+    subject { homepage?(current_page) }
 
     context "when it's on Homepage" do
       context "with English locale" do
