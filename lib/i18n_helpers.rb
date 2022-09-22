@@ -9,7 +9,7 @@ module I18nHelpers
   # @param loc [Symbol] The current locale
   # @param current_path [String] The current page. We give it as a parameter to it's easier to test.
   def current_path_for_locale(loc = I18n.locale, current_path = current_page.url)
-    url_regex = /\A\/(?:(#{I18n.available_locales.join('|')})\/)?/
+    url_regex = %r{\A/(?:(#{I18n.available_locales.join('|')})/)?}
     if current_path.gsub(url_regex, "").blank?
       home_for_locale(loc)
     else
@@ -48,7 +48,7 @@ module I18nHelpers
   #
   # @return [Boolean]
   def show_language_switcher?
-    !current_page.path.include?("blog") # rubocop:disable Rails/NegateInclude
+    !current_page.path.include?("blog")
   end
 
   # In order to get a successful build, it requires to parse the missing i18n keys

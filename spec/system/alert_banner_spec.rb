@@ -1,29 +1,31 @@
-require 'spec_helper'
+# frozen_string_literal: true
 
-RSpec.describe 'alert banner', type: :feature do
+require "spec_helper"
+
+RSpec.describe "alert banner", type: :feature do
   before do
     allow_any_instance_of(PageHelpers).to receive(:alert_enabled?).and_return(enabled)
-    visit route 
+    visit route
   end
 
   context "when is disabled" do
     let(:enabled) { false }
 
     context "and it's on the homepage" do
-      let(:route) { '/' }
+      let(:route) { "/" }
 
       it "doesn't show the banner" do
-        expect(page).to_not have_content(I18n.t("alert.strong"))
-        expect(page).to_not have_content(I18n.t("alert.p1"))
+        expect(page).not_to have_content(I18n.t("alert.strong"))
+        expect(page).not_to have_content(I18n.t("alert.p1"))
       end
     end
 
     context "and it's on another page" do
-      let(:route) { '/about' }
+      let(:route) { "/about" }
 
       it "doesn't show the banner" do
-        expect(page).to_not have_content(I18n.t("alert.strong"))
-        expect(page).to_not have_content(I18n.t("alert.p1"))
+        expect(page).not_to have_content(I18n.t("alert.strong"))
+        expect(page).not_to have_content(I18n.t("alert.p1"))
       end
     end
   end
@@ -32,7 +34,7 @@ RSpec.describe 'alert banner', type: :feature do
     let(:enabled) { true }
 
     context "and it's on the homepage" do
-      let(:route) { '/' }
+      let(:route) { "/" }
 
       it "shows the banner" do
         expect(page).to have_content(I18n.t("alert.strong"))
@@ -41,7 +43,7 @@ RSpec.describe 'alert banner', type: :feature do
     end
 
     context "and it's on another page" do
-      let(:route) { '/about' }
+      let(:route) { "/about" }
 
       it "shows the banner" do
         expect(page).to have_content(I18n.t("alert.strong"))

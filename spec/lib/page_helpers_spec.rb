@@ -18,13 +18,13 @@ RSpec.describe PageHelpers do
       context "English locale" do
         let(:current_page) { "/" }
 
-        it { is_expected.to be_truthy } 
+        it { is_expected.to be_truthy }
       end
 
       context "Another locale" do
         let(:current_page) { "/ca/" }
 
-        it { is_expected.to be_truthy } 
+        it { is_expected.to be_truthy }
       end
     end
 
@@ -32,15 +32,14 @@ RSpec.describe PageHelpers do
       context "English locale" do
         let(:current_page) { "/about" }
 
-        it { is_expected.to be_falsy } 
+        it { is_expected.to be_falsy }
       end
 
       context "Another locale" do
         let(:current_page) { "/ca/about" }
 
-        it { is_expected.to be_falsy } 
+        it { is_expected.to be_falsy }
       end
     end
   end
 end
-

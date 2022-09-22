@@ -15,13 +15,13 @@ RSpec.describe I18nHelpers do
     context "English locale" do
       let(:locale) { :en }
 
-      it { is_expected.to eq("/") } 
+      it { is_expected.to eq("/") }
     end
 
     context "Another locale" do
       let(:locale) { :ca }
 
-      it { is_expected.to eq("/ca/") } 
+      it { is_expected.to eq("/ca/") }
     end
   end
 
@@ -34,13 +34,13 @@ RSpec.describe I18nHelpers do
       context "Homepage" do
         let(:current_path) { "/" }
 
-        it { is_expected.to eq("/") } 
+        it { is_expected.to eq("/") }
       end
 
       context "About" do
         let(:current_path) { "/about" }
 
-        it { is_expected.to eq("/about") } 
+        it { is_expected.to eq("/about") }
       end
     end
 
@@ -50,15 +50,14 @@ RSpec.describe I18nHelpers do
       context "Homepage" do
         let(:current_path) { "/" }
 
-        it { is_expected.to eq("/ca/") } 
+        it { is_expected.to eq("/ca/") }
       end
 
       context "About" do
         let(:current_path) { "/about" }
 
-        it { is_expected.to eq("/ca/about") } 
+        it { is_expected.to eq("/ca/about") }
       end
     end
   end
 end
-
