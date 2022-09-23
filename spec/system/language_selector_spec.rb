@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-RSpec.describe 'i18n', type: :feature do
+RSpec.describe 'language selector', type: :feature do
   before do
     visit '/ca'
   end

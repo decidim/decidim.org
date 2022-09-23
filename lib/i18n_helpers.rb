@@ -2,7 +2,7 @@
 
 module I18nHelpers
   # Return the current path for a given locale.
-  # This is used on the language switcher, so we can link to the same page where we are,
+  # This is used on the language selector, so we can link to the same page where we are,
   # instead of linking to the root page of all the languages.
   #
   # @see https://gist.github.com/johnnyshields/98a695df51b1e99f3593579d3c9a3fd1
@@ -43,11 +43,11 @@ module I18nHelpers
     t(:path) + path
   end
 
-  # Wheter if we show the language switcher or not
+  # Wheter if we show the language selector or not
   # On the case of the blog section we don't, as we don't translate all the blog posts to all the locales
   #
   # @return [Boolean]
-  def show_language_switcher?
+  def show_language_selector?
     !current_page.path.include?("blog") # rubocop:disable Rails/NegateInclude
   end
 
