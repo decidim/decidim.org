@@ -77,42 +77,6 @@ cs:
   faqs:
     cta: Přečíst všechny FAQ
     questions:
-      q01:
-        answer: 'Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.'
-        question: Co je Decidim?
-        type: o nás
-      q02:
-        answer: V současné době jej využívají města a organizace. Ve skutečnosti ji může využít jakákoli skupina lidí, ať už je to nevládní organizace, univerzita, odbory, družstvo, sdružení sousedů atd. Prohlédněte si [kompletní seznam aktuálně aktivních instancí](/usedby/).
-        question: Kdo v současné době používá Decidim?
-        type: o nás
-      q03:
-        answer: Snadno konfigurovatelné participační procesy. Chcete vytvořit strategický plán? Nebo diskutovat o nových vyhláškách? Nebo diskutovat o novém náměstí, nebo veřejné budově s cílem dosáhnout společného výsledku? Díky Decidim budete moci nakonfigurovat participační témata (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných složek (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).
-        question: Co může správce Decidim dělat?
-        type: uživatelé
-      q04:
-        answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
-        question: What can a participant (user) of Decidim do?
-        type: uživatelé
-      q05:
-        answer: Yes, we have an [online demo](/demo).
-        question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
-        type: features
-      q06:
-        answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
-        question: How often is the platform updated?
-        type: features
-      q07:
-        answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
-        question: What do I need to install Decidim?
-        type: install
-      q08:
-        answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
-        question: Where can I find the project roadmap and the planned features?
-        type: features
-      q09:
-        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
-        question: What does it mean that Decidim is for free, "libre" and open source?
-        type: install
       q1:
         answer: 'Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.'
         question: Co je Decidim?
