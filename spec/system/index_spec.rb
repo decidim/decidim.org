@@ -6,9 +6,8 @@ RSpec.describe 'index', type: :feature do
   end
 
   it 'has the correct title header' do
-    expect(page).to have_selector 'h2'
-    puts page.html
-    within 'h2' do
+    expect(page).to have_selector 'h1'
+    within 'h1' do
       expect(page).to have_content /Decidim is a digital platform for citizen participation/i
     end
   end
