@@ -265,29 +265,29 @@ cs:
       feature3:
         subtitle: The right to decide with all democratic guarantees
         text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
-        title: Votings
+        title: Hlasování
       feature4:
-        subtitle: Setting everyone's agenda, within everyone's reach
-        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
+        subtitle: Nastavení agendy pro všechny, v dosahu všech
+        text: Účastníci mohou vytvářet společné iniciativy, definovat jejich cestu a cíle, shromažďovat schválení, projednávat, projednávat a šířit iniciativy, stanovit místa zasedání, kde mohou být podpisy shromažďovány od účastníků nebo diskusí, které jsou přístupné ostatním členům organizace.
         title: Iniciativy
       feature5:
-        subtitle: Your ideas in detail
+        subtitle: Vaše nápady podrobně
         text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Návrhy
       feature6:
-        subtitle: Decide your choice
+        subtitle: Rozhodněte o své volbě
         text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Hlasování
       feature7:
-        subtitle: No proposal without an answer
+        subtitle: Žádný návrh nezůstane bez odpovědi
         text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Výsledky
       feature8:
-        subtitle: End-to-end transparency
+        subtitle: Transparentnost od začátku do konce
         text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Odpovědnost
       feature9:
-        subtitle: To meet and not miss anything
+        subtitle: Potkat se a nenechat si nic ujít
         text: Komponenta Schůzky nabízí organizacím a účastníkům možnost svolat zasedání, určit jejich polohu a čas, zaregistrují a omezují účastníky, definují strukturu a obsah zasedání, jakož i zveřejňují zápisy a výsledné návrhy.
         title: Zasedání
     subtitle: For democratic organizations and collectives of any size and kind.
@@ -297,7 +297,7 @@ cs:
     type2:
       title: Komponenty
     type3:
-      cta: Explore the modules
+      cta: Prozkoumejte moduly
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
       title: Moduly
   first-steps:
@@ -313,8 +313,8 @@ cs:
       title: Správný nástroj pro vás
     first-steps3:
       content: Pokud vaši zastupitelé ve městě uvažují o zavádění participativních politik, zjistěte, jak je můžete přesvědčit, aby to udělali.
-      link1: Find a partner
-      pre: For governments
+      link1: Najděte partnera
+      pre: Pro vlády
       title: Decidim in your city
     intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
     section2:
@@ -556,8 +556,8 @@ cs:
     examples-2:
       l1: Selling merchandise (stickers, t-shirts, mugs, etc).
       l2: Použití loga Decidim na obalu knihy.
-      l3: Use of the Decidim logo in a header in a website, implying that you’re the Decidim organization.
-      title: Examples of use that do need permission
+      l3: Použití loga Decidim v záhlaví webových stránek, což znamená, že jste organizace Decidim.
+      title: Příklady použití, které potřebují povolení
     examples-3:
       l1: Naming your company or product after Decidim, like "The Decidim Consultants".
       title: Příklady použití, které nezískají oprávnění
@@ -568,7 +568,7 @@ cs:
     p1: '"Decidim" and the Decidim logo are registered trademarks of Associació de Software Lliure Decidim. You may not use these trademarks in a commercial setting to infer that your product or service is endorsed or associated with Decidim without permission. You may use these marks to refer to Decidim in a way where it''s clear that you''re simply referring to the project, not claiming endorsement or association.'
     p2: 'If you’re using the Decidim logo in any way you need to add the following text: <i>"Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim."</i>'
     p3: 'We have developed this trademark usage policy with the following goals in mind:'
-    p4: You can request permission by emailing associacio@decidim.org.
+    p4: O povolení můžete požádat e-mailem na associacio@decidim.org.
     p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
     title: Zásady používání ochranných známek
   used_by:
