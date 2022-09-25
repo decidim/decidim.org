@@ -1,28 +1,28 @@
 fi:
   '404':
-    intro: Maybe you were looking for...
-    subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
-    title: Page not found
+    intro: Ehkä etsit jotain näistä...
+    subtitle: Näyttäisi, että painoit rikkinäistä linkkiä tai yritit mennä sivulle, jota ei ole olemassa tällä sivustolla.
+    title: Sivua ei löytynyt
   about:
     about:
-      - Support us
-      - Contact us
-      - Our assembly
+      - Tue meitä
+      - Ota yhteyttä
+      - Oma yhteisömme
       - Lehdistö
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
     support_intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_title: Support Decidim
-    title: About Decidim
+    support_title: Tue Decidimiä
+    title: Tietoa Decidimistä
     values:
-      v1: Compromise and responsibility
-      v2: Equal opportunities and quality indicators
-      v3: Open content to share and cooperate
-      v4: Free software to enable autonomy
-      v5: Data confidentiality
-      v6: Transparency, traceability and integrity
+      v1: Kompromissit ja vastuullisuus
+      v2: Tasavertaiset mahdollisuudet ja laatuindikaattorit
+      v3: Avoin sisältö jaettavaksi ja yhteistyö
+      v4: Vapaa ohjelmisto itsemäärämisoikeuden mahdollistajana
+      v5: Tiedon luottamuksellisuus
+      v6: Läpinäkyvyys, seurattavuus ja tiedon eheys
       v7: Continuous improvement and collaboration between organizations
     values_cta: Read the social contract
     values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
@@ -212,7 +212,7 @@ fi:
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
     title: UKK
     types:
-      about: About Decidim
+      about: Tietoa Decidimistä
       association: Association
       community: Community and social contract
       features: Roadmap and features
