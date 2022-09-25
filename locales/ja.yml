@@ -118,8 +118,8 @@ ja:
         question: Decidimとは
         type: Decidimについて
       q10:
-        answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report). If you want to actively participate in the Metadecidim community, you can attend Community Meetings. Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-        question: I have ideas for new improvement features. I want to have a better understanding of the project. What can I do?
+        answer: コラボレーションする方法はいくつかあります。そのひとつが、[Metadecidim](http://meta.decidim.org)コミュニティを通じてです。新しい機能を提案したい場合は、[ここに行ってください](https://meta.decidim.org/processes/roadmap)。エラーを発見し、それを通知したい場合は、[このプロセスへ](https://meta.decidim.org/processes/bug-report)。Metadecidimコミュニティに積極的に参加したい場合は、コミュニティミーティングに参加することができます。コミュニティの参加者として登録し、一緒に参加しましょう。もしコードに関することであれば、[Githubに来てください](https://github.com/decidim/decidim)。研究者であれば、[LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab)に来てみてはいかがでしょうか。
+        question: 新しい改善機能のアイディアがあります。プロジェクトについてもっと理解を深めたいです。どうすればいいですか？
         type: 機能
       q11:
         answer: The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en) and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the [contact form](/contact).
@@ -214,10 +214,10 @@ ja:
     types:
       about: Decidimについて
       association: Association
-      community: Community and social contract
-      features: Roadmap and features
-      install: Installation and license
-      installation: Installation and license
+      community: コミュニティーと社会契約
+      features: ロードマップと機能
+      install: インストールとライセンス
+      installation: インストールとライセンス
       users: ユーザーと役割
   features:
     intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
@@ -283,7 +283,7 @@ ja:
         text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: 結果
       feature8:
-        subtitle: End-to-end transparency
+        subtitle: エンドツーエンドの透明性
         text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: アカウンタビリティ
       feature9:
@@ -297,7 +297,7 @@ ja:
     type2:
       title: コンポーネント
     type3:
-      cta: Explore the modules
+      cta: モジュールを探索する
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
       title: モジュール
   first-steps:
@@ -305,7 +305,7 @@ ja:
       content: You can install it yourself or find someone to help you with tech support.
       link1: ドキュメント
       pre: For technologists
-      title: Installing Decidim
+      title: Decidimのインストール
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
       link1: 機能
@@ -313,12 +313,12 @@ ja:
       title: The right tool for you
     first-steps3:
       content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
-      link1: Find a partner
+      link1: パートナーを探す
       pre: For governments
-      title: Decidim in your city
+      title: あなたの都市のDecidim
     intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
     section2:
-      link: Explore all features
+      link: すべての機能を見る
       subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
       title: Decidimは最適なツールでしょうか?
     section3:
@@ -359,7 +359,7 @@ ja:
       intro: 自由、オープンで安全なテクノロジー。<br/>民主的な意思決定の保証。<br/>民主主義の再構築 (Reprogramming) は、Decidimが可能にします。
       subheading: Decidimは市民参加のためのデジタルプラットフォームです
     subhero:
-      cta: Explore all features
+      cta: すべての機能を見る
       feature1: 戦略的な計画立案
       feature2: 参加型プロセス
       feature3: 直接参加型の機関
@@ -568,30 +568,30 @@ ja:
     p1: '"Decidim" and the Decidim logo are registered trademarks of Associació de Software Lliure Decidim. You may not use these trademarks in a commercial setting to infer that your product or service is endorsed or associated with Decidim without permission. You may use these marks to refer to Decidim in a way where it''s clear that you''re simply referring to the project, not claiming endorsement or association.'
     p2: 'If you’re using the Decidim logo in any way you need to add the following text: <i>"Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim."</i>'
     p3: 'We have developed this trademark usage policy with the following goals in mind:'
-    p4: You can request permission by emailing associacio@decidim.org.
-    p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
+    p4: 電子メール（associacio@decidim.org）で許可を申請することができます。
+    p5: この商標ポリシーページは、<a href="%{rails_url}">Ruby on Rails</a>と<a href="%{wordpress_url}">Wordpress Foundation</a>をベースに作成されています。
     title: 商標ポリシー
   used_by:
     cta: 始めよう
-    disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
+    disclaimer: ロゴマークは、それぞれの著作権者の知的財産です。<br>本サイトの他のコンテンツが採用しているクリエイティブ・コモンズの BY-SA ライセンスには該当しません。
     facts:
-      f1: instances
-      f2: countries
-      f3: institutions
-      f4: organizations
-      f5: participants
-      f6: processes
-      f7: proposals
-      f8: comments
-      f9: meetings
-      subtitle: Decidim keeps growing and being adopted by organizations and the community.
-      title: Facts & Figures
+      f1: インスタンス
+      f2: 国
+      f3: 機関
+      f4: 組織
+      f5: 参加者
+      f6: プロセス
+      f7: 提案
+      f8: コメント
+      f9: ミーティング
+      subtitle: Decidimは、組織やコミュニティで採用され、成長を続けています。
+      title: 実績と図
     filters:
-      f0: See all
+      f0: すべて表示
       f1: 公共機関
       f2: 都市
       f3: NGO
-    intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
-    join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
+    intro: Decidimは、数百人、数千人の潜在的な参加者がいる公共または民間の組織、例えば、市区町村議会、協会、大学、NGO、労働組合、近隣の集団や協同組合などで使用することができます...
+    join: 400以上の団体、250の政府機関、150の草の根コミュニティが、民主的なプロセスのためにDecidimを選んでいます。
     subtitle: これらの都市、地域、組織はすでにDecidimを使用しています
     title: 使用中のDecidim
