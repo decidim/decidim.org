@@ -7,7 +7,7 @@ tags: ["casestudy"]
 
 *Hal Seki. Founder of Code for Japan*
 
-The first Decidim instance in the Pacific island was deployed on the year 2020 at [Kakosawa](https://kakogawa.diycities.jp), later came [Yosano](https://yosano.makeour.city), [Nishiaizu](https://nishiaizu.makeour.city), [Kamaishi](https://kamaishi.makeour.city) and the community instance [Meta](https://meta.diycities.jp). 
+The first Decidim instance in the Pacific island was deployed on the year 2020 at [Kakogawa](https://kakogawa.diycities.jp), later came [Yosano](https://yosano.makeour.city), [Nishiaizu](https://nishiaizu.makeour.city), [Kamaishi](https://kamaishi.makeour.city) and the community instance [Meta](https://meta.diycities.jp). 
 
 ## Why did you choose Decidim?
 
