@@ -1,59 +1,59 @@
 ja:
   '404':
-    intro: Maybe you were looking for...
-    subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
+    intro: お探しの情報は...
+    subtitle: 古いリンクをたどってきたか、このサイトに存在しないURLを入力したようです。
     title: ページが見つかりません
   about:
     about:
       - 支援
       - お問い合わせ
-      - Our assembly
+      - 私たちのアセンブリ
       - プレス
-    intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_at_opencollective: Support us at Open Collective
-    support_intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_title: Support Decidim
-    title: About Decidim
+    intro: 私たちは、自由、オープン、協調的で反省的な方法で、技術、方法論、実践、標準、アクション、ナラティブ、価値の構築を通じて、社会の民主化に貢献したいと考えています。
+    subtitle: Decidim Free Software Associationは、 Decidim コミュニティのガバナンスのための民主的組織です。
+    support_at_opencollective: Open Collectiveで支援する
+    support_intro: 私たちは、自由、オープン、協調的で反省的な方法で、技術、方法論、実践、標準、アクション、ナラティブ、価値の構築を通じて、社会の民主化に貢献したいと考えています。
+    support_subtitle: Decidim Free Software Associationは、 Decidim コミュニティのガバナンスのための民主的組織です。
+    support_title: Decidimを支援する
+    title: Decidimについて
     values:
-      v1: Compromise and responsibility
-      v2: Equal opportunities and quality indicators
-      v3: Open content to share and cooperate
-      v4: Free software to enable autonomy
-      v5: Data confidentiality
-      v6: Transparency, traceability and integrity
-      v7: Continuous improvement and collaboration between organizations
-    values_cta: Read the social contract
-    values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
-    values_title: Our values
+      v1: 歩み寄りと責任
+      v2: 機会均等と品質指標
+      v3: 共有と協力のためのオープンコンテンツ
+      v4: 自律化のための自由ソフトウェア
+      v5: データ機密性の確保
+      v6: 透明性、トレーサビリティ、完全性
+      v7: 組織間の継続的な改善とコラボレーション
+    values_cta: 社会契約を読む
+    values_intro: "<p>Decidim にはその始まりから、プロジェクトの価値を含む社会契約があります。</p><p>Decidim Free Software Association の全メンバーは、この契約を尊重することを約束します。</p>"
+    values_title: 私たちの価値
   alert:
-    button: Read more
-    p1: The Future of The Internet · October 13-14
+    button: もっと読む
+    p1: The Future of The Internet・10月13日〜14日
     strong: Decidim Fest 22
   blog:
-    latest: Latest blog post
-    read_more: Read more
-    subtitle: Latest news from Decidim.
+    latest: 最新の投稿
+    read_more: もっと読む
+    subtitle: Decidimの最新情報
     tags:
-      title: Articles tagged with
+      title: タグ付けされた記事
     title: ブログ
   case_study:
     n1:
       org: ヘルシンキ市
-      quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
+      quote: 私たちは、使いやすいインターフェイスでヘルシンキのプロセスをサポートするための適切なプラットフォームを見つけるために、7種類の参加型予算オプションを評価し、さまざまなニーズに合わせたモジュール性を必要としました。 Decidimは評価を獲得し、最初のインスタンスは2018で構築されました。
     n2:
       org: Code for Japan
-      quote: Decidim provides customize-friendly architecture so that we can adapt it to our domestic situation.
+      quote: Decidimはカスタマイズに適したアーキテクチャを提供しているため、国内の状況に対応させています。
     n3:
-      org: European Commission
-      quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
+      org: 欧州委員会
+      quote: デジタルプラットフォームは2021年4月19日に開始され、2022年5月9日までの貢献を受け付けていました。 期間中、18859件のアイデアと22167件のコメントが寄せられ、6661件のイベントが開催されました。 デジタルプラットフォームを通じて集められた貢献は、欧州市民パネルによって取り上げられ、会議のもう一つの柱である全体会議で議論されました。
   community:
-    community1: Propose and help define new features
-    community2: Report bugs and help the developers fix them
-    community3: Help shape the future of the platform
-    cta: Go to Metadecidim
-    figcaption: The Decidim Community during the Decidim Fest 2021
+    community1: 新しい機能の定義を提案し、助けます
+    community2: バグを報告し、開発者が修正するのに協力します
+    community3: プラットフォームの未来を形作ることに協力します
+    cta: Metadecidimに移動
+    figcaption: Decidim Fest 2021のDecidimコミュニティ
     img_alt: Metadecidim Meeting 2016 でのDecidimコミュニティの写真
     intro: Metadecidimはプラットフォームの設計とプロジェクトの構築に協力するコミュニティです。 プラットフォームを継続的に改善するために、新しい機能とレポートのバグを設計・開発できます。
     subtitle: Decidimプロジェクトをあらゆる面で統括する民主的コミュニティ
@@ -66,25 +66,25 @@ ja:
     privacy_policy:
       accept: <a href="%{privacy_policy_url}">プライバシーポリシー</a>に同意します
       message: "<p>お問い合わせフォーム、電子メール、または同様の通信手段でお問い合わせいただいた場合、コメント、要望、提案などに対応するため、名前、事業体、電子メールアドレス、ユーザーメッセージの内容を自動的に収集します。</p> <p>加えて、利用者を個別に特定できないようにするため、仮名化、さらにはデータ集約などの匿名化技術を使用し、統計的な調査のためにこれらのデータを処理することがあります。</p>"
-    send: Send message
-    subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Contact Decidim
+    send: メッセージを送信
+    subtitle: お問い合わせは、お問い合わせフォームにご記入いただくか、下記までメールをお送りください。
+    title: Decidimへのお問い合わせ
   demo:
     button: オンラインデモ
     p1: オンラインデモを利用して、Decidimプラットフォームを自由に触れてみてください
-    strong: Try Online
+    strong: オンラインで試してみる
     title: オンラインデモ
   faqs:
-    cta: Read all FAQs
+    cta: よくある質問
     questions:
       q01:
-        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
-        question: What is Decidim?
-        type: about
+        answer: 'Decidimは、都市や組織のための自由・オープンソースの参加型民主主義プラットフォームです。しかし、Decidimはデジタルプラットフォーム以上のものです。それは、コード、文書、デザイン、トレーニングコース、法的枠組み、コラボレイティブなインターフェース、ユーザーとファシリテーションのコミュニティ、および共通のビジョンを含む、フリーでオープンなプロジェクトとインフラストラクチャなのです。'
+        question: Decidimとは
+        type: Decidimについて
       q02:
         answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
         question: Who is currently using Decidim?
-        type: about
+        type: Decidimについて
       q03:
         answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
         question: What can a Decidim administrator do?
@@ -110,13 +110,13 @@ ja:
         question: Where can I find the project roadmap and the planned features?
         type: features
       q09:
-        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
+        answer: Decidimは、人々により、人々のために作られた市民参加のためのプラットフォームです。ソースコードは公開されており、誰でも閲覧、修正、拡張することができます。Decidimのソフトウェアは、[AGPLライセンス](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)によって提供されています。つまり、AGPLライセンスを遵守する限り、使用、修正、派生バージョンの再配布が可能です。
         question: What does it mean that Decidim is for free, "libre" and open source?
         type: install
       q1:
-        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
-        question: What is Decidim?
-        type: about
+        answer: 'Decidimは、都市や組織のための自由・オープンソースの参加型民主主義プラットフォームです。しかし、Decidimはデジタルプラットフォーム以上のものです。それは、コード、文書、デザイン、トレーニングコース、法的枠組み、コラボレイティブなインターフェース、ユーザーとファシリテーションのコミュニティ、および共通のビジョンを含む、フリーでオープンなプロジェクトとインフラストラクチャなのです。'
+        question: Decidimとは
+        type: Decidimについて
       q10:
         answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report). If you want to actively participate in the Metadecidim community, you can attend Community Meetings. Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
         question: I have ideas for new improvement features. I want to have a better understanding of the project. What can I do?
@@ -124,7 +124,7 @@ ja:
       q11:
         answer: The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en) and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the [contact form](/contact).
         question: I have many doubts, of all kinds...where can I ask them or solve them?
-        type: about
+        type: Decidimについて
       q12:
         answer: You can check the latest version of our admin manual in the [Documentation section](https://docs.decidim.org).
         question: Is there any tutorial to start setting it up?
@@ -160,7 +160,7 @@ ja:
       q2:
         answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
         question: Who is currently using Decidim?
-        type: about
+        type: Decidimについて
       q20:
         answer: Now the people involved in the project can be partners. [Here we explain in detail how you have to do it](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
         question: How can I become a member of the Decidim Association?
@@ -176,7 +176,7 @@ ja:
       q23:
         answer: Yes, but you have to be patient. There are a lot of institutions that want to use Decidim right now and we are helping them step by step. [Contact us](/contact) for any question and we will answer you as soon as possible.
         question: Do you support institutions?
-        type: about
+        type: Decidimについて
       q24:
         answer: Decidim and the Decidim logo are registered by the Association, they cannot be used as a commercial product nor cannot be sold. If used, the credit has to be referenced to the project. You can read more about this in our [Trademark policy](/trademark-policy).
         question: What is Decidim's trademark policy?
@@ -206,13 +206,13 @@ ja:
         question: Where can I find the project roadmap and the planned features?
         type: features
       q9:
-        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
+        answer: Decidimは、人々により、人々のために作られた市民参加のためのプラットフォームです。ソースコードは公開されており、誰でも閲覧、修正、拡張することができます。Decidimのソフトウェアは、[AGPLライセンス](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)によって提供されています。つまり、AGPLライセンスを遵守する限り、使用、修正、派生バージョンの再配布が可能です。
         question: What does it mean that Decidim is for free, "libre" and open source?
         type: install
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
     title: よくある質問
     types:
-      about: About Decidim
+      about: Decidimについて
       association: Association
       community: Community and social contract
       features: Roadmap and features
@@ -331,7 +331,7 @@ ja:
       intro: The <strong>Decidim Free Software Association</strong>  is a democratic association for the governance of the Decidim community.
       subtitle: "<strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform."
       title: Who’s behind the platform?
-    subtitle: Decidim is a digital platform<br/>for citizen participation
+    subtitle: Decidimは市民参加のための<br/>デジタルプラットフォームです
     title: First steps with Decidim
   footer:
     about_us: About us
@@ -357,7 +357,7 @@ ja:
     hero:
       cta: Get started
       intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
-      subheading: Decidim is a digital platform for citizen participation
+      subheading: Decidimは市民参加のためのデジタルプラットフォームです
     subhero:
       cta: Explore all features
       feature1: Strategic planning
