@@ -328,8 +328,8 @@ cs:
     section4:
       button1: O asociaci
       button2: Připojit se ke komunitě
-      intro: The <strong>Decidim Free Software Association</strong>  is a democratic association for the governance of the Decidim community.
-      subtitle: "<strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform."
+      intro: <strong>Decidim Free Software Association</strong> je demokratické sdružení pro správu komunity Decidim.
+      subtitle: "<strong>Metadecidim</strong> je komunita, která spolupracuje na návrhu platformy a vývoji projektu. Společně navrhujeme a vytváříme nové funkce a oznamujeme chyby pro trvalé zlepšování platformy."
       title: Kdo stojí za platformou?
     subtitle: Decidim je digitální platforma<br/>pro participaci občanů
     title: První kroky s Decidim
@@ -454,21 +454,21 @@ cs:
       p3: Na podporu nedávno registrovaných organizací Decidim Partners budou během prvního roku osvobozeni od ekonomického přispívání k prvnímu vypracování svého obchodního plánu s Decidim. Mezitím doporučujeme, aby Partneři Decidim našli jiné způsoby, jak přispět k projektu (např. pomocí hlášení chyb, Tyto prostředky jsou určeny na pokrytí výdajů na zaměstnance a správních výdajů agentury (hlavy 1 a 2) a provozních výdajů na pracovní program (hlava 3).
     how_to:
       steps:
-        step1: Send an email to associacio [at] decidim [dot] org with your contact information and indicate in the subject I want to become a Decidim Partner.
-        step2: We will contact you for a videoconference to then assess the candidacy.
-        step3: If the candidacy is approved, the Coordination Committee will yearly send you a sworn declaration to be filled and sent back with the receipt of the corresponding bank transfer.
+        step1: Pošlete e-mail asociacio [at] decidim [dot] org s vašimi kontaktními údaji a označte v předmětu chci se stát partnerem Decidim.
+        step2: Budeme vás kontaktovat na videokonferenci, abychom následně posoudili kandidaturu.
+        step3: V případě schválení kandidatury vám koordinační výbor každoročně zašle čestné prohlášení, které je třeba vyplnit a zaslat zpět spolu s potvrzením o přijetí příslušného bankovního převodu.
       title: Jak se stát partnerem Decidim?
     requirements:
-      l1: Management of instances. Manage one or more active facilities of Decidim at the time of the application, for the own use of the entity or third parties.
-      l2: Contributions to the project. Contribute or have contributed significantly to the Decidim project.
-      p1: 'You have to agree to fulfill and sign the <a href="%{social_contract_url}">Social Contract</a> and also fulfill any of the following conditions can be members:'
-      p2: You can read in detail in the <a href="%{metadecidim_partners_url}">Metadecidim assembly</a>.
+      l1: Správa instancí. Správa jedné nebo více aktivních instancí Decidim v době podání žádosti, pro vlastní potřebu subjektu nebo třetích stran.
+      l2: Přispívání k projektu. Přispívají nebo významně přispěli k projektu Decidim.
+      p1: 'Musíte souhlasit se splněním a podepsáním <a href="%{social_contract_url}">Sociální smlouvy</a> a také splnit některou z následujících podmínek:'
+      p2: Podrobnosti si můžete přečíst v <a href="%{metadecidim_partners_url}">Metadecidim assembly</a>.
       title: Jaké požadavky naše organizace musí splnit, aby se stala partnerem?
     subtitle: Pokud vaše organizace chce podpořit Decidim, můžete se stát partnerem Decidim.
     title: Partnerský program
   path: '/cs'
   press:
-    highlights: Media highlights
+    highlights: Nejdůležitější informace v médiích
     kit: Pro média
     links:
       link1:
@@ -476,7 +476,7 @@ cs:
         title: Soubory s logem
       link2:
         link: Shlédnout
-        title: Promotional spot
+        title: Propagační spot
       link3:
         link: Na stránku
         title: Decidim Fest 2021
@@ -542,8 +542,8 @@ cs:
       org: OpenForum Europe Research Director, Evropská unie
       quote: Proces byl zahájen v říjnu 2019 na oddělení Evropské komise pro komunikaci a elektronickou demokracii ve Společném výzkumném středisku, což je vědecká a znalostní služba Evropské komise. Analýza potřeb konference a toho, které nástroje jim odpovídají, vedla k výběru open source nástroje Decidim pro jeho technickou vyspělost, širokou komunitu a přizpůsobivost.
     n8:
-      org: Pipeline to Power, working for NYC Civic Engagement Commission
-      quote: Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded.
+      org: Pipeline to Power, práce pro Komisi pro občanskou angažovanost v New Yorku
+      quote: Decidim je tak výkonný mimo jiné proto, že přidává do práce úroveň abstrakce, která odděluje jednotlivé kroky procesu a činnosti s ním spojené. To je součástí informační architektury, takže nejenže říkáte, co se děje v každém kroku, ale různé části Decidimu se chovají různě v závislosti na tom, kdy děláte, nebo v závislosti na tom, v jakém kroku procesu se nacházíte. Skutečnost, že je to přizpůsobitelné, skutečně umožňuje, aby se Decidim formoval podle toho, jak děláme svou práci, a ne aby se formovala naše práce.
   thanks:
     message: Děkujeme, že jste nás kontaktovali, brzy se k vám vrátíme.
     title: Děkujeme za váš e-mail
@@ -566,14 +566,14 @@ cs:
       l2: Rádi bychom objasnili, jakým způsobem mohou (a nemohou) firmy a projekty spojené se společností Decidim používat název a logo společnosti Decidim.
       l3: Rádi bychom znemožnili, aby kdokoli používal jméno a logo Decidim k nekalému obohacování, klamání nebo matení lidí, kteří hledají oficiální zdroje Decidim.
     p1: '"Decidim" a logo Decidim jsou registrované ochranné známky společnosti Associació de Software Lliure Decidim. Tyto ochranné známky nesmíte používat v komerčním prostředí, abyste naznačili, že váš produkt nebo služba jsou podporovány nebo spojeny se společností Decidim, bez povolení. Tyto ochranné známky smíte používat k odkazu na společnost Decidim způsobem, ze kterého je zřejmé, že pouze odkazujete na projekt, aniž byste si činili nárok na podporu nebo přidružení.'
-    p2: 'If you’re using the Decidim logo in any way you need to add the following text: <i>"Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim."</i>'
-    p3: 'We have developed this trademark usage policy with the following goals in mind:'
+    p2: 'Pokud používáte logo Decidim jakýmkoli způsobem, musíte přidat následující text: <i>"Název a logo Decidim je registrovaná ochranná známka společnosti Associació de Software Lliure Decidim."</i>'
+    p3: 'Tyto zásady používání ochranné známky jsme vypracovali s ohledem na následující cíle:'
     p4: O povolení můžete požádat e-mailem na associacio@decidim.org.
-    p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
+    p5: Tato stránka se zásadami ochranných známek byla založena v <a href="%{rails_url}">Ruby on Rails</a> a <a href="%{wordpress_url}">Wordpress Foundation</a>.
     title: Zásady používání ochranných známek
   used_by:
     cta: Začínáme
-    disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
+    disclaimer: Loga jsou duševním vlastnictvím příslušných držitelů autorských práv.<br>Nespadají pod licenci Creative Commons By-SA, kterou je licencován zbytek obsahu stránek.
     facts:
       f1: instance
       f2: země
@@ -592,6 +592,6 @@ cs:
       f2: Města
       f3: Nevládní organizace
     intro: Můžete použít Decidim ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, sdružení, univerzita, nevládní organizace, odborový svaz, nebo družstvo...
-    join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
+    join: Společnost Decidim si pro své demokratické procesy zvolilo více než 400 subjektů, 250 správních orgánů a 150 místních komunit.
     subtitle: Tato města, regiony a organizace již používají Decidim
     title: Kde se používá
