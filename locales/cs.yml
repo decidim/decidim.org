@@ -118,8 +118,8 @@ cs:
         question: Co je Decidim?
         type: o nás
       q10:
-        answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report). If you want to actively participate in the Metadecidim community, you can attend Community Meetings. Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-        question: I have ideas for new improvement features. I want to have a better understanding of the project. What can I do?
+        answer: Spolupracovat můžete různými způsoby. Jedním z nich je komunita [Metadecidim](http://meta.decidim.org). Pokud chcete navrhnout nové funkce, [přejděte sem](https://meta.decidim.org/processes/roadmap). Pokud jste zjistili chyby a chcete na ně upozornit, [přejděte na tento postup](https://meta.decidim.org/processes/bug-report). Pokud se chcete aktivně zapojit do komunity Metadecidim, můžete se účastnit komunitních setkání. Zaregistrujte se jako účastník komunity a účastněte se s námi. Pokud je vaší doménou kód, [přijďte na Github](https://github.com/decidim/decidim). Pokud jste výzkumný pracovník, možná vás zaujme možnost přijít na [LAB Metadecidim Semináře](https://meta.decidim.org/assemblies/eix-lab).
+        question: Mám nápady na nové vylepšení. Chci projektu lépe porozumět. Co mohu udělat?
         type: vlastnosti
       q11:
         answer: Nejlepší způsob, jak rychle vyřešit své pochybnosti, je prostřednictvím Metadecidim komunity. Vstupte do procesu [fóra podpory](https://meta.decidim.org/processes/supportforum?locale=en) a podívejte se, zda vaše otázka existuje nebo zda byla zodpovězena a jinak zadejte pro položení otázek. Pokud nemůžete vyřešit svůj problém v tomto prostoru, možná je čas nás kontaktovat prostřednictvím [kontaktního formuláře](/contact).
@@ -138,11 +138,11 @@ cs:
         question: Jaké jsou rozdíly proti projektu Consul Project / Decide Madrid?
         type: vlastnosti
       q15:
-        answer: "[Metadecidim](http://meta.decidim.org) is the community of Decidim that collaborates in the design of the platform and the construction of the Decidim project. We meet regularly through the Community Meetings, for issues related to the technological aspects of the platform and the Labs witc are [Research](https://meta.decidim.org/assemblies/eix-lab) oriented meetings. Our annual conference is Decidim Fest. Go to [meta.decidim.org](http://meta.decidim.org) to follow the calls closely and if you want to join the community. We'd love to ;-)"
+        answer: "[Metadecidim](http://meta.decidim.org) je komunita Decidimu, která spolupracuje na návrhu platformy a výstavbě projektu Decidim. Pravidelně se setkáváme prostřednictvím komunitních setkání, a to k otázkám souvisejícím s technologickými aspekty platformy, a Labs witc jsou [Research](https://meta.decidim.org/assemblies/eix-lab) orientovaná setkání. Naší každoroční konferencí je Decidim Fest. Chcete-li pozorně sledovat hovory a chcete-li se připojit ke komunitě, navštivte stránku [meta.decidim.org](http://meta.decidim.org). Budeme rádi ;-)"
         question: Co je to Metadecidim komunita?
         type: komunita
       q16:
-        answer: Of course you can. People do so through participatory processes, debates, translations, etc. that you might find in Metadecidim. Decidim was born in Barcelona and that is why there is a strong territorial bond with this city, but above all, it's a project for the commons.
+        answer: Samozřejmě, že můžete. Lidé tak činí prostřednictvím participačních procesů, debat, překladů atd., které můžete najít v Metadecidim. Decidim se zrodil v Barceloně, a proto existuje silné teritoriální pouto s tímto městem, ale především je to projekt pro společenství.
         question: Can I join the Metadecidim community even if I don't live in Barcelona?
         type: komunita
       q17:
@@ -315,8 +315,8 @@ cs:
       content: Pokud vaši zastupitelé ve městě uvažují o zavádění participativních politik, zjistěte, jak je můžete přesvědčit, aby to udělali.
       link1: Najděte partnera
       pre: Pro vlády
-      title: Decidim in your city
-    intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
+      title: Decidim ve vašem městě
+    intro: Je to svobodný/libre a open-source webový software, udržovaný extenzivní a aktivní komunitou. Můžete použít Decidim ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, sdružení, univerzita, nevládní organizace, odborové svazy, sdružení sousedů nebo družstvo...
     section2:
       link: Prozkoumejte všechny funkce
       subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
@@ -463,8 +463,8 @@ cs:
       l2: Contributions to the project. Contribute or have contributed significantly to the Decidim project.
       p1: 'You have to agree to fulfill and sign the <a href="%{social_contract_url}">Social Contract</a> and also fulfill any of the following conditions can be members:'
       p2: You can read in detail in the <a href="%{metadecidim_partners_url}">Metadecidim assembly</a>.
-      title: Which requirements does my organization need to meet to become a partner?
-    subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
+      title: Jaké požadavky naše organizace musí splnit, aby se stala partnerem?
+    subtitle: Pokud vaše organizace chce podpořit Decidim, můžete se stát partnerem Decidim.
     title: Partnerský program
   path: '/cs'
   press:
@@ -549,23 +549,23 @@ cs:
     title: Děkujeme za váš e-mail
   trademark:
     examples-1:
-      l1: Including the Decidim logo on product pages to say "we work with Decidim" (e.g., hosting, consultancy services, developments based on Decidim).
+      l1: Uvádění loga Decidim na stránkách produktů s nápisem "spolupracujeme s Decidim" (např. hosting, poradenské služby, vývoj založený na Decidim).
       l2: Použití ochranné známky "Decidim" v názvech knih a výzkumných článcích.
       l3: Používání loga Decidim v zápatí instance (‚Běží na Decidim‘).
       title: Příklady použití, které nepotřebují povolení
     examples-2:
-      l1: Selling merchandise (stickers, t-shirts, mugs, etc).
+      l1: Prodej zboží (samolepky, trička, hrnky atd.).
       l2: Použití loga Decidim na obalu knihy.
       l3: Použití loga Decidim v záhlaví webových stránek, což znamená, že jste organizace Decidim.
       title: Příklady použití, které potřebují povolení
     examples-3:
-      l1: Naming your company or product after Decidim, like "The Decidim Consultants".
+      l1: Pojmenování společnosti nebo produktu po společnosti Decidim, například "The Decidim Consultants".
       title: Příklady použití, které nezískají oprávnění
     goals:
       l1: Rádi bychom komukoliv usnadnili používání názvu Decidim nebo loga pro komunitně orientované úsilí, které pomáhá šířit a zlepšovat Decidim.
-      l2: We’d like to make it clear how Decidim-related businesses and projects can (and cannot) use the Decidim name and logo.
-      l3: We’d like to make it hard for anyone to use the Decidim name and logo to unfairly profit from, trick or confuse people who are looking for official Decidim resources.
-    p1: '"Decidim" and the Decidim logo are registered trademarks of Associació de Software Lliure Decidim. You may not use these trademarks in a commercial setting to infer that your product or service is endorsed or associated with Decidim without permission. You may use these marks to refer to Decidim in a way where it''s clear that you''re simply referring to the project, not claiming endorsement or association.'
+      l2: Rádi bychom objasnili, jakým způsobem mohou (a nemohou) firmy a projekty spojené se společností Decidim používat název a logo společnosti Decidim.
+      l3: Rádi bychom znemožnili, aby kdokoli používal jméno a logo Decidim k nekalému obohacování, klamání nebo matení lidí, kteří hledají oficiální zdroje Decidim.
+    p1: '"Decidim" a logo Decidim jsou registrované ochranné známky společnosti Associació de Software Lliure Decidim. Tyto ochranné známky nesmíte používat v komerčním prostředí, abyste naznačili, že váš produkt nebo služba jsou podporovány nebo spojeny se společností Decidim, bez povolení. Tyto ochranné známky smíte používat k odkazu na společnost Decidim způsobem, ze kterého je zřejmé, že pouze odkazujete na projekt, aniž byste si činili nárok na podporu nebo přidružení.'
     p2: 'If you’re using the Decidim logo in any way you need to add the following text: <i>"Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim."</i>'
     p3: 'We have developed this trademark usage policy with the following goals in mind:'
     p4: O povolení můžete požádat e-mailem na associacio@decidim.org.
