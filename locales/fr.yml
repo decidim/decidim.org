@@ -214,10 +214,10 @@ fr:
     types:
       about: À propos de Decidim
       association: Association
-      community: Community and social contract
+      community: Communauté et contrat social
       features: Roadmap and features
-      install: Installation and license
-      installation: Installation and license
+      install: Installation et licence
+      installation: Installation et licence
       users: Users and roles
   features:
     intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
@@ -305,33 +305,33 @@ fr:
       content: You can install it yourself or find someone to help you with tech support.
       link1: Documentation
       pre: For technologists
-      title: Installing Decidim
+      title: Installer Decidim
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
       link1: Fonctionnalités
-      pre: For organizations
+      pre: Pour les organisations
       title: The right tool for you
     first-steps3:
       content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
-      link1: Find a partner
+      link1: Trouver un partenaire
       pre: For governments
       title: Decidim in your city
     intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
     section2:
-      link: Explore all features
-      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
-      title: Is Decidim the right tool for you?
+      link: Explorer toutes les fonctionnalités
+      subtitle: Les fonctionnalités flexibles de Decidim sont conçues pour servir à la fois les petits et les grands collectifs, les organisations publiques et privées, avec des centaines ou des milliers d'utilisateurs potentiels.
+      title: Decidim est-il le bon outil pour vous ?
     section3:
-      cta: Read more case studies on our blog
-      link: Read the case study
+      cta: Découvrez plus d'études de cas sur notre blog
+      link: Lire l'étude de cas
       title: Backed by technology, democracy and experience
     section4:
-      button1: About the association
-      button2: Join the community
+      button1: À propos de l'association
+      button2: Rejoignez la communauté
       intro: The <strong>Decidim Free Software Association</strong>  is a democratic association for the governance of the Decidim community.
       subtitle: "<strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform."
       title: Who’s behind the platform?
-    subtitle: Decidim is a digital platform<br/>for citizen participation
+    subtitle: Decidim est une plateforme numérique<br/>pour la participation des citoyens
     title: Premiers pas avec Decidim
   footer:
     about_us: À propos de nous
@@ -352,14 +352,14 @@ fr:
         title: Nous prenons la démocratie très au sérieux
       card3:
         content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
-        link: The community
+        link: La communauté
         title: It's yours. Use it. Share it. Improve it.
     hero:
-      cta: Get started
+      cta: C'est parti !
       intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
       subheading: Decidim est une plateforme numérique pour la participation citoyenne
     subhero:
-      cta: Explore all features
+      cta: Explorer toutes les fonctionnalités
       feature1: Strategic planning
       feature2: Concertations
       feature3: Assemblées
@@ -572,7 +572,7 @@ fr:
     p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
     title: Trademark policy
   used_by:
-    cta: Get started
+    cta: C'est parti !
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
     facts:
       f1: instances
