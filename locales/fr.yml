@@ -86,7 +86,7 @@ fr:
         question: Qui utilise actuellement Decidim?
         type: à propos
       q03:
-        answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
+        answer: Configurez facilement les processus participatifs. Voulez-vous faire un plan stratégique ? Discuter de nouvelles règlementations ? Discuter de l'aménagement d'une nouvelle place ou d'un bâtiment public ? Grâce à Decidim, vous pourrez configurer des espaces de participation (initiatives, assemblées, processus ou consultations) et les enrichir grâce aux multiples fonctionnalités disponibles (rencontres, enquêtes, propositions, votes, suivi des résultats, commentaires et bien d’autres).
         question: Que peut faire un administrateur Decidim ?
         type: utilisateurs
       q04:
@@ -110,8 +110,8 @@ fr:
         question: Où puis-je trouver la feuille de route du projet et les fonctionnalités prévues?
         type: fonctionnalités
       q09:
-        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
-        question: What does it mean that Decidim is for free, "libre" and open source?
+        answer: Decidim est une plateforme pour la participation citoyenne faite par le peuple et pour le peuple. Son code source est ouvert et peut être inspecté, modifié et amélioré par n'importe qui. Le logiciel Decidim est couvert par la [licence AGPL](https://fr.wikipedia.org/wiki/GNU_Affero_General_Public_License). Cela signifie que vous pouvez l'utiliser, le modifier et redistribuer les versions dérivées de celui-ci tant que vous respectez la licence AGPL.
+        question: Qu'est-ce que cela signifie que Decidim est gratuit, "libre" et open source?
         type: installer
       q1:
         answer: 'Decidim est une plateforme libre et open-source de démocratie participative pour les villes et les organisations. Mais Decidim est plus qu''une plate-forme numérique : c''est un projet et une infrastructure libre et ouverte impliquant du code, de la documentation, de la conception, des formations, un cadre juridique, des interfaces collaboratives, des communautés d''utilisateurs et de facilitation, et une vision commune.'
@@ -182,7 +182,7 @@ fr:
         question: Quelle est la politique de Decidim en matière de marques commerciales ?
         type: association
       q3:
-        answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
+        answer: Configurez facilement les processus participatifs. Voulez-vous faire un plan stratégique ? Discuter de nouvelles règlementations ? Discuter de l'aménagement d'une nouvelle place ou d'un bâtiment public ? Grâce à Decidim, vous pourrez configurer des espaces de participation (initiatives, assemblées, processus ou consultations) et les enrichir grâce aux multiples fonctionnalités disponibles (rencontres, enquêtes, propositions, votes, suivi des résultats, commentaires et bien d’autres).
         question: Que peut faire un administrateur Decidim ?
         type: utilisateurs
       q4:
@@ -206,37 +206,37 @@ fr:
         question: Où puis-je trouver la feuille de route du projet et les fonctionnalités prévues?
         type: fonctionnalités
       q9:
-        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
-        question: What does it mean that Decidim is for free, "libre" and open source?
+        answer: Decidim est une plateforme pour la participation citoyenne faite par le peuple et pour le peuple. Son code source est ouvert et peut être inspecté, modifié et amélioré par n'importe qui. Le logiciel Decidim est couvert par la [licence AGPL](https://fr.wikipedia.org/wiki/GNU_Affero_General_Public_License). Cela signifie que vous pouvez l'utiliser, le modifier et redistribuer les versions dérivées de celui-ci tant que vous respectez la licence AGPL.
+        question: Qu'est-ce que cela signifie que Decidim est gratuit, "libre" et open source?
         type: installer
-    subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
+    subtitle: Si vous ne trouvez pas la réponse à votre question ci-dessous, contactez-nous à hola@decidim.org
     title: Foire aux questions
     types:
       about: À propos de Decidim
       association: Association
       community: Communauté et contrat social
-      features: Roadmap and features
+      features: Feuille de route et fonctionnalités
       install: Installation et licence
       installation: Installation et licence
-      users: Users and roles
+      users: Utilisateurs et rôles
   features:
-    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
+    intro: "<p>Vous pouvez utiliser Decidim dans une organisation publique ou privée, avec des centaines ou des milliers de participants potentiels. comme un conseil municipal, une association, une université, une ONG, un syndicat, une association de quartier ou une coopérative...</p><p>Grâce à Decidim vous pourrez configurer des <strong>espaces</strong> pour la participation (initiatives, assemblées, processus ou consultations) et les enrichir grâce aux multiples <strong>fonctionnalités disponibles</strong> (rencontres, sondages, propositions, vote, suivi des résultats, <strong>commentaires</strong> et bien plus encore).</p>"
     page:
       feature1:
-        subtitle: To democratize common issues, step by step
+        subtitle: Pour démocratiser les problèmes communs, pas à pas
         text: 'Les concertations sont des espaces qui permettent de créer, activer/désactiver et gérer différents processus participatifs. Ils se distinguent des autres espaces par leur structuration en différentes étpaes au sein desquelles toutes les fonctionnalités peuvent être incorporées. Les exemples de concertations sont : un processus électoral pour les membres d''un comité, un budget participatif, un processus de planification stratégique, la rédaction collaborative d''un règlement ou d''une norme, la conception d''un espace urbain ou la production d''un plan de politique publique.'
         title: Concertations
       feature10:
-        subtitle: To analyze, synthesize, and build in common
-        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
+        subtitle: Analyser, synthétiser et construire en commun
+        text: Peut être utilisée pour convertir de longs documents textes en différentes propositions ou résultats et, vice versa, pour composer et afficher un texte unifié basé sur un ensemble de propositions ou de résultats.
         title: Textes participatifs
       feature11:
         subtitle: Là où les grands événements sont mis en avant
-        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
+        text: Créez un site web pour un grand événement. Unifiez le programme en joignant une série de réunions prédéfinies (chats, ateliers, etc.), et gérez les participants.
         title: Conférence
       feature12:
         subtitle: Parce que l'opinion de votre communauté importe
-        text: Design and publish surveys. Display and download results.
+        text: Concevoir et publier des enquêtes. Afficher et télécharger les résultats.
         title: Enquêtes
       feature13:
         subtitle: Égalité et justice du hasard
@@ -298,13 +298,13 @@ fr:
       title: Composants
     type3:
       cta: Explorer les modules
-      subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
+      subtitle: Grandir au-delà des fonctionnalités par défaut. La communauté Decidim a développé des centaines de modules pour étendre la plateforme au-delà des bases et pour mieux répondre à vos besoins.
       title: Modules
   first-steps:
     first-steps1:
-      content: You can install it yourself or find someone to help you with tech support.
+      content: Vous pouvez l'installer vous-même ou trouver quelqu'un pour vous aider avec un support technique.
       link1: Documentation
-      pre: For technologists
+      pre: Pour les technologistes
       title: Installer Decidim
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
@@ -314,7 +314,7 @@ fr:
     first-steps3:
       content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
       link1: Trouver un partenaire
-      pre: For governments
+      pre: Pour les gouvernements
       title: Decidim in your city
     intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
     section2:
@@ -339,7 +339,7 @@ fr:
     legal: Legal
     supported_by: Avec le soutien de
     trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
-    up_to_date: Stay up to date
+    up_to_date: Restez informés
   index:
     cards:
       card1:
