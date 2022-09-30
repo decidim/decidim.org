@@ -5,7 +5,7 @@ backend:
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
-  - name: "post-en"
+  - name: "post"
     label: "Post"
     folder: "source/blog/en"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
