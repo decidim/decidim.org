@@ -50,5 +50,7 @@ configure :build do
   activate :images
 end
 
-# Copy Netlify's _redirects file on build
+# Copy Netlify's configurations file on build
 proxy "_redirects", "netlify-redirects", ignore: true
+proxy "_headers", "netlify-headers", ignore: true
+
