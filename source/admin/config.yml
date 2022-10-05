@@ -15,6 +15,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "select", options: ["releases", "casestudy"]}
   - name: "Installation (usedby)"
     label: "Installation"
     format: yml
