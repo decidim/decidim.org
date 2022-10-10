@@ -48,6 +48,6 @@ module I18nHelpers
   #
   # @return [Boolean]
   def show_language_selector?
-    !current_page.path.include?("blog") # rubocop:disable Rails/NegateInclude
+    !current_page.path.include?("blog")
   end
 end
