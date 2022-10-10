@@ -1,4 +1,4 @@
-name: "[CI] Main folder"
+name: "[CI] Lint code"
 on:
   push:
     branches:
@@ -44,5 +44,5 @@ jobs:
             npm-
       - name: Install JS dependencies
         run: npm ci
-      - run: bundle exec rspec
-        name: RSpec
+      - run: bundle exec rubocop -P
+        name: Lint Ruby files

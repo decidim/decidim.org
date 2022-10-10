@@ -10,55 +10,54 @@ RSpec.describe I18nHelpers do
   end
 
   describe "#root_for_locale" do
-    let(:subject) { root_for_locale(locale) }
+    subject { root_for_locale(locale) }
 
-    context "English locale" do
+    context "with English locale" do
       let(:locale) { :en }
 
-      it { is_expected.to eq("/") } 
+      it { is_expected.to eq("/") }
     end
 
-    context "Another locale" do
+    context "with Another locale" do
       let(:locale) { :ca }
 
-      it { is_expected.to eq("/ca/") } 
+      it { is_expected.to eq("/ca/") }
     end
   end
 
   describe "#current_path_for_locale" do
-    let(:subject) { current_path_for_locale(locale, current_path) }
+    subject { current_path_for_locale(locale, current_path) }
 
-    context "English locale" do
+    context "with English locale" do
       let(:locale) { :en }
 
-      context "Homepage" do
+      context "when it's on the Homepage" do
         let(:current_path) { "/" }
 
-        it { is_expected.to eq("/") } 
+        it { is_expected.to eq("/") }
       end
 
-      context "About" do
+      context "when it's on the About page" do
         let(:current_path) { "/about" }
 
-        it { is_expected.to eq("/about") } 
+        it { is_expected.to eq("/about") }
       end
     end
 
-    context "Another locale" do
+    context "with another locale" do
       let(:locale) { :ca }
 
-      context "Homepage" do
+      context "when it's on the Homepage" do
         let(:current_path) { "/" }
 
-        it { is_expected.to eq("/ca/") } 
+        it { is_expected.to eq("/ca/") }
       end
 
-      context "About" do
+      context "when it's on the About page" do
         let(:current_path) { "/about" }
 
-        it { is_expected.to eq("/ca/about") } 
+        it { is_expected.to eq("/ca/about") }
       end
     end
   end
 end
-

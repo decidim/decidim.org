@@ -12,7 +12,7 @@ pageClass: home
       <a href="<%= t(:path) %>/first-steps" class="inline-block mt-6 button par-md"><%= t("index.hero.cta") %></a>
     </div>
   </div>
-  <% if alert_enabled? && is_homepage? %>
+  <% if alert_enabled? && homepage? %>
     <%= partial "/partials/alert-banner" %>
   <% end %>
   <div class="container hidden md:block">
