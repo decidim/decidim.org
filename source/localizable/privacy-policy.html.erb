@@ -18,7 +18,7 @@ description:
     <% (1..8)&.each do |n| %>
       <div class="par-md mt-4 prose prose-xl">
         <h2 class="h3 mt-6 md:mt-12"><%= t("privacy-policy.section-#{n}.title") %></h5>
-        <%= t("privacy-policy.section-#{n}.paragraph", decidim_url: "#{t(:path)}/legal-notice#decidim", legal_notice_url: "#{t(:path)}/legal-notice") %>
+        <%= I18n.t("privacy-policy.section-#{n}.paragraph", decidim_url: "#{t(:path)}/legal-notice#decidim", legal_notice_url: "#{t(:path)}/legal-notice") %>
       </div>
     <% end %>
   </div>
