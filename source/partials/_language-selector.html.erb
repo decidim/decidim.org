@@ -1,6 +1,6 @@
 <% direction = direction ||= "down" %>
 
-<% if show_language_switcher? %>
+<% if show_language_selector? %>
 <details class="inline-block relative no-animate">
 
   <summary class="flex space-x-2 items-center cursor-pointer"><%= icon "ri-global-line", class: "w-5 h-5 no-toggle" %> <span class="uppercase"><%= I18n.locale %></span></summary>
@@ -8,7 +8,8 @@
   <ul role="list" class="absolute -left-3 shadow-md pointer-events-none overflow-hidden transition <%= direction == 'up' ? 'pb-8 rounded-t-xl -translate-y-full' : 'rounded-b-xl' %>">
     <% data.languages.each do |lang| %>
       <li class="bg-white text-black pointer-events-auto first:pt-3 last:pb-3">
-        <% link_to(current_path_for_locale(lang.path), relative: true, class: "flex items-center justify-end space-x-2 px-6 hover:bg-gray-300") do %>
+        <%# We don't use link_to here to prevent Middleman from hijacking the locale when it isn't English %>
+        <% content_tag :a, href: current_path_for_locale(lang.path), class: "flex items-center justify-end space-x-2 px-6 hover:bg-gray-300" do %>
           <%= icon "ri-check-fill", class: "text-red-500 w-5 h-5" if I18n.locale.to_s == lang.path.to_s %>
           <span class="flex-none"><%= lang.name %></span>
         <% end %>

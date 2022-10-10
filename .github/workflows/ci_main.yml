@@ -2,14 +2,14 @@ name: "[CI] Main folder"
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches-ignore:
       - "chore/l10n*"
 
 env:
   CI: "true"
-  RUBY_VERSION: 3.1.1
+  RUBY_VERSION: 3.1.2
   NODE_VERSION: 16.9.1
 
 concurrency:

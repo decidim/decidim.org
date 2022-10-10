@@ -1,8 +1,8 @@
-<% if alert_enabled? && !is_homepage? %>
+<% if alert_enabled? && !homepage? %>
   <%= partial "/partials/alert-banner" %>
 <% end %>
-<header class="bg-transparent w-full min-h-[5rem] <%= 'absolute top-0 left-0 z-10 text-white filter-img-alt' if is_homepage? %>">
-  <div class="container pt-6 md:pt-12 pb-4 flex flex-col md:flex-row justify-between items-center pointer-events-none <%= 'absolute md:relative' unless is_homepage? %>">
+<header class="bg-transparent w-full min-h-[5rem] <%= 'absolute top-0 left-0 z-10 text-white filter-img-alt' if homepage? %>">
+  <div class="container pt-6 md:pt-12 pb-4 flex flex-col md:flex-row justify-between items-center pointer-events-none <%= 'absolute md:relative' unless homepage? %>">
     <div class="w-full md:w-auto flex justify-between items-center pointer-events-auto">
       <a href="<%= t(:path) %>/">
         <img class="hidden md:block" src="/images/decidim-logo-claim.svg" alt="Decidim" />

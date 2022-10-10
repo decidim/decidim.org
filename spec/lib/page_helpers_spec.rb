@@ -11,36 +11,35 @@ RSpec.describe PageHelpers do
     allow(I18n).to receive(:available_locales).and_return(locales)
   end
 
-  describe "#is_homepage?" do
-    let(:subject) { is_homepage?(current_page) }
+  describe "#homepage?" do
+    subject { homepage?(current_page) }
 
-    context "on Homepage" do
-      context "English locale" do
+    context "when it's on Homepage" do
+      context "with English locale" do
         let(:current_page) { "/" }
 
-        it { is_expected.to be_truthy } 
+        it { is_expected.to be_truthy }
       end
 
-      context "Another locale" do
+      context "with another locale" do
         let(:current_page) { "/ca/" }
 
-        it { is_expected.to be_truthy } 
+        it { is_expected.to be_truthy }
       end
     end
 
-    context "on another page" do
-      context "English locale" do
+    context "when it's on another page" do
+      context "with English locale" do
         let(:current_page) { "/about" }
 
-        it { is_expected.to be_falsy } 
+        it { is_expected.to be_falsy }
       end
 
-      context "Another locale" do
+      context "with Another locale" do
         let(:current_page) { "/ca/about" }
 
-        it { is_expected.to be_falsy } 
+        it { is_expected.to be_falsy }
       end
     end
   end
 end
-

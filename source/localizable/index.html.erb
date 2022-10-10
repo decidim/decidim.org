@@ -2,18 +2,17 @@
 description:
 pageClass: home
 ---
-
 <section>
   <div class="bg-cover bg-center xl:bg-[position:center_20%] 2xl:bg-[position:center_25%] bg-no-repeat hero">
     <div class="container pt-32 md:pt-56 pb-12 md:pb-16">
       <div class="md:bg-red-500 md:p-8 text-white rounded-xl md:w-1/2">
-        <h2 class="h2"><%= t("index.hero.subheading") %></h2>
+        <h1 class="h2"><%= t("index.hero.subheading") %></h1>
         <p class="par-md mt-6"><%= t("index.hero.intro") %></p>
       </div>
       <a href="<%= t(:path) %>/first-steps" class="inline-block mt-6 button par-md"><%= t("index.hero.cta") %></a>
     </div>
   </div>
-  <% if alert_enabled? && is_homepage? %>
+  <% if alert_enabled? && homepage? %>
     <%= partial "/partials/alert-banner" %>
   <% end %>
   <div class="container hidden md:block">
@@ -74,7 +73,7 @@ pageClass: home
 
 <section class="bg-red-100">
   <div class="container text-red-500 py-6 md:py-24">
-    <h6 class="h6 par-md text-red-500"><%= t('index.used_by.title') %></h2>
+    <h6 class="h6 par-md text-red-500"><%= t('index.used_by.title') %></h6>
     <p class="par-xl max-w-prose mt-2"><%= t('index.used_by.heading') %></p>
     <a class="par-md max-w-prose underline mt-4 block" href="<%= t(:path) %>/usedby"><%= t('index.used_by.link') %></a>
 

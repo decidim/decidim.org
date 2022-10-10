@@ -1,13 +1,15 @@
-require 'rspec'
-require 'capybara/rspec'
+# frozen_string_literal: true
 
-require 'middleman-core'
-require 'middleman-core/rack'
+require "rspec"
+require "capybara/rspec"
 
-require 'middleman-blog'
+require "middleman-core"
+require "middleman-core/rack"
+
+require "middleman-blog"
 
 middleman_app = ::Middleman::Application.new do
-  set :root, File.expand_path(File.join(File.dirname(__FILE__), '..'))
+  set :root, File.expand_path(File.join(File.dirname(__FILE__), ".."))
   set :environment, :test
   set :show_exceptions, false
 end

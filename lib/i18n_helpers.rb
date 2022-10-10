@@ -2,14 +2,14 @@
 
 module I18nHelpers
   # Return the current path for a given locale.
-  # This is used on the language switcher, so we can link to the same page where we are,
+  # This is used on the language selector, so we can link to the same page where we are,
   # instead of linking to the root page of all the languages.
   #
   # @see https://gist.github.com/johnnyshields/98a695df51b1e99f3593579d3c9a3fd1
   # @param loc [Symbol] The current locale
   # @param current_path [String] The current page. We give it as a parameter to it's easier to test.
   def current_path_for_locale(loc = I18n.locale, current_path = current_page.url)
-    url_regex = /\A\/(?:(#{I18n.available_locales.join('|')})\/)?/
+    url_regex = %r{\A/(?:(#{I18n.available_locales.join('|')})/)?}
     if current_path.gsub(url_regex, "").blank?
       home_for_locale(loc)
     else
@@ -43,18 +43,11 @@ module I18nHelpers
     t(:path) + path
   end
 
-  # Wheter if we show the language switcher or not
+  # Wheter if we show the language selector or not
   # On the case of the blog section we don't, as we don't translate all the blog posts to all the locales
   #
   # @return [Boolean]
-  def show_language_switcher?
-    !current_page.path.include?("blog") # rubocop:disable Rails/NegateInclude
-  end
-
-  # In order to get a successful build, it requires to parse the missing i18n keys
-  # for languages others than english, so this function returns the translations if exists
-  # otherwise it returns a default value
-  def t_with_default(key, default = {})
-    t(key, default: "").presence || default
+  def show_language_selector?
+    !current_page.path.include?("blog")
   end
 end
