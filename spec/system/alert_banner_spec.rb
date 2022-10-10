@@ -4,7 +4,9 @@ require "spec_helper"
 
 RSpec.describe "alert banner", type: :feature do
   before do
+    # rubocop:disable RSpec/AnyInstance
     allow_any_instance_of(PageHelpers).to receive(:alert_enabled?).and_return(enabled)
+    # rubocop:enable RSpec/AnyInstance
     visit route
   end
 
