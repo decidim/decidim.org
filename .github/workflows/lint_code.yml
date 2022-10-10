@@ -44,5 +44,5 @@ jobs:
             npm-
       - name: Install JS dependencies
         run: npm ci
-      - run: bundle exec ruboocop -P
+      - run: bundle exec rubocop -P
         name: Lint Ruby files
