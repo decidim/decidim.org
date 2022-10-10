@@ -128,6 +128,7 @@ ignore_unused:
   - 'first-steps.*.{pre,title,content,link1}'
   - 'partnership-policy.explanation.{p1,p2,p3}'
   - 'press.links.*.{title,link}'
+  - features.page.*.{title,subtitle,text}
   - '{legal-notice,privacy-policy}.*.{title,paragraph}'
   - 'used_by.filters.*'
   - 'trademark.{p1,p2,p3}'
