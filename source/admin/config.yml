@@ -5,6 +5,17 @@ backend:
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
+  - name: "settings"
+    label: "Settings"
+    editor:
+      preview: false
+    files:
+      - name: "alerts"
+        file: "data/alert.yml"
+        description: "For changing the contents you need to do it in [GitHub](https://github.com/decidim/decidim.org/blob/main/locales/en.yml) and [Crowdin](https://crowdin.com/project/decidimorg)"
+        fields:
+          - { label: 'Enabled', name: 'enabled', widget: 'boolean', default: true }
+          - { label: 'URL', name: 'url', widget: 'string' }
   - name: "post"
     label: "Post"
     folder: "source/blog/en"
