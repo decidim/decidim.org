@@ -7,13 +7,17 @@ public_folder: "/uploads/"
 collections:
   - name: "settings"
     label: "Settings"
+    description: >
+      Here you can enable and disable the Alert and change the URL.
+      For changing the messages (title, description and button), you need to do it in
+      [GitHub](https://github.com/decidim/decidim.org/blob/main/locales/en.yml)
+      and [Crowdin](https://crowdin.com/project/decidimorg).
     editor:
       preview: false
     files:
       - name: "alert"
         label: "Alert"
         file: "data/alert.yml"
-        description: "For changing the contents you need to do it in [GitHub](https://github.com/decidim/decidim.org/blob/main/locales/en.yml) and [Crowdin](https://crowdin.com/project/decidimorg)"
         fields:
           - { label: 'Enabled', name: 'enabled', widget: 'boolean', default: true }
           - { label: 'URL', name: 'url', widget: 'string' }
