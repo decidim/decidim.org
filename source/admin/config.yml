@@ -10,7 +10,8 @@ collections:
     editor:
       preview: false
     files:
-      - name: "alerts"
+      - name: "alert"
+        label: "Alert"
         file: "data/alert.yml"
         description: "For changing the contents you need to do it in [GitHub](https://github.com/decidim/decidim.org/blob/main/locales/en.yml) and [Crowdin](https://crowdin.com/project/decidimorg)"
         fields:
