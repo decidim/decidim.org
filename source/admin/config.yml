@@ -10,8 +10,8 @@ collections:
     description: >
       Here you can enable and disable the Alert and change the URL.
       For changing the messages (title, description and button), you need to do it in
-      [GitHub](https://github.com/decidim/decidim.org/blob/main/locales/en.yml)
-      and [Crowdin](https://crowdin.com/project/decidimorg).
+      <a href="https://github.com/decidim/decidim.org/blob/main/locales/en.yml">GitHub</a>
+      and <a href="https://crowdin.com/project/decidimorg">Crowdin</a>.
     editor:
       preview: false
     files:
