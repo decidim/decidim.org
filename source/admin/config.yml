@@ -33,6 +33,17 @@ collections:
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Body", name: "body", widget: "markdown", required: true}
       - {label: "Tags", name: "tags", widget: "select", options: ["releases", "casestudy"], required: false}
+  - name: "Partners"
+    label: "Partner"
+    format: yml
+    extension: yml
+    folder: data/partners/
+    create: true
+    fields:
+      - {label: "Name", name: "name", widget: "string", required: true}
+      - {label: "URL", name: "url", widget: "string", required: true}
+      - {label: "Image", name: "image", widget: "image", required: true}
+      - {label: "Joined at", name: "joined_at", widget: "date", required: true}
   - name: "Installation (usedby)"
     label: "Installation"
     format: yml

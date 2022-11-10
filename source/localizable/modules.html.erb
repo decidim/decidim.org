@@ -34,7 +34,7 @@ description:
       </div>
     </div>
     <div class="md:w-3/4">
-      <% modules = data_sort_by_title(data.modules) %>
+      <% modules = data_sort_by(data.modules, "title") %>
       <% official = data_select_by_type(modules, "official") %>
       <% community = data_select_by_type(modules, "community") %>
       <% auth = data_select_by_type(modules, "auth") %>
