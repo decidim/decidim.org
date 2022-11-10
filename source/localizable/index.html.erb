@@ -78,7 +78,7 @@ pageClass: home
     <a class="par-md max-w-prose underline mt-4 block" href="<%= t(:path) %>/usedby"><%= t('index.used_by.link') %></a>
 
     <div class="mt-6 md:mt-24">
-      <% installations = data_sort_by_priority(data_select_home(data.installations)) %>
+      <% installations = data_sort_by(data_select_home(data.installations), "priority") %>
       <div class="-mx-4 -my-2 md:-mx-16 md:-my-6 grid grid-cols-4 sm:grid-cols-6 md:grid-cols-6 gap-4 items-center">
         <% installations.each do |id, use| %>
           <a class="inline-block px-3 py-1 md:px-8 md:py-5 max-w-[100px] md:max-w[200px] lg:max-w-[150px]" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">

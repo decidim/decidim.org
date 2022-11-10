@@ -35,7 +35,7 @@ description:
 
 <section>
   <div class="container py-12" data-tabs="used_by">
-    <% installations = data_sort_by_priority(data.installations) %>
+    <% installations = data_sort_by(data.installations, "priority") %>
     <% region = data_select_by_type(installations, "region") %>
     <% city = data_select_by_type(installations, "city") %>
     <% org = data_select_by_type(installations, "org") %>

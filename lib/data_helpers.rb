@@ -31,19 +31,16 @@ module DataHelpers
 
   # Sort from the data files that has the numeric priority key
   #
-  # @param data [Hash] A hash with the name of the installation as key and the middleman data hash as value
+  # @param data [Hash] A hash with the name of the data as key and the middleman data hash as value
+  #                    examples: data.partners or data.installations
   # @option String [Middleman::Util::EnhancedHash]
   # @return [Hash]
-  def data_sort_by_priority(data)
-    data.sort_by { |_, m| m["priority"] }.reverse
-  end
-
-  # Sort alphabetically from the data files that has the title key
-  #
-  # @param data [Array<String, Middleman::Util::EnhancedHash>] An array with the name of the installation and the data hash from Middleman
-  # @return [Middleman::Util::EnhancedHash]
-  def data_sort_by_title(data)
-    data.sort_by { |_, m| m["title"] }
+  def data_sort_by(data, type)
+    if type == "priority"
+      data.sort_by { |_, m| m["priority"] }.reverse
+    else
+      data.sort_by { |_, m| m[type] }
+    end
   end
 
   # Clean an HTML string from image tags
