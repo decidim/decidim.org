@@ -1,0 +1,11 @@
+<p class="par-md pb-6 font-mediumj">
+  <%= t("partners.type.#{type}") %>
+</p>
+<div class="grid grid-cols-4 md:grid-cols-5 gap-6 md:gap-24 items-center pb-12">
+  <% data_sort_by(data_select_by_type(data.partners, type), "joined_at").each do |_id, partner| %>
+    <a href="<%= partner.url %>" title="<%= partner.name %>" target="_blank" rel="noopener noreferrer">
+      <%= image_tag partner.image, alt: partner.name %>
+    </a>
+  <% end %>
+</div>
+
