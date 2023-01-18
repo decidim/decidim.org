@@ -10,7 +10,7 @@ RSpec.describe "language selector", type: :feature do
   it "has the correct title header" do
     expect(page).to have_selector "h1"
     within "h1" do
-      expect(page).to have_content "Decidim és una plataforma digitalde participació ciutadana"
+      expect(page).to have_content "Decidim és una plataforma digital de participació ciutadana"
     end
   end
 

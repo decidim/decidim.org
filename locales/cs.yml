@@ -1,56 +1,60 @@
 ---
 cs:
   '404':
-    intro: Maybe you were looking for...
-    subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
-    title: Page not found
+    intro: Možná jste hledali...
+    subtitle: Zdá se, že jste následovali nefunkční odkaz nebo jste zadali URL, která neexistuje na tomto webu.
+    title: Stránka nenalezena
   about:
-    about: '["Support us", "Contact us", "Our assembly", "Press"]'
-    intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_at_opencollective: Support us at Open Collective
-    support_intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_title: Support Decidim
-    title: About Decidim
+    about:
+    - Podpořte nás
+    - Kontaktujte nás
+    - Naše shromáždění
+    - Pro média
+    intro: Chceme přispět k demokratizaci společnosti prostřednictvím budování technologií, metodik, praktik, standardů, činností, interpretací a hodnot svobodně, otevřeným, spolupracujícím a přemýšlivým způsobem.
+    subtitle: Sdružení svobodného softwaru Decidim je demokratické sdružení pro správu komunity Decidim.
+    support_at_opencollective: Podpořte nás na Open Collective
+    support_intro: Chceme přispět k demokratizaci společnosti prostřednictvím budování technologií, metodik, praktik, standardů, činností, interpretací a hodnot svobodně, otevřeným, spolupracujícím a přemýšlivým způsobem.
+    support_subtitle: Sdružení svobodného softwaru Decidim je demokratické sdružení pro správu komunity Decidim.
+    support_title: Podpořte Decidim
+    title: O Decidim
     values:
-      v1: Compromise and responsibility
-      v2: Equal opportunities and quality indicators
-      v3: Open content to share and cooperate
-      v4: Free software to enable autonomy
-      v5: Data confidentiality
-      v6: Transparency, traceability and integrity
-      v7: Continuous improvement and collaboration between organizations
-    values_cta: Read the social contract
-    values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
-    values_title: Our values
+      v1: Kompromis a odpovědnost
+      v2: Rovné příležitosti a ukazatele kvality
+      v3: Otevřený obsah pro sdílení a spolupráci
+      v4: Volný software pro povolení autonomie
+      v5: Důvěrnost údajů
+      v6: Transparentnost, sledovatelnost a integrita
+      v7: Průběžné zlepšování a spolupráce mezi organizacemi
+    values_cta: Přečtěte si sociální smlouvu
+    values_intro: "<p>Od začátku má Decidim společenskou smlouvu, která obsahuje hodnoty projektu.</p><p>Všichni členové sdružení Decidim Free Software se zavazují dodržovat tuto smlouvu.</p>"
+    values_title: Naše hodnoty
   alert:
-    button: Read more
-    p1: The Future of The Internet · October 13-14
+    button: Připojit se
+    p1: Budoucnost internetu · 13. až 14. října Barcelona
     strong: Decidim Fest 22
   blog:
-    latest: Latest blog post
-    read_more: Read more
-    subtitle: Latest news from Decidim.
+    latest: Poslední příspěvky na blogu
+    read_more: Přečtěte si více
+    subtitle: Poslední zprávy z Decidim.
     tags:
-      title: Articles tagged with
+      title: Články označené s
     title: Blog
   case_study:
     n1:
-      org: City of Helsinki
-      quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
+      org: Město Helsinki
+      quote: Zhodnotili jsme sedm různých možností participativního sestavování rozpočtu, abychom našli správnou platformu pro Helsinský proces s jednoduchým rozhraním a požadovanou modularitou pro různé druhy potřeb. Společnost Decidim vyhrála hodnocení a první instance byly postaveny v roce 2018.
     n2:
-      org: Code for Japan
-      quote: Decidim provides customize-friendly architecture so that we can adapt it to our domestic situation.
+      org: Kód pro Japonsko
+      quote: Decidim poskytuje přizpůsobivou architekturu, abychom ji mohli přizpůsobit naší domácí situaci.
     n3:
-      org: European Commission
-      quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
+      org: Evropská komise
+      quote: Tyto prostředky jsou určeny na pokrytí výdajů na zaměstnance a správních výdajů úřadu (hlavy 1 a 2) a provozních výdajů na pracovní program (hlava 3). V tomto období bylo předloženo 18 859 myšlenek a 22 167 připomínek a bylo uspořádáno 6 661 akcí. Příspěvky shromážděné prostřednictvím digitální platformy byly přijaty komisí evropských občanů a projednány na plenárním zasedání konference - dalších dvou hlavních pilířů konference.
   community:
-    community1: Propose and help define new features
-    community2: Report bugs and help the developers fix them
-    community3: Help shape the future of the platform
-    cta: Začněte
-    figcaption: The Decidim Community during the Decidim Fest 2021
+    community1: Navrhněte a pomozte definovat nové funkce
+    community2: Nahlásit chyby a pomoci vývojářům je opravit
+    community3: Pomozte utvářet budoucnost platformy
+    cta: Přejít na Metadecidim
+    figcaption: Decidim komunita během Decidim Fest 2021
     img_alt: Fotografie komunity Decidim na Metadecidim setkání v roce 2016
     intro: Metadecidim je komunita, která spolupracuje na návrhu platformy a výstavbě projektu. Společně můžeme navrhnout a vyvinout nové funkce a nahlásit chyby pro trvalé zlepšování platformy.
     subtitle: Demokratická komunita, která řídí projekt Decidim ve všech jeho rozměrech
@@ -61,191 +65,191 @@ cs:
     message: Zpráva
     name: Jméno
     privacy_policy:
-      accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
-      message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Odeslat
-    subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Kontaktujte nás
+      accept: Přijímám <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a>
+      message: "<p>Když nás lidé kontaktují kontaktním formulářem, e-mailem nebo podobným komunikačním prostředkem, budeme automaticky shromažďovat následující informace: jméno, entita, e-mailová adresa a obsah zprávy uživatele pro účast na vašich komentářích, žádostech, návrzích atd.</p> <p>Kromě toho můžeme zpracovat tato data pro statistické studie pomocí pseudonymizace a dokonce i anonymizačních technik, jako je agregace údajů, které brání tomuto následnému zpracování v identifikaci jednotlivých uživatelů.</p>"
+    send: Poslat zprávu
+    subtitle: Pokud byste chtěli kontaktovat, vyplňte kontaktní formulář nebo nám zašlete e-mail na
+    title: Kontaktujte Decidim
   demo:
     button: Online demo
     p1: Zkoušejte a prozkoumejte zdarma platformu Decidim s naším online demo.
-    strong: Try Online
+    strong: Zkuste online
     title: Online demo
   faqs:
-    cta: Read all FAQs
+    cta: Přečíst všechny FAQ
     questions:
       q01:
-        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
-        question: What is Decidim?
-        type: about
+        answer: 'Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.'
+        question: Co je Decidim?
+        type: o nás
       q02:
-        answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
-        question: Who is currently using Decidim?
-        type: about
+        answer: V současné době jej využívají města a organizace. Ve skutečnosti ji může využít jakákoli skupina lidí, ať už je to nevládní organizace, univerzita, odbory, družstvo, sdružení sousedů atd. Prohlédněte si [kompletní seznam aktuálně aktivních instancí](/usedby/).
+        question: Kdo v současné době používá Decidim?
+        type: o nás
       q03:
-        answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
-        question: What can a Decidim administrator do?
-        type: users
+        answer: Snadno konfigurovatelné participační procesy. Chcete vytvořit strategický plán? Nebo diskutovat o nových vyhláškách? Nebo diskutovat o novém náměstí, nebo veřejné budově s cílem dosáhnout společného výsledku? Díky Decidim budete moci nakonfigurovat participační témata (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných složek (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).
+        question: Co může správce Decidim dělat?
+        type: uživatelé
       q04:
-        answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
-        question: What can a participant (user) of Decidim do?
-        type: users
+        answer: Decidim umožňuje tisícům lidí demokraticky se organizovat prostřednictvím návrhů, účastnit se veřejných setkání, podporovat rozhodovací jednání, rozhodovat prostřednictvím různých forem hlasování a sledovat provádění rozhodnutí.
+        question: Co může účastník (uživatel) Decidim dělat?
+        type: uživatelé
       q05:
-        answer: Yes, we have an [online demo](/demo).
-        question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
-        type: features
+        answer: Ano, máme [online demo](/demo).
+        question: Máte Demo? Chci si vyzkoušet Decidim bez instalace a zjistit, jak funguje.
+        type: vlastnosti
       q06:
-        answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
-        question: How often is the platform updated?
-        type: features
+        answer: Přibližně každý měsíc vydáváme novou verzi. Viz [záznam verzí](https://github.com/decidim/decidim/releases).
+        question: Jak často se platforma aktualizuje?
+        type: vlastnosti
       q07:
-        answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
-        question: What do I need to install Decidim?
-        type: install
+        answer: Instalace Decidim je jednoduchá, ale potřebujete nějaké znalosti a technické požadavky. Podívejte se na [dokumentaci pro instalaci Decidim](https://docs.decidim.org/en/install/).
+        question: Co potřebuji k instalaci Decidim?
+        type: instalace
       q08:
-        answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
-        question: Where can I find the project roadmap and the planned features?
-        type: features
+        answer: Můžete najít [plán nových funkcí projektu na GitHub](https://github.com/decidim/decidim/projects/16).
+        question: Kde najdu plán projektu a plánované prvky?
+        type: vlastnosti
       q09:
-        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
-        question: What does it mean that Decidim is for free, "libre" and open source?
-        type: install
+        answer: Decidim je platforma pro participaci občanů, vytvořený lidmi a pro lidi. Jeho zdrojový kód je otevřený a může být kýmkoliv kontrolován, upraven a vylepšen. Aplikace Decidim je pokryta [licencí AGPL](https://en.ikipedia.org/wiki/GNU_Affero_General_Public_License). To znamená, že jej můžete používat, upravovat a šířit odvozené verze, pokud respektujete licenci AGPL.
+        question: Co to znamená, že Decidim je zdarma, "svobodný" a s otevřenými zdroji?
+        type: instalace
       q1:
-        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
-        question: What is Decidim?
-        type: about
+        answer: 'Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.'
+        question: Co je Decidim?
+        type: o nás
       q10:
-        answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report). If you want to actively participate in the Metadecidim community, you can attend Community Meetings. Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-        question: I have ideas for new improvement features. I want to have a better understanding of the project. What can I do?
-        type: features
+        answer: Spolupracovat můžete různými způsoby. Jedním z nich je komunita [Metadecidim](http://meta.decidim.org). Pokud chcete navrhnout nové funkce, [přejděte sem](https://meta.decidim.org/processes/roadmap). Pokud jste zjistili chyby a chcete na ně upozornit, [přejděte na tento postup](https://meta.decidim.org/processes/bug-report). Pokud se chcete aktivně zapojit do komunity Metadecidim, můžete se účastnit komunitních setkání. Zaregistrujte se jako účastník komunity a účastněte se s námi. Pokud je vaší doménou kód, [přijďte na Github](https://github.com/decidim/decidim). Pokud jste výzkumný pracovník, možná vás zaujme možnost přijít na [LAB Metadecidim Semináře](https://meta.decidim.org/assemblies/eix-lab).
+        question: Mám nápady na nové vylepšení. Chci projektu lépe porozumět. Co mohu udělat?
+        type: vlastnosti
       q11:
-        answer: The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en) and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the [contact form](/contact).
-        question: I have many doubts, of all kinds...where can I ask them or solve them?
-        type: about
+        answer: Nejlepší způsob, jak rychle vyřešit své pochybnosti, je prostřednictvím Metadecidim komunity. Vstupte do procesu [fóra podpory](https://meta.decidim.org/processes/supportforum?locale=en) a podívejte se, zda vaše otázka existuje nebo zda byla zodpovězena a jinak zadejte pro položení otázek. Pokud nemůžete vyřešit svůj problém v tomto prostoru, možná je čas nás kontaktovat prostřednictvím [kontaktního formuláře](/contact).
+        question: Mám mnoho pochybností všeho druhu...kde se na ně mohu zeptat nebo je vyřešit?
+        type: o nás
       q12:
-        answer: You can check the latest version of our admin manual in the [Documentation section](https://docs.decidim.org).
-        question: Is there any tutorial to start setting it up?
-        type: install
+        answer: Nejnovější verzi naší admin příručky můžete zkontrolovat v [Documentation section](https://docs.decidim.org).
+        question: Je k dispozici nějaký návod k jeho nastavení?
+        type: instalace
       q13:
-        answer: That's how we call our Code of Democratic Guarantees and Democratic Collaboration. All members of the community must endorse the [Social Contract](http://decidim.org/contract).
-        question: What is the Social Contract?
-        type: community
+        answer: Takto nazýváme náš Kodex demokratických záruk a demokratické spolupráce. Všichni členové komunity musí schválit [Sociální smlouvu](http://decidim.org/contract).
+        question: Co je Sociální smlouva?
+        type: komunita
       q14:
-        answer: 'There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.'
-        question: What are the differences with Consul Project / Decide Madrid?
-        type: features
+        answer: 'Existuje mnoho rozdílů: funkce, flexibilita, architektura, modularita atd. Máme [zveřejněný příspěvekt](/blog/2019-01-14-consul-comparison/) s odpověďmi na tuto otázku.'
+        question: Jaké jsou rozdíly proti projektu Consul Project / Decide Madrid?
+        type: vlastnosti
       q15:
-        answer: "[Metadecidim](http://meta.decidim.org) is the community of Decidim that collaborates in the design of the platform and the construction of the Decidim project. We meet regularly through the Community Meetings, for issues related to the technological aspects of the platform and the Labs witc are [Research](https://meta.decidim.org/assemblies/eix-lab) oriented meetings. Our annual conference is Decidim Fest. Go to [meta.decidim.org](http://meta.decidim.org) to follow the calls closely and if you want to join the community. We'd love to ;-)"
-        question: What is the Metadecidim community?
-        type: community
+        answer: "[Metadecidim](http://meta.decidim.org) je komunita Decidimu, která spolupracuje na návrhu platformy a výstavbě projektu Decidim. Pravidelně se setkáváme prostřednictvím komunitních setkání, a to k otázkám souvisejícím s technologickými aspekty platformy, a Labs witc jsou [Research](https://meta.decidim.org/assemblies/eix-lab) orientovaná setkání. Naší každoroční konferencí je Decidim Fest. Chcete-li pozorně sledovat hovory a chcete-li se připojit ke komunitě, navštivte stránku [meta.decidim.org](http://meta.decidim.org). Budeme rádi ;-)"
+        question: Co je to Metadecidim komunita?
+        type: komunita
       q16:
-        answer: Of course you can. People do so through participatory processes, debates, translations, etc. that you might find in Metadecidim. Decidim was born in Barcelona and that is why there is a strong territorial bond with this city, but above all, it's a project for the commons.
-        question: Can I join the Metadecidim community even if I don't live in Barcelona?
-        type: community
+        answer: Samozřejmě, že můžete. Lidé tak činí prostřednictvím participačních procesů, debat, překladů atd., které můžete najít v Metadecidim. Decidim se zrodil v Barceloně, a proto existuje silné teritoriální pouto s tímto městem, ale především je to projekt pro společenství.
+        question: Mohu se připojit ke komunitě Metadecidim, i když nežiji v Barceloně?
+        type: komunita
       q17:
-        answer: Anybody who has good faith and a correct attitude towards democratic collaboration.
-        question: What kind of members you accept into the Metadecidim community?
-        type: community
+        answer: Každý, kdo má dobrou vůli a správný postoj k demokratické spolupráci.
+        question: Jaké členy přijímáte v komunitě Metadecidim?
+        type: komunita
       q18:
-        answer: The "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) is a democratic association for the governance of the Decidim community. It was founded on [February 16, 2019 in an extraordinary assembly of the community](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), with the approval of the organization statutes.
-        question: What is the Decidim Association?
-        type: association
+        answer: Asociacion de Software Libre Decidim (Asociace svobodného softwaru Decidim) je demokratické sdružení pro správu komunity Decidim. Bylo založeno [16. února 2019 na mimořádném shromáždění komunity](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), přičemž byly schváleny stanovy organizace.
+        question: Co je to Decidim asociace?
+        type: asociace
       q19:
-        answer: In the [general assembly of the Decidim Association](https://meta.decidim.org/assemblies/general-assembly-association) you can find more info abous us, follow the activity of the meetings and check relevant information (statutes, legal agreements, the internal regulations)
-        question: How can I get more information about the Decidim Association?
-        type: association
+        answer: Ve [valné hromadě sdružení Decidim](https://meta.decidim.org/assemblies/General assembly-Association) můžete najít více informací, sledovat činnost schůzek a kontrolovat příslušné informace (stanovy, právní dohody, vnitřní nařízení)
+        question: Jak mohu získat více informací o sdružení Decidim?
+        type: asociace
       q2:
-        answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
-        question: Who is currently using Decidim?
-        type: about
+        answer: V současné době jej využívají města a organizace. Ve skutečnosti ji může využít jakákoli skupina lidí, ať už je to nevládní organizace, univerzita, odbory, družstvo, sdružení sousedů atd. Prohlédněte si [kompletní seznam aktuálně aktivních instancí](/usedby/).
+        question: Kdo v současné době používá Decidim?
+        type: o nás
       q20:
-        answer: Now the people involved in the project can be partners. [Here we explain in detail how you have to do it](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
-        question: How can I become a member of the Decidim Association?
-        type: association
+        answer: Lidé zapojení do projektu mohou být nyní partnery. [Zde podrobně vysvětlíme, co to znamená](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+        question: Jak se mohu stát členem sdružení Decidim?
+        type: asociace
       q21:
-        answer: Yes you can! Decidim is a non profit project and for the moment it depends completely on funding. Please find all details to fund the project at [OpenCollective](https://opencollective.com/decidim)
-        question: I want to fund the project. How can I proceed?
-        type: association
+        answer: Ano můžete! Decidim je neziskový projekt a na chvíli to zcela závisí na financování. Všechny podrobnosti k financování projektu naleznete na [OpenCollective](https://opencollective.com/decidim)
+        question: Chci projekt financovat. Jak mohu pokračovat?
+        type: asociace
       q22:
-        answer: Yes, we have templates to formalize collaboration agreements. [Please contact us](/contact).
-        question: We want to make a formal collaboration agreement. Are there any templates we can use?
-        type: association
+        answer: Ano, máme šablony pro formalizaci dohod o spolupráci. [Kontaktujte nás](/contact).
+        question: Chceme uzavřít formální dohodu o spolupráci. Existují nějaké šablony, které můžeme použít?
+        type: asociace
       q23:
-        answer: Yes, but you have to be patient. There are a lot of institutions that want to use Decidim right now and we are helping them step by step. [Contact us](/contact) for any question and we will answer you as soon as possible.
-        question: Do you support institutions?
-        type: about
+        answer: Ano, ale musíte být trpěliví. Existuje mnoho institucí, které nyní chtějí použít Decidim a my jim pomáháme krok za krokem. [Kontaktujte nás](/contact) pro jakoukoli otázku a my vám odpovíme co nejdříve.
+        question: Podporujete instituce?
+        type: o nás
       q24:
-        answer: Decidim and the Decidim logo are registered by the Association, they cannot be used as a commercial product nor cannot be sold. If used, the credit has to be referenced to the project. You can read more about this in our [Trademark policy](/trademark-policy).
-        question: What is Decidim's trademark policy?
-        type: association
+        answer: Decidim a logo Decidim jsou registrovány sdružením, nemohou být použity jako komerční produkt a nemohou být prodány. Pokud je použito, kredit musí být odkazován na projekt. Více o tom si můžete přečíst v našich [zásadách ochranných známek](/trademark-policy).
+        question: Co jsou Zásady ochranných známek Decidim?
+        type: asociace
       q3:
-        answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
-        question: What can a Decidim administrator do?
-        type: users
+        answer: Snadno konfigurovatelné participační procesy. Chcete vytvořit strategický plán? Nebo diskutovat o nových vyhláškách? Nebo diskutovat o novém náměstí, nebo veřejné budově s cílem dosáhnout společného výsledku? Díky Decidim budete moci nakonfigurovat participační témata (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných složek (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).
+        question: Co může správce Decidim dělat?
+        type: uživatelé
       q4:
-        answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
-        question: What can a participant (user) of Decidim do?
-        type: users
+        answer: Decidim umožňuje tisícům lidí demokraticky se organizovat prostřednictvím návrhů, účastnit se veřejných setkání, podporovat rozhodovací jednání, rozhodovat prostřednictvím různých forem hlasování a sledovat provádění rozhodnutí.
+        question: Co může účastník (uživatel) Decidim dělat?
+        type: uživatelé
       q5:
-        answer: Yes, we have an [online demo](/demo).
-        question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
-        type: features
+        answer: Ano, máme [online demo](/demo).
+        question: Máte Demo? Chci si vyzkoušet Decidim bez instalace a zjistit, jak funguje.
+        type: vlastnosti
       q6:
-        answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
-        question: How often is the platform updated?
-        type: features
+        answer: Přibližně každý měsíc vydáváme novou verzi. Viz [záznam verzí](https://github.com/decidim/decidim/releases).
+        question: Jak často se platforma aktualizuje?
+        type: vlastnosti
       q7:
-        answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
-        question: What do I need to install Decidim?
-        type: install
+        answer: Instalace Decidim je jednoduchá, ale potřebujete nějaké znalosti a technické požadavky. Podívejte se na [dokumentaci pro instalaci Decidim](https://docs.decidim.org/en/install/).
+        question: Co potřebuji k instalaci Decidim?
+        type: instalace
       q8:
-        answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
-        question: Where can I find the project roadmap and the planned features?
-        type: features
+        answer: Můžete najít [plán nových funkcí projektu na GitHub](https://github.com/decidim/decidim/projects/16).
+        question: Kde najdu plán projektu a plánované prvky?
+        type: vlastnosti
       q9:
-        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
-        question: What does it mean that Decidim is for free, "libre" and open source?
-        type: install
-    subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
-    title: Často kladené otázky
+        answer: Decidim je platforma pro participaci občanů, vytvořený lidmi a pro lidi. Jeho zdrojový kód je otevřený a může být kýmkoliv kontrolován, upraven a vylepšen. Aplikace Decidim je pokryta [licencí AGPL](https://en.ikipedia.org/wiki/GNU_Affero_General_Public_License). To znamená, že jej můžete používat, upravovat a šířit odvozené verze, pokud respektujete licenci AGPL.
+        question: Co to znamená, že Decidim je zdarma, "svobodný" a s otevřenými zdroji?
+        type: instalace
+    subtitle: Pokud nemůžete najít odpověď níže, kontaktujte nás na hola@decidim.org
+    title: Časté dotazy
     types:
-      about: About Decidim
-      association: Association
-      community: Community and social contract
-      features: Roadmap and features
-      install: Installation and license
-      installation: Installation and license
-      users: Users and roles
+      about: O Decidim
+      association: Asociace
+      community: Komunitní a sociální smlouva
+      features: Cestovní mapa a funkce
+      install: Instalace a licence
+      installation: Instalace a licence
+      users: Uživatelé a role
   features:
-    intro: "<p>Můžete použít Decidim ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, sdružení, univerzita, nevládní organizace, odborový svaz, spolek, nebo družstvo...</p><p>Díky Decidim budete moci nakonfigurovat prostory pro účast (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných doplňků (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).</p>"
+    intro: "<p>Můžete použít Decidim ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, sdružení, univerzita, nevládní organizace, odborové svazy, sdružení sousedů nebo družstvo...</p><p>Díky Decidim budete moci konfigurovat <strong>mezery</strong> pro účast (iniciativy, shromáždění, procesy nebo konzultace) a obohacují je prostřednictvím více dostupných <strong>komponentů</strong> (osobní schůzky, průzkumy, návrhy, hlasování, sledování výsledků, <strong>poznámky</strong> a mnoho dalších).</p>"
     page:
       feature1:
-        subtitle: demokratizovat společné problémy, krok za krokem
+        subtitle: Krok za krokem demokratizovat společné problémy
         text: 'Proces je prostor, který umožňuje vytvářet, aktivovat/deaktivovat a spravovat různé participativní procesy. Rozlišují se od ostatních prostor tím, že jsou strukturovány v různých fázích, do nichž mohou být začleněny všechny součásti. Příklady participačních procesů jsou: volební proces pro členy výboru, participativní sestavování rozpočtu, proces strategického plánování, společné vypracování nařízení nebo normy, návrh městského prostoru nebo vypracování plánu veřejné politiky.'
         title: Participační procesy
       feature10:
-        subtitle: analyzovat, syntetizovat a společně budovat
-        text: Komponenta Participativní texty lze použít k převodu zdlouhavých textových dokumentů na různé návrhy nebo výsledky a naopak, vytvořit a zobrazit jednotný text založený na souboru návrhů nebo výsledků.
+        subtitle: Analyzovat, syntetizovat a společně budovat
+        text: Lze použít k převodu dlouhých textových dokumentů na několik návrhů nebo výsledků a naopak, vytvořit a zobrazit jednotný text založený na souboru návrhů nebo výsledků.
         title: Texty participace
       feature11:
         subtitle: Kde jsou velké události poprvé představeny
-        text: Komponenta Konference umožňuje organizaci vytvořit webové stránky pro velkou událost připojením se k sérii předem definovaných schůzek (chaty, workshopy atd.), sestavování sjednoceného programu a řízení účastníků.
+        text: Vytvořte webové stránky pro velkou událost. Sjednotte program připojením se k předdefinovaným schůzkám (chaty, workshopy apod.) a řízením účastníků.
         title: Konference
       feature12:
         subtitle: Protože na názoru vaší komunity záleží
-        text: Komponentu Průzkumy lze použít k navrhování a publikování průzkumů a k zobrazení a stažení jejich výsledků.
+        text: Navrhněte a publikujte průzkumy. Zobrazte a stáhněte výsledky.
         title: Průzkumy
       feature13:
         subtitle: Rovnost a spravedlnost náhodnosti
-        text: Komponenta pro Losování umožňuje vybrat několik návrhů (např. zájemci o účast v porotě) s náhodnými, avšak reprodukovatelnými postupy, které zaručují nestranné a jednotné rozdělování.
+        text: Umožňuje vybrat určitý počet návrhů (např. kandidátů do poroty) pomocí náhodných, ale reprodukovatelných postupů, které zaručují nezkreslené a rovnoměrné rozdělení.
         title: Losování
       feature14:
         subtitle: Budování kolektivní inteligence
-        text: Komponenta komentářů umožňuje uživatelům přidávat komentáře, označit komentář jako oblíbený, proti připomínkám nebo neutrální v souvislosti s nimi, hlasovat o připomínkách, reagovat na ně a přijímat oznámení o odpovědích.
+        text: Umožňuje uživatelům přidávat komentáře, hodnotit je kladně, záporně nebo neutrálně, hlasovat o nich, odpovídat a dostávat oznámení o odpovědích.
         title: Komentáře
       feature15:
         subtitle: Vaše komunita, informovaná a aktuální
-        text: Komponenta Stránky se používá k vytváření informativních stránek s bohatým formátováním textu, vloženými obrázky a videi. Komponenta blogu umožňuje tvorbu příspěvků nebo zpráv a jejich navigaci chronologicky.
+        text: Vytvářejte informativní stránky s bohatým formátováním textu, vloženými obrázky a videi. Komponenta blogu umožňuje tvorbu příspěvků nebo zpráv a jejich navigaci chronologicky.
         title: Stránky a blogy
       feature16:
         subtitle: Osobní informace o zajímavém obsahu
@@ -253,120 +257,120 @@ cs:
         title: Oznámení
       feature17:
         subtitle: Jednoduchý, ale výkonný
-        text: Komponenta Zpravodaje umožňuje posílat e-maily všem registrovaným na platformě nebo selektivněji těm, kteří se účastní určitého prostoru.
+        text: Posílejte e-maily všem registrovaným na platformě nebo těm, kteří se účastní určitého prostoru.
         title: Zpravodaj
       feature2:
-        subtitle: pravomoci kolektivní organizace
-        text: Je prostor, který nabízí možnost ustavit rozhodovací orgány nebo skupiny (rady, pracovní skupiny, výbory atd.) které se pravidelně scházejí s podrobnými údaji o složení, seznamu a místě svých zasedání, a umožňují jejich účast (například účast, pokud to dovoluje kapacita míst a povaha shromáždění, doplnění bodů na pořad jednání nebo připomínky k návrhům a rozhodnutím přijatým tímto orgánem).
+        subtitle: Síla kolektivní sebeorganizace
+        text: Umožňuje zřídit rozhodovací orgány nebo skupiny (rady, pracovní skupiny, komise atd.), které se pravidelně scházejí, a podrobně popisuje jejich složení, seznam a zeměpisnou polohu jejich schůzí. Umožňuje se jich účastnit, například se jich účastnit osobně nebo online, přidávat otázky na pořad jednání nebo se vyjadřovat k návrhům a rozhodnutím přijatým daným orgánem.
         title: Shromáždění
       feature3:
-        subtitle: právo rozhodovat se všemi demokratickými zárukami
-        text: Konzultace jsou prostorem, který umožňuje koordinovat referenda, rozpoutat diskuse a debaty, zveřejňovat výsledky hlasování; může být připojen k zabezpečenému systému elektronického hlasování.
-        title: Konzultace
+        subtitle: Právo rozhodovat se všemi demokratickými zárukami
+        text: Umožňuje koordinovat referenda, vyvolávat diskuse a debaty, zveřejňovat výsledky hlasování a připojovat se k zabezpečenému systému elektronického hlasování.
+        title: Hlasování
       feature4:
-        subtitle: nastavení agendy pro všechny, v dosahu všech
-        text: Iniciativy jsou prostorem, který účastníkům umožňuje společně vytvářet iniciativy, definovat jejich trajektorii a cíle, shromažďovat schválení, diskutovat, debatovat a šířit iniciativy a vymezovat místa zasedání, kde mohou být podpisy shromažďovány od účastníků nebo diskusí, které byly otevřeny ostatním členům organizace.
+        subtitle: Nastavení agendy pro všechny, v dosahu všech
+        text: Účastníci mohou vytvářet společné iniciativy, definovat jejich cestu a cíle, shromažďovat schválení, projednávat, projednávat a šířit iniciativy, stanovit místa zasedání, kde mohou být podpisy shromažďovány od účastníků nebo diskusí, které jsou přístupné ostatním členům organizace.
         title: Iniciativy
       feature5:
-        subtitle: vaše nápady podrobně
-        text: Komponenta návrhů umožňuje uživateli vytvořit návrh pomocí průvodce vytvořením a porovnat jej s existujícími, zveřejňuje jej na platformě a obsahuje další informace, jako je geolokace nebo přiložené dokumenty a obrázky. Tato komponenta vám také umožňuje navigovat, filtrovat a komunikovat se souborem návrhů. Kromě toho můžete s navrhovaným inkubátorem vytvořit společné návrhy.
+        subtitle: Vaše nápady podrobně
+        text: Vytvořte návrh pomocí průvodce vytvořením, porovnejte jej s již existujícími návrhy, zveřejněte jej na platformě a připojte další informace, jako je zeměpisná poloha nebo přiložené dokumenty a obrázky. Tato komponenta také umožňuje procházet, filtrovat a interagovat se sadou návrhů. Kromě toho můžete pomocí návrhu-inkubátoru vytvářet kolaborativní návrhy.
         title: Návrhy
       feature6:
-        subtitle: rozhodne váš hlas
-        text: 'Komponenta Hlasování nabízí organizacím možnost aktivovat různé hlasovací nebo podpůrné systémy kolem návrhů: neomezené, omezené na určitou prahovou hodnotu, vážené, zaměřené na náklady atd.'
+        subtitle: Rozhodněte o své volbě
+        text: 'Nabízí organizacím možnost aktivovat různé systémy hlasování nebo podpory pro návrhy: neomezené, omezené na určitou hranici, vážené, založené na nákladech atd. Podporováno bezpečnou a šifrovanou technologií elektronického hlasování.'
         title: Hlasování
       feature7:
-        subtitle: žádný návrh nezůstane bez odpovědi
-        text: Komponenta Výsledky se používají k přeměně návrhů na výsledky a k oficiálním odpovědím týkajícím se jejich přijetí nebo odmítnutí, sloučení různých návrhů do jediného výsledku.
+        subtitle: Žádný návrh nezůstane bez odpovědi
+        text: Proměňte návrhy ve výsledky a poskytněte oficiální odpovědi týkající se jejich přijetí nebo odmítnutí, a sloučte různé návrhy do jediného výsledku.
         title: Výsledky
       feature8:
-        subtitle: transparentnost od začátku do konce
-        text: Komponenta Odpovědnosti nabízí možnost rozdělení výsledků na projekty, definování a uplatňování stavů pokroku při jejich provádění, a rovněž zobrazování rozsahu provádění výsledků seskupených podle kategorií a oblastí působnosti.
+        subtitle: Transparentnost od začátku do konce
+        text: Nabízí možnost rozdělit výsledky do projektů, definovat a uplatňovat stavy pokroku při jejich realizaci a také zobrazit stupeň dosažení výsledků seskupených podle kategorií a oblastí.
         title: Odpovědnost
       feature9:
-        subtitle: potkat se a nenechat si nic ujít
+        subtitle: Potkat se a nenechat si nic ujít
         text: Komponenta Schůzky nabízí organizacím a účastníkům možnost svolat zasedání, určit jejich polohu a čas, zaregistrují a omezují účastníky, definují strukturu a obsah zasedání, jakož i zveřejňují zápisy a výsledné návrhy.
         title: Zasedání
-    subtitle: For democratic organizations and collectives of any size and kind.
+    subtitle: Pro demokratické organizace a kolektivy všech velikostí a druhů.
     title: Vlastnosti
     type1:
       title: Prostory pro účast
     type2:
       title: Komponenty
     type3:
-      cta: Explore the modules
-      subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
-      title: Modules
+      cta: Prozkoumejte moduly
+      subtitle: Rozšiřte se nad rámec výchozích komponent. Komunita Decidim vyvinula stovky modulů, které rozšiřují platformu nad rámec základních možností a ještě lépe vyhovují vašim potřebám.
+      title: Moduly
   first-steps:
     first-steps1:
-      content: You can install it yourself or find someone to help you with tech support.
-      link1: Documentation
-      pre: For technologists
-      title: Installing Decidim
+      content: Můžete si je nainstalovat sami nebo si najít někoho, kdo vám pomůže s technickou podporou.
+      link1: Dokumentace
+      pre: Pro technology
+      title: Instalace Decidim
     first-steps2:
-      content: For big or small organisations, discover how Decidim can cater to your needs.
-      link1: Features
-      pre: For organizations
-      title: The right tool for you
+      content: Zjistěte, jak může společnost Decidim uspokojit vaše potřeby, ať už jde o velkou nebo malou organizaci.
+      link1: Vlastnosti
+      pre: Pro organizace
+      title: Správný nástroj pro vás
     first-steps3:
-      content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
-      link1: Find a partner
-      pre: For governments
-      title: Decidim in your city
-    intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
+      content: Pokud vaši zastupitelé ve městě uvažují o zavádění participativních politik, zjistěte, jak je můžete přesvědčit, aby to udělali.
+      link1: Najděte partnera
+      pre: Pro vlády
+      title: Decidim ve vašem městě
+    intro: Je to svobodný/libre a open-source webový software, udržovaný extenzivní a aktivní komunitou. Můžete použít Decidim ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, sdružení, univerzita, nevládní organizace, odborové svazy, sdružení sousedů nebo družstvo...
     section2:
-      link: Explore all features
-      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
-      title: Is Decidim the right tool for you?
+      link: Prozkoumejte všechny funkce
+      subtitle: Flexibilní funkce systému Decidim jsou navrženy tak, aby mohly sloužit malým i velkým kolektivům, veřejným i soukromým organizacím se stovkami nebo tisíci potenciálních uživatelů.
+      title: Je pro vás Decidim tím správným nástrojem?
     section3:
-      cta: Read more case studies on our blog
-      link: Read the case study
-      title: Backed by technology, democracy and experience
+      cta: Přečtěte si další případové studie na našem blogu
+      link: Přečtěte si případovou studii
+      title: Podporováno technologiemi, demokracií a zkušenostmi
     section4:
-      button1: About the association
-      button2: Join the community
-      intro: The <strong>Decidim Free Software Association</strong>  is a democratic association for the governance of the Decidim community.
-      subtitle: "<strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform."
-      title: Who’s behind the platform?
-    subtitle: Decidim is a digital platform<br/>for citizen participation
-    title: First steps with Decidim
+      button1: O asociaci
+      button2: Připojit se ke komunitě
+      intro: "<strong>Decidim Free Software Association</strong> je demokratické sdružení pro správu komunity Decidim."
+      subtitle: "<strong>Metadecidim</strong> je komunita, která spolupracuje na návrhu platformy a vývoji projektu. Společně navrhujeme a vytváříme nové funkce a oznamujeme chyby pro trvalé zlepšování platformy."
+      title: Kdo stojí za platformou?
+    subtitle: Decidim je digitální platforma<br/>pro participaci občanů
+    title: První kroky s Decidim
   footer:
-    about_us: About us
-    follow_us: Follow us on social media
-    legal: Legal
+    about_us: O nás
+    follow_us: Sledujte nás na sociálních sítích
+    legal: Právní ustanovení
     supported_by: Podporováno
-    trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
-    up_to_date: Stay up to date
+    trademark: Decidim název a logo je registrovaná ochranná známka Associacio<unk> de Software Lliure Decidim.
+    up_to_date: Zůstaňte v obraze
   index:
     cards:
       card1:
-        content: We can help configure a system of democratic governance in all kinds of organizations.
-        link: Our features
-        title: Implementing a flexible democratic system
+        content: Můžeme pomoci konfigurovat systém demokratického vládnutí v nejrůznějších organizacích.
+        link: Naše funkce
+        title: Zavedení pružného demokratického systému
       card2:
-        content: Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.
-        link: Social contract
-        title: We take democracy very seriously
+        content: Decidim zajišťuje transparentnost, sledovatelnost a integritu informací jako nikdy předtím. Poskytuje bezpečnost a soukromí a důvěrnost všem účastníkům.
+        link: Sociální smlouva
+        title: Demokracii bereme velmi vážně
       card3:
-        content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
-        link: The community
-        title: It's yours. Use it. Share it. Improve it.
+        content: Platforma navržená zcela se svobodným softwarem, otevřeným a spolupracujícím obsahem díky komunitě Metadecidim.
+        link: Komunita
+        title: Je to vás. Používejte to. Sdílejte to. Zlepšete to.
     hero:
-      cta: Get started
+      cta: Začínáme
       intro: Dostupná a bezpečná technologie.<br/>Se všemi demokratickými zárukami.<br/>Přeprogramování demokracie je nyní možné s Decidim.
-      subheading: Decidim je digitální platforma<br/>pro participaci občanů
+      subheading: Decidim je digitální platforma pro participaci občanů
     subhero:
-      cta: Explore all features
-      feature1: Strategické<br/>plánování
-      feature2: Účastnické<br/>sestavování rozpočtu
-      feature3: Iniciativy a<br/>konzultace občanů
-      feature4: Účastnické<br/>procesy
-      feature5: Shromáždění
-      feature6: Síťová komunikace<br/>
+      cta: Prozkoumejte všechny funkce
+      feature1: Strategické plánování
+      feature2: Participační procesy
+      feature3: Shromáždění
+      feature4: Iniciativy a konzultace občanů
+      feature5: Participativní rozpočty
+      feature6: Síťová komunikace
       intro: Decidim pomáhá občanům, organizacím a veřejným institucím, aby se demokraticky organizovali v jakémkoliv rozsahu.
     used_by:
-      heading: Hundreds of organizations around the world trust Decidim for their democratic processes
-      link: Discover how
+      heading: Stovky organizací po celém světě důvěřují Decidimu ve své demokratické procesy
+      link: Zjistěte, jak
       title: Již používají Decidim
   legal-notice:
     section-1:
@@ -398,20 +402,20 @@ cs:
       title: Rozhodné právo a příslušnost
     title: Právní ustanovení
   modules:
-    auth: Authorization
-    community: Community
-    cta: Learn how
-    develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
-    more_info: More information
-    official: Official modules
-    placeholder: Search...
-    subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-    title: Modules
+    auth: Autorizace
+    community: Komunita
+    cta: Více informací
+    develop: Vytvořte si vlastní moduly pro rozšíření platformy nad základy a přizpůsobte je vašim potřebám.
+    more_info: Více informací
+    official: Oficiální moduly
+    placeholder: Hledat...
+    subtitle: Používáním modulů můžete rozšířit funkce Decidim a sdílet je s ostatními.
+    title: Moduly
   nav:
-    about: About
-    association: Association
+    about: O nás
+    association: Asociace
     blog: Blog
-    close_menu: Close menu
+    close_menu: Zavřít nabídku
     code: Kód
     community: Komunita
     contact: Kontakt
@@ -423,77 +427,77 @@ cs:
     donate: Donate
     faqs: Časté dotazy
     features: Vlastnosti
-    first-steps: First steps
-    home: Home
+    first-steps: První kroky
+    home: Úvod
     legal-notice: Právní ustanovení
-    menu: Menu
+    menu: Nabídka
     modules: Moduly
-    partners: Spolupracující subjekty
-    partnership-policy: Partnership policy
+    partners: Partneři
+    partnership-policy: Partnerský program
     press: Pro média
     privacy-policy: Zásady ochrany soukromí
     text: Navigace
-    trademark: Trademark policy
-    use-cases: Use cases
+    trademark: Zásady používání ochranných známek
+    use-cases: Případy použití
     used_by: Kde se používá
   newsletter:
-    past: Past newsletters
-    subtitle: News and updates about the Decidim platform and the community.
-    title: Newsletter
+    past: Minulé zpravodaje
+    subtitle: Novinky a aktualizace o platformě Decidim a komunitě.
+    title: Zpravodaj
   partners:
-    intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
-    link: See Decidim's partnership policy
-    subtitle: These entities and organizations collaborate with Decidim.
-    title: Partners
+    intro: Loga spolupracujících subjektů jsou duševním vlastnictvím příslušných držitelů autorských práv. Nespadají pod licenci <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA</a>, kterou je ošetřen zbytek obsahu webu.
+    link: Podívejte se na zásady partnerství Decidim
+    subtitle: Tyto subjekty a organizace se společností Decidim spolupracují.
+    title: Partneři
     type:
       provider: Service providers
       public: Public institutions
   partnership-policy:
     explanation:
-      p1: Sustaining Decidim takes time and resources. Several tasks need to be handled, such as reviewing contributions, triaging issues, fixing bugs, writing documentation, and answering general doubts shared by the community. Any organization (enterprise, association, or collective) willing to become a Decidim Partner is committed to contribute to the Decidim Association with a reduced fee of the 3% of the yearly income generated by Decidim activities. In the case of nonprofit organizations, this fee is 1.5%.
-      p2: Every Decidim Partner will be made publicly visible in the <a href="%{main_website_url}">Decidim main website</a> and the <a href="%{readme_url}">GitHub project README page</a>. In addition, the Decidim Association will recommend Decidim Partners in our talks and email conversations about providing services with Decidim.
-      p3: To support recently incorporated organizations, Decidim Partners will be exempted from contributing economically during their first year to first develop their business plan with Decidim. In the meantime, we recommend that Decidim Partners find other ways to contribute to the project (such as with bug reporting, documentation, participation and support in community activities, etc.).
+      p1: Udržování Decidimu vyžaduje čas a zdroje. Je třeba zvládnout několik úkolů, jako je přezkoumání příspěvků, řešení problémů, oprava chyb, psaní dokumentace a zodpovídání obecných pochybností, které komunita sdílí. Každá organizace (podnik, sdružení nebo kolektiv), která se chce stát partnerem Decidimu, se zavazuje přispívat sdružení Decidim sníženým poplatkem ve výši 3 % ročního příjmu z činnosti Decidimu. V případě neziskových organizací činí tento poplatek 1,5 %.
+      p2: Každý Partner Decidim bude zveřejněn na <a href="%{main_website_url}">Decidim hlavní webové stránce</a> a <a href="%{readme_url}">GitHub projektu README</a>. Kromě toho Decidim asociace doporučujeme partnerům Decidim v našich rozhovorech a e-mailových konverzacích o poskytování služeb s Decidim.
+      p3: Na podporu nedávno registrovaných organizací Decidim Partners budou během prvního roku osvobozeni od ekonomického přispívání k prvnímu vypracování svého obchodního plánu s Decidim. Mezitím doporučujeme, aby Partneři Decidim našli jiné způsoby, jak přispět k projektu (např. pomocí hlášení chyb, Tyto prostředky jsou určeny na pokrytí výdajů na zaměstnance a správních výdajů agentury (hlavy 1 a 2) a provozních výdajů na pracovní program (hlava 3).
     how_to:
       steps:
-        step1: Send an email to associacio [at] decidim [dot] org with your contact information and indicate in the subject I want to become a Decidim Partner.
-        step2: We will contact you for a videoconference to then assess the candidacy.
-        step3: If the candidacy is approved, the Coordination Committee will yearly send you a sworn declaration to be filled and sent back with the receipt of the corresponding bank transfer.
-      title: How to become a Decidim Partner?
+        step1: Pošlete e-mail asociacio [at] decidim [dot] org s vašimi kontaktními údaji a označte v předmětu chci se stát partnerem Decidim.
+        step2: Budeme vás kontaktovat na videokonferenci, abychom následně posoudili kandidaturu.
+        step3: V případě schválení kandidatury vám koordinační výbor každoročně zašle čestné prohlášení, které je třeba vyplnit a zaslat zpět spolu s potvrzením o přijetí příslušného bankovního převodu.
+      title: Jak se stát partnerem Decidim?
     requirements:
-      l1: Management of instances. Manage one or more active facilities of Decidim at the time of the application, for the own use of the entity or third parties.
-      l2: Contributions to the project. Contribute or have contributed significantly to the Decidim project.
-      p1: 'You have to agree to fulfill and sign the <a href="%{social_contract_url}">Social Contract</a> and also fulfill any of the following conditions can be members:'
-      p2: You can read in detail in the <a href="%{metadecidim_partners_url}">Metadecidim assembly</a>.
-      title: Which requirements does my organization need to meet to become a partner?
-    subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
-    title: Partnership policy
+      l1: Správa instancí. Správa jedné nebo více aktivních instancí Decidim v době podání žádosti, pro vlastní potřebu subjektu nebo třetích stran.
+      l2: Přispívání k projektu. Přispívají nebo významně přispěli k projektu Decidim.
+      p1: 'Musíte souhlasit se splněním a podepsáním <a href="%{social_contract_url}">Sociální smlouvy</a> a také splnit některou z následujících podmínek:'
+      p2: Podrobnosti si můžete přečíst v <a href="%{metadecidim_partners_url}">Metadecidim assembly</a>.
+      title: Jaké požadavky naše organizace musí splnit, aby se stala partnerem?
+    subtitle: Pokud vaše organizace chce podpořit Decidim, můžete se stát partnerem Decidim.
+    title: Partnerský program
   path: "/cs"
   press:
-    highlights: Media highlights
-    kit: Press kit
+    highlights: Nejdůležitější informace v médiích
+    kit: Pro média
     links:
       link1:
-        link: Download
-        title: Logo files
+        link: Ke stažení
+        title: Soubory s logem
       link2:
-        link: Watch
-        title: Promotional spot
+        link: Shlédnout
+        title: Propagační spot
       link3:
-        link: To the site
+        link: Na stránku
         title: Decidim Fest 2021
       link4:
-        link: Youtube channel
-        title: Videos
+        link: Kanál YouTube
+        title: Videa
       link5:
-        link: Download
-        title: Brochure
+        link: Ke stažení
+        title: Příručka
       link6:
-        link: Downloads
-        title: Community photos
-    sign_up: Sign up for our newsletter on Metadecidim
-    social_media: Find us on social media
-    subtitle: For media enquiries, please send us an email at
-    title: Press
+        link: Ke stažení
+        title: Komunitní fotky
+    sign_up: Přihlaste se k odběru novinek na Metadecidim
+    social_media: Najděte nás na sociálních sítích
+    subtitle: Pro dotazy na média, prosím pošlete nám e-mail na
+    title: Pro média
   privacy-policy:
     section-1:
       paragraph: <p>Associacio© de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" nebo "my / nám") je vlastníkem této webové stránky, k dispozici prostřednictvím webové domény <a href="https://decidim.org/">https://decidim.org/</a> (dále jen „webová stránka“), a vystupuje jako správce údajů pro zpracování osobních údajů všech uživatelů webových stránek („vy/vám“, „uživatel“).</p> <p><a href="%{decidim_url}">Decidim</a> je odhodlán chránit soukromí všech uživatelů webových stránek, jeho společníků a členů komunity <a href="%{decidim_url}">Decidim</a>. Tyto zásady ochrany osobních údajů vysvětlují naše postupy týkající se používání osobních údajů shromážděných prostřednictvím webových stránek. včetně demo naší svobodné participativní demokratické platformy s otevřeným zdrojem, stejně jako zpracování údajů jednotlivců spojených s <a href="%{decidim_url}">Decidim</a> a správa <a href="%{decidim_url}">Decidim</a> komunity, buď na této webové stránce nebo na jiných platformách spravovaných <a href="%{decidim_url}">Decidim</a>.</p> <p>Tyto zásady ochrany osobních údajů jsou součástí našich právních textů spolu s <a href="%{legal_notice_url}">právním upozorněním</a>.</p>
@@ -543,56 +547,56 @@ cs:
       org: OpenForum Europe Research Director, Evropská unie
       quote: Proces byl zahájen v říjnu 2019 na oddělení Evropské komise pro komunikaci a elektronickou demokracii ve Společném výzkumném středisku, což je vědecká a znalostní služba Evropské komise. Analýza potřeb konference a toho, které nástroje jim odpovídají, vedla k výběru open source nástroje Decidim pro jeho technickou vyspělost, širokou komunitu a přizpůsobivost.
     n8:
-      org: Pipeline to Power, working for NYC Civic Engagement Commission
-      quote: Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded.
+      org: Pipeline to Power, práce pro Komisi pro občanskou angažovanost v New Yorku
+      quote: Decidim je tak výkonný mimo jiné proto, že přidává do práce úroveň abstrakce, která odděluje jednotlivé kroky procesu a činnosti s ním spojené. To je součástí informační architektury, takže nejenže říkáte, co se děje v každém kroku, ale různé části Decidimu se chovají různě v závislosti na tom, kdy děláte, nebo v závislosti na tom, v jakém kroku procesu se nacházíte. Skutečnost, že je to přizpůsobitelné, skutečně umožňuje, aby se Decidim formoval podle toho, jak děláme svou práci, a ne aby se formovala naše práce.
   thanks:
     message: Děkujeme, že jste nás kontaktovali, brzy se k vám vrátíme.
     title: Děkujeme za váš e-mail
   trademark:
     examples-1:
-      l1: Including the Decidim logo on product pages to say "we work with Decidim" (e.g., hosting, consultancy services, developments based on Decidim).
-      l2: Use of the trademark "Decidim" in book titles and research articles.
-      l3: Use of the Decidim logo in the footer of an instance (“Powered by Decidim”).
-      title: Examples of use that do not need permission
+      l1: Uvádění loga Decidim na stránkách produktů s nápisem "spolupracujeme s Decidim" (např. hosting, poradenské služby, vývoj založený na Decidim).
+      l2: Použití ochranné známky "Decidim" v názvech knih a výzkumných článcích.
+      l3: Používání loga Decidim v zápatí instance (‚Běží na Decidim‘).
+      title: Příklady použití, které nepotřebují povolení
     examples-2:
-      l1: Selling merchandise (stickers, t-shirts, mugs, etc).
-      l2: Use of the Decidim logo on a book cover.
-      l3: Use of the Decidim logo in a header in a website, implying that you’re the Decidim organization.
-      title: Examples of use that do need permission
+      l1: Prodej zboží (samolepky, trička, hrnky atd.).
+      l2: Použití loga Decidim na obalu knihy.
+      l3: Použití loga Decidim v záhlaví webových stránek, což znamená, že jste organizace Decidim.
+      title: Příklady použití, které potřebují povolení
     examples-3:
-      l1: Naming your company or product after Decidim, like "The Decidim Consultants".
-      title: Examples of use that will not get permission
+      l1: Pojmenování společnosti nebo produktu po společnosti Decidim, například "The Decidim Consultants".
+      title: Příklady použití, které nezískají oprávnění
     goals:
-      l1: We’d like to make it easy for anyone to use the Decidim name or logo for community-oriented efforts that help spread and improve Decidim.
-      l2: We’d like to make it clear how Decidim-related businesses and projects can (and cannot) use the Decidim name and logo.
-      l3: We’d like to make it hard for anyone to use the Decidim name and logo to unfairly profit from, trick or confuse people who are looking for official Decidim resources.
-    p1: '"Decidim" and the Decidim logo are registered trademarks of Associació de Software Lliure Decidim. You may not use these trademarks in a commercial setting to infer that your product or service is endorsed or associated with Decidim without permission. You may use these marks to refer to Decidim in a way where it''s clear that you''re simply referring to the project, not claiming endorsement or association.'
-    p2: 'If you’re using the Decidim logo in any way you need to add the following text: <i>"Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim."</i>'
-    p3: 'We have developed this trademark usage policy with the following goals in mind:'
-    p4: You can request permission by emailing associacio@decidim.org.
-    p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
-    title: Trademark policy
+      l1: Rádi bychom komukoliv usnadnili používání názvu Decidim nebo loga pro komunitně orientované úsilí, které pomáhá šířit a zlepšovat Decidim.
+      l2: Rádi bychom objasnili, jakým způsobem mohou (a nemohou) firmy a projekty spojené se společností Decidim používat název a logo společnosti Decidim.
+      l3: Rádi bychom znemožnili, aby kdokoli používal jméno a logo Decidim k nekalému obohacování, klamání nebo matení lidí, kteří hledají oficiální zdroje Decidim.
+    p1: '"Decidim" a logo Decidim jsou registrované ochranné známky společnosti Associació de Software Lliure Decidim. Tyto ochranné známky nesmíte používat v komerčním prostředí, abyste naznačili, že váš produkt nebo služba jsou podporovány nebo spojeny se společností Decidim, bez povolení. Tyto ochranné známky smíte používat k odkazu na společnost Decidim způsobem, ze kterého je zřejmé, že pouze odkazujete na projekt, aniž byste si činili nárok na podporu nebo přidružení.'
+    p2: 'Pokud používáte logo Decidim jakýmkoli způsobem, musíte přidat následující text: <i>"Název a logo Decidim je registrovaná ochranná známka společnosti Associació de Software Lliure Decidim."</i>'
+    p3: 'Tyto zásady používání ochranné známky jsme vypracovali s ohledem na následující cíle:'
+    p4: O povolení můžete požádat e-mailem na associacio@decidim.org.
+    p5: Tato stránka se zásadami ochranných známek byla založena v <a href="%{rails_url}">Ruby on Rails</a> a <a href="%{wordpress_url}">Wordpress Foundation</a>.
+    title: Zásady používání ochranných známek
   used_by:
-    cta: Get started
-    disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
+    cta: Začínáme
+    disclaimer: Loga jsou duševním vlastnictvím příslušných držitelů autorských práv.<br>Nespadají pod licenci Creative Commons By-SA, kterou je licencován zbytek obsahu stránek.
     facts:
-      f1: instances
-      f2: countries
-      f3: institutions
-      f4: organizations
-      f5: participants
-      f6: processes
-      f7: proposals
-      f8: comments
-      f9: meetings
-      subtitle: Decidim keeps growing and being adopted by organizations and the community.
-      title: Facts & Figures
+      f1: instance
+      f2: země
+      f3: instituce
+      f4: organizace
+      f5: účastníci
+      f6: procesy
+      f7: návrhy
+      f8: komentáře
+      f9: setkání
+      subtitle: Decidim neustále roste a je přijímán organizacemi a komunitou.
+      title: Fakta a obrázky
     filters:
-      f0: See all
-      f1: Government
-      f2: Cities
-      f3: NGOs
-    intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
-    join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
-    subtitle: These cities, regions and organizations are already using Decidim
-    title: Decidim in use
+      f0: Zobrazit vše
+      f1: Vláda
+      f2: Města
+      f3: Nevládní organizace
+    intro: Můžete použít Decidim ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, sdružení, univerzita, nevládní organizace, odborový svaz, nebo družstvo...
+    join: Společnost Decidim si pro své demokratické procesy zvolilo více než 400 subjektů, 250 správních orgánů a 150 místních komunit.
+    subtitle: Tato města, regiony a organizace již používají Decidim
+    title: Kde se používá

@@ -5,7 +5,11 @@ it:
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
-    about: '["Support us", "Contact us", "Our assembly", "Press"]'
+    about:
+    - Support us
+    - Contact us
+    - Our assembly
+    - Stampa
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
@@ -25,8 +29,8 @@ it:
     values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
     values_title: Our values
   alert:
-    button: Read more
-    p1: The Future of The Internet · October 13-14
+    button: Join
+    p1: The Future of The Internet · October 13-14 Barcelona
     strong: Decidim Fest 22
   blog:
     latest: Latest blog post
@@ -37,7 +41,7 @@ it:
     title: Blog
   case_study:
     n1:
-      org: City of Helsinki
+      org: Città di Helsinki
       quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
     n2:
       org: Code for Japan
@@ -49,7 +53,7 @@ it:
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
-    cta: Per iniziare
+    cta: Go to Metadecidim
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Decidim Community Photo al Metadecidim Meeting 2016
     intro: Metadecidim è una comunità che collabora alla progettazione della piattaforma e alla costruzione del progetto. Insieme possiamo progettare e sviluppare nuove funzionalità e segnalare bug per il miglioramento continuo della piattaforma.
@@ -63,9 +67,9 @@ it:
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Invia
+    send: Send message
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Contattaci
+    title: Contact Decidim
   demo:
     button: Demo online
     p1: Gioca in giro ed esplora liberamente la piattaforma Decidim con la nostra demo online.
@@ -207,7 +211,7 @@ it:
         question: What does it mean that Decidim is for free, "libre" and open source?
         type: install
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
-    title: Domande frequenti
+    title: FAQ
     types:
       about: About Decidim
       association: Association
@@ -217,74 +221,74 @@ it:
       installation: Installation and license
       users: Users and roles
   features:
-    intro: "<p>È possibile utilizzare Decidim in un'organizzazione pubblica o privata, con centinaia o migliaia di potenziali partecipanti, come un consiglio comunale, un'associazione, un'università, una ONG, un sindacato, un collettivo di quartieri o una cooperativa...</p><p>Grazie a Decidim potrai configurare gli spazi per la partecipazione (iniziative, assemblee, processi o consultazioni) e arricchirli attraverso le molteplici componenti disponibili (riunioni dirette, indagini, proposte, votazioni, follow-up dei risultati, commenti e molti altri).</p>"
+    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
       feature1:
-        subtitle: democratizzare le questioni comuni, passo dopo passo
+        subtitle: To democratize common issues, step by step
         text: 'I processi sono uno spazio che permette di creare, attivare/disattivare e gestire vari processi partecipativi. Questi sono distinti dagli altri spazi essendo strutturati in diverse fasi all''interno delle quali tutti i componenti possono essere incorporati. Esempi di processi partecipativi sono: un processo elettorale per i membri di un comitato, un bilancio partecipativo, un processo di pianificazione strategica, la redazione collaborativa di un regolamento o di una norma, la progettazione di uno spazio urbano o la produzione di un piano di politica pubblica.'
         title: Processi partecipativi
       feature10:
-        subtitle: per analizzare, sintetizzare e costruire in comune
-        text: La componente dei testi partecipativi può essere utilizzata per convertire documenti di testo lunghi in varie proposte o risultati e, viceversa, per comporre e visualizzare un testo unificato basato su una raccolta di proposte o risultati.
+        subtitle: To analyze, synthesize, and build in common
+        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
         title: Testi partecipativi
       feature11:
         subtitle: Dove grandi eventi sono premiati
-        text: La componente della conferenza consente a un'organizzazione di creare un sito web per un grande evento unendo a una serie di riunioni predefinite (chat, workshop, ecc. , mettere insieme un programma unificato e gestire i partecipanti.
+        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
         title: Conferenza
       feature12:
         subtitle: Perché il parere della vostra comunità conta
-        text: La componente di sondaggi può essere utilizzata per progettare e pubblicare sondaggi e per visualizzare e scaricare i loro risultati.
+        text: Design and publish surveys. Display and download results.
         title: Sondaggi
       feature13:
         subtitle: Parità e giustizia di casualità
-        text: La componente di smistamento consente di selezionare un certo numero di proposte (ad es. candidati per una giuria) con procedure casuali, ma riproducibili, che garantiscono distribuzioni non parziali e uniformi.
+        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
         title: sortition
       feature14:
         subtitle: Costruire un'intelligenza collettiva
-        text: Il componente commenti consente agli utenti di aggiungere commenti, per identificare il commento come a favore, contro o neutrale in relazione all'oggetto commentato, per votare commenti, rispondere a loro e per ricevere notifiche sulle risposte.
+        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
         title: Commenti
       feature15:
         subtitle: La tua comunità, informata e aggiornata
-        text: Il componente delle pagine viene utilizzato per creare pagine informative con una ricca formattazione del testo, immagini e video incorporati. Il componente del blog rende possibile la creazione di post o notizie, e di navigare cronologicamente.
+        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
         title: Pagine e blog
       feature16:
-        subtitle: Informazioni personalizzate sui contenuti interessanti
-        text: Decidim consente di tenere traccia di qualsiasi spazio o componente per ricevere aggiornamenti ogni volta che accadono.
+        subtitle: Personalised information on interesting content
+        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
         title: Notifiche
       feature17:
         subtitle: Semplice ma potente
-        text: Il componente newsletter consente di inviare email a tutti coloro che sono iscritti alla piattaforma o, più selettivamente, a coloro che partecipano a uno spazio specifico.
+        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
         title: Newsletter
       feature2:
-        subtitle: il potere di auto-organizzazione collettiva
-        text: 'È uno spazio che offre la possibilità di istituire organi o gruppi decisionali (consigli, gruppi di lavoro, comitati, ecc.). che si riuniscono periodicamente, dettagliando la loro composizione, elencando e geo-localizzando le loro riunioni, e consentire di parteciparvi (ad esempio: assistere se la capacità dei posti a sedere e la natura del complesso lo consentono, aggiungere punti all’ordine del giorno o commentare le proposte e le decisioni prese da tale organismo).'
+        subtitle: The power of collective self-organization
+        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
         title: assemblee
       feature3:
-        subtitle: il diritto di decidere con tutte le garanzie democratiche
-        text: Le consultazioni sono uno spazio che consente di coordinare i referendum, innescare discussioni e dibattiti, ottenere la pubblicazione dei risultati delle votazioni; può essere collegato a un sistema sicuro di voto elettronico.
-        title: consultazioni
+        subtitle: The right to decide with all democratic guarantees
+        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
+        title: Votings
       feature4:
-        subtitle: stabilire l'agenda di tutti, a portata di tutti
-        text: Iniziative è uno spazio che permette ai partecipanti di creare in collaborazione iniziative, definire la loro traiettoria e i loro obiettivi, raccogliere approvazioni, discutere, discutere e diffondere iniziative e definire punti di incontro in cui le firme possono essere raccolte da partecipanti o dibattiti aperti ad altri membri dell'organizzazione.
+        subtitle: Setting everyone's agenda, within everyone's reach
+        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
         title: Iniziative
       feature5:
-        subtitle: le tue idee in dettaglio
-        text: La componente delle proposte consente all'utente di creare una proposta utilizzando una procedura guidata di creazione, di confrontarla con quelle esistenti, pubblicarlo sulla piattaforma e includere ulteriori informazioni come la geo-localizzazione o documenti e immagini allegati. Questo componente consente anche di navigare, filtrare e interagire con una serie di proposte. Inoltre, con il proposto-incubatore è possibile creare proposte collaborative.
+        subtitle: Your ideas in detail
+        text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Proposte
       feature6:
-        subtitle: decidi il tuo voto
-        text: 'La componente votante offre alle organizzazioni la possibilità di attivare diversi sistemi di voto o di sostegno intorno alle proposte: illimitato, limitato ad una determinata soglia, ponderato, basato sui costi, ecc.'
+        subtitle: Decide your choice
+        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Votazione
       feature7:
-        subtitle: nessuna proposta senza risposta
-        text: La componente dei risultati è utilizzata per trasformare le proposte in risultati e fornire risposte ufficiali in merito alla loro accettazione o rifiuto, fondere varie proposte in un unico risultato.
+        subtitle: No proposal without an answer
+        text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Risultati
       feature8:
-        subtitle: trasparenza dall'inizio alla fine
-        text: La componente di responsabilità offre la possibilità di suddividere i risultati in progetti, definire e applicare gli stati di avanzamento relativi alla loro attuazione, oltre a mostrare la portata dell’attuazione dei risultati raggruppata per categorie e ambiti.
+        subtitle: End-to-end transparency
+        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Accountability
       feature9:
-        subtitle: per incontrare e non perdere nulla
+        subtitle: To meet and not miss anything
         text: La componente meeting offre alle organizzazioni e ai partecipanti la possibilità di convocare incontri, determinare la loro posizione e il loro tempo, registrare e limitare i partecipanti, definire la struttura e il contenuto della riunione, nonché pubblicare i verbali e le proposte che ne risultano.
         title: Riunioni
     subtitle: For democratic organizations and collectives of any size and kind.
@@ -296,16 +300,16 @@ it:
     type3:
       cta: Explore the modules
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
-      title: Modules
+      title: Moduli
   first-steps:
     first-steps1:
       content: You can install it yourself or find someone to help you with tech support.
-      link1: Documentation
+      link1: Documentazione
       pre: For technologists
       title: Installing Decidim
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
-      link1: Features
+      link1: Funzionalità (features)
       pre: For organizations
       title: The right tool for you
     first-steps3:
@@ -353,21 +357,21 @@ it:
         title: It's yours. Use it. Share it. Improve it.
     hero:
       cta: Get started
-      intro: Tecnologia gratuita e sicura.<br/>Con tutte le garanzie democratiche.<br/>La riprogrammazione della democrazia è ora possibile con Decidim.
-      subheading: Decidim è una piattaforma digitale<br/>per la partecipazione dei cittadini
+      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
+      subheading: Decidim is a digital platform for citizen participation
     subhero:
       cta: Explore all features
-      feature1: Pianificazione strategica<br/>
-      feature2: Bilancio partecipativo<br/>
-      feature3: Iniziative e consultazioni dei cittadini<br/>
-      feature4: Processi partecipativi<br/>
-      feature5: assemblee
-      feature6: Comunicazione in rete<br/>
+      feature1: Strategic planning
+      feature2: Processi partecipativi
+      feature3: assemblee
+      feature4: Initiatives and citizen consultations
+      feature5: Participatory budgeting
+      feature6: Networked communication
       intro: Decidim aiuta i cittadini, le organizzazioni e le istituzioni pubbliche a organizzarsi democraticamente su ogni scala.
     used_by:
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
-      title: Stanno già usando Decidim
+      title: Already using Decidim
   legal-notice:
     section-1:
       paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
@@ -406,7 +410,7 @@ it:
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-    title: Modules
+    title: Moduli
   nav:
     about: About
     association: Association
@@ -428,7 +432,7 @@ it:
     legal-notice: Legal notice
     menu: Menu
     modules: Moduli
-    partners: Enti cooperanti
+    partners: Partners
     partnership-policy: Partnership policy
     press: Stampa
     privacy-policy: Privacy policy
@@ -493,7 +497,7 @@ it:
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
-    title: Press
+    title: Stampa
   privacy-policy:
     section-1:
       paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
@@ -595,4 +599,4 @@ it:
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
-    title: Decidim in use
+    title: Decidim in uso
