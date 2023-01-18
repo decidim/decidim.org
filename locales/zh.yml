@@ -1,11 +1,14 @@
----
-zh:
+zh-CN:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
-    about: '["Support us", "Contact us", "Our assembly", "Press"]'
+    about:
+      - Support us
+      - Contact us
+      - Our assembly
+      - 新闻社
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
@@ -34,10 +37,10 @@ zh:
     subtitle: Latest news from Decidim.
     tags:
       title: Articles tagged with
-    title: Blog
+    title: 博客
   case_study:
     n1:
-      org: City of Helsinki
+      org: 赫尔辛基城
       quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
     n2:
       org: Code for Japan
@@ -51,15 +54,15 @@ zh:
     community3: Help shape the future of the platform
     cta: Go to Metadecidim
     figcaption: The Decidim Community during the Decidim Fest 2021
-    img_alt: Decidim Community Photo at Metadecidim Meeting 2016
-    intro: Metadecidim is a community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.
-    subtitle: A democratic community that manages the Decidim project in all its dimensions
-    title: Metadecidim, our community
+    img_alt: 2016 年Metadecidim Meeting at Decidim Community Photo
+    intro: Metadecidim 是一个在设计平台和建造项目方面进行协作的社区。 我们可以共同设计和开发新的功能并报告漏洞，以不断改进平台。
+    subtitle: 一个民主社区，负责管理各方面的“Decidim”项目
+    title: 梅塔决定姆，我们的社区
   contact:
-    bot_field: 'Don’t fill this out if you''re human:'
-    email: Email
-    message: Message
-    name: Name
+    bot_field: '如果您是人类，请不要填写：'
+    email: 电子邮件地址
+    message: 留言
+    name: 名称
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
@@ -67,10 +70,10 @@ zh:
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     title: Contact Decidim
   demo:
-    button: Online demo
-    p1: Play around and explore freely the Decidim platform with our online demo.
+    button: 在线演示
+    p1: 使用我们的在线演示来自由地播放并探索“Decidim”平台。
     strong: Try Online
-    title: Online Demo
+    title: 在线演示
   faqs:
     cta: Read all FAQs
     questions:
@@ -207,7 +210,7 @@ zh:
         question: What does it mean that Decidim is for free, "libre" and open source?
         type: install
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
-    title: FAQs
+    title: 常见问题
     types:
       about: About Decidim
       association: Association
@@ -221,44 +224,44 @@ zh:
     page:
       feature1:
         subtitle: To democratize common issues, step by step
-        text: 'Processes is a space that allows to create, activate/deactivate, and manage various participatory processes. These are distinguished from other spaces by being structured in different phases within which all of the components can be incorporated. Examples of participatory processes are: an election process for members of a committee, participatory budgeting, a strategic planning process, the collaborative writing of a regulation or norm, the design of an urban space or the production of a public policy plan.'
-        title: Participatory processes
+        text: '进程是一个空间，可以创建、激活/取消激活和管理各种参与进程。 这些空间与其他空间不同，在不同阶段分成不同的结构，所有组成部分都可以纳入其中。 参与进程的例子有：委员会成员的选举进程、参与性预算编制、战略规划进程。 合作编写条例或规范、设计城市空间或制定公共政策计划。'
+        title: 参与进程
       feature10:
         subtitle: To analyze, synthesize, and build in common
         text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
-        title: Participatory texts
+        title: 参与性案文
       feature11:
-        subtitle: Where big events are premiered
+        subtitle: 大型事件被抢走的地方
         text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
-        title: Conference
+        title: 'Original: ENGLISH'
       feature12:
-        subtitle: Because the opinion of your community matters
+        subtitle: 因为您的社区意见很重要。
         text: Design and publish surveys. Display and download results.
-        title: Surveys
+        title: 调查
       feature13:
-        subtitle: Equality and the justice of randomness
+        subtitle: 平等和随意司法
         text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
-        title: Sortition
+        title: 排序方式
       feature14:
-        subtitle: Building a collective intelligence
+        subtitle: 建立集体情报
         text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
-        title: Comments
+        title: 评论
       feature15:
-        subtitle: Your community, informed and up to date
+        subtitle: 您的社群已知并已更新
         text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
-        title: Pages and blogs
+        title: 页面和博客
       feature16:
         subtitle: Personalised information on interesting content
         text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
-        title: Notifications
+        title: 通知
       feature17:
-        subtitle: Simple but powerful
+        subtitle: 简单但强力
         text: Send emails to everyone registered in the platform or to those who participate in a specific space.
-        title: Newsletter
+        title: 通讯
       feature2:
         subtitle: The power of collective self-organization
         text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
-        title: Assemblies
+        title: 程序集
       feature3:
         subtitle: The right to decide with all democratic guarantees
         text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
@@ -266,46 +269,46 @@ zh:
       feature4:
         subtitle: Setting everyone's agenda, within everyone's reach
         text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
-        title: Initiatives
+        title: 倡议
       feature5:
         subtitle: Your ideas in detail
         text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
-        title: Proposals
+        title: 建议
       feature6:
         subtitle: Decide your choice
         text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
-        title: Voting
+        title: 表 决
       feature7:
         subtitle: No proposal without an answer
         text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
-        title: Results
+        title: 成果
       feature8:
         subtitle: End-to-end transparency
         text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
-        title: Accountability
+        title: 问责制
       feature9:
         subtitle: To meet and not miss anything
-        text: The meeting component offers organizations and participants the opportunity to convene meetings, determine their location and time, register and limit attendees, define the structure and content of the meeting as well as publishing the minutes, and the resulting proposals.
-        title: Meetings
+        text: 会议构成部分为各组织和与会者提供了召开会议的机会，确定会议地点和时间。 登记和限制与会者，确定会议的结构和内容以及出版会议记录和由此产生的建议。
+        title: 会议
     subtitle: For democratic organizations and collectives of any size and kind.
-    title: Features
+    title: 功能
     type1:
-      title: Spaces for participation
+      title: 参与空间
     type2:
-      title: Components
+      title: 组件
     type3:
       cta: Explore the modules
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
-      title: Modules
+      title: 模块
   first-steps:
     first-steps1:
       content: You can install it yourself or find someone to help you with tech support.
-      link1: Documentation
+      link1: 文件
       pre: For technologists
       title: Installing Decidim
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
-      link1: Features
+      link1: 功能
       pre: For organizations
       title: The right tool for you
     first-steps3:
@@ -358,12 +361,12 @@ zh:
     subhero:
       cta: Explore all features
       feature1: Strategic planning
-      feature2: Participatory processes
-      feature3: Assemblies
+      feature2: 参与进程
+      feature3: 程序集
       feature4: Initiatives and citizen consultations
       feature5: Participatory budgeting
       feature6: Networked communication
-      intro: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
+      intro: 腐化有助于公民、组织和公共机构在每个规模上进行民主组织。
     used_by:
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
       link: Discover how
@@ -399,47 +402,47 @@ zh:
     title: Legal notice
   modules:
     auth: Authorization
-    community: Community
+    community: 社区
     cta: Learn how
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
     more_info: More information
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-    title: Modules
+    title: 模块
   nav:
     about: About
     association: Association
-    blog: Blog
+    blog: 博客
     close_menu: Close menu
-    code: Code
-    community: Community
-    contact: Contact
-    contract: Social Contract
-    demo: Demo
+    code: 代码
+    community: 社区
+    contact: 聯繫人
+    contract: 社会合同
+    demo: 演示模式
     docs:
       path: https://docs.decidim.org/
-      title: Documentation
+      title: 文件
     donate: Donate
-    faqs: FAQs
-    features: Features
+    faqs: 常见问题
+    features: 功能
     first-steps: First steps
     home: Home
     legal-notice: Legal notice
     menu: Menu
-    modules: Modules
+    modules: 模块
     partners: Partners
     partnership-policy: Partnership policy
-    press: Press
+    press: 新闻社
     privacy-policy: Privacy policy
     text: Navigation
     trademark: Trademark policy
     use-cases: Use cases
-    used_by: Decidim in use
+    used_by: 使用中的分解
   newsletter:
     past: Past newsletters
     subtitle: News and updates about the Decidim platform and the community.
-    title: Newsletter
+    title: 通讯
   partners:
     intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
     link: See Decidim's partnership policy
@@ -467,7 +470,7 @@ zh:
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
     title: Partnership policy
-  path: Path
+  path: '/zh'
   press:
     highlights: Media highlights
     kit: Press kit
@@ -493,7 +496,7 @@ zh:
     sign_up: Sign up for our newsletter on Metadecidim
     social_media: Find us on social media
     subtitle: For media enquiries, please send us an email at
-    title: Press
+    title: 新闻社
   privacy-policy:
     section-1:
       paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
@@ -522,20 +525,20 @@ zh:
     title: Privacy policy
   testimonials:
     n1:
-      org: Barcelona City Hall (2015-2019)
-      quote: Thanks to Decidim, in Barcelona we have managed to co-produce a strategic city plan together with the citizens. In 2016 we inaugurated the Municipal Action Plan in the form of a participatory process through Decidim Barcelona. Currently, this plan includes almost 7 thousand citizen proposals. One of the advantages of using this platform is that you can monitor at all times the state of implementation of the approved proposals.
+      org: 巴塞罗那市政厅(2015-2019年)
+      quote: 由于德基姆的努力，我们在巴塞罗那设法与公民共同制定了一项战略性城市计划。 2016年，我们启动了《城市行动计划》，其形式是通过Decidim Barcelona开展参与进程。 目前，这项计划包括近7 000个公民提案。 使用这个平台的优点之一是，您可以随时监测批准的建议的执行情况。
     n2:
       org: Som Energia
-      quote: With the implementation of Decidim in Som Energia we have generated a kinder space for participation. We released the tool in 2018, hosting the General Assembly of the Cooperative and months later we debated the Image Redesign and collaborative development of the School of Som Energia, among other participatory processes. In a few months, more than 3,500 participant people have registered, 5 participatory processes, 3 assemblies operating and more than 1,300 votes in the last General Assembly vote.
+      quote: 随着《圣日报》的推行，我们为参与创造了一个更加狭窄的空间。 我们在2018年发布了该工具。 主持合作社大会的几个月后，我们讨论了“Som Energia学校的形象重新设计与合作发展”的问题。 在其他参与性进程中也应如此。 在几个月内，3 500多名参与者登记参加了5个参与进程。 大会上次投票中有3个正在运作的议会和1 300多个选票。
     n3:
-      org: Municipal President of Mérida Yucatán, Mexico. City Council of Mérida Yucatán, Mexico
-      quote: The Decide Mérida digital platform was an opportunity that opened as never before the mechanisms of citizen participation for the elaboration of the Municipal Development Plan of Mérida 2018-2021. We had more than 3,000 citizen interactions including proposals, comments, suggestions and support that achieving the highest consensus possible about what is best for our city. Undoubtedly, the Decide Mérida platform will continue to be our ally in making Mérida an increasingly participative society.
+      org: Participal President of Merida Yucatatann, Mexico. City Council of Merida Yucatan, 1981-1981. Mexico
+      quote: '《1981年Merida决定》的数字平台是一个前所未有的机会，它为制定《1982年马里达2018-2021年城市发展计划》提供了公民参与机制。 我们有3 000多名公民的互动，包括建议、评论和意见。 建议和支持就我们城市的最佳做法达成尽可能最高的共识。 毫无疑问，我们将继续成为我们的盟友，促使《1981年决定》成为一个日益具有参与性的社会。'
     n4:
-      org: City of Helsinki
-      quote: What we appreciate is that it’s built with democracy in mind and therefore democracy is a big focus. Democratic principles such as accountability, equality and transparency are in the core of the design.
+      org: 赫尔辛基城
+      quote: 我们赞赏的是，它是在牢记民主的基础上建立起来的，因此民主是一个主要的重点。 问责、平等和透明度等民主原则是设计的核心。
     n5:
-      org: Open Government of Mexico City
-      quote: Almost every participatory process that has come to our table, we have been able to solve it using Decidim's business rules. As a tool, it is a very strong one. However, the part that seems strongest and most important to us is its community, both developers and those who use it for participatory processes. Coexisting with them has made us appreciate the challenges involved in implementing participatory democracy in the real world.
+      org: 墨西哥城开放政府
+      quote: 几乎每一个参与性进程都来到我们的桌面上，我们都能够利用十进制的商业规则解决这个问题。 作为一种工具，它是一种非常有力的工具。 然而，对我们来说似乎最强有力和最重要的部分是其社区，无论是开发者还是那些将其用于参与进程的人。 与他们合作使我们认识到在现实世界中实行参与性民主所涉及的挑战。
     n6:
       org: Mozilla Foundation
       quote: We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
@@ -546,8 +549,8 @@ zh:
       org: Pipeline to Power, working for NYC Civic Engagement Commission
       quote: Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded.
   thanks:
-    message: Thank you for contacting us, we will get back to you soon.
-    title: Thanks for your email
+    message: 感谢您与我们联系，我们将很快与您联系。
+    title: 感谢您的电子邮件
   trademark:
     examples-1:
       l1: Including the Decidim logo on product pages to say "we work with Decidim" (e.g., hosting, consultancy services, developments based on Decidim).
@@ -595,4 +598,4 @@ zh:
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
-    title: Decidim in use
+    title: 使用中的分解
