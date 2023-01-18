@@ -1,4 +1,3 @@
----
 cs:
   '404':
     intro: Možná jste hledali...
@@ -6,10 +5,10 @@ cs:
     title: Stránka nenalezena
   about:
     about:
-    - Podpořte nás
-    - Kontaktujte nás
-    - Naše shromáždění
-    - Pro média
+      - Podpořte nás
+      - Kontaktujte nás
+      - Naše shromáždění
+      - Pro média
     intro: Chceme přispět k demokratizaci společnosti prostřednictvím budování technologií, metodik, praktik, standardů, činností, interpretací a hodnot svobodně, otevřeným, spolupracujícím a přemýšlivým způsobem.
     subtitle: Sdružení svobodného softwaru Decidim je demokratické sdružení pro správu komunity Decidim.
     support_at_opencollective: Podpořte nás na Open Collective
@@ -329,7 +328,7 @@ cs:
     section4:
       button1: O asociaci
       button2: Připojit se ke komunitě
-      intro: "<strong>Decidim Free Software Association</strong> je demokratické sdružení pro správu komunity Decidim."
+      intro: <strong>Decidim Free Software Association</strong> je demokratické sdružení pro správu komunity Decidim.
       subtitle: "<strong>Metadecidim</strong> je komunita, která spolupracuje na návrhu platformy a vývoji projektu. Společně navrhujeme a vytváříme nové funkce a oznamujeme chyby pro trvalé zlepšování platformy."
       title: Kdo stojí za platformou?
     subtitle: Decidim je digitální platforma<br/>pro participaci občanů
@@ -471,7 +470,7 @@ cs:
       title: Jaké požadavky naše organizace musí splnit, aby se stala partnerem?
     subtitle: Pokud vaše organizace chce podpořit Decidim, můžete se stát partnerem Decidim.
     title: Partnerský program
-  path: "/cs"
+  path: '/cs'
   press:
     highlights: Nejdůležitější informace v médiích
     kit: Pro média
