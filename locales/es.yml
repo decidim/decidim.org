@@ -1,3 +1,4 @@
+---
 es:
   '404':
     intro: Maybe you were looking for...
@@ -5,10 +6,10 @@ es:
     title: Page not found
   about:
     about:
-      - Support us
-      - Contact us
-      - Our assembly
-      - Prensa
+    - Support us
+    - Contact us
+    - Our assembly
+    - Prensa
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
@@ -224,7 +225,7 @@ es:
     page:
       feature1:
         subtitle: To democratize common issues, step by step
-        text: 'Procesos permite crear, activar/desactivar y administrar diferentes procesos de participación, articularlos en diferentes fases en las que pueden combinarse todos los componentes (un proceso de elección de los miembros de un comité, presupuestos participativos, un proceso de planificación estratégica, la redacción colaborativa de un reglamento o norma, el diseño de un espacio urbano o la producción de un plan de políticas públicas…).'
+        text: Procesos permite crear, activar/desactivar y administrar diferentes procesos de participación, articularlos en diferentes fases en las que pueden combinarse todos los componentes (un proceso de elección de los miembros de un comité, presupuestos participativos, un proceso de planificación estratégica, la redacción colaborativa de un reglamento o norma, el diseño de un espacio urbano o la producción de un plan de políticas públicas…).
         title: Procesos participativos
       feature10:
         subtitle: To analyze, synthesize, and build in common
@@ -470,7 +471,7 @@ es:
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
     title: Partnership policy
-  path: '/es'
+  path: "/es"
   press:
     highlights: Media highlights
     kit: Press kit

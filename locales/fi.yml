@@ -1,3 +1,4 @@
+---
 fi:
   '404':
     intro: Ehkä etsit jotain näistä...
@@ -5,10 +6,10 @@ fi:
     title: Sivua ei löytynyt
   about:
     about:
-      - Tue meitä
-      - Ota yhteyttä
-      - Oma yhteisömme
-      - Lehdistö
+    - Tue meitä
+    - Ota yhteyttä
+    - Oma yhteisömme
+    - Lehdistö
     intro: Haluamme edistää yhteiskunnan demokratisoitumista teknologian, menetelmien, käytäntöjen, standardien, tekojen, narratiivien ja arvojen kautta; vapalla, avoimella, osallistavalla ja pohtivalla tavalla.
     subtitle: Vapaan Decidim-ohjelmiston yhdistys ("Decidim Free Software Association") on demokraattinen yhdistys, jonka tehtävänä on hallinnoida Decidim-yhteisöä.
     support_at_opencollective: Tue meitä Open Collective -palvelussa
@@ -224,7 +225,7 @@ fi:
     page:
       feature1:
         subtitle: Yhteisten asioiden demokratisointiin, askel askeleelta
-        text: 'Prosessit ovat tila, jonka avulla voidaan luoda, aktivoida/deaktivoida ja hallita erilaisia osallisuusprosesseja. Ne erotetaan muista tiloista siten, että ne on rakennettu eri vaiheisiin, joissa kaikki osat voidaan liittää. Esimerkkejä osallistuvista prosesseista ovat komitean jäsenten vaaliprosessi, osallistava budjetointi, strateginen suunnitteluprosessi, asetuksen tai normin yhteistoiminnallinen kirjoittaminen, kaupunkialueen suunnittelu tai julkisen politiikan suunnitelman laatiminen.'
+        text: Prosessit ovat tila, jonka avulla voidaan luoda, aktivoida/deaktivoida ja hallita erilaisia osallisuusprosesseja. Ne erotetaan muista tiloista siten, että ne on rakennettu eri vaiheisiin, joissa kaikki osat voidaan liittää. Esimerkkejä osallistuvista prosesseista ovat komitean jäsenten vaaliprosessi, osallistava budjetointi, strateginen suunnitteluprosessi, asetuksen tai normin yhteistoiminnallinen kirjoittaminen, kaupunkialueen suunnittelu tai julkisen politiikan suunnitelman laatiminen.
         title: Osallistumisprosessit
       feature10:
         subtitle: Analysointiin, yhteiskehittämiseen ja yhdessä tekemiseen
@@ -276,7 +277,7 @@ fi:
         title: Ehdotukset
       feature6:
         subtitle: Anna oman äänesi kuulua
-        text: 'Tarjoaa organisaatioille työkalut ehdotuksista äänestämiseen tai niiden arviointiin demokraattisen prosessin mukaisesti. Taustalla turvallinen ja salattu sähköinen äänestysteknologia.'
+        text: Tarjoaa organisaatioille työkalut ehdotuksista äänestämiseen tai niiden arviointiin demokraattisen prosessin mukaisesti. Taustalla turvallinen ja salattu sähköinen äänestysteknologia.
         title: Äänestys
       feature7:
         subtitle: Ei ehdotusta ilman vastausta
@@ -331,7 +332,9 @@ fi:
       intro: <strong>Decidim-yhdistys</strong> ("Decidim Free Software Association") on Decidim-yhteisön hallinnointiin keskittynyt demokraattinen yhdistys.
       subtitle: "<strong>Metadecidim</strong> on yhteisö, joka suunnittelee alustan tulevaisuutta ja kehittää hanketta eteenpäin. Suunnittelemme ja luomme yhdessä uusia ominaisuuksia ja ilmoitamme löytämistämme ongelmista, jotta voimme parantaa alustaa jatkuvasti."
       title: Kuka on alustan takana?
-    subtitle: "Decidim on kansalaisosallistumisen<br/>\ndigitaalinen alusta"
+    subtitle: |-
+      Decidim on kansalaisosallistumisen<br/>
+      digitaalinen alusta
     title: Decidimin käytön aloittaminen
   footer:
     about_us: Tietoa meistä
@@ -373,7 +376,7 @@ fi:
       title: Käytätkö jo Decidimiä?
   legal-notice:
     section-1:
-      paragraph: '<p>Käytät Associació de Software Lliure Decidim:n ("Decidim", "Yhdistys", "Me") verkkosivustoa, joka on saatavissa verkko-osoitteessa <a href="https://decidim.org/fi/">https://decidim.org/</a> (jäljempänä "Verkkosivusto"), kotipaikkana Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Espanja ja ID-numero G67401174.</p><p><b>Voit ottaa meihin yhteyttä sähköpostitse osoitteen <a href="mailto:hola@decidim.org">hola@decidim.org</a> kautta</b></p>'
+      paragraph: <p>Käytät Associació de Software Lliure Decidim:n ("Decidim", "Yhdistys", "Me") verkkosivustoa, joka on saatavissa verkko-osoitteessa <a href="https://decidim.org/fi/">https://decidim.org/</a> (jäljempänä "Verkkosivusto"), kotipaikkana Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Espanja ja ID-numero G67401174.</p><p><b>Voit ottaa meihin yhteyttä sähköpostitse osoitteen <a href="mailto:hola@decidim.org">hola@decidim.org</a> kautta</b></p>
       title: Keitä me olemme
     section-2:
       paragraph: "<p>Tämän Verkkosivuston tarkoitus on tarjota yleistä julkista tietoa Decidimistä, sen toiminnasta ja teknologiasta, jotka koostuvat vapaasta avoimen lähdekoodin osallistuvan demokratian alustasta kaupungeille ja organisaatioille sekä sen ympärille muodostuneen maailmanlaajuisen Decidim-yhteisön hallinnoinnista. Teknologiamme mahdollistaa kansalais- ja yhteisöhankkeiden kehittämisen laajemman yhteisöllisen osallistumisen avulla. Voit vapaasti kokeilla Decidim-alustaa julkisessa verkossa olevan demo-palvelumme kautta.</p><p>Tämän Oikeudellisen ilmoituksen sisältämien käyttöehtojen tarkoitus on säädellä tämän Verkkosivuston ja lain 34/2002 informaatioyhteiskunnan palveluista ja sähköisestä kaupasta (Law 34/2002 on Information Society Services and Electronic Commerce) sekä muiden sovellettavien lakien ja säädösten mukaan tarjottujen palveluiden ja/tai sisältöjen sallittua käyttöä.</p>"
@@ -470,7 +473,7 @@ fi:
       title: Minkälaisia vaatimuksia organisaationi tulee täyttää päästäkseen yhteistyökumppaniksi?
     subtitle: Jos organisaatiosi haluaa tukea Decidimiä, voit liittyä Decidim-yhteistyökumppaniksi.
     title: Yhteistyökumppanien ehdot
-  path: '/fi'
+  path: "/fi"
   press:
     highlights: Median kohokohdat
     kit: Lehdistöpaketti

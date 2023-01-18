@@ -1,3 +1,4 @@
+---
 lv:
   '404':
     intro: Maybe you were looking for...
@@ -5,10 +6,10 @@ lv:
     title: Page not found
   about:
     about:
-      - Support us
-      - Contact us
-      - Our assembly
-      - Press
+    - Support us
+    - Contact us
+    - Our assembly
+    - Press
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_at_opencollective: Support us at Open Collective
@@ -470,7 +471,7 @@ lv:
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
     title: Partnership policy
-  path: '/lv'
+  path: "/lv"
   press:
     highlights: Media highlights
     kit: Press kit
