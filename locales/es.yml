@@ -1,60 +1,59 @@
----
 es:
   '404':
-    intro: Maybe you were looking for...
-    subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
-    title: Page not found
+    intro: Tal vez estabas buscando...
+    subtitle: Parece que has seguido un enlace roto o has introducido una URL que no existe en este sitio.
+    title: Página no encontrada
   about:
     about:
-    - Support us
-    - Contact us
-    - Our assembly
-    - Prensa
-    intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_at_opencollective: Support us at Open Collective
-    support_intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_title: Support Decidim
-    title: About Decidim
+      - Apóyanos
+      - Contacto
+      - Asamblea
+      - Prensa
+    intro: Queremos contribuir a la democratización de la sociedad mediante la construcción de tecnologías, metodologías, prácticas, estándares, acciones, narrativas y valores, de una manera libre, abierta, colaborativa y reflexiva.
+    subtitle: La Asociación de Software Libre de Decidim es una asociación democrática para la gobernanza de la comunidad de Decidim.
+    support_at_opencollective: Apóyanos a través de Open Collective
+    support_intro: Queremos contribuir a la democratización de la sociedad mediante la construcción de tecnologías, metodologías, prácticas, estándares, acciones, narrativas y valores, de una manera libre, abierta, colaborativa y reflexiva.
+    support_subtitle: La Asociación de Software Libre de Decidim es una asociación democrática para la gobernanza de la comunidad de Decidim.
+    support_title: Apóyanos
+    title: Quiénes somos
     values:
-      v1: Compromise and responsibility
-      v2: Equal opportunities and quality indicators
-      v3: Open content to share and cooperate
-      v4: Free software to enable autonomy
-      v5: Data confidentiality
-      v6: Transparency, traceability and integrity
-      v7: Continuous improvement and collaboration between organizations
-    values_cta: Read the social contract
-    values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
-    values_title: Our values
+      v1: Compromiso y responsabilidad
+      v2: Igualdad de oportunidades e indicadores de calidad
+      v3: Contenidos abiertos y cooperación
+      v4: Software libre para la autonomía
+      v5: Privacidad de datos
+      v6: Transparencia, trazabilidad e integridad
+      v7: Mejora continua y colaboración entre organizaciones
+    values_cta: Ir al contrato social
+    values_intro: "<p>Desde el inicio, Decidim tiene un contrato social que incluye los valores del proyecto.</p><p>Todas las personas miembros de la Asociación de Software Libre de Decidim se comprometen a respetar este contrato</p>"
+    values_title: Nuestros valores
   alert:
-    button: Join
-    p1: The Future of The Internet · October 13-14 Barcelona
+    button: Únete
+    p1: El futuro de Internet · 13 y 14 de octubre de Barcelona
     strong: Decidim Fest 22
   blog:
-    latest: Latest blog post
-    read_more: Read more
-    subtitle: Latest news from Decidim.
+    latest: Últimas entradas del blog
+    read_more: Más información
+    subtitle: Últimas noticias de Decidim.
     tags:
-      title: Articles tagged with
+      title: Artículos etiquetados con
     title: Blog
   case_study:
     n1:
       org: Ayuntamiento de Helsinki
-      quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
+      quote: Valoramos siete diferentes tipos de opciones de presupuestos participativos para encontrar la correcta plataforma para desplegar el proceso en Helsinki, con una interfaz fácil de usar y la modularidad necesaria para diferentes necesidades. Decidim ganó la evaluación y la primera instancia fue desarrollada en 2018.
     n2:
       org: Code for Japan
-      quote: Decidim provides customize-friendly architecture so that we can adapt it to our domestic situation.
+      quote: Decidim ofrece una arquitectura adaptable para poder adaptarla a cada situación particular.
     n3:
-      org: European Commission
-      quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
+      org: Comisión Europea
+      quote: 'La plataforma fue lanzada el 19 de abril de 2021 y estuvo abierta a contribuciones hasta el 9 de mayo de 2022. Durante este período, se presentaron 18 859 ideas y 22 167 comentarios y se organizaron 6 661 eventos. Las contribuciones reunidas a través de la plataforma digital fueron tomadas en cuenta por los Paneles de Ciudadanos Europeos y debatidas y debatidas en el Pleno de la Conferencia: los otros dos pilares principales de la Conferencia.'
   community:
-    community1: Propose and help define new features
-    community2: Report bugs and help the developers fix them
-    community3: Help shape the future of the platform
-    cta: Go to Metadecidim
-    figcaption: The Decidim Community during the Decidim Fest 2021
+    community1: Propón y ayuda a definir nuevas características
+    community2: Reporta errores y ayuda a los desarrolladores a arreglarlos
+    community3: Ayúdanos a dar forma al futuro de la plataforma
+    cta: Ir a Metadecidim
+    figcaption: La Comunidad en Decidim Fest 2021
     img_alt: Fotografía de la comunidad Decidim en la las jornadas Metadecidim 2016
     intro: Metadecidim es una comunidad que colabora en el diseño de la plataforma y la construcción del proyecto. Entre todas podemos diseñar y desarrollar nuevas funcionalidades y notificar bugs para una mejora continua de la plataforma.
     subtitle: Una comunidad democrática que gestiona el proyecto Decidim en todas sus dimensiones
@@ -65,357 +64,357 @@ es:
     message: Mensaje
     name: Nombre
     privacy_policy:
-      accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
-      message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Send message
-    subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Contact Decidim
+      accept: Acepto la <a href="%{privacy_policy_url}">Política de Privacidad</a>
+      message: "<p>Cuando la gente se ponga en contacto con nosotros mediante el formulario de contacto, correo electrónico o medios de comunicación similares, recogeremos automáticamente la siguiente información: nombre, correo electrónico entidad, dirección de correo electrónico y el contenido del mensaje del usuario para atender sus comentarios, peticiones, sugerencias, etc.</p> <p>Además, podemos procesar estos datos para estudios estadísticos a través de técnicas de seudonimización e incluso anonimización, tales como la agregación de datos, impidiendo que este procesamiento posterior identifique a las personas usuarias individualmente.</p>"
+    send: Enviar mensaje
+    subtitle: Si quieres ponerse en contacto con nosotras, rellena el formulario o envíenos un correo electrónico a
+    title: Contacto
   demo:
     button: Demo online
     p1: Conoce y prueba libremente la plataforma Decidim con la demo en línea.
-    strong: Try Online
+    strong: Demo en línea
     title: Demo en línea
   faqs:
-    cta: Read all FAQs
+    cta: Consulta las preguntas frecuentes
     questions:
       q01:
-        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
-        question: What is Decidim?
-        type: about
+        answer: 'Decidim es una plataforma de participación ciudadana de código libre y abierto para ciudades y organizaciones. Decidim es un proyecto y una infraestructura abierta que incluye código, documentación, diseño, formación, un marco legal, interfaces colaborativas, una comunidad de personas usuarias y facilitadoras y una visión global.'
+        question: '¿Qué es Decidim?'
+        type: Acerca de
       q02:
-        answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
-        question: Who is currently using Decidim?
-        type: about
+        answer: Actualmente lo utilizan ciudades y organizaciones. De hecho cualquier grupo de personas puede utilizarlo, sea una ONG, universidad, sindicato, cooperativa, colectivo de barrio, etc. Consulta el [listado completo de instancias activas en la actualidad](/es/usedby/).
+        question: '¿Quiénes utilizan Decidim actualmente?'
+        type: Acerca de
       q03:
-        answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
-        question: What can a Decidim administrator do?
-        type: users
+        answer: Configura procesos participativos fácilmente. ¿Quieres hacer un plan estratégico? ¿O discutir nuevas normativas? ¿O debatir sobre una plaza nueva o un edificio público para  el bien común? Gracias a Decidim podrás configurar espacios de participación (iniciativas, asambleas, procesos o consultas) y enriquecerlos a través de los múltiples componentes disponibles (encuentros presenciales, encuestas, propuestas, votaciones, seguimiento de resultados, comentarios y muchos más).
+        question: '¿Qué puede hacer alguien que administra de Decidim?'
+        type: personas usuarias
       q04:
-        answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
-        question: What can a participant (user) of Decidim do?
-        type: users
+        answer: Decidim hace posible que miles de personas se organicen democráticamente realizando propuestas, asistiendo a reuniones públicas, creando discusiones deliberativas, decidiendo mediante distintas formas de votación y monitorizando la implementación de las decisiones. Las participantes además pueden comunicarse entre ellas a través de las funcionalidades para la comunicación en red de Decidim.
+        question: '¿Qué puede hacer una persona que participa (usuaria) en Decidim?'
+        type: personas usuarias
       q05:
-        answer: Yes, we have an [online demo](/demo).
-        question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
-        type: features
+        answer: Sí, tenemos una [demo en línea](/demo).
+        question: Quiero usar Decidim ya, sin instalármelo, para ver cómo funciona. ¿Tenéis una demo?
+        type: funcionalidades
       q06:
-        answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
-        question: How often is the platform updated?
-        type: features
+        answer: Aproximadamente cada mes liberamos una nueva versión. En [este enlace](https://github.com/decidim/decidim/releases) puedes consultar el histórico de versiones.
+        question: '¿Con qué frecuencia hay actualizaciones de la plataforma?'
+        type: funcionalidades
       q07:
-        answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
-        question: What do I need to install Decidim?
-        type: install
+        answer: Instalar Decidim es fácil, pero necesitas algunos conocimientos y requisitos técnicos. Consulta [la documentación para instalar Decidim](https://docs.decidim.org/en/install/).
+        question: '¿Qué necesito para instalar Decidim?'
+        type: instalar
       q08:
-        answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
-        question: Where can I find the project roadmap and the planned features?
-        type: features
+        answer: Puedes encontrar el roadmap de nuevas funcionalidades del proyecto en [GitHub](https://github.com/decidim/decidim/projects/16).
+        question: '¿Dónde puedo encontrar el roadmap del proyecto y las funcionalidades planificadas?'
+        type: funcionalidades
       q09:
-        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
-        question: What does it mean that Decidim is for free, "libre" and open source?
-        type: install
+        answer: Decidim es una plataforma de participación ciudadana hecha por y para las personas. Su código fuente es abierto y puede ser analizado, modificado y mejorado por cualquiera. El software Decidim está cubierto por la [licencia AGPL](https://es.wikipedia.org/wiki/GNU_Affero_General_Public_License). Eso significa que puedes usarlo, modificarlo y redistribuir versiones derivadas de él, siempre y cuando respetes la licencia AGPL.
+        question: '¿Qué significa que Decidim sea gratuito, libre y de código abierto?'
+        type: instalar
       q1:
-        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
-        question: What is Decidim?
-        type: about
+        answer: 'Decidim es una plataforma de participación ciudadana de código libre y abierto para ciudades y organizaciones. Decidim es un proyecto y una infraestructura abierta que incluye código, documentación, diseño, formación, un marco legal, interfaces colaborativas, una comunidad de personas usuarias y facilitadoras y una visión global.'
+        question: '¿Qué es Decidim?'
+        type: Acerca de
       q10:
-        answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report). If you want to actively participate in the Metadecidim community, you can attend Community Meetings. Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-        question: I have ideas for new improvement features. I want to have a better understanding of the project. What can I do?
-        type: features
+        answer: Puedes colaborar de muchas maneras. Una de ellas es a través de la comunidad [Metadecidim](http://meta.decidim.org). Si quieres proponer nuevas funcionalidades, [ve aquí](https://meta. ecidim.org/processes/roadmap). Si has detectado errores y quieres notificarlos, [ve a este proceso](https://meta.decidim.org/processes/bug-report). Si quieres participar activamente en la comunidad de Metadecidim, puedes asistir a las reuniones de la comunidad. Regístrate como participante de la comunidad y participa con nosotras. Si tu cosa es el código, [ve a Github](https://github.com/decidim/decidim). Si eres investigadora, tal vez estés interesada en venir a [LAB Metadecidim Seminars](https://meta.deci.org/assemblblies/eix-lab).
+        question: Tengo ideas de nuevas funcionalidades, de mejora. Quiero conocer mejor el proyecto. ¿Qué puedo hacer?
+        type: funcionalidades
       q11:
-        answer: The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en) and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the [contact form](/contact).
-        question: I have many doubts, of all kinds...where can I ask them or solve them?
-        type: about
+        answer: La mejor manera de resolver ágilmente tus dudas es a través de la comunidad Metadecidim. Entra ahora en el proceso [“Foro de Soporte”](https://meta.decidim.org/processes/supportforum?locale=es) y fíjate si tu duda existe o si ha sido resuelta y en caso contrario, entra para realizar consultas. Si no logras resolver tu asunto en este espacio, quizás es momento de contactar con nosotros a través del [formulario de contacto](/es/contact).
+        question: Tengo muchas dudas, de todo tipo...¿dónde las puedo plantear o resolver?
+        type: Acerca de
       q12:
-        answer: You can check the latest version of our admin manual in the [Documentation section](https://docs.decidim.org).
-        question: Is there any tutorial to start setting it up?
-        type: install
+        answer: Puedes revisar la última versión de nuestro manual de administración en la [sección de documentación](https://docs.decidim.org).
+        question: '¿Hay algún tutorial para empezar a configurarlo?'
+        type: instalar
       q13:
-        answer: That's how we call our Code of Democratic Guarantees and Democratic Collaboration. All members of the community must endorse the [Social Contract](http://decidim.org/contract).
-        question: What is the Social Contract?
-        type: community
+        answer: Así es como llamamos a nuestro Código de Garantías Democráticas y Colaboración Democrática. Todas las personas miembros de la comunidad deben adherirse al [Contrato Social](http://decidim.org/es/contract).
+        question: '¿Qué es el Contrato Social?'
+        type: comunidad
       q14:
-        answer: 'There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.'
-        question: What are the differences with Consul Project / Decide Madrid?
-        type: features
+        answer: 'Hay muchas diferencias: funcionalidades, flexibilidad, arquitectura, modularidad, etc. Hemos [publicado un post](/blog/en/2019-01-14-consul-comparison/) para intentar responder a esta pregunta.'
+        question: '¿Cuáles son las diferencias con el proyecto Consul / Decide Madrid?'
+        type: funcionalidades
       q15:
-        answer: "[Metadecidim](http://meta.decidim.org) is the community of Decidim that collaborates in the design of the platform and the construction of the Decidim project. We meet regularly through the Community Meetings, for issues related to the technological aspects of the platform and the Labs witc are [Research](https://meta.decidim.org/assemblies/eix-lab) oriented meetings. Our annual conference is Decidim Fest. Go to [meta.decidim.org](http://meta.decidim.org) to follow the calls closely and if you want to join the community. We'd love to ;-)"
-        question: What is the Metadecidim community?
-        type: community
+        answer: "[Metadecidim](http://meta.decidim.org) es la comunidad de Decidim que colabora en el diseño de la plataforma y en la construcción del proyecto Decidim. Nos reunimos regularmente a través de las reuniones de la Comunidad, para cuestiones relacionadas con los aspectos tecnológicos de la plataforma y los Labs que son [Research](https://meta. Reuniones orientadas a ecidim.org/assemblblies/eix-lab. Nuestra conferencia anual es Decidim Fest. Ve a [meta.decidim.org](http://meta.decidim.org) para seguir de cerca las convocatorias y si quieres unirte a la comunidad. Nos encantaría ;-)"
+        question: '¿Qué es la comunidad Metadecidim?'
+        type: comunidad
       q16:
-        answer: Of course you can. People do so through participatory processes, debates, translations, etc. that you might find in Metadecidim. Decidim was born in Barcelona and that is why there is a strong territorial bond with this city, but above all, it's a project for the commons.
-        question: Can I join the Metadecidim community even if I don't live in Barcelona?
-        type: community
+        answer: Por supuesto que puedes hacerlo a través de procesos participativos, debates, traducciones, etc. que puedes encontrar en Metadecidim. Decidim nació en Barcelona y por eso existe un fuerte vínculo territorial con esta ciudad, pero sobre todo, es un proyecto para el común.
+        question: '¿Puedo participar en la comunidad Metadecidim aunque no resida en Barcelona?'
+        type: comunidad
       q17:
-        answer: Anybody who has good faith and a correct attitude towards democratic collaboration.
-        question: What kind of members you accept into the Metadecidim community?
-        type: community
+        answer: Cualquiera que tenga buena fe y una actitud correcta hacia la colaboración democrática.
+        question: '¿Qué tipo de miembros se aceptan en la comunidad Metadecidim?'
+        type: comunidad
       q18:
-        answer: The "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) is a democratic association for the governance of the Decidim community. It was founded on [February 16, 2019 in an extraordinary assembly of the community](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), with the approval of the organization statutes.
-        question: What is the Decidim Association?
-        type: association
+        answer: La "Asociación de Software Libre Decidim" es una asociación democrática para el gobierno de la comunidad de Decidim. Fue fundada el 16 de febrero de 2019 en una asamblea extraordinaria de la comunidad](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), con la aprobación de los estatutos de la organización.
+        question: '¿Qué es la Associació Decidim?'
+        type: La Asociación
       q19:
-        answer: In the [general assembly of the Decidim Association](https://meta.decidim.org/assemblies/general-assembly-association) you can find more info abous us, follow the activity of the meetings and check relevant information (statutes, legal agreements, the internal regulations)
-        question: How can I get more information about the Decidim Association?
-        type: association
+        answer: En la [asamblea general de la Associació Decidim](https://meta.decidim.org/assemblies/general-assembly-association) puedes conocernos mejor, seguir la actividad de los encuentros y consultar información relevante (estatutos, convenios, el reglamento interno).
+        question: '¿Cómo puedo obtener más información sobre la Asociación Decidim?'
+        type: La Asociación
       q2:
-        answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
-        question: Who is currently using Decidim?
-        type: about
+        answer: Actualmente lo utilizan ciudades y organizaciones. De hecho cualquier grupo de personas puede utilizarlo, sea una ONG, universidad, sindicato, cooperativa, colectivo de barrio, etc. Consulta el [listado completo de instancias activas en la actualidad](/es/usedby/).
+        question: '¿Quiénes utilizan Decidim actualmente?'
+        type: Acerca de
       q20:
-        answer: Now the people involved in the project can be partners. [Here we explain in detail how you have to do it](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
-        question: How can I become a member of the Decidim Association?
-        type: association
+        answer: Ahora las personas implicadas en el proyecto pueden ser socias. [Aquí te explicamos en detalle cómo lo tienes que hacer.](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+        question: '¿Cómo me puedo hacerme socia de la Associació Decidim?'
+        type: La Asociación
       q21:
-        answer: Yes you can! Decidim is a non profit project and for the moment it depends completely on funding. Please find all details to fund the project at [OpenCollective](https://opencollective.com/decidim)
-        question: I want to fund the project. How can I proceed?
-        type: association
+        answer: '¡Sí puedes! Decidim es un proyecto sin ánimo de lucro y por el momento depende completamente de la financiación. Encuentre todos los detalles para financiar el proyecto en [OpenCollective](https://opencollective.com/decidim)'
+        question: Quiero financiar el proyecto. ¿Cómo puedo proceder?
+        type: La Asociación
       q22:
-        answer: Yes, we have templates to formalize collaboration agreements. [Please contact us](/contact).
-        question: We want to make a formal collaboration agreement. Are there any templates we can use?
-        type: association
+        answer: Sí, tenemos plantillas para formalizar acuerdos de colaboración. [Ponte en contacto con nosotras](/es/contact).
+        question: Queremos formalizar un acuerdo de colaboración. ¿Disponéis de plantillas que podamos usar?
+        type: La Asociación
       q23:
-        answer: Yes, but you have to be patient. There are a lot of institutions that want to use Decidim right now and we are helping them step by step. [Contact us](/contact) for any question and we will answer you as soon as possible.
-        question: Do you support institutions?
-        type: about
+        answer: Sí, pero hay que tener paciencia. Hay un montón de instituciones que quieren usar Decidim en estos momentos y les estamos ayudando paso a paso. [Ponte en contacto con nosotras](/es/contact) para cualquier pregunta y te responderemos lo antes posible.
+        question: '¿Dan apoyo a instituciones?'
+        type: Acerca de
       q24:
-        answer: Decidim and the Decidim logo are registered by the Association, they cannot be used as a commercial product nor cannot be sold. If used, the credit has to be referenced to the project. You can read more about this in our [Trademark policy](/trademark-policy).
-        question: What is Decidim's trademark policy?
-        type: association
+        answer: Decidim y el logotipo de Decidim están registrados por la Asociación, no pueden ser utilizados como un producto comercial ni pueden ser vendidos. Si se utiliza, el crédito tiene que ser referenciado al proyecto. Puedes leer más sobre esto en nuestra [Política de Marcas](/trademark-policy).
+        question: '¿Cuál es la política de marca de Decidim?'
+        type: La Asociación
       q3:
-        answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
-        question: What can a Decidim administrator do?
-        type: users
+        answer: Configura procesos participativos fácilmente. ¿Quieres hacer un plan estratégico? ¿O discutir nuevas normativas? ¿O debatir sobre una plaza nueva o un edificio público para  el bien común? Gracias a Decidim podrás configurar espacios de participación (iniciativas, asambleas, procesos o consultas) y enriquecerlos a través de los múltiples componentes disponibles (encuentros presenciales, encuestas, propuestas, votaciones, seguimiento de resultados, comentarios y muchos más).
+        question: '¿Qué puede hacer alguien que administra de Decidim?'
+        type: personas usuarias
       q4:
-        answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
-        question: What can a participant (user) of Decidim do?
-        type: users
+        answer: Decidim hace posible que miles de personas se organicen democráticamente realizando propuestas, asistiendo a reuniones públicas, creando discusiones deliberativas, decidiendo mediante distintas formas de votación y monitorizando la implementación de las decisiones. Las participantes además pueden comunicarse entre ellas a través de las funcionalidades para la comunicación en red de Decidim.
+        question: '¿Qué puede hacer una persona que participa (usuaria) en Decidim?'
+        type: personas usuarias
       q5:
-        answer: Yes, we have an [online demo](/demo).
-        question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
-        type: features
+        answer: Sí, tenemos una [demo en línea](/demo).
+        question: Quiero usar Decidim ya, sin instalármelo, para ver cómo funciona. ¿Tenéis una demo?
+        type: funcionalidades
       q6:
-        answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
-        question: How often is the platform updated?
-        type: features
+        answer: Aproximadamente cada mes liberamos una nueva versión. En [este enlace](https://github.com/decidim/decidim/releases) puedes consultar el histórico de versiones.
+        question: '¿Con qué frecuencia hay actualizaciones de la plataforma?'
+        type: funcionalidades
       q7:
-        answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
-        question: What do I need to install Decidim?
-        type: install
+        answer: Instalar Decidim es fácil, pero necesitas algunos conocimientos y requisitos técnicos. Consulta [la documentación para instalar Decidim](https://docs.decidim.org/en/install/).
+        question: '¿Qué necesito para instalar Decidim?'
+        type: instalar
       q8:
-        answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
-        question: Where can I find the project roadmap and the planned features?
-        type: features
+        answer: Puedes encontrar el roadmap de nuevas funcionalidades del proyecto en [GitHub](https://github.com/decidim/decidim/projects/16).
+        question: '¿Dónde puedo encontrar el roadmap del proyecto y las funcionalidades planificadas?'
+        type: funcionalidades
       q9:
-        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
-        question: What does it mean that Decidim is for free, "libre" and open source?
-        type: install
-    subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
+        answer: Decidim es una plataforma de participación ciudadana hecha por y para las personas. Su código fuente es abierto y puede ser analizado, modificado y mejorado por cualquiera. El software Decidim está cubierto por la [licencia AGPL](https://es.wikipedia.org/wiki/GNU_Affero_General_Public_License). Eso significa que puedes usarlo, modificarlo y redistribuir versiones derivadas de él, siempre y cuando respetes la licencia AGPL.
+        question: '¿Qué significa que Decidim sea gratuito, libre y de código abierto?'
+        type: instalar
+    subtitle: Si no encuentras respuesta a tu pregunta, escríbenos a hola@decidim.org
     title: FAQs
     types:
-      about: About Decidim
-      association: Association
-      community: Community and social contract
-      features: Roadmap and features
-      install: Installation and license
-      installation: Installation and license
-      users: Users and roles
+      about: Quiénes somos
+      association: La Asociación
+      community: La comunidad y el contrato social
+      features: Hoja de ruta y funcionalidades
+      install: Instalación y licencia
+      installation: Instalación y licencia
+      users: Usuarios y roles
   features:
-    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
+    intro: "<p>Puedes utilizar Decidim en una organización pública o privada, con cientos o miles de potenciales participantes, como un ayuntamiento, una asociación, una universidad, una ONG, un sindicato, un colectivo de barrio o cooperativa…</p><p>Gracias a Decidim podrás configurar espacios de participación (iniciativas, asambleas, procesos o consultas) y enriquecerlos a través de los múltiples componentes disponibles (encuentros presenciales, encuestas, propuestas, votaciones, seguimiento de resultados, comentarios y muchos más).</p>"
     page:
       feature1:
-        subtitle: To democratize common issues, step by step
-        text: Procesos permite crear, activar/desactivar y administrar diferentes procesos de participación, articularlos en diferentes fases en las que pueden combinarse todos los componentes (un proceso de elección de los miembros de un comité, presupuestos participativos, un proceso de planificación estratégica, la redacción colaborativa de un reglamento o norma, el diseño de un espacio urbano o la producción de un plan de políticas públicas…).
+        subtitle: Para democratizar asuntos comunes, paso a paso
+        text: 'Procesos permite crear, activar/desactivar y administrar diferentes procesos de participación, articularlos en diferentes fases en las que pueden combinarse todos los componentes (un proceso de elección de los miembros de un comité, presupuestos participativos, un proceso de planificación estratégica, la redacción colaborativa de un reglamento o norma, el diseño de un espacio urbano o la producción de un plan de políticas públicas…).'
         title: Procesos participativos
       feature10:
-        subtitle: To analyze, synthesize, and build in common
-        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
+        subtitle: Para analizar, sintetizar y construir en común
+        text: El componente textos participativos se puede utilizar para convertir documentos de texto extenso en varias propuestas o resultados y, viceversa, para componer y mostrar un texto unificado basado en una colección de propuestas o resultados.
         title: Textos participativos
       feature11:
         subtitle: Donde los grandes eventos se estrenan
-        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
+        text: Crear un sitio web para un gran evento. Unificar el programa uniendo una serie de reuniones predefinidas (chats, talleres, etc.), y gestionar asistentes.
         title: Conferencia
       feature12:
         subtitle: Porque la opinión de tu comunidad cuenta
-        text: Design and publish surveys. Display and download results.
+        text: Diseñar y publicar encuestas. Mostrar y descargar resultados.
         title: Encuestas
       feature13:
         subtitle: La igualdad y la justicia del azar
-        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
+        text: El componente sorteo permite seleccionar un número de propuestas (por ejemplo, candidatos a un jurado) con procedimientos aleatorios, pero reproducibles, que garantizan distribuciones no sesgadas y uniformes.
         title: Sorteo
       feature14:
         subtitle: Construyendo la inteligencia colectiva
-        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
+        text: Permite a las personas usuarias añadir comentarios, valorarlos a favor, en contra o neutrales, votarlos, responder y recibir notificaciones sobre las respuestas.
         title: Comentarios
       feature15:
         subtitle: Tu comunidad, informada y al día
-        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
+        text: El componente páginas se utiliza para crear páginas informativas con formato de texto enriquecido, imágenes y vídeos incrustados. El de blog permite la creación de mensajes o noticias, y navegar por ellos cronológicamente.
         title: Páginas y blogs
       feature16:
-        subtitle: Personalised information on interesting content
-        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
+        subtitle: Información personalizada sobre contenidos de interés
+        text: Decidim permite seguir cualquier espacio o componente para recibir actualizaciones cada vez que se produzcan.
         title: Notificaciones
       feature17:
         subtitle: Sencillo pero potente
-        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
+        text: Envía mensajes de correo electrónico a todas las personas registradas en la plataforma o a aquellas que participen en un espacio específico.
         title: Boletín
       feature2:
-        subtitle: The power of collective self-organization
-        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
+        subtitle: El poder de la autorganización colectiva
+        text: 'Las Asambleas son un espacio que ofrece la posibilidad de constituir órganos o grupos de decisión (consejos, grupos de trabajo, comisiones, etc.) que se reúnen periódicamente, detallando su composición, listando y geolocalizando sus reuniones, y permitiendo la participación en las mismas. Por ejemplo: asistiendo si el aforo y la naturaleza de la asamblea lo permiten, añadiendo puntos al orden del día, o comentando las propuestas y decisiones tomadas por dicho órgano.'
         title: Órganos<br/>de participación
       feature3:
-        subtitle: The right to decide with all democratic guarantees
-        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
-        title: Votings
+        subtitle: El derecho a decidir con todas las garantías democráticas
+        text: Consultas es un espacio que permite coordinar referendos, organizar discusiones y debates, publicar los resultados de las votaciones y conectarse a un sistema seguro de voto electrónico.
+        title: Votaciones
       feature4:
-        subtitle: Setting everyone's agenda, within everyone's reach
-        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
+        subtitle: Configurar la agenda de todas, al alcance de todas
+        text: Iniciativas es un espacio que permite a las participantes crear iniciativas de forma colaborativa, definir su trayectoria y objetivos, recoger apoyos, discutir, debatir y difundir iniciativas y definir puntos de encuentro donde se puedan recoger firmas de las asistentes o debates abiertos a otras personas miembros de la organización.
         title: Iniciativas
       feature5:
-        subtitle: Your ideas in detail
-        text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
+        subtitle: Tus ideas en detalle
+        text: Crear una propuesta usando un asistente de creación, compararla con los ya existentes, publicarlo en la plataforma e incluir información adicional como geolocalización o documentos e imágenes adjuntos. Este componente también le permite navegar, filtrar e interactuar con un conjunto de propuestas.
         title: Propuestas
       feature6:
-        subtitle: Decide your choice
-        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
+        subtitle: Decide tu voto
+        text: 'Ofrece a las organizaciones la posibilidad de activar diferentes sistemas de votación o de apoyo en torno a las propuestas: ilimitado, limitado a un determinado umbral, ponderado, basado en costes, etc. Respaldado por una tecnología de votación electrónica segura y cifrada.'
         title: Votaciones
       feature7:
-        subtitle: No proposal without an answer
-        text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
+        subtitle: Ninguna propuesta sin respuesta
+        text: Convierte las propuestas en resultados y dar respuestas oficiales sobre su aceptación o rechazo, fusionando varias propuestas en un único resultado.
         title: Resultados
       feature8:
-        subtitle: End-to-end transparency
-        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
+        subtitle: Transparencia de extremo a extremo
+        text: Ofrece la posibilidad de subdividir los resultados en proyectos, definir y aplicar los estados de progreso en torno a su implementación, así como mostrar el grado de logro de los resultados agrupados por categorías y alcance.
         title: Rendición de cuentas
       feature9:
-        subtitle: To meet and not miss anything
+        subtitle: Conocer y no perderse nada
         text: El componente de encuentros ofrece a las organizaciones y a los participantes la oportunidad de convocar reuniones, determinar su lugar y hora, registrar y limitar el número de asistentes, definir la estructura y el contenido de la reunión, así como publicar las actas y las propuestas resultantes.
         title: Encuentros
-    subtitle: For democratic organizations and collectives of any size and kind.
+    subtitle: Para organizaciones democráticas y colectivos de cualquier tipo o tamaño.
     title: Funcionalidades
     type1:
       title: Espacios de participación
     type2:
       title: Componentes
     type3:
-      cta: Explore the modules
-      subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
+      cta: Explorar los módulos
+      subtitle: Crece más allá de los componentes por defecto. La comunidad Decidim ha desarrollado cientos de módulos para ampliar la plataforma más allá de lo básico y satisfacer aún mejor tus necesidades.
       title: Módulos
   first-steps:
     first-steps1:
-      content: You can install it yourself or find someone to help you with tech support.
+      content: Puedes instalarlo tú misma o encontrar a alguien que te ayude con soporte técnico.
       link1: Documentación
-      pre: For technologists
-      title: Installing Decidim
+      pre: Para tecnólogas
+      title: Instalando Decidim
     first-steps2:
-      content: For big or small organisations, discover how Decidim can cater to your needs.
+      content: Para organizaciones grandes o pequeñas, descubre cómo Decidim puede satisfacer tus necesidades.
       link1: Funcionalidades
-      pre: For organizations
-      title: The right tool for you
+      pre: Para organizaciones
+      title: La herramienta perfecta para ti
     first-steps3:
-      content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
-      link1: Find a partner
-      pre: For governments
-      title: Decidim in your city
-    intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
+      content: Si tu ciudad está pensando en implementar políticas participativas, descubre cómo puedes convencerles de que lo hagan.
+      link1: Busca un socio
+      pre: Para gobiernos
+      title: Decidim en tu ciudad
+    intro: Es un software libre y de código abierto, mantenido por una comunidad extensa y activa. Puedes usar Decidim en una organización pública o privada, con cientos o miles de participantes potenciales, como un ayuntamiento, una asociación, una universidad, una ONG, un sindicato, una asociación de vecinos o una cooperativa...
     section2:
-      link: Explore all features
-      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
-      title: Is Decidim the right tool for you?
+      link: Explora todas las funcionalidades
+      subtitle: Las características flexibles de Decidim están diseñadas para servir a colectivos pequeños y grandes, tanto públicos como privados, con cientos o miles de usuarias potenciales.
+      title: '¿Es Decidim la herramienta adecuada para ti?'
     section3:
-      cta: Read more case studies on our blog
-      link: Read the case study
-      title: Backed by technology, democracy and experience
+      cta: Lee más casos de uso en nuestro blog
+      link: Lee el caso práctico
+      title: Respaldado por la tecnología, la democracia y la experiencia
     section4:
-      button1: About the association
-      button2: Join the community
-      intro: The <strong>Decidim Free Software Association</strong>  is a democratic association for the governance of the Decidim community.
-      subtitle: "<strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform."
-      title: Who’s behind the platform?
-    subtitle: Decidim is a digital platform<br/>for citizen participation
-    title: First steps with Decidim
+      button1: Acerca de la asociación
+      button2: Únete a la comunidad
+      intro: La <strong>Asociación de Software Libre de Decidim</strong>  es una asociación democrática para la gobernanza de la comunidad de Decidim.
+      subtitle: "Metadecidim es una comunidad que colabora en el diseño de la plataforma y la construcción del proyecto. Entre todas podemos diseñar y desarrollar nuevas funcionalidades y notificar bugs para una mejora continua de la plataforma."
+      title: '¿Quién está detrás de la plataforma?'
+    subtitle: Decidim es una plataforma digital<br/>para la participación ciudadana
+    title: Primeros pasos con Decidim
   footer:
-    about_us: About us
-    follow_us: Follow us on social media
+    about_us: Quiénes somos
+    follow_us: Síguenos en las redes sociales
     legal: Legal
-    supported_by: Supported by
-    trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
-    up_to_date: Stay up to date
+    supported_by: Con el apoyo de
+    trademark: El nombre y logotipo de Decidim es una marca registrada de la Asociación de Software Libre Decidim.
+    up_to_date: Mantente al día
   index:
     cards:
       card1:
-        content: We can help configure a system of democratic governance in all kinds of organizations.
-        link: Our features
-        title: Implementing a flexible democratic system
+        content: Podemos ayudar a configurar un sistema de gobernanza democrática en todo tipo de organizaciones.
+        link: Nuestras funcionalidades
+        title: Implementar un sistema democrático flexible
       card2:
-        content: Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.
-        link: Social contract
-        title: We take democracy very seriously
+        content: Decidim asegura la transparencia, trazabilidad e integridad de la información como nunca antes. Proporciona seguridad, privacidad y confidencialidad a todas las participantes.
+        link: Contrato social
+        title: Nos tomamos la democracia muy en serio
       card3:
-        content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
-        link: The community
-        title: It's yours. Use it. Share it. Improve it.
+        content: Una plataforma diseñada enteramente con software libre, abierto y colaborativo gracias a la comunidad Metadecidim.
+        link: La Comunidad
+        title: Es tuyo. Utilízalo. Compártelo. Mejóralo.
     hero:
-      cta: Get started
-      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
-      subheading: Decidim is a digital platform for citizen participation
+      cta: Empezar
+      intro: Tecnología libre y segura.<br/>Con todas las garantías democráticas.<br/>Reprogramar la democracia ahora es posible con Decidim.
+      subheading: Decidim es una plataforma digital para la participación ciudadana
     subhero:
-      cta: Explore all features
-      feature1: Strategic planning
+      cta: Explora todas las funcionalidades
+      feature1: Planificación estratégica
       feature2: Procesos participativos
       feature3: Órganos<br/>de participación
-      feature4: Initiatives and citizen consultations
-      feature5: Participatory budgeting
-      feature6: Networked communication
+      feature4: Iniciativas y consultas ciudadanas
+      feature5: Presupuestos participativos
+      feature6: Comunicación en red
       intro: Decidim ayuda a ciudadanos, organizaciones e instituciones públicas a auto-organizarse democráticamente a todos los niveles.
     used_by:
-      heading: Hundreds of organizations around the world trust Decidim for their democratic processes
-      link: Discover how
-      title: Already using Decidim
+      heading: Cientos de organizaciones de todo el mundo confían en Decidim para sus procesos democráticos
+      link: Descubre cómo
+      title: Ya utilizan Decidim
   legal-notice:
     section-1:
-      paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
-      title: Who we are
+      paragraph: '<p>Está accediendo a la web de la Associació de Software Lliure Decidim ("Decidim", "Nos" o "Nosotros") disponible a través del dominio web <a href="https://decidim.org">https:// decidim.org/</a> (en adelante, el "Sitio Web"), con domicilio en Sant Adria, Número 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, España y DNI número G67401174.<p><p><b >Puede contactarnos en: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
+      title: Quiénes somos
     section-2:
-      paragraph: "<p>The purpose of this Website is to provide general information to the public about Decidim, its activities and technology, consisting in a free open-source participatory democracy platform for cities and organizations, and the management of the Decidim community generated around the world from our collaborative technology allowing the development of citizen and associative projects with greater social participation. You may freely test the Decidim platform with our online demo.</p> <p>The purpose of the terms of use of this Legal Notice is to govern the permitted use of this Website and the services and/or contents hosted in accordance with the Law 34/2002 on Information Society Services and Electronic Commerce and other applicable legal provisions.</p>"
-      title: Purpose
+      paragraph: "<p>El propósito de este sitio web es proporcionar información general al público sobre Decidim, sus actividades y tecnología, que consiste en una plataforma libre de democracia participativa para ciudades y organizaciones, y la gestión de la comunidad de Decidim generada en todo el mundo a partir de nuestra tecnología de colaboración que permite el desarrollo de proyectos ciudadanos y asociados con una mayor participación social. Puedes probar libremente la plataforma Decidim con nuestra demo en línea.</p> <p>El propósito de las condiciones de uso de este Aviso Legal es gobernar el uso permitido de este Sitio Web y de los servicios y/o contenidos alojados de acuerdo con la Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico y otras disposiciones legales aplicables.</p>"
+      title: Objetivo
     section-3:
-      paragraph: '<p>The access to this Website is free. No application form is required for browsing the information and/or contents of this Website in general terms. Otherwise, please refer to our <a href="%{privacy_policy_url}">Privacy Policy</a>.<p> <p>By accessing and using the Website, You are accepting the terms of use of this Legal Notice and You undertake to make proper, diligent and lawful use of the Website and, in particular: (i) use the Website for its intended purposes, i.e. information about our services, you will refrain from using the Website or its contents for illegal purposes, or for purposes that go against public order, morality and good customs; (ii) respect the intellectual and industrial property rights of the Website and its contents, as well as all rights that correspond to Decidim; (iii) not to reproduce, copy, convert, modify, distribute, publicly display or make available to the public the Website or any of its content or any modification thereof; (iv) You shall be liable for any loss or damage suffered by Decidim due to a direct or indirect misuse by You of the Website, the provisions of the "Legal Texts" (collectively referred to, this Legal Notice and the <a href="%{privacy_policy_url}">Privacy Policy</a>) and the applicable legislation.<p>'
-      title: Website use
+      paragraph: '<p>El acceso a este sitio web es gratuito. No se requiere ningún formulario de solicitud para navegar por la información y/o contenidos de este Sitio Web en términos generales. De lo contrario, consulte nuestra <a href="%{privacy_policy_url}">Política de Privacidad</a>.<p> <p>Accediendo y usando el sitio web, Estás aceptando los términos de uso de este Aviso Legal y te comprometes a hacer adecuado, El uso de la página web por parte del usuario y en particular (i) el uso de la página web para sus fines, es decir, el uso de la misma. información sobre nuestros servicios, usted se limitará a usar el sitio web o sus contenidos con fines ilegales, o con fines que vayan en contra del orden público, la moralidad y las buenas costumbres; (ii) respetar los derechos de propiedad intelectual e industrial del Sitio Web y sus contenidos, así como todos los derechos que correspondan a Decidim; (iii) no reproducir, copiar, convertir, modificar, distribuir, mostrar públicamente o poner a disposición del público el Sitio Web o cualquiera de sus contenidos o cualquier modificación del mismo; (iv) Usted será responsable de cualquier pérdida o daño sufrido por Decidim debido a un mal uso directo o indirecto por Usted del Sitio Web. las disposiciones de los "Textos Legales" (colectivamente referido, este Aviso Legal y la <a href="%{privacy_policy_url}">Política de Privacidad</a>) y la legislación aplicable.<p>'
+      title: Uso del sitio web
     section-4:
-      paragraph: "<p>All intellectual property rights over the contents of this Website including, but not limited to, images, trademarks, logos, distinctive signs, sounds and animations, texts, sound, visual or audiovisual recordings and databases are the property of Decidim or its licensors and are protected by national and international laws. Such rights are reserved in favor of Decidim and/or its licensors. The reproduction, copying, public communication, distribution, modification, transformation, elimination, manipulation and any other use, including the extraction and reuse, whether for profit or not, direct or indirect, temporary or permanent, of all or part of this Website or any of its contents, is expressly prohibited without the prior express written authorization of Decidim. We may take any legal and/or extrajudicial action it deems appropriate in the event of a possible violation of these rights.</p>"
-      title: Industrial and Intellectual Property
+      paragraph: "<p>Todos los derechos de propiedad intelectual sobre los contenidos de este sitio web, incluyendo, pero no limitado a, imágenes, marcas, logos, signos distintivos, sonidos y animaciones, textos, sonidos, grabaciones visuales o audiovisuales y bases de datos son propiedad de Decidim o sus licenciantes y están protegidos por las leyes nacionales e internacionales. Tales derechos están reservados a favor de Decidim y/o sus licenciantes. La reproducción, copia, comunicación pública, distribución, modificación, transformación, eliminación, manipulación y cualquier otro uso, incluyendo la extracción y reutilización, ya sea con fines de lucro o no, directa o indirecta, temporal o permanente, de todo o parte de este sitio web o de cualquiera de sus contenidos, queda expresamente prohibido sin la previa autorización expresa y por escrito de Decidim. Podemos tomar cualquier acción legal y/o extrajudicial que estime apropiada en caso de una posible violación de estos derechos.</p>"
+      title: Propiedad industrial e intelectual
     section-5:
-      paragraph: "<p>Decidim is not responsible for third party web pages that can be accessed from the Website, nor for the accuracy, veracity and validity of the information on the Website that is not of its own elaboration. However, pursuant to article 17 of Law 34/2002, in the event that Decidim becomes aware of the unlawfulness of such content or links, it undertakes to remove or disable them, as well as, where appropriate, to block any content that may be unlawful or violate the rights of any third party, in accordance with articles 11 and 16 of the aforementioned Law.</p> <p>Furthermore, Decidim is not responsible for any damage that may occur due to failures or misconfigurations in the browser installed by the user on his computer. Decidim is not responsible for any incident or technical failure caused by the user's connection to the Internet.</p> <p>Decidim will use its best efforts to effect, in the shortest period of time, updates and corrections of errors and deficiencies, including those occurring in the access and/or connection to the Website and/or its contents, but does not warrant the absence of interruptions, errors in the connection and/or access to the Website and update of its contents.</p> <p>You are liable for your use of and access to the Website. Decidim shall not be liable for the presence of viruses nor for security errors neither for the damages that may be caused to your devices or to the files or documents stored in such devices for the access and/or connection to the Website, neither for the damages caused to third parties by means of illegal intromissions out of Decidim control.</p> <p>Decidim shall not be liable for the breach of your obligations You accept when accessing this Website which are contained in this Legal Notice and, in particular, shall not be liable for any infringement of the intellectual property rights, copyright, advertising and image rights, or any other rights with regard to the goods and rights of any third party.</p>"
-      title: Responsibility
+      paragraph: "<p>Decidim no es responsable de páginas web de terceros a las que se puede acceder desde el sitio web, ni para la exactitud, veracidad y validez de la información contenida en el Sitio Web que no sea de su propia elaboración. Sin embargo, de conformidad con el artículo 17 de la Ley 34/2002, en el caso de que Decidim se dé cuenta de la ilegalidad de dicho contenido o enlaces, se compromete a eliminarlos o desactivarlos así como, cuando proceda, bloquear cualquier contenido que pueda ser ilegal o violar los derechos de terceros de conformidad con los artículos 11 y 16 de la Law.</p> <p>Además, Decidim no se hace responsable de cualquier daño que pueda producirse debido a fallos o configuraciones erróneas en el navegador instalado por el usuario en su ordenador. Decidim no se responsabiliza de ningún incidente o fallo técnico causado por la conexión del usuario a Internet.</p> <p>Decidim utilizará sus mejores esfuerzos para efectivar, en el período de tiempo más corto, actualizaciones y correcciones de errores y deficiencias, incluyendo aquellos que ocurren en el acceso y/o conexión al sitio web y/o sus contenidos, pero no garantiza la ausencia de interrupciones, errores en la conexión y/o el acceso al Sitio Web y la actualización de sus contenidos.</p> <p>Usted es responsable de su uso y acceso al Sitio Web. Decidim no será responsable de la presencia de virus ni de errores de seguridad ni de los daños que puedan causar a sus dispositivos o a los archivos o documentos almacenados en dichos dispositivos para el acceso y/o la conexión al Sitio Web. ni por los daños causados a terceros mediante intromisiones ilegales fuera del control de Decidim.</p> <p>Decidim no será responsable por el incumplimiento de sus obligaciones que Usted acepta al acceder a este Sitio Web contenidas en este Aviso Legal y, en particular, no será responsable de ninguna violación de los derechos de propiedad intelectual, derechos de autor, derechos de publicidad y de imagen, o cualquier otro derecho con respecto a los bienes y derechos de terceros.</p>"
+      title: Ámbitos de responsabilidad
     section-6:
-      paragraph: <p>Decidim may modify this Legal Notice, the <a href="%{privacy_policy_url}">Privacy Policy</a> and/or any other text of contractual nature applicable to this Website without previous notice. Such modifications shall be effective at the moment of its publication on the Website.</p> <p>Decidim may also terminate or suspend the services of the Website at any time. Whenever is possible, Decidim will warn/alert previously about such termination or suspension through this Website.</p>
-      title: Modifications
+      paragraph: <p>Decidim puede modificar este Aviso Legal, la <a href="%{privacy_policy_url}">Política de privacidad</a> y/o cualquier otro texto de naturaleza contractual aplicable a este sitio web sin previo aviso. Tales modificaciones serán efectivas en el momento de su publicación en el Sitio Web.</p> <p>Decidim también puede cancelar o suspender los servicios del Sitio Web en cualquier momento. Siempre que sea posible, Decidim avisará/alertará previamente sobre dicha terminación o suspensión a través de este Sitio Web.</p>
+      title: Modificaciones
     section-7:
-      paragraph: <p>Your personal data collected on our Website or when you contact us through the contact form or by sending an email will be treated strictly in accordance with our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
-      title: Personal Data
+      paragraph: <p>Sus datos personales recogidos en nuestro sitio web o cuando se ponga en contacto con nosotros a través del formulario de contacto o al enviar un correo electrónico serán tratados estrictamente de acuerdo con nuestra <a href="%{privacy_policy_url}">Política de privacidad</a>.</p>
+      title: Datos personales
     section-8:
-      paragraph: <p>This Website does not use cookies. More information in our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
+      paragraph: <p>Este sitio web no utiliza cookies. Más información en nuestra <a href="%{privacy_policy_url}">Política de privacidad</a>.</p>
       title: Cookies
     section-9:
-      paragraph: '<p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>'
-      title: Governing law and jurisdiction
-    title: Legal notice
+      paragraph: '<p>Nuestros textos legales, incluyendo este aviso legal y nuestra <a href="%{privacy_policy_url}">política de privacidad</a>, se rigen por la legislación español. Los Juzgados de la ciudad de Barcelona serán competentes para resolver cualquier controversia que surja del uso de nuestra página web.</p> <p><b>Última actualización</b>: Febrero 2022.</p>'
+      title: Derecho aplicable y jurisdicción
+    title: Aviso legal
   modules:
-    auth: Authorization
+    auth: Autorización
     community: Comunidad
-    cta: Learn how
-    develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
-    more_info: More information
-    official: Official modules
-    placeholder: Search...
-    subtitle: By using modules you can extend the functionality of Decidim and share it with others.
+    cta: Aprender cómo
+    develop: Desarrolla tus propios módulos para expandir la plataforma más allá de lo básico y satisfacer tus necesidades.
+    more_info: Más información
+    official: Módulos oficiales
+    placeholder: Buscar...
+    subtitle: Usando módulos puedes ampliar la funcionalidad de Decidim y compartirla con otras.
     title: Módulos
   nav:
-    about: About
-    association: Association
+    about: Acerca de
+    association: La Asociación
     blog: Blog
-    close_menu: Close menu
+    close_menu: Cerrar menú
     code: Código
     community: Comunidad
     contact: Contacto
@@ -427,103 +426,103 @@ es:
     donate: Donate
     faqs: FAQs
     features: Funcionalidades
-    first-steps: First steps
-    home: Home
-    legal-notice: Legal notice
-    menu: Menu
+    first-steps: Primeros Pasos
+    home: Inicio
+    legal-notice: Aviso legal
+    menu: Menú
     modules: Módulos
     partners: Partners
-    partnership-policy: Partnership policy
+    partnership-policy: Política de partnership
     press: Prensa
-    privacy-policy: Privacy policy
+    privacy-policy: Política de Privacidad
     text: Navegación
-    trademark: Trademark policy
-    use-cases: Use cases
+    trademark: Política de marcas comerciales
+    use-cases: Casos de uso
     used_by: Ya usan Decidim
   newsletter:
-    past: Past newsletters
-    subtitle: News and updates about the Decidim platform and the community.
+    past: Editar boletín
+    subtitle: Noticias y actualizaciones sobre la plataforma de Decidim y la comunidad.
     title: Boletín
   partners:
-    intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
-    link: See Decidim's partnership policy
-    subtitle: These entities and organizations collaborate with Decidim.
+    intro: Los logotipos de las entidades colaboradoras son propiedad intelectual de sus respectivos titulares de derechos de autor. No pertenecen a la <a href="https://creativecommons.org/licenses/by-sa/4.0/"> licencia Creative Commons By-SA </a> con la que se licencia el resto del contenido del sitio.
+    link: Ver la política de asociación de Decidim
+    subtitle: Estas entidades y organizaciones colaboran con Decidim.
     title: Partners
     type:
       provider: Service providers
       public: Public institutions
   partnership-policy:
     explanation:
-      p1: Sustaining Decidim takes time and resources. Several tasks need to be handled, such as reviewing contributions, triaging issues, fixing bugs, writing documentation, and answering general doubts shared by the community. Any organization (enterprise, association, or collective) willing to become a Decidim Partner is committed to contribute to the Decidim Association with a reduced fee of the 3% of the yearly income generated by Decidim activities. In the case of nonprofit organizations, this fee is 1.5%.
-      p2: Every Decidim Partner will be made publicly visible in the <a href="%{main_website_url}">Decidim main website</a> and the <a href="%{readme_url}">GitHub project README page</a>. In addition, the Decidim Association will recommend Decidim Partners in our talks and email conversations about providing services with Decidim.
-      p3: To support recently incorporated organizations, Decidim Partners will be exempted from contributing economically during their first year to first develop their business plan with Decidim. In the meantime, we recommend that Decidim Partners find other ways to contribute to the project (such as with bug reporting, documentation, participation and support in community activities, etc.).
+      p1: Mantener el Decidim requiere tiempo y recursos. Hay que manejar varias tareas, tales como revisar contribuciones, resolver problemas, corregir errores, escribir documentación y responder dudas generales compartidas por la comunidad. Cualquier organización (apuesta, asociación, o colectivo) dispuesto a convertirse en Socio Decidim se compromete a contribuir a la Asociación de Decidim con una cuota reducida del 3% del ingreso anual generado por actividades de Decidim. En el caso de organizaciones sin fines de lucro, esta cuota es de 1,5%.
+      p2: Cada socio decidim será visible públicamente en el <a href="%{main_website_url}">sitio web principal de Decidim</a> y en la <a href="%{readme_url}">página de GitHub proyecto README</a>. Además, la Asociación de Decidim recomendará a los socios de Decidim en nuestras conversaciones y conversaciones por correo electrónico sobre la prestación de servicios con Decidim.
+      p3: Para apoyar a las organizaciones recientemente incorporadas, Decidim Partners estará exento de contribuir económicamente durante su primer año para desarrollar primero su plan de negocios con Decidim. Mientras tanto, recomendamos que Decidim Partners encuentre otras maneras de contribuir al proyecto (como con informes de errores, documentación, participación y apoyo en actividades comunitarias, etc.).
     how_to:
       steps:
-        step1: Send an email to associacio [at] decidim [dot] org with your contact information and indicate in the subject I want to become a Decidim Partner.
-        step2: We will contact you for a videoconference to then assess the candidacy.
-        step3: If the candidacy is approved, the Coordination Committee will yearly send you a sworn declaration to be filled and sent back with the receipt of the corresponding bank transfer.
-      title: How to become a Decidim Partner?
+        step1: Envía un correo electrónico a associacio [at] decidim [dot] org con tu información de contacto e indica en el asunto que quiero convertirme en un socio decimal.
+        step2: Nos pondremos en contacto contigo para una videoconferencia para luego evaluar la candidatura.
+        step3: Si la candidatura es aprobada, el Comité de Coordinación te enviará anualmente una declaración jurada para que la rellenes y envíes con el recibo de la transferencia bancaria correspondiente.
+      title: '¿Cómo convertirse en Socia de Decidim?'
     requirements:
-      l1: Management of instances. Manage one or more active facilities of Decidim at the time of the application, for the own use of the entity or third parties.
-      l2: Contributions to the project. Contribute or have contributed significantly to the Decidim project.
-      p1: 'You have to agree to fulfill and sign the <a href="%{social_contract_url}">Social Contract</a> and also fulfill any of the following conditions can be members:'
-      p2: You can read in detail in the <a href="%{metadecidim_partners_url}">Metadecidim assembly</a>.
-      title: Which requirements does my organization need to meet to become a partner?
-    subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
-    title: Partnership policy
-  path: "/es"
+      l1: Gestión de instancias. Administra una o más instancias activas de Decidim en el momento de la aplicación, para el uso propio de la entidad o de terceros.
+      l2: Contribuciones al proyecto. Contribuyes o has contribuido significativamente al proyecto Decidim.
+      p1: 'Tienes que aceptar en cumplir y firmar el <a href="%{social_contract_url}">Contrato Social</a>  y además cumplir alguna de las siguientes condiciones para poder ser miembro:'
+      p2: Puede leer en detalle en la asamblea <a href="%{metadecidim_partners_url}">de Metadecidim</a>.
+      title: '¿Qué requisitos necesita mi organización para ser socia?'
+    subtitle: Si tu organización quiere apoyar a Decidim, puede ser socio de Decidim.
+    title: Política de partnership
+  path: '/es'
   press:
-    highlights: Media highlights
-    kit: Press kit
+    highlights: Noticias destacadas
+    kit: Kit de prensa
     links:
       link1:
-        link: Download
-        title: Logo files
+        link: Descarga
+        title: Archivos de Logo
       link2:
-        link: Watch
-        title: Promotional spot
+        link: Ver
+        title: Spot promocional
       link3:
-        link: To the site
+        link: Ir a la página
         title: Decidim Fest 2021
       link4:
-        link: Youtube channel
-        title: Videos
+        link: Canal de Youtube
+        title: Vídeos
       link5:
-        link: Download
-        title: Brochure
+        link: Descarga
+        title: Folleto
       link6:
-        link: Downloads
-        title: Community photos
-    sign_up: Sign up for our newsletter on Metadecidim
-    social_media: Find us on social media
-    subtitle: For media enquiries, please send us an email at
+        link: Descargas
+        title: Fotos de la comunidad
+    sign_up: Suscríbete a nuestro boletín en Metadecidim
+    social_media: Síguenos en las redes sociales
+    subtitle: Si eres periodista, por favor envíanos un correo electrónico a
     title: Prensa
   privacy-policy:
     section-1:
-      paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
-      title: Introduction
+      paragraph: <p>La Asociación de Software Libre Decidim ("<a href="%{decidim_url}">Decidim</a>" o "nos/nos) es la propietaria de este sitio web, disponible a través del dominio web <a href="https://decidim.org/">https://decidim.org/</a> (en adelante, el "Sitio Web"), y actúa como controladora de datos para el tratamiento de datos personales de todas las personas usuarias del Sitio Web (“Usted/r”, el “Usuario”).</p> <p><a href="%{decidim_url}">Decidim</a> se compromete a proteger la privacidad de todas las usuarias del sitio web, sus miembros asociados y miembros de la comunidad <a href="%{decidim_url}">Decidim</a> . Esta Política de Privacidad explica nuestras prácticas con respecto al uso de datos personales recogidos a través del sitio web, incluyendo la demostración de nuestra plataforma de democracia participativa de código abierto, así como el procesamiento de datos de individuos asociados con <a href="%{decidim_url}">Decidim</a> y la gestión de <a href="%{decidim_url}">Decidim</a> comunidad, ya sea en este sitio web o en otras plataformas gestionadas por <a href="%{decidim_url}">decidim</a>.</p> <p>Esta política de privacidad es parte de nuestros textos legales junto con el <a href="%{legal_notice_url}">Aviso legal</a>.</p>
+      title: Introducción
     section-2:
       paragraph: '<h3>a. Data collected from surfing the Website</h3> <p>When using our website, <a href="%{decidim_url}">Decidim</a> uses the services of Plausible analysis software.  Its is software that, when tracking user data, this data is kept fully and securely encrypted. The purpose of Plausible Analytics is to track general traffic trends on your website and not individual visitors. Each HTTP request sends the IP address and user agent to the server, so that''s what they use, generating an identifier that changes daily using the visitor''s IP address and user agent. To anonymise this data, it is passed through a hash function with a rotating salt. This generates a random string of letters and numbers that is used to calculate the number of unique visitors for the day. The IP address of the raw data and the user agent are never stored in the logs, databases or anywhere on Plausible analytics disk. Older salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next.   In this way, no personal user data is collected while browsing our website, for more information about the data processing by Plausible Analytics, you can visit their website at <a href="https://plausible.io/privacy-focused-web-analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Data collected from our Demo</h3> <p>The access to the <a href="%{decidim_url}">Decidim</a> platform demo, available through the Website in the URL <a href="https://try.decidim.org/">https://try.decidim.org/</a> is anonymous, since it is done through generic credentials for testing and knowledge of the operation, features and capabilities of the <a href="%{decidim_url}">Decidim</a> platform by the users. <p>Only a session cookie ("Session_id") is activated, whose purpose is to obtain or establish the session id for the current session. This cookie is strictly necessary for the technical functionality of detecting the session in the Website in order to ensure the connection through http protocols and to keep the User''s session and Web Site services available, and are exempted from User consent in accordance with Opinion 4/2012 on the exemption from the cookie consent requirement issued by the European Data Protection Authority.</p> <h3>c. Data collected from contact forms, emails or other communication means</h3> <p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p> <h3>d. Data collected from <a href="%{decidim_url}">Decidim</a> community</h3> <p><a href="%{decidim_url}">Decidim</a> uses other platforms linked to this Website  for the management of the <a href="%{decidim_url}">Decidim</a> community generated around our technology, as a meeting point for the <a href="%{decidim_url}">Decidim</a> community and where most of the activities and communications between users and <a href="%{decidim_url}">Decidim</a> take place. These platforms, such as <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> or GitHub (<a href="https://github.com/decidim/decidim">https://github.com/decidim/decidim</a>) are governed by their own terms of use and privacy policies.</p> <p>Notwithstanding, <a href="%{decidim_url}">Decidim</a> may process User''s personal data collected from these platforms for the management of the community projects developed in those platforms respectively, in particular these personal data may consist in connection data to these platforms, User profile on the platform, and the content of the comments and remarks that the User may contribute to the <a href="%{decidim_url}">Decidim</a> projects from time to time. Please note that this information may be public and, consequently, accessible and visible to other Users.</p> <h3>e. Data collected from our associate members</h3> <p>Any person or organization that wants to participate freely in the <a href="%{decidim_url}">Decidim</a> community, attending debates, collaborating in the organization of events, promoting a working group or community days, as well as contributing to the code or documentation of our free open-source participatory democracy platform, management of instances, etc., can choose to become a member of <a href="%{decidim_url}">Decidim</a>, as long as they have demonstrated sufficient commitment to the community through the realization of any of the above activities. To do so, you must complete a form to submit your application, which will be evaluated by the <a href="%{decidim_url}">Decidim</a> Coordination Committee.</p> <p>The processing of <a href="%{decidim_url}">Decidim</a> members'' personal data is carried out for the purpose of managing the aforementioned projects and activities in which the associate member participates, accounting management of membership fees and, in general, the governance of projects and activities of <a href="%{decidim_url}">Decidim</a>, in order to ensure compliance with the <a href="%{decidim_url}">Decidim</a>''s principles and values as well as the associates'' duties and rights.</p>'
-      title: Personal data we collect about you and how we use it
+      title: Datos personales que recopilamos acerca de ti y cómo los utilizamos
     section-3:
-      paragraph: <p>The legal basis of our processing of personal data are the following:</p> <ul> <li>The processing of Users and associate data is necessary to perform the contract, consisting in the Users acceptance of the Legal Text of the Website, in order to provide them all the information about <a href="%{decidim_url}">Decidim</a> and its technology, projects and activities, as well as to allow them participating in the projects and activities carried out by <a href="%{decidim_url}">Decidim</a>.</li> <li>We may also process your personal data when you give us express consent to make publications about <a href="%{decidim_url}">Decidim</a> projects and activities in which you have participated, press releases or other forms of communication and dissemination of <a href="%{decidim_url}">Decidim</a>'s activities, as well as to receive particular information on a regular basis and/or when you contact us through the website contact form or by e-mail. </li> <li>Additionally, we may process your data on our legitimate interest to perform statistical studies or other knowledge generation techniques, implementing pseudonymization and, if possible, anonymization measures, such as data aggregation, in order to protect the privacy of Users, in accordance with art. 89 GDPR.</li> </ul> <p>In certain circumstances, we may process your data in accordance with this policy to comply with a legal or regulatory obligation to which we are subject.</p>
-      title: Legal basis
+      paragraph: <p>El fundamento jurídico de nuestro procesamiento de datos personales son los siguientes:</p> <ul> <li>El procesamiento de usuarios y datos asociados es necesario para llevar a cabo el contrato, consistente en la aceptación por parte de los Usuarios del Texto Legal del Sitio Web, para proporcionarles toda la información sobre <a href="%{decidim_url}">Decidim</a> y sus tecnologías, proyectos y actividades, así como permitirles participar en los proyectos y actividades llevados a cabo por <a href="%{decidim_url}">Decidim</a>.</li> <li>También podemos procesar sus datos personales cuando usted nos da su consentimiento expreso para hacer publicaciones acerca de <a href="%{decidim_url}">decimales</a> proyectos y actividades en los que ha participado, comunicados de prensa u otras formas de comunicación y diseminación de <a href="%{decidim_url}">decimales</a>de actividades, así como recibir información particular de forma regular y/o cuando usted se ponga en contacto con nosotros a través del formulario de contacto del sitio web o por correo electrónico. </li> <li>Además, podemos procesar sus datos sobre nuestro interés legítimo para realizar estudios estadísticos u otras técnicas de generación de conocimiento, implementar medidas de seudonimización y, si es posible, anonimato, como la agregación de datos, con el fin de proteger la privacidad de los usuarios, de acuerdo con el art. 89 GDPR.</li> </ul> <p>En ciertas circunstancias, podemos procesar sus datos de acuerdo con esta política para cumplir con una obligación legal o reglamentaria a la que estamos sujetos.</p>
+      title: Base legal
     section-4:
-      paragraph: '<p>We process your personal data confidentially in accordance with the applicable legislation. Unless stated otherwise, your personal data will not be provided to third parties. </p> <p>Specifically, we disclose your data as follows:</p> <ul> <li>We can give access to your personal data to our IT service providers under contracts for the provision of services in favour of <a href="%{decidim_url}">Decidim</a>. Among the others, Netlify, Inc., an American entity who provide to Us web hosting services. <a href="%{decidim_url}">Decidim</a> has subscribed with Netlify a <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Data Processing Agreement</a>, including the Standard Contractual Clauses currently approved by the European Commission, in order to ensure that your personal data are processed with all adequate guarantees. More information about how Netlify use your personal data may be consulted here: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a>. </li> <li>We can make the data available to the public administration or authorities to investigate suspicions of fraud, harassment or other violations of any law, rule or regulation, or the policies of the website.</li> </ul> <p>For more information about our service providers who make international transfers, please contact us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>'
-      title: Data disclosure
+      paragraph: '<p>Procesamos sus datos personales de forma confidencial de acuerdo con la legislación aplicable. Salvo que se indique lo contrario, sus datos personales no serán proporcionados a terceros. </p> <p>En concreto, revelamos sus datos de la siguiente manera:</p> <ul> <li>Podemos dar acceso a sus datos personales a nuestros proveedores de servicios informáticos en virtud de contratos de prestación de servicios a favor de < a href="%{decidim_url}">Decidim</a>. Entre otros, Netlify, Inc., una entidad estadounidense que nos brinda servicios de alojamiento web. <a href="%{decidim_url}">Decidim</a> se ha suscrito con Netlify a <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Datos Acuerdo de Tratamiento</a>, incluidas las Cláusulas Contractuales Tipo actualmente aprobadas por la Comisión Europea, con el fin de asegurar que sus datos personales sean tratados con todas las garantías adecuadas. Puede consultar más información sobre cómo utiliza Netlify sus datos personales aquí: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a >. </li> <li>Podemos poner los datos a disposición de la administración pública o las autoridades para investigar sospechas de fraude, acoso u otras violaciones de cualquier ley, norma o reglamento, o de las políticas del sitio web.</li> </ ul> <p>Para obtener más información sobre nuestros proveedores de servicios que realizan transferencias internacionales, contáctenos en <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>'
+      title: Divulgación de datos
     section-5:
-      paragraph: "<p>We only keep your personal data for as long as it is necessary to fulfil the purposes for which we have collected them, even to comply with legal, accounting or information requirements.</p> <p>To determine the appropriate retention period for personal data, we consider the amount, nature and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which we process your personal data, if we can achieve those purposes through other means and the applicable legal requirements.</p>"
-      title: Data retention
+      paragraph: "<p>Solo guardamos sus datos personales mientras sea necesario cumplir con los fines para los que los hemos recopilado. incluso para cumplir con los requisitos legales, contables o de información.</p> <p>Para determinar el período de retención adecuado para los datos personales, consideramos la cantidad, naturaleza y sensibilidad de los datos personales el riesgo potencial de daño derivado del uso no autorizado o la divulgación de sus datos personales, los propósitos para los que procesamos sus datos personales si podemos lograr esos objetivos a través de otros medios y los requisitos legales aplicables.</p>"
+      title: Retención de datos
     section-6:
-      paragraph: "<p>We implement security measures and personal data protection schemes as required by law to maintain the confidentiality and integrity of your data and protection against unauthorised access, modification or destruction. </p>"
-      title: Security measures
+      paragraph: "<p>Implementamos medidas de seguridad y esquemas de protección de datos personales según lo requiera la ley para mantener la confidencialidad e integridad de sus datos y protección contra el acceso no autorizado. modificación o destrucción. </p>"
+      title: Medidas de seguridad
     section-7:
-      paragraph: '<p>You have rights under data protection laws in relation to your personal data. Specifically, you have the right to: </p> <ul> <li><b>Request access</b> to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</li> <li><b>Request correction</b> of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</li> <li><b>Request erasure</b> of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</li> <li><b>Object to processing</b> of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</li> <li><b>Request restriction of processing</b> of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data''s accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</li> <li><b>Request the transfer</b> of your personal data to you or to a third party (right to data portability). We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</li> <li><b>Withdraw consent at any time</b> where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</li> </ul> <p>The aforementioned rights may be effective by contacting us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>. <p>You also have the right to make any complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spain.'
-      title: Your rights
+      paragraph: '<p>Tiene derechos en virtud de las leyes de protección de datos en relación con sus datos personales. Específicamente, tiene derecho a: </p> <ul> <li><b>Solicitar acceso</b> a sus datos personales (comúnmente conocido como "solicitud de acceso de sujeto de datos"). Esto le permite recibir una copia de los datos personales que tenemos sobre usted y verificar que los estamos procesando legalmente.</li> <li><b>Solicitar corrección</b> de los datos personales que tenemos sobre usted . Esto le permite corregir cualquier dato incompleto o inexacto que tengamos sobre usted, aunque es posible que necesitemos verificar la precisión de los nuevos datos que nos proporcione.</li> <li><b>Solicitar eliminación</b> de tus datos personales Esto le permite solicitarnos que eliminemos o eliminemos datos personales cuando no haya una buena razón para que continuemos procesándolos. También tiene derecho a solicitarnos que eliminemos o eliminemos sus datos personales cuando haya ejercido con éxito su derecho a oponerse al procesamiento (ver a continuación), cuando hayamos procesado su información ilegalmente o cuando debamos borrar sus datos personales para cumplir con la ley local. Sin embargo, tenga en cuenta que es posible que no siempre podamos cumplir con su solicitud de eliminación por razones legales específicas que se le notificarán, si corresponde, en el momento de su solicitud.</li> <li><b>Objeto al procesamiento</b> de sus datos personales cuando nos basamos en un interés legítimo (o en los de un tercero) y hay algo en su situación particular que le hace desear oponerse al procesamiento por este motivo, ya que cree que afecta sobre sus derechos y libertades fundamentales. También tiene derecho a oponerse cuando procesamos sus datos personales con fines de marketing directo. En algunos casos, podemos demostrar que tenemos motivos legítimos convincentes para procesar su información que anulan sus derechos y libertades.</li> <li><b>Solicitar la restricción del procesamiento</b> de sus datos personales. Esto le permite solicitarnos que suspendamos el procesamiento de sus datos personales en los siguientes escenarios: (a) si desea que establezcamos la exactitud de los datos; (b) cuando nuestro uso de los datos es ilegal pero no desea que los eliminemos; (c) cuando necesite que conservemos los datos, incluso si ya no los necesitamos, ya que los necesita para establecer, ejercer o defender reclamaciones legales; o (d) se ha opuesto a que usemos sus datos, pero necesitamos verificar si tenemos motivos legítimos imperiosos para usarlos.</li> <li><b>Solicitar la transferencia</b> de sus datos personales a usted o a un tercero (derecho a la portabilidad de datos). Le proporcionaremos a usted, o a un tercero que haya elegido, sus datos personales en un formato estructurado, de uso común y legible por máquina. Tenga en cuenta que este derecho solo se aplica a la información automatizada que inicialmente nos dio su consentimiento para usar o cuando usamos la información para realizar un contrato con usted.</li> <li><b>Retirar el consentimiento en cualquier momento</b> donde confiamos en el consentimiento para procesar sus datos personales. Sin embargo, esto no afectará la legalidad de cualquier procesamiento realizado antes de que retire su consentimiento. Si retira su consentimiento, es posible que no podamos proporcionarle ciertos productos o servicios. Le informaremos si este es el caso en el momento en que retire su consentimiento.</li> </ul> <p>Los derechos antes mencionados pueden hacerse efectivos contactándonos en <a href="mailto:privacy@decidim.org ">privacidad@decidim.org</a>. <p>También tiene derecho a presentar cualquier reclamación ante la autoridad competente, en este caso la Agencia Española de Protección de Datos, C/. Jorge Juan, 6, 28001 Madrid, España.'
+      title: Tus derechos
     section-8:
-      paragraph: "<p>We reserve the right to amend the terms of this Privacy Policy and will notify you by providing a clear notice of these changes by email or on our Website, and in this Privacy Policy. If you continue to use our services after such update, you will be deemed to accept the new terms. If you do not accept the update, please terminate your account or notify us and we will terminate your Account and remove any of your personal data (except as required to be maintained for legal purposes), and you will not be able to continue to use our services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>"
+      paragraph: "<p>Nos reservamos el derecho de modificar los términos de esta política de privacidad y le notificaremos mediante un aviso claro de estos cambios por correo electrónico o en nuestro sitio web. y en esta política de privacidad. Si continúa utilizando nuestros servicios después de dicha actualización, se considerará que acepta las nuevas condiciones. Si no acepta la actualización, cancele su cuenta o notifíquenos y nosotros cancelaremos su cuenta y eliminaremos cualquiera de sus datos personales (excepto cuando sea necesario mantener con fines legales), y no podrá seguir utilizando nuestros servicios. </p> <p>A menos que un reglamento local específico indique lo contrario, la Política de Privacidad se rige por las leyes de España.</p> <p><b>Última actualización</b>: Febrero 2022.</p>"
       title: General
-    title: Privacy policy
+    title: Política de Privacidad
   testimonials:
     n1:
       org: Ayuntamiento de Barcelona (2015-2019)
@@ -541,62 +540,62 @@ es:
       org: Gobierno Abierto de Ciudad de México
       quote: Prácticamente cada proceso participativo que ha llegado a nuestra mesa, lo hemos podido resolver usando las reglas de negocio de Decidim. Como herramienta, es una muy robusta. Sin embargo, la parte que nos parece más fuerte e importante es su comunidad, tanto de desarrolladoras como de aquellas que lo usan para procesos participativos. Convivir con ellas nos ha hecho dimensionar los desafíos que conlleva implementar la democracia participativa en el mundo real.
     n6:
-      org: Mozilla Foundation
-      quote: We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+      org: "Mozilla Foundation\n"
+      quote: Sufrimos por falta de espacio público, es especialmente importante que recuperemos estos espacios públicos para nosotros. Las plataformas abiertas como Decidim hacen exactamente eso. No sólo es de código abierto para que otras personas puedan bifurcarlo, reutilizarlo y construir un proceso. También tiene estos valores que queremos reflejar en nuestra sociedad codificados en la forma en que está diseñado.
     n7:
-      org: OpenForum Europe Research Director, European Union
-      quote: The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
+      org: OpenForum Europe Research Director, Unión Europea
+      quote: El proceso comenzó en octubre de 2019 en la unidad de la DG Comunicación y Democracia de la Comisión Europea en el Centro Común de Investigación, el servicio de ciencia y conocimiento de la Comisión Europea. Un análisis de las necesidades de la Conferencia y de las herramientas que se ajustan a ellas, conducir a elegir la herramienta de código abierto Decidim por su madurez técnica, amplia comunidad y adaptabilidad.
     n8:
-      org: Pipeline to Power, working for NYC Civic Engagement Commission
-      quote: Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded.
+      org: Pipeline to Power, trabajando para la Comisión de Participación Cívica de la NYC
+      quote: Parte de lo que hace que Decidim sea tan poderoso es que añade un nivel de abstracción al trabajo que separa los pasos de un proceso y las actividades asociadas con el proceso. Eso es parte de la arquitectura de la información, para que no sólo esté diciendo lo que está ocurriendo en cada paso, sino que diferentes partes de Decidim se comporten de manera diferente dependiendo de cuándo esté haciendo o dependiendo del paso en el proceso en el que se encuentre. El hecho de que sea personalizable realmente permite que Decidim sea moldeado a cómo hacemos nuestro trabajo y no nuestro trabajo para ser moldeado.
   thanks:
     message: Gracias por tu email, te responderemos en breve.
     title: Gracias por contactarnos
   trademark:
     examples-1:
-      l1: Including the Decidim logo on product pages to say "we work with Decidim" (e.g., hosting, consultancy services, developments based on Decidim).
-      l2: Use of the trademark "Decidim" in book titles and research articles.
-      l3: Use of the Decidim logo in the footer of an instance (“Powered by Decidim”).
-      title: Examples of use that do not need permission
+      l1: Incluir el logotipo de Decidim en las páginas del producto para decir "trabajamos con Decidim" (por ejemplo, alojamiento, servicios de consultoría, desarrollos basados en Decidim).
+      l2: Uso de la marca "Decidim" en los títulos de los libros y artículos de investigación.
+      l3: Uso del logotipo de Decidim en el pie de una instancia (“Powered by Decidim”).
+      title: Ejemplos de uso que no necesitan permiso
     examples-2:
-      l1: Selling merchandise (stickers, t-shirts, mugs, etc).
-      l2: Use of the Decidim logo on a book cover.
-      l3: Use of the Decidim logo in a header in a website, implying that you’re the Decidim organization.
-      title: Examples of use that do need permission
+      l1: Venta de material promocional (pegatinas, camisetas, tazas, etc.).
+      l2: Uso del logotipo de Decidim en la portada de un libro.
+      l3: Uso del logotipo de Decidim en un encabezado de un sitio web, lo que implica que eres de la organización de Decidim.
+      title: Ejemplos de uso que no necesitan permiso
     examples-3:
-      l1: Naming your company or product after Decidim, like "The Decidim Consultants".
-      title: Examples of use that will not get permission
+      l1: Nombrar a su empresa o producto de Decidim, como "Los consultores de Decidim
+      title: Ejemplos de uso que no necesitan permiso
     goals:
-      l1: We’d like to make it easy for anyone to use the Decidim name or logo for community-oriented efforts that help spread and improve Decidim.
-      l2: We’d like to make it clear how Decidim-related businesses and projects can (and cannot) use the Decidim name and logo.
-      l3: We’d like to make it hard for anyone to use the Decidim name and logo to unfairly profit from, trick or confuse people who are looking for official Decidim resources.
-    p1: '"Decidim" and the Decidim logo are registered trademarks of Associació de Software Lliure Decidim. You may not use these trademarks in a commercial setting to infer that your product or service is endorsed or associated with Decidim without permission. You may use these marks to refer to Decidim in a way where it''s clear that you''re simply referring to the project, not claiming endorsement or association.'
-    p2: 'If you’re using the Decidim logo in any way you need to add the following text: <i>"Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim."</i>'
-    p3: 'We have developed this trademark usage policy with the following goals in mind:'
-    p4: You can request permission by emailing associacio@decidim.org.
-    p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
-    title: Trademark policy
+      l1: Nos gustaría facilitar a cualquier persona el uso del nombre o logotipo de Decidim para esfuerzos orientados a la comunidad que ayuden a difundir y mejorar Decidim.
+      l2: Nos gustaría dejar claro cómo los negocios y proyectos relacionados con Decidim, pueden (y no) usar el nombre y el logotipo de Decidim.
+      l3: Nos gustaría hacer que sea difícil para cualquiera usar el nombre y logotipo de Decidim para obtener beneficios injustos, engañe o confunda a la gente que busca recursos oficiales de Decidim.
+    p1: '"Decidim" y el logotipo de Decidim son marcas registradas de Asociación de Software Libre Decidim. Usted no puede utilizar estas marcas en una configuración comercial para infundir que su producto o servicio está avalado o asociado con Decidim sin permiso. Puede utilizar estas marcas para referirse a Decidim de una manera en la que esté claro que simplemente se está refiriendo al proyecto, no reclamar apoyo o asociación.'
+    p2: 'Si utiliza el logo de Decidim de cualquier forma necesita añadir el siguiente texto: <i>"Nombre de decidim y logo es una marca registrada de la Associacioñ de Software Lliure Decidim.</i>'
+    p3: 'Hemos desarrollado esta política de uso de marcas comerciales teniendo en cuenta los siguientes objetivos:'
+    p4: Puede solicitar permiso enviando un correo electrónico a associacio@decidim.org.
+    p5: Esta página de política de marcas estaba basada en <a href="%{rails_url}">Ruby on Rails</a> y <a href="%{wordpress_url}">Wordpress Foundation</a>.
+    title: Política de marcas comerciales
   used_by:
-    cta: Get started
-    disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
+    cta: Empezar
+    disclaimer: Los logotipos de las entidades colaboradoras son propiedad intelectual de sus respectivos titulares de derechos de autor. No pertenecen a la <br> licencia Creative Commons By-SA  con la que se licencia el resto del contenido del sitio.
     facts:
-      f1: instances
-      f2: countries
-      f3: institutions
-      f4: organizations
-      f5: participants
-      f6: processes
-      f7: proposals
-      f8: comments
-      f9: meetings
-      subtitle: Decidim keeps growing and being adopted by organizations and the community.
-      title: Facts & Figures
+      f1: Instancias
+      f2: Países
+      f3: Instituciones
+      f4: Organizaciones
+      f5: Participantes
+      f6: Procesos
+      f7: Propuestas
+      f8: Comentarios
+      f9: Encuentros
+      subtitle: Decidim sigue creciendo y siendo adoptada por las organizaciones y la comunidad.
+      title: Datos y cifras
     filters:
-      f0: See all
-      f1: Government
-      f2: Cities
-      f3: NGOs
-    intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
-    join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
-    subtitle: These cities, regions and organizations are already using Decidim
+      f0: Ver todos
+      f1: Gobierno
+      f2: Ciudades
+      f3: ONG
+    intro: Puedes usar Decidim en una organización pública o privada, con cientos o miles de participantes potenciales, como un ayuntamiento, una asociación, una universidad, una ONG, un sindicato, un colectivo vecino o una cooperativa...
+    join: Más de 400 entidades, 250 comunidades governamentales y 150 comunidades de césped han elegido Decidim para sus procesos democráticos.
+    subtitle: Estas ciudades, regiones y organizaciones ya están usando Decidim
     title: Ya usan Decidim
