@@ -21,14 +21,9 @@ description:
 </section>
 
 <section>
-  <div class="container pt-6 pb-12 md:pt-16 md:pb-32">
-    <div class="grid grid-cols-4 md:grid-cols-5 gap-6 md:gap-24 items-center">
-      <% data.partners.each do |partner| %>
-        <a href="<%= partner.url %>" title="<%= partner.name %>" target="_blank" rel="noopener noreferrer">
-          <%= image_tag partner.image, alt: partner.name %>
-        </a>
-      <% end %>
-    </div>
+  <div class="container pb-12">
+    <%= partial "partials/partners", locals: { type: "public" } %>
+    <%= partial "partials/partners", locals: { type: "provider" } %>
   </div>
 </section>
 

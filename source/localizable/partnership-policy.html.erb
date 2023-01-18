@@ -14,7 +14,7 @@ description:
       </p>
       <% (1..3).each do |i| %>
         <p class="par-md text-gray-500 prose">
-          <%= t("partnership-policy.explanation.p#{i}", main_website_url: "#{t(:path)}/partners", readme_url: "https://github.com/decidim/decidim/blob/develop/README.adoc") %>
+          <%= I18n.t("partnership-policy.explanation.p#{i}", main_website_url: "#{t(:path)}/partners", readme_url: "https://github.com/decidim/decidim/blob/develop/README.adoc") %>
         </p>
       <% end %>
       <h2 class="h3"><%= t("partnership-policy.how_to.title") %></h2>
@@ -25,14 +25,14 @@ description:
       </ol>
       <h2 class="h2"><%= t("partnership-policy.requirements.title") %></h2>
       <p class="par-md text-gray-500 prose">
-        <%= t("partnership-policy.requirements.p1", social_contract_url: "/contract") %>
+        <%= I18n.t("partnership-policy.requirements.p1", social_contract_url: "/contract") %>
       </p>
       <ul class="list-disc par-md text-gray-500 prose">
         <li><%= t("partnership-policy.requirements.l1") %></li>
         <li><%= t("partnership-policy.requirements.l2") %></li>
       </ol>
       <p class="par-md text-gray-500 prose">
-        <%= t("partnership-policy.requirements.p2", metadecidim_partners_url: "https://meta.decidim.org/assemblies/QuieroSerSocia?locale=en") %>
+        <%= I18n.t("partnership-policy.requirements.p2", metadecidim_partners_url: "https://meta.decidim.org/assemblies/QuieroSerSocia?locale=en") %>
       </p>
     </div>
   </div>

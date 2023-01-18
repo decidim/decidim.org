@@ -423,6 +423,7 @@ fi:
     docs:
       path: https://docs.decidim.org/
       title: Dokumentaatio
+    donate: Donate
     faqs: UKK
     features: Ominaisuudet
     first-steps: Ensimmäiset askeleet
@@ -447,6 +448,9 @@ fi:
     link: Tutustu Decidimin yhteistyökumppaneiden ehtoihin
     subtitle: Nämä yhteisöt ja organisaatiot tekevät yhteistyötä Decidimin kanssa.
     title: Yhteistyökumppanit
+    type:
+      provider: Service providers
+      public: Public institutions
   partnership-policy:
     explanation:
       p1: Decidim-alustan ylläpito vie aikaa ja resursseja. Ylläpito sisältää useita tehtäviä, kuten osallistujien lähettämän materiaalin arviointia, työtehtävien priorisointia, bugien korjaamista, dokumentaation kirjoittamista ja erilaisiin yhteisön kysymyksiin vastaamista. Jokainen organisaatio (yritys, yhdistys tai järjestö), joka haluaa liittyä Decidim-yhteistyökumppaniksi on sitoutunut maksamaan alennetun 3% maksun vuosittaisesta Decidimin tuottamasta liikevaihdostaan Decidim-yhdistykselle. Voittoa tavoittelemattomille organisaatioille tämä maksu on 1,5%.

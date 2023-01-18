@@ -5,17 +5,47 @@ backend:
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
+  - name: "settings"
+    label: "Settings"
+    description: >
+      Here you can enable and disable the Alert and change the URL.
+      For changing the messages (title, description and button), you need to do it in
+      <a href="https://github.com/decidim/decidim.org/blob/main/locales/en.yml">GitHub</a>
+      and <a href="https://crowdin.com/project/decidimorg">Crowdin</a>.
+    editor:
+      preview: false
+    files:
+      - name: "alert"
+        label: "Alert"
+        file: "data/alert.yml"
+        fields:
+          - { label: 'Enabled', name: 'enabled', widget: 'boolean', default: true, required: true}
+          - { label: 'URL', name: 'url', widget: 'string', required: true }
   - name: "post"
     label: "Post"
     folder: "source/blog/en"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} -- {{year}}-{{month}}-{{day}}"
     extension: "html.md"
     format: "frontmatter"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "select", options: ["releases", "casestudy"]}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
+      - {label: "Tags", name: "tags", widget: "select", options: ["releases", "casestudy"], required: false}
+  - name: "Partners"
+    label: "Partner"
+    format: yml
+    extension: yml
+    folder: data/partners/
+    create: true
+    identifier_field: name
+    fields:
+      - {label: "Name", name: "name", widget: "string", required: true}
+      - {label: "URL", name: "url", widget: "string", required: true}
+      - {label: "Image", name: "image", widget: "image", required: true}
+      - {label: "Joined at", name: "joined_at", widget: "datetime", format: "L", date_format: "DD-MM-YYYY", time_format: "", required: true}
+      - {label: "Type", name: "type", widget: "select", options: ["public", "provider"], required: false}
   - name: "Installation (usedby)"
     label: "Installation"
     format: yml
@@ -26,18 +56,10 @@ collections:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "URL", name: "url", widget: "string", required: true}
       - {label: "Image", name: "image", widget: "image", required: true}
-      - {label: "Home Image", name: "home_image", widget: "image"}
+      - {label: "Home Image", name: "home_image", widget: "image", required: false}
       - {label: "Type", name: "type", widget: "select", options: ["city", "org", "region"], required: true}
-      - label: "Priority"
-        name: "priority"
-        widget: "number"
-        default: 2
-        valueType: "int"
-        min: 1
-        max: 101
-        step: 2
-        hint: Larger number is more priority (100 is Barcelona)
-      - {label: "Home", name: "home", widget: "boolean", hint: "Is it going to be published on homepage?"}
+      - {label: "Priority", name: "priority", widget: "number", default: 50, valueType: "int", min: 1, max: 101, step: 2, hint: Larger number is more priority (100 is Barcelona), required: true}
+      - {label: "Home", name: "home", widget: "boolean", hint: "Is it going to be published on homepage?", required: false}
   - name: "Module"
     label: "Module"
     format: yml

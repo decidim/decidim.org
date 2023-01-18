@@ -17,7 +17,7 @@ description:
   <div class="container pt-12 pb-20">
     <% (1..9)&.each do |n| %>
       <h5 class="h5 first:mt-0 mt-8"><%= t("legal-notice.section-#{n}.title") %></h5>
-      <div class="par-md mt-4 prose prose-xl"><%= t("legal-notice.section-#{n}.paragraph", privacy_policy_url: "#{t(:path)}/privacy-policy") %></div>
+      <div class="par-md mt-4 prose prose-xl"><%= I18n.t("legal-notice.section-#{n}.paragraph", privacy_policy_url: "#{t(:path)}/privacy-policy") %></div>
     <% end %>
   </div>
 </section>
