@@ -45,7 +45,7 @@ collections:
       - {label: "URL", name: "url", widget: "string", required: true}
       - {label: "Image", name: "image", widget: "image", required: true}
       - {label: "Joined at", name: "joined_at", widget: "datetime", format: "L", date_format: "DD-MM-YYYY", time_format: "", required: true}
-      - {label: "Type", name: "type", widget: "select", options: ["public", "provider"], required: false}
+      - {label: "Type", name: "type", widget: "select", options: ["public", "provider", "technology"], required: false}
   - name: "Installation (usedby)"
     label: "Installation"
     format: yml
