@@ -412,6 +412,7 @@ fi:
     title: Moduulit
   nav:
     about: Tietoa
+    academy: Academy
     association: Yhdistys
     blog: Blogi
     close_menu: Sulje valikko
@@ -451,6 +452,7 @@ fi:
     type:
       provider: Palvelujentarjoajat
       public: Julkinen sektori
+      technology: Technology partners
   partnership-policy:
     explanation:
       p1: Decidim-alustan ylläpito vie aikaa ja resursseja. Ylläpito sisältää useita tehtäviä, kuten osallistujien lähettämän materiaalin arviointia, työtehtävien priorisointia, bugien korjaamista, dokumentaation kirjoittamista ja erilaisiin yhteisön kysymyksiin vastaamista. Jokainen organisaatio (yritys, yhdistys tai järjestö), joka haluaa liittyä Decidim-yhteistyökumppaniksi on sitoutunut maksamaan alennetun 3% maksun vuosittaisesta Decidimin tuottamasta liikevaihdostaan Decidim-yhdistykselle. Voittoa tavoittelemattomille organisaatioille tämä maksu on 1,5%.
@@ -482,17 +484,17 @@ fi:
         link: Katso
         title: Esittelyvideo
       link3:
-        link: Siirry sivustolle
-        title: Decidim Fest 2021
-      link4:
-        link: YouTube-kanava
-        title: Videot
-      link5:
         link: Lataa
-        title: Esite
+        title: Brochure
+      link4:
+        link: To the site
+        title: Decidim Fest
+      link5:
+        link: Youtube channel
+        title: Videos
       link6:
-        link: Lataukset
-        title: Yhteisökuvat
+        link: Zotero repository
+        title: Academic papers
     sign_up: Tilaa Metadecidim-uutiskirje
     social_media: Seuraa meitä sosiaalisessa mediassa
     subtitle: Lehdistökysymyksissä, ota yhteyttä osoitteeseen
