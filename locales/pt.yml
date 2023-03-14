@@ -1,4 +1,4 @@
-pt:
+pt-BR:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
@@ -412,7 +412,7 @@ pt:
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
     title: Partnership policy
-  path: '/pt'
+  path: ''
   press:
     highlights: Media highlights
     kit: Press kit
@@ -482,11 +482,11 @@ pt:
       org: Abrir Governo da Cidade do México
       quote: Quase todos os processos participativos que chegaram à nossa mesa, fomos capazes de resolvê-lo usando as regras de negócio do Decidim. Enquanto instrumento, é um instrumento muito forte. No entanto, a parte que nos parece mais forte e mais importante é a sua comunidade, tanto os desenvolvedores quanto aqueles que a utilizam para processos participativos. A coexistência com eles fez com que apreciássemos os desafios envolvidos na implementação da democracia participativa no mundo real.
     n6:
-      org: Mozilla Foundation
-      quote: We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+      org: Fundação Mozilla
+      quote: Sofremos sob falta de espaço público. É particularmente importante recuperarmos esses espaços públicos para nós. Plataformas abertas, como o Decidim, fazem exatamente isso. Não é só isso que é open source para que outras pessoas possam bifurcá-lo, reutilizá-lo e construir um processo. Também tem esses valores que queremos refletir na nossa sociedade codificada da forma como ela é projetada.
     n7:
-      org: OpenForum Europe Research Director, European Union
-      quote: The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
+      org: Director Europeu de Investigação de Fórum Aberto, União Europeia
+      quote: O processo teve início em Outubro de 2019 na unidade da DG Comunicação e Democracia da Comissão Europeia no Centro Comum de Investigação, o serviço científico e de conhecimento da Comissão Europeia. Uma análise das necessidades da Conferência e dos instrumentos que se adequam a estas, levar a escolher a ferramenta de código aberto Decidim para sua maturidade técnica, ampla comunidade e adaptabilidade.
     n8:
       org: Pipeline to Power, working for NYC Civic Engagement Commission
       quote: Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded.
