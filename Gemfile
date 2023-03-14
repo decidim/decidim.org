@@ -11,7 +11,7 @@ gem "wdm", "~> 0.1", platforms: [:mswin, :mingw]
 gem "builder", "~> 3.0"
 gem "debug", "~> 1.6"
 gem "middleman-blog", "~> 4.0"
-gem "nokogiri", "~> 1.13.6"
+gem "nokogiri", "~> 1.13.10"
 gem "redcarpet", "~> 3.5"
 
 gem "image_optim", "~> 0.30"
