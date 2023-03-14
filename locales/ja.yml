@@ -113,10 +113,6 @@ ja:
         answer: Decidimは、人々により、人々のために作られた市民参加のためのプラットフォームです。ソースコードは公開されており、誰でも閲覧、修正、拡張することができます。Decidimのソフトウェアは、[AGPLライセンス](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)によって提供されています。つまり、AGPLライセンスを遵守する限り、使用、修正、派生バージョンの再配布が可能です。
         question: Decidimが自由、「リブレ (libre) 」、オープンソースであることは何を意味するのでしょうか?
         type: インストール
-      q1:
-        answer: 'Decidimは、都市や組織のための自由・オープンソースの参加型民主主義プラットフォームです。しかし、Decidimはデジタルプラットフォーム以上のものです。それは、コード、文書、デザイン、トレーニングコース、法的枠組み、コラボレイティブなインターフェース、ユーザーとファシリテーションのコミュニティ、および共通のビジョンを含む、フリーでオープンなプロジェクトとインフラストラクチャなのです。'
-        question: Decidimとは
-        type: Decidimについて
       q10:
         answer: コラボレーションする方法はいくつかあります。そのひとつが、[Metadecidim](http://meta.decidim.org)コミュニティを通じてです。新しい機能を提案したい場合は、[ここに行ってください](https://meta.decidim.org/processes/roadmap)。エラーを発見し、それを通知したい場合は、[このプロセスへ](https://meta.decidim.org/processes/bug-report)。Metadecidimコミュニティに積極的に参加したい場合は、コミュニティミーティングに参加することができます。コミュニティの参加者として登録し、一緒に参加しましょう。もしコードに関することであれば、[Githubに来てください](https://github.com/decidim/decidim)。研究者であれば、[LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab)に来てみてはいかがでしょうか。
         question: 新しい改善機能のアイディアがあります。プロジェクトについてもっと理解を深めたいです。どうすればいいですか？
@@ -157,10 +153,6 @@ ja:
         answer: '[Decidimアソシエーションの総会アセンブリ](https://meta.decidim.org/assemblies/general-assembly-association)では、私たちに関するより多くの情報を見つけ、会議の活動をフォローし、関連情報(法令、法的合意、内部規則)を確認することができます。'
         question: Decidimアソシエーションについて詳しく知るにはどうすればよいでしょうか?
         type: association
-      q2:
-        answer: 現在、世界中の都市や団体で利用されています。実際には、NGO、大学、労働組合、協同組合、町内会など、どのようなグループでも使用することができます。[現在アクティブなインスタンスの完全なリスト](/usedby/) を確認してください。
-        question: 現在、どのような人たちがDecidimを使用していますか？
-        type: Decidimについて
       q20:
         answer: プロジェクトに関わる人たちはパートナーになれます。[どのようにしなければならないかはこちらで詳しく説明しています](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
         question: Decidim Associationのメンバーになるにはどうしたらいいですか?
@@ -181,34 +173,6 @@ ja:
         answer: DecidimおよびDecidimのロゴは、当協会の登録商標であり、商品として使用したり、販売することはできません。使用する場合は、プロジェクトにクレジットを表記する必要があります。詳しくは、 [商標ポリシー](/trademark-policy) をご覧ください。
         question: Decidimの商標ポリシーとは何ですか?
         type: association
-      q3:
-        answer: 参加型プロセスを簡単に構成できます。戦略的な計画を立てたいですか？あるいは、新しい規制について議論したいですか？あるいは、共通の利益を達成するために新しい広場や公共建築物について議論したいですか？Decidimのおかげで、参加型スペース（イニシアチブ、集会、プロセスまたはコンサルテーション）を構成し、利用可能な複数のコンポーネント（対面でのミーティング、サーベイ、提案、投票、結果のフォローアップ、コメントなど）を通じてそれらを豊かにすることができます。
-        question: Decidimの管理者は何ができますか?
-        type: ユーザー
-      q4:
-        answer: Decidimは何千人もの人々が、提案をしたり、公開カンファレンスに出席したり、意思決定の議論を促進したり、様々な形態の投票で意思表示したり、実施を監視することにより、自分自身を民主的に組織することを可能にします。
-        question: Decidimの参加者 (ユーザー) は何ができますか？
-        type: ユーザー
-      q5:
-        answer: はい、[オンラインデモサイト](/demo) があります。
-        question: デモサイトはありますか？ インストールせずに Decidim を試用して、どのように動作するかを確認したいです。
-        type: 機能
-      q6:
-        answer: 私たちは毎月新しいバージョンをリリースしています。[更新履歴](https://github.com/decidim/decidim/releases) を参照してください。
-        question: プラットフォームはどれくらいの頻度で更新されますか?
-        type: 機能
-      q7:
-        answer: Decidimのインストールは簡単ですが、多少の知識と技術的な要件が必要です。[Decidimをインストールするためのドキュメント](https://docs.decidim.org/en/install/)を参照してください。
-        question: Decidim をインストールするには何が必要ですか?
-        type: インストール
-      q8:
-        answer: '[GitHubの新機能ロードマップ](https://github.com/decidim/decidim/projects/16)をご覧ください。'
-        question: プロジェクトのロードマップと予定されている機能はどこで確認できますか?
-        type: 機能
-      q9:
-        answer: Decidimは、人々により、人々のために作られた市民参加のためのプラットフォームです。ソースコードは公開されており、誰でも閲覧、修正、拡張することができます。Decidimのソフトウェアは、[AGPLライセンス](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)によって提供されています。つまり、AGPLライセンスを遵守する限り、使用、修正、派生バージョンの再配布が可能です。
-        question: Decidimが自由、「リブレ (libre) 」、オープンソースであることは何を意味するのでしょうか?
-        type: インストール
     subtitle: 回答が見つからない場合は、hola@decidim.org までご連絡ください。
     title: よくある質問
     types:

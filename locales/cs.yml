@@ -113,10 +113,6 @@ cs:
         answer: Decidim je platforma pro participaci občanů, vytvořený lidmi a pro lidi. Jeho zdrojový kód je otevřený a může být kýmkoliv kontrolován, upraven a vylepšen. Aplikace Decidim je pokryta [licencí AGPL](https://en.ikipedia.org/wiki/GNU_Affero_General_Public_License). To znamená, že jej můžete používat, upravovat a šířit odvozené verze, pokud respektujete licenci AGPL.
         question: Co to znamená, že Decidim je zdarma, "svobodný" a s otevřenými zdroji?
         type: instalace
-      q1:
-        answer: 'Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.'
-        question: Co je Decidim?
-        type: o nás
       q10:
         answer: Spolupracovat můžete různými způsoby. Jedním z nich je komunita [Metadecidim](http://meta.decidim.org). Pokud chcete navrhnout nové funkce, [přejděte sem](https://meta.decidim.org/processes/roadmap). Pokud jste zjistili chyby a chcete na ně upozornit, [přejděte na tento postup](https://meta.decidim.org/processes/bug-report). Pokud se chcete aktivně zapojit do komunity Metadecidim, můžete se účastnit komunitních setkání. Zaregistrujte se jako účastník komunity a účastněte se s námi. Pokud je vaší doménou kód, [přijďte na Github](https://github.com/decidim/decidim). Pokud jste výzkumný pracovník, možná vás zaujme možnost přijít na [LAB Metadecidim Semináře](https://meta.decidim.org/assemblies/eix-lab).
         question: Mám nápady na nové vylepšení. Chci projektu lépe porozumět. Co mohu udělat?
@@ -157,10 +153,6 @@ cs:
         answer: Ve [valné hromadě sdružení Decidim](https://meta.decidim.org/assemblies/General assembly-Association) můžete najít více informací, sledovat činnost schůzek a kontrolovat příslušné informace (stanovy, právní dohody, vnitřní nařízení)
         question: Jak mohu získat více informací o sdružení Decidim?
         type: asociace
-      q2:
-        answer: V současné době jej využívají města a organizace. Ve skutečnosti ji může využít jakákoli skupina lidí, ať už je to nevládní organizace, univerzita, odbory, družstvo, sdružení sousedů atd. Prohlédněte si [kompletní seznam aktuálně aktivních instancí](/usedby/).
-        question: Kdo v současné době používá Decidim?
-        type: o nás
       q20:
         answer: Lidé zapojení do projektu mohou být nyní partnery. [Zde podrobně vysvětlíme, co to znamená](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
         question: Jak se mohu stát členem sdružení Decidim?
@@ -181,34 +173,6 @@ cs:
         answer: Decidim a logo Decidim jsou registrovány sdružením, nemohou být použity jako komerční produkt a nemohou být prodány. Pokud je použito, kredit musí být odkazován na projekt. Více o tom si můžete přečíst v našich [zásadách ochranných známek](/trademark-policy).
         question: Co jsou Zásady ochranných známek Decidim?
         type: asociace
-      q3:
-        answer: Snadno konfigurovatelné participační procesy. Chcete vytvořit strategický plán? Nebo diskutovat o nových vyhláškách? Nebo diskutovat o novém náměstí, nebo veřejné budově s cílem dosáhnout společného výsledku? Díky Decidim budete moci nakonfigurovat participační témata (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných složek (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).
-        question: Co může správce Decidim dělat?
-        type: uživatelé
-      q4:
-        answer: Decidim umožňuje tisícům lidí demokraticky se organizovat prostřednictvím návrhů, účastnit se veřejných setkání, podporovat rozhodovací jednání, rozhodovat prostřednictvím různých forem hlasování a sledovat provádění rozhodnutí.
-        question: Co může účastník (uživatel) Decidim dělat?
-        type: uživatelé
-      q5:
-        answer: Ano, máme [online demo](/demo).
-        question: Máte Demo? Chci si vyzkoušet Decidim bez instalace a zjistit, jak funguje.
-        type: vlastnosti
-      q6:
-        answer: Přibližně každý měsíc vydáváme novou verzi. Viz [záznam verzí](https://github.com/decidim/decidim/releases).
-        question: Jak často se platforma aktualizuje?
-        type: vlastnosti
-      q7:
-        answer: Instalace Decidim je jednoduchá, ale potřebujete nějaké znalosti a technické požadavky. Podívejte se na [dokumentaci pro instalaci Decidim](https://docs.decidim.org/en/install/).
-        question: Co potřebuji k instalaci Decidim?
-        type: instalace
-      q8:
-        answer: Můžete najít [plán nových funkcí projektu na GitHub](https://github.com/decidim/decidim/projects/16).
-        question: Kde najdu plán projektu a plánované prvky?
-        type: vlastnosti
-      q9:
-        answer: Decidim je platforma pro participaci občanů, vytvořený lidmi a pro lidi. Jeho zdrojový kód je otevřený a může být kýmkoliv kontrolován, upraven a vylepšen. Aplikace Decidim je pokryta [licencí AGPL](https://en.ikipedia.org/wiki/GNU_Affero_General_Public_License). To znamená, že jej můžete používat, upravovat a šířit odvozené verze, pokud respektujete licenci AGPL.
-        question: Co to znamená, že Decidim je zdarma, "svobodný" a s otevřenými zdroji?
-        type: instalace
     subtitle: Pokud nemůžete najít odpověď níže, kontaktujte nás na hola@decidim.org
     title: Časté dotazy
     types:

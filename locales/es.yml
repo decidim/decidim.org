@@ -113,10 +113,6 @@ es:
         answer: Decidim es una plataforma de participación ciudadana hecha por y para las personas. Su código fuente es abierto y puede ser analizado, modificado y mejorado por cualquiera. El software Decidim está cubierto por la [licencia AGPL](https://es.wikipedia.org/wiki/GNU_Affero_General_Public_License). Eso significa que puedes usarlo, modificarlo y redistribuir versiones derivadas de él, siempre y cuando respetes la licencia AGPL.
         question: '¿Qué significa que Decidim sea gratuito, libre y de código abierto?'
         type: instalar
-      q1:
-        answer: 'Decidim es una plataforma de participación ciudadana de código libre y abierto para ciudades y organizaciones. Decidim es un proyecto y una infraestructura abierta que incluye código, documentación, diseño, formación, un marco legal, interfaces colaborativas, una comunidad de personas usuarias y facilitadoras y una visión global.'
-        question: '¿Qué es Decidim?'
-        type: Acerca de
       q10:
         answer: Puedes colaborar de muchas maneras. Una de ellas es a través de la comunidad [Metadecidim](http://meta.decidim.org). Si quieres proponer nuevas funcionalidades, [ve aquí](https://meta. ecidim.org/processes/roadmap). Si has detectado errores y quieres notificarlos, [ve a este proceso](https://meta.decidim.org/processes/bug-report). Si quieres participar activamente en la comunidad de Metadecidim, puedes asistir a las reuniones de la comunidad. Regístrate como participante de la comunidad y participa con nosotras. Si tu cosa es el código, [ve a Github](https://github.com/decidim/decidim). Si eres investigadora, tal vez estés interesada en venir a [LAB Metadecidim Seminars](https://meta.deci.org/assemblblies/eix-lab).
         question: Tengo ideas de nuevas funcionalidades, de mejora. Quiero conocer mejor el proyecto. ¿Qué puedo hacer?
@@ -157,10 +153,6 @@ es:
         answer: En la [asamblea general de la Associació Decidim](https://meta.decidim.org/assemblies/general-assembly-association) puedes conocernos mejor, seguir la actividad de los encuentros y consultar información relevante (estatutos, convenios, el reglamento interno).
         question: '¿Cómo puedo obtener más información sobre la Asociación Decidim?'
         type: La Asociación
-      q2:
-        answer: Actualmente lo utilizan ciudades y organizaciones. De hecho cualquier grupo de personas puede utilizarlo, sea una ONG, universidad, sindicato, cooperativa, colectivo de barrio, etc. Consulta el [listado completo de instancias activas en la actualidad](/es/usedby/).
-        question: '¿Quiénes utilizan Decidim actualmente?'
-        type: Acerca de
       q20:
         answer: Ahora las personas implicadas en el proyecto pueden ser socias. [Aquí te explicamos en detalle cómo lo tienes que hacer.](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
         question: '¿Cómo me puedo hacerme socia de la Associació Decidim?'
@@ -181,34 +173,6 @@ es:
         answer: Decidim y el logotipo de Decidim están registrados por la Asociación, no pueden ser utilizados como un producto comercial ni pueden ser vendidos. Si se utiliza, el crédito tiene que ser referenciado al proyecto. Puedes leer más sobre esto en nuestra [Política de Marcas](/trademark-policy).
         question: '¿Cuál es la política de marca de Decidim?'
         type: La Asociación
-      q3:
-        answer: Configura procesos participativos fácilmente. ¿Quieres hacer un plan estratégico? ¿O discutir nuevas normativas? ¿O debatir sobre una plaza nueva o un edificio público para  el bien común? Gracias a Decidim podrás configurar espacios de participación (iniciativas, asambleas, procesos o consultas) y enriquecerlos a través de los múltiples componentes disponibles (encuentros presenciales, encuestas, propuestas, votaciones, seguimiento de resultados, comentarios y muchos más).
-        question: '¿Qué puede hacer alguien que administra de Decidim?'
-        type: personas usuarias
-      q4:
-        answer: Decidim hace posible que miles de personas se organicen democráticamente realizando propuestas, asistiendo a reuniones públicas, creando discusiones deliberativas, decidiendo mediante distintas formas de votación y monitorizando la implementación de las decisiones. Las participantes además pueden comunicarse entre ellas a través de las funcionalidades para la comunicación en red de Decidim.
-        question: '¿Qué puede hacer una persona que participa (usuaria) en Decidim?'
-        type: personas usuarias
-      q5:
-        answer: Sí, tenemos una [demo en línea](/demo).
-        question: Quiero usar Decidim ya, sin instalármelo, para ver cómo funciona. ¿Tenéis una demo?
-        type: funcionalidades
-      q6:
-        answer: Aproximadamente cada mes liberamos una nueva versión. En [este enlace](https://github.com/decidim/decidim/releases) puedes consultar el histórico de versiones.
-        question: '¿Con qué frecuencia hay actualizaciones de la plataforma?'
-        type: funcionalidades
-      q7:
-        answer: Instalar Decidim es fácil, pero necesitas algunos conocimientos y requisitos técnicos. Consulta [la documentación para instalar Decidim](https://docs.decidim.org/en/install/).
-        question: '¿Qué necesito para instalar Decidim?'
-        type: instalar
-      q8:
-        answer: Puedes encontrar el roadmap de nuevas funcionalidades del proyecto en [GitHub](https://github.com/decidim/decidim/projects/16).
-        question: '¿Dónde puedo encontrar el roadmap del proyecto y las funcionalidades planificadas?'
-        type: funcionalidades
-      q9:
-        answer: Decidim es una plataforma de participación ciudadana hecha por y para las personas. Su código fuente es abierto y puede ser analizado, modificado y mejorado por cualquiera. El software Decidim está cubierto por la [licencia AGPL](https://es.wikipedia.org/wiki/GNU_Affero_General_Public_License). Eso significa que puedes usarlo, modificarlo y redistribuir versiones derivadas de él, siempre y cuando respetes la licencia AGPL.
-        question: '¿Qué significa que Decidim sea gratuito, libre y de código abierto?'
-        type: instalar
     subtitle: Si no encuentras respuesta a tu pregunta, escríbenos a hola@decidim.org
     title: FAQs
     types:
