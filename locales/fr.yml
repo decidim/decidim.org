@@ -1,4 +1,3 @@
----
 fr:
   '404':
     intro: Peut-être que vous cherchiez ...
@@ -6,10 +5,10 @@ fr:
     title: Page non trouvée
   about:
     about:
-    - Nous soutenir
-    - Nous contacter
-    - Notre assemblée
-    - Presse
+      - Nous soutenir
+      - Nous contacter
+      - Notre assemblée
+      - Presse
     intro: Nous voulons contribuer à la démocratisation de la société par la construction de technologies, méthodologies, pratiques, normes, actions, récits et valeurs, d'une manière libre, ouverte, collaborative et rélexive.
     subtitle: La Decidim Free Software Association (ou association du logiciel libre Decidim) est une association démocratique pour la gouvernance de la communauté Decidim.
     support_at_opencollective: Soutenez-nous sur Open Collective
@@ -114,10 +113,6 @@ fr:
         answer: Decidim est une plateforme pour la participation citoyenne faite par le peuple et pour le peuple. Son code source est ouvert et peut être inspecté, modifié et amélioré par n'importe qui. Le logiciel Decidim est couvert par la [licence AGPL](https://fr.wikipedia.org/wiki/GNU_Affero_General_Public_License). Cela signifie que vous pouvez l'utiliser, le modifier et redistribuer les versions dérivées de celui-ci tant que vous respectez la licence AGPL.
         question: Qu'est-ce que cela signifie que Decidim est gratuit, "libre" et open source?
         type: installer
-      q1:
-        answer: 'Decidim est une plateforme libre et open-source de démocratie participative pour les villes et les organisations. Mais Decidim est plus qu''une plate-forme numérique : c''est un projet et une infrastructure libre et ouverte impliquant du code, de la documentation, de la conception, des formations, un cadre juridique, des interfaces collaboratives, des communautés d''utilisateurs et de facilitation, et une vision commune.'
-        question: Qu'est-ce que Decidim?
-        type: à propos
       q10:
         answer: Vous pouvez collaborer de plusieurs façons. L'une d'elles est à travers la communauté [Metadecidim](http://meta.decidim.org). Si vous voulez proposer de nouvelles fonctionnalités, [allez ici](https://meta. ecidim.org/processes/roadmap). Si vous avez détecté des erreurs et que vous voulez les signaler, [allez sur ce processus](https://meta.decidim.org/processes/bug-report?locale=fr). Si vous souhaitez participer activement à la communauté Metadecidim, vous pouvez assister aux rencontres de la communauté. Inscrivez-vous en tant que participant de la communauté et participez avec nous. Si votre talent est le code, [venez sur Github](https://github.com/decidim/decidim). Si vous êtes un chercheur, vous pourriez être intéressé à venir aux [séminaires du LAB Metadecidim](https://meta.decidim.org/assemblies/eix-lab).
         question: J'ai des idées pour de nouvelles fonctionnalités d'amélioration. Je veux avoir une meilleure compréhension du projet. Que puis-je faire ?
@@ -158,10 +153,6 @@ fr:
         answer: Dans l'[assemblée générale de l'Association Decidim](https://meta.decidim.org/assemblies/association générale-assemblée) vous pouvez trouver plus d'informations, suivre l'activité des réunions et vérifier les informations pertinentes (statuts, accords juridiques, règlements internes).
         question: Comment puis-je obtenir plus d'informations sur l'Association Decidim ?
         type: association
-      q2:
-        answer: Le logiciel est actuellement utilisé par des villes et organisations du monde entier. En fait, tout groupe de personnes peut l'utiliser, qu'il s'agisse d'une ONG, d'une université, d'un syndicat, d'une coopérative, d'une association de voisinage, etc. Consultez la [liste complète des instances actuellement actives](/usedby/).
-        question: Qui utilise actuellement Decidim?
-        type: à propos
       q20:
         answer: Toutes les personnes impliquées dans le projet peuvent devenir membres de l'association. [Ici, nous expliquons en détail comment vous pouvez devenir membre](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=s)
         question: Comment puis-je devenir membre de l'Association Decidim ?
@@ -182,34 +173,6 @@ fr:
         answer: Decidim et le logo Decidim sont enregistrés par l'Association, ils ne peuvent pas être utilisés comme un produit commercial et ne peuvent pas être vendus. S'il est utilisé, le crédit doit être référencé au projet. Vous pouvez en savoir plus dans notre [politique de marque](/trademark-policy).
         question: Quelle est la politique de Decidim en matière de marques commerciales ?
         type: association
-      q3:
-        answer: Configurez facilement les processus participatifs. Voulez-vous faire un plan stratégique ? Discuter de nouvelles règlementations ? Discuter de l'aménagement d'une nouvelle place ou d'un bâtiment public ? Grâce à Decidim, vous pourrez configurer des espaces de participation (initiatives, assemblées, processus ou consultations) et les enrichir grâce aux multiples fonctionnalités disponibles (rencontres, enquêtes, propositions, votes, suivi des résultats, commentaires et bien d’autres).
-        question: Que peut faire un administrateur Decidim ?
-        type: utilisateurs
-      q4:
-        answer: Decidim permet à des milliers de personnes de s'organiser démocratiquement en faisant des propositions, en participant à des réunions publiques, en favorisant les prises de décision, en prenant des décisions par le biais de différentes formes de vote et en contrôlant la mise en œuvre des décisions.
-        question: Que peut faire un utilisateur de Decidim ?
-        type: utilisateurs
-      q5:
-        answer: Oui, nous avons une [démo en ligne](/demo).
-        question: Vous avez une démo ? Je veux utiliser Decidim maintenant, sans l'installer, pour voir comment cela fonctionne.
-        type: fonctionnalités
-      q6:
-        answer: Nous publions une nouvelle version environ chaque mois. Voir [l'historique des versions](https://github.com/decidim/decidim/releases).
-        question: À quelle fréquence la plateforme est-elle mise à jour ?
-        type: fonctionnalités
-      q7:
-        answer: L'installation de Decidim est facile, mais vous avez besoin de connaissances et de compétences techniques. Consultez la [documentation pour installer Decidim](https://docs.decidim.org/en/install/).
-        question: Que dois-je faire pour installer Decidim?
-        type: installer
-      q8:
-        answer: Vous pouvez trouver la [feuille de route des nouvelles fonctionnalités du projet sur GitHub](https://github.com/decidim/decidim/projects/16).
-        question: Où puis-je trouver la feuille de route du projet et les fonctionnalités prévues?
-        type: fonctionnalités
-      q9:
-        answer: Decidim est une plateforme pour la participation citoyenne faite par le peuple et pour le peuple. Son code source est ouvert et peut être inspecté, modifié et amélioré par n'importe qui. Le logiciel Decidim est couvert par la [licence AGPL](https://fr.wikipedia.org/wiki/GNU_Affero_General_Public_License). Cela signifie que vous pouvez l'utiliser, le modifier et redistribuer les versions dérivées de celui-ci tant que vous respectez la licence AGPL.
-        question: Qu'est-ce que cela signifie que Decidim est gratuit, "libre" et open source?
-        type: installer
     subtitle: Si vous ne trouvez pas la réponse à votre question ci-dessous, contactez-nous à hola@decidim.org
     title: Foire aux questions
     types:
@@ -413,6 +376,7 @@ fr:
     title: Modules
   nav:
     about: A propos
+    academy: Academy
     association: Association
     blog: Actualités
     close_menu: Fermer le menu
@@ -472,7 +436,7 @@ fr:
       title: Quelles sont les exigences auxquelles mon organisation doit satisfaire pour devenir partenaire?
     subtitle: Si votre organisation veut soutenir Decidim, vous pouvez devenir un partenaire Decidim.
     title: Politique de partenariat
-  path: "/fr"
+  path: '/fr'
   press:
     highlights: Mises en avant dans les médias
     kit: Kit de presse
@@ -484,17 +448,17 @@ fr:
         link: Regarder
         title: Spot promotionnel
       link3:
-        link: Aller au site
-        title: Decidim Fest 2021
-      link4:
-        link: Chaîne YouTube
-        title: Vidéos
-      link5:
         link: Télécharger
         title: Brochure
+      link4:
+        link: To the site
+        title: Decidim Fest
+      link5:
+        link: Youtube channel
+        title: Videos
       link6:
-        link: Téléchargements
-        title: Photos de la communauté
+        link: Zotero repository
+        title: Academic papers
     sign_up: Inscrivez-vous à notre newsletter sur Metadecidim
     social_media: Suivez-nous sur les réseaux sociaux
     subtitle: Pour les demandes des médias, veuillez nous envoyer un e-mail à
@@ -519,7 +483,7 @@ fr:
       paragraph: "<p>Nous mettons en œuvre des mesures de sécurité et des plans de protection des données personnelles conformément à la loi pour maintenir la confidentialité et l'intégrité de vos données et la protection contre l'accès non autorisé, la modification ou la destruction de ces données. </p>"
       title: Mesures de sécurité
     section-7:
-      paragraph: <p>Vous avez différents droits de par les lois concernant la protection de vos données personnelles. Spécifiquement, vous avez le droit à:</p><ul><li><b>Demande d'accès</b> à vos données personnelles. Cela vous permet de recevoir une copie des données personnelles que nous avons sur vous et vous permet de vérfier si nous les traitons légalement.</li><li><b>Demande de correction</b> de vos données personnelles. Cela vous permet de corriger toute information incorrecte au incomplète à votre sujet, après vérification des nouvelles données fournies.</li><li><b>Demande de suppression</b> de vos données personnelles. Cela vous permet de nous demander la suppression des données n'ayant plus aucune raison d'être traité par nos soins. Vous avez également le droit de nous demander supprimer vos données personnelles lorsque vous avez exercé avec succès votre droit d'opposition au traitement (voir ci-dessous), si nous avons traité vos données de manière illégale ou lorsque nous sommes tenus d'effacer vos données personnelles pour nous conformer à la législation locale. Notez toutefois que nous ne serons pas toujours en mesure de satisfaire à votre demande d'effacement pour des raisons juridiques spécifiques qui vous vous seront notifiées, le cas échéant, au moment de votre demande.</li><li><b>S'opposer au traitement de vos données personnelles</b> lorsque nous nous appuyons sur un légitime (ou celui d'un tiers) et qu'un élément de votre situation particulière vous incite à vous opposer au traitement sur ce motif car vous estimez qu'il a un impact sur vos droits et libertés fondamentaux. Vous avez également le droit de vous opposer lorsque nous traitons vos données à caractère personnel à des fins de marketing direct. Dans certains cas, nous pouvons démontrer que nous avons des motifs légitimes impérieux de traiter vos informations qui l'emportent sur vos droits et libertés.</li><li><b>Demande de restriction sur les traitements de vos données personnelles</b>.Cela vous permet de nous demander de suspendre le traitement de vos données personnelles dans les scénarios suivants:(a) si vous voulez établir la véracité des données; (b) là où notre utilisation des données est illégale mais vous ne voulez pas que nous les supprimions; (c) lorsque vous avez besoin que nous conservions vos données même si nous n'en avons plus besoin, car vous en avez besoin pour exercer ou défendre des revendications juridiques; ou (d) vous avez émis des objections quant à notre utilisation de vos données mais nous avons besoins de vérifier si nous avons des motifs légitimes impérieux pour les utiliser.</li><li><b>Demander le transfert de vos données personnelles</b> à vous ou à un tiers (droit à la portabilités des données). Nous vous fournirons à vous ou à une tierce organisation que vous aurez choisie vos données personnelles dans un format structuré, communément utilisé,. et traitable informatiquement. Notez que ce droit s'applique uniquement aux informations fournies automatiquement sur lesquelles. vous auriez accorder votre consentement à notre égard pour que nous les traitions, ou à des moments où nous aurions utilisées ces informations pour effectuer un contrat avec vous.</li><li><b>Retirer votre consentement à tout moment</b>. Cependant, cela n'affectera pas la légalité de tout traitement réalisé avant cette action.Si vous retirez votre consentement, nous ne serons potentiellement plus en mesure de vous fournir certains produits ou services. Nous vous en informerons si c'est le cas au moment où vous retirez votre consentement.</li></ul><p>Les droits sus-mentionnés sont actionnables en nous contactant via <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p><p>Vous avez également le droit de vous plaindre auprès de l'autorité compétente, dans ce cas la Comission Nationale Informatique et Libertés (Cnil).</p>.
+      paragraph: '<p>Vous avez différents droits de par les lois concernant la protection de vos données personnelles. Spécifiquement, vous avez le droit à:</p><ul><li><b>Demande d''accès</b> à vos données personnelles. Cela vous permet de recevoir une copie des données personnelles que nous avons sur vous et vous permet de vérfier si nous les traitons légalement.</li><li><b>Demande de correction</b> de vos données personnelles. Cela vous permet de corriger toute information incorrecte au incomplète à votre sujet, après vérification des nouvelles données fournies.</li><li><b>Demande de suppression</b> de vos données personnelles. Cela vous permet de nous demander la suppression des données n''ayant plus aucune raison d''être traité par nos soins. Vous avez également le droit de nous demander supprimer vos données personnelles lorsque vous avez exercé avec succès votre droit d''opposition au traitement (voir ci-dessous), si nous avons traité vos données de manière illégale ou lorsque nous sommes tenus d''effacer vos données personnelles pour nous conformer à la législation locale. Notez toutefois que nous ne serons pas toujours en mesure de satisfaire à votre demande d''effacement pour des raisons juridiques spécifiques qui vous vous seront notifiées, le cas échéant, au moment de votre demande.</li><li><b>S''opposer au traitement de vos données personnelles</b> lorsque nous nous appuyons sur un légitime (ou celui d''un tiers) et qu''un élément de votre situation particulière vous incite à vous opposer au traitement sur ce motif car vous estimez qu''il a un impact sur vos droits et libertés fondamentaux. Vous avez également le droit de vous opposer lorsque nous traitons vos données à caractère personnel à des fins de marketing direct. Dans certains cas, nous pouvons démontrer que nous avons des motifs légitimes impérieux de traiter vos informations qui l''emportent sur vos droits et libertés.</li><li><b>Demande de restriction sur les traitements de vos données personnelles</b>.Cela vous permet de nous demander de suspendre le traitement de vos données personnelles dans les scénarios suivants:(a) si vous voulez établir la véracité des données; (b) là où notre utilisation des données est illégale mais vous ne voulez pas que nous les supprimions; (c) lorsque vous avez besoin que nous conservions vos données même si nous n''en avons plus besoin, car vous en avez besoin pour exercer ou défendre des revendications juridiques; ou (d) vous avez émis des objections quant à notre utilisation de vos données mais nous avons besoins de vérifier si nous avons des motifs légitimes impérieux pour les utiliser.</li><li><b>Demander le transfert de vos données personnelles</b> à vous ou à un tiers (droit à la portabilités des données). Nous vous fournirons à vous ou à une tierce organisation que vous aurez choisie vos données personnelles dans un format structuré, communément utilisé,. et traitable informatiquement. Notez que ce droit s''applique uniquement aux informations fournies automatiquement sur lesquelles. vous auriez accorder votre consentement à notre égard pour que nous les traitions, ou à des moments où nous aurions utilisées ces informations pour effectuer un contrat avec vous.</li><li><b>Retirer votre consentement à tout moment</b>. Cependant, cela n''affectera pas la légalité de tout traitement réalisé avant cette action.Si vous retirez votre consentement, nous ne serons potentiellement plus en mesure de vous fournir certains produits ou services. Nous vous en informerons si c''est le cas au moment où vous retirez votre consentement.</li></ul><p>Les droits sus-mentionnés sont actionnables en nous contactant via <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p><p>Vous avez également le droit de vous plaindre auprès de l''autorité compétente, dans ce cas la Comission Nationale Informatique et Libertés (Cnil).</p>.'
       title: Vos droits
     section-8:
       paragraph: "<p>Nous nous réservons le droit de modifier les conditions de cette politique de confidentialité et nous vous en informerons en fournissant un avis clair de ces modifications par e-mail ou sur notre site Web, et dans cette politique de confidentialité. Si vous continuez à utiliser nos services après cette mise à jour, vous serez supposé accepter les nouvelles conditions. Si vous n'acceptez pas la mise à jour, veuillez résilier votre compte ou nous en aviser et nous clôturerons votre compte et supprimerons vos données personnelles (sauf si elles doivent être conservées à des fins légales), et vous ne pourrez pas continuer à utiliser nos services. </p> <p>Sauf disposition contraire d'un règlement local spécifique, la Politique de Confidentialité est régie par les lois espagnoles.</p> <p><b>Dernière mise à jour</b>: février 2022.</p>"

@@ -1,4 +1,3 @@
----
 fi:
   '404':
     intro: Ehkä etsit jotain näistä...
@@ -6,10 +5,10 @@ fi:
     title: Sivua ei löytynyt
   about:
     about:
-    - Tue meitä
-    - Ota yhteyttä
-    - Oma yhteisömme
-    - Lehdistö
+      - Tue meitä
+      - Ota yhteyttä
+      - Oma yhteisömme
+      - Lehdistö
     intro: Haluamme edistää yhteiskunnan demokratisoitumista teknologian, menetelmien, käytäntöjen, standardien, tekojen, narratiivien ja arvojen kautta; vapalla, avoimella, osallistavalla ja pohtivalla tavalla.
     subtitle: Vapaan Decidim-ohjelmiston yhdistys ("Decidim Free Software Association") on demokraattinen yhdistys, jonka tehtävänä on hallinnoida Decidim-yhteisöä.
     support_at_opencollective: Tue meitä Open Collective -palvelussa
@@ -114,10 +113,6 @@ fi:
         answer: Decidim on kansalaisosallistumisen alusta, jonka ihmiset ovat luoneet ihmisiä varten. Sen lähdekoodi on avointa - siihen voi tutustua ja sitä voi muokata tai parantaa kuka tahansa. Decidim-ohjelmisto on lisensoitu [AGPL-lisenssillä](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). Se tarkoittaa, että voit käyttää sitä, muuttaa sitä ja levittää sen johdannaisia versioita, kunhan noudatat AGPL-lisenssiä.
         question: Mitä tarkoittaa, että Decidim on vapaa ja avointa lähdekoodia?
         type: asenna
-      q1:
-        answer: 'Decidim on vapaa avoimen lähdekoodin osallistuvan demokratian alusta kaupungeille ja organisaatioille. Digitaalisen alustan lisäksi Decidim on muutakin: se on yhteisön omistama vapaa ja avoin hanke sekä infrastruktuuri, johon sisältyy koodia, dokumentaatiota, suunnittelutyötä, koulutusta, oikeudellinen kehys, osallistumisen käyttöliittymä, yhteisöjä ja yhteinen visio.'
-        question: Mikä on Decidim?
-        type: tietoa
       q10:
         answer: Voit osallistua usealla tavalla. Yksi osallistumismahdollisuus on [Metadecidim](http://meta.decidim.org)-yhteisö. Jos haluat ehdottaa uusia ominaisuuksia, mene [yhteisön tiekartta-osioon](https://meta.decidim.org/processes/roadmap). Jos olet löytänyt ongelmia tai ohjelmointivirheitä, mene [yhteisön virheraportointi-osioon](https://meta.decidim.org/processes/bug-report). Jos haluat osalistua aktiivisemmin Metadecidim-yhteisöön, voit osallistua yhteisön tapaamisiin. Liity yhteisöön luomalla oma tilisi ja osallistu kanssamme järjestelmän kehittämiseen. Jos osaat ohjelmoida, [tervetuloa GitHubiin](https://github.com/decidim/decidim). Jos olet tutkija, sinua voisi kiinnostaa tulla [Metadecidimin LAB-seminaareihin](https://meta.decidim.org/assemblies/eix-lab).
         question: Minulla on parannusehdotuksia. Haluan saada paremman käsityksen projektista. Mitä voin tehdä?
@@ -158,10 +153,6 @@ fi:
         answer: Löydät lisää tietoa meistä [Decidim-yhdistyksen yleisryhmästä](https://meta.decidim.org/assemblies/general-assembly-association), missä voit mm. seurata tapaamisia ja tutustua yhdistykseen liittyvään tietoon (säännöt, oikeudelliset sopimukset, sisäiset määräykset, jne.).
         question: Mistä voin saada lisää tietoa Decidim-yhdistyksestä?
         type: yhdistys
-      q2:
-        answer: Tällä hetkellä alustaa käytetään kaupungeissa ja organisaatioissa ympäri maailman. Mikä tahansa yhteisö voi käyttää sitä, esimerkiksi kansalaisjärjestö, yliopisto, ammattiliitto, osuuskunta, naapurustoyhdistys jne. Tutustu [aktiivisten Decidim-palveluiden listaan](/usedby/).
-        question: Kuka Decidimiä käyttää?
-        type: tietoa
       q20:
         answer: Tällä hetkellä hankkeeseen osallistuvat ihmiset voivat liittyä yhteistyökumppaneiksi. [Täällä selitämme yksityiskohtaisesti, kuinka voit liittyä jäseneksi](https://meta.decidim.org/assemblies/QuieroSerSocia).
         question: Kuinka voin liittyä Decidim-yhdistyksen jäseneksi?
@@ -182,34 +173,6 @@ fi:
         answer: Decidim ja Decidim-logo ovat Decidim-yhdistyksen rekisteröityjä tavaramerkkejä, eikä niitä voi käyttää kaupallisissa tuotteissa tai myydä. Näiden tavaramerkkien käyttö on aina viitattava hankkeeseen. Voit lukea lisää aiheesta [tavaramerkkikäytännöistämme](/trademark-policy).
         question: Mikä on Decidimin tavaramerkkikäytäntö?
         type: yhdistys
-      q3:
-        answer: Voit määrittää Decidimin avulla erilaisia osallistumisprosesseja. Jos haluat tehdä strategisen suunnitelman tai esimerkiksi keskustella julkisista hankkeista yhteisen hyvän edistämiseksi, Decidim antaa sinulle oikeat työkalut. Voit määrittää alustalle osallistumistiloja (aloitteet, ryhmät, prosessit tai kuulemiset) ja lisätä niihin saatavilla olevia ominaisuuksia (mm. tapaamiset, kyselyt, ehdotukset, äänestykset, toteutuksen seuranta, kommentointi).
-        question: Mitä Decidimin ylläpitäjä voi tehdä?
-        type: käyttäjät
-      q4:
-        answer: Decidim mahdollistaa tuhansien ihmisten demokraattisen itseohjautuvuuden ehdotusten, tapaamisten, keskustelujen ja osallistavien päätösten avulla sekä seuraamalla tehtyjen päätösten toteutumista.
-        question: Mitä osallistuja (käyttäjä) voi tehdä Decidimissä?
-        type: käyttäjät
-      q5:
-        answer: Voit kokeilla Decidimiä [esittelyalustan](/demo) avulla.
-        question: Missä voin kokeilla alustaa? Haluan käyttää Decidimiä nyt, asentamatta sitä itse, jotta näen kuinka se toimii.
-        type: ominaisuudet
-      q6:
-        answer: Julkaisemme uuden version noin kerran kuukaudessa. Tutustu [alustan versiohistoriaan](https://github.com/decidim/decidim/releases).
-        question: Kuinka usein alustaa päivitetään?
-        type: ominaisuudet
-      q7:
-        answer: Decidimin asentaminen on helppoa, mutta tarvitset jonkin verran tietoa sen teknisistä vaatimuksista. Tutustu [Decidimin asennusohjeisiin](https://docs.decidim.org/en/install/).
-        question: Mitä tarvitsen asentaakseni Decidimin?
-        type: asenna
-      q8:
-        answer: Löydät [tiekartan hankkeen uusista ominaisuuksista GitHubista](https://github.com/decidim/decidim/projects/16).
-        question: Mistä löydän hankkeen etenemissuunnitelman ja suunnitellut ominaisuudet?
-        type: ominaisuudet
-      q9:
-        answer: Decidim on kansalaisosallistumisen alusta, jonka ihmiset ovat luoneet ihmisiä varten. Sen lähdekoodi on avointa - siihen voi tutustua ja sitä voi muokata tai parantaa kuka tahansa. Decidim-ohjelmisto on lisensoitu [AGPL-lisenssillä](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). Se tarkoittaa, että voit käyttää sitä, muuttaa sitä ja levittää sen johdannaisia versioita, kunhan noudatat AGPL-lisenssiä.
-        question: Mitä tarkoittaa, että Decidim on vapaa ja avointa lähdekoodia?
-        type: asenna
     subtitle: Jos et löydä kysymykseesi vastausta, ota yhteyttä osoitteeseen hola@decidim.org
     title: UKK
     types:
@@ -225,7 +188,7 @@ fi:
     page:
       feature1:
         subtitle: Yhteisten asioiden demokratisointiin, askel askeleelta
-        text: Prosessit ovat tila, jonka avulla voidaan luoda, aktivoida/deaktivoida ja hallita erilaisia osallisuusprosesseja. Ne erotetaan muista tiloista siten, että ne on rakennettu eri vaiheisiin, joissa kaikki osat voidaan liittää. Esimerkkejä osallistuvista prosesseista ovat komitean jäsenten vaaliprosessi, osallistava budjetointi, strateginen suunnitteluprosessi, asetuksen tai normin yhteistoiminnallinen kirjoittaminen, kaupunkialueen suunnittelu tai julkisen politiikan suunnitelman laatiminen.
+        text: 'Prosessit ovat tila, jonka avulla voidaan luoda, aktivoida/deaktivoida ja hallita erilaisia osallisuusprosesseja. Ne erotetaan muista tiloista siten, että ne on rakennettu eri vaiheisiin, joissa kaikki osat voidaan liittää. Esimerkkejä osallistuvista prosesseista ovat komitean jäsenten vaaliprosessi, osallistava budjetointi, strateginen suunnitteluprosessi, asetuksen tai normin yhteistoiminnallinen kirjoittaminen, kaupunkialueen suunnittelu tai julkisen politiikan suunnitelman laatiminen.'
         title: Osallistumisprosessit
       feature10:
         subtitle: Analysointiin, yhteiskehittämiseen ja yhdessä tekemiseen
@@ -277,7 +240,7 @@ fi:
         title: Ehdotukset
       feature6:
         subtitle: Anna oman äänesi kuulua
-        text: Tarjoaa organisaatioille työkalut ehdotuksista äänestämiseen tai niiden arviointiin demokraattisen prosessin mukaisesti. Taustalla turvallinen ja salattu sähköinen äänestysteknologia.
+        text: 'Tarjoaa organisaatioille työkalut ehdotuksista äänestämiseen tai niiden arviointiin demokraattisen prosessin mukaisesti. Taustalla turvallinen ja salattu sähköinen äänestysteknologia.'
         title: Äänestys
       feature7:
         subtitle: Ei ehdotusta ilman vastausta
@@ -332,9 +295,7 @@ fi:
       intro: <strong>Decidim-yhdistys</strong> ("Decidim Free Software Association") on Decidim-yhteisön hallinnointiin keskittynyt demokraattinen yhdistys.
       subtitle: "<strong>Metadecidim</strong> on yhteisö, joka suunnittelee alustan tulevaisuutta ja kehittää hanketta eteenpäin. Suunnittelemme ja luomme yhdessä uusia ominaisuuksia ja ilmoitamme löytämistämme ongelmista, jotta voimme parantaa alustaa jatkuvasti."
       title: Kuka on alustan takana?
-    subtitle: |-
-      Decidim on kansalaisosallistumisen<br/>
-      digitaalinen alusta
+    subtitle: "Decidim on kansalaisosallistumisen<br/>\ndigitaalinen alusta"
     title: Decidimin käytön aloittaminen
   footer:
     about_us: Tietoa meistä
@@ -376,7 +337,7 @@ fi:
       title: Käytätkö jo Decidimiä?
   legal-notice:
     section-1:
-      paragraph: <p>Käytät Associació de Software Lliure Decidim:n ("Decidim", "Yhdistys", "Me") verkkosivustoa, joka on saatavissa verkko-osoitteessa <a href="https://decidim.org/fi/">https://decidim.org/</a> (jäljempänä "Verkkosivusto"), kotipaikkana Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Espanja ja ID-numero G67401174.</p><p><b>Voit ottaa meihin yhteyttä sähköpostitse osoitteen <a href="mailto:hola@decidim.org">hola@decidim.org</a> kautta</b></p>
+      paragraph: '<p>Käytät Associació de Software Lliure Decidim:n ("Decidim", "Yhdistys", "Me") verkkosivustoa, joka on saatavissa verkko-osoitteessa <a href="https://decidim.org/fi/">https://decidim.org/</a> (jäljempänä "Verkkosivusto"), kotipaikkana Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Espanja ja ID-numero G67401174.</p><p><b>Voit ottaa meihin yhteyttä sähköpostitse osoitteen <a href="mailto:hola@decidim.org">hola@decidim.org</a> kautta</b></p>'
       title: Keitä me olemme
     section-2:
       paragraph: "<p>Tämän Verkkosivuston tarkoitus on tarjota yleistä julkista tietoa Decidimistä, sen toiminnasta ja teknologiasta, jotka koostuvat vapaasta avoimen lähdekoodin osallistuvan demokratian alustasta kaupungeille ja organisaatioille sekä sen ympärille muodostuneen maailmanlaajuisen Decidim-yhteisön hallinnoinnista. Teknologiamme mahdollistaa kansalais- ja yhteisöhankkeiden kehittämisen laajemman yhteisöllisen osallistumisen avulla. Voit vapaasti kokeilla Decidim-alustaa julkisessa verkossa olevan demo-palvelumme kautta.</p><p>Tämän Oikeudellisen ilmoituksen sisältämien käyttöehtojen tarkoitus on säädellä tämän Verkkosivuston ja lain 34/2002 informaatioyhteiskunnan palveluista ja sähköisestä kaupasta (Law 34/2002 on Information Society Services and Electronic Commerce) sekä muiden sovellettavien lakien ja säädösten mukaan tarjottujen palveluiden ja/tai sisältöjen sallittua käyttöä.</p>"
@@ -415,6 +376,7 @@ fi:
     title: Moduulit
   nav:
     about: Tietoa
+    academy: Academy
     association: Yhdistys
     blog: Blogi
     close_menu: Sulje valikko
@@ -426,7 +388,7 @@ fi:
     docs:
       path: https://docs.decidim.org/
       title: Dokumentaatio
-    donate: Donate
+    donate: Lahjoita
     faqs: UKK
     features: Ominaisuudet
     first-steps: Ensimmäiset askeleet
@@ -452,8 +414,8 @@ fi:
     subtitle: Nämä yhteisöt ja organisaatiot tekevät yhteistyötä Decidimin kanssa.
     title: Yhteistyökumppanit
     type:
-      provider: Service providers
-      public: Public institutions
+      provider: Palvelujentarjoajat
+      public: Julkinen sektori
       technology: Technology partners
   partnership-policy:
     explanation:
@@ -474,7 +436,7 @@ fi:
       title: Minkälaisia vaatimuksia organisaationi tulee täyttää päästäkseen yhteistyökumppaniksi?
     subtitle: Jos organisaatiosi haluaa tukea Decidimiä, voit liittyä Decidim-yhteistyökumppaniksi.
     title: Yhteistyökumppanien ehdot
-  path: "/fi"
+  path: '/fi'
   press:
     highlights: Median kohokohdat
     kit: Lehdistöpaketti
@@ -486,17 +448,17 @@ fi:
         link: Katso
         title: Esittelyvideo
       link3:
-        link: Siirry sivustolle
-        title: Decidim Fest 2021
-      link4:
-        link: YouTube-kanava
-        title: Videot
-      link5:
         link: Lataa
-        title: Esite
+        title: Brochure
+      link4:
+        link: To the site
+        title: Decidim Fest
+      link5:
+        link: Youtube channel
+        title: Videos
       link6:
-        link: Lataukset
-        title: Yhteisökuvat
+        link: Zotero repository
+        title: Academic papers
     sign_up: Tilaa Metadecidim-uutiskirje
     social_media: Seuraa meitä sosiaalisessa mediassa
     subtitle: Lehdistökysymyksissä, ota yhteyttä osoitteeseen
