@@ -80,99 +80,75 @@ ro:
       q01:
         answer: 'Decidim este o platformă liberă de democraţie participativă deschisă pentru oraşe şi organizaţii. Dar Decidim este mai mult decât o platformă digitală: este un proiect comun deschis și gratuit și o infrastructură care implică cod, documentație; conceperea, cursurile de formare, un cadru juridic, interfețele colaborative, comunitățile de utilizatori și de facilitare, precum și o viziune comună.'
         question: Ce este Decidim?
-        type: despre
       q02:
         answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
         question: Cine folosește Decidim?
-        type: despre
       q03:
         answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
         question: What can a Decidim administrator do?
-        type: users
       q04:
         answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
         question: What can a participant (user) of Decidim do?
-        type: users
       q05:
         answer: Yes, we have an [online demo](/demo).
         question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
-        type: funcționalități
       q06:
         answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
         question: How often is the platform updated?
-        type: funcționalități
       q07:
         answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
         question: What do I need to install Decidim?
-        type: install
       q08:
         answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
         question: Where can I find the project roadmap and the planned features?
-        type: funcționalități
       q09:
         answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
         question: What does it mean that Decidim is for free, "libre" and open source?
-        type: install
       q10:
         answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report). If you want to actively participate in the Metadecidim community, you can attend Community Meetings. Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
         question: Am idei pentru noi funcții de îmbunătățire. Vreau să înțeleg mai bine proiectul. Ce pot face?
-        type: funcționalități
       q11:
         answer: The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en) and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the [contact form](/contact).
         question: Am multe îndoieli, de toate felurile... unde le pot întreba sau rezolva?
-        type: despre
       q12:
         answer: Poți verifica cea mai recentă versiune a manualului nostru de administrare din [secțiunea de documentare](https://docs.decidim.org).
         question: Există vreun tutorial pentru a începe configurarea?
-        type: install
       q13:
         answer: That's how we call our Code of Democratic Guarantees and Democratic Collaboration. All members of the community must endorse the [Social Contract](http://decidim.org/contract).
         question: What is the Social Contract?
-        type: community
       q14:
         answer: 'There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.'
         question: What are the differences with Consul Project / Decide Madrid?
-        type: funcționalități
       q15:
         answer: "[Metadecidim](http://meta.decidim.org) is the community of Decidim that collaborates in the design of the platform and the construction of the Decidim project. We meet regularly through the Community Meetings, for issues related to the technological aspects of the platform and the Labs witc are [Research](https://meta.decidim.org/assemblies/eix-lab) oriented meetings. Our annual conference is Decidim Fest. Go to [meta.decidim.org](http://meta.decidim.org) to follow the calls closely and if you want to join the community. We'd love to ;-)"
         question: What is the Metadecidim community?
-        type: community
       q16:
         answer: Of course you can. People do so through participatory processes, debates, translations, etc. that you might find in Metadecidim. Decidim was born in Barcelona and that is why there is a strong territorial bond with this city, but above all, it's a project for the commons.
         question: Can I join the Metadecidim community even if I don't live in Barcelona?
-        type: community
       q17:
         answer: Anybody who has good faith and a correct attitude towards democratic collaboration.
         question: What kind of members you accept into the Metadecidim community?
-        type: community
       q18:
         answer: The "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) is a democratic association for the governance of the Decidim community. It was founded on [February 16, 2019 in an extraordinary assembly of the community](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), with the approval of the organization statutes.
         question: What is the Decidim Association?
-        type: association
       q19:
         answer: In the [general assembly of the Decidim Association](https://meta.decidim.org/assemblies/general-assembly-association) you can find more info abous us, follow the activity of the meetings and check relevant information (statutes, legal agreements, the internal regulations)
         question: How can I get more information about the Decidim Association?
-        type: association
       q20:
         answer: Acum, oamenii implicați în proiect pot fi parteneri. [Aici explicăm în detaliu cum trebuie să o faci](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
         question: Cum pot deveni membru al Asociaţiei Decidim?
-        type: association
       q21:
         answer: Da, poți! Decidim este un proiect non-profit, iar pentru moment depinde în totalitate de finanțare. Te rugăm să găsești toate detaliile pentru a finanța proiectul la [OpenCollective](https://opencollective.com/decidim)
         question: Vreau să finanțez proiectul. Cum pot proceda?
-        type: association
       q22:
         answer: Da, avem șabloane pentru a oficializa acordurile de colaborare. [Vă rugăm să ne contactați](/contact).
         question: Dorim să încheiem un acord formal de colaborare. Există vreun model pe care îl putem folosi?
-        type: association
       q23:
         answer: Yes, but you have to be patient. There are a lot of institutions that want to use Decidim right now and we are helping them step by step. [Contact us](/contact) for any question and we will answer you as soon as possible.
         question: Sprijiniți instituțiile?
-        type: despre
       q24:
         answer: Decidim and the Decidim logo are registered by the Association, they cannot be used as a commercial product nor cannot be sold. If used, the credit has to be referenced to the project. You can read more about this in our [Trademark policy](/trademark-policy).
         question: What is Decidim's trademark policy?
-        type: association
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
     title: Întrebări frecvente
     types:
