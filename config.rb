@@ -17,7 +17,7 @@ helpers IconHelpers
 helpers PageHelpers
 
 # Activate multi-language
-activate :i18n, mount_at_root: :en
+activate :i18n, mount_at_root: :en, langs: [:en, :es, :ca, :cs, :fr, :de, :ja, :ro, :fi]
 
 activate :directory_indexes
 
