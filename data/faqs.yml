@@ -1,7 +1,37 @@
 types:
-  - about
-  - users
-  - features
-  - community
-  - install
-  - association
+  about:
+    questions:
+      - q01
+      - q02
+      - q11
+      - q23
+  users:
+    questions:
+      - q03
+      - q04
+  features:
+    questions:
+      - q05
+      - q06
+      - q14
+  community:
+    questions:
+      - q13
+      - q15
+      - q16
+      - q17
+  install:
+    questions:
+      - q07
+      - q08
+      - q09
+      - q10
+      - q12
+  association:
+    questions:
+      - q18
+      - q19
+      - q20
+      - q21
+      - q22
+      - q24

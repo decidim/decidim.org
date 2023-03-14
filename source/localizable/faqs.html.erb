@@ -18,12 +18,12 @@ description:
 
 <section>
   <div class="container pt-6 pb-12 md:pt-16 md:pb-32 space-y-16">
-  <% data.faqs.types.each do |type| %>
-    <% questions = t("faqs.questions").select {|_key, question| question[:type] == type } %>
+  <% data.faqs.types.each do |name, type| %>
+    <% questions = t("faqs.questions").select {|key, question| type.questions.include? key.to_s } %>
     <% if questions.length > 0 %>
       <div class="space-y-4">
         <div class="flex items-end space-x-2">
-          <h6 class="h6 bg-black text-white px-4 py-2 rounded-xl"><%= t("faqs.types.#{type}") %></h6>
+          <h6 class="h6 bg-black text-white px-4 py-2 rounded-xl"><%= t("faqs.types.#{name}") %></h6>
           <span class="w-4 h-4 rounded-full bg-black"></span>
         </div>
 
