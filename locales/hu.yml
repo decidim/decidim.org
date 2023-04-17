@@ -2,73 +2,73 @@ hu:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
-    title: Page not found
+    title: Az oldal nem található
   about:
     about:
-      - Support us
-      - Contact us
-      - Our assembly
+      - Támogasson bennünket
+      - Lépjen velünk kapcsolatba
+      - A gyűlésünk
       - Press
-    intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
+    intro: A technológia, a módszertanok, a gyakorlatok, a szabványok, a cselekvések, a narratívák és az értékek szabad, nyílt, együttműködő és reflektív módon történő kialakításán keresztül szeretnénk hozzájárulni a társadalom demokratizálásához.
+    subtitle: A Decidim Szabad Szoftver Egyesület egy demokratikus egyesület a Decidim közösség irányítására.
     support_at_opencollective: Támogasson bennünket az Open Collective oldalon
-    support_intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
+    support_intro: A technológia, a módszertanok, a gyakorlatok, a szabványok, a cselekvések, a narratívák és az értékek szabad, nyílt, együttműködő és reflektív módon történő kialakításán keresztül szeretnénk hozzájárulni a társadalom demokratizálásához.
+    support_subtitle: A Decidim Szabad Szoftver Egyesület egy demokratikus egyesület a Decidim közösség irányítására.
     support_title: Támogassa a Decidimet
     title: A Decidimről
     values:
       v1: Compromise and responsibility
-      v2: Equal opportunities and quality indicators
-      v3: Open content to share and cooperate
-      v4: Free software to enable autonomy
-      v5: Data confidentiality
-      v6: Transparency, traceability and integrity
-      v7: Continuous improvement and collaboration between organizations
-    values_cta: Read the social contract
-    values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
-    values_title: Our values
+      v2: Esélyegyenlőségi és minőségi mutatók
+      v3: Megosztásra és együttműködésre alkalmas nyílt tartalom
+      v4: Szabad szoftver az autonómia érdekében
+      v5: Az adatok bizalmas kezelése
+      v6: Átláthatóság, nyomon követhetőség és integritás
+      v7: Folyamatos fejlesztés és együttműködés a szervezetek között
+    values_cta: Olvassa el a társadalmi szerződést
+    values_intro: "<p>A Decidim a kezdetektől fogva rendelkezik egy társadalmi szerződéssel, amely tartalmazza a projekt értékeit.</p><p>A Decidim Szabad Szoftver Egyesület minden tagja vállalja, hogy tiszteletben tartja ezt a szerződést.</p>"
+    values_title: Az értékeink
   alert:
-    button: Join
-    p1: The Future of The Internet · October 13-14 Barcelona
+    button: Csatlakozás
+    p1: Az Internet Jövője· Október 13-14 Barcelona
     strong: Decidim Fest 22
   blog:
-    latest: Latest blog post
-    read_more: Read more
-    subtitle: Latest news from Decidim.
+    latest: Legutóbbi blogbejegyzés
+    read_more: Bővebben
+    subtitle: Legfrisseb hírek a Decidimről.
     tags:
-      title: Articles tagged with
+      title: Cikkek megcimkézve ezzel
     title: Blog
   case_study:
     n1:
       org: City of Helsinki
-      quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
+      quote: Hét különböző típusú részvételi költségvetési lehetőséget értékeltünk, hogy megtaláljuk a megfelelő platformot, amely könnyen használható felülettel és a különböző igényekhez szükséges modularitással támogatja a helsinki folyamatot. A Decidim nyerte az értékelést, és az első példányok 2018-ban épültek meg.
     n2:
       org: Code for Japan
-      quote: Decidim provides customize-friendly architecture so that we can adapt it to our domestic situation.
+      quote: A Decidim testreszabás-barát architektúrát biztosít, így a hazai helyzetünkhöz igazíthatjuk.
     n3:
-      org: European Commission
-      quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
+      org: Európai Bizottság
+      quote: A digitális platform 2021. április 19-én indult, és 2022. május 9-ig állt nyitva a hozzájárulások számára. Ez idő alatt 18 859 ötletet és 22 167 észrevételt nyújtottak be, és 6 661 rendezvényt szerveztek. A digitális platformon keresztül összegyűjtött hozzájárulásokat az európai polgári panelek figyelembe vették, és a konferencia plenáris ülésén - a konferencia másik két fő pillérén - megvitatták és megvitatták.
   community:
-    community1: Propose and help define new features
-    community2: Report bugs and help the developers fix them
-    community3: Help shape the future of the platform
-    cta: Go to Metadecidim
-    figcaption: The Decidim Community during the Decidim Fest 2021
-    img_alt: Decidim Community Photo at Metadecidim Meeting 2016
-    intro: Metadecidim is a community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.
-    subtitle: A democratic community that manages the Decidim project in all its dimensions
-    title: Metadecidim, our community
+    community1: Javasoljon és segítsen meghatározni új funkciókat
+    community2: Jelentsen hibákat és segítsen a fejlesztőknek kijavítani őket
+    community3: A platform jövőjét formáljuk együtt
+    cta: Irány a Metadecidim
+    figcaption: A Decidim Közösség a Decidim Fest 2021 alatt
+    img_alt: Decidim közösségi fotó a 2016-os Metadecidim Találkozón
+    intro: A Metadecidim egy olyan közösség, amely együttműködik a platform tervezésében és a projekt kivitelezésében. Együtt tervezhetünk és fejleszthetünk új funkciókat, és jelenthetjük a hibákat a platform folyamatos fejlesztése érdekében.
+    subtitle: Egy demokratikus közösség, amely a Decidim projektet annak minden dimenziójában irányítja
+    title: Metadecidim, a közösségünk
   contact:
-    bot_field: 'Don’t fill this out if you''re human:'
+    bot_field: 'Ne töltsd ki, ha ember vagy:'
     email: Email
-    message: Message
+    message: Üzenet
     name: Név
     privacy_policy:
-      accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
-      message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Send message
-    subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Contact Decidim
+      accept: Elfogadom a <a href="%{privacy_policy_url}">Adatvédelmi irányelveket</a>
+      message: "<p>Amikor az emberek kapcsolatba lépnek velünk a kapcsolatfelvételi űrlapon, e-mailben vagy hasonló kommunikációs eszközökön keresztül, automatikusan összegyűjtjük a következő adatokat: név, szervezet, e-mail cím és a felhasználói üzenet tartalma, hogy részt vehessünk az Ön észrevételeiben, kéréseiben, javaslataiban stb.</p> <p>Kiegészítésképpen ezeket az adatokat statisztikai tanulmányok céljából feldolgozhatjuk álnevesítéssel vagy akár anonimizálási technikákkal, például adatösszesítéssel, megakadályozva, hogy a későbbi feldolgozás során a felhasználókat egyénileg azonosítani lehessen.</p>"
+    send: Üzenet küldése
+    subtitle: Ha kapcsolatba szeretne lépni velünk, töltse ki a kapcsolatfelvételi űrlapot, vagy küldjön nekünk egy e-mailt a következő címre
+    title: Kapcsolat a Decidimmel
   demo:
     button: Online demo
     p1: Play around and explore freely the Decidim platform with our online demo.
@@ -142,9 +142,9 @@ hu:
         question: I want to fund the project. How can I proceed?
       q22:
         answer: Yes, we have templates to formalize collaboration agreements. [Please contact us](/contact).
-        question: We want to make a formal collaboration agreement. Are there any templates we can use?
+        question: Hivatalos együttműködési megállapodást szeretnénk kötni. Vannak olyan sablonok, amelyeket használhatunk?
       q23:
-        answer: Yes, but you have to be patient. There are a lot of institutions that want to use Decidim right now and we are helping them step by step. [Contact us](/contact) for any question and we will answer you as soon as possible.
+        answer: Igen, de türelmesnek kell lenned. Jelenleg is sok intézmény szeretné használni a Decidimet, és mi lépésről lépésre segítünk nekik. [Contact us](/contact) bármilyen kérdéssel kapcsolatban, és mi a lehető leghamarabb válaszolunk.
         question: Do you support institutions?
       q24:
         answer: Decidim and the Decidim logo are registered by the Association, they cannot be used as a commercial product nor cannot be sold. If used, the credit has to be referenced to the project. You can read more about this in our [Trademark policy](/trademark-policy).
