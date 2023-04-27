@@ -1,14 +1,14 @@
 hu:
   '404':
-    intro: Maybe you were looking for...
-    subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
+    intro: Talán keresett...
+    subtitle: Úgy tűnik, hogy egy törött linket követett, vagy olyan URL-t adott meg, amely nem létezik ezen az oldalon.
     title: Az oldal nem található
   about:
     about:
       - Támogasson bennünket
       - Lépjen velünk kapcsolatba
       - A gyűlésünk
-      - Press
+      - Prés
     intro: A technológia, a módszertanok, a gyakorlatok, a szabványok, a cselekvések, a narratívák és az értékek szabad, nyílt, együttműködő és reflektív módon történő kialakításán keresztül szeretnénk hozzájárulni a társadalom demokratizálásához.
     subtitle: A Decidim Szabad Szoftver Egyesület egy demokratikus egyesület a Decidim közösség irányítására.
     support_at_opencollective: Támogasson bennünket az Open Collective oldalon
@@ -17,7 +17,7 @@ hu:
     support_title: Támogassa a Decidimet
     title: A Decidimről
     values:
-      v1: Compromise and responsibility
+      v1: Kompromisszum és felelősség
       v2: Esélyegyenlőségi és minőségi mutatók
       v3: Megosztásra és együttműködésre alkalmas nyílt tartalom
       v4: Szabad szoftver az autonómia érdekében
@@ -40,7 +40,7 @@ hu:
     title: Blog
   case_study:
     n1:
-      org: City of Helsinki
+      org: Helsinki városa
       quote: Hét különböző típusú részvételi költségvetési lehetőséget értékeltünk, hogy megtaláljuk a megfelelő platformot, amely könnyen használható felülettel és a különböző igényekhez szükséges modularitással támogatja a helsinki folyamatot. A Decidim nyerte az értékelést, és az első példányok 2018-ban épültek meg.
     n2:
       org: Code for Japan
@@ -71,473 +71,473 @@ hu:
     title: Kapcsolat a Decidimmel
   demo:
     button: Online demo
-    p1: Play around and explore freely the Decidim platform with our online demo.
-    strong: Try Online
+    p1: Játsszon és fedezze fel szabadon a Decidim platformot online demónkkal.
+    strong: Próbálja ki online
     title: Online Demo
   faqs:
-    cta: Read all FAQs
+    cta: Minden GYIK elolvasása
     questions:
       q01:
-        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
+        answer: 'A Decidim egy ingyenes, nyílt forráskódú részvételi demokrácia platform városok és szervezetek számára. De a Decidim több mint egy digitális platform: ez egy közös szabad és nyílt projekt és infrastruktúra, amely magában foglalja a kódot, a dokumentációt, a tervezést, a képzéseket, a jogi keretet, a kollaboratív felületeket, a felhasználói és facilitációs közösségeket és a közös jövőképet.'
         question: Mi a Decidim?
       q02:
-        answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
-        question: Who is currently using Decidim?
+        answer: Jelenleg városok és szervezetek használják világszerte. Valójában bármilyen csoport használhatja, legyen az civil szervezet, egyetem, szakszervezet, szövetkezet, szomszédsági egyesület stb. Nézze meg a [jelenleg aktív példányok teljes listáját](/usedby/).
+        question: Ki használja jelenleg a Decidimet?
       q03:
-        answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
-        question: What can a Decidim administrator do?
+        answer: Részvételi folyamatok egyszerű konfigurálása Szeretne stratégiai tervet készíteni? Vagy új szabályozást vitatna meg? Vagy egy új teret vagy középületet vitatni a közjó elérése érdekében? A Decidimnek köszönhetően konfigurálhat részvételi tereket (kezdeményezéseket, közgyűléseket, folyamatokat vagy konzultációkat), és gazdagíthatja azokat a rendelkezésre álló számos komponenssel (személyes találkozók, felmérések, javaslatok, szavazás, az eredmények nyomon követése, észrevételek és még sok más).
+        question: Mit tehet egy Decidim rendszergazda?
       q04:
-        answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
-        question: What can a participant (user) of Decidim do?
+        answer: A Decidim emberek ezrei számára teszi lehetővé, hogy demokratikusan szerveződjenek, javaslatokat tegyenek, részt vegyenek nyilvános üléseken, elősegítsék a döntéshozatali vitákat, a szavazás különböző formáin keresztül döntsenek, és nyomon kövessék a döntések végrehajtását.
+        question: Mit tehet a Decidim résztvevője (felhasználója)?
       q05:
-        answer: Yes, we have an [online demo](/demo).
-        question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
+        answer: Igen, van egy [online demónk](/demo).
+        question: Van egy bemutatója? Szeretném használni a Decidimet most, telepítés nélkül, hogy lássam, hogyan működik.
       q06:
-        answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
-        question: How often is the platform updated?
+        answer: Körülbelül havonta adunk ki egy új verziót. Lásd a [verziók nyilvántartása](https://github.com/decidim/decidim/releases).
+        question: Milyen gyakran frissül a platform?
       q07:
-        answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
-        question: What do I need to install Decidim?
+        answer: A Decidim telepítése egyszerű, de szükség van némi tudásra és műszaki követelményekre. Lásd a [dokumentáció a Decidim telepítéséhez](https://docs.decidim.org/en/install/).
+        question: Mire van szükségem a Decidim telepítéséhez?
       q08:
-        answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
-        question: Where can I find the project roadmap and the planned features?
+        answer: A projekt új funkcióinak ütemtervét a GitHubon találod (https://github.com/decidim/decidim/projects/16).
+        question: Hol találom a projekt ütemtervét és a tervezett funkciókat?
       q09:
-        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
-        question: What does it mean that Decidim is for free, "libre" and open source?
+        answer: A Decidim az emberek által és az emberekért létrehozott platform a polgárok részvételére. Forráskódja nyílt, és bárki által ellenőrizhető, módosítható és fejleszthető. A Decidim szoftverre az [AGPL licenc](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License) vonatkozik. Ez azt jelenti, hogy használhatja, módosíthatja és továbbterjesztheti a származtatott változatait, amennyiben tiszteletben tartja az AGPL licencet.
+        question: Mit jelent az, hogy a Decidim ingyenes, "libre" és nyílt forráskódú?
       q10:
-        answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report). If you want to actively participate in the Metadecidim community, you can attend Community Meetings. Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-        question: I have ideas for new improvement features. I want to have a better understanding of the project. What can I do?
+        answer: Többféle módon is együttműködhet. Az egyik ilyen lehetőség a [Metadecidim](http://meta.decidim.org) közösség. Ha új funkciókat szeretnél javasolni, [menj ide](https://meta.decidim.org/processes/roadmap). Ha hibákat észleltél, és szeretnéd értesíteni őket, [menj erre a folyamatra](https://meta.decidim.org/processes/bug-report). Ha aktívan részt szeretne venni a Metadecidim közösségben, részt vehet a közösségi találkozókon. Regisztráljon a közösség résztvevőjeként, és vegyen részt velünk. Ha a kód a te dolgod, [gyere a Githubra](https://github.com/decidim/decidim). Ha kutató vagy, érdemes eljönnöd a [LAB Metadecidim szemináriumokra](https://meta.decidim.org/assemblies/eix-lab).
+        question: Vannak ötleteim az új fejlesztésekkel kapcsolatban. Szeretném jobban megérteni a projektet. Mit tehetek?
       q11:
-        answer: The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en) and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the [contact form](/contact).
-        question: I have many doubts, of all kinds...where can I ask them or solve them?
+        answer: A kétségek gyors megoldásának legjobb módja a Metadecidim közösség. Lépjen be most a folyamatba [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en), és nézze meg, hogy a kérdése létezik-e, vagy ha már megválaszolták, és egyébként lépjen be, hogy kérdéseket tegyen fel. Ha nem tudja megoldani a problémáját ezen a téren, talán itt az ideje, hogy kapcsolatba lépjen velünk a [kapcsolatfelvételi űrlapon](/contact) keresztül.
+        question: Sok kételyem van, mindenféle... hol tudom ezeket feltenni vagy megoldani?
       q12:
-        answer: You can check the latest version of our admin manual in the [Documentation section](https://docs.decidim.org).
-        question: Is there any tutorial to start setting it up?
+        answer: Az adminisztrátori kézikönyvünk legfrissebb verzióját a [Dokumentáció szekcióban](https://docs.decidim.org) olvashatja.
+        question: Van valamilyen útmutató a beállítás megkezdéséhez?
       q13:
-        answer: That's how we call our Code of Democratic Guarantees and Democratic Collaboration. All members of the community must endorse the [Social Contract](http://decidim.org/contract).
-        question: What is the Social Contract?
+        answer: Így hívjuk a Demokratikus Garanciák és Demokratikus Együttműködés Kódexét. A közösség minden tagjának el kell fogadnia a [Társadalmi Szerződést] (http://decidim.org/contract).
+        question: Mi a társadalmi szerződés?
       q14:
-        answer: 'There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.'
-        question: What are the differences with Consul Project / Decide Madrid?
+        answer: 'Sok különbség van: funkciók, rugalmasság, architektúra, modularitás stb. Mi [közzétettünk egy bejegyzést](/blog/2019-01-14-consul-comparison/), hogy megpróbáljuk megválaszolni ezt a kérdést.'
+        question: Mi a különbség a Consul Project / Decide Madridhoz képest?
       q15:
-        answer: "[Metadecidim](http://meta.decidim.org) is the community of Decidim that collaborates in the design of the platform and the construction of the Decidim project. We meet regularly through the Community Meetings, for issues related to the technological aspects of the platform and the Labs witc are [Research](https://meta.decidim.org/assemblies/eix-lab) oriented meetings. Our annual conference is Decidim Fest. Go to [meta.decidim.org](http://meta.decidim.org) to follow the calls closely and if you want to join the community. We'd love to ;-)"
-        question: What is the Metadecidim community?
+        answer: "[Metadecidim] (http://meta.decidim.org) a Decidim közössége, amely együttműködik a platform tervezésében és a Decidim projekt felépítésében. Rendszeresen találkozunk a közösségi találkozókon, a platform technológiai aspektusait érintő kérdésekben, a Labs witc pedig a [Research](https://meta.decidim.org/assemblies/eix-lab) irányultságú találkozók. Éves konferenciánk a Decidim Fest. Látogass el a [meta.decidim.org](http://meta.decidim.org) oldalra, ha közelről szeretnéd követni a felhívásokat, és ha csatlakozni szeretnél a közösséghez. Örülnénk neki ;-)"
+        question: Mi a Metadecidim közösség?
       q16:
-        answer: Of course you can. People do so through participatory processes, debates, translations, etc. that you might find in Metadecidim. Decidim was born in Barcelona and that is why there is a strong territorial bond with this city, but above all, it's a project for the commons.
-        question: Can I join the Metadecidim community even if I don't live in Barcelona?
+        answer: Persze, hogy lehet. Az emberek ezt részvételi folyamatok, viták, fordítások stb. révén teszik, amelyeket a Metadecidimben találhat. A Decidim Barcelonában született, és ezért van erős területi kötődése ehhez a városhoz, de mindenekelőtt ez egy projekt a közkincsekért.
+        question: Csatlakozhatok a Metadecidim közösséghez akkor is, ha nem Barcelonában élek?
       q17:
-        answer: Anybody who has good faith and a correct attitude towards democratic collaboration.
-        question: What kind of members you accept into the Metadecidim community?
+        answer: Bárki, aki jóhiszeműen és helyesen viszonyul a demokratikus együttműködéshez.
+        question: Milyen tagokat fogadsz be a Metadecidim közösségbe?
       q18:
-        answer: The "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) is a democratic association for the governance of the Decidim community. It was founded on [February 16, 2019 in an extraordinary assembly of the community](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), with the approval of the organization statutes.
-        question: What is the Decidim Association?
+        answer: Az "Asociacion de Software Libre Decidim" (A Decidim Szabad Szoftver Egyesület) egy demokratikus egyesület a Decidim közösség irányítására. Megalakult [2019. február 16-án a közösség rendkívüli közgyűlésén](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), a szervezet alapszabályának jóváhagyásával.
+        question: Mi a Decidim Egyesület?
       q19:
-        answer: In the [general assembly of the Decidim Association](https://meta.decidim.org/assemblies/general-assembly-association) you can find more info abous us, follow the activity of the meetings and check relevant information (statutes, legal agreements, the internal regulations)
-        question: How can I get more information about the Decidim Association?
+        answer: A [Decidim Egyesület közgyűlése](https://meta.decidim.org/assemblies/general-assembly-association) oldalon további információkat találhat rólunk, követheti az ülések tevékenységét és ellenőrizheti a vonatkozó információkat (alapszabály, jogi megállapodások, belső szabályzatok)
+        question: Hogyan kaphatok további információkat a Decidim Egyesületről?
       q20:
-        answer: Now the people involved in the project can be partners. [Here we explain in detail how you have to do it](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
-        question: How can I become a member of the Decidim Association?
+        answer: Most a projektben részt vevő emberek partnerek lehetnek. [Itt részletesen elmagyarázzuk, hogyan kell ezt csinálni](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+        question: Hogyan válhatok a Decidim Egyesület tagjává?
       q21:
-        answer: Yes you can! Decidim is a non profit project and for the moment it depends completely on funding. Please find all details to fund the project at [OpenCollective](https://opencollective.com/decidim)
-        question: I want to fund the project. How can I proceed?
+        answer: De igen, megteheted! A Decidim egy nonprofit projekt, és jelenleg teljes mértékben a finanszírozástól függ. A projekt finanszírozásának minden részletét megtalálod az [OpenCollective](https://opencollective.com/decidim) oldalon
+        question: Szeretném finanszírozni a projektet. Hogyan tudok eljárni?
       q22:
-        answer: Yes, we have templates to formalize collaboration agreements. [Please contact us](/contact).
+        answer: Igen, vannak sablonjaink az együttműködési megállapodások formalizálására. [Kérjük, lépjen kapcsolatba velünk](/kapcsolat).
         question: Hivatalos együttműködési megállapodást szeretnénk kötni. Vannak olyan sablonok, amelyeket használhatunk?
       q23:
         answer: Igen, de türelmesnek kell lenned. Jelenleg is sok intézmény szeretné használni a Decidimet, és mi lépésről lépésre segítünk nekik. [Contact us](/contact) bármilyen kérdéssel kapcsolatban, és mi a lehető leghamarabb válaszolunk.
-        question: Do you support institutions?
+        question: Támogatja az intézményeket?
       q24:
-        answer: Decidim and the Decidim logo are registered by the Association, they cannot be used as a commercial product nor cannot be sold. If used, the credit has to be referenced to the project. You can read more about this in our [Trademark policy](/trademark-policy).
-        question: What is Decidim's trademark policy?
-    subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
-    title: FAQs
+        answer: A Decidim és a Decidim logó az Egyesület által bejegyzett, kereskedelmi termékként nem használható és nem értékesíthető. Amennyiben felhasználják, a projektre való hivatkozással kell hivatkozni. Erről bővebben a [Védjegypolitika](/trademark-policy) című dokumentumban olvashat.
+        question: Mi a Decidim védjegypolitikája?
+    subtitle: Ha az alábbiakban nem talál választ a kérdésére, forduljon hozzánk a hola@decidim.org e-mail címen
+    title: GYIK
     types:
       about: A Decidimről
-      association: Association
-      community: Community and social contract
-      features: Roadmap and features
-      install: Installation and license
-      installation: Installation and license
-      users: Users and roles
+      association: Egyesület
+      community: Közösségi és társadalmi szerződés
+      features: Útiterv és funkciók
+      install: Telepítés és licenc
+      installation: Telepítés és licenc
+      users: Felhasználók és szerepek
   features:
-    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
+    intro: "<p>A Decidim-et használhatja egy állami vagy magánszervezetben, több száz vagy több ezer potenciális résztvevővel, például egy városi tanácsban, egy egyesületben, egy egyetemen, egy civil szervezetben, egy szakszervezetben, egy szomszédsági egyesületben vagy egy szövetkezetben....</p><p>A Decidimnek köszönhetően Ön képes lesz részvételi <strong>tereket</strong> (kezdeményezések, közgyűlések, folyamatok vagy konzultációk) kialakítani és a rendelkezésre álló számos <strong>komponenssel</strong> (személyes találkozók, felmérések, javaslatok, szavazás, az eredmények nyomon követése, <strong>észrevételek</strong> és még sok más) gazdagítani.</p>"
     page:
       feature1:
-        subtitle: To democratize common issues, step by step
-        text: 'Processes is a space that allows to create, activate/deactivate, and manage various participatory processes. These are distinguished from other spaces by being structured in different phases within which all of the components can be incorporated. Examples of participatory processes are: an election process for members of a committee, participatory budgeting, a strategic planning process, the collaborative writing of a regulation or norm, the design of an urban space or the production of a public policy plan.'
+        subtitle: A közös ügyek demokratizálása, lépésről lépésre
+        text: 'A folyamatok egy olyan tér, amely lehetővé teszi különböző részvételi folyamatok létrehozását, aktiválását/deaktiválását és kezelését. Ezeket az különbözteti meg más terektől, hogy különböző fázisokra tagolódnak, amelyeken belül az összes komponens beépíthető. A részvételi folyamatok példái: egy bizottság tagjainak választási folyamata, részvételi költségvetés-tervezés, stratégiai tervezési folyamat, egy rendelet vagy norma közös megírása, egy városi tér kialakítása vagy egy közpolitikai terv elkészítése.'
         title: Részvételi folyamatok
       feature10:
-        subtitle: To analyze, synthesize, and build in common
-        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
+        subtitle: Elemezni, szintetizálni, és közösbe építeni
+        text: Használható hosszú szöveges dokumentumok több javaslattá vagy eredménnyé alakítására, és fordítva, egységes szöveg összeállítására és megjelenítésére javaslatok vagy eredmények gyűjteménye alapján.
         title: Részvételi szövegek
       feature11:
-        subtitle: Where big events are premiered
-        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
+        subtitle: Ahol a nagy események premierjét tartják
+        text: Készítsen weboldalt egy nagy eseményhez. Egységesítse a programot egy sor előre meghatározott találkozó (beszélgetések, workshopok stb.) összekapcsolásával, és kezelje a résztvevőket.
         title: konferencia
       feature12:
-        subtitle: Because the opinion of your community matters
-        text: Design and publish surveys. Display and download results.
+        subtitle: Mert a közösség véleménye számít
+        text: Felmérések tervezése és közzététele. Az eredmények megjelenítése és letöltése.
         title: Felmérések
       feature13:
-        subtitle: Equality and the justice of randomness
-        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
+        subtitle: Az egyenlőség és a véletlen igazságossága
+        text: Lehetővé teszi számos javaslat (pl. zsűrijelöltek) véletlenszerű, de reprodukálható eljárással történő kiválasztását, amely garantálja az elfogulatlan és egyenletes eloszlást.
         title: Sorsolás
       feature14:
-        subtitle: Building a collective intelligence
-        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
+        subtitle: A kollektív intelligencia kiépítése
+        text: Lehetővé teszi a felhasználók számára, hogy megjegyzéseket adjanak hozzá, értékeljék azokat támogató, ellenző vagy semleges módon, szavazzanak rájuk, válaszoljanak rájuk, és értesítést kapjanak a válaszokról.
         title: Hozzászólások
       feature15:
-        subtitle: Your community, informed and up to date
-        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
-        title: Pages and blogs
+        subtitle: Az Ön közössége, tájékozott és naprakész
+        text: Informatív oldalak létrehozása gazdag szövegformázással, beágyazott képekkel és videókkal. A blog komponens lehetővé teszi a bejegyzések vagy hírek létrehozását, és azok kronologikusan történő navigálását.
+        title: Oldalak és blogok
       feature16:
-        subtitle: Personalised information on interesting content
-        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
+        subtitle: Személyre szabott információk az érdekes tartalmakról
+        text: A Decidim lehetővé teszi, hogy bármilyen helyet vagy komponenst nyomon kövessen, így bármikor megkaphatja a frissítéseket, amikor azok megtörténnek.
         title: Értesítések
       feature17:
-        subtitle: Simple but powerful
-        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
+        subtitle: Egyszerű, de erős
+        text: Küldjön e-maileket mindenkinek, aki regisztrált a platformon, vagy azoknak, akik részt vesznek egy adott térben.
         title: Hírlevél
       feature2:
-        subtitle: The power of collective self-organization
-        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
+        subtitle: A kollektív önszerveződés ereje
+        text: Lehetővé teszi döntéshozó testületek vagy csoportok (tanácsok, munkacsoportok, bizottságok stb.) létrehozását, amelyek rendszeresen üléseznek, részletezve összetételüket, felsorolva és földrajzi elhelyezkedésüket. Lehetővé teszi a részvételt, például a személyes vagy online részvétel, a napirendhez való hozzászólás, illetve a testület által tett javaslatok és döntések véleményezése.
         title: Gyűlések
       feature3:
-        subtitle: The right to decide with all democratic guarantees
-        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
-        title: Votings
+        subtitle: A döntés joga minden demokratikus garanciával
+        text: Lehetővé teszi a népszavazások koordinálását, viták és viták elindítását, a szavazási eredmények közzétételét és a biztonságos elektronikus szavazási rendszerhez való csatlakozást.
+        title: Szavazások
       feature4:
-        subtitle: Setting everyone's agenda, within everyone's reach
-        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
+        subtitle: Mindenki napirendjének meghatározása, mindenki számára elérhető közelségben
+        text: A résztvevők közös kezdeményezéseket hozhatnak létre, meghatározhatják útjukat és céljaikat, támogatókat gyűjthetnek, megvitathatják, megvitathatják és terjeszthetik a kezdeményezéseket, találkozási pontokat határozhatnak meg, ahol a résztvevők aláírásait lehet gyűjteni, vagy a szervezet más tagjai számára nyitott vitákat rendezhetnek.
         title: Kezdeményezések
       feature5:
-        subtitle: Your ideas in detail
-        text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
+        subtitle: Az Ön elképzelései részletesen
+        text: Létrehozhat egy ajánlatot egy készítési varázsló segítségével, összehasonlíthatja a már meglévőkkel, közzéteheti a platformon, és további információkat, például földrajzi elhelyezkedést vagy csatolt dokumentumokat és képeket csatolhat hozzá. Ez a komponens lehetővé teszi az ajánlatok között való navigálást, szűrést és interakciót is. A javaslat-inkubátorral emellett kollaboratív javaslatokat is létrehozhat.
         title: Javaslatok
       feature6:
-        subtitle: Decide your choice
-        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
-        title: Voting
+        subtitle: Döntse el a választását
+        text: 'Lehetőséget kínál a szervezeteknek arra, hogy különböző szavazási vagy támogatási rendszereket aktiváljanak a javaslatok körül: korlátlan, egy adott küszöbértékre korlátozott, súlyozott, költségalapú, stb. Biztonságos és titkosított e-szavazási technológiával támogatva.'
+        title: Szavazás
       feature7:
-        subtitle: No proposal without an answer
-        text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
+        subtitle: Nincs javaslat válasz nélkül
+        text: A javaslatok eredményre váltása és hivatalos válaszok adása azok elfogadásáról vagy elutasításáról, a különböző javaslatok egyetlen eredménybe történő összevonása.
         title: Eredmények
       feature8:
-        subtitle: End-to-end transparency
-        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
+        subtitle: Végponttól végpontig tartó átláthatóság
+        text: Lehetőséget nyújt az eredmények projektekre történő felosztására, a végrehajtásukhoz kapcsolódó előrehaladási állapotok meghatározására és alkalmazására, valamint a kategóriák és hatóköri területek szerint csoportosított eredmények elérésének mértékének bemutatására.
         title: Elszámoltathatóság
       feature9:
-        subtitle: To meet and not miss anything
-        text: The meeting component offers organizations and participants the opportunity to convene meetings, determine their location and time, register and limit attendees, define the structure and content of the meeting as well as publishing the minutes, and the resulting proposals.
+        subtitle: Találkozni és nem lemaradni semmiről
+        text: A találkozó komponens lehetőséget biztosít a szervezeteknek és a résztvevőknek a találkozók összehívására, azok helyének és idejének meghatározására, a résztvevők regisztrálására és korlátozására, a találkozó szerkezetének és tartalmának meghatározására, valamint a jegyzőkönyvek és az abból származó javaslatok közzétételére.
         title: Találkozók
-    subtitle: For democratic organizations and collectives of any size and kind.
+    subtitle: Bármilyen méretű és jellegű demokratikus szervezetek és kollektívák számára.
     title: Funkciók
     type1:
-      title: Spaces for participation
+      title: Részvételi lehetőségek
     type2:
       title: Elemek
     type3:
-      cta: Explore the modules
-      subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
-      title: Modules
+      cta: Fedezze fel a modulokat
+      subtitle: Növekedjen túl az alapértelmezett komponenseken. A Decidim közössége több száz modult fejlesztett ki, hogy a platformot az alapokon túl is bővítse, és még jobban megfeleljen az Ön igényeinek.
+      title: Modulok
   first-steps:
     first-steps1:
-      content: You can install it yourself or find someone to help you with tech support.
-      link1: Documentation
-      pre: For technologists
-      title: Installing Decidim
+      content: Telepítheted magad, vagy kereshetsz valakit, aki segít a technikai támogatással.
+      link1: Dokumentáció
+      pre: Technológusok számára
+      title: Decidim telepítése
     first-steps2:
-      content: For big or small organisations, discover how Decidim can cater to your needs.
+      content: Nagy vagy kis szervezetek számára, fedezze fel, hogy a Decidim hogyan tudja kielégíteni az Ön igényeit.
       link1: Funkciók
-      pre: For organizations
-      title: The right tool for you
+      pre: Szervezetek számára
+      title: A megfelelő eszköz az Ön számára
     first-steps3:
-      content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
-      link1: Find a partner
-      pre: For governments
-      title: Decidim in your city
-    intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
+      content: Ha az Ön városa a részvételi politika bevezetésén gondolkodik, derítse ki, hogyan győzheti meg őket erről.
+      link1: Partner keresése
+      pre: A kormányok számára
+      title: Decidim az Ön városában
+    intro: Ez egy ingyenes/szabad és nyílt forráskódú webes szoftver, amelyet egy kiterjedt és aktív közösség tart fenn. A Decidimet használhatja egy állami vagy magánszervezetben, több száz vagy több ezer potenciális résztvevővel, például egy városi tanácsban, egy egyesületben, egy egyetemen, egy civil szervezetben, egy szakszervezetben, egy szomszédsági egyesületben vagy egy szövetkezetben....
     section2:
-      link: Explore all features
-      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
-      title: Is Decidim the right tool for you?
+      link: Fedezze fel az összes funkciót
+      subtitle: A Decidim rugalmas funkcióit úgy tervezték, hogy kis és nagy kollektívákat, állami és magánszervezeteket egyaránt kiszolgáljanak, több száz vagy több ezer potenciális felhasználóval.
+      title: A Decidim a megfelelő eszköz az Ön számára?
     section3:
-      cta: Read more case studies on our blog
-      link: Read the case study
-      title: Backed by technology, democracy and experience
+      cta: További esettanulmányok a blogunkon
+      link: Olvassa el az esettanulmányt
+      title: Technológia, demokrácia és tapasztalat
     section4:
-      button1: About the association
-      button2: Join the community
-      intro: The <strong>Decidim Free Software Association</strong>  is a democratic association for the governance of the Decidim community.
-      subtitle: "<strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform."
-      title: Who’s behind the platform?
-    subtitle: Decidim is a digital platform<br/>for citizen participation
-    title: First steps with Decidim
+      button1: Az egyesületről
+      button2: Csatlakozzon a közösséghez
+      intro: A <strong>Decidim Szabad Szoftver Egyesület</strong> egy demokratikus egyesület a Decidim közösség irányítására.
+      subtitle: "A <strong>Metadecidim</strong> az a közösség, amely együttműködik a platform kialakításában és a projekt fejlesztésében. Együtt tervezünk és hozunk létre új funkciókat, és jelentjük a hibákat a platform folyamatos fejlesztése érdekében."
+      title: Ki áll a platform mögött?
+    subtitle: A Decidim egy digitális platform:<br/>a polgárok részvételéért
+    title: Az első lépések a Decidimmel
   footer:
-    about_us: About us
-    follow_us: Follow us on social media
-    legal: Legal
-    supported_by: Supported by
-    trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
-    up_to_date: Stay up to date
+    about_us: Rólunk
+    follow_us: Kövessen minket a közösségi médiában
+    legal: Jog
+    supported_by: Támogatta
+    trademark: A Decidim név és logó az Associació de Software Lliure Decidim bejegyzett védjegye.
+    up_to_date: Maradjon naprakész
   index:
     cards:
       card1:
-        content: We can help configure a system of democratic governance in all kinds of organizations.
-        link: Our features
-        title: Implementing a flexible democratic system
+        content: Segíthetünk a demokratikus irányítás rendszerének kialakításában mindenféle szervezetben.
+        link: Jellemzőink
+        title: Rugalmas demokratikus rendszer bevezetése
       card2:
-        content: Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.
-        link: Social contract
-        title: We take democracy very seriously
+        content: A Decidim minden eddiginél nagyobb átláthatóságot, nyomon követhetőséget és az információk integritását biztosítja. Biztonságot, magánéletet és bizalmasságot biztosít minden résztvevő számára.
+        link: Társadalmi szerződés
+        title: Nagyon komolyan vesszük a demokráciát
       card3:
-        content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
-        link: The community
-        title: It's yours. Use it. Share it. Improve it.
+        content: Egy teljes egészében szabad szoftverrel tervezett platform, amely a Metadecidim közösségnek köszönhetően nyílt és közös tartalmakkal rendelkezik.
+        link: A közösség
+        title: A tiéd. Használd. Oszd meg. Fejleszd.
     hero:
-      cta: Get started
-      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
-      subheading: Decidim is a digital platform for citizen participation
+      cta: Kezdjük el
+      intro: Ingyenes/szabad, nyílt és biztonságos technológia.<br/>Minden demokratikus garanciával.<br/>A demokrácia átprogramozása mostantól lehetséges a Decidim segítségével.
+      subheading: A Decidim egy digitális platform az állampolgári részvételhez
     subhero:
-      cta: Explore all features
-      feature1: Strategic planning
+      cta: Fedezze fel az összes funkciót
+      feature1: Stratégiai tervezés
       feature2: Részvételi folyamatok
       feature3: Gyűlések
-      feature4: Initiatives and citizen consultations
-      feature5: Participatory budgeting
-      feature6: Networked communication
-      intro: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
+      feature4: Kezdeményezések és polgári konzultációk
+      feature5: Részvételi költségvetés-tervezés
+      feature6: Hálózati kommunikáció
+      intro: A Decidim segít a polgároknak, szervezeteknek és közintézményeknek a demokratikus önszerveződésben minden léptékben.
     used_by:
-      heading: Hundreds of organizations around the world trust Decidim for their democratic processes
-      link: Discover how
-      title: Already using Decidim
+      heading: Világszerte több száz szervezet bízik a Decidimben a demokratikus folyamatok tekintetében
+      link: Fedezze fel, hogyan
+      title: Már használja a Decidimet
   legal-notice:
     section-1:
-      paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
-      title: Who we are
+      paragraph: '<p>Ön az Associació de Software Lliure Decidim ("Decidim", "Mi" vagy "Mi") weboldalát nyitja meg, amely a <a href="https://decidim.org">https://decidim.org/</a> webdomain (a továbbiakban a "Weboldal"), székhelye: Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spanyolország és azonosítószáma: G67401174.<p><p><b>A következő címen veheti fel velünk a kapcsolatot: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
+      title: Kik vagyunk
     section-2:
-      paragraph: "<p>The purpose of this Website is to provide general information to the public about Decidim, its activities and technology, consisting in a free open-source participatory democracy platform for cities and organizations, and the management of the Decidim community generated around the world from our collaborative technology allowing the development of citizen and associative projects with greater social participation. You may freely test the Decidim platform with our online demo.</p> <p>The purpose of the terms of use of this Legal Notice is to govern the permitted use of this Website and the services and/or contents hosted in accordance with the Law 34/2002 on Information Society Services and Electronic Commerce and other applicable legal provisions.</p>"
-      title: Purpose
+      paragraph: "<p>E honlap célja, hogy általános tájékoztatást nyújtson a nyilvánosság számára a Decidimről, annak tevékenységéről és technológiájáról, amely egy ingyenes, nyílt forráskódú részvételi demokrácia platformot jelent a városok és szervezetek számára, valamint a Decidim közösség kezelését, amely a világszerte létrehozott, együttműködésen alapuló technológiánkból ered, amely lehetővé teszi a nagyobb társadalmi részvétellel megvalósuló polgári és társulási projektek fejlesztését. A Decidim platformot szabadon kipróbálhatja online demónk segítségével.</p> <p>A jelen jogi közlemény felhasználási feltételeinek célja, hogy az információs társadalommal összefüggő szolgáltatásokról és az elektronikus kereskedelemről szóló 34/2002. számú törvény és más vonatkozó jogi rendelkezések értelmében szabályozza a jelen weboldal és a szolgáltatások és/vagy a befogadott tartalmak megengedett használatát.</p>"
+      title: Célja
     section-3:
-      paragraph: '<p>The access to this Website is free. No application form is required for browsing the information and/or contents of this Website in general terms. Otherwise, please refer to our <a href="%{privacy_policy_url}">Privacy Policy</a>.<p> <p>By accessing and using the Website, You are accepting the terms of use of this Legal Notice and You undertake to make proper, diligent and lawful use of the Website and, in particular: (i) use the Website for its intended purposes, i.e. information about our services, you will refrain from using the Website or its contents for illegal purposes, or for purposes that go against public order, morality and good customs; (ii) respect the intellectual and industrial property rights of the Website and its contents, as well as all rights that correspond to Decidim; (iii) not to reproduce, copy, convert, modify, distribute, publicly display or make available to the public the Website or any of its content or any modification thereof; (iv) You shall be liable for any loss or damage suffered by Decidim due to a direct or indirect misuse by You of the Website, the provisions of the "Legal Texts" (collectively referred to, this Legal Notice and the <a href="%{privacy_policy_url}">Privacy Policy</a>) and the applicable legislation.<p>'
-      title: Website use
+      paragraph: '<p>A weboldalhoz való hozzáférés ingyenes. A Weboldal információinak és/vagy tartalmának általános jellegű böngészéséhez nincs szükség jelentkezési lapra. Egyébként kérjük, olvassa el <a href="%{privacy_policy_url}">Adatvédelmi szabályzatunkat</a>.<p> <p>A Weboldal elérésével és használatával Ön elfogadja a jelen Jogi közleményben foglalt felhasználási feltételeket, és vállalja, hogy a Weboldalt megfelelően, gondosan és jogszerűen használja, és különösen: (i) a Weboldalt rendeltetésszerűen használja, azaz. szolgáltatásainkról való tájékoztatásra, tartózkodik attól, hogy a Weboldalt vagy annak tartalmát jogellenes vagy a közrenddel, erkölccsel és jó szokásokkal ellentétes célokra használja; (ii) tiszteletben tartja a Weboldal és annak tartalma szellemi és ipari tulajdonjogait, valamint a Decidimnek járó valamennyi jogot; (iii) nem reprodukálja, másolja, átalakítja, módosítja, terjeszti, nyilvánosan megjeleníti vagy a nyilvánosság számára hozzáférhetővé teszi a Weboldalt vagy annak bármely tartalmát, illetve annak bármely módosítását; (iv) Ön felel a Decidimnek a Weboldallal, a "Jogi szövegek" (a továbbiakban együttesen: jelen Jogi közlemény és az <a href="%{privacy_policy_url}">Adatvédelmi szabályzat</a>) rendelkezéseivel és az alkalmazandó jogszabályokkal való közvetlen vagy közvetett visszaéléséből eredő minden veszteségért vagy kárért.<p>'
+      title: Weboldal használata
     section-4:
-      paragraph: "<p>All intellectual property rights over the contents of this Website including, but not limited to, images, trademarks, logos, distinctive signs, sounds and animations, texts, sound, visual or audiovisual recordings and databases are the property of Decidim or its licensors and are protected by national and international laws. Such rights are reserved in favor of Decidim and/or its licensors. The reproduction, copying, public communication, distribution, modification, transformation, elimination, manipulation and any other use, including the extraction and reuse, whether for profit or not, direct or indirect, temporary or permanent, of all or part of this Website or any of its contents, is expressly prohibited without the prior express written authorization of Decidim. We may take any legal and/or extrajudicial action it deems appropriate in the event of a possible violation of these rights.</p>"
-      title: Industrial and Intellectual Property
+      paragraph: "<p>A jelen weboldal tartalmának valamennyi szellemi tulajdonjoga, beleértve, de nem kizárólagosan, a képeket, védjegyeket, logókat, megkülönböztető jeleket, hangokat és animációkat, szövegeket, hang-, vizuális vagy audiovizuális felvételeket és adatbázisokat, a Decidim vagy licencadói tulajdonát képezik, és a nemzeti és nemzetközi törvények által védettek. Ezek a jogok a Decidim és/vagy licencadói javára fenntartva vannak. A Decidim előzetes kifejezett írásbeli engedélye nélkül kifejezetten tilos a jelen weboldal vagy annak bármely részének vagy tartalmának reprodukálása, másolása, nyilvános közzététele, terjesztése, módosítása, átalakítása, megszüntetése, manipulálása és bármilyen más felhasználása, beleértve a kivonatolást és újrafelhasználást, akár nyereségszerzés céljából, akár nem, akár közvetlen vagy közvetett, ideiglenes vagy állandó jelleggel. Ezen jogok esetleges megsértése esetén bármilyen, általa megfelelőnek ítélt jogi és/vagy peren kívüli intézkedést megtehetünk.</p>"
+      title: Ipari és szellemi tulajdon
     section-5:
-      paragraph: "<p>Decidim is not responsible for third party web pages that can be accessed from the Website, nor for the accuracy, veracity and validity of the information on the Website that is not of its own elaboration. However, pursuant to article 17 of Law 34/2002, in the event that Decidim becomes aware of the unlawfulness of such content or links, it undertakes to remove or disable them, as well as, where appropriate, to block any content that may be unlawful or violate the rights of any third party, in accordance with articles 11 and 16 of the aforementioned Law.</p> <p>Furthermore, Decidim is not responsible for any damage that may occur due to failures or misconfigurations in the browser installed by the user on his computer. Decidim is not responsible for any incident or technical failure caused by the user's connection to the Internet.</p> <p>Decidim will use its best efforts to effect, in the shortest period of time, updates and corrections of errors and deficiencies, including those occurring in the access and/or connection to the Website and/or its contents, but does not warrant the absence of interruptions, errors in the connection and/or access to the Website and update of its contents.</p> <p>You are liable for your use of and access to the Website. Decidim shall not be liable for the presence of viruses nor for security errors neither for the damages that may be caused to your devices or to the files or documents stored in such devices for the access and/or connection to the Website, neither for the damages caused to third parties by means of illegal intromissions out of Decidim control.</p> <p>Decidim shall not be liable for the breach of your obligations You accept when accessing this Website which are contained in this Legal Notice and, in particular, shall not be liable for any infringement of the intellectual property rights, copyright, advertising and image rights, or any other rights with regard to the goods and rights of any third party.</p>"
-      title: Responsibility
+      paragraph: "<p>A Decidim nem vállal felelősséget a Weboldalról elérhető harmadik felek weboldalaiért, sem a Weboldalon található, nem saját fejlesztésű információk pontosságáért, hitelességéért és érvényességéért. A 34/2002 törvény 17. cikke értelmében azonban, amennyiben a Decidim tudomást szerez az ilyen tartalmak vagy linkek jogellenességéről, vállalja, hogy eltávolítja vagy letiltja azokat, valamint adott esetben blokkolja a jogellenes vagy harmadik fél jogait sértő tartalmakat, a fent említett törvény 11. és 16. cikkével összhangban.</p> <p>A Decidim nem felelős továbbá a felhasználó által a számítógépére telepített böngésző hibái vagy hibás beállításai miatt esetlegesen bekövetkező károkért. A Decidim nem felelős semmilyen incidensért vagy technikai hibáért, amelyet a felhasználó internetkapcsolata okoz.</p> <p>A Decidim minden tőle telhetőt megtesz annak érdekében, hogy a lehető legrövidebb időn belül elvégezze a hibák és hiányosságok frissítését és javítását, beleértve azokat is, amelyek a weboldalhoz való hozzáférésben és/vagy a weboldalhoz való csatlakozásban és/vagy annak tartalmában fordulnak elő, de nem garantálja a weboldalhoz való csatlakozásban és/vagy a weboldalhoz való hozzáférésben és annak tartalmának frissítésében előforduló megszakítások, hibák hiányát.</p> <p>A Honlap használatáért és a Honlaphoz való hozzáférésért Ön felel. A Decidim nem vállal felelősséget sem a vírusok jelenlétéért, sem a biztonsági hibákért, sem az Ön eszközeiben vagy az ilyen eszközökön tárolt fájlokban vagy dokumentumokban a Honlaphoz való hozzáférés és/vagy a Honlaphoz való csatlakozás során okozott károkért, sem a Decidim ellenőrzésén kívül eső illegális behatolások által harmadik személyeknek okozott károkért.</p> <p>A Decidim nem vállal felelősséget az Ön által a jelen Jogi közleményben foglalt, a Honlaphoz való hozzáférés során vállalt kötelezettségek megszegéséért, és különösen nem vállal felelősséget a szellemi tulajdonjogok, a szerzői jogok, a reklám- és arculati jogok, illetve bármely más, harmadik fél árujával és jogaival kapcsolatos jogok megsértéséért.</p>"
+      title: Felelősség
     section-6:
-      paragraph: <p>Decidim may modify this Legal Notice, the <a href="%{privacy_policy_url}">Privacy Policy</a> and/or any other text of contractual nature applicable to this Website without previous notice. Such modifications shall be effective at the moment of its publication on the Website.</p> <p>Decidim may also terminate or suspend the services of the Website at any time. Whenever is possible, Decidim will warn/alert previously about such termination or suspension through this Website.</p>
-      title: Modifications
+      paragraph: <p>A Decidim előzetes értesítés nélkül módosíthatja a jelen Jogi közleményt, az <a href="%{privacy_policy_url}">Adatvédelmi szabályzatot</a> és/vagy bármely más, a Weboldalra vonatkozó szerződéses jellegű szöveget. Az ilyen módosítások a Weboldalon való közzétételük pillanatában lépnek hatályba.</p> <p>A Decidim bármikor megszüntetheti vagy felfüggesztheti a Weboldal szolgáltatásait. Amikor csak lehetséges, a Decidim a Weboldalon keresztül előzetesen figyelmeztetni fogja az ilyen megszüntetésről vagy felfüggesztésről.</p>
+      title: Módosítások
     section-7:
-      paragraph: <p>Your personal data collected on our Website or when you contact us through the contact form or by sending an email will be treated strictly in accordance with our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
-      title: Personal Data
+      paragraph: <p>A Weboldalunkon gyűjtött személyes adatait, illetve amikor a kapcsolatfelvételi űrlapon keresztül vagy e-mail küldésével kapcsolatba lép velünk, szigorúan az <a href="%{privacy_policy_url}">Adatvédelmi szabályzatunknak</a> megfelelően kezeljük.</p>
+      title: Személyes adatok
     section-8:
-      paragraph: <p>This Website does not use cookies. More information in our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
-      title: Cookies
+      paragraph: <p>Ez a weboldal nem használ sütiket. További információ az <a href="%{privacy_policy_url}">Adatvédelmi szabályzatunkban</a>.</p>
+      title: Sütik (cookies)
     section-9:
-      paragraph: '<p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>'
-      title: Governing law and jurisdiction
-    title: Legal notice
+      paragraph: '<p>Jogi szövegeinkre, beleértve a jelen Jogi közleményt és <a href="%{privacy_policy_url}">Adatvédelmi szabályzatunkat</a>, a spanyol jog az irányadó. A weboldalunk használatából eredő bármely jogvita eldöntésére Barcelona városának bíróságai illetékesek.</p> <p><b>Utolsó frissítés</b>: Február 2022.</p>'
+      title: Irányadó jog és joghatóság
+    title: Jogi nyilatkozat
   modules:
-    auth: Authorization
-    community: Community
-    cta: Learn how
-    develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
-    more_info: More information
-    official: Official modules
-    placeholder: Search...
-    subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-    title: Modules
+    auth: Hitelesítés
+    community: Közösség
+    cta: Tanulja meg, hogyan
+    develop: Fejlessze saját moduljait, hogy a platformot az alapokon túlmenően kibővítse, és az Ön igényeinek megfelelően alakítsa ki.
+    more_info: További információk
+    official: Hivatalos modulok
+    placeholder: Keresés...
+    subtitle: A modulok használatával bővítheti a Decidim funkcionalitását, és megoszthatja azt másokkal.
+    title: Modulok
   nav:
-    about: About
-    academy: Academy
-    association: Association
+    about: Rólunk
+    academy: Akadémia
+    association: Egyesület
     blog: Blog
-    close_menu: Close menu
+    close_menu: Bezár
     code: Kód
-    community: Community
+    community: Közösség
     contact: Kapcsolat
-    contract: Social Contract
-    demo: Demo
+    contract: Társadalmi szerződés
+    demo: Demó
     docs:
       path: https://docs.decidim.org/
-      title: Documentation
-    donate: Donate
-    faqs: FAQs
+      title: Dokumentáció
+    donate: Adományozás
+    faqs: GYIK
     features: Funkciók
-    first-steps: First steps
-    home: Home
-    legal-notice: Legal notice
-    menu: Menu
-    modules: Modules
-    partners: Partners
-    partnership-policy: Partnership policy
-    press: Press
-    privacy-policy: Privacy policy
+    first-steps: Első lépések
+    home: Főoldal
+    legal-notice: Jogi nyilatkozat
+    menu: Menü
+    modules: Modulok
+    partners: Partnerek
+    partnership-policy: Partnerségi politika
+    press: Prés
+    privacy-policy: Adatvédelmi szabályzat
     text: Navigáció
-    trademark: Trademark policy
-    use-cases: Use cases
-    used_by: Decidim in use
+    trademark: Védjegypolitika
+    use-cases: Felhasználási esetek
+    used_by: Decidim használatban
   newsletter:
-    past: Past newsletters
-    subtitle: News and updates about the Decidim platform and the community.
+    past: Korábbi hírlevelek
+    subtitle: Hírek és frissítések a Decidim platformról és a közösségről.
     title: Hírlevél
   partners:
-    intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
-    link: See Decidim's partnership policy
-    subtitle: These entities and organizations collaborate with Decidim.
-    title: Partners
+    intro: A partnerek logói a megfelelő szerzői jogtulajdonosok szellemi tulajdonát képezik. Nem tartoznak a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA licenc</a> alá, amellyel az oldal többi tartalma rendelkezik.
+    link: Lásd a Decidim partnerségi politikáját
+    subtitle: Ezek a szervezetek és szervezetek együttműködnek a Decidimmel.
+    title: Partnerek
     type:
-      provider: Service providers
-      public: Public institutions
-      technology: Technology partners
+      provider: Szolgáltatók
+      public: Közintézmények
+      technology: Technológiai partnerek
   partnership-policy:
     explanation:
-      p1: Sustaining Decidim takes time and resources. Several tasks need to be handled, such as reviewing contributions, triaging issues, fixing bugs, writing documentation, and answering general doubts shared by the community. Any organization (enterprise, association, or collective) willing to become a Decidim Partner is committed to contribute to the Decidim Association with a reduced fee of the 3% of the yearly income generated by Decidim activities. In the case of nonprofit organizations, this fee is 1.5%.
-      p2: Every Decidim Partner will be made publicly visible in the <a href="%{main_website_url}">Decidim main website</a> and the <a href="%{readme_url}">GitHub project README page</a>. In addition, the Decidim Association will recommend Decidim Partners in our talks and email conversations about providing services with Decidim.
-      p3: To support recently incorporated organizations, Decidim Partners will be exempted from contributing economically during their first year to first develop their business plan with Decidim. In the meantime, we recommend that Decidim Partners find other ways to contribute to the project (such as with bug reporting, documentation, participation and support in community activities, etc.).
+      p1: A Decidim fenntartása időt és erőforrásokat igényel. Számos feladatot kell elvégezni, mint például a hozzájárulások felülvizsgálata, a problémák kezelése, a hibák kijavítása, a dokumentáció megírása és a közösség által megosztott általános kétségek megválaszolása. Minden szervezet (vállalkozás, egyesület vagy kollektíva), amely hajlandó Decidim-partnerré válni, vállalja, hogy a Decidim-tevékenységekből származó éves bevétel 3% of-jének megfelelő kedvezményes díjjal járul hozzá a Decidim Egyesülethez. Nonprofit szervezetek esetében ez a díj 1,5%.
+      p2: Minden Decidim Partner nyilvánosan láthatóvá válik a <a href="%{main_website_url}">Decidim fő weboldalán</a> és a <a href="%{readme_url}">GitHub projekt README oldalán</a>. Ezenkívül a Decidim Egyesület a Decidim Partnereket ajánlja majd a Decidim szolgáltatásokkal kapcsolatos előadásainkon és e-mailes beszélgetéseinkben.
+      p3: A nemrégiben bejegyzett szervezetek támogatása érdekében a Decidim-partnerek mentesülnek a gazdasági hozzájárulás alól az első évben, hogy először a Decidimmel közösen dolgozzák ki üzleti tervüket. Addig is javasoljuk, hogy a Decidim Partnerek találjanak más módot a projekthez való hozzájáruláshoz (például hibabejelentéssel, dokumentációval, közösségi tevékenységekben való részvétellel és támogatással stb.).
     how_to:
       steps:
-        step1: Send an email to associacio [at] decidim [dot] org with your contact information and indicate in the subject I want to become a Decidim Partner.
-        step2: We will contact you for a videoconference to then assess the candidacy.
-        step3: If the candidacy is approved, the Coordination Committee will yearly send you a sworn declaration to be filled and sent back with the receipt of the corresponding bank transfer.
-      title: How to become a Decidim Partner?
+        step1: Küldj egy e-mailt az associacio [at] decidim [dot] org címre az elérhetőségeiddel, és a tárgyban írd be, hogy Decidim partner akarok lenni.
+        step2: Felvesszük Önnel a kapcsolatot egy videokonferencia céljából, hogy ezt követően értékeljük a jelöltséget.
+        step3: Ha a jelölést jóváhagyják, a Koordinációs Bizottság évente küld Önnek egy eskü alatt tett nyilatkozatot, amelyet ki kell töltenie és a megfelelő banki átutalás átvételével együtt visszaküldenie.
+      title: Hogyan válhatok Decidim Partnerré?
     requirements:
-      l1: Management of instances. Manage one or more active facilities of Decidim at the time of the application, for the own use of the entity or third parties.
-      l2: Contributions to the project. Contribute or have contributed significantly to the Decidim project.
-      p1: 'You have to agree to fulfill and sign the <a href="%{social_contract_url}">Social Contract</a> and also fulfill any of the following conditions can be members:'
-      p2: You can read in detail in the <a href="%{metadecidim_partners_url}">Metadecidim assembly</a>.
-      title: Which requirements does my organization need to meet to become a partner?
-    subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
-    title: Partnership policy
+      l1: Az esetek kezelése. A Decidim egy vagy több aktív létesítményének kezelése a kérelem benyújtásakor, a szervezet vagy harmadik felek saját használatára.
+      l2: Hozzájárulás a projekthez. Jelentős mértékben hozzájárult vagy hozzájárult a Decidim projekthez.
+      p1: 'A tagság feltétele, hogy elfogadja és aláírja a <a href="%{social_contract_url}">Társadalmi Szerződést</a>, valamint teljesítse az alábbi feltételek bármelyikét:'
+      p2: Részletesen a <a href="%{metadecidim_partners_url}">Metadecidim összeállításban</a> olvashat.
+      title: Milyen követelményeknek kell megfelelnie a szervezetemnek ahhoz, hogy partner lehessen?
+    subtitle: Ha az Ön szervezete támogatni szeretné a Decidimet, akkor váljon Decidim Partnerré.
+    title: Partnerségi politika
   path: ''
   press:
-    highlights: Media highlights
-    kit: Press kit
+    highlights: Média kiemelések
+    kit: Sajtóanyag
     links:
       link1:
-        link: Download
-        title: Logo files
+        link: Letöltés
+        title: Logó fájlok
       link2:
-        link: Watch
-        title: Promotional spot
+        link: Figyelés
+        title: Promóciós spot
       link3:
-        link: Download
-        title: Brochure
+        link: Letöltés
+        title: Katalógusok
       link4:
-        link: To the site
+        link: A hozzájárulásához visszajelzés a %(site_name)s oldalon
         title: Decidim Fest
       link5:
-        link: Youtube channel
-        title: Videos
+        link: Youtube csatorna
+        title: Videók
       link6:
-        link: Zotero repository
-        title: Academic papers
-    sign_up: Sign up for our newsletter on Metadecidim
-    social_media: Find us on social media
-    subtitle: For media enquiries, please send us an email at
-    title: Press
+        link: Zotero adattár
+        title: Tudományos dolgozatok
+    sign_up: Iratkozzon fel hírlevelünkre a Metadecidimről
+    social_media: Keressen minket a közösségi médiában
+    subtitle: Sajtómegkeresések esetén kérjük, küldjön nekünk e-mailt a következő címre
+    title: Prés
   privacy-policy:
     section-1:
-      paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
-      title: Introduction
+      paragraph: <p>Az Associació de Software Lliure Decidim (<a href="%{decidim_url}">"Decidim</a>" vagy "mi") a tulajdonosa ennek a weboldalnak, amely a <a href="https://decidim.org/">https://decidim.org/</a> webdomainen keresztül érhető el (a továbbiakban a "Weboldal"), és adatkezelőként jár el a Weboldal valamennyi felhasználójának ("Ön", a "Felhasználó") személyes adatainak kezelése tekintetében.</p> <p><a href="%{decidim_url}">A Decidim</a> elkötelezett a Weboldal valamennyi Felhasználójának, társult tagjának és a <a href="%{decidim_url}">Decidim</a> közösség tagjainak magánéletének védelme mellett. A jelen Adatvédelmi szabályzat ismerteti a Weboldalon keresztül gyűjtött személyes adatok felhasználásával kapcsolatos gyakorlatunkat, beleértve az ingyenes nyílt forráskódú részvételi demokrácia platformunk demóját, valamint a <a href="%{decidim_url}">Decidimhez</a> kapcsolódó személyek adatainak feldolgozását és a <a href="%{decidim_url}">Decidim</a> közösség kezelését, akár ezen a Weboldalon, akár a <a href="%{decidim_url}">Decidim</a> által kezelt más platformokon.</p> <p>Ez az Adatvédelmi szabályzat a Jogi <a href="%{legal_notice_url}">közleményünkkel</a> együtt a Jogi szövegek részét képezi.</p>
+      title: Bemutatkozás
     section-2:
-      paragraph: '<h3>a. Data collected from surfing the Website</h3> <p>When using our website, <a href="%{decidim_url}">Decidim</a> uses the services of Plausible analysis software.  Its is software that, when tracking user data, this data is kept fully and securely encrypted. The purpose of Plausible Analytics is to track general traffic trends on your website and not individual visitors. Each HTTP request sends the IP address and user agent to the server, so that''s what they use, generating an identifier that changes daily using the visitor''s IP address and user agent. To anonymise this data, it is passed through a hash function with a rotating salt. This generates a random string of letters and numbers that is used to calculate the number of unique visitors for the day. The IP address of the raw data and the user agent are never stored in the logs, databases or anywhere on Plausible analytics disk. Older salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next.   In this way, no personal user data is collected while browsing our website, for more information about the data processing by Plausible Analytics, you can visit their website at <a href="https://plausible.io/privacy-focused-web-analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Data collected from our Demo</h3> <p>The access to the <a href="%{decidim_url}">Decidim</a> platform demo, available through the Website in the URL <a href="https://try.decidim.org/">https://try.decidim.org/</a> is anonymous, since it is done through generic credentials for testing and knowledge of the operation, features and capabilities of the <a href="%{decidim_url}">Decidim</a> platform by the users. <p>Only a session cookie ("Session_id") is activated, whose purpose is to obtain or establish the session id for the current session. This cookie is strictly necessary for the technical functionality of detecting the session in the Website in order to ensure the connection through http protocols and to keep the User''s session and Web Site services available, and are exempted from User consent in accordance with Opinion 4/2012 on the exemption from the cookie consent requirement issued by the European Data Protection Authority.</p> <h3>c. Data collected from contact forms, emails or other communication means</h3> <p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p> <h3>d. Data collected from <a href="%{decidim_url}">Decidim</a> community</h3> <p><a href="%{decidim_url}">Decidim</a> uses other platforms linked to this Website  for the management of the <a href="%{decidim_url}">Decidim</a> community generated around our technology, as a meeting point for the <a href="%{decidim_url}">Decidim</a> community and where most of the activities and communications between users and <a href="%{decidim_url}">Decidim</a> take place. These platforms, such as <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> or GitHub (<a href="https://github.com/decidim/decidim">https://github.com/decidim/decidim</a>) are governed by their own terms of use and privacy policies.</p> <p>Notwithstanding, <a href="%{decidim_url}">Decidim</a> may process User''s personal data collected from these platforms for the management of the community projects developed in those platforms respectively, in particular these personal data may consist in connection data to these platforms, User profile on the platform, and the content of the comments and remarks that the User may contribute to the <a href="%{decidim_url}">Decidim</a> projects from time to time. Please note that this information may be public and, consequently, accessible and visible to other Users.</p> <h3>e. Data collected from our associate members</h3> <p>Any person or organization that wants to participate freely in the <a href="%{decidim_url}">Decidim</a> community, attending debates, collaborating in the organization of events, promoting a working group or community days, as well as contributing to the code or documentation of our free open-source participatory democracy platform, management of instances, etc., can choose to become a member of <a href="%{decidim_url}">Decidim</a>, as long as they have demonstrated sufficient commitment to the community through the realization of any of the above activities. To do so, you must complete a form to submit your application, which will be evaluated by the <a href="%{decidim_url}">Decidim</a> Coordination Committee.</p> <p>The processing of <a href="%{decidim_url}">Decidim</a> members'' personal data is carried out for the purpose of managing the aforementioned projects and activities in which the associate member participates, accounting management of membership fees and, in general, the governance of projects and activities of <a href="%{decidim_url}">Decidim</a>, in order to ensure compliance with the <a href="%{decidim_url}">Decidim</a>''s principles and values as well as the associates'' duties and rights.</p>'
-      title: Personal data we collect about you and how we use it
+      paragraph: '<h3>a.</h3> A <h3>weboldalon való böngészés során gyűjtött adatok</h3> A <p>weboldalunk használata során</p> a <p> <a href="%{decidim_url}">Decidim</a></p> a <p>Plausible elemző szoftver szolgáltatásait veszi igénybe.  Ez egy olyan szoftver, amely a felhasználói adatok nyomon követése során ezeket az adatokat teljes mértékben és biztonságosan titkosítva tárolja. A Plausible Analytics célja a weboldal általános forgalmi trendjeinek nyomon követése, nem pedig az egyes látogatóké. Minden egyes HTTP-kérés elküldi az IP-címet és a felhasználói ügynököt a szervernek, így ezt használják, és a látogató IP-címének és felhasználói ügynökének felhasználásával naponta változó azonosítót generálnak. Az adatok anonimizálása érdekében egy forgó sóval ellátott hash-függvényen mennek keresztül. Ez egy véletlenszerű betű- és számsorozatot generál, amelyből kiszámítják a napi egyedi látogatók számát. A nyers adatok IP-címe és a felhasználói ügynök soha nem kerül tárolásra a naplókban, adatbázisokban vagy bárhol a Plausible analytics lemezén. A régebbi sók 24 óránként törlésre kerülnek, hogy elkerülhető legyen a látogatói információk egyik napról a másikra történő összekapcsolása.</p>  Ily módon a <p>weboldalunk böngészése során nem gyűjtünk személyes felhasználói adatokat, a Plausible Analytics által végzett adatfeldolgozásról bővebb információt</p> a <p> <a href="https://plausible.io/privacy-focused-web-analytics">https://plausible.io/privacy-focused-web-analytics</a> weboldalukon</p> talál a <p> <a href="https://plausible.io/privacy-focused-web-analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. A demónkból gyűjtött adatok</h3> <p>A weboldalon keresztül a <a href="https://try.decidim.org/">https://try.decidim.org/</a> URL címen elérhető <a href="%{decidim_url}">Decidim</a> platform demójához való hozzáférés anonim, mivel az általános hitelesítő adatokon keresztül történik a <a href="%{decidim_url}">Decidim</a> platform működésének, funkcióinak és képességeinek tesztelése és megismerése céljából a felhasználók által. <p>Csak egy munkamenet süti ("Session_id") aktiválódik, amelynek célja az aktuális munkamenet munkamenet azonosítójának megszerzése vagy megállapítása. Ez a cookie szigorúan szükséges a munkamenet felismerésének technikai funkciójához a Weboldalon, hogy a http protokollokon keresztül biztosított legyen a kapcsolat, valamint hogy a Felhasználó munkamenete és a Weboldal szolgáltatásai elérhetőek maradjanak, és az Európai Adatvédelmi Hatóság által kiadott, a cookie-kra vonatkozó hozzájárulási kötelezettség alóli mentességről szóló 4/2012. sz. vélemény alapján mentesülnek a Felhasználó hozzájárulása alól.</p> <h3>c. Kapcsolatfelvételi űrlapokból, e-mailekből vagy más kommunikációs eszközökből gyűjtött adatok</h3> <p>Amikor az emberek kapcsolatfelvételi űrlapon, e-mailben vagy hasonló kommunikációs eszközökön keresztül kapcsolatba lépnek velünk, automatikusan gyűjtjük a következő adatokat: név, szervezet, e-mail cím és a Felhasználó üzenetének tartalma, hogy részt vehessünk az Ön észrevételeiben, kéréseiben, javaslataiban stb.</p> <p>Ezenkívül ezeket az adatokat statisztikai tanulmányok céljából álnevesítéssel, sőt anonimizálási technikákkal, például adatösszesítéssel is feldolgozhatjuk, megakadályozva, hogy ez a későbbi feldolgozás során a Felhasználókat egyénileg azonosítani lehessen.</p> <h3>d. A <a href="%{decidim_url}">Decidim</a> közösségből gyűjtött adatok</h3> <p><a href="%{decidim_url}">A Decidim</a></p> a <p>technológiánk körül létrehozott <a href="%{decidim_url}">Decidim</a> közösség kezeléséhez más, ehhez a Weboldalhoz kapcsolódó platformokat használ,</p> amelyek a <p> <a href="%{decidim_url}">Decidim</a> közösség találkozási pontjaként szolgálnak, és ahol a legtöbb tevékenység és kommunikáció zajlik a felhasználók és a <a href="%{decidim_url}">Decidim</a> között. Ezekre a platformokra, mint például a <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> vagy a GitHub<a href="https://github.com/decidim/decidim">(https://github.com/decidim/decidim</a>) saját felhasználási feltételek és adatvédelmi irányelvek vonatkoznak.</p> <p>Ettől függetlenül <a href="%{decidim_url}">a Decidim</a> feldolgozhatja a Felhasználó ezen platformokon gyűjtött személyes adatait az adott platformokon fejlesztett közösségi projektek kezelése céljából, különösen az említett platformokhoz való kapcsolódási adatok, a platformon található felhasználói profil, valamint a Felhasználó által a <a href="%{decidim_url}">Decidim-projektekhez</a> időről időre hozzászólások és megjegyzések tartalma lehet az ilyen személyes adatok. Felhívjuk figyelmét, hogy ezek az adatok nyilvánosak lehetnek, következésképpen más Felhasználók számára hozzáférhetőek és láthatóak.</p> <h3>e. Társult tagjainktól gyűjtött</h3> adatok <p>Bármely személy vagy szervezet, aki szabadon részt kíván venni a <a href="%{decidim_url}">Decidim</a> közösségében, részt vesz a vitákon, együttműködik a rendezvények szervezésében, támogat egy munkacsoportot vagy közösségi napokat, valamint hozzájárul a nyílt forráskódú, ingyenes részvételi demokrácia platformunk kódjához vagy dokumentációjához, példányok kezeléséhez stb. választhatja</p> a <p> <a href="%{decidim_url}">Decidim</a> tagságát, amennyiben a fenti tevékenységek bármelyikének megvalósításával megfelelő elkötelezettséget tanúsít a közösség iránt. Ehhez egy űrlap kitöltésével kell benyújtaniuk jelentkezésüket, amelyet a <a href="%{decidim_url}">Decidim</a> Koordinációs Bizottsága fog elbírálni.</p> <p>A <a href="%{decidim_url}">Decidim-tagok</a> személyes adatainak feldolgozása a fent említett projektek és tevékenységek kezelése céljából történik, amelyekben a társult tag részt vesz, a tagdíjak könyvelése, valamint általában a <a href="%{decidim_url}">Decidim</a> projektjeinek és tevékenységeinek irányítása céljából, a <a href="%{decidim_url}">Decidim</a> elveinek és értékeinek, valamint a társult tagok kötelezettségeinek és jogainak betartása érdekében.</p>'
+      title: Az Önről gyűjtött személyes adatok és azok felhasználásának módja
     section-3:
-      paragraph: <p>The legal basis of our processing of personal data are the following:</p> <ul> <li>The processing of Users and associate data is necessary to perform the contract, consisting in the Users acceptance of the Legal Text of the Website, in order to provide them all the information about <a href="%{decidim_url}">Decidim</a> and its technology, projects and activities, as well as to allow them participating in the projects and activities carried out by <a href="%{decidim_url}">Decidim</a>.</li> <li>We may also process your personal data when you give us express consent to make publications about <a href="%{decidim_url}">Decidim</a> projects and activities in which you have participated, press releases or other forms of communication and dissemination of <a href="%{decidim_url}">Decidim</a>'s activities, as well as to receive particular information on a regular basis and/or when you contact us through the website contact form or by e-mail. </li> <li>Additionally, we may process your data on our legitimate interest to perform statistical studies or other knowledge generation techniques, implementing pseudonymization and, if possible, anonymization measures, such as data aggregation, in order to protect the privacy of Users, in accordance with art. 89 GDPR.</li> </ul> <p>In certain circumstances, we may process your data in accordance with this policy to comply with a legal or regulatory obligation to which we are subject.</p>
-      title: Legal basis
+      paragraph: <p>A személyes adatok feldolgozásának jogalapja a következő:</p> <ul> <li>A Felhasználók és a társult adatok feldolgozása szükséges a szerződés teljesítéséhez, amely a Weboldal jogi szövegének a Felhasználók általi elfogadásából áll, annak érdekében, hogy a <a href="%{decidim_url}">Decidimről</a> és annak technológiájáról, projektjeiről és tevékenységeiről minden információt meg tudjanak adni, valamint hogy a <a href="%{decidim_url}">Decidim</a> által végrehajtott projektekben és tevékenységekben részt vehessenek.</li> <li>Személyes adatait akkor is feldolgozhatjuk, ha Ön kifejezett hozzájárulását adja ahhoz, hogy a <a href="%{decidim_url}">Decidim</a> projektjeiről és tevékenységeiről, amelyekben Ön részt vett, sajtóközleményeket vagy a <a href="%{decidim_url}">Decidim</a> tevékenységeiről szóló egyéb kommunikációs és terjesztési formákat készítsünk, valamint ahhoz, hogy rendszeresen bizonyos információkat kapjon és/vagy amikor a weboldal kapcsolatfelvételi űrlapján vagy e-mailben kapcsolatba lép velünk. </li> <li>Ezenkívül jogos érdekünkből feldolgozhatjuk az Ön adatait statisztikai tanulmányok vagy más ismeretszerzési technikák elvégzése céljából, álnevesítési és, ha lehetséges, anonimizálási intézkedéseket végrehajtva, például adatösszesítéssel, a Felhasználók magánéletének védelme érdekében, az Art. 89 GDPR CIKKÉVEL ÖSSZHANGBAN.</li> </ul> <p>Bizonyos körülmények között a jelen irányelvvel összhangban feldolgozhatjuk az Ön adatait, hogy eleget tegyünk egy ránk vonatkozó jogi vagy szabályozási kötelezettségnek.</p>
+      title: Jogalap
     section-4:
-      paragraph: '<p>We process your personal data confidentially in accordance with the applicable legislation. Unless stated otherwise, your personal data will not be provided to third parties. </p> <p>Specifically, we disclose your data as follows:</p> <ul> <li>We can give access to your personal data to our IT service providers under contracts for the provision of services in favour of <a href="%{decidim_url}">Decidim</a>. Among the others, Netlify, Inc., an American entity who provide to Us web hosting services. <a href="%{decidim_url}">Decidim</a> has subscribed with Netlify a <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Data Processing Agreement</a>, including the Standard Contractual Clauses currently approved by the European Commission, in order to ensure that your personal data are processed with all adequate guarantees. More information about how Netlify use your personal data may be consulted here: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a>. </li> <li>We can make the data available to the public administration or authorities to investigate suspicions of fraud, harassment or other violations of any law, rule or regulation, or the policies of the website.</li> </ul> <p>For more information about our service providers who make international transfers, please contact us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>'
-      title: Data disclosure
+      paragraph: '<p>Személyes adatait bizalmasan, a vonatkozó jogszabályoknak megfelelően kezeljük. Eltérő rendelkezés hiányában az Ön személyes adatait nem adjuk át harmadik félnek. </p> <p>Konkrétan az Ön adatait az alábbiak szerint adjuk ki:</p> <ul> <li>A <a href="%{decidim_url}">Decidim</a> javára történő szolgáltatásnyújtásra vonatkozó szerződések alapján hozzáférést biztosíthatunk az Ön személyes adataihoz informatikai szolgáltatóink számára. Többek között a Netlify, Inc. egy amerikai szervezet, amely webtárhely-szolgáltatást nyújt nekünk. <a href="%{decidim_url}">A Decidim</a> a Netlify-vel <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">adatfeldolgozási megállapodást</a> kötött, amely tartalmazza az Európai Bizottság által jelenleg jóváhagyott általános szerződési feltételeket, annak érdekében, hogy az Ön személyes adatainak feldolgozása minden megfelelő garanciával történjen. További információ arról, hogy a Netlify hogyan használja fel az Ön személyes adatait, itt olvasható: <a href="https://www.netlify.com/gdpr-ccpa">https:</a>//www.netlify.com/gdpr-ccpa. </li> <li>Az adatokat a közigazgatás vagy a hatóságok rendelkezésére bocsáthatjuk, hogy kivizsgálják a csalás, zaklatás vagy bármely törvény, szabály vagy rendelet, illetve a weboldal irányelveinek egyéb megsértésének gyanúját.</li> </ul> <p>A nemzetközi átutalásokat végző szolgáltatóinkkal kapcsolatos további információkért kérjük, forduljon hozzánk a <a href="mailto:privacy@decidim.org">privacy@decidim.org</a> címen.</p>'
+      title: Adatok közzététele
     section-5:
-      paragraph: "<p>We only keep your personal data for as long as it is necessary to fulfil the purposes for which we have collected them, even to comply with legal, accounting or information requirements.</p> <p>To determine the appropriate retention period for personal data, we consider the amount, nature and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which we process your personal data, if we can achieve those purposes through other means and the applicable legal requirements.</p>"
-      title: Data retention
+      paragraph: "<p>Személyes adatait csak addig őrizzük meg, amíg az szükséges azon célok teljesítéséhez, amelyek érdekében gyűjtöttük őket, akár jogi, számviteli vagy tájékoztatási követelményeknek való megfelelés érdekében is.</p> <p>A személyes adatok megfelelő megőrzési időtartamának meghatározásához figyelembe vesszük a személyes adatok mennyiségét, jellegét és érzékenységét, a személyes adatok jogosulatlan felhasználásából vagy nyilvánosságra hozatalából eredő esetleges kár kockázatát, a személyes adatok feldolgozásának céljait, azt, hogy ezeket a célokat más eszközökkel is el tudjuk-e érni, valamint az alkalmazandó jogi követelményeket.</p>"
+      title: Adatmegőrzés
     section-6:
-      paragraph: "<p>We implement security measures and personal data protection schemes as required by law to maintain the confidentiality and integrity of your data and protection against unauthorised access, modification or destruction. </p>"
-      title: Security measures
+      paragraph: "<p>A törvény által előírt biztonsági intézkedéseket és személyesadat-védelmi rendszereket hajtunk végre az Ön adatainak bizalmas jellegének és integritásának megőrzése, valamint a jogosulatlan hozzáférés, módosítás vagy megsemmisítés elleni védelem érdekében. </p>"
+      title: Biztonsági intézkedések
     section-7:
-      paragraph: '<p>You have rights under data protection laws in relation to your personal data. Specifically, you have the right to: </p> <ul> <li><b>Request access</b> to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</li> <li><b>Request correction</b> of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</li> <li><b>Request erasure</b> of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</li> <li><b>Object to processing</b> of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</li> <li><b>Request restriction of processing</b> of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data''s accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</li> <li><b>Request the transfer</b> of your personal data to you or to a third party (right to data portability). We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</li> <li><b>Withdraw consent at any time</b> where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</li> </ul> <p>The aforementioned rights may be effective by contacting us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>. <p>You also have the right to make any complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spain.'
-      title: Your rights
+      paragraph: '<p>Az adatvédelmi törvények értelmében Önnek jogai vannak a személyes adataival kapcsolatban. Konkrétan joga van a következőkhöz: </p> <ul> <li><b>Hozzáférés kérése</b> a személyes adataihoz (közismert nevén "érintettek hozzáférési kérelme"). Ez lehetővé teszi, hogy másolatot kapjon az Önről tárolt személyes adatokról, és ellenőrizze, hogy azokat jogszerűen kezeljük.</li> <li><b>Kérheti</b> az Önről tárolt személyes adatok<b>helyesbítését</b>. Ez lehetővé teszi az Önről tárolt hiányos vagy pontatlan adatok helyesbítését, bár előfordulhat, hogy ellenőriznünk kell az Ön által megadott új adatok pontosságát.</li> <li><b>Kérheti</b> személyes adatainak<b>törlését</b>. Ez lehetővé teszi, hogy kérje tőlünk személyes adatainak törlését vagy eltávolítását, amennyiben nincs alapos ok arra, hogy azokat továbbra is feldolgozzuk. Akkor is jogosult kérni tőlünk személyes adatainak törlését vagy eltávolítását, ha sikeresen élt a feldolgozás elleni tiltakozáshoz való jogával (lásd alább), ha esetleg jogellenesen dolgoztuk fel az Ön adatait, vagy ha a helyi jogszabályoknak való megfelelés miatt kötelesek vagyunk törölni személyes adatait. Vegye azonban figyelembe, hogy előfordulhat, hogy nem mindig tudjuk teljesíteni az Ön törlésre irányuló kérelmét, ha erre különleges jogi okok miatt kerül sor, amelyekről adott esetben a kérelem benyújtásakor tájékoztatjuk Önt.</li> <li><b>Tiltakozhat</b> személyes adatainak<b>feldolgozása ellen</b>, ha jogos érdekre (vagy egy harmadik fél jogos érdekére) hivatkozunk, és az Ön különleges helyzetével kapcsolatban van valami, ami miatt tiltakozni kíván a feldolgozás ellen ezen az alapon, mivel úgy érzi, hogy az hatással van az alapvető jogaira és szabadságaira. Önnek akkor is joga van tiltakozni, ha személyes adatait közvetlen marketing céllal dolgozzuk fel. Bizonyos esetekben bizonyíthatjuk, hogy az Ön adatainak feldolgozására olyan kényszerítő erejű jogos okok állnak fenn, amelyek felülírják az Ön jogait és szabadságait.</li> <li><b>Kérheti</b> személyes adatai<b>feldolgozásának korlátozását</b>. Ez lehetővé teszi, hogy kérje tőlünk személyes adatai feldolgozásának felfüggesztését a következő esetekben: (a) ha azt szeretné, hogy megállapítsuk az adatok pontosságát; (b) ha az adatok felhasználása jogellenes, de Ön nem kéri, hogy töröljük azokat; (c) ha szüksége van arra, hogy az adatokat akkor is megőrizzük, ha már nincs rájuk szükségünk, mivel jogi igények előterjesztéséhez, érvényesítéséhez vagy védelméhez van rájuk szüksége; vagy (d) ha Ön tiltakozott az adatai felhasználása ellen, de meg kell vizsgálnunk, hogy van-e nyomós jogos indokunk az adatok felhasználására.</li> <li><b>Kérheti</b> személyes adatainak Ön vagy egy harmadik fél részére<b>történő továbbítását</b> (az adathordozhatósághoz való jog). Személyes adatait strukturált, általánosan használt, géppel olvasható formátumban bocsátjuk az Ön vagy az Ön által választott harmadik fél rendelkezésére. Vegye figyelembe, hogy ez a jog csak azokra az automatizált adatokra vonatkozik, amelyek felhasználásához Ön eredetileg hozzájárult, vagy ha az adatokat az Önnel kötött szerződés teljesítéséhez használtuk fel.</li> <li><b>Bármikor visszavonhatja a hozzájárulását</b>, amennyiben az Ön személyes adatainak feldolgozásához a hozzájárulásra támaszkodunk. Ez azonban nem érinti a hozzájárulásának visszavonása előtt végzett feldolgozás jogszerűségét. Ha visszavonja hozzájárulását, előfordulhat, hogy nem tudunk Önnek bizonyos termékeket vagy szolgáltatásokat nyújtani. A hozzájárulás visszavonásakor tájékoztatni fogjuk Önt, ha ez a helyzet áll fenn.</li> </ul> <p>A fent említett jogok érvényesíthetők, ha kapcsolatba lép velünk a <a href="mailto:privacy@decidim.org">privacy@decidim.org</a> címen. <p>Önnek joga van továbbá bármilyen panaszt tenni az illetékes hatóságnál, ebben az esetben a Spanyol Adatvédelmi Ügynökségnél (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spanyolország.'
+      title: Az Ön jogai
     section-8:
-      paragraph: "<p>We reserve the right to amend the terms of this Privacy Policy and will notify you by providing a clear notice of these changes by email or on our Website, and in this Privacy Policy. If you continue to use our services after such update, you will be deemed to accept the new terms. If you do not accept the update, please terminate your account or notify us and we will terminate your Account and remove any of your personal data (except as required to be maintained for legal purposes), and you will not be able to continue to use our services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>"
-      title: General
-    title: Privacy policy
+      paragraph: "<p>Fenntartjuk a jogot, hogy módosítsuk a jelen Adatvédelmi szabályzat feltételeit, és erről a változásokról e-mailben vagy a Weboldalunkon, illetve a jelen Adatvédelmi szabályzatban egyértelmű értesítéssel értesítjük Önt. Ha a frissítést követően továbbra is használja szolgáltatásainkat, úgy tekintjük, hogy Ön elfogadja az új feltételeket. Ha nem fogadja el a frissítést, kérjük, szüntesse meg fiókját, vagy értesítsen minket, és mi megszüntetjük fiókját, és eltávolítjuk személyes adatait (kivéve, ha jogi okokból szükséges), és Ön nem tudja tovább használni szolgáltatásainkat. </p> <p>Hacsak egy konkrét helyi szabályozás nem írja elő ennek ellenkezőjét, az Adatvédelmi szabályzatra Spanyolország törvényei az irányadóak.</p> <p><b>Utolsó frissítés</b>: Február 2022.</p>"
+      title: Általános
+    title: Adatvédelmi szabályzat
   testimonials:
     n1:
-      org: Barcelona City Hall (2015-2019)
-      quote: Thanks to Decidim, in Barcelona we have managed to co-produce a strategic city plan together with the citizens. In 2016 we inaugurated the Municipal Action Plan in the form of a participatory process through Decidim Barcelona. Currently, this plan includes almost 7 thousand citizen proposals. One of the advantages of using this platform is that you can monitor at all times the state of implementation of the approved proposals.
+      org: Barcelonai városháza (2015-2019)
+      quote: A Decidimnek köszönhetően Barcelonában sikerült a polgárokkal közösen stratégiai várostervet készíteni. 2016-ban a Decidim Barcelonán keresztül részvételi folyamat formájában avattuk fel a városi cselekvési tervet. Jelenleg ez a terv közel 7 ezer állampolgári javaslatot tartalmaz. A platform használatának egyik előnye, hogy bármikor nyomon követheti a jóváhagyott javaslatok végrehajtásának állapotát.
     n2:
       org: Som Energia
-      quote: With the implementation of Decidim in Som Energia we have generated a kinder space for participation. We released the tool in 2018, hosting the General Assembly of the Cooperative and months later we debated the Image Redesign and collaborative development of the School of Som Energia, among other participatory processes. In a few months, more than 3,500 participant people have registered, 5 participatory processes, 3 assemblies operating and more than 1,300 votes in the last General Assembly vote.
+      quote: A Decidim bevezetésével a Som Energiában egy kedvesebb teret teremtettünk a részvételhez. Az eszközt 2018-ban adtuk ki, otthont adva a szövetkezet közgyűlésének, majd hónapokkal később megvitattuk a Som Energia iskolájának arculati újratervezését és közös fejlesztését, más részvételi folyamatok mellett. Néhány hónap alatt több mint 3500 résztvevő ember regisztrált, 5 részvételi folyamat, 3 működő közgyűlés és több mint 1300 szavazat a legutóbbi közgyűlési szavazáson.
     n3:
-      org: Municipal President of Mérida Yucatán, Mexico. City Council of Mérida Yucatán, Mexico
-      quote: The Decide Mérida digital platform was an opportunity that opened as never before the mechanisms of citizen participation for the elaboration of the Municipal Development Plan of Mérida 2018-2021. We had more than 3,000 citizen interactions including proposals, comments, suggestions and support that achieving the highest consensus possible about what is best for our city. Undoubtedly, the Decide Mérida platform will continue to be our ally in making Mérida an increasingly participative society.
+      org: Mérida Yucatán, Mexikó önkormányzati elnöke. Mérida Yucatán, Mexikó városi tanácsa
+      quote: A Decide Mérida digitális platform olyan lehetőség volt, amely soha nem látott módon nyitotta meg a polgárok részvételének mechanizmusait Mérida 2018-2021-es önkormányzati fejlesztési tervének kidolgozásához. Több mint 3000 állampolgári interakcióban vettünk részt, beleértve javaslatokat, észrevételeket, javaslatokat és támogatást, amelyekkel a lehető legnagyobb konszenzust értük el azzal kapcsolatban, hogy mi a legjobb városunk számára. Kétségtelen, hogy a Decide Mérida platform továbbra is szövetségesünk lesz abban, hogy Mérida egyre inkább részvételi társadalommá váljon.
     n4:
-      org: City of Helsinki
-      quote: What we appreciate is that it’s built with democracy in mind and therefore democracy is a big focus. Democratic principles such as accountability, equality and transparency are in the core of the design.
+      org: Helsinki városa
+      quote: Amit nagyra értékelünk, az az, hogy a demokrácia szem előtt tartásával épült, és ezért a demokrácia nagy hangsúlyt kap. Az olyan demokratikus elvek, mint az elszámoltathatóság, az egyenlőség és az átláthatóság a tervezés középpontjában állnak.
     n5:
-      org: Open Government of Mexico City
-      quote: Almost every participatory process that has come to our table, we have been able to solve it using Decidim's business rules. As a tool, it is a very strong one. However, the part that seems strongest and most important to us is its community, both developers and those who use it for participatory processes. Coexisting with them has made us appreciate the challenges involved in implementing participatory democracy in the real world.
+      org: Mexikóváros nyílt kormánya
+      quote: Szinte minden részvételi folyamatot, amely az asztalunkra került, meg tudtunk oldani a Decidim üzleti szabályainak használatával. Mint eszköz, ez egy nagyon erős eszköz. A legerősebbnek és legfontosabbnak tűnő része azonban számunkra a közössége, mind a fejlesztők, mind azok, akik részvételi folyamatokhoz használják. A velük való együttélés ráébresztett bennünket arra, hogy értékeljük a részvételi demokrácia valós világbeli megvalósításával járó kihívásokat.
     n6:
-      org: Mozilla Foundation
-      quote: We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+      org: Mozilla Alapítvány
+      quote: Szenvedünk a közterületek hiányától. Különösen fontos, hogy ezeket a köztereket visszaszerezzük magunknak. Az olyan nyílt platformok, mint a Decidim, pontosan ezt teszik. Nem csak, hogy nyílt forráskódú, így mások is elágazhatnak, újra felhasználhatják és felépíthetnek egy folyamatot. Emellett a tervezésébe kódolva vannak azok az értékek, amelyeket a társadalmunkban szeretnénk visszatükrözni.
     n7:
-      org: OpenForum Europe Research Director, European Union
-      quote: The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
+      org: OpenForum Europe kutatási igazgató, Európai Unió
+      quote: A folyamat 2019 októberében kezdődött az Európai Bizottság Kommunikációs és eDemokrácia Főigazgatóságának egységénél, a Közös Kutatóközpontban, az Európai Bizottság tudományos és tudásszolgálatánál. A konferencia igényeinek elemzése és annak megállapítása, hogy mely eszközök felelnek meg ezeknek, a nyílt forráskódú Decidim eszköz kiválasztásához vezetett annak technikai érettsége, széles közössége és alkalmazkodóképessége miatt.
     n8:
-      org: Pipeline to Power, working for NYC Civic Engagement Commission
-      quote: Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded.
+      org: Pipeline to Power, a NYC Civic Engagement Commission (NYC Civil Engagement Commission) munkatársa
+      quote: A Decidim részben azért olyan hatékony, mert egy absztrakciós szintet ad a munkához, amely elkülöníti a folyamat lépéseit és a folyamathoz kapcsolódó tevékenységeket. Ez az információs architektúra része, így nem csak azt mondja meg, hogy mi történik az egyes lépéseknél, hanem a Decidim különböző részei másképp viselkednek attól függően, hogy mikor mit csinál, vagy attól függően, hogy a folyamat melyik lépésénél tart. Az a tény, hogy ez testreszabható, lehetővé teszi, hogy a Decidim a munkánkhoz igazodjon, és ne a mi munkánkat formálják.
   thanks:
-    message: Thank you for contacting us, we will get back to you soon.
-    title: Thanks for your email
+    message: Köszönjük, hogy kapcsolatba lépett velünk, hamarosan jelentkezünk.
+    title: Köszönöm az e-mailt
   trademark:
     examples-1:
-      l1: Including the Decidim logo on product pages to say "we work with Decidim" (e.g., hosting, consultancy services, developments based on Decidim).
-      l2: Use of the trademark "Decidim" in book titles and research articles.
-      l3: Use of the Decidim logo in the footer of an instance (“Powered by Decidim”).
-      title: Examples of use that do not need permission
+      l1: A Decidim logó feltüntetése a termékoldalakon, hogy "a Decidimmel dolgozunk" (pl. tárhely, tanácsadási szolgáltatások, Decidim alapú fejlesztések).
+      l2: A "Decidim" védjegy használata könyvcímekben és kutatási cikkekben.
+      l3: A Decidim logó használata a példány láblécében ("Powered by Decidim").
+      title: Példák az engedély nélküli felhasználásra
     examples-2:
-      l1: Selling merchandise (stickers, t-shirts, mugs, etc).
-      l2: Use of the Decidim logo on a book cover.
-      l3: Use of the Decidim logo in a header in a website, implying that you’re the Decidim organization.
-      title: Examples of use that do need permission
+      l1: Árucikkek (matricák, pólók, bögrék stb.) értékesítése.
+      l2: A Decidim logó használata a könyvborítón.
+      l3: A Decidim logó használata egy weboldal fejlécében, ami azt sugallja, hogy Ön a Decidim szervezet.
+      title: Példák az engedélyköteles felhasználásra
     examples-3:
-      l1: Naming your company or product after Decidim, like "The Decidim Consultants".
-      title: Examples of use that will not get permission
+      l1: Nevezze el cégét vagy termékét a Decidim után, például "The Decidim Consultants".
+      title: Példák az engedély nélküli felhasználásra
     goals:
-      l1: We’d like to make it easy for anyone to use the Decidim name or logo for community-oriented efforts that help spread and improve Decidim.
-      l2: We’d like to make it clear how Decidim-related businesses and projects can (and cannot) use the Decidim name and logo.
-      l3: We’d like to make it hard for anyone to use the Decidim name and logo to unfairly profit from, trick or confuse people who are looking for official Decidim resources.
-    p1: '"Decidim" and the Decidim logo are registered trademarks of Associació de Software Lliure Decidim. You may not use these trademarks in a commercial setting to infer that your product or service is endorsed or associated with Decidim without permission. You may use these marks to refer to Decidim in a way where it''s clear that you''re simply referring to the project, not claiming endorsement or association.'
-    p2: 'If you’re using the Decidim logo in any way you need to add the following text: <i>"Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim."</i>'
-    p3: 'We have developed this trademark usage policy with the following goals in mind:'
-    p4: You can request permission by emailing associacio@decidim.org.
-    p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
-    title: Trademark policy
+      l1: Szeretnénk megkönnyíteni bárki számára, hogy a Decidim nevet vagy logót olyan közösségi célú erőfeszítésekhez használja, amelyek segítenek a Decidim terjesztésében és fejlesztésében.
+      l2: Szeretnénk tisztázni, hogy a Decidimhez kapcsolódó vállalkozások és projektek hogyan használhatják (és hogyan nem) a Decidim nevet és logót.
+      l3: Szeretnénk megnehezíteni, hogy a Decidim nevet és logót bárki arra használja, hogy tisztességtelenül hasznot húzzon, becsapja vagy összezavarja azokat, akik hivatalos Decidim-forrásokat keresnek.
+    p1: 'a "Decidim" és a Decidim logó az Associació de Software Lliure Decidim bejegyzett védjegye. Ezeket a védjegyeket kereskedelmi környezetben nem használhatja engedély nélkül arra a következtetésre, hogy termékét vagy szolgáltatását a Decidim támogatja vagy azzal kapcsolatban áll. Ezeket a védjegyeket használhatja a Decidimre való hivatkozásra olyan módon, hogy egyértelmű legyen, hogy egyszerűen csak a projektre utal, és nem állítja, hogy támogatja vagy társítja azt.'
+    p2: 'Ha bármilyen módon használja a Decidim logót, a következő szöveget kell hozzáadnia: <i>"A Decidim név és logó az Associació de Software Lliure Decidim bejegyzett védjegye"</i>'
+    p3: 'Ezt a védjegyhasználati szabályzatot a következő célokat szem előtt tartva dolgoztuk ki:'
+    p4: Engedélyt a associacio@decidim.org e-mail címen kérhet.
+    p5: Ez a védjegypolitikai oldal <a href="%{rails_url}">Ruby on Rails</a> és <a href="%{wordpress_url}">Wordpress Foundation</a> alapokon nyugszik.
+    title: Védjegypolitika
   used_by:
-    cta: Get started
-    disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
+    cta: Kezdjük el
+    disclaimer: A logók a megfelelő szerzői jogtulajdonosok szellemi tulajdonát képezik.<br>Nem tartoznak a Creative Commons By-SA licenc alá, amely az oldal többi tartalmának licencét képezi.
     facts:
-      f1: instances
-      f2: countries
-      f3: institutions
-      f4: organizations
-      f5: participants
-      f6: processes
-      f7: proposals
-      f8: comments
-      f9: meetings
-      subtitle: Decidim keeps growing and being adopted by organizations and the community.
-      title: Facts & Figures
+      f1: példányok
+      f2: országok
+      f3: intézmények
+      f4: szervezetek
+      f5: résztvevők
+      f6: folyamatok
+      f7: Javaslatok
+      f8: hozzászólások
+      f9: Találkozók
+      subtitle: A Decidim folyamatosan növekszik, és a szervezetek és a közösség is elfogadja.
+      title: Tények és számok
     filters:
-      f0: See all
-      f1: Government
-      f2: Cities
-      f3: NGOs
-    intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
-    join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
-    subtitle: These cities, regions and organizations are already using Decidim
-    title: Decidim in use
+      f0: Mindet mutasd
+      f1: Kormányzás
+      f2: Városok
+      f3: Nem kormányzati szervezetek
+    intro: A Decidimet használhatja állami vagy magánszervezetben, több száz vagy több ezer potenciális résztvevővel, például egy városi tanácsban, egy egyesületben, egy egyetemen, egy civil szervezetben, egy szakszervezetben, egy szomszédsági kollektívában vagy egy szövetkezetben....
+    join: Több mint 400 szervezet, 250 kormányzati szervezet és 150 helyi közösség választotta a Decidimet demokratikus folyamataihoz.
+    subtitle: Ezek a városok, régiók és szervezetek már használják a Decidim-et
+    title: Decidim használatban
