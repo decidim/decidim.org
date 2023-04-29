@@ -41,50 +41,50 @@ fr:
   case_study:
     n1:
       org: Ville d'Helsinki
-      quote: Nous avons évalué sept types d'options de budgétisation participative afin de trouver la bonne plateforme pour propulser celui d'Helsinki avec une interface facile à utiliser et une modularité requise pour différents types de besoins. Decidim a remporté l'évaluation et les premières instances ont été construites en 2018.
+      quote: Nous avons évalué sept types différents de budget participatif afin de trouver la bonne plateforme pour propulser celui d'Helsinki, avec une interface facile à utiliser et une modularité requise pour différents types de besoins. Decidim a remporté l'évaluation et les premières instances ont été construites en 2018.
     n2:
-      org: Code pour le Japon
-      quote: Decidim fournit une architecture adaptée aux besoins des clients afin de l'adapter à leur situation propre.
+      org: Code for Japan
+      quote: Decidim fournit une architecture adaptée aux besoins des clients afin de l'adapter à leurs besoins.
     n3:
       org: Commission européenne
-      quote: La plate-forme numérique a été lancée le 19 avril 2021 et était ouverte aux contributions jusqu'au 9 mai 2022. Au cours de cette période, 18 859 idées et 22 167 commentaires ont été soumis, et 6 661 événements ont été organisés. Les contributions recueillies par le biais de la plateforme numérique ont été prises en compte par les panels des citoyens européens et ont été débattues et discutées lors de la session plénière de la conférence - les deux autres piliers principaux de la Conférence.
+      quote: La plateforme numérique a été lancée le 19 avril 2021 et était ouverte aux contributions jusqu'au 9 mai 2022. Au cours de cette période, 18 859 idées et 22 167 commentaires ont été soumis, et 6 661 événements ont été organisés. Les contributions recueillies par le biais de la plateforme numérique ont été prises en compte par les panels des citoyens européens et ont été débattues et discutées lors de la session plénière de la conférence - les deux autres piliers principaux de la Conférence.
   community:
-    community1: Proposer et aider à définir de nouvelles fonctionnalités
-    community2: Signaler les bugs et aider les développeurs à les corriger
-    community3: Aider à façonner le futur de la plateforme
+    community1: Proposez et aidez à définir de nouvelles fonctionnalités
+    community2: Signalez les bugs et aidez les développeurs à les corriger
+    community3: Aidez à façonner le futur de la plateforme
     cta: Aller sur Metadecidim
     figcaption: La communauté Decidim durant le Decidim Fest 2021
     img_alt: Photo de la communauté Decidim à la réunion Metadecidim 2016
-    intro: Metadecidim est une communauté qui collabore à la conception de la plate-forme et à la construction du projet. Ensemble, nous pouvons concevoir et développer de nouvelles fonctionnalités et rapporter des bugs pour améliorer continuellement la plate-forme.
+    intro: Metadecidim est une communauté qui collabore à la conception de la plateforme et à la construction du projet. Ensemble, nous pouvons concevoir et développer de nouvelles fonctionnalités et signaler des bugs pour améliorer continuellement la plateforme.
     subtitle: Une communauté démocratique qui gère le projet Decidim dans toutes ses dimensions
     title: Metadecidim, notre communauté
   contact:
-    bot_field: 'Ne remplissez pas ceci si vous êtes humain:'
+    bot_field: 'Ne remplissez pas ceci si vous êtes humain :'
     email: Email
     message: Message
     name: Nom
     privacy_policy:
       accept: J'accepte la <a href="%{privacy_policy_url}">Politique de confidentialité</a>
       message: "<p>Lorsque des personnes nous contactent par le formulaire de contact, par e-mail ou par des moyens de communication similaires, nous recueillerons automatiquement les informations suivantes : nom, entité, adresse e-mail et le contenu du message de l'Utilisateur afin de répondre à vos commentaires, demandes, suggestions, etc.</p> <p>En outre, nous pouvons traiter ces données pour des études statistiques par pseudonymisation et même des techniques d'anonymisation, tels que l'agrégation des données, empêchant ce traitement ultérieur d'identifier les Utilisateurs individuellement.</p>"
-    send: Envoyez le message
+    send: Envoyer le message
     subtitle: Si vous souhaitez nous contacter, remplissez le formulaire de contact ou envoyez-nous un e-mail à
     title: Contacter Decidim
   demo:
     button: Démo en ligne
     p1: Explorez librement la plateforme Decidim avec notre démo en ligne.
-    strong: Démo en ligne
+    strong: Essayer Decidim
     title: Démo en ligne
   faqs:
-    cta: Lire les FAQ
+    cta: Lire toutes les FAQs
     questions:
       q01:
-        answer: 'Decidim est une plateforme libre et open-source de démocratie participative pour les villes et les organisations. Mais Decidim est plus qu''une plate-forme numérique : c''est un projet et une infrastructure libre et ouverte impliquant du code, de la documentation, de la conception, des formations, un cadre juridique, des interfaces collaboratives, des communautés d''utilisateurs et de facilitation, et une vision commune.'
+        answer: 'Decidim est une plateforme libre et open-source de démocratie participative pour les villes et les organisations. Mais Decidim est plus qu''une plateforme numérique : c''est un projet et une infrastructure libre et ouverte impliquant du code, de la documentation, de la conception, des formations, un cadre juridique, des interfaces collaboratives, des communautés d''utilisateurs et de facilitation, et une vision commune.'
         question: Qu'est-ce que Decidim?
       q02:
         answer: Le logiciel est actuellement utilisé par des villes et organisations du monde entier. En fait, tout groupe de personnes peut l'utiliser, qu'il s'agisse d'une ONG, d'une université, d'un syndicat, d'une coopérative, d'une association de voisinage, etc. Consultez la [liste complète des instances actuellement actives](/usedby/).
         question: Qui utilise actuellement Decidim?
       q03:
-        answer: Configurez facilement les processus participatifs. Voulez-vous faire un plan stratégique ? Discuter de nouvelles règlementations ? Discuter de l'aménagement d'une nouvelle place ou d'un bâtiment public ? Grâce à Decidim, vous pourrez configurer des espaces de participation (initiatives, assemblées, processus ou consultations) et les enrichir grâce aux multiples fonctionnalités disponibles (rencontres, enquêtes, propositions, votes, suivi des résultats, commentaires et bien d’autres).
+        answer: Configurez facilement les processus participatifs. Vous voulez construire un plan stratégique ? Mettre en place un budget participatif ? Discuter de nouvelles règlementations ? Discuter de l'aménagement d'une nouvelle place ou d'un bâtiment public ? Grâce à Decidim, vous pourrez configurer des espaces de participation (pétitions, assemblées, concertations ou élections) et les enrichir grâce aux multiples fonctionnalités disponibles (rencontres, enquêtes, propositions, votes, suivi des résultats, commentaires et bien d’autres).
         question: Que peut faire un administrateur Decidim ?
       q04:
         answer: Decidim permet à des milliers de personnes de s'organiser démocratiquement en faisant des propositions, en participant à des réunions publiques, en favorisant les prises de décision, en prenant des décisions par le biais de différentes formes de vote et en contrôlant la mise en œuvre des décisions.
