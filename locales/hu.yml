@@ -8,7 +8,7 @@ hu:
       - Támogasson bennünket
       - Lépjen velünk kapcsolatba
       - A gyűlésünk
-      - Prés
+      - Sajtó
     intro: A technológia, a módszertanok, a gyakorlatok, a szabványok, a cselekvések, a narratívák és az értékek szabad, nyílt, együttműködő és reflektív módon történő kialakításán keresztül szeretnénk hozzájárulni a társadalom demokratizálásához.
     subtitle: A Decidim Szabad Szoftver Egyesület egy demokratikus egyesület a Decidim közösség irányítására.
     support_at_opencollective: Támogasson bennünket az Open Collective oldalon
@@ -73,7 +73,7 @@ hu:
     button: Online demo
     p1: Játsszon és fedezze fel szabadon a Decidim platformot online demónkkal.
     strong: Próbálja ki online
-    title: Online Demo
+    title: Online demo
   faqs:
     cta: Minden GYIK elolvasása
     questions:
@@ -118,16 +118,16 @@ hu:
         question: Mi a társadalmi szerződés?
       q14:
         answer: 'Sok különbség van: funkciók, rugalmasság, architektúra, modularitás stb. Mi [közzétettünk egy bejegyzést](/blog/2019-01-14-consul-comparison/), hogy megpróbáljuk megválaszolni ezt a kérdést.'
-        question: Mi a különbség a Consul Project / Decide Madridhoz képest?
+        question: Mi a különbség a Consul Project / Decide Madrid között?
       q15:
-        answer: "[Metadecidim] (http://meta.decidim.org) a Decidim közössége, amely együttműködik a platform tervezésében és a Decidim projekt felépítésében. Rendszeresen találkozunk a közösségi találkozókon, a platform technológiai aspektusait érintő kérdésekben, a Labs witc pedig a [Research](https://meta.decidim.org/assemblies/eix-lab) irányultságú találkozók. Éves konferenciánk a Decidim Fest. Látogass el a [meta.decidim.org](http://meta.decidim.org) oldalra, ha közelről szeretnéd követni a felhívásokat, és ha csatlakozni szeretnél a közösséghez. Örülnénk neki ;-)"
+        answer: "[Metadecidim] (http://meta.decidim.org) a Decidim közössége, amely együttműködik a platform tervezésében és a Decidim projekt felépítésében. Rendszeresen találkozunk a közösségi találkozókon, a platform technológiai aspektusait érintő kérdésekben, a Labs pedig a [Research](https://meta.decidim.org/assemblies/eix-lab) irányultságú találkozókat szervezi. Éves konferenciánk a Decidim Fest. Látogass el a [meta.decidim.org](http://meta.decidim.org) oldalra, ha közelről szeretnéd követni a felhívásokat, és ha csatlakozni szeretnél a közösséghez. Örülnénk neki ;-)"
         question: Mi a Metadecidim közösség?
       q16:
-        answer: Persze, hogy lehet. Az emberek ezt részvételi folyamatok, viták, fordítások stb. révén teszik, amelyeket a Metadecidimben találhat. A Decidim Barcelonában született, és ezért van erős területi kötődése ehhez a városhoz, de mindenekelőtt ez egy projekt a közkincsekért.
+        answer: Persze, hogy lehet. Az emberek ezt részvételi folyamatok, viták, fordítások stb. révén teszik, amelyeket a Metadecidimben találhat. A Decidim Barcelonában született, és ezért van erős területi kötődése ehhez a városhoz, de mindenekelőtt ez egy projekt a közkincsért.
         question: Csatlakozhatok a Metadecidim közösséghez akkor is, ha nem Barcelonában élek?
       q17:
         answer: Bárki, aki jóhiszeműen és helyesen viszonyul a demokratikus együttműködéshez.
-        question: Milyen tagokat fogadsz be a Metadecidim közösségbe?
+        question: Milyen tagokat csatlakozhatnak be a Metadecidim közösségbe?
       q18:
         answer: Az "Asociacion de Software Libre Decidim" (A Decidim Szabad Szoftver Egyesület) egy demokratikus egyesület a Decidim közösség irányítására. Megalakult [2019. február 16-án a közösség rendkívüli közgyűlésén](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), a szervezet alapszabályának jóváhagyásával.
         question: Mi a Decidim Egyesület?
@@ -160,7 +160,7 @@ hu:
       installation: Telepítés és licenc
       users: Felhasználók és szerepek
   features:
-    intro: "<p>A Decidim-et használhatja egy állami vagy magánszervezetben, több száz vagy több ezer potenciális résztvevővel, például egy városi tanácsban, egy egyesületben, egy egyetemen, egy civil szervezetben, egy szakszervezetben, egy szomszédsági egyesületben vagy egy szövetkezetben....</p><p>A Decidimnek köszönhetően Ön képes lesz részvételi <strong>tereket</strong> (kezdeményezések, közgyűlések, folyamatok vagy konzultációk) kialakítani és a rendelkezésre álló számos <strong>komponenssel</strong> (személyes találkozók, felmérések, javaslatok, szavazás, az eredmények nyomon követése, <strong>észrevételek</strong> és még sok más) gazdagítani.</p>"
+    intro: "<p>A Decidim-et használhatja egy állami vagy magánszervezetben, több száz vagy több ezer potenciális résztvevővel, például egy önkormányzatn, egy egyesület, egyetem vagy bármilyen civil szervezet, szakszervezet, közösségi-szomszédsági csoport vagy szövetkezet...</p><p>A Decidimnek köszönhetően Ön képes lesz részvételi <strong>tereket</strong> (kezdeményezések, közgyűlések, folyamatok vagy konzultációk) kialakítani és a rendelkezésre álló számos <strong>komponenssel</strong> (személyes találkozók, felmérések, javaslatok, szavazás, az eredmények nyomon követése, <strong>észrevételek</strong> és még sok más) a részvételi folyamatot gazdagítani.</p>"
     page:
       feature1:
         subtitle: A közös ügyek demokratizálása, lépésről lépésre
@@ -173,7 +173,7 @@ hu:
       feature11:
         subtitle: Ahol a nagy események premierjét tartják
         text: Készítsen weboldalt egy nagy eseményhez. Egységesítse a programot egy sor előre meghatározott találkozó (beszélgetések, workshopok stb.) összekapcsolásával, és kezelje a résztvevőket.
-        title: konferencia
+        title: Konferencia
       feature12:
         subtitle: Mert a közösség véleménye számít
         text: Felmérések tervezése és közzététele. Az eredmények megjelenítése és letöltése.
@@ -204,15 +204,15 @@ hu:
         title: Gyűlések
       feature3:
         subtitle: A döntés joga minden demokratikus garanciával
-        text: Lehetővé teszi a népszavazások koordinálását, viták és viták elindítását, a szavazási eredmények közzétételét és a biztonságos elektronikus szavazási rendszerhez való csatlakozást.
+        text: Lehetővé teszi a népszavazások koordinálását, beszélgetések és viták elindítását, a szavazási eredmények közzétételét és a biztonságos elektronikus szavazási rendszerhez való csatlakozást.
         title: Szavazások
       feature4:
         subtitle: Mindenki napirendjének meghatározása, mindenki számára elérhető közelségben
-        text: A résztvevők közös kezdeményezéseket hozhatnak létre, meghatározhatják útjukat és céljaikat, támogatókat gyűjthetnek, megvitathatják, megvitathatják és terjeszthetik a kezdeményezéseket, találkozási pontokat határozhatnak meg, ahol a résztvevők aláírásait lehet gyűjteni, vagy a szervezet más tagjai számára nyitott vitákat rendezhetnek.
+        text: A résztvevők közös kezdeményezéseket hozhatnak létre, meghatározhatják útjukat és céljaikat, támogatókat gyűjthetnek, megbeszélhetik, megvitathatják és terjeszthetik a kezdeményezéseket, találkozási pontokat határozhatnak meg, ahol a résztvevők aláírásait lehet gyűjteni, vagy a szervezet más tagjai számára nyitott vitákat rendezhetnek.
         title: Kezdeményezések
       feature5:
         subtitle: Az Ön elképzelései részletesen
-        text: Létrehozhat egy ajánlatot egy készítési varázsló segítségével, összehasonlíthatja a már meglévőkkel, közzéteheti a platformon, és további információkat, például földrajzi elhelyezkedést vagy csatolt dokumentumokat és képeket csatolhat hozzá. Ez a komponens lehetővé teszi az ajánlatok között való navigálást, szűrést és interakciót is. A javaslat-inkubátorral emellett kollaboratív javaslatokat is létrehozhat.
+        text: Létrehozhat egy javaslatot egy “varázsló” segítségével, összehasonlíthatja a már meglévőkkel, közzéteheti a platformon, és további információkat, például földrajzi elhelyezkedést vagy dokumentumokat és képeket csatolhat hozzá. Ez a komponens lehetővé teszi az javaslatok között való navigálást, szűrést és interakciót is. A javaslat-inkubátorral emellett kollaboratív javaslatokat is létrehozhat.
         title: Javaslatok
       feature6:
         subtitle: Döntse el a választását
@@ -238,7 +238,7 @@ hu:
       title: Elemek
     type3:
       cta: Fedezze fel a modulokat
-      subtitle: Növekedjen túl az alapértelmezett komponenseken. A Decidim közössége több száz modult fejlesztett ki, hogy a platformot az alapokon túl is bővítse, és még jobban megfeleljen az Ön igényeinek.
+      subtitle: Lépjen túl az alapértelmezett komponenseken. A Decidim közössége több száz modult fejlesztett ki, hogy a platformot az alapokon túl is bővítse, és még jobban megfeleljen az Ön igényeinek.
       title: Modulok
   first-steps:
     first-steps1:
@@ -374,12 +374,12 @@ hu:
     modules: Modulok
     partners: Partnerek
     partnership-policy: Partnerségi politika
-    press: Prés
+    press: Sajtó
     privacy-policy: Adatvédelmi szabályzat
     text: Navigáció
     trademark: Védjegypolitika
     use-cases: Felhasználási esetek
-    used_by: Decidim használatban
+    used_by: A Decidim használatban
   newsletter:
     past: Korábbi hírlevelek
     subtitle: Hírek és frissítések a Decidim platformról és a közösségről.
@@ -395,7 +395,7 @@ hu:
       technology: Technológiai partnerek
   partnership-policy:
     explanation:
-      p1: A Decidim fenntartása időt és erőforrásokat igényel. Számos feladatot kell elvégezni, mint például a hozzájárulások felülvizsgálata, a problémák kezelése, a hibák kijavítása, a dokumentáció megírása és a közösség által megosztott általános kétségek megválaszolása. Minden szervezet (vállalkozás, egyesület vagy kollektíva), amely hajlandó Decidim-partnerré válni, vállalja, hogy a Decidim-tevékenységekből származó éves bevétel 3% of-jének megfelelő kedvezményes díjjal járul hozzá a Decidim Egyesülethez. Nonprofit szervezetek esetében ez a díj 1,5%.
+      p1: A Decidim fenntartása időt és erőforrásokat igényel. Számos feladatot kell elvégezni, mint például a hozzájárulások felülvizsgálata, a problémák kezelése, a hibák kijavítása, a dokumentáció megírása és a közösség által megosztott általános kétségek megválaszolása. Minden szervezet (vállalkozás, egyesület vagy kollektíva), amely hajlandó Decidim-partnerré válni, vállalja, hogy a Decidim-tevékenységekből származó éves bevétel 3% -ának megfelelő kedvezményes díjjal járul hozzá a Decidim Egyesülethez. Nonprofit szervezetek esetében ez a díj 1,5%.
       p2: Minden Decidim Partner nyilvánosan láthatóvá válik a <a href="%{main_website_url}">Decidim fő weboldalán</a> és a <a href="%{readme_url}">GitHub projekt README oldalán</a>. Ezenkívül a Decidim Egyesület a Decidim Partnereket ajánlja majd a Decidim szolgáltatásokkal kapcsolatos előadásainkon és e-mailes beszélgetéseinkben.
       p3: A nemrégiben bejegyzett szervezetek támogatása érdekében a Decidim-partnerek mentesülnek a gazdasági hozzájárulás alól az első évben, hogy először a Decidimmel közösen dolgozzák ki üzleti tervüket. Addig is javasoljuk, hogy a Decidim Partnerek találjanak más módot a projekthez való hozzájáruláshoz (például hibabejelentéssel, dokumentációval, közösségi tevékenységekben való részvétellel és támogatással stb.).
     how_to:
@@ -414,7 +414,7 @@ hu:
     title: Partnerségi politika
   path: ''
   press:
-    highlights: Média kiemelések
+    highlights: A médiában
     kit: Sajtóanyag
     links:
       link1:
@@ -425,9 +425,9 @@ hu:
         title: Promóciós spot
       link3:
         link: Letöltés
-        title: Katalógusok
+        title: Katalógus
       link4:
-        link: A hozzájárulásához visszajelzés a %(site_name)s oldalon
+        link: Az oldalra
         title: Decidim Fest
       link5:
         link: Youtube csatorna
@@ -438,7 +438,7 @@ hu:
     sign_up: Iratkozzon fel hírlevelünkre a Metadecidimről
     social_media: Keressen minket a közösségi médiában
     subtitle: Sajtómegkeresések esetén kérjük, küldjön nekünk e-mailt a következő címre
-    title: Prés
+    title: Sajtó
   privacy-policy:
     section-1:
       paragraph: <p>Az Associació de Software Lliure Decidim (<a href="%{decidim_url}">"Decidim</a>" vagy "mi") a tulajdonosa ennek a weboldalnak, amely a <a href="https://decidim.org/">https://decidim.org/</a> webdomainen keresztül érhető el (a továbbiakban a "Weboldal"), és adatkezelőként jár el a Weboldal valamennyi felhasználójának ("Ön", a "Felhasználó") személyes adatainak kezelése tekintetében.</p> <p><a href="%{decidim_url}">A Decidim</a> elkötelezett a Weboldal valamennyi Felhasználójának, társult tagjának és a <a href="%{decidim_url}">Decidim</a> közösség tagjainak magánéletének védelme mellett. A jelen Adatvédelmi szabályzat ismerteti a Weboldalon keresztül gyűjtött személyes adatok felhasználásával kapcsolatos gyakorlatunkat, beleértve az ingyenes nyílt forráskódú részvételi demokrácia platformunk demóját, valamint a <a href="%{decidim_url}">Decidimhez</a> kapcsolódó személyek adatainak feldolgozását és a <a href="%{decidim_url}">Decidim</a> közösség kezelését, akár ezen a Weboldalon, akár a <a href="%{decidim_url}">Decidim</a> által kezelt más platformokon.</p> <p>Ez az Adatvédelmi szabályzat a Jogi <a href="%{legal_notice_url}">közleményünkkel</a> együtt a Jogi szövegek részét képezi.</p>
@@ -474,25 +474,25 @@ hu:
       quote: A Decidim bevezetésével a Som Energiában egy kedvesebb teret teremtettünk a részvételhez. Az eszközt 2018-ban adtuk ki, otthont adva a szövetkezet közgyűlésének, majd hónapokkal később megvitattuk a Som Energia iskolájának arculati újratervezését és közös fejlesztését, más részvételi folyamatok mellett. Néhány hónap alatt több mint 3500 résztvevő ember regisztrált, 5 részvételi folyamat, 3 működő közgyűlés és több mint 1300 szavazat a legutóbbi közgyűlési szavazáson.
     n3:
       org: Mérida Yucatán, Mexikó önkormányzati elnöke. Mérida Yucatán, Mexikó városi tanácsa
-      quote: A Decide Mérida digitális platform olyan lehetőség volt, amely soha nem látott módon nyitotta meg a polgárok részvételének mechanizmusait Mérida 2018-2021-es önkormányzati fejlesztési tervének kidolgozásához. Több mint 3000 állampolgári interakcióban vettünk részt, beleértve javaslatokat, észrevételeket, javaslatokat és támogatást, amelyekkel a lehető legnagyobb konszenzust értük el azzal kapcsolatban, hogy mi a legjobb városunk számára. Kétségtelen, hogy a Decide Mérida platform továbbra is szövetségesünk lesz abban, hogy Mérida egyre inkább részvételi társadalommá váljon.
+      quote: A Decide Mérida digitális platform olyan lehetőség volt, amely soha nem látott módon nyitotta meg a polgárok részvételének mechanizmusait Mérida 2018-2021-es önkormányzati fejlesztési tervének kidolgozásához. Több mint 3000 állampolgári interakcióban vettünk részt, beleértve javaslatokat, észrevételeket, kezdeményezéseket és ezek támogatóit, amelyekkel a lehető legnagyobb konszenzust értük el azzal kapcsolatban, hogy mi a legjobb városunk számára. Kétségtelen, hogy a Decide Mérida platform továbbra is szövetségesünk lesz abban, hogy Mérida egyre inkább részvételi társadalommá váljon.
     n4:
       org: Helsinki városa
       quote: Amit nagyra értékelünk, az az, hogy a demokrácia szem előtt tartásával épült, és ezért a demokrácia nagy hangsúlyt kap. Az olyan demokratikus elvek, mint az elszámoltathatóság, az egyenlőség és az átláthatóság a tervezés középpontjában állnak.
     n5:
-      org: Mexikóváros nyílt kormánya
+      org: Mexikóváros - Nyílt Kormányzat
       quote: Szinte minden részvételi folyamatot, amely az asztalunkra került, meg tudtunk oldani a Decidim üzleti szabályainak használatával. Mint eszköz, ez egy nagyon erős eszköz. A legerősebbnek és legfontosabbnak tűnő része azonban számunkra a közössége, mind a fejlesztők, mind azok, akik részvételi folyamatokhoz használják. A velük való együttélés ráébresztett bennünket arra, hogy értékeljük a részvételi demokrácia valós világbeli megvalósításával járó kihívásokat.
     n6:
       org: Mozilla Alapítvány
-      quote: Szenvedünk a közterületek hiányától. Különösen fontos, hogy ezeket a köztereket visszaszerezzük magunknak. Az olyan nyílt platformok, mint a Decidim, pontosan ezt teszik. Nem csak, hogy nyílt forráskódú, így mások is elágazhatnak, újra felhasználhatják és felépíthetnek egy folyamatot. Emellett a tervezésébe kódolva vannak azok az értékek, amelyeket a társadalmunkban szeretnénk visszatükrözni.
+      quote: Szenvedünk a közterek hiányától. Különösen fontos, hogy ezeket a köztereket visszaszerezzük magunknak. Az olyan nyílt platformok, mint a Decidim, pontosan ezt teszik. Nem csak, hogy nyílt forráskódú, így mások is elágazhatnak, újra felhasználhatják és felépíthetnek egy folyamatot. Emellett a tervezésébe kódolva vannak azok az értékek, amelyeket a társadalmunkban szeretnénk visszatükrözni.
     n7:
       org: OpenForum Europe kutatási igazgató, Európai Unió
       quote: A folyamat 2019 októberében kezdődött az Európai Bizottság Kommunikációs és eDemokrácia Főigazgatóságának egységénél, a Közös Kutatóközpontban, az Európai Bizottság tudományos és tudásszolgálatánál. A konferencia igényeinek elemzése és annak megállapítása, hogy mely eszközök felelnek meg ezeknek, a nyílt forráskódú Decidim eszköz kiválasztásához vezetett annak technikai érettsége, széles közössége és alkalmazkodóképessége miatt.
     n8:
       org: Pipeline to Power, a NYC Civic Engagement Commission (NYC Civil Engagement Commission) munkatársa
-      quote: A Decidim részben azért olyan hatékony, mert egy absztrakciós szintet ad a munkához, amely elkülöníti a folyamat lépéseit és a folyamathoz kapcsolódó tevékenységeket. Ez az információs architektúra része, így nem csak azt mondja meg, hogy mi történik az egyes lépéseknél, hanem a Decidim különböző részei másképp viselkednek attól függően, hogy mikor mit csinál, vagy attól függően, hogy a folyamat melyik lépésénél tart. Az a tény, hogy ez testreszabható, lehetővé teszi, hogy a Decidim a munkánkhoz igazodjon, és ne a mi munkánkat formálják.
+      quote: A Decidim részben azért olyan hatékony, mert egy absztrakciós szintet ad a munkához, amely elkülöníti a folyamat lépéseit és a folyamathoz kapcsolódó tevékenységeket. Ez az információs architektúra része, így nem csak azt mondja meg, hogy mi történik az egyes lépéseknél, hanem a Decidim különböző részei másképp viselkednek attól függően, hogy mikor mit csinál, vagy attól függően, hogy a folyamat melyik lépésénél tart. Az a tény, hogy ez testreszabható, lehetővé teszi, hogy a Decidim a munkánkhoz igazodjon, és ne a mi munkánkat formálja.
   thanks:
     message: Köszönjük, hogy kapcsolatba lépett velünk, hamarosan jelentkezünk.
-    title: Köszönöm az e-mailt
+    title: Köszönjük az e-mailt
   trademark:
     examples-1:
       l1: A Decidim logó feltüntetése a termékoldalakon, hogy "a Decidimmel dolgozunk" (pl. tárhely, tanácsadási szolgáltatások, Decidim alapú fejlesztések).
@@ -505,7 +505,7 @@ hu:
       l3: A Decidim logó használata egy weboldal fejlécében, ami azt sugallja, hogy Ön a Decidim szervezet.
       title: Példák az engedélyköteles felhasználásra
     examples-3:
-      l1: Nevezze el cégét vagy termékét a Decidim után, például "The Decidim Consultants".
+      l1: Nevezze el cégét vagy termékét a Decidim után, például "Decidim tanácsadók".
       title: Példák az engedély nélküli felhasználásra
     goals:
       l1: Szeretnénk megkönnyíteni bárki számára, hogy a Decidim nevet vagy logót olyan közösségi célú erőfeszítésekhez használja, amelyek segítenek a Decidim terjesztésében és fejlesztésében.
@@ -527,9 +527,9 @@ hu:
       f4: szervezetek
       f5: résztvevők
       f6: folyamatok
-      f7: Javaslatok
+      f7: javaslatok
       f8: hozzászólások
-      f9: Találkozók
+      f9: találkozók
       subtitle: A Decidim folyamatosan növekszik, és a szervezetek és a közösség is elfogadja.
       title: Tények és számok
     filters:
@@ -537,7 +537,7 @@ hu:
       f1: Kormányzás
       f2: Városok
       f3: Nem kormányzati szervezetek
-    intro: A Decidimet használhatja állami vagy magánszervezetben, több száz vagy több ezer potenciális résztvevővel, például egy városi tanácsban, egy egyesületben, egy egyetemen, egy civil szervezetben, egy szakszervezetben, egy szomszédsági kollektívában vagy egy szövetkezetben....
+    intro: A Decidimet használhatja állami vagy magánszervezetben, több száz vagy több ezer potenciális résztvevővel, például egy önkormányzatnál, egyesületben, egyetemen, civil szervezetben, szakszervezetben vagy egy  szomszédsági tanácsban szövetkezetben....
     join: Több mint 400 szervezet, 250 kormányzati szervezet és 150 helyi közösség választotta a Decidimet demokratikus folyamataihoz.
     subtitle: Ezek a városok, régiók és szervezetek már használják a Decidim-et
-    title: Decidim használatban
+    title: A Decidim használatban
