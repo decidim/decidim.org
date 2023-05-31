@@ -288,11 +288,11 @@ pt-BR:
         title: Implementing a flexible democratic system
       card2:
         content: Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.
-        link: Social contract
+        link: Contrato social
         title: We take democracy very seriously
       card3:
         content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
-        link: The community
+        link: A comunidade
         title: It's yours. Use it. Share it. Improve it.
     hero:
       cta: Get started
@@ -300,7 +300,7 @@ pt-BR:
       subheading: Decidim is a digital platform for citizen participation
     subhero:
       cta: Explore all features
-      feature1: Strategic planning
+      feature1: Planejamento estratégico
       feature2: Processos participativos
       feature3: Reuniões
       feature4: Initiatives and citizen consultations
@@ -326,13 +326,13 @@ pt-BR:
       title: Industrial and Intellectual Property
     section-5:
       paragraph: "<p>Decidim is not responsible for third party web pages that can be accessed from the Website, nor for the accuracy, veracity and validity of the information on the Website that is not of its own elaboration. However, pursuant to article 17 of Law 34/2002, in the event that Decidim becomes aware of the unlawfulness of such content or links, it undertakes to remove or disable them, as well as, where appropriate, to block any content that may be unlawful or violate the rights of any third party, in accordance with articles 11 and 16 of the aforementioned Law.</p> <p>Furthermore, Decidim is not responsible for any damage that may occur due to failures or misconfigurations in the browser installed by the user on his computer. Decidim is not responsible for any incident or technical failure caused by the user's connection to the Internet.</p> <p>Decidim will use its best efforts to effect, in the shortest period of time, updates and corrections of errors and deficiencies, including those occurring in the access and/or connection to the Website and/or its contents, but does not warrant the absence of interruptions, errors in the connection and/or access to the Website and update of its contents.</p> <p>You are liable for your use of and access to the Website. Decidim shall not be liable for the presence of viruses nor for security errors neither for the damages that may be caused to your devices or to the files or documents stored in such devices for the access and/or connection to the Website, neither for the damages caused to third parties by means of illegal intromissions out of Decidim control.</p> <p>Decidim shall not be liable for the breach of your obligations You accept when accessing this Website which are contained in this Legal Notice and, in particular, shall not be liable for any infringement of the intellectual property rights, copyright, advertising and image rights, or any other rights with regard to the goods and rights of any third party.</p>"
-      title: Responsibility
+      title: Responsabilidade
     section-6:
       paragraph: <p>Decidim may modify this Legal Notice, the <a href="%{privacy_policy_url}">Privacy Policy</a> and/or any other text of contractual nature applicable to this Website without previous notice. Such modifications shall be effective at the moment of its publication on the Website.</p> <p>Decidim may also terminate or suspend the services of the Website at any time. Whenever is possible, Decidim will warn/alert previously about such termination or suspension through this Website.</p>
-      title: Modifications
+      title: Modificações
     section-7:
       paragraph: <p>Your personal data collected on our Website or when you contact us through the contact form or by sending an email will be treated strictly in accordance with our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
-      title: Personal Data
+      title: Dados Pessoais
     section-8:
       paragraph: <p>This Website does not use cookies. More information in our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
       title: Cookies
@@ -341,21 +341,21 @@ pt-BR:
       title: Governing law and jurisdiction
     title: Legal notice
   modules:
-    auth: Authorization
+    auth: Autorização
     community: Comunidade
-    cta: Learn how
+    cta: Saiba como
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
-    more_info: More information
-    official: Official modules
+    more_info: Mais informação
+    official: Módulos oficiais
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
     title: módulos
   nav:
-    about: About
+    about: Sobre
     academy: Academy
     association: Association
     blog: Blogue
-    close_menu: Close menu
+    close_menu: Fechar menu
     code: Código
     community: Comunidade
     contact: Contacto
@@ -367,7 +367,7 @@ pt-BR:
     donate: Donate
     faqs: FAQs
     features: Funcionalidades
-    first-steps: First steps
+    first-steps: Primeiros passos
     home: Home
     legal-notice: Legal notice
     menu: Menu
@@ -375,10 +375,10 @@ pt-BR:
     partners: Partners
     partnership-policy: Partnership policy
     press: Pressionar
-    privacy-policy: Privacy policy
+    privacy-policy: Política de privacidade
     text: Navegação
-    trademark: Trademark policy
-    use-cases: Use cases
+    trademark: Política de marca registrada
+    use-cases: Casos de uso
     used_by: Decidim em uso
   newsletter:
     past: Past newsletters
@@ -421,17 +421,17 @@ pt-BR:
         link: Download
         title: Arquivos de logotipo
       link2:
-        link: Watch
+        link: Assistir
         title: Promotional spot
       link3:
         link: Download
         title: Brochure
       link4:
-        link: To the site
+        link: Para o site
         title: Decidim Fest
       link5:
-        link: Youtube channel
-        title: Videos
+        link: Canal do YouTube
+        title: Vídeos
       link6:
         link: Zotero repository
         title: Academic papers
@@ -442,7 +442,7 @@ pt-BR:
   privacy-policy:
     section-1:
       paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
-      title: Introduction
+      title: Introdução
     section-2:
       paragraph: '<h3>a. Data collected from surfing the Website</h3> <p>When using our website, <a href="%{decidim_url}">Decidim</a> uses the services of Plausible analysis software.  Its is software that, when tracking user data, this data is kept fully and securely encrypted. The purpose of Plausible Analytics is to track general traffic trends on your website and not individual visitors. Each HTTP request sends the IP address and user agent to the server, so that''s what they use, generating an identifier that changes daily using the visitor''s IP address and user agent. To anonymise this data, it is passed through a hash function with a rotating salt. This generates a random string of letters and numbers that is used to calculate the number of unique visitors for the day. The IP address of the raw data and the user agent are never stored in the logs, databases or anywhere on Plausible analytics disk. Older salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next.   In this way, no personal user data is collected while browsing our website, for more information about the data processing by Plausible Analytics, you can visit their website at <a href="https://plausible.io/privacy-focused-web-analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Data collected from our Demo</h3> <p>The access to the <a href="%{decidim_url}">Decidim</a> platform demo, available through the Website in the URL <a href="https://try.decidim.org/">https://try.decidim.org/</a> is anonymous, since it is done through generic credentials for testing and knowledge of the operation, features and capabilities of the <a href="%{decidim_url}">Decidim</a> platform by the users. <p>Only a session cookie ("Session_id") is activated, whose purpose is to obtain or establish the session id for the current session. This cookie is strictly necessary for the technical functionality of detecting the session in the Website in order to ensure the connection through http protocols and to keep the User''s session and Web Site services available, and are exempted from User consent in accordance with Opinion 4/2012 on the exemption from the cookie consent requirement issued by the European Data Protection Authority.</p> <h3>c. Data collected from contact forms, emails or other communication means</h3> <p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p> <h3>d. Data collected from <a href="%{decidim_url}">Decidim</a> community</h3> <p><a href="%{decidim_url}">Decidim</a> uses other platforms linked to this Website  for the management of the <a href="%{decidim_url}">Decidim</a> community generated around our technology, as a meeting point for the <a href="%{decidim_url}">Decidim</a> community and where most of the activities and communications between users and <a href="%{decidim_url}">Decidim</a> take place. These platforms, such as <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> or GitHub (<a href="https://github.com/decidim/decidim">https://github.com/decidim/decidim</a>) are governed by their own terms of use and privacy policies.</p> <p>Notwithstanding, <a href="%{decidim_url}">Decidim</a> may process User''s personal data collected from these platforms for the management of the community projects developed in those platforms respectively, in particular these personal data may consist in connection data to these platforms, User profile on the platform, and the content of the comments and remarks that the User may contribute to the <a href="%{decidim_url}">Decidim</a> projects from time to time. Please note that this information may be public and, consequently, accessible and visible to other Users.</p> <h3>e. Data collected from our associate members</h3> <p>Any person or organization that wants to participate freely in the <a href="%{decidim_url}">Decidim</a> community, attending debates, collaborating in the organization of events, promoting a working group or community days, as well as contributing to the code or documentation of our free open-source participatory democracy platform, management of instances, etc., can choose to become a member of <a href="%{decidim_url}">Decidim</a>, as long as they have demonstrated sufficient commitment to the community through the realization of any of the above activities. To do so, you must complete a form to submit your application, which will be evaluated by the <a href="%{decidim_url}">Decidim</a> Coordination Committee.</p> <p>The processing of <a href="%{decidim_url}">Decidim</a> members'' personal data is carried out for the purpose of managing the aforementioned projects and activities in which the associate member participates, accounting management of membership fees and, in general, the governance of projects and activities of <a href="%{decidim_url}">Decidim</a>, in order to ensure compliance with the <a href="%{decidim_url}">Decidim</a>''s principles and values as well as the associates'' duties and rights.</p>'
       title: Personal data we collect about you and how we use it
@@ -460,11 +460,11 @@ pt-BR:
       title: Security measures
     section-7:
       paragraph: '<p>You have rights under data protection laws in relation to your personal data. Specifically, you have the right to: </p> <ul> <li><b>Request access</b> to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</li> <li><b>Request correction</b> of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</li> <li><b>Request erasure</b> of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</li> <li><b>Object to processing</b> of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</li> <li><b>Request restriction of processing</b> of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data''s accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</li> <li><b>Request the transfer</b> of your personal data to you or to a third party (right to data portability). We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</li> <li><b>Withdraw consent at any time</b> where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</li> </ul> <p>The aforementioned rights may be effective by contacting us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>. <p>You also have the right to make any complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spain.'
-      title: Your rights
+      title: Seus direitos
     section-8:
       paragraph: "<p>We reserve the right to amend the terms of this Privacy Policy and will notify you by providing a clear notice of these changes by email or on our Website, and in this Privacy Policy. If you continue to use our services after such update, you will be deemed to accept the new terms. If you do not accept the update, please terminate your account or notify us and we will terminate your Account and remove any of your personal data (except as required to be maintained for legal purposes), and you will not be able to continue to use our services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>"
       title: General
-    title: Privacy policy
+    title: Política de privacidade
   testimonials:
     n1:
       org: Salão da Cidade do Barcelona (2015-2019)
@@ -516,7 +516,7 @@ pt-BR:
     p3: 'We have developed this trademark usage policy with the following goals in mind:'
     p4: You can request permission by emailing associacio@decidim.org.
     p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
-    title: Trademark policy
+    title: Política de marca registrada
   used_by:
     cta: Get started
     disclaimer: Os logotipos são propriedade intelectual de seus respectivos detentores de direitos autorais.<br>Eles não estão sob a licença Creative Commons By-SA com a qual o resto do conteúdo do site está licenciado.
