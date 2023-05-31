@@ -25,7 +25,7 @@ pt-BR:
       v6: Transparência, rastreabilidade e integridade
       v7: Melhorias e colaboração contínuas entre organizações
     values_cta: Leia o contrato social
-    values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
+    values_intro: "<p>Desde o início, o Decidim tem um contrato social que inclui os valores do projeto.</p><p>Todos os membros da Decidim Free Software Association se comprometem a respeitar este contrato.</p>"
     values_title: Nossos valores
   alert:
     button: Junte-se
@@ -41,19 +41,19 @@ pt-BR:
   case_study:
     n1:
       org: Cidade de Helsínquia
-      quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
+      quote: Avaliamos sete tipos diferentes de opções de orçamento participativo para encontrar a plataforma certa para apoiar o processo de Helsínquia com uma interface fácil de usar e modularidade necessária para diferentes tipos de necessidades. O Decidim venceu a avaliação e as primeiras instâncias foram construídas em 2018.
     n2:
-      org: Code for Japan
-      quote: Decidim provides customize-friendly architecture so that we can adapt it to our domestic situation.
+      org: Programe para o Japão
+      quote: O Decidim fornece uma arquitetura amigável para a personalização para podermos adaptá-la à nossa situação interna.
     n3:
       org: Comissão Europeia
-      quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
+      quote: A plataforma digital foi lançada em 19 de abril de 2021 e esteve aberta a contribuições até 9 de maio de 2022. Durante este período, foram apresentadas 18 859 ideias e 22 167 comentários e foram organizados 6 661 eventos. As contribuições recolhidas através da plataforma digital foram tidas em conta pelos Painéis de Cidadãos Europeus e debatidos e discutidos na Conferência Plenária - os outros dois principais pilares da Conferência.
   community:
-    community1: Propose and help define new features
-    community2: Report bugs and help the developers fix them
-    community3: Help shape the future of the platform
+    community1: Propor e ajudar a definir novos recursos
+    community2: Relate erros e ajude os desenvolvedores a corrigi-los
+    community3: Ajude a moldar o futuro da plataforma
     cta: Ir para Metadecidim
-    figcaption: The Decidim Community during the Decidim Fest 2021
+    figcaption: A Comunidade Decidim durante o Decidim Fest 2021
     img_alt: Foto da Comunidade Decidim na reunião de Metadecidim 2016
     intro: Metadecidim é uma comunidade que colabora no design da plataforma e na construção do projeto. Juntos nós podemos projetar e desenvolver novos recursos e relatar bugs para a melhoria contínua da plataforma.
     subtitle: Uma comunidade democrática que gerencia o projeto Decidim em todas as suas dimensões
@@ -67,8 +67,8 @@ pt-BR:
       accept: Eu aceito a <a href="%{privacy_policy_url}">Política de Privacidade</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
     send: Enviar mensagem
-    subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Contact Decidim
+    subtitle: Se desejar entrar em contato, preencha o formulário de contato ou envie um e-mail para
+    title: Contatar Decidim
   demo:
     button: Demonstração online
     p1: Jogue por aí e explore livremente a plataforma Decidim com a nossa demonstração online.
@@ -85,19 +85,19 @@ pt-BR:
         question: Quem está usando o Decidim atualmente?
       q03:
         answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
-        question: What can a Decidim administrator do?
+        question: O que um administrador do Decidim pode fazer?
       q04:
-        answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
-        question: What can a participant (user) of Decidim do?
+        answer: O Decidim possibilita que milhares de pessoas se organizem democraticamente, apresentando propostas, participando de reuniões públicas, fomentando discussões para tomada de decisão, decidindo através diferentes formas de votação e acompanhando a implementação das decisões.
+        question: O que um participante (usuário) do Decidim pode fazer?
       q05:
-        answer: Yes, we have an [online demo](/demo).
-        question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
+        answer: Sim, temos uma [demonstração online](/demo).
+        question: Você tem uma demonstração? Quero usar o Decidim agora, sem instalar, para ver como funciona.
       q06:
-        answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
-        question: How often is the platform updated?
+        answer: Lançamos uma nova versão aproximadamente a cada mês. Veja o [registro de versões](https://github.com/decidim/decidim/releases).
+        question: Com que frequência a plataforma é atualizada?
       q07:
         answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
-        question: What do I need to install Decidim?
+        question: O que preciso para instalar o Decidim?
       q08:
         answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
         question: Where can I find the project roadmap and the planned features?
