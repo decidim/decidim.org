@@ -49,7 +49,7 @@ pt-BR:
       org: Comissão Europeia
       quote: A plataforma digital foi lançada em 19 de abril de 2021 e esteve aberta a contribuições até 9 de maio de 2022. Durante este período, foram apresentadas 18 859 ideias e 22 167 comentários e foram organizados 6 661 eventos. As contribuições recolhidas através da plataforma digital foram tidas em conta pelos Painéis de Cidadãos Europeus e debatidos e discutidos na Conferência Plenária - os outros dois principais pilares da Conferência.
   community:
-    community1: Propor e ajudar a definir novos recursos
+    community1: Propor e ajudar a definir novas funcionalidades
     community2: Relate erros e ajude os desenvolvedores a corrigi-los
     community3: Ajude a moldar o futuro da plataforma
     cta: Ir para Metadecidim
@@ -99,29 +99,29 @@ pt-BR:
         answer: Instalar o Decidim é fácil, mas você precisa de alguns conhecimentos e requisitos técnicos. Consulte a [documentação para instalação do Decidim](https://docs.decidim.org/en/install/).
         question: O que preciso para instalar o Decidim?
       q08:
-        answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
-        question: Where can I find the project roadmap and the planned features?
+        answer: Você pode encontrar o [roadmap de novas funcionalidades do projeto no GitHub](https://github.com/decidim/decidim/projects/16).
+        question: Onde posso encontrar o roadmap do projeto e as funcionalidades planejadas?
       q09:
         answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
         question: What does it mean that Decidim is for free, "libre" and open source?
       q10:
-        answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report). If you want to actively participate in the Metadecidim community, you can attend Community Meetings. Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-        question: I have ideas for new improvement features. I want to have a better understanding of the project. What can I do?
+        answer: Você pode colaborar de várias maneiras. Uma delas é através da comunidade [Metadecidim](http://meta.decidim.org). Se quiser propor novas funcionalidades, [acesse aqui](https://meta.decidim.org/processes/roadmap). Se você detectou erros e deseja notificá-los, [acesse este processo](https://meta.decidim.org/processes/bug-report). Se você deseja participar ativamente da comunidade Metadecidim, pode participar das Reuniões Comunitárias. Registre-se como um participante da comunidade e participe conosco. Se você gosta de código, [venha para o Github](https://github.com/decidim/decidim). Se você é um pesquisador, pode estar interessado em vir aos [Seminários LAB Metadecidim](https://meta.decidim.org/assemblies/eix-lab).
+        question: Eu tenho ideias para novas funcionalidades de melhoria. Eu quero ter uma melhor compreensão do projeto. O que posso fazer?
       q11:
         answer: The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en) and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the [contact form](/contact).
         question: I have many doubts, of all kinds...where can I ask them or solve them?
       q12:
         answer: You can check the latest version of our admin manual in the [Documentation section](https://docs.decidim.org).
-        question: Is there any tutorial to start setting it up?
+        question: Há algum tutorial para começar a configurar?
       q13:
-        answer: That's how we call our Code of Democratic Guarantees and Democratic Collaboration. All members of the community must endorse the [Social Contract](http://decidim.org/contract).
-        question: What is the Social Contract?
+        answer: É assim que chamamos nosso Código de Garantias Democráticas e Colaboração Democrática. Todos os membros da comunidade devem endossar o [Contrato Social](http://decidim.org/contract).
+        question: O que é o Contrato Social?
       q14:
-        answer: 'There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.'
+        answer: 'Existem muitas diferenças: funcionalidades, flexibilidade, arquitetura, modularidade, etc. Temos uma [postagem publicada](/blog/2019-01-14-consul-comparison/) para tentar responder a esta pergunta.'
         question: What are the differences with Consul Project / Decide Madrid?
       q15:
         answer: "[Metadecidim](http://meta.decidim.org) is the community of Decidim that collaborates in the design of the platform and the construction of the Decidim project. We meet regularly through the Community Meetings, for issues related to the technological aspects of the platform and the Labs witc are [Research](https://meta.decidim.org/assemblies/eix-lab) oriented meetings. Our annual conference is Decidim Fest. Go to [meta.decidim.org](http://meta.decidim.org) to follow the calls closely and if you want to join the community. We'd love to ;-)"
-        question: What is the Metadecidim community?
+        question: O que é a comunidade Metadecidim?
       q16:
         answer: Of course you can. People do so through participatory processes, debates, translations, etc. that you might find in Metadecidim. Decidim was born in Barcelona and that is why there is a strong territorial bond with this city, but above all, it's a project for the commons.
         question: Can I join the Metadecidim community even if I don't live in Barcelona?
@@ -153,21 +153,21 @@ pt-BR:
     title: FAQs
     types:
       about: Sobre o Decidim
-      association: Association
+      association: Associação
       community: Community and social contract
-      features: Roadmap and features
-      install: Installation and license
-      installation: Installation and license
-      users: Users and roles
+      features: Roadmap e funcionalidades
+      install: Instalação e licença
+      installation: Instalação e licença
+      users: Usuários e funções
   features:
     intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
       feature1:
-        subtitle: To democratize common issues, step by step
+        subtitle: Democratizar problemas comuns, passo a passo
         text: 'Processos é um espaço que permite criar, ativar/desativar e gerenciar vários processos participativos. Eles se distinguem de outros espaços por serem estruturados em diferentes fases dentro das quais todos os componentes podem ser incorporados. Exemplos de processos participativos são: um processo eleitoral para os membros de uma comissão, orçamento participativo, um processo de planejamento estratégico. a redacção colaborativa de um regulamento ou norma, a concepção de um espaço urbano ou a elaboração de um plano de política pública.'
         title: Processos participativos
       feature10:
-        subtitle: To analyze, synthesize, and build in common
+        subtitle: Analisar, sintetizar e construir em comum
         text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
         title: Textos participativos
       feature11:
@@ -199,19 +199,19 @@ pt-BR:
         text: Send emails to everyone registered in the platform or to those who participate in a specific space.
         title: Boletim Informativo
       feature2:
-        subtitle: The power of collective self-organization
+        subtitle: O poder da auto-organização coletiva
         text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
         title: Reuniões
       feature3:
-        subtitle: The right to decide with all democratic guarantees
+        subtitle: O direito de decidir com todas as garantias democráticas
         text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
-        title: Votings
+        title: Votações
       feature4:
-        subtitle: Setting everyone's agenda, within everyone's reach
+        subtitle: Definindo a agenda de todos, ao alcance de todos
         text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
         title: Iniciativas
       feature5:
-        subtitle: Your ideas in detail
+        subtitle: Suas ideias detalhadamente
         text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Propostas
       feature6:
@@ -219,25 +219,25 @@ pt-BR:
         text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Votação
       feature7:
-        subtitle: No proposal without an answer
+        subtitle: Nenhuma proposta sem uma resposta
         text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Resultados
       feature8:
-        subtitle: End-to-end transparency
+        subtitle: Transparência ponta-a-ponta
         text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Responsabilidade
       feature9:
-        subtitle: To meet and not miss anything
+        subtitle: Para conhecer e não perder nada
         text: O componente de reunião oferece a organizações e participantes a oportunidade de convocar reuniões, determinar sua localização e hora registar e limitar os participantes, definir a estrutura e o conteúdo da reunião, bem como publicar as actas e as propostas resultantes.
         title: Encontros
-    subtitle: For democratic organizations and collectives of any size and kind.
+    subtitle: Para organizações e coletivos democráticos de qualquer tamanho e tipo.
     title: Funcionalidades
     type1:
       title: Espaços de participação
     type2:
       title: Componentes
     type3:
-      cta: Explore the modules
+      cta: Explorar os módulos
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
       title: módulos
   first-steps:
@@ -253,13 +253,13 @@ pt-BR:
       title: The right tool for you
     first-steps3:
       content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
-      link1: Find a partner
-      pre: For governments
-      title: Decidim in your city
+      link1: Encontre um parceiro
+      pre: Para os governos
+      title: Decidim na sua cidade
     intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
     section2:
-      link: Explore all features
-      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
+      link: Explorar todos as funcionalidades
+      subtitle: As funcionalidades flexíveis do Decidim são projetadas para atender tanto pequenos como grandes coletivos, organizações públicas e privadas, com centenas ou milhares de usuários em potencial.
       title: Is Decidim the right tool for you?
     section3:
       cta: Read more case studies on our blog
@@ -267,15 +267,15 @@ pt-BR:
       title: Backed by technology, democracy and experience
     section4:
       button1: About the association
-      button2: Join the community
+      button2: Participe da comunidade
       intro: The <strong>Decidim Free Software Association</strong>  is a democratic association for the governance of the Decidim community.
       subtitle: "<strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform."
-      title: Who’s behind the platform?
+      title: Quem está por trás da plataforma?
     subtitle: Decidim is a digital platform<br/>for citizen participation
-    title: First steps with Decidim
+    title: Primeiros passos com o Decidim
   footer:
-    about_us: About us
-    follow_us: Follow us on social media
+    about_us: Quem somos
+    follow_us: Nos acompanhe nas redes sociais
     legal: Legal
     supported_by: Supported by
     trademark: O nome e o logotipo do Decidim são marcas registradas da Associació de Software Lliure Decidim.
@@ -284,7 +284,7 @@ pt-BR:
     cards:
       card1:
         content: We can help configure a system of democratic governance in all kinds of organizations.
-        link: Our features
+        link: Nossos recursos
         title: Implementing a flexible democratic system
       card2:
         content: Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.
@@ -293,19 +293,19 @@ pt-BR:
       card3:
         content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
         link: A comunidade
-        title: It's yours. Use it. Share it. Improve it.
+        title: É seu. Use. Compartilhe. Melhore.
     hero:
       cta: Get started
       intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
       subheading: Decidim is a digital platform for citizen participation
     subhero:
-      cta: Explore all features
+      cta: Explorar todos as funcionalidades
       feature1: Planejamento estratégico
       feature2: Processos participativos
       feature3: Reuniões
       feature4: Initiatives and citizen consultations
-      feature5: Participatory budgeting
-      feature6: Networked communication
+      feature5: Orçamento participativo
+      feature6: Comunicação em rede
       intro: O programa Decidim ajuda os cidadãos, as organizações e as instituições públicas a organizarem-se democraticamente em todas as dimensões.
     used_by:
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
@@ -353,7 +353,7 @@ pt-BR:
   nav:
     about: Sobre
     academy: Academy
-    association: Association
+    association: Associação
     blog: Blogue
     close_menu: Fechar menu
     code: Código
@@ -368,7 +368,7 @@ pt-BR:
     faqs: FAQs
     features: Funcionalidades
     first-steps: Primeiros passos
-    home: Home
+    home: Início
     legal-notice: Legal notice
     menu: Menu
     modules: módulos
