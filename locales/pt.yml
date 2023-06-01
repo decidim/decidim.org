@@ -37,7 +37,7 @@ pt-BR:
     subtitle: Últimas notícias do Decidim.
     tags:
       title: Artigos com a tag
-    title: Blogue
+    title: Blog
   case_study:
     n1:
       org: Cidade de Helsínquia
@@ -177,7 +177,7 @@ pt-BR:
       feature12:
         subtitle: Porque a opinião da sua comunidade é importante
         text: Elaborar e publicar pesquisas. Exibir e baixar resultados.
-        title: Inquéritos
+        title: pesquisas
       feature13:
         subtitle: Igualdade e justiça de aleatoriedade
         text: Permite selecionar um número de propostas (por exemplo, candidatos a um júri) com procedimentos aleatórios, mas reproduzíveis, que garantem distribuições não tendenciosas e uniformes.
@@ -188,10 +188,10 @@ pt-BR:
         title: Comentários
       feature15:
         subtitle: Sua comunidade, informada e atualizada
-        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
+        text: Crie páginas informativas com formatação rich text, imagens e vídeos incorporados. O componente blog possibilita a criação de posts ou notícias, e navegar por eles cronologicamente.
         title: Páginas e blogs
       feature16:
-        subtitle: Personalised information on interesting content
+        subtitle: Informação personalizada sobre conteúdos de interesse
         text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
         title: Notificações
       feature17:
@@ -201,7 +201,7 @@ pt-BR:
       feature2:
         subtitle: O poder da auto-organização coletiva
         text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
-        title: Reuniões
+        title: Assembleias
       feature3:
         subtitle: O direito de decidir com todas as garantias democráticas
         text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
@@ -225,15 +225,15 @@ pt-BR:
       feature8:
         subtitle: Transparência ponta-a-ponta
         text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
-        title: Responsabilidade
+        title: Prestação de contas
       feature9:
         subtitle: Para conhecer e não perder nada
         text: O componente de reunião oferece a organizações e participantes a oportunidade de convocar reuniões, determinar sua localização e hora registar e limitar os participantes, definir a estrutura e o conteúdo da reunião, bem como publicar as actas e as propostas resultantes.
-        title: Encontros
+        title: Reuniões
     subtitle: Para organizações e coletivos democráticos de qualquer tamanho e tipo.
     title: Funcionalidades
     type1:
-      title: Espaços de participação
+      title: Espaços para participação
     type2:
       title: Componentes
     type3:
@@ -302,7 +302,7 @@ pt-BR:
       cta: Explorar todos as funcionalidades
       feature1: Planejamento estratégico
       feature2: Processos participativos
-      feature3: Reuniões
+      feature3: Assembleias
       feature4: Initiatives and citizen consultations
       feature5: Orçamento participativo
       feature6: Comunicação em rede
@@ -354,11 +354,11 @@ pt-BR:
     about: Sobre
     academy: Academy
     association: Associação
-    blog: Blogue
+    blog: Blog
     close_menu: Fechar menu
     code: Código
     community: Comunidade
-    contact: Contacto
+    contact: Contato
     contract: Contrato social
     demo: Demonstração
     docs:
