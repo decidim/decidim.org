@@ -337,18 +337,18 @@ pt-BR:
       paragraph: <p>This Website does not use cookies. More information in our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
       title: Cookies
     section-9:
-      paragraph: '<p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>'
-      title: Governing law and jurisdiction
+      paragraph: '<p>Nossos Textos Legais, incluindo essa Nota Legal e nossa <a href="%{privacy_policy_url}">Política de Privacidade</a>, são regidos pela lei espanhola. Os tribunais da cidade de Barcelona serão competentes para decidir qualquer litígio resultante da utilização de nosso site.</p> <p><b>Última atualização</b>: Fevereiro 2022.</p>'
+      title: Lei aplicável e jurisdição
     title: Legal notice
   modules:
     auth: Autorização
     community: Comunidade
     cta: Saiba como
-    develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
+    develop: Desenvolva seus próprios módulos para expandir a plataforma além do básico e atender às suas necessidades.
     more_info: Mais informação
     official: Módulos oficiais
     placeholder: Pesquisar...
-    subtitle: By using modules you can extend the functionality of Decidim and share it with others.
+    subtitle: Ao usar módulos, você pode estender a funcionalidade do Decidim e compartilhá-la com outros.
     title: módulos
   nav:
     about: Sobre
@@ -372,8 +372,8 @@ pt-BR:
     legal-notice: Legal notice
     menu: Menu
     modules: módulos
-    partners: Partners
-    partnership-policy: Partnership policy
+    partners: Parceiros
+    partnership-policy: Política de parceria
     press: Pressionar
     privacy-policy: Política de privacidade
     text: Navegação
@@ -381,16 +381,16 @@ pt-BR:
     use-cases: Casos de uso
     used_by: Decidim em uso
   newsletter:
-    past: Past newsletters
-    subtitle: News and updates about the Decidim platform and the community.
+    past: Boletins anteriores
+    subtitle: Notícias e atualizações sobre a plataforma Decidim e a comunidade.
     title: Boletim Informativo
   partners:
     intro: Os logotipos dos parceiros são propriedade intelectual de seus respectivos detentores de direitos autorais. Eles não se enquadram na <a href="https://creativecommons.org/licenses/by-sa/4.0/">licença Creative Commons By-SA</a> com a qual o restante do conteúdo do site está licenciado.
-    link: See Decidim's partnership policy
-    subtitle: These entities and organizations collaborate with Decidim.
-    title: Partners
+    link: Ver política de parceria do Decidim
+    subtitle: Essas entidades e organizações colaboram com o Decidim.
+    title: Parceiros
     type:
-      provider: Service providers
+      provider: Provedores de serviço
       public: Public institutions
       technology: Technology partners
   partnership-policy:
@@ -411,7 +411,7 @@ pt-BR:
       p2: You can read in detail in the <a href="%{metadecidim_partners_url}">Metadecidim assembly</a>.
       title: Which requirements does my organization need to meet to become a partner?
     subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
-    title: Partnership policy
+    title: Política de parceria
   path: ''
   press:
     highlights: Media highlights
