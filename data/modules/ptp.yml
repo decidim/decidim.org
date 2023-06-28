@@ -1,0 +1,14 @@
+title: Ptp
+url: https://github.com/Pipeline-to-Power/decidim-module-ptp
+description: >-
+  Modules consisting of tweaks for North American PB Voting. A Decidim module
+  that encapsulates following capabilities:
+
+  1. decidim-budgets_booth module, which overrides the voting process.
+
+  2. decidim-l10n module, that provides different formats for dates and times.
+
+  3. decidim-sms-twilio module, which provides Twilio SMS integration.
+
+  4. decidim-smsauth module, that provides SMS based authentication implementation.
+type: community
