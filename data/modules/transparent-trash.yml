@@ -1,0 +1,10 @@
+title: Transparent Trash
+url: https://github.com/OpenSourcePolitics/decidim-module-transparent_trash
+description: >-
+  Module implements a new space in Decidim initiatives index where initiatives
+  marked as Invalidated and Illegal are accessible. These previous states are
+  only available with this module.
+
+
+  This feature requires to extend components like commands, controllers, permission and views of the decidim-initiatives engine. It may occur unexpected behaviours, an exhaustive list of overrides is available.
+type: community
