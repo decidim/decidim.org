@@ -1,0 +1,10 @@
+title: Oddoo
+url: https://github.com/Platoniq/decidim-module-oddoo
+image: /uploads/module-odoo.svg
+description: >-
+  A Decidim module to sync Oddoo users who connect to the platform using
+  Keycloak OpenID OAuth.
+
+
+  This module allows the user to sign up in Decidim using the Oddoo data.
+type: auth
