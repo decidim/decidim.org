@@ -339,7 +339,7 @@ pt-BR:
     section-9:
       paragraph: '<p>Nossos Textos Legais, incluindo essa Nota Legal e nossa <a href="%{privacy_policy_url}">Política de Privacidade</a>, são regidos pela lei espanhola. Os tribunais da cidade de Barcelona serão competentes para decidir qualquer litígio resultante da utilização de nosso site.</p> <p><b>Última atualização</b>: Fevereiro 2022.</p>'
       title: Lei aplicável e jurisdição
-    title: Legal notice
+    title: Notificação legal
   modules:
     auth: Autorização
     community: Comunidade
@@ -352,7 +352,7 @@ pt-BR:
     title: módulos
   nav:
     about: Sobre
-    academy: Academy
+    academy: Academia
     association: Associação
     blog: Blog
     close_menu: Fechar menu
@@ -369,7 +369,7 @@ pt-BR:
     features: Funcionalidades
     first-steps: Primeiros passos
     home: Início
-    legal-notice: Legal notice
+    legal-notice: Notificação legal
     menu: Menu
     modules: módulos
     partners: Parceiros
@@ -391,41 +391,41 @@ pt-BR:
     title: Parceiros
     type:
       provider: Provedores de serviço
-      public: Public institutions
-      technology: Technology partners
+      public: Instituições públicas
+      technology: Parceiros de tecnologia
   partnership-policy:
     explanation:
       p1: Manter o Decidim requer tempo e recursos. Várias tarefas precisam ser realizadas, como revisar contribuições, triagem de problemas, corrigir bugs, escrever documentação e responder a dúvidas gerais compartilhadas pela comunidade. Qualquer organização (empresa, associação ou coletivo) que pretenda tornar-se Sócio do Decidim compromete-se a contribuir para a Associação Decidim com uma taxa reduzida de 3% do rendimento anual gerado pelas atividades do Decidim. No caso de organizações sem fins lucrativos, essa taxa é de 1,5%.
       p2: Cada parceiro da Decidim ficará publicamente visível no <a href="%{main_website_url}">site principal do Decidim</a> e na <a href="%{readme_url}">página README do projeto no GitHub</a>. Além disso, a Associação Decidim recomendará Parceiros Decidim em nossas palestras e conversas por e-mail sobre a prestação de serviços com o Decidim.
-      p3: To support recently incorporated organizations, Decidim Partners will be exempted from contributing economically during their first year to first develop their business plan with Decidim. In the meantime, we recommend that Decidim Partners find other ways to contribute to the project (such as with bug reporting, documentation, participation and support in community activities, etc.).
+      p3: Para apoiar as organizações recém-constituídas, os Parceiros do Decidim estarão isentos de contribuir economicamente durante o primeiro ano para desenvolver o seu plano de negócios com o Decidim. Enquanto isso, recomendamos que os Parceiros do Decidim encontrem outras formas de contribuir com o projeto (como reportar bugs, documentação, participação e apoio em atividades da comunidade, etc.).
     how_to:
       steps:
-        step1: Send an email to associacio [at] decidim [dot] org with your contact information and indicate in the subject I want to become a Decidim Partner.
-        step2: We will contact you for a videoconference to then assess the candidacy.
-        step3: If the candidacy is approved, the Coordination Committee will yearly send you a sworn declaration to be filled and sent back with the receipt of the corresponding bank transfer.
-      title: How to become a Decidim Partner?
+        step1: Envie um email para associacio [at] decidim [dot] org com os seus dados de contato e indique no assunto "Quero ser Parceiro do Decidim".
+        step2: Entraremos em contato para uma videoconferência para então avaliar a candidatura.
+        step3: Se a candidatura for aprovada, a Comissão de Coordenação lhe enviará anualmente uma declaração juramentada para ser preenchida e devolvida com o recibo da respectiva transferência bancária.
+      title: Como se tornar um Parceiro Decidim?
     requirements:
-      l1: Management of instances. Manage one or more active facilities of Decidim at the time of the application, for the own use of the entity or third parties.
-      l2: Contributions to the project. Contribute or have contributed significantly to the Decidim project.
-      p1: 'You have to agree to fulfill and sign the <a href="%{social_contract_url}">Social Contract</a> and also fulfill any of the following conditions can be members:'
-      p2: You can read in detail in the <a href="%{metadecidim_partners_url}">Metadecidim assembly</a>.
-      title: Which requirements does my organization need to meet to become a partner?
-    subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
+      l1: Gerenciamento de instâncias. Gerencie uma ou mais instalações ativas do Decidim no momento da candidatura, para uso próprio da entidade ou de terceiros.
+      l2: Contribuições ao projeto. Contribua ou tenha contribuído significativamente para o projeto Decidim.
+      p1: 'Você tem que concordar em cumprir e assinar o <a href="%{social_contract_url}">Contrato Social</a> e também cumprir qualquer uma das seguintes condições pode ser um membro:'
+      p2: Você pode ler em detalhes na <a href="%{metadecidim_partners_url}">assembleia Metadecidim</a>.
+      title: Quais requisitos minha organização precisa para se tornar um parceiro?
+    subtitle: Se sua organização quiser apoiar o Decidim, você poderá se tornar um Parceiro Decidim.
     title: Política de parceria
   path: ''
   press:
-    highlights: Media highlights
-    kit: Press kit
+    highlights: Destaques da mídia
+    kit: Kit de imprensa
     links:
       link1:
         link: Download
         title: Arquivos de logotipo
       link2:
         link: Assistir
-        title: Promotional spot
+        title: Ponto promocional
       link3:
         link: Download
-        title: Brochure
+        title: Panfleto
       link4:
         link: Para o site
         title: Decidim Fest
@@ -433,37 +433,37 @@ pt-BR:
         link: Canal do YouTube
         title: Vídeos
       link6:
-        link: Zotero repository
-        title: Academic papers
-    sign_up: Sign up for our newsletter on Metadecidim
-    social_media: Find us on social media
-    subtitle: For media enquiries, please send us an email at
+        link: Repositório Zotero
+        title: Artigos acadêmicos
+    sign_up: Inscreva-se no nosso boletim informativo no Metadecidim
+    social_media: Encontre-nos nas redes sociais
+    subtitle: Para consultas de mídia, por favor envie-nos um e-mail em
     title: Pressionar
   privacy-policy:
     section-1:
-      paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" or “we/us”) is the owner of this website, available through the web domain <a href="https://decidim.org/">https://decidim.org/</a> (hereinafter, the "Website"), and acts as data controller for the processing of personal data of all users of the Website (“You/r”, the “User”).</p> <p><a href="%{decidim_url}">Decidim</a> is committed to protecting the privacy of all Users of the Website, its associate members and members of the <a href="%{decidim_url}">Decidim</a> community. This Privacy Policy explains our practices regarding the use of personal data collected through the Website, including the demo of our free open-source participatory democracy platform, as well as the processing of data of individuals associated with <a href="%{decidim_url}">Decidim</a> and the management of the <a href="%{decidim_url}">Decidim</a> community, either on this Website or on other platforms managed by <a href="%{decidim_url}">Decidim</a>.</p> <p>This Privacy Policy is part of our Legal Texts together with the <a href="%{legal_notice_url}">Legal Notice</a>.</p>
+      paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>" ou "nós") é o proprietário deste site, disponível através do domínio web <a href="https://decidim.org/">https://decidim.org/</a> (aqui após o "Site"), e atua como controlador de dados para o processamento de dados pessoais de todos os usuários do site (“Você”, o “Usuário”).</p> <p><a href="%{decidim_url}">Decidim</a> está comprometido com a proteção da privacidade de todos os Usuários do Site, seus membros associados e membros da comunidade <a href="%{decidim_url}">Decidim</a>. Esta Política de Privacidade explica nossas práticas com relação ao uso de dados pessoais coletados pelo Site, incluindo a demonstração da nossa plataforma de democracia participativa de código aberto gratuito, bem como o processamento de dados de indivíduos associados ao <a href="%{decidim_url}">Decidim</a> e o gerenciamento das comunidades <a href="%{decidim_url}">Decidim</a>, ou neste site ou em outras plataformas gerenciadas pelo <a href="%{decidim_url}">Decidim</a>.</p> <p>Esta Política de Privacidade faz parte de nossos Textos Jurídicos, juntamente com o <a href="%{legal_notice_url}">Aviso Legal</a>.</p>
       title: Introdução
     section-2:
       paragraph: '<h3>a. Data collected from surfing the Website</h3> <p>When using our website, <a href="%{decidim_url}">Decidim</a> uses the services of Plausible analysis software.  Its is software that, when tracking user data, this data is kept fully and securely encrypted. The purpose of Plausible Analytics is to track general traffic trends on your website and not individual visitors. Each HTTP request sends the IP address and user agent to the server, so that''s what they use, generating an identifier that changes daily using the visitor''s IP address and user agent. To anonymise this data, it is passed through a hash function with a rotating salt. This generates a random string of letters and numbers that is used to calculate the number of unique visitors for the day. The IP address of the raw data and the user agent are never stored in the logs, databases or anywhere on Plausible analytics disk. Older salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next.   In this way, no personal user data is collected while browsing our website, for more information about the data processing by Plausible Analytics, you can visit their website at <a href="https://plausible.io/privacy-focused-web-analytics">https://plausible.io/privacy-focused-web-analytics</a></p> <h3>b. Data collected from our Demo</h3> <p>The access to the <a href="%{decidim_url}">Decidim</a> platform demo, available through the Website in the URL <a href="https://try.decidim.org/">https://try.decidim.org/</a> is anonymous, since it is done through generic credentials for testing and knowledge of the operation, features and capabilities of the <a href="%{decidim_url}">Decidim</a> platform by the users. <p>Only a session cookie ("Session_id") is activated, whose purpose is to obtain or establish the session id for the current session. This cookie is strictly necessary for the technical functionality of detecting the session in the Website in order to ensure the connection through http protocols and to keep the User''s session and Web Site services available, and are exempted from User consent in accordance with Opinion 4/2012 on the exemption from the cookie consent requirement issued by the European Data Protection Authority.</p> <h3>c. Data collected from contact forms, emails or other communication means</h3> <p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p> <h3>d. Data collected from <a href="%{decidim_url}">Decidim</a> community</h3> <p><a href="%{decidim_url}">Decidim</a> uses other platforms linked to this Website  for the management of the <a href="%{decidim_url}">Decidim</a> community generated around our technology, as a meeting point for the <a href="%{decidim_url}">Decidim</a> community and where most of the activities and communications between users and <a href="%{decidim_url}">Decidim</a> take place. These platforms, such as <a href="https://meta.decidim.org/">https://meta.decidim.org/</a> or GitHub (<a href="https://github.com/decidim/decidim">https://github.com/decidim/decidim</a>) are governed by their own terms of use and privacy policies.</p> <p>Notwithstanding, <a href="%{decidim_url}">Decidim</a> may process User''s personal data collected from these platforms for the management of the community projects developed in those platforms respectively, in particular these personal data may consist in connection data to these platforms, User profile on the platform, and the content of the comments and remarks that the User may contribute to the <a href="%{decidim_url}">Decidim</a> projects from time to time. Please note that this information may be public and, consequently, accessible and visible to other Users.</p> <h3>e. Data collected from our associate members</h3> <p>Any person or organization that wants to participate freely in the <a href="%{decidim_url}">Decidim</a> community, attending debates, collaborating in the organization of events, promoting a working group or community days, as well as contributing to the code or documentation of our free open-source participatory democracy platform, management of instances, etc., can choose to become a member of <a href="%{decidim_url}">Decidim</a>, as long as they have demonstrated sufficient commitment to the community through the realization of any of the above activities. To do so, you must complete a form to submit your application, which will be evaluated by the <a href="%{decidim_url}">Decidim</a> Coordination Committee.</p> <p>The processing of <a href="%{decidim_url}">Decidim</a> members'' personal data is carried out for the purpose of managing the aforementioned projects and activities in which the associate member participates, accounting management of membership fees and, in general, the governance of projects and activities of <a href="%{decidim_url}">Decidim</a>, in order to ensure compliance with the <a href="%{decidim_url}">Decidim</a>''s principles and values as well as the associates'' duties and rights.</p>'
-      title: Personal data we collect about you and how we use it
+      title: Dados pessoais que coletamos e como os usamos
     section-3:
       paragraph: <p>The legal basis of our processing of personal data are the following:</p> <ul> <li>The processing of Users and associate data is necessary to perform the contract, consisting in the Users acceptance of the Legal Text of the Website, in order to provide them all the information about <a href="%{decidim_url}">Decidim</a> and its technology, projects and activities, as well as to allow them participating in the projects and activities carried out by <a href="%{decidim_url}">Decidim</a>.</li> <li>We may also process your personal data when you give us express consent to make publications about <a href="%{decidim_url}">Decidim</a> projects and activities in which you have participated, press releases or other forms of communication and dissemination of <a href="%{decidim_url}">Decidim</a>'s activities, as well as to receive particular information on a regular basis and/or when you contact us through the website contact form or by e-mail. </li> <li>Additionally, we may process your data on our legitimate interest to perform statistical studies or other knowledge generation techniques, implementing pseudonymization and, if possible, anonymization measures, such as data aggregation, in order to protect the privacy of Users, in accordance with art. 89 GDPR.</li> </ul> <p>In certain circumstances, we may process your data in accordance with this policy to comply with a legal or regulatory obligation to which we are subject.</p>
-      title: Legal basis
+      title: Base legal
     section-4:
       paragraph: '<p>We process your personal data confidentially in accordance with the applicable legislation. Unless stated otherwise, your personal data will not be provided to third parties. </p> <p>Specifically, we disclose your data as follows:</p> <ul> <li>We can give access to your personal data to our IT service providers under contracts for the provision of services in favour of <a href="%{decidim_url}">Decidim</a>. Among the others, Netlify, Inc., an American entity who provide to Us web hosting services. <a href="%{decidim_url}">Decidim</a> has subscribed with Netlify a <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Data Processing Agreement</a>, including the Standard Contractual Clauses currently approved by the European Commission, in order to ensure that your personal data are processed with all adequate guarantees. More information about how Netlify use your personal data may be consulted here: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a>. </li> <li>We can make the data available to the public administration or authorities to investigate suspicions of fraud, harassment or other violations of any law, rule or regulation, or the policies of the website.</li> </ul> <p>For more information about our service providers who make international transfers, please contact us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>'
-      title: Data disclosure
+      title: Exposição dos dados
     section-5:
       paragraph: "<p>We only keep your personal data for as long as it is necessary to fulfil the purposes for which we have collected them, even to comply with legal, accounting or information requirements.</p> <p>To determine the appropriate retention period for personal data, we consider the amount, nature and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which we process your personal data, if we can achieve those purposes through other means and the applicable legal requirements.</p>"
-      title: Data retention
+      title: Retenção de dados
     section-6:
       paragraph: "<p>We implement security measures and personal data protection schemes as required by law to maintain the confidentiality and integrity of your data and protection against unauthorised access, modification or destruction. </p>"
-      title: Security measures
+      title: Medidas de segurança
     section-7:
       paragraph: '<p>You have rights under data protection laws in relation to your personal data. Specifically, you have the right to: </p> <ul> <li><b>Request access</b> to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</li> <li><b>Request correction</b> of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</li> <li><b>Request erasure</b> of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</li> <li><b>Object to processing</b> of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</li> <li><b>Request restriction of processing</b> of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data''s accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</li> <li><b>Request the transfer</b> of your personal data to you or to a third party (right to data portability). We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</li> <li><b>Withdraw consent at any time</b> where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</li> </ul> <p>The aforementioned rights may be effective by contacting us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>. <p>You also have the right to make any complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spain.'
       title: Seus direitos
     section-8:
       paragraph: "<p>We reserve the right to amend the terms of this Privacy Policy and will notify you by providing a clear notice of these changes by email or on our Website, and in this Privacy Policy. If you continue to use our services after such update, you will be deemed to accept the new terms. If you do not accept the update, please terminate your account or notify us and we will terminate your Account and remove any of your personal data (except as required to be maintained for legal purposes), and you will not be able to continue to use our services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>"
-      title: General
+      title: Geral
     title: Política de privacidade
   testimonials:
     n1:
@@ -496,26 +496,26 @@ pt-BR:
   trademark:
     examples-1:
       l1: Incluindo o logotipo Decidim nas páginas do produto para dizer "trabalhamos com o Decidim" (por exemplo, hospedagem, serviços de consultoria, desenvolvimento baseado no Decidim).
-      l2: Use of the trademark "Decidim" in book titles and research articles.
+      l2: Uso da marca "Decidim" em títulos de livros e artigos de pesquisa.
       l3: Uso do logotipo do Decidim no rodapé de uma instância (“Desenvolvido por Decidim”).
       title: Exemplos de uso que não precisam de permissão
     examples-2:
       l1: Vendendo mercadorias (adesivos, camisetas, canecas, etc).
       l2: Uso do logotipo do Decidim em capa de livros.
       l3: Uso do logotipo do Decidim em um cabeçalho em um site, o que significa que você é a organização Decidim.
-      title: Examples of use that do need permission
+      title: Exemplos de uso que precisam de permissão
     examples-3:
-      l1: Naming your company or product after Decidim, like "The Decidim Consultants".
-      title: Examples of use that will not get permission
+      l1: Dar à sua empresa ou produto o nome do Decidim, como "Os Consultores do Decidim".
+      title: Exemplos de uso que não obterão permissão
     goals:
       l1: Gostaríamos de simplificar para qualquer pessoa usar o nome ou logotipo do Decidim para esforços voltados para a comunidade que ajudem a divulgar e melhorar o Decidim.
       l2: Gostaríamos de deixar claro como os negócios e projetos relacionados ao Decidim podem (e não podem) usar o nome e o logotipo Decidim.
       l3: Gostaríamos de dificultar o uso do nome e logotipo do Decidim para lucrar injustamente, enganar ou confundir pessoas que procuram recursos oficiais do Decidim.
     p1: '"Decidim" e o logotipo do Decidim são marcas registradas da Associació de Software Lliure Decidim. Você não pode usar essas marcas registradas em um ambiente comercial para inferir que seu produto ou serviço é endossado ou associado à Decidim sem permissão. Você pode usar essas marcas para se referir ao Decidim de uma forma que fique claro que você está simplesmente se referindo ao projeto, não reivindicando endosso ou associação.'
     p2: 'Se estiver usando o logotipo do Decidim de alguma forma, é necessário adicionar o seguinte texto: <i>"O nome e o logotipo do Decidim são marcas registradas da Associació de Software Lliure Decidim."</i>'
-    p3: 'We have developed this trademark usage policy with the following goals in mind:'
-    p4: You can request permission by emailing associacio@decidim.org.
-    p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
+    p3: 'Desenvolvemos esta política de trademark com os seguintes objetivos em mente:'
+    p4: Você pode solicitar permissão enviando um e-mail para associacio@decidim.org.
+    p5: Esta página de política de marcas foi baseada em <a href="%{rails_url}">Ruby on Rails</a> e <a href="%{wordpress_url}">Wordpress Foundation</a>.
     title: Política de marca registrada
   used_by:
     cta: Começar
@@ -529,15 +529,15 @@ pt-BR:
       f6: processos
       f7: propostas
       f8: comentários
-      f9: meetings
+      f9: reuniões
       subtitle: O Decidim continua crescendo e sendo adotado por organizações e pela comunidade.
-      title: Facts & Figures
+      title: Fatos e Figuras
     filters:
       f0: Ver tudo
       f1: Governo
       f2: Cidades
       f3: ONGs
     intro: Você pode utilizar o Decidim numa organização pública ou privada, com centenas ou milhares de potenciais participantes, como uma câmara municipal, uma associação, uma universidade, uma ONG, um sindicato, uma associação de bairro ou uma cooperativa...
-    join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
-    subtitle: These cities, regions and organizations are already using Decidim
+    join: Mais de 400 entidades, 250 entidades governamentais e 150 comunidades populares escolheram o Decidim para seus processos democráticos.
+    subtitle: Essas cidades, regiões e organizações já estão usando o Decidim
     title: Decidim em uso
