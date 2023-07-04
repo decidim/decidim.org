@@ -1,6 +1,8 @@
 ---
 title: "Job offer: Junior RoR developer"
 ---
+## \[job offer closed]
+
 ## What’s the job
 
 We’re looking for someone to become part of the Decidim family, more specifically of the project backbone! Someone with passion for programming and problem solving, who will be in charge of helping with the maintenance of the core repositories of Decidim and taking care of the quality and stability of the code.
