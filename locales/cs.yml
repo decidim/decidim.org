@@ -80,99 +80,75 @@ cs:
       q01:
         answer: 'Decidim je bezplatná Open-Source participativní demokratická platforma pro města a organizace. Decidim je ale víc než jen digitální platforma: je to společný bezplatný a otevřený projekt a infrastruktura zahrnující kód, dokumentaci, navrhování vzdělávacích kurzů, právního rámce, společných rozhraní, uživatelských a podpůrných společenství a společné vize.'
         question: Co je Decidim?
-        type: o nás
       q02:
         answer: V současné době jej využívají města a organizace. Ve skutečnosti ji může využít jakákoli skupina lidí, ať už je to nevládní organizace, univerzita, odbory, družstvo, sdružení sousedů atd. Prohlédněte si [kompletní seznam aktuálně aktivních instancí](/usedby/).
         question: Kdo v současné době používá Decidim?
-        type: o nás
       q03:
         answer: Snadno konfigurovatelné participační procesy. Chcete vytvořit strategický plán? Nebo diskutovat o nových vyhláškách? Nebo diskutovat o novém náměstí, nebo veřejné budově s cílem dosáhnout společného výsledku? Díky Decidim budete moci nakonfigurovat participační témata (iniciativy, shromáždění, procesy nebo konzultace) a obohatit je prostřednictvím četných dostupných složek (osobních setkání, průzkumů, návrhů, hlasování, sledování výsledků, připomínek a mnoha dalších).
         question: Co může správce Decidim dělat?
-        type: uživatelé
       q04:
         answer: Decidim umožňuje tisícům lidí demokraticky se organizovat prostřednictvím návrhů, účastnit se veřejných setkání, podporovat rozhodovací jednání, rozhodovat prostřednictvím různých forem hlasování a sledovat provádění rozhodnutí.
         question: Co může účastník (uživatel) Decidim dělat?
-        type: uživatelé
       q05:
         answer: Ano, máme [online demo](/demo).
         question: Máte Demo? Chci si vyzkoušet Decidim bez instalace a zjistit, jak funguje.
-        type: vlastnosti
       q06:
         answer: Přibližně každý měsíc vydáváme novou verzi. Viz [záznam verzí](https://github.com/decidim/decidim/releases).
         question: Jak často se platforma aktualizuje?
-        type: vlastnosti
       q07:
         answer: Instalace Decidim je jednoduchá, ale potřebujete nějaké znalosti a technické požadavky. Podívejte se na [dokumentaci pro instalaci Decidim](https://docs.decidim.org/en/install/).
         question: Co potřebuji k instalaci Decidim?
-        type: instalace
       q08:
         answer: Můžete najít [plán nových funkcí projektu na GitHub](https://github.com/decidim/decidim/projects/16).
         question: Kde najdu plán projektu a plánované prvky?
-        type: vlastnosti
       q09:
         answer: Decidim je platforma pro participaci občanů, vytvořený lidmi a pro lidi. Jeho zdrojový kód je otevřený a může být kýmkoliv kontrolován, upraven a vylepšen. Aplikace Decidim je pokryta [licencí AGPL](https://en.ikipedia.org/wiki/GNU_Affero_General_Public_License). To znamená, že jej můžete používat, upravovat a šířit odvozené verze, pokud respektujete licenci AGPL.
         question: Co to znamená, že Decidim je zdarma, "svobodný" a s otevřenými zdroji?
-        type: instalace
       q10:
         answer: Spolupracovat můžete různými způsoby. Jedním z nich je komunita [Metadecidim](http://meta.decidim.org). Pokud chcete navrhnout nové funkce, [přejděte sem](https://meta.decidim.org/processes/roadmap). Pokud jste zjistili chyby a chcete na ně upozornit, [přejděte na tento postup](https://meta.decidim.org/processes/bug-report). Pokud se chcete aktivně zapojit do komunity Metadecidim, můžete se účastnit komunitních setkání. Zaregistrujte se jako účastník komunity a účastněte se s námi. Pokud je vaší doménou kód, [přijďte na Github](https://github.com/decidim/decidim). Pokud jste výzkumný pracovník, možná vás zaujme možnost přijít na [LAB Metadecidim Semináře](https://meta.decidim.org/assemblies/eix-lab).
         question: Mám nápady na nové vylepšení. Chci projektu lépe porozumět. Co mohu udělat?
-        type: vlastnosti
       q11:
         answer: Nejlepší způsob, jak rychle vyřešit své pochybnosti, je prostřednictvím Metadecidim komunity. Vstupte do procesu [fóra podpory](https://meta.decidim.org/processes/supportforum?locale=en) a podívejte se, zda vaše otázka existuje nebo zda byla zodpovězena a jinak zadejte pro položení otázek. Pokud nemůžete vyřešit svůj problém v tomto prostoru, možná je čas nás kontaktovat prostřednictvím [kontaktního formuláře](/contact).
         question: Mám mnoho pochybností všeho druhu...kde se na ně mohu zeptat nebo je vyřešit?
-        type: o nás
       q12:
         answer: Nejnovější verzi naší admin příručky můžete zkontrolovat v [Documentation section](https://docs.decidim.org).
         question: Je k dispozici nějaký návod k jeho nastavení?
-        type: instalace
       q13:
         answer: Takto nazýváme náš Kodex demokratických záruk a demokratické spolupráce. Všichni členové komunity musí schválit [Sociální smlouvu](http://decidim.org/contract).
         question: Co je Sociální smlouva?
-        type: komunita
       q14:
         answer: 'Existuje mnoho rozdílů: funkce, flexibilita, architektura, modularita atd. Máme [zveřejněný příspěvekt](/blog/2019-01-14-consul-comparison/) s odpověďmi na tuto otázku.'
         question: Jaké jsou rozdíly proti projektu Consul Project / Decide Madrid?
-        type: vlastnosti
       q15:
         answer: "[Metadecidim](http://meta.decidim.org) je komunita Decidimu, která spolupracuje na návrhu platformy a výstavbě projektu Decidim. Pravidelně se setkáváme prostřednictvím komunitních setkání, a to k otázkám souvisejícím s technologickými aspekty platformy, a Labs witc jsou [Research](https://meta.decidim.org/assemblies/eix-lab) orientovaná setkání. Naší každoroční konferencí je Decidim Fest. Chcete-li pozorně sledovat hovory a chcete-li se připojit ke komunitě, navštivte stránku [meta.decidim.org](http://meta.decidim.org). Budeme rádi ;-)"
         question: Co je to Metadecidim komunita?
-        type: komunita
       q16:
         answer: Samozřejmě, že můžete. Lidé tak činí prostřednictvím participačních procesů, debat, překladů atd., které můžete najít v Metadecidim. Decidim se zrodil v Barceloně, a proto existuje silné teritoriální pouto s tímto městem, ale především je to projekt pro společenství.
         question: Mohu se připojit ke komunitě Metadecidim, i když nežiji v Barceloně?
-        type: komunita
       q17:
         answer: Každý, kdo má dobrou vůli a správný postoj k demokratické spolupráci.
         question: Jaké členy přijímáte v komunitě Metadecidim?
-        type: komunita
       q18:
         answer: Asociacion de Software Libre Decidim (Asociace svobodného softwaru Decidim) je demokratické sdružení pro správu komunity Decidim. Bylo založeno [16. února 2019 na mimořádném shromáždění komunity](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), přičemž byly schváleny stanovy organizace.
         question: Co je to Decidim asociace?
-        type: asociace
       q19:
         answer: Ve [valné hromadě sdružení Decidim](https://meta.decidim.org/assemblies/General assembly-Association) můžete najít více informací, sledovat činnost schůzek a kontrolovat příslušné informace (stanovy, právní dohody, vnitřní nařízení)
         question: Jak mohu získat více informací o sdružení Decidim?
-        type: asociace
       q20:
         answer: Lidé zapojení do projektu mohou být nyní partnery. [Zde podrobně vysvětlíme, co to znamená](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
         question: Jak se mohu stát členem sdružení Decidim?
-        type: asociace
       q21:
         answer: Ano můžete! Decidim je neziskový projekt a na chvíli to zcela závisí na financování. Všechny podrobnosti k financování projektu naleznete na [OpenCollective](https://opencollective.com/decidim)
         question: Chci projekt financovat. Jak mohu pokračovat?
-        type: asociace
       q22:
         answer: Ano, máme šablony pro formalizaci dohod o spolupráci. [Kontaktujte nás](/contact).
         question: Chceme uzavřít formální dohodu o spolupráci. Existují nějaké šablony, které můžeme použít?
-        type: asociace
       q23:
         answer: Ano, ale musíte být trpěliví. Existuje mnoho institucí, které nyní chtějí použít Decidim a my jim pomáháme krok za krokem. [Kontaktujte nás](/contact) pro jakoukoli otázku a my vám odpovíme co nejdříve.
         question: Podporujete instituce?
-        type: o nás
       q24:
         answer: Decidim a logo Decidim jsou registrovány sdružením, nemohou být použity jako komerční produkt a nemohou být prodány. Pokud je použito, kredit musí být odkazován na projekt. Více o tom si můžete přečíst v našich [zásadách ochranných známek](/trademark-policy).
         question: Co jsou Zásady ochranných známek Decidim?
-        type: asociace
     subtitle: Pokud nemůžete najít odpověď níže, kontaktujte nás na hola@decidim.org
     title: Časté dotazy
     types:
@@ -376,7 +352,7 @@ cs:
     title: Moduly
   nav:
     about: O nás
-    academy: Academy
+    academy: Akademie
     association: Asociace
     blog: Blog
     close_menu: Zavřít nabídku
@@ -416,7 +392,7 @@ cs:
     type:
       provider: Poskytovatelé služeb
       public: Veřejné instituce
-      technology: Technology partners
+      technology: Technologičtí partneři
   partnership-policy:
     explanation:
       p1: Udržování Decidimu vyžaduje čas a zdroje. Je třeba zvládnout několik úkolů, jako je přezkoumání příspěvků, řešení problémů, oprava chyb, psaní dokumentace a zodpovídání obecných pochybností, které komunita sdílí. Každá organizace (podnik, sdružení nebo kolektiv), která se chce stát partnerem Decidimu, se zavazuje přispívat sdružení Decidim sníženým poplatkem ve výši 3 % ročního příjmu z činnosti Decidimu. V případě neziskových organizací činí tento poplatek 1,5 %.
@@ -449,16 +425,16 @@ cs:
         title: Propagační spot
       link3:
         link: Ke stažení
-        title: Brochure
+        title: Příručka
       link4:
-        link: To the site
+        link: Na stránku
         title: Decidim Fest
       link5:
-        link: Youtube channel
-        title: Videos
+        link: YouTube kanál
+        title: Videa
       link6:
-        link: Zotero repository
-        title: Academic papers
+        link: Zotero úložiště
+        title: Akademické dokumenty
     sign_up: Přihlaste se k odběru novinek na Metadecidim
     social_media: Najděte nás na sociálních sítích
     subtitle: Pro dotazy na média, prosím pošlete nám e-mail na

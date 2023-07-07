@@ -44,7 +44,7 @@ ja:
       quote: 私たちは、使いやすいインターフェイスでヘルシンキのプロセスをサポートするための適切なプラットフォームを見つけるために、7種類の参加型予算オプションを評価し、さまざまなニーズに合わせたモジュール性を必要としました。 Decidimは評価を獲得し、最初のインスタンスは2018で構築されました。
     n2:
       org: Code for Japan
-      quote: Decidimはカスタマイズに適したアーキテクチャを提供しているため、国内の状況に対応させています。
+      quote: Decidimはカスタマイズしやすいアーキテクチャを提供しているため、国内の状況に合わせて適応させることができます。
     n3:
       org: 欧州委員会
       quote: デジタルプラットフォームは2021年4月19日に開始され、2022年5月9日までの貢献を受け付けていました。 期間中、18859件のアイデアと22167件のコメントが寄せられ、6661件のイベントが開催されました。 デジタルプラットフォームを通じて集められた貢献は、欧州市民パネルによって取り上げられ、会議のもう一つの柱である全体会議で議論されました。
@@ -79,100 +79,76 @@ ja:
     questions:
       q01:
         answer: 'Decidimは、都市や組織のための自由・オープンソースの参加型民主主義プラットフォームです。しかし、Decidimはデジタルプラットフォーム以上のものです。それは、コード、文書、デザイン、トレーニングコース、法的枠組み、コラボレイティブなインターフェース、ユーザーとファシリテーションのコミュニティ、および共通のビジョンを含む、フリーでオープンなプロジェクトとインフラストラクチャなのです。'
-        question: Decidimとは
-        type: Decidimについて
+        question: Decidimとは何ですか?
       q02:
         answer: 現在、世界中の都市や団体で利用されています。実際には、NGO、大学、労働組合、協同組合、町内会など、どのようなグループでも使用することができます。[現在アクティブなインスタンスの完全なリスト](/usedby/) を確認してください。
         question: 現在、どのような人たちがDecidimを使用していますか？
-        type: Decidimについて
       q03:
         answer: 参加型プロセスを簡単に構成できます。戦略的な計画を立てたいですか？あるいは、新しい規制について議論したいですか？あるいは、共通の利益を達成するために新しい広場や公共建築物について議論したいですか？Decidimのおかげで、参加型スペース（イニシアチブ、集会、プロセスまたはコンサルテーション）を構成し、利用可能な複数のコンポーネント（対面でのミーティング、サーベイ、提案、投票、結果のフォローアップ、コメントなど）を通じてそれらを豊かにすることができます。
         question: Decidimの管理者は何ができますか?
-        type: ユーザー
       q04:
         answer: Decidimは何千人もの人々が、提案をしたり、公開カンファレンスに出席したり、意思決定の議論を促進したり、様々な形態の投票で意思表示したり、実施を監視することにより、自分自身を民主的に組織することを可能にします。
         question: Decidimの参加者 (ユーザー) は何ができますか？
-        type: ユーザー
       q05:
         answer: はい、[オンラインデモサイト](/demo) があります。
         question: デモサイトはありますか？ インストールせずに Decidim を試用して、どのように動作するかを確認したいです。
-        type: 機能
       q06:
         answer: 私たちは毎月新しいバージョンをリリースしています。[更新履歴](https://github.com/decidim/decidim/releases) を参照してください。
         question: プラットフォームはどれくらいの頻度で更新されますか?
-        type: 機能
       q07:
         answer: Decidimのインストールは簡単ですが、多少の知識と技術的な要件が必要です。[Decidimをインストールするためのドキュメント](https://docs.decidim.org/en/install/)を参照してください。
         question: Decidim をインストールするには何が必要ですか?
-        type: インストール
       q08:
         answer: '[GitHubの新機能ロードマップ](https://github.com/decidim/decidim/projects/16)をご覧ください。'
         question: プロジェクトのロードマップと予定されている機能はどこで確認できますか?
-        type: 機能
       q09:
         answer: Decidimは、人々により、人々のために作られた市民参加のためのプラットフォームです。ソースコードは公開されており、誰でも閲覧、修正、拡張することができます。Decidimのソフトウェアは、[AGPLライセンス](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)によって提供されています。つまり、AGPLライセンスを遵守する限り、使用、修正、派生バージョンの再配布が可能です。
         question: Decidimが自由、「リブレ (libre) 」、オープンソースであることは何を意味するのでしょうか?
-        type: インストール
       q10:
         answer: コラボレーションする方法はいくつかあります。そのひとつが、[Metadecidim](http://meta.decidim.org)コミュニティを通じてです。新しい機能を提案したい場合は、[ここに行ってください](https://meta.decidim.org/processes/roadmap)。エラーを発見し、それを通知したい場合は、[このプロセスへ](https://meta.decidim.org/processes/bug-report)。Metadecidimコミュニティに積極的に参加したい場合は、コミュニティミーティングに参加することができます。コミュニティの参加者として登録し、一緒に参加しましょう。もしコードに関することであれば、[Githubに来てください](https://github.com/decidim/decidim)。研究者であれば、[LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab)に来てみてはいかがでしょうか。
         question: 新しい改善機能のアイディアがあります。プロジェクトについてもっと理解を深めたいです。どうすればいいですか？
-        type: 機能
       q11:
         answer: あなたの疑問を素早く解決する最良の方法は、Metadecidimのコミュニティを利用することです。今すぐプロセス[サポートフォーラム](https://meta.decidim.org/processes/supportforum?locale=en)に入り、あなたの質問が存在するかどうか、またはそれが回答されているかどうかを確認し、それ以外の場合は質問するために入ってください。このスペースであなたの問題を解決できない場合、[お問い合わせフォーム](/contact)を介して私たちに連絡してみてください。
         question: いろいろと疑問があるのですが、どこに質問すれば解決できるでしょうか?
-        type: Decidimについて
       q12:
         answer: 管理者向けマニュアルの最新版は、[ドキュメントセクション](https://docs.decidim.org)で確認できます。
         question: セットアップを始めるためのチュートリアルはありますか？
-        type: インストール
       q13:
-        answer: それが、私たちの「民主的保証と民主的コラボレーションの規範」です。コミュニティのすべてのメンバーは、【社会契約】(http://decidim.org/contract)を遵守しなければなりません。
-        question: 社会契約とは
-        type: コミュニティー
+        answer: それが、私たちの「民主的保証と民主的コラボレーションの規範」です。コミュニティのすべてのメンバーは、[社会契約](http://decidim.org/contract)を遵守しなければなりません。
+        question: 社会契約とは何ですか？
       q14:
         answer: '機能、柔軟性、アーキテクチャ、モジュール性など、多くの違いがあります。私たちはこの疑問に答えるべく、[記事を公開](/blog/2019-01-14-consul-comparison/) しています。'
         question: Consul Project / Decide Madridとの違いは何ですか？
-        type: 機能
       q15:
         answer: "[Metadecidim](http://meta.decidim.org)は、Decidimのコミュニティで、プラットフォームの設計やDecidimプロジェクトの構築に協力しています。プラットフォームの技術的な側面に関する問題については、コミュニティ・ミーティングを通じて、またラボは [研究](https://meta.decidim.org/assemblies/eix-lab) 指向のミーティングを通じて、定期的に会合を行っています。私たちの年次カンファレンスはDecidim Festです。[meta.decidim.org](http://meta.decidim.org)にアクセスし、密接に呼び出しをフォローして、コミュニティに参加してください。大歓迎です;-)"
         question: Metadecidimコミュニティとは何ですか?
-        type: コミュニティー
       q16:
         answer: もちろん可能です。人々はMetadecidimで見られるような参加型プロセス、ディベート、翻訳などを通じて、そのように活動しています。Decidimはバルセロナで生まれており、それゆえこの都市との強い領土的な結びつきがありますが、何よりもコモンズのためのプロジェクトなのです。
         question: バルセロナに住んでいなくても、Metadecidimのコミュニティーに参加できますか？
-        type: コミュニティー
       q17:
         answer: 民主的なコラボレーションに対して、誠意と正しい姿勢を持っている人なら誰でも大丈夫です。
         question: Metadecidimのコミュニティには、どのようなメンバーを受け入れているのですか？
-        type: コミュニティー
       q18:
-        answer: Asociacion de Software Libre Decidim」（Decidim自由ソフトウェア協会）は、Decidimコミュニティのガバナンスのための民主的な協会です。[2019年2月16日のコミュニティの臨時総会](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169)で、定款が承認され、設立されました。
+        answer: '「Asociacion de Software Libre Decidim」（Decidim自由ソフトウェア協会）は、Decidimコミュニティのガバナンスのための民主的な協会です。[2019年2月16日のコミュニティの臨時総会](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169)で、定款が承認され、設立されました。'
         question: Decidim Associationとは何ですか？
-        type: association
       q19:
         answer: '[Decidimアソシエーションの総会アセンブリ](https://meta.decidim.org/assemblies/general-assembly-association)では、私たちに関するより多くの情報を見つけ、会議の活動をフォローし、関連情報(法令、法的合意、内部規則)を確認することができます。'
         question: Decidimアソシエーションについて詳しく知るにはどうすればよいでしょうか?
-        type: association
       q20:
-        answer: プロジェクトに関わる人たちはパートナーになれます。[どのようにしなければならないかはこちらで詳しく説明しています](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+        answer: プロジェクトに関わる人たちはパートナーになれます。[どうすればよいかについてはこちらで詳しく説明しています](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=en)
         question: Decidim Associationのメンバーになるにはどうしたらいいですか?
-        type: association
       q21:
         answer: はい、できます! Decidimは非営利プロジェクトであり、現時点ではファンディングに完全に依存します。 [OpenCollective](https://opencollective.com/decidim) でプロジェクトに資金を提供するための詳細を確認してください。
         question: プロジェクトに資金を提供したいのですが、どうすればいいですか？
-        type: association
       q22:
         answer: はい、コラボレーション契約を正式に締結するためのテンプレートがあります。[お問い合わせください](/contact)。
         question: 正式なコラボレーション契約をしたいです。雛形はありますか?
-        type: association
       q23:
         answer: はい、しかし辛抱強くお待ちいただく必要があります。今まさにDecidimを使おうという機関がたくさんあるため、私たちは一歩一歩彼らを支援しています。ご質問は、[Contact us](/contact) にてお問い合わせください。できるだけ早くお答えします。
         question: 教育機関を支援していますか？
-        type: Decidimについて
       q24:
         answer: DecidimおよびDecidimのロゴは、当協会の登録商標であり、商品として使用したり、販売することはできません。使用する場合は、プロジェクトにクレジットを表記する必要があります。詳しくは、 [商標ポリシー](/trademark-policy) をご覧ください。
         question: Decidimの商標ポリシーとは何ですか?
-        type: association
     subtitle: 回答が見つからない場合は、hola@decidim.org までご連絡ください。
     title: よくある質問
     types:
@@ -184,77 +160,77 @@ ja:
       installation: インストールとライセンス
       users: ユーザーと役割
   features:
-    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
+    intro: "<p>Decidimは、市議会、協会、大学、NGO、労働組合、地域の共同体や協同組合など、数百人から数千人以上の参加者を想定した公的または私的な組織で使用することができます。</p><p>Decidimにより、参加のための<strong>スペース</strong>(イニシアティブ、アセンブリ、プロセス、またはコンサルテーション) を設定し、それらを利用可能な多くの<strong>コンポーネント</strong>(対面ミーティング、サーベイ、提案、投票、結果のフォローアップ、<strong>コメント</strong>など) を通じて豊かにすることができます。</p>"
     page:
       feature1:
-        subtitle: To democratize common issues, step by step
+        subtitle: 共通の問題を民主化するために、一歩一歩進めていきましょう
         text: 'プロセスは、様々な参加プロセスを作成、アクティブ/非アクティブ化、および管理することができる空間です。 これらは、すべてのコンポーネントを組み込むことができる異なるフェーズで構成されていることによって、他の空間と区別されます。 参加プロセスの例としては、委員会のメンバーの選挙プロセス、参加予算、戦略計画プロセスなどが挙げられます。 規則や規範の共同執筆都市空間の設計 あるいは公共政策計画の作成'
         title: 参加型プロセス
       feature10:
-        subtitle: To analyze, synthesize, and build in common
-        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
+        subtitle: 共有するための分析、統合、構築
+        text: 複数の提案や結果に基づいて単一のテキストにまとめたり表現したりするよう、長文のテキストをいくつかの提案や結果に変換したり、反対にテキストにまとめたりできます。
         title: 参加型テキスト
       feature11:
         subtitle: 大きなイベントが初演される場所
-        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
+        text: 大規模なイベントのためのウェブサイトを作成します。事前に定義した一連のミーティング（チャット、ワークショップなど）を結びつけてプログラムを統一し、参加者を管理します。
         title: カンファレンス
       feature12:
         subtitle: なぜなら、あなたのコミュニティの意見は重要だからです
-        text: Design and publish surveys. Display and download results.
+        text: 調査を設計し、公開します。結果を表示し、ダウンロードします。
         title: 調査
       feature13:
         subtitle: 平等とランダム性の正義です
-        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
+        text: 複数の提案（例：審査員の候補）をランダムに、しかし再現可能な手順で選択することを可能にし、偏りのない均一な分布を保証します。
         title: 並べ替え
       feature14:
         subtitle: 集団的知能を構築する
-        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
+        text: ユーザーがコメントを追加したり、それを賛成・反対・中立と評価したり、それに投票したり、回答したり、レスポンスに関する通知を受け取ったりできます。
         title: コメント
       feature15:
         subtitle: あなたのコミュニティ、情報に基づいて最新の情報
-        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
+        text: リッチテキスト、埋め込み画像やビデオを含む情報ページを作成します。ブログコンポーネントにより、投稿やニュースの作成、時系列での表示が可能になります。
         title: ページとブログ
       feature16:
-        subtitle: Personalised information on interesting content
-        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
+        subtitle: 興味深いコンテンツについてのパーソナライズされた情報
+        text: Decidimは、いつでも更新情報を受け取れるよう、任意のスペースやコンポーネントのトラッキングを可能にします。
         title: 通知
       feature17:
         subtitle: シンプルだがパワフルだ。
-        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
+        text: プラットフォームに登録している全員に、または特定のスペースに参加している人々にメールを送信します。
         title: ニュースレター
       feature2:
-        subtitle: The power of collective self-organization
-        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
+        subtitle: 集団的自己組織化の力
+        text: 決定権を持つ組織やグループ（協議会、ワーキンググループ、委員会など）を設置し、定期的に会合を行うことを可能にします。その構成を詳細に記述し、ミーティングを開催場所も含めてリストアップします。それにより、例えば対面あるいはオンラインでのミーティングに参加する、アジェンダに課題を追加する、またはその組織が取った提案や決定事項にコメントするなど、参加を可能にします。
         title: 直接参加型の機関
       feature3:
-        subtitle: The right to decide with all democratic guarantees
-        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
+        subtitle: すべての民主的保証のもとで決定する権利
+        text: 投票を調整したり、議論や討論を引き起こしたり、投票結果を公開して安全な電子投票システムにつなげたりできるようにします。
         title: 投票
       feature4:
-        subtitle: Setting everyone's agenda, within everyone's reach
-        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
+        subtitle: 全員に届く範囲内で、全員の議題を設定する
+        text: 参加者は協力的なイニシアチブを作成し、その進むべき道と目標を定義し、支持を集め、イニシアチブについて議論や討論を行い、広めることができます。また、参加者から署名を集めたり、組織に所属する他のメンバーにも開かれた討論を行うためのミーティングポイントを設定することもできます。
         title: イニシアチブ
       feature5:
         subtitle: あなたのアイデア
-        text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
+        text: 作成ウィザードを使用して提案を作成し、既存のものと比較します。プラットフォームに公開し、地理情報や添付文書、画像などの追加情報を含めることができます。このコンポーネントでは、一連の提案を閲覧し、フィルタリングし、対話することも可能です。さらに、提案のインキュベーターを使って協力的な提案を作成することもできます。
         title: 提案
       feature6:
         subtitle: 選択を決定する
-        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
+        text: '組織に対して、提案に関連する異なる投票や支持システムを活性化する可能性を提供します：無制限、特定の閾値までの制限、重み付け、コストベースなど。安全で暗号化された電子投票技術によって支えられています。'
         title: 投票
       feature7:
-        subtitle: No proposal without an answer
-        text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
+        subtitle: 回答のない提案はない
+        text: 提案を結果に変え、それらの受理や拒否に関する公式の回答を提供し、複数の提案を一つの結果に統合します。
         title: 結果
       feature8:
         subtitle: エンドツーエンドの透明性
-        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
+        text: 結果をプロジェクトに細分化する可能性を提供し、実装の進行状況を定義し適用できます。カテゴリーやスコープごとにグループ化された結果の達成度を表示することもできます。
         title: アカウンタビリティ
       feature9:
-        subtitle: To meet and not miss anything
+        subtitle: 会い、何も逃さない
         text: ミーティングコンポーネントは、組織と参加者にミーティングを開催する機会を提供し、その場所と時間を決定します。 参加者の登録と制限、会議の構造と内容の定義、議事録の公開、結果の提案などを定義します。
         title: 会議
-    subtitle: For democratic organizations and collectives of any size and kind.
+    subtitle: あらゆる規模や種類の民主的な組織と集団のために。
     title: 機能
     type1:
       title: 参加用スペース
@@ -262,11 +238,11 @@ ja:
       title: コンポーネント
     type3:
       cta: モジュールを探索する
-      subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
+      subtitle: 標準コンポーネントを超えて成長しましょう。Decidimコミュニティは、基本プラットフォームを拡張し、あなたのニーズにより良く対応するための数百のモジュールを開発しています。
       title: モジュール
   first-steps:
     first-steps1:
-      content: You can install it yourself or find someone to help you with tech support.
+      content: 自身でインストールすることも、技術サポートを協力くれる人を見つけることも可能です。
       link1: ドキュメント
       pre: 技術者向け
       title: Decidimのインストール
@@ -274,16 +250,16 @@ ja:
       content: 様々な規模の組織に対して、Decidimがどのようにあなたのニーズに応えられるかをご覧ください。
       link1: 機能
       pre: 組織担当者向け
-      title: The right tool for you
+      title: あなたに最適なツール
     first-steps3:
-      content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
+      content: あなたの街が参加型政策の展開を考えている場合、実現のために説得する方法を調べてみてください。
       link1: パートナーを探す
       pre: 政府・自治体向け
       title: あなたの都市のDecidim
-    intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
+    intro: Decidimは、広範で活発なコミュニティによって維持される、自由でオープンソースのウェブベースのソフトウェアです。市議会、協会、大学、NGO、労働組合、地区協会、協同組合など、数百人から数千人以上の潜在的な参加者を持つ公的または私的な組織でDecidimを使用することができます。
     section2:
       link: すべての機能を見る
-      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
+      subtitle: Decidimの柔軟な機能は、数百人から数千人以上の潜在的なユーザーを持つ小規模な集団から大規模な集団、公的な組織から私的な組織まで、幅広いニーズに対応するように設計されています。
       title: Decidimは最適なツールでしょうか?
     section3:
       cta: 詳細はこちらのブログの導入事例をご覧ください
@@ -376,7 +352,7 @@ ja:
     title: モジュール
   nav:
     about: Decidimについて
-    academy: Academy
+    academy: アカデミー
     association: Association
     blog: ブログ
     close_menu: メニューを閉じる
@@ -416,7 +392,7 @@ ja:
     type:
       provider: サービスプロバイダー
       public: 公共機関
-      technology: Technology partners
+      technology: 技術パートナー
   partnership-policy:
     explanation:
       p1: Decidimを維持するには、時間とリソースが必要です。貢献のレビュー、問題のトリアージ、バグの修正、ドキュメントの作成、およびコミュニティによって共有される一般的な疑問に答えることなど、様々なタスクを扱う必要があります。Decidimパートナーになることを望む組織（企業、協会、団体）は、Decidimでの活動によって発生する年間収入のうち3％の料金を、Decidim Associationに貢献することを約束します。非営利団体の場合は、1.5％となります。
@@ -449,16 +425,16 @@ ja:
         title: プロモーションスポット
       link3:
         link: ダウンロード
-        title: Brochure
+        title: パンフレット
       link4:
-        link: To the site
+        link: サイトへ移動
         title: Decidim Fest
       link5:
-        link: Youtube channel
-        title: Videos
+        link: Youtube チャンネル
+        title: 動画
       link6:
         link: Zotero repository
-        title: Academic papers
+        title: 学術論文
     sign_up: Metadecidimでニュースレターに登録する
     social_media: ソーシャルメディアで見つける
     subtitle: メディアに関するお問い合わせはこちらからメールをお送りください。
@@ -512,32 +488,32 @@ ja:
       org: オープンフォーラム・ヨーロッパ リサーチ・ディレクター, 欧州連合（EU）
       quote: このプロセスは、2019年10月に欧州委員会の科学・知識サービスである共同研究センターのコミュニケーション総局とeDemocracyユニットで始まりました。会議のニーズを分析し、どのツールがそれに適合するかを検討した結果、技術的な成熟度、幅広いコミュニティ、適応性を考慮して、オープンソースのツールDecidimを選択しました。
     n8:
-      org: Pipeline to Power, working for NYC Civic Engagement Commission
-      quote: Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded.
+      org: パイプラインからパワーへ、NYC市民参加委員会のために働く
+      quote: Decidimが非常に強力である理由の一部は、プロセスのフェーズとそのプロセスに関連する活動を分離する抽象化のレベルが導入されていることです。これは情報アーキテクチャの一部であり、各フェーズで何が起こっているかだけでなく、あなたが何をしている時点やプロセスのどのフェーズにいるかによって、Decidimの異なる部分が異なる動作をします。それがカスタマイズできる事は、Decidimが持つ型に合わせて私たちの活動を形作るのではなく、私たちがどのような活動を行っているかをDecidimに反映させることを可能にします。
   thanks:
     message: ご連絡いただきありがとうございます。折返しご連絡いたします。
     title: お問い合わせありがとうございます
   trademark:
     examples-1:
-      l1: Including the Decidim logo on product pages to say "we work with Decidim" (e.g., hosting, consultancy services, developments based on Decidim).
+      l1: プロダクトのページに「私たちはDecidimと連携しています」(例えばホスティング、コンサルティングサービス、Decidimベースの開発など)と表示されるように、Decidimのロゴを含めます。
       l2: 書籍のタイトルや研究論文にて商標として「Decidim」を使用する
       l3: インスタンスのフッターにDecidimのロゴを使用する (「Powered by Decidim」など)。
       title: 許可を必要としない使用例
     examples-2:
       l1: グッズの販売 (ステッカー、Tシャツ、マグカップなど)。
       l2: 本の表紙に Decidim のロゴを使用する
-      l3: Use of the Decidim logo in a header in a website, implying that you’re the Decidim organization.
+      l3: あなたがDecidim組織であることを示せるよう、ウェブサイトのヘッダーにDecidimロゴを使用できます。
       title: 許諾が必要な使用例
     examples-3:
       l1: '"Decidim コンサルタント" のように、Decidim の後にあなたの会社または製品に名前を付けること'
       title: 許可されない使用例
     goals:
-      l1: We’d like to make it easy for anyone to use the Decidim name or logo for community-oriented efforts that help spread and improve Decidim.
-      l2: We’d like to make it clear how Decidim-related businesses and projects can (and cannot) use the Decidim name and logo.
-      l3: We’d like to make it hard for anyone to use the Decidim name and logo to unfairly profit from, trick or confuse people who are looking for official Decidim resources.
-    p1: '"Decidim" and the Decidim logo are registered trademarks of Associació de Software Lliure Decidim. You may not use these trademarks in a commercial setting to infer that your product or service is endorsed or associated with Decidim without permission. You may use these marks to refer to Decidim in a way where it''s clear that you''re simply referring to the project, not claiming endorsement or association.'
-    p2: 'If you’re using the Decidim logo in any way you need to add the following text: <i>"Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim."</i>'
-    p3: 'We have developed this trademark usage policy with the following goals in mind:'
+      l1: Decidim の名前やロゴを誰でも簡単に使えるように、Decidim の普及と改善に役立てたいと考えています。
+      l2: Decidimに関連するビジネスやプロジェクトがDecidimの名前とロゴをどのように使えるのか(そして使えないのか) を明確にします。
+      l3: 私たちは、誰もが不当な利益のためにDecidimの名称とロゴを使用できないようにしたいとかんがえています。それは公式のDecidimリソースを探している人々を混乱させるものです。
+    p1: '「Decidim」および「Decidim」のロゴは、Associacio''s de Software Lliure Decidimの登録商標です。 あなたは、あなたの製品またはサービスが推奨されたり、Decidimに関連付けられていることを示すため、商用環境においてこれらの商標を使用することはできません。 これらのマークを使って、単にプロジェクトを指していることが明らかになっている方法で Decidim を指すことができます。 推奨や協同を主張するためのものではありません。'
+    p2: 'あなたが何らかの方法でDecidimのロゴを使用する場合、次のテキストを追加する必要があります：<i>"Decidimの名称とロゴは、Associació de Software Lliure Decidimの登録商標です。"</i>'
+    p3: '私たちは、以下の目標を掲げて、この商標使用方針を策定しました。'
     p4: 電子メール（associacio@decidim.org）で許可を申請することができます。
     p5: この商標ポリシーページは、<a href="%{rails_url}">Ruby on Rails</a>と<a href="%{wordpress_url}">Wordpress Foundation</a>をベースに作成されています。
     title: 商標ポリシー
