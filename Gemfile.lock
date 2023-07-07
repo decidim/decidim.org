@@ -230,6 +230,8 @@ GEM
     rubocop-faker (1.1.0)
       faker (>= 2.12.0)
       rubocop (>= 0.82.0)
+    rubocop-rake (0.6.0)
+      rubocop (~> 1.0)
     rubocop-rspec (2.13.1)
       rubocop (~> 1.33)
     ruby-progressbar (1.11.0)
@@ -274,6 +276,7 @@ DEPENDENCIES
   rspec (~> 3.11)
   rubocop (~> 1.31)
   rubocop-faker (~> 1.1)
+  rubocop-rake (~> 0.6.0)
   rubocop-rspec (~> 2.13)
   tzinfo-data
   wdm (~> 0.1)

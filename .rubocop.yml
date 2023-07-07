@@ -1,4 +1,10 @@
-inherit_from: https://raw.githubusercontent.com/decidim/decidim/develop/.rubocop_ruby.yml
+inherit_from:
+  - https://raw.githubusercontent.com/decidim/decidim/develop/decidim-dev/config/rubocop/ruby.yml
+  - https://raw.githubusercontent.com/decidim/decidim/develop/decidim-dev/config/rubocop/rspec.yml
+
+require:
+  - rubocop-rake
+  - rubocop-rspec
 
 AllCops:
   Include:
