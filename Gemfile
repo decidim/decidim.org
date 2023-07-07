@@ -20,6 +20,7 @@ gem "mini_magick", "~> 4.11"
 
 gem "rubocop", "~> 1.31"
 gem "rubocop-faker", "~> 1.1"
+gem "rubocop-rake", "~> 0.6.0"
 gem "rubocop-rspec", "~> 2.13"
 
 group :test do
