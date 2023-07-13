@@ -1,7 +1,7 @@
 ---
 title: "Job offer: Junior RoR developer"
 ---
-## \[job offer closed]
+\[job offer closed]
 
 ## What’s the job
 
