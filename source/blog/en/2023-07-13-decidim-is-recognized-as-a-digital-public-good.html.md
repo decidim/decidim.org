@@ -1,0 +1,18 @@
+---
+title: Decidim is recognized as a Digital Public Good
+---
+Today, Decidim was added to the Digital Public Goods Alliance [DPG Registry](http://digitalpublicgoods.net/registry/). The goal of the DPGA and its registry is to promote digital public goods in order to create a more equitable world. Being recognised as a DPG increases the visibility, support for, and prominence of open projects that have the potential to tackle global challenges. To become a digital public good, all projects are required to meet the [DPG Standard](http://digitalpublicgoods.net/standard/) to ensure that projects truly encapsulate open source principles. 
+
+![Digital Public Goods Alliance logo](/uploads/logo.svg)
+
+Decidim is software financed primarily through public money by the government of Barcelona and the Generalitat of Catalunya. However, it was designed [from day one](https://docs.decidim.org/en/v0.27/whitepaper/decidim-a-brief-overview) to be a tool with an open license and that could be re-used by any others that wanted to kickstart digital democracy projects. It is not often the case that governments think like this about their software, they usually focus on building tools that will only serve their constituents and they are wary of publishing their code in fear that they would be criticized or hacked. Barcelona has fully embraced the political idea of [the commons](https://en.wikipedia.org/wiki/Commons). We understand that some assets should serve everyone and be owned and maintained by the people. Which is why they made the valiant choice to make this software re-usable.
+
+As with any open source software this implies not merely publishing the code, but thinking about ways in which the functionalities can be tweaked and adjusted to the different use cases that a diverse range of people and organizations will need. The code has also been built with full internationalization capabilities in mind, which is why so far Decidim has been translated into 55 languages by volunteers around the world. The Barcelonian government has also taken the necessary steps to give the project its own steeringship autonomy, by delegating the care of the software to the Decidim Free Software Association, which governs itself with help of members of the community. Fortunately it has paid back, as after 7 years Decidim has grown to be a full fledged open source project, with over 450 instances in 30 countries and a thriving community of contributors.
+
+For us, **being considered as a digital public good means a recognition of Decidim's public-community model.** A reference model when thinking about how to develop FLOSS technologies from the public sector and with a community governance model. In this way, we show that yes, there is an alternative, that there are other ways of making technology and that the battle for a free internet is still open.  
+
+**Let's hope that this recognition will help our model to be replicated and extended globally. Making the Decidim model a standard that will become a common practice when it comes to implementing digital public policies.**
+
+For more information on the Digital Public Goods Alliance please reach out to [hello@digitalpublicgoods.net](mailto:hello@digitalpublicgoods.net). 
+
+The Digital Public Goods Alliance is a multi-stakeholder initiative endorsed by the United Nations Secretary-General, working to accelerate the attainment of the Sustainable Development Goals in low- and middle-income countries by facilitating the discovery, development, use of, and investment in digital public goods.
