@@ -1,0 +1,8 @@
+title: Trusted IDs
+url: https://github.com/ConsorciAOC-PRJ/decidim-module-trusted-ids
+description: >-
+  This module is an evolution of the original IdCat mòbil.
+
+
+  One of the goals of this module is to decouple the authentication method from the IdCat Mòbil and pursue a more agnostic with a registry of providers. It also implements additional user options for extended verification methods using Via Oberta (or other providers) with improved user's control over personal data management.
+type: auth
