@@ -8,14 +8,14 @@ RSpec.describe "pages", type: :feature do
   end
 
   it "has the correct title header" do
-    expect(page).to have_selector "h1"
+    expect(page).to have_css "h1"
     within "h1" do
       expect(page).to have_content(/Trademark policy/i)
     end
   end
 
   it "has the correct links" do
-    expect(page).to have_selector "main"
+    expect(page).to have_css "main"
 
     within "main" do
       expect(page).to have_link "Ruby on Rails", href: "https://rubyonrails.org/trademarks"
