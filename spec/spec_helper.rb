@@ -8,13 +8,13 @@ require "middleman-core/rack"
 
 require "middleman-blog"
 
-middleman_app = ::Middleman::Application.new do
+middleman_app = Middleman::Application.new do
   set :root, File.expand_path(File.join(File.dirname(__FILE__), ".."))
   set :environment, :test
   set :show_exceptions, false
 end
 
-Capybara.app = ::Middleman::Rack.new(middleman_app).to_app
+Capybara.app = Middleman::Rack.new(middleman_app).to_app
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate

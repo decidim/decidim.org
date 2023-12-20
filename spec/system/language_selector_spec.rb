@@ -8,14 +8,14 @@ RSpec.describe "language selector", type: :feature do
   end
 
   it "has the correct title header" do
-    expect(page).to have_selector "h1"
+    expect(page).to have_css "h1"
     within "h1" do
       expect(page).to have_content "Decidim és una plataforma digital de participació ciutadana"
     end
   end
 
   it "changes the locale" do
-    expect(page).to have_selector "nav details"
+    expect(page).to have_css "nav details"
 
     within "nav details" do
       expect(page).to have_text "Castellano"
