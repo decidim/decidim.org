@@ -58,7 +58,7 @@ Este trabajo es el resultado de un proyecto colectivo que, a lo largo de estos s
 
 ¡Larga vida a Decidim, y buena lectura!
 
-### <a name="cat"></a>Decidim Book: un regal pel nostre 7è anniversari    
+### <a name="cat"></a>Decidim Book: un regal pel nostre 7è aniversari    
 
 > We have been busy building Decidim, now it is time to think it through. (p. vii)
 
