@@ -30,7 +30,7 @@ This work is the culmination of a seven-year collective endeavour involving coun
 
 Long live Decidim, and happy reading!
 
-### <a name="cast"></a>Decidim Book: un regalo por nuestro 7º aniversario
+### <a name="cast"></a>Decidim Book: un regalo por nuestro 7o aniversario
 
 > We have been busy building Decidim, now it is time to think it through. (p. vii)
 
@@ -57,3 +57,31 @@ Este trabajo es el resultado de un proyecto colectivo que, a lo largo de estos s
 > Beyond hope or fear, Decidim is a new weapon in the struggle for real democracy. This book ends here. Decidim continues. (p. 132)
 
 ¡Larga vida a Decidim, y buena lectura!
+
+### <a name="cat"></a>Decidim Book: un regal pel nostre 7è anniversari    
+
+> We have been busy building Decidim, now it is time to think it through. (p. vii)
+
+Tal dia com avui, fa 7 anys, naixia Decidim. Avui veu la llum el seu **llibre**: [“Decidim, a technopolitical network for participatory democracy. Philosophy, practice and autonomy of a collective platform in the age of Digital Intelligence"](https://link.springer.com/book/9783031507830) (2024, Springer). Decidim va néixer a Barcelona l'1 de Febrer de 2017 i, en tot aquest temps, no ha parat de créixer. S'ha estès a més de 30 països i compta amb 500 instal·lacions actives a tot el món. Ha superat ja els 3 milions de participants i articula centenars de processos de participació, contribuint a allò que porta per defecte en el seu disseny: facilitar, ampliar i catalitzar la democràcia. Amb la plataforma ha crescut la seva comunitat, que inclou avui a milers de persones a tot el món. Amb aquest camí recorregut publiquem aquest llibre.
+
+> We distinguish three general levels or dimensions of the project: the political (focused on the democratic model that Decidim promotes, on its impacts on public policies and organisations and on society more broadly), the technopolitical (focused on how the platform is designed, the politics it embodies and the way in which it is itself democratically governed) and the technical (focused on the conditions of production, operation and success of the project—the digital factory, collaborative mechanisms, licences, training, etc.). (p. 7)
+
+El llibre té la voluntat d'aproximar-se al projecte integralment i sistemàtica. Hem volgut explicar amb detall i profunditat totes les seves capes: la política, la tecnopolítica i la tècnica. Seguim el desenvolupament de Decidim en totes les seves dimensions, amb les virtuts i els límits que suposa escriure sobre un projecte viu, obert i en continu canvi.
+
+> A radical reading of participation as pars capere inter pares, as taking part as peers, points towards a stronger form of politics and also towards an alternative form of society. Decidim is a software and a project oriented to embody and promote that vision. (p. 127)
+
+Aquest llibre s'endinsa en les profunditats de Decidim i va més enllà. Així, esdevé una oportunitat per a parlar no sols de les potències, els objectius, i les pràctiques de Decidim, sinó també per esbossar una concepció forta de la democràcia i explorar nous horitzons polítics per a les societats digitals. En les seves pàgines es pren posició respecte al desenvolupament tecnològic i el seu impacte en la nostra societat, atenent els seus riscos, però també apuntant futurs possibles i sostenibles. Fins i tot aborda breument alguns debats sobre la intel·ligència col·lectiva amb la nova onada de la Intel·ligència Artificial.
+
+> This book is only a thread in a thick web (p. vii)
+
+Publiquem aquest llibre com una eina, com un dispositiu polític d'acció i pensament, que, a partir del propi Decidim, desenvolupa un marc de referència per a desplegar tecnologies democràtiques. És, doncs, un mètode de treball, un marc conceptual i teòric, que incorpora un imaginari col·lectiu al voltant de la democràcia, l'autonomia social, els moviments, la transformació institucional i el comú.
+
+Us convidem no només a llegir aquest llibre, també a continuar construint amb ell i més enllà d'ell. Com tot a Decidim, aquest treball és un producte copyleft, obert, lliure i col·laboratiu: sou lliures de copiar-lo, modificar-lo i distribuir-lo, sempre respectant la llicència CC-BY-SA.
+
+> In an age of disbelief and despair, of hypermediatically narrated doom and collapse, this is a necessary step: to take part in the reimagining and recrafting of the future. Hopefully, Decidim and Metadecidim will help to such a recraft of our collective selves (and also our personal ones) along with our present and future worlds.(p. 131) 
+
+Aquest treball és el resultat d'un projecte col·lectiu que, al llarg d'aquests set anys, ha involucrat a moltíssimes persones. Sense elles no hauria estat possible. Per això volem tancar aquest post celebrant la participació en la comunitat Decidim convidant, una vegada més, a les múltiples lluites (i paus) tecnopolítiques del present i del futur.
+
+> Beyond hope or fear, Decidim is a new weapon in the struggle for real democracy. This book ends here. Decidim continues. (p. 132)
+
+Llarga vida al Decidim, i bona lectura!
