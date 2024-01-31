@@ -1,8 +1,7 @@
 ---
 title: "Decidim Book: a gift for our  7th Anniversary"
 ---
-* [Ver post en cast](/blog/2024-01-30-decidim-book-a-gift-for-our-7th-anniversary/#cast)
-* [Veure post en cat](/blog/2024-01-30-decidim-book-a-gift-for-our-7th-anniversary/#cat)
+[\[cast]](/blog/2024-01-30-decidim-book-a-gift-for-our-7th-anniversary/#cast)﻿ [\[cat]](/blog/2024-01-30-decidim-book-a-gift-for-our-7th-anniversary/#cat)
 
 > We have been busy building Decidim, now it is time to think it through. (p. vii)
 
@@ -58,7 +57,7 @@ Este trabajo es el resultado de un proyecto colectivo que, a lo largo de estos s
 
 ¡Larga vida a Decidim, y buena lectura!
 
-### <a name="cat"></a>Decidim Book: un regal pel nostre 7è aniversari    
+### <a name="cat"></a>Decidim Book: un regal pel nostre 7è aniversari
 
 > We have been busy building Decidim, now it is time to think it through. (p. vii)
 
