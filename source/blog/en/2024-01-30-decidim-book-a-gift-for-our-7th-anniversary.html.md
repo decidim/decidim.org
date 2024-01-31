@@ -1,7 +1,6 @@
 ---
 title: "Decidim Book: a gift for our  7th Anniversary"
 ---
-[\[cast]](/blog/2024-01-30-decidim-book-a-gift-for-our-7th-anniversary/#cast)﻿ [\[cat]](/blog/2024-01-30-decidim-book-a-gift-for-our-7th-anniversary/#cat)
 
 > We have been busy building Decidim, now it is time to think it through. (p. vii)
 
