@@ -10,17 +10,17 @@ ro:
       - Adunarea noastră
       - Apăsați
     intro: Dorim să contribuim la democratizarea societății prin construirea de tehnologii, metodologii, practici, standarde, acțiuni, povești și valori, în mod liber, deschis, colaborativ și reflexiv.
-    subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_at_opencollective: Support us at Open Collective
+    subtitle: The Decidem Free Software Association este o asociație democratică pentru guvernarea comunității Decidim.
+    support_at_opencollective: Susține-ne la Open Collective
     support_intro: Dorim să contribuim la democratizarea societății prin construirea de tehnologii, metodologii, practici, standarde, acțiuni, povești și valori, în mod liber, deschis, colaborativ și reflexiv.
-    support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_title: Support Decidim
+    support_subtitle: The Decidem Free Software Association este o asociație democratică pentru guvernarea comunității Decidim.
+    support_title: Susține Decidim
     title: Despre Decidim
     values:
-      v1: Compromise and responsibility
+      v1: Compromis și responsabilitate
       v2: Egalitatea de șanse și indicatori de calitate
       v3: Deschide conținutul pentru a partaja și a coopera
-      v4: Free software to enable autonomy
+      v4: Software gratuit pentru autonomie
       v5: Confidențialitate
       v6: Transparență, trasabilitate și integritate
       v7: Continuous improvement and collaboration between organizations
@@ -59,16 +59,16 @@ ro:
     subtitle: O comunitate democratică care gestionează proiectul Decidim în toate dimensiunile sale
     title: Metadecidim, comunitatea noastră
   contact:
-    bot_field: 'Nu completați acest lucru dacă sunteți uman:'
+    bot_field: 'Nu completați acest lucru dacă sunteți om:'
     email: E-mail
     message: Mesaj
     name: Nume
     privacy_policy:
-      accept: Accept <a href="%{privacy_policy_url}">Politica de confidenţialitate</a>
+      accept: Accept <a href="%{privacy_policy_url}">Politica de confidențialitate</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
     send: Trimite mesaj
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Contact Decidim
+    title: Contactează Decidim
   demo:
     button: Demo online
     p1: Joacă-te și explorează liber platforma Decidim cu demo-ul nostru online.
@@ -355,6 +355,7 @@ ro:
     academy: Academy
     association: Asociație
     blog: Blog
+    book: Book
     close_menu: Close menu
     code: Cod
     community: Comunitate
