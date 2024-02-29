@@ -58,7 +58,13 @@ collections:
       - {label: "Name", name: "name", widget: "string", required: true}
       - {label: "URL", name: "url", widget: "string", required: true}
       - {label: "Image", name: "image", widget: "image", required: true}
-      - {label: "Joined at", name: "joined_at", widget: "datetime", date_format: "YYYY-MM-DD", required: true}
+      # Maybe after these are fixed this can work as it should according to their docs:
+      # * https://github.com/decaporg/decap-cms/pull/7091
+      # * https://github.com/decaporg/decap-cms/issues/7090
+      #
+      # - {label: "Joined at", name: "joined_at", widget: "datetime", date_format: "YYYY.MM.DD", time_format: false, required: true}
+      # In the meantime we use a string as a workaround
+      - {label: "Joined at", name: "joined_at", widget: "string", default: "YYYY.MM.DD", required: true}
       - {label: "Type", name: "type", widget: "select", options: ["public", "provider", "technology"], required: false}
   - name: "Installation (usedby)"
     label: "Installation"
