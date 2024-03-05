@@ -54,7 +54,7 @@ Aquest és un treball perfecte per a tu si ets algú:
 * Proactiva i que treballa de manera autònoma.
 * Amb habilitats socials i de comunicació. Actualment tenim problemes amb la bretxa de gènere i els prejudicis, per la qual cosa és important ser feminista.
 * Anglès i català o castellà fluid.
-* Resident a Espanya.
+* Resident a Barcelona o rodalies.
 
 ## Què oferim
 
@@ -139,7 +139,7 @@ Este es un trabajo perfecto para ti si eres alguien:
 * Proactiva y que trabaja de forma autónoma
 * Con habilidades sociales y de comunicación. Actualmente, tenemos problemas con la brecha de género y los prejuicios, por lo que es importante ser feminista. 
 * Inglés y catalán o español fluidos.
-* Residente en España. 
+* Residente en Barcelona o alrededores. 
 
 ## Qué ofrecemos
 
