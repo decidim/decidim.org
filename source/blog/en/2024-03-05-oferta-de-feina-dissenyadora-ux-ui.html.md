@@ -1,9 +1,9 @@
 ---
 title: "Oferta de feina: Dissenyadora  UX/UI"
 ---
-Ver post en castellano
+[Ver post en castellano](https://decidim.org/blog/2024-03-05-oferta-de-feina-dissenyadora-ux-ui/#cast)
 
-## Descripció 
+## Descripció
 
 Busquem a algú que ens pugui ajudar a millorar l'Experiència de la Participant (PX) i la UI de Decidim, liderant aquesta àrea de treball a l'equip de producte. Treballaràs amb un equip interdisciplinari centrat en com la tecnologia pot ajudar a empoderar la ciutadania per al canvi social i la millora de la democràcia.
 
@@ -86,8 +86,6 @@ Data límit: 17 de març de 2024
 A partir del 17 de març avaluarem les candidatures per resoldre el procés durant el mes vinent.
 
 Les dades facilitades es conservaran fins al final d'aquest procés o fins que exerceixi el dret de retractació. Per tant, teniu dret a accedir a les vostres dades personals, rectificar les dades inexactes o sol·licitar la seva supressió quan les dades ja no siguin necessàries. Podeu exercir aquest dret enviant un correu electrònic a jobs@decidim.org. Les dades no es transmetran a tercers.
-
-
 
 \[Castellano]
 
