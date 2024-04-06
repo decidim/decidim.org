@@ -1,58 +1,58 @@
 it:
   '404':
-    intro: Maybe you were looking for...
-    subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
-    title: Page not found
+    intro: Forse stavate cercando...
+    subtitle: Sembra che tu abbia seguito un link rotto o inserito un URL che non esiste su questo sito.
+    title: Pagina non trovata
   about:
     about:
-      - Support us
-      - Contact us
-      - Our assembly
+      - Sostienici
+      - Contattaci
+      - La nostra assemblea
       - Stampa
-    intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
+    intro: Vogliamo contribuire alla democratizzazione della società attraverso la costruzione di tecnologie, metodologie, pratiche, standard, azioni, narrazioni e valori, in modo libero, aperto, collaborativo e riflessivo.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_at_opencollective: Support us at Open Collective
-    support_intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
+    support_at_opencollective: Sostienici in Open Collective
+    support_intro: Vogliamo contribuire alla democratizzazione della società attraverso la costruzione di tecnologie, metodologie, pratiche, standard, azioni, narrazioni e valori, in modo libero, aperto, collaborativo e riflessivo.
     support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_title: Support Decidim
+    support_title: Supporta Decidim
     title: About Decidim
     values:
-      v1: Compromise and responsibility
-      v2: Equal opportunities and quality indicators
+      v1: Compromesso e responsabilità
+      v2: Pari opportunità e indicatori di qualità
       v3: Open content to share and cooperate
-      v4: Free software to enable autonomy
-      v5: Data confidentiality
-      v6: Transparency, traceability and integrity
-      v7: Continuous improvement and collaboration between organizations
-    values_cta: Read the social contract
-    values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
-    values_title: Our values
+      v4: Software libero per abilitare l'autonomia
+      v5: Riservatezza dei dati
+      v6: Trasparenza, tracciabilità e integrità
+      v7: Miglioramento continuo e collaborazione tra organizzazioni
+    values_cta: Leggi il contratto sociale
+    values_intro: "<p>Fin dall'inizio, Decidim ha un contratto sociale che include i valori del progetto.</p><p>Tutti i membri della Decidim Free Software Association si impegnano a rispettare questo contratto.</p>"
+    values_title: I nostri valori
   alert:
-    button: Join
-    p1: The Future of The Internet · October 13-14 Barcelona
+    button: Iscriviti
+    p1: Il futuro di Internet · 13-14 ottobre Barcellona
     strong: Decidim Fest 22
   blog:
-    latest: Latest blog post
+    latest: Ultimo post sul blog
     read_more: Read more
-    subtitle: Latest news from Decidim.
+    subtitle: Ultime notizie da Decidim.
     tags:
-      title: Articles tagged with
+      title: Articoli etichettati con
     title: Blog
   case_study:
     n1:
       org: Città di Helsinki
-      quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
+      quote: Abbiamo valutato sette diversi tipi di opzioni di budgeting partecipativo per trovare la piattaforma giusta per supportare il processo di Helsinki con un'interfaccia facile da usare e la modularità richiesta per diversi tipi di esigenze. Decidim ha vinto la valutazione e le prime istanze sono state costruite nel 2018.
     n2:
-      org: Code for Japan
-      quote: Decidim provides customize-friendly architecture so that we can adapt it to our domestic situation.
+      org: Codice del Giappone
+      quote: Decidim fornisce un'architettura personalizzabile in modo da poterla adattare alla nostra situazione domestica.
     n3:
-      org: European Commission
-      quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
+      org: Commissione Europea
+      quote: La piattaforma digitale è stata lanciata il 19 aprile 2021 ed è stata aperta ai contributi fino al 9 maggio 2022. Durante questo periodo sono state presentate 18 859 idee e 22 167 osservazioni e sono stati organizzati 6 661 eventi. I contributi raccolti attraverso la piattaforma digitale sono stati accolti dai gruppi di esperti dei cittadini europei e discussi e discussi nella sessione plenaria della conferenza, gli altri due pilastri principali della conferenza.
   community:
-    community1: Propose and help define new features
-    community2: Report bugs and help the developers fix them
-    community3: Help shape the future of the platform
-    cta: Go to Metadecidim
+    community1: Proporre e aiutare a definire nuove funzionalità
+    community2: Segnala bug e aiuta gli sviluppatori a correggerli
+    community3: Aiuta a plasmare il futuro della piattaforma
+    cta: Vai a Metadecidim
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Decidim Community Photo al Metadecidim Meeting 2016
     intro: Metadecidim è una comunità che collabora alla progettazione della piattaforma e alla costruzione del progetto. Insieme possiamo progettare e sviluppare nuove funzionalità e segnalare bug per il miglioramento continuo della piattaforma.
