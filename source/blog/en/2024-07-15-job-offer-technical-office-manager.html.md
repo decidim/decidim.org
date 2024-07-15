@@ -1,7 +1,7 @@
 ---
 title: "Job offer: Technical Office Manager"
 ---
-Ver post en castellano
+[Ver post en castellano](https://decidim.org/blog/2024-07-15-job-offer-technical-office-manager/#cast)
 
 We are looking for a visionary and leadership-oriented individual to work as the Technical Office Manager of the Decidim Association. You will lead project design, seek new funding sources, coordinate new alliances, and manage the technical office of Decidim. All of this will be done with an interdisciplinary team focused on how technology can help empower citizens for social change and improve democracy.
 
@@ -118,7 +118,9 @@ The data provided will be retained until the end of this process or until you ex
 
 - - -
 
-# Oferta de trabajo
+\[Castellano]
+
+## <a name="cast"></a> Oferta de trabajo
 
 Buscamos a una persona con visión y liderazgo que quiera trabajar como Director/a de la Oficina Técnica de la Asociación Decidim. Trabajarás liderando el diseño de proyectos, buscando nuevas fuentes de financiación, coordinando nuevas alianzas y coordinando el trabajo de la oficina técnica de Decidim. Todo ello con un equipo interdisciplinar centrado en cómo la tecnología puede ayudar a empoderar a los ciudadanos para el cambio social y mejorar la democracia.
 
