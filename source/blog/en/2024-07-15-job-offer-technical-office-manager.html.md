@@ -1,7 +1,9 @@
 ---
 title: "Job offer: Technical Office Manager"
 ---
-[Ver post en castellano](https://decidim.org/blog/2024-07-15-job-offer-technical-office-manager/#cast)
+[Ver post en castellano](#cast)
+
+[Veure post en català](#cat)
 
 We are looking for a visionary and leadership-oriented individual to work as the Technical Office Manager of the Decidim Association. You will lead project design, seek new funding sources, coordinate new alliances, and manage the technical office of Decidim. All of this will be done with an interdisciplinary team focused on how technology can help empower citizens for social change and improve democracy.
 
@@ -240,3 +242,126 @@ Fecha límite: 31 de agosto de 2024
 A partir del 1 de septiembre evaluaremos las candidaturas y resolveremos el proceso entre el 15 y el 20 de septiembre.
 
 Los datos facilitados se conservarán hasta el final de este proceso o hasta que usted ejerza su derecho de retractación. Por lo tanto, tiene derecho a acceder a sus datos personales, rectificar los datos inexactos o solicitar su supresión cuando los datos ya no sean necesarios. Puede ejercer este derecho enviando un correo electrónico a <jobs@decidim.org>. Los datos no se transmitirán a terceros.
+
+\[Català]
+
+## <a name="cat"></a> Oferta de treball
+
+Busquem a una persona amb visió i lideratge que vulgui treballar com a Director/a de l'Oficina Tècnica de l'Associació Decidim. Treballaràs liderant el disseny de projectes, buscant noves fonts de finançament, coordinant noves aliances i coordinant el treball de l'oficina tècnica de Decidim. Tot això amb un equip interdisciplinari centrat en com la tecnologia pot ajudar a empoderar als ciutadans per al canvi social i millorar la democràcia.
+
+## Què és Decidim
+
+Decidim és un programari lliure de codi obert per a la democràcia participativa que està funcionant en més de 450 ciutats, regions i organitzacions de tot el món. És utilitzat per governs com els de Barcelona, Hèlsinki, França, Itàlia, el Brasil o Mèxic, per nomenar alguns.
+
+A nivell tècnic és un projecte Ruby on Rails, i inclou un generador i algunes gemmes que ajuden les organitzacions a prendre decisions i organitzar processos deliberatius. Funciona mitjançant una web de participació en línia i offline.
+
+Intentem prendre totes les decisions en obert en GitHub i també amb la nostra pròpia plataforma (Metadecidim).
+
+Més informació:
+
+* <https://decidim.org>
+* <https://meta.decidim.org>
+* <https://github.com/decidim/decidim>
+
+## En què consisteix el treball
+
+En el dia a dia les teves tasques seran:
+
+### Lideratge estratègic
+
+* Aplicar la missió, la visió i els valors de Decidim en coordinació amb el Comitè de Coordinació i el personal de l'Associació.
+* Dirigir el desenvolupament d'estratègies a llarg termini, assegurant-se que s'adaptin a circumstàncies variables.
+* Definir un pla de treball a llarg termini d'acord amb els objectius del projecte i en coordinació amb el Comitè de Coordinació.
+* Impulsar el creixement de l'organització identificant noves oportunitats, col·laboracions i iniciatives.
+
+### Fundraising i pressupost
+
+* Buscar activament noves oportunitats de finançament de caràcter públic, filantròpic o privat. 
+* Escriure i presentar projectes alineats amb la missió i funció de l'Associació Decidim. 
+* Definir i revisar anualment el pla de sostenibilitat econòmica.
+* Elaborar conjuntament amb el Comitè de Coordinació i el personal de l'Associació el pressupost anual. 
+
+### Aliances estratègiques
+
+* Buscar activament i gestionar noves aliances estratègiques amb organitzacions que puguin ajudar al treball i missió de l'Associació Decidim.
+* Gestionar les relacions amb els actuals aliats de Decidim per a enfortir-les i buscar possibles col·laboracions. 
+
+### Coordinació i recursos humans
+
+* Construir i dirigir un equip d'alt rendiment, proporcionant tutoria, orientació i oportunitats de desenvolupament professional.
+* Fomentar un entorn de treball col·laboratiu i integrador que afavoreixi la innovació, la creativitat i la millora contínua.
+* Planificar les noves incorporacions de personal i gestionar els processos de selecció conjuntament amb el Comitè de Coordinació.
+* Fer seguiment del desenvolupament i creixement laboral del personal de l'oficina tècnica.
+* Servir d'enllaç i facilitar la col·laboració entre el Comitè de Coordinació i el personal de l'Associació, així com diferents espais, processos o activitats del projecte Decidim.
+
+### Gestió de projectes
+
+* Liderar i coordinar el disseny, l'execució i l'avaluació de projectes.
+* Supervisar tots els aspectes pràctics i administratius propis de la posada en marxa i execució d'un projecte.
+
+### Producte
+
+* Participar en l'elaboració del full de ruta de nous desenvolupaments i funcionalitats juntament amb l'equip de producte. 
+* Gestionar els projectes de nous desenvolupaments i evolutius de Decidim, coordinant el treball amb les empreses de desenvolupament. 
+* Participar en el Quality Assurance revisant els nous desenvolupaments.
+
+### Comunitat i partners
+
+* Dissenyar, gestionar, dinamitzar i avaluar els processos de participació de la comunitat a través de la plataforma Metadecidim. 
+* Gestionar i fer seguiment de la política de partners de Decidim, organitzant reunions de seguiment amb els partners i atenent les seves demandes.
+* Treballar per a ampliar les empreses proveïdores de servei que són partners oficials i contribueixen al projecte. 
+* Atendre el correu de contacte, donant resposta a les peticions que arriben o redirigint la comunicació a les persones o equips pertinents. 
+
+### Rendició de comptes
+
+* Rendir comptes regularment enfront del Comitè de Coordinació, explicant detalladament el treball realitzat i consultant aquelles decisions que requereixin de la seva aprovació.
+* Rendir comptes anualment enfront de l'Assemblea General de l'Associació Decidim en compliment amb el que disposi la normativa interna (en procés de redacció).
+* Donar suport al Comitè de Coordinació en les activitats necessàries per al seu correcte funcionament. 
+* Assistir a les reunions del Comitè de Coordinació, amb veu però sense vot, operant com a organitzador i proveint en tot el requerit per a l'òptim funcionament d'aquestes.
+
+## A qui busquem
+
+Est és un treball perfecte per a tu si ets algú:
+
+* Amb 2 anys o més d'experiència en un lloc similar;
+* Titulació o àmplia experiència demostrable en una o més de les següents àrees d'estudi: Ciències Polítiques, Dret, Sociologia, Administració i Direcció d'Empreses (ADE), Tecnologia i Ciències de la Computació, Gestió de Projectes, Comunicació i Relacions Públiques;
+* Experiència de treball o col·laboració en projectes de programari, tecnologia, ciència o recerca;
+* Atenta als detalls i la qualitat;
+* Proactiva i que treballa de manera autònoma;
+* Amb habilitats socials i de comunicació. Actualment, tenim problemes amb la bretxa de gènere i els prejudicis, per la qual cosa és important tenir una mirada feminista;
+* Inglés i espanyol fluids;
+* Resident a Barcelona o voltants.
+
+## Es valorarà positivament
+
+Com a "coses que volem, però sabem que seran difícils d'aconseguir i estem obertes a deixar-les passar".
+
+* Coneixements bàsics de programació;
+* Coneixements en el món del finançament privat o públic;
+* Experiència de treball o col·laboració en projectes de programari lliure;
+* Apassionat de la democràcia, la tecnologia lliure, els drets digitals i com el poder de la gent pot donar forma al futur;
+* Experiència en l'àmbit associatiu i/o en organitzacions, moviments socials o qualsevol lluita per la defensa dels drets humans;
+* Català fluid;
+* Experiència en el maneig de projectes Europeus o similars.
+
+## Què oferim
+
+* Flexibilitat per a teletreballar. Es requereixen mínim 2 dies presencials en l'oficina;
+* Flexibilitat horària per a conciliar el teu horari laboral segons les teves necessitats;
+* Jornada de 35 hores setmanals;
+* Contracte de treball d'alta direcció regulat concorde al Reial decret 1382/1985, d'1 d'agost, pel qual es regula la relació laboral de caràcter especial del personal d'alta direcció;
+* Salari: 35.000 euros bruts anuals no negociables;
+* 30 dies naturals de vacances a l'any;
+* Cotització al règim general de la Seguretat Social, incloent-hi la contingència de desocupació;
+* Durada del contracte d'un any, renovable, amb tres mesos de prova. La renovació estarà supeditada a una avaluació anual, que es realitzarà segons els mecanismes disposats en la normativa interna (en procés de redacció);
+* Formar part d'un projecte que treballa per a la democratització de la societat amb projecció global. I el més important, al costat d'un equip format per bona gent.
+
+## Com postular-se
+
+Si estàs interessat envia'ns el teu CV actualitzat i una carta de motivació a <jobs@decidim.org> amb l'assumpte "Adreça de l'Oficina Tècnica".
+
+Data límit: 31 d'agost de 2024
+
+A partir de l'1 de setembre avaluarem les candidatures i resoldrem el procés entre el 15 i el 20 de setembre.
+
+Les dades facilitades es conservaran fins al final d'aquest procés o fins que vostè exerceixi el seu dret de retractació. Per tant, té dret a accedir a les seves dades personals, rectificar les dades inexactes o sol·licitar la seva supressió quan les dades ja no siguin necessaris. Pot exercir aquest dret enviant un correu electrònic a <jobs@decidim.org>. Les dades no es transmetran a tercers.
