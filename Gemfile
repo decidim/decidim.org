@@ -22,6 +22,7 @@ gem "rubocop", "~> 1.31"
 gem "rubocop-faker", "~> 1.1"
 gem "rubocop-rake", "~> 0.6.0"
 gem "rubocop-rspec", "~> 2.13"
+gem "rubocop-rspec_rails", "~> 2.29"
 
 group :test do
   gem "capybara", "~> 3.37"
