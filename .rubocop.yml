@@ -5,6 +5,7 @@ inherit_from:
 require:
   - rubocop-rake
   - rubocop-rspec
+  - rubocop-capybara
 
 AllCops:
   Include:
