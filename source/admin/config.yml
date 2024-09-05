@@ -65,7 +65,7 @@ collections:
       # - {label: "Joined at", name: "joined_at", widget: "datetime", date_format: "YYYY.MM.DD", time_format: false, required: true}
       # In the meantime we use a string as a workaround
       - {label: "Joined at", name: "joined_at", widget: "string", default: "YYYY.MM.DD", required: true}
-      - {label: "Type", name: "type", widget: "select", options: ["public", "provider", "technology"], required: false}
+      - {label: "Type", name: "type", widget: "select", options: ["public", "provider", "other"], required: false}
   - name: "Installation (usedby)"
     label: "Installation"
     format: yml
