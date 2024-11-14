@@ -1,7 +1,7 @@
 ---
 title: Decidim and BSC collaborate to enhance Open Data capabilities
 ---
-New collaboration with the **[VCity](<>)** project, led by the Barcelona Supercomputing Center (BSC) and funded by the UNICO I+D Cloud | España Digital 2026 program. This project aims to develop *Urban Digital Twins*, advanced digital tools that enable public administrations to make evidence-based decisions.
+New collaboration with the **[VCity](<>)** project, led by the Barcelona Supercomputing Center (BSC) and funded by the UNICO I+D Cloud España Digital 2026 program. This project aims to develop *Urban Digital Twins*, advanced digital tools that enable public administrations to make evidence-based decisions.
 
 
 
