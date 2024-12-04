@@ -39,7 +39,8 @@ description:
     <% region = data_select_by_type(installations, "region") %>
     <% city = data_select_by_type(installations, "city") %>
     <% org = data_select_by_type(installations, "org") %>
-    <% filters = [installations, region, city, org] %>
+    <% university = data_select_by_type(installations, "university") %>
+    <% filters = [installations, region, city, org, university] %>
 
     <ul role="tablist" class="flex items-center space-x-8 mb-8 md:mb-16">
       <% filters.each_with_index do |filter, i| %>
