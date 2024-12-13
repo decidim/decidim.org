@@ -56,7 +56,7 @@ description:
         <div class="grid grid-cols-3 md:grid-cols-5 gap-4 md:gap-x-28 md:gap-y-16">
           <% filter.each do |id, use| %>
             <a class="inline-block" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">
-              <img class="object-contain w-full h-full" src="<%= use.image %>" alt="<%= use.title %>" />
+              <img loading="lazy" class="object-contain w-full h-full" src="<%= use.image %>" alt="<%= use.title %>" />
             </a>
           <% end %>
         </div>
