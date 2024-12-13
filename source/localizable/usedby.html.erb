@@ -34,13 +34,18 @@ description:
 <%= partial "/partials/facts" %>
 
 <section>
-  <div class="container py-12" data-tabs="used_by">
+  <div class="container py-12" data-tabs="used_by" data-filter>
     <% installations = data_sort_by(data.installations, "priority") %>
     <% region = data_select_by_type(installations, "region") %>
     <% city = data_select_by_type(installations, "city") %>
     <% org = data_select_by_type(installations, "org") %>
     <% university = data_select_by_type(installations, "university") %>
     <% filters = [installations, region, city, org, university] %>
+
+    <div class="relative mb-4">
+      <input class="bg-gray-100 rounded-xl w-full py-3 pl-9 pr-6 par-md relative placeholder:text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>">
+      <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 left-3 w-4 h-4" %>
+    </div>
 
     <ul role="tablist" class="flex items-center space-x-8 mb-8 md:mb-16">
       <% filters.each_with_index do |filter, i| %>
@@ -55,8 +60,9 @@ description:
       <div class="hidden <%= 'is-selected' if i == 0 %>" data-tab-content="f<%= i %>">
         <div class="grid grid-cols-3 md:grid-cols-5 gap-4 md:gap-x-28 md:gap-y-16">
           <% filter.each do |id, use| %>
-            <a class="inline-block" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">
+            <a class="inline-block" href="<%= use.url %>" target="_blank" rel="noopener noreferrer" data-filter-target>
               <img loading="lazy" class="object-contain w-full h-full" src="<%= use.image %>" alt="<%= use.title %>" />
+              <span class="hidden"><%= use.title %> - <%= use.url %></span>
             </a>
           <% end %>
         </div>
