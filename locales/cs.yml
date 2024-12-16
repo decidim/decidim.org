@@ -522,15 +522,16 @@ cs:
     cta: Začínáme
     disclaimer: Loga jsou duševním vlastnictvím příslušných držitelů autorských práv.<br>Nespadají pod licenci Creative Commons By-SA, kterou je licencován zbytek obsahu stránek.
     facts:
-      f1: instance
-      f2: země
-      f3: instituce
-      f4: organizace
-      f5: účastníci
-      f6: procesy
-      f7: návrhy
-      f8: komentáře
-      f9: setkání
+      type:
+        instances: instances
+        countries: countries
+        institutions: institutions
+        organizations: organizations
+        participants: participants
+        processes: processes
+        proposals: proposals
+        comments: comments
+        meetings: meetings
       subtitle: Decidim neustále roste a je přijímán organizacemi a komunitou.
       title: Fakta a obrázky
     filters:
