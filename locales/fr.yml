@@ -522,15 +522,16 @@ fr:
     cta: C'est parti !
     disclaimer: Les logos des partenaires sont la propriété intellectuelle de leurs détenteurs respectifs de droits d'auteur. <br>Ils ne tombent pas sous la licence Creative Commons By-SA sous laquelle le reste du contenu du site est licencié.
     facts:
-      f1: instances
-      f2: pays
-      f3: institutions
-      f4: organisations
-      f5: participants
-      f6: processus
-      f7: propositions
-      f8: commentaires
-      f9: réunions
+      type:
+        instances: instances
+        countries: countries
+        institutions: institutions
+        organizations: organizations
+        participants: participants
+        processes: processes
+        proposals: proposals
+        comments: comments
+        meetings: meetings
       subtitle: Decidim ne cesse de croître et d'être adopté par des organisations et la communauté.
       title: Faits & Chiffres
     filters:
