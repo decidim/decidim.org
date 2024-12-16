@@ -522,15 +522,16 @@ sv:
     cta: Kom igång
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
     facts:
-      f1: instanser
-      f2: länder
-      f3: institutioner
-      f4: organisationer
-      f5: deltagare
-      f6: dialoger
-      f7: förslag
-      f8: kommentarer
-      f9: möten
+      type:
+        instances: instances
+        countries: countries
+        institutions: institutions
+        organizations: organizations
+        participants: participants
+        processes: processes
+        proposals: proposals
+        comments: comments
+        meetings: meetings
       subtitle: Decidim keeps growing and being adopted by organizations and the community.
       title: Fakta & siffror
     filters:
