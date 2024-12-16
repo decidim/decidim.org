@@ -522,15 +522,16 @@ fi:
     cta: Aloita
     disclaimer: Esitetyt logot ovat kyseisten tavaramerkkien haltijoiden omaisuutta.<br>Ne eivät ole Creative Commons By-SA -lisenssin alaista materiaalia, kuten muu tämän sivuston sisältö.
     facts:
-      f1: asennukset
-      f2: maat
-      f3: instituutiot
-      f4: organisaatiot
-      f5: osallistujat
-      f6: prosessit
-      f7: ehdotukset
-      f8: kommentit
-      f9: tapaamiset
+      type:
+        instances: instances
+        countries: countries
+        institutions: institutions
+        organizations: organizations
+        participants: participants
+        processes: processes
+        proposals: proposals
+        comments: comments
+        meetings: meetings
       subtitle: Decidim kasvaa ja on käytössä useissa organisaatioissa ja yhteisöissä.
       title: Tilastoja ja lukuja
     filters:
