@@ -6,8 +6,8 @@
       <div class="grid md:grid-cols-3 gap-x-7 md:gap-y-24">
         <% data.facts.each_with_index do |use, ix| %>
           <div class="md:space-y-3 opacity-0 md:opacity-100 animate-slide-y md:animate-none" style="--translate-ix: <%= ix %>;">
-            <h2 class="h2"><%= use.value %></h2>
-            <h6 class="h6"><%= t("used_by.facts.#{use.text}") %></h6>
+            <h2 class="h2"><%= get_statistic_for_fact(use.text, use.value, data) %></h2>
+            <h6 class="h6"><%= t("used_by.facts.type.#{use.text}") %></h6>
           </div>
         <% end %>
       </div>
