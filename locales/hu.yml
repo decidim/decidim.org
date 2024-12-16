@@ -522,15 +522,16 @@ hu:
     cta: Kezdjük el
     disclaimer: A logók a megfelelő szerzői jogtulajdonosok szellemi tulajdonát képezik.<br>Nem tartoznak a Creative Commons By-SA licenc alá, amely az oldal többi tartalmának licencét képezi.
     facts:
-      f1: példányok
-      f2: országok
-      f3: intézmények
-      f4: szervezetek
-      f5: résztvevők
-      f6: folyamatok
-      f7: javaslatok
-      f8: hozzászólások
-      f9: találkozók
+      type:
+        instances: instances
+        countries: countries
+        institutions: institutions
+        organizations: organizations
+        participants: participants
+        processes: processes
+        proposals: proposals
+        comments: comments
+        meetings: meetings
       subtitle: A Decidim folyamatosan növekszik, és a szervezetek és a közösség is elfogadja.
       title: Tények és számok
     filters:
