@@ -64,7 +64,7 @@ Més informació:
 * Flexibilitat per teletreballar. Es requereixen mínim 2 dies presencials a l'oficina.
 * Flexibilitat horària per conciliar el teu horari laboral segons les necessitats.
 * Jornada completa de 35 hores setmanals.
-* Salari: Entre 34.000 euros bruts anuals
+* Salari: 34.000 euros bruts anuals
 * Formar part d’un projecte que treballa per a la democratització de la societat amb projecció global. I el més important, juntament amb un equip format per bona gent.
 
 ## Es valorarà positivament
@@ -87,8 +87,6 @@ Data límit: 15 de gener de 2025
 A partir del 15 de gener avaluarem les candidatures per resoldre el procés durant el mes vinent. Preveiem contractar a la nova persona durant el mes de febrer. 
 
 Les dades facilitades es conservaran fins al final d'aquest procés o fins que exerceixi el dret de retractació. Per tant, teniu dret a accedir a les vostres dades personals, rectificar les dades inexactes o sol·licitar la seva supressió quan les dades ja no siguin necessàries. Podeu exercir aquest dret enviant un correu electrònic a jobs@decidim.org. Les dades no es transmetran a tercers.
-
-
 
 (English)
 
@@ -155,7 +153,7 @@ https://meta.decidim.org
 * Flexibility to work remotely. A minimum of 2 days in person at the office is required.
 * Time flexibility to reconcile your working hours according to needs.
 * Full time 35 hours per week.
-* Salary: Between 34,000 gross euros per year
+* Salary: 34,000 gross euros per year
 * Be part of a project that works for the democratization of society with global projection. And most importantly, together with a team made up of good people.
 
 ## Desirable Qualifications
