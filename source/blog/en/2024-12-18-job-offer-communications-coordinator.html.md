@@ -40,11 +40,9 @@ We try to make all decisions open on GitHub and also with our own platform (at M
 
 More information:
 
-https://github.com/decidim/decidim
-
-https://decidim.org
-
-https://meta.decidim.org
+* <https://github.com/decidim/decidim>
+* <https://decidim.org>
+* <https://meta.decidim.org>
 
 ## Requirements
 
