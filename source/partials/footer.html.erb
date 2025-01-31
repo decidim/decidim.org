@@ -178,7 +178,7 @@
     </div>
 
     <div class="flex items-center justify-between mt-6 md:mt-12">
-      <span class="text-gray-500">&copy; 2021 - Creative Commons By-SA. <%= t("footer.trademark") %></span>
+      <span class="text-gray-500">&copy; <%= Date.today.strftime("%Y") %> - Creative Commons By-SA. <%= t("footer.trademark") %></span>
 
       <div class="hidden md:block">
         <%= partial "/partials/language-selector", :locals => { :direction => "up" } %>
