@@ -80,9 +80,7 @@ collections:
       - {label: "Type", name: "type", widget: "select", options: ["city", "org", "region", "university"], required: true}
       - {label: "Priority", name: "priority", widget: "number", default: 50, valueType: "int", min: 1, max: 101, step: 2, hint: Larger number is more priority (100 is Barcelona), required: true}
       - {label: "Home", name: "home", widget: "boolean", hint: "Is it going to be published on homepage?", required: false}
-      - {label: "Location 1", name: "location1", widget: "map", type: "Point", hint: "Geographical location for this installation", required: false}
-      - {label: "Location 2", name: "location2", widget: "map", type: "LineString", hint: "Geographical location for this installation", required: false}
-      - {label: "Location 3", name: "location3", widget: "map", type: "Polygon", hint: "Geographical location for this installation", required: false}
+      - {label: "Location", name: "location", widget: "map", type: "Point", hint: "Geographical location for this installation", required: false}
   - name: "Module"
     label: "Module"
     format: yml
