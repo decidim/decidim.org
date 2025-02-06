@@ -13,12 +13,13 @@ RSpec.describe FactsHelpers do
     let(:data) do
       OpenStruct.new(
         installations: [
-          ["i1", { "type" => "org",    "url" => "https://example.org" }],
-          ["i2", { "type" => "city",   "url" => "https://example.es" }],
-          ["i3", { "type" => "city",   "url" => "https://example.cat" }],
+          ["i1", { "type" => "org", "url" => "https://example.org" }],
+          ["i2", { "type" => "city", "url" => "https://example.es" }],
+          ["i3", { "type" => "city", "url" => "https://example.cat" }],
           ["i4", { "type" => "region", "url" => "https://example.fr" }]
         ],
-        countries: ["es", "fr"])
+        countries: %w(es fr)
+      )
     end
 
     describe "data type" do
