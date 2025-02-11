@@ -6,8 +6,8 @@ eu:
   about:
     about:
       - Support us
-      - Contact us
-      - Our assembly
+      - Kontaktatu gurekin
+      - Gure batzarra
       - Press
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
@@ -26,7 +26,7 @@ eu:
       v7: Continuous improvement and collaboration between organizations
     values_cta: Read the social contract
     values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
-    values_title: Our values
+    values_title: Gure balioak
   alert:
     button: Bat egin
     p1: The Future of The Internet · October 13-14 Barcelona
@@ -36,17 +36,17 @@ eu:
     read_more: Gehiago irakurri
     subtitle: Latest news from Decidim.
     tags:
-      title: Articles tagged with
+      title: Etiketatutako artikuluak
     title: Blog
   case_study:
     n1:
       org: City of Helsinki
       quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
     n2:
-      org: Code for Japan
+      org: Japoniarentzako kodea
       quote: Decidim provides customize-friendly architecture so that we can adapt it to our domestic situation.
     n3:
-      org: European Commission
+      org: Europako Batzordea
       quote: The digital platform was launched on 19 April 2021 and was open to contributions until 9 of May 2022. During this period, 18 859 ideas and 22 167 comments were submitted and 6 661 events were organised. Contributions gathered through the digital platform were taken on board by the European Citizens’ Panels and debated and discussed in the Conference Plenary - the the Conference’s other two main pillars.
   community:
     community1: Propose and help define new features
@@ -66,20 +66,20 @@ eu:
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
-    send: Send message
+    send: Bidali mezu bat
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     title: Decidim-en kontaktua
   demo:
-    button: Online demo
-    p1: Play around and explore freely the Decidim platform with our online demo.
-    strong: Try Online
-    title: Online Demo
+    button: Online Demoa
+    p1: Hassi eta esploratu Decim plataforma gure online demoarekin.
+    strong: Probatu Online
+    title: Online Demoa
   faqs:
     cta: Read all FAQs
     questions:
       q01:
         answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
-        question: What is Decidim?
+        question: Zer da Decidim?
       q02:
         answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
         question: Who is currently using Decidim?
