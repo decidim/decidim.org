@@ -2,7 +2,7 @@ eu:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
-    title: Page not found
+    title: Ez da web-orria aurkitu
   about:
     about:
       - Support us
@@ -15,7 +15,7 @@ eu:
     support_intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
     support_title: Support Decidim
-    title: About Decidim
+    title: Decidim-i buruz
     values:
       v1: Compromise and responsibility
       v2: Equal opportunities and quality indicators
@@ -28,12 +28,12 @@ eu:
     values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
     values_title: Our values
   alert:
-    button: Join
+    button: Bat egin
     p1: The Future of The Internet · October 13-14 Barcelona
     strong: Decidim Fest 22
   blog:
     latest: Latest blog post
-    read_more: Read more
+    read_more: Gehiago irakurri
     subtitle: Latest news from Decidim.
     tags:
       title: Articles tagged with
@@ -52,7 +52,7 @@ eu:
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
     community3: Help shape the future of the platform
-    cta: Go to Metadecidim
+    cta: Metadecidim-era joan
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Decidim Community Photo at Metadecidim Meeting 2016
     intro: Metadecidim is a community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.
@@ -61,14 +61,14 @@ eu:
   contact:
     bot_field: 'Don’t fill this out if you''re human:'
     email: Helbide elektronikoa
-    message: Message
+    message: Mezua
     name: Izena
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
     send: Send message
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
-    title: Contact Decidim
+    title: Decidim-en kontaktua
   demo:
     button: Online demo
     p1: Play around and explore freely the Decidim platform with our online demo.
@@ -152,8 +152,8 @@ eu:
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
     title: FAQs
     types:
-      about: About Decidim
-      association: Association
+      about: Decidim-i buruz
+      association: Elkartea
       community: Community and social contract
       features: Roadmap and features
       install: Installation and license
@@ -353,7 +353,7 @@ eu:
   nav:
     about: About
     academy: Academy
-    association: Association
+    association: Elkartea
     blog: Blog
     book: Book
     close_menu: Close menu
