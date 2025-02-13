@@ -24,7 +24,7 @@ eu:
       v5: Datu-konfidentzialtasun
       v6: Transparency, traceability and integrity
       v7: Continuous improvement and collaboration between organizations
-    values_cta: Read the social contract
+    values_cta: Irakurri kontratu soziala
     values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
     values_title: Gure balioak
   alert:
@@ -34,7 +34,7 @@ eu:
   blog:
     latest: Latest blog post
     read_more: Gehiago irakurri
-    subtitle: Latest news from Decidim.
+    subtitle: Decidim-eko azken berriak.
     tags:
       title: Etiketatutako artikuluak
     title: Blog
@@ -51,7 +51,7 @@ eu:
   community:
     community1: Propose and help define new features
     community2: Report bugs and help the developers fix them
-    community3: Help shape the future of the platform
+    community3: Lagundu plataformaren etorkizuna eratzen
     cta: Metadecidim-era joan
     figcaption: The Decidim Community during the Decidim Fest 2021
     img_alt: Decidim Community Photo at Metadecidim Meeting 2016
@@ -419,20 +419,20 @@ eu:
     kit: Press kit
     links:
       link1:
-        link: Download
+        link: Deskargatu
         title: Logo files
       link2:
         link: Watch
         title: Promotional spot
       link3:
-        link: Download
+        link: Deskargatu
         title: Brochure
       link4:
         link: To the site
         title: Decidim Fest
       link5:
         link: Youtube channel
-        title: Videos
+        title: Bideoak
       link6:
         link: Zotero repository
         title: Academic papers
@@ -497,14 +497,14 @@ eu:
   trademark:
     examples-1:
       l1: Including the Decidim logo on product pages to say "we work with Decidim" (e.g., hosting, consultancy services, developments based on Decidim).
-      l2: Use of the trademark "Decidim" in book titles and research articles.
-      l3: Use of the Decidim logo in the footer of an instance (“Powered by Decidim”).
-      title: Examples of use that do not need permission
+      l2: '"Decidim" marka erabiltzea liburuen izenburuetan eta ikerketa-artikuluetan.'
+      l3: Decidim logotipoaren erabilera instantzia baten oinetakoan ("Decidim bidez elikatua").
+      title: Baimenik behar ez duten erabilera ereduak
     examples-2:
       l1: Selling merchandise (stickers, t-shirts, mugs, etc).
       l2: Use of the Decidim logo on a book cover.
-      l3: Use of the Decidim logo in a header in a website, implying that you’re the Decidim organization.
-      title: Examples of use that do need permission
+      l3: Web orri bateko goiburu batean Decidim logotipoa erabiltzea, Decidim erakundea zarela aditzera emanez.
+      title: Baimena behar duten erabilera adibideak
     examples-3:
       l1: Naming your company or product after Decidim, like "The Decidim Consultants".
       title: Examples of use that will not get permission
@@ -524,22 +524,22 @@ eu:
     facts:
       type:
         instances: instances
-        countries: countries
-        institutions: institutions
-        organizations: organizations
-        participants: participants
-        processes: processes
-        proposals: proposals
-        comments: comments
-        meetings: meetings
+        countries: herrialdeak
+        institutions: erakunde publikoak
+        organizations: erakundeak
+        participants: parte-hartzaileak
+        processes: prozesuak
+        proposals: proposamenak
+        comments: iruzkinak
+        meetings: topaketak
       subtitle: Decidim keeps growing and being adopted by organizations and the community.
       title: Facts & Figures
     filters:
       f0: See all
-      f1: Governments
-      f2: Cities
+      f1: Gobernuak
+      f2: Hiriak
       f3: NGOs
-      f4: Universities
+      f4: Unibertsitateak
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
