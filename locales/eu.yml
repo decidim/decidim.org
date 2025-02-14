@@ -115,7 +115,7 @@ eu:
         question: Is there any tutorial to start setting it up?
       q13:
         answer: That's how we call our Code of Democratic Guarantees and Democratic Collaboration. All members of the community must endorse the [Social Contract](http://decidim.org/contract).
-        question: What is the Social Contract?
+        question: Irakurri kontratu soziala?
       q14:
         answer: 'There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.'
         question: What are the differences with Consul Project / Decide Madrid?
@@ -130,7 +130,7 @@ eu:
         question: What kind of members you accept into the Metadecidim community?
       q18:
         answer: The "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) is a democratic association for the governance of the Decidim community. It was founded on [February 16, 2019 in an extraordinary assembly of the community](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), with the approval of the organization statutes.
-        question: What is the Decidim Association?
+        question: Zer da Decidim elkartea?
       q19:
         answer: In the [general assembly of the Decidim Association](https://meta.decidim.org/assemblies/general-assembly-association) you can find more info abous us, follow the activity of the meetings and check relevant information (statutes, legal agreements, the internal regulations)
         question: How can I get more information about the Decidim Association?
@@ -154,10 +154,10 @@ eu:
     types:
       about: Decidim-i buruz
       association: Elkartea
-      community: Community and social contract
+      community: Komunitatea eta Kontratu soziala
       features: Roadmap and features
-      install: Installation and license
-      installation: Installation and license
+      install: Instalazioa eta lizentzia
+      installation: Instalazioa eta lizentzia
       users: Parte-hartzaileak eta rolak
   features:
     intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
@@ -205,11 +205,11 @@ eu:
       feature3:
         subtitle: The right to decide with all democratic guarantees
         text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
-        title: Votings
+        title: Bozketak
       feature4:
         subtitle: Setting everyone's agenda, within everyone's reach
         text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
-        title: Initiatives
+        title: Ekimenak
       feature5:
         subtitle: Your ideas in detail
         text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
@@ -217,7 +217,7 @@ eu:
       feature6:
         subtitle: Decide your choice
         text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
-        title: Voting
+        title: Bozketa
       feature7:
         subtitle: No proposal without an answer
         text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
@@ -227,7 +227,7 @@ eu:
         text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Emaitzak
       feature9:
-        subtitle: To meet and not miss anything
+        subtitle: Elkar ezagutzeko eta ezer ez galtzeko
         text: The meeting component offers organizations and participants the opportunity to convene meetings, determine their location and time, register and limit attendees, define the structure and content of the meeting as well as publishing the minutes, and the resulting proposals.
         title: Topaketa-zerrenda
     subtitle: For democratic organizations and collectives of any size and kind.
@@ -235,7 +235,7 @@ eu:
     type1:
       title: Spaces for participation
     type2:
-      title: Components
+      title: Osagaiak
     type3:
       cta: Explore the modules
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
@@ -245,11 +245,11 @@ eu:
       content: You can install it yourself or find someone to help you with tech support.
       link1: Documentation
       pre: For technologists
-      title: Installing Decidim
+      title: Decidim instalatzea
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
       link1: Funtzionalitateak
-      pre: For organizations
+      pre: Erakundeentzat
       title: The right tool for you
     first-steps3:
       content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
@@ -266,8 +266,8 @@ eu:
       link: Read the case study
       title: Backed by technology, democracy and experience
     section4:
-      button1: About the association
-      button2: Join the community
+      button1: Elkarteari buruz
+      button2: Sartu komunitatean
       intro: The <strong>Decidim Free Software Association</strong>  is a democratic association for the governance of the Decidim community.
       subtitle: "<strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform."
       title: Who’s behind the platform?
@@ -276,15 +276,15 @@ eu:
   footer:
     about_us: About us
     follow_us: Follow us on social media
-    legal: Legal
-    supported_by: Supported by
+    legal: Legala
+    supported_by: Babesleak
     trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
     up_to_date: Stay up to date
   index:
     cards:
       card1:
         content: We can help configure a system of democratic governance in all kinds of organizations.
-        link: Our features
+        link: Gure ezaugarriak
         title: Implementing a flexible democratic system
       card2:
         content: Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.
