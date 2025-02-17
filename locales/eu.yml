@@ -1,7 +1,7 @@
 eu:
   '404':
-    intro: Maybe you were looking for...
-    subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
+    intro: Agian bilatzen ari zinen...
+    subtitle: Badirudi lotura hautsi bat jarraitu duzula edo toki honetan existitzen ez den URL batean sartu zarela.
     title: Ez da web-orria aurkitu
   about:
     about:
@@ -9,11 +9,11 @@ eu:
       - Kontaktatu gurekin
       - Gure batzarra
       - Press
-    intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
+    intro: Gizartea demokratizatzen lagundu nahi dugu teknologia, metodologia, praktika, estandar, ekintza, narrazio eta balioen eraikuntzaren bidez, modu aske, ireki, kolaboratibo eta gogoetatsuan.
+    subtitle: Decidim Software Libreko Elkartea elkarte demokratikoa da Decidim komunitatea gobernatzeko.
     support_at_opencollective: Babestu gaitzazu Open Collective-n
-    support_intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
+    support_intro: Gizartea demokratizatzen lagundu nahi dugu teknologia, metodologia, praktika, estandar, ekintza, narrazio eta balioen eraikuntzaren bidez, modu aske, ireki, kolaboratibo eta gogoetatsuan.
+    support_subtitle: Decidim Software Libreko Elkartea elkarte demokratikoa da Decidim komunitatea gobernatzeko.
     support_title: Decidim-erako laguntza
     title: Decidim-i buruz
     values:
@@ -37,7 +37,7 @@ eu:
     subtitle: Decidim-eko azken berriak.
     tags:
       title: Etiketatutako artikuluak
-    title: Blog
+    title: Bloga
   case_study:
     n1:
       org: Helsinkiko hiria
@@ -49,17 +49,17 @@ eu:
       org: Europako Batzordea
       quote: Plataforma digitala 2021eko apirilaren 19an jarri zen martxan, eta 2022ko maiatzaren 9ra arte egon zen irekita ekarpenak egiteko. Aldi horretan, 18.859 ideia eta 22 167 iruzkin aurkeztu ziren eta 6.661 ekitaldi antolatu ziren. Plataforma digitalaren bidez bildutako ekarpenak Europako Herritarren Panelek jaso zituzten, eta Biltzarraren Osoko Bilkuran eztabaidatu eta eztabaidatu ziren.
   community:
-    community1: Propose and help define new features
+    community1: Ezaugarri berriak proposatu eta definitzen laguntzea
     community2: Akatsak salatu eta garatzaileei konpontzen lagundu
     community3: Lagundu plataformaren etorkizuna eratzen
     cta: Metadecidim-era joan
-    figcaption: The Decidim Community during the Decidim Fest 2021
-    img_alt: Decidim Community Photo at Metadecidim Meeting 2016
+    figcaption: Decidim Komunitatea 2021eko Decidim Festan
+    img_alt: Decidim argazki komunitarioa Metadecidim 2016 topaketan
     intro: Metadecidim plataforma diseinatzen eta proiektua eraikitzen laguntzen duen komunitate bat da. Elkarrekin funtzio berriak diseinatu eta garatu ditzakegu eta akatsen berri eman plataformaren etengabeko hobekuntzarako.
-    subtitle: A democratic community that manages the Decidim project in all its dimensions
+    subtitle: Decidim proiektua dimentsio guztietan kudeatzen duen gizarte demokratikoa
     title: Metadecidim, gure komunitatea
   contact:
-    bot_field: 'Don’t fill this out if you''re human:'
+    bot_field: 'Ez bete hau gizakia bazara:'
     email: Helbide elektronikoa
     message: Mezua
     name: Izena
@@ -67,7 +67,7 @@ eu:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
     send: Bidali mezu bat
-    subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
+    subtitle: Harremanetan jarri nahi baduzu, bete harremanetarako formularioa edo bidali mezu elektroniko bat
     title: Decidim-en kontaktua
   demo:
     button: Online Demoa
@@ -81,17 +81,17 @@ eu:
         answer: 'Decidim Free Open-Source demokrazia parte-hartzailearen plataforma bat da, hiri eta erakundeentzat. Baina Decidim plataforma digital bat baino gehiago da: proiektu eta azpiegitura komun bat da, doakoa eta irekia, non kodea, dokumentazioa, diseinua, prestakuntza-ikastaroak, lege-esparru bat, elkarlaneko interfazeak, erabiltzaile- eta bideratze-komunitateak eta ikuspegi komuna biltzen diren.'
         question: Zer da Decidim?
       q02:
-        answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
+        answer: Gaur egun mundu osoko hiri eta erakundeek erabiltzen dute. Izan ere, edozein taldek erabil dezake, GKE, unibertsitate, sindikatu, kooperatiba, auzo elkarte eta abarrek. Kontsultatu [complete list of currently active instances](/usedby/).
         question: Nork erabiltzen du Decidim?
       q03:
         answer: Erraz konfiguratu partaidetza-prozesuak Plan estrategiko bat egin nahi duzu? Edo araudi berriak eztabaidatu? Edo plaza berri bat edo eraikin publiko bat eztabaidatu guztion onerako? Decidim-i esker, parte hartzeko guneak konfiguratu ahal izango dituzu (ekimenak, batzarrak, prozesuak edo kontsultak) eta horiek aberastu ahal izango dituzu eskura dituzun osagai anitzen bidez (aurrez aurreko bilerak, inkestak, proposamenak, bozketak, emaitzen jarraipena, iruzkinak eta beste asko).
-        question: What can a Decidim administrator do?
+        question: Zer egin dezake Decidim administratzaile batek?
       q04:
         answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
         question: What can a participant (user) of Decidim do?
       q05:
         answer: Bai, badugu demo bat. [online demo](/demo).
-        question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
+        question: Demo bat duzu? Decidim erabili nahi dut orain, instalatu gabe, nola funtzionatzen duen ikusteko.
       q06:
         answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
         question: Zenbatean behin eguneratzen da plataforma?
@@ -123,11 +123,11 @@ eu:
         answer: "[Metadecidim](http://meta.decidim.org) is the community of Decidim that collaborates in the design of the platform and the construction of the Decidim project. We meet regularly through the Community Meetings, for issues related to the technological aspects of the platform and the Labs witc are [Research](https://meta.decidim.org/assemblies/eix-lab) oriented meetings. Our annual conference is Decidim Fest. Go to [meta.decidim.org](http://meta.decidim.org) to follow the calls closely and if you want to join the community. We'd love to ;-)"
         question: What is the Metadecidim community?
       q16:
-        answer: Of course you can. People do so through participatory processes, debates, translations, etc. that you might find in Metadecidim. Decidim was born in Barcelona and that is why there is a strong territorial bond with this city, but above all, it's a project for the commons.
+        answer: Noski baietz. Jendeak Metadecidim-en aurki ditzakezun prozesu parte-hartzaileen, eztabaiden, itzulpenen eta abarren bidez egiten du. Decidim Bartzelonan jaio zen eta horregatik lotura handia dago hiri honekin, baina batez ere komunentzako proiektua da.
         question: Metadecidim komunitatean sar naiteke Bartzelonan bizi ez banaiz ere?
       q17:
-        answer: Anybody who has good faith and a correct attitude towards democratic collaboration.
-        question: What kind of members you accept into the Metadecidim community?
+        answer: Elkarlan demokratikoarekiko fede ona eta jarrera zuzena duen edonor.
+        question: Nolako kideak onartzen dituzu Metadecidim komunitatean?
       q18:
         answer: The "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) is a democratic association for the governance of the Decidim community. It was founded on [February 16, 2019 in an extraordinary assembly of the community](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), with the approval of the organization statutes.
         question: Zer da Decidim elkartea?
@@ -135,7 +135,7 @@ eu:
         answer: In the [general assembly of the Decidim Association](https://meta.decidim.org/assemblies/general-assembly-association) you can find more info abous us, follow the activity of the meetings and check relevant information (statutes, legal agreements, the internal regulations)
         question: Nola jakin dezaket informazio gehiago Decidim Elkarteari buruz?
       q20:
-        answer: Now the people involved in the project can be partners. [Here we explain in detail how you have to do it](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+        answer: Orain, proiektuan parte hartzen dutenak tokiko inplementatzaileak izan daitezke. (https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
         question: How can I become a member of the Decidim Association?
       q21:
         answer: "Bai, ahal duzu! Decidim irabazi-asmorik gabeko proiektua da, eta oraingoz finantzaketaren mende dago erabat. Mesedez, bilatu xehetasun guztiak proiektua finantzatzeko [OpenCollective]\n(https://opencollective.com/decidim)"
@@ -150,7 +150,7 @@ eu:
         answer: Decidim and the Decidim logo are registered by the Association, they cannot be used as a commercial product nor cannot be sold. If used, the credit has to be referenced to the project. You can read more about this in our [Trademark policy](/trademark-policy).
         question: What is Decidim's trademark policy?
     subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
-    title: FAQs
+    title: FAQ-ak
     types:
       about: Decidim-i buruz
       association: Elkartea
@@ -160,11 +160,11 @@ eu:
       installation: Instalazioa eta lizentzia
       users: Parte-hartzaileak eta rolak
   features:
-    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
+    intro: "<p>Decidim erabil dezakezu erakunde publiko edo pribatu batean, ehunka edo milaka parte-hartzaile potentzial dituena, hala nola udal bat, elkarte bat, unibertsitate bat, GKE bat, sindikatu bat, auzo-elkarte bat edo kooperatiba bat...</p><p>Decidim-i esker, parte hartzeko</p> <strong>espazioak</strong> konfiguratu ahal izango dituzu (ekimenak, batzarrak, prozesuak edo kontsultak) eta eskuragarri dauden <strong>osagai</strong> anitzen bidez aberastu (aurrez aurreko bilerak, inkestak, proposamenak, bozketak, emaitzen jarraipena, <strong>iruzkinak</strong> eta beste asko)"
     page:
       feature1:
         subtitle: Gai komunak demokratizatzeko, urratsez urrats
-        text: 'Processes is a space that allows to create, activate/deactivate, and manage various participatory processes. These are distinguished from other spaces by being structured in different phases within which all of the components can be incorporated. Examples of participatory processes are: an election process for members of a committee, participatory budgeting, a strategic planning process, the collaborative writing of a regulation or norm, the design of an urban space or the production of a public policy plan.'
+        text: 'Prozesuak partaidetza-prozesuak sortzeko, aktibatzeko/desaktibatzeko eta kudeatzeko espazio bat dira. Hauek beste espazioetatik bereizten dira, osagai guztiak sar daitezkeen fase ezberdinetan egituratzen direlako. Partaidetza-prozesuen adibideak honako hauek dira: batzorde bateko kideak hautatzeko prozesua, aurrekontu parte-hartzaileak, plangintza estrategikoko prozesua, arau edo arau bat elkarlanean idaztea, hiri-espazio bat diseinatzea edo politika publikoen plan bat sortzea.'
         title: Prozesu partizipatiboak
       feature10:
         subtitle: Elkarrekin aztertu, sintetizatu eta eraikitzeko
@@ -180,11 +180,11 @@ eu:
         title: Inkestak
       feature13:
         subtitle: Berdintasuna eta ausazkotasunaren justizia
-        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
+        text: Hainbat proposamen hautatzeko aukera ematen du (adibidez, epaimahaikide izateko hautagaiak) ausazko prozedura erreproduzitzaileekin, banaketa ez-partzialak eta uniformeak bermatzen dituztenak.
         title: Zozketak
       feature14:
         subtitle: Adimen kolektiboa sortu
-        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
+        text: Erabiltzaileei aukera ematen die iruzkinak gehitzeko, aldeko, kontrako edo neutraleko balorazioak egiteko, bozkatzeko, erantzuteko eta erantzunei buruzko jakinarazpenak jasotzeko.
         title: Iruzkinak
       feature15:
         subtitle: Zure komunitatea, informatuta eta eguneratuta
@@ -200,15 +200,15 @@ eu:
         title: Buletina
       feature2:
         subtitle: Autoantolaketa kolektiboaren boterea
-        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
+        text: Erabakiak hartzeko organoak edo taldeak (kontseiluak, lantaldeak, batzordeak, etab.) eratzeko aukera ematen du, aldian-aldian biltzen direnak, haien osaera zehaztuz, haien bilerak zerrendatuz eta geolokalizatuz. Horietan parte hartzeko aukera ematen du, adibidez, aurrez aurre edo online, agendari gaiak gehituz, edo organo horrek hartzen dituen proposamenak eta erabakiak komentatuz.
         title: Biltzarrak
       feature3:
         subtitle: Erabakitzeko eskubidea berme demokratiko guztiekin
-        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
+        text: Posible da erreferendumak koordinatzea, eztabaidak eta eztabaidak piztea, bozketaren emaitzak argitaratzea eta boto elektronikoko sistema seguru batera konektatzea.
         title: Bozketak
       feature4:
         subtitle: Setting everyone's agenda, within everyone's reach
-        text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
+        text: Parte-hartzaileek lankidetza-ekimenak sor ditzakete, beren bidea eta helburuak zehaztu, abalak bildu, eztabaidatu, eztabaidatu eta ekimenak zabaldu, topaguneak jarri bertaratutakoen sinadurak biltzeko edo erakundeko beste kide batzuei irekitako eztabaidak egiteko.
         title: Ekimenak
       feature5:
         subtitle: Your ideas in detail
@@ -216,21 +216,21 @@ eu:
         title: Proposamenak
       feature6:
         subtitle: Erabaki zure aukera
-        text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
+        text: 'Erakundeei aukera ematen die boto edo laguntza sistema desberdinak aktibatzeko proposamenen inguruan: mugagabeak, atalase jakin batera mugatuak, haztatuak, kostuetan oinarrituak, etab. Boto elektronikoaren teknologia seguru eta zifratuak babestuta.'
         title: Bozketa
       feature7:
         subtitle: No proposal without an answer
         text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Emaitzak
       feature8:
-        subtitle: End-to-end transparency
-        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
+        subtitle: Gardentasuna azken muturreraino
+        text: Emaitzak proiektuetan zatitzeko aukera ematen du, horien ezarpenaren inguruko aurrerapen-egoerak zehaztu eta aplikatzeko, bai eta kategorien eta eskemen arabera taldekatutako emaitzen lorpen-maila erakusteko ere.
         title: Emaitzak
       feature9:
         subtitle: Elkar ezagutzeko eta ezer ez galtzeko
-        text: The meeting component offers organizations and participants the opportunity to convene meetings, determine their location and time, register and limit attendees, define the structure and content of the meeting as well as publishing the minutes, and the resulting proposals.
+        text: Bilera-osagaiak aukera ematen die erakundeei eta parte-hartzaileei bileretarako deialdia egiteko, bileretako lekua eta ordua zehazteko, bertaratuak erregistratzeko eta mugatzeko, bileraren egitura eta edukia zehazteko eta aktak eta ondoriozko proposamenak argitaratzeko.
         title: Topaketa-zerrenda
-    subtitle: For democratic organizations and collectives of any size and kind.
+    subtitle: Edozein tamainatako erakunde eta kolektibo demokratikoentzat.
     title: Funtzionalitateak
     type1:
       title: Part-harzte espazioak
@@ -238,25 +238,25 @@ eu:
       title: Osagaiak
     type3:
       cta: Aztertu moduluak
-      subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
-      title: Modules
+      subtitle: Lehenetsitako osagaietatik haratago haztea. Decidim komunitateak ehunka modulu garatu ditu plataforma oinarrizkoetatik haratago zabaltzeko eta zure beharrei hobeto erantzuteko.
+      title: Moduloak
   first-steps:
     first-steps1:
-      content: You can install it yourself or find someone to help you with tech support.
-      link1: Documentation
-      pre: For technologists
+      content: Zuk zeuk instalatu dezakezu edo laguntza teknikoa emango dizun norbait aurkitu.
+      link1: Dokumentazioa
+      pre: Teknologoentzat
       title: Decidim instalatzea
     first-steps2:
-      content: For big or small organisations, discover how Decidim can cater to your needs.
+      content: Erakunde handi edo txikientzat, aurkitu Decidim zure beharretara nola egokitu daitekeen.
       link1: Funtzionalitateak
       pre: Erakundeentzat
-      title: The right tool for you
+      title: Tresna egokia zuretzat
     first-steps3:
       content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
-      link1: Find a partner
-      pre: For governments
+      link1: Tokiko inplementatzailea
+      pre: Gobernuentzat
       title: Decidim in your city
-    intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
+    intro: Software librea eta kode irekikoa da, komunitate zabal eta aktibo batek mantentzen duena. Decidim erabil dezakezu erakunde publiko edo pribatu batean, ehunka edo milaka parte-hartzaile potentzialekin, hala nola udal bat, elkarte bat, unibertsitate bat, GKE bat, sindikatu bat, auzo elkarte bat edo kooperatiba bat...
     section2:
       link: Explore all features
       subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
@@ -272,7 +272,7 @@ eu:
       subtitle: "<strong>Metadecidim</strong> plataforma diseinatzen eta proiektua garatzen laguntzen duen komunitatea da. Elkarrekin funtzio berriak diseinatu eta sortzen ditugu eta akatsak salatzen ditugu plataformaren etengabeko hobekuntzarako."
       title: Who’s behind the platform?
     subtitle: Decidim is a digital platform<br/>for citizen participation
-    title: First steps with Decidim
+    title: Lehen urratsak Decidim-ekin
   footer:
     about_us: Guri buruz
     follow_us: Jarrai gaitzazu sare sozialetan
@@ -283,15 +283,15 @@ eu:
   index:
     cards:
       card1:
-        content: We can help configure a system of democratic governance in all kinds of organizations.
+        content: Era guztietako erakundeetan gobernantza demokratikoko sistema bat eratzen lagun dezakegu.
         link: Gure ezaugarriak
         title: Sistema demokratiko malgua ezartzea
       card2:
         content: Decidim-ek informazioaren gardentasuna, trazabilitatea eta osotasuna bermatzen ditu, inoiz ez bezala. Parte-hartzaile guztiei segurtasuna, pribatutasuna eta konfidentzialtasuna ematen die.
         link: Kontratu soziala
-        title: We take democracy very seriously
+        title: Demokrazia oso serio hartzen dugu
       card3:
-        content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
+        content: Software librez diseinatutako plataforma, eduki irekiak eta kolaboratiboak Metadecidim komunitateari esker.
         link: Komunitatea
         title: It's yours. Use it. Share it. Improve it.
     hero:
@@ -300,30 +300,30 @@ eu:
       subheading: Decidim is a digital platform for citizen participation
     subhero:
       cta: Explore all features
-      feature1: Strategic planning
+      feature1: Plangintza estrategikoa
       feature2: Prozesu partizipatiboak
       feature3: Biltzarrak
-      feature4: Initiatives and citizen consultations
-      feature5: Participatory budgeting
-      feature6: Networked communication
+      feature4: Ekimenak eta herri-kontsultak
+      feature5: Aurrekontu parte-hartzaileak
+      feature6: Sareko komunikazioa
       intro: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
     used_by:
-      heading: Hundreds of organizations around the world trust Decidim for their democratic processes
-      link: Discover how
-      title: Already using Decidim
+      heading: Mundu osoko ehunka erakundek uste osoa dute Decidim prozesu demokratikoetarako
+      link: Deskubritu nola
+      title: Decidim dagoeneko erabiltzen
   legal-notice:
     section-1:
       paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174.<p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
-      title: Who we are
+      title: Nor gara
     section-2:
       paragraph: "<p>The purpose of this Website is to provide general information to the public about Decidim, its activities and technology, consisting in a free open-source participatory democracy platform for cities and organizations, and the management of the Decidim community generated around the world from our collaborative technology allowing the development of citizen and associative projects with greater social participation. You may freely test the Decidim platform with our online demo.</p> <p>The purpose of the terms of use of this Legal Notice is to govern the permitted use of this Website and the services and/or contents hosted in accordance with the Law 34/2002 on Information Society Services and Electronic Commerce and other applicable legal provisions.</p>"
-      title: Purpose
+      title: Helburua
     section-3:
       paragraph: '<p>The access to this Website is free. No application form is required for browsing the information and/or contents of this Website in general terms. Otherwise, please refer to our <a href="%{privacy_policy_url}">Privacy Policy</a>.<p> <p>By accessing and using the Website, You are accepting the terms of use of this Legal Notice and You undertake to make proper, diligent and lawful use of the Website and, in particular: (i) use the Website for its intended purposes, i.e. information about our services, you will refrain from using the Website or its contents for illegal purposes, or for purposes that go against public order, morality and good customs; (ii) respect the intellectual and industrial property rights of the Website and its contents, as well as all rights that correspond to Decidim; (iii) not to reproduce, copy, convert, modify, distribute, publicly display or make available to the public the Website or any of its content or any modification thereof; (iv) You shall be liable for any loss or damage suffered by Decidim due to a direct or indirect misuse by You of the Website, the provisions of the "Legal Texts" (collectively referred to, this Legal Notice and the <a href="%{privacy_policy_url}">Privacy Policy</a>) and the applicable legislation.<p>'
-      title: Website use
+      title: Webgunearen erabilera
     section-4:
       paragraph: "<p>All intellectual property rights over the contents of this Website including, but not limited to, images, trademarks, logos, distinctive signs, sounds and animations, texts, sound, visual or audiovisual recordings and databases are the property of Decidim or its licensors and are protected by national and international laws. Such rights are reserved in favor of Decidim and/or its licensors. The reproduction, copying, public communication, distribution, modification, transformation, elimination, manipulation and any other use, including the extraction and reuse, whether for profit or not, direct or indirect, temporary or permanent, of all or part of this Website or any of its contents, is expressly prohibited without the prior express written authorization of Decidim. We may take any legal and/or extrajudicial action it deems appropriate in the event of a possible violation of these rights.</p>"
-      title: Industrial and Intellectual Property
+      title: Jabetza industriala eta intelektuala
     section-5:
       paragraph: "<p>Decidim is not responsible for third party web pages that can be accessed from the Website, nor for the accuracy, veracity and validity of the information on the Website that is not of its own elaboration. However, pursuant to article 17 of Law 34/2002, in the event that Decidim becomes aware of the unlawfulness of such content or links, it undertakes to remove or disable them, as well as, where appropriate, to block any content that may be unlawful or violate the rights of any third party, in accordance with articles 11 and 16 of the aforementioned Law.</p> <p>Furthermore, Decidim is not responsible for any damage that may occur due to failures or misconfigurations in the browser installed by the user on his computer. Decidim is not responsible for any incident or technical failure caused by the user's connection to the Internet.</p> <p>Decidim will use its best efforts to effect, in the shortest period of time, updates and corrections of errors and deficiencies, including those occurring in the access and/or connection to the Website and/or its contents, but does not warrant the absence of interruptions, errors in the connection and/or access to the Website and update of its contents.</p> <p>You are liable for your use of and access to the Website. Decidim shall not be liable for the presence of viruses nor for security errors neither for the damages that may be caused to your devices or to the files or documents stored in such devices for the access and/or connection to the Website, neither for the damages caused to third parties by means of illegal intromissions out of Decidim control.</p> <p>Decidim shall not be liable for the breach of your obligations You accept when accessing this Website which are contained in this Legal Notice and, in particular, shall not be liable for any infringement of the intellectual property rights, copyright, advertising and image rights, or any other rights with regard to the goods and rights of any third party.</p>"
       title: Erantzukizuna
@@ -339,46 +339,46 @@ eu:
     section-9:
       paragraph: '<p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>'
       title: Governing law and jurisdiction
-    title: Legal notice
+    title: Informazio legala
   modules:
     auth: Authorization
-    community: Community
+    community: Komunitatea
     cta: Learn how
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
     more_info: More information
     official: Official modules
     placeholder: Search...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
-    title: Modules
+    title: Moduloak
   nav:
-    about: About
+    about: Honi buruz
     academy: Academy
     association: Elkartea
-    blog: Blog
-    book: Book
-    close_menu: Close menu
+    blog: Bloga
+    book: Liburua
+    close_menu: Itxi menua
     code: Kodea
-    community: Community
-    contact: Contact
+    community: Komunitatea
+    contact: Harremanetarako
     contract: Kontratu soziala
-    demo: Demo
+    demo: Demoa
     docs:
       path: https://docs.decidim.org/
-      title: Documentation
-    donate: Donate
-    faqs: FAQs
+      title: Dokumentazioa
+    donate: Dohaintza egin
+    faqs: FAQ-ak
     features: Funtzionalitateak
-    first-steps: First steps
-    home: Home
-    legal-notice: Legal notice
-    menu: Menu
-    modules: Modules
-    partners: Partners
-    partnership-policy: Partnership policy
+    first-steps: Lehen urratsak
+    home: Hasiera
+    legal-notice: Informazio legala
+    menu: Menua
+    modules: Moduloak
+    partners: Tokiko inplementatzaileak
+    partnership-policy: Tokiko inplementatzailetzako politika
     press: Press
-    privacy-policy: Privacy policy
+    privacy-policy: Pribatutasun politika
     text: Nabigazioa
-    trademark: Trademark policy
+    trademark: Marka erregistratuaren gidalerroa
     use-cases: Use cases
     used_by: Decidim in use
   newsletter:
@@ -386,33 +386,33 @@ eu:
     subtitle: News and updates about the Decidim platform and the community.
     title: Buletina
   partners:
-    intro: The partners logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
-    link: See Decidim's partnership policy
-    subtitle: These entities and organizations collaborate with Decidim.
-    title: Partners
+    intro: Tokiko inplementatzaileen logoak beren egile-eskubideen titularren jabetza intelektuala dira. Ez daude <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA lizentziapean</a>.
+    link: Ikus Decidim-en lankidetza politika
+    subtitle: Erakunde hauek Decidim-ekin elkarlanean ari dira.
+    title: Tokiko inplementatzaileak
     type:
-      other: Others
-      provider: Service providers
-      public: Public institutions
+      other: Beste batzuk
+      provider: Zerbitzu-hornitzaileak
+      public: Erakunde publikoak
   partnership-policy:
     explanation:
       p1: Decidim mantentzeko denbora eta baliabideak behar dira. Hainbat zeregin kudeatu behar dira, hala nola ekarpenak berrikustea, arazoak konpontzea, akatsak konpontzea, dokumentazioa idaztea eta komunitateak partekatzen dituen zalantza orokorrei erantzutea. Decidim Bazkide izateko prest dagoen edozein erakundek (enpresa, elkarte edo kolektibo) konpromisoa hartzen du Decidim Elkarteari Decidim jarduerak sortutako urteko diru-sarreren % 3ko kuota murriztuarekin laguntzeko. Irabazi-asmorik gabeko erakundeen kasuan, tasa hori % 1,5ekoa da.
-      p2: Every Decidim Partner will be made publicly visible in the <a href="%{main_website_url}">Decidim main website</a> and the <a href="%{readme_url}">GitHub project README page</a>. In addition, the Decidim Association will recommend Decidim Partners in our talks and email conversations about providing services with Decidim.
+      p2: Decidim bazkide guztiak jendaurrean jarriko dira <a href="%{main_website_url}">Decidim webgune nagusian</a> eta <a href="%{readme_url}">GitHub proiektuaren README orrian</a>. Gainera, Decidim Elkarteak Decidim-en tokiko inplementatzailea gomendatuko du gure hitzaldietan eta posta elektronikoko elkarrizketetan.
       p3: Duela gutxi sartu diren erakundeei laguntzeko, Decidim Partners-ek ez du ekarpen ekonomikorik egin beharko lehen urtean Decidimekin beren negozio-plana lehen aldiz garatzeko. Bitartean, Decidim Partners-ek proiektuari laguntzeko beste modu batzuk bilatzea gomendatzen dugu (akats-txostenak egitea, dokumentazioa, komunitateko jardueretan parte hartzea eta laguntzea, etab.).
     how_to:
       steps:
-        step1: Send an email to associacio [at] decidim [dot] org with your contact information and indicate in the subject I want to become a Decidim Partner.
-        step2: We will contact you for a videoconference to then assess the candidacy.
-        step3: If the candidacy is approved, the Coordination Committee will yearly send you a sworn declaration to be filled and sent back with the receipt of the corresponding bank transfer.
-      title: How to become a Decidim Partner?
+        step1: Bidali mezu bat elkartera zure harremanetarako informazioarekin eta adierazi gaian Decidim-en tokiko inplementatzaile bihurtu nahi dudala.
+        step2: Bideokonferentzia bat egingo dugu hautagaitza baloratzeko.
+        step3: Hautagaitza onartzen bada, Koordinazio Batzordeak zinpeko adierazpen bat bidaliko dizu urtero, bete dezazun eta dagokion banku-transferentzia jasotzearekin batera itzul dezazun.
+      title: Nola bihurtu Decidim-en tokiko inplementatzaile?
     requirements:
-      l1: Management of instances. Manage one or more active facilities of Decidim at the time of the application, for the own use of the entity or third parties.
-      l2: Contributions to the project. Contribute or have contributed significantly to the Decidim project.
+      l1: Eskabideak kudeatzea. Eskaera egiten den unean Decidim-eko instalazio aktibo bat edo batzuk kudeatzea, erakundearen edo hirugarrenen erabilera propiorako.
+      l2: Proiekturako ekarpenak. Decidim proiektuan ekarpen esanguratsua egitea edo egin izana.
       p1: '<a href="%{social_contract_url}"> Kontratu oziala</a> betetzea eta sinatzea onartu behar duzu, eta, gainera, honako baldintza hauetakoren bat bete behar duzu:'
-      p2: You can read in detail in the <a href="%{metadecidim_partners_url}">Metadecidim assembly</a>.
-      title: Which requirements does my organization need to meet to become a partner?
-    subtitle: If your organization  wants to support Decidim, you can become a Decidim Partner.
-    title: Partnership policy
+      p2: Metadecidim <a href="%{metadecidim_partners_url}">batzarrean</a>irakur dezakezu zehatz-mehatz.
+      title: Zein baldintza bete behar ditu nire erakundeak tokiko inplementatzailea izateko?
+    subtitle: Zure erakundeak Decidim babestu nahi badu, Decidim tokiko inplementatzaile bihur zaitezke.
+    title: Tokiko inplementatzailetzako politika
   path: '/eu'
   press:
     highlights: Media highlights
@@ -437,7 +437,7 @@ eu:
         link: Zotero repository
         title: Academic papers
     sign_up: Sign up for our newsletter on Metadecidim
-    social_media: Find us on social media
+    social_media: Jarrai gaitzazu sare sozialetan
     subtitle: For media enquiries, please send us an email at
     title: Press
   privacy-policy:
@@ -449,23 +449,23 @@ eu:
       title: Personal data we collect about you and how we use it
     section-3:
       paragraph: <p>The legal basis of our processing of personal data are the following:</p> <ul> <li>The processing of Users and associate data is necessary to perform the contract, consisting in the Users acceptance of the Legal Text of the Website, in order to provide them all the information about <a href="%{decidim_url}">Decidim</a> and its technology, projects and activities, as well as to allow them participating in the projects and activities carried out by <a href="%{decidim_url}">Decidim</a>.</li> <li>We may also process your personal data when you give us express consent to make publications about <a href="%{decidim_url}">Decidim</a> projects and activities in which you have participated, press releases or other forms of communication and dissemination of <a href="%{decidim_url}">Decidim</a>'s activities, as well as to receive particular information on a regular basis and/or when you contact us through the website contact form or by e-mail. </li> <li>Additionally, we may process your data on our legitimate interest to perform statistical studies or other knowledge generation techniques, implementing pseudonymization and, if possible, anonymization measures, such as data aggregation, in order to protect the privacy of Users, in accordance with art. 89 GDPR.</li> </ul> <p>In certain circumstances, we may process your data in accordance with this policy to comply with a legal or regulatory obligation to which we are subject.</p>
-      title: Legal basis
+      title: Oinarri juridikoa
     section-4:
       paragraph: '<p>We process your personal data confidentially in accordance with the applicable legislation. Unless stated otherwise, your personal data will not be provided to third parties. </p> <p>Specifically, we disclose your data as follows:</p> <ul> <li>We can give access to your personal data to our IT service providers under contracts for the provision of services in favour of <a href="%{decidim_url}">Decidim</a>. Among the others, Netlify, Inc., an American entity who provide to Us web hosting services. <a href="%{decidim_url}">Decidim</a> has subscribed with Netlify a <a href="https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf">Data Processing Agreement</a>, including the Standard Contractual Clauses currently approved by the European Commission, in order to ensure that your personal data are processed with all adequate guarantees. More information about how Netlify use your personal data may be consulted here: <a href="https://www.netlify.com/gdpr-ccpa">https://www.netlify.com/gdpr-ccpa</a>. </li> <li>We can make the data available to the public administration or authorities to investigate suspicions of fraud, harassment or other violations of any law, rule or regulation, or the policies of the website.</li> </ul> <p>For more information about our service providers who make international transfers, please contact us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>.</p>'
-      title: Data disclosure
+      title: Datuak zabaltzea
     section-5:
       paragraph: "<p>We only keep your personal data for as long as it is necessary to fulfil the purposes for which we have collected them, even to comply with legal, accounting or information requirements.</p> <p>To determine the appropriate retention period for personal data, we consider the amount, nature and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which we process your personal data, if we can achieve those purposes through other means and the applicable legal requirements.</p>"
       title: Data retention
     section-6:
       paragraph: "<p>We implement security measures and personal data protection schemes as required by law to maintain the confidentiality and integrity of your data and protection against unauthorised access, modification or destruction. </p>"
-      title: Security measures
+      title: Segurtasun-neurriak
     section-7:
       paragraph: '<p>You have rights under data protection laws in relation to your personal data. Specifically, you have the right to: </p> <ul> <li><b>Request access</b> to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</li> <li><b>Request correction</b> of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</li> <li><b>Request erasure</b> of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</li> <li><b>Object to processing</b> of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</li> <li><b>Request restriction of processing</b> of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data''s accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</li> <li><b>Request the transfer</b> of your personal data to you or to a third party (right to data portability). We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</li> <li><b>Withdraw consent at any time</b> where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</li> </ul> <p>The aforementioned rights may be effective by contacting us at <a href="mailto:privacy@decidim.org">privacy@decidim.org</a>. <p>You also have the right to make any complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos), C/. Jorge Juan, 6, 28001 Madrid, Spain.'
       title: Zur eskubideak
     section-8:
       paragraph: "<p>We reserve the right to amend the terms of this Privacy Policy and will notify you by providing a clear notice of these changes by email or on our Website, and in this Privacy Policy. If you continue to use our services after such update, you will be deemed to accept the new terms. If you do not accept the update, please terminate your account or notify us and we will terminate your Account and remove any of your personal data (except as required to be maintained for legal purposes), and you will not be able to continue to use our services. </p> <p>Unless a specific local regulation sets forth to the contrary, the Privacy Policy is governed by the laws of Spain.</p> <p><b>Last update</b>: February 2022.</p>"
       title: Orokorra
-    title: Privacy policy
+    title: Pribatutasun politika
   testimonials:
     n1:
       org: Barcelona City Hall (2015-2019)
@@ -475,12 +475,12 @@ eu:
       quote: With the implementation of Decidim in Som Energia we have generated a kinder space for participation. We released the tool in 2018, hosting the General Assembly of the Cooperative and months later we debated the Image Redesign and collaborative development of the School of Som Energia, among other participatory processes. In a few months, more than 3,500 participant people have registered, 5 participatory processes, 3 assemblies operating and more than 1,300 votes in the last General Assembly vote.
     n3:
       org: Municipal President of Mérida Yucatán, Mexico. City Council of Mérida Yucatán, Mexico
-      quote: The Decide Mérida digital platform was an opportunity that opened as never before the mechanisms of citizen participation for the elaboration of the Municipal Development Plan of Mérida 2018-2021. We had more than 3,000 citizen interactions including proposals, comments, suggestions and support that achieving the highest consensus possible about what is best for our city. Undoubtedly, the Decide Mérida platform will continue to be our ally in making Mérida an increasingly participative society.
+      quote: Decide Mérida digital plataforma digitala inoiz ez bezala ireki zen herritarren partaidetzarako mekanismoen aurrean 2018-2021 Méridako Udal Garapen Plana egiteko. 3.000 interakzio baino gehiago izan genituen, proposamenak, iruzkinak, iradokizunak eta babesa barne, gure hiriarentzat onena denaren inguruan ahalik eta adostasun handiena lortzeko. Zalantzarik gabe, Mérida Decide plataformak gure aliatua izaten jarraituko du, Mérida gero eta gizarte parte-hartzaileagoa izan dadin.
     n4:
       org: Helsinkiko hiria
       quote: What we appreciate is that it’s built with democracy in mind and therefore democracy is a big focus. Democratic principles such as accountability, equality and transparency are in the core of the design.
     n5:
-      org: Open Government of Mexico City
+      org: Mexiko Hiriko gobernu irekia
       quote: Almost every participatory process that has come to our table, we have been able to solve it using Decidim's business rules. As a tool, it is a very strong one. However, the part that seems strongest and most important to us is its community, both developers and those who use it for participatory processes. Coexisting with them has made us appreciate the challenges involved in implementing participatory democracy in the real world.
     n6:
       org: Mozilla Fundazioa
@@ -489,11 +489,11 @@ eu:
       org: OpenForum Europe Research Director, European Union
       quote: The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
     n8:
-      org: Pipeline to Power, working for NYC Civic Engagement Commission
-      quote: Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded.
+      org: Pipeline to Power, NYCeko Konpromiso Zibikoen Batzordearentzat lanean
+      quote: Decidim plataforma hain ahaltsu bihurtzen duen zati bat da abstrakzio maila bat gehitzen diola prozesu baten urratsak eta prozesuarekin lotzen diren jarduerak bereizten dituen lanari. Hori informazioaren arkitekturaren parte da, eta, beraz, ez duzu bakarrik esaten urrats bakoitzean gertatzen ari dena, baizik eta Decidim-en zati desberdinek portaera desberdina dute egiten ari zarenaren edo prozesuaren zein urratsen arabera. Hori pertsonalizagarria izateak Decidim gure lana egiten ari garen erara moldatzea ahalbidetzen du, eta ez gure lana moldekatzera.
   thanks:
     message: Thank you for contacting us, we will get back to you soon.
-    title: Thanks for your email
+    title: Eskerrik asko zure mezuagatik
   trademark:
     examples-1:
       l1: Including the Decidim logo on product pages to say "we work with Decidim" (e.g., hosting, consultancy services, developments based on Decidim).
@@ -517,7 +517,7 @@ eu:
     p3: 'We have developed this trademark usage policy with the following goals in mind:'
     p4: You can request permission by emailing associacio@decidim.org.
     p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
-    title: Trademark policy
+    title: Marka erregistratuaren gidalerroa
   used_by:
     cta: Hasi erabiltzen
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
@@ -538,9 +538,9 @@ eu:
       f0: See all
       f1: Gobernuak
       f2: Hiriak
-      f3: NGOs
+      f3: GKEak
       f4: Unibertsitateak
-    intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
+    intro: Decidim erabil dezakezu erakunde publiko edo pribatu batean, ehunka edo milaka parte-hartzaile potentzialekin, hala nola udal bat, elkarte bat, unibertsitate bat, GKE bat, sindikatu bat, auzo talde bat edo kooperatiba bat...
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
     title: Decidim in use
