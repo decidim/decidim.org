@@ -41,7 +41,7 @@ eu:
   case_study:
     n1:
       org: Helsinkiko hiria
-      quote: Aurrekontu parte-hartzaileen zazpi aukera mota aztertu genituen Helsinkiren prozesua babesteko plataforma egokia aurkitzeko interfaze erabilerraz batekin eta modularitatea behar desberdinetarako. Decidimek ebaluazioa irabazi zuen eta 2018an lehen instantziak eraiki ziren.
+      quote: Aurrekontu parte-hartzaileen zazpi aukera mota aztertu genituen Helsinkiren prozesua babesteko plataforma egokia aurkitzeko interfaze erabilerraz batekin eta modularitatea behar desberdinetarako. Decidim-ek ebaluazioa irabazi zuen eta 2018an lehen instantziak eraiki ziren.
     n2:
       org: Japoniarentzako kodea
       quote: Decidim-ek neurrira egindako arkitektura eskaintzen du, gure etxeko egoerara egokitu ahal izateko.
@@ -88,7 +88,7 @@ eu:
         question: Zer egin dezake Decidim administratzaile batek?
       q04:
         answer: Decidim delakoak milaka pertsona demokratikoki antolatzeko aukera ematen du, proposamenak eginez, bilera publikoetara joanez, erabakiak hartzeko eztabaidak sustatuz, botoa emateko modu desberdinen bidez erabakiz eta erabakien betearazpena kontrolatuz.
-        question: Zer egin dezake Decidimeko parte-hartzaile (erabiltzaile) batek?
+        question: Zer egin dezake Decidim-eko parte-hartzaile (erabiltzaile) batek?
       q05:
         answer: Bai, badugu demo bat. [online demo](/demo).
         question: Demo bat duzu? Decidim erabili nahi dut orain, instalatu gabe, nola funtzionatzen duen ikusteko.
@@ -203,7 +203,7 @@ eu:
         text: Erabakiak hartzeko organoak edo taldeak (kontseiluak, lantaldeak, batzordeak, etab.) eratzeko aukera ematen du, aldian-aldian biltzen direnak, haien osaera zehaztuz, haien bilerak zerrendatuz eta geolokalizatuz. Horietan parte hartzeko aukera ematen du, adibidez, aurrez aurre edo online, agendari gaiak gehituz, edo organo horrek hartzen dituen proposamenak eta erabakiak komentatuz.
         title: Biltzarrak
       feature3:
-        subtitle: Erabakitzeko eskubidea berme demokratiko guztiekin
+        subtitle: Erabakitzeko eskubidea berme demokratiko guztiak zainduz
         text: Posible da erreferendumak koordinatzea, eztabaidak eta eztabaidak piztea, bozketaren emaitzak argitaratzea eta boto elektronikoko sistema seguru batera konektatzea.
         title: Bozketak
       feature4:
@@ -296,7 +296,7 @@ eu:
         title: Zurea da. Erabili. Partekatu. Hobetu.
     hero:
       cta: Hasi erabiltzen
-      intro: Teknologia libre, ireki eta segurua. <br/>Berme demokratiko guztiekin. <br/>Demokrazia birprogramatzea posible da Decidimekin.
+      intro: Teknologia libre, ireki eta segurua. <br/>Berme demokratiko guztiak zainduz. <br/>Demokrazia birprogramatzea posible da Decidim-ekin.
       subheading: Decidim herritarren partaidetzarako plataforma digitala da
     subhero:
       cta: Ezaugarri guztiak aztertu
@@ -398,7 +398,7 @@ eu:
     explanation:
       p1: Decidim mantentzeko denbora eta baliabideak behar dira. Hainbat zeregin kudeatu behar dira, hala nola ekarpenak berrikustea, arazoak konpontzea, akatsak konpontzea, dokumentazioa idaztea eta komunitateak partekatzen dituen zalantza orokorrei erantzutea. Decidim Bazkide izateko prest dagoen edozein erakundek (enpresa, elkarte edo kolektibo) konpromisoa hartzen du Decidim Elkarteari Decidim jarduerak sortutako urteko diru-sarreren % 3ko kuota murriztuarekin laguntzeko. Irabazi-asmorik gabeko erakundeen kasuan, tasa hori % 1,5ekoa da.
       p2: Decidim bazkide guztiak jendaurrean jarriko dira <a href="%{main_website_url}">Decidim webgune nagusian</a> eta <a href="%{readme_url}">GitHub proiektuaren README orrian</a>. Gainera, Decidim Elkarteak Decidim-en tokiko inplementatzailea gomendatuko du gure hitzaldietan eta posta elektronikoko elkarrizketetan.
-      p3: Duela gutxi sartu diren erakundeei laguntzeko, Decidim Partners-ek ez du ekarpen ekonomikorik egin beharko lehen urtean Decidimekin beren negozio-plana lehen aldiz garatzeko. Bitartean, Decidim Partners-ek proiektuari laguntzeko beste modu batzuk bilatzea gomendatzen dugu (akats-txostenak egitea, dokumentazioa, komunitateko jardueretan parte hartzea eta laguntzea, etab.).
+      p3: Duela gutxi sartu diren erakundeei laguntzeko, Decidim-en tokiko inplementatzaileak ez du ekarpen ekonomikorik egin beharko lehen urtean Decidim-ekin beren negozio-plana lehen aldiz garatzeko. Bitartean, Decidim tokiko inplementatzaileek proiektuari laguntzeko beste modu batzuk bilatzea gomendatzen dugu (akats-txostenak egitea, dokumentazioa, komunitateko jardueretan parte hartzea eta laguntzea, etab.).
     how_to:
       steps:
         step1: Bidali mezu bat elkartera zure harremanetarako informazioarekin eta adierazi gaian Decidim-en tokiko inplementatzaile bihurtu nahi dudala.
@@ -512,7 +512,7 @@ eu:
       l1: Norbaitek Decidim izena edo logotipoa erabiltzea erraztu nahi dugu komunitateari zuzendutako ahaleginetarako, Decidim zabaltzen eta hobetzen laguntzeko.
       l2: Argi utzi nahi dugu Decidim-ekin zerikusia duten negozioek eta proiektuek Decidim izena eta logotipoa erabil ditzaketela (eta ezin dutela).
       l3: Decidim izena eta logotipoa erabiltzea nahi genuke... Decidim baliabide ofizialen bila dabilen jendea engainatu edo nahasteko.
-    p1: '"Decidim" eta Decidim logoa Decidim Software Librearen Elkartearen marka komertzialak dira. Ezin dituzu marka horiek erabili merkataritza-gune batean zure produktua edo zerbitzua Decidimekin lotuta dagoela ondorioztatzeko baimenik gabe. Marka horiek erabil ditzakezu Decidim aipatzeko argi dagoen modu batean... proiektuaz ari zarela... eta ez duzula abalik edo elkarterik eskatzen.'
+    p1: '"Decidim" eta Decidim logoa Decidim Software Librearen Elkartearen marka komertzialak dira. Ezin dituzu marka horiek erabili merkataritza-gune batean zure produktua edo zerbitzua Decidim-ekin lotuta dagoela ondorioztatzeko baimenik gabe. Marka horiek erabil ditzakezu Decidim aipatzeko argi dagoen modu batean... proiektuaz ari zarela... eta ez duzula abalik edo elkarterik eskatzen.'
     p2: 'Decidim logotipoa erabiltzen ari bazara, testu hau gehitu behar duzu: <i>"Decidim izena eta logotipoa Associació de Software Lliure Decidim marka erregistratua da. "</i>'
     p3: 'Marken erabilera-politika hau garatu dugu helburu hauekin:'
     p4: Baimena eska dezakezu associacio@decidim.org helbide elektronikoaren bidez.
