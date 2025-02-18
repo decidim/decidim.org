@@ -19,7 +19,7 @@ helpers PageHelpers
 helpers FactsHelpers
 
 # Activate multi-language
-activate :i18n, mount_at_root: :en, langs: [:en, :es, :eu, :ca, :cs, :fr, :de, :ja, :"pt-BR", :ro, :fi]
+activate :i18n, mount_at_root: :en, langs: [:en, :es, :eu, :ca, :cs, :fr, :de, :hu, :ja, :"pt-BR", :ro, :fi]
 
 activate :directory_indexes
 
