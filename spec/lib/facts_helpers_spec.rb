@@ -8,9 +8,9 @@ RSpec.describe FactsHelpers do
   describe "#get_statistic_for_fact" do
     subject { get_statistic_for_fact(data_type, fallback, data) }
 
-    let(:fallback) { 123 }
-
     Installation = Struct.new(:id, :type, :url, keyword_init: true)
+
+    let(:fallback) { 123 }
 
     let(:data) do
       Struct.new(:installations, :countries, keyword_init: true).new(
