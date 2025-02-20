@@ -10,13 +10,15 @@ RSpec.describe FactsHelpers do
 
     let(:fallback) { 123 }
 
+    Installation = Struct.new(:id, :type, :url, keyword_init: true)
+
     let(:data) do
-      OpenStruct.new(
+      Struct.new(:installations, :countries, keyword_init: true).new(
         installations: [
-          ["i1", { "type" => "org", "url" => "https://example.org" }],
-          ["i2", { "type" => "city", "url" => "https://example.es" }],
-          ["i3", { "type" => "city", "url" => "https://example.cat" }],
-          ["i4", { "type" => "region", "url" => "https://example.fr" }]
+          [:installation1, Installation.new(id: "i1", type: "org", url: "https://example.org")],
+          [:installation2, Installation.new(id: "i2", type: "city", url: "https://example.es")],
+          [:installation3, Installation.new(id: "i3", type: "city", url: "https://example.cat")],
+          [:installation4, Installation.new(id: "i4", type: "region", url: "https://example.fr")]
         ],
         countries: %w(es fr)
       )
