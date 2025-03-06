@@ -1,0 +1,127 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "Associació de Software Lliure Decidim",
+    "email": "hola@decidim.org",
+    "phone": "",
+    "description": "The Decidim Free Software Association is a democratic association for the governance of the Decidim community. We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way. ",
+    "webpageUrl": {
+      "url": "https://decidim.org/about"
+    }
+  },
+  "projects": [
+    {
+      "guid": "decidim",
+      "name": "Decidim",
+      "description": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails. Decidim is a participatory democracy framework, written in Ruby on Rails, originally developed for the Barcelona City government online and offline participation website.",
+      "webpageUrl": {
+        "url": "https://decidim.org"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/decidim/decidim",
+        "wellKnown": "https://github.com/decidim/decidim/blob/develop/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "citizen-participation",
+        "decision-making",
+        "dpg",
+        "digital-public-goods"
+      ]
+    },
+    {
+      "guid": "decidim-documentation",
+      "name": "Decidim Documentation",
+      "description": "Documentation site for Decidim project built with Antora.",
+      "webpageUrl": {
+        "url": "https://docs.decidim.org",
+        "wellKnown": "https://docs.decidim.org/en/develop/develop/admin/_assets/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/decidim/documentation",
+        "wellKnown": "https://github.com/decidim/documentation/blob/develop/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GFDL-1.3",
+        "spdx:CC-BY-SA-4.0"
+      ],
+      "tags": [
+        "documenation",
+        "citizen-participation",
+        "decision-making",
+        "dpg",
+        "digital-public-goods"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "open-collective",
+        "type": "payment-provider",
+        "address": "https://opencollective.com/decidim",
+        "description": "Open Collective is a legal and financial toolbox for grassroots groups. It’s a fundraising + legal status + money management platform for your community. What do you want to do?"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "open-collective-member",
+        "status": "active",
+        "name": "Member",
+        "description": "Want to become a Decidim member? Please first check that you meet the minimum requirements. People over 18 years of age involved with the project and the Decidim community can be members.",
+        "amount": 40,
+        "currency": "EUR",
+        "frequency": "yearly",
+        "channels": [
+          "open-collective"
+        ]
+      },
+      {
+        "guid": "open-collective-partner",
+        "status": "active",
+        "name": "Partner",
+        "description": "If your organization wants to support Decidim, you can contribute as a Partner.",
+        "amount": 0,
+        "currency": "EUR",
+        "frequency": "yearly",
+        "channels": [
+          "open-collective"
+        ]
+      },
+      {
+        "guid": "open-collective-donation",
+        "status": "active",
+        "name": "Donation",
+        "description": "Make a custom one-time or recurring contribution.",
+        "amount": 0,
+        "currency": "EUR",
+        "frequency": "yearly",
+        "channels": [
+          "open-collective"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "year": 2023,
+        "income": 233460.04,
+        "expenses": 184091.05,
+        "taxes": 0,
+        "currency": "EUR",
+        "description": "See document 'Accounts and results 2023' in 'Related documents' -> 'Meeting documents' at https://meta.decidim.org/assemblies/general-assembly-association"
+      },
+      {
+        "year": 2022,
+        "income": 84305,
+        "expenses": 75365.02,
+        "taxes": 0,
+        "currency": "EUR",
+        "description": "See document 'ACCOUNTS 2022 (Decidim Free Software Association)' in 'Related documents' -> 'Meeting documents' at https://meta.decidim.org/assemblies/general-assembly-association"
+      }
+    ]
+  }
+}
