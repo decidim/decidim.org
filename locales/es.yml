@@ -66,14 +66,14 @@ es:
     privacy_policy:
       accept: Acepto la <a href="%{privacy_policy_url}">Política de Privacidad</a>
       message: "<p>Cuando la gente se ponga en contacto con nosotros mediante el formulario de contacto, correo electrónico o medios de comunicación similares, recogeremos automáticamente la siguiente información: nombre, correo electrónico entidad, dirección de correo electrónico y el contenido del mensaje del usuario para atender sus comentarios, peticiones, sugerencias, etc.</p> <p>Además, podemos procesar estos datos para estudios estadísticos a través de técnicas de seudonimización e incluso anonimización, tales como la agregación de datos, impidiendo que este procesamiento posterior identifique a las personas usuarias individualmente.</p>"
-    reason: Reason for contact
+    reason: Motivo de contacto
     reasons:
-      community: I want to join the Decidim Community.
-      installing: I have a question about installing Decidim.
-      other: Other.
-      researcher: I'm a researcher studying Decidim.
-      selected: Select an option.
-      service_provider: I need a Decidim service provider.
+      community: Quiero unirme a la Comunidad Decidim.
+      installing: Tengo una pregunta sobre la instalación de Decidim.
+      other: Otro.
+      researcher: Soy investigador estudiando Decidim.
+      selected: Selecciona una opción.
+      service_provider: Necesito un proveedor de servicios de Decidim.
     send: Enviar mensaje
     subtitle: Si quieres ponerse en contacto con nosotras, rellena el formulario o envíenos un correo electrónico a
     title: Contacto
@@ -386,6 +386,7 @@ es:
     press: Prensa
     privacy-policy: Política de Privacidad
     text: Navegación
+    thanks: Gracias por contactarnos
     trademark: Política de marcas comerciales
     use-cases: Casos de uso
     used_by: Ya usan Decidim
