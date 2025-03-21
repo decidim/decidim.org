@@ -1,16 +1,17 @@
 ---
-title:
-  en: Thanks for your email
-  ca:  Gràcies per contactar-nos
-  es: Gracias por contactarnos
+nav: thanks
 description:
 ---
 
-<div class="container container-vertical">
-  <div class="container--small-col">
-    <h1 class="page-title"><%= t('thanks.title') %></h1>
-    <p class="page-intro">
-      <%= t('thanks.message') %>
-    </p>
+<section>
+  <div class="container pt-12 pb-6 md:pt-24 md:pb-12">
+    <div class="md:w-3/5 space-y-6">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("thanks.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("thanks.message") %>
+      </p>
+    </div>
   </div>
-</div>
+</section>
