@@ -1,11 +1,19 @@
 .form-input {
-  @apply block relative par-md text-gray-500 focus-within:text-black before:content-[''] before:absolute before:w-2 before:bg-gray-300 before:focus-within:bg-black before:rounded-l-xl before:md:rounded-xl before:h-full before:top-0 before:-left-1 before:md:-left-4;
+  @apply block relative par-md text-gray-500 focus-within:text-black
+         before:content-[''] before:absolute before:w-2 before:bg-gray-300
+         before:focus-within:bg-black before:rounded-l-xl
+         before:md:rounded-xl before:h-full before:top-0 before:-left-1 before:md:-left-4;
 
   span {
     @apply uppercase par-sm absolute top-2 left-5 md:left-4 font-semibold;
   }
 
-  input, textarea {
-    @apply bg-gray-100 block w-full pt-10 pb-3 px-5 md:px-4 rounded-xl resize-none focus:outline-none;
+  input, textarea, select {
+    @apply bg-gray-100 block w-full pt-10 pb-3 px-5 md:px-4 rounded-xl
+           resize-none focus:outline-none appearance-none;
+  }
+
+  select {
+    @apply pr-10 cursor-pointer;
   }
 }
