@@ -34,6 +34,19 @@ description:
         </span>
         <input id="email" name="email" type="email" required>
       </label>
+      <label for="reason" class="form-input">
+        <span>
+          <%= t("contact.reason") %>
+        </span>
+        <select id="reason" name="reason" required>
+          <option value="" selected disabled><%= t("contact.reasons.selected") %></option>
+          <option value="installing"><%= t("contact.reasons.installing") %></option>
+          <option value="service_provider"><%= t("contact.reasons.service_provider") %></option>
+          <option value="community"><%= t("contact.reasons.community") %></option>
+          <option value="researcher"><%= t("contact.reasons.researcher") %></option>
+          <option value="other"><%= t("contact.reasons.other") %></option>
+        </select>
+      </label>
       <label for="message" class="form-input">
         <span>
           <%= t("contact.message") %>
