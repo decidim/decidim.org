@@ -66,6 +66,14 @@ eu:
     privacy_policy:
       accept: Onartzen dut <a href="%{privacy_policy_url}">Pribatutasun Politika</a>
       message: "<p>Jendeak gurekin harremanetan jartzen denean kontaktu-inprimakiaren, posta elektronikoaren edo antzeko komunikazio-bideen bidez, automatikoki honako informazioa bilduko dugu: izena, erakundea, helbide elektronikoa eta erabiltzailearen mezuaren edukia, zure iruzkinak, eskaerak, iradokizunak, etab. kudeatzeko.</p> \n\n<p>Gainera, datu horiek ikerketa estatistikoetarako erabil ditzakegu, pseudonimizazio eta anonimizazio tekniken bidez, hala nola datu agregazioaren bidez, eta horrek bermatuko du ondorengo tratamendu horrek ezin izango duela Erabiltzaileak banaka identifikatu.</p>"
+    reason: Reason for contact
+    reasons:
+      community: I want to join the Decidim Community.
+      installing: I have a question about installing Decidim.
+      other: Other.
+      researcher: I'm a researcher studying Decidim.
+      selected: Select an option.
+      service_provider: I need a Decidim service provider.
     send: Bidali mezu bat
     subtitle: Harremanetan jarri nahi baduzu, bete harremanetarako formularioa edo bidali mezu elektroniko bat
     title: Decidim-en kontaktua
@@ -522,18 +530,18 @@ eu:
     cta: Hasi erabiltzen
     disclaimer: Logotipoak beren egile-eskubideen titularren jabetza intelektuala dira.<br>Ez daude Creative Commons By-SA lizentziapean.
     facts:
+      subtitle: Decidim hazten ari da eta erakundeek eta komunitateak onartzen dute.
+      title: Gertaerak eta zifrak
       type:
-        instances: instantziak
+        comments: iruzkinak
         countries: herrialdeak
+        instances: instantziak
         institutions: erakunde publikoak
+        meetings: topaketak
         organizations: erakundeak
         participants: parte-hartzaileak
         processes: prozesuak
         proposals: proposamenak
-        comments: iruzkinak
-        meetings: topaketak
-      subtitle: Decidim hazten ari da eta erakundeek eta komunitateak onartzen dute.
-      title: Gertaerak eta zifrak
     filters:
       f0: Ikusi dena
       f1: Gobernuak
