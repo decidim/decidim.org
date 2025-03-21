@@ -66,6 +66,14 @@ hu:
     privacy_policy:
       accept: Elfogadom a <a href="%{privacy_policy_url}">Adatvédelmi irányelveket</a>
       message: "<p>Amikor az emberek kapcsolatba lépnek velünk a kapcsolatfelvételi űrlapon, e-mailben vagy hasonló kommunikációs eszközökön keresztül, automatikusan összegyűjtjük a következő adatokat: név, szervezet, e-mail cím és a felhasználói üzenet tartalma, hogy részt vehessünk az Ön észrevételeiben, kéréseiben, javaslataiban stb.</p> <p>Kiegészítésképpen ezeket az adatokat statisztikai tanulmányok céljából feldolgozhatjuk álnevesítéssel vagy akár anonimizálási technikákkal, például adatösszesítéssel, megakadályozva, hogy a későbbi feldolgozás során a felhasználókat egyénileg azonosítani lehessen.</p>"
+    reason: Reason for contact
+    reasons:
+      community: I want to join the Decidim Community.
+      installing: I have a question about installing Decidim.
+      other: Other.
+      researcher: I'm a researcher studying Decidim.
+      selected: Select an option.
+      service_provider: I need a Decidim service provider.
     send: Üzenet küldése
     subtitle: Ha kapcsolatba szeretne lépni velünk, töltse ki a kapcsolatfelvételi űrlapot, vagy küldjön nekünk egy e-mailt a következő címre
     title: Kapcsolat a Decidimmel
@@ -378,6 +386,7 @@ hu:
     press: Sajtó
     privacy-policy: Adatvédelmi szabályzat
     text: Navigáció
+    thanks: Köszönjük az e-mailt
     trademark: Védjegypolitika
     use-cases: Felhasználási esetek
     used_by: A Decidim használatban
@@ -522,18 +531,18 @@ hu:
     cta: Kezdjük el
     disclaimer: A logók a megfelelő szerzői jogtulajdonosok szellemi tulajdonát képezik.<br>Nem tartoznak a Creative Commons By-SA licenc alá, amely az oldal többi tartalmának licencét képezi.
     facts:
+      subtitle: A Decidim folyamatosan növekszik, és a szervezetek és a közösség is elfogadja.
+      title: Tények és számok
       type:
-        instances: instances
+        comments: comments
         countries: countries
+        instances: instances
         institutions: institutions
+        meetings: meetings
         organizations: organizations
         participants: participants
         processes: processes
         proposals: proposals
-        comments: comments
-        meetings: meetings
-      subtitle: A Decidim folyamatosan növekszik, és a szervezetek és a közösség is elfogadja.
-      title: Tények és számok
     filters:
       f0: Mindet mutasd
       f1: Governments
