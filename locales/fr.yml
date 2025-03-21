@@ -66,6 +66,14 @@ fr:
     privacy_policy:
       accept: J'accepte la <a href="%{privacy_policy_url}">Politique de confidentialité</a>
       message: "<p>Lorsque des personnes nous contactent par le formulaire de contact, par e-mail ou par des moyens de communication similaires, nous recueillerons automatiquement les informations suivantes : nom, entité, adresse e-mail et le contenu du message de l'Utilisateur afin de répondre à vos commentaires, demandes, suggestions, etc.</p> <p>En outre, nous pouvons traiter ces données pour des études statistiques par pseudonymisation et même des techniques d'anonymisation, tels que l'agrégation des données, empêchant ce traitement ultérieur d'identifier les Utilisateurs individuellement.</p>"
+    reason: Reason for contact
+    reasons:
+      community: I want to join the Decidim Community.
+      installing: I have a question about installing Decidim.
+      other: Other.
+      researcher: I'm a researcher studying Decidim.
+      selected: Select an option.
+      service_provider: I need a Decidim service provider.
     send: Envoyer le message
     subtitle: Si vous souhaitez nous contacter, remplissez le formulaire de contact ou envoyez-nous un e-mail à
     title: Contacter Decidim
@@ -522,18 +530,18 @@ fr:
     cta: C'est parti !
     disclaimer: Les logos des partenaires sont la propriété intellectuelle de leurs détenteurs respectifs de droits d'auteur. <br>Ils ne tombent pas sous la licence Creative Commons By-SA sous laquelle le reste du contenu du site est licencié.
     facts:
+      subtitle: Decidim ne cesse de croître et d'être adopté par des organisations et la communauté.
+      title: Faits & Chiffres
       type:
-        instances: instances
+        comments: comments
         countries: countries
+        instances: instances
         institutions: institutions
+        meetings: meetings
         organizations: organizations
         participants: participants
         processes: processes
         proposals: proposals
-        comments: comments
-        meetings: meetings
-      subtitle: Decidim ne cesse de croître et d'être adopté par des organisations et la communauté.
-      title: Faits & Chiffres
     filters:
       f0: Voir tout
       f1: Governments
