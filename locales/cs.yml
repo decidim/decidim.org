@@ -66,14 +66,14 @@ cs:
     privacy_policy:
       accept: Přijímám <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a>
       message: "<p>Když nás lidé kontaktují kontaktním formulářem, e-mailem nebo podobným komunikačním prostředkem, budeme automaticky shromažďovat následující informace: jméno, entita, e-mailová adresa a obsah zprávy uživatele pro účast na vašich komentářích, žádostech, návrzích atd.</p> <p>Kromě toho můžeme zpracovat tato data pro statistické studie pomocí pseudonymizace a dokonce i anonymizačních technik, jako je agregace údajů, které brání tomuto následnému zpracování v identifikaci jednotlivých uživatelů.</p>"
-    reason: Reason for contact
+    reason: Důvod kontaktu
     reasons:
-      community: I want to join the Decidim Community.
-      installing: I have a question about installing Decidim.
-      other: Other.
-      researcher: I'm a researcher studying Decidim.
-      selected: Select an option.
-      service_provider: I need a Decidim service provider.
+      community: Chci se připojit ke komunitě Decidim.
+      installing: Mám otázku na instalaci Decidim.
+      other: Jiný.
+      researcher: Jsem výzkumník studující Decidim.
+      selected: Vyberte možnost.
+      service_provider: Potřebuji poskytovatele služeb Decidim.
     send: Poslat zprávu
     subtitle: Pokud byste chtěli kontaktovat, vyplňte kontaktní formulář nebo nám zašlete e-mail na
     title: Kontaktujte Decidim
