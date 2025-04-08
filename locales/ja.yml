@@ -66,6 +66,14 @@ ja:
     privacy_policy:
       accept: <a href="%{privacy_policy_url}">プライバシーポリシー</a>に同意します
       message: "<p>お問い合わせフォーム、電子メール、または同様の通信手段でお問い合わせいただいた場合、コメント、要望、提案などに対応するため、名前、事業体、電子メールアドレス、ユーザーメッセージの内容を自動的に収集します。</p> <p>加えて、利用者を個別に特定できないようにするため、仮名化、さらにはデータ集約などの匿名化技術を使用し、統計的な調査のためにこれらのデータを処理することがあります。</p>"
+    reason: Reason for contact
+    reasons:
+      community: I want to join the Decidim Community.
+      installing: I have a question about installing Decidim.
+      other: Other.
+      researcher: I'm a researcher studying Decidim.
+      selected: Select an option.
+      service_provider: I need a Decidim service provider.
     send: メッセージを送信
     subtitle: お問い合わせは、お問い合わせフォームにご記入いただくか、下記までメールをお送りください。
     title: Decidimへのお問い合わせ
@@ -378,6 +386,7 @@ ja:
     press: プレス
     privacy-policy: プライバシーポリシー
     text: Navigation
+    thanks: お問い合わせありがとうございます
     trademark: 商標ポリシー
     use-cases: 活用事例
     used_by: 使用中のDecidim
@@ -522,18 +531,18 @@ ja:
     cta: はじめる
     disclaimer: ロゴマークは、それぞれの著作権者の知的財産です。<br>本サイトの他のコンテンツが採用しているクリエイティブ・コモンズの BY-SA ライセンスには該当しません。
     facts:
+      subtitle: Decidimは、組織やコミュニティで採用され、成長を続けています。
+      title: 実績と図
       type:
-        instances: instances
+        comments: comments
         countries: countries
+        instances: instances
         institutions: institutions
+        meetings: meetings
         organizations: organizations
         participants: participants
         processes: processes
         proposals: proposals
-        comments: comments
-        meetings: meetings
-      subtitle: Decidimは、組織やコミュニティで採用され、成長を続けています。
-      title: 実績と図
     filters:
       f0: すべて表示
       f1: Governments

@@ -2,12 +2,12 @@ ca:
   '404':
     intro: Maybe you were looking for...
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
-    title: Page not found
+    title: No s’ha trobat la pàgina
   about:
     about:
-      - Support us
-      - Contact us
-      - Our assembly
+      - Dóna'ns suport
+      - Contacta amb nosaltres
+      - Nostra assemblea
       - Prensa
     intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
     subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
@@ -66,6 +66,14 @@ ca:
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
+    reason: Reason for contact
+    reasons:
+      community: I want to join the Decidim Community.
+      installing: I have a question about installing Decidim.
+      other: Other.
+      researcher: I'm a researcher studying Decidim.
+      selected: Select an option.
+      service_provider: I need a Decidim service provider.
     send: Send message
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     title: Contact Decidim
@@ -378,6 +386,7 @@ ca:
     press: Prensa
     privacy-policy: Privacy policy
     text: Navegació
+    thanks: Gràcies per contactar-nos
     trademark: Trademark policy
     use-cases: Use cases
     used_by: Ja fan servir Decidim
@@ -522,18 +531,18 @@ ca:
     cta: Get started
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
     facts:
+      subtitle: Decidim keeps growing and being adopted by organizations and the community.
+      title: Facts & Figures
       type:
-        instances: instances
+        comments: comments
         countries: countries
+        instances: instances
         institutions: institutions
+        meetings: meetings
         organizations: organizations
         participants: participants
         processes: processes
         proposals: proposals
-        comments: comments
-        meetings: meetings
-      subtitle: Decidim keeps growing and being adopted by organizations and the community.
-      title: Facts & Figures
     filters:
       f0: See all
       f1: Governments

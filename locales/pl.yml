@@ -66,6 +66,14 @@ pl:
     privacy_policy:
       accept: I accept the <a href="%{privacy_policy_url}">Privacy Policy</a>
       message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
+    reason: Reason for contact
+    reasons:
+      community: I want to join the Decidim Community.
+      installing: I have a question about installing Decidim.
+      other: Other.
+      researcher: I'm a researcher studying Decidim.
+      selected: Select an option.
+      service_provider: I need a Decidim service provider.
     send: Send message
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     title: Contact Decidim
@@ -378,6 +386,7 @@ pl:
     press: Naciśnij
     privacy-policy: Privacy policy
     text: Nawigacja
+    thanks: Dziękujemy za Twój e-mail
     trademark: Trademark policy
     use-cases: Use cases
     used_by: Decydim w użyciu
@@ -522,18 +531,18 @@ pl:
     cta: Get started
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
     facts:
+      subtitle: Decidim keeps growing and being adopted by organizations and the community.
+      title: Facts & Figures
       type:
-        instances: instances
+        comments: comments
         countries: countries
+        instances: instances
         institutions: institutions
+        meetings: meetings
         organizations: organizations
         participants: participants
         processes: processes
         proposals: proposals
-        comments: comments
-        meetings: meetings
-      subtitle: Decidim keeps growing and being adopted by organizations and the community.
-      title: Facts & Figures
     filters:
       f0: See all
       f1: Governments

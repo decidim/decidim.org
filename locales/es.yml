@@ -66,6 +66,14 @@ es:
     privacy_policy:
       accept: Acepto la <a href="%{privacy_policy_url}">Política de Privacidad</a>
       message: "<p>Cuando la gente se ponga en contacto con nosotros mediante el formulario de contacto, correo electrónico o medios de comunicación similares, recogeremos automáticamente la siguiente información: nombre, correo electrónico entidad, dirección de correo electrónico y el contenido del mensaje del usuario para atender sus comentarios, peticiones, sugerencias, etc.</p> <p>Además, podemos procesar estos datos para estudios estadísticos a través de técnicas de seudonimización e incluso anonimización, tales como la agregación de datos, impidiendo que este procesamiento posterior identifique a las personas usuarias individualmente.</p>"
+    reason: Motivo de contacto
+    reasons:
+      community: Quiero unirme a la Comunidad Decidim.
+      installing: Tengo una pregunta sobre la instalación de Decidim.
+      other: Otro.
+      researcher: Soy investigador estudiando Decidim.
+      selected: Selecciona una opción.
+      service_provider: Necesito un proveedor de servicios de Decidim.
     send: Enviar mensaje
     subtitle: Si quieres ponerse en contacto con nosotras, rellena el formulario o envíenos un correo electrónico a
     title: Contacto
@@ -352,10 +360,10 @@ es:
     title: Módulos
   nav:
     about: Acerca de
-    academy: Academy
+    academy: Academia
     association: La Asociación
     blog: Blog
-    book: Book
+    book: Libro
     close_menu: Cerrar menú
     code: Código
     community: Comunidad
@@ -365,7 +373,7 @@ es:
     docs:
       path: https://docs.decidim.org/
       title: Documentación
-    donate: Donate
+    donate: Dona
     faqs: FAQs
     features: Funcionalidades
     first-steps: Primeros Pasos
@@ -378,6 +386,7 @@ es:
     press: Prensa
     privacy-policy: Política de Privacidad
     text: Navegación
+    thanks: Gracias por contactarnos
     trademark: Política de marcas comerciales
     use-cases: Casos de uso
     used_by: Ya usan Decidim
@@ -391,9 +400,9 @@ es:
     subtitle: Estas entidades y organizaciones colaboran con Decidim.
     title: Partners
     type:
-      other: Others
-      provider: Service providers
-      public: Public institutions
+      other: Otros
+      provider: Proveedores de servicios
+      public: Instituciones públicas
   partnership-policy:
     explanation:
       p1: Mantener el Decidim requiere tiempo y recursos. Hay que manejar varias tareas, tales como revisar contribuciones, resolver problemas, corregir errores, escribir documentación y responder dudas generales compartidas por la comunidad. Cualquier organización (apuesta, asociación, o colectivo) dispuesto a convertirse en Socio Decidim se compromete a contribuir a la Asociación de Decidim con una cuota reducida del 3% del ingreso anual generado por actividades de Decidim. En el caso de organizaciones sin fines de lucro, esta cuota es de 1,5%.
@@ -426,16 +435,16 @@ es:
         title: Spot promocional
       link3:
         link: Descarga
-        title: Brochure
+        title: Folleto
       link4:
-        link: To the site
+        link: Ir a la página
         title: Decidim Fest
       link5:
-        link: Youtube channel
-        title: Videos
+        link: Canal de Youtube
+        title: Vídeos
       link6:
-        link: Zotero repository
-        title: Academic papers
+        link: Repositorio de Zotero
+        title: Documentos académicos
     sign_up: Suscríbete a nuestro boletín en Metadecidim
     social_media: Síguenos en las redes sociales
     subtitle: Si eres periodista, por favor envíanos un correo electrónico a
@@ -522,24 +531,24 @@ es:
     cta: Empezar
     disclaimer: Los logotipos de las entidades colaboradoras son propiedad intelectual de sus respectivos titulares de derechos de autor. No pertenecen a la <br> licencia Creative Commons By-SA  con la que se licencia el resto del contenido del sitio.
     facts:
-      type:
-        instances: instances
-        countries: countries
-        institutions: institutions
-        organizations: organizations
-        participants: participants
-        processes: processes
-        proposals: proposals
-        comments: comments
-        meetings: meetings
       subtitle: Decidim sigue creciendo y siendo adoptada por las organizaciones y la comunidad.
       title: Datos y cifras
+      type:
+        comments: comentarios
+        countries: países
+        instances: instancias
+        institutions: instituciones
+        meetings: encuentros
+        organizations: organizaciones
+        participants: participantes
+        processes: procesos
+        proposals: propuestas
     filters:
       f0: Ver todos
-      f1: Governments
+      f1: Gobiernos
       f2: Ciudades
       f3: ONG
-      f4: Universities
+      f4: Universidades
     intro: Puedes usar Decidim en una organización pública o privada, con cientos o miles de participantes potenciales, como un ayuntamiento, una asociación, una universidad, una ONG, un sindicato, un colectivo vecino o una cooperativa...
     join: Más de 400 entidades, 250 comunidades governamentales y 150 comunidades de césped han elegido Decidim para sus procesos democráticos.
     subtitle: Estas ciudades, regiones y organizaciones ya están usando Decidim

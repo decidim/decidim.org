@@ -66,6 +66,14 @@ cs:
     privacy_policy:
       accept: Přijímám <a href="%{privacy_policy_url}">Zásady ochrany osobních údajů</a>
       message: "<p>Když nás lidé kontaktují kontaktním formulářem, e-mailem nebo podobným komunikačním prostředkem, budeme automaticky shromažďovat následující informace: jméno, entita, e-mailová adresa a obsah zprávy uživatele pro účast na vašich komentářích, žádostech, návrzích atd.</p> <p>Kromě toho můžeme zpracovat tato data pro statistické studie pomocí pseudonymizace a dokonce i anonymizačních technik, jako je agregace údajů, které brání tomuto následnému zpracování v identifikaci jednotlivých uživatelů.</p>"
+    reason: Důvod kontaktu
+    reasons:
+      community: Chci se připojit ke komunitě Decidim.
+      installing: Mám otázku na instalaci Decidim.
+      other: Jiný.
+      researcher: Jsem výzkumník studující Decidim.
+      selected: Vyberte možnost.
+      service_provider: Potřebuji poskytovatele služeb Decidim.
     send: Poslat zprávu
     subtitle: Pokud byste chtěli kontaktovat, vyplňte kontaktní formulář nebo nám zašlete e-mail na
     title: Kontaktujte Decidim
@@ -378,6 +386,7 @@ cs:
     press: Pro média
     privacy-policy: Zásady ochrany soukromí
     text: Navigace
+    thanks: Děkujeme za váš e-mail
     trademark: Zásady používání ochranných známek
     use-cases: Případy použití
     used_by: Kde se používá
@@ -522,18 +531,18 @@ cs:
     cta: Začínáme
     disclaimer: Loga jsou duševním vlastnictvím příslušných držitelů autorských práv.<br>Nespadají pod licenci Creative Commons By-SA, kterou je licencován zbytek obsahu stránek.
     facts:
+      subtitle: Decidim neustále roste a je přijímán organizacemi a komunitou.
+      title: Fakta a obrázky
       type:
-        instances: instance
+        comments: komentáře
         countries: země
+        instances: instance
         institutions: instituce
+        meetings: schůzky
         organizations: organizace
         participants: účastníci
         processes: procesy
         proposals: návrhy
-        comments: komentáře
-        meetings: schůzky
-      subtitle: Decidim neustále roste a je přijímán organizacemi a komunitou.
-      title: Fakta a obrázky
     filters:
       f0: Zobrazit vše
       f1: Vlády

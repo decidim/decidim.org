@@ -66,6 +66,14 @@ pt-BR:
     privacy_policy:
       accept: Eu aceito a <a href="%{privacy_policy_url}">Política de Privacidade</a>
       message: "<p>Quando as pessoas entrarem em contato conosco através do formulário de contato, e-mail ou meios de comunicação similares, coletaremos automaticamente as seguintes informações: nome, entidade, endereço de e-mail e o conteúdo da mensagem do Usuário para atender seus comentários, solicitações, sugestões, etc.</p> <p>Além disso, podemos processar esses dados para estudos estatísticos por meio de pseudonimização e até mesmo técnicas de anonimização, como agregação de dados, impedindo que esse processamento posterior identifique os Usuários individualmente.</p>"
+    reason: Reason for contact
+    reasons:
+      community: I want to join the Decidim Community.
+      installing: I have a question about installing Decidim.
+      other: Other.
+      researcher: I'm a researcher studying Decidim.
+      selected: Select an option.
+      service_provider: I need a Decidim service provider.
     send: Enviar mensagem
     subtitle: Se desejar entrar em contato, preencha o formulário de contato ou envie um e-mail para
     title: Contatar Decidim
@@ -378,6 +386,7 @@ pt-BR:
     press: Pressionar
     privacy-policy: Política de privacidade
     text: Navegação
+    thanks: Obrigado pelo seu e-mail
     trademark: Política de marca registrada
     use-cases: Casos de uso
     used_by: Decidim em uso
@@ -522,18 +531,18 @@ pt-BR:
     cta: Começar
     disclaimer: Os logotipos são propriedade intelectual de seus respectivos detentores de direitos autorais.<br>Eles não estão sob a licença Creative Commons By-SA com a qual o resto do conteúdo do site está licenciado.
     facts:
+      subtitle: O Decidim continua crescendo e sendo adotado por organizações e pela comunidade.
+      title: Fatos e Figuras
       type:
-        instances: instances
+        comments: comments
         countries: countries
+        instances: instances
         institutions: institutions
+        meetings: meetings
         organizations: organizations
         participants: participants
         processes: processes
         proposals: proposals
-        comments: comments
-        meetings: meetings
-      subtitle: O Decidim continua crescendo e sendo adotado por organizações e pela comunidade.
-      title: Fatos e Figuras
     filters:
       f0: Ver tudo
       f1: Governments

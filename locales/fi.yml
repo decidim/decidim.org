@@ -66,6 +66,14 @@ fi:
     privacy_policy:
       accept: Hyväksyn <a href="%{privacy_policy_url}">tietosuojaselosteen</a>
       message: "<p>Kun otat meihin yhteyttä yhteydenottolomakkeella, sähköpostilla tai muulla vastaavalla viestintävälineellä, keräämme automaattisesti sinusta seuraavat tiedot: nimi, organisaatio, sähköpostiosoite ja viestin sisältö, jotta voimme käsitellä yhteydenottosi, kommenttisi, pyyntösi, ehdotuksesi, jne.</p><p>Lisäksi voimme käsitellä tätä tietoa tilastollisissa tutkimuksissa käyttäen hyväksi pseudonymisointi- ja anonymisointitekniikoita, kuten tietojen aggrekointia tai koontia, mikä estää yksittäisten käyttäjien tunnistamisen ja yksilöinnin datan jatkokäsittelyn yhteydessä.</p>"
+    reason: Reason for contact
+    reasons:
+      community: I want to join the Decidim Community.
+      installing: I have a question about installing Decidim.
+      other: Other.
+      researcher: I'm a researcher studying Decidim.
+      selected: Select an option.
+      service_provider: I need a Decidim service provider.
     send: Lähetä viesti
     subtitle: Jos haluat ottaa yhteyttä, täytä yhteydenottolomake tai lähetä meille sähköpostia osoitteeseen
     title: Ota yhteyttä Decidimiin
@@ -378,6 +386,7 @@ fi:
     press: Lehdistö
     privacy-policy: Tietosuojaseloste
     text: Navigaatio
+    thanks: Kiitos yhteydenotostasi
     trademark: Tavaramerkkiehdot
     use-cases: Käyttötapauksia
     used_by: Decidimiä käyttävät organisaatiot
@@ -522,18 +531,18 @@ fi:
     cta: Aloita
     disclaimer: Esitetyt logot ovat kyseisten tavaramerkkien haltijoiden omaisuutta.<br>Ne eivät ole Creative Commons By-SA -lisenssin alaista materiaalia, kuten muu tämän sivuston sisältö.
     facts:
+      subtitle: Decidim kasvaa ja on käytössä useissa organisaatioissa ja yhteisöissä.
+      title: Tilastoja ja lukuja
       type:
-        instances: asennusta
+        comments: kommenttia
         countries: maata
+        instances: asennusta
         institutions: instituutiota
+        meetings: tapaamista
         organizations: organisaatiota
         participants: osallistujaa
         processes: prosessia
         proposals: ehdotusta
-        comments: kommenttia
-        meetings: tapaamista
-      subtitle: Decidim kasvaa ja on käytössä useissa organisaatioissa ja yhteisöissä.
-      title: Tilastoja ja lukuja
     filters:
       f0: Näytä kaikki
       f1: Hallinnot

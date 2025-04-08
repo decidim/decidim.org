@@ -24,8 +24,8 @@ eu:
       v5: Datu-konfidentzialtasun
       v6: Gardentasuna, trazabilitatea eta osotasuna
       v7: Etengabeko hobekuntza eta erakundeen arteko lankidetza
-    values_cta: Irakurri kontratu soziala
-    values_intro: "<p>Hasieratik, Decidim+ek kontratu sozial bat du, proiektuaren balioak jasotzen dituena. </p><p>Decidim Software Libreko Elkarteko kide guztiek konpromisoa hartzen dute kontratu hau errespetatzeko.</p>"
+    values_cta: Read the social contract
+    values_intro: "<p>Hasieratik, Decidim-ek kontratu sozial bat du, proiektuaren balioak jasotzen dituena. </p><p>Decidim Software Libreko Elkarteko kide guztiek konpromisoa hartzen dute kontratu hau errespetatzeko.</p>"
     values_title: Gure balioak
   alert:
     button: Bat egin
@@ -47,9 +47,9 @@ eu:
       quote: Decidim-ek neurrira egindako arkitektura eskaintzen du, gure etxeko egoerara egokitu ahal izateko.
     n3:
       org: Europako Batzordea
-      quote: Plataforma digitala 2021eko apirilaren 19an jarri zen martxan, eta 2022ko maiatzaren 9ra arte egon zen irekita ekarpenak egiteko. Aldi horretan, 18.859 ideia eta 22 167 iruzkin aurkeztu ziren eta 6.661 ekitaldi antolatu ziren. Plataforma digitalaren bidez bildutako ekarpenak Europako Herritarren Panelek jaso zituzten, eta Biltzarraren Osoko Bilkuran eztabaidatu eta eztabaidatu ziren.
+      quote: Plataforma digitala 2021eko apirilaren 19an jarri zen martxan, eta 2022ko maiatzaren 9ra arte egon zen irekita ekarpenak egiteko. Aldi horretan, 18.859 ideia eta 22 167 iruzkin aurkeztu ziren eta 6.661 ekitaldi antolatu ziren. Plataforma digitalaren bidez bildutako ekarpenak Europako Herritarren Panelek jaso zituzten, eta Batzarren Osoko Bilkuran eztabaidatu ziren.
   community:
-    community1: Ezaugarri berriak proposatu eta definitzen laguntzea
+    community1: Proposatu eta lagundu ezaugarri berriak definitzen
     community2: Akatsak salatu eta garatzaileei konpontzen lagundu
     community3: Lagundu plataformaren etorkizuna eratzen
     cta: Metadecidim-era joan
@@ -66,13 +66,21 @@ eu:
     privacy_policy:
       accept: Onartzen dut <a href="%{privacy_policy_url}">Pribatutasun Politika</a>
       message: "<p>Jendeak gurekin harremanetan jartzen denean kontaktu-inprimakiaren, posta elektronikoaren edo antzeko komunikazio-bideen bidez, automatikoki honako informazioa bilduko dugu: izena, erakundea, helbide elektronikoa eta erabiltzailearen mezuaren edukia, zure iruzkinak, eskaerak, iradokizunak, etab. kudeatzeko.</p> \n\n<p>Gainera, datu horiek ikerketa estatistikoetarako erabil ditzakegu, pseudonimizazio eta anonimizazio tekniken bidez, hala nola datu agregazioaren bidez, eta horrek bermatuko du ondorengo tratamendu horrek ezin izango duela Erabiltzaileak banaka identifikatu.</p>"
+    reason: Harremanetarako arrazoia
+    reasons:
+      community: Decidim Komunitatearen kidea izan nahi dut.
+      installing: Decidim instalatzeari buruzko galdera bat dut.
+      other: Beste bat.
+      researcher: Decidim aztertzen duen ikertzailea naiz.
+      selected: Hautatu aukera bat.
+      service_provider: Decidim zerbitzuen hornitzaile bat behar dut.
     send: Bidali mezu bat
     subtitle: Harremanetan jarri nahi baduzu, bete harremanetarako formularioa edo bidali mezu elektroniko bat
     title: Decidim-en kontaktua
   demo:
     button: Online Demoa
-    p1: Hassi eta esploratu Decim plataforma gure online demoarekin.
-    strong: Probatu Online
+    p1: Ezagutu eta probatu askatasunez Decidim plataforma demo digitalean.
+    strong: Probatu online demoa
     title: Online Demoa
   faqs:
     cta: Irakurri galdera guztiak
@@ -82,13 +90,13 @@ eu:
         question: Zer da Decidim?
       q02:
         answer: Gaur egun mundu osoko hiri eta erakundeek erabiltzen dute. Izan ere, edozein taldek erabil dezake, GKE, unibertsitate, sindikatu, kooperatiba, auzo elkarte eta abarrek. Kontsultatu [complete list of currently active instances](/usedby/).
-        question: Nork erabiltzen du Decidim?
+        question: Nork erabiltzen du Decidim egun?
       q03:
         answer: Erraz konfiguratu partaidetza-prozesuak Plan estrategiko bat egin nahi duzu? Edo araudi berriak eztabaidatu? Edo plaza berri bat edo eraikin publiko bat eztabaidatu guztion onerako? Decidim-i esker, parte hartzeko guneak konfiguratu ahal izango dituzu (ekimenak, batzarrak, prozesuak edo kontsultak) eta horiek aberastu ahal izango dituzu eskura dituzun osagai anitzen bidez (aurrez aurreko bilerak, inkestak, proposamenak, bozketak, emaitzen jarraipena, iruzkinak eta beste asko).
-        question: Zer egin dezake Decidim administratzaile batek?
+        question: Zer egin dezake Decidim-eko administratzaile batek?
       q04:
         answer: Decidim delakoak milaka pertsona demokratikoki antolatzeko aukera ematen du, proposamenak eginez, bilera publikoetara joanez, erabakiak hartzeko eztabaidak sustatuz, botoa emateko modu desberdinen bidez erabakiz eta erabakien betearazpena kontrolatuz.
-        question: Zer egin dezake Decidim-eko parte-hartzaile (erabiltzaile) batek?
+        question: Zer egin dezake Decidim-eko parte-hartzaile batek?
       q05:
         answer: Bai, badugu demo bat. [online demo](/demo).
         question: Demo bat duzu? Decidim erabili nahi dut orain, instalatu gabe, nola funtzionatzen duen ikusteko.
@@ -103,52 +111,52 @@ eu:
         question: Non aurki ditzaket proiektuaren ibilbide-orria eta aurreikusitako ezaugarriak?
       q09:
         answer: <p>Decidim herritarren parte-hartzerako plataforma bat da, pertsonentzat eta pertsonen eskutik sortua. Bere iturburu-kodea irekia da, eta edonork ikuskatzea, aldatzea eta hobetzea posible da. Decidim softwarea <a href="https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License">AGPL lizentziapean</a> dago. Horrek esan nahi du erabil dezakezula, alda dezakezula eta berau eratorritako bertsioetan birbanatu dezakezula, betiere AGPL lizentzia errespetatzen baduzu.</p>  .
-        question: What does it mean that Decidim is for free, "libre" and open source?
+        question: Zer esan nahi du Decidim doakoa, "librea" eta kode irekikoa izateak?
       q10:
         answer: Modu askotara lagun dezakezu. Horietako bat komunitatea da (http://meta.decidim.org). Funtzio berriak proposatu nahi badituzu, jo hona (https://meta.decidim.org/processes/roadmap). Akatsak antzeman badituzu eta jakinarazi nahi badituzu, jo prozesu honetara (https://meta.decidim.org/processes/bug-report). Metadecidim komunitatean aktiboki parte hartu nahi baduzu, Komunitate-bileretara joan zaitezke. Eman izena komunitatean parte hartzeko eta gurekin parte hartzeko. Zure kontua kodea bada, zatoz Githubera (https://github.com/decidim/decidim). Ikertzailea bazara, interesa izan dezakezu [LAB Metadecidim Seminars](https://meta.decidim.org/assembly/eix-lab).
-        question: Ideiak ditut hobetzeko ezaugarri berrietarako. Proiektua hobeto ulertu nahi dut. Zer egin dezaket?
+        question: Funtzionalitate berriei buruzko ideiak ditut, hobekuntzak. Proiektua hobeto ezagutu nahi dut, zer egin dezaket?
       q11:
         answer: Zure zalantzak azkar argitzeko modurik onena Metadecidim komunitatea da. Sartu orain prozesuan [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en) eta ikusi ea zure galdera existitzen den edo erantzunda dagoen; bestela, sartu eta egin zure galdera. Arazoa espazio honetan konpontzerik ez baduzu, agian gurekin harremanetan jartzeko unea da [harremanetarako formularioaren](/contact) bidez.
         question: Zalantza asko ditut, era guztietakoak... non galdetu edo argitu ditzaket?
       q12:
         answer: Gure administratizalearen eskuliburuaren azken bertsioa kontsulta dezakezu [Documentation section](https://docs.decidim.org) atalean.
-        question: Ba al dago tutoretzarik martxan jartzeko?
+        question: Ba al dago tutorialik martxan jartzeko?
       q13:
         answer: Horrela deitzen diogu gure Berme Demokratikoen eta Elkarlan Demokratikoaren Kodeari. Herritar guztiek onartu behar dute [Social Contract](http://decidim.org/contract).
-        question: Irakurri kontratu soziala?
+        question: Zer da Kontratu Soziala?
       q14:
         answer: 'Aldaketa asko daude: funtzionalitateak, malgutasuna, arkitektura, modularitatea, etab. Galdera honi erantzuten saiatzeko, [published a post](/blog/2019-01-14-consul-comparison/).'
-        question: Zeintzuk dira Consul Project / Decide Madrid proiektuen arteko desberdintasunak?
+        question: Zeintzuk dira Consul / Decide Madrid proiektuarekin dauden aldeak?
       q15:
         answer: "[Metadecidim](http://meta.decidim.org) Decidim komunitatea da, plataformaren diseinuan eta Decidim proiektuaren eraikuntzan elkarlanean aritzen dena. Aldizka biltzen gara Community Meetings-en bidez, plataformaren alderdi teknologikoei buruz hitz egiteko, eta Labs-en bidez, [Research](https://meta.decidim.org/assemblies/eix-lab) bileretarako. Urteko gure konferentzia Decidim Fest da. Joan [meta.decidim.org](http://meta.decidim.org) webgunera deialdiak gertutik jarraitzeko eta komunitatean parte hartu nahi baduzu. Gustura hartuko zaitugu ;-)"
-        question: What is the Metadecidim community?
+        question: Zer da Metadecidim komunitatea?
       q16:
-        answer: Noski baietz. Jendeak Metadecidim-en aurki ditzakezun prozesu parte-hartzaileen, eztabaiden, itzulpenen eta abarren bidez egiten du. Decidim Bartzelonan jaio zen eta horregatik lotura handia dago hiri honekin, baina batez ere komunentzako proiektua da.
+        answer: Noski baietz. Jendeak Metadecidim-en aurki ditzakezun partaidetza-prozesuen, eztabaiden, itzulpenen eta abarren bidez egiten du. Decidim Bartzelonan jaio zen eta horregatik lotura handia dago hiri honekin, baina batez ere komunentzako proiektua da.
         question: Metadecidim komunitatean sar naiteke Bartzelonan bizi ez banaiz ere?
       q17:
         answer: Elkarlan demokratikoarekiko fede ona eta jarrera zuzena duen edonor.
-        question: Nolako kideak onartzen dituzu Metadecidim komunitatean?
+        question: Zer nolako kideak onartzen dira Metadecidim komunitatean?
       q18:
         answer: '"Asociacion de Software Libre Decidim" (Decidim Software Librearen Elkartea) Decidim komunitatearen gobernantzarako elkarte demokratikoa da. [February 16, 2019 in an extraordinary assembly of the community](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169) sortu zen, erakundearen estatutuak onartu ostean.'
         question: Zer da Decidim elkartea?
       q19:
         answer: '[general assembly of the Decidim Association](https://meta.decidim.org/assemblies/general-assembly-association) atalean gure buruzko informazio gehiago aurki dezakezu, bileraren jarduera jarraitu eta informazio garrantzitsua kontsultatu (estatutuak, lege-akordioak, barne-araudia)'
-        question: Nola jakin dezaket informazio gehiago Decidim Elkarteari buruz?
+        question: Nola eskuratu dezaket Decidim Elkarteari buruzko informazio gehiago?
       q20:
         answer: Orain, proiektuan parte hartzen dutenak tokiko inplementatzaileak izan daitezke. (https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
         question: How can I become a member of the Decidim Association?
       q21:
         answer: "Bai, ahal duzu! Decidim irabazi-asmorik gabeko proiektua da, eta oraingoz finantzaketaren mende dago erabat. Mesedez, bilatu xehetasun guztiak proiektua finantzatzeko [OpenCollective]\n(https://opencollective.com/decidim)"
-        question: Proiektua finantzatu nahi dut. Nola jarraitu dezaket?
+        question: Proiektua finantzatzeko interesa daukat, zein da prozesua?
       q22:
         answer: Yes, we have templates to formalize collaboration agreements. [Please contact us](/contact).
-        question: Lankidetza hitzarmen bat egin nahi dugu. Ba al dago txantiloirik erabiltzeko?
+        question: Lankidetza hitzarmen bat egin nahi dugu, ba al dituzue erabili ditzakegun txantiloirik?
       q23:
         answer: "Bai, baina pazientzia izan behar duzu. Erakunde askok erabili nahi dute Decidim une honetan, eta urratsez urrats laguntzen diegu. [Contact us](/contact)\nedozein galdera egiteko eta lehenbailehen erantzungo dizugu."
-        question: Instituzioak babesten dituzu?
+        question: Laguntza ematen diete erakunde publikoei?
       q24:
         answer: Decidim eta Decidim-en logoa Elkarteak erregistratzen ditu, ezin dira produktu komertzial gisa erabili eta ezin dira saldu. Erabiltzen bada, kreditua proiektuarekin erlazionatu behar da. Honi buruz gehiago irakur dezakezu gure [Trademark policy](/trademark-policy).
-        question: Zein da Decidim-en marken politika?
+        question: Zein da Decidim-en marka-politika?
     subtitle: Ez baduzu zure galdera erantzuten, guregana jo hola@decidim.org helbidean
     title: FAQ-ak
     types:
@@ -160,12 +168,12 @@ eu:
       installation: Instalazioa eta lizentzia
       users: Parte-hartzaileak eta rolak
   features:
-    intro: "<p>Decidim erabil dezakezu erakunde publiko edo pribatu batean, ehunka edo milaka parte-hartzaile potentzial dituena, hala nola udal bat, elkarte bat, unibertsitate bat, GKE bat, sindikatu bat, auzo-elkarte bat edo kooperatiba bat...</p><p>Decidim-i esker, parte hartzeko</p> <strong>espazioak</strong> konfiguratu ahal izango dituzu (ekimenak, batzarrak, prozesuak edo kontsultak) eta eskuragarri dauden <strong>osagai</strong> anitzen bidez aberastu (aurrez aurreko bilerak, inkestak, proposamenak, bozketak, emaitzen jarraipena, <strong>iruzkinak</strong> eta beste asko)"
+    intro: "<p>Decidim erabil dezakezu erakunde publiko edo pribatu batean, ehunka edo milaka parte-hartzaile potentzial dituena, hala nola udal bat, elkarte bat, unibertsitate bat, GKE bat, sindikatu bat, auzo-elkarte bat edo kooperatiba bat.</p><p>Decidim-i esker, partaidetza-</p> <strong>espazioak</strong> konfiguratu ahal izango dituzu (ekimenak, batzarrak, prozesuak edo kontsultak) eta eskuragarri dauden <strong>osagai</strong> anitzen bidez aberastu (aurrez aurreko bilerak, inkestak, proposamenak, bozketak, emaitzen jarraipena, <strong>iruzkinak</strong> eta beste asko)"
     page:
       feature1:
         subtitle: Gai komunak demokratizatzeko, urratsez urrats
         text: 'Prozesuak partaidetza-prozesuak sortzeko, aktibatzeko/desaktibatzeko eta kudeatzeko espazio bat dira. Hauek beste espazioetatik bereizten dira, osagai guztiak sar daitezkeen fase ezberdinetan egituratzen direlako. Partaidetza-prozesuen adibideak honako hauek dira: batzorde bateko kideak hautatzeko prozesua, aurrekontu parte-hartzaileak, plangintza estrategikoko prozesua, arau edo arau bat elkarlanean idaztea, hiri-espazio bat diseinatzea edo politika publikoen plan bat sortzea.'
-        title: Prozesu partizipatiboak
+        title: Partaidetza-prozesuak
       feature10:
         subtitle: Elkarrekin aztertu, sintetizatu eta eraikitzeko
         text: Testu luzeko dokumentuak hainbat proposamen edo emaitza bihurtzeko balio dezake, eta, alderantziz, proposamen edo emaitza multzo batean oinarritutako testu bateratu bat osatu eta erakusteko.
@@ -201,17 +209,17 @@ eu:
       feature2:
         subtitle: Autoantolaketa kolektiboaren boterea
         text: Erabakiak hartzeko organoak edo taldeak (kontseiluak, lantaldeak, batzordeak, etab.) eratzeko aukera ematen du, aldian-aldian biltzen direnak, haien osaera zehaztuz, haien bilerak zerrendatuz eta geolokalizatuz. Horietan parte hartzeko aukera ematen du, adibidez, aurrez aurre edo online, agendari gaiak gehituz, edo organo horrek hartzen dituen proposamenak eta erabakiak komentatuz.
-        title: Biltzarrak
+        title: Batzarrak
       feature3:
         subtitle: Erabakitzeko eskubidea berme demokratiko guztiak zainduz
-        text: Posible da erreferendumak koordinatzea, eztabaidak eta eztabaidak piztea, bozketaren emaitzak argitaratzea eta boto elektronikoko sistema seguru batera konektatzea.
+        text: Posible da erreferendumak koordinatzea eta eztabaidak piztea, bozketaren emaitzak argitaratzea eta boto elektronikoko sistema seguru batera konektatzea.
         title: Bozketak
       feature4:
         subtitle: Guztion agenda denon eskura jartzea
-        text: Parte-hartzaileek lankidetza-ekimenak sor ditzakete, beren bidea eta helburuak zehaztu, abalak bildu, eztabaidatu, eztabaidatu eta ekimenak zabaldu, topaguneak jarri bertaratutakoen sinadurak biltzeko edo erakundeko beste kide batzuei irekitako eztabaidak egiteko.
+        text: Parte-hartzaileek lankidetza-ekimenak sor ditzakete, beren bidea eta helburuak zehaztu, abalak bildu, eztabaidatu eta ekimenak zabaldu, topaguneak jarri bertaratutakoen sinadurak biltzeko edo erakundeko beste kide batzuei irekitako eztabaidak egiteko.
         title: Ekimenak
       feature5:
-        subtitle: Your ideas in detail
+        subtitle: Zure ideien xehetasunak
         text: Sormen-azti bat erabiliz proposamen bat sortzea, lehendik daudenekin alderatzea, plataforman argitaratzea eta informazio gehigarria sartzea, hala nola geolokalizazioa edo erantsitako dokumentuak eta irudiak. Osagai honek, gainera, aukera ematen du proposamen multzo batekin nabigatzeko, iragazteko eta elkarrekintzan aritzeko. Gainera, inkubagailuarekin proposamen kolaboratiboak egin daitezke.
         title: Proposamenak
       feature6:
@@ -219,7 +227,7 @@ eu:
         text: 'Erakundeei aukera ematen die boto edo laguntza sistema desberdinak aktibatzeko proposamenen inguruan: mugagabeak, atalase jakin batera mugatuak, haztatuak, kostuetan oinarrituak, etab. Boto elektronikoaren teknologia seguru eta zifratuak babestuta.'
         title: Bozketa
       feature7:
-        subtitle: No proposal without an answer
+        subtitle: Erantzunik gabeko proposamenik ez
         text: Guztion agenda denon eskura jartzea.
         title: Emaitzak
       feature8:
@@ -233,11 +241,11 @@ eu:
     subtitle: Edozein tamainatako erakunde eta kolektibo demokratikoentzat.
     title: Funtzionalitateak
     type1:
-      title: Part-harzte espazioak
+      title: Partaidetza-espazioak
     type2:
       title: Osagaiak
     type3:
-      cta: Aztertu moduluak
+      cta: Moduluak ezagutu
       subtitle: Lehenetsitako osagaietatik haratago haztea. Decidim komunitateak ehunka modulu garatu ditu plataforma oinarrizkoetatik haratago zabaltzeko eta zure beharrei hobeto erantzuteko.
       title: Moduloak
   first-steps:
@@ -262,7 +270,7 @@ eu:
       subtitle: Decidim-en funtzionalitate malguak kolektibo txiki zein handientzat, erakunde publiko zein pribatuentzat diseinatuta daude, ehunka edo milaka erabiltzaile potentzialekin.
       title: Decidim tresna egokia da zuretzat?
     section3:
-      cta: Read more case studies on our blog
+      cta: Irakurri erabilera kasu gehiago gure blogean
       link: Irakurri kasua
       title: Teknologiak, demokraziak eta esperientziak babestuta
     section4:
@@ -301,14 +309,14 @@ eu:
     subhero:
       cta: Ezaugarri guztiak aztertu
       feature1: Plangintza estrategikoa
-      feature2: Prozesu partizipatiboak
-      feature3: Biltzarrak
+      feature2: Partaidetza-prozesuak
+      feature3: Batzarrak
       feature4: Ekimenak eta herri-kontsultak
       feature5: Aurrekontu parte-hartzaileak
       feature6: Sareko komunikazioa
       intro: Herritarrek, erakundeek eta erakunde publikoek eskala guztietan beren burua demokratikoki antolatzen laguntzen du.
     used_by:
-      heading: Mundu osoko ehunka erakundek uste osoa dute Decidim prozesu demokratikoetarako
+      heading: Mundu osoko ehunka erakundek konfiantza dute Decidim-en beraien prozesu demokratikoetarako
       link: Deskubritu nola
       title: Decidim dagoeneko erabiltzen
   legal-notice:
@@ -378,6 +386,7 @@ eu:
     press: Komunikabideak
     privacy-policy: Pribatutasun politika
     text: Nabigazioa
+    thanks: Eskerrik asko zure mezuagatik
     trademark: Marka erregistratuaren gidalerroa
     use-cases: Erabilera-kasuak
     used_by: Decidim dagoeneko erabiltzen
@@ -469,10 +478,10 @@ eu:
   testimonials:
     n1:
       org: Bartzelonako Udala (2015-2019)
-      quote: Decidim-i esker, Bartzelonan hiri-plan estrategiko bat sortu dugu herritarrekin batera. 2016an, Udalaren Ekintza Plana inauguratu genuen, Decidim Barcelonaren bidez parte hartzeko prozesu gisa. Gaur egun, plan honek ia 7 mila herritarren proposamenak biltzen ditu. Plataforma hau erabiltzearen abantailetako bat da une oro kontrola dezakezula onartutako proposamenen gauzatze-egoera.
+      quote: Decidim-i esker, Bartzelonan hiri-plan estrategiko bat sortu dugu herritarrekin batera. 2016an, Udalaren Ekintza Plana inauguratu genuen, Decidim Barcelonaren bidez partaidetza-prozesu gisa. Gaur egun, plan honek ia 7 mila herritarren proposamenak biltzen ditu. Plataforma hau erabiltzearen abantailetako bat da une oro kontrola dezakezula onartutako proposamenen gauzatze-egoera.
     n2:
       org: Som Energia
-      quote: Decidim Som Energian ezartzearekin parte hartzeko espazio atseginagoa sortu dugu. Tresna 2018an estreinatu genuen, Kooperatibaren Batzar Nagusiaren egoitzan, eta hilabete batzuk geroago Som Energia Eskolaren Irudia Birdiseinatzea eta elkarlanaren garapena eztabaidatu genituen, beste prozesu parte-hartzaile batzuen artean. Hilabete gutxitan, 3.500 pertsonak baino gehiagok eman dute izena, 5 prozesu parte-hartzaile, 3 batzar martxan eta 1.300 boto baino gehiago Batzar Nagusiaren azken bozketan.
+      quote: Decidim Som Energian ezartzearekin parte hartzeko espazio atseginagoa sortu dugu. Tresna 2018an estreinatu genuen, Kooperatibaren Batzar Nagusiaren egoitzan, eta hilabete batzuk geroago Som Energia Eskolaren Irudia Birdiseinatzea eta elkarlanaren garapena eztabaidatu genituen, beste partaidetza-prozesu batzuen artean. Hilabete gutxitan, 3.500 pertsonak baino gehiagok eman dute izena, 5 prozesu parte-hartzaile, 3 batzar martxan eta 1.300 boto baino gehiago Batzar Nagusiaren azken bozketan.
     n3:
       org: Mérida Yucatango Udal Presidentea, Mexiko. Merida Yucatango City Council, Mexiko
       quote: Decide Mérida digital plataforma digitala inoiz ez bezala ireki zen herritarren partaidetzarako mekanismoen aurrean 2018-2021 Méridako Udal Garapen Plana egiteko. 3.000 interakzio baino gehiago izan genituen, proposamenak, iruzkinak, iradokizunak eta babesa barne, gure hiriarentzat onena denaren inguruan ahalik eta adostasun handiena lortzeko. Zalantzarik gabe, Mérida Decide plataformak gure aliatua izaten jarraituko du, Mérida gero eta gizarte parte-hartzaileagoa izan dadin.
@@ -487,7 +496,7 @@ eu:
       quote: We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
     n7:
       org: OpenForum Europe Research Director, Europar Batasuna
-      quote: Prozesua 2019ko urrian hasi zen Europako Batzordearen Komunikazio eta Demokrazia Zuzendaritza Nagusian, Ikerketa Zentro Bateratuan, Europako Batzordearen Zientzia eta Ezagutza Zerbitzuan. Biltzarraren beharrak aztertu ondoren, eta behar horietara egokitzen diren tresnak aztertuta, Decidim kode irekiko tresna aukeratu behar da bere heldutasun teknikorako, komunitate zabalerako eta egokitzeko gaitasunerako.
+      quote: Prozesua 2019ko urrian hasi zen Europako Batzordearen Komunikazio eta Demokrazia Zuzendaritza Nagusian, Ikerketa Zentro Bateratuan, Europako Batzordearen Zientzia eta Ezagutza Zerbitzuan. Batzarren beharrak aztertu ondoren, eta behar horietara egokitzen diren tresnak aztertuta, Decidim kode irekiko tresna aukeratu behar da bere heldutasun teknikorako, komunitate zabalerako eta egokitzeko gaitasunerako.
     n8:
       org: Pipeline to Power, NYCeko Konpromiso Zibikoen Batzordearentzat lanean
       quote: Decidim plataforma hain ahaltsu bihurtzen duen zati bat da abstrakzio maila bat gehitzen diola prozesu baten urratsak eta prozesuarekin lotzen diren jarduerak bereizten dituen lanari. Hori informazioaren arkitekturaren parte da, eta, beraz, ez duzu bakarrik esaten urrats bakoitzean gertatzen ari dena, baizik eta Decidim-en zati desberdinek portaera desberdina dute egiten ari zarenaren edo prozesuaren zein urratsen arabera. Hori pertsonalizagarria izateak Decidim gure lana egiten ari garen erara moldatzea ahalbidetzen du, eta ez gure lana moldekatzera.
@@ -522,18 +531,18 @@ eu:
     cta: Hasi erabiltzen
     disclaimer: Logotipoak beren egile-eskubideen titularren jabetza intelektuala dira.<br>Ez daude Creative Commons By-SA lizentziapean.
     facts:
+      subtitle: Decidim hazten ari da eta erakundeek eta komunitateak onartzen dute.
+      title: Gertaerak eta zifrak
       type:
-        instances: instantziak
+        comments: iruzkinak
         countries: herrialdeak
+        instances: instantziak
         institutions: erakunde publikoak
+        meetings: topaketak
         organizations: erakundeak
         participants: parte-hartzaileak
         processes: prozesuak
         proposals: proposamenak
-        comments: iruzkinak
-        meetings: topaketak
-      subtitle: Decidim hazten ari da eta erakundeek eta komunitateak onartzen dute.
-      title: Gertaerak eta zifrak
     filters:
       f0: Ikusi dena
       f1: Gobernuak
