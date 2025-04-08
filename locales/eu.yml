@@ -25,7 +25,7 @@ eu:
       v6: Gardentasuna, trazabilitatea eta osotasuna
       v7: Etengabeko hobekuntza eta erakundeen arteko lankidetza
     values_cta: Irakurri kontratu soziala
-    values_intro: "<p>Hasieratik, Decidim+ek kontratu sozial bat du, proiektuaren balioak jasotzen dituena. </p><p>Decidim Software Libreko Elkarteko kide guztiek konpromisoa hartzen dute kontratu hau errespetatzeko.</p>"
+    values_intro: "<p>Hasieratik, Decidim-ek kontratu sozial bat du, proiektuaren balioak jasotzen dituena. </p><p>Decidim Software Libreko Elkarteko kide guztiek konpromisoa hartzen dute kontratu hau errespetatzeko.</p>"
     values_title: Gure balioak
   alert:
     button: Bat egin
@@ -47,7 +47,7 @@ eu:
       quote: Decidim-ek neurrira egindako arkitektura eskaintzen du, gure etxeko egoerara egokitu ahal izateko.
     n3:
       org: Europako Batzordea
-      quote: Plataforma digitala 2021eko apirilaren 19an jarri zen martxan, eta 2022ko maiatzaren 9ra arte egon zen irekita ekarpenak egiteko. Aldi horretan, 18.859 ideia eta 22 167 iruzkin aurkeztu ziren eta 6.661 ekitaldi antolatu ziren. Plataforma digitalaren bidez bildutako ekarpenak Europako Herritarren Panelek jaso zituzten, eta Biltzarraren Osoko Bilkuran eztabaidatu eta eztabaidatu ziren.
+      quote: Plataforma digitala 2021eko apirilaren 19an jarri zen martxan, eta 2022ko maiatzaren 9ra arte egon zen irekita ekarpenak egiteko. Aldi horretan, 18.859 ideia eta 22 167 iruzkin aurkeztu ziren eta 6.661 ekitaldi antolatu ziren. Plataforma digitalaren bidez bildutako ekarpenak Europako Herritarren Panelek jaso zituzten, eta Batzarren Osoko Bilkuran eztabaidatu eta eztabaidatu ziren.
   community:
     community1: Ezaugarri berriak proposatu eta definitzen laguntzea
     community2: Akatsak salatu eta garatzaileei konpontzen lagundu
@@ -66,21 +66,21 @@ eu:
     privacy_policy:
       accept: Onartzen dut <a href="%{privacy_policy_url}">Pribatutasun Politika</a>
       message: "<p>Jendeak gurekin harremanetan jartzen denean kontaktu-inprimakiaren, posta elektronikoaren edo antzeko komunikazio-bideen bidez, automatikoki honako informazioa bilduko dugu: izena, erakundea, helbide elektronikoa eta erabiltzailearen mezuaren edukia, zure iruzkinak, eskaerak, iradokizunak, etab. kudeatzeko.</p> \n\n<p>Gainera, datu horiek ikerketa estatistikoetarako erabil ditzakegu, pseudonimizazio eta anonimizazio tekniken bidez, hala nola datu agregazioaren bidez, eta horrek bermatuko du ondorengo tratamendu horrek ezin izango duela Erabiltzaileak banaka identifikatu.</p>"
-    reason: Reason for contact
+    reason: Harremanetarako arrazoia
     reasons:
-      community: I want to join the Decidim Community.
-      installing: I have a question about installing Decidim.
-      other: Other.
-      researcher: I'm a researcher studying Decidim.
-      selected: Select an option.
-      service_provider: I need a Decidim service provider.
+      community: Decidim Komunitatearen kidea izan nahi dut.
+      installing: Decidim instalatzeari buruzko galdera bat dut.
+      other: Beste bat.
+      researcher: Decidim aztertzen duen ikertzailea naiz.
+      selected: Hautatu aukera bat.
+      service_provider: Decidim zerbitzuen hornitzaile bat behar dut.
     send: Bidali mezu bat
     subtitle: Harremanetan jarri nahi baduzu, bete harremanetarako formularioa edo bidali mezu elektroniko bat
     title: Decidim-en kontaktua
   demo:
     button: Online Demoa
-    p1: Hassi eta esploratu Decim plataforma gure online demoarekin.
-    strong: Probatu Online
+    p1: Ezagutu eta probatu askatasunez Decidim plataforma demo digitalean.
+    strong: Probatu online demoa
     title: Online Demoa
   faqs:
     cta: Irakurri galdera guztiak
@@ -131,7 +131,7 @@ eu:
         answer: "[Metadecidim](http://meta.decidim.org) Decidim komunitatea da, plataformaren diseinuan eta Decidim proiektuaren eraikuntzan elkarlanean aritzen dena. Aldizka biltzen gara Community Meetings-en bidez, plataformaren alderdi teknologikoei buruz hitz egiteko, eta Labs-en bidez, [Research](https://meta.decidim.org/assemblies/eix-lab) bileretarako. Urteko gure konferentzia Decidim Fest da. Joan [meta.decidim.org](http://meta.decidim.org) webgunera deialdiak gertutik jarraitzeko eta komunitatean parte hartu nahi baduzu. Gustura hartuko zaitugu ;-)"
         question: What is the Metadecidim community?
       q16:
-        answer: Noski baietz. Jendeak Metadecidim-en aurki ditzakezun prozesu parte-hartzaileen, eztabaiden, itzulpenen eta abarren bidez egiten du. Decidim Bartzelonan jaio zen eta horregatik lotura handia dago hiri honekin, baina batez ere komunentzako proiektua da.
+        answer: Noski baietz. Jendeak Metadecidim-en aurki ditzakezun partaidetza-prozesuen, eztabaiden, itzulpenen eta abarren bidez egiten du. Decidim Bartzelonan jaio zen eta horregatik lotura handia dago hiri honekin, baina batez ere komunentzako proiektua da.
         question: Metadecidim komunitatean sar naiteke Bartzelonan bizi ez banaiz ere?
       q17:
         answer: Elkarlan demokratikoarekiko fede ona eta jarrera zuzena duen edonor.
@@ -168,12 +168,12 @@ eu:
       installation: Instalazioa eta lizentzia
       users: Parte-hartzaileak eta rolak
   features:
-    intro: "<p>Decidim erabil dezakezu erakunde publiko edo pribatu batean, ehunka edo milaka parte-hartzaile potentzial dituena, hala nola udal bat, elkarte bat, unibertsitate bat, GKE bat, sindikatu bat, auzo-elkarte bat edo kooperatiba bat...</p><p>Decidim-i esker, parte hartzeko</p> <strong>espazioak</strong> konfiguratu ahal izango dituzu (ekimenak, batzarrak, prozesuak edo kontsultak) eta eskuragarri dauden <strong>osagai</strong> anitzen bidez aberastu (aurrez aurreko bilerak, inkestak, proposamenak, bozketak, emaitzen jarraipena, <strong>iruzkinak</strong> eta beste asko)"
+    intro: "<p>Decidim erabil dezakezu erakunde publiko edo pribatu batean, ehunka edo milaka parte-hartzaile potentzial dituena, hala nola udal bat, elkarte bat, unibertsitate bat, GKE bat, sindikatu bat, auzo-elkarte bat edo kooperatiba bat.</p><p>Decidim-i esker, partaidetza-</p> <strong>espazioak</strong> konfiguratu ahal izango dituzu (ekimenak, batzarrak, prozesuak edo kontsultak) eta eskuragarri dauden <strong>osagai</strong> anitzen bidez aberastu (aurrez aurreko bilerak, inkestak, proposamenak, bozketak, emaitzen jarraipena, <strong>iruzkinak</strong> eta beste asko)"
     page:
       feature1:
         subtitle: Gai komunak demokratizatzeko, urratsez urrats
         text: 'Prozesuak partaidetza-prozesuak sortzeko, aktibatzeko/desaktibatzeko eta kudeatzeko espazio bat dira. Hauek beste espazioetatik bereizten dira, osagai guztiak sar daitezkeen fase ezberdinetan egituratzen direlako. Partaidetza-prozesuen adibideak honako hauek dira: batzorde bateko kideak hautatzeko prozesua, aurrekontu parte-hartzaileak, plangintza estrategikoko prozesua, arau edo arau bat elkarlanean idaztea, hiri-espazio bat diseinatzea edo politika publikoen plan bat sortzea.'
-        title: Prozesu partizipatiboak
+        title: Partaidetza-prozesuak
       feature10:
         subtitle: Elkarrekin aztertu, sintetizatu eta eraikitzeko
         text: Testu luzeko dokumentuak hainbat proposamen edo emaitza bihurtzeko balio dezake, eta, alderantziz, proposamen edo emaitza multzo batean oinarritutako testu bateratu bat osatu eta erakusteko.
@@ -209,7 +209,7 @@ eu:
       feature2:
         subtitle: Autoantolaketa kolektiboaren boterea
         text: Erabakiak hartzeko organoak edo taldeak (kontseiluak, lantaldeak, batzordeak, etab.) eratzeko aukera ematen du, aldian-aldian biltzen direnak, haien osaera zehaztuz, haien bilerak zerrendatuz eta geolokalizatuz. Horietan parte hartzeko aukera ematen du, adibidez, aurrez aurre edo online, agendari gaiak gehituz, edo organo horrek hartzen dituen proposamenak eta erabakiak komentatuz.
-        title: Biltzarrak
+        title: Batzarrak
       feature3:
         subtitle: Erabakitzeko eskubidea berme demokratiko guztiak zainduz
         text: Posible da erreferendumak koordinatzea, eztabaidak eta eztabaidak piztea, bozketaren emaitzak argitaratzea eta boto elektronikoko sistema seguru batera konektatzea.
@@ -241,7 +241,7 @@ eu:
     subtitle: Edozein tamainatako erakunde eta kolektibo demokratikoentzat.
     title: Funtzionalitateak
     type1:
-      title: Part-harzte espazioak
+      title: Partaidetza-espazioak
     type2:
       title: Osagaiak
     type3:
@@ -270,7 +270,7 @@ eu:
       subtitle: Decidim-en funtzionalitate malguak kolektibo txiki zein handientzat, erakunde publiko zein pribatuentzat diseinatuta daude, ehunka edo milaka erabiltzaile potentzialekin.
       title: Decidim tresna egokia da zuretzat?
     section3:
-      cta: Read more case studies on our blog
+      cta: Irakurri erabilera kasu gehiago gure blogean
       link: Irakurri kasua
       title: Teknologiak, demokraziak eta esperientziak babestuta
     section4:
@@ -309,14 +309,14 @@ eu:
     subhero:
       cta: Ezaugarri guztiak aztertu
       feature1: Plangintza estrategikoa
-      feature2: Prozesu partizipatiboak
-      feature3: Biltzarrak
+      feature2: Partaidetza-prozesuak
+      feature3: Batzarrak
       feature4: Ekimenak eta herri-kontsultak
       feature5: Aurrekontu parte-hartzaileak
       feature6: Sareko komunikazioa
       intro: Herritarrek, erakundeek eta erakunde publikoek eskala guztietan beren burua demokratikoki antolatzen laguntzen du.
     used_by:
-      heading: Mundu osoko ehunka erakundek uste osoa dute Decidim prozesu demokratikoetarako
+      heading: Mundu osoko ehunka erakundek konfiantza dute Decidim-en beraien prozesu demokratikoetarako
       link: Deskubritu nola
       title: Decidim dagoeneko erabiltzen
   legal-notice:
@@ -478,10 +478,10 @@ eu:
   testimonials:
     n1:
       org: Bartzelonako Udala (2015-2019)
-      quote: Decidim-i esker, Bartzelonan hiri-plan estrategiko bat sortu dugu herritarrekin batera. 2016an, Udalaren Ekintza Plana inauguratu genuen, Decidim Barcelonaren bidez parte hartzeko prozesu gisa. Gaur egun, plan honek ia 7 mila herritarren proposamenak biltzen ditu. Plataforma hau erabiltzearen abantailetako bat da une oro kontrola dezakezula onartutako proposamenen gauzatze-egoera.
+      quote: Decidim-i esker, Bartzelonan hiri-plan estrategiko bat sortu dugu herritarrekin batera. 2016an, Udalaren Ekintza Plana inauguratu genuen, Decidim Barcelonaren bidez partaidetza-prozesu gisa. Gaur egun, plan honek ia 7 mila herritarren proposamenak biltzen ditu. Plataforma hau erabiltzearen abantailetako bat da une oro kontrola dezakezula onartutako proposamenen gauzatze-egoera.
     n2:
       org: Som Energia
-      quote: Decidim Som Energian ezartzearekin parte hartzeko espazio atseginagoa sortu dugu. Tresna 2018an estreinatu genuen, Kooperatibaren Batzar Nagusiaren egoitzan, eta hilabete batzuk geroago Som Energia Eskolaren Irudia Birdiseinatzea eta elkarlanaren garapena eztabaidatu genituen, beste prozesu parte-hartzaile batzuen artean. Hilabete gutxitan, 3.500 pertsonak baino gehiagok eman dute izena, 5 prozesu parte-hartzaile, 3 batzar martxan eta 1.300 boto baino gehiago Batzar Nagusiaren azken bozketan.
+      quote: Decidim Som Energian ezartzearekin parte hartzeko espazio atseginagoa sortu dugu. Tresna 2018an estreinatu genuen, Kooperatibaren Batzar Nagusiaren egoitzan, eta hilabete batzuk geroago Som Energia Eskolaren Irudia Birdiseinatzea eta elkarlanaren garapena eztabaidatu genituen, beste partaidetza-prozesu batzuen artean. Hilabete gutxitan, 3.500 pertsonak baino gehiagok eman dute izena, 5 prozesu parte-hartzaile, 3 batzar martxan eta 1.300 boto baino gehiago Batzar Nagusiaren azken bozketan.
     n3:
       org: Mérida Yucatango Udal Presidentea, Mexiko. Merida Yucatango City Council, Mexiko
       quote: Decide Mérida digital plataforma digitala inoiz ez bezala ireki zen herritarren partaidetzarako mekanismoen aurrean 2018-2021 Méridako Udal Garapen Plana egiteko. 3.000 interakzio baino gehiago izan genituen, proposamenak, iruzkinak, iradokizunak eta babesa barne, gure hiriarentzat onena denaren inguruan ahalik eta adostasun handiena lortzeko. Zalantzarik gabe, Mérida Decide plataformak gure aliatua izaten jarraituko du, Mérida gero eta gizarte parte-hartzaileagoa izan dadin.
@@ -496,7 +496,7 @@ eu:
       quote: We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
     n7:
       org: OpenForum Europe Research Director, Europar Batasuna
-      quote: Prozesua 2019ko urrian hasi zen Europako Batzordearen Komunikazio eta Demokrazia Zuzendaritza Nagusian, Ikerketa Zentro Bateratuan, Europako Batzordearen Zientzia eta Ezagutza Zerbitzuan. Biltzarraren beharrak aztertu ondoren, eta behar horietara egokitzen diren tresnak aztertuta, Decidim kode irekiko tresna aukeratu behar da bere heldutasun teknikorako, komunitate zabalerako eta egokitzeko gaitasunerako.
+      quote: Prozesua 2019ko urrian hasi zen Europako Batzordearen Komunikazio eta Demokrazia Zuzendaritza Nagusian, Ikerketa Zentro Bateratuan, Europako Batzordearen Zientzia eta Ezagutza Zerbitzuan. Batzarren beharrak aztertu ondoren, eta behar horietara egokitzen diren tresnak aztertuta, Decidim kode irekiko tresna aukeratu behar da bere heldutasun teknikorako, komunitate zabalerako eta egokitzeko gaitasunerako.
     n8:
       org: Pipeline to Power, NYCeko Konpromiso Zibikoen Batzordearentzat lanean
       quote: Decidim plataforma hain ahaltsu bihurtzen duen zati bat da abstrakzio maila bat gehitzen diola prozesu baten urratsak eta prozesuarekin lotzen diren jarduerak bereizten dituen lanari. Hori informazioaren arkitekturaren parte da, eta, beraz, ez duzu bakarrik esaten urrats bakoitzean gertatzen ari dena, baizik eta Decidim-en zati desberdinek portaera desberdina dute egiten ari zarenaren edo prozesuaren zein urratsen arabera. Hori pertsonalizagarria izateak Decidim gure lana egiten ari garen erara moldatzea ahalbidetzen du, eta ez gure lana moldekatzera.
