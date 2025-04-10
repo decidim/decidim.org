@@ -4,7 +4,7 @@ tags: null
 ---
 ![](/uploads/img-20241210-wa0022.jpg)
 
-## **The Decidim Association is participating in a new EU-funded project, MultiPoD, contributing to the conceptualisation and development of a digital collaborative infrastructure to foster political participation across Europe.**
+### **The Decidim Association is participating in a new EU-funded project, MultiPoD, contributing to the conceptualisation and development of a digital collaborative infrastructure to foster political participation across Europe.**
 
 At a time of polarisation and political biases, can we foster an open and inclusive political deliberation across linguistic and socio-cultural boundaries? When the interplay between national interactions and political/cultural contexts affects global events in complex ways, new opportunities and initiatives arise. In this context lands **[MultiPoD](https://multipod-project.eu/)**, a European-funded project under the Horizon Europe programme, that uses a multilingual and cross-cultural approach to supporting communication and collaboration in a **European Public Space for Citizen Deliberation**. 
 
