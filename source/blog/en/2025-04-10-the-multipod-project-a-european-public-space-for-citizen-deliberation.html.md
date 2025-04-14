@@ -22,4 +22,4 @@ But, at a large-scale, how is it going to impact policy making deliberation? Mul
 
 This space is going to showcase how by forging new connections, fostering **inclusion of minorities and increasing transparency**, a better understanding of participatory processes and policy decisions will be accomplished. Moreover, the project supports democratic values to reduce bias and depolarise current political debates, promoting accountability, transparency and trust. Finally, by bringing together policymakers across Europe with diverse cultural and linguistic backgrounds, MultiPoD will showcase how outcomes from citizen deliberations can be best transformed into policies that promote social inclusion and democratic processes.
 
-![](/uploads/component-4.png)
+![](/uploads/component-4-1-.png)
