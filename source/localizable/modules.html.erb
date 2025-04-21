@@ -34,10 +34,9 @@ description:
       </div>
     </div>
     <div class="md:w-3/4">
-      <% modules = data_sort_by(data.modules, "title") %>
-      <% official = data_select_by_type(modules, "official") %>
-      <% community = data_select_by_type(modules, "community") %>
-      <% auth = data_select_by_type(modules, "auth") %>
+      <% official = data_sort_by(data.modules.official, "title") %>
+      <% community = data_sort_by(data.modules.community, "title") %>
+      <% auth = data_sort_by(data.modules.auth, "title") %>
 
       <h4 id="official" class="h4 mb-6 md:mb-10"><%= t("modules.official") %></h4>
       <div class="divide-y-4 border-y-4 border-gray-100 divide-gray-100 overflow-hidden">
