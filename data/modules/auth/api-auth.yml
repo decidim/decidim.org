@@ -1,6 +1,2 @@
 title: API auth
 url: https://github.com/mainio/decidim-module-apiauth
-description: Add JWT token based API authentication possibility to Decidim. The
-  API authentication module provides a new endpoint for API authentication and a
-  method to check for an active authentication token header for each request.
-type: auth

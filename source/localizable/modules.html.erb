@@ -38,31 +38,16 @@ description:
       <% community = data_sort_by(data.modules.community, "title") %>
       <% auth = data_sort_by(data.modules.auth, "title") %>
 
-      <h4 id="official" class="h4 mb-6 md:mb-10"><%= t("modules.official") %></h4>
-      <div class="divide-y-4 border-y-4 border-gray-100 divide-gray-100 overflow-hidden">
-        <% official.each do |id, m| %>
-          <%= partial "/partials/module-item", locals: { item: m } %>
-        <% end %>
-      </div>
+      <%= partial "/partials/modules", locals: { modules: official, type: "official" } %>
 
       <div class="hidden md:block py-20">
         <p class="par-xl max-w-prose text-gray-500 mb-8"><%= t("modules.develop") %></p>
         <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", text: t("modules.cta"), url: "https://docs.decidim.org" } %>
       </div>
 
-      <h4 id="community" class="h4 mb-6 md:mb-10"><%= t("modules.community") %></h4>
-      <div class="divide-y-4 border-y-4 border-gray-100 divide-gray-100 overflow-hidden">
-        <% community.each do |id, m| %>
-          <%= partial "/partials/module-item", locals: { item: m } %>
-        <% end %>
-      </div>
+      <%= partial "/partials/modules", locals: { modules: community, type: "community" } %>
 
-      <h4 id="auth" class="h4 mt-20 mb-6 md:mb-10"><%= t("modules.auth") %></h4>
-      <div class="divide-y-4 border-y-4 border-gray-100 divide-gray-100 overflow-hidden">
-        <% auth.each do |id, m| %>
-          <%= partial "/partials/module-item", locals: { item: m } %>
-        <% end %>
-      </div>
+      <%= partial "/partials/modules", locals: { modules: auth, type: "auth" } %>
     </div>
   </div>
 </section>

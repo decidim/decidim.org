@@ -1,12 +1,3 @@
 title: Age Action Authorization
-url: >-
-  https://github.com/diputacioBCN/decidim-diba/tree/master/decidim-age_action_authorization
-image: /uploads/module-age_action_authorization.png
-description: >-
-  A Decidim based action authorization to check user's age inside actions. The
-  Decidim Default Action Authorizer only allows comparing items that are equal
-  to an expected value. This authorization checks a metadata field named
-  birthday in the AuthorizationHandler used and compares the value against a
-  minimum age defined in the provided JSON for the action authorizer. The JSON
-  field is named edad.
-type: auth
+url: https://github.com/diputacioBCN/decidim-diba/tree/master/decidim-age_action_authorization
+image: /uploads/modules/auth/module-age_action_authorization.png

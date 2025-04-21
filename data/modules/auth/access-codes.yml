@@ -1,10 +1,2 @@
 title: Access Codes
 url: https://github.com/Platoniq/decidim-module-access_codes
-description: Provides a new verification method that allows system
-  administrators to define new verification workflows where the admins can
-  provide access to specific users by sending them an access code. This module
-  does not itself register any verification workflows because these access code
-  workflows are generally specific to the system in question. For example, if
-  the admins want to provide access only for specific users to add new proposals
-  in a specific participatory space, they can define a new workflow for that.
-type: auth

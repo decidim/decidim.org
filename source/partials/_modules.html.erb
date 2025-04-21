@@ -1,0 +1,6 @@
+<h4 id="<%= type %>" class="h4 mb-6 md:mb-10"><%= t("modules.#{type}") %></h4>
+<div class="divide-y-4 border-y-4 border-gray-100 divide-gray-100 overflow-hidden">
+  <% modules.each do |id, m| %>
+    <%= partial "/partials/module-item", locals: { item: m, type: type } %>
+  <% end %>
+</div>
