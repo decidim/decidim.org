@@ -126,13 +126,13 @@ de:
         question: What is the Social Contract?
       q14:
         answer: 'There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.'
-        question: What are the differences with Consul Project / Decide Madrid?
+        question: Was sind die Unterschiede zum Consul Project / Decide Madrid?
       q15:
-        answer: "[Metadecidim](http://meta.decidim.org) is the community of Decidim that collaborates in the design of the platform and the construction of the Decidim project. We meet regularly through the Community Meetings, for issues related to the technological aspects of the platform and the Labs witc are [Research](https://meta.decidim.org/assemblies/eix-lab) oriented meetings. Our annual conference is Decidim Fest. Go to [meta.decidim.org](http://meta.decidim.org) to follow the calls closely and if you want to join the community. We'd love to ;-)"
-        question: What is the Metadecidim community?
+        answer: "[Metadecidim](http://meta.decidim.org) ist die Community von Decidim, die an der Gestaltung der Plattform und dem Aufbau des Decidim-Projekts mitarbeitet. Wir treffen uns regelmäßig im Rahmen der Community-Meetings, für Themen im Zusammenhang mit den technologischen Aspekten der Plattform und den Labs, welche mehr [forschungsorientiert](https://meta.decidim.org/assemblies/eix-lab) sind. Unsere jährliche Konferenz ist das Decidim Fest. Besuche [meta.decidim.org](http://meta.decidim.org), um die Aufrufe zu verfolgen und wenn du der Community beitreten möchtest. Wir würden uns freuen ;-)"
+        question: Was ist die Metadecidim-Community?
       q16:
         answer: Of course you can. People do so through participatory processes, debates, translations, etc. that you might find in Metadecidim. Decidim was born in Barcelona and that is why there is a strong territorial bond with this city, but above all, it's a project for the commons.
-        question: Can I join the Metadecidim community even if I don't live in Barcelona?
+        question: Kann ich der Metadecidim-Community beitreten, auch wenn ich nicht in Barcelona lebe?
       q17:
         answer: Anybody who has good faith and a correct attitude towards democratic collaboration.
         question: What kind of members you accept into the Metadecidim community?
@@ -161,12 +161,12 @@ de:
     title: Häufig gestellte Fragen
     types:
       about: Über Decidim
-      association: Association
-      community: Community and social contract
-      features: Roadmap and features
-      install: Installation and license
-      installation: Installation and license
-      users: Users and roles
+      association: Verein
+      community: Gemeinschafts- und Gesellschaftsvertrag
+      features: Roadmap und Funktionen
+      install: Installation und Lizenz
+      installation: Installation und Lizenz
+      users: Nutzende und Rollen
   features:
     intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
@@ -199,8 +199,8 @@ de:
         text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
         title: Seiten und Blogs
       feature16:
-        subtitle: Personalised information on interesting content
-        text: Decidim enables you to track any space or component so that you can receive updates whenever they happen.
+        subtitle: Personalisierte Informationen zu interessanten Inhalten
+        text: Decidim ermöglicht es, jeden Bereich oder jede Komponente zu folgen, so dass du auf dem Laufenden bleibst.
         title: Benachrichtigungen
       feature17:
         subtitle: Einfach, aber leistungsstark
@@ -219,7 +219,7 @@ de:
         text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
         title: Initiativen
       feature5:
-        subtitle: Your ideas in detail
+        subtitle: Deine Ideen im Detail
         text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Vorschläge
       feature6:
@@ -227,7 +227,7 @@ de:
         text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Abstimmungen
       feature7:
-        subtitle: No proposal without an answer
+        subtitle: Kein Vorschlag ohne Antwort
         text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Ergebnisse
       feature8:
@@ -245,7 +245,7 @@ de:
     type2:
       title: Komponenten
     type3:
-      cta: Explore the modules
+      cta: Module erkunden
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
       title: Module
   first-steps:
@@ -253,29 +253,29 @@ de:
       content: You can install it yourself or find someone to help you with tech support.
       link1: Dokumentation
       pre: For technologists
-      title: Installing Decidim
+      title: Decidim installieren
     first-steps2:
       content: For big or small organisations, discover how Decidim can cater to your needs.
       link1: Features
-      pre: For organizations
-      title: The right tool for you
+      pre: Für Organisationen
+      title: Das richtige Werkzeug für euch
     first-steps3:
       content: If your city is thinking of deploying participatory policies, find out how you can convince them to do it.
-      link1: Find a partner
-      pre: For governments
-      title: Decidim in your city
+      link1: Partner finden
+      pre: Für Verwaltungen
+      title: Decidim in deiner Stadt
     intro: It’s a free/libre and open-source web-based software, maintained by an extense and active community. You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...
     section2:
-      link: Explore all features
-      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users.
-      title: Is Decidim the right tool for you?
+      link: Alle Funktionen entdecken
+      subtitle: Die flexiblen Funktionen von Decidim dienen sowohl kleinen als auch großen Kollektiven, öffentlichen und privaten Organisationen mit Hunderten oder Tausenden von potenziellen Nutzenden.
+      title: Ist Decidim das richtige Werkzeug für euch?
     section3:
       cta: Read more case studies on our blog
-      link: Read the case study
-      title: Backed by technology, democracy and experience
+      link: Fallstudie lesen
+      title: Gebaut durch Technologie, Demokratie und Erfahrung
     section4:
-      button1: About the association
-      button2: Join the community
+      button1: Über den Verein
+      button2: Der Community beitreten
       intro: Die <strong>Decidim Free Software Association</strong> ist ein basisdemokratisch organisierter Verein zur Selbstverwaltung der Decidim-Community.
       subtitle: "<strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform."
       title: Wer steht hinter der Plattform?
@@ -283,11 +283,11 @@ de:
     title: Erste Schritte mit Decidim
   footer:
     about_us: Über uns
-    follow_us: Follow us on social media
+    follow_us: Folge uns in den sozialen Medien
     legal: Rechtliches
     supported_by: Unterstützt von
     trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
-    up_to_date: Stay up to date
+    up_to_date: Bleibe auf dem Laufenden
   index:
     cards:
       card1:
@@ -307,7 +307,7 @@ de:
       intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
       subheading: Decidim is a digital platform for citizen participation
     subhero:
-      cta: Explore all features
+      cta: Alle Funktionen entdecken
       feature1: Strategic planning
       feature2: Beteiligungsprozesse
       feature3: Gremien
@@ -340,7 +340,7 @@ de:
       title: Modifications
     section-7:
       paragraph: <p>Your personal data collected on our Website or when you contact us through the contact form or by sending an email will be treated strictly in accordance with our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
-      title: Personal Data
+      title: Personenbezogene Daten
     section-8:
       paragraph: <p>This Website does not use cookies. More information in our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
       title: Cookies
@@ -361,7 +361,7 @@ de:
   nav:
     about: About
     academy: Academy
-    association: Association
+    association: Verein
     blog: Blog
     book: Book
     close_menu: Close menu
