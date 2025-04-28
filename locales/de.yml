@@ -342,29 +342,29 @@ de:
       paragraph: <p>Your personal data collected on our Website or when you contact us through the contact form or by sending an email will be treated strictly in accordance with our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
       title: Personenbezogene Daten
     section-8:
-      paragraph: <p>This Website does not use cookies. More information in our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
+      paragraph: <p>Diese Website verwendet keine Cookies. Weitere Informationen finden Sie in unseren <a href="%{privacy_policy_url}">Datenschutzrichtlinien</a>.</p>
       title: Cookies
     section-9:
-      paragraph: '<p>Our Legal Texts, including this Legal Notice and our <a href="%{privacy_policy_url}">Privacy Policy</a>, is governed by Spanish law. The courts of the city of Barcelona will be competent to decide any dispute arising from the use of our Website.</p> <p><b>Last update</b>: February 2022.</p>'
-      title: Governing law and jurisdiction
-    title: Legal notice
+      paragraph: '<p>Unsere Rechtstexte, einschließlich dieser Rechtshinweise und unserer <a href="%{privacy_policy_url}">Datenschutzerklärung</a>unterliegen dem spanischen Recht. Die Gerichte der Stadt Barcelona werden für Streitigkeiten, die sich aus der Nutzung unserer Website ergeben, zuständig sein.</p> <p><b>Letzte Aktualisierung</b>: Februar 2022.</p>'
+      title: Geltendes Recht und Gerichtsbarkeit
+    title: Impressum
   modules:
-    auth: Authorization
+    auth: Autorisierung
     community: Gemeinschaft
-    cta: Learn how
+    cta: Mehr erfahren
     develop: Develop your own modules to expand the platform beyond the basics and cater to your needs.
-    more_info: More information
-    official: Official modules
-    placeholder: Search...
+    more_info: Mehr Informationen
+    official: Offizielle Module
+    placeholder: Suchen...
     subtitle: By using modules you can extend the functionality of Decidim and share it with others.
     title: Module
   nav:
-    about: About
-    academy: Academy
+    about: Über
+    academy: Akademie
     association: Verein
     blog: Blog
-    book: Book
-    close_menu: Close menu
+    book: Buch
+    close_menu: Menü schließen
     code: Code
     community: Gemeinschaft
     contact: Kontakt
@@ -373,13 +373,13 @@ de:
     docs:
       path: https://docs.decidim.org/
       title: Dokumentation
-    donate: Donate
+    donate: Spenden
     faqs: Häufig gestellte Fragen
     features: Features
-    first-steps: First steps
-    home: Home
-    legal-notice: Legal notice
-    menu: Menu
+    first-steps: Erste Schritte
+    home: Start
+    legal-notice: Impressum
+    menu: Menü
     modules: Module
     partners: Partner
     partnership-policy: Partnerschaftsrichtlinien
