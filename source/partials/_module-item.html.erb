@@ -1,9 +1,9 @@
 <div class="flex items-center md:space-x-6 py-6 opacity-100 transition <%= classes ||= '' %>" data-filter-target>
-  <div class="hidden md:block md:w-1/5 rounded-xl overflow-hidden">
-    <% if item.image %>
+  <% if item.image %>
+    <div class="hidden md:block md:w-1/5 rounded-xl overflow-hidden">
       <img src="<%= item.image %>" alt="<%= item.title %>" resize="150x150">
-    <% end %>
-  </div>
+    </div>
+  <% end %>
   <div class="md:w-4/5 flex flex-col space-y-2">
     <h6 class="h6"><%= item.title %></h6>
     <p class="par-sm text-gray-500"><%= fallback_translate("modules.description.#{type}.#{item.title.parameterize}") %></p>
