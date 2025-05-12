@@ -81,18 +81,6 @@ collections:
       - {label: "Priority", name: "priority", widget: "number", default: 50, valueType: "int", min: 1, max: 101, step: 2, hint: Larger number is more priority (100 is Barcelona), required: true}
       - {label: "Home", name: "home", widget: "boolean", hint: "Is it going to be published on homepage?", required: false}
       - {label: "Location", name: "location", widget: "map", type: "Point", hint: "Geographical location for this installation", required: false}
-  - name: "Module"
-    label: "Module"
-    format: yml
-    extension: yml
-    folder: data/modules/
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "URL", name: "url", widget: "string", required: true}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "text", required: true}
-      - {label: "Type", name: "type", widget: "select", options: ["official", "community", "auth"], required: true}
   - name: "Media highlights"
     label: "Media highlights"
     format: yml

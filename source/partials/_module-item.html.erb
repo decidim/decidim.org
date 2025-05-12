@@ -6,7 +6,7 @@
   <% end %>
   <div class="md:w-4/5 flex flex-col space-y-2">
     <h6 class="h6"><%= item.title %></h6>
-    <p class="par-sm text-gray-500"><%= item.description %></p>
+    <p class="par-sm text-gray-500"><%= fallback_translate("modules.description.#{type}.#{item.title.parameterize}") %></p>
     <a href="<%= item.url %>" class="inline-block underline par-sm text-gray-500"><%= t("modules.more_info") %></a>
   </div>
 </div>
