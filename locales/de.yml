@@ -41,7 +41,7 @@ de:
   case_study:
     n1:
       org: Stadt Helsinki
-      quote: We evaluated seven different kinds of participatory budgeting options to find the right platform to support Helsinki's process with an easy to use interface and required modularity for different kinds of needs. Decidim won the evaluation and first instances were built in 2018.
+      quote: Wir haben sieben verschiedene Arten von Bürgerhaushalten verglichen, um die richtige Plattform zu finden, die den Prozess in Helsinki mit einer einfach zu bedienenden Schnittstelle und der erforderlichen Modularität für unterschiedliche Bedürfnisse unterstützt. Decidim hat diesen Vergleich gewonnen und die ersten Instanzen wurden 2018 umgesetzt.
     n2:
       org: Code for Japan
       quote: Decidim bietet eine maßgeschneiderte Architektur, so dass wir es an unsere innenpolitische Situation anpassen können.
@@ -65,7 +65,7 @@ de:
     name: Name
     privacy_policy:
       accept: Ich akzeptiere die <a href="%{privacy_policy_url}">Datenschutzrichtlinie</a>
-      message: "<p>When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.</p> <p>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.</p>"
+      message: "<p>Werden wir kontaktiert über das Kontaktformular, E-Mail oder vergleichbare Kommunikationswege, sammeln wir automatisch die folgenden Informationen: Name, Einrichtung, E-Mail-Adresse und der Inhalte der Nachricht des Nutzers um Ihre Kommentare, Anfragen, Anregungen, ect. verarbeiten zu können.</p><p>Darüber hinaus können wir diese Daten für statistische Studien durch Pseudonymisierungs- und sogar Anonymisierungstechniken, wie z.B. Datenaggregation, verarbeiten, so dass bei dieser Weiterverarbeitung die Nutzer nicht individuell identifiziert werden können.</p>"
     reason: Grund für Kontakt
     reasons:
       community: Ich möchte der Decidim Community beitreten.
@@ -75,7 +75,7 @@ de:
       selected: Wähle eine Option.
       service_provider: Ich suche einen Decidim-Dienstleister.
     send: Nachricht senden
-    subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
+    subtitle: Möchtest du dich mit uns in Verbindung setzen? Fülle das Kontaktformular aus oder sende uns eine E-Mail an
     title: Decidim kontaktieren
   demo:
     button: Online-Demo
@@ -86,78 +86,78 @@ de:
     cta: Alle FAQs lesen
     questions:
       q01:
-        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
+        answer: 'Decidim ist eine freie Open-Source Partizipatorische-Demokratie-Plattform für Städte und Organisationen. Aber Decidim ist mehr als nur eine digitale Plattform: Es ist ein gemeinsames, freies und offenes Projekt und Infrastruktur, einschließlich Code, Dokumentation, Design, Schulungen, einem Rechtsrahmen, kollaborativen Schnittstellen, Anwender- und Einrichtungsgemeinschaften und eine gemeinsame Vision.'
         question: Was ist Decidim?
       q02:
-        answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
+        answer: Decidim wird derzeit von Städten und Organisationen weltweit verwendet. Tatsächlich kann jede Gruppe von Menschen sie nutzen, sei es eine NGO, eine Universität, eine Gewerkschaft, eine Genossenschaft, eine Nachbarschaft usw. Hier findest du eine [vollständige Liste der derzeit aktiven Instanzen](/usedby/).
         question: Wer verwendet Decidim?
       q03:
-        answer: Easily configure participatory processes Do you want to make a strategic plan? Or discuss new regulations? Or discuss a new square or a public building to achieve the common good? Thanks to Decidim you will be able to configure participation spaces (initiatives, assemblies, processes or consultations) and enrich them through the multiple available components (face-to-face meetings, surveys, proposals, voting, follow-up of results, comments and many more).
+        answer: 'Konfiguriere Beteiligungsprozesse ganz einfach: Du möchtest einen Strategieplan entwerfen? Über neue Verordnungen diskutieren? Oder über einen neuen Platz oder ein öffentliches Gebäude für das Gemeinwohl diskutieren? Mithilfe von Decidim kannst du Partizipationsräume konfigurieren (Initiativen, Versammlungen, Prozesse oder Beratungen) und sie durch verschiedene verfügbare Komponenten bereichern (persönliche Treffen, Umfragen, Vorschläge, Abstimmungen, Follow-up der Ergebnisse, Kommentare und vieles mehr).'
         question: Was kann ein Decidim-Admin tun?
       q04:
-        answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
-        question: What can a participant (user) of Decidim do?
+        answer: Decidim ermöglicht es tausenden Menschen sich demokratisch zu organisieren durch die Entwicklung von Vorschlägen, Teilnahme an öffentlichen Meetings, die Förderung von Prozessen zur Entscheidungsfindung, Entscheidungen durch verschiedene Formen der Abstimmung und Überwachung der Umsetzung von Entscheidungen. 
+        question: Was können teilnehmende Personen (Person, die Decidim nutzt) von Decidim tun?
       q05:
         answer: Ja, wir haben eine [online Demo](/demo).
         question: Habt ihr eine Demo? Ich möchte ausprobieren, wie Decidim funktioniert, ohne die Installation durchzuführen.
       q06:
-        answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
+        answer: Wir veröffentlichen ungefähr jeden Monat eine neue Version, siehe [Aufzeichnung der Versionen](https://github.com/decidim/decidim/releases).
         question: Wie regelmäßig wird die Plattform aktualisiert?
       q07:
-        answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
+        answer: Die Installation von Decidim ist einfach, aber du benötigst einige Kenntnisse und technische Anforderungen. Siehe [Dokumentation zur Installation von Decidim](https://docs.decidim.org/en/install/).
         question: Was benötige ich, um Decidim zu installieren?
       q08:
-        answer: You can find the [roadmap of new features of the project at GitHub](https://github.com/decidim/decidim/projects/16).
-        question: Where can I find the project roadmap and the planned features?
+        answer: Die [Roadmap der neuen Features des Projekts](https://github.com/decidim/decidim/projects/16) findest du unter GitHub.
+        question: Wo finde ich den Projektplan und die geplanten Funktionen?
       q09:
-        answer: Decidim is a platform for citizen participation made by the people and for people. Its source code is open and can be inspected, modified, and enhanced by anyone. The Decidim software is covered by the [AGPL license](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). That means that you can use it, modify it and redistribute derived versions of it as long as you respect the AGPL license.
-        question: What does it mean that Decidim is for free, "libre" and open source?
+        answer: Decidim ist eine Plattform für Bürgerbeteiligung, geschaffen von Mitmenschen für Mitmenschen. Sein Quellcode ist offen und kann von jedem überprüft, modifiziert und erweitert werden. Die Decidim Software wird abgedeckt durch die [AGPL Lizenz](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License). Das heißt, Nutzung, Modifizierung und die Weiterverteilung und abgeleitete Versionen ist erlaubt, solange die AGPL-Lizenz respektiert wird.
+        question: Was bedeutet es, dass Decidim frei, "libre" und open source ist?
       q10:
-        answer: You can collaborate in multiple ways. One of them is through the [Metadecidim](http://meta.decidim.org) community. If you want to propose new features, [go here](https://meta.decidim.org/processes/roadmap). If you have detected errors and want to notify them, [go to this process](https://meta.decidim.org/processes/bug-report). If you want to actively participate in the Metadecidim community, you can attend Community Meetings. Register as a participant of the community and participate with us. If your thing is the code, [come to Github](https://github.com/decidim/decidim). If you are a researcher, you might be interested in coming to the [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
-        question: I have ideas for new improvement features. I want to have a better understanding of the project. What can I do?
+        answer: Du kannst auf mehrere Arten mitmachen. Einer davon ist durch die [Metadecidim](http://meta.decidim.org) Community. Wenn du neue Funktionen vorschlagen möchtest, [gehe hier](https://meta.decidim.org/processes/roadmap). Wenn du Fehler entdeckt hast und sie melden möchtest, [nutze diesen Prozess](https://meta.decidim.org/processes/bug-report?locale=de). Wenn du aktiv an der Metadecidim Community teilnehmen möchtest, registriere dich als teilnehmende Person der Community und nimm an den monatlichen [Metadecidim Operative Sessions](https://meta. ecidim.org/assemblies/eix-comunitat) teil. Wenn Code dein Ding ist, [komm zu Github](https://github.com/decidim/decidim). Wenn du in der Forschung tätig bist, interessieren dich vielleicht die [LAB Metadecidim Seminars](https://meta.decidim.org/assemblies/eix-lab).
+        question: Ich habe Ideen für neue Verbesserungen und möchte das Projekt besser verstehen. Was kann ich tun?
       q11:
-        answer: The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en) and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the [contact form](/contact).
-        question: I have many doubts, of all kinds...where can I ask them or solve them?
+        answer: Der beste Weg, deine Zweifel schnell zu beseitigen, ist die Metadecidim Community. Melde dich im [Support-Forum](https://meta.decidim.org/processes/supportforum?locale=de) an und schau nach, ob deine Frage bereits existiert, schon beantwortet wurde, oder, anderenfalls, stell deine Fragen. Wenn du dein Problem in diesem Bereich nicht lösen kannst, ist es vielleicht an der Zeit, uns auch über das [Kontaktformular](/contact) zu kontaktieren.
+        question: Ich habe eine Menge Zweifel, aller Arten... wo kann ich diese stellen oder lösen?
       q12:
-        answer: You can check the latest version of our admin manual in the [Documentation section](https://docs.decidim.org).
-        question: Is there any tutorial to start setting it up?
+        answer: Du findest die aktuellste Version unseres Admin-Handbuchs im Abschnitt [Dokumentationen](https://docs.decidim.org).
+        question: Gibt es für die Einrichtung ein Tutorial?
       q13:
-        answer: That's how we call our Code of Democratic Guarantees and Democratic Collaboration. All members of the community must endorse the [Social Contract](http://decidim.org/contract).
-        question: What is the Social Contract?
+        answer: So nennen wir unseren Kodex der demokratischen Garantien und demokratischen Zusammenarbeit. Alle Mitglieder der Community müssen sich dem [Social Contract](http://decidim.org/contract) verpflichten.
+        question: Was ist der Gesellschaftsvertrag?
       q14:
-        answer: 'There are many differences: features, flexibility, architecture, modularity, etc. We have [published a post](/blog/2019-01-14-consul-comparison/) to try to answer this question.'
+        answer: 'Es gibt viele Unterschiede: Merkmale, Flexibilität, Architektur, Modularität, etc. Wir haben [einen Beitrag veröffentlicht](/blog/2019-01-14-consul-comparison/), um diese Frage zu beantworten.'
         question: Was sind die Unterschiede zum Consul Project / Decide Madrid?
       q15:
         answer: "[Metadecidim](http://meta.decidim.org) ist die Community von Decidim, die an der Gestaltung der Plattform und dem Aufbau des Decidim-Projekts mitarbeitet. Wir treffen uns regelmäßig im Rahmen der Community-Meetings, für Themen im Zusammenhang mit den technologischen Aspekten der Plattform und den Labs, welche mehr [forschungsorientiert](https://meta.decidim.org/assemblies/eix-lab) sind. Unsere jährliche Konferenz ist das Decidim Fest. Besuche [meta.decidim.org](http://meta.decidim.org), um die Aufrufe zu verfolgen und wenn du der Community beitreten möchtest. Wir würden uns freuen ;-)"
         question: Was ist die Metadecidim-Community?
       q16:
-        answer: Of course you can. People do so through participatory processes, debates, translations, etc. that you might find in Metadecidim. Decidim was born in Barcelona and that is why there is a strong territorial bond with this city, but above all, it's a project for the commons.
+        answer: Natürlich kannst du das. Menschen nehmen teil durch partizipatorische Prozesse, Debatten, Übersetzungen, ect. die du in Metadecidim finden kannst. Decidim wurde in Barcelona gegründet und hat deswegen eine starke geografische Bindung zu dieser Stadt, aber darüber hinaus ist es ein Projekt für das Allgemeinwohl.
         question: Kann ich der Metadecidim-Community beitreten, auch wenn ich nicht in Barcelona lebe?
       q17:
-        answer: Anybody who has good faith and a correct attitude towards democratic collaboration.
-        question: What kind of members you accept into the Metadecidim community?
+        answer: Jeder Mensch, mit gutem Willen und der korrekten Haltung gegenüber demokratischer Zusammenarbeit.
+        question: Welche Arten von Mitgliedern akzeptiert ihr für die Metadecidim Community?
       q18:
-        answer: The "Asociacion de Software Libre Decidim" (The Decidim Free Software Association) is a democratic association for the governance of the Decidim community. It was founded on [February 16, 2019 in an extraordinary assembly of the community](https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169), with the approval of the organization statutes.
-        question: What is the Decidim Association?
+        answer: Die "Asociacion de Software Libre Decidim" ist eine demokratische Vereinigung für die Verwaltung der Decidim-Gemeinschaft. Sie wurde am 16. Februar 2019 in einer außerordentlichen Versammlung der Gemeinschaft (https://meta.decidim.org/processes/decidim-gov/f/959/meetings/1169) mit Zustimmung der Satzung der Organisation gegründet.
+        question: Was ist die Decidim Association?
       q19:
-        answer: In the [general assembly of the Decidim Association](https://meta.decidim.org/assemblies/general-assembly-association) you can find more info abous us, follow the activity of the meetings and check relevant information (statutes, legal agreements, the internal regulations)
-        question: How can I get more information about the Decidim Association?
+        answer: In der [Generalversammlung der Decidim-Assoziation](https://meta.decidim.org/assemblies/general-assembly-association) findest du weitere Infos über uns. Außerdem kannst du hier den Verlauf der Sitzungen verfolgen und relevante Informationen überprüfen (Statuten, rechtliche Vereinbarungen, interne Regelungen).
+        question: Wo finde ich mehr Informationen über die Decidim Association?
       q20:
-        answer: Now the people involved in the project can be partners. [Here we explain in detail how you have to do it](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
-        question: How can I become a member of the Decidim Association?
+        answer: Die am Projekt beteiligten Personen können Mitglieder werden. Was du dafür machen musst, [erklären wir dir hier im Detail](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=de).
+        question: Wie kann ich Mitglied der Decidim Association werden?
       q21:
-        answer: Yes you can! Decidim is a non profit project and for the moment it depends completely on funding. Please find all details to fund the project at [OpenCollective](https://opencollective.com/decidim)
-        question: I want to fund the project. How can I proceed?
+        answer: Decidim ist ein gemeinnütziges Projekt und ist momentan vollständig von Förderung abhängig. Alle Details zur Förderung des Projekts findest du auf [OpenCollective](https://opencollective.com/decidim)
+        question: Wie kann ich das Projekt finanzieren?
       q22:
-        answer: Yes, we have templates to formalize collaboration agreements. [Please contact us](/contact).
-        question: We want to make a formal collaboration agreement. Are there any templates we can use?
+        answer: Ja, wir haben Vorlagen um solche Kooperationsvereinbarungen zu formalisieren [Bitte kontaktiere uns](/contact).
+        question: Wir möchten eine formale Vereinbarung der Zusammenarbeit abschließen. Gibt es Vorlagen, die wir verwenden können?
       q23:
-        answer: Yes, but you have to be patient. There are a lot of institutions that want to use Decidim right now and we are helping them step by step. [Contact us](/contact) for any question and we will answer you as soon as possible.
+        answer: Ja, aber du musst Geduld mitbringen. Es gibt eine Menge Institutionen die Decidim nutzen wollen und wir helfen ihnen schrittweise. [Kontaktiere uns](/contact) mit deinen Fragen und wir weden die so bald wie möglich beantworten.
         question: Unterstützt ihr Institutionen?
       q24:
-        answer: Decidim and the Decidim logo are registered by the Association, they cannot be used as a commercial product nor cannot be sold. If used, the credit has to be referenced to the project. You can read more about this in our [Trademark policy](/trademark-policy).
+        answer: Decidim und das Decidim-Logo sind von der Association registriert, sie dürfen weder als kommerzielles Produkt verwendet werden noch verkauft werden. Wenn verwendet, muss das Projekt namentlich genannt werden. Mehr dazu findest du in unserer [Markenrichtlinie](/trademark-policy).
         question: Was ist die Markenpolitik von Decidim?
-    subtitle: If you can’t find your question answered below, contact us at hola@decidim.org
+    subtitle: Wenn deine Frage unten nicht beantwortet werden konnte, kontaktiere uns unter hola@decidim.org 
     title: Häufig gestellte Fragen
     types:
       about: Über Decidim
@@ -168,7 +168,7 @@ de:
       installation: Installation und Lizenz
       users: Nutzende und Rollen
   features:
-    intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
+    intro: "<p>Du kannst Decidim in einer öffentlichen oder privaten Organisation mit Hunderten oder Tausenden potenziellen Teilnehmenden verwenden wie ein Stadtrat, eine Vereinigung, eine Universität, eine NGO, eine Gewerkschaft, eine Nachbarschaftsvereinigung oder eine Genossenschaft...</p><p>Dank Decidim kannst du <strong>Bereiche</strong> für die Teilnahme konfigurieren (Initiativen, Baugruppen, Prozesse oder Beratungen) und sie durch die zahlreichen verfügbaren <strong>Komponenten</strong> bereichern (persönliche Meetings, Umfragen, Vorschläge, Abstimmung, Follow-up der Ergebnisse, <strong>Kommentare</strong> und viele mehr).</p>"
     page:
       feature1:
         subtitle: Häufige Probleme schrittweise demokratisieren
@@ -176,27 +176,27 @@ de:
         title: Beteiligungsprozesse
       feature10:
         subtitle: Analysieren, synthetisieren und gemeinsam aufbauen
-        text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
+        text: Kann verwendet werden, um lange Textdokumente in mehrere Vorschläge oder Ergebnisse zu konvertieren, und umgekehrt, um einen einheitlichen Text auf der Grundlage einer Sammlung von Vorschlägen oder Ergebnissen zu erstellen und anzuzeigen.
         title: Partizipative Texte
       feature11:
         subtitle: Wo große Events uraufgeführt werden
-        text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
+        text: Erstelle eine Website für ein großes Event. Vereinheitliche das Programm, indem du eine Reihe von vordefinierten Treffen (Chats, Workshops, etc.) zusammenstellst und die Teilnehmer verwaltest.
         title: Konferenz
       feature12:
         subtitle: Weil die Meinung deiner Gemeinschaft wichtig ist
-        text: Design and publish surveys. Display and download results.
+        text: Designe und veröffentliche Umfragen. Zeige die Ergebnisse an und downloade sie.
         title: Umfragen
       feature13:
         subtitle: Gleichheit und Gerechtigkeit der Zufälligkeit
-        text: Allows to select a number of proposals (e.g. candidates for a jury) with random, yet reproducible, procedures that guarantees non-biased and uniform distributions.
+        text: Erlaubt eine Anzahl an Vorschlägen (z.B. Kandidaten für eine Jury) mit zufälligen, aber reproduzierbaren Verfahren, die eine unvoreingenommene und einheitliche Verteilung gewährleisten.
         title: Sortierung
       feature14:
         subtitle: Aufbau einer kollektiven Intelligenz
-        text: Enables users to add comments, to value them in favour, against or neutral, vote them, answer and receive notifications about responses.
+        text: Ermöglicht es den Nutzern, Kommentare hinzuzufügen, sie mit 'dafür', 'dagegen' oder 'neutral zu bewerten, für sie zu stimmen, sie zu beantworten und Benachrichtigungen über Antworten zu erhalten.
         title: Kommentare
       feature15:
         subtitle: Deine Community, informiert und aktuell
-        text: Create informative pages with rich text formatting, embedded pictures and videos. The blog component makes possible the creation of posts or news, and to navigate them chronologically.
+        text: "Erstelle informative Seiten mit Rich-Text-Formatierung, eingebetteten Bildern und Videos. Die Blog-Component ermöglicht es neue Posts oder News zu erstellen und durch diese chronologisch zu durchsuchen.\n"
         title: Seiten und Blogs
       feature16:
         subtitle: Personalisierte Informationen zu interessanten Inhalten
@@ -204,11 +204,11 @@ de:
         title: Benachrichtigungen
       feature17:
         subtitle: Einfach, aber leistungsstark
-        text: Send emails to everyone registered in the platform or to those who participate in a specific space.
+        text: Sende E-Mails an alle, die sich auf der Plattform registriert haben, oder an diejenigen, die an einem bestimmten Bereich mitarbeiten
         title: Newsletter
       feature2:
-        subtitle: The power of collective self-organization
-        text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
+        subtitle: Die Macht der kollektiven Selbstorganisation
+        text: Ermöglicht die Einrichtung von Entscheidungsgremien oder -gruppen (Räte, Arbeitsgruppen, Kommissionen ect.), die regelmäßig zusammentreten, deren Zusammensetzung, Liste und geografische Lage der Sitzungen. Es ermöglicht die Teilnahme an diesen Sitzungen, zum Beispiel durch persönliche oder Online-Teilnahme, dem Hinzufügen von Themen zur Tagesordnung oder durch Kommentare zu Vorschlägen und Beschlüssen des Gremiums. 
         title: Gremien
       feature3:
         subtitle: The right to decide with all democratic guarantees
