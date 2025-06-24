@@ -1,9 +1,0 @@
-title: Tags
-url: https://github.com/mainio/decidim-module-tags
-description: Provides the possibility to add tags to any records, e.g.
-  proposals, users, results, etc. This is a technical module that adds this
-  ability to Decidim but the tags functionality needs to be manually added to
-  the individual models, the tags input needs to be added to the editing views
-  and the tags display needs to be added to the record views. This module
-  provides you all the tools to add these elements to the user interface.
-type: community
