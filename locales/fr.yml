@@ -66,14 +66,14 @@ fr:
     privacy_policy:
       accept: J'accepte la <a href="%{privacy_policy_url}">Politique de confidentialité</a>
       message: "<p>Lorsque des personnes nous contactent par le formulaire de contact, par e-mail ou par des moyens de communication similaires, nous recueillerons automatiquement les informations suivantes : nom, entité, adresse e-mail et le contenu du message de l'Utilisateur afin de répondre à vos commentaires, demandes, suggestions, etc.</p> <p>En outre, nous pouvons traiter ces données pour des études statistiques par pseudonymisation et même des techniques d'anonymisation, tels que l'agrégation des données, empêchant ce traitement ultérieur d'identifier les Utilisateurs individuellement.</p>"
-    reason: Reason for contact
+    reason: Motif du contact
     reasons:
-      community: I want to join the Decidim Community.
-      installing: I have a question about installing Decidim.
-      other: Other.
-      researcher: I'm a researcher studying Decidim.
-      selected: Select an option.
-      service_provider: I need a Decidim service provider.
+      community: Je veux rejoindre la communauté Decidim.
+      installing: J'ai une question sur l'installation de Decidim.
+      other: Autre
+      researcher: Je suis un chercheur étudiant Decidim.
+      selected: Selectionnez une option.
+      service_provider: J'ai besoin d'un prestataire de services Decidim.
     send: Envoyer le message
     subtitle: Si vous souhaitez nous contacter, remplissez le formulaire de contact ou envoyez-nous un e-mail à
     title: Contacter Decidim
@@ -388,6 +388,7 @@ fr:
     text: Navigation
     thanks: Merci pour votre e-mail
     trademark: Politique de marque commerciale
+    transparency-portal: Transparency Portal
     use-cases: Cas d'utilisation 
     used_by: Cas d'usages
   newsletter:
@@ -534,21 +535,21 @@ fr:
       subtitle: Decidim ne cesse de croître et d'être adopté par des organisations et la communauté.
       title: Faits & Chiffres
       type:
-        comments: comments
-        countries: countries
+        comments: commentaires
+        countries: pays
         instances: instances
         institutions: institutions
-        meetings: meetings
-        organizations: organizations
+        meetings: réunions
+        organizations: organisations
         participants: participants
-        processes: processes
-        proposals: proposals
+        processes: processus participatifs
+        proposals: propositions
     filters:
       f0: Voir tout
-      f1: Governments
+      f1: Gouvernements
       f2: Villes
       f3: ONGs
-      f4: Universities
+      f4: Universités
     intro: Vous pouvez utiliser Decidim dans une organisation publique ou privée, avec des centaines ou des milliers de participants potentiels. comme un conseil municipal, une association, une université, une ONG, un syndicat, un collectif de voisinage ou une coopérative...
     join: Plus de 400 entités, 250 communautés gouvernantes et 150 collectivités locales ont choisi Decidim pour leurs processus démocratiques.
     subtitle: Ces villes, régions et organisations utilisent déjà Decidim
