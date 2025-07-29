@@ -50,4 +50,18 @@ module I18nHelpers
   def show_language_selector?
     !current_page.path.include?("blog")
   end
+
+  # Returns the correct PDF for the transparency portal depending on the locale
+  # @param [Symbol]
+  # @return [String]
+  def transparency_portal_pdf_for_locale(loc = I18n.locale)
+    case loc
+    when :ca
+      "/pdf/transparency-portal-ca.pdf"
+    when :es
+      "/pdf/transparency-portal-es.pdf"
+    else
+      "/pdf/transparency-portal-en.pdf"
+    end
+  end
 end
