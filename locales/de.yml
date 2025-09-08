@@ -211,9 +211,9 @@ de:
         text: Ermöglicht die Einrichtung von Entscheidungsgremien oder -gruppen (Räte, Arbeitsgruppen, Kommissionen ect.), die regelmäßig zusammentreten, deren Zusammensetzung, Liste und geografische Lage der Sitzungen. Es ermöglicht die Teilnahme an diesen Sitzungen, zum Beispiel durch persönliche oder Online-Teilnahme, dem Hinzufügen von Themen zur Tagesordnung oder durch Kommentare zu Vorschlägen und Beschlüssen des Gremiums. 
         title: Gremien
       feature3:
-        subtitle: The right to decide with all democratic guarantees
-        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
-        title: Votings
+        subtitle: Das Recht auf Entscheidungsfreiheit mit allen demokratischen Garantien
+        text: Ermöglicht die Koordinierung von Referenden, die Auslösung von Diskussionen und Debatten, die Veröffentlichung von Abstimmungsergebnissen und die Anbindung an ein sicheres elektronisches Abstimmungssystem.
+        title: Abstimmungen
       feature4:
         subtitle: Setting everyone's agenda, within everyone's reach
         text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
@@ -223,7 +223,7 @@ de:
         text: Create a proposal using a creation wizard, compare it with the existing ones, publish it on the platform and include additional information such as geolocation or attached documents and images. This component also allows you to navigate, filter and interact with a set of proposals. In addition, with the proposal-incubator you can create collaborative proposals.
         title: Vorschläge
       feature6:
-        subtitle: Decide your choice
+        subtitle: Entscheide über deine Wahl
         text: 'Offers organisations the possibility of activating different voting or support systems around proposals: unlimited, limited to a given threshold, weighted, cost-based, etc. Backed by secure and encrypted e-voting technology.'
         title: Abstimmungen
       feature7:
@@ -231,14 +231,14 @@ de:
         text: Turn proposals into results and give official responses concerning their acceptance or rejection, merging various proposals into a single result.
         title: Ergebnisse
       feature8:
-        subtitle: End-to-end transparency
+        subtitle: Ende-zu-Ende Transparenz
         text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
         title: Rechenschaftspflicht
       feature9:
-        subtitle: To meet and not miss anything
+        subtitle: Sich treffen und nichts verpassen
         text: Die Versammlungskomponente bietet Organisationen und Teilnehmern die Möglichkeit, Meetings einzuberufen, ihren Ort und ihre Zeit zu bestimmen die Teilnehmer registrieren und begrenzen, die Struktur und den Inhalt der Sitzung sowie die Veröffentlichung der Protokolle und die daraus resultierenden Vorschläge definieren.
         title: Treffen
-    subtitle: For democratic organizations and collectives of any size and kind.
+    subtitle: Für demokratische Organisationen und Kollektive jeder Art und Größe.
     title: Features
     type1:
       title: Räume für die Teilnahme
@@ -277,43 +277,43 @@ de:
       button1: Über den Verein
       button2: Der Community beitreten
       intro: Die <strong>Decidim Free Software Association</strong> ist ein basisdemokratisch organisierter Verein zur Selbstverwaltung der Decidim-Community.
-      subtitle: "<strong>Metadecidim</strong> is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform."
+      subtitle: "<strong>Metadecidim</strong> ist die Gemeinschaft, die an der Gestaltung der Plattform und der Entwicklung des Projekts mitarbeitet. Gemeinsam entwerfen und erstellen wir neue Features und berichten über Fehler zur kontinuierlichen Verbesserung der Plattform."
       title: Wer steht hinter der Plattform?
-    subtitle: Decidim is a digital platform<br/>for citizen participation
+    subtitle: Decidim ist eine digitale Plattform<br/>für öffentliche Beteiligung
     title: Erste Schritte mit Decidim
   footer:
     about_us: Über uns
     follow_us: Folge uns in den sozialen Medien
     legal: Rechtliches
     supported_by: Unterstützt von
-    trademark: Decidim name and logo is a registered trademark of the Associació de Software Lliure Decidim.
+    trademark: Decidim Name und Logo ist eine eingetragene Marke der Associacio de Software Lliure Decidim.
     up_to_date: Bleibe auf dem Laufenden
   index:
     cards:
       card1:
-        content: We can help configure a system of democratic governance in all kinds of organizations.
+        content: Wir können dazu beitragen, ein System demokratischer Regierungsführung in allen möglichen Organisationen zu entwickeln.
         link: Unsere Funktionen
-        title: Implementing a flexible democratic system
+        title: Einführung eines flexiblen demokratischen Systems
       card2:
-        content: Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.
+        content: Decidim sorgt für Transparenz, Rückverfolgbarkeit und Integrität von Informationen wie noch nie zuvor. Es bietet allen Teilnehmern Sicherheit, Privatsphäre und Vertraulichkeit.
         link: Gesellschaftsvertrag
         title: Wir nehmen die Demokratie sehr ernst
       card3:
         content: Eine Plattform, komplett mit freier Software, offenem und geteiltem Inhalt entwickelt, dank der Metadecidim Community.
         link: Die Community
-        title: It's yours. Use it. Share it. Improve it.
+        title: Es gehört dir. Nutze es. Teile es. Verbessere es.
     hero:
       cta: Los geht's
-      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
-      subheading: Decidim is a digital platform for citizen participation
+      intro: Freie/Libre, offene und sichere Technologie.<br/>mit allen demokratischen Garantien.<br/>Das Umprogrammieren der Demokratie ist jetzt mit Decidim möglich.
+      subheading: Decidim ist eine digitale Plattform für öffentliche Beteiligung
     subhero:
       cta: Alle Funktionen entdecken
-      feature1: Strategic planning
+      feature1: Strategische Planung
       feature2: Beteiligungsprozesse
       feature3: Gremien
-      feature4: Initiatives and citizen consultations
-      feature5: Participatory budgeting
-      feature6: Networked communication
+      feature4: Initiativen und öffentliche Vernehmlassungen
+      feature5: Partizipative Budgets
+      feature6: Vernetzte Kommunikation
       intro: Decidim hilft Bürgern, Organisationen und öffentlichen Institutionen sich in jeder Größenordnung demokratisch zu organisieren.
     used_by:
       heading: Hundreds of organizations around the world trust Decidim for their democratic processes
@@ -328,16 +328,16 @@ de:
       title: Zweck
     section-3:
       paragraph: '<p>The access to this Website is free. No application form is required for browsing the information and/or contents of this Website in general terms. Otherwise, please refer to our <a href="%{privacy_policy_url}">Privacy Policy</a>.<p> <p>By accessing and using the Website, You are accepting the terms of use of this Legal Notice and You undertake to make proper, diligent and lawful use of the Website and, in particular: (i) use the Website for its intended purposes, i.e. information about our services, you will refrain from using the Website or its contents for illegal purposes, or for purposes that go against public order, morality and good customs; (ii) respect the intellectual and industrial property rights of the Website and its contents, as well as all rights that correspond to Decidim; (iii) not to reproduce, copy, convert, modify, distribute, publicly display or make available to the public the Website or any of its content or any modification thereof; (iv) You shall be liable for any loss or damage suffered by Decidim due to a direct or indirect misuse by You of the Website, the provisions of the "Legal Texts" (collectively referred to, this Legal Notice and the <a href="%{privacy_policy_url}">Privacy Policy</a>) and the applicable legislation.<p>'
-      title: Website use
+      title: Website-Nutzung
     section-4:
       paragraph: "<p>All intellectual property rights over the contents of this Website including, but not limited to, images, trademarks, logos, distinctive signs, sounds and animations, texts, sound, visual or audiovisual recordings and databases are the property of Decidim or its licensors and are protected by national and international laws. Such rights are reserved in favor of Decidim and/or its licensors. The reproduction, copying, public communication, distribution, modification, transformation, elimination, manipulation and any other use, including the extraction and reuse, whether for profit or not, direct or indirect, temporary or permanent, of all or part of this Website or any of its contents, is expressly prohibited without the prior express written authorization of Decidim. We may take any legal and/or extrajudicial action it deems appropriate in the event of a possible violation of these rights.</p>"
       title: Industrial and Intellectual Property
     section-5:
       paragraph: "<p>Decidim is not responsible for third party web pages that can be accessed from the Website, nor for the accuracy, veracity and validity of the information on the Website that is not of its own elaboration. However, pursuant to article 17 of Law 34/2002, in the event that Decidim becomes aware of the unlawfulness of such content or links, it undertakes to remove or disable them, as well as, where appropriate, to block any content that may be unlawful or violate the rights of any third party, in accordance with articles 11 and 16 of the aforementioned Law.</p> <p>Furthermore, Decidim is not responsible for any damage that may occur due to failures or misconfigurations in the browser installed by the user on his computer. Decidim is not responsible for any incident or technical failure caused by the user's connection to the Internet.</p> <p>Decidim will use its best efforts to effect, in the shortest period of time, updates and corrections of errors and deficiencies, including those occurring in the access and/or connection to the Website and/or its contents, but does not warrant the absence of interruptions, errors in the connection and/or access to the Website and update of its contents.</p> <p>You are liable for your use of and access to the Website. Decidim shall not be liable for the presence of viruses nor for security errors neither for the damages that may be caused to your devices or to the files or documents stored in such devices for the access and/or connection to the Website, neither for the damages caused to third parties by means of illegal intromissions out of Decidim control.</p> <p>Decidim shall not be liable for the breach of your obligations You accept when accessing this Website which are contained in this Legal Notice and, in particular, shall not be liable for any infringement of the intellectual property rights, copyright, advertising and image rights, or any other rights with regard to the goods and rights of any third party.</p>"
-      title: Responsibility
+      title: Verantwortung
     section-6:
       paragraph: <p>Decidim may modify this Legal Notice, the <a href="%{privacy_policy_url}">Privacy Policy</a> and/or any other text of contractual nature applicable to this Website without previous notice. Such modifications shall be effective at the moment of its publication on the Website.</p> <p>Decidim may also terminate or suspend the services of the Website at any time. Whenever is possible, Decidim will warn/alert previously about such termination or suspension through this Website.</p>
-      title: Modifications
+      title: Änderungen
     section-7:
       paragraph: <p>Your personal data collected on our Website or when you contact us through the contact form or by sending an email will be treated strictly in accordance with our <a href="%{privacy_policy_url}">Privacy Policy</a>.</p>
       title: Personenbezogene Daten
