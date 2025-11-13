@@ -2,9 +2,9 @@
 title: L’Associació Decidim crea el Comitè d’Institucions Públiques amb sis
   institucions globals
 ---
-### **L’Ajuntament de Barcelona, la Generalitat de Catalunya, la Diputació de Barcelona, Localret, la ciutat de Nova York i el Govern federal del Brasil s’alien per coordinar la plataforma digital democràtica**
-
 ![](/uploads/foto.jpg)
+
+### **L’Ajuntament de Barcelona, la Generalitat de Catalunya, la Diputació de Barcelona, Localret, la ciutat de Nova York i el Govern federal del Brasil s’alien per coordinar la plataforma digital democràtica**
 
 L'Associació Decidim estableix un espai de col·laboració internacional per enfortir la governança de Decidim. Aquesta aliança entre institucions catalanes i governs internacionals és una col·laboració pionera dins de l'ecosistema Decidim que demostra el lideratge pioner de Catalunya en innovació democràtica i reflecteix un creixent reconeixement internacional del projecte com a infraestructura pública digital.
 
