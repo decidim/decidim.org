@@ -26,7 +26,7 @@ collections:
     folder: "source/blog/en"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}} -- {{year}}-{{month}}-{{day}}"
-    extension: "html.md"
+    extension: "md"
     format: "frontmatter"
     create: true
     fields:
@@ -52,7 +52,7 @@ collections:
       # In the meantime we use a string as a workaround
       - {label: "Joined at", name: "joined_at", widget: "string", default: "YYYY.MM.DD", required: true}
       - {label: "Type", name: "type", widget: "select", options: ["public", "provider", "other"], required: false}
-  - name: "Installation (usedby)"
+  - name: "installation"
     label: "Installation"
     format: yml
     extension: yml
@@ -79,7 +79,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "text", required: true}
       - {label: "Type", name: "type", widget: "select", options: ["official", "community", "auth"], required: true}
-  - name: "Media highlights"
+  - name: "media-highlights"
     label: "Media highlights"
     format: yml
     extension: yml
