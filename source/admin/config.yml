@@ -1,17 +1,3 @@
-# @see https://decapcms.org/docs/working-with-a-local-git-repository/
-#
-# For local development:
-#
-# 1. Uncomment these lines and comment the backend key
-# 2. Run `npx decap-server`
-# 3. Run `bundle exec middleman server`
-# 4. Open http://localhost:4567/admin/#/
-#
-# local_backend: true
-# backend:
-#   name: git-gateway
-
-# For production environment:
 backend:
   name: github
   repo: decidim/decidim.org
