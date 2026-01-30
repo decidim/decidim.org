@@ -1,0 +1,15 @@
+<%# Map partial for displaying installations with geolocation data %>
+<%# Expects: installations - hash of installation data %>
+
+<% map_installations = parse_map_installations(installations) %>
+
+<% if map_installations.any? %>
+  <div class="mb-8 md:mb-12">
+    <div id="installation-map" class="w-full h-[350px] md:h-[500px] rounded-xl overflow-hidden border border-gray-200" data-map-container></div>
+    
+    <%# Hidden data element with installations JSON %>
+    <script type="application/json" id="map-installations-data">
+      <%= map_installations.to_json %>
+    </script>
+  </div>
+<% end %>

@@ -9,6 +9,7 @@ require "lib/format_helpers"
 require "lib/icon_helpers"
 require "lib/page_helpers"
 require "lib/facts_helpers"
+require "lib/map_helpers"
 
 helpers I18nHelpers
 helpers I18nTitleHelpers
@@ -17,6 +18,7 @@ helpers FormatHelpers
 helpers IconHelpers
 helpers PageHelpers
 helpers FactsHelpers
+helpers MapHelpers
 
 # Activate multi-language
 activate :i18n, mount_at_root: :en, langs: [:en, :es, :eu, :ca, :cs, :fr, :de, :hu, :ja, :"pt-BR", :ro, :fi]
