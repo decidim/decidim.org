@@ -36,6 +36,12 @@ activate :external_pipeline,
          source: "source/stylesheets",
          latency: 1
 
+activate :external_pipeline,
+         name: :vendor_js,
+         command: "node esbuild.config.js #{build? ? "--minify" : "--watch"}",
+         source: "source/vendor",
+         latency: 1
+
 # Per-page layout changes
 page "/*.xml", layout: false
 page "/*.json", layout: false
