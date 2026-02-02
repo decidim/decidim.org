@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
+
 require "yaml"
 require "csv"
 require "json"
@@ -35,7 +37,7 @@ class YamlToCsvConverter
 
     if headers.include?("location")
       headers.delete("location")
-      headers += ["lat", "lon"]
+      headers += %w(lat lon)
     end
 
     headers

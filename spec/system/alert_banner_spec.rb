@@ -17,8 +17,8 @@ RSpec.describe "alert banner", type: :feature do
       let(:route) { "/" }
 
       it "doesn't show the banner" do
-        expect(page).not_to have_content(I18n.t("alert.strong"))
-        expect(page).not_to have_content(I18n.t("alert.p1"))
+        expect(page).to have_no_content(I18n.t("alert.strong"))
+        expect(page).to have_no_content(I18n.t("alert.p1"))
       end
     end
 
@@ -26,8 +26,8 @@ RSpec.describe "alert banner", type: :feature do
       let(:route) { "/about" }
 
       it "doesn't show the banner" do
-        expect(page).not_to have_content(I18n.t("alert.strong"))
-        expect(page).not_to have_content(I18n.t("alert.p1"))
+        expect(page).to have_no_content(I18n.t("alert.strong"))
+        expect(page).to have_no_content(I18n.t("alert.p1"))
       end
     end
   end

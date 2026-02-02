@@ -3,7 +3,7 @@
 require "facts_helpers"
 
 RSpec.describe FactsHelpers do
-  include FactsHelpers
+  include described_class
 
   describe "#get_statistic_for_fact" do
     subject { get_statistic_for_fact(data_type, fallback, data) }
