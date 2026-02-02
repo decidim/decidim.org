@@ -1,6 +1,6 @@
 inherit_from:
-  - https://raw.githubusercontent.com/decidim/decidim/develop/decidim-dev/config/rubocop/ruby.yml
-  - https://raw.githubusercontent.com/decidim/decidim/develop/decidim-dev/config/rubocop/rspec.yml
+  - https://raw.githubusercontent.com/decidim/decidim/refs/heads/develop/decidim-dev/config/rubocop/ruby/configuration.yml
+  - https://raw.githubusercontent.com/decidim/decidim/refs/heads/develop/decidim-dev/config/rubocop/rspec/configuration.yml
 
 require:
   - rubocop-rake
