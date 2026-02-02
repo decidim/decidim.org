@@ -20,6 +20,31 @@
   let allInstallations = [];
   let markers = [];
 
+  // Corporate color
+  const CORPORATE_RED = '#e11d1d';
+  const CORPORATE_RED_HOVER = '#c20a0a';
+
+  /**
+   * Create a custom SVG pin marker icon
+   */
+  function createPinIcon() {
+    const svg = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="41" viewBox="0 0 25 41">
+        <path fill="${CORPORATE_RED}" stroke="white" stroke-width="2" 
+              d="M12.5 1C6.15 1 1 6.15 1 12.5c0 2.3.6 4.5 1.8 6.4L12.5 40l9.7-21.1c1.2-1.9 1.8-4.1 1.8-6.4C24 6.15 18.85 1 12.5 1z"/>
+        <circle fill="white" cx="12.5" cy="12.5" r="4"/>
+      </svg>
+    `;
+    
+    return L.divIcon({
+      className: 'custom-pin-marker',
+      html: svg,
+      iconSize: [25, 41],
+      iconAnchor: [12.5, 41],
+      popupAnchor: [0, -35]
+    });
+  }
+
   /**
    * Initialize the map
    */
@@ -101,7 +126,8 @@
       }
 
       const marker = L.marker([installation.lat, installation.lng], {
-        title: installation.title
+        title: installation.title,
+        icon: createPinIcon()
       });
 
       // Create popup content with Tailwind styling
@@ -150,7 +176,10 @@
         <a href="${escapeHtml(installation.url)}" 
            target="_blank" 
            rel="noopener noreferrer" 
-           class="text-red-500 hover:text-red-600 hover:underline text-sm block truncate transition-colors">
+           class="text-sm block truncate transition-colors"
+           style="color: #ff3333;"
+           onmouseover="this.style.color='#c20a0a'"
+           onmouseout="this.style.color='#ff3333'">
           ${escapeHtml(installation.url)}
         </a>
       </div>
