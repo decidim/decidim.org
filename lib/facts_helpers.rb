@@ -2,6 +2,7 @@
 
 require "addressable/uri"
 
+# Helper methods for gathering statistics about Decidim installations.
 module FactsHelpers
   # Get the statistic for this fact type
   # If the fact type is not supported, then return the hard-coded figure given as a parameter
@@ -27,18 +28,23 @@ module FactsHelpers
   private
 
   def get_countries_from(data)
-    ctlds = data.installations
-                .map { |_name, installation| installation["url"] }
-                .map { |url| url.gsub(%r{https://web.archive.org/web/\d*/}, "") }
-                .map { |url| Addressable::URI.parse(url).tld }
-                .map { |url| url.split(".")[-1] } # Seems like we're getting some garbage, like "milano.it", so this worksaround it
-                .uniq
+    ctlds = extract_ctlds_from_installations(data.installations)
+    count_valid_countries(ctlds, data.countries)
+  end
 
-    counter = 0
-    ctlds.each do |ctld|
-      counter += 1 if data.countries.include?(ctld)
-    end
+  def extract_ctlds_from_installations(installations)
+    installations
+      .map { |_name, installation| extract_ctld_from_url(installation["url"]) }
+      .uniq
+  end
 
-    counter
+  def extract_ctld_from_url(url)
+    clean_url = url.gsub(%r{https://web.archive.org/web/\d*/}, "")
+    tld = Addressable::URI.parse(clean_url).tld
+    tld.split(".")[-1] # Handle cases like "milano.it"
+  end
+
+  def count_valid_countries(ctlds, valid_countries)
+    ctlds.count { |ctld| valid_countries.include?(ctld) }
   end
 end

@@ -6,19 +6,18 @@ RSpec.describe FactsHelpers do
   include described_class
 
   describe "#get_statistic_for_fact" do
-    subject { get_statistic_for_fact(data_type, fallback, data) }
+    subject(:statistic) { get_statistic_for_fact(data_type, fallback, data) }
 
-    Installation = Struct.new(:id, :type, :url, keyword_init: true)
-
+    let(:installation_struct) { Struct.new(:id, :type, :url, keyword_init: true) }
     let(:fallback) { 123 }
 
     let(:data) do
       Struct.new(:installations, :countries, keyword_init: true).new(
         installations: [
-          [:installation1, Installation.new(id: "i1", type: "org", url: "https://example.org")],
-          [:installation2, Installation.new(id: "i2", type: "city", url: "https://example.es")],
-          [:installation3, Installation.new(id: "i3", type: "city", url: "https://example.cat")],
-          [:installation4, Installation.new(id: "i4", type: "region", url: "https://example.fr")]
+          [:installation1, installation_struct.new(id: "i1", type: "org", url: "https://example.org")],
+          [:installation2, installation_struct.new(id: "i2", type: "city", url: "https://example.es")],
+          [:installation3, installation_struct.new(id: "i3", type: "city", url: "https://example.cat")],
+          [:installation4, installation_struct.new(id: "i4", type: "region", url: "https://example.fr")]
         ],
         countries: %w(es fr)
       )
@@ -29,7 +28,7 @@ RSpec.describe FactsHelpers do
         let(:data_type) { "fallback" }
 
         it "returns the fallback" do
-          expect(subject).to eq 123
+          expect(statistic).to eq 123
         end
       end
 
@@ -37,7 +36,7 @@ RSpec.describe FactsHelpers do
         let(:data_type) { "instances" }
 
         it "returns the count of instances" do
-          expect(subject).to eq 4
+          expect(statistic).to eq 4
         end
       end
 
@@ -45,7 +44,7 @@ RSpec.describe FactsHelpers do
         let(:data_type) { "organizations" }
 
         it "returns the count of organizations" do
-          expect(subject).to eq 1
+          expect(statistic).to eq 1
         end
       end
 
@@ -53,7 +52,7 @@ RSpec.describe FactsHelpers do
         let(:data_type) { "institutions" }
 
         it "returns the count of institutions" do
-          expect(subject).to eq 3
+          expect(statistic).to eq 3
         end
       end
 
@@ -61,7 +60,7 @@ RSpec.describe FactsHelpers do
         let(:data_type) { "countries" }
 
         it "returns the count of instances" do
-          expect(subject).to eq 2
+          expect(statistic).to eq 2
         end
       end
     end

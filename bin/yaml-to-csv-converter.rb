@@ -6,6 +6,7 @@ require "csv"
 require "json"
 require "optparse"
 
+# Converts YAML installation data files to CSV format for the map feature.
 class YamlToCsvConverter
   attr_reader :input_pattern, :output_path, :records
 
@@ -70,17 +71,25 @@ class YamlToCsvConverter
     parsed = JSON.parse(location)
     coordinates = parsed["coordinates"]
     coordinate_type == "lon" ? coordinates[0] : coordinates[1]
-  rescue JSON::ParserError, StandardError
+  rescue StandardError
     ""
   end
 end
 
-def parse_arguments
-  options = {
+def default_options
+  {
     input: "./data/installations/*.yml",
     output: "./source/uploads/installations.csv"
   }
+end
 
+def parse_arguments
+  options = default_options
+  setup_option_parser(options).parse!
+  options
+end
+
+def setup_option_parser(options)
   OptionParser.new do |opts|
     opts.banner = "Usage: convert.rb [options]"
 
@@ -96,9 +105,7 @@ def parse_arguments
       puts opts
       exit
     end
-  end.parse!
-
-  options
+  end
 end
 
 if __FILE__ == $PROGRAM_NAME
