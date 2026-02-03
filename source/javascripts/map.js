@@ -170,7 +170,7 @@
         <h3 class="font-bold text-gray-900 mb-2 text-base leading-tight">
           ${escapeHtml(installation.title)}
         </h3>
-        <span class="inline-block px-2.5 py-1 text-xs font-medium rounded-full ${typeClass} mb-3">
+        <span class="inline-block pr-2.5 py-1 text-xs font-medium rounded-full ${typeClass} mb-3">
           ${typeLabel}
         </span>
         <a href="${escapeHtml(installation.url)}" 
