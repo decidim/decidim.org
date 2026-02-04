@@ -2,20 +2,20 @@
 
 require "map_helpers"
 
+# Create a struct to simulate Middleman's EnhancedHash behavior
+Installation = Struct.new(:title, :url, :type, :location, :image, keyword_init: true)
+
 RSpec.describe MapHelpers do
   include described_class
 
   describe "#parse_map_installations" do
-    subject { parse_map_installations(installations) }
-
-    # Create a struct to simulate Middleman's EnhancedHash behavior
-    Installation = Struct.new(:title, :url, :type, :location, :image, keyword_init: true)
+    subject(:result) { parse_map_installations(installations) }
 
     context "when there are no installations" do
       let(:installations) { {} }
 
       it "returns an empty array" do
-        expect(subject).to eq([])
+        expect(result).to eq([])
       end
     end
 
@@ -39,10 +39,10 @@ RSpec.describe MapHelpers do
         }
       end
 
-      it "returns installations with parsed coordinates" do
-        expect(subject.length).to eq(2)
+      it "returns installations with parsed coordinates", :aggregate_failures do
+        expect(result.length).to eq(2)
 
-        barcelona = subject.find { |i| i[:id] == :barcelona }
+        barcelona = result.find { |i| i[:id] == :barcelona }
         expect(barcelona).to include(
           title: "Barcelona",
           url: "https://www.decidim.barcelona/",
@@ -52,7 +52,7 @@ RSpec.describe MapHelpers do
           image: "/uploads/logo_aj_barcelona.svg"
         )
 
-        metadecidim = subject.find { |i| i[:id] == :metadecidim }
+        metadecidim = result.find { |i| i[:id] == :metadecidim }
         expect(metadecidim).to include(
           title: "Metadecidim",
           url: "https://meta.decidim.org/",
@@ -78,7 +78,7 @@ RSpec.describe MapHelpers do
       end
 
       it "excludes the installation from results" do
-        expect(subject).to eq([])
+        expect(result).to eq([])
       end
     end
 
@@ -95,9 +95,9 @@ RSpec.describe MapHelpers do
         }
       end
 
-      it "skips the installation without raising an error" do
-        expect { subject }.not_to raise_error
-        expect(subject).to eq([])
+      it "skips the installation without raising an error", :aggregate_failures do
+        expect { result }.not_to raise_error
+        expect(result).to eq([])
       end
     end
 
@@ -115,7 +115,7 @@ RSpec.describe MapHelpers do
       end
 
       it "excludes the installation from results" do
-        expect(subject).to eq([])
+        expect(result).to eq([])
       end
     end
 
@@ -133,7 +133,7 @@ RSpec.describe MapHelpers do
       end
 
       it "excludes the installation from results" do
-        expect(subject).to eq([])
+        expect(result).to eq([])
       end
     end
 
@@ -151,7 +151,7 @@ RSpec.describe MapHelpers do
       end
 
       it "excludes the installation from results" do
-        expect(subject).to eq([])
+        expect(result).to eq([])
       end
     end
 
@@ -189,14 +189,14 @@ RSpec.describe MapHelpers do
         }
       end
 
-      it "returns only the valid installations" do
-        expect(subject.length).to eq(2)
+      it "returns only the valid installations", :aggregate_failures do
+        expect(result.length).to eq(2)
 
-        valid = subject.find { |i| i[:id] == :valid }
+        valid = result.find { |i| i[:id] == :valid }
         expect(valid[:lat]).to eq(41.383)
         expect(valid[:lng]).to eq(2.183)
 
-        another_valid = subject.find { |i| i[:id] == :another_valid }
+        another_valid = result.find { |i| i[:id] == :another_valid }
         expect(another_valid[:lat]).to eq(40.4168)
         expect(another_valid[:lng]).to eq(-3.7038)
       end
