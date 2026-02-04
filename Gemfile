@@ -19,9 +19,10 @@ gem "middleman-images", "~> 0.2"
 gem "mini_magick", "~> 4.11"
 
 gem "rubocop", "~> 1.31"
+gem "rubocop-capybara", "~> 2.22"
 gem "rubocop-faker", "~> 1.1"
 gem "rubocop-rake", "~> 0.6.0"
-gem "rubocop-rspec", "~> 2.13"
+gem "rubocop-rspec", "~> 3.0"
 gem "rubocop-rspec_rails", "~> 2.29"
 
 group :test do
