@@ -3,7 +3,7 @@
 require "map_helpers"
 
 RSpec.describe MapHelpers do
-  include MapHelpers
+  include described_class
 
   describe "#parse_map_installations" do
     subject { parse_map_installations(installations) }

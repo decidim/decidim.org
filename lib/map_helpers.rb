@@ -17,7 +17,7 @@ module MapHelpers
         next unless geo["type"] == "Point" && geo["coordinates"].is_a?(Array) && geo["coordinates"].length == 2
 
         map_installations << {
-          id: id,
+          id:,
           title: installation.title,
           url: installation.url,
           type: installation.type,
