@@ -3,7 +3,7 @@
 require "i18n_helpers"
 
 RSpec.describe I18nHelpers do
-  include I18nHelpers
+  include described_class
 
   before do
     allow(I18n).to receive(:locale).and_return(locale)

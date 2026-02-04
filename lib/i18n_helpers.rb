@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Helper methods for internationalization and locale handling.
 module I18nHelpers
   # Return the current path for a given locale.
   # This is used on the language selector, so we can link to the same page where we are,
