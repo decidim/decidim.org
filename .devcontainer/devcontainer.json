@@ -1,0 +1,20 @@
+{
+  "name": "decidim-org",
+  "dockerComposeFile": "compose.yaml",
+  "service": "middleman-app",
+  "workspaceFolder": "/workspaces/decidim-org",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+      "moby": false
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "22.14.0"
+    }
+  },
+  "appPort": ["3000:3000"],
+  "forwardPorts": [
+    4567
+  ],
+  "postCreateCommand": "bin/setup"
+}

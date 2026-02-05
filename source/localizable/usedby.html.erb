@@ -56,6 +56,9 @@ description:
         </li>
       <% end %>
     </ul>
+
+    <%= partial "partials/map", locals: { installations: installations } %>
+
     <% filters.each_with_index do |filter, i| %>
       <div class="hidden <%= 'is-selected' if i == 0 %>" data-tab-content="f<%= i %>">
         <div class="grid grid-cols-3 md:grid-cols-5 gap-4 md:gap-x-28 md:gap-y-16">
