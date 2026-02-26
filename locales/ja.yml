@@ -66,14 +66,14 @@ ja:
     privacy_policy:
       accept: <a href="%{privacy_policy_url}">プライバシーポリシー</a>に同意します
       message: "<p>お問い合わせフォーム、電子メール、または同様の通信手段でお問い合わせいただいた場合、コメント、要望、提案などに対応するため、名前、事業体、電子メールアドレス、ユーザーメッセージの内容を自動的に収集します。</p> <p>加えて、利用者を個別に特定できないようにするため、仮名化、さらにはデータ集約などの匿名化技術を使用し、統計的な調査のためにこれらのデータを処理することがあります。</p>"
-    reason: Reason for contact
+    reason: お問い合わせ理由
     reasons:
-      community: I want to join the Decidim Community.
-      installing: I have a question about installing Decidim.
-      other: Other.
-      researcher: I'm a researcher studying Decidim.
-      selected: Select an option.
-      service_provider: I need a Decidim service provider.
+      community: Decidimコミュニティに参加したい。
+      installing: Decidimのインストールについて質問がある。
+      other: その他
+      researcher: Decidimを研究している。
+      selected: オプションを選択してください。
+      service_provider: Decidimサービスプロバイダーが必要です。
     send: メッセージを送信
     subtitle: お問い合わせは、お問い合わせフォームにご記入いただくか、下記までメールをお送りください。
     title: Decidimへのお問い合わせ
@@ -388,7 +388,7 @@ ja:
     text: Navigation
     thanks: お問い合わせありがとうございます
     trademark: 商標ポリシー
-    transparency-portal: Transparency Portal
+    transparency-portal: 透明性ポータル
     use-cases: 活用事例
     used_by: 使用中のDecidim
   newsletter:
@@ -531,25 +531,26 @@ ja:
   used_by:
     cta: はじめる
     disclaimer: ロゴマークは、それぞれの著作権者の知的財産です。<br>本サイトの他のコンテンツが採用しているクリエイティブ・コモンズの BY-SA ライセンスには該当しません。
+    download_csv: すべてのインストール内容を含むCSVファイルをダウンロード
     facts:
       subtitle: Decidimは、組織やコミュニティで採用され、成長を続けています。
       title: 実績と図
       type:
-        comments: comments
-        countries: countries
-        instances: instances
-        institutions: institutions
-        meetings: meetings
-        organizations: organizations
-        participants: participants
-        processes: processes
-        proposals: proposals
+        comments: コメント
+        countries: 国
+        instances: インスタンス
+        institutions: 機関
+        meetings: ミーティング
+        organizations: 組織
+        participants: 参加者
+        processes: プロセス
+        proposals: 提案
     filters:
       f0: すべて表示
-      f1: Governments
+      f1: 公共機関
       f2: 都市
       f3: NGO
-      f4: Universities
+      f4: 大学
     intro: Decidimは、数百人、数千人の潜在的な参加者がいる公共または民間の組織、例えば、市区町村議会、協会、大学、NGO、労働組合、近隣の集団や協同組合などで使用することができます...
     join: 400以上の団体、250の政府機関、150の草の根コミュニティが、民主的なプロセスのためにDecidimを選んでいます。
     subtitle: これらの都市、地域、組織はすでにDecidimを使用しています
