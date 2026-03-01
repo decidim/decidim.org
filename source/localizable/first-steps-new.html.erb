@@ -35,9 +35,9 @@ description:
 <section>
   <div class="py-12 overflow-hidden">
     <div class="container space-y-6">
-      <h3 class="h3">
+      <h2 class="h3">
         <%= t("first-steps.section2.title") %>
-      </h3>
+      </h2>
       <p class="par-lg max-w-prose text-gray-500">
         <%= t("first-steps.section2.subtitle") %>
       </p>
@@ -61,14 +61,6 @@ description:
         </div>
         <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1313px)">
           <% chunk1.each do |f| %>
-            <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
-              <%= icon "ri-check-line", class: "w-5 h-4" %>
-              <span><%= f[1][:title] %></span>
-            </div>
-          <% end %>
-        </div>
-        <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1120px">
-          <% chunk2.each do |f| %>
             <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
               <%= icon "ri-check-line", class: "w-5 h-4" %>
               <span><%= f[1][:title] %></span>
