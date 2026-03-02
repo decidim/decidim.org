@@ -73,8 +73,16 @@ description:
 </section>
 
 <section>
+  <div class="container space-y-6">
+    <h2 class="flex justify-between h2">
+      <%= t("first-steps.section2.title") %>
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
+    </h2>
+    <p class="par-lg max-w-prose text-gray-500">
+      <%= t("first-steps.section2.subtitle") %>
+    </p>
+  </div>
   <div class="container py-12">
-    <h3 class="h3 mb-6 md:mb-12"><%= t("first-steps.section3.title") %></h3>
     <%= partial "/partials/testimonial-cards" %>
   </div>
 </section>
