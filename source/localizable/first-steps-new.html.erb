@@ -33,17 +33,19 @@ description:
 </section>
 
 <section>
-  <div class="py-12 overflow-hidden">
-    <div class="container space-y-6">
-      <h2 class="flex justify-between h3">
-        <%= t("first-steps.section2.title") %>
-        <%= partial "partials/arrow-link", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
+  <div class="container space-y-6">
+      <h2 class="flex justify-between h2">
+        <%= t("first-steps.section5.title") %>
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section5.link"), url: "#{t(:path)}/features" } %>
       </h2>
       <p class="par-lg max-w-prose text-gray-500">
-        <%= t("first-steps.section2.subtitle") %>
+        <%= t("first-steps.section5.subtitle") %>
       </p>
     </div>
+</section>
 
+<section>
+  <div class="py-12 overflow-hidden">
     <div class="mt-12 w-screen space-y-4 md:space-y-6 overflow-hidden">
       <% texts = t("features.page").to_a %>
       <% if texts.length > 0 %>
