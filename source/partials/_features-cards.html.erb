@@ -1,0 +1,16 @@
+<div class="w-96 bg-gray-100 rounded-xl inline-flex flex-col justify-start items-start gap-5">
+  <% data.feature_cards.each do |card| %>
+    <% card.each do |name, attrs| %>
+      <div class="self-stretch p-5 flex flex-col justify-start items-start gap-4">
+        <div class="self-stretch flex flex-col justify-start items-start gap-5">
+          <div class="w-6 h-6">
+            <%= icon(attrs.icon, class: "w-6 h-6") %>
+          </div>
+          <div class="self-stretch flex flex-col justify-start items-start">
+            <div class="self-stretch justify-start"><span class="text-black text-xl font-normal font-['Barlow'] leading-7"><%= t("feature_cards.#{name}.#{attrs.id}") %></span></div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>

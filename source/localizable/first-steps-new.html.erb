@@ -34,17 +34,18 @@ description:
 
 <section>
   <div class="container space-y-6">
-      <h2 class="flex justify-between h2">
-        <%= t("first-steps.section5.title") %>
-        <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section5.link"), url: "#{t(:path)}/features" } %>
-      </h2>
-      <p class="par-lg max-w-prose text-gray-500">
-        <%= t("first-steps.section5.subtitle") %>
-      </p>
-      <div class="self-stretch justify-start text-black text-xl font-semibold font-['Barlow'] leading-6">
-        <%= t("first-steps.section5.intro") %>
-      </div>
+    <h2 class="flex justify-between h2">
+      <%= t("first-steps.section5.title") %>
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section5.link"), url: "#{t(:path)}/features" } %>
+    </h2>
+    <p class="par-lg max-w-prose text-gray-500">
+      <%= t("first-steps.section5.subtitle") %>
+    </p>
+    <div class="self-stretch justify-start text-black text-xl font-semibold font-['Barlow'] leading-6">
+      <%= t("first-steps.section5.intro") %>
     </div>
+    <%= partial "/partials/features-cards" %>
+  </div>
 </section>
 
 <section>
