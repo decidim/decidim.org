@@ -1,6 +1,4 @@
-<div data-color="Red" data-size="M" data-status="Default" data-style="Outline" class="px-4 py-2.5 rounded-xl outline outline-1 outline-offset-[-1px] outline-red-500 inline-flex justify-center items-center gap-2">
-  <a href="<%= url %>" class="flex items-center space-x-1 par-md <%= classes ||= 'text-red-500' %>">
-    <span><%= text %></span>
-    <%= icon "ri-arrow-right-line", class: "w-4 h-4 flex-none" %>
-  </a>
-</div>
+<a href="<%= url %>" class="flex items-center space-x-1 par-md <%= classes ||= 'text-red-500' %>">
+  <span><%= text %></span>
+  <%= icon "ri-arrow-right-line", class: "w-4 h-4 flex-none" %>
+</a>
