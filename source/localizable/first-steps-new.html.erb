@@ -88,8 +88,42 @@ description:
       <%= t("first-steps.section2.subtitle") %>
     </p>
   </div>
-  <div class="container py-12">
+  <div class="container py-12 space-y-6">
     <%= partial "/partials/testimonial-cards" %>
+  </div>
+</section>
+
+<section>
+  <div class="container space-y-6 flex justify-between py-12">
+    <div class="space-y-6">
+      <div class="flex flex-col gap-6 border-b border-gray-300 pb-6">
+        <h2 class="h2 text-black">
+          <%= t("first-steps.section6.title") %>
+        </h2>
+        <p class="par-md max-w-prose text-black">
+          <%= t("first-steps.section6.intro") %>
+        </p>
+        <h5 class="h5 text-black">
+          <%= t("first-steps.section7.title") %>
+        </h5>
+        <p class="par-md max-w-prose text-black">
+          <%= t("first-steps.section7.intro") %>
+        </p>
+          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section7.link"), url: "https://docs.decidim.org/en/develop/install/", classes: "text-red-500 mt-auto block", icon_name: "ri-external-link-line" } %>
+      </div>
+      <div class="flex flex-col gap-6">
+        <h5 class="h5 text-black">
+          <%= t("first-steps.section8.title") %>
+        </h5>
+        <p class="par-md max-w-prose text-black">
+          <%= t("first-steps.section8.intro") %>
+        </p>
+          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section8.link"), url: "#{t(:path)}/partners", classes: "text-red-500 mt-auto block" } %>
+      </div>
+    </div>
+    <div class="w-2/5">
+      <img src="/images/how_to_start_decidim.jpg" alt="How to start Decidim" class="w-full">
+    </div>
   </div>
 </section>
 

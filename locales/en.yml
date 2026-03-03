@@ -289,6 +289,17 @@ en:
       subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users, such as city councils, associations, universities, NGOs or cooperatives.
       link: Explore the features
       intro: "With Decidim you can:"
+    section6:
+      title: How to Start Using Decidim
+      intro: "To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework.</br>You can get started in two ways:"
+    section7:
+      title: "Your organization has a developer:"
+      intro: They can install Decidim by following the steps in the official documentation site.
+      link: Read the installation guide
+    section8:
+      title: "Your organization does not have developers:"
+      intro: You’ll need a tech company to install, configure, and maintain Decidim. We recommend working with a local provider or choosing one from our official partners page.
+      link: Find a partner
     subtitle: Decidim is a digital platform for<br/>democratic participation and<br/>community governance
     title: First steps with Decidim
   footer:
