@@ -94,7 +94,7 @@ description:
 </section>
 
 <section>
-  <div class="container space-y-6 flex justify-between py-12">
+  <div class="container space-y-6 flex flex-col md:flex-row justify-between py-12">
     <div class="space-y-6">
       <div class="flex flex-col gap-6 border-b border-gray-300 pb-6">
         <h2 class="h2 text-black">
@@ -121,7 +121,7 @@ description:
           <%= partial "partials/arrow-link", locals: { text: t("first-steps.section8.link"), url: "#{t(:path)}/partners", classes: "text-red-500 mt-auto block" } %>
       </div>
     </div>
-    <div class="w-2/5">
+    <div class="w-full md:w-2/5">
       <img src="/images/how_to_start_decidim.jpg" alt="How to start Decidim" class="w-full">
     </div>
   </div>
