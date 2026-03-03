@@ -93,20 +93,19 @@ description:
   </div>
 </section>
 
-<section class="bg-gray-100 mt-12 py-12 md:py-16">
-  <div class="container space-y-6">
-    <h3 class="h3">
+<section class="container mt-12 py-12 md:py-16">
+  <div class="space-y-6 p-16 bg-gray-100 rounded-xl">
+    <h2 class=" text-black text-5xl font-light">
       <%= t("first-steps.section4.title") %>
-    </h3>
-    <p class="par-lg max-w-prose text-gray-500">
+    </h2>
+    <p class="par-lg max-w-prose text-black">
       <%= t("first-steps.section4.subtitle") %>
     </p>
-    <p class="par-md max-w-prose text-gray-500">
+    <p class="par-lg max-w-prose text-black">
       <%= t("first-steps.section4.intro") %>
     </p>
     <div class="flex flex-col md:flex-row gap-4 par-md">
-      <a href="<%= t(:path) %>/about" class="button black"><%= t("first-steps.section4.button1") %></a>
-      <a href="https://meta.decidim.org/" class="button hollow black"><%= t("first-steps.section4.button2") %></a>
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section4.button1"), url: "#{t(:path)}/about", classes: "text-black", outline_classes: "outline-black", hover_bg_classes: "hover:bg-white" } %>
     </div>
   </div>
 </section>
