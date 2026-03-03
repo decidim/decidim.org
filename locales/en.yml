@@ -165,6 +165,13 @@ en:
       install: Installation and license
       installation: Installation and license
       users: Users and roles
+  feature_cards:
+    meetings:
+      f3: Organize face-to-face or online meetings, manage registrations, and publish the agenda.</br>And much more!
+    proposals:
+      f1: Collect proposals from participants, enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
+    voting:
+      f2: Prioritize proposals using various voting methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
   features:
     intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
@@ -246,13 +253,6 @@ en:
       cta: Explore the modules
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
       title: Modules
-  feature_cards:
-    proposals:
-      f1: Collect proposals from participants, enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
-    voting:
-      f2: Prioritize proposals using various voting methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
-    meetings:
-      f3: Organize face-to-face or online meetings, manage registrations, and publish the agenda.</br>And much more!
   first-steps:
     first-steps1:
       content: You can install it yourself or find someone to help you with tech support.
@@ -275,7 +275,6 @@ en:
       subtitle: Learn how cities, governments, and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some inspiring successful cases!
       title: Decidim in use
     section3:
-      cta: Read more case studies on our blog
       link: Read the case study
       title: Backed by technology, democracy and experience
     section4:
@@ -285,21 +284,21 @@ en:
       subtitle: Metadecidim is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform.
       title: Who’s behind the platform?
     section5:
-      title: Is Decidim the right tool for you?
-      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users, such as city councils, associations, universities, NGOs or cooperatives.
+      intro: 'With Decidim you can:'
       link: Explore the features
-      intro: "With Decidim you can:"
+      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users, such as city councils, associations, universities, NGOs or cooperatives.
+      title: Is Decidim the right tool for you?
     section6:
+      intro: 'To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework.</br>You can get started in two ways:'
       title: How to Start Using Decidim
-      intro: "To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework.</br>You can get started in two ways:"
     section7:
-      title: "Your organization has a developer:"
       intro: They can install Decidim by following the steps in the official documentation site.
       link: Read the installation guide
+      title: 'Your organization has a developer:'
     section8:
-      title: "Your organization does not have developers:"
       intro: You’ll need a tech company to install, configure, and maintain Decidim. We recommend working with a local provider or choosing one from our official partners page.
       link: Find a partner
+      title: 'Your organization does not have developers:'
     subtitle: Decidim is a digital platform for<br/>democratic participation and<br/>community governance
     title: First steps with Decidim
   footer:
