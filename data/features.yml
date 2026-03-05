@@ -13,35 +13,43 @@ spaces:
     id: feature4
 
 components_group_1:
-  - icon: ri-chat-new-line
-    id: feature5
-  - icon: ri-draft-line
-    id: feature10
-  - icon: ri-survey-line
-    id: feature12
+  title: components_group_1_title
+  items:
+    - icon: ri-chat-new-line
+      id: feature5
+    - icon: ri-draft-line
+      id: feature10
+    - icon: ri-survey-line
+      id: feature12
 
 components_group_2:
-  - icon: ri-calendar-line
-    id: feature9
-  - icon: ri-message-2-line
-    id: feature14
-  - icon: ri-question-answer-line
-    id: feature18
+  title: components_group_2_title
+  items:
+    - icon: ri-calendar-line
+      id: feature9
+    - icon: ri-message-2-line
+      id: feature14
+    - icon: ri-question-answer-line
+      id: feature18
 
 components_group_3:
-  - icon: ri-checkbox-line
-    id: feature3
-  - icon: ri-coin-line
-    id: feature19
-  - icon: ri-check-double-fill
-    id: feature20
+  title: components_group_3_title
+  items:
+    - icon: ri-checkbox-line
+      id: feature3
+    - icon: ri-coin-line
+      id: feature19
+    - icon: ri-check-double-fill
+      id: feature20
 
 components_group_4:
-  - icon: ri-microscope-line
-    id: feature8
-  - icon: ri-notification-fill
-    id: feature16
-  - icon: ri-mail-add-line
-    id: feature17
-  - icon: ri-pages-line
-    id: feature15
+  title: components_group_4_title
+  items:
+    - icon: ri-microscope-line
+      id: feature8
+    - icon: ri-notification-fill
+      id: feature16
+    - icon: ri-mail-add-line
+      id: feature17
+    - icon: ri-pages-line
+      id: feature15

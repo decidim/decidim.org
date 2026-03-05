@@ -91,21 +91,26 @@ description:
     </div>
 
     <% %w[components_group_1 components_group_2 components_group_3 components_group_4].each do |component_key| %>
-      <div class="flex flex-col md:flex-row items-stretch space-y-6 md:space-y-0 md:space-x-6 gap-5 mt-8">
-        <% data.features.send(component_key.to_sym).each do |use| %>
-          <div class="rounded-xl flex-1 bg-gray-100 p-6 flex flex-col justify-start items-start gap-4">
-            <%= icon use.icon, class: "w-7 h-7" %>
-            <h6 class="h6">
-              <%= I18n.t("features.page.#{use.id}.title") %>
-            </h6>
-            <p class="par-md max-w-prose first-letter:uppercase">
-              <%= I18n.t("features.page.#{use.id}.subtitle") %>
-            </p>
-            <p class="mt-auto max-w-prose text-black">
-              <%= I18n.t("features.page.#{use.id}.text") %>
-            </p>
-          </div>
-        <% end %>
+      <div class="mt-8">
+        <h4 class="h4 mb-6">
+          <%= t("features.page.#{data.features.send(component_key.to_sym).title}") %>
+        </h4>
+        <div class="flex flex-col md:flex-row items-stretch space-y-6 md:space-y-0 md:space-x-6 gap-5">
+          <% data.features.send(component_key.to_sym).items.each do |use| %>
+            <div class="rounded-xl flex-1 bg-gray-100 p-6 flex flex-col justify-start items-start gap-4">
+              <%= icon use.icon, class: "w-7 h-7" %>
+              <h6 class="h6">
+                <%= I18n.t("features.page.#{use.id}.title") %>
+              </h6>
+              <p class="par-md max-w-prose first-letter:uppercase">
+                <%= I18n.t("features.page.#{use.id}.subtitle") %>
+              </p>
+              <p class="mt-auto max-w-prose text-black">
+                <%= I18n.t("features.page.#{use.id}.text") %>
+              </p>
+            </div>
+          <% end %>
+        </div>
       </div>
     <% end %>
   </div>
