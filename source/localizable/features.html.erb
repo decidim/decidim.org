@@ -90,16 +90,23 @@ description:
       <%= t("features.type2.subtitle") %>
     </div>
 
-    <div class="hidden md:block">
+    <div class="hidden md:block relative">
       <% %w[components_group_1 components_group_2 components_group_3 components_group_4].each_with_index do |component_key, idx| %>
-        <div class="mt-8">
-          <h4 class="h4 mb-6">
-            <span class="text-black">
-              <%= format("%02d", idx + 1) %>
-            </span>
-            <%= t("features.page.#{data.features.send(component_key.to_sym).title}") %>
-          </h4>
-          <div class="flex flex-col md:flex-row items-stretch space-y-6 md:space-y-0 md:space-x-6 gap-5">
+        <div class="mt-8 relative">
+          <div class="mb-6 flex items-start gap-4">
+            <div class="relative flex flex-col items-center">
+              <span class="rounded-full text-base border items-center border-black bg-transparent flex justify-center w-8 h-8 relative z-10 mt-2.5">
+                <%= format("%2d", idx + 1) %>
+              </span>
+              <% unless idx == 4 %>
+                <div class="w-0.5 h-24 bg-black"></div>
+              <% end %>
+            </div>
+            <h4 class="h4 pt-1">
+              <%= t("features.page.#{data.features.send(component_key.to_sym).title}") %>
+            </h4>
+          </div>
+          <div class="flex flex-col md:flex-row items-stretch space-y-6 md:space-y-0 md:space-x-6 gap-5 ml-12 -mt-24">
             <% data.features.send(component_key.to_sym).items.each do |use| %>
               <div class="rounded-xl flex-1 bg-gray-100 p-6 flex flex-col justify-start items-start gap-4">
                 <%= icon use.icon, class: "w-7 h-7" %>
@@ -122,9 +129,9 @@ description:
     <div class="block md:hidden" data-accordion="components">
       <% %w[components_group_1 components_group_2 components_group_3 components_group_4].each_with_index do |component_key, idx| %>
         <details class="group">
-          <summary class="flex items-center space-x-3 py-4 relative par-md text-gray-500 hover:text-red-500 group-open:text-red-500 transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:right-0 after:hover:bg-transparent after:w-full after:bg-transparent after:transition">
-            <span class="text-black font-bold">
-              <%= format("%02d", idx + 1) %>
+          <summary class="flex items-center space-x-3 py-4 relative par-md text-black hover:text-red-500 group-open:text-red-500 transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:right-0 after:hover:bg-transparent after:w-full after:bg-transparent after:transition">
+            <span class="rounded-full border items-center text-base border-black bg-transparent flex justify-center w-8 h-8">
+              <%= format("%2d", idx + 1) %>
             </span>
             <span class="par-md">
               <%= t("features.page.#{data.features.send(component_key.to_sym).title}") %>
