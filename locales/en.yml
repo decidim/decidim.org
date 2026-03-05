@@ -182,7 +182,7 @@ en:
       feature10:
         subtitle: To analyze, synthesize, and build in common
         text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
-        title: Participatory texts
+        title: Collaborative texts
       feature11:
         subtitle: Where big events are premiered
         text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
@@ -211,14 +211,26 @@ en:
         subtitle: Simple but powerful
         text: Send emails to everyone registered in the platform or to those who participate in a specific space.
         title: Newsletter
+      feature18:
+        subtitle: To promote community deliberation
+        text:  Ask a question about any topic related to a process, receive comments, participate in discussion threads and close the debate with a conclusion.
+        title: Debates
+      feature19:
+        subtitle: Democratic and transparent decision-making
+        text: Add your project proposal about your city district, vote and give support to those that resonate with you, co-create collective ideas and give a specific amount of money to each one. 
+        title: Participatory budgeting
+      feature20:
+        subtitle: Simple and user-friendly voting processes
+        text: Set up elections to support decision-making. Upload your census or activate a token system for voting. Participants cast their votes through a secure voting booth, and once voting closes, you can publish the results.
+        title: Elections
       feature2:
         subtitle: The power of collective self-organization
         text: Makes it possible to set up decision-making bodies or groups (councils, working groups, commissions, etc.) that meet regularly, detailing their composition, listing and geolocating their meetings. It allows participation in them, for example, attending in person or online, adding issues to the agenda, or commenting on the proposals and decisions taken by that body.
         title: Assemblies
       feature3:
-        subtitle: The right to decide with all democratic guarantees
-        text: Makes it possible to coordinate referendums, trigger discussions and debates, get voting results published and connect to a secure e-voting system.
-        title: Votings
+        subtitle: Decide your choice
+        text: "Offer organisations the possibility of activating different voting systems around proposals: unlimited, limited to a given threshold, cost-based, etc."
+        title: Voting
       feature4:
         subtitle: Setting everyone's agenda, within everyone's reach
         text: Participants can create collaborative initiatives, define their path and goals, gather endorsements, discuss, debate and disseminate initiatives, set meeting points where signatures can be collected from attendees or debates open to other members of the organisation.
@@ -237,7 +249,7 @@ en:
         title: Results
       feature8:
         subtitle: End-to-end transparency
-        text: It offers the possibility to subdivide results into projects, to define and apply progress states around their implementation, as well as to show the degree of achievement of results grouped by categories and scopes.
+        text: Keep participants informed of the status of implementation. Based on the proposals, define results, create and apply progress reports on their implementation, and show the degree to which the results have been achieved.
         title: Accountability
       feature9:
         subtitle: To meet and not miss anything
