@@ -99,7 +99,7 @@ description:
                 <%= format("%2d", idx + 1) %>
               </span>
               <% unless idx == 4 %>
-                <div class="w-0.5 h-96 bg-black"></div>
+                <div class="w-[0.1rem] h-96 bg-black"></div>
               <% end %>
             </div>
             <h4 class="h4 pt-1">
@@ -134,7 +134,7 @@ description:
               <span class="absolute left-0 rounded-full border items-center text-base border-black bg-transparent flex justify-center w-8 h-8">
                 <%= format("%2d", idx + 1) %>
               </span>
-              <span class="par-md">
+              <span class="par-md pl-2">
                 <%= t("features.page.#{data.features.send(component_key.to_sym).title}") %>
               </span>
             </summary>
