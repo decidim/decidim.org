@@ -138,8 +138,9 @@ description:
                 <%= t("features.page.#{data.features.send(component_key.to_sym).title}") %>
               </span>
             </summary>
-            <div class="group-open:pt-6 pb-6 pointer-events-none group-open:pointer-events-auto -translate-y-full max-h-0 opacity-0 group-open:translate-y-0 group-open:max-h-none group-open:opacity-100 transition-all">
-              <div class="space-y-4 ml-6 border-l-2 border-black pl-4">
+            <div class="relative group-open:pt-6 pb-6 pointer-events-none group-open:pointer-events-auto -translate-y-full max-h-0 opacity-0 group-open:translate-y-0 group-open:max-h-none group-open:opacity-100 transition-all">
+              <div class="absolute left-4 top-0 bottom-0 w-[0.1rem] bg-black"></div>
+              <div class="space-y-4 pl-10">
                 <% data.features.send(component_key.to_sym).items.each do |use| %>
                   <div class="rounded-xl bg-gray-100 p-4 flex flex-col items-start gap-3">
                     <%= icon use.icon, class: "w-6 h-6" %>
