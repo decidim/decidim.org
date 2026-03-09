@@ -173,6 +173,11 @@ en:
     voting:
       f2: Prioritize proposals using various voting methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
   features:
+    component_groups:
+      components_group_1_title: Receive Contributions
+      components_group_2_title: Discuss and deliberate
+      components_group_3_title: Make Decisions
+      components_group_4_title: Communicate Results to your audience
     intro: You can use the Decidim software in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, public institution, associations, NGOs, universities, trade unions, cooperatives or neighbourhood communities. With Decidim you will be able to configure spaces for digital participation and organize contributions and discussions through the multiple available components.
     modules:
       button: Get started
@@ -184,10 +189,6 @@ en:
       subtitle: Take a look at the partners community, Decidim official service providers that can assist you on the installation journey, the hosting and maintenance of your platform.
       title: Need help in the installation?
     page:
-      components_group_1_title: Receive Contributions
-      components_group_2_title: Discuss and deliberate
-      components_group_3_title: Make Decisions
-      components_group_4_title: Communicate Results to your audience
       feature1:
         subtitle: To democratize common issues, step by step
         text: 'Processes is a space that allows to create, activate/deactivate, and manage various participatory processes. These are distinguished from other spaces by being structured in different phases within which all of the components can be incorporated. Examples of participatory processes are: an election process for members of a committee, participatory budgeting, a strategic planning process, the collaborative writing of a regulation or norm, the design of an urban space or the production of a public policy plan.'

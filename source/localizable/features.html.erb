@@ -103,7 +103,7 @@ description:
               <% end %>
             </div>
             <h4 class="h4 pt-1">
-              <%= t("features.page.#{data.features.send(component_key.to_sym).title}") %>
+              <%= t("features.component_groups.#{data.features.send(component_key.to_sym).title}") %>
             </h4>
           </div>
           <div class="flex flex-col md:flex-row items-stretch space-y-6 md:space-y-0 md:space-x-6 gap-5 ml-12 -mt-96">
@@ -135,7 +135,7 @@ description:
                 <%= format("%2d", idx + 1) %>
               </span>
               <span class="par-md pl-2">
-                <%= t("features.page.#{data.features.send(component_key.to_sym).title}") %>
+                <%= t("features.component_groups.#{data.features.send(component_key.to_sym).title}") %>
               </span>
             </summary>
             <div class="absolute left-4 top-12 bottom-0 w-[0.1rem] bg-black hidden group-open:block"></div>
