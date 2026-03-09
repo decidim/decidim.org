@@ -178,7 +178,7 @@ description:
   </div>
 </section>
 
-<section class="container py-12 md:py-16 flex gap-6">
+<section class="container py-12 flex flex-col md:flex-row items-stretch space-y-6 md:space-y-0 md:space-x-6 gap-5">
   <div class="space-y-6 p-8 bg-gray-100 rounded-xl">
     <h2 class=" text-black text-5xl font-light">
       <%= t("features.modules.title") %>
@@ -190,7 +190,7 @@ description:
       <%= t("features.modules.subtitle") %>
     </p>
     <div class="inline-flex flex-col md:flex-row gap-4 par-md">
-      <%= partial "partials/arrow-link-rounded", locals: { text: t("features.modules.button"), url: "https://docs.decidim.org/en/develop/install/", classes: "text-black", outline_classes: "outline-black", hover_bg_classes: "hover:bg-white" } %>
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("features.modules.button"), url: "https://docs.decidim.org/en/develop/install/", classes: "text-black", outline_classes: "outline-black", hover_bg_classes: "hover:bg-white", icon_name: "ri-external-link-line" } %>
     </div>
   </div>
   <div class="space-y-6 p-8 bg-gray-100 rounded-xl">
