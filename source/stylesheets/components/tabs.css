@@ -28,6 +28,6 @@
 [data-tabs="features"],
 [data-tabs="used_by"] {
   [data-tab-id].is-selected {
-    @apply text-red-500 after:bg-red-500;
+    @apply text-white bg-red-500;
   }
 }
