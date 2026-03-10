@@ -5,12 +5,12 @@ spaces:
   - image: /images/features/assemblies.png
     icon: ri-team-line
     id: feature2
-  - image: /images/features/consultations.png
-    icon: ri-question-line
-    id: feature3
   - image: /images/features/initiatives.png
     icon: ri-guide-line
     id: feature4
+  - image: /images/features/consultations.png
+    icon: ri-slideshow-line
+    id: feature3
 
 components_group_1:
   title: components_group_1_title
