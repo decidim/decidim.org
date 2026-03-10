@@ -167,6 +167,17 @@ description:
   </div>
 </section>
 
+<section class="bg-red-100 mt-12 py-12 md:py-16">
+  <div class="container space-y-6">
+    <h1 class="h1 text-red-500">
+      <%= t("features.section4.title") %>
+    </h1>
+    <div class="inline-flex flex-col md:flex-row gap-4 par-md">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("features.section4.link"), url: "https://try.decidim.org/" } %>
+    </div>
+  </div>
+</section>
+
 <section class="bg-transparent mt-12 py-12 md:py-16">
   <div class="flex flex-col md:flex-row items-stretch gap-0">
     <div class="md:w-3/5 flex items-center p-6 md:ml-[33rem]">
@@ -181,17 +192,6 @@ description:
     </div>
     <div class="w-full md:w-2/5 flex-shrink-0">
       <img src="/images/customisable_system_image.png" alt="customisable_system" class="w-full h-full object-cover">
-    </div>
-  </div>
-</section>
-
-<section class="bg-red-100 mt-12 py-12 md:py-16">
-  <div class="container space-y-6">
-    <h1 class="h1 text-red-500">
-      <%= t("features.section4.title") %>
-    </h1>
-    <div class="inline-flex flex-col md:flex-row gap-4 par-md">
-      <%= partial "partials/arrow-link-rounded", locals: { text: t("features.section4.link"), url: "https://try.decidim.org/" } %>
     </div>
   </div>
 </section>
