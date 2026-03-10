@@ -53,29 +53,29 @@ description:
       <% end %>
     </div>
 
-    <div class="block md:hidden mt-6" data-accordion="features">
-      <% data.features.spaces.each_with_index do |use, i| %>
-        <details class="group">
-          <summary class="items-center px-4 py-2.5 rounded-xl transition text-red-500 bg-red-100 outline-offset-[-1px] hover:text-white hover:bg-red-500 flex gap-2">
-            <%= icon use.icon, class: "w-5 h-5 no-toggle" %>
-            <span class="par-md">
+    <div class="md:hidden mt-6 flex flex-col" data-tabs="features-mobile">
+      <ul role="tablist" class="flex items-center gap-2 overflow-x-auto">
+        <% data.features.spaces.each_with_index do |use, i| %>
+          <li role="tab" tabindex="0" class="flex items-center gap-2 px-3 py-2.5 rounded-xl text-red-500 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer flex-shrink-0 <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
+            <%= icon use.icon, class: "w-5 h-5 flex-shrink-0" %>
+            <span class="par-sm tab-title">
               <%= t("features.page.#{use.id}.title") %>
             </span>
-          </summary>
-          <div class="flex flex-col md:flex-row items-stretch md:items-center gap-6 group-open:pt-6 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
-            <div class="md:w-3/5">
-              <p class="par-lg max-w-prose">
-                <%= t("features.page.#{use.id}.title") %>&nbsp;<%= t("features.page.#{use.id}.subtitle") %>
-              </p>
-              <p class="par-md text-gray-500 mt-2 max-w-prose">
-                <%= t("features.page.#{use.id}.text") %>
-              </p>
-            </div>
-            <div class="md:w-2/5 rounded-xl overflow-hidden bg-gray-300">
-              <img class="object-cover w-full aspect-[4/3]" src="<%= use.image %>">
-            </div>
+          </li>
+        <% end %>
+      </ul>
+      <% data.features.spaces.each_with_index do |use, i| %>
+        <div class="hidden flex-col gap-4 mt-6 <%= 'is-selected' if i == 0 %>" data-tab-content="<%= use.id %>">
+          <p class="par-lg max-w-prose">
+            <%= t("features.page.#{use.id}.title") %>&nbsp;<%= t("features.page.#{use.id}.subtitle") %>
+          </p>
+          <p class="par-md text-gray-500 max-w-prose">
+            <%= t("features.page.#{use.id}.text") %>
+          </p>
+          <div class="rounded-xl overflow-hidden bg-gray-300">
+            <img class="object-cover w-full aspect-[4/3]" src="<%= use.image %>">
           </div>
-        </details>
+        </div>
       <% end %>
     </div>
   </div>
