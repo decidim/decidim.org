@@ -1,6 +1,6 @@
 inherit_from:
-  - configuration-c39e21b1a157886216c51863e3ca4762.yml
-  - configuration-283ea6ccb2f6a592c0c314fe21cb63d3.yml
+  - https://raw.githubusercontent.com/decidim/decidim/refs/heads/develop/decidim-dev/config/rubocop/ruby/configuration.yml
+  - https://raw.githubusercontent.com/decidim/decidim/refs/heads/develop/decidim-dev/config/rubocop/rspec/configuration.yml
 
 plugins:
   - rubocop-rspec
