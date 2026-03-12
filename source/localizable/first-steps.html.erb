@@ -4,7 +4,7 @@ description:
 ---
 
 <section>
-  <div class="container pt-10 pb-6 md:pt-16 md:pb-[6.25rem]">
+  <div class="container pt-6 pb-6 md:pt-16 md:pb-[6.25rem]">
     <div class="md:w-3/5 space-y-6">
       <h1 class="h1 md:text-hero-title md:whitespace-nowrap">
         <%= t("first-steps.title") %>
@@ -61,7 +61,7 @@ description:
 
 <section>
   <div class="md:pt-16 overflow-hidden">
-    <div class="mt-12 w-screen space-y-4 md:space-y-6 overflow-hidden">
+    <div class="w-screen space-y-4 md:space-y-6 overflow-hidden">
       <% texts = t("features.page").to_a %>
       <% if texts.length > 0 %>
         <% chunks = texts.each_slice((texts.length / 3) + 1).to_a %>
