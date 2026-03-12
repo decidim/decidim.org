@@ -119,15 +119,17 @@ description:
         <p class="par-md max-w-prose text-black">
           <%= t("first-steps.section6.intro") %>
         </p>
-        <h5 class="h5 text-black">
-          <%= t("first-steps.section7.title") %>
-        </h5>
-        <p class="par-md max-w-prose text-black">
-          <%= t("first-steps.section7.intro") %>
-        </p>
+        <div class="flex flex-col gap-4">
+          <h5 class="h5 text-black">
+            <%= t("first-steps.section7.title") %>
+          </h5>
+          <p class="par-md max-w-prose text-black">
+            <%= t("first-steps.section7.intro") %>
+          </p>
           <%= partial "partials/arrow-link", locals: { text: t("first-steps.section7.link"), url: "https://docs.decidim.org/en/develop/install/", classes: "text-red-500 mt-auto block", icon_name: "ri-external-link-line" } %>
+        </div>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-4">
         <h5 class="h5 text-black">
           <%= t("first-steps.section8.title") %>
         </h5>
