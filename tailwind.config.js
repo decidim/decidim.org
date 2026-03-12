@@ -31,7 +31,7 @@ module.exports = {
     },
     extend: {
       fontSize: {
-        "hero-title": "3.5rem",
+        "hero-title": "3.5rem"
       },
       keyframes: {
         fadeIn: {
