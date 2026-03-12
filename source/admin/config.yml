@@ -26,7 +26,7 @@ collections:
     folder: "source/blog/en"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}} -- {{year}}-{{month}}-{{day}}"
-    extension: "md"
+    extension: "html.md"
     format: "frontmatter"
     create: true
     fields:
