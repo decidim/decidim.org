@@ -12,5 +12,8 @@ node_modules/
 # Ignore rubocop rules from decidim
 .rubocop-https---raw-githubusercontent-com-decidim-decidim-*
 
+# Ignore configuration files inherited from decidim
+configuration-*.yml
+
 spec/examples.txt
 .devcontainer/devcontainer.local.*
