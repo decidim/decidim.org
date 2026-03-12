@@ -116,9 +116,14 @@ description:
         <h2 class="h2 text-black">
           <%= t("first-steps.section6.title") %>
         </h2>
-        <p class="par-md max-w-prose text-black">
-          <%= t("first-steps.section6.intro") %>
-        </p>
+        <div class="flex flex-col gap-4">
+          <p class="par-md max-w-prose text-black">
+            <%= t("first-steps.section6.intro") %>
+          </p>
+          <p class="par-md max-w-prose text-black">
+            <%= t("first-steps.section6.intro2") %>
+          </p>
+        </div>
         <div class="flex flex-col gap-4">
           <h5 class="h5 text-black">
             <%= t("first-steps.section7.title") %>
@@ -147,7 +152,7 @@ description:
 
 <section class="container py-12 md:pt-16">
   <div class="space-y-6 p-8 bg-gray-100 rounded-xl">
-    <h2 class=" text-black text-5xl font-light">
+    <h2 class="text-black font-light text-5xl">
       <%= t("first-steps.section4.title") %>
     </h2>
     <p class="par-md text-black">
