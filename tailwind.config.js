@@ -30,6 +30,9 @@ module.exports = {
       sans: ["Barlow", "system-ui", "sans-serif"],
     },
     extend: {
+      fontSize: {
+        "hero-title": "3.5rem",
+      },
       keyframes: {
         fadeIn: {
           to: { opacity: 1, transform: "rotate(180deg)" },
