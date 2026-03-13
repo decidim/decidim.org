@@ -20,12 +20,12 @@ description:
 </section>
 
 <section>
-  <div class="container py-6 md:py-12">
+  <div class="container py-10 md:py-16">
     <h3 class="h3">
       <%= t("features.type1.title") %>
     </h3>
 
-    <div class="hidden md:block mt-8 border-gray-100 pb-12" data-tabs="features">
+    <div class="hidden md:block mt-8 border-gray-100" data-tabs="features">
       <ul role="tablist" class="flex items-center space-x-6">
         <% data.features.spaces.each_with_index do |use, i| %>
           <li role="tab" tabindex="0" class="items-center px-4 py-2.5 rounded-xl text-red-500 bg-red-100 outline-offset-[-1px] hover:text-white hover:bg-red-500 flex gap-2 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
