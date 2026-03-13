@@ -1,41 +1,55 @@
 spaces:
-  - image: /images/features/participatory_processes.png
+  - image: /images/features/participatory_processes_new.png
     icon: ri-user-voice-line
     id: feature1
-  - image: /images/features/assemblies.png
+  - image: /images/features/assemblies_new.png
     icon: ri-team-line
     id: feature2
-  - image: /images/features/consultations.png
-    icon: ri-question-line
-    id: feature3
-  - image: /images/features/initiatives.png
+  - image: /images/features/initiatives_new.png
     icon: ri-guide-line
     id: feature4
-
-components:
-  - icon: ri-git-commit-line
-    id: feature5
-  - icon: ri-checkbox-multiple-fill
-    id: feature6
-  - icon: ri-auction-line
-    id: feature7
-  - icon: ri-text-wrap
-    id: feature8
-  - icon: ri-calendar-line
-    id: feature9
-  - icon: ri-file-text-line
-    id: feature10
-  - icon: ri-mic-line
+  - image: /images/features/conferences.png
+    icon: ri-slideshow-line
     id: feature11
-  - icon: ri-list-unordered
-    id: feature12
-  - icon: ri-shuffle-fill
-    id: feature13
-  - icon: ri-question-answer-fill
-    id: feature14
-  - icon: ri-dashboard-fill
-    id: feature15
-  - icon: ri-notification-3-line
-    id: feature16
-  - icon: ri-mail-send-line
-    id: feature17
+
+components_group_1:
+  title: components_group_1_title
+  items:
+    - icon: ri-chat-new-line
+      id: feature5
+    - icon: ri-draft-line
+      id: feature10
+    - icon: ri-survey-line
+      id: feature12
+
+components_group_2:
+  title: components_group_2_title
+  items:
+    - icon: ri-calendar-line
+      id: feature9
+    - icon: ri-message-2-line
+      id: feature14
+    - icon: ri-question-answer-line
+      id: feature18
+
+components_group_3:
+  title: components_group_3_title
+  items:
+    - icon: ri-checkbox-line
+      id: feature3
+    - icon: ri-coin-line
+      id: feature19
+    - icon: ri-check-double-fill
+      id: feature20
+
+components_group_4:
+  title: components_group_4_title
+  items:
+    - icon: ri-microscope-line
+      id: feature8
+    - icon: ri-notification-fill
+      id: feature16
+    - icon: ri-mail-add-line
+      id: feature17
+    - icon: ri-pages-line
+      id: feature15
