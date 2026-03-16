@@ -9,10 +9,10 @@ description:
       <h1 class="h1 md:text-hero-title md:whitespace-nowrap">
         <%= t("first-steps.title") %>
       </h1>
-      <p class="par-xl pt-5">
+      <p class="par-xl pt-5 md:pt-5">
         <%= t("first-steps.subtitle") %>
       </p>
-      <div class="par-md pt-4">
+      <div class="par-md pt-4 md:pt-5">
         <%= t("first-steps.intro") %>
       </div>
     </div>
@@ -21,7 +21,7 @@ description:
 
 <section>
   <div class="container pt-10">
-    <div class="flex flex-col md:flex-row justify-start items-stretch divide-y-2 md:divide-y-0 divide-gray-300 border-b-2 md:border-b-0 border-gray-300">
+    <div class="flex flex-col md:flex-row justify-start md:max-h-40 items-stretch divide-y-2 md:divide-y-0 divide-gray-300 border-b-2 md:border-b-0 border-gray-300">
     <% data.first_steps.each do |item| %>
       <div class="flex flex-col md:border-l-2 pb-5 pt-10 border-gray-300 md:first:border-l-0 px-0 md:px-10 md:first:pl-0 md:py-0 w-full">
         <div class="flex items-center space-x-2">
@@ -29,7 +29,7 @@ description:
           <span class="font-semibold uppercase"><%= t("first-steps.#{item.pre}") %></span>
         </div>
         <h5 class="h5 pt-4"><%= t("first-steps.#{item.title}") %></h5>
-        <p class="par-md max-w-prose text-black pt-3 mb-6"><%= t("first-steps.#{item.content}") %></p>
+        <p class="par-md max-w-prose text-black pt-3"><%= t("first-steps.#{item.content}") %></p>
       </div>
     <% end %>
     </div>
@@ -37,7 +37,7 @@ description:
 </section>
 
 <section>
-  <div class="container space-y-6 md:pt-16 pt-10">
+  <div class="container md:pt-16 pt-10">
     <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
       <h2 class="h2">
         <%= t("first-steps.section5.title") %>
@@ -46,10 +46,10 @@ description:
         <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section5.link"), url: "#{t(:path)}/features" } %>
       </div>
     </div>
-    <p class="par-md pt-4 max-w-prose text-black">
+    <p class="par-md pt-5 md:pt-6 max-w-prose text-black">
       <%= t("first-steps.section5.subtitle") %>
     </p>
-    <div class="pt-4 justify-start text-black text-xl font-semibold font-['Barlow'] leading-6">
+    <div class="pt-5 md:pt-6 justify-start text-black text-xl font-semibold font-['Barlow'] leading-6">
       <%= t("first-steps.section5.intro") %>
     </div>
     <%= partial "/partials/features-cards" %>
@@ -97,11 +97,11 @@ description:
         <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
       </div>
     </div>
-    <p class="par-md pt-5 max-w-prose text-black">
+    <p class="par-md md:py-6 pt-5 max-w-prose text-black">
       <%= t("first-steps.section2.subtitle") %>
     </p>
   </div>
-  <div class="container md:pt-16">
+  <div class="container">
     <%= partial "/partials/testimonial-cards" %>
     <div class="md:hidden pb-10">
       <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
@@ -152,7 +152,7 @@ description:
 
 <section class="container py-12 md:pt-16">
   <div class="space-y-6 md:p-10 p-4 bg-gray-100 rounded-xl">
-    <h2 class="text-black font-light text-5xl">
+    <h2 class="text-black font-medium text-2xl md:text-5xl md:font-normal">
       <%= t("first-steps.section4.title") %>
     </h2>
     <p class="par-md text-black">
