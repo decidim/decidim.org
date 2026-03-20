@@ -1,6 +1,6 @@
-<div class="px-4 py-2.5 rounded-xl transition outline outline-1 outline-offset-[-1px] hover:outline-0 <%= outline_classes ||= 'outline-red-500' %> <%= hover_bg_classes ||= 'hover:bg-red-100' %> inline-flex justify-center items-center">
+<div class="px-4 py-2.5 rounded-xl transition outline outline-1 outline-offset-[-1px] hover:outline-0 <%= outline_classes ||= 'outline-red-500' %> <%= hover_bg_classes ||= 'hover:bg-red-100' %> flex justify-center items-center">
   <a href="<%= url %>" class="inline-flex items-center gap-2 par-md <%= classes ||= 'text-red-500' %>">
-    <span><%= text %></span>
+    <span class="md:text-xl"><%= text %></span>
     <span class="inline-flex shrink-0">
       <%= icon(icon_name ||= "ri-arrow-right-line", class: "md:w-5 md:h-5 w-4 h-4") %>
     </span>
