@@ -131,7 +131,7 @@ description:
           <p class="par-md max-w-prose text-black">
             <%= t("first-steps.section7.intro") %>
           </p>
-          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section7.link"), url: "https://docs.decidim.org/en/develop/install/", classes: "text-red-500 mt-auto block", icon_name: "ri-external-link-line" } %>
+          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section7.link"), url: "https://docs.decidim.org/en/develop/install/", classes: "text-red-500 par-md mt-auto block", span_classes: "text-[20px] leading-[28px]", icon_name: "ri-external-link-line" } %>
         </div>
       </div>
       <div class="flex flex-col gap-5">
@@ -141,7 +141,7 @@ description:
         <p class="par-md max-w-prose text-black">
           <%= t("first-steps.section8.intro") %>
         </p>
-          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section8.link"), url: "#{t(:path)}/partners", classes: "text-red-500 mt-auto block" } %>
+          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section8.link"), url: "#{t(:path)}/partners", classes: "text-red-500 mt-auto block", span_classes: "text-[20px] leading-[28px]" } %>
       </div>
     </div>
     <div class="w-full md:w-2/5">
