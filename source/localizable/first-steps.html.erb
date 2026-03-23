@@ -70,14 +70,14 @@ description:
         <% chunk2 = (chunks[2] * 4) + chunks[2].take(2) %>
         <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1380px">
           <% chunk0.each do |f| %>
-            <div class="text-red-500 bg-red-100 rounded-xl par-lg py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap">
+            <div class="text-red-500 bg-red-100 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap">
               <span><%= f[1][:title] %></span>
             </div>
           <% end %>
         </div>
         <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1313px)">
           <% chunk1.each do |f| %>
-            <div class="text-red-500 bg-red-100 rounded-xl par-lg py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap">
+            <div class="text-red-500 bg-red-100 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap">
               <span><%= f[1][:title] %></span>
             </div>
           <% end %>
