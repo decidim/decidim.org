@@ -20,7 +20,7 @@
 }
 
 .h5 {
-  @apply font-semibold text-[20px] md:text-[24px] leading-[24px] md:leading-[28px];
+  @apply font-semibold text-[24px] md:text-[24px] leading-[28px] md:leading-[28px];
 }
 
 .h6 {
