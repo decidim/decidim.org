@@ -6,6 +6,7 @@ module.exports = {
       red: {
         100: "#fff0f0",
         500: "#ff3333",
+        700: "#C20A0A",
         900: "#c20a0a",
       },
       gray: {
@@ -22,13 +23,16 @@ module.exports = {
       padding: {
         DEFAULT: "1.5rem",
         md: "4rem",
-        xl: "8rem",
+        xl: "10.625rem",
       },
     },
     fontFamily: {
       sans: ["Barlow", "system-ui", "sans-serif"],
     },
     extend: {
+      fontSize: {
+        "hero-title": "3.5rem"
+      },
       keyframes: {
         fadeIn: {
           to: { opacity: 1, transform: "rotate(180deg)" },

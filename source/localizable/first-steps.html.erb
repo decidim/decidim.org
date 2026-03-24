@@ -4,50 +4,64 @@ description:
 ---
 
 <section>
-  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
-    <div class="md:w-3/5 space-y-6">
-      <h1 class="h1 md:whitespace-nowrap">
+  <div class="container pt-10 md:pt-16 md:pb-[6.25rem]">
+    <div class="md:w-3/5">
+      <h1 class="h1 md:text-hero-title md:whitespace-nowrap">
         <%= t("first-steps.title") %>
       </h1>
-      <p class="par-xl text-gray-500">
+      <p class="par-xl pt-5 md:pt-5">
         <%= t("first-steps.subtitle") %>
       </p>
-      <div class="par-md text-gray-500">
+      <div class="par-md pt-4 md:pt-5">
         <%= t("first-steps.intro") %>
       </div>
-    </div>
-
-    <div class="flex flex-col md:flex-row justify-between items-stretch divide-y-8 md:divide-y-0 divide-gray-100 border-y-8 md:border-y-0 border-gray-100 mt-12 md:mt-16">
-      <% data.first_steps.each do |item| %>
-        <div class="flex flex-col md:border-l-8 border-gray-100 px-0 py-6 md:px-10 md:py-0 w-full md:w-1/3">
-          <div class="flex items-center text-red-500 space-x-2">
-            <%= icon item.icon, class: "w-8 h-8" %>
-            <span class="font-semibold uppercase"><%= t("first-steps.#{item.pre}") %></span>
-          </div>
-          <h5 class="h5 mt-7"><%= t("first-steps.#{item.title}") %></h5>
-          <p class="par-md max-w-prose text-gray-500 mt-4 mb-6"><%= t("first-steps.#{item.content}") %></p>
-          <div class="mt-auto">
-            <%= partial "partials/arrow-link", locals: { text: t("first-steps.#{item.link1}"), url: url(item.url1), classes: "text-gray-500" } %>
-          </div>
-        </div>
-      <% end %>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="py-12 overflow-hidden">
-    <div class="container space-y-6">
-      <h3 class="h3">
-        <%= t("first-steps.section2.title") %>
-      </h3>
-      <p class="par-lg max-w-prose text-gray-500">
-        <%= t("first-steps.section2.subtitle") %>
-      </p>
-      <%= partial "partials/arrow-link", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
+  <div class="container">
+    <div class="flex flex-col md:flex-row justify-start md:max-h-40 items-stretch divide-y-2 md:divide-y-0 divide-gray-300 border-b-2 md:border-b-0 border-gray-300">
+    <% data.first_steps.each do |item| %>
+      <div class="flex flex-col md:border-l pb-5 pt-10 border-gray-300 md:first:border-l-0 px-0 md:px-5 md:first:pl-0 md:py-0 w-full">
+        <div class="flex items-center space-x-2">
+          <%= icon item.icon, class: "w-6 h-6" %>
+          <span class="font-semibold uppercase"><%= t("first-steps.#{item.pre}") %></span>
+        </div>
+        <h5 class="h5 pt-4"><%= t("first-steps.#{item.title}") %></h5>
+        <p class="par-md max-w-prose text-black pt-3"><%= t("first-steps.#{item.content}") %></p>
+      </div>
+    <% end %>
     </div>
+  </div>
+</section>
 
-    <div class="mt-12 w-screen space-y-4 md:space-y-6 overflow-hidden">
+<section>
+  <div class="container md:pt-16 pt-10">
+    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+      <h2 class="h2">
+        <%= t("first-steps.section5.title") %>
+      </h2>
+      <div class="hidden md:block">
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section5.link"), url: "#{t(:path)}/features" } %>
+      </div>
+    </div>
+    <p class="par-md pt-5 md:pt-6 max-w-prose text-black">
+      <%= t("first-steps.section5.subtitle") %>
+    </p>
+    <div class="pt-5 md:pt-6 justify-start text-black text-xl font-semibold font-['Barlow'] leading-6">
+      <%= t("first-steps.section5.intro") %>
+    </div>
+    <%= partial "/partials/features-cards" %>
+    <div class="md:hidden">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section5.link"), url: "#{t(:path)}/features" } %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="md:pt-16 overflow-hidden pt-10">
+    <div class="w-screen space-y-4 md:space-y-6 overflow-hidden">
       <% texts = t("features.page").to_a %>
       <% if texts.length > 0 %>
         <% chunks = texts.each_slice((texts.length / 3) + 1).to_a %>
@@ -56,24 +70,14 @@ description:
         <% chunk2 = (chunks[2] * 4) + chunks[2].take(2) %>
         <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1380px">
           <% chunk0.each do |f| %>
-            <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
-              <%= icon "ri-check-line", class: "w-5 h-4" %>
+            <div class="text-red-500 bg-red-100 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap">
               <span><%= f[1][:title] %></span>
             </div>
           <% end %>
         </div>
         <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1313px)">
           <% chunk1.each do |f| %>
-            <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
-              <%= icon "ri-check-line", class: "w-5 h-4" %>
-              <span><%= f[1][:title] %></span>
-            </div>
-          <% end %>
-        </div>
-        <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1120px">
-          <% chunk2.each do |f| %>
-            <div class="text-red-500 bg-red-100 rounded-xl par-lg p-6 flex items-baseline space-x-2 whitespace-nowrap">
-              <%= icon "ri-check-line", class: "w-5 h-4" %>
+            <div class="text-red-500 bg-red-100 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap">
               <span><%= f[1][:title] %></span>
             </div>
           <% end %>
@@ -84,38 +88,83 @@ description:
 </section>
 
 <section>
-  <div class="container py-12">
-    <h3 class="h3 mb-6 md:mb-12"><%= t("first-steps.section3.title") %></h3>
-    <%= partial "/partials/testimonial-cards" %>
+  <div class="container md:pt-16 pt-10">
+    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+      <h2 class="h2">
+        <%= t("first-steps.section2.title") %>
+      </h2>
+      <div class="hidden md:block md:flex-row">
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
+      </div>
+    </div>
+    <p class="par-md md:py-6 pt-5 max-w-prose text-black">
+      <%= t("first-steps.section2.subtitle") %>
+    </p>
   </div>
-</section>
-
-<section class="bg-gray-100 mt-12 py-12 md:py-16">
-  <div class="container space-y-6">
-    <h3 class="h3">
-      <%= t("first-steps.section4.title") %>
-    </h3>
-    <p class="par-lg max-w-prose text-gray-500">
-      <%= t("first-steps.section4.subtitle") %>
-    </p>
-    <p class="par-md max-w-prose text-gray-500">
-      <%= t("first-steps.section4.intro") %>
-    </p>
-    <div class="flex flex-col md:flex-row gap-4 par-md">
-      <a href="<%= t(:path) %>/about" class="button black"><%= t("first-steps.section4.button1") %></a>
-      <a href="https://meta.decidim.org/" class="button hollow black"><%= t("first-steps.section4.button2") %></a>
+  <div class="container">
+    <%= partial "/partials/testimonial-cards" %>
+    <div class="md:hidden pb-10">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
     </div>
   </div>
 </section>
 
-<%= partial "/partials/testimonials" %>
-
 <section>
-  <div class="container py-12 md:py-24">
-    <%= partial "partials/main_installations" %>
+  <div class="container space-y-6 md:pt-16 flex flex-col md:flex-row justify-between">
+    <div class="space-y-6">
+      <div class="flex flex-col border-b border-gray-300 pb-5">
+        <h2 class="h2 text-black">
+          <%= t("first-steps.section6.title") %>
+        </h2>
+        <div class="flex flex-col gap-2">
+          <p class="par-md max-w-prose text-black pt-5">
+            <%= t("first-steps.section6.intro") %>
+          </p>
+          <p class="par-md max-w-prose text-black pb-5">
+            <%= t("first-steps.section6.intro2") %>
+          </p>
+        </div>
+        <div class="flex flex-col gap-3">
+          <h5 class="h5 text-black">
+            <%= t("first-steps.section7.title") %>
+          </h5>
+          <p class="par-md max-w-prose text-black">
+            <%= t("first-steps.section7.intro") %>
+          </p>
+          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section7.link"), url: "https://docs.decidim.org/en/develop/install/", classes: "text-red-500 par-md mt-auto block", span_classes: "text-[20px] leading-[28px]", icon_name: "ri-external-link-line", icon_classes: "w-6 h-6" } %>
+        </div>
+      </div>
+      <div class="flex flex-col gap-5">
+        <h5 class="h5 text-black">
+          <%= t("first-steps.section8.title") %>
+        </h5>
+        <p class="par-md max-w-prose text-black">
+          <%= t("first-steps.section8.intro") %>
+        </p>
+          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section8.link"), url: "#{t(:path)}/partners", classes: "text-red-500 mt-auto block", span_classes: "text-[20px] leading-[28px]", icon_classes: "w-6 h-6" } %>
+      </div>
+    </div>
+    <div class="w-full md:w-2/5">
+      <img src="/images/how_to_start_decidim.jpg" alt="How to start Decidim" class="w-full">
+    </div>
   </div>
 </section>
 
-<%= partial "/partials/faq" %>
+<section class="container py-10 md:pt-16">
+  <div class="space-y-5 md:p-10 p-4 bg-gray-100 rounded-xl">
+    <h2 class="text-black font-normal text-2xl md:text-5xl md:font-light">
+      <%= t("first-steps.section4.title") %>
+    </h2>
+    <p class="par-md text-black">
+      <%= t("first-steps.section4.subtitle") %>
+    </p>
+    <p class="par-md text-black">
+      <%= t("first-steps.section4.intro") %>
+    </p>
+    <div class="inline-flex flex-col md:flex-row gap-4 par-md">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section4.button1"), url: "#{t(:path)}/about", classes: "text-black", outline_classes: "outline-black md:rounded-2xl rounded-lg", span_classes: "text-[16px] leading-[22px]", hover_bg_classes: "hover:bg-white", padding_classes: "px-3 py-1 md:px-4 md:py-2.5", icon_classes: "w-4 h-4 md:w-6 md:h-6" } %>
+    </div>
+  </div>
+</section>
 
 <%= partial "/partials/cta-banner" %>

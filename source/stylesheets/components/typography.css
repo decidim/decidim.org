@@ -4,7 +4,7 @@
 
 /* headings */
 .h1 {
-  @apply font-semibold text-[32px] md:text-[60px] leading-[38px] md:leading-[60px];
+  @apply font-semibold text-[36px] md:text-[60px] leading-[40px] md:leading-[60px];
 }
 
 .h2 {
@@ -20,7 +20,7 @@
 }
 
 .h5 {
-  @apply font-semibold text-[20px] md:text-[24px] leading-[24px] md:leading-[28px];
+  @apply font-semibold text-[24px] md:text-[24px] leading-[28px] md:leading-[28px];
 }
 
 .h6 {
