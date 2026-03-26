@@ -21,14 +21,14 @@ description:
 
 <section>
   <div class="container py-10">
-    <h3 class="h3">
+    <h2 class="h2">
       <%= t("features.type1.title") %>
-    </h3>
+    </h2>
 
     <div class="hidden md:block mt-8 border-gray-100" data-tabs="features">
-      <ul role="tablist" class="flex items-center space-x-6">
+      <ul role="tablist" class="flex items-center space-x-4">
         <% data.features.spaces.each_with_index do |use, i| %>
-          <li role="tab" tabindex="0" class="items-center px-4 py-2.5 rounded-xl text-red-500 bg-red-100 outline-offset-[-1px] hover:text-white hover:bg-red-500 flex gap-2 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
+          <li role="tab" tabindex="0" class="items-center px-4 py-2 rounded-xl text-red-500 bg-red-100 outline-offset-[-1px] hover:text-white hover:bg-red-500 flex gap-2 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
             <%= icon use.icon, class: "w-5 h-5" %>
             <span class="par-md">
               <%= t("features.page.#{use.id}.title") %>
@@ -42,7 +42,7 @@ description:
             <p class="par-lg max-w-prose">
               <%= t("features.page.#{use.id}.subtitle") %>
             </p>
-            <p class="par-md text-gray-500 mt-2 max-w-prose">
+            <p class="par-md text-black mt-2 max-w-prose">
               <%= t("features.page.#{use.id}.text") %>
             </p>
           </div>
@@ -171,11 +171,11 @@ description:
 </section>
 
 <section class="bg-red-100 py-12 md:py-16">
-  <div class="container space-y-6">
-    <h1 class="h1 text-red-500">
+  <div class="container">
+    <h2 class="h2 text-red-500">
       <%= t("features.section4.title") %>
-    </h1>
-    <div class="inline-flex flex-col md:flex-row gap-4 par-md">
+    </h2>
+    <div class="inline-flex flex-col md:flex-row gap-4 par-md md:pt-10 pt-5">
       <%= partial "partials/arrow-link-rounded", locals: { text: t("features.section4.link"), url: "https://try.decidim.org/" } %>
     </div>
   </div>
@@ -185,9 +185,9 @@ description:
   <div class="container flex flex-col md:flex-row items-stretch py-12 space-y-6">
     <div class="md:w-3/5 flex items-center p-6">
       <div class="space-y-6">
-        <h1 class="h1 text-black">
+        <h2 class="h2 text-black">
           <%= t("features.section3.title").html_safe %>
-        </h1>
+        </h2>
         <p class="par-md max-w-prose text-black">
           <%= t("features.section3.text") %>
         </p>
