@@ -106,9 +106,9 @@ description:
             <div class="flex flex-row flex-wrap gap-5">
               <% items = data.features.send(component_key.to_sym).items %>
               <% items.each_with_index do |use, item_idx| %>
-                <div class="rounded-xl bg-gray-100 p-6 flex flex-col justify-start items-start gap-4 <%= component_key == 'components_group_4' ? 'basis-[calc(33.333%-1.4rem)] grow-0' : 'flex-1' %>">
+                <div class="rounded-xl bg-gray-100 p-6 flex flex-col justify-start items-start <%= component_key == 'components_group_4' ? 'basis-[calc(33.333%-1.4rem)] grow-0' : 'flex-1' %>">
                   <%= icon use.icon, class: "w-7 h-7" %>
-                  <h6 class="h6">
+                  <h6 class="h6 py-5">
                     <%= I18n.t("features.page.#{use.id}.title") %>
                   </h6>
                   <p class="par-md max-w-prose first-letter:uppercase">
