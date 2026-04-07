@@ -26,8 +26,8 @@ collections:
     folder: "source/blog/en"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}} -- {{year}}-{{month}}-{{day}}"
-    extension: "html.md"
-    format: "frontmatter"
+    extension: "md"
+    format: "yaml-frontmatter"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
