@@ -25,8 +25,8 @@ description:
       <%= t("features.type1.title") %>
     </h2>
 
-    <div class="hidden md:block mt-8 border-gray-100" data-tabs="features">
-      <ul role="tablist" class="flex items-center space-x-4">
+    <div class="hidden md:block border-gray-100" data-tabs="features">
+      <ul role="tablist" class="flex items-center space-x-4 py-10">
         <% data.features.spaces.each_with_index do |use, i| %>
           <li role="tab" tabindex="0" class="items-center px-4 py-2 rounded-xl text-red-500 bg-red-100 outline-offset-[-1px] hover:text-white hover:bg-red-500 flex gap-2 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
             <%= icon use.icon, class: "w-5 h-5" %>
@@ -37,7 +37,7 @@ description:
         <% end %>
       </ul>
       <% data.features.spaces.each_with_index do |use, i| %>
-        <div class="hidden flex flex-col md:flex-row items-stretch md:items-center gap-6 mt-10 <%= 'is-selected' if i == 0 %>" data-tab-content="<%= use.id %>">
+        <div class="hidden flex flex-col md:flex-row items-stretch md:items-center gap-6 <%= 'is-selected' if i == 0 %>" data-tab-content="<%= use.id %>">
           <div class="md:w-3/5">
             <p class="par-lg max-w-prose">
               <%= t("features.page.#{use.id}.subtitle") %>
