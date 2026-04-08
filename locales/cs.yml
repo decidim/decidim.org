@@ -41,13 +41,10 @@ cs:
   case_study:
     n1:
       org: Město Helsinki
-      quote: Zhodnotili jsme sedm různých možností participativního sestavování rozpočtu, abychom našli správnou platformu pro Helsinský proces s jednoduchým rozhraním a požadovanou modularitou pro různé druhy potřeb. Společnost Decidim vyhrála hodnocení a první instance byly postaveny v roce 2018.
     n2:
-      org: Kód pro Japonsko
-      quote: Decidim poskytuje přizpůsobivou architekturu, abychom ji mohli přizpůsobit naší domácí situaci.
+      org: Decidim Barcelona
     n3:
-      org: Evropská komise
-      quote: Tyto prostředky jsou určeny na pokrytí výdajů na zaměstnance a správních výdajů úřadu (hlavy 1 a 2) a provozních výdajů na pracovní program (hlava 3). V tomto období bylo předloženo 18 859 myšlenek a 22 167 připomínek a bylo uspořádáno 6 661 akcí. Příspěvky shromážděné prostřednictvím digitální platformy byly přijaty komisí evropských občanů a projednány na plenárním zasedání konference - dalších dvou hlavních pilířů konference.
+      org: Future of Europe
   community:
     community1: Navrhněte a pomozte definovat nové funkce
     community2: Nahlásit chyby a pomoci vývojářům je opravit
@@ -167,6 +164,13 @@ cs:
       install: Instalace a licence
       installation: Instalace a licence
       users: Uživatelé a role
+  feature_cards:
+    meetings:
+      f3: Organize face-to-face or online <strong>meetings</strong>, manage registrations, and publish the agenda.<br> And much more!
+    proposals:
+      f1: Collect <strong>proposals</strong> from participants, enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
+    voting:
+      f2: Prioritize proposals using various <strong>voting</strong> methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
   features:
     intro: "<p>Můžete použít Decidim ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, sdružení, univerzita, nevládní organizace, odborové svazy, sdružení sousedů nebo družstvo...</p><p>Díky Decidim budete moci konfigurovat <strong>mezery</strong> pro účast (iniciativy, shromáždění, procesy nebo konzultace) a obohacují je prostřednictvím více dostupných <strong>komponentů</strong> (osobní schůzky, průzkumy, návrhy, hlasování, sledování výsledků, <strong>poznámky</strong> a mnoho dalších).</p>"
     page:
@@ -255,31 +259,46 @@ cs:
       pre: Pro technology
       title: Instalace Decidim
     first-steps2:
-      content: Zjistěte, jak může společnost Decidim uspokojit vaše potřeby, ať už jde o velkou nebo malou organizaci.
+      content: For big or small organisations, discover how Decidim can help you to implement a democratic governance model.
       link1: Vlastnosti
       pre: Pro organizace
-      title: Správný nástroj pro vás
+      title: Community Governance
     first-steps3:
-      content: Pokud vaši zastupitelé ve městě uvažují o zavádění participativních politik, zjistěte, jak je můžete přesvědčit, aby to udělali.
+      content: If your government is considering the implementation of participatory policies, discover how Decidim can help you make the case and turn those ideas into reality.
       link1: Najděte partnera
       pre: Pro vlády
-      title: Decidim ve vašem městě
-    intro: Je to svobodný/libre a open-source webový software, udržovaný extenzivní a aktivní komunitou. Můžete použít Decidim ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, sdružení, univerzita, nevládní organizace, odborové svazy, sdružení sousedů nebo družstvo...
+      title: Democratize Public Decision-Making
+    intro: It’s a free/libre and open-source web-based software, maintained by an extensive and active community. It’s designed to help governments, organizations, and communities to engage people in transparent, structured decision-making processes.
     section2:
-      link: Prozkoumejte všechny funkce
-      subtitle: Flexibilní funkce systému Decidim jsou navrženy tak, aby mohly sloužit malým i velkým kolektivům, veřejným i soukromým organizacím se stovkami nebo tisíci potenciálních uživatelů.
-      title: Je pro vás Decidim tím správným nástrojem?
+      link: Read more case studies
+      subtitle: Learn how cities, governments, and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some inspiring successful cases!
+      title: Kde se používá
     section3:
-      cta: Přečtěte si další případové studie na našem blogu
       link: Přečtěte si případovou studii
       title: Podporováno technologiemi, demokracií a zkušenostmi
     section4:
-      button1: O asociaci
-      button2: Připojit se ke komunitě
-      intro: <strong>Decidim Free Software Association</strong> je demokratické sdružení pro správu komunity Decidim.
-      subtitle: "<strong>Metadecidim</strong> je komunita, která spolupracuje na návrhu platformy a vývoji projektu. Společně navrhujeme a vytváříme nové funkce a oznamujeme chyby pro trvalé zlepšování platformy."
+      button1: O nás
+      intro: The Decidim Free Software Association is a democratic association for the governance of the Decidim community in charge of maintaining the source code.
+      subtitle: Metadecidim is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform.
       title: Kdo stojí za platformou?
-    subtitle: Decidim je digitální platforma<br/>pro participaci občanů
+    section5:
+      intro: 'With Decidim you can:'
+      link: Explore the features
+      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users, such as city councils, associations, universities, NGOs or cooperatives.
+      title: Is Decidim the right tool for you?
+    section6:
+      intro: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework.
+      intro2: 'You can get started in two ways:'
+      title: How to Start Using Decidim
+    section7:
+      intro: They can install Decidim by following the steps in the official documentation site.
+      link: Read the installation guide
+      title: 'Your organization has developers:'
+    section8:
+      intro: You’ll need a tech company to install, configure, and maintain Decidim. We recommend working with a local provider or choosing one from our official partners page.
+      link: Najděte partnera
+      title: 'Your organization does not have developers:'
+    subtitle: Decidim is a digital platform for<br/>democratic participation and<br/>community governance
     title: První kroky s Decidim
   footer:
     about_us: O nás
