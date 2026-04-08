@@ -22,7 +22,7 @@ module.exports = {
       padding: {
         DEFAULT: "1.5rem",
         md: "4rem",
-        xl: "8rem",
+        xl: "10.625rem",
       },
     },
     fontFamily: {
