@@ -166,7 +166,7 @@ cs:
       users: Uživatelé a role
   feature_cards:
     meetings:
-      f3: Organize face-to-face or online <strong>meetings</strong>, manage registrations, and publish the agenda.<br> And much more!
+      f3: Organizujte osobní nebo online <strong>schůzky</strong>, spravujte registrace a zveřejňujte program. <br>A mnohem více!
     proposals:
       f1: Sbírejte <strong>návrhy</strong> od účastníků, obohacené geolokací a přílohami, sjednoťte podobné návrhy a nastavte pracovní postup pro oficiální schválení nebo odmítnutí.
     voting:
@@ -270,35 +270,35 @@ cs:
       title: Demokratizujte veřejné rozhodování
     intro: Jde o bezplatný/svobodný a open-source webový software, spravovaný rozsáhlou a aktivní komunitou. Má pomoci vládám, organizacím a komunitám zapojit lidi do transparentních, strukturovaných rozhodovacích procesů.
     section2:
-      link: Read more case studies
-      subtitle: Learn how cities, governments, and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some inspiring successful cases!
+      link: Přečtěte si více případových studií
+      subtitle: Naučte se, jak města, vlády a organizace již používají Decidim různými způsoby a scénáři, s rozmanitými účely a příběhy. Podívejte se na některé inspirující úspěšné případy!
       title: Kde se používá
     section3:
       link: Přečtěte si případovou studii
       title: Podporováno technologiemi, demokracií a zkušenostmi
     section4:
       button1: O nás
-      intro: The Decidim Free Software Association is a democratic association for the governance of the Decidim community in charge of maintaining the source code.
-      subtitle: Metadecidim is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform.
+      intro: The Decidim Free Software Association je demokratické sdružení pro správu komunity Decidim odpovědné za údržbu zdrojového kódu.
+      subtitle: .
       title: Kdo stojí za platformou?
     section5:
-      intro: 'With Decidim you can:'
-      link: Explore the features
-      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users, such as city councils, associations, universities, NGOs or cooperatives.
-      title: Is Decidim the right tool for you?
+      intro: 'S Decidim můžete:'
+      link: Prozkoumejte funkce
+      subtitle: Flexibilní prvky rozhodnutí jsou navrženy tak, aby sloužily malým i velkým kolektivům, veřejným i soukromým organizacím, se stovkami nebo tisíci potenciálních uživatelů, jako jsou městské rady, sdružení, univerzity, nevládní organizace nebo družstva.
+      title: Je pro vás Decidim tím správným nástrojem?
     section6:
-      intro: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework.
-      intro2: 'You can get started in two ways:'
-      title: How to Start Using Decidim
+      intro: Chcete-li začít používat Decidim, musíte nainstalovat aplikaci na server. Protože Decidim je postaven s Ruby on Rails, instalace vyžaduje vývojáře se zkušenostmi v tomto frameworku.
+      intro2: 'Můžete začít dvěma způsoby:'
+      title: Jak začít používat Decidim
     section7:
-      intro: They can install Decidim by following the steps in the official documentation site.
-      link: Read the installation guide
-      title: 'Your organization has developers:'
+      intro: Můžete nainstalovat Decidim následováním kroků na oficiální stránce dokumentace.
+      link: Přečtěte si instalační příručku
+      title: 'Vaše organizace má vývojáře:'
     section8:
-      intro: You’ll need a tech company to install, configure, and maintain Decidim. We recommend working with a local provider or choosing one from our official partners page.
+      intro: Pro instalaci, konfiguraci a údržbu Decidimu budete potřebovat technologickou společnost. Doporučujeme pracovat s místním poskytovatelem nebo vybrat si z našich oficiálních partnerských stránek.
       link: Najděte partnera
-      title: 'Your organization does not have developers:'
-    subtitle: Decidim is a digital platform for<br/>democratic participation and<br/>community governance
+      title: 'Organizace nemá vývojáře:'
+    subtitle: Decidim je digitální platforma pro<br/>demokratickou účast a<br/>správu komunit
     title: První kroky s Decidim
   footer:
     about_us: O nás
@@ -340,7 +340,7 @@ cs:
       title: Již používají Decidim
   legal-notice:
     section-1:
-      paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Carrer Concepción Arenal 165, Number 165, Canòdrom - Ateneu d''Innovació Digital i Democràtica, Barcelona, postal code 08027, Spain and ID number G67401174.</p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p> '
+      paragraph: '<p>Vstupujete na webovou stránku společnosti Associació de Software Lliure Decidim („Decidim“, „nás“ nebo „my“) dostupnou prostřednictvím webové domény <a href="https://decidim.org">https://decidim.org/</a> (dále jen „webová stránka“) se sídlem v Carrer Concepción Arenal 165, Number 165, Canòdrom - Ateneu d''Innovació Digital i Democràtica, Barcelona, ​​PSČ 08027, Španělsko a ID číslem G67401174.</p><p><b>Kontaktovat nás můžete na adrese: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p> '
       title: Kdo jsme
     section-2:
       paragraph: "<p>Účelem této webové stránky je poskytovat veřejnosti obecné informace o Decidim, Rozhodnutí Rady 2013/743/Eu ze dne 3. prosince 2013 o zavedení zvláštního programu, kterým se provádí Horizont 2020 –rámcový program pro výzkum a inovace (2014–2020), a o zrušení rozhodnutí 2006/971/Es, 2006/972/Es, 2006/973/Es, 2006/974/Es a 2006/975/Es (Úř. věst. a správa komunity Decidim vytvořené po celém světě z naší společné technologie umožňující rozvoj občanů a přidružených projektů s větší sociální účastí. S naším online demo můžete svobodně testovat platformu Decidim.</p> <p>Účelem podmínek používání tohoto právního oznámení je řídit povolené používání těchto webových stránek a služeb a/nebo obsahu v souladu se zákonem č. 34/2002 o službách informační společnosti a elektronickém obchodu a dalšími platnými právními předpisy.</p>"
