@@ -41,13 +41,10 @@ fr:
   case_study:
     n1:
       org: Ville d'Helsinki
-      quote: Nous avons évalué sept types différents de budget participatif afin de trouver la bonne plateforme pour propulser celui d'Helsinki, avec une interface facile à utiliser et une modularité requise pour différents types de besoins. Decidim a remporté l'évaluation et les premières instances ont été construites en 2018.
     n2:
-      org: Code for Japan
-      quote: Decidim fournit une architecture adaptée aux besoins des clients afin de l'adapter à leurs besoins.
+      org: Decidim Barcelona
     n3:
-      org: Commission européenne
-      quote: La plateforme numérique a été lancée le 19 avril 2021 et était ouverte aux contributions jusqu'au 9 mai 2022. Au cours de cette période, 18 859 idées et 22 167 commentaires ont été soumis, et 6 661 événements ont été organisés. Les contributions recueillies par le biais de la plateforme numérique ont été prises en compte par les panels des citoyens européens et ont été débattues et discutées lors de la session plénière de la conférence - les deux autres piliers principaux de la Conférence.
+      org: Future of Europe
   community:
     community1: Proposez et aidez à définir de nouvelles fonctionnalités
     community2: Signalez les bugs et aidez les développeurs à les corriger
@@ -167,6 +164,13 @@ fr:
       install: Installation et licence
       installation: Installation et licence
       users: Utilisateurs et rôles
+  feature_cards:
+    meetings:
+      f3: Organize face-to-face or online <strong>meetings</strong>, manage registrations, and publish the agenda.<br> And much more!
+    proposals:
+      f1: Collect <strong>proposals</strong> from participants, enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
+    voting:
+      f2: Prioritize proposals using various <strong>voting</strong> methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
   features:
     intro: "<p>Vous pouvez utiliser Decidim dans une organisation publique ou privée, avec des centaines ou des milliers de participants potentiels, comme un conseil municipal, une association, une université, une ONG, un syndicat, une association de quartier ou une coopérative...</p><p>Grâce à Decidim vous pourrez configurer des <strong>espaces</strong> de participation (pétitions, assemblées, concertations ou élections) et les enrichir grâce aux multiples <strong>fonctionnalités disponibles</strong> (rencontres, enquêtes, propositions, vote, suivi des résultats, <strong>commentaires</strong> et bien plus encore).</p>"
     page:
@@ -255,31 +259,46 @@ fr:
       pre: Pour les technologistes
       title: Installer Decidim
     first-steps2:
-      content: Pour les petites ou grandes entreprises, découvrez comment Decidim peut répondre à vos besoins.
+      content: For big or small organisations, discover how Decidim can help you to implement a democratic governance model.
       link1: Fonctionnalités
       pre: Pour les organisations
-      title: Le bon outil pour vous
+      title: Community Governance
     first-steps3:
-      content: Si votre ville envisage de déployer des politiques participatives, découvrez comment les en convaincre.
+      content: If your government is considering the implementation of participatory policies, discover how Decidim can help you make the case and turn those ideas into reality.
       link1: Trouver un partenaire
       pre: Pour les gouvernements
-      title: Decidim dans votre ville
-    intro: Il s’agit d’un logiciel web libre et open-source, maintenu par une communauté étendue et active. Vous pouvez utiliser Decidim dans une organisation publique ou privée, avec des centaines ou des milliers de participants potentiels, comme un conseil municipal, une association, une université, une ONG, un syndicat, une association de quartier ou une coopérative...
+      title: Democratize Public Decision-Making
+    intro: It’s a free/libre and open-source web-based software, maintained by an extensive and active community. It’s designed to help governments, organizations, and communities to engage people in transparent, structured decision-making processes.
     section2:
-      link: Explorer toutes les fonctionnalités
-      subtitle: Les fonctionnalités flexibles de Decidim sont conçues pour servir à la fois les petits et les grands collectifs, les organisations publiques et privées, avec des centaines ou des milliers d'utilisateurs potentiels.
-      title: Decidim est-il le bon outil pour vous ?
+      link: Read more case studies
+      subtitle: Learn how cities, governments, and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some inspiring successful cases!
+      title: Cas d'usages
     section3:
-      cta: Découvrez plus d'études de cas sur notre blog
       link: Lire l'étude de cas
       title: Soutenu par la technologie, la démocratie et l'expérience
     section4:
-      button1: À propos de l'association
-      button2: Rejoignez la communauté
-      intro: L'<strong>Association du logiciel libre Decidim</strong> est une association démocratique pour la gouvernance de la communauté Decidim.
-      subtitle: "<strong>Metadecidim</strong> est la communauté qui collabore à la conception de la plateforme et au développement du projet. Ensemble, nous concevons et créons de nouvelles fonctionnalités et signalons des bugs pour améliorer continuellement la plateforme."
+      button1: À propos de nous
+      intro: The Decidim Free Software Association is a democratic association for the governance of the Decidim community in charge of maintaining the source code.
+      subtitle: Metadecidim is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform.
       title: Qui est derrière la plateforme ?
-    subtitle: Decidim est une plateforme numérique<br/>pour la participation des citoyens
+    section5:
+      intro: 'With Decidim you can:'
+      link: Explore the features
+      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users, such as city councils, associations, universities, NGOs or cooperatives.
+      title: Is Decidim the right tool for you?
+    section6:
+      intro: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework.
+      intro2: 'You can get started in two ways:'
+      title: How to Start Using Decidim
+    section7:
+      intro: They can install Decidim by following the steps in the official documentation site.
+      link: Read the installation guide
+      title: 'Your organization has developers:'
+    section8:
+      intro: You’ll need a tech company to install, configure, and maintain Decidim. We recommend working with a local provider or choosing one from our official partners page.
+      link: Trouver un partenaire
+      title: 'Your organization does not have developers:'
+    subtitle: Decidim is a digital platform for<br/>democratic participation and<br/>community governance
     title: Premiers pas avec Decidim
   footer:
     about_us: À propos de nous
