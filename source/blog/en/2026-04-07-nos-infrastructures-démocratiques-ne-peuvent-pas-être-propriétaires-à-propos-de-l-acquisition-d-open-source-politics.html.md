@@ -5,7 +5,7 @@ tags: ''
 
 [Read the post in English](#eng)
 
-La semaine dernière, la société Open Source Politics (OSP) a annoncé publiquement son rachat par Go Vocal. Cette situation résulte des difficultés financières auxquelles l'entreprise française a été confrontée ces dernières années.
+La semaine dernière, la société [Open Source Politics](https://opensourcepolitics.eu/) (OSP) a annoncé publiquement son rachat par Go Vocal. Cette situation résulte des difficultés financières auxquelles l'entreprise française a été confrontée ces dernières années.
 
 Tout d’abord, nous tenons à remercier OSP pour son travail et pour la contribution significative qu’elle a apportée à la communauté Decidim au cours des dix dernières années. En tant que l’un des premiers partenaires internationaux à avoir rejoint le projet et à avoir diffusé Decidim à travers la France et au-delà, vous faites partie de l’histoire collective de Decidim.
 
@@ -27,7 +27,7 @@ _[english]_
 
 ## <a name="eng"></a>Democratic infrastructure cannot be proprietary: A statement on Open Source Politics' acquisition
 
-Last week, it was publicly announced that Open Source Politics (OSP) has been acquired by Go Vocal. This situation has arisen due to the financial difficulties the French company has faced in recent years.
+Last week, it was publicly announced that [Open Source Politics](https://opensourcepolitics.eu/) (OSP) has been acquired by Go Vocal. This situation has arisen due to the financial difficulties the French company has faced in recent years.
 
 Firstly, we would like to thank OSP for their work and the significant contribution they have made to the Decidim community over the past ten years. As one of the first international partners to join the project and having spread Decidim throughout France and beyond, you are part of Decidim’s collective history.
 
