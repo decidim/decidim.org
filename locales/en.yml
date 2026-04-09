@@ -199,9 +199,10 @@ en:
         text: Can be used to convert long text documents into several proposals or results and, vice versa, to compose and display a unified text based on a collection of proposals or results.
         title: Collaborative texts
       feature11:
+        label: CONFERENCES
         subtitle: Where big events are premiered
         text: Create a website for a big event. Unify the program by joining up a series predefined meetings (chats, workshops, etc.), and manage attendees.
-        title: Conference
+        title: Conferences
       feature12:
         subtitle: Because the opinion of your community matters
         text: Design and publish surveys. Display and download results.
@@ -243,11 +244,6 @@ en:
         subtitle: Simple and user-friendly voting processes
         text: Set up elections to support decision-making. Upload your census or activate a token system for voting. Participants cast their votes through a secure voting booth, and once voting closes, you can publish the results.
         title: Elections
-      feature3:
-        label: CONFERENCES
-        subtitle: Decide your choice
-        text: 'Offer organisations the possibility of activating different voting systems around proposals: unlimited, limited to a given threshold, cost-based, etc.'
-        title: Conferences
       feature4:
         label: INITIATIVES
         subtitle: Setting everyone's agenda, within everyone's reach
@@ -273,13 +269,13 @@ en:
         subtitle: To meet and not miss anything
         text: The meeting component offers organizations and participants the opportunity to convene meetings, determine their location and time, register and limit attendees, define the structure and content of the meeting as well as publishing the minutes, and the resulting proposals.
         title: Meetings
-    subtitle: The platform for democratic organisations and communities of any size and kind.
     section3:
       text: Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic participation in all kinds of organizations. Choose the features that best suit your needs and customise your participatory process.
       title: A <span class="text-red-500">customizable system</span> for </br>participation
     section4:
-      title: Want to play and see how it works in a real-world environment?
       link: Try our online demo
+      title: Want to play and see how it works in a real-world environment?
+    subtitle: The platform for democratic organisations and communities of any size and kind.
     title: Features
     type1:
       title: Spaces for participation
