@@ -67,10 +67,11 @@ description:
       </ul>
       <% data.features.spaces.each_with_index do |use, i| %>
         <div class="hidden flex-col gap-4 mt-6 <%= 'is-selected' if i == 0 %>" data-tab-content="<%= use.id %>">
-          <p class="par-lg max-w-prose">
+          <label class="text-black font-semibold"><%= t("features.page.#{use.id}.label") %></label>
+          <h6 class="h6 text-gray-500 max-w-prose">
             <%= t("features.page.#{use.id}.title") %>&nbsp;<%= t("features.page.#{use.id}.subtitle") %>
-          </p>
-          <p class="par-md text-gray-500 max-w-prose">
+          </h6>
+          <p class="par-md text-black max-w-prose">
             <%= t("features.page.#{use.id}.text") %>
           </p>
           <div class="rounded-xl overflow-hidden bg-gray-300">
