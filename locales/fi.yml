@@ -41,13 +41,10 @@ fi:
   case_study:
     n1:
       org: Helsingin kaupunki
-      quote: Arvioimme seitsemää järjestelmää osallistuvaan budjetointiin löytääksemme oikean alustan tukemaan Helsingin prosessia helppokäyttöisellä käyttöliittymällä ja tarvitulla modulaarisuudella. Decidim voitti arvioinnin ja ensimmäiset alustat sen avulla rakennettiin vuonna 2018.
     n2:
-      org: Code for Japan
-      quote: Decidim tarjoaa helposti räätälöitävän arkkitehtuurin, jonka avulla voimme mukauttaa sen kansallisiin tarpeisiimme.
+      org: Decidim Barcelona
     n3:
-      org: Euroopan komissio
-      quote: Digitaalinen alusta julkaistiin 19.4.2021 ja osallistumismahdollisuudet olivat avoinna 9.5.2022 saakka. Tänä aikana Euroopan kansalaiset lähettivät alustan kautta 18 859 ideaa, 22 167 kommenttia ja järjestivät noin 6 661 tapahtumaa. Euroopan kansalaispaneelit ottivat alustan kautta kerätyn tiedon käyttöönsä ja debatoivat sekä keskustelivat tästä Euroopan tulevaisuuskonferenssin täysistunnossa.
+      org: Future of Europe
   community:
     community1: Ehdota ja auta määrittelemään uusia ominaisuuksia
     community2: Ilmoita bugeja ja auta kehittäjiä korjaamaan ne
@@ -66,14 +63,14 @@ fi:
     privacy_policy:
       accept: Hyväksyn <a href="%{privacy_policy_url}">tietosuojaselosteen</a>
       message: "<p>Kun otat meihin yhteyttä yhteydenottolomakkeella, sähköpostilla tai muulla vastaavalla viestintävälineellä, keräämme automaattisesti sinusta seuraavat tiedot: nimi, organisaatio, sähköpostiosoite ja viestin sisältö, jotta voimme käsitellä yhteydenottosi, kommenttisi, pyyntösi, ehdotuksesi, jne.</p><p>Lisäksi voimme käsitellä tätä tietoa tilastollisissa tutkimuksissa käyttäen hyväksi pseudonymisointi- ja anonymisointitekniikoita, kuten tietojen aggrekointia tai koontia, mikä estää yksittäisten käyttäjien tunnistamisen ja yksilöinnin datan jatkokäsittelyn yhteydessä.</p>"
-    reason: Reason for contact
+    reason: Yhteydenoton syy
     reasons:
-      community: I want to join the Decidim Community.
-      installing: I have a question about installing Decidim.
-      other: Other.
-      researcher: I'm a researcher studying Decidim.
-      selected: Select an option.
-      service_provider: I need a Decidim service provider.
+      community: Haluan liittyä osaksi Decidim-yhteisöä.
+      installing: Minulla on kysymys Decidimin asentamisesta.
+      other: Muu syy.
+      researcher: Olen Decidim-alustasta kiinnostunut tutkija.
+      selected: Valitse vaihtoehto.
+      service_provider: Tarvitsen palveluntarjoajan, joka voi auttaa Decidim-alustan kanssa.
     send: Lähetä viesti
     subtitle: Jos haluat ottaa yhteyttä, täytä yhteydenottolomake tai lähetä meille sähköpostia osoitteeseen
     title: Ota yhteyttä Decidimiin
@@ -167,6 +164,13 @@ fi:
       install: Asennus ja lisenssi
       installation: Asennus ja lisenssi
       users: Käyttäjät ja roolit
+  feature_cards:
+    meetings:
+      f3: Organize face-to-face or online <strong>meetings</strong>, manage registrations, and publish the agenda.<br> And much more!
+    proposals:
+      f1: Collect <strong>proposals</strong> from participants, enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
+    voting:
+      f2: Prioritize proposals using various <strong>voting</strong> methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
   features:
     intro: "<p>Voit käyttää Decidimiä julkisessa tai yksityisessä organisaatiossa, jossa on satoja tai tuhansia potentiaalisia osallistujia. Organisaationa voi toimi esimerkiksi kaupunginvaltuusto, yhdistys, yliopisto, kansalaisjärjestö, ammattiliitto, asukasyhteisö tai osuuskunta...</p><p>Decidimin avulla voit määrittää <strong>osallistumistiloja</strong> (aloitteet, ryhmät, prosessit tai kuulemiset) ja lisätä niihin useita käytettävissä olevia <strong>ominaisuuksia</strong> (tapaamiset, kyselyt, ehdotukset, äänestykset, äänestystulosten seuranta, <strong>kommentointi</strong>, jne.).</p>"
     page:
@@ -255,31 +259,46 @@ fi:
       pre: Teknologisille ihmisille
       title: Decidimin asennus
     first-steps2:
-      content: Suurille tai pienille organisaatioille, tutustu kuinka Decidim voi palvella tarpeitanne.
+      content: For big or small organisations, discover how Decidim can help you to implement a democratic governance model.
       link1: Ominaisuudet
       pre: Organisaatioille
-      title: Oikea työkalu sinulle
+      title: Community Governance
     first-steps3:
-      content: Jos kuntasi suunnittelee osallistumismahdollisuuksien tarjoamista, tutustu kuinka voit vakuuttaa heidät tekemään sen.
+      content: If your government is considering the implementation of participatory policies, discover how Decidim can help you make the case and turn those ideas into reality.
       link1: Löydä kumppani
       pre: Kansalaishallinnoille
-      title: Decidim omassa kunnassasi
-    intro: Vapaa ja avoimen lähdekoodin verkkopohjainen ohjelmisto, jota ylläpitää laaja ja aktiivinen yhteisö. Voit käyttää Decidimiä julkisessa tai yksityisessä organisaatiossa, jossa on satoja tai tuhansia potentiaalisia osallistujia. Esimerkkejä tällaisista organisaatioista ovat kaupunginvaltuustot, yhdistykset, yliopistot, kansalaisjärjestöt, ammattiliitot, naapuruusyhdistykset, osuuskunnat, jne...
+      title: Democratize Public Decision-Making
+    intro: It’s a free/libre and open-source web-based software, maintained by an extensive and active community. It’s designed to help governments, organizations, and communities to engage people in transparent, structured decision-making processes.
     section2:
-      link: Tutustu ominaisuuksiin
-      subtitle: Decidimin joustavat ominaisuudet on suunniteltu palvelemaan niin pieniä kuin suuria yhteisöitä, joissa on satoja tai tuhansia potentiaalisia käyttäjiä.
-      title: Onko Decidim oikea työkalu minulle?
+      link: Read more case studies
+      subtitle: Learn how cities, governments, and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some inspiring successful cases!
+      title: Decidimiä käyttävät organisaatiot
     section3:
-      cta: Lue lisää käyttötarijoita blogistamme
       link: Lue käyttötarinoita
       title: Teknologian, demokratian ja kokemuksen tukema
     section4:
-      button1: Tietoja yhdistyksestä
-      button2: Liity yhteisöön
-      intro: <strong>Decidim-yhdistys</strong> ("Decidim Free Software Association") on Decidim-yhteisön hallinnointiin keskittynyt demokraattinen yhdistys.
-      subtitle: "<strong>Metadecidim</strong> on yhteisö, joka suunnittelee alustan tulevaisuutta ja kehittää hanketta eteenpäin. Suunnittelemme ja luomme yhdessä uusia ominaisuuksia ja ilmoitamme löytämistämme ongelmista, jotta voimme parantaa alustaa jatkuvasti."
+      button1: Tietoa meistä
+      intro: The Decidim Free Software Association is a democratic association for the governance of the Decidim community in charge of maintaining the source code.
+      subtitle: Metadecidim is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform.
       title: Kuka on alustan takana?
-    subtitle: "Decidim on kansalaisosallistumisen<br/>\ndigitaalinen alusta"
+    section5:
+      intro: 'With Decidim you can:'
+      link: Explore the features
+      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users, such as city councils, associations, universities, NGOs or cooperatives.
+      title: Is Decidim the right tool for you?
+    section6:
+      intro: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework.
+      intro2: 'You can get started in two ways:'
+      title: How to Start Using Decidim
+    section7:
+      intro: They can install Decidim by following the steps in the official documentation site.
+      link: Read the installation guide
+      title: 'Your organization has developers:'
+    section8:
+      intro: You’ll need a tech company to install, configure, and maintain Decidim. We recommend working with a local provider or choosing one from our official partners page.
+      link: Löydä kumppani
+      title: 'Your organization does not have developers:'
+    subtitle: Decidim is a digital platform for<br/>democratic participation and<br/>community governance
     title: Decidimin käytön aloittaminen
   footer:
     about_us: Tietoa meistä
@@ -321,7 +340,7 @@ fi:
       title: Käytätkö jo Decidimiä?
   legal-notice:
     section-1:
-      paragraph: '<p>Käytät Associació de Software Lliure Decidim:n ("Decidim", "Yhdistys", "Me") verkkosivustoa, joka on saatavissa verkko-osoitteessa <a href="https://decidim.org/fi/">https://decidim.org/</a> (jäljempänä "Verkkosivusto"), kotipaikkana Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Espanja ja ID-numero G67401174.</p><p><b>Voit ottaa meihin yhteyttä sähköpostitse osoitteen <a href="mailto:hola@decidim.org">hola@decidim.org</a> kautta</b></p>'
+      paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Carrer Concepción Arenal 165, Number 165, Canòdrom - Ateneu d''Innovació Digital i Democràtica, Barcelona, postal code 08027, Spain and ID number G67401174.</p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p> '
       title: Keitä me olemme
     section-2:
       paragraph: "<p>Tämän Verkkosivuston tarkoitus on tarjota yleistä julkista tietoa Decidimistä, sen toiminnasta ja teknologiasta, jotka koostuvat vapaasta avoimen lähdekoodin osallistuvan demokratian alustasta kaupungeille ja organisaatioille sekä sen ympärille muodostuneen maailmanlaajuisen Decidim-yhteisön hallinnoinnista. Teknologiamme mahdollistaa kansalais- ja yhteisöhankkeiden kehittämisen laajemman yhteisöllisen osallistumisen avulla. Voit vapaasti kokeilla Decidim-alustaa julkisessa verkossa olevan demo-palvelumme kautta.</p><p>Tämän Oikeudellisen ilmoituksen sisältämien käyttöehtojen tarkoitus on säädellä tämän Verkkosivuston ja lain 34/2002 informaatioyhteiskunnan palveluista ja sähköisestä kaupasta (Law 34/2002 on Information Society Services and Electronic Commerce) sekä muiden sovellettavien lakien ja säädösten mukaan tarjottujen palveluiden ja/tai sisältöjen sallittua käyttöä.</p>"
@@ -388,7 +407,7 @@ fi:
     text: Navigaatio
     thanks: Kiitos yhteydenotostasi
     trademark: Tavaramerkkiehdot
-    transparency-portal: Transparency Portal
+    transparency-portal: Avoimuusportaali
     use-cases: Käyttötapauksia
     used_by: Decidimiä käyttävät organisaatiot
   newsletter:
@@ -531,6 +550,7 @@ fi:
   used_by:
     cta: Aloita
     disclaimer: Esitetyt logot ovat kyseisten tavaramerkkien haltijoiden omaisuutta.<br>Ne eivät ole Creative Commons By-SA -lisenssin alaista materiaalia, kuten muu tämän sivuston sisältö.
+    download_csv: Download CSV file with all the installations
     facts:
       subtitle: Decidim kasvaa ja on käytössä useissa organisaatioissa ja yhteisöissä.
       title: Tilastoja ja lukuja
