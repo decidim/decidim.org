@@ -39,9 +39,10 @@ description:
       <% data.features.spaces.each_with_index do |use, i| %>
         <div class="hidden flex flex-col md:flex-row items-stretch md:items-center gap-6 <%= 'is-selected' if i == 0 %>" data-tab-content="<%= use.id %>">
           <div class="md:w-3/5">
-            <p class="par-lg max-w-prose">
+            <label class="text-black font-semibold"><%= t("features.page.#{use.id}.label") %></label>
+            <h6 class="h6 text-gray-500 max-w-prose md:py-1 py-1">
               <%= t("features.page.#{use.id}.subtitle") %>
-            </p>
+            </h6>
             <p class="par-md text-black mt-2 max-w-prose">
               <%= t("features.page.#{use.id}.text") %>
             </p>
@@ -83,9 +84,9 @@ description:
 
 <section>
   <div class="container py-10 md:py-16">
-    <h3 class="h3">
+    <h2 class="h2">
       <%= t("features.type2.title") %>
-    </h3>
+    </h2>
     <div class="par-md pt-5">
       <%= t("features.type2.subtitle") %>
     </div>
