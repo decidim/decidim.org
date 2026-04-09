@@ -194,13 +194,17 @@ description:
         </p>
       </div>
     </div>
-    <div class="w-full md:w-2/5">
+    <div class="hidden md:block md:w-2/5">
       <img src="/images/customizable_system.svg" alt="customizable_system" class="w-full">
     </div>
   </div>
 </section>
 
-<section class="container pb-16 pt-10 md:py-16 flex flex-col md:flex-row items-stretch space-y-6 md:space-y-0 md:space-x-6">
+<div class="w-full md:hidden">
+  <img src="/images/customizable_system.svg" alt="customizable_system" class="w-full">
+</div>
+
+<section class="container py-10 md:py-16 flex flex-col md:flex-row items-stretch space-y-6 md:space-y-0 md:space-x-6">
   <div class="flex flex-col space-y-5 p-4 md:p-10 bg-gray-100 rounded-xl">
     <h2 class="text-black font-normal text-2xl md:text-5xl md:font-light">
       <%= t("features.modules.title") %>
