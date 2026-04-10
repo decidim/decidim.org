@@ -32,7 +32,7 @@ description:
           <h5 class="h5 pt-6"><%= t("first-steps.#{item.title}") %></h5>
           <p class="par-md max-w-prose text-black pt-3 md:pb-6"><%= t("first-steps.#{item.content}") %></p>
         </div>
-        <%= partial "partials/arrow-link", locals: { text: t("first-steps.#{item.link}"), url: item.url1, classes: "text-red-500 par-md mt-4 block", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+        <%= partial "partials/arrow-link", locals: { text: t("first-steps.#{item.link}"), url: item.url, classes: "text-red-500 par-md mt-4 block", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
       </div>
     <% end %>
   </div>
