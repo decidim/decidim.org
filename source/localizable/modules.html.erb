@@ -24,7 +24,7 @@ description:
     <div class="w-full md:w-1/4 md:sticky top-0">
       <div class="flex flex-col gap-3 md:gap-2 mb-8">
         <div class="relative my-2">
-          <input class="bg-gray-50 border border-gray-300 rounded-xl w-full py-3 pl-9 pr-3 par-md relative placeholder:text-gray-500 text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>">
+          <input class="bg-gray-50 border border-gray-300 rounded-xl w-full py-3 pl-10 pr-3 par-md relative placeholder:text-gray-500 text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>">
           <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 left-3 w-5 h-5" %>
         </div>
 
@@ -55,7 +55,7 @@ description:
       <% auth = data_select_by_type(modules, "auth") %>
 
       <h4 id="official" class="h4 mb-6 md:mb-10"><%= t("modules.official") %></h4>
-      <div class="divide-y-4 border-y-4 border-gray-100 divide-gray-100 overflow-hidden">
+      <div class="divide-y border-b border-gray-300 divide-gray-100 overflow-hidden">
         <% official.each do |id, m| %>
           <%= partial "/partials/module-item", locals: { item: m } %>
         <% end %>
