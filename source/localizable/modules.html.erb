@@ -4,34 +4,50 @@ description:
 ---
 
 <section>
-  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
-    <div class="md:w-3/5 space-y-6">
-      <h1 class="h1 md:whitespace-nowrap">
+  <div class="container pt-10 md:pt-16 md:pb-24">
+    <div class="md:w-3/5">
+      <h1 class="h1 md:text-6xl md:whitespace-nowrap">
         <%= t("modules.title") %>
       </h1>
-      <p class="par-xl text-gray-500">
+      <p class="par-xl text-black par-xl pt-5 md:pt-5">
         <%= t("modules.subtitle") %>
       </p>
-    </div>
-
-    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-16">
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-book-3-line", text: t("nav.docs.title"), url: "https://docs.decidim.org" } %>
+      <div class="par-md pt-4 md:pt-5">
+        <%= t("modules.intro") %>
+      </div>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="container py-6 md:py-24 flex flex-col md:flex-row items-start gap-6" data-filter>
+  <div class="container py-6 flex flex-col md:flex-row items-start gap-6" data-filter>
     <div class="w-full md:w-1/4 md:sticky top-0">
-      <div class="flex md:flex-col gap-6 md:gap-0 mb-8">
-        <a class="block truncate par-md py-3 text-gray-500 hover:text-red-500 border-b-4 border-gray-100 hover:border-red-500 transition" href="#official"><%= t("modules.official") %></a>
-        <a class="block truncate par-md py-3 text-gray-500 hover:text-red-500 border-b-4 border-gray-100 hover:border-red-500 transition" href="#community"><%= t("modules.community") %></a>
-        <a class="block truncate par-md py-3 text-gray-500 hover:text-red-500 border-b-4 border-gray-100 hover:border-red-500 transition" href="#auth"><%= t("modules.auth") %></a>
+      <div class="flex flex-col gap-3 md:gap-2 mb-8">
+        <div class="relative my-2">
+          <label class="sr-only" for="modules-search"><%= t("modules.placeholder") %></label>
+          <input id="modules-search" class="bg-gray-50 border border-gray-300 rounded-xl w-full py-3 pl-9 pr-3 par-md relative placeholder:text-gray-500 text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>" aria-label="<%= t('modules.placeholder') %>">
+          <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 left-3 w-5 h-5" %>
+        </div>
+
+        <details class="md:hidden group relative">
+          <summary class="flex items-center justify-between w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 cursor-pointer list-none">
+            <span data-dropdown-label><%= t("modules.official") %></span>
+            <%= icon "ri-arrow-up-s-line", class: "w-5 h-5 transition-transform group-open:rotate-180" %>
+          </summary>
+          <div class="absolute z-10 w-full bg-white rounded-lg shadow-sm mt-1 overflow-hidden">
+            <a class="block w-full px-4 py-3 text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#official" data-nav-link><%= t("modules.official") %></a>
+            <a class="block w-full px-4 py-3 text-sm font-normal uppercase text-red-500 hover:bg-red-100 transition" href="#community" data-nav-link><%= t("modules.community") %></a>
+            <a class="block w-full px-4 py-3 text-sm font-normal uppercase text-red-500 hover:bg-red-100 transition" href="#auth" data-nav-link><%= t("modules.auth") %></a>
+          </div>
+        </details>
+
+        <div class="hidden md:flex md:flex-col gap-2">
+          <a class="block w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#official" data-desktop-nav-link><%= t("modules.official") %></a>
+          <a class="block w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#community" data-desktop-nav-link><%= t("modules.community") %></a>
+          <a class="block w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#auth" data-desktop-nav-link><%= t("modules.auth") %></a>
+        </div>
       </div>
-      <div class="relative">
-        <input class="bg-gray-100 rounded-xl w-full py-3 pl-9 pr-6 par-md relative placeholder:text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>">
-        <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 left-3 w-4 h-4" %>
-      </div>
+
     </div>
     <div class="md:w-3/4">
       <% modules = data_sort_by(data.modules, "title") %>
@@ -39,10 +55,13 @@ description:
       <% community = data_select_by_type(modules, "community") %>
       <% auth = data_select_by_type(modules, "auth") %>
 
-      <h4 id="official" class="h4 mb-6 md:mb-10"><%= t("modules.official") %></h4>
-      <div class="divide-y-4 border-y-4 border-gray-100 divide-gray-100 overflow-hidden">
+      <div id="official" class="mb-6 md:mb-10">
+        <p class="text-base text-gray-500 mb-2 uppercase font-bold"><%= t("modules.official") %></p>
+        <h4 class="h4"><%= t("modules.develop") %></h4>
+      </div>
+      <div class="divide-y border-b border-gray-300 divide-gray-300 overflow-hidden">
         <% official.each do |id, m| %>
-          <%= partial "/partials/module-item", locals: { item: m } %>
+          <%= partial "/partials/module-item", locals: { item: m, classes: "md:pb-20" } %>
         <% end %>
       </div>
 
@@ -51,15 +70,21 @@ description:
         <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", text: t("modules.cta"), url: "https://docs.decidim.org" } %>
       </div>
 
-      <h4 id="community" class="h4 mb-6 md:mb-10"><%= t("modules.community") %></h4>
-      <div class="divide-y-4 border-y-4 border-gray-100 divide-gray-100 overflow-hidden">
+      <div id="community" class="mb-6 md:mb-10">
+        <p class="text-base text-gray-500 mb-2 uppercase font-bold"><%= t("modules.community") %></p>
+        <h4 class="h4"><%= t("modules.develop") %></h4>
+      </div>
+      <div class="divide-y border-b border-gray-300 divide-gray-300 overflow-hidden">
         <% community.each do |id, m| %>
           <%= partial "/partials/module-item", locals: { item: m } %>
         <% end %>
       </div>
 
-      <h4 id="auth" class="h4 mt-20 mb-6 md:mb-10"><%= t("modules.auth") %></h4>
-      <div class="divide-y-4 border-y-4 border-gray-100 divide-gray-100 overflow-hidden">
+      <div id="auth" class="mt-20 mb-6 md:mb-10">
+        <p class="text-base text-gray-500 mb-2 uppercase font-bold"><%= t("modules.auth") %></p>
+        <h4 class="h4"><%= t("modules.develop") %></h4>
+      </div>
+      <div class="divide-y border-b border-gray-300 divide-gray-300 overflow-hidden">
         <% auth.each do |id, m| %>
           <%= partial "/partials/module-item", locals: { item: m } %>
         <% end %>
@@ -71,3 +96,22 @@ description:
 <%= partial "/partials/faq" %>
 
 <%= partial "/partials/cta-banner" %>
+
+<script>
+  document.querySelectorAll("[data-nav-link]").forEach(function(link) {
+    link.addEventListener("click", function() {
+      var details = this.closest("details");
+      var label = details.querySelector("[data-dropdown-label]");
+      if (label) label.textContent = this.textContent.trim();
+
+      details.querySelectorAll("[data-nav-link]").forEach(function(l) {
+        l.classList.remove("font-bold", "bg-red-50");
+        l.classList.add("font-normal");
+      });
+      this.classList.remove("font-normal");
+      this.classList.add("font-bold", "bg-red-50");
+
+      details.open = false;
+    });
+  });
+</script>
