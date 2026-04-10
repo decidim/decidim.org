@@ -54,7 +54,10 @@ description:
       <% community = data_select_by_type(modules, "community") %>
       <% auth = data_select_by_type(modules, "auth") %>
 
-      <h4 id="official" class="h4 mb-6 md:mb-10"><%= t("modules.official") %></h4>
+      <div id="official" class="mb-6 md:mb-10">
+        <p class="text-base text-gray-500 mb-2 uppercase font-bold"><%= t("modules.official") %></p>
+        <h4 class="h4"><%= t("modules.develop") %></h4>
+      </div>
       <div class="divide-y border-b border-gray-300 divide-gray-100 overflow-hidden">
         <% official.each do |id, m| %>
           <%= partial "/partials/module-item", locals: { item: m } %>
@@ -66,14 +69,20 @@ description:
         <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", text: t("modules.cta"), url: "https://docs.decidim.org" } %>
       </div>
 
-      <h4 id="community" class="h4 mb-6 md:mb-10"><%= t("modules.community") %></h4>
+      <div id="community" class="mb-6 md:mb-10">
+        <p class="text-base text-gray-500 mb-2 uppercase font-bold"><%= t("modules.community") %></p>
+        <h4 class="h4"><%= t("modules.develop") %></h4>
+      </div>
       <div class="divide-y-4 border-y-4 border-gray-100 divide-gray-100 overflow-hidden">
         <% community.each do |id, m| %>
           <%= partial "/partials/module-item", locals: { item: m } %>
         <% end %>
       </div>
 
-      <h4 id="auth" class="h4 mt-20 mb-6 md:mb-10"><%= t("modules.auth") %></h4>
+      <div id="auth" class="mt-20 mb-6 md:mb-10">
+        <p class="text-base text-gray-500 mb-2 uppercase font-bold"><%= t("modules.auth") %></p>
+        <h4 class="h4"><%= t("modules.develop") %></h4>
+      </div>
       <div class="divide-y-4 border-y-4 border-gray-100 divide-gray-100 overflow-hidden">
         <% auth.each do |id, m| %>
           <%= partial "/partials/module-item", locals: { item: m } %>
