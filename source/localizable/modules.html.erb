@@ -4,18 +4,17 @@ description:
 ---
 
 <section>
-  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
-    <div class="md:w-3/5 space-y-6">
-      <h1 class="h1 md:whitespace-nowrap">
+  <div class="container pt-10 md:pt-16 md:pb-24">
+    <div class="md:w-3/5 space-y-5">
+      <h1 class="h1 md:text-6xl md:whitespace-nowrap">
         <%= t("modules.title") %>
       </h1>
-      <p class="par-xl text-gray-500">
+      <p class="par-xl text-black par-xl pt-5 md:pt-5">
         <%= t("modules.subtitle") %>
       </p>
-    </div>
-
-    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-16">
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-book-3-line", text: t("nav.docs.title"), url: "https://docs.decidim.org" } %>
+      <div class="par-md pt-4 md:pt-5">
+        <%= t("modules.intro") %>
+      </div>
     </div>
   </div>
 </section>
