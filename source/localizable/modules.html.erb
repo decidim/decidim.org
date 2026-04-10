@@ -60,7 +60,7 @@ description:
       </div>
       <div class="divide-y border-b border-gray-300 divide-gray-300 overflow-hidden">
         <% official.each do |id, m| %>
-          <%= partial "/partials/module-item", locals: { item: m } %>
+          <%= partial "/partials/module-item", locals: { item: m, classes: "md:pb-20" } %>
         <% end %>
       </div>
 
