@@ -22,14 +22,14 @@ description:
 <section>
   <div class="container py-6 flex flex-col md:flex-row items-start gap-6" data-filter>
     <div class="w-full md:w-1/4 md:sticky top-0">
-      <div class="flex md:flex-col gap-6 md:gap-0 mb-8">
-        <div class="relative">
-          <input class="bg-gray-100 rounded-xl w-full py-3 pl-9 pr-6 par-md relative placeholder:text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>">
+      <div class="flex md:flex-col gap-3 md:gap-2 mb-8">
+        <div class="relative mb-2">
+          <input class="bg-gray-50 border border-gray-300 rounded-xl w-full py-3 pl-9 pr-6 par-md relative placeholder:text-gray-500 text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>">
           <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 left-3 w-4 h-4" %>
         </div>
-        <a class="block truncate par-md py-3 text-gray-500 hover:text-red-500 border-b-4 border-gray-100 hover:border-red-500 transition" href="#official"><%= t("modules.official") %></a>
-        <a class="block truncate par-md py-3 text-gray-500 hover:text-red-500 border-b-4 border-gray-100 hover:border-red-500 transition" href="#community"><%= t("modules.community") %></a>
-        <a class="block truncate par-md py-3 text-gray-500 hover:text-red-500 border-b-4 border-gray-100 hover:border-red-500 transition" href="#auth"><%= t("modules.auth") %></a>
+        <a class="block w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#official"><%= t("modules.official") %></a>
+        <a class="block w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#community"><%= t("modules.community") %></a>
+        <a class="block w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#auth"><%= t("modules.auth") %></a>
       </div>
 
     </div>
