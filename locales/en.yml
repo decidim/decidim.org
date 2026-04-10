@@ -80,6 +80,10 @@ en:
     p1: Play around and explore freely the Decidim platform with our online demo.
     strong: Try Online
     title: Online Demo
+  documentation:
+    subtitle: Learn how to start using Decidim.
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    title: Documentation
   faqs:
     cta: Read all FAQs
     questions:
@@ -299,6 +303,22 @@ en:
       intro: You’ll need a tech company to install, configure, and maintain Decidim. We recommend working with a local provider or choosing one from our official partners page.
       link: Find a partner
       title: 'Your organization does not have developers:'
+    documentation:
+      developers:
+        pre: For developers
+        title: Develop your own Decidim instance
+        content: Install and configure your Decidim platform following the step by step documentation.
+        link: Get started
+      facilitators:
+        pre: For facilitators
+        title: Understand how Decidim works
+        content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+        link: Check it out
+      contributors:
+        pre: For contributors
+        title: Want to contribute?
+        content: Check the contribution guidelines and collaborate in fixing or managing the code.
+        link: Lets do it
     subtitle: Decidim is a digital platform for<br/>democratic participation and<br/>community governance
     title: First steps with Decidim
   footer:
