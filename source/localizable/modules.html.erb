@@ -22,14 +22,29 @@ description:
 <section>
   <div class="container py-6 flex flex-col md:flex-row items-start gap-6" data-filter>
     <div class="w-full md:w-1/4 md:sticky top-0">
-      <div class="flex md:flex-col gap-3 md:gap-2 mb-8">
+      <div class="flex flex-col gap-3 md:gap-2 mb-8">
         <div class="relative mb-2">
           <input class="bg-gray-50 border border-gray-300 rounded-xl w-full py-3 pl-9 pr-3 par-md relative placeholder:text-gray-500 text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>">
-          <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 left-3 w-4 h-4" %>
+          <%= icon "ri-search-line", class: "text-gray-500 grey-500 absolute top-1/2 -translate-y-1/2 left-3 w-4 h-4" %>
         </div>
-        <a class="block w-full p-2 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#official"><%= t("modules.official") %></a>
-        <a class="block w-full p-2 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#community"><%= t("modules.community") %></a>
-        <a class="block w-full p-2 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#auth"><%= t("modules.auth") %></a>
+
+        <details class="md:hidden group relative">
+          <summary class="flex items-center justify-between w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 cursor-pointer list-none" style="background-color: #FEF2F2;">
+            <span data-dropdown-label><%= t("modules.official") %></span>
+            <%= icon "ri-arrow-up-s-line", class: "w-5 h-5 transition-transform group-open:rotate-180" %>
+          </summary>
+          <div class="absolute z-10 w-full bg-white rounded-lg shadow-sm mt-1 overflow-hidden">
+            <a class="block w-full px-4 py-3 text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#official" data-nav-link><%= t("modules.official") %></a>
+            <a class="block w-full px-4 py-3 text-sm font-normal uppercase text-red-500 hover:bg-red-100 transition" href="#community" data-nav-link><%= t("modules.community") %></a>
+            <a class="block w-full px-4 py-3 text-sm font-normal uppercase text-red-500 hover:bg-red-100 transition" href="#auth" data-nav-link><%= t("modules.auth") %></a>
+          </div>
+        </details>
+
+        <div class="hidden md:flex md:flex-col gap-2">
+          <a class="block w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#official" data-desktop-nav-link><%= t("modules.official") %></a>
+          <a class="block w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#community" data-desktop-nav-link><%= t("modules.community") %></a>
+          <a class="block w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#auth" data-desktop-nav-link><%= t("modules.auth") %></a>
+        </div>
       </div>
 
     </div>
@@ -71,3 +86,22 @@ description:
 <%= partial "/partials/faq" %>
 
 <%= partial "/partials/cta-banner" %>
+
+<script>
+  document.querySelectorAll("[data-nav-link]").forEach(function(link) {
+    link.addEventListener("click", function() {
+      var details = this.closest("details");
+      var label = details.querySelector("[data-dropdown-label]");
+      if (label) label.textContent = this.textContent.trim();
+
+      details.querySelectorAll("[data-nav-link]").forEach(function(l) {
+        l.classList.remove("font-bold", "bg-red-50");
+        l.classList.add("font-normal");
+      });
+      this.classList.remove("font-normal");
+      this.classList.add("font-bold", "bg-red-50");
+
+      details.open = false;
+    });
+  });
+</script>
