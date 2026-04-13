@@ -77,8 +77,6 @@ en:
     title: Contact Decidim
   demo:
     button: Demo
-    p1: Play around and explore freely the Decidim platform with our online demo.
-    strong: Try Online
     title: Online Demo
   documentation:
     intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
@@ -416,8 +414,8 @@ en:
       path: https://docs.decidim.org/
       title: Documentation
     donate:
-      title: Donate
       text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: FAQs
     features: Features
     first-steps: First steps
