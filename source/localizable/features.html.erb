@@ -110,7 +110,7 @@ description:
               <% items.each_with_index do |use, item_idx| %>
                 <div class="rounded-xl bg-gray-100 p-6 flex flex-col justify-start items-start <%= component_key == 'components_group_4' ? 'basis-[calc(33.333%-1.4rem)] grow-0' : 'flex-1' %>">
                   <%= icon use.icon, class: "w-7 h-7" %>
-                  <h6 class="h6 py-5">
+                  <h6 class="h6 pt-5 pb-1">
                     <%= I18n.t("features.page.#{use.id}.title") %>
                   </h6>
                   <p class="par-md max-w-prose first-letter:uppercase">
@@ -148,11 +148,13 @@ description:
               <div class="space-y-4 pl-10">
                 <% data.features.send(component_key.to_sym).items.each do |use| %>
                   <div class="rounded-xl bg-gray-100 p-4 flex flex-col items-start gap-3">
-                    <%= icon use.icon, class: "w-6 h-6" %>
-                    <h6 class="h6 text-base">
-                      <%= I18n.t("features.page.#{use.id}.title") %>
-                    </h6>
-                    <p class="par-sm max-w-prose first-letter:uppercase">
+                    <div class="flex flex-row items-center gap-2">
+                      <%= icon use.icon, class: "w-6 h-6 shrink-0" %>
+                      <h6 class="h6 text-base">
+                        <%= I18n.t("features.page.#{use.id}.title") %>
+                      </h6>
+                    </div>
+                    <p class="par-md max-w-prose first-letter:uppercase">
                       <%= I18n.t("features.page.#{use.id}.subtitle") %>
                     </p>
                     <p class="text-sm max-w-prose text-black">
