@@ -219,7 +219,7 @@ description:
       </p>
     </div>
     <span class="flex flex-row gap-4 par-md mt-auto">
-      <%= partial "partials/arrow-link-rounded", locals: { text: t("features.modules.button"), url: "https://docs.decidim.org/en/develop/install/", classes: "text-black", outline_classes: "outline-black", hover_bg_classes: "hover:bg-white", icon_name: "ri-external-link-line" } %>
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("features.modules.button"), url: "https://docs.decidim.org/en/develop/install/", classes: "text-black", outline_classes: "outline-black md:rounded-2xl rounded-lg", hover_bg_classes: "hover:bg-white", icon_name: "ri-external-link-line", span_classes: "text-[16px] leading-[22px]", padding_classes: "px-3 py-1 md:px-4 md:py-2.5", icon_classes: "w-4 h-4 md:w-6 md:h-6" } %>
     </span>
   </div>
   <div class="flex flex-col space-y-5 p-4 md:p-10 bg-gray-100 rounded-xl">
@@ -232,7 +232,7 @@ description:
       </p>
     </div>
     <span class="flex flex-row gap-4 par-md mt-auto">
-      <%= partial "partials/arrow-link-rounded", locals: { text: t("features.need_help.button"), url: "#{t(:path)}/partners", classes: "text-black", outline_classes: "outline-black", hover_bg_classes: "hover:bg-white" } %>
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("features.need_help.button"), url: "#{t(:path)}/partners", classes: "text-black", outline_classes: "outline-black md:rounded-2xl rounded-lg", hover_bg_classes: "hover:bg-white", span_classes: "text-[16px] leading-[22px]", padding_classes: "px-3 py-1 md:px-4 md:py-2.5", icon_classes: "w-4 h-4 md:w-6 md:h-6" } %>
     </span>
   </div>
 </section>
