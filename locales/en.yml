@@ -76,10 +76,12 @@ en:
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     title: Contact Decidim
   demo:
-    button: Online demo
-    p1: Play around and explore freely the Decidim platform with our online demo.
-    strong: Try Online
+    button: Demo
     title: Online Demo
+  documentation:
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    subtitle: Learn how to start using Decidim.
+    title: Documentation
   faqs:
     cta: Read all FAQs
     questions:
@@ -254,6 +256,22 @@ en:
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
       title: Modules
   first-steps:
+    documentation:
+      contributors:
+        content: Check the contribution guidelines and collaborate in fixing or managing the code.
+        link: Let's do it
+        pre: For contributors
+        title: Want to contribute?
+      developers:
+        content: Install and configure your Decidim platform following the step by step documentation.
+        link: Get started
+        pre: For developers
+        title: Decidim install guide
+      facilitators:
+        content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+        link: Check it out
+        pre: For facilitators
+        title: Understand how Decidim works
     first-steps1:
       content: You can install it yourself or find someone to help you with tech support.
       link1: Documentation
@@ -395,7 +413,9 @@ en:
     docs:
       path: https://docs.decidim.org/
       title: Documentation
-    donate: Donate
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: FAQs
     features: Features
     first-steps: First steps
