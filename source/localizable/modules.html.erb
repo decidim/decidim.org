@@ -30,12 +30,12 @@ description:
         </div>
 
         <details class="md:hidden group relative">
-          <summary class="flex items-center justify-between w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 cursor-pointer list-none">
+          <summary class="flex items-center justify-between w-full px-4 py-3 rounded-lg text-sm font-bold uppercase text-red-500 bg-red-100 cursor-pointer list-none">
             <span data-dropdown-label><%= t("modules.official") %></span>
             <%= icon "ri-arrow-up-s-line", class: "w-5 h-5 transition-transform group-open:rotate-180" %>
           </summary>
           <div class="absolute z-10 w-full bg-white rounded-lg shadow-sm mt-1 overflow-hidden">
-            <a class="block w-full px-4 py-3 text-sm font-bold uppercase text-red-500 bg-red-50 hover:bg-red-100 transition" href="#official" data-nav-link><%= t("modules.official") %></a>
+            <a class="block w-full px-4 py-3 text-sm font-bold uppercase text-red-500 bg-red-100 hover:bg-red-100 transition" href="#official" data-nav-link><%= t("modules.official") %></a>
             <a class="block w-full px-4 py-3 text-sm font-normal uppercase text-red-500 hover:bg-red-100 transition" href="#community" data-nav-link><%= t("modules.community") %></a>
             <a class="block w-full px-4 py-3 text-sm font-normal uppercase text-red-500 hover:bg-red-100 transition" href="#auth" data-nav-link><%= t("modules.auth") %></a>
           </div>
@@ -90,21 +90,4 @@ description:
 
 <%= partial "/partials/cta-banner" %>
 
-<script>
-  document.querySelectorAll("[data-nav-link]").forEach(function(link) {
-    link.addEventListener("click", function() {
-      var details = this.closest("details");
-      var label = details.querySelector("[data-dropdown-label]");
-      if (label) label.textContent = this.textContent.trim();
-
-      details.querySelectorAll("[data-nav-link]").forEach(function(l) {
-        l.classList.remove("font-bold", "bg-red-50");
-        l.classList.add("font-normal");
-      });
-      this.classList.remove("font-normal");
-      this.classList.add("font-bold", "bg-red-50");
-
-      details.open = false;
-    });
-  });
-</script>
+<%= javascript_include_tag "modules" %>
