@@ -1,0 +1,76 @@
+---
+nav: who_uses
+description:
+---
+
+<section>
+  <div class="container pt-10 md:pt-16 md:pb-24">
+    <div class="md:w-3/5">
+      <h1 class="h1 md:text-6xl md:whitespace-nowrap">
+        <%= t("who-uses.title") %>
+      </h1>
+      <p class="par-xl pt-5 md:pt-5">
+        <%= t("who-uses.subtitle") %>
+      </p>
+      <div class="par-md pt-4 md:pt-5">
+        <%= t("who-uses.intro") %>
+      </div>
+      <p class="md:pt-5 pt-4 md:pb-0 pb-10 par-md">
+        <a href="/uploads/installations.csv" class="text-red-500 inline-flex items-center gap-2">
+          <span class="md:hidden"><%= t("who-uses.download_csv_short") %></span>
+          <span class="hidden md:inline"><%= t("who-uses.download_csv") %></span>
+          <%= icon("ri-download-line", class: "w-6 h-6 shrink-0") %>
+        </a>
+      </p>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container pb-12" data-tabs="used_by" data-filter>
+    <% installations = data_sort_by(data.installations, "priority") %>
+    <% region = data_select_by_type(installations, "region") %>
+    <% city = data_select_by_type(installations, "city") %>
+    <% org = data_select_by_type(installations, "org") %>
+    <% university = data_select_by_type(installations, "university") %>
+    <% filters = [installations, region, city, org, university] %>
+
+    <div class="relative mb-4">
+      <input class="bg-gray-50 border border-gray-300 rounded-xl w-full py-3 pl-9 pr-3 par-sm relative placeholder:text-gray-500 text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>">
+      <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 md:pr-1 left-3 w-5 h-5" %>
+    </div>
+
+    <ul role="tablist" class="flex items-center gap-4 flex-wrap mb-8 md:mb-16">
+      <% filters.each_with_index do |filter, i| %>
+        <li role="tab" tabindex="0" class="flex items-center px-4 py-2 rounded-xl text-red-500 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="f<%= i %>">
+          <span class="par-md whitespace-nowrap">
+            <%= t("used_by.filters.f#{i}") %>
+          </span>
+        </li>
+      <% end %>
+    </ul>
+
+    <% filters.each_with_index do |filter, i| %>
+      <div class="hidden <%= 'is-selected' if i == 0 %>" data-tab-content="f<%= i %>">
+        <div class="grid grid-cols-3 md:grid-cols-5 gap-4 md:gap-x-28 md:gap-y-16">
+          <% filter.each do |id, use| %>
+            <a class="inline-block" href="<%= use.url %>" target="_blank" rel="noopener noreferrer" data-filter-target>
+              <img loading="lazy" class="object-contain w-full h-full" src="<%= use.image %>" alt="<%= use.title %>" />
+              <span class="hidden"><%= use.title %> - <%= use.url %></span>
+            </a>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+
+    <div class="par-xs text-gray-500 mt-7">
+      <%= t("used_by.disclaimer") %>
+      <p>
+        <%= link_to t("used_by.download_csv"), "/uploads/installations.csv", class: "underline" %>
+      </p>
+    </div>
+  </div>
+</section>
+
+<%= partial "/partials/cta-banner" %>

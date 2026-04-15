@@ -413,6 +413,7 @@ en:
     transparency-portal: Transparency Portal
     use-cases: Use cases
     used_by: Decidim in use
+    who_uses: Who uses Decidim
   newsletter:
     past: Past newsletters
     subtitle: News and updates about the Decidim platform and the community.
@@ -568,8 +569,8 @@ en:
         processes: processes
         proposals: proposals
     filters:
-      f0: See all
-      f1: Governments
+      f0: All
+      f1: Government
       f2: Cities
       f3: NGOs
       f4: Universities
@@ -577,3 +578,9 @@ en:
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
     title: Decidim in use
+  who-uses:
+    download_csv: Download CSV file with all the installations
+    download_csv_short: Download CSV
+    intro: Decidim’s flexible features are designed to serve small and large collectives, both public and private, with communities ranging from hundreds to thousands of participants. Including city councils, associations, universities, NGOs and cooperatives. Below, you can explore the full database of all Decidim installations.
+    subtitle: They’ve already used Decidim.
+    title: Who uses Decidim
