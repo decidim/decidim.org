@@ -15,8 +15,15 @@ description:
       <div class="par-md pt-4 md:pt-5">
         <%= t("who-uses.intro") %>
       </div>
+      <div class="par-xs text-gray-500 mt-7">
+      <p>
+        <%= link_to t("who-uses.download_csv"), "/uploads/installations.csv", class: "text-red-500" %>
+      </p>
+    </div>
     </div>
   </div>
 </section>
+
+
 
 <%= partial "/partials/cta-banner" %>
