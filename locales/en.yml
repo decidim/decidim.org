@@ -172,10 +172,6 @@ en:
       f1: Collect <strong>proposals</strong> from participants, enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
     voting:
       f2: Prioritize proposals using various <strong>voting</strong> methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
-  who-uses:
-    title: Who uses Decidim
-    subtitle: They’ve already used Decidim.
-    intro:  Decidim’s flexible features are designed to serve small and large collectives, both public and private, with communities ranging from hundreds to thousands of participants. Including city councils, associations, universities, NGOs and cooperatives. Below, you can explore the full database of all Decidim installations.
   features:
     intro: "<p>You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood association or a cooperative...</p><p>Thanks to Decidim you will be able to configure <strong>spaces</strong> for participation (initiatives, assemblies, processes or consultations) and enrich them through the multiple available <strong>components</strong> (face-to-face meetings, surveys, proposals, voting, follow-up of results, <strong>comments</strong> and many more).</p>"
     page:
@@ -417,6 +413,7 @@ en:
     transparency-portal: Transparency Portal
     use-cases: Use cases
     used_by: Decidim in use
+    who-uses: Who uses Decidim
   newsletter:
     past: Past newsletters
     subtitle: News and updates about the Decidim platform and the community.
@@ -581,3 +578,7 @@ en:
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
     title: Decidim in use
+  who-uses:
+    intro: Decidim’s flexible features are designed to serve small and large collectives, both public and private, with communities ranging from hundreds to thousands of participants. Including city councils, associations, universities, NGOs and cooperatives. Below, you can explore the full database of all Decidim installations.
+    subtitle: They’ve already used Decidim.
+    title: Who uses Decidim
