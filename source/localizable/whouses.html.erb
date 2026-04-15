@@ -15,8 +15,12 @@ description:
       <div class="par-md pt-4 md:pt-5">
         <%= t("who-uses.intro") %>
       </div>
-      <p class="md:pt-5 par-md">
-        <%= link_to t("who-uses.download_csv"), "/uploads/installations.csv", class: "text-red-500" %>
+      <p class="md:pt-5 pt-4 md:pb-0 pb-10 par-md">
+        <a href="/uploads/installations.csv" class="text-red-500 inline-flex items-center gap-2">
+          <span class="md:hidden"><%= t("who-uses.download_csv_short") %></span>
+          <span class="hidden md:inline"><%= t("who-uses.download_csv") %></span>
+          <%= icon("ri-download-line", class: "w-6 h-6 shrink-0") %>
+        </a>
       </p>
     </div>
     </div>
@@ -37,7 +41,7 @@ description:
       <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 md:pr-1 left-3 w-5 h-5" %>
     </div>
 
-    <ul role="tablist" class="flex items-center gap-2 flex-wrap mb-8 md:mb-16">
+    <ul role="tablist" class="flex items-center gap-4 flex-wrap mb-8 md:mb-16">
       <% filters.each_with_index do |filter, i| %>
         <li role="tab" tabindex="0" class="flex items-center px-4 py-2 rounded-xl text-red-500 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="f<%= i %>">
           <span class="par-md whitespace-nowrap">
