@@ -143,7 +143,7 @@ description:
                 <%= icon "ri-arrow-up-s-line", class: "absolute w-5 h-5 opacity-0 group-open" %>
               </span>
             </summary>
-            <div class="absolute left-4 top-12 bottom-0 w-[0.1rem] bg-black hidden group-open:block"></div>
+            <div class="absolute left-4 top-12 bottom-0 w-[1px] bg-black hidden group-open:block"></div>
             <div class="group-open:pt-2 pb-6 pointer-events-none group-open:pointer-events-auto -translate-y-full max-h-0 opacity-0 group-open:translate-y-0 group-open:max-h-none group-open:opacity-100 transition-all">
               <div class="space-y-4 pl-10">
                 <% data.features.send(component_key.to_sym).items.each do |use| %>
@@ -166,7 +166,7 @@ description:
             </div>
           </details>
           <% unless idx == 3 %>
-            <div class="absolute left-4 -bottom-3 w-[0.1rem] h-[1.6rem] bg-black"></div>
+            <div class="absolute left-4 -bottom-3 w-[1px] h-[1.6rem] bg-black"></div>
           <% end %>
         </div>
       <% end %>
