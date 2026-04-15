@@ -55,7 +55,7 @@ description:
     </div>
 
     <div class="md:hidden mt-6 flex flex-col" data-tabs="features-mobile">
-      <ul role="tablist" class="flex items-center gap-2 overflow-x-auto">
+      <ul role="tablist" class="flex items-center gap-2">
         <% data.features.spaces.each_with_index do |use, i| %>
           <li role="tab" tabindex="0" class="flex items-center gap-2 px-3 py-2.5 rounded-xl text-red-500 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer flex-shrink-0 <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
             <%= icon use.icon, class: "w-5 h-5 flex-shrink-0" %>
