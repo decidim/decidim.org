@@ -58,15 +58,24 @@ function tabs() {
   const selectors = document.querySelectorAll("[data-tabs]")
   selectors.forEach(container => {
     container.addEventListener("click", (event) => handleTabClick({ event, type: container.dataset.tabs }));
-    container.addEventListener("pointerover", (event) => handleTabClick({ event, type: container.dataset.tabs }));
+    container.addEventListener("pointerover", (event) => {
+      if (event.pointerType !== "touch") {
+        handleTabClick({ event, type: container.dataset.tabs });
+      }
+    });
     container.addEventListener("keydown", (event) => event.key === "Enter" && handleTabClick({ event, type: container.dataset.tabs }));
 
+    const SWIPE_THRESHOLD = 50;
     let startX;
-    let endX;
     container.addEventListener("touchstart", event => (startX = event.touches[0].clientX));
     container.addEventListener("touchend", function (event) {
-      endX = event.changedTouches[0].clientX;
-      handleTouch({ event, startX, endX, type: container.dataset.tabs });
+      const endX = event.changedTouches[0].clientX;
+      if (Math.abs(endX - startX) < SWIPE_THRESHOLD) {
+        handleTabClick({ event, type: container.dataset.tabs });
+        event.preventDefault();
+      } else {
+        handleTouch({ event, startX, endX, type: container.dataset.tabs });
+      }
     });
   })
 }
