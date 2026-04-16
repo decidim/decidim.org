@@ -65,12 +65,17 @@ function tabs() {
     });
     container.addEventListener("keydown", (event) => event.key === "Enter" && handleTabClick({ event, type: container.dataset.tabs }));
 
+    const SWIPE_THRESHOLD = 50;
     let startX;
-    let endX;
     container.addEventListener("touchstart", event => (startX = event.touches[0].clientX));
     container.addEventListener("touchend", function (event) {
-      endX = event.changedTouches[0].clientX;
-      handleTouch({ event, startX, endX, type: container.dataset.tabs });
+      const endX = event.changedTouches[0].clientX;
+      if (Math.abs(endX - startX) < SWIPE_THRESHOLD) {
+        handleTabClick({ event, type: container.dataset.tabs });
+        event.preventDefault();
+      } else {
+        handleTouch({ event, startX, endX, type: container.dataset.tabs });
+      }
     });
   })
 }
