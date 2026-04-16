@@ -4,10 +4,8 @@ document.querySelectorAll("[data-nav-link]").forEach(function(link) {
     this.closest("details").open = false;
   });
 });
-
 var desktopLinks = document.querySelectorAll("[data-desktop-nav-link]");
 var mobileLinks = document.querySelectorAll("[data-nav-link]");
-
 function setActiveLink(href) {
   desktopLinks.forEach(function(l) {
     if (l.getAttribute("href") === href) {
@@ -18,7 +16,6 @@ function setActiveLink(href) {
       l.classList.add("bg-red-50");
     }
   });
-
   mobileLinks.forEach(function(l) {
     if (l.getAttribute("href") === href) {
       l.classList.add("font-bold", "bg-red-100");
@@ -31,9 +28,7 @@ function setActiveLink(href) {
     }
   });
 }
-
 var sectionIds = ["official", "community", "auth"];
-
 function updateActiveSection() {
   var current = sectionIds[0];
   for (var i = 0; i < sectionIds.length; i++) {
@@ -44,6 +39,15 @@ function updateActiveSection() {
   }
   setActiveLink("#" + current);
 }
-
+document.querySelectorAll("details").forEach(function(details) {
+  details.addEventListener("toggle", function() {
+    var arrow = details.querySelector("[data-arrow] svg");
+    if (details.open) {
+      arrow.style.transform = "rotate(180deg)";
+    } else {
+      arrow.style.transform = "rotate(0deg)";
+    }
+  });
+});
 window.addEventListener("scroll", updateActiveSection, { passive: true });
 updateActiveSection();
