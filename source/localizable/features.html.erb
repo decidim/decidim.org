@@ -142,8 +142,8 @@ description:
                 <%= t("features.component_groups.#{data.features.send(component_key.to_sym).title}") %>
               </span>
               <span class="w-5 h-5 flex-shrink-0">
-                <%= icon "ri-arrow-down-s-line", class: "absolute w-5 h-5 opacity-100 group-open:opacity-0" %>
-                <%= icon "ri-arrow-up-s-line", class: "absolute w-5 h-5 opacity-0 group-open" %>
+                <span class="group-open:hidden"><%= icon "ri-arrow-down-s-line", class: "w-5 h-5 text-black block no-toggle" %></span>
+                <span class="hidden group-open:block"><%= icon "ri-arrow-up-s-line", class: "w-5 h-5 text-black block no-toggle" %></span>
               </span>
             </summary>
             <div class="group-open:pt-2 pb-6 pointer-events-none group-open:pointer-events-auto -translate-y-full max-h-0 opacity-0 group-open:translate-y-0 group-open:max-h-none group-open:opacity-100 transition-all">
