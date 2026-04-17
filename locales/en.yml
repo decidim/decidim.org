@@ -523,6 +523,7 @@ en:
     n8:
       org: Pipeline to Power, working for NYC Civic Engagement Commission
       quote: Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded.
+    title: Testimonials
   thanks:
     message: Thank you for contacting us, we will get back to you soon.
     title: Thanks for your email
@@ -551,9 +552,9 @@ en:
     p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
     title: Trademark policy
   used_by:
-    cta: Get started
-    disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
-    download_csv: Download CSV file with all the installations
+    case_studies:
+      link: Read more uses cases
+      title: Case studies
     facts:
       subtitle: Decidim keeps growing and being adopted by organizations and the community.
       title: Facts & Figures
@@ -573,7 +574,10 @@ en:
       f2: Cities
       f3: NGOs
       f4: Universities
-    intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
-    join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
-    subtitle: These cities, regions and organizations are already using Decidim
+    intro: These cities, institutions and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some of the inspiring successful cases!
+    subtitle: Stories about Decidim in the real world 
     title: Decidim in use
+    whos_using:
+      link: See who is using it
+      subtitle: More than 450 organisations and institutions have proudly used Decidim.
+      title: They've already used Decidim
