@@ -36,12 +36,12 @@ description:
     <% university = data_select_by_type(installations, "university") %>
     <% filters = [installations, region, city, org, university] %>
 
-    <div class="relative mb-4">
+    <div class="relative pb-4 md:pb-0">
       <input class="bg-gray-50 border border-gray-300 rounded-xl w-full py-3 pl-9 pr-3 par-sm relative placeholder:text-gray-500 text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>">
-      <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 md:pr-1 left-3 w-5 h-5" %>
+      <%= icon "ri-search-line", class: "text-gray-500 absolute top-6 -translate-y-1/2 md:pr-1 left-3 w-5 h-5" %>
     </div>
 
-    <ul role="tablist" class="flex items-center gap-4 flex-wrap mb-8 md:mb-16">
+    <ul role="tablist" class="flex items-center gap-3 md:gap-4 flex-wrap md:pt-6 mb-8 md:mb-16">
       <% filters.each_with_index do |filter, i| %>
         <li role="tab" tabindex="0" class="flex items-center px-4 py-2 rounded-xl text-red-500 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="f<%= i %>">
           <span class="par-md whitespace-nowrap">
