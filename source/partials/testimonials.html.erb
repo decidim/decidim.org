@@ -1,14 +1,14 @@
 <% testimonials = data.testimonials.sample(3) %>
 <section>
-  <div class="container pt-8 pb-12 md:py-16" data-tabs="testimonials">
+  <div class="container md:pt-10 pt-6" data-tabs="testimonials">
     <div class="hidden md:grid grid-cols-3 gap-6 items-stretch">
       <% testimonials&.each_with_index do |f, i| %>
-        <div class="flex flex-col space-y-4">
+        <div class="flex flex-col pb-2">
           <div class="flex items-center space-x-4 min-h-[4rem]">
             <img class="w-12 h-12 rounded-t-xl rounded-br-xl object-cover flex-shrink-0" src="<%= f.image %>" alt="<%= f.name %>">
             <cite class="not-italic">
               <span class="block font-bold"><%= f.name %></span>
-              <span class="block text-gray-500 text-sm"><%= t("testimonials.#{f.id}.org") %></span>
+              <span class="block text-black par-sm"><%= t("testimonials.#{f.id}.org") %></span>
             </cite>
           </div>
           <blockquote class="par-md bg-red-100 rounded-tr-xl rounded-b-xl p-6 text-red-500 flex-1">
@@ -17,17 +17,17 @@
         </div>
       <% end %>
     </div>
-    <div class="md:hidden flex flex-col space-y-6">
+    <div class="md:hidden flex flex-col space-y-5">
       <% testimonials&.each do |f| %>
-        <div class="flex flex-col space-y-4">
-          <div class="flex items-center space-x-4">
+        <div class="flex flex-col">
+          <div class="flex items-center pb-2 space-x-4">
             <img class="w-12 h-12 rounded-t-xl rounded-br-xl object-cover flex-shrink-0" src="<%= f.image %>" alt="<%= f.name %>">
             <cite class="not-italic">
               <span class="block font-bold"><%= f.name %></span>
-              <span class="block text-gray-500 text-sm"><%= t("testimonials.#{f.id}.org") %></span>
+              <span class="block text-black par-sm"><%= t("testimonials.#{f.id}.org") %></span>
             </cite>
           </div>
-          <blockquote class="par-md bg-red-100 rounded-tr-xl rounded-b-xl p-6 text-red-500">
+          <blockquote class="par-md bg-red-100 rounded-tr-xl rounded-b-xl px-4 py-5 text-red-500">
             <%= t("testimonials.#{f.id}.quote") %>
           </blockquote>
         </div>
