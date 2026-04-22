@@ -1,0 +1,87 @@
+<div class="container py-10 md:py-16">
+  <h2 class="h2">
+    <%= t("features.type2.title") %>
+  </h2>
+  <div class="par-md pt-5">
+    <%= t("features.type2.subtitle") %>
+  </div>
+
+  <div class="hidden md:block">
+    <% %w[components_group_1 components_group_2 components_group_3 components_group_4].each_with_index do |component_key, idx| %>
+      <div class="md:pt-10 relative">
+        <div class="absolute left-4 top-[3.5rem] bottom-0 w-[1px] bg-black z-0"></div>
+        <div class="flex items-center gap-4 md:pb-6">
+          <span class="rounded-full text-base border border-black bg-white flex items-center justify-center w-8 h-8 flex-shrink-0 relative z-10">
+            <%= format("%2d", idx + 1) %>
+          </span>
+          <h5 class="h5 ml-3">
+            <%= t("features.component_groups.#{data.features.send(component_key.to_sym).title}") %>
+          </h5>
+        </div>
+        <div class="ml-4 pl-10">
+          <div class="grid grid-cols-3 gap-5">
+            <% items = data.features.send(component_key.to_sym).items %>
+            <% items.each_with_index do |use, item_idx| %>
+              <div class="rounded-xl bg-gray-100 p-6 flex flex-col justify-start items-start">
+                <%= icon use.icon, class: "w-7 h-7" %>
+                <h6 class="h6 pt-5 pb-1">
+                  <%= I18n.t("features.page.#{use.id}.title") %>
+                </h6>
+                <p class="par-md max-w-prose first-letter:uppercase pb-4">
+                  <%= I18n.t("features.page.#{use.id}.subtitle") %>
+                </p>
+                <p class="mt-auto max-w-prose text-black">
+                  <%= I18n.t("features.page.#{use.id}.text") %>
+                </p>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="block md:hidden relative" data-accordion="components">
+    <% %w[components_group_1 components_group_2 components_group_3 components_group_4].each_with_index do |component_key, idx| %>
+      <div class="relative <%= '-mt-3' if idx == 3 %>">
+        <% unless idx == 3 %>
+          <div class="absolute left-4 top-[2.5rem] bottom-[-0.5rem] w-[1px] bg-black z-0"></div>
+        <% end %>
+        <details class="group relative" <%= 'open' if idx == 0 %>>
+          <summary class="flex items-center space-x-3 py-4 relative par-md font-bold text-black hover:text-black group-open:text-black transition cursor-pointer after:content-[''] after:absolute after:rounded-full after:h-2 after:right-0 after:hover:bg-transparent after:w-full after:bg-transparent after:transition pl-6">
+            <span class="absolute left-0 rounded-full border items-center text-base border-black bg-white flex justify-center w-8 h-8 z-10">
+              <%= format("%2d", idx + 1) %>
+            </span>
+            <span class="par-md pl-2 flex-1">
+              <%= t("features.component_groups.#{data.features.send(component_key.to_sym).title}") %>
+            </span>
+            <span class="w-5 h-5 flex-shrink-0">
+              <span class="group-open:hidden"><%= icon "ri-arrow-down-s-line", class: "w-5 h-5 text-black block no-toggle" %></span>
+              <span class="hidden group-open:block"><%= icon "ri-arrow-up-s-line", class: "w-5 h-5 text-black block no-toggle" %></span>
+            </span>
+          </summary>
+          <div class="group-open:pt-2 pb-6 pointer-events-none group-open:pointer-events-auto -translate-y-full max-h-0 opacity-0 group-open:translate-y-0 group-open:max-h-none group-open:opacity-100 transition-all">
+            <div class="space-y-4 pl-10">
+              <% data.features.send(component_key.to_sym).items.each do |use| %>
+                <div class="rounded-xl bg-gray-100 p-4 flex flex-col items-start gap-3">
+                  <div class="flex flex-row items-center gap-2">
+                    <%= icon use.icon, class: "w-6 h-6 shrink-0" %>
+                    <h6 class="h6 text-base">
+                      <%= I18n.t("features.page.#{use.id}.title") %>
+                    </h6>
+                  </div>
+                  <p class="par-md max-w-prose first-letter:uppercase">
+                    <%= I18n.t("features.page.#{use.id}.subtitle") %>
+                  </p>
+                  <p class="text-sm max-w-prose text-black">
+                    <%= I18n.t("features.page.#{use.id}.text") %>
+                  </p>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </details>
+      </div>
+    <% end %>
+  </div>
+</div>
