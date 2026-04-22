@@ -1,4 +1,4 @@
-<div class="flex items-start md:space-x-6 py-5 opacity-100 transition <%= classes ||= '' %>" data-filter-target>
+<div class="flex items-start py-5 opacity-100 transition <%= classes ||= '' %>" data-filter-target>
   <div class="md:w-4/5 flex flex-col space-y-4">
     <label class="par-sm uppercase font-bold"><%= item.title %></label>
     <p class="par-sm text-gray-500"><%= item.description %></p>
@@ -6,7 +6,7 @@
   </div>
   <% if item.image %>
     <div class="hidden md:block md:pl-10 md:w-1/5">
-      <img src="<%= item.image %>" alt="<%= item.title %>" class="md:h-40 md:w-40 object-cover rounded-lg">
+      <img src="<%= item.image %>" alt="<%= item.title %>" class="md:h-40 md:w-40 border object-cover rounded-lg">
     </div>
   <% end %>
 </div>
