@@ -28,7 +28,7 @@ description:
 </section>
 
 <section>
-  <div class="container pb-12" data-tabs="used_by" data-filter>
+  <div class="container md:pb-16 pb-10" data-tabs="used_by" data-filter>
     <% installations = data_sort_by(data.installations, "priority") %>
     <% region = data_select_by_type(installations, "region") %>
     <% city = data_select_by_type(installations, "city") %>
@@ -41,7 +41,7 @@ description:
       <%= icon "ri-search-line", class: "text-gray-500 absolute top-6 -translate-y-1/2 md:pr-1 left-3 w-5 h-5" %>
     </div>
 
-    <ul role="tablist" class="flex items-center gap-3 md:gap-4 flex-wrap md:pt-6 mb-8 md:mb-16">
+    <ul role="tablist" class="flex items-center gap-3 md:gap-4 flex-wrap md:pt-10 mb-8 md:mb-16">
       <% filters.each_with_index do |filter, i| %>
         <li role="tab" tabindex="0" class="flex items-center px-4 py-2 rounded-xl text-red-500 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="f<%= i %>">
           <span class="par-md whitespace-nowrap">
@@ -64,7 +64,7 @@ description:
       </div>
     <% end %>
 
-    <div class="par-xs text-gray-500 mt-7">
+    <div class="par-xs text-gray-500 md:pt-10">
       <%= t("used_by.disclaimer") %>
       <p>
         <%= link_to t("used_by.download_csv"), "/uploads/installations.csv", class: "underline" %>
