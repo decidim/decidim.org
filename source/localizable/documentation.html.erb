@@ -27,12 +27,12 @@ description:
         <div>
           <div class="flex items-center space-x-2">
             <%= icon item.icon, class: "w-6 h-6" %>
-            <span class="font-semibold uppercase"><%= t("first-steps.#{item.pre}") %></span>
+            <span class="font-semibold uppercase"><%= t("first-steps.#{item.i18n_key}.pre") %></span>
           </div>
-          <h5 class="h5 pt-6"><%= t("first-steps.#{item.title}") %></h5>
-          <p class="par-md max-w-prose text-black pt-3 md:pb-6"><%= t("first-steps.#{item.content}") %></p>
+          <h5 class="h5 pt-6"><%= t("first-steps.#{item.i18n_key}.title") %></h5>
+          <p class="par-md max-w-prose text-black pt-3 md:pb-6"><%= t("first-steps.#{item.i18n_key}.content") %></p>
         </div>
-        <%= partial "partials/arrow-link", locals: { text: t("first-steps.#{item.link}"), url: item.url, classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+        <%= partial "partials/arrow-link", locals: { text: t("first-steps.#{item.i18n_key}.link"), url: item.url, classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
       </div>
     <% end %>
   </div>

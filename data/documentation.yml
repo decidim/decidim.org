@@ -1,18 +1,12 @@
 - url: https://docs.decidim.org/en/develop/
   link: documentation.developers.link
   icon: ri-code-line
-  pre: documentation.developers.pre
-  title: documentation.developers.title
-  content: documentation.developers.content
+  i18n_key: developers
 - url: https://docs.decidim.org/en/admin/
   link: documentation.facilitators.link
   icon: ri-settings-3-line
-  pre: documentation.facilitators.pre
-  title: documentation.facilitators.title
-  content: documentation.facilitators.content
+  i18n_key: facilitators
 - url: https://docs.decidim.org/en/contribute/
   link: documentation.contributors.link
   icon: ri-hand-heart-line
-  pre: documentation.contributors.pre
-  title: documentation.contributors.title
-  content: documentation.contributors.content
+  i18n_key: contributors
