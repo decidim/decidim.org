@@ -1,4 +1,4 @@
-# frozen_literal: true
+# frozen_string_literal: true
 
 require "spec_helper"
 RSpec.describe "documentation", type: :feature do
