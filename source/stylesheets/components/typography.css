@@ -30,6 +30,7 @@
 /* paragraphs */
 .par-2xl {
   @apply text-[40px] leading-[48px] md:text-[64px] md:leading-[72px] font-black tracking-tight;
+  -webkit-text-stroke: 1.5px currentColor;
 }
 
 .par-xl {
