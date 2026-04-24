@@ -6,7 +6,7 @@
       <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-5 justify-items-start">
         <% data.facts.each_with_index do |use, ix| %>
           <div class="space-y-1 md:space-y-3 flex flex-col justify-center md:w-96 md:h-36 w-40 h-16" style="--translate-ix: <%= ix %>">
-            <p class="md:text-6xl text-4xl font-bold"><%= get_statistic_for_fact(use.text, use.value, data) %></p>
+            <p class="par-2xl font-bold"><%= get_statistic_for_fact(use.text, use.value, data) %></p>
             <p class="md:h6 par-sm font-bold"><%= t("used_by.facts.type.#{use.text}") %></p>
           </div>
         <% end %>

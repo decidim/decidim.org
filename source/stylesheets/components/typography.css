@@ -28,6 +28,10 @@
 }
 
 /* paragraphs */
+.par-2xl {
+  @apply text-[40px] leading-[48px] md:text-[64px] md:leading-[72px];
+}
+
 .par-xl {
   @apply text-[24px] leading-[32px] md:text-[48px] md:leading-[54px] md:font-light;
 }
