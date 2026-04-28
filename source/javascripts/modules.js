@@ -30,7 +30,6 @@ function setActiveLink(href) {
     }
   });
 }
-var sectionIds = ["official", "community", "auth"];
 function updateActiveSection() {
   var current = sectionIds[0];
   for (var i = 0; i < sectionIds.length; i++) {
