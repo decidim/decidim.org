@@ -25,15 +25,16 @@ collections:
       - {label: "Selected for implementation", name: "selected_for_implementation", widget: "string", required: false}
       - {label: "Total participants", name: "total_participants", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "markdown", required: true}
-      - label: Phases
-        name: phases
+      - label: "Phases"
+        name: "phases"
         widget: list
+        required: false
         fields:
           - { label: Phase Title, name: title, widget: string }
           - { label: Count Label, name: count_label, widget: string, required: false, hint: "e.g. '1,982 proposals'" }
           - { label: Body, name: body, widget: markdown, required: false }
-          - label: Components
-            name: components
+          - label: "Components"
+            name: "components"
             widget: list
             required: false
             fields:
