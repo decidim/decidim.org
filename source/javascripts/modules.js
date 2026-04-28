@@ -52,4 +52,5 @@ document.querySelectorAll("details").forEach(function(details) {
   });
 });
 window.addEventListener("scroll", updateActiveSection, { passive: true });
+
 updateActiveSection();
