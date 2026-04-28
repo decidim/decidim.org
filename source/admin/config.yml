@@ -1,17 +1,13 @@
-local_backend: true
-
 backend:
-  name: github
-  repo: decidim/decidim.org
-  branch: main
+  name: test-repo
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
-  - name: "case-studies"
+  - name: "case_studies"
     label: "Case studies"
-    format: yml
-    extension: yml
-    folder: data/case_studies/
+    format: "yaml-frontmatter"
+    extension: md
+    folder: "source/case_studies/en"
     create: true
     identifier_field: title
     fields:
@@ -29,6 +25,20 @@ collections:
       - {label: "Selected for implementation", name: "selected_for_implementation", widget: "string", required: false}
       - {label: "Total participants", name: "total_participants", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "markdown", required: true}
+      - label: Phases
+        name: phases
+        widget: list
+        fields:
+          - { label: Phase Title, name: title, widget: string }
+          - { label: Count Label, name: count_label, widget: string, required: false, hint: "e.g. '1,982 proposals'" }
+          - { label: Body, name: body, widget: markdown, required: false }
+          - label: Components
+            name: components
+            widget: list
+            required: false
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Description, name: description, widget: markdown }
   - name: "settings"
     label: "Settings"
     description: >
