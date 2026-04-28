@@ -5,7 +5,8 @@ document.querySelectorAll("[data-nav-link]").forEach(function(link) {
   });
 });
 var desktopLinks = document.querySelectorAll("[data-desktop-nav-link]");
-var mobileLinks = document.querySelectorAll("[data-nav-link]");
+const mobileLinks = document.querySelectorAll("[data-nav-link]");
+const sectionIds = ["official", "community", "auth"];
 function setActiveLink(href) {
   desktopLinks.forEach(function(l) {
     if (l.getAttribute("href") === href) {
