@@ -4,7 +4,8 @@ document.querySelectorAll("[data-nav-link]").forEach(function(link) {
     this.closest("details").open = false;
   });
 });
-var desktopLinks = document.querySelectorAll("[data-desktop-nav-link]");
+
+const desktopLinks = document.querySelectorAll("[data-desktop-nav-link]");
 const mobileLinks = document.querySelectorAll("[data-nav-link]");
 const sectionIds = ["official", "community", "auth"];
 function setActiveLink(href) {
