@@ -1,4 +1,4 @@
-<%= wrap_layout :layout do %>
+<% wrap_layout :layout do %>
 
   <section>
     <div class="container pt-10 md:pt-16 pb-10">
@@ -12,10 +12,8 @@
       <div class="relative">
         <% current_page.data.phases.each_with_index do |phase, idx| %>
           <% is_last = idx == current_page.data.phases.length - 1 %>
-          <div class="relative <%= 'md:pt-10 pt-6' if idx > 0 %>">
-            <% unless is_last %>
-              <div class="absolute left-4 top-[2.5rem] bottom-[-1rem] w-[1px] bg-black z-0"></div>
-            <% end %>
+          <div class="relative <%= "pt-6" if idx > 0 %>">
+            <div class="absolute left-4 top-[2.5rem] bottom-[-1rem] w-[1px] bg-black z-0"></div>
             <div class="flex items-center gap-4 pb-3">
               <span class="rounded-full text-base border border-black bg-white flex items-center justify-center w-8 h-8 flex-shrink-0 relative z-10">
                 <%= idx + 1 %>
@@ -29,17 +27,17 @@
             </div>
             <% if phase.body.present? %>
               <div class="ml-4 pl-10 par-md prose max-w-none pb-4">
-                <%= markdownify(phase.body) %>
+                <%= markdown(phase.body) %>
               </div>
             <% end %>
             <% if phase.components.present? && phase.components.any? %>
               <div class="ml-4 pl-10 pt-2">
-                <p class="font-bold par-md pb-2">Components:</p>
+                <p class="font-bold par-md pb-2"></p>
                 <ul class="space-y-2">
                   <% phase.components.each do |component| %>
                     <li class="par-md">
                       <span class="font-semibold underline"><%= component.name %>:</span>
-                      <span class="prose inline"><%= markdownify(component.description) %></span>
+                      <span class="prose inline"><%= markdown(component.description) %></span>
                     </li>
                   <% end %>
                 </ul>
@@ -50,4 +48,7 @@
       </div>
     </div>
   <% end %>
+
+  <%= yield %>
+
 <% end %>
