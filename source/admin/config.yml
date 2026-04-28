@@ -1,5 +1,9 @@
+local_backend: true
+
 backend:
-  name: test-repo
+  name: github
+  repo: decidim/decidim.org
+  branch: inuse/case-studies
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
