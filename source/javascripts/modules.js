@@ -40,6 +40,7 @@ function updateActiveSection() {
   }
   setActiveLink("#" + current);
 }
+
 document.querySelectorAll("details").forEach(function(details) {
   details.addEventListener("toggle", function() {
     var arrow = details.querySelector("[data-arrow] svg");
