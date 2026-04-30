@@ -28,30 +28,6 @@ nav: case_studies
 
 <div class="container pb-16">
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    <% sitemap.resources
-        .select { |r| r.path.start_with?("case_studies/en/") && r.path.end_with?(".html") }
-        .sort_by { |r| r.data.title.to_s }
-        .each do |resource| %>
-      <% cs = resource.data %>
-      <a href="<%= resource.url %>" class="group rounded-2xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow flex flex-col">
-        <% if cs.image.present? %>
-          <div class="aspect-video overflow-hidden bg-gray-100">
-            <img src="<%= cs.image %>" alt="<%= cs.title %>" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-          </div>
-        <% end %>
-        <div class="p-6 flex flex-col flex-1">
-          <div class="flex gap-2 flex-wrap mb-3">
-            <% if cs.type.present? %>
-              <span class="text-xs border border-gray-300 rounded-full px-3 py-1"><%= cs.type %></span>
-            <% end %>
-            <% if cs.country.present? %>
-              <span class="text-xs border border-gray-300 rounded-full px-3 py-1"><%= cs.country %></span>
-            <% end %>
-          </div>
-          <h3 class="h5 mb-2"><%= cs.title %></h3>
-          <p class="par-md text-gray-600 line-clamp-3 flex-1"><%= cs.subtitle %></p>
-        </div>
-      </a>
-    <% end %>
+    <%= partial "partials/testimonial-cards" %>
   </div>
 </div>
