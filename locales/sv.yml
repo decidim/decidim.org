@@ -75,10 +75,12 @@ sv:
     subtitle: If you’d like to get in touch, fill in the contact form or send us an email at
     title: Kontakta Decidim
   demo:
-    button: Demo online
-    p1: Spela runt och utforska fritt Decidim plattform med vår online-demo.
-    strong: Prova online
+    button: Demo
     title: Demo online
+  documentation:
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    subtitle: Learn how to start using Decidim.
+    title: Dokumentation
   faqs:
     cta: Läs alla frågor och svar
     questions:
@@ -253,6 +255,21 @@ sv:
       subtitle: Grow beyond the default components. The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
       title: Moduler
   first-steps:
+    contributors:
+      content: Check the contribution guidelines and collaborate in fixing or managing the code.
+      link: Let's do it
+      pre: For contributors
+      title: Want to contribute?
+    developers:
+      content: Install and configure your Decidim platform following the step by step documentation.
+      link: Kom igång
+      pre: For developers
+      title: Decidim install guide
+    facilitators:
+      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+      link: Check it out
+      pre: For facilitators
+      title: Understand how Decidim works
     first-steps1:
       content: You can install it yourself or find someone to help you with tech support.
       link1: Dokumentation
@@ -392,7 +409,9 @@ sv:
     docs:
       path: https://docs.decidim.org/
       title: Dokumentation
-    donate: Donate
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: Vanliga frågor
     features: Funktioner
     first-steps: Första steg
