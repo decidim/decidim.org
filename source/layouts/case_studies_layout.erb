@@ -9,11 +9,12 @@
         <p class="par-xl pt-5 md:pt-5">
           <%= current_page.data.subtitle %>
         </p>
+          <%= partial "partials/arrow-link", locals: { url: current_page.data.website, text: current_page.data.website, classes: "text-red-500 mt-auto block pt-5 ", span_classes: "text-[20px] leading-[28px]", icon_classes: "w-6 h-6", icon_name: "ri-external-link-line" } %>
       </div>
     </div>
   </section>
-  <% if current_page.data.budget.present? || current_page.data.proposals_submitted.present? || current_page.data.technically_validated.present? || current_page.data.prioritized.present? || current_page.data.selected_for_implementation.present? || current_page.data.total_participants.present? %>
-    <section>
+  <section>
+    <% if current_page.data.budget.present? || current_page.data.proposals_submitted.present? || current_page.data.technically_validated.present? || current_page.data.prioritized.present? || current_page.data.selected_for_implementation.present? || current_page.data.total_participants.present? %>
       <div class="container py-8 md:py-16">
         <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 md:pb-6 pb-2 border-b border-gray-100">
           <%= icon "ri-numbers-line", class: "w-4 h-4" %>
@@ -58,9 +59,17 @@
           <% end %>
         </div>
       </div>
-    </section>
-  <% end %>
+    <% end %>
+  </section>
   <section>
+     <div class="container">
+      <h2 class="h2 md:nowrap ">
+        <%= current_page.data.process_title %>
+      </h2>
+      <p class="par-lg pt-5 md:pt-5">
+        <%= current_page.data.process_subtitle %>
+      </p>
+    </div>
     <% if current_page.data.phases.present? && current_page.data.phases.any? %>
       <div class="container py-10 md:py-16">
         <div class="relative">

@@ -1,11 +1,13 @@
 ---
 title: Participatory Budgets 2020-2023 in Barcelona
 subtitle: The first participatory budgets in the city, or how to promote democratic transparency and citizen empowerment
-url: www.decidim.org
+website: https://www.decidim.org
 image: /uploads/54183562561_e832935b77_k-1-.jpg
 type: Participatory Budget
 target: Youth of x
 country: Brazil
+process_title: Participatory process design
+process_subtitle: 'The phases were structured into a process that lasted about a year and a half, activating different components and functionalities of Decidim at each stage:'
 budget: 50,000,000.00
 proposals_submitted: '400'
 technically_validated: '275'
