@@ -126,6 +126,7 @@ ignore_unused:
   - 'faqs.questions.*.{question, answer, type}'
   - 'index.cards.*.{title,link,content}'
   - 'first-steps.*.{pre,title,content,link1}'
+  - 'first-steps.documentation.*.{pre,title,content,link}'
   - 'partnership-policy.explanation.{p1,p2,p3}'
   - 'press.links.*.{title,link}'
   - features.page.*.{title,subtitle,text}
