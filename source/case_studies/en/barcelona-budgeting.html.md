@@ -6,12 +6,12 @@ image: /uploads/54183562561_e832935b77_k-1-.jpg
 type: Participatory Budget
 target: Youth of x
 country: Brazil
-budget: ''
-proposals_submitted: ''
-technically_validated: ''
-prioritized: ''
-selected_for_implementation: ''
-total_participants: ''
+budget: 50,000,000.00
+proposals_submitted: '400'
+technically_validated: '275'
+prioritized: '78'
+selected_for_implementation: '40'
+total_participants: 87,340
 description: Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah
 phases:
   - title: Phase 1
