@@ -19,41 +19,41 @@
           <%= icon "ri-numbers-line", class: "w-4 h-4" %>
           Results
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-5 pt-5 justify-items-start">
+        <div class="grid grid-cols-1 md:grid-cols-2 justify-items-start">
           <% if current_page.data.budget.present? %>
             <div class="flex flex-col justify-center md:w-96 md:h-36 w-40 h-16">
-              <p class="h2 font-bold md:pb-0 pb-2"><%= current_page.data.budget %></p>
-              <p class="par-sm font-bold text-balance">Budget allocated</p>
+              <p class="h2 font-bold md:pb-4 pb-2"><%= current_page.data.budget %></p>
+              <p class="par-md font-bold text-balance">Budget allocated</p>
             </div>
           <% end %>
           <% if current_page.data.proposals_submitted.present? %>
             <div class="flex flex-col justify-center md:w-96 md:h-36 w-40 h-16">
-              <p class="h2 font-bold md:pb-0 pb-2"><%= current_page.data.proposals_submitted %></p>
-              <p class="par-sm font-bold text-balance">Proposals submitted</p>
+              <p class="h2 font-bold md:pb-4 pb-2"><%= current_page.data.proposals_submitted %></p>
+              <p class="par-md font-bold text-balance">Proposals submitted</p>
             </div>
           <% end %>
           <% if current_page.data.technically_validated.present? %>
             <div class="flex flex-col justify-center md:w-96 md:h-36 w-40 h-16">
-              <p class="h2 font-bold md:pb-0 pb-2"><%= current_page.data.technically_validated %></p>
-              <p class="par-sm font-bold text-balance">Technically validated</p>
+              <p class="h2 font-bold md:pb-4 pb-2"><%= current_page.data.technically_validated %></p>
+              <p class="par-md font-bold text-balance">Technically validated</p>
             </div>
           <% end %>
           <% if current_page.data.prioritized.present? %>
             <div class="flex flex-col justify-center md:w-96 md:h-36 w-40 h-16">
-              <p class="h2 font-bold md:pb-0 pb-2"><%= current_page.data.prioritized %></p>
-              <p class="par-sm font-bold">Prioritised</p>
+              <p class="h2 font-bold md:pb-4 pb-2"><%= current_page.data.prioritized %></p>
+              <p class="par-md font-bold">Prioritised</p>
             </div>
           <% end %>
           <% if current_page.data.selected_for_implementation.present? %>
             <div class="flex flex-col justify-center md:w-96 md:h-36 w-40 h-16">
-              <p class="h2 font-bold md:pb-0 pb-2"><%= current_page.data.selected_for_implementation %></p>
-              <p class="par-sm font-bold text-balance">Selected for implementation</p>
+              <p class="h2 font-bold md:pb-4 pb-2"><%= current_page.data.selected_for_implementation %></p>
+              <p class="par-md font-bold text-balance">Selected for implementation</p>
             </div>
           <% end %>
           <% if current_page.data.total_participants.present? %>
             <div class="flex flex-col justify-center md:w-96 md:h-36 w-40 h-16">
-              <p class="h2 font-bold md:pb-0 pb-2"><%= current_page.data.total_participants %></p>
-              <p class="par-sm font-bold text-balance">Total participants</p>
+              <p class="h2 font-bold md:pb-4 pb-2"><%= current_page.data.total_participants %></p>
+              <p class="par-md font-bold text-balance">Total participants</p>
             </div>
           <% end %>
         </div>
