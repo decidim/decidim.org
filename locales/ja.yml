@@ -75,10 +75,12 @@ ja:
     subtitle: お問い合わせは、お問い合わせフォームにご記入いただくか、下記までメールをお送りください。
     title: Decidimへのお問い合わせ
   demo:
-    button: オンラインデモ
-    p1: オンラインデモを利用して、Decidimプラットフォームを自由に触れてみてください
-    strong: オンラインで試してみる
+    button: デモ
     title: オンラインデモ
+  documentation:
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    subtitle: Learn how to start using Decidim.
+    title: ドキュメント
   faqs:
     cta: よくある質問
     questions:
@@ -253,6 +255,21 @@ ja:
       subtitle: 標準コンポーネントを超えて成長しましょう。Decidimコミュニティは、基本プラットフォームを拡張し、あなたのニーズにより良く対応するための数百のモジュールを開発しています。
       title: モジュール
   first-steps:
+    contributors:
+      content: Check the contribution guidelines and collaborate in fixing or managing the code.
+      link: Let's do it
+      pre: For contributors
+      title: Want to contribute?
+    developers:
+      content: Install and configure your Decidim platform following the step by step documentation.
+      link: はじめる
+      pre: For developers
+      title: Decidim install guide
+    facilitators:
+      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+      link: Check it out
+      pre: For facilitators
+      title: Understand how Decidim works
     first-steps1:
       content: 自身でインストールすることも、技術サポートを協力くれる人を見つけることも可能です。
       link1: ドキュメント
@@ -392,7 +409,9 @@ ja:
     docs:
       path: https://docs.decidim.org/
       title: ドキュメント
-    donate: 寄付
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: よくある質問
     features: 機能
     first-steps: 最初のステップ
