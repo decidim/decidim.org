@@ -173,10 +173,14 @@ en:
       f2: Prioritize proposals using various <strong>voting</strong> methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
   features:
     component_groups:
-      components_group_1_title: Receive Contributions
-      components_group_2_title: Discuss and deliberate
-      components_group_3_title: Make Decisions
-      components_group_4_title: Communicate Results to your audience
+      group_1: 
+        title: Receive Contributions
+      group_2:
+        title: Discuss and deliberate
+      group_3:
+        title: Make Decisions
+      group_4:
+        title: Communicate Results to your audience
     intro: You can use the Decidim software in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, public institution, associations, NGOs, universities, trade unions, cooperatives or neighbourhood communities. With Decidim you will be able to configure spaces for digital participation and organize contributions and discussions through the multiple available components.
     modules:
       button: Get started
