@@ -1,6 +1,6 @@
 ---
-title: Barcelona-budgeting
-subtitle: Barcelona-budgeting Barcelona-budgeting Barcelona-budgeting Barcelona-budgeting Barcelona-budgeting Barcelona-budgeting Barcelona-budgeting Barcelona-budgeting Barcelona-budgeting
+title: Participatory Budgets 2020-2023 in Barcelona
+subtitle: The first participatory budgets in the city, or how to promote democratic transparency and citizen empowerment
 url: www.decidim.org
 image: /uploads/54183562561_e832935b77_k-1-.jpg
 type: Participatory Budget
