@@ -75,10 +75,12 @@ hu:
     subtitle: Ha kapcsolatba szeretne lépni velünk, töltse ki a kapcsolatfelvételi űrlapot, vagy küldjön nekünk egy e-mailt a következő címre
     title: Kapcsolat a Decidimmel
   demo:
-    button: Online demo
-    p1: Játsszon és fedezze fel szabadon a Decidim platformot online demónkkal.
-    strong: Próbálja ki online
+    button: Demó
     title: Online demo
+  documentation:
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    subtitle: Learn how to start using Decidim.
+    title: Dokumentáció
   faqs:
     cta: Minden GYIK elolvasása
     questions:
@@ -253,6 +255,21 @@ hu:
       subtitle: Lépjen túl az alapértelmezett komponenseken. A Decidim közössége több száz modult fejlesztett ki, hogy a platformot az alapokon túl is bővítse, és még jobban megfeleljen az Ön igényeinek.
       title: Modulok
   first-steps:
+    contributors:
+      content: Check the contribution guidelines and collaborate in fixing or managing the code.
+      link: Let's do it
+      pre: For contributors
+      title: Want to contribute?
+    developers:
+      content: Install and configure your Decidim platform following the step by step documentation.
+      link: Kezdjük el
+      pre: For developers
+      title: Decidim install guide
+    facilitators:
+      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+      link: Check it out
+      pre: For facilitators
+      title: Understand how Decidim works
     first-steps1:
       content: Telepítheted magad, vagy kereshetsz valakit, aki segít a technikai támogatással.
       link1: Dokumentáció
@@ -392,7 +409,9 @@ hu:
     docs:
       path: https://docs.decidim.org/
       title: Dokumentáció
-    donate: Adományozás
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: GYIK
     features: Funkciók
     first-steps: Első lépések
