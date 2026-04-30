@@ -75,10 +75,12 @@ es:
     subtitle: Si quieres ponerse en contacto con nosotras, rellena el formulario o envíenos un correo electrónico a
     title: Contacto
   demo:
-    button: Demo online
-    p1: Conoce y prueba libremente la plataforma Decidim con la demo en línea.
-    strong: Demo en línea
+    button: Demo
     title: Demo en línea
+  documentation:
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    subtitle: Learn how to start using Decidim.
+    title: Documentación
   faqs:
     cta: Consulta las preguntas frecuentes
     questions:
@@ -253,6 +255,21 @@ es:
       subtitle: Crece más allá de los componentes por defecto. La comunidad Decidim ha desarrollado cientos de módulos para ampliar la plataforma más allá de lo básico y satisfacer aún mejor tus necesidades.
       title: Módulos
   first-steps:
+    contributors:
+      content: Check the contribution guidelines and collaborate in fixing or managing the code.
+      link: Let's do it
+      pre: For contributors
+      title: Want to contribute?
+    developers:
+      content: Install and configure your Decidim platform following the step by step documentation.
+      link: Empezar
+      pre: For developers
+      title: Decidim install guide
+    facilitators:
+      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+      link: Check it out
+      pre: For facilitators
+      title: Understand how Decidim works
     first-steps1:
       content: Puedes instalarlo tú misma o encontrar a alguien que te ayude con soporte técnico.
       link1: Documentación
@@ -392,7 +409,9 @@ es:
     docs:
       path: https://docs.decidim.org/
       title: Documentación
-    donate: Dona
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: FAQs
     features: Funcionalidades
     first-steps: Primeros Pasos
