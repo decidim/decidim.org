@@ -18,7 +18,13 @@ collections:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Subtitle", name: "subtitle", widget: "text", required: true}
       - {label: "Website", name: "website", widget: "string", type: "url", required: false}
-      - {label: "Image", name: "image", widget: "image", required: true}
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Image", name: "image", widget: "image", required: true}
+          - {label: "Alt text", name: "alt", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "select", options: ["Participatory Budget", "Strategic Planning", "Participatory Policy-Making", "Citizen Petitions", "Organizations", "Climate Policies"], required: true}
       - {label: "Target public", name: "target", widget: "string", required: true}
       - {label: "Country", name: "country", widget: "select", options: ["Brazil", "Catalonia", "Europe", "Finland", "Japan"], required: true}

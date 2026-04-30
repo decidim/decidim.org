@@ -2,7 +2,11 @@
 title: Participatory Budgets 2020-2023 in Barcelona
 subtitle: The first participatory budgets in the city, or how to promote democratic transparency and citizen empowerment
 website: https://www.decidim.org
-image: /uploads/54183562561_e832935b77_k-1-.jpg
+gallery:
+  - image: /uploads/54183562561_e832935b77_k-1-.jpg
+    alt: Signing
+  - image: /uploads/54183852159_4bc0ff93ce_k.jpg
+    alt: Close up signing
 type: Participatory Budget
 target: Youth of x
 country: Brazil
@@ -45,5 +49,6 @@ phases:
         description: |-
           - hdhdhdhdhhdhddh
           - hdhdhdhdhdhdhdhd
+image: /uploads/54183562561_e832935b77_k-1-.jpg
 url: www.decidim.org
 ---

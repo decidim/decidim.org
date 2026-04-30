@@ -15,6 +15,27 @@
   </section>
 
   <section>
+    <% if current_page.data.gallery.present? && current_page.data.gallery.any? %>
+      <div class="container py-8 md:py-16">
+        <div class="flex gap-2 h-[500px]">
+          <div class="flex-1 overflow-hidden rounded-lg">
+            <img class="w-full h-full object-cover" src="<%= current_page.data.gallery.first.image %>" alt="<%= current_page.data.gallery.first.alt %>">
+          </div>
+          <% if current_page.data.gallery.length > 1 %>
+            <div class="flex flex-col gap-2 w-36">
+              <% current_page.data.gallery.drop(1).each do |photo| %>
+                <div class="flex-1 overflow-hidden rounded-lg">
+                  <img class="w-full h-full object-cover" src="<%= photo.image %>" alt="<%= photo.alt %>">
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+  </section>
+
+  <section>
     <% if current_page.data.budget&.value.present? || current_page.data.proposals_submitted&.value.present? || current_page.data.technically_validated&.value.present? || current_page.data.prioritized&.value.present? || current_page.data.selected_for_implementation&.value.present? || current_page.data.total_participants&.value.present? %>
       <div class="container py-8 md:py-16">
         <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 md:pb-6 pb-2 border-b border-gray-100">
