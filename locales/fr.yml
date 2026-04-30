@@ -75,10 +75,12 @@ fr:
     subtitle: Si vous souhaitez nous contacter, remplissez le formulaire de contact ou envoyez-nous un e-mail à
     title: Contacter Decidim
   demo:
-    button: Démo en ligne
-    p1: Explorez librement la plateforme Decidim avec notre démo en ligne.
-    strong: Essayer Decidim
+    button: Démo
     title: Démo en ligne
+  documentation:
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    subtitle: Learn how to start using Decidim.
+    title: Documentation
   faqs:
     cta: Lire toutes les FAQs
     questions:
@@ -253,6 +255,21 @@ fr:
       subtitle: Allez au-delà des fonctionnalités par défaut. La communauté Decidim a développé des centaines de modules pour étendre la plateforme au-delà des bases et pour mieux répondre à vos besoins.
       title: Modules
   first-steps:
+    contributors:
+      content: Check the contribution guidelines and collaborate in fixing or managing the code.
+      link: Let's do it
+      pre: For contributors
+      title: Want to contribute?
+    developers:
+      content: Install and configure your Decidim platform following the step by step documentation.
+      link: C'est parti !
+      pre: For developers
+      title: Decidim install guide
+    facilitators:
+      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+      link: Check it out
+      pre: For facilitators
+      title: Understand how Decidim works
     first-steps1:
       content: Vous pouvez l'installer vous-même ou trouver quelqu'un pour vous aider avec un support technique.
       link1: Documentation
@@ -392,7 +409,9 @@ fr:
     docs:
       path: https://docs.decidim.org/
       title: Documentation
-    donate: Faire un don
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: Foire aux questions
     features: Fonctionnalités
     first-steps: Premiers pas
