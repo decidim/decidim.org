@@ -38,8 +38,10 @@ document.querySelectorAll("[data-nav-link]").forEach(function(link) {
     this.closest("details").open = false;
   });
 });
-var desktopLinks = document.querySelectorAll("[data-desktop-nav-link]");
-var mobileLinks = document.querySelectorAll("[data-nav-link]");
+
+const desktopLinks = document.querySelectorAll("[data-desktop-nav-link]");
+const mobileLinks = document.querySelectorAll("[data-nav-link]");
+const sectionIds = ["official", "community", "auth"];
 function setActiveLink(href) {
   desktopLinks.forEach(function(l) {
     if (l.getAttribute("href") === href) {
@@ -62,7 +64,6 @@ function setActiveLink(href) {
     }
   });
 }
-var sectionIds = ["official", "community", "auth"];
 function updateActiveSection() {
   var current = sectionIds[0];
   for (var i = 0; i < sectionIds.length; i++) {
@@ -73,6 +74,7 @@ function updateActiveSection() {
   }
   setActiveLink("#" + current);
 }
+
 document.querySelectorAll("details").forEach(function(details) {
   details.addEventListener("toggle", function() {
     var arrow = details.querySelector("[data-arrow] svg");
@@ -84,4 +86,5 @@ document.querySelectorAll("details").forEach(function(details) {
   });
 });
 window.addEventListener("scroll", updateActiveSection, { passive: true });
+
 updateActiveSection();
