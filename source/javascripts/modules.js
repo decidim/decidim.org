@@ -1,3 +1,37 @@
+/**
+ * Drop down navigation with active state sync for desktop and mobile.
+ *
+ * Use [data-desktop-nav-link] for desktop anchors.
+ * Use [data-nav-link] inside a <details> for mobile dropdown links.
+ * Use [data-dropdown-label] on the element that mirrors the active link text.
+ * Use [data-arrow] wrapping an <svg> for the open/close rotation effect.
+ * Add section IDs to the `sectionIds` array to enable scroll tracking.
+ *
+ * @example
+ *  ----------- Desktop nav -----------
+ *  <nav>
+ *    <a href="#official" data-desktop-nav-link>Official</a>
+ *    <a href="#community" data-desktop-nav-link>Community</a>
+ *    <a href="#auth" data-desktop-nav-link>Auth</a>
+ *  </nav>
+ *
+ *  ----------- Mobile dropdown nav -----------
+ *  <details>
+ *    <summary>
+ *      <span data-dropdown-label>Official</span>
+ *      <span data-arrow><svg>...</svg></span>
+ *    </summary>
+ *    <a href="#official" data-nav-link>Official</a>
+ *    <a href="#community" data-nav-link>Community</a>
+ *    <a href="#auth" data-nav-link>Auth</a>
+ *  </details>
+ *
+ *  ----------- Sections -----------
+ *  <section id="official">...</section>
+ *  <section id="community">...</section>
+ *  <section id="auth">...</section>
+ */
+
 document.querySelectorAll("[data-nav-link]").forEach(function(link) {
   link.addEventListener("click", function() {
     setActiveLink(this.getAttribute("href"));
