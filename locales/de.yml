@@ -75,10 +75,12 @@ de:
     subtitle: Möchtest du dich mit uns in Verbindung setzen? Fülle das Kontaktformular aus oder sende uns eine E-Mail an
     title: Decidim kontaktieren
   demo:
-    button: Online-Demo
-    p1: Spielen Sie mit unserer Online-Demo herum und erkunden Sie die Decidim Plattform.
-    strong: Online versuchen
+    button: Demo
     title: Online-Demo
+  documentation:
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    subtitle: Learn how to start using Decidim.
+    title: Dokumentation
   faqs:
     cta: Alle FAQs lesen
     questions:
@@ -253,6 +255,21 @@ de:
       subtitle: Wachse über die Standard-Komponenten hinaus. Die Decidim-Community hat Hunderte von Modulen entwickelt, mit denen sich die Plattform weit über die Grundfunktionen hinaus erweitern lässt.
       title: Module
   first-steps:
+    contributors:
+      content: Check the contribution guidelines and collaborate in fixing or managing the code.
+      link: Let's do it
+      pre: For contributors
+      title: Want to contribute?
+    developers:
+      content: Install and configure your Decidim platform following the step by step documentation.
+      link: Los geht's
+      pre: For developers
+      title: Decidim install guide
+    facilitators:
+      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+      link: Check it out
+      pre: For facilitators
+      title: Understand how Decidim works
     first-steps1:
       content: Du kannst Decidim selbst installieren oder dir Unterstützung von jemandem mit technischem Know-how holen.
       link1: Dokumentation
@@ -392,7 +409,9 @@ de:
     docs:
       path: https://docs.decidim.org/
       title: Dokumentation
-    donate: Spenden
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: Häufig gestellte Fragen
     features: Features
     first-steps: Erste Schritte
