@@ -75,10 +75,12 @@ cs:
     subtitle: Pokud byste chtěli kontaktovat, vyplňte kontaktní formulář nebo nám zašlete e-mail na
     title: Kontaktujte Decidim
   demo:
-    button: Online demo
-    p1: Zkoušejte a prozkoumejte zdarma platformu Decidim s naším online demo.
-    strong: Zkuste online
+    button: Demo
     title: Online demo
+  documentation:
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    subtitle: Learn how to start using Decidim.
+    title: Dokumentace
   faqs:
     cta: Přečíst všechny FAQ
     questions:
@@ -253,6 +255,21 @@ cs:
       subtitle: Rozšiřte se nad rámec výchozích komponent. Komunita Decidim vyvinula stovky modulů, které rozšiřují platformu nad rámec základních možností a ještě lépe vyhovují vašim potřebám.
       title: Moduly
   first-steps:
+    contributors:
+      content: Check the contribution guidelines and collaborate in fixing or managing the code.
+      link: Let's do it
+      pre: For contributors
+      title: Want to contribute?
+    developers:
+      content: Install and configure your Decidim platform following the step by step documentation.
+      link: Začínáme
+      pre: For developers
+      title: Decidim install guide
+    facilitators:
+      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+      link: Check it out
+      pre: For facilitators
+      title: Understand how Decidim works
     first-steps1:
       content: Můžete si je nainstalovat sami nebo si najít někoho, kdo vám pomůže s technickou podporou.
       link1: Dokumentace
@@ -392,7 +409,9 @@ cs:
     docs:
       path: https://docs.decidim.org/
       title: Dokumentace
-    donate: Přispějte
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: Časté dotazy
     features: Vlastnosti
     first-steps: První kroky
