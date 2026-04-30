@@ -11,45 +11,42 @@ spaces:
   - image: /images/features/conferences.png
     icon: ri-slideshow-line
     id: feature11
-
-components_group_1:
-  title: components_group_1_title
-  items:
-    - icon: ri-chat-new-line
-      id: feature5
-    - icon: ri-draft-line
-      id: feature10
-    - icon: ri-survey-line
-      id: feature12
-
-components_group_2:
-  title: components_group_2_title
-  items:
-    - icon: ri-calendar-line
-      id: feature9
-    - icon: ri-message-2-line
-      id: feature14
-    - icon: ri-question-answer-line
-      id: feature18
-
-components_group_3:
-  title: components_group_3_title
-  items:
-    - icon: ri-checkbox-line
-      id: feature6
-    - icon: ri-coin-line
-      id: feature19
-    - icon: ri-check-double-fill
-      id: feature20
-
-components_group_4:
-  title: components_group_4_title
-  items:
-    - icon: ri-microscope-line
-      id: feature8
-    - icon: ri-notification-line
-      id: feature16
-    - icon: ri-mail-add-line
-      id: feature17
-    - icon: ri-pages-line
-      id: feature15
+component_groups:
+  group_1:
+    title: group_1
+    items:
+      - icon: ri-chat-new-line
+        id: feature5
+      - icon: ri-draft-line
+        id: feature10
+      - icon: ri-survey-line
+        id: feature12
+  group_2:
+    title: group_2
+    items:
+      - icon: ri-calendar-line
+        id: feature9
+      - icon: ri-message-2-line
+        id: feature14
+      - icon: ri-question-answer-line
+        id: feature18
+  group_3:
+    title: group_3
+    items:
+      - icon: ri-checkbox-line
+        id: feature6
+      - icon: ri-coin-line
+        id: feature19
+      - icon: ri-check-double-fill
+        id: feature20
+  group_4:
+    title: group_4
+    items:
+      - icon: ri-microscope-line
+        id: feature8
+      - icon: ri-notification-line
+        id: feature16
+      - icon: ri-mail-add-line
+        id: feature17
+      - icon: ri-pages-line
+        id: feature15
