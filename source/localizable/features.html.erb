@@ -39,7 +39,7 @@ description:
       <% data.features.spaces.each_with_index do |use, i| %>
         <div class="hidden flex flex-col md:flex-row items-stretch md:items-center gap-6 <%= 'is-selected' if i == 0 %>" data-tab-content="<%= use.id %>">
           <div class="md:w-3/5">
-            <span class="text-black font-semibold"><%= t("features.page.#{use.id}.label") %></span>
+            <span class="text-black font-semibold uppercase"><%= t("features.page.#{use.id}.label") %></span>
             <h6 class="h6 text-gray-500 max-w-prose md:py-1 py-1">
               <%= t("features.page.#{use.id}.subtitle") %>
             </h6>
