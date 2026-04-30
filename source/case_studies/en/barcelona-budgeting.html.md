@@ -8,12 +8,25 @@ target: Youth of x
 country: Brazil
 process_title: Participatory process design
 process_subtitle: 'The phases were structured into a process that lasted about a year and a half, activating different components and functionalities of Decidim at each stage:'
-budget: 50,000,000.00
-proposals_submitted: '400'
-technically_validated: '275'
-prioritized: '78'
-selected_for_implementation: '40'
-total_participants: 87,340
+results_title: Results
+budget:
+  value: 30 Million €
+  label: Budget Allocated
+proposals_submitted:
+  value: '1.982'
+  label: Proposals submitted
+technically_validated:
+  value: '823'
+  label: Technically validated
+prioritized:
+  value: '204'
+  label: Prioritized
+selected_for_implementation:
+  value: '76'
+  label: Selected for implementation
+total_participants:
+  value: 40,000
+  label: Total participants
 description: Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah
 phases:
   - title: Phase 1
