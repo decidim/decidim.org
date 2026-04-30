@@ -75,10 +75,12 @@ eu:
     subtitle: Harremanetan jarri nahi baduzu, bete harremanetarako formularioa edo bidali mezu elektroniko bat
     title: Decidim-en kontaktua
   demo:
-    button: Online Demoa
-    p1: Ezagutu eta probatu askatasunez Decidim plataforma demo digitalean.
-    strong: Probatu online demoa
+    button: Demoa
     title: Online Demoa
+  documentation:
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    subtitle: Learn how to start using Decidim.
+    title: Dokumentazioa
   faqs:
     cta: Irakurri galdera guztiak
     questions:
@@ -253,6 +255,21 @@ eu:
       subtitle: Lehenetsitako osagaietatik haratago haztea. Decidim komunitateak ehunka modulu garatu ditu plataforma oinarrizkoetatik haratago zabaltzeko eta zure beharrei hobeto erantzuteko.
       title: Moduloak
   first-steps:
+    contributors:
+      content: Check the contribution guidelines and collaborate in fixing or managing the code.
+      link: Let's do it
+      pre: For contributors
+      title: Want to contribute?
+    developers:
+      content: Install and configure your Decidim platform following the step by step documentation.
+      link: Hasi erabiltzen
+      pre: For developers
+      title: Decidim install guide
+    facilitators:
+      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+      link: Check it out
+      pre: For facilitators
+      title: Understand how Decidim works
     first-steps1:
       content: Zuk zeuk instalatu dezakezu edo laguntza teknikoa emango dizun norbait aurkitu.
       link1: Dokumentazioa
@@ -392,7 +409,9 @@ eu:
     docs:
       path: https://docs.decidim.org/
       title: Dokumentazioa
-    donate: Dohaintza egin
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: FAQ-ak
     features: Funtzionalitateak
     first-steps: Lehen urratsak
