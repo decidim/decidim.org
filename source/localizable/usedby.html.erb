@@ -49,9 +49,9 @@ description:
       </div>
     </div>
     <p class="par-md pt-4 md:pt-5"><%= t("used_by.whos_using.subtitle") %></p>
-    <div class="pt-10 md:py-10">
+    <div class="pt-10 md:pt-10">
       <% installations = data_sort_by(data_select_home(data.installations), "priority") %>
-      <div class="grid grid-cols-2 sm:grid-cols-6 md:grid-cols-5 pb-5 items-center text-black gap-5">
+      <div class="grid grid-cols-2 sm:grid-cols-6 md:grid-cols-5 pb-5 md:pb-0 items-center text-black gap-5">
         <% installations.each do |id, use| %>
         <div class="logo-container">
           <a class="flex items-center justify-center" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">
