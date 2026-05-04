@@ -34,7 +34,28 @@
       </div>
     <% end %>
   </section>
-
+  <section>
+    <div class="container py-8 md:py-16">
+      <% if current_page.data.type.present? %>
+        <div class="border-b border-gray-100 pb-4 mb-4">
+          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 pb-3">
+            <%= icon "ri-heart-line", class: "w-4 h-4" %>
+            Type of process
+          </p>
+          <p class="par-md"><%= current_page.data.type %></p>
+        </div>
+      <% end %>
+      <% if current_page.data.target.present? %>
+        <div class="border-b border-gray-100 pb-4">
+          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 pb-3">
+            <%= icon "ri-user-line", class: "w-4 h-4" %>
+            Target public
+          </p>
+          <p class="par-md"><%= current_page.data.target %></p>
+        </div>
+      <% end %>
+    </div>
+  </section>
   <section>
     <% if current_page.data.budget&.value.present? || current_page.data.proposals_submitted&.value.present? || current_page.data.technically_validated&.value.present? || current_page.data.prioritized&.value.present? || current_page.data.selected_for_implementation&.value.present? || current_page.data.total_participants&.value.present? %>
       <div class="container py-8 md:py-16">
