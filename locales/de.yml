@@ -76,7 +76,6 @@ de:
     title: Decidim kontaktieren
   demo:
     button: Demo
-    title: Online-Demo
   documentation:
     intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
     subtitle: Learn how to start using Decidim.
@@ -174,20 +173,40 @@ de:
     voting:
       f2: Prioritize proposals using various <strong>voting</strong> methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
   features:
-    intro: "<p>Du kannst Decidim in einer öffentlichen oder privaten Organisation mit Hunderten oder Tausenden potenziellen Teilnehmenden verwenden wie ein Stadtrat, eine Vereinigung, eine Universität, eine NGO, eine Gewerkschaft, eine Nachbarschaftsvereinigung oder eine Genossenschaft...</p><p>Dank Decidim kannst du <strong>Bereiche</strong> für die Teilnahme konfigurieren (Initiativen, Baugruppen, Prozesse oder Beratungen) und sie durch die zahlreichen verfügbaren <strong>Komponenten</strong> bereichern (persönliche Meetings, Umfragen, Vorschläge, Abstimmung, Follow-up der Ergebnisse, <strong>Kommentare</strong> und viele mehr).</p>"
+    component_groups:
+      group_1:
+        title: Receive Contributions
+      group_2:
+        title: Discuss and deliberate
+      group_3:
+        title: Make Decisions
+      group_4:
+        title: Communicate Results to your audience
+    intro: You can use the Decidim software in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, public institution, associations, NGOs, universities, trade unions, cooperatives or neighbourhood communities. With Decidim you will be able to configure spaces for digital participation and organize contributions and discussions through the multiple available components.
+    modules:
+      button: Los geht's
+      intro: Grow beyond the default components.
+      subtitle: The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
+      title: Module
+    need_help:
+      button: Partner
+      subtitle: Take a look at the partners community, Decidim official service providers that can assist you on the installation journey, the hosting and maintenance of your platform.
+      title: Need help in the installation?
     page:
       feature1:
+        label: Beteiligungsprozesse
         subtitle: Häufige Probleme schrittweise demokratisieren
         text: 'Prozesse sind ein Raum, der das Erstellen, Aktivieren/Deaktivieren und Verwalten verschiedener partizipatorischer Prozesse ermöglicht. Diese unterscheiden sich von anderen Räumen, indem sie in verschiedenen Phasen strukturiert werden, in denen alle Komponenten integriert werden können. Beispiele für partizipatorische Prozesse sind: ein Wahlprozess für Mitglieder eines Ausschusses, partizipative Budgetierung, ein strategischer Planungsprozess. das gemeinsame Schreiben einer Regulierung oder Norm, die Gestaltung eines städtischen Raumes oder die Erstellung eines öffentlichen Politikplans.'
         title: Beteiligungsprozesse
       feature10:
         subtitle: Analysieren, synthetisieren und gemeinsam aufbauen
         text: Kann verwendet werden, um lange Textdokumente in mehrere Vorschläge oder Ergebnisse zu konvertieren, und umgekehrt, um einen einheitlichen Text auf der Grundlage einer Sammlung von Vorschlägen oder Ergebnissen zu erstellen und anzuzeigen.
-        title: Partizipative Texte
+        title: Collaborative texts
       feature11:
+        label: Conferences
         subtitle: Wo große Events uraufgeführt werden
         text: Erstelle eine Website für ein großes Event. Vereinheitliche das Programm, indem du eine Reihe von vordefinierten Treffen (Chats, Workshops, etc.) zusammenstellst und die Teilnehmer verwaltest.
-        title: Konferenz
+        title: Conferences
       feature12:
         subtitle: Weil die Meinung deiner Gemeinschaft wichtig ist
         text: Designe und veröffentliche Umfragen. Zeige die Ergebnisse an und downloade sie.
@@ -212,15 +231,29 @@ de:
         subtitle: Einfach, aber leistungsstark
         text: Sende E-Mails an alle, die sich auf der Plattform registriert haben, oder an diejenigen, die an einem bestimmten Bereich mitarbeiten
         title: Newsletter
+      feature18:
+        subtitle: To promote community deliberation
+        text: Ask a question about any topic related to a process, receive comments, participate in discussion threads and close the debate with a conclusion.
+        title: Debates
+      feature19:
+        subtitle: Democratic and transparent decision-making
+        text: Add your project proposal about your city district, vote and give support to those that resonate with you, co-create collective ideas and give a specific amount of money to each one. 
+        title: Partizipative Budgets
       feature2:
+        label: Gremien
         subtitle: Die Macht der kollektiven Selbstorganisation
         text: Ermöglicht die Einrichtung von Entscheidungsgremien oder -gruppen (Räte, Arbeitsgruppen, Kommissionen ect.), die regelmäßig zusammentreten, deren Zusammensetzung, Liste und geografische Lage der Sitzungen. Es ermöglicht die Teilnahme an diesen Sitzungen, zum Beispiel durch persönliche oder Online-Teilnahme, dem Hinzufügen von Themen zur Tagesordnung oder durch Kommentare zu Vorschlägen und Beschlüssen des Gremiums. 
         title: Gremien
+      feature20:
+        subtitle: Simple and user-friendly voting processes
+        text: Set up elections to support decision-making. Upload your census or activate a token system for voting. Participants cast their votes through a secure voting booth, and once voting closes, you can publish the results.
+        title: Elections
       feature3:
-        subtitle: Das Recht auf Entscheidungsfreiheit mit allen demokratischen Garantien
-        text: Ermöglicht die Koordinierung von Referenden, die Auslösung von Diskussionen und Debatten, die Veröffentlichung von Abstimmungsergebnissen und die Anbindung an ein sicheres elektronisches Abstimmungssystem.
-        title: Abstimmungen
+        subtitle: Entscheide über deine Wahl
+        text: 'Offer organisations the possibility of activating different voting systems around proposals: unlimited, limited to a given threshold, cost-based, etc.'
+        title: Conferences
       feature4:
+        label: Initiativen
         subtitle: Gemeinsam die Agenda setzen – für alle zugänglich.
         text: Teilnehmende können Kooperationsinitiativen erstellen, deren Ziele und Entwicklungsweg festlegen, Unterstützung sammeln, Initiativen diskutieren und verbreiten sowie Treffpunkte einrichten, um Unterschriften zu sammeln oder Debatten durchzuführen, die anderen Mitgliedern der Organisation offenstehen.
         title: Initiativen
@@ -238,22 +271,25 @@ de:
         title: Ergebnisse
       feature8:
         subtitle: Ende-zu-Ende Transparenz
-        text: Sie bietet die Möglichkeit, Ergebnisse in Projekte zu unterteilen, den Umsetzungsfortschritt mit klaren Status zu definieren und anzuwenden sowie den Erreichungsgrad der Ergebnisse nach Kategorien und Wirkungsbereichen darzustellen.
+        text: Keep participants informed of the status of implementation. Based on the proposals, define results, create and apply progress reports on their implementation, and show the degree to which the results have been achieved.
         title: Rechenschaftspflicht
       feature9:
         subtitle: Sich treffen und nichts verpassen
         text: Die Versammlungskomponente bietet Organisationen und Teilnehmern die Möglichkeit, Meetings einzuberufen, ihren Ort und ihre Zeit zu bestimmen die Teilnehmer registrieren und begrenzen, die Struktur und den Inhalt der Sitzung sowie die Veröffentlichung der Protokolle und die daraus resultierenden Vorschläge definieren.
         title: Treffen
-    subtitle: Für demokratische Organisationen und Kollektive jeder Art und Größe.
+    section3:
+      text: Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic participation in all kinds of organizations. Choose the features that best suit your needs and customise your participatory process.
+      title: A <span class="text-red-500">customizable system</span> for <br/>participation
+    section4:
+      link: Try our online demo
+      title: Want to play and see how it works in a real-world environment?
+    subtitle: The platform for democratic organisations and communities of any size and kind.
     title: Features
     type1:
       title: Räume für die Teilnahme
     type2:
+      subtitle: Participatory spaces can be combined with components that push participation and adapt to your needs. You can add all the features you want and customise your platform.
       title: Komponenten
-    type3:
-      cta: Module erkunden
-      subtitle: Wachse über die Standard-Komponenten hinaus. Die Decidim-Community hat Hunderte von Modulen entwickelt, mit denen sich die Plattform weit über die Grundfunktionen hinaus erweitern lässt.
-      title: Module
   first-steps:
     contributors:
       content: Check the contribution guidelines and collaborate in fixing or managing the code.
@@ -387,12 +423,12 @@ de:
   modules:
     auth: Autorisierung
     community: Community
-    cta: Mehr erfahren
     develop: Entwickle eigene Module, um die Plattform über die Grundfunktionen hinaus zu erweitern und genau auf deine Bedürfnisse zuzuschneiden.
+    intro: Would you like to see how other people are contributing to Decidim? Check out our current modules and the ones created by the community.
     more_info: Mehr Informationen
     official: Offizielle Module
     placeholder: Suchen...
-    subtitle: Mit Modulen kannst du die Funktionen von Decidim erweitern und deine Erweiterungen mit anderen teilen.
+    subtitle: Extend the functionalities of Decidim and share it with others.
     title: Module
   nav:
     about: Über
