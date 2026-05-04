@@ -42,7 +42,7 @@ cs:
     n1:
       org: Město Helsinki
     n2:
-      org: Participatory Budget 2020-2023 in Barcelona
+      org: Participační rozpočet 2020-2023 v Barceloně
     n3:
       org: 'Evropská komise: Konference pro budoucnost Evropy'
   community:
@@ -185,7 +185,7 @@ cs:
     intro: Program Decidim můžete používat ve veřejné nebo soukromé organizaci se stovkami nebo tisíci potenciálních účastníků, jako městská rada, veřejná instituce, sdružení, nevládní organizace, univerzity, odbory, družstva nebo společenství sousedství. S Decidim budete moci nakonfigurovat prostory pro digitální účast a organizovat příspěvky a diskuze prostřednictvím více dostupných komponent.
     modules:
       button: Začínáme
-      intro: Grow beyond the default components.
+      intro: Rozvoj za hranice výchozích komponent.
       subtitle: Komunita Decidim vyvinula stovky modulů pro rozšíření platformy nad základy a uspokojuje vaše potřeby ještě lépe.
       title: Moduly
     need_help:
@@ -246,7 +246,7 @@ cs:
         title: Shromáždění
       feature20:
         subtitle: Jednoduché a uživatelsky přívětivé hlasovací procesy
-        text: Set up elections to support decision-making. Upload your census or activate a token system for voting. Participants cast their votes through a secure voting booth, and once voting closes, you can publish the results.
+        text: Nastavte volby, abyste podpořili rozhodování. Nahrajte svůj seznam občanů nebo aktivujte symbolický systém pro hlasování. Účastníci dali své hlasy zabezpečeným hlasováním obojím a po ukončení hlasování můžete zveřejnit výsledky.
         title: Volby
       feature3:
         subtitle: Rozhodněte o své volbě
@@ -271,41 +271,41 @@ cs:
         title: Výsledky
       feature8:
         subtitle: Transparentnost od začátku do konce
-        text: Keep participants informed of the status of implementation. Based on the proposals, define results, create and apply progress reports on their implementation, and show the degree to which the results have been achieved.
+        text: Informujte účastníky o stavu implementace. Na základě návrhů definujte výsledky, vytvářejte a uplatňujte zprávy o pokroku při jejich provádění a ukazujte, do jaké míry bylo dosaženo výsledků.
         title: Odpovědnost
       feature9:
         subtitle: Potkat se a nenechat si nic ujít
         text: Komponenta Schůzky nabízí organizacím a účastníkům možnost svolat zasedání, určit jejich polohu a čas, zaregistrují a omezují účastníky, definují strukturu a obsah zasedání, jakož i zveřejňují zápisy a výsledné návrhy.
         title: Zasedání
     section3:
-      text: Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic participation in all kinds of organizations. Choose the features that best suit your needs and customise your participatory process.
-      title: A <span class="text-red-500">customizable system</span> for <br/>participation
+      text: Díky své modulární architektuře a škálovatelné logice můžete konfigurovat silný systém demokratické účasti ve všech typech organizací. Vyberte si funkce, které nejlépe odpovídají vašim potřebám a přizpůsobte si váš participační proces.
+      title: <span class="text-red-500">přizpůsobitelný systém</span> pro <br/>participaci
     section4:
-      link: Try our online demo
-      title: Want to play and see how it works in a real-world environment?
-    subtitle: The platform for democratic organisations and communities of any size and kind.
+      link: Vyzkoušejte naše online demo
+      title: Chceš si hrát a zjistit, jak to funguje v reálném prostředí?
+    subtitle: Platforma pro demokratické organizace a společenství všech velikostí a druhů.
     title: Vlastnosti
     type1:
       title: Prostory pro účast
     type2:
-      subtitle: Participatory spaces can be combined with components that push participation and adapt to your needs. You can add all the features you want and customise your platform.
+      subtitle: Uživatelské prostory lze kombinovat s komponentami, které prosazují účast a přizpůsobují se vašim potřebám. Můžete přidat všechny funkce, které chcete a přizpůsobit platformu.
       title: Komponenty
   first-steps:
     contributors:
-      content: Check the contribution guidelines and collaborate in fixing or managing the code.
-      link: Let's do it
-      pre: For contributors
-      title: Want to contribute?
+      content: Zkontrolujte pokyny pro příspívání a spolupracujte při opravách nebo správě kódu.
+      link: Pojďme na to
+      pre: Pro přispěvatele
+      title: Chcete přispět?
     developers:
-      content: Install and configure your Decidim platform following the step by step documentation.
+      content: Nainstalujte a nakonfigurujte platformu Decidim podle dokumentace krok za krokem.
       link: Začínáme
-      pre: For developers
-      title: Decidim install guide
+      pre: Pro vývojáře
+      title: Decidim instalační průvodce
     facilitators:
-      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
-      link: Check it out
-      pre: For facilitators
-      title: Understand how Decidim works
+      content: Musíte nakonfigurovat participační proces a nevíte, jak začít? Najděte pokyny pro správu platformy Decidim.
+      link: Otestujte to
+      pre: Pro zprostředkovatele
+      title: Pochopte, jak funguje Decidim
     first-steps1:
       content: Můžete si je nainstalovat sami nebo si najít někoho, kdo vám pomůže s technickou podporou.
       link1: Dokumentace
@@ -424,11 +424,11 @@ cs:
     auth: Autorizace
     community: Komunita
     develop: Vytvořte si vlastní moduly pro rozšíření platformy nad základy a přizpůsobte je vašim potřebám.
-    intro: Would you like to see how other people are contributing to Decidim? Check out our current modules and the ones created by the community.
+    intro: Chtěli byste vidět, jak ostatní lidé přispívají k Decidim? Podívejte se na naše současné moduly a moduly vytvořené komunitou.
     more_info: Více informací
     official: Oficiální moduly
     placeholder: Hledat...
-    subtitle: Extend the functionalities of Decidim and share it with others.
+    subtitle: Rozšiřte funkce Decidim a sdílejte je s ostatními.
     title: Moduly
   nav:
     about: O nás
@@ -446,8 +446,8 @@ cs:
       path: https://docs.decidim.org/
       title: Dokumentace
     donate:
-      text: on the decidim platform for continuous improvements
-      title: Donate
+      text: na rozhodovací platformě pro průběžné vylepšování
+      title: Přispějte
     faqs: Časté dotazy
     features: Vlastnosti
     first-steps: První kroky
