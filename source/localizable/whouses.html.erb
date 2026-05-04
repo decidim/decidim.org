@@ -40,9 +40,9 @@ description:
       <%= icon "ri-search-line", class: "text-gray-500 absolute top-6 -translate-y-1/2 md:pr-1 left-3 w-5 h-5" %>
     </div>
 
-    <ul role="tablist" class="flex items-center gap-3 md:gap-4 flex-wrap md:pt-10 mb-8 md:mb-16">
+    <ul role="tablist" aria-label="<%= t('who-uses.title') %>" class="flex items-center gap-3 md:gap-4 flex-wrap md:pt-6 mb-8 md:mb-16">
       <% filters.each_with_index do |filter, i| %>
-        <li role="tab" tabindex="0" class="flex items-center px-4 py-2 rounded-xl text-red-500 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="f<%= i %>">
+        <li id="used-by-tab-f<%= i %>" role="tab" aria-selected="<%= i == 0 %>" aria-controls="used-by-panel-f<%= i %>" tabindex="<%= i == 0 ? 0 : -1 %>" class="flex items-center px-4 py-2 rounded-xl text-red-500 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="f<%= i %>">
           <span class="par-md whitespace-nowrap">
             <%= t("used_by.filters.f#{i}") %>
           </span>
@@ -51,7 +51,7 @@ description:
     </ul>
 
     <% filters.each_with_index do |filter, i| %>
-      <div class="hidden <%= 'is-selected' if i == 0 %>" data-tab-content="f<%= i %>">
+      <div id="used-by-panel-f<%= i %>" role="tabpanel" aria-labelledby="used-by-tab-f<%= i %>" class="hidden <%= 'is-selected' if i == 0 %>" data-tab-content="f<%= i %>" <%= 'hidden' if i != 0 %>>
         <div class="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-x-5 md:gap-y-5">
           <% filter.each do |id, use| %>
             <a class="inline-block p-5 md:p-6" href="<%= use.url %>" target="_blank" rel="noopener noreferrer" data-filter-target>
