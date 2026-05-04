@@ -76,7 +76,6 @@ eu:
     title: Decidim-en kontaktua
   demo:
     button: Demoa
-    title: Online Demoa
   documentation:
     intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
     subtitle: Learn how to start using Decidim.
@@ -174,20 +173,40 @@ eu:
     voting:
       f2: Prioritize proposals using various <strong>voting</strong> methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
   features:
-    intro: "<p>Decidim erabil dezakezu erakunde publiko edo pribatu batean, ehunka edo milaka parte-hartzaile potentzial dituena, hala nola udal bat, elkarte bat, unibertsitate bat, GKE bat, sindikatu bat, auzo-elkarte bat edo kooperatiba bat.</p><p>Decidim-i esker, partaidetza-</p> <strong>espazioak</strong> konfiguratu ahal izango dituzu (ekimenak, batzarrak, prozesuak edo kontsultak) eta eskuragarri dauden <strong>osagai</strong> anitzen bidez aberastu (aurrez aurreko bilerak, inkestak, proposamenak, bozketak, emaitzen jarraipena, <strong>iruzkinak</strong> eta beste asko)"
+    component_groups:
+      group_1:
+        title: Receive Contributions
+      group_2:
+        title: Discuss and deliberate
+      group_3:
+        title: Make Decisions
+      group_4:
+        title: Communicate Results to your audience
+    intro: You can use the Decidim software in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, public institution, associations, NGOs, universities, trade unions, cooperatives or neighbourhood communities. With Decidim you will be able to configure spaces for digital participation and organize contributions and discussions through the multiple available components.
+    modules:
+      button: Hasi erabiltzen
+      intro: Grow beyond the default components.
+      subtitle: The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
+      title: Moduloak
+    need_help:
+      button: Tokiko inplementatzaileak
+      subtitle: Take a look at the partners community, Decidim official service providers that can assist you on the installation journey, the hosting and maintenance of your platform.
+      title: Need help in the installation?
     page:
       feature1:
+        label: Partaidetza-prozesuak
         subtitle: Gai komunak demokratizatzeko, urratsez urrats
         text: 'Prozesuak partaidetza-prozesuak sortzeko, aktibatzeko/desaktibatzeko eta kudeatzeko espazio bat dira. Hauek beste espazioetatik bereizten dira, osagai guztiak sar daitezkeen fase ezberdinetan egituratzen direlako. Partaidetza-prozesuen adibideak honako hauek dira: batzorde bateko kideak hautatzeko prozesua, aurrekontu parte-hartzaileak, plangintza estrategikoko prozesua, arau edo arau bat elkarlanean idaztea, hiri-espazio bat diseinatzea edo politika publikoen plan bat sortzea.'
         title: Partaidetza-prozesuak
       feature10:
         subtitle: Elkarrekin aztertu, sintetizatu eta eraikitzeko
         text: Testu luzeko dokumentuak hainbat proposamen edo emaitza bihurtzeko balio dezake, eta, alderantziz, proposamen edo emaitza multzo batean oinarritutako testu bateratu bat osatu eta erakusteko.
-        title: Ziriborro kolaboratiboak
+        title: Collaborative texts
       feature11:
+        label: Conferences
         subtitle: Non ekitaldi handiak estreinatzen diren
         text: Webgune bat sortu ekitaldi handi baterako. Programa bateratzea, aurrez zehaztutako bilera batzuetan izena emanez (txatak, tailerrak, etab.), eta bertaratutakoak kudeatzea.
-        title: Jardunaldia
+        title: Conferences
       feature12:
         subtitle: Zure komunitatearen iritzia garrantzitsua delako
         text: Inkestak diseinatu eta argitaratzea. Emaitzak erakutsi eta deskargatu.
@@ -212,15 +231,29 @@ eu:
         subtitle: Sinplea, baina boteretsua
         text: Bidali mezu elektronikoak plataforman izena emanda dauden guztiei edo espazio jakin batean parte hartzen dutenei.
         title: Buletina
+      feature18:
+        subtitle: To promote community deliberation
+        text: Ask a question about any topic related to a process, receive comments, participate in discussion threads and close the debate with a conclusion.
+        title: Debates
+      feature19:
+        subtitle: Democratic and transparent decision-making
+        text: Add your project proposal about your city district, vote and give support to those that resonate with you, co-create collective ideas and give a specific amount of money to each one. 
+        title: Aurrekontu parte-hartzaileak
       feature2:
+        label: Batzarrak
         subtitle: Autoantolaketa kolektiboaren boterea
         text: Erabakiak hartzeko organoak edo taldeak (kontseiluak, lantaldeak, batzordeak, etab.) eratzeko aukera ematen du, aldian-aldian biltzen direnak, haien osaera zehaztuz, haien bilerak zerrendatuz eta geolokalizatuz. Horietan parte hartzeko aukera ematen du, adibidez, aurrez aurre edo online, agendari gaiak gehituz, edo organo horrek hartzen dituen proposamenak eta erabakiak komentatuz.
         title: Batzarrak
+      feature20:
+        subtitle: Simple and user-friendly voting processes
+        text: Set up elections to support decision-making. Upload your census or activate a token system for voting. Participants cast their votes through a secure voting booth, and once voting closes, you can publish the results.
+        title: Elections
       feature3:
-        subtitle: Erabakitzeko eskubidea berme demokratiko guztiak zainduz
-        text: Posible da erreferendumak koordinatzea eta eztabaidak piztea, bozketaren emaitzak argitaratzea eta boto elektronikoko sistema seguru batera konektatzea.
-        title: Bozketak
+        subtitle: Erabaki zure aukera
+        text: 'Offer organisations the possibility of activating different voting systems around proposals: unlimited, limited to a given threshold, cost-based, etc.'
+        title: Conferences
       feature4:
+        label: Ekimenak
         subtitle: Guztion agenda denon eskura jartzea
         text: Parte-hartzaileek lankidetza-ekimenak sor ditzakete, beren bidea eta helburuak zehaztu, abalak bildu, eztabaidatu eta ekimenak zabaldu, topaguneak jarri bertaratutakoen sinadurak biltzeko edo erakundeko beste kide batzuei irekitako eztabaidak egiteko.
         title: Ekimenak
@@ -238,22 +271,25 @@ eu:
         title: Emaitzak
       feature8:
         subtitle: Gardentasuna azken muturreraino
-        text: Emaitzak proiektuetan zatitzeko aukera ematen du, horien ezarpenaren inguruko aurrerapen-egoerak zehaztu eta aplikatzeko, bai eta kategorien eta eskemen arabera taldekatutako emaitzen lorpen-maila erakusteko ere.
+        text: Keep participants informed of the status of implementation. Based on the proposals, define results, create and apply progress reports on their implementation, and show the degree to which the results have been achieved.
         title: Emaitzak
       feature9:
         subtitle: Elkar ezagutzeko eta ezer ez galtzeko
         text: Bilera-osagaiak aukera ematen die erakundeei eta parte-hartzaileei bileretarako deialdia egiteko, bileretako lekua eta ordua zehazteko, bertaratuak erregistratzeko eta mugatzeko, bileraren egitura eta edukia zehazteko eta aktak eta ondoriozko proposamenak argitaratzeko.
         title: Topaketa-zerrenda
-    subtitle: Edozein tamainatako erakunde eta kolektibo demokratikoentzat.
+    section3:
+      text: Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic participation in all kinds of organizations. Choose the features that best suit your needs and customise your participatory process.
+      title: A <span class="text-red-500">customizable system</span> for <br/>participation
+    section4:
+      link: Try our online demo
+      title: Want to play and see how it works in a real-world environment?
+    subtitle: The platform for democratic organisations and communities of any size and kind.
     title: Funtzionalitateak
     type1:
       title: Partaidetza-espazioak
     type2:
+      subtitle: Participatory spaces can be combined with components that push participation and adapt to your needs. You can add all the features you want and customise your platform.
       title: Osagaiak
-    type3:
-      cta: Moduluak ezagutu
-      subtitle: Lehenetsitako osagaietatik haratago haztea. Decidim komunitateak ehunka modulu garatu ditu plataforma oinarrizkoetatik haratago zabaltzeko eta zure beharrei hobeto erantzuteko.
-      title: Moduloak
   first-steps:
     contributors:
       content: Check the contribution guidelines and collaborate in fixing or managing the code.
@@ -387,12 +423,12 @@ eu:
   modules:
     auth: Baimenak
     community: Komunitatea
-    cta: Ikasi nola
     develop: Garatu modulu propioak plataforma oinarrizkoetatik harago zabaltzeko eta zure beharrei erantzuteko.
+    intro: Would you like to see how other people are contributing to Decidim? Check out our current modules and the ones created by the community.
     more_info: Informazio gehiago
     official: Modulu ofizialak
     placeholder: Bilatu...
-    subtitle: By using modules you can extend the functionality of Decidim and share it with others.
+    subtitle: Extend the functionalities of Decidim and share it with others.
     title: Moduloak
   nav:
     about: Honi buruz
