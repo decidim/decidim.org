@@ -27,6 +27,12 @@ collections:
           - {label: "Alt text", name: "alt", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "select", options: ["Participatory Budget", "Strategic Planning", "Participatory Policy-Making", "Citizen Petitions", "Organizations", "Climate Policies"], required: true}
       - {label: "Target public", name: "target", widget: "string", required: true}
+      - label: "Components used"
+        name: "components_used"
+        widget: "list"
+        required: false
+        hint: "Add each component as a separate item"
+        field: {label: "Component", name: "component", widget: "string"}
       - {label: "Country", name: "country", widget: "select", options: ["Brazil", "Catalonia", "Europe", "Finland", "Japan"], required: true}
       - {label: "Process title", name: "process_title", widget: "string", required: false}
       - {label: "Process subtitle", name: "process_subtitle", widget: "string", required: false}
