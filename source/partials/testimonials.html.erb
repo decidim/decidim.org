@@ -3,8 +3,8 @@
   <div class="container md:pt-10 pt-6" data-tabs="testimonials">
     <div class="hidden md:grid grid-cols-3 gap-6 items-stretch">
       <% testimonials&.each_with_index do |f, i| %>
-        <div class="flex flex-col pb-2">
-          <div class="flex items-center space-x-4 min-h-[4rem] pb-2 md:pb-2">
+        <div class="flex flex-col h-full">
+          <div class="flex items-start space-x-4 pb-2 min-h-[5rem]">
             <img class="w-16 h-16 rounded-t-xl rounded-br-xl object-cover flex-shrink-0" src="<%= f.image %>" alt="<%= f.name %>">
             <cite class="not-italic">
               <span class="block font-bold"><%= f.name %></span>
@@ -20,7 +20,7 @@
     <div class="md:hidden flex flex-col space-y-5">
       <% testimonials&.each do |f| %>
         <div class="flex flex-col">
-          <div class="flex items-center space-x-4 pb-2 md:pb-2">
+          <div class="flex items-start space-x-4 pb-2">
             <img class="w-16 h-16 rounded-t-xl rounded-br-xl object-cover flex-shrink-0" src="<%= f.image %>" alt="<%= f.name %>">
             <cite class="not-italic">
               <span class="block font-bold"><%= f.name %></span>
