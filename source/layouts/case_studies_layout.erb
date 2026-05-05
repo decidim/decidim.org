@@ -38,7 +38,7 @@
     <div class="container py-8 md:pt-16">
       <% if current_page.data.type.present? %>
         <div class="pb-4 mb-4">
-          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 pb-3 border-b border-gray-100">
+          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 py-3 border-b border-gray-100">
             <%= icon "ri-service-line", class: "w-4 h-4" %>
             <%= t("case_studies.type_of_process") %>
           </p>
@@ -47,7 +47,7 @@
       <% end %>
       <% if current_page.data.target.present? %>
         <div class="pb-4">
-          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 pb-3 border-b border-gray-100">
+          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 py-3 border-b border-gray-100">
             <%= icon "ri-user-line", class: "w-4 h-4" %>
             <%= t("case_studies.target_public") %>
           </p>
@@ -56,7 +56,7 @@
       <% end %>
       <% if current_page.data.components_used.present? && current_page.data.components_used.any? %>
         <div class="pb-4 mb-4">
-          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 pb-3 border-b border-gray-100">
+          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 py-3 border-b border-gray-100">
             <%= icon "ri-apps-2-line", class: "w-4 h-4" %>
             <%= t("case_studies.components_used") %>
           </p>
@@ -117,7 +117,15 @@
       </div>
     <% end %>
   </section>
-
+  <section>
+    <% if current_page.data.description.present? %>
+      <div class="container md:pb-16">
+        <div class="prose par-lg max-w-none text-black">
+          <%= markdown(current_page.data.description) %>
+        </div>
+      </div>
+    <% end %>
+  </section>
   <section>
     <div class="container">
       <h2 class="h2 md:nowrap ">

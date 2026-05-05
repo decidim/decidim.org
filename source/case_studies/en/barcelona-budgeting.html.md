@@ -13,8 +13,8 @@ gallery:
     alt: Promotion
   - image: /uploads/photo_2026-05-04_16-07-12.jpg
     alt: Group photo
-type: Participatory Budget
-target: Youth of x
+type: Participatory Budgeting
+target: Barcelona citizens aged 18 years old and over
 components_used:
   - Proposals
   - Pages
@@ -43,7 +43,16 @@ selected_for_implementation:
 total_participants:
   value: 40,000
   label: Total participants
-description: Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah Here is a description blah blah
+description: |-
+  # What you need to know
+
+  Is it possible for neighbours to decide which projects they want to promote in their neighbourhoods?
+
+  Barcelona’s 2020 participatory budgeting allowed city residents to decide how part of the municipal budget would be spent. The City Council made €30 million available to fund the most voted neighborhood proposals from each district. The goal was to empower citizens in decision-making about the city, fostering direct democracy, transparency, and stronger ties between citizens and the institution.
+
+  The process began before the pandemic, but the health crisis presented an additional challenge, requiring adaptation to restrictions while also encouraging online interaction between residents and the government, further promoting citizen empowerment.
+
+  Some of the most popular proposals that were implemented included calming streets with green spaces designed for pedestrians in different neighborhoods across the city. Another success story was the r[enovation of the Campany sports field,](https://www.decidim.barcelona/processes/PressupostosParticipatius/f/4422/proposals/29142?included_in=Z2lkOi8vZGVjaWRpbS1iYXJjZWxvbmEvRGVjaWRpbTo6QnVkZ2V0czo6UHJvamVjdC8xMTc) where the infrastructure of Barcelona’s only cricket ground was improved thanks to a proposal put forward by a group of young women passionate about the sport.
 phases:
   - title: Phase 1
     count_label: 800 proposals
