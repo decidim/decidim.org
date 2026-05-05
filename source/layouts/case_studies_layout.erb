@@ -16,13 +16,13 @@
 
   <section>
     <% if current_page.data.gallery.present? && current_page.data.gallery.any? %>
-      <div class="container py-8 md:py-16">
+      <div class="container">
         <div class="flex gap-2 h-[500px]">
           <div class="flex-1 overflow-hidden rounded-lg">
             <img class="w-full h-full object-cover" src="<%= current_page.data.gallery.first.image %>" alt="<%= current_page.data.gallery.first.alt %>">
           </div>
           <% if current_page.data.gallery.length > 1 %>
-            <div class="flex flex-col gap-2 w-36">
+            <div class="flex flex-col gap-2 w-36 md:pl-3">
               <% current_page.data.gallery.drop(1).each do |photo| %>
                 <div class="flex-1 overflow-hidden rounded-lg">
                   <img class="w-full h-full object-cover" src="<%= photo.image %>" alt="<%= photo.alt %>">
@@ -35,19 +35,19 @@
     <% end %>
   </section>
   <section>
-    <div class="container py-8 md:py-16">
+    <div class="container py-8 md:pt-16">
       <% if current_page.data.type.present? %>
-        <div class="border-b border-gray-100 pb-4 mb-4">
-          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 pb-3">
-            <%= icon "ri-heart-line", class: "w-4 h-4" %>
+        <div class="pb-4 mb-4">
+          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 pb-3 border-b border-gray-100">
+            <%= icon "ri-service-line", class: "w-4 h-4" %>
             Type of process
           </p>
           <p class="par-md"><%= current_page.data.type %></p>
         </div>
       <% end %>
       <% if current_page.data.target.present? %>
-        <div class="border-b border-gray-100 pb-4">
-          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 pb-3">
+        <div class="pb-4">
+          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 pb-3 border-b border-gray-100">
             <%= icon "ri-user-line", class: "w-4 h-4" %>
             Target public
           </p>
@@ -55,9 +55,9 @@
         </div>
       <% end %>
       <% if current_page.data.components_used.present? && current_page.data.components_used.any? %>
-        <div class="border-b border-gray-100 pb-4 mb-4">
-          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 pb-3">
-            <%= icon "ri-layout-grid-line", class: "w-4 h-4" %>
+        <div class="pb-4 mb-4">
+          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 pb-3 border-b border-gray-100">
+            <%= icon "ri-apps-2-line", class: "w-4 h-4" %>
             <%= t("case_studies.components_used") %>
           </p>
           <ul class="list-disc list-inside space-y-1">
@@ -71,8 +71,8 @@
   </section>
   <section>
     <% if current_page.data.budget&.value.present? || current_page.data.proposals_submitted&.value.present? || current_page.data.technically_validated&.value.present? || current_page.data.prioritized&.value.present? || current_page.data.selected_for_implementation&.value.present? || current_page.data.total_participants&.value.present? %>
-      <div class="container py-8 md:py-16">
-        <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 md:pb-6 pb-2 border-b border-gray-100">
+      <div class="container py-8 md:pb-16">
+        <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 md:pb-3 pb-2 border-b border-gray-100">
           <%= icon "ri-numbers-line", class: "w-4 h-4" %>
           <%= current_page.data.results_title.present? ? current_page.data.results_title : "Results" %>
         </p>
