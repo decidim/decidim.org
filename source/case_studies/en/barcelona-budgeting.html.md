@@ -15,6 +15,12 @@ gallery:
     alt: Group photo
 type: Participatory Budget
 target: Youth of x
+components_used:
+  - Proposals
+  - Pages
+  - Follow-up
+  - Meetings
+  - Participatory Budgets
 country: Brazil
 process_title: Participatory process design
 process_subtitle: 'The phases were structured into a process that lasted about a year and a half, activating different components and functionalities of Decidim at each stage:'
