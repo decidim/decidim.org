@@ -16,7 +16,7 @@ description:
         <%= t("who-uses.intro") %>
       </div>
       <p class="md:pt-5 pt-4 md:pb-0 pb-10 par-md">
-        <a href="/uploads/installations.csv" class="text-red-500 inline-flex items-center gap-2">
+        <a href="/uploads/installations.csv" download class="text-red-500 inline-flex items-center gap-2">
           <span class="md:hidden"><%= t("who-uses.download_csv_short") %></span>
           <span class="hidden md:inline"><%= t("who-uses.download_csv") %></span>
           <%= icon("ri-download-line", class: "w-6 h-6 shrink-0") %>
@@ -66,7 +66,7 @@ description:
     <div class="par-xs text-gray-500 md:pt-10">
       <%= t("used_by.disclaimer") %>
       <p>
-        <%= link_to t("used_by.download_csv"), "/uploads/installations.csv", class: "underline" %>
+        <%= link_to t("used_by.download_csv"), "/uploads/installations.csv", class: "underline", download: true %>
       </p>
     </div>
   </div>
