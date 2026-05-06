@@ -1,5 +1,5 @@
 ---
-title: L’Associació Decidim crea el Comitè d’Institucions Públiques amb sis institucions globals
+title: The Decidim Association launches the Committee of Public Institutions with six global institutions
 ---
 
 ![](/uploads/foto.jpg)
