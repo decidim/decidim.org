@@ -4,7 +4,7 @@ require "spec_helper"
 
 RSpec.describe "used by", type: :feature do
   before do
-    visit "/usedby"
+    visit "/used-by"
   end
 
   it "has the correct h1 element" do
