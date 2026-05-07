@@ -29,7 +29,11 @@
 
 /* paragraphs */
 .par-2xl {
+.par-2xl {
   `@apply` text-[40px] leading-[48px] md:text-[64px] md:leading-[72px] font-bold;
+
+  -webkit-text-stroke: 1px currentcolor;
+}
 
   -webkit-text-stroke: 1px currentcolor;
 }
