@@ -99,6 +99,7 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Description, name: description, widget: markdown }
+      - {label: "Banner", name: "banner", widget: "markdown", required: false}
   - name: "settings"
     label: "Settings"
     description: >

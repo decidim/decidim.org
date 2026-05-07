@@ -224,6 +224,13 @@
       </div>
     <% end %>
   </section>
+  <section class="bg-gray-100">
+    <% if current_case_study.banner.present? %>
+      <div class="par-md prose max-w-none pb-4">
+        <%= markdown(current_case_study.banner) %>
+      </div>
+    <% end %>
+  </section>
 
   <%= yield %>
 <% end %>
