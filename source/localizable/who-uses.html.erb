@@ -50,6 +50,8 @@ description:
       <% end %>
     </ul>
 
+    <%= partial "partials/map", locals: { installations: installations } %>
+
     <% filters.each_with_index do |filter, i| %>
       <div id="used-by-panel-f<%= i %>" role="tabpanel" aria-labelledby="used-by-tab-f<%= i %>" class="hidden <%= 'is-selected' if i == 0 %>" data-tab-content="f<%= i %>" <%= 'hidden' if i != 0 %>>
         <div class="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-x-5 md:gap-y-5">
