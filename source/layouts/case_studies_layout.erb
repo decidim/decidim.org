@@ -72,7 +72,7 @@
   <section>
     <% if current_page.data.budget&.value.present? || current_page.data.proposals_submitted&.value.present? || current_page.data.technically_validated&.value.present? || current_page.data.prioritized&.value.present? || current_page.data.selected_for_implementation&.value.present? || current_page.data.total_participants&.value.present? %>
       <div class="container py-8 md:pb-16 md:pr-80">
-        <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 md:pb-3 pb-2 border-b border-gray-100">
+        <p class="par-sm font-bold uppercase flex items-center gap-2 md:pb-3 pb-2 border-b border-gray-100">
           <%= icon "ri-numbers-line", class: "w-4 h-4" %>
           <%= current_page.data.results_title.present? ? current_page.data.results_title : "Results" %>
         </p>
