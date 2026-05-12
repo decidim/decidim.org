@@ -70,6 +70,12 @@ phases:
         description: |-
           - hdhdhdhdhhdhddh
           - hdhdhdhdhdhdhdhd
+banner_title: 'Applying hybridization:'
+banner: |-
+  **combining in-person and digital approaches**
+
+  The process implemented a hybrid model for meetings with citizens, neighbourhood councils, and various debate, information, and entity sessions. This approach facilitated participation and inclusion of all participants and allowed adaptation during the COVID-19 health emergency.
+  The meetings for Barcelona’s Participatory Budgets were open spaces where residents, local organizations, and specific groups such as young people or children could gather to learn about the process, discuss neighbourhood needs, and generate concrete investment proposals. These sessions, facilitated with technical support from the City Council, addressed a wide range of topics, including the improvement of public spaces, green areas, local facilities, accessibility, and youth amenities, always with the goal of identifying investments that could have the greatest impact on people’s daily lives.
 image: /uploads/54183562561_e832935b77_k-1-.jpg
 url: www.decidim.org
 ---
