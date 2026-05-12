@@ -38,7 +38,7 @@
     <div class="container py-8 md:pt-16 md:pr-80">
       <% if current_page.data.type.present? %>
         <div class="pb-4 mb-4">
-          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 py-3 border-b border-gray-100">
+          <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-100">
             <%= icon "ri-service-line", class: "w-4 h-4" %>
             <%= t("case_studies.type_of_process") %>
           </p>
@@ -47,7 +47,7 @@
       <% end %>
       <% if current_page.data.target.present? %>
         <div class="pb-4">
-          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 py-3 border-b border-gray-100">
+          <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-100">
             <%= icon "ri-user-line", class: "w-4 h-4" %>
             <%= t("case_studies.target_public") %>
           </p>
@@ -56,7 +56,7 @@
       <% end %>
       <% if current_page.data.components_used.present? && current_page.data.components_used.any? %>
         <div class="pb-4 mb-4">
-          <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 py-3 border-b border-gray-100">
+          <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-100">
             <%= icon "ri-apps-2-line", class: "w-4 h-4" %>
             <%= t("case_studies.components_used") %>
           </p>
