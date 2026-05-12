@@ -465,6 +465,7 @@ cs:
     transparency-portal: Portál transparentnosti
     use-cases: Případy použití
     used_by: Kde se používá
+    who_uses: Who uses Decidim
   newsletter:
     past: Minulé zpravodaje
     subtitle: Novinky a aktualizace o platformě Decidim a komunitě.
@@ -620,8 +621,8 @@ cs:
         processes: procesy
         proposals: návrhy
     filters:
-      f0: Zobrazit vše
-      f1: Vlády
+      f0: All
+      f1: Government
       f2: Města
       f3: Nevládní organizace
       f4: Univerzity
@@ -629,3 +630,9 @@ cs:
     join: Společnost Decidim si pro své demokratické procesy zvolilo více než 400 subjektů, 250 správních orgánů a 150 místních komunit.
     subtitle: Tato města, regiony a organizace již používají Decidim
     title: Kde se používá
+  who-uses:
+    download_csv: Stáhnout CSV soubor se všemi instalacemi
+    download_csv_short: Download CSV
+    intro: Decidim’s flexible features are designed to serve small and large collectives, both public and private, with communities ranging from hundreds to thousands of participants. Including city councils, associations, universities, NGOs and cooperatives. Below, you can explore the full database of all Decidim installations.
+    subtitle: They’ve already used Decidim.
+    title: Who uses Decidim
