@@ -465,6 +465,7 @@ ja:
     transparency-portal: 透明性ポータル
     use-cases: 活用事例
     used_by: 使用中のDecidim
+    who_uses: Who uses Decidim
   newsletter:
     past: 過去のニュースレター
     subtitle: Decidimプラットフォームとコミュニティに関するニュースや最新情報をお届けします。
@@ -620,8 +621,8 @@ ja:
         processes: プロセス
         proposals: 提案
     filters:
-      f0: すべて表示
-      f1: 公共機関
+      f0: All
+      f1: Government
       f2: 都市
       f3: NGO
       f4: 大学
@@ -629,3 +630,9 @@ ja:
     join: 400以上の団体、250の政府機関、150の草の根コミュニティが、民主的なプロセスのためにDecidimを選んでいます。
     subtitle: これらの都市、地域、組織はすでにDecidimを使用しています
     title: 使用中のDecidim
+  who-uses:
+    download_csv: すべてのインストール内容を含むCSVファイルをダウンロード
+    download_csv_short: Download CSV
+    intro: Decidim’s flexible features are designed to serve small and large collectives, both public and private, with communities ranging from hundreds to thousands of participants. Including city councils, associations, universities, NGOs and cooperatives. Below, you can explore the full database of all Decidim installations.
+    subtitle: They’ve already used Decidim.
+    title: Who uses Decidim
