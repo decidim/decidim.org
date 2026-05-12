@@ -225,7 +225,7 @@
     <% end %>
   </section>
   <section class="bg-red-100">
-    <% if current_page.data.banner.present? || current_page.data.banner_title.present? %>
+    <% if current_page.data.banner.present? && current_page.data.banner_title.present? && current_page.data.banner_subtitle.present? %>
       <div class="container py-8 md:py-16 md:pr-80">
         <h2 class="text-5xl text-red-500 md:nowrap">
           <%= markdown(current_page.data.banner_title) %>
