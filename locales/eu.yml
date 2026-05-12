@@ -465,6 +465,7 @@ eu:
     transparency-portal: Gardentasun Ataria
     use-cases: Erabilera-kasuak
     used_by: Decidim dagoeneko erabiltzen
+    who_uses: Who uses Decidim
   newsletter:
     past: Joan diren buletinak
     subtitle: Decidim plataformari eta komunitateari buruzko albisteak eta eguneratzeak.
@@ -620,8 +621,8 @@ eu:
         processes: prozesuak
         proposals: proposamenak
     filters:
-      f0: Ikusi dena
-      f1: Gobernuak
+      f0: All
+      f1: Government
       f2: Hiriak
       f3: GKEak
       f4: Unibertsitateak
@@ -629,3 +630,9 @@ eu:
     join: 400 entitate baino gehiagok, 250 gobernu komunitatek eta 150 belar-errok Decidim aukeratu dute beren prozesu demokratikoetarako.
     subtitle: Hiri, eskualde eta erakunde hauek Decidim erabiltzen ari dira
     title: Decidim dagoeneko erabiltzen
+  who-uses:
+    download_csv: Download CSV file with all the installations
+    download_csv_short: Download CSV
+    intro: Decidim’s flexible features are designed to serve small and large collectives, both public and private, with communities ranging from hundreds to thousands of participants. Including city councils, associations, universities, NGOs and cooperatives. Below, you can explore the full database of all Decidim installations.
+    subtitle: They’ve already used Decidim.
+    title: Who uses Decidim
