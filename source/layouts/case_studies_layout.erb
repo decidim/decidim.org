@@ -41,7 +41,7 @@
     <div class="container py-8 md:pt-16 md:pr-80">
       <% if current_page.data.type.present? %>
         <div class="pb-4 mb-4">
-          <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-100">
+          <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-300">
             <%= icon "ri-service-line", class: "w-4 h-4" %>
             <%= t("case_studies.type_of_process") %>
           </p>
@@ -50,7 +50,7 @@
       <% end %>
       <% if current_page.data.target.present? %>
         <div class="pb-4">
-          <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-100">
+          <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-300">
             <%= icon "ri-user-line", class: "w-4 h-4" %>
             <%= t("case_studies.target_public") %>
           </p>
@@ -59,7 +59,7 @@
       <% end %>
       <% if current_page.data.components_used.present? && current_page.data.components_used.any? %>
         <div class="pb-4 mb-4">
-          <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-100">
+          <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-300">
             <%= icon "ri-apps-2-line", class: "w-4 h-4" %>
             <%= t("case_studies.components_used") %>
           </p>
@@ -75,7 +75,7 @@
   <section>
     <% if current_page.data.budget&.value.present? || current_page.data.proposals_submitted&.value.present? || current_page.data.technically_validated&.value.present? || current_page.data.prioritized&.value.present? || current_page.data.selected_for_implementation&.value.present? || current_page.data.total_participants&.value.present? %>
       <div class="container py-8 md:pb-16 md:pr-80">
-        <p class="par-sm font-bold uppercase flex items-center gap-2 md:pb-3 pb-2 border-b border-gray-100">
+        <p class="par-sm font-bold uppercase flex items-center gap-2 md:pb-3 pb-2 border-b border-gray-300">
           <%= icon "ri-numbers-line", class: "w-4 h-4" %>
           <%= current_page.data.results_title.present? ? current_page.data.results_title : "Results" %>
         </p>
