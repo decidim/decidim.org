@@ -2,6 +2,9 @@
 
   <section>
     <div class="container pt-10 md:pt-16 pb-10">
+      <div class="pb-10">
+        <%= partial "partials/arrow-link", locals: { text: t("case_studies.use_cases_index_path"), url: "/case_studies", reverse: true, icon_classes: "w-6 h-6" } %>
+      </div>
       <div class="md:w-3/5">
         <h1 class="h1 md:nowrap ">
           <%= current_page.data.title %>
