@@ -465,6 +465,7 @@ hu:
     transparency-portal: Transparency Portal
     use-cases: Felhasználási esetek
     used_by: A Decidim használatban
+    who_uses: Who uses Decidim
   newsletter:
     past: Korábbi hírlevelek
     subtitle: Hírek és frissítések a Decidim platformról és a közösségről.
@@ -620,8 +621,8 @@ hu:
         processes: processes
         proposals: proposals
     filters:
-      f0: Mindet mutasd
-      f1: Governments
+      f0: All
+      f1: Government
       f2: Városok
       f3: Nem kormányzati szervezetek
       f4: Universities
@@ -629,3 +630,9 @@ hu:
     join: Több mint 400 szervezet, 250 kormányzati szervezet és 150 helyi közösség választotta a Decidimet demokratikus folyamataihoz.
     subtitle: Ezek a városok, régiók és szervezetek már használják a Decidim-et
     title: A Decidim használatban
+  who-uses:
+    download_csv: Download CSV file with all the installations
+    download_csv_short: Download CSV
+    intro: Decidim’s flexible features are designed to serve small and large collectives, both public and private, with communities ranging from hundreds to thousands of participants. Including city councils, associations, universities, NGOs and cooperatives. Below, you can explore the full database of all Decidim installations.
+    subtitle: They’ve already used Decidim.
+    title: Who uses Decidim
