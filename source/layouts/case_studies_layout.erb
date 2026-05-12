@@ -16,7 +16,7 @@
 
   <section>
     <% if current_page.data.gallery.present? && current_page.data.gallery.any? %>
-      <div class="container">
+      <div class="container md:pr-80">
         <div class="flex gap-2 h-[500px]">
           <div class="flex-1 overflow-hidden rounded-lg">
             <img class="w-full h-full object-cover" src="<%= current_page.data.gallery.first.image %>" alt="<%= current_page.data.gallery.first.alt %>">
@@ -35,7 +35,7 @@
     <% end %>
   </section>
   <section>
-    <div class="container py-8 md:pt-16">
+    <div class="container py-8 md:pt-16 md:pr-80">
       <% if current_page.data.type.present? %>
         <div class="pb-4 mb-4">
           <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 py-3 border-b border-gray-100">
@@ -71,7 +71,7 @@
   </section>
   <section>
     <% if current_page.data.budget&.value.present? || current_page.data.proposals_submitted&.value.present? || current_page.data.technically_validated&.value.present? || current_page.data.prioritized&.value.present? || current_page.data.selected_for_implementation&.value.present? || current_page.data.total_participants&.value.present? %>
-      <div class="container py-8 md:pb-16">
+      <div class="container py-8 md:pb-16 md:pr-80">
         <p class="par-sm font-bold uppercase tracking-widest flex items-center gap-2 md:pb-3 pb-2 border-b border-gray-100">
           <%= icon "ri-numbers-line", class: "w-4 h-4" %>
           <%= current_page.data.results_title.present? ? current_page.data.results_title : "Results" %>
@@ -119,7 +119,7 @@
   </section>
   <section>
     <% if current_page.data.description.present? %>
-      <div class="container md:pb-16">
+      <div class="container md:pb-16 md:pr-80">
         <div class="prose par-lg max-w-none text-black">
           <%= markdown(current_page.data.description) %>
         </div>
@@ -127,7 +127,7 @@
     <% end %>
   </section>
   <section>
-    <div class="container">
+    <div class="container md:pr-80">
       <h2 class="h2 md:nowrap ">
         <%= current_page.data.process_title %>
       </h2>
@@ -136,7 +136,7 @@
       </p>
     </div>
     <% if current_page.data.phases.present? && current_page.data.phases.any? %>
-      <div class="container py-10 md:py-16">
+      <div class="container py-10 md:py-16 md:pr-80">
         <div class="relative">
           <% current_page.data.phases.each_with_index do |phase, idx| %>
             <% is_last = idx == current_page.data.phases.length - 1 %>
@@ -224,18 +224,41 @@
       </div>
     <% end %>
   </section>
-  <section class="bg-gray-100">
+  <section class="bg-red-100">
     <% if current_page.data.banner.present? || current_page.data.banner_title.present? %>
-      <div class="container py-8 md:py-16">
-        <h2 class="text-5xl md:nowrap ">
+      <div class="container py-8 md:py-16 md:pr-80">
+        <h2 class="text-5xl text-red-500 md:nowrap">
           <%= markdown(current_page.data.banner_title) %>
         </h2>
-        <div class="par-md prose max-w-none pb-4">
+        <div class="text-4xl font-bold text-red-500 md:pb-6">
+          <%= markdown(current_page.data.banner_subtitle) %>
+        </div>
+        <div class="par-md text-red-500 prose max-w-none pb-4">
           <%= markdown(current_page.data.banner) %>
         </div>
       </div>
     <% end %>
   </section>
-
+  <section>
+    <% if current_page.data.optional_section_1.present? || current_page.data.optional_section_2.present? || current_page.data.optional_section_3.present? %>
+      <div class="container py-8 md:py-16 md:pr-80">
+        <% if current_page.data.optional_section_1.present? %>
+          <div class="prose par-md max-w-none text-black pb-10">
+            <%= markdown(current_page.data.optional_section_1) %>
+          </div>
+        <% end %>
+        <% if current_page.data.optional_section_2.present? %>
+          <div class="prose par-md max-w-none text-black pb-10">
+            <%= markdown(current_page.data.optional_section_2) %>
+          </div>
+        <% end %>
+        <% if current_page.data.optional_section_3.present? %>
+          <div class="prose par-md max-w-none text-black pb-10">
+            <%= markdown(current_page.data.optional_section_3) %>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </section>
   <%= yield %>
 <% end %>
