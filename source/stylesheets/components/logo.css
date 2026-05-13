@@ -1,0 +1,7 @@
+.logo {
+  @apply w-[85px] h-[85px] md:w-[175px] md:h-[120px] object-contain;
+}
+
+.logo-container {
+  @apply md:w-[223px] md:h-[120px] w-[161px] h-[85px] object-contain;
+}
