@@ -562,7 +562,7 @@ en:
       org: Som Energia
       quote: '"With the implementation of Decidim in Som Energia we have generated a kinder space for participation. We released the tool in 2018, hosting the General Assembly of the Cooperative and months later we debated the Image Redesign and collaborative development of the School of Som Energia, among other participatory processes. In a few months, more than 3,500 participant people have registered, 5 participatory processes, 3 assemblies operating and more than 1,300 votes in the last General Assembly vote."'
     n3:
-      org: Municipal President of Mérida Yucatán, Mexico. City Council of Mérida Yucatán, Mexico
+      org: City Council President of Mérida Yucatán, Mexico.
       quote: '"The Decide Mérida digital platform was an opportunity that opened as never before the mechanisms of citizen participation for the elaboration of the Municipal Development Plan of Mérida 2018-2021. We had more than 3,000 citizen interactions including proposals, comments, suggestions and support that achieving the highest consensus possible about what is best for our city. Undoubtedly, the Decide Mérida platform will continue to be our ally in making Mérida an increasingly participative society."'
     n4:
       org: City of Helsinki
@@ -608,6 +608,9 @@ en:
     p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
     title: Trademark policy
   used_by:
+    case_studies:
+      link: Read more use cases
+      title: Case studies
     cta: Get started
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
     download_csv: Download CSV file with all the installations
@@ -615,15 +618,15 @@ en:
       subtitle: Decidim keeps growing and being adopted by organizations and the community.
       title: Facts & Figures
       type:
-        comments: comments
-        countries: countries
-        instances: instances
-        institutions: institutions
-        meetings: meetings
-        organizations: organizations
-        participants: participants
-        processes: processes
-        proposals: proposals
+        comments: Comments
+        countries: Countries
+        instances: Instances
+        institutions: Institutions
+        meetings: Meetings
+        organizations: Organizations
+        participants: Participants
+        processes: Processes
+        proposals: Proposals
     filters:
       f0: All
       f1: Government
@@ -631,6 +634,10 @@ en:
       f3: NGOs
       f4: Universities
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
+    installations:
+      link: See who is using it
+      subtitle: More than 450 organisations and institutions have proudly used Decidim.
+      title: They've already used Decidim
     join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
     title: Decidim in use
