@@ -2,9 +2,9 @@
 
 require "spec_helper"
 
-RSpec.describe "who uses", type: :feature do
+RSpec.describe "installations", type: :feature do
   before do
-    visit "/who-uses"
+    visit "/installations"
   end
 
   it "has the correct h1 element" do
