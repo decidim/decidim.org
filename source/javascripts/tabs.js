@@ -26,18 +26,8 @@ function setSelection({ parent, activeId }) {
   const contents = parent.querySelectorAll(`[data-tab-content]`)
   const ACTIVE_CSS_CLASS = "is-selected"
 
-  ids.forEach((node) => {
-    const isActive = getTabId(node) === activeId
-    node.classList.toggle(ACTIVE_CSS_CLASS, isActive)
-    node.setAttribute("aria-selected", isActive)
-    node.setAttribute("tabindex", isActive ? "0" : "-1")
-  })
-
-  contents.forEach((node) => {
-    const isActive = getTabId(node) === activeId
-    node.classList.toggle(ACTIVE_CSS_CLASS, isActive)
-    node.toggleAttribute("hidden", !isActive)
-  })
+  ids.forEach((node) => getTabId(node) === activeId ? node.classList.add(ACTIVE_CSS_CLASS) : node.classList.remove(ACTIVE_CSS_CLASS))
+  contents.forEach((node) => getTabId(node) === activeId ? node.classList.add(ACTIVE_CSS_CLASS) : node.classList.remove(ACTIVE_CSS_CLASS))
 }
 
 function handleTabClick({ event: { target }, type }) {

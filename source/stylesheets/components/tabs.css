@@ -38,9 +38,3 @@
     @apply hidden;
   }
 }
-
-[data-tabs="used_by"] {
-  [data-tab-id].is-selected {
-    @apply text-white bg-red-500;
-  }
-}
