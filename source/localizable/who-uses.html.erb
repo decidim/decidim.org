@@ -27,7 +27,7 @@ description:
 </section>
 
 <section>
-  <div class="container md:pb-16 pb-10" data-tabs="used_by" data-filter>
+  <div class="container md:pb-16 pb-10" data-tabs="used_by" data-filter data-click-only>
     <% installations = data_sort_by(data.installations, "priority") %>
     <% region = data_select_by_type(installations, "region") %>
     <% city = data_select_by_type(installations, "city") %>
