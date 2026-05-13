@@ -3,8 +3,10 @@ decidim:
     url: /first-steps
   - name: nav.features
     url: /features
-  - name: nav.used-by
+  - name: nav.used_by
     url: /used-by
+  - name: nav.who_uses
+    url: /who-uses
   - name: nav.demo
     url: https://try.decidim.org/
   - name: nav.modules
