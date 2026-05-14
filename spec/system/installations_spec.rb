@@ -21,7 +21,21 @@ RSpec.describe "installations", type: :feature do
     expect(page.status_code).to eq(200)
   end
 
-  it "has a download csv link" do
-    expect(page).to have_link(href: "/uploads/installations.csv")
+  context "when accessing the CSV installation download file" do
+    it "has a download csv link" do
+      expect(page).to have_link(href: "/uploads/installations.csv")
+    end
+
+    it "downloads a csv file when clicking the link" do
+      click_link(href: "/uploads/installations.csv")
+
+      expect(page.response_headers["Content-Type"]).to include("text/csv")
+    end
+
+    it "csv file contains correct headers and data" do
+      csv_content = File.read(File.join(__dir__, "../../source/uploads/installations.csv"))
+
+      expect(csv_content).to include('"title","url","image","type","priority","home"')
+    end
   end
 end
