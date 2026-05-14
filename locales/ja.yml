@@ -41,13 +41,10 @@ ja:
   case_study:
     n1:
       org: ヘルシンキ市
-      quote: 私たちは、使いやすいインターフェイスでヘルシンキのプロセスをサポートするための適切なプラットフォームを見つけるために、7種類の参加型予算オプションを評価し、さまざまなニーズに合わせたモジュール性を必要としました。 Decidimは評価を獲得し、最初のインスタンスは2018で構築されました。
     n2:
-      org: Code for Japan
-      quote: Decidimはカスタマイズしやすいアーキテクチャを提供しているため、国内の状況に合わせて適応させることができます。
+      org: Participatory Budget 2020-2023 in Barcelona
     n3:
-      org: 欧州委員会
-      quote: デジタルプラットフォームは2021年4月19日に開始され、2022年5月9日までの貢献を受け付けていました。 期間中、18859件のアイデアと22167件のコメントが寄せられ、6661件のイベントが開催されました。 デジタルプラットフォームを通じて集められた貢献は、欧州市民パネルによって取り上げられ、会議のもう一つの柱である全体会議で議論されました。
+      org: 'European Commission: Conference for the Future of Europe'
   community:
     community1: 新しい機能の定義を提案し、助けます
     community2: バグを報告し、開発者が修正するのに協力します
@@ -66,22 +63,23 @@ ja:
     privacy_policy:
       accept: <a href="%{privacy_policy_url}">プライバシーポリシー</a>に同意します
       message: "<p>お問い合わせフォーム、電子メール、または同様の通信手段でお問い合わせいただいた場合、コメント、要望、提案などに対応するため、名前、事業体、電子メールアドレス、ユーザーメッセージの内容を自動的に収集します。</p> <p>加えて、利用者を個別に特定できないようにするため、仮名化、さらにはデータ集約などの匿名化技術を使用し、統計的な調査のためにこれらのデータを処理することがあります。</p>"
-    reason: Reason for contact
+    reason: お問い合わせ理由
     reasons:
-      community: I want to join the Decidim Community.
-      installing: I have a question about installing Decidim.
-      other: Other.
-      researcher: I'm a researcher studying Decidim.
-      selected: Select an option.
-      service_provider: I need a Decidim service provider.
+      community: Decidimコミュニティに参加したい。
+      installing: Decidimのインストールについて質問がある。
+      other: その他
+      researcher: Decidimを研究している。
+      selected: オプションを選択してください。
+      service_provider: Decidimサービスプロバイダーが必要です。
     send: メッセージを送信
     subtitle: お問い合わせは、お問い合わせフォームにご記入いただくか、下記までメールをお送りください。
     title: Decidimへのお問い合わせ
   demo:
-    button: オンラインデモ
-    p1: オンラインデモを利用して、Decidimプラットフォームを自由に触れてみてください
-    strong: オンラインで試してみる
-    title: オンラインデモ
+    button: デモ
+  documentation:
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    subtitle: Learn how to start using Decidim.
+    title: ドキュメント
   faqs:
     cta: よくある質問
     questions:
@@ -167,21 +165,48 @@ ja:
       install: インストールとライセンス
       installation: インストールとライセンス
       users: ユーザーと役割
+  feature_cards:
+    meetings:
+      f3: Organize face-to-face or online <strong>meetings</strong>, manage registrations, and publish the agenda.<br> And much more!
+    proposals:
+      f1: Collect <strong>proposals</strong> from participants, enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
+    voting:
+      f2: Prioritize proposals using various <strong>voting</strong> methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
   features:
-    intro: "<p>Decidimは、市議会、協会、大学、NGO、労働組合、地域の共同体や協同組合など、数百人から数千人以上の参加者を想定した公的または私的な組織で使用することができます。</p><p>Decidimにより、参加のための<strong>スペース</strong>(イニシアティブ、アセンブリ、プロセス、またはコンサルテーション) を設定し、それらを利用可能な多くの<strong>コンポーネント</strong>(対面ミーティング、サーベイ、提案、投票、結果のフォローアップ、<strong>コメント</strong>など) を通じて豊かにすることができます。</p>"
+    component_groups:
+      group_1:
+        title: Receive Contributions
+      group_2:
+        title: Discuss and deliberate
+      group_3:
+        title: Make Decisions
+      group_4:
+        title: Communicate Results to your audience
+    intro: You can use the Decidim software in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, public institution, associations, NGOs, universities, trade unions, cooperatives or neighbourhood communities. With Decidim you will be able to configure spaces for digital participation and organize contributions and discussions through the multiple available components.
+    modules:
+      button: はじめる
+      intro: Grow beyond the default components.
+      subtitle: The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
+      title: モジュール
+    need_help:
+      button: パートナー
+      subtitle: Take a look at the partners community, Decidim official service providers that can assist you on the installation journey, the hosting and maintenance of your platform.
+      title: Need help in the installation?
     page:
       feature1:
+        label: 参加型プロセス
         subtitle: 共通の問題を民主化するために、一歩一歩進めていきましょう
         text: 'プロセスは、様々な参加プロセスを作成、アクティブ/非アクティブ化、および管理することができる空間です。 これらは、すべてのコンポーネントを組み込むことができる異なるフェーズで構成されていることによって、他の空間と区別されます。 参加プロセスの例としては、委員会のメンバーの選挙プロセス、参加予算、戦略計画プロセスなどが挙げられます。 規則や規範の共同執筆都市空間の設計 あるいは公共政策計画の作成'
         title: 参加型プロセス
       feature10:
         subtitle: 共有するための分析、統合、構築
         text: 複数の提案や結果に基づいて単一のテキストにまとめたり表現したりするよう、長文のテキストをいくつかの提案や結果に変換したり、反対にテキストにまとめたりできます。
-        title: 参加型テキスト
+        title: Collaborative texts
       feature11:
+        label: Conferences
         subtitle: 大きなイベントが初演される場所
         text: 大規模なイベントのためのウェブサイトを作成します。事前に定義した一連のミーティング（チャット、ワークショップなど）を結びつけてプログラムを統一し、参加者を管理します。
-        title: カンファレンス
+        title: Conferences
       feature12:
         subtitle: なぜなら、あなたのコミュニティの意見は重要だからです
         text: 調査を設計し、公開します。結果を表示し、ダウンロードします。
@@ -206,15 +231,29 @@ ja:
         subtitle: シンプルだがパワフルだ。
         text: プラットフォームに登録している全員に、または特定のスペースに参加している人々にメールを送信します。
         title: ニュースレター
+      feature18:
+        subtitle: To promote community deliberation
+        text: Ask a question about any topic related to a process, receive comments, participate in discussion threads and close the debate with a conclusion.
+        title: Debates
+      feature19:
+        subtitle: Democratic and transparent decision-making
+        text: Add your project proposal about your city district, vote and give support to those that resonate with you, co-create collective ideas and give a specific amount of money to each one. 
+        title: 参加型予算編成
       feature2:
+        label: 直接参加型の機関
         subtitle: 集団的自己組織化の力
         text: 決定権を持つ組織やグループ（協議会、ワーキンググループ、委員会など）を設置し、定期的に会合を行うことを可能にします。その構成を詳細に記述し、ミーティングを開催場所も含めてリストアップします。それにより、例えば対面あるいはオンラインでのミーティングに参加する、アジェンダに課題を追加する、またはその組織が取った提案や決定事項にコメントするなど、参加を可能にします。
         title: 直接参加型の機関
+      feature20:
+        subtitle: Simple and user-friendly voting processes
+        text: Set up elections to support decision-making. Upload your census or activate a token system for voting. Participants cast their votes through a secure voting booth, and once voting closes, you can publish the results.
+        title: Elections
       feature3:
-        subtitle: すべての民主的保証のもとで決定する権利
-        text: 投票を調整したり、議論や討論を引き起こしたり、投票結果を公開して安全な電子投票システムにつなげたりできるようにします。
-        title: 投票
+        subtitle: 選択を決定する
+        text: 'Offer organisations the possibility of activating different voting systems around proposals: unlimited, limited to a given threshold, cost-based, etc.'
+        title: Conferences
       feature4:
+        label: イニシアチブ
         subtitle: 全員に届く範囲内で、全員の議題を設定する
         text: 参加者は協力的なイニシアチブを作成し、その進むべき道と目標を定義し、支持を集め、イニシアチブについて議論や討論を行い、広めることができます。また、参加者から署名を集めたり、組織に所属する他のメンバーにも開かれた討論を行うためのミーティングポイントを設定することもできます。
         title: イニシアチブ
@@ -232,54 +271,87 @@ ja:
         title: 結果
       feature8:
         subtitle: エンドツーエンドの透明性
-        text: 結果をプロジェクトに細分化する可能性を提供し、実装の進行状況を定義し適用できます。カテゴリーやスコープごとにグループ化された結果の達成度を表示することもできます。
+        text: Keep participants informed of the status of implementation. Based on the proposals, define results, create and apply progress reports on their implementation, and show the degree to which the results have been achieved.
         title: アカウンタビリティ
       feature9:
         subtitle: 会い、何も逃さない
         text: ミーティングコンポーネントは、組織と参加者にミーティングを開催する機会を提供し、その場所と時間を決定します。 参加者の登録と制限、会議の構造と内容の定義、議事録の公開、結果の提案などを定義します。
         title: 会議
-    subtitle: あらゆる規模や種類の民主的な組織と集団のために。
+    section3:
+      text: Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic participation in all kinds of organizations. Choose the features that best suit your needs and customise your participatory process.
+      title: A <span class="text-red-500">customizable system</span> for <br/>participation
+    section4:
+      link: Try our online demo
+      title: Want to play and see how it works in a real-world environment?
+    subtitle: The platform for democratic organisations and communities of any size and kind.
     title: 機能
     type1:
       title: 参加用スペース
     type2:
+      subtitle: Participatory spaces can be combined with components that push participation and adapt to your needs. You can add all the features you want and customise your platform.
       title: コンポーネント
-    type3:
-      cta: モジュールを探索する
-      subtitle: 標準コンポーネントを超えて成長しましょう。Decidimコミュニティは、基本プラットフォームを拡張し、あなたのニーズにより良く対応するための数百のモジュールを開発しています。
-      title: モジュール
   first-steps:
+    contributors:
+      content: Check the contribution guidelines and collaborate in fixing or managing the code.
+      link: Let's do it
+      pre: For contributors
+      title: Want to contribute?
+    developers:
+      content: Install and configure your Decidim platform following the step by step documentation.
+      link: はじめる
+      pre: For developers
+      title: Decidim install guide
+    facilitators:
+      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+      link: Check it out
+      pre: For facilitators
+      title: Understand how Decidim works
     first-steps1:
       content: 自身でインストールすることも、技術サポートを協力くれる人を見つけることも可能です。
       link1: ドキュメント
       pre: 技術者向け
       title: Decidimのインストール
     first-steps2:
-      content: 様々な規模の組織に対して、Decidimがどのようにあなたのニーズに応えられるかをご覧ください。
+      content: For big or small organisations, discover how Decidim can help you to implement a democratic governance model.
       link1: 機能
       pre: 組織担当者向け
-      title: あなたに最適なツール
+      title: Community Governance
     first-steps3:
-      content: あなたの街が参加型政策の展開を考えている場合、実現のために説得する方法を調べてみてください。
+      content: If your government is considering the implementation of participatory policies, discover how Decidim can help you make the case and turn those ideas into reality.
       link1: パートナーを探す
       pre: 政府・自治体向け
-      title: あなたの都市のDecidim
-    intro: Decidimは、広範で活発なコミュニティによって維持される、自由でオープンソースのウェブベースのソフトウェアです。市議会、協会、大学、NGO、労働組合、地区協会、協同組合など、数百人から数千人以上の潜在的な参加者を持つ公的または私的な組織でDecidimを使用することができます。
+      title: Democratize Public Decision-Making
+    intro: It’s a free/libre and open-source web-based software, maintained by an extensive and active community. It’s designed to help governments, organizations, and communities to engage people in transparent, structured decision-making processes.
     section2:
-      link: すべての機能を見る
-      subtitle: Decidimの柔軟な機能は、数百人から数千人以上の潜在的なユーザーを持つ小規模な集団から大規模な集団、公的な組織から私的な組織まで、幅広いニーズに対応するように設計されています。
-      title: Decidimは最適なツールでしょうか?
+      link: Read more case studies
+      subtitle: Learn how cities, governments, and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some inspiring successful cases!
+      title: 使用中のDecidim
     section3:
-      cta: 詳細はこちらのブログの導入事例をご覧ください
       link: 導入事例を読む
       title: 技術、民主主義、経験に裏打ちされたプラットフォーム
     section4:
-      button1: Associationについて
-      button2: コミュニティに参加する
-      intro: <strong>Decidim Free Software Association</strong>は、 Decidim コミュニティのガバナンスのための民主的組織です。
-      subtitle: "<strong>Metadecidim</strong> は、プラットフォームの設計とプロジェクトの開発に参加するコミュニティです。 プラットフォームの継続的な改善のために、新しい機能の設計・作成とバグのレポートを行います。"
+      button1: 私たちについて
+      intro: The Decidim Free Software Association is a democratic association for the governance of the Decidim community in charge of maintaining the source code.
+      subtitle: Metadecidim is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform.
       title: プラットフォームを支えている人々
-    subtitle: Decidimは市民参加のための<br/>デジタルプラットフォームです
+    section5:
+      intro: 'With Decidim you can:'
+      link: Explore the features
+      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users, such as city councils, associations, universities, NGOs or cooperatives.
+      title: Is Decidim the right tool for you?
+    section6:
+      intro: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework.
+      intro2: 'You can get started in two ways:'
+      title: How to Start Using Decidim
+    section7:
+      intro: They can install Decidim by following the steps in the official documentation site.
+      link: Read the installation guide
+      title: 'Your organization has developers:'
+    section8:
+      intro: You’ll need a tech company to install, configure, and maintain Decidim. We recommend working with a local provider or choosing one from our official partners page.
+      link: パートナーを探す
+      title: 'Your organization does not have developers:'
+    subtitle: Decidim is a digital platform for<br/>democratic participation and<br/>community governance
     title: Decidimをはじめる
   footer:
     about_us: 私たちについて
@@ -321,7 +393,7 @@ ja:
       title: Decidimは広く使われています
   legal-notice:
     section-1:
-      paragraph: '<p>このサイトはDecidim自由ソフトウェアアソシエーション ("Decidim", "Us" or "We")のWebサイトであり、Webドメイン<a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website")を通じて提供され, 所在地は Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, Spain and ID number G67401174になります.<p><p><b>連絡先は以下です: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
+      paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Carrer Concepción Arenal 165, Number 165, Canòdrom - Ateneu d''Innovació Digital i Democràtica, Barcelona, postal code 08027, Spain and ID number G67401174.</p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p> '
       title: 私たちについて
     section-2:
       paragraph: "<p>本ウェブサイトの目的は、Decidim、その活動、および都市や組織のための無料のオープンソース参加型民主主義プラットフォームで構成される技術に関する一般情報を提供し、より大きな社会参加による市民や団体プロジェクトの開発を可能にする我々の共同技術から世界中に生まれたDecidimコミュニティを管理することです。Decidimのプラットフォームは、オンラインデモで自由に試すことができます。</p> <p>この法律上の通知の使用条件の目的は、情報社会サービスおよび電子商取引に関する法律34/2002およびその他の適用される法的規定に従って、このウェブサイトおよびサービス・コンテンツの使用を許可することを規定することです。</p>"
@@ -351,12 +423,12 @@ ja:
   modules:
     auth: 認証
     community: コミュニティ
-    cta: 詳しく知る
     develop: 独自のモジュールを開発することで、基本のプラットフォームを拡張し、ニーズに応えることができます。
+    intro: Would you like to see how other people are contributing to Decidim? Check out our current modules and the ones created by the community.
     more_info: 詳しい情報
     official: 公式モジュール
     placeholder: 検索...
-    subtitle: モジュールを使用することで、Decidimの機能を拡張し、他の人と共有することができます。
+    subtitle: Extend the functionalities of Decidim and share it with others.
     title: モジュール
   nav:
     about: Decidimについて
@@ -373,7 +445,9 @@ ja:
     docs:
       path: https://docs.decidim.org/
       title: ドキュメント
-    donate: 寄付
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: よくある質問
     features: 機能
     first-steps: 最初のステップ
@@ -388,9 +462,10 @@ ja:
     text: Navigation
     thanks: お問い合わせありがとうございます
     trademark: 商標ポリシー
-    transparency-portal: Transparency Portal
+    transparency-portal: 透明性ポータル
     use-cases: 活用事例
     used_by: 使用中のDecidim
+    who_uses: Who uses Decidim
   newsletter:
     past: 過去のニュースレター
     subtitle: Decidimプラットフォームとコミュニティに関するニュースや最新情報をお届けします。
@@ -531,26 +606,33 @@ ja:
   used_by:
     cta: はじめる
     disclaimer: ロゴマークは、それぞれの著作権者の知的財産です。<br>本サイトの他のコンテンツが採用しているクリエイティブ・コモンズの BY-SA ライセンスには該当しません。
+    download_csv: すべてのインストール内容を含むCSVファイルをダウンロード
     facts:
       subtitle: Decidimは、組織やコミュニティで採用され、成長を続けています。
       title: 実績と図
       type:
-        comments: comments
-        countries: countries
-        instances: instances
-        institutions: institutions
-        meetings: meetings
-        organizations: organizations
-        participants: participants
-        processes: processes
-        proposals: proposals
+        comments: コメント
+        countries: 国
+        instances: インスタンス
+        institutions: 機関
+        meetings: ミーティング
+        organizations: 組織
+        participants: 参加者
+        processes: プロセス
+        proposals: 提案
     filters:
-      f0: すべて表示
-      f1: Governments
+      f0: All
+      f1: Government
       f2: 都市
       f3: NGO
-      f4: Universities
+      f4: 大学
     intro: Decidimは、数百人、数千人の潜在的な参加者がいる公共または民間の組織、例えば、市区町村議会、協会、大学、NGO、労働組合、近隣の集団や協同組合などで使用することができます...
     join: 400以上の団体、250の政府機関、150の草の根コミュニティが、民主的なプロセスのためにDecidimを選んでいます。
     subtitle: これらの都市、地域、組織はすでにDecidimを使用しています
     title: 使用中のDecidim
+  who-uses:
+    download_csv: すべてのインストール内容を含むCSVファイルをダウンロード
+    download_csv_short: Download CSV
+    intro: Decidim’s flexible features are designed to serve small and large collectives, both public and private, with communities ranging from hundreds to thousands of participants. Including city councils, associations, universities, NGOs and cooperatives. Below, you can explore the full database of all Decidim installations.
+    subtitle: They’ve already used Decidim.
+    title: Who uses Decidim
