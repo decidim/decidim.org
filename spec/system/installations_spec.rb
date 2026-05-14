@@ -20,4 +20,8 @@ RSpec.describe "installations", type: :feature do
   it "loads with a happy path" do
     expect(page.status_code).to eq(200)
   end
+
+  it "has a download csv link" do
+    expect(page).to have_link(href: "/uploads/installations.csv")
+  end
 end
