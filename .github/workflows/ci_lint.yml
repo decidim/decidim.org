@@ -1,0 +1,39 @@
+name: "[CI] Lint JS"
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches-ignore:
+      - "chore/l10n*"
+env:
+  CI: "true"
+  NODE_VERSION: 16.9.1
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+jobs:
+  lint_js:
+    name: Lint JS
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Get npm cache directory path
+        id: npm-cache-dir-path
+        run: echo "dir=$(npm get cache)-main" >> $GITHUB_OUTPUT
+      - uses: actions/cache@v4
+        with:
+          path: ${{ steps.npm-cache-dir-path.outputs.dir }}
+          key: npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            npm-
+      - name: Install JS dependencies
+        run: npm ci
+      - name: Lint JS
+        run: npm run lint
