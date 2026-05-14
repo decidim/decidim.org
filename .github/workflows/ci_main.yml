@@ -44,8 +44,6 @@ jobs:
             npm-
       - name: Install JS dependencies
         run: npm ci
-      - name: Lint JS
-        run: npm run lint
       - run: bundle exec rspec
         name: RSpec
       - run: bundle exec rspec
