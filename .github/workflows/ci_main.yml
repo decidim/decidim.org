@@ -48,5 +48,3 @@ jobs:
         run: npm run lint
       - run: bundle exec rspec
         name: RSpec
-      - run: bundle exec rspec
-        name: RSpec
