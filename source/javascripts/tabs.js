@@ -67,17 +67,7 @@ function handleTouch({ event: { target }, startX, endX, type }) {
 function tabs() {
   const selectors = document.querySelectorAll("[data-tabs]")
   selectors.forEach(container => {
-    const isClickOnly = container.hasAttribute("data-click-only");
-
     container.addEventListener("click", (event) => handleTabClick({ event, type: container.dataset.tabs }));
-
-    if (!isClickOnly) {
-      container.addEventListener("pointerover", (event) => {
-        if (event.pointerType !== "touch") {
-          handleTabClick({ event, type: container.dataset.tabs });
-        }
-      });
-    }
 
     container.addEventListener("keydown", (event) => event.key === "Enter" && handleTabClick({ event, type: container.dataset.tabs }));
 
