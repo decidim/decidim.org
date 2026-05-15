@@ -77,6 +77,7 @@
       <% end %>
     </div>
   </section>
+
   <section>
     <% if current_page.data.budget&.value.present? || current_page.data.proposals_submitted&.value.present? || current_page.data.technically_validated&.value.present? || current_page.data.prioritized&.value.present? || current_page.data.selected_for_implementation&.value.present? || current_page.data.total_participants&.value.present? %>
       <div class="container md:pt-8 md:pr-80">
@@ -132,6 +133,7 @@
       <% end %>
     </div>
   </section>
+
   <section>
     <% if current_page.data.description.present? %>
       <div class="container md:pb-16 md:pr-80">
@@ -141,6 +143,7 @@
       </div>
     <% end %>
   </section>
+
   <section>
     <div class="container md:pr-80">
       <h2 class="h2 md:nowrap ">
@@ -236,6 +239,7 @@
       </div>
     <% end %>
   </section>
+
   <section>
     <% if current_page.data.phases_conclusion.present? %>
       <div class="container md:pb-10 pb-5 md:pr-80">
@@ -245,6 +249,7 @@
       </div>
     <% end %>
   </section>
+
   <section class="bg-red-100">
     <% if current_page.data.banner.present? && current_page.data.banner_title.present? && current_page.data.banner_subtitle.present? %>
       <div class="container py-8 md:py-16 md:pr-80">
@@ -260,6 +265,7 @@
       </div>
     <% end %>
   </section>
+
   <section>
     <% if current_page.data.optional_section_1.present? || current_page.data.optional_section_2.present? || current_page.data.optional_section_3.present? %>
       <div class="container pt-8 md:pr-80">
@@ -281,6 +287,7 @@
       </div>
     <% end %>
   </section>
+
   <section>
     <% if current_page.data.testimonial_link.present? %>
       <div class="container py-8 md:py-10 md:pr-80">
@@ -291,6 +298,7 @@
       </div>
     <% end %>
   </section>
+
   <section class="md:pb-10">
     <% if current_page.data.partners.present? && current_page.data.partners.any? %>
       <div class="container md:pr-80">
@@ -307,6 +315,7 @@
       </div>
     <% end %>
   </section>
+
   <section>
     <% if current_page.data.collaboration_text.present? %>
       <div class="container pb-8 md:pb-16 md:pr-80">
