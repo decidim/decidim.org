@@ -43,6 +43,7 @@ selected_for_implementation:
 total_participants:
   value: 40,000
   label: Total participants
+results_conclusion: 'The pandemic accelerated digitization: most of the 64,571 participants did so online, in contrast to the 11,970 in person.'
 description: |-
   # What you need to know
 
@@ -91,6 +92,14 @@ optional_section_3: |-
 
   - Pandemic Adaptation
   - Allowing participation without registration for one-off actions is necessary.
+testimonial_link: https://www.3cat.cat/3catinfo/una-historia-dempoderament-femeni-a-les-del-criquet/noticia/3280178/
+testimonial_link_text: Testimonial
+partners:
+  - logo: /uploads/bcn_casestudies_logo.svg
+    name: Barcelona
+  - logo: /uploads/decidim_bcn.svg
+    name: decidim barcelona
+collaboration_text: This article has been written in collaboration with….
 image: /uploads/54183562561_e832935b77_k-1-.jpg
 url: www.decidim.org
 ---
