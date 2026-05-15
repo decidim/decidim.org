@@ -12,7 +12,7 @@
         <p class="par-xl pt-5 md:pt-5">
           <%= current_page.data.subtitle %>
         </p>
-          <%= partial "partials/arrow-link", locals: { url: current_page.data.website, text: current_page.data.website, classes: "text-red-500 mt-auto block pt-5 ", span_classes: "text-[20px] leading-[28px]", icon_classes: "w-6 h-6", icon_name: "ri-external-link-line" } %>
+          <%= partial "partials/arrow-link", locals: { url: current_page.data.website, text: current_page.data.website, classes: "text-red-500 mt-auto block pt-5 ", span_classes: "par-md", icon_classes: "w-6 h-6", icon_name: "ri-external-link-line" } %>
       </div>
     </div>
   </section>
@@ -74,7 +74,7 @@
   </section>
   <section>
     <% if current_page.data.budget&.value.present? || current_page.data.proposals_submitted&.value.present? || current_page.data.technically_validated&.value.present? || current_page.data.prioritized&.value.present? || current_page.data.selected_for_implementation&.value.present? || current_page.data.total_participants&.value.present? %>
-      <div class="container py-8 md:pb-16 md:pr-80">
+      <div class="container pt-8 md:pr-80">
         <p class="par-sm font-bold uppercase flex items-center gap-2 md:pb-3 pb-2 border-b border-gray-300">
           <%= icon "ri-numbers-line", class: "w-4 h-4" %>
           <%= current_page.data.results_title.present? ? current_page.data.results_title : "Results" %>
@@ -119,6 +119,13 @@
         </div>
       </div>
     <% end %>
+    <div class="container md:pt-5 md:pb-16 pt-5">
+      <% if current_page.data.results_conclusion.present? %>
+        <div class="prose par-md max-w-none text-gray-500">
+          <%= markdown(current_page.data.results_conclusion) %>
+        </div>
+      <% end %>
+    </div>
   </section>
   <section>
     <% if current_page.data.description.present? %>
@@ -244,22 +251,57 @@
   </section>
   <section>
     <% if current_page.data.optional_section_1.present? || current_page.data.optional_section_2.present? || current_page.data.optional_section_3.present? %>
-      <div class="container py-8 md:py-16 md:pr-80">
+      <div class="container pt-8 md:pt-16 md:pr-80">
         <% if current_page.data.optional_section_1.present? %>
-          <div class="prose par-md max-w-none text-black pb-10">
+          <div class="prose par-md max-w-none text-black py-10">
             <%= markdown(current_page.data.optional_section_1) %>
           </div>
         <% end %>
         <% if current_page.data.optional_section_2.present? %>
-          <div class="prose par-md max-w-none text-black pb-10">
+          <div class="prose par-md max-w-none text-black py-10">
             <%= markdown(current_page.data.optional_section_2) %>
           </div>
         <% end %>
         <% if current_page.data.optional_section_3.present? %>
-          <div class="prose par-md max-w-none text-black pb-10">
+          <div class="prose par-md max-w-none text-black pt-10">
             <%= markdown(current_page.data.optional_section_3) %>
           </div>
         <% end %>
+      </div>
+    <% end %>
+  </section>
+  <section>
+    <% if current_page.data.testimonial_link.present? %>
+      <div class="container py-8 md:py-10 md:pr-80">
+        <h2 class="h2 md:nowrap pb-6">
+          <%= t("case_studies.testimonial") %>
+        </h2>
+        <%= partial "partials/arrow-link", locals: { url: current_page.data.testimonial_link, text: current_page.data.testimonial_link_text.present? ? current_page.data.testimonial_link_text : current_page.data.testimonial_link, classes: "text-red-500 block pt-4 underline", span_classes: "par-md", icon_classes: "w-6 h-6", icon_name: "ri-external-link-line" } %>
+      </div>
+    <% end %>
+  </section>
+  <section class="md:pb-10">
+    <% if current_page.data.partners.present? && current_page.data.partners.any? %>
+      <div class="container md:pr-80">
+        <h2 class="h2 md:nowrap pb-6">
+          <%= t("case_studies.partners") %>
+        </h2>
+        <div class="flex flex-wrap gap-6 md:gap-8 items-center">
+          <% current_page.data.partners.each do |partner| %>
+            <div class="flex items-center">
+              <img src="<%= partner.logo %>" alt="<%= partner.name %>" class="h-16 md:h-16 object-contain">
+            </div>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+  </section>
+  <section>
+    <% if current_page.data.collaboration_text.present? %>
+      <div class="container pb-8 md:pb-16 md:pr-80">
+        <div class="prose par-md max-w-none text-gray-500">
+          <%= markdown(current_page.data.collaboration_text) %>
+        </div>
       </div>
     <% end %>
   </section>

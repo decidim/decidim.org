@@ -83,6 +83,7 @@ collections:
         fields:
           - {label: "Value", name: "value", widget: "string", required: false, hint: "e.g. '40,000'"}
           - {label: "Label", name: "label", widget: "string", required: false, hint: "Leave blank to use default: 'Total participants'"}
+      - {label: "Results conclusion", name: "results_conclusion", widget: "markdown", required: false}
       - {label: "Description", name: "description", widget: "markdown", required: true}
       - label: "Phases"
         name: "phases"
@@ -105,6 +106,16 @@ collections:
       - {label: "Optional Section 1", name: "optional_section_1", widget: "markdown", required: false}
       - {label: "Optional Section 2", name: "optional_section_2", widget: "markdown", required: false}
       - {label: "Optional Section 3", name: "optional_section_3", widget: "markdown", required: false}
+      - {label: "Testimonial Link", name: "testimonial_link", widget: "string", required: false}
+      - {label: "Testimonial Link Text", name: "testimonial_link_text", widget: "string", required: false, hint: "Leave blank to use the URL as link text"}
+      - label: "Partners"
+        name: "partners"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Logo", name: "logo", widget: "image", required: true}
+          - {label: "Name", name: "name", widget: "string", required: true}
+      - {label: "Collaboration text", name: "collaboration_text", widget: "markdown", required: false}
   - name: "settings"
     label: "Settings"
     description: >
