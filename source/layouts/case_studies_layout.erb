@@ -43,7 +43,7 @@
   </section>
 
   <section>
-    <div class="container py-8 md:pt-16 md:pr-80">
+    <div class="container pt-8 md:pt-16 md:pr-80">
       <% if current_page.data.type.present? %>
         <div class="pb-4 mb-4">
           <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-300">
@@ -79,7 +79,7 @@
   </section>
   <section>
     <% if current_page.data.budget&.value.present? || current_page.data.proposals_submitted&.value.present? || current_page.data.technically_validated&.value.present? || current_page.data.prioritized&.value.present? || current_page.data.selected_for_implementation&.value.present? || current_page.data.total_participants&.value.present? %>
-      <div class="container pt-8 md:pr-80">
+      <div class="container md:pt-8 md:pr-80">
         <p class="par-sm font-bold uppercase flex items-center gap-2 md:pb-3 pb-2 border-b border-gray-300">
           <%= icon "ri-numbers-line", class: "w-4 h-4" %>
           <%= current_page.data.results_title.present? ? current_page.data.results_title : "Results" %>
@@ -190,7 +190,6 @@
                   <% end %>
                 </div>
               </div>
-
               <div class="block md:hidden">
                 <% unless is_last %>
                   <div class="absolute left-4 top-0 bottom-0 w-[1px] bg-black z-0"></div>
@@ -245,7 +244,7 @@
         <h2 class="text-5xl text-red-500 md:nowrap">
           <%= markdown(current_page.data.banner_title) %>
         </h2>
-        <div class="text-4xl font-bold text-red-500 md:pb-6">
+        <div class="text-4xl font-bold text-red-500 md:pb-6 pb-5">
           <%= markdown(current_page.data.banner_subtitle) %>
         </div>
         <div class="par-md text-red-500 prose max-w-none pb-4">
@@ -256,19 +255,19 @@
   </section>
   <section>
     <% if current_page.data.optional_section_1.present? || current_page.data.optional_section_2.present? || current_page.data.optional_section_3.present? %>
-      <div class="container pt-8 md:pt-16 md:pr-80">
+      <div class="container pt-8 md:pt-10 md:pr-80">
         <% if current_page.data.optional_section_1.present? %>
           <div class="prose par-md max-w-none text-black py-10">
             <%= markdown(current_page.data.optional_section_1) %>
           </div>
         <% end %>
         <% if current_page.data.optional_section_2.present? %>
-          <div class="prose par-md max-w-none text-black py-10">
+          <div class="prose par-md max-w-none text-black pb-10">
             <%= markdown(current_page.data.optional_section_2) %>
           </div>
         <% end %>
         <% if current_page.data.optional_section_3.present? %>
-          <div class="prose par-md max-w-none text-black pt-10">
+          <div class="prose par-md max-w-none text-black pb-10">
             <%= markdown(current_page.data.optional_section_3) %>
           </div>
         <% end %>
@@ -293,8 +292,8 @@
         </h2>
         <div class="flex flex-wrap gap-6 md:gap-8 items-center">
           <% current_page.data.partners.each do |partner| %>
-            <div class="flex items-center">
-              <img src="<%= partner.logo %>" alt="<%= partner.name %>" class="h-16 md:h-16 object-contain">
+            <div class="flex items-center pb-5">
+              <img src="<%= partner.logo %>" alt="<%= partner.name %>" class="h-10 md:h-16 object-contain">
             </div>
           <% end %>
         </div>
