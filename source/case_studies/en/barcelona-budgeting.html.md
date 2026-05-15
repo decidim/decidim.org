@@ -60,48 +60,49 @@ phases:
     count_label: 1.982 proposals
     body: Citizens submitted investment projects for their local areas, specifying the necessary budget in each case.
     components:
-      - name: Pages
-        description: The initial phase used the Pages component to centralize all relevant information, including the process guidelines, technical criteria, district budgets, the timeline, and support channels.
-      - name: Proposals
-        description: The Proposals component allowed participants to create and publish proposals with a title, description, location, and estimated budget. Comments were also enabled so that other users could contribute and collectively improve the proposals, encouraging open debate and co-creation.
-      - name: Meetings
-        description: During the first phase, the Meetings component was used to announce support points and debate/co-creation sessions across the city’s neighborhoods.
+      - description: <u>Pages:</u> The initial phase used the Pages component to centralize all relevant information, including the process guidelines, technical criteria, district budgets, the timeline, and support channels.
+        name: Pages
+      - description: <u>Proposals:</u> The Proposals component allowed participants to create and publish proposals with a title, description, location, and estimated budget. Comments were also enabled so that other users could contribute and collectively improve the proposals, encouraging open debate and co-creation.
+        name: Proposals
+      - description: <u>Meetings:</u> During the first phase, the Meetings component was used to announce support points and debate/co-creation sessions across the city’s neighborhoods.
+        name: Meetings
   - title: Technical evaluation to verify feasibility
     count_label: 823 viable projects
     body: A municipal technical team reviewed the legal, technical, and economic feasibility of each proposal, in line with the participatory process regulations that defined the rules of participation.
     components:
-      - name: Proposals
-        description: In this phase, the same Proposals component was managed by the administration to label each proposal as either “Accepted” or “Rejected,” with a public justification. The work carried out by the City Council team—responding to each proposal one by one—made it possible to understand the reasons for the feasibility or rejection of each project.
+      - description: <u>Proposals:</u> In this phase, the same Proposals component was managed by the administration to label each proposal as either “Accepted” or “Rejected,” with a public justification. The work carried out by the City Council team—responding to each proposal one by one—made it possible to understand the reasons for the feasibility or rejection of each project.
+        name: Proposals
   - title: Collection of supports and project prioritization
     count_label: 204 projects prioritized
     body: Citizens gave their support to the validated proposals they considered most important.
     components:
-      - name: Proposals
-        description: The accepted proposals were exported to a new Proposals component, where the support feature was activated for prioritization. Each participant could support up to 10 projects, with a minimum of 2, to ensure that prioritization was fair and representative. Out of the initial 823 proposals, 204 were prioritized.
+      - description: <u>Proposals:</u> The accepted proposals were exported to a new Proposals component, where the support feature was activated for prioritization. Each participant could support up to 10 projects, with a minimum of 2, to ensure that prioritization was fair and representative. Out of the initial 823 proposals, 204 were prioritized.
+        name: Proposals
   - title: Specification with municipal technicians
-    count_label: (refinement)
+    count_label: refinement
     body: The prioritized proposals were developed into detailed projects with a defined budget.
     components:
-      - name: Meeting
-        description: Both in-person and online workshops were organized, where proposal authors and City Council technical staff finalized the project details, including costs and other technical specifications.
+      - description: <u>Meetings:</u> Both in-person and online workshops were organized, where proposal authors and City Council technical staff finalized the project details, including costs and other technical specifications.
+        name: Meeting
   - title: Final vote on concrete proposals
-    count_label: (76 selected)
+    count_label: 76 selected
     body: Citizens participated in the final vote to decide which projects would be implemented.
     components:
-      - name: Budgeting
-        description: 'The final selection was carried out using the Budgets component, which allowed each participant to choose projects until the budget allocated to their district was exhausted. The interface displayed the remaining budget in real time, encouraging informed decision-making. Citizens could vote in two districts: their own and another of their choice. To guarantee the security of the vote, participants were verified against the municipal census.'
-      - name: Meetings
-        description: In-person support points were set up for the final vote. At these points, municipal staff assisted citizens who wanted to vote, ensuring that people with difficulties using the platform could still participate without issue.
+      - description: '<u>Budgets: </u>The final selection was carried out using the Budgets component, which allowed each participant to choose projects until the budget allocated to their district was exhausted. The interface displayed the remaining budget in real time, encouraging informed decision-making. Citizens could vote in two districts: their own and another of their choice. To guarantee the security of the vote, participants were verified against the municipal census.'
+        name: Budgeting
+      - description: <u>Meetings:</u> In-person support points were set up for the final vote. At these points, municipal staff assisted citizens who wanted to vote, ensuring that people with difficulties using the platform could still participate without issue.
+        name: Meetings
   - title: Communication of results, execution, and monitoring via follow-up committees
     count_label: 2021-2023
     body: Monitoring and updating the implementation status of the approved projects.
     components:
-      - name: Follow-up
-        description: Once approved, the projects were transferred to the Monitoring component, which provides an updated status (“In preparation,” “In execution,” “Completed”) and allows periodic updates to be published.
-      - name: Meetings
-        description: Follow-up committees were convened with participation from project proposers and municipal officials to track the execution of the projects.
-      - name: Survey
-        description: At the end of the process, an evaluation survey was sent to all participants
+      - description: <u>Follow-ups:</u> Once approved, the projects were transferred to the Monitoring component, which provides an updated status (“In preparation,” “In execution,” “Completed”) and allows periodic updates to be published.
+        name: Follow-up
+      - description: <u>Meetings:</u> Follow-up committees were convened with participation from project proposers and municipal officials to track the execution of the projects.
+        name: Meetings
+      - description: <u>Surveys:</u> At the end of the process, an evaluation survey was sent to all participants
+        name: Survey
+phases_conclusion: This combination of components ensured that the process was transparent, participatory, accessible, and traceable from start to finish.
 banner_title: 'Applying hybridization:'
 banner_subtitle: combining in-person and digital approaches
 banner: |-
