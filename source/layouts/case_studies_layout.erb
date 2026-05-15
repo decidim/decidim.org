@@ -151,7 +151,7 @@
       </p>
     </div>
     <% if current_page.data.phases.present? && current_page.data.phases.any? %>
-      <div class="container py-10 md:py-16 md:pr-80">
+      <div class="container py-10 md:pt-16 md:pr-80">
         <div class="relative">
           <% current_page.data.phases.each_with_index do |phase, idx| %>
             <% is_last = idx == current_page.data.phases.length - 1 %>
@@ -165,24 +165,23 @@
                   <h5 class="h5 ml-3">
                     <%= phase.title %>
                     <% if phase.count_label.present? %>
-                      <span class="font-normal text-gray-500">(<%= phase.count_label %>)</span>
+                      <span class="font-normal text-black">(<%= phase.count_label %>)</span>
                     <% end %>
                   </h5>
                 </div>
                 <div class="ml-4 pl-10 pb-6">
                   <% if phase.body.present? %>
-                    <div class="par-md prose max-w-none pb-4">
+                    <div class="par-md prose max-w-none pb-4 text-black">
                       <%= markdown(phase.body) %>
                     </div>
                   <% end %>
                   <% if phase.components.present? && phase.components.any? %>
                     <div class="pt-2">
-                      <p class="font-bold par-md pb-2">Components:</p>
+                      <p class="font-bold par-md pb-2"><%= t("case_studies.components") %></p>
                       <ul class="space-y-2">
                         <% phase.components.each do |component| %>
-                          <li class="par-md">
-                            <span class="font-semibold underline"><%= component.name %>:</span>
-                            <span class="prose inline"><%= markdown(component.description) %></span>
+                          <li class="par-md prose inline text-black">
+                            <%= markdown(component.description) %>
                           </li>
                         <% end %>
                       </ul>
@@ -202,7 +201,7 @@
                     <h5 class="h5 ml-3 flex-1 pl-6">
                       <%= phase.title %>
                       <% if phase.count_label.present? %>
-                        <span class="font-normal text-gray-500">(<%= phase.count_label %>)</span>
+                        <span class="font-normal text-black">(<%= phase.count_label %>)</span>
                       <% end %>
                     </h5>
                     <span class="w-5 h-5 flex-shrink-0">
@@ -212,18 +211,17 @@
                   </summary>
                   <div class="ml-4 pl-6 pb-6">
                     <% if phase.body.present? %>
-                      <div class="par-md prose max-w-none pb-4">
+                      <div class="par-md prose max-w-none pb-4 text-black">
                         <%= markdown(phase.body) %>
                       </div>
                     <% end %>
                     <% if phase.components.present? && phase.components.any? %>
                       <div class="pt-2">
-                        <p class="font-bold par-md pb-2">Components:</p>
+                        <p class="font-bold par-md pb-2"><%= t("case_studies.components") %></p>
                         <ul class="space-y-2">
                           <% phase.components.each do |component| %>
-                            <li class="par-md">
-                              <span class="font-semibold underline"><%= component.name %>:</span>
-                              <span class="prose inline"><%= markdown(component.description) %></span>
+                            <li class="par-md prose inline text-black">
+                              <%= markdown(component.description) %>
                             </li>
                           <% end %>
                         </ul>
@@ -234,6 +232,15 @@
               </div>
             </div>
           <% end %>
+        </div>
+      </div>
+    <% end %>
+  </section>
+  <section>
+    <% if current_page.data.phases_conclusion.present? %>
+      <div class="container md:pb-10 pb-5 md:pr-80">
+        <div class="prose par-md max-w-none text-black">
+          <%= markdown(current_page.data.phases_conclusion) %>
         </div>
       </div>
     <% end %>
@@ -255,7 +262,7 @@
   </section>
   <section>
     <% if current_page.data.optional_section_1.present? || current_page.data.optional_section_2.present? || current_page.data.optional_section_3.present? %>
-      <div class="container pt-8 md:pt-10 md:pr-80">
+      <div class="container pt-8 md:pr-80">
         <% if current_page.data.optional_section_1.present? %>
           <div class="prose par-md max-w-none text-black py-10">
             <%= markdown(current_page.data.optional_section_1) %>
