@@ -3,7 +3,7 @@
   <section>
     <div class="container pt-10 md:pt-16 pb-10">
       <div class="pb-10">
-        <%= partial "partials/arrow-link", locals: { text: t("case_studies.use_cases_index_path"), url: "/case_studies", reverse: true, icon_classes: "w-6 h-6" } %>
+        <%= partial "partials/arrow-link", locals: { text: t("case_studies.use_cases_index_path"), url: "/case_studies", reverse: true, icon_classes: "w-5 h-5" } %>
       </div>
       <div class="md:w-3/5">
         <h1 class="h1 md:nowrap ">
@@ -12,7 +12,7 @@
         <p class="par-xl pt-5 md:pt-5">
           <%= current_page.data.subtitle %>
         </p>
-          <%= partial "partials/arrow-link", locals: { url: current_page.data.website, text: current_page.data.website_link_text.present? ? current_page.data.website_link_text : current_page.data.website, classes: "text-red-500 mt-auto block pt-5 ", span_classes: "par-md", icon_classes: "w-6 h-6", icon_name: "ri-external-link-line" } %>
+          <%= partial "partials/arrow-link", locals: { url: current_page.data.website, text: current_page.data.website_link_text.present? ? current_page.data.website_link_text : current_page.data.website, classes: "text-red-500 mt-auto block pt-5 ", span_classes: "par-sm", icon_classes: "w-5 h-5", icon_name: "ri-external-link-line" } %>
       </div>
     </div>
   </section>
