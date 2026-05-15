@@ -264,10 +264,10 @@
     <% end %>
   </section>
 
-  <section class="bg-red-100">
+  <section class="overflow-hidden">
     <% if current_page.data.banner.present? && current_page.data.banner_title.present? && current_page.data.banner_subtitle.present? %>
-      <div class="container py-8 md:py-16">
-        <div class="max-w-[791px]">
+      <div class="container">
+        <div class="md:max-w-[791px] bg-red-100 py-10 px-6 md:pr-16 md:pl-0 -mx-6 md:mx-0 relative before:absolute before:top-0 before:bottom-0 before:right-full before:w-screen before:bg-red-100 md:after:absolute md:after:top-0 md:after:bottom-0 md:after:left-full md:after:w-screen md:after:bg-white">
           <h2 class="text-5xl text-red-500 md:nowrap">
             <%= markdown(current_page.data.banner_title) %>
           </h2>
