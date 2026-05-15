@@ -99,8 +99,8 @@ collections:
             widget: list
             required: false
             fields:
-              - { label: Name, name: name, widget: string }
               - { label: Description, name: description, widget: markdown }
+      - {label: "Phases Conclusion", name: "phases_conclusion", widget: "markdown", required: false}
       - {label: "Banner title", name: "banner_title", widget: "string", required: true}
       - {label: "Banner subtitle", name: "banner_subtitle", widget: "string", required: true}
       - {label: "Banner", name: "banner", widget: "markdown", required: true}
