@@ -1,0 +1,33 @@
+---
+nav: case_studies
+---
+
+<section>
+  <div class="container pt-10 md:pt-16 md:pb-24">
+    <div class="md:w-3/5">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("case_studies.title") %>
+      </h1>
+      <p class="par-xl pt-5 md:pt-5">
+        <%= t("case_studies.subtitle") %>
+      </p>
+      <div class="par-md pt-4 md:pt-5">
+        <%= t("case_studies.intro") %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container pb-10">
+  <div class="relative">
+    <label class="sr-only" for="modules-search"><%= t("modules.placeholder") %></label>
+    <input id="modules-search" class="bg-gray-50 border border-gray-300 rounded-xl w-full py-3 pl-9 pr-3 par-sm relative placeholder:text-gray-500 text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>" aria-label="<%= t('modules.placeholder') %>">
+    <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 left-3 w-5 h-5" %>
+  </div>
+</div>
+
+<div class="container pb-16">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <%= partial "partials/testimonial-cards" %>
+  </div>
+</div>
