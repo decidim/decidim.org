@@ -18,6 +18,7 @@ collections:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Subtitle", name: "subtitle", widget: "text", required: true}
       - {label: "Website", name: "website", widget: "string", type: "url", required: false}
+      - {label: "Website Link Text", name: "website_link_text", widget: "string", required: false, hint: "Leave blank to use the URL as link text"}
       - label: "Gallery"
         name: "gallery"
         widget: "list"
