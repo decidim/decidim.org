@@ -158,9 +158,9 @@
   <section>
     <div class="container">
       <div class="max-w-[791px]">
-        <h2 class="h2 pt-10 md:nowrap ">
+        <h3 class="h3 text-bold pt-10 md:nowrap ">
           <%= current_page.data.process_title %>
-        </h2>
+        </h3>
         <p class="par-lg pt-5 md:pt-5">
           <%= current_page.data.process_subtitle %>
         </p>
@@ -293,7 +293,7 @@
           <% if current_page.data.optional_section_1.present? %>
             <div class="prose par-md max-w-none text-black pb-10">
               <% if current_page.data.optional_section_1_title.present? %>
-                <h2 class="h2"><%= current_page.data.optional_section_1_title %></h2>
+                <h4 class="h4"><%= current_page.data.optional_section_1_title %></h4>
               <% end %>
               <%= markdown(current_page.data.optional_section_1) %>
             </div>
@@ -301,7 +301,7 @@
           <% if current_page.data.optional_section_2.present? %>
             <div class="prose par-md max-w-none text-black pb-10">
               <% if current_page.data.optional_section_2_title.present? %>
-                <h2 class="h2"><%= current_page.data.optional_section_2_title %></h2>
+                <h4 class="h4"><%= current_page.data.optional_section_2_title %></h4>
               <% end %>
               <%= markdown(current_page.data.optional_section_2) %>
             </div>
@@ -309,7 +309,7 @@
           <% if current_page.data.optional_section_3.present? %>
             <div class="prose par-md max-w-none text-black">
               <% if current_page.data.optional_section_3_title.present? %>
-                <h2 class="h2"><%= current_page.data.optional_section_3_title %></h2>
+                <h4 class="h4"><%= current_page.data.optional_section_3_title %></h4>
               <% end %>
               <%= markdown(current_page.data.optional_section_3) %>
             </div>
