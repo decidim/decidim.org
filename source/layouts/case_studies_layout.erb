@@ -171,11 +171,11 @@
         <div class="max-w-[791px]">
           <div class="relative">
             <% current_page.data.phases.each_with_index do |phase, idx| %>
-              <% is_last = idx == current_page.data.phases.length - 1 %>
-              <div class="relative <%= 'md:pt-10 pt-6' if idx > 0 %>">
-                <div class="absolute left-4 top-[2.5rem] bottom-[-1rem] w-[1px] bg-black z-0"></div>
+              <div class="relative <%= 'md:pt-10 md:pt-4 pt-4' if idx > 0 %>">
+
                 <div class="hidden md:block">
-                  <div class="flex items-center gap-4 pb-3">
+                  <div class="relative flex items-center gap-4 pb-3">
+                    <div class="absolute left-4 top-8 bottom-0 w-[1px] bg-black z-0"></div>
                     <span class="rounded-full text-base border border-black bg-white flex items-center justify-center w-8 h-8 flex-shrink-0 relative z-10">
                       <%= idx + 1 %>
                     </span>
@@ -186,7 +186,8 @@
                       <% end %>
                     </h5>
                   </div>
-                  <div class="ml-4 pl-10 pb-6">
+                  <div class="relative ml-4 pl-10 pb-6">
+                    <div class="absolute left-0 top-0 bottom-0 w-[1px] bg-black z-0"></div>
                     <% if phase.body.present? %>
                       <div class="par-md prose max-w-none pb-4 text-black">
                         <%= markdown(phase.body) %>
@@ -206,27 +207,27 @@
                     <% end %>
                   </div>
                 </div>
+
                 <div class="block md:hidden">
-                  <% unless is_last %>
-                    <div class="absolute left-4 top-0 bottom-0 w-[1px] bg-black z-0"></div>
-                  <% end %>
-                  <details class="group relative" <%= 'open' if idx == 0 %>>
-                    <summary class="flex items-center gap-4 pb-3 cursor-pointer list-none">
-                      <span class="absolute left-0 rounded-full border border-black bg-white flex items-center justify-center w-8 h-8 z-10">
+                  <details class="group" <%= 'open' if idx == 0 %>>
+                    <summary class="relative flex items-start gap-4 pb-3 cursor-pointer list-none">
+                      <div class="absolute left-4 top-8 bottom-0 w-[1px] bg-black z-0"></div>
+                      <span class="rounded-full text-base border border-black bg-white flex items-center justify-center w-8 h-8 flex-shrink-0 relative z-10">
                         <%= idx + 1 %>
                       </span>
-                      <h5 class="h5 ml-3 flex-1 pl-6">
+                      <h5 class="h5 flex-1 pt-1">
                         <%= phase.title %>
                         <% if phase.count_label.present? %>
                           <span class="font-normal text-black">(<%= phase.count_label %>)</span>
                         <% end %>
                       </h5>
-                      <span class="w-5 h-5 flex-shrink-0">
+                      <span class="w-5 h-5 flex-shrink-0 pt-1">
                         <span class="group-open:hidden"><%= icon "ri-arrow-down-s-line", class: "w-5 h-5 text-black block" %></span>
                         <span class="hidden group-open:block"><%= icon "ri-arrow-up-s-line", class: "w-5 h-5 text-black block" %></span>
                       </span>
                     </summary>
-                    <div class="ml-4 pl-6 pb-6">
+                    <div class="relative ml-4 pl-6 pb-6">
+                      <div class="absolute left-0 top-0 bottom-0 w-[1px] bg-black z-0"></div>
                       <% if phase.body.present? %>
                         <div class="par-md prose max-w-none pb-4 text-black">
                           <%= markdown(phase.body) %>
