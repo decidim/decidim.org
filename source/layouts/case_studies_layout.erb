@@ -323,9 +323,9 @@
     <% if current_page.data.testimonial_link.present? %>
       <div class="container py-8 md:py-10">
         <div class="max-w-[791px]">
-          <h2 class="h2 md:nowrap pb-6">
+          <h3 class="h3 md:nowrap pb-6">
             <%= t("case_studies.testimonial") %>
-          </h2>
+          </h3>
           <%= partial "partials/arrow-link", locals: { url: current_page.data.testimonial_link, text: current_page.data.testimonial_link_text.present? ? current_page.data.testimonial_link_text : current_page.data.testimonial_link, classes: "text-red-500 block pt-4 underline", span_classes: "par-md", icon_classes: "w-4 h-4", icon_name: "ri-external-link-line" } %>
         </div>
       </div>
@@ -336,9 +336,9 @@
     <% if current_page.data.partners.present? && current_page.data.partners.any? %>
       <div class="container">
         <div class="max-w-[791px]">
-          <h2 class="h2 md:nowrap pb-6">
+          <h3 class="h3 md:nowrap pb-6">
             <%= t("case_studies.partners") %>
-          </h2>
+          </h3>
           <div class="flex flex-wrap gap-6 md:gap-8 items-center">
             <% current_page.data.partners.each do |partner| %>
               <div class="flex items-center pb-5">
