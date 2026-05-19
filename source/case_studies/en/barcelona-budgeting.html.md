@@ -95,7 +95,7 @@ phases:
     count_label: 2021-2023
     body: Monitoring and updating the implementation status of the approved projects.
     components:
-      - description: <u>Follow-ups:</u> Once approved, the projects were transferred to the Monitoring component, which provides an updated status (“In preparation,” “In execution,” “Completed”) and allows periodic updates to be published.
+      - description: '- <u>Follow-ups:</u> Once approved, the projects were transferred to the Monitoring component, which provides an updated status (“In preparation,” “In execution,” “Completed”) and allows periodic updates to be published.'
         name: Follow-up
       - description: '- <u>Meetings:</u> Follow-up committees were convened with participation from project proposers and municipal officials to track the execution of the projects.'
         name: Meetings
