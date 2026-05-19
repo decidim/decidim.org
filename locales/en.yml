@@ -40,9 +40,14 @@ en:
       title: Articles tagged with
     title: Blog
   case_studies:
+    clear_filters: Clear filters
+    country: Country
+    filters: Filters
+    type: Type
     components: 'Components:'
     components_used: Components used
     intro: These cities, institutions and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some of the inspiring successful cases!
+    no_results: No case studies found matching your filters.
     partners: Partners
     read: Read the case study
     subtitle: Stories about Decidim in the real world
