@@ -198,7 +198,7 @@
                         <p class="font-bold par-md pb-2"><%= t("case_studies.components") %></p>
                         <ul class="space-y-2">
                           <% phase.components.each do |component| %>
-                            <li class="par-md prose inline text-black">
+                            <li class="par-md prose prose-li:marker:text-black inline text-black">
                               <%= markdown(component.description) %>
                             </li>
                           <% end %>
@@ -238,7 +238,7 @@
                           <p class="font-bold par-md pb-2"><%= t("case_studies.components") %></p>
                           <ul class="space-y-2">
                             <% phase.components.each do |component| %>
-                              <li class="par-md prose inline text-black">
+                              <li class="par-md prose prose-li:marker:text-black inline text-black">
                                 <%= markdown(component.description) %>
                               </li>
                             <% end %>
@@ -291,7 +291,7 @@
       <div class="container pt-8">
         <div class="max-w-[791px]">
           <% if current_page.data.optional_section_1.present? %>
-            <div class="prose par-md max-w-none text-black pb-10">
+            <div class="prose prose-li:marker:text-black par-md max-w-none text-black pb-10">
               <% if current_page.data.optional_section_1_title.present? %>
                 <h4 class="h4"><%= current_page.data.optional_section_1_title %></h4>
               <% end %>
@@ -307,7 +307,7 @@
             </div>
           <% end %>
           <% if current_page.data.optional_section_3.present? %>
-            <div class="prose par-md max-w-none text-black">
+            <div class="prose prose-li:marker:text-black par-md max-w-none text-black">
               <% if current_page.data.optional_section_3_title.present? %>
                 <h4 class="h4"><%= current_page.data.optional_section_3_title %></h4>
               <% end %>
