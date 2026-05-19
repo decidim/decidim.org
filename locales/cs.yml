@@ -391,6 +391,12 @@ cs:
       heading: Stovky organizací po celém světě důvěřují Decidimu ve své demokratické procesy
       link: Zjistěte, jak
       title: Již používají Decidim
+  installations:
+    download_csv: Stáhnout CSV soubor se všemi instalacemi
+    download_csv_short: Download CSV
+    intro: Decidim’s flexible features are designed to serve small and large collectives, both public and private, with communities ranging from hundreds to thousands of participants. Including city councils, associations, universities, NGOs and cooperatives. Below, you can explore the full database of all Decidim installations.
+    subtitle: They’ve already used Decidim.
+    title: Who uses Decidim
   legal-notice:
     section-1:
       paragraph: '<p>Vstupujete na webovou stránku společnosti Associació de Software Lliure Decidim („Decidim“, „nás“ nebo „my“) dostupnou prostřednictvím webové domény <a href="https://decidim.org">https://decidim.org/</a> (dále jen „webová stránka“) se sídlem v Carrer Concepción Arenal 165, Number 165, Canòdrom - Ateneu d''Innovació Digital i Democràtica, Barcelona, ​​PSČ 08027, Španělsko a ID číslem G67401174.</p><p><b>Kontaktovat nás můžete na adrese: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p> '
@@ -452,6 +458,7 @@ cs:
     features: Vlastnosti
     first-steps: První kroky
     home: Úvod
+    installations: Installations
     legal-notice: Právní ustanovení
     menu: Nabídka
     modules: Moduly
@@ -465,7 +472,6 @@ cs:
     transparency-portal: Portál transparentnosti
     use-cases: Případy použití
     used_by: Kde se používá
-    who_uses: Kdo používá Decidim
   newsletter:
     past: Minulé zpravodaje
     subtitle: Novinky a aktualizace o platformě Decidim a komunitě.
@@ -630,9 +636,3 @@ cs:
     join: Společnost Decidim si pro své demokratické procesy zvolilo více než 400 subjektů, 250 správních orgánů a 150 místních komunit.
     subtitle: Tato města, regiony a organizace již používají Decidim
     title: Kde se používá
-  who-uses:
-    download_csv: Stáhnout CSV soubor se všemi instalacemi
-    download_csv_short: Stáhnout CSV
-    intro: Flexibilní funkce Desidimu jsou navrženy tak, aby sloužily malým a velkým kolektivům, veřejným i soukromým, přičemž komunity se pohybují od stovek tisíc účastníků. Včetně městských rad, sdružení, univerzit, nevládních organizací a družstev. Níže můžete prozkoumat celou databázi všech Decidim instalací.
-    subtitle: Již použili Deidim.
-    title: Kdo používá Decidim
