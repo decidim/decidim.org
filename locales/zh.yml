@@ -560,28 +560,29 @@ zh-CN:
   testimonials:
     n1:
       org: 巴塞罗那市政厅(2015-2019年)
-      quote: 由于德基姆的努力，我们在巴塞罗那设法与公民共同制定了一项战略性城市计划。 2016年，我们启动了《城市行动计划》，其形式是通过Decidim Barcelona开展参与进程。 目前，这项计划包括近7 000个公民提案。 使用这个平台的优点之一是，您可以随时监测批准的建议的执行情况。
+      quote: '"Thanks to Decidim, in Barcelona we have managed to co-produce a strategic city plan together with the citizens. In 2016 we inaugurated the Municipal Action Plan in the form of a participatory process through Decidim Barcelona. Currently, this plan includes almost 7 thousand citizen proposals. One of the advantages of using this platform is that you can monitor at all times the state of implementation of the approved proposals."'
     n2:
       org: Som Energia
-      quote: 随着《圣日报》的推行，我们为参与创造了一个更加狭窄的空间。 我们在2018年发布了该工具。 主持合作社大会的几个月后，我们讨论了“Som Energia学校的形象重新设计与合作发展”的问题。 在其他参与性进程中也应如此。 在几个月内，3 500多名参与者登记参加了5个参与进程。 大会上次投票中有3个正在运作的议会和1 300多个选票。
+      quote: '"With the implementation of Decidim in Som Energia we have generated a kinder space for participation. We released the tool in 2018, hosting the General Assembly of the Cooperative and months later we debated the Image Redesign and collaborative development of the School of Som Energia, among other participatory processes. In a few months, more than 3,500 participant people have registered, 5 participatory processes, 3 assemblies operating and more than 1,300 votes in the last General Assembly vote."'
     n3:
-      org: Participal President of Merida Yucatatann, Mexico. City Council of Merida Yucatan, 1981-1981. Mexico
-      quote: '《1981年Merida决定》的数字平台是一个前所未有的机会，它为制定《1982年马里达2018-2021年城市发展计划》提供了公民参与机制。 我们有3 000多名公民的互动，包括建议、评论和意见。 建议和支持就我们城市的最佳做法达成尽可能最高的共识。 毫无疑问，我们将继续成为我们的盟友，促使《1981年决定》成为一个日益具有参与性的社会。'
+      org: City Council President of Mérida Yucatán, Mexico.
+      quote: '"The Decide Mérida digital platform was an opportunity that opened as never before the mechanisms of citizen participation for the elaboration of the Municipal Development Plan of Mérida 2018-2021. We had more than 3,000 citizen interactions including proposals, comments, suggestions and support that achieving the highest consensus possible about what is best for our city. Undoubtedly, the Decide Mérida platform will continue to be our ally in making Mérida an increasingly participative society."'
     n4:
       org: 赫尔辛基城
-      quote: 我们赞赏的是，它是在牢记民主的基础上建立起来的，因此民主是一个主要的重点。 问责、平等和透明度等民主原则是设计的核心。
+      quote: '"What we appreciate is that it’s built with democracy in mind and therefore democracy is a big focus. Democratic principles such as accountability, equality and transparency are in the core of the design."'
     n5:
       org: 墨西哥城开放政府
-      quote: 几乎每一个参与性进程都来到我们的桌面上，我们都能够利用十进制的商业规则解决这个问题。 作为一种工具，它是一种非常有力的工具。 然而，对我们来说似乎最强有力和最重要的部分是其社区，无论是开发者还是那些将其用于参与进程的人。 与他们合作使我们认识到在现实世界中实行参与性民主所涉及的挑战。
+      quote: '"Almost every participatory process that has come to our table, we have been able to solve it using Decidim’s business rules. As a tool, it is a very strong one. However, the part that seems strongest and most important to us is its community, both developers and those who use it for participatory processes. Coexisting with them has made us appreciate the challenges involved in implementing participatory democracy in the real world."'
     n6:
       org: Mozilla Foundation
-      quote: We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+      quote: '"We suffer under a lack of public space. Its particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it’s designed."'
     n7:
       org: OpenForum Europe Research Director, European Union
-      quote: The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
+      quote: '"The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission’s science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability."'
     n8:
       org: Pipeline to Power, working for NYC Civic Engagement Commission
-      quote: Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded.
+      quote: '"Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded."'
+    title: Testimonials
   thanks:
     message: 感谢您与我们联系，我们将很快与您联系。
     title: 感谢您的电子邮件
@@ -610,29 +611,33 @@ zh-CN:
     p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
     title: Trademark policy
   used_by:
-    cta: Get started
+    case_studies:
+      link: Read more use cases
+      title: Case studies
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
-    download_csv: Download CSV file with all the installations
     facts:
       subtitle: Decidim keeps growing and being adopted by organizations and the community.
       title: Facts & Figures
       type:
-        comments: comments
-        countries: countries
-        instances: instances
-        institutions: institutions
-        meetings: meetings
-        organizations: organizations
-        participants: participants
-        processes: processes
-        proposals: proposals
+        comments: 评论
+        countries: Countries
+        instances: Instances
+        institutions: Institutions
+        meetings: 会议
+        organizations: Organizations
+        participants: Participants
+        processes: Processes
+        proposals: 建议
     filters:
       f0: All
       f1: Government
       f2: Cities
       f3: NGOs
       f4: Universities
+    installations:
+      link: See who is using it
+      subtitle: More than 450 organisations and institutions have proudly used Decidim.
+      title: They've already used Decidim
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
-    join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
     title: 使用中的分解
