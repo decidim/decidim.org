@@ -56,8 +56,8 @@ function setActiveLink(href) {
     if (l.getAttribute("href") === href) {
       l.classList.add("font-bold", "bg-red-100");
       l.classList.remove("font-normal");
-      var label = l.closest("details") && l.closest("details").querySelector("[data-dropdown-label]");
-      if (label) label.textContent = l.textContent.trim();
+      let label = l.closest("details") && l.closest("details").querySelector("[data-dropdown-label]");
+      if (label) {label.textContent = l.textContent.trim();}
     } else {
       l.classList.remove("font-bold", "bg-red-100");
       l.classList.add("font-normal");
@@ -65,19 +65,19 @@ function setActiveLink(href) {
   });
 }
 function updateActiveSection() {
-  var current = sectionIds[0];
-  for (var i = 0; i < sectionIds.length; i++) {
-    var el = document.getElementById(sectionIds[i]);
+  let current = sectionIds[0];
+  for (let i = 0; i < sectionIds.length; i++) {
+    let el = document.getElementById(sectionIds[i]);
     if (el && el.getBoundingClientRect().top <= 100) {
       current = sectionIds[i];
     }
   }
-  setActiveLink("#" + current);
+  setActiveLink(`#${current}`);
 }
 
 document.querySelectorAll("details").forEach(function(details) {
   details.addEventListener("toggle", function() {
-    var arrow = details.querySelector("[data-arrow] svg");
+    let arrow = details.querySelector("[data-arrow] svg");
     if (details.open) {
       arrow.style.transform = "rotate(180deg)";
     } else {

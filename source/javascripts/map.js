@@ -4,11 +4,11 @@
  */
 
 (function() {
-  'use strict';
+  
 
   // Configuration
   const CONFIG = {
-    tileUrl: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    tileUrl: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
     tileAttribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 18,
     minZoom: 2
@@ -21,8 +21,8 @@
   let markers = [];
 
   // Corporate color
-  const CORPORATE_RED = '#e11d1d';
-  const CORPORATE_RED_HOVER = '#c20a0a';
+  const CORPORATE_RED = "#e11d1d";
+  const CORPORATE_RED_HOVER = "#c20a0a";
 
   /**
    * Create a custom SVG pin marker icon
@@ -37,7 +37,7 @@
     `;
     
     return L.divIcon({
-      className: 'custom-pin-marker',
+      className: "custom-pin-marker",
       html: svg,
       iconSize: [25, 41],
       iconAnchor: [12.5, 41],
@@ -49,8 +49,8 @@
    * Initialize the map
    */
   function init() {
-    const mapContainer = document.querySelector('[data-map-container]');
-    const dataElement = document.getElementById('map-installations-data');
+    const mapContainer = document.querySelector("[data-map-container]");
+    const dataElement = document.getElementById("map-installations-data");
     
     if (!mapContainer || !dataElement) {
       return;
@@ -60,7 +60,7 @@
     try {
       allInstallations = JSON.parse(dataElement.textContent);
     } catch (e) {
-      console.error('Failed to parse map data:', e);
+      console.error("Failed to parse map data:", e);
       return;
     }
 
@@ -89,13 +89,13 @@
       maxClusterRadius: 80,
       iconCreateFunction: function(cluster) {
         const count = cluster.getChildCount();
-        let size = 'small';
-        if (count >= 100) size = 'large';
-        else if (count >= 10) size = 'medium';
+        let size = "small";
+        if (count >= 100) {size = "large";}
+        else if (count >= 10) {size = "medium";}
         
         return L.divIcon({
-          html: '<div class="flex items-center justify-center w-10 h-10 bg-red-500 rounded-full text-white font-bold shadow-lg border-2 border-white">' + count + '</div>',
-          className: 'marker-cluster marker-cluster-' + size,
+          html: `<div class="flex items-center justify-center w-10 h-10 bg-red-500 rounded-full text-white font-bold shadow-lg border-2 border-white">${count}</div>`,
+          className: `marker-cluster marker-cluster-${size}`,
           iconSize: L.point(40, 40)
         });
       }
@@ -135,7 +135,7 @@
       marker.bindPopup(popupContent, {
         maxWidth: 300,
         minWidth: 200,
-        className: 'installation-popup'
+        className: "installation-popup"
       });
 
       // Store installation data on marker for filtering
@@ -150,20 +150,20 @@
    */
   function createPopupContent(installation) {
     const typeLabels = {
-      'city': 'City',
-      'region': 'Region',
-      'org': 'Organization',
-      'university': 'University'
+      "city": "City",
+      "region": "Region",
+      "org": "Organization",
+      "university": "University"
     };
     
     const typeLabel = typeLabels[installation.type] || installation.type;
     const typeColors = {
-      'city': 'bg-blue-100 text-blue-700',
-      'region': 'bg-green-100 text-green-700',
-      'org': 'bg-purple-100 text-purple-700',
-      'university': 'bg-orange-100 text-orange-700'
+      "city": "bg-blue-100 text-blue-700",
+      "region": "bg-green-100 text-green-700",
+      "org": "bg-purple-100 text-purple-700",
+      "university": "bg-orange-100 text-orange-700"
     };
-    const typeClass = typeColors[installation.type] || 'bg-gray-100 text-gray-700';
+    const typeClass = typeColors[installation.type] || "bg-gray-100 text-gray-700";
 
     return `
       <div class="p-4 min-w-[220px] max-w-[280px]">
@@ -190,8 +190,8 @@
    * Escape HTML to prevent XSS
    */
   function escapeHtml(text) {
-    if (!text) return '';
-    const div = document.createElement('div');
+    if (!text) {return "";}
+    const div = document.createElement("div");
     div.textContent = text;
     return div.innerHTML;
   }
@@ -214,17 +214,17 @@
    * Filter markers by type
    */
   function filterMarkers(type) {
-    if (!markersLayer) return;
+    if (!markersLayer) {return;}
 
     // Clear current markers
     markersLayer.clearLayers();
 
     // Filter and add markers
-    const filteredMarkers = type === 'all' 
+    const filteredMarkers = type === "all" 
       ? markers 
       : markers.filter(function(marker) {
-          return marker.installationData.type === type;
-        });
+        return marker.installationData.type === type;
+      });
 
     filteredMarkers.forEach(function(marker) {
       markersLayer.addLayer(marker);
@@ -243,19 +243,19 @@
   function setupFilterListeners() {
     // Find the tab list
     const tabList = document.querySelector('[role="tablist"]');
-    if (!tabList) return;
+    if (!tabList) {return;}
 
     const tabs = tabList.querySelectorAll('[role="tab"]');
     
     tabs.forEach(function(tab, index) {
       // Click handler
-      tab.addEventListener('click', function() {
+      tab.addEventListener("click", function() {
         handleTabChange(index);
       });
 
       // Keyboard handler
-      tab.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter' || e.key === ' ') {
+      tab.addEventListener("keydown", function(e) {
+        if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
           handleTabChange(index);
         }
@@ -268,21 +268,21 @@
    */
   function handleTabChange(index) {
     const typeMap = {
-      0: 'all',
-      1: 'region',
-      2: 'city',
-      3: 'org',
-      4: 'university'
+      0: "all",
+      1: "region",
+      2: "city",
+      3: "org",
+      4: "university"
     };
 
-    const type = typeMap[index] || 'all';
+    const type = typeMap[index] || "all";
     filterMarkers(type);
   }
 
   // Initialize when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
   } else {
     init();
   }
-})();
+}());

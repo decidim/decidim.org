@@ -11,19 +11,21 @@
  *  </div>
  */
 function handleClick({ target }) {
-  const parent = target.closest(`[data-filter]`);
+  const parent = target.closest("[data-filter]");
   const { value } = target;
 
   if (parent) {
-    [...parent.querySelectorAll(`[data-filter-target]`)].map((x) =>
-      !x.textContent.match(new RegExp(value, "i")) ? x.setAttribute("hidden", true) : x.removeAttribute("hidden")
+    [...parent.querySelectorAll("[data-filter-target]")].map((x) =>
+      (!x.textContent.match(new RegExp(value, "i"))
+        ? x.setAttribute("hidden", true)
+        : x.removeAttribute("hidden"))
     );
   }
 }
 
 function filterContent() {
   const selectors = document.querySelectorAll("[data-filter]");
-  selectors.forEach(container => container.addEventListener("input", handleClick));
+  selectors.forEach((container) => container.addEventListener("input", handleClick));
 }
 
 filterContent();
