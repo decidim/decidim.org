@@ -11,8 +11,6 @@ decidim:
     url: https://try.decidim.org/
   - name: nav.modules
     url: /modules
-  - name: nav.case_studies
-    url: /case_studies
   - name: nav.docs.title
     url: /documentation
   - name: nav.code
@@ -41,6 +39,8 @@ stay_up_to_date:
     url: /press
   - name: nav.academy
     url: https://www.zotero.org/groups/1607464/metadecidim/collections/DWR7CKGM
+  - name: nav.case_studies
+    url: /case_studies
 
 legal:
   - name: nav.legal-notice
