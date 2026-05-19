@@ -560,28 +560,29 @@
   testimonials:
     n1:
       org: Barcelona City Hall (2015-2019)
-      quote: Takket være Decidim, i Barcelona har vi klart å medutarbeide en strategisk byplan sammen med borgerne. I 2016 innførte vi den kommunale handlingsplanen i form av en deltakende prosess gjennom Decidim Barcelona. Denne planen omfatter i dag nærmere 7 tusen forslag. En av fordelene ved å bruke denne plattformen er at du til enhver tid kan overvåke tilstanden til de godkjente forslagene.
+      quote: '"Thanks to Decidim, in Barcelona we have managed to co-produce a strategic city plan together with the citizens. In 2016 we inaugurated the Municipal Action Plan in the form of a participatory process through Decidim Barcelona. Currently, this plan includes almost 7 thousand citizen proposals. One of the advantages of using this platform is that you can monitor at all times the state of implementation of the approved proposals."'
     n2:
       org: Som Energia
-      quote: Med implementeringen av dekidim i Som Energia har vi skapt et barnehagerom for deltakelse. Vi la ut verktøyet i 2018, vertskap for generalforsamlingen i samarbeidet, og månedene senere debatterte vi Image Redesign and collaborative development of the School of Som Energia, blant andre deltakende prosesser. I løpet av noen måneder har mer enn 3500 deltakere registrert seg, 5 deltakerprosesser, 3 avtaler som opererer med mer enn 1300 stemmer i forrige generalforsamling.
+      quote: '"With the implementation of Decidim in Som Energia we have generated a kinder space for participation. We released the tool in 2018, hosting the General Assembly of the Cooperative and months later we debated the Image Redesign and collaborative development of the School of Som Energia, among other participatory processes. In a few months, more than 3,500 participant people have registered, 5 participatory processes, 3 assemblies operating and more than 1,300 votes in the last General Assembly vote."'
     n3:
-      org: Kommunepresident i Me∙rida Yucatañn, Mexico. Kommunestyret Meephalrida Yucataεn, Mexico
-      quote: Bestemmelsesmetoden for digital plattform var en mulighet som aldri ble åpnet før borgernes deltakelsesmekanismer for utarbeidelse av den kommunale utviklingsplanen for Me∙rida 2018-2021. Vi hadde mer enn 3000 borgerinteraksjoner med forslag, kommentarer. forslag og støtte som oppnår høyest mulig enighet om hva som er best for vår by. Beslutningsplattformen «skjev» vil uansett fortsette å være vårt forhold til å gjøre Meephalrida til et stadig appativ samfunn.
+      org: City Council President of Mérida Yucatán, Mexico.
+      quote: '"The Decide Mérida digital platform was an opportunity that opened as never before the mechanisms of citizen participation for the elaboration of the Municipal Development Plan of Mérida 2018-2021. We had more than 3,000 citizen interactions including proposals, comments, suggestions and support that achieving the highest consensus possible about what is best for our city. Undoubtedly, the Decide Mérida platform will continue to be our ally in making Mérida an increasingly participative society."'
     n4:
       org: Byen Helsinki
-      quote: Det vi setter pris på, er at det er med demokrati i tankene, og derfor er demokratiet et et stort fokus. Demokratiske prinsipper som ansvarlighet, likestilling og åpenhet står i kjernen av designet.
+      quote: '"What we appreciate is that it’s built with democracy in mind and therefore democracy is a big focus. Democratic principles such as accountability, equality and transparency are in the core of the design."'
     n5:
       org: Åpne myndigheter i Mexico by
-      quote: Nesten hver deltakerprosess som er kommet til vårt bord, har vi vært i stand til å løse den ved hjelp av Decidims forretningsregler. Som et verktøy er det et veldig sterkt virkemiddel. Den delen som fremstår som sterkest og viktigst for oss, er imidlertid fellesskapet, både de som utvikler og de som bruker det på deltakende prosesser. Samspillet med dem har gjort at vi setter pris på utfordringene med å gjennomføre deltakende demokrati i den virkelige verden.
+      quote: '"Almost every participatory process that has come to our table, we have been able to solve it using Decidim’s business rules. As a tool, it is a very strong one. However, the part that seems strongest and most important to us is its community, both developers and those who use it for participatory processes. Coexisting with them has made us appreciate the challenges involved in implementing participatory democracy in the real world."'
     n6:
       org: Mozilla Foundation
-      quote: We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+      quote: '"We suffer under a lack of public space. Its particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it’s designed."'
     n7:
       org: OpenForum Europe Research Director, European Union
-      quote: The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission's science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability.
+      quote: '"The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission’s science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability."'
     n8:
       org: Pipeline to Power, working for NYC Civic Engagement Commission
-      quote: Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded.
+      quote: '"Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded."'
+    title: Testimonials
   thanks:
     message: Takk for at du kontakter oss, vi kommer snart tilbake til deg.
     title: Takk for din e-post
@@ -610,29 +611,33 @@
     p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
     title: Trademark policy
   used_by:
-    cta: Get started
+    case_studies:
+      link: Read more use cases
+      title: Case studies
     disclaimer: Logos are the intellectual property of their respective copyright holders.<br>They do not fall under the Creative Commons By-SA license the rest of the site's contents are licensed with.
-    download_csv: Download CSV file with all the installations
     facts:
       subtitle: Decidim keeps growing and being adopted by organizations and the community.
       title: Facts & Figures
       type:
-        comments: comments
-        countries: countries
-        instances: instances
-        institutions: institutions
-        meetings: meetings
-        organizations: organizations
-        participants: participants
-        processes: processes
-        proposals: proposals
+        comments: Kommentarer
+        countries: Countries
+        instances: Instances
+        institutions: Institutions
+        meetings: Møter
+        organizations: Organizations
+        participants: Participants
+        processes: Processes
+        proposals: Forslag
     filters:
       f0: All
       f1: Government
       f2: Cities
       f3: NGOs
       f4: Universities
+    installations:
+      link: See who is using it
+      subtitle: More than 450 organisations and institutions have proudly used Decidim.
+      title: They've already used Decidim
     intro: You can use Decidim in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, an association, a university, an NGO, a trade union, a neighbourhood collective or a cooperative...
-    join: Over 400 entities, 250 governamental and 150 grass root communities have chosen Decidim for their democratic processes.
     subtitle: These cities, regions and organizations are already using Decidim
     title: Dekidim i bruk
