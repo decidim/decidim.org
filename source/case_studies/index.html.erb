@@ -52,30 +52,7 @@ nav: case_studies
 
 <div class="container pb-16">
   <div id="cs-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    <% sitemap.resources
-        .select { |r| r.path.start_with?("case_studies/en/") && r.path.end_with?(".html") }
-        .each do |resource| %>
-      <% cs = resource.data %>
-      <div class="flex flex-col pb-4 rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300"
-           data-cs-card
-           data-type="<%= cs.type.to_s %>"
-           data-country="<%= cs.country.to_s %>">
-        <div class="overflow-hidden rounded-t-lg bg-gray-300">
-          <img class="w-full object-cover" src="<%= cs.gallery.first.image %>" alt="<%= cs.gallery.first.alt.present? ? cs.gallery.first.alt : cs.title %>">
-        </div>
-        <div class="flex gap-2 flex-wrap px-6 pt-4">
-          <% if cs.type.present? %>
-            <span class="text-xs bg-red-100 text-red-500 rounded px-3 py-1"><%= cs.type %></span>
-          <% end %>
-          <% if cs.country.present? %>
-            <span class="text-xs bg-red-100 text-red-500 rounded px-3 py-1"><%= cs.country %></span>
-          <% end %>
-        </div>
-        <h5 class="h5 py-3 px-6"><%= cs.title %></h5>
-        <p class="par-md text-gray-500 px-6 pb-4 flex-1"><%= cs.subtitle %></p>
-        <%= partial "partials/arrow-link", locals: { text: t("case_studies.read"), url: resource.url, classes: "text-red-500 mt-auto block pl-6" } %>
-      </div>
-    <% end %>
+    <%= partial "partials/testimonial-cards" %>
   </div>
   <p id="cs-no-results" class="text-center text-gray-500 par-md py-16 hidden"><%= t("case_studies.no_results") %></p>
   <div id="cs-pagination" class="flex justify-center items-center gap-2 pt-10 hidden"></div>
