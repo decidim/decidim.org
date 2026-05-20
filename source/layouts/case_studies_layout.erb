@@ -46,30 +46,30 @@
     <div class="container pt-8 md:pt-16">
       <div class="max-w-[791px]">
         <% if current_page.data.type.present? %>
-          <div class="pb-4 mb-4">
-            <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-300">
+          <div class="md:pb-10 pb-5">
+            <p class="par-sm font-bold uppercase flex items-center gap-2 pb-3 border-b border-gray-300">
               <%= icon "ri-service-line", class: "w-4 h-4" %>
               <%= t("case_studies.type_of_process") %>
             </p>
-            <p class="par-md"><%= current_page.data.type %></p>
+            <p class="par-md md:pt-5 pt-3"><%= current_page.data.type %></p>
           </div>
         <% end %>
         <% if current_page.data.target.present? %>
-          <div class="pb-4">
-            <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-300">
+          <div class="md:pb-10 pb-5">
+            <p class="par-sm font-bold uppercase flex items-center gap-2 pb-3 border-b border-gray-300">
               <%= icon "ri-user-line", class: "w-4 h-4" %>
               <%= t("case_studies.target_public") %>
             </p>
-            <p class="par-md"><%= current_page.data.target %></p>
+            <p class="par-md md:pt-5 pt-3"><%= current_page.data.target %></p>
           </div>
         <% end %>
         <% if current_page.data.components_used.present? && current_page.data.components_used.any? %>
-          <div class="pb-4 mb-4">
-            <p class="par-sm font-bold uppercase flex items-center gap-2 py-3 border-b border-gray-300">
+          <div class="md:pb-10 pb-5">
+            <p class="par-sm font-bold uppercase flex items-center gap-2 pb-3 border-b border-gray-300">
               <%= icon "ri-apps-2-line", class: "w-4 h-4" %>
               <%= t("case_studies.components_used") %>
             </p>
-            <ul class="list-disc list-inside space-y-1">
+            <ul class="list-disc list-inside space-y-1 md:pt-5 pt-3">
               <% current_page.data.components_used.each do |component| %>
                 <li class="par-md"><%= component %></li>
               <% end %>
@@ -88,41 +88,41 @@
             <%= icon "ri-numbers-line", class: "w-4 h-4" %>
             <%= current_page.data.results_title.present? ? current_page.data.results_title : "Results" %>
           </p>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-start">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10 justify-items-start">
             <% if current_page.data.budget&.value.present? %>
-              <div class="flex flex-col justify-start md:w-96 md:h-36 w-full">
-                <p class="h2 font-bold md:pb-4 py-2 md:pt-5"><%= current_page.data.budget.value %></p>
-                <p class="par-md font-bold text-balance"><%= current_page.data.budget.label.present? ? current_page.data.budget.label : "Budget allocated" %></p>
+              <div class="flex flex-col justify-start md:w-96 w-full">
+                <p class="md:h4 h2 font-bold md:pb-4 py-2 md:pt-5 pt-5"><%= current_page.data.budget.value %></p>
+                <p class="md:par-md par-sm font-bold text-balance"><%= current_page.data.budget.label.present? ? current_page.data.budget.label : "Budget allocated" %></p>
               </div>
             <% end %>
             <% if current_page.data.proposals_submitted&.value.present? %>
-              <div class="flex flex-col justify-start md:w-96 md:h-36 w-full">
-                <p class="h2 font-bold md:pb-4 py-2 md:pt-5"><%= current_page.data.proposals_submitted.value %></p>
-                <p class="par-md font-bold text-balance"><%= current_page.data.proposals_submitted.label.present? ? current_page.data.proposals_submitted.label : "Proposals submitted" %></p>
+              <div class="flex flex-col justify-start md:w-96 w-full">
+                <p class="md:h4 h2 font-bold md:pb-4 py-2 md:pt-5"><%= current_page.data.proposals_submitted.value %></p>
+                <p class="md:par-md par-sm font-bold text-balance"><%= current_page.data.proposals_submitted.label.present? ? current_page.data.proposals_submitted.label : "Proposals submitted" %></p>
               </div>
             <% end %>
             <% if current_page.data.technically_validated&.value.present? %>
-              <div class="flex flex-col justify-start md:w-96 md:h-36 w-full">
-                <p class="h2 font-bold md:pb-4 pb-2"><%= current_page.data.technically_validated.value %></p>
-                <p class="par-md font-bold text-balance"><%= current_page.data.technically_validated.label.present? ? current_page.data.technically_validated.label : "Technically validated" %></p>
+              <div class="flex flex-col justify-start md:w-96 w-full">
+                <p class="md:h4 h2 font-bold md:pb-4 pb-2"><%= current_page.data.technically_validated.value %></p>
+                <p class="md:par-md par-sm font-bold text-balance"><%= current_page.data.technically_validated.label.present? ? current_page.data.technically_validated.label : "Technically validated" %></p>
               </div>
             <% end %>
             <% if current_page.data.prioritized&.value.present? %>
-              <div class="flex flex-col justify-start md:w-96 md:h-36 w-full">
-                <p class="h2 font-bold md:pb-4 pb-2"><%= current_page.data.prioritized.value %></p>
-                <p class="par-md font-bold text-balance"><%= current_page.data.prioritized.label.present? ? current_page.data.prioritized.label : "Prioritized" %></p>
+              <div class="flex flex-col justify-start md:w-96 w-full">
+                <p class="md:h4 h2 font-bold md:pb-4 pb-2"><%= current_page.data.prioritized.value %></p>
+                <p class="md:par-md par-sm font-bold text-balance"><%= current_page.data.prioritized.label.present? ? current_page.data.prioritized.label : "Prioritized" %></p>
               </div>
             <% end %>
             <% if current_page.data.selected_for_implementation&.value.present? %>
-              <div class="flex flex-col justify-start md:w-96 md:h-36 w-full">
-                <p class="h2 font-bold md:pb-4 pb-2"><%= current_page.data.selected_for_implementation.value %></p>
-                <p class="par-md font-bold text-balance"><%= current_page.data.selected_for_implementation.label.present? ? current_page.data.selected_for_implementation.label : "Selected for implementation" %></p>
+              <div class="flex flex-col justify-start md:w-96 w-full">
+                <p class="md:h4 h2 font-bold md:pb-4 pb-2"><%= current_page.data.selected_for_implementation.value %></p>
+                <p class="md:par-md par-sm font-bold text-balance"><%= current_page.data.selected_for_implementation.label.present? ? current_page.data.selected_for_implementation.label : "Selected for implementation" %></p>
               </div>
             <% end %>
             <% if current_page.data.total_participants&.value.present? %>
-              <div class="flex flex-col justify-start md:w-96 md:h-36 w-full">
-                <p class="h2 font-bold md:pb-4 pb-2"><%= current_page.data.total_participants.value %></p>
-                <p class="par-md font-bold text-balance"><%= current_page.data.total_participants.label.present? ? current_page.data.total_participants.label : "Total participants" %></p>
+              <div class="flex flex-col justify-start md:w-96 w-full">
+                <p class="md:h4 h2 font-bold md:pb-4 pb-2"><%= current_page.data.total_participants.value %></p>
+                <p class="md:par-md par-sm font-bold text-balance"><%= current_page.data.total_participants.label.present? ? current_page.data.total_participants.label : "Total participants" %></p>
               </div>
             <% end %>
           </div>
@@ -142,11 +142,11 @@
 
   <section>
     <% if current_page.data.description.present? && current_page.data.description_title.present? %>
-      <div class="container md:pb-16">
+      <div class="container md:pb-16 md:pt-0 pt-10">
         <div class="max-w-[791px]">
-          <h2 class="h2 pb-5">
+          <p class="text-[32px] font-bold pb-5">
             <%= current_page.data.description_title %>
-          </h2>
+          </p>
           <div class="prose par-md max-w-none text-black">
             <%= markdown(current_page.data.description) %>
           </div>
@@ -195,7 +195,7 @@
                     <% end %>
                     <% if phase.components.present? && phase.components.any? %>
                       <div class="pt-2">
-                        <p class="font-bold par-md pb-2"><%= t("case_studies.components") %></p>
+                        <p class="font-bold par-md"><%= t("case_studies.components") %></p>
                         <ul class="space-y-2">
                           <% phase.components.each do |component| %>
                             <li class="par-md prose prose-li:marker:text-black inline text-black">
@@ -215,12 +215,12 @@
                       <span class="rounded-full text-base border border-black bg-white flex items-center justify-center w-8 h-8 flex-shrink-0 relative z-10">
                         <%= idx + 1 %>
                       </span>
-                      <h5 class="h5 flex-1 pt-1">
+                      <h6 class="h6 flex-1 pt-1">
                         <%= phase.title %>
                         <% if phase.count_label.present? %>
                           <span class="font-normal text-black">(<%= phase.count_label %>)</span>
                         <% end %>
-                      </h5>
+                      </h6>
                       <span class="w-5 h-5 flex-shrink-0 pt-1">
                         <span class="group-open:hidden"><%= icon "ri-arrow-down-s-line", class: "w-5 h-5 text-black block" %></span>
                         <span class="hidden group-open:block"><%= icon "ri-arrow-up-s-line", class: "w-5 h-5 text-black block" %></span>
@@ -235,10 +235,10 @@
                       <% end %>
                       <% if phase.components.present? && phase.components.any? %>
                         <div class="pt-2">
-                          <p class="font-bold par-md pb-2"><%= t("case_studies.components") %></p>
+                          <p class="font-bold par-md"><%= t("case_studies.components") %></p>
                           <ul class="space-y-2">
                             <% phase.components.each do |component| %>
-                              <li class="par-md prose prose-li:marker:text-black inline text-black">
+                              <li class="par-md prose prose-li:mt-0 prose-li:marker:text-black inline text-black">
                                 <%= markdown(component.description) %>
                               </li>
                             <% end %>
@@ -272,10 +272,10 @@
     <% if current_page.data.banner.present? && current_page.data.banner_title.present? && current_page.data.banner_subtitle.present? %>
       <div class="container">
         <div class="md:max-w-[791px] bg-red-100 py-10 px-6 md:pr-16 md:pl-0 -mx-6 md:mx-0 relative before:absolute before:top-0 before:bottom-0 before:right-full before:w-screen before:bg-red-100 md:after:absolute md:after:top-0 md:after:bottom-0 md:after:left-full md:after:w-screen md:after:bg-white">
-          <h2 class="md:text-5xl text-4xl text-red-500 md:nowrap">
+          <h2 class="md:text-4xl text-4xl text-red-500 font-light md:nowrap">
             <%= markdown(current_page.data.banner_title) %>
           </h2>
-          <div class="md:text-4xl text-3xl font-bold text-red-500 md:pb-6 pb-5">
+          <div class="md:text-[32px] text-3xl font-bold text-red-500 md:pb-6 pb-5">
             <%= markdown(current_page.data.banner_subtitle) %>
           </div>
           <div class="par-md text-red-500 prose max-w-none pb-4">
@@ -293,7 +293,7 @@
           <% if current_page.data.optional_section_1.present? %>
             <div class="prose prose-li:marker:text-black par-md max-w-none text-black pb-10">
               <% if current_page.data.optional_section_1_title.present? %>
-                <h4 class="h4"><%= current_page.data.optional_section_1_title %></h4>
+                <p class="text-[32px] font-bold"><%= current_page.data.optional_section_1_title %></p>
               <% end %>
               <%= markdown(current_page.data.optional_section_1) %>
             </div>
@@ -301,15 +301,15 @@
           <% if current_page.data.optional_section_2.present? %>
             <div class="prose par-md max-w-none text-black pb-10">
               <% if current_page.data.optional_section_2_title.present? %>
-                <h4 class="h4"><%= current_page.data.optional_section_2_title %></h4>
+                <p class="text-[32px] font-bold"><%= current_page.data.optional_section_2_title %></p>
               <% end %>
               <%= markdown(current_page.data.optional_section_2) %>
             </div>
           <% end %>
           <% if current_page.data.optional_section_3.present? %>
-            <div class="prose prose-li:marker:text-black par-md max-w-none text-black">
+            <div class="prose prose-li:marker:text-black par-md max-w-none text-black md:pb-0 pb-10">
               <% if current_page.data.optional_section_3_title.present? %>
-                <h4 class="h4"><%= current_page.data.optional_section_3_title %></h4>
+                <p class="text-[32px] font-bold pb-5 !mb-0"><%= current_page.data.optional_section_3_title %></p>
               <% end %>
               <%= markdown(current_page.data.optional_section_3) %>
             </div>
@@ -321,12 +321,12 @@
 
   <section>
     <% if current_page.data.testimonial_link.present? %>
-      <div class="container py-8 md:py-10">
+      <div class="container pb-10 md:py-10">
         <div class="max-w-[791px]">
-          <h3 class="h3 md:nowrap pb-6">
+          <p class="text-[32px] font-bold md:nowrap pb-5">
             <%= t("case_studies.testimonial") %>
-          </h3>
-          <%= partial "partials/arrow-link", locals: { url: current_page.data.testimonial_link, text: current_page.data.testimonial_link_text.present? ? current_page.data.testimonial_link_text : current_page.data.testimonial_link, classes: "text-red-500 block pt-4 underline", span_classes: "par-md", icon_classes: "w-4 h-4", icon_name: "ri-external-link-line" } %>
+          </p>
+          <%= partial "partials/arrow-link", locals: { url: current_page.data.testimonial_link, text: current_page.data.testimonial_link_text.present? ? current_page.data.testimonial_link_text : current_page.data.testimonial_link, classes: "text-red-500 block underline", span_classes: "par-md", icon_classes: "w-4 h-4", icon_name: "ri-external-link-line" } %>
         </div>
       </div>
     <% end %>
@@ -341,8 +341,8 @@
           </h3>
           <div class="flex flex-wrap gap-6 md:gap-8 items-center">
             <% current_page.data.partners.each do |partner| %>
-              <div class="flex items-center pb-5">
-                <img src="<%= partner.logo %>" alt="<%= partner.name %>" class="h-10 md:h-16 object-contain">
+              <div class="flex items-center md:pb-0 pb-5">
+                <img src="<%= partner.logo %>" alt="<%= partner.name %>" class="w-40 h-28 md:w-56 md:h-44 object-contain">
               </div>
             <% end %>
           </div>
