@@ -1,5 +1,5 @@
 ---
-title: Participatory Budgets 2020-2023 in Barcelona Nil
+title: Participatory Budgets 2020-2023 in Barcelona
 subtitle: The first participatory budgets in the city, or how to promote democratic transparency and citizen empowerment
 website: https://www.decidim.barcelona/
 website_link_text: Access the Decidim.Barcelona platform
