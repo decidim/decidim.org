@@ -28,7 +28,7 @@ description:
             <%= icon item.icon, class: "w-6 h-6" %>
             <span class="font-semibold uppercase"><%= t(item.title) %></span>
           </div>
-          <ul class="par-md max-w-prose text-black pt-6 list-disc list-inside space-y-2">
+          <ul class="par-md max-w-prose text-black pt-6 list-disc pl-5 space-y-2">
             <% t(item.text).each do |text| %>
               <li><%= text %></li>
             <% end %>
