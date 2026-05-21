@@ -2,3 +2,24 @@
 nav: book
 description:
 ---
+
+<section>
+  <div class="container pt-10 md:pt-16 md:pb-24 ">
+    <div class="md:w-3/5 space-y-5">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("book.title") %>
+      </h1>
+      <p class="par-xl text-gray-500">
+        <%= t("book.subtitle") %>
+      </p>
+      <div class="par-md text-gray-500">
+        <%= t("book.intro") %>
+      </div>
+      <%= partial "partials/arrow-link", locals: { text: t("book.cta"), url: "https://link.springer.com/book/10.1007/978-3-031-50784-7", icon_name: "ri-external-link-line", icon_classes: "w-6 h-6" } %>
+    </div>
+  </div>
+</section>
+
+<section>
+
+</section>
