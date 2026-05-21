@@ -59,11 +59,13 @@ description:
         </span>
         <textarea id="message" name="message" cols="30" rows="10" required></textarea>
       </label>
-      <label for="accept_privacy_policy" class="flex flex-row-reverse gap-x-2 hover:cursor-pointer">
-        <span class="prose"><%= I18n.t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></span>
+      <label for="accept_privacy_policy" class="flex flex-row gap-x-2 hover:cursor-pointer">
         <input type="checkbox" id="accept_privacy_policy" name="accept_privacy_policy" required/>
+        <span class="prose"><%= I18n.t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></span>
       </label>
-      <%= t('contact.privacy_policy.message') %>
+      <div class="par-sm text-gray-500">
+        <%= t('contact.privacy_policy.message') %>
+      </div>
       <div class="par-md">
         <button type="submit" class="button"><%= t("contact.send") %></button>
       </div>
