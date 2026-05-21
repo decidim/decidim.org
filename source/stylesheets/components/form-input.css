@@ -6,7 +6,7 @@
   }
 
   input, textarea, select {
-    @apply bg-gray-100 block w-full pt-10 pb-3 px-5 md:px-4 rounded-xl
+    @apply bg-gray-100 block w-full pt-10 pb-3 px-5 md:px-4 rounded-lg
            resize-none focus:outline-none appearance-none;
   }
 
