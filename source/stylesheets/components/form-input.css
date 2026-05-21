@@ -1,8 +1,5 @@
 .form-input {
-  @apply block relative par-md text-gray-500 focus-within:text-black
-         before:content-[''] before:absolute before:w-2 before:bg-gray-300
-         before:focus-within:bg-black before:rounded-l-xl
-         before:md:rounded-xl before:h-full before:top-0 before:-left-1 before:md:-left-4;
+  @apply block relative par-md text-black;
 
   span {
     @apply uppercase par-sm absolute top-2 left-5 md:left-4 font-semibold;
