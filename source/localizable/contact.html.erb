@@ -38,6 +38,12 @@ description:
         <span>
           <%= t("contact.reason") %>
         </span>
+        <div class="absolute right-5 md:right-4 top-12">
+          <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 text-black" %>
+        </div>
+        <div class="absolute right-5 md:right-4 top-12 hidden group-open:block">
+          <%= icon "ri-arrow-up-s-line", class: "w-5 h-5 text-black" %>
+        </div>
         <select id="reason" name="reason" required>
           <option value="" selected disabled><%= t("contact.reasons.selected") %></option>
           <option value="installing"><%= t("contact.reasons.installing") %></option>
