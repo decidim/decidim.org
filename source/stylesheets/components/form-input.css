@@ -13,4 +13,8 @@
   select {
     @apply pr-10 cursor-pointer;
   }
+
+  select:has(option[value=""]:checked) {
+    @apply text-gray-500;
+  }
 }
