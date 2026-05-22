@@ -91,37 +91,37 @@
           <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-6 justify-items-start">
             <% if current_page.data.budget&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="text-[32px] font-bold md:pb-4 py-2 md:pt-5 pt-5"><%= current_page.data.budget.value %></p>
+                <p class="text-[32px] font-bold leading-none md:pb-4 py-2 md:pt-5 pt-5"><%= current_page.data.budget.value %></p>
                 <p class="par-md font-bold text-balance"><%= current_page.data.budget.label.present? ? current_page.data.budget.label : "Budget allocated" %></p>
               </div>
             <% end %>
             <% if current_page.data.proposals_submitted&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="text-[32px] font-bold md:pb-4 py-2 md:pt-5"><%= current_page.data.proposals_submitted.value %></p>
+                <p class="text-[32px] font-bold leading-none md:pb-4 py-2 md:pt-5"><%= current_page.data.proposals_submitted.value %></p>
                 <p class="par-md font-bold text-balance"><%= current_page.data.proposals_submitted.label.present? ? current_page.data.proposals_submitted.label : "Proposals submitted" %></p>
               </div>
             <% end %>
             <% if current_page.data.technically_validated&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="text-[32px] font-bold md:pb-4 pb-2"><%= current_page.data.technically_validated.value %></p>
+                <p class="text-[32px] font-bold leading-none md:pb-4 pb-2"><%= current_page.data.technically_validated.value %></p>
                 <p class="par-md font-bold text-balance"><%= current_page.data.technically_validated.label.present? ? current_page.data.technically_validated.label : "Technically validated" %></p>
               </div>
             <% end %>
             <% if current_page.data.prioritized&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="text-[32px] font-bold md:pb-4 pb-2"><%= current_page.data.prioritized.value %></p>
+                <p class="text-[32px] font-bold leading-none md:pb-4 pb-2"><%= current_page.data.prioritized.value %></p>
                 <p class="par-md font-bold text-balance"><%= current_page.data.prioritized.label.present? ? current_page.data.prioritized.label : "Prioritized" %></p>
               </div>
             <% end %>
             <% if current_page.data.selected_for_implementation&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="text-[32px] font-bold md:pb-4 pb-2"><%= current_page.data.selected_for_implementation.value %></p>
+                <p class="text-[32px] font-bold leading-none md:pb-4 pb-2"><%= current_page.data.selected_for_implementation.value %></p>
                 <p class="par-md font-bold text-balance"><%= current_page.data.selected_for_implementation.label.present? ? current_page.data.selected_for_implementation.label : "Selected for implementation" %></p>
               </div>
             <% end %>
             <% if current_page.data.total_participants&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="text-[32px] font-bold md:pb-4 pb-2"><%= current_page.data.total_participants.value %></p>
+                <p class="text-[32px] font-bold leading-none md:pb-4 pb-2"><%= current_page.data.total_participants.value %></p>
                 <p class="par-md font-bold text-balance"><%= current_page.data.total_participants.label.present? ? current_page.data.total_participants.label : "Total participants" %></p>
               </div>
             <% end %>
