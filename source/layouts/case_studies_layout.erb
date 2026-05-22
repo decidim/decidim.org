@@ -46,27 +46,27 @@
     <div class="container pt-8 md:pt-16">
       <div class="max-w-[791px]">
         <% if current_page.data.type.present? %>
-          <div class="md:pb-10 pb-5">
+          <div class="md:pb-10 pb-8">
             <p class="par-sm font-bold uppercase flex items-center gap-2 pb-3 border-b border-gray-300">
-              <%= icon "ri-service-line", class: "w-4 h-4" %>
+              <%= icon "ri-service-line", class: "w-6 h-6 md:w-4 md:h-4" %>
               <%= t("case_studies.type_of_process") %>
             </p>
             <p class="par-md md:pt-5 pt-3"><%= current_page.data.type %></p>
           </div>
         <% end %>
         <% if current_page.data.target.present? %>
-          <div class="md:pb-10 pb-5">
+          <div class="md:pb-10 pb-8">
             <p class="par-sm font-bold uppercase flex items-center gap-2 pb-3 border-b border-gray-300">
-              <%= icon "ri-user-line", class: "w-4 h-4" %>
+              <%= icon "ri-user-line", class: "w-6 h-6 md:w-4 md:h-4" %>
               <%= t("case_studies.target_public") %>
             </p>
             <p class="par-md md:pt-5 pt-3"><%= current_page.data.target %></p>
           </div>
         <% end %>
         <% if current_page.data.components_used.present? && current_page.data.components_used.any? %>
-          <div class="md:pb-10 pb-5">
+          <div class="md:pb-0 pb-8">
             <p class="par-sm font-bold uppercase flex items-center gap-2 pb-3 border-b border-gray-300">
-              <%= icon "ri-apps-2-line", class: "w-4 h-4" %>
+              <%= icon "ri-apps-2-line", class: "w-6 h-6 md:w-4 md:h-4" %>
               <%= t("case_studies.components_used") %>
             </p>
             <ul class="list-disc list-inside space-y-1 md:pt-5 pt-3">
@@ -82,47 +82,47 @@
 
   <section>
     <% if current_page.data.budget&.value.present? || current_page.data.proposals_submitted&.value.present? || current_page.data.technically_validated&.value.present? || current_page.data.prioritized&.value.present? || current_page.data.selected_for_implementation&.value.present? || current_page.data.total_participants&.value.present? %>
-      <div class="container md:pt-8">
+      <div class="container md:pt-10">
         <div class="max-w-[791px]">
           <p class="par-sm font-bold uppercase flex items-center gap-2 md:pb-3 pb-2 border-b border-gray-300">
             <%= icon "ri-numbers-line", class: "w-4 h-4" %>
             <%= current_page.data.results_title.present? ? current_page.data.results_title : "Results" %>
           </p>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-10 justify-items-start">
+          <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-6 justify-items-start">
             <% if current_page.data.budget&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="md:text-[32px] h2 font-bold md:pb-4 py-2 md:pt-5 pt-5"><%= current_page.data.budget.value %></p>
-                <p class="md:text-xl font-bold text-balance"><%= current_page.data.budget.label.present? ? current_page.data.budget.label : "Budget allocated" %></p>
+                <p class="text-[32px] font-bold md:pb-4 py-2 md:pt-5 pt-5"><%= current_page.data.budget.value %></p>
+                <p class="par-md font-bold text-balance"><%= current_page.data.budget.label.present? ? current_page.data.budget.label : "Budget allocated" %></p>
               </div>
             <% end %>
             <% if current_page.data.proposals_submitted&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="md:text-[32px] h2 font-bold md:pb-4 py-2 md:pt-5"><%= current_page.data.proposals_submitted.value %></p>
-                <p class="md:text-xl font-bold text-balance"><%= current_page.data.proposals_submitted.label.present? ? current_page.data.proposals_submitted.label : "Proposals submitted" %></p>
+                <p class="text-[32px] font-bold md:pb-4 py-2 md:pt-5"><%= current_page.data.proposals_submitted.value %></p>
+                <p class="par-md font-bold text-balance"><%= current_page.data.proposals_submitted.label.present? ? current_page.data.proposals_submitted.label : "Proposals submitted" %></p>
               </div>
             <% end %>
             <% if current_page.data.technically_validated&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="md:text-[32px] h2 font-bold md:pb-4 pb-2"><%= current_page.data.technically_validated.value %></p>
-                <p class="md:text-xl font-bold text-balance"><%= current_page.data.technically_validated.label.present? ? current_page.data.technically_validated.label : "Technically validated" %></p>
+                <p class="text-[32px] font-bold md:pb-4 pb-2"><%= current_page.data.technically_validated.value %></p>
+                <p class="par-md font-bold text-balance"><%= current_page.data.technically_validated.label.present? ? current_page.data.technically_validated.label : "Technically validated" %></p>
               </div>
             <% end %>
             <% if current_page.data.prioritized&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="md:text-[32px] h2 font-bold md:pb-4 pb-2"><%= current_page.data.prioritized.value %></p>
-                <p class="md:text-xl font-bold text-balance"><%= current_page.data.prioritized.label.present? ? current_page.data.prioritized.label : "Prioritized" %></p>
+                <p class="text-[32px] font-bold md:pb-4 pb-2"><%= current_page.data.prioritized.value %></p>
+                <p class="par-md font-bold text-balance"><%= current_page.data.prioritized.label.present? ? current_page.data.prioritized.label : "Prioritized" %></p>
               </div>
             <% end %>
             <% if current_page.data.selected_for_implementation&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="md:text-[32px] h2 font-bold md:pb-4 pb-2"><%= current_page.data.selected_for_implementation.value %></p>
-                <p class="md:text-xl font-bold text-balance"><%= current_page.data.selected_for_implementation.label.present? ? current_page.data.selected_for_implementation.label : "Selected for implementation" %></p>
+                <p class="text-[32px] font-bold md:pb-4 pb-2"><%= current_page.data.selected_for_implementation.value %></p>
+                <p class="par-md font-bold text-balance"><%= current_page.data.selected_for_implementation.label.present? ? current_page.data.selected_for_implementation.label : "Selected for implementation" %></p>
               </div>
             <% end %>
             <% if current_page.data.total_participants&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="md:text-[32px] h2 font-bold md:pb-4 pb-2"><%= current_page.data.total_participants.value %></p>
-                <p class="md:text-xl font-bold text-balance"><%= current_page.data.total_participants.label.present? ? current_page.data.total_participants.label : "Total participants" %></p>
+                <p class="text-[32px] font-bold md:pb-4 pb-2"><%= current_page.data.total_participants.value %></p>
+                <p class="par-md font-bold text-balance"><%= current_page.data.total_participants.label.present? ? current_page.data.total_participants.label : "Total participants" %></p>
               </div>
             <% end %>
           </div>
@@ -158,10 +158,10 @@
   <section>
     <div class="container">
       <div class="max-w-[791px]">
-        <h3 class="h3 text-bold pt-10 md:nowrap ">
+        <p class="text-[32px] font-bold pt-10 md:nowrap ">
           <%= current_page.data.process_title %>
-        </h3>
-        <p class="par-lg pt-5 md:pt-5">
+        </p>
+        <p class="par-lg pt-5 md:pt-4">
           <%= current_page.data.process_subtitle %>
         </p>
       </div>
@@ -291,23 +291,23 @@
       <div class="container pt-8">
         <div class="max-w-[791px]">
           <% if current_page.data.optional_section_1.present? %>
-            <div class="prose prose-li:marker:text-black par-md max-w-none text-black pb-10">
+            <div class="prose prose-li:marker:text-black prose-p:!mt-0 prose-li:!mt-0 prose-li:!mb-0 par-md max-w-none text-black pb-10">
               <% if current_page.data.optional_section_1_title.present? %>
-                <p class="text-[32px] font-bold"><%= current_page.data.optional_section_1_title %></p>
+                <p class="text-[32px] font-bold !mb-0 md:pb-4 pb-5"><%= current_page.data.optional_section_1_title %></p>
               <% end %>
               <%= markdown(current_page.data.optional_section_1) %>
             </div>
           <% end %>
           <% if current_page.data.optional_section_2.present? %>
-            <div class="prose par-md max-w-none text-black pb-10">
+            <div class="prose prose-li:marker:text-black prose-p:!mt-0 prose-li:!mt-0 prose-li:!mb-0 par-md max-w-none text-black pb-10">
               <% if current_page.data.optional_section_2_title.present? %>
-                <p class="text-[32px] font-bold"><%= current_page.data.optional_section_2_title %></p>
+                <p class="text-[32px] font-bold !my-0 md:pb-4 pb-5"><%= current_page.data.optional_section_2_title %></p>
               <% end %>
               <%= markdown(current_page.data.optional_section_2) %>
             </div>
           <% end %>
           <% if current_page.data.optional_section_3.present? %>
-            <div class="prose prose-li:marker:text-black par-md max-w-none text-black md:pb-0 pb-10">
+            <div class="prose prose-li:marker:text-black prose-p:!mt-0 prose-li:!mt-0 prose-li:!mb-0 par-md max-w-none text-black md:pb-0 pb-10">
               <% if current_page.data.optional_section_3_title.present? %>
                 <p class="text-[32px] font-bold pb-5 !mb-0"><%= current_page.data.optional_section_3_title %></p>
               <% end %>
@@ -323,7 +323,7 @@
     <% if current_page.data.testimonial_link.present? %>
       <div class="container pb-10 md:py-10">
         <div class="max-w-[791px]">
-          <p class="text-[32px] font-bold md:nowrap pb-5">
+          <p class="text-[32px] font-bold md:nowrap pb-5 md:pb-4">
             <%= t("case_studies.testimonial") %>
           </p>
           <%= partial "partials/arrow-link", locals: { url: current_page.data.testimonial_link, text: current_page.data.testimonial_link_text.present? ? current_page.data.testimonial_link_text : current_page.data.testimonial_link, classes: "text-red-500 block underline", span_classes: "par-md", icon_classes: "w-4 h-4", icon_name: "ri-external-link-line" } %>
@@ -336,10 +336,10 @@
     <% if current_page.data.partners.present? && current_page.data.partners.any? %>
       <div class="container">
         <div class="max-w-[791px]">
-          <h3 class="h3 md:nowrap pb-5">
+          <p class="text-[32px] font-bold md:nowrap pb-5 md:pb-4">
             <%= t("case_studies.partners") %>
-          </h3>
-          <div class="flex flex-wrap gap-6 md:gap-8 items-center">
+          </p>
+          <div class="flex flex-wrap gap-6 md:gap-10 items-center">
             <% current_page.data.partners.each do |partner| %>
               <div class="flex items-center md:pb-0 pb-5">
                 <img src="<%= partner.logo %>" alt="<%= partner.name %>" class="w-40 h-28 md:w-56 md:h-44 object-contain">
