@@ -4,7 +4,7 @@ description:
 ---
 
 <section>
-  <div class="container pt-10 md:pt-16 md:pb-24">
+  <div class="container py-10 md:pt-16 md:pb-24">
     <div class="md:w-3/5">
       <h1 class="h1 md:whitespace-nowrap">
         <%= t("supporters.title") %>
@@ -19,10 +19,20 @@ description:
 
 <section>
   <div class="container pb-12">
+    <h2 class="h2 md:pb-6 pb-4"><%= t("supporters.main_founders") %></h2>
     <%= partial "partials/supporters", locals: { type: "public" } %>
+    <h2 class="h2 md:pb-6 pb-4"><%= t("supporters.supporters") %></h2>
     <%= partial "partials/supporters", locals: { type: "supporters" } %>
+    <h2 class="h2 md:pb-6 pb-4"><%= t("supporters.collaborators") %></h2>
     <%= partial "partials/supporters", locals: { type: "collaborators" } %>
   </div>
 </section>
+
+<section>
+  <div class="container md:hidden py-10">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("supporters.link_mobile"), url: "#{t(:path)}/partnership-policy" }  %>
+  </div>
+</section>
+
 
 <%= partial "/partials/cta-banner" %>
