@@ -1,10 +1,10 @@
 <p class="par-md pb-6 font-mediumj">
   <%= t("supporters.type.#{type}") %>
 </p>
-<div class="grid grid-cols-4 md:grid-cols-5 gap-6 md:gap-24 items-center pb-12">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-x-5 items-center md:gap-y-5">
   <% data_sort_by(data_select_by_type(data.supporters, type), "joined_at").each do |_id, partner| %>
-    <a href="<%= partner.url %>" title="<%= partner.name %>" target="_blank" rel="noopener noreferrer">
-      <%= image_tag partner.image, alt: partner.name %>
+    <a class="items-center justify-center inline-block p-5 md:p-6" href="<%= partner.url %>" title="<%= partner.name %>" target="_blank" rel="noopener noreferrer">
+      <%= image_tag partner.image, alt: partner.name, class: "object-contain w-40 h-28 md:w-56 md:h-44 md:py-4" %>
     </a>
   <% end %>
 </div>
