@@ -2,6 +2,7 @@ module.exports = {
   content: ["./source/**/*.{html,js,erb}"],
   safelist: [
     'prose-li:!mt-0',
+    'prose-ul:!mt-0',
     'prose-li:!mb-0',
     'prose-p:!mt-0',
     'prose-li:marker:text-black',
