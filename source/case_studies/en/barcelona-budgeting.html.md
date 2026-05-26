@@ -110,7 +110,7 @@ banner: |-
 optional_section_1_title: Innovations
 optional_section_1: |-
   - **In-person support points for voting**: During both voting periods, voting was only possible through the Decidim.Barcelona platform. To ensure that all residents of the city could exercise their right to vote—especially older adults and others who might have difficulty accessing a web platform—in-person support points were set up. These were located in municipal facilities, where technical staff assisted residents in completing the voting process on the Decidim platform.
-  - **Participation without registration in the final vote:** Barcelona developed an ephemeral participation module, which allowed residents to vote without creating an account. This enabled direct verification and access to the vote. This innovation simplified the voting process, as creating an account could have been an unnecessary obstacle for many residents.
+  - **Participation without registration in the final vote**: Barcelona developed an ephemeral participation module, which allowed residents to vote without creating an account. This enabled direct verification and access to the vote. This innovation simplified the voting process, as creating an account could have been an unnecessary obstacle for many residents.
 optional_section_2_title: Impact
 optional_section_2: |-
   These participatory budgets are now part of the city’s history and are here to stay. The combination of an open-source platform like Decidim with inclusive methodologies has made it possible to reach diverse groups, improve institutional transparency, and generate a sense of shared responsibility in managing public resources.
