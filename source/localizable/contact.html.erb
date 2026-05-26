@@ -59,9 +59,9 @@ description:
         </span>
         <textarea id="message" name="message" cols="30" rows="10" required></textarea>
       </label>
-      <label for="accept_privacy_policy" class="flex flex-row gap-x-2 hover:cursor-pointer">
+      <label for="accept_privacy_policy" class="flex flex-row gap-x-2 items-center hover:cursor-pointer">
         <input type="checkbox" id="accept_privacy_policy" name="accept_privacy_policy" required/>
-        <span class="prose"><%= I18n.t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></span>
+        <span><%= I18n.t('contact.privacy_policy.accept_prefix') %> <a href="<%= "#{t(:path)}/privacy-policy" %>" class="underline"><%= I18n.t('contact.privacy_policy.accept_link') %></a></span>
       </label>
       <div class="par-sm text-gray-500 prose">
         <%= t('contact.privacy_policy.message') %>
