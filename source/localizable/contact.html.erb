@@ -41,7 +41,7 @@ description:
         <div class="absolute right-5 md:right-4 top-12">
           <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 text-black" %>
         </div>
-        <div class="absolute right-5 md:right-4 top-12 hidden group-open:block">
+        <div class="absolute right-5 md:right-4 top-12 pointer-events-none">
           <%= icon "ri-arrow-up-s-line", class: "w-5 h-5 text-black" %>
         </div>
         <select id="reason" name="reason" required>
@@ -63,7 +63,7 @@ description:
         <input type="checkbox" id="accept_privacy_policy" name="accept_privacy_policy" required/>
         <span><%= I18n.t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></span>
       </label>
-      <div class="par-sm text-gray-500">
+      <div class="par-sm text-gray-500 prose">
         <%= t('contact.privacy_policy.message') %>
       </div>
       <div class="par-md">
