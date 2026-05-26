@@ -129,7 +129,7 @@
         </div>
       </div>
     <% end %>
-    <div class="container md:pt-5 md:pb-16 pt-5">
+    <div class="container md:pt-5 md:pb-10 pt-5">
       <% if current_page.data.results_conclusion.present? %>
         <div class="max-w-[791px]">
           <div class="prose par-md max-w-none text-gray-500">
@@ -142,7 +142,7 @@
 
   <section>
     <% if current_page.data.description.present? && current_page.data.description_title.present? %>
-      <div class="container md:pb-16 md:pt-0 pt-10">
+      <div class="container md:pb-10 md:pt-0 pt-10">
         <div class="max-w-[791px]">
           <p class="text-[32px] font-bold pb-5">
             <%= current_page.data.description_title %>
@@ -158,7 +158,7 @@
   <section>
     <div class="container">
       <div class="max-w-[791px]">
-        <p class="text-[32px] font-bold pt-10 md:nowrap leading-none">
+        <p class="text-[32px] font-bold pt-10 md:pt-0 md:nowrap leading-none">
           <%= current_page.data.process_title %>
         </p>
         <p class="par-lg pt-5 md:pt-4">
@@ -167,7 +167,7 @@
       </div>
     </div>
     <% if current_page.data.phases.present? && current_page.data.phases.any? %>
-      <div class="container py-10 md:pt-16">
+      <div class="container py-10 md:pt-5">
         <div class="max-w-[791px]">
           <div class="relative">
             <% current_page.data.phases.each_with_index do |phase, idx| %>
