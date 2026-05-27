@@ -18,3 +18,11 @@ description:
     </div>
   </div>
 </section>
+<section>
+  <div class="container md:pb-16 pb-10">
+    <h2 class="h2 md:pb-6 pb-4"><%= t("team.technical_office") %></h2>
+    <%= partial "partials/team", locals: { type: "technical" } %>
+    <h2 class="h2 md:pb-6 pt-10 pb-4"><%= t("team.coordination_committee") %></h2>
+    <%= partial "partials/team", locals: { type: "coordination" } %>
+  </div>
+</section>
