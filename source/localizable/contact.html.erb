@@ -53,9 +53,11 @@ description:
           <option value="other"><%= t("contact.reasons.other") %></option>
         </select>
       </label>
-      <label for="message" class="form-input">
-        <span><%= t("contact.message") %></span>
-        <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+     <label for="message" class="form-input">
+        <div class="absolute top-0 left-0 right-0 px-5 md:px-4 pt-2 pb-2 bg-gray-100 rounded-t-lg border-gray-300 z-10 uppercase par-sm font-semibold">
+          <%= t("contact.message") %>
+        </div>
+        <textarea id="message" name="message" cols="30" rows="10" required class="pt-12"></textarea>
       </label>
       <label for="accept_privacy_policy" class="flex flex-row gap-x-2 items-center hover:cursor-pointer">
         <input type="checkbox" id="accept_privacy_policy" name="accept_privacy_policy" required/>
