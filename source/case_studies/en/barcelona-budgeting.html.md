@@ -15,7 +15,7 @@ gallery:
   - image: /uploads/photo_2026-05-04_16-07-12.jpg
     alt: Group photo
 type: Participatory Budgeting
-target: Barcelona citizens aged 18 years old and over
+target: Barcelona citizens aged 14 years old and over
 components_used:
   - Proposals
   - Pages
