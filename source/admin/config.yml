@@ -10,7 +10,7 @@ collections:
   - name: "case_studies"
     label: "Case studies"
     format: "yaml-frontmatter"
-    extension: md
+    extension: html.md
     folder: "source/case_studies/en"
     create: true
     identifier_field: title
