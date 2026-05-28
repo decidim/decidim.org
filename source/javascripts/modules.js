@@ -32,17 +32,10 @@
  *  <section id="auth">...</section>
  */
 
-document.querySelectorAll("[data-nav-link]").forEach(function(link) {
-  link.addEventListener("click", function() {
-    setActiveLink(this.getAttribute("href"));
-    this.closest("details").open = false;
-  });
-});
-
 const desktopLinks = document.querySelectorAll("[data-desktop-nav-link]");
 const mobileLinks = document.querySelectorAll("[data-nav-link]");
 const sectionIds = ["official", "community", "auth"];
-function setActiveLink(href) {
+const setActiveLink = (href) => {
   desktopLinks.forEach(function(l) {
     if (l.getAttribute("href") === href) {
       l.classList.add("bg-red-100");
@@ -57,14 +50,26 @@ function setActiveLink(href) {
       l.classList.add("font-bold", "bg-red-100");
       l.classList.remove("font-normal");
       let label = l.closest("details") && l.closest("details").querySelector("[data-dropdown-label]");
-      if (label) {label.textContent = l.textContent.trim();}
+      if (label) {
+        label.textContent = l.textContent.trim();}
     } else {
       l.classList.remove("font-bold", "bg-red-100");
       l.classList.add("font-normal");
     }
   });
 }
-function updateActiveSection() {
+
+document.querySelectorAll("[data-nav-link]").forEach(function(link) {
+  link.addEventListener("click", function() {
+    setActiveLink(link.getAttribute("href"));
+    const details = link.closest("details");
+    if (details) {
+      details.open = false;
+    }
+  });
+});
+
+const updateActiveSection = () => {
   let current = sectionIds[0];
   for (let i = 0; i < sectionIds.length; i++) {
     let el = document.getElementById(sectionIds[i]);
