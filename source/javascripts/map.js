@@ -26,18 +26,49 @@
    */
   const createPinIcon = function() {
     const svg = `
-      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="41" viewBox="0 0 25 41">
-        <path fill="${CORPORATE_RED}" stroke="white" stroke-width="2"
-              d="M12.5 1C6.15 1 1 6.15 1 12.5c0 2.3.6 4.5 1.8 6.4L12.5 40l9.7-21.1c1.2-1.9 1.8-4.1 1.8-6.4C24 6.15 18.85 1 12.5 1z"/>
-        <circle fill="white" cx="12.5" cy="12.5" r="4"/>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="44">
+        <path fill="${CORPORATE_RED}" fill-rule="evenodd"
+          d="M12 1C7.03 1 3 5.03 3 10c0 6.75 9 13 9 13s9-6.25 9-13c0-4.97-4.03-9-9-9z
+            M12 6 a4 4 0 1 0 0.001 0z
+            M12 8.5 a1.5 1.5 0 1 0 0.001 0z"/>
       </svg>
     `;
+    return L.divIcon({ className: "", html: svg, iconSize: [36, 44], iconAnchor: [18, 44], popupAnchor: [0, -44] });
+  }
+
+  /**
+   * Create a cluster count icon
+   */
+  const createCountIcon = function(count) {
+    const size = count > 99
+      ? 44
+      : 36;
+    const html = `
+      <div style="
+        width:${size}px;
+        height:${size}px;
+        background:${CORPORATE_RED};
+        border-radius:50%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        font-family:sans-serif;
+        font-size:${count > 99
+    ? 13
+    : 15}px;
+        font-weight:700;
+        outline: 2px solid ${CORPORATE_RED};
+        outline-offset: 3px;
+      ">${count}</div>
+    `;
+
     return L.divIcon({
-      className: "custom-pin-marker",
-      html: svg,
-      iconSize: [25, 41],
-      iconAnchor: [12.5, 41],
-      popupAnchor: [0, -35]
+      className: "",
+      html,
+      iconSize: [size, size],
+      iconAnchor: [size / 2, size / 2],
+      popupAnchor: [0, -(size / 2 + 4)]
     });
   };
 
@@ -133,7 +164,7 @@
       return;
     }
 
-    const group = new L.featureGroup(markers);
+    const group = new L.FeatureGroup(markers);
     map.fitBounds(group.getBounds().pad(0.1));
   };
 
@@ -159,7 +190,7 @@
 
     // Refit bounds to show filtered markers
     if (filteredMarkers.length > 0) {
-      const group = new L.featureGroup(filteredMarkers);
+      const group = new L.FeatureGroup(filteredMarkers);
       map.fitBounds(group.getBounds().pad(0.1));
     }
   };
@@ -196,7 +227,6 @@
         handleTabChange(index);
       });
 
-      // Keyboard handler
       tab.addEventListener("keydown", function(e) {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -249,33 +279,19 @@
       zoomToBoundsOnClick: true,
       maxClusterRadius: 80,
       iconCreateFunction: function(cluster) {
-        const count = cluster.getChildCount();
-        let size = "small";
-        if (count >= 100) {size = "large";}
-        else if (count >= 10) {size = "medium";}
-
-        return L.divIcon({
-          html: `<div class="flex items-center justify-center w-10 h-10 bg-red-500 rounded-full text-white font-bold shadow-lg border-2 border-white">${count}</div>`,
-          className: `marker-cluster marker-cluster-${size}`,
-          iconSize: L.point(40, 40)
-        });
+        return createCountIcon(cluster.getChildCount());
       }
     });
 
-    // Create markers for all installations
     createMarkers(allInstallations);
 
-    // Add markers layer to map
     map.addLayer(markersLayer);
 
-    // Fit bounds to show all markers
     fitBounds();
 
-    // Set up filter listeners
     setupFilterListeners();
   };
 
-  // Initialize when DOM is ready
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
   } else {
