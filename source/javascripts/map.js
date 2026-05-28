@@ -174,7 +174,9 @@
    * Filter markers by type
    */
   const filterMarkers = function(type) {
-    if (!markersLayer) {return;}
+    if (!markersLayer) {
+      return;
+    }
 
     // Clear current markers
     markersLayer.clearLayers();
