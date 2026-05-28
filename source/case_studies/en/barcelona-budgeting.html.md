@@ -127,7 +127,7 @@ partners:
     name: Barcelona
   - logo: /uploads/decidim_bcn.svg
     name: decidim barcelona
-collaboration_text: This article has been written in collaboration with….
+collaboration_text: This article has been written in collaboration with Barcelona City Council.
 image: /uploads/54183562561_e832935b77_k-1-.jpg
 url: www.decidim.org
 ---
