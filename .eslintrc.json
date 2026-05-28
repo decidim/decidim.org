@@ -1,0 +1,19 @@
+{
+  "extends": "@decidim",
+  "rules": {
+    "func-style": "warn",
+    "valid-jsdoc": "off",
+    "require-jsdoc": "warn",
+    "no-use-before-define": "warn",
+    "id-length": "off",
+    "max-statements-per-line": "warn",
+    "no-invalid-this": "warn",
+    "new-cap": "warn",
+    "eqeqeq": "warn",
+    "no-unused-vars": "warn",
+    "no-shadow": "warn",
+    "no-plusplus": "off",
+    "no-negated-condition": "off",
+    "init-declarations": "off"
+  }
+}
