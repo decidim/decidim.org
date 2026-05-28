@@ -21,9 +21,7 @@
   // Corporate color
   const CORPORATE_RED = "#e11d1d";
 
-  /**
-   * Create a custom SVG pin marker icon
-   */
+  // Create custom SVG pin marker icon
   const createPinIcon = function() {
     const svg = `
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="44">
@@ -36,9 +34,7 @@
     return L.divIcon({ className: "", html: svg, iconSize: [36, 44], iconAnchor: [18, 44], popupAnchor: [0, -44] });
   }
 
-  /**
-   * Create a cluster count icon
-   */
+  // Create cluster count icon
   const createCountIcon = function(count) {
     const size = count > 99
       ? 44
@@ -72,19 +68,17 @@
     });
   };
 
-  /**
-   * Escape HTML to prevent XSS
-   */
+  // Escape HTML to prevent XSS
   const escapeHtml = function(text) {
-    if (!text) {return "";}
+    if (!text) {
+      return "";
+    }
     const div = document.createElement("div");
     div.textContent = text;
     return div.innerHTML;
   };
 
-  /**
-   * Create popup HTML content
-   */
+  // Create popup HTML content
   const createPopupContent = function(installation) {
     const typeLabels = {
       "city": "City",
@@ -123,9 +117,7 @@
     `;
   };
 
-  /**
-   * Create markers from installations data
-   */
+  // Create markers from installations data
   const createMarkers = function(installations) {
     markers = [];
 
@@ -154,9 +146,7 @@
     });
   };
 
-  /**
-   * Fit map bounds to show all markers
-   */
+  // Fit map bounds to show all markers
   const fitBounds = function() {
     if (markers.length === 0) {
       // Default view if no markers
@@ -168,11 +158,11 @@
     map.fitBounds(group.getBounds().pad(0.1));
   };
 
-  /**
-   * Filter markers by type
-   */
+  // Filter markers by type
   const filterMarkers = function(type) {
-    if (!markersLayer) {return;}
+    if (!markersLayer) {
+      return;
+    }
 
     // Clear current markers
     markersLayer.clearLayers();
@@ -195,9 +185,7 @@
     }
   };
 
-  /**
-   * Handle tab change
-   */
+  // Handle tab change
   const handleTabChange = function(index) {
     const typeMap = {
       0: "all",
@@ -211,13 +199,13 @@
     filterMarkers(type);
   };
 
-  /**
-   * Set up event listeners for tab filtering
-   */
+  // Set up event listeners for tab filtering
   const setupFilterListeners = function() {
     // Find the tab list
     const tabList = document.querySelector('[role="tablist"]');
-    if (!tabList) {return;}
+    if (!tabList) {
+      return;
+    }
 
     const tabs = tabList.querySelectorAll('[role="tab"]');
 
@@ -284,11 +272,8 @@
     });
 
     createMarkers(allInstallations);
-
     map.addLayer(markersLayer);
-
     fitBounds();
-
     setupFilterListeners();
   };
 
