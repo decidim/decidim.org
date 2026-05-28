@@ -16,12 +16,12 @@
  * </div>
  */
 
-function getTabId(node) {
+const getTabId = (node) => {
   const { dataset: { tabId, tabContent } = {}} = node || {}
   return tabId || tabContent
 }
 
-function setSelection({ parent, activeId }) {
+const setSelection = ({ parent, activeId }) => {
   const ids = parent.querySelectorAll("[data-tab-id]")
   const contents = parent.querySelectorAll("[data-tab-content]")
   const ACTIVE_CSS_CLASS = "is-selected"
@@ -42,7 +42,7 @@ function setSelection({ parent, activeId }) {
   })
 }
 
-function handleTabClick({ event: { target }, type }) {
+const handleTabClick = ({ event: { target }, type }) => {
   const parent = target.closest(`[data-tabs=${type}]`);
   const activeId = getTabId(target.closest("[data-tab-id]"));
 
@@ -51,18 +51,20 @@ function handleTabClick({ event: { target }, type }) {
   }
 }
 
-function handleTouch({ event: { target }, startX, endX, type }) {
+const handleTouch = ({ event: { target }, startX, endX, type }) => {
   const parent = target.closest(`[data-tabs=${type}]`);
   const activeId = getTabId(target.closest("[data-tab-id]") || target.closest("[data-tab-content]"));
   const slides = [...new Set(Array.from(parent.querySelectorAll("[data-tab-id]")).map(getTabId))]
 
-  if (!parent || !activeId || !slides.length) {return false}
+  if (!parent || !activeId || !slides.length) {
+    return false
+  }
 
   const i = slides.findIndex((x) => x === activeId)
-  const prev = slides[i == 0
+  const prev = slides[i === 0
     ? slides.length - 1
     : i - 1];
-  const next = slides[i == slides.length - 1
+  const next = slides[i === slides.length - 1
     ? 0
     : i + 1];
   return endX - startX < 0
@@ -70,7 +72,7 @@ function handleTouch({ event: { target }, startX, endX, type }) {
     : setSelection({ parent, activeId: prev });
 }
 
-function tabs() {
+const tabs = function() {
   const selectors = document.querySelectorAll("[data-tabs]")
   selectors.forEach((container) => {
     container.addEventListener("click", (event) => handleTabClick({ event, type: container.dataset.tabs }));
