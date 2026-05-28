@@ -10,20 +10,25 @@
  *    <div data-filter-target>...</div>
  *  </div>
  */
-function handleClick({ target }) {
-  const parent = target.closest(`[data-filter]`);
+const handleClick = ({ target }) => {
+  const parent = target.closest("[data-filter]");
   const { value } = target;
 
   if (parent) {
-    [...parent.querySelectorAll(`[data-filter-target]`)].map((x) =>
-      !x.textContent.match(new RegExp(value, "i")) ? x.setAttribute("hidden", true) : x.removeAttribute("hidden")
+    [...parent.querySelectorAll("[data-filter-target]")].map((x) =>
+      (!x.textContent.match(new RegExp(value, "i"))
+        ? x.setAttribute("hidden", true)
+        : x.removeAttribute("hidden"))
     );
   }
-}
+};
 
-function filterContent() {
+/**
+ * Initializes filter functionality by attaching input event listeners to all elements with [data-filter] attribute.
+ */
+const filterContent = () => {
   const selectors = document.querySelectorAll("[data-filter]");
-  selectors.forEach(container => container.addEventListener("input", handleClick));
-}
+  selectors.forEach((container) => container.addEventListener("input", handleClick));
+};
 
 filterContent();
