@@ -41,11 +41,11 @@ description:
         </div>
         <select id="reason" name="reason" required>
           <option value="" selected disabled><%= t("contact.reasons.selected") %></option>
-          <option value="installing"><%= t("contact.reasons.installing") %></option>
-          <option value="service_provider"><%= t("contact.reasons.service_provider") %></option>
-          <option value="community"><%= t("contact.reasons.community") %></option>
-          <option value="researcher"><%= t("contact.reasons.researcher") %></option>
-          <option value="other"><%= t("contact.reasons.other") %></option>
+          <option value="<%= t("contact.reasons.installing") %>"><%= t("contact.reasons.installing") %></option>
+          <option value="<%= t("contact.reasons.service_provider") %>"><%= t("contact.reasons.service_provider") %></option>
+          <option value="<%= t("contact.reasons.community") %>"><%= t("contact.reasons.community") %></option>
+          <option value="<%= t("contact.reasons.researcher") %>"><%= t("contact.reasons.researcher") %></option>
+          <option value="<%= t("contact.reasons.other") %>"><%= t("contact.reasons.other") %></option>
         </select>
       </div>
      <label for="message" class="form-input">
