@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "i18n/tasks"
+require "i18n/backend/fallbacks"
 
 RSpec.describe I18n do
   let(:locales) do
@@ -46,6 +47,7 @@ RSpec.describe I18n do
         de: [:en], hu: [:en], ja: [:en], "pt-BR": [:en], ro: [:en], fi: [:en]
       )
       described_class.default_locale = :en
+      described_class.backend.store_translations(:en, fallback_test: { missing_key: "English fallback value" })
     end
 
     after do
@@ -60,9 +62,9 @@ RSpec.describe I18n do
 
     it "falls back to English when the translation is missing in the current locale" do
       [:es, :eu, :ca, :cs, :fr, :de, :hu, :ja, :ro, :fi, :"pt-BR"].each do |locale|
-        expect(described_class.t("first-steps.section5.title", locale:))
-          .to eq(described_class.t("first-steps.section5.title", locale: :en)),
-              "Expected #{locale} to fall back to English for first-steps.section5.title"
+        expect(described_class.t("fallback_test.missing_key", locale:))
+          .to eq("English fallback value"),
+              "Expected #{locale} to fall back to English for a missing key"
       end
     end
   end
