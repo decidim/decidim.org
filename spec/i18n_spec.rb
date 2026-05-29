@@ -36,4 +36,30 @@ RSpec.describe I18n do
                     "Run `i18n-tasks check-consistent-interpolations' to show them"
     expect(inconsistent_interpolations).to be_empty, error_message
   end
+
+  context "with fallbacks enabled" do
+    before do
+      I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
+      I18n.backend.extend(I18n::Backend::Fallbacks)
+      I18n.fallbacks = I18n::Locale::Fallbacks.new(
+        es: [:en], eu: [:en], ca: [:en], cs: [:en], fr: [:en],
+        de: [:en], hu: [:en], ja: [:en], "pt-BR": [:en], ro: [:en], fi: [:en]
+      )
+      I18n.default_locale = :en
+    end
+
+    after { I18n.locale = :en }
+
+    it "returns the localised string when the translation exists in the current locale" do
+      expect(I18n.t("404.title", locale: :es)).not_to match(/translation missing/)
+    end
+
+    it "falls back to English when the translation is missing in the current locale" do
+      [:es, :eu, :ca, :cs, :fr, :de, :hu, :ja, :ro, :fi, :"pt-BR"].each do |locale|
+        expect(I18n.t("first-steps.section5.title", locale:))
+          .to eq(I18n.t("first-steps.section5.title", locale: :en)),
+              "Expected #{locale} to fall back to English for first-steps.section5.title"
+      end
+    end
+  end
 end
