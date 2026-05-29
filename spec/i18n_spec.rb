@@ -48,7 +48,11 @@ RSpec.describe I18n do
       described_class.default_locale = :en
     end
 
-    after { described_class.locale = :en }
+    after do
+      described_class.fallbacks = I18n::Locale::Fallbacks.new
+      described_class.default_locale = :en
+      described_class.locale = :en
+    end
 
     it "returns the localised string when the translation exists in the current locale" do
       expect(described_class.t("404.title", locale: :es)).not_to match(/translation missing/)
