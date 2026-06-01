@@ -40,20 +40,7 @@ RSpec.describe I18n do
 
   context "with fallbacks enabled" do
     before do
-      I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
-      described_class.backend.extend(I18n::Backend::Fallbacks)
-      described_class.fallbacks = I18n::Locale::Fallbacks.new(
-        es: [:en], eu: [:en], ca: [:en], cs: [:en], fr: [:en],
-        de: [:en], hu: [:en], ja: [:en], "pt-BR": [:en], ro: [:en], fi: [:en]
-      )
-      described_class.default_locale = :en
       described_class.backend.store_translations(:en, fallback_test: { missing_key: "English fallback value" })
-    end
-
-    after do
-      described_class.fallbacks = I18n::Locale::Fallbacks.new
-      described_class.default_locale = :en
-      described_class.locale = :en
     end
 
     it "returns the localised string when the translation exists in the current locale" do
