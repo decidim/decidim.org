@@ -22,19 +22,29 @@ description:
 <section>
   <div class="container md:pb-24 pb-10">
     <div class="flex flex-col md:flex-row justify-start items-stretch divide-y-2 md:divide-y-0 divide-gray-300 md:border-b-0 border-gray-300">
-      <% t("book.items").each do |item| %>
-        <div class="flex flex-col md:border-l pb-5 pt-10 border-gray-300 md:first:border-l-0 px-0 md:px-5 md:first:pl-0 md:py-0 w-full">
-          <div class="flex items-center space-x-2">
-            <%= icon item[:icon], class: "w-6 h-6" %>
-            <span class="font-semibold uppercase"><%= item[:title] %></span>
-          </div>
-          <ul class="par-md max-w-prose text-black pt-6 list-disc pl-5 space-y-2">
-            <% item[:text].each do |text| %>
-              <li><%= text %></li>
-            <% end %>
-          </ul>
+      <div class="flex flex-col md:border-l pb-5 pt-10 border-gray-300 md:first:border-l-0 px-0 md:px-5 md:first:pl-0 md:py-0 w-full">
+        <div class="flex items-center space-x-2">
+          <%= icon "ri-survey-line", class: "w-6 h-6" %>
+          <span class="font-semibold uppercase"><%= t("book.overview") %></span>
         </div>
-      <% end %>
+        <ul class="par-md max-w-prose text-black pt-6 list-disc pl-5 space-y-2">
+          <% t("book.text-overview").each do |text| %>
+            <li><%= text %></li>
+          <% end %>
+        </ul>
+      </div>
+      <div class="flex flex-col md:border-l pb-5 pt-10 border-gray-300 md:first:border-l-0 px-0 md:px-5 md:first:pl-0 md:py-0 w-full">
+        <div class="flex items-center space-x-2">
+          <%= icon "ri-user-3-line", class: "w-6 h-6" %>
+          <span class="font-semibold uppercase"><%= t("book.authors") %></span>
+        </div>
+        <ul class="par-md max-w-prose text-black pt-6 list-disc pl-5 space-y-2">
+          <li>Xabier E. Barandiaran.</li>
+          <li>Antonio Calleja-López.</li>
+          <li>Arnau Monterde.</li>
+          <li>Carol Romero.</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
