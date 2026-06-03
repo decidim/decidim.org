@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "fileutils"
+require "json"
+
+APP_ROOT = File.expand_path("..", __dir__)
+APP_NAME = "decidim-development-app"
+
+def system!(env = {}, *args)
+  if args.empty?
+    # env is actually the command
+    system(env, exception: true)
+  else
+    system(env, *args, exception: true)
+  end
+end
+
+FileUtils.chdir APP_ROOT do
+  # This script is a way to set up or update your development environment automatically.
+  # This script is idempotent, so that you can run it at any time and get an expectable outcome.
+  # Add necessary setup steps to this file.
+
+  puts "== Installing dependencies =="
+  system! "gem install bundler --conservative"
+  system("bundle check") || system!("bundle install")
+  system("npm install")
+
+  puts "\n== Preparing decidim.org middleman app =="
+  system!("bundle exec middleman server")
+end

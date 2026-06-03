@@ -26,8 +26,21 @@
 }
 
 [data-tabs="features"],
+[data-tabs="used_by"],
+[data-tabs="features-mobile"] {
+  [data-tab-id].is-selected {
+    @apply text-white bg-red-500;
+  }
+}
+
+[data-tabs="features-mobile"] {
+  [data-tab-id]:not(.is-selected) .tab-title {
+    @apply hidden;
+  }
+}
+
 [data-tabs="used_by"] {
   [data-tab-id].is-selected {
-    @apply text-red-500 after:bg-red-500;
+    @apply text-white bg-red-500;
   }
 }

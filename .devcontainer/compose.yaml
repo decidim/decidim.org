@@ -1,0 +1,12 @@
+name: "decidim-org"
+
+services:
+  middleman-app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+    - ../:/workspaces/decidim-org:cached
+    ports:
+      - "${DEVCONTAINER_APP_PORT:-4567}:4567"
+    command: sleep infinity

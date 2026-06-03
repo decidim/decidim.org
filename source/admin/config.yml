@@ -1,17 +1,3 @@
-# @see https://decapcms.org/docs/working-with-a-local-git-repository/
-#
-# For local development:
-#
-# 1. Uncomment these lines and comment the backend key
-# 2. Run `npx decap-server`
-# 3. Run `bundle exec middleman server`
-# 4. Open http://localhost:4567/admin/#/
-#
-# local_backend: true
-# backend:
-#   name: git-gateway
-
-# For production environment:
 backend:
   name: github
   repo: decidim/decidim.org
@@ -40,8 +26,8 @@ collections:
     folder: "source/blog/en"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}} -- {{year}}-{{month}}-{{day}}"
-    extension: "html.md"
-    format: "frontmatter"
+    extension: "md"
+    format: "yaml-frontmatter"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
@@ -66,7 +52,7 @@ collections:
       # In the meantime we use a string as a workaround
       - {label: "Joined at", name: "joined_at", widget: "string", default: "YYYY.MM.DD", required: true}
       - {label: "Type", name: "type", widget: "select", options: ["public", "provider", "other"], required: false}
-  - name: "Installation (usedby)"
+  - name: "installation"
     label: "Installation"
     format: yml
     extension: yml
@@ -78,7 +64,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: true}
       - {label: "Home Image", name: "home_image", widget: "image", required: false}
       - {label: "Type", name: "type", widget: "select", options: ["city", "org", "region", "university"], required: true}
-      - {label: "Priority", name: "priority", widget: "number", default: 50, valueType: "int", min: 1, max: 101, step: 2, hint: Larger number is more priority (100 is Barcelona), required: true}
+      - {label: "Priority", name: "priority", widget: "number", default: 50, value_type: "int", min: 1, max: 101, step: 2, hint: Larger number is more priority (100 is Barcelona), required: true}
       - {label: "Home", name: "home", widget: "boolean", hint: "Is it going to be published on homepage?", required: false}
       - {label: "Location", name: "location", widget: "map", type: "Point", hint: "Geographical location for this installation", required: false}
   - name: "Module"
@@ -93,7 +79,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "text", required: true}
       - {label: "Type", name: "type", widget: "select", options: ["official", "community", "auth"], required: true}
-  - name: "Media highlights"
+  - name: "media-highlights"
     label: "Media highlights"
     format: yml
     extension: yml

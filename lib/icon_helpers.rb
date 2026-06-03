@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Helper methods for rendering SVG icons and images.
 module IconHelpers
   def icon(id, args = {})
     if list_icons.include?(id)

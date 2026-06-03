@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Helper methods for working with Middleman data structures.
 module DataHelpers
   # Extract the data files that has a given key
   # Used for filtering the installations by type

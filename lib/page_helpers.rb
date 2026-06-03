@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Helper methods for page-related checks and alerts.
 module PageHelpers
   # Check if we're in the homepage
   #

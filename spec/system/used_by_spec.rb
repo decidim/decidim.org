@@ -7,8 +7,11 @@ RSpec.describe "used by", type: :feature do
     visit "/usedby"
   end
 
-  it "has the correct title header" do
+  it "has the correct h1 element" do
     expect(page).to have_css "h1"
+  end
+
+  it "displays the correct title header content" do
     within "h1" do
       expect(page).to have_content(/Decidim in use/i)
     end

@@ -3,7 +3,7 @@
 require "page_helpers"
 
 RSpec.describe PageHelpers do
-  include PageHelpers
+  include described_class
 
   let(:locales) { [:en, :ca] }
 

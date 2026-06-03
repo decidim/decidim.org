@@ -9,6 +9,7 @@ module.exports = {
         900: "#c20a0a",
       },
       gray: {
+        50:  "#fafafa",
         100: "#f5f5f5",
         300: "#d4d4d4",
         500: "#656565",
@@ -22,7 +23,7 @@ module.exports = {
       padding: {
         DEFAULT: "1.5rem",
         md: "4rem",
-        xl: "8rem",
+        xl: "10.625rem",
       },
     },
     fontFamily: {

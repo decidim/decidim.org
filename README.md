@@ -16,10 +16,16 @@ You can access to the development web with http://localhost:4567/
 
 ## Installation (with docker)
 
-You can set it up with [Docker](https://www.docker.com/) and [docker-compose](https://docs.docker.com/compose/).
+You can set it up with [Devcontainers](https://containers.dev/). We provide a wrapper for Devcontainer CLI to make the Developer Experience better.
 
 ```bash
-docker-compose up
+bin/devcontainer rebuild
+```
+
+Then whenever you want to start the server, you can do it with
+
+```bash
+bin/devcontainer bundle exec middleman s
 ```
 
 You can access to the development web with http://localhost:4567/

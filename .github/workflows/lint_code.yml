@@ -10,10 +10,10 @@ on:
 env:
   CI: "true"
   RUBY_VERSION: 3.1.2
-  NODE_VERSION: 16.9.1
+  NODE_VERSION: 22.14.0
 
 concurrency:
-  group: ${{ github.head_ref || github.ref_name }} 
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
   cancel-in-progress: true
 
 jobs:
