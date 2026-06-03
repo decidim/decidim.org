@@ -1,10 +1,10 @@
 ---
-title: 'Brazil’s Participatory  Plurianual Plan: embedding citizen participation in federal strategic planning'
+title: 'Brazils Participatory Plurianual Plan: embedding citizen participation in federal strategic planning'
 subtitle: A strategic planning process that led to the launch of the Brasil Participativo platform
 website: https://brasilparticipativo.presidencia.gov.br/
 website_link_text: Brasil Participativo
 gallery:
-  - image: /uploads/banner-bp.png
+  - image: /uploads/brazil_participativo_case_study.svg
     alt: ''
 type: Strategic Planning
 target: Brazilian citizens, public representatives, civil society organisations (NGOs), social movements, social programs beneficiaries
