@@ -9,7 +9,10 @@
  * </div>
  */
 
-function accordion() {
+/**
+ * Initialize accordion behavior for all [data-accordion] containers.
+ */
+const accordion = function () {
   const selectors = document.querySelectorAll("[data-accordion]");
   selectors.forEach((container) => {
     const details = Array.from(container.querySelectorAll("details"));
@@ -25,6 +28,6 @@ function accordion() {
       );
     }
   });
-}
+};
 
-accordion()
+accordion();
