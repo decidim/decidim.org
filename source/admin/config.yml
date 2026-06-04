@@ -1,3 +1,10 @@
+## In order to access the Sevilta CMS for local development, you need to run alongside the middleman server:
+##
+## npx netlify-cms-proxy-server
+##
+## Access to the CMS admin area is avaliable via http://localhost:4567/admin
+## Note: Access to the admin area is restricited only to the Google Chrome browser.
+
 local_backend: true
 
 backend:
