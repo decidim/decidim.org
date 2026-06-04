@@ -1,0 +1,3 @@
+[build]
+  command = "find source/case_studies/en -name '*.md' ! -name '*.html.md' -exec sh -c 'mv \"$1\" \"${1%.md}.html.md\"' _ {} \\; && middleman build --verbose"
+  publish = "build"
