@@ -25,6 +25,16 @@ activate :i18n, mount_at_root: :en, langs: [:en, :es, :eu, :ca, :cs, :fr, :de, :
 
 activate :directory_indexes
 
+# Fallback to en when strings are missing in other locales
+ready do
+  I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
+  I18n.backend.extend(I18n::Backend::Fallbacks)
+  I18n.fallbacks = I18n::Locale::Fallbacks.new(
+    es: [:en], eu: [:en], ca: [:en], cs: [:en], fr: [:en],
+    de: [:en], hu: [:en], ja: [:en], "pt-BR": [:en], ro: [:en], fi: [:en]
+  )
+end
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload

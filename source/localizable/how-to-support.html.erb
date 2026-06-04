@@ -1,0 +1,35 @@
+---
+nav: how-to-support
+description:
+---
+
+<section>
+  <div class="container pt-10 pb-10 md:pt-16 md:pb-16">
+    <%= partial "partials/arrow-link", locals: { text: t("supporters.how_to_support.back_to_supporters"), url: "#{t(:path)}/supporters", reverse: true, icon_classes: "w-5 h-5" } %>
+    <div class="max-w-[791px]">
+      <h2 class="h2 pt-6">
+        <%= t("supporters.how_to_support.title") %>
+      </h2>
+      <div class="par-md text-black pt-6 md:pt-8">
+        <%= t("supporters.how_to_support.intro") %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container md:pb-24 pb-10">
+    <div class="max-w-[791px] space-y-10">
+      <% ["step1", "step2", "step3", "step4"].each do |step| %>
+        <div>
+          <h3 class="h3 pb-3">
+            <%= t("supporters.how_to_support.#{step}.title") %>
+          </h3>
+          <p class="par-md text-black">
+            <%= t("supporters.how_to_support.#{step}.body") %>
+          </p>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
