@@ -471,14 +471,15 @@ ja:
     features: 機能
     first-steps: 最初のステップ
     home: Home
+    how-to-support: How to support Decidim
     installations: Installations
     legal-notice: 法的情報開示
     menu: メニュー
     modules: モジュール
-    partners: パートナー
     partnership-policy: パートナーシップポリシー
     press: プレス
     privacy-policy: プライバシーポリシー
+    supporters: Supporters
     text: Navigation
     thanks: お問い合わせありがとうございます
     trademark: 商標ポリシー
@@ -489,15 +490,6 @@ ja:
     past: 過去のニュースレター
     subtitle: Decidimプラットフォームとコミュニティに関するニュースや最新情報をお届けします。
     title: ニュースレター
-  partners:
-    intro: パートナーのロゴは、それぞれの著作権者の知的財産です。 それらはサイト内の他のコンテンツのライセンスである <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA ライセンス</a> に該当するものではありません。
-    link: Decidimのパートナーシップポリシーを参照してください
-    subtitle: これらのグループや組織は Decidim と協力します。
-    title: パートナー
-    type:
-      other: その他
-      provider: サービスプロバイダー
-      public: 公共機関
   partnership-policy:
     explanation:
       p1: Decidimを維持するには、時間とリソースが必要です。貢献のレビュー、問題のトリアージ、バグの修正、ドキュメントの作成、およびコミュニティによって共有される一般的な疑問に答えることなど、様々なタスクを扱う必要があります。Decidimパートナーになることを望む組織（企業、協会、団体）は、Decidimでの活動によって発生する年間収入のうち3％の料金を、Decidim Associationに貢献することを約束します。非営利団体の場合は、1.5％となります。
@@ -570,6 +562,34 @@ ja:
       paragraph: "<p>私たちは、本プライバシーポリシーを変更する権利を留保し、変更後の内容を電子メールまたは当社ウェブサイト、本プライバシーポリシーで明確に通知します。このような更新の後、あなたが私たちのサービスの利用を継続される場合、あなたは新しいポリシーを受け入れたものとみなされます。あなたが更新を受け入れない場合、あなたのアカウントを終了させるか、または私たちに通知してください。私たちはあなたのアカウントを終了させ、あなたの個人データをすべて削除し (法的目的のために維持する必要がある場合を除きます)、あなたは私たちのサービスを継続して使用することができなくなります。</p> <p>特定の地域の規則が反対のことを定めていない限り、プライバシーポリシーはスペインの法律が適用されます。</p> <p><b>最終更新日</b>: February 2022.</p>"
       title: 一般
     title: プライバシーポリシー
+  supporters:
+    collaborators: Collaborators
+    how_to_support:
+      back_to_supporters: Back to supporters
+      intro: The main responsibility of the Association is the maintenance of the source code, so all organizations using Decidim depend on this work. The code needs maintenance, just like any other type of physical infrastructure. If no one were to take care of this task, Decidim's technology would become obsolete and unusable. For this reason, the work of the Association is in the public interest, as many administrations and public institutions benefit directly from it. With that said, there are different ways to collaborate with the Association. We are defining a ladder of collaboration that goes from less to more. The goal is to propose a progressive path of collaboration between public organizations and the Decidim Association.
+      step1:
+        body: The public administration can take part in Community Events, such as Decidim Fest. Explaining their experience using Decidim. This collaboration step is the low-hanging fruit of the ladder.
+        title: 'Participate in community events:'
+      step2:
+        body: The public administration can finance the development of a specific feature that is on Decidim's roadmap and is also a priority for the public administration. The government could pay for the development of this improvement or new feature, which would then be integrated into the core of Decidim. In this case, the Association would also have to be paid for the hours spent on coordination, product definition, and code review.
+        title: 'Funding a roadmap feature:'
+      step3:
+        body: The government and the Association can put in place a Memorandum of Understanding, with the main goal to collaborate in the use and extension of Decidim, and specially in its maintenance and sustainability. Signing an MoU would give the government the right to be part of the Decidim Public Institutions Committee. You can see the MoU signed with Brazil.
+        title: 'Sign an MoU with the Association:'
+      step4:
+        body: 'As an example, the Barcelona City Council and the Government of Catalonia make an annual transfer of financial resources to the Association, in order to fund core activities of the Association. Such as: Source code maintenance, the release of new Decidim versions, community events, or other core activities related to the main mission of the Association.'
+        title: 'Funding Association core activities:'
+      title: How governments can partner with us?
+    intro: The logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
+    link: How can governments partner with us?
+    main_funders: Main Funders
+    subtitle: Thanks to the support of various organisations that back our work, Decidim is a sustainable project
+    supporters: Supporters
+    title: Our Supporters
+    type:
+      collaborators: 'These are the governments with which we have a Memorandum of Understanding:'
+      public: These are the public institutions we collaborate with and that fund our work.
+      supporters: 'Other organizations that trust us and from which we have received funding:'
   testimonials:
     n1:
       org: バルセロナ シティホール (2015-2019)
