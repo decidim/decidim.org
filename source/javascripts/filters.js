@@ -14,11 +14,12 @@
  * Use id="cs-pagination" for the pagination container.
  * Use id="cs-no-results" for the empty-state message.
  */
-(function () {
+const caseStudyFilter = () => {
   let CARDS_PER_PAGE = 6;
 
   let grid = document.getElementById("cs-grid");
-  if (!grid) return;
+  if (!grid)
+  {return;}
 
   let searchInput   = document.querySelector("[data-cs-search]");
   let filterToggle  = document.querySelector("[data-cs-filter-toggle]");
@@ -38,18 +39,29 @@
   let panelOpen = false;
 
   // Unique sorted values
-  function uniqueSorted(attribute) {
-    let seen = {}, vals = [];
+  const uniqueSorted = (attribute) => {
+    let seen = {},
+        vals = [];
     allCards.forEach(function (card) {
       let v = card.dataset[attribute];
-      if (v && !seen[v]) { seen[v] = true; vals.push(v); }
+      if (v && !seen[v]) {
+        seen[v] = true;
+        vals.push(v);
+      }
     });
     return vals.sort();
   }
 
+  const onFilterChange = () => {
+    currentPage = 1;
+    render();
+  }
+
   // Build checkboxes
-  function buildCheckboxes(container, values, activeMap) {
-    if (!container) return;
+  const buildCheckboxes = (container, values, activeMap) => {
+    if (!container) {
+      return;
+    }
     container.innerHTML = "";
     values.forEach(function (val) {
       let label = document.createElement("label");
@@ -58,11 +70,14 @@
       let cb = document.createElement("input");
       cb.type = "checkbox";
       cb.value = val;
-      cb.checked = !!activeMap[val];
+      cb.checked = Boolean(activeMap[val]);
       cb.className = "rounded border-gray-300 text-red-500 focus:ring-red-400 w-4 h-4 cursor-pointer";
       cb.addEventListener("change", function () {
-        if (this.checked) { activeMap[val] = true; }
-        else { delete activeMap[val]; }
+        if (this.checked) {
+          activeMap[val] = true; }
+        else {
+          Reflect.deleteProperty(activeMap, val);
+        }
         onFilterChange();
       });
 
@@ -76,10 +91,14 @@
   buildCheckboxes(countryContainer, uniqueSorted("country"), activeCountries);
 
   // Dropdown open / close
-  function setPanel(open) {
+  const setPanel = (open) => {
     panelOpen = open;
-    if (filterPanel) filterPanel.classList.toggle("hidden", !open);
-    if (filterArrow) filterArrow.style.transform = open ? "rotate(180deg)" : "";
+    if (filterPanel) {
+      filterPanel.classList.toggle("hidden", !open);}
+    if (filterArrow) {
+      filterArrow.style.transform = open
+        ? "rotate(180deg)"
+        : "";}
   }
 
   if (filterToggle) {
@@ -101,103 +120,155 @@
     clearBtn.addEventListener("click", function () {
       activeTypes = {};
       activeCountries = {};
-      if (searchInput) searchInput.value = "";
+      if (searchInput) {
+        searchInput.value = "";
+      }
       // Uncheck all boxes
       [typeContainer, countryContainer].forEach(function (c) {
-        if (c) c.querySelectorAll("input").forEach(function (cb) { cb.checked = false; });
+        if (c) {
+          c.querySelectorAll("input").forEach(function (cb) {
+            cb.checked = false; });}
       });
       onFilterChange();
     });
   }
 
   // Filtering
-  function getFilteredCards() {
-    let search      = searchInput ? searchInput.value.toLowerCase().trim() : "";
+  const getFilteredCards = () => {
+    let search      = searchInput
+      ? searchInput.value.toLowerCase().trim()
+      : "";
     let typesActive = Object.keys(activeTypes).length > 0;
     let countriesActive = Object.keys(activeCountries).length > 0;
 
     return allCards.filter(function (card) {
-      if (typesActive    && !activeTypes[card.dataset.type])        return false;
-      if (countriesActive && !activeCountries[card.dataset.country]) return false;
-      if (search && card.textContent.toLowerCase().indexOf(search) === -1) return false;
+      if (typesActive    && !activeTypes[card.dataset.type])        {
+        return false;
+      }
+      if (countriesActive && !activeCountries[card.dataset.country]) {
+        return false;
+      }
+      if (search && card.textContent.toLowerCase().indexOf(search) === -1) {
+        return false;
+      }
       return true;
     });
   }
 
-  function updateBadgeAndClear() {
+  const updateBadgeAndClear = () => {
     let count = Object.keys(activeTypes).length + Object.keys(activeCountries).length;
     if (filterBadge) {
       filterBadge.textContent = count;
       filterBadge.classList.toggle("hidden", count === 0);
     }
-    if (clearBtn) clearBtn.classList.toggle("hidden", count === 0);
+    if (clearBtn) {
+      clearBtn.classList.toggle("hidden", count === 0);
+    }
   }
 
   // Pagination
-  function renderPagination(totalPages) {
-    if (!paginationEl) return;
+  const renderPagination = (totalPages) => {
+    if (!paginationEl) {
+      return;}
     paginationEl.innerHTML = "";
-    if (totalPages <= 1) { paginationEl.classList.add("hidden"); return; }
+    if (totalPages <= 1) {
+      paginationEl.classList.add("hidden");
+      return;
+    }
     paginationEl.classList.remove("hidden");
 
     let base     = "px-4 py-2 rounded-lg par-sm font-medium border transition-colors";
-    let active   = base + " bg-red-500 text-white border-red-500";
-    let inactive = base + " bg-white text-gray-700 border-gray-300 hover:bg-gray-50";
-    let disabled = base + " bg-white text-gray-300 border-gray-200 cursor-not-allowed";
+    let active   = `${base} bg-red-500 text-white border-red-500`;
+    let inactive = `${base} bg-white text-gray-700 border-gray-300 hover:bg-gray-50`;
+    let disabled = `${base} bg-white text-gray-300 border-gray-200 cursor-not-allowed`;
 
-    function btn(label, ariaLabel, onClick, cls) {
+    const btn = (label, ariaLabel, onClick, cls) => {
       let b = document.createElement("button");
       b.textContent = label;
       b.setAttribute("aria-label", ariaLabel);
       b.className = cls;
-      if (onClick) b.addEventListener("click", onClick); else b.disabled = true;
+      if (onClick) {
+        b.addEventListener("click", onClick);
+      } else {
+        b.disabled = true;
+      }
       paginationEl.appendChild(b);
     }
 
     btn("←", "Previous page",
-      currentPage > 1 ? function () { currentPage--; render(); scrollToGrid(); } : null,
-      currentPage === 1 ? disabled : inactive);
+      currentPage > 1
+        ? function () {
+          currentPage--;
+          render(); scrollToGrid(); }
+        : null,
+      currentPage === 1
+        ? disabled
+        : inactive);
 
-    for (let i = 1; i <= totalPages; i++) {
-      (function (p) {
-        btn(p, "Page " + p,
-          p !== currentPage ? function () { currentPage = p; render(); scrollToGrid(); } : null,
-          p === currentPage ? active : inactive);
-      })(i);
+    const pageWindow = new Set([1, totalPages]);
+    for (let i = Math.max(1, currentPage - 2); i <= Math.min(totalPages, currentPage + 2); i++) {
+      pageWindow.add(i);
     }
+    let prev = 0;
+    Array.from(pageWindow).sort((a, b) => a - b).forEach(function (p) {
+      if (p - prev > 1) {
+        let ellipsis = document.createElement("span");
+        ellipsis.textContent = "…";
+        ellipsis.className = `${base} border-transparent text-gray-400 cursor-default`;
+        paginationEl.appendChild(ellipsis);
+      }
+      btn(p, `Page ${p}`,
+        p !== currentPage
+          ? function () { currentPage = p; render(); scrollToGrid(); }
+          : null,
+        p === currentPage ? active : inactive);
+      prev = p;
+    });
 
     btn("→", "Next page",
-      currentPage < totalPages ? function () { currentPage++; render(); scrollToGrid(); } : null,
-      currentPage === totalPages ? disabled : inactive);
+      currentPage < totalPages
+        ? function () {
+          currentPage++;
+          render(); scrollToGrid(); }
+        : null,
+      currentPage === totalPages
+        ? disabled
+        : inactive);
   }
 
   // Render
-  function render() {
+  const render = () => {
     let filtered   = getFilteredCards();
     let totalPages = Math.max(1, Math.ceil(filtered.length / CARDS_PER_PAGE));
-    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage > totalPages) {
+      currentPage = totalPages;
+    }
 
     let start = (currentPage - 1) * CARDS_PER_PAGE;
     let end   = start + CARDS_PER_PAGE;
 
-    allCards.forEach(function (card) { card.hidden = true; });
-    filtered.slice(start, end).forEach(function (card) { card.hidden = false; });
+    allCards.forEach(function (card) {
+      card.hidden = true;
+    });
+    filtered.slice(start, end).forEach(function (card) {
+      card.hidden = false;
+    });
 
-    if (noResultsEl) noResultsEl.classList.toggle("hidden", filtered.length > 0);
+    if (noResultsEl) {
+      noResultsEl.classList.toggle("hidden", filtered.length > 0);
+    }
     updateBadgeAndClear();
     renderPagination(totalPages);
   }
 
-  function scrollToGrid() {
+  const scrollToGrid = () => {
     grid.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
-  function onFilterChange() {
-    currentPage = 1;
-    render();
-  }
-
-  if (searchInput) searchInput.addEventListener("input", onFilterChange);
+  if (searchInput) {
+    searchInput.addEventListener("input", onFilterChange);}
 
   render();
-})();
+};
+
+caseStudyFilter();
