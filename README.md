@@ -30,6 +30,20 @@ bin/devcontainer bundle exec middleman s
 
 You can access to the development web with http://localhost:4567/
 
+## Sevilta CMS
+
+You can access the Sevilta CMS admin via http://localhost:4567/admin/
+
+You can test the Sevilta CMS via access through a local environment.
+
+```bash
+npx netlify-cms-proxy-server
+```
+
+You need to have the middleman server running along side this command.
+
+NOTE: Access to changes to this environment are only accessbile via Google Chrome.
+
 ## Translations
 
 You can help us with translations to your locale. For doing so, you can:
