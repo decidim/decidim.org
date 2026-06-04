@@ -471,14 +471,15 @@ fr:
     features: Fonctionnalités
     first-steps: Premiers pas
     home: Accueil
+    how-to-support: How to support Decidim
     installations: Installations
     legal-notice: Mentions légales
     menu: Menu
     modules: Modules
-    partners: Partenaires
     partnership-policy: Politique de partenariat
     press: Presse
     privacy-policy: Politique de confidentialité
+    supporters: Supporters
     text: Navigation
     thanks: Merci pour votre e-mail
     trademark: Politique de marque commerciale
@@ -489,15 +490,6 @@ fr:
     past: Newsletters passées
     subtitle: Actualités et nouveautés sur la plateforme Decidim et sa communauté.
     title: Bulletin d'information (newsletter)
-  partners:
-    intro: Les logos des partenaires sont la propriété intellectuelle de leurs détenteurs respectifs de droits d'auteur. Ils ne tombent pas sous la licence <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA</a> sous laquelle le reste du contenu du site est licencié.
-    link: Voir la politique de partenariat de Decidim
-    subtitle: Ces entités et organisations collaborent avec Decidim.
-    title: Partenaires
-    type:
-      other: Autres
-      provider: Prestataires de service
-      public: Institutions publiques
   partnership-policy:
     explanation:
       p1: La maintenance de Decidim demande du temps et des ressources. Plusieurs tâches doivent être gérées, telles que l'examen des contributions, le triage des issues Github, la correction des bugs, la rédaction de la documentation et la réponse aux doutes partagés par la communauté. Toute organisation (entreprise, association, ou collectif) ayant la volonté de devenir partenaire de Decidim s'engage à contribuer à l'Association Decidim à hauteur de 3 % du revenu annuel généré par les activités de Decidim. Dans le cas des organisations sans but lucratif, ces frais sont de 1,5 %.
@@ -570,6 +562,34 @@ fr:
       paragraph: "<p>Nous nous réservons le droit de modifier les conditions de cette politique de confidentialité et nous vous en informerons en fournissant un avis clair de ces modifications par e-mail ou sur notre site Web, et dans cette politique de confidentialité. Si vous continuez à utiliser nos services après cette mise à jour, vous serez supposé accepter les nouvelles conditions. Si vous n'acceptez pas la mise à jour, veuillez résilier votre compte ou nous en aviser et nous clôturerons votre compte et supprimerons vos données personnelles (sauf si elles doivent être conservées à des fins légales), et vous ne pourrez pas continuer à utiliser nos services. </p> <p>Sauf disposition contraire d'un règlement local spécifique, la Politique de Confidentialité est régie par les lois espagnoles.</p> <p><b>Dernière mise à jour</b>: février 2022.</p>"
       title: Général
     title: Politique de confidentialité
+  supporters:
+    collaborators: Collaborators
+    how_to_support:
+      back_to_supporters: Back to supporters
+      intro: The main responsibility of the Association is the maintenance of the source code, so all organizations using Decidim depend on this work. The code needs maintenance, just like any other type of physical infrastructure. If no one were to take care of this task, Decidim's technology would become obsolete and unusable. For this reason, the work of the Association is in the public interest, as many administrations and public institutions benefit directly from it. With that said, there are different ways to collaborate with the Association. We are defining a ladder of collaboration that goes from less to more. The goal is to propose a progressive path of collaboration between public organizations and the Decidim Association.
+      step1:
+        body: The public administration can take part in Community Events, such as Decidim Fest. Explaining their experience using Decidim. This collaboration step is the low-hanging fruit of the ladder.
+        title: 'Participate in community events:'
+      step2:
+        body: The public administration can finance the development of a specific feature that is on Decidim's roadmap and is also a priority for the public administration. The government could pay for the development of this improvement or new feature, which would then be integrated into the core of Decidim. In this case, the Association would also have to be paid for the hours spent on coordination, product definition, and code review.
+        title: 'Funding a roadmap feature:'
+      step3:
+        body: The government and the Association can put in place a Memorandum of Understanding, with the main goal to collaborate in the use and extension of Decidim, and specially in its maintenance and sustainability. Signing an MoU would give the government the right to be part of the Decidim Public Institutions Committee. You can see the MoU signed with Brazil.
+        title: 'Sign an MoU with the Association:'
+      step4:
+        body: 'As an example, the Barcelona City Council and the Government of Catalonia make an annual transfer of financial resources to the Association, in order to fund core activities of the Association. Such as: Source code maintenance, the release of new Decidim versions, community events, or other core activities related to the main mission of the Association.'
+        title: 'Funding Association core activities:'
+      title: How governments can partner with us?
+    intro: The logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
+    link: How can governments partner with us?
+    main_funders: Main Funders
+    subtitle: Thanks to the support of various organisations that back our work, Decidim is a sustainable project
+    supporters: Supporters
+    title: Our Supporters
+    type:
+      collaborators: 'These are the governments with which we have a Memorandum of Understanding:'
+      public: These are the public institutions we collaborate with and that fund our work.
+      supporters: 'Other organizations that trust us and from which we have received funding:'
   testimonials:
     n1:
       org: Hôtel de Ville de Barcelone (2015-2019)
