@@ -471,14 +471,15 @@ cs:
     features: Vlastnosti
     first-steps: První kroky
     home: Úvod
+    how-to-support: How to support Decidim
     installations: Instalace
     legal-notice: Právní ustanovení
     menu: Nabídka
     modules: Moduly
-    partners: Partneři
     partnership-policy: Partnerský program
     press: Pro média
     privacy-policy: Zásady ochrany soukromí
+    supporters: Supporters
     text: Navigace
     thanks: Děkujeme za váš e-mail
     trademark: Zásady používání ochranných známek
@@ -489,15 +490,6 @@ cs:
     past: Minulé zpravodaje
     subtitle: Novinky a aktualizace o platformě Decidim a komunitě.
     title: Zpravodaj
-  partners:
-    intro: Loga spolupracujících subjektů jsou duševním vlastnictvím příslušných držitelů autorských práv. Nespadají pod licenci <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA</a>, kterou je ošetřen zbytek obsahu webu.
-    link: Podívejte se na zásady partnerství Decidim
-    subtitle: Tyto subjekty a organizace se společností Decidim spolupracují.
-    title: Partneři
-    type:
-      other: Ostatní
-      provider: Poskytovatelé služeb
-      public: Veřejné instituce
   partnership-policy:
     explanation:
       p1: Udržování Decidimu vyžaduje čas a zdroje. Je třeba zvládnout několik úkolů, jako je přezkoumání příspěvků, řešení problémů, oprava chyb, psaní dokumentace a zodpovídání obecných pochybností, které komunita sdílí. Každá organizace (podnik, sdružení nebo kolektiv), která se chce stát partnerem Decidimu, se zavazuje přispívat sdružení Decidim sníženým poplatkem ve výši 3 % ročního příjmu z činnosti Decidimu. V případě neziskových organizací činí tento poplatek 1,5 %.
@@ -570,6 +562,34 @@ cs:
       paragraph: "<p>Vyhrazujeme si právo změnit podmínky těchto Zásad ochrany osobních údajů a upozorníme vás jasným oznámením o těchto změnách e-mailem nebo na našich webových stránkách a v těchto Zásadách ochrany osobních údajů. Pokud budete po takové aktualizaci nadále používat naše služby, bude to považováno za přijetí nových podmínek. Pokud aktualizaci nepřijmete, ukončete prosím svůj účet nebo nám to oznamte a my ukončíme váš účet a odstraníme jakékoli vaše osobní údaje (kromě případů, kdy je to nutné pro zákonné účely), a nebudete moci nadále používat naše služby. </p> <p>Pokud konkrétní místní nařízení nestanoví jinak, zásady ochrany osobních údajů se řídí zákony Španělska.</p> <p><b>Poslední aktualizace</b>: únor 2022.</p>"
       title: Obecná ustanovení
     title: Zásady ochrany soukromí
+  supporters:
+    collaborators: Collaborators
+    how_to_support:
+      back_to_supporters: Back to supporters
+      intro: The main responsibility of the Association is the maintenance of the source code, so all organizations using Decidim depend on this work. The code needs maintenance, just like any other type of physical infrastructure. If no one were to take care of this task, Decidim's technology would become obsolete and unusable. For this reason, the work of the Association is in the public interest, as many administrations and public institutions benefit directly from it. With that said, there are different ways to collaborate with the Association. We are defining a ladder of collaboration that goes from less to more. The goal is to propose a progressive path of collaboration between public organizations and the Decidim Association.
+      step1:
+        body: The public administration can take part in Community Events, such as Decidim Fest. Explaining their experience using Decidim. This collaboration step is the low-hanging fruit of the ladder.
+        title: 'Participate in community events:'
+      step2:
+        body: The public administration can finance the development of a specific feature that is on Decidim's roadmap and is also a priority for the public administration. The government could pay for the development of this improvement or new feature, which would then be integrated into the core of Decidim. In this case, the Association would also have to be paid for the hours spent on coordination, product definition, and code review.
+        title: 'Funding a roadmap feature:'
+      step3:
+        body: The government and the Association can put in place a Memorandum of Understanding, with the main goal to collaborate in the use and extension of Decidim, and specially in its maintenance and sustainability. Signing an MoU would give the government the right to be part of the Decidim Public Institutions Committee. You can see the MoU signed with Brazil.
+        title: 'Sign an MoU with the Association:'
+      step4:
+        body: 'As an example, the Barcelona City Council and the Government of Catalonia make an annual transfer of financial resources to the Association, in order to fund core activities of the Association. Such as: Source code maintenance, the release of new Decidim versions, community events, or other core activities related to the main mission of the Association.'
+        title: 'Funding Association core activities:'
+      title: How governments can partner with us?
+    intro: The logos are intellectual property of their respective copyright holders. They do not fall under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons By-SA license</a> the rest of the site's contents are licensed with.
+    link: How can governments partner with us?
+    main_funders: Main Funders
+    subtitle: Thanks to the support of various organisations that back our work, Decidim is a sustainable project
+    supporters: Supporters
+    title: Our Supporters
+    type:
+      collaborators: 'These are the governments with which we have a Memorandum of Understanding:'
+      public: These are the public institutions we collaborate with and that fund our work.
+      supporters: 'Other organizations that trust us and from which we have received funding:'
   testimonials:
     n1:
       org: Barcelonská radnice (2015–2019)
