@@ -35,8 +35,6 @@ collections:
         hint: "Add each component as a separate item"
         field: {label: "Component", name: "component", widget: "string"}
       - {label: "Country", name: "country", widget: "select", options: ["Brazil", "Catalonia", "Europe", "Finland", "Japan"], required: true}
-      - {label: "Process title", name: "process_title", widget: "string", required: false}
-      - {label: "Process subtitle", name: "process_subtitle", widget: "string", required: false}
       - label: "Results section title"
         name: "results_title"
         widget: "string"
@@ -87,6 +85,8 @@ collections:
       - {label: "Results conclusion", name: "results_conclusion", widget: "markdown", required: false}
       - {label: "Description Title", name: "description_title", widget: "string", required: true}
       - {label: "Description", name: "description", widget: "markdown", required: true}
+      - {label: "Process title", name: "process_title", widget: "string", required: false}
+      - {label: "Process subtitle", name: "process_subtitle", widget: "string", required: false}
       - label: "Phases"
         name: "phases"
         widget: list
