@@ -41,13 +41,10 @@ eu:
   case_study:
     n1:
       org: Helsinkiko hiria
-      quote: Aurrekontu parte-hartzaileen zazpi aukera mota aztertu genituen Helsinkiren prozesua babesteko plataforma egokia aurkitzeko interfaze erabilerraz batekin eta modularitatea behar desberdinetarako. Decidim-ek ebaluazioa irabazi zuen eta 2018an lehen instantziak eraiki ziren.
     n2:
-      org: Japoniarentzako kodea
-      quote: Decidim-ek neurrira egindako arkitektura eskaintzen du, gure etxeko egoerara egokitu ahal izateko.
+      org: Participatory Budget 2020-2023 in Barcelona
     n3:
-      org: Europako Batzordea
-      quote: Plataforma digitala 2021eko apirilaren 19an jarri zen martxan, eta 2022ko maiatzaren 9ra arte egon zen irekita ekarpenak egiteko. Aldi horretan, 18.859 ideia eta 22 167 iruzkin aurkeztu ziren eta 6.661 ekitaldi antolatu ziren. Plataforma digitalaren bidez bildutako ekarpenak Europako Herritarren Panelek jaso zituzten, eta Batzarren Osoko Bilkuran eztabaidatu ziren.
+      org: 'European Commission: Conference for the Future of Europe'
   community:
     community1: Proposatu eta lagundu ezaugarri berriak definitzen
     community2: Akatsak salatu eta garatzaileei konpontzen lagundu
@@ -78,10 +75,11 @@ eu:
     subtitle: Harremanetan jarri nahi baduzu, bete harremanetarako formularioa edo bidali mezu elektroniko bat
     title: Decidim-en kontaktua
   demo:
-    button: Online Demoa
-    p1: Ezagutu eta probatu askatasunez Decidim plataforma demo digitalean.
-    strong: Probatu online demoa
-    title: Online Demoa
+    button: Demoa
+  documentation:
+    intro: Here you can find the updated documentation and step by step guide on how to install, configure and develop Decidim on your own. The documentation site helps any individual or organization to understand Decidim.
+    subtitle: Learn how to start using Decidim.
+    title: Dokumentazioa
   faqs:
     cta: Irakurri galdera guztiak
     questions:
@@ -167,21 +165,48 @@ eu:
       install: Instalazioa eta lizentzia
       installation: Instalazioa eta lizentzia
       users: Parte-hartzaileak eta rolak
+  feature_cards:
+    meetings:
+      f3: Organize face-to-face or online <strong>meetings</strong>, manage registrations, and publish the agenda.<br> And much more!
+    proposals:
+      f1: Collect <strong>proposals</strong> from participants, enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
+    voting:
+      f2: Prioritize proposals using various <strong>voting</strong> methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
   features:
-    intro: "<p>Decidim erabil dezakezu erakunde publiko edo pribatu batean, ehunka edo milaka parte-hartzaile potentzial dituena, hala nola udal bat, elkarte bat, unibertsitate bat, GKE bat, sindikatu bat, auzo-elkarte bat edo kooperatiba bat.</p><p>Decidim-i esker, partaidetza-</p> <strong>espazioak</strong> konfiguratu ahal izango dituzu (ekimenak, batzarrak, prozesuak edo kontsultak) eta eskuragarri dauden <strong>osagai</strong> anitzen bidez aberastu (aurrez aurreko bilerak, inkestak, proposamenak, bozketak, emaitzen jarraipena, <strong>iruzkinak</strong> eta beste asko)"
+    component_groups:
+      group_1:
+        title: Receive Contributions
+      group_2:
+        title: Discuss and deliberate
+      group_3:
+        title: Make Decisions
+      group_4:
+        title: Communicate Results to your audience
+    intro: You can use the Decidim software in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, public institution, associations, NGOs, universities, trade unions, cooperatives or neighbourhood communities. With Decidim you will be able to configure spaces for digital participation and organize contributions and discussions through the multiple available components.
+    modules:
+      button: Hasi erabiltzen
+      intro: Grow beyond the default components.
+      subtitle: The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
+      title: Moduloak
+    need_help:
+      button: Tokiko inplementatzaileak
+      subtitle: Take a look at the partners community, Decidim official service providers that can assist you on the installation journey, the hosting and maintenance of your platform.
+      title: Need help in the installation?
     page:
       feature1:
+        label: Partaidetza-prozesuak
         subtitle: Gai komunak demokratizatzeko, urratsez urrats
         text: 'Prozesuak partaidetza-prozesuak sortzeko, aktibatzeko/desaktibatzeko eta kudeatzeko espazio bat dira. Hauek beste espazioetatik bereizten dira, osagai guztiak sar daitezkeen fase ezberdinetan egituratzen direlako. Partaidetza-prozesuen adibideak honako hauek dira: batzorde bateko kideak hautatzeko prozesua, aurrekontu parte-hartzaileak, plangintza estrategikoko prozesua, arau edo arau bat elkarlanean idaztea, hiri-espazio bat diseinatzea edo politika publikoen plan bat sortzea.'
         title: Partaidetza-prozesuak
       feature10:
         subtitle: Elkarrekin aztertu, sintetizatu eta eraikitzeko
         text: Testu luzeko dokumentuak hainbat proposamen edo emaitza bihurtzeko balio dezake, eta, alderantziz, proposamen edo emaitza multzo batean oinarritutako testu bateratu bat osatu eta erakusteko.
-        title: Ziriborro kolaboratiboak
+        title: Collaborative texts
       feature11:
+        label: Conferences
         subtitle: Non ekitaldi handiak estreinatzen diren
         text: Webgune bat sortu ekitaldi handi baterako. Programa bateratzea, aurrez zehaztutako bilera batzuetan izena emanez (txatak, tailerrak, etab.), eta bertaratutakoak kudeatzea.
-        title: Jardunaldia
+        title: Conferences
       feature12:
         subtitle: Zure komunitatearen iritzia garrantzitsua delako
         text: Inkestak diseinatu eta argitaratzea. Emaitzak erakutsi eta deskargatu.
@@ -206,15 +231,29 @@ eu:
         subtitle: Sinplea, baina boteretsua
         text: Bidali mezu elektronikoak plataforman izena emanda dauden guztiei edo espazio jakin batean parte hartzen dutenei.
         title: Buletina
+      feature18:
+        subtitle: To promote community deliberation
+        text: Ask a question about any topic related to a process, receive comments, participate in discussion threads and close the debate with a conclusion.
+        title: Debates
+      feature19:
+        subtitle: Democratic and transparent decision-making
+        text: Add your project proposal about your city district, vote and give support to those that resonate with you, co-create collective ideas and give a specific amount of money to each one. 
+        title: Aurrekontu parte-hartzaileak
       feature2:
+        label: Batzarrak
         subtitle: Autoantolaketa kolektiboaren boterea
         text: Erabakiak hartzeko organoak edo taldeak (kontseiluak, lantaldeak, batzordeak, etab.) eratzeko aukera ematen du, aldian-aldian biltzen direnak, haien osaera zehaztuz, haien bilerak zerrendatuz eta geolokalizatuz. Horietan parte hartzeko aukera ematen du, adibidez, aurrez aurre edo online, agendari gaiak gehituz, edo organo horrek hartzen dituen proposamenak eta erabakiak komentatuz.
         title: Batzarrak
+      feature20:
+        subtitle: Simple and user-friendly voting processes
+        text: Set up elections to support decision-making. Upload your census or activate a token system for voting. Participants cast their votes through a secure voting booth, and once voting closes, you can publish the results.
+        title: Elections
       feature3:
-        subtitle: Erabakitzeko eskubidea berme demokratiko guztiak zainduz
-        text: Posible da erreferendumak koordinatzea eta eztabaidak piztea, bozketaren emaitzak argitaratzea eta boto elektronikoko sistema seguru batera konektatzea.
-        title: Bozketak
+        subtitle: Erabaki zure aukera
+        text: 'Offer organisations the possibility of activating different voting systems around proposals: unlimited, limited to a given threshold, cost-based, etc.'
+        title: Conferences
       feature4:
+        label: Ekimenak
         subtitle: Guztion agenda denon eskura jartzea
         text: Parte-hartzaileek lankidetza-ekimenak sor ditzakete, beren bidea eta helburuak zehaztu, abalak bildu, eztabaidatu eta ekimenak zabaldu, topaguneak jarri bertaratutakoen sinadurak biltzeko edo erakundeko beste kide batzuei irekitako eztabaidak egiteko.
         title: Ekimenak
@@ -232,54 +271,87 @@ eu:
         title: Emaitzak
       feature8:
         subtitle: Gardentasuna azken muturreraino
-        text: Emaitzak proiektuetan zatitzeko aukera ematen du, horien ezarpenaren inguruko aurrerapen-egoerak zehaztu eta aplikatzeko, bai eta kategorien eta eskemen arabera taldekatutako emaitzen lorpen-maila erakusteko ere.
+        text: Keep participants informed of the status of implementation. Based on the proposals, define results, create and apply progress reports on their implementation, and show the degree to which the results have been achieved.
         title: Emaitzak
       feature9:
         subtitle: Elkar ezagutzeko eta ezer ez galtzeko
         text: Bilera-osagaiak aukera ematen die erakundeei eta parte-hartzaileei bileretarako deialdia egiteko, bileretako lekua eta ordua zehazteko, bertaratuak erregistratzeko eta mugatzeko, bileraren egitura eta edukia zehazteko eta aktak eta ondoriozko proposamenak argitaratzeko.
         title: Topaketa-zerrenda
-    subtitle: Edozein tamainatako erakunde eta kolektibo demokratikoentzat.
+    section3:
+      text: Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic participation in all kinds of organizations. Choose the features that best suit your needs and customise your participatory process.
+      title: A <span class="text-red-500">customizable system</span> for <br/>participation
+    section4:
+      link: Try our online demo
+      title: Want to play and see how it works in a real-world environment?
+    subtitle: The platform for democratic organisations and communities of any size and kind.
     title: Funtzionalitateak
     type1:
       title: Partaidetza-espazioak
     type2:
+      subtitle: Participatory spaces can be combined with components that push participation and adapt to your needs. You can add all the features you want and customise your platform.
       title: Osagaiak
-    type3:
-      cta: Moduluak ezagutu
-      subtitle: Lehenetsitako osagaietatik haratago haztea. Decidim komunitateak ehunka modulu garatu ditu plataforma oinarrizkoetatik haratago zabaltzeko eta zure beharrei hobeto erantzuteko.
-      title: Moduloak
   first-steps:
+    contributors:
+      content: Check the contribution guidelines and collaborate in fixing or managing the code.
+      link: Let's do it
+      pre: For contributors
+      title: Want to contribute?
+    developers:
+      content: Install and configure your Decidim platform following the step by step documentation.
+      link: Hasi erabiltzen
+      pre: For developers
+      title: Decidim install guide
+    facilitators:
+      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+      link: Check it out
+      pre: For facilitators
+      title: Understand how Decidim works
     first-steps1:
       content: Zuk zeuk instalatu dezakezu edo laguntza teknikoa emango dizun norbait aurkitu.
       link1: Dokumentazioa
       pre: Teknologoentzat
       title: Decidim instalatzea
     first-steps2:
-      content: Erakunde handi edo txikientzat, aurkitu Decidim zure beharretara nola egokitu daitekeen.
+      content: For big or small organisations, discover how Decidim can help you to implement a democratic governance model.
       link1: Funtzionalitateak
       pre: Erakundeentzat
-      title: Tresna egokia zuretzat
+      title: Community Governance
     first-steps3:
-      content: Zure hiria pentsatzen ari bada politika parte-hartzaileak zabaltzea, jakin ezazu nola konbentzitu ditzakezun hori egiteko.
+      content: If your government is considering the implementation of participatory policies, discover how Decidim can help you make the case and turn those ideas into reality.
       link1: Tokiko inplementatzailea
       pre: Gobernuentzat
-      title: Decidim zure hirian
-    intro: Software librea eta kode irekikoa da, komunitate zabal eta aktibo batek mantentzen duena. Decidim erabil dezakezu erakunde publiko edo pribatu batean, ehunka edo milaka parte-hartzaile potentzialekin, hala nola udal bat, elkarte bat, unibertsitate bat, GKE bat, sindikatu bat, auzo elkarte bat edo kooperatiba bat...
+      title: Democratize Public Decision-Making
+    intro: It’s a free/libre and open-source web-based software, maintained by an extensive and active community. It’s designed to help governments, organizations, and communities to engage people in transparent, structured decision-making processes.
     section2:
-      link: Ezaugarri guztiak aztertu
-      subtitle: Decidim-en funtzionalitate malguak kolektibo txiki zein handientzat, erakunde publiko zein pribatuentzat diseinatuta daude, ehunka edo milaka erabiltzaile potentzialekin.
-      title: Decidim tresna egokia da zuretzat?
+      link: Read more case studies
+      subtitle: Learn how cities, governments, and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some inspiring successful cases!
+      title: Decidim dagoeneko erabiltzen
     section3:
-      cta: Irakurri erabilera kasu gehiago gure blogean
       link: Irakurri kasua
       title: Teknologiak, demokraziak eta esperientziak babestuta
     section4:
-      button1: Elkarteari buruz
-      button2: Sartu komunitatean
-      intro: <strong>Decidim Software Librearen Elkartea</strong> Decidim komunitatearen gobernantzarako elkarte demokratikoa da.
-      subtitle: "<strong>Metadecidim</strong> plataforma diseinatzen eta proiektua garatzen laguntzen duen komunitatea da. Elkarrekin funtzio berriak diseinatu eta sortzen ditugu eta akatsak salatzen ditugu plataformaren etengabeko hobekuntzarako."
+      button1: Guri buruz
+      intro: The Decidim Free Software Association is a democratic association for the governance of the Decidim community in charge of maintaining the source code.
+      subtitle: Metadecidim is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform.
       title: Nor dago plataformaren atzean?
-    subtitle: Decidim herritarren partaidetzarako<br/>plataforma digitala da
+    section5:
+      intro: 'With Decidim you can:'
+      link: Explore the features
+      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users, such as city councils, associations, universities, NGOs or cooperatives.
+      title: Is Decidim the right tool for you?
+    section6:
+      intro: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework.
+      intro2: 'You can get started in two ways:'
+      title: How to Start Using Decidim
+    section7:
+      intro: They can install Decidim by following the steps in the official documentation site.
+      link: Read the installation guide
+      title: 'Your organization has developers:'
+    section8:
+      intro: You’ll need a tech company to install, configure, and maintain Decidim. We recommend working with a local provider or choosing one from our official partners page.
+      link: Tokiko inplementatzailea
+      title: 'Your organization does not have developers:'
+    subtitle: Decidim is a digital platform for<br/>democratic participation and<br/>community governance
     title: Lehen urratsak Decidim-ekin
   footer:
     about_us: Guri buruz
@@ -319,9 +391,15 @@ eu:
       heading: Mundu osoko ehunka erakundek konfiantza dute Decidim-en beraien prozesu demokratikoetarako
       link: Deskubritu nola
       title: Decidim dagoeneko erabiltzen
+  installations:
+    download_csv: Download CSV file with all the installations
+    download_csv_short: Download CSV
+    intro: Decidim’s flexible features are designed to serve small and large collectives, both public and private, with communities ranging from hundreds to thousands of participants. Including city councils, associations, universities, NGOs and cooperatives. Below, you can explore the full database of all Decidim installations.
+    subtitle: They’ve already used Decidim.
+    title: Who uses Decidim
   legal-notice:
     section-1:
-      paragraph: "<p>Decidim Software Libre Elkartean (\"Decidim\") webgunera sartzen ari zara, <a href=\"https://decidim.org\">https://decidim.org/</a> web domeinuaren bidez eskuragarri dagoena (aurrerantzean, \"Webgunea\"), helbidea duen Sant Adria, Number 20 Fabrica de Creacio, Fabra I Coats, Bartzelona, 08030, Espainia, eta ID zenbakia G67401174.</p> \n\n<p><b>Gurekin harremanetan jar zaitezke hemen: <a href=\"mailto:hola@decidim.org\">hola@decidim.org</a></b></p>  "
+      paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Carrer Concepción Arenal 165, Number 165, Canòdrom - Ateneu d''Innovació Digital i Democràtica, Barcelona, postal code 08027, Spain and ID number G67401174.</p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p> '
       title: Nor gara
     section-2:
       paragraph: "<p>Webgune honen helburua herritarrei Decidim, bere jarduerak eta teknologiaz buruzko informazio orokorra ematea da. Decidim hirientzako eta erakundeentzako parte-hartze demokratikorako plataforma librea eta kode irekikoa da, eta gure teknologia kolaboratiboaren bidez mundu osoan sortutako Decidim komunitatearen kudeaketa ahalbidetzen du, herritarren eta elkarteen proiektuak garatzeko partaidetza sozial handiagoarekin. Decidim plataforma doan probatu dezakezu gure lineako demoan.</p> \n\n<p>Lege Ohar honen erabilera-baldintzen helburua Webgune honen eta bertan ostatatutako zerbitzu eta/edo edukiaren erabilera baimendua arautzea da, Informazio Gizartearen Zerbitzuen eta Merkataritza Elektronikoaren 34/2002 Legearekin eta aplikagarriak diren beste lege-xedapenekin bat etorriz.</p>"
@@ -351,12 +429,12 @@ eu:
   modules:
     auth: Baimenak
     community: Komunitatea
-    cta: Ikasi nola
     develop: Garatu modulu propioak plataforma oinarrizkoetatik harago zabaltzeko eta zure beharrei erantzuteko.
+    intro: Would you like to see how other people are contributing to Decidim? Check out our current modules and the ones created by the community.
     more_info: Informazio gehiago
     official: Modulu ofizialak
     placeholder: Bilatu...
-    subtitle: By using modules you can extend the functionality of Decidim and share it with others.
+    subtitle: Extend the functionalities of Decidim and share it with others.
     title: Moduloak
   nav:
     about: Honi buruz
@@ -373,11 +451,14 @@ eu:
     docs:
       path: https://docs.decidim.org/
       title: Dokumentazioa
-    donate: Dohaintza egin
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: FAQ-ak
     features: Funtzionalitateak
     first-steps: Lehen urratsak
     home: Hasiera
+    installations: Installations
     legal-notice: Informazio legala
     menu: Menua
     modules: Moduloak
@@ -388,7 +469,7 @@ eu:
     text: Nabigazioa
     thanks: Eskerrik asko zure mezuagatik
     trademark: Marka erregistratuaren gidalerroa
-    transparency-portal: Transparency Portal
+    transparency-portal: Gardentasun Ataria
     use-cases: Erabilera-kasuak
     used_by: Decidim dagoeneko erabiltzen
   newsletter:
@@ -479,28 +560,29 @@ eu:
   testimonials:
     n1:
       org: Bartzelonako Udala (2015-2019)
-      quote: Decidim-i esker, Bartzelonan hiri-plan estrategiko bat sortu dugu herritarrekin batera. 2016an, Udalaren Ekintza Plana inauguratu genuen, Decidim Barcelonaren bidez partaidetza-prozesu gisa. Gaur egun, plan honek ia 7 mila herritarren proposamenak biltzen ditu. Plataforma hau erabiltzearen abantailetako bat da une oro kontrola dezakezula onartutako proposamenen gauzatze-egoera.
+      quote: '"Thanks to Decidim, in Barcelona we have managed to co-produce a strategic city plan together with the citizens. In 2016 we inaugurated the Municipal Action Plan in the form of a participatory process through Decidim Barcelona. Currently, this plan includes almost 7 thousand citizen proposals. One of the advantages of using this platform is that you can monitor at all times the state of implementation of the approved proposals."'
     n2:
       org: Som Energia
-      quote: Decidim Som Energian ezartzearekin parte hartzeko espazio atseginagoa sortu dugu. Tresna 2018an estreinatu genuen, Kooperatibaren Batzar Nagusiaren egoitzan, eta hilabete batzuk geroago Som Energia Eskolaren Irudia Birdiseinatzea eta elkarlanaren garapena eztabaidatu genituen, beste partaidetza-prozesu batzuen artean. Hilabete gutxitan, 3.500 pertsonak baino gehiagok eman dute izena, 5 prozesu parte-hartzaile, 3 batzar martxan eta 1.300 boto baino gehiago Batzar Nagusiaren azken bozketan.
+      quote: '"With the implementation of Decidim in Som Energia we have generated a kinder space for participation. We released the tool in 2018, hosting the General Assembly of the Cooperative and months later we debated the Image Redesign and collaborative development of the School of Som Energia, among other participatory processes. In a few months, more than 3,500 participant people have registered, 5 participatory processes, 3 assemblies operating and more than 1,300 votes in the last General Assembly vote."'
     n3:
-      org: Mérida Yucatango Udal Presidentea, Mexiko. Merida Yucatango City Council, Mexiko
-      quote: Decide Mérida digital plataforma digitala inoiz ez bezala ireki zen herritarren partaidetzarako mekanismoen aurrean 2018-2021 Méridako Udal Garapen Plana egiteko. 3.000 interakzio baino gehiago izan genituen, proposamenak, iruzkinak, iradokizunak eta babesa barne, gure hiriarentzat onena denaren inguruan ahalik eta adostasun handiena lortzeko. Zalantzarik gabe, Mérida Decide plataformak gure aliatua izaten jarraituko du, Mérida gero eta gizarte parte-hartzaileagoa izan dadin.
+      org: City Council President of Mérida Yucatán, Mexico.
+      quote: '"The Decide Mérida digital platform was an opportunity that opened as never before the mechanisms of citizen participation for the elaboration of the Municipal Development Plan of Mérida 2018-2021. We had more than 3,000 citizen interactions including proposals, comments, suggestions and support that achieving the highest consensus possible about what is best for our city. Undoubtedly, the Decide Mérida platform will continue to be our ally in making Mérida an increasingly participative society."'
     n4:
       org: Helsinkiko hiria
-      quote: Gure ustez, demokrazia kontuan hartuta eraiki da, eta, beraz, demokrazia esparru handia da kontuan hartzeko. Printzipio demokratikoak, hala nola erantzukizuna, berdintasuna eta gardentasuna, diseinuaren muinean daude.
+      quote: '"What we appreciate is that it’s built with democracy in mind and therefore democracy is a big focus. Democratic principles such as accountability, equality and transparency are in the core of the design."'
     n5:
       org: Mexiko Hiriko gobernu irekia
-      quote: Kudeatu ditugun ia partaidetza-prozesu guztiak Decidim enpresaren negozio-arauen bidez konpondu ahal izan dira. Tresna gisa, oso indartsua da. Hala ere, bere sendotasunik handiena bere komunitatean datza, bai garatzaileena, bai partaidetza-prozesuak bultzatzeko erabiltzen dutenena. Haiekin esperientziak partekatzeak demokrazia parte-hartzailea praktikara eramateak dakartzan erronkak hobeto ulertzea ahalbidetu digu.
+      quote: '"Almost every participatory process that has come to our table, we have been able to solve it using Decidim’s business rules. As a tool, it is a very strong one. However, the part that seems strongest and most important to us is its community, both developers and those who use it for participatory processes. Coexisting with them has made us appreciate the challenges involved in implementing participatory democracy in the real world."'
     n6:
       org: Mozilla Fundazioa
-      quote: We suffer under a lack of public space. It's particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it's designed.
+      quote: '"We suffer under a lack of public space. Its particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it’s designed."'
     n7:
       org: OpenForum Europe Research Director, Europar Batasuna
-      quote: Prozesua 2019ko urrian hasi zen Europako Batzordearen Komunikazio eta Demokrazia Zuzendaritza Nagusian, Ikerketa Zentro Bateratuan, Europako Batzordearen Zientzia eta Ezagutza Zerbitzuan. Batzarren beharrak aztertu ondoren, eta behar horietara egokitzen diren tresnak aztertuta, Decidim kode irekiko tresna aukeratu behar da bere heldutasun teknikorako, komunitate zabalerako eta egokitzeko gaitasunerako.
+      quote: '"The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission’s science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability."'
     n8:
       org: Pipeline to Power, NYCeko Konpromiso Zibikoen Batzordearentzat lanean
-      quote: Decidim plataforma hain ahaltsu bihurtzen duen zati bat da abstrakzio maila bat gehitzen diola prozesu baten urratsak eta prozesuarekin lotzen diren jarduerak bereizten dituen lanari. Hori informazioaren arkitekturaren parte da, eta, beraz, ez duzu bakarrik esaten urrats bakoitzean gertatzen ari dena, baizik eta Decidim-en zati desberdinek portaera desberdina dute egiten ari zarenaren edo prozesuaren zein urratsen arabera. Hori pertsonalizagarria izateak Decidim gure lana egiten ari garen erara moldatzea ahalbidetzen du, eta ez gure lana moldekatzera.
+      quote: '"Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded."'
+    title: Testimonials
   thanks:
     message: Eskerrik asko guregana jotzeagatik. Laster itzuliko gara.
     title: Eskerrik asko zure mezuagatik
@@ -529,28 +611,33 @@ eu:
     p5: Marken politika orri hau <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Fundazioan</a>oinarritu da.
     title: Marka erregistratuaren gidalerroa
   used_by:
-    cta: Hasi erabiltzen
+    case_studies:
+      link: Read more use cases
+      title: Case studies
     disclaimer: Logotipoak beren egile-eskubideen titularren jabetza intelektuala dira.<br>Ez daude Creative Commons By-SA lizentziapean.
     facts:
       subtitle: Decidim hazten ari da eta erakundeek eta komunitateak onartzen dute.
       title: Gertaerak eta zifrak
       type:
-        comments: iruzkinak
-        countries: herrialdeak
-        instances: instantziak
-        institutions: erakunde publikoak
-        meetings: topaketak
-        organizations: erakundeak
-        participants: parte-hartzaileak
-        processes: prozesuak
-        proposals: proposamenak
+        comments: Iruzkinak
+        countries: Countries
+        instances: Instances
+        institutions: Institutions
+        meetings: Topaketa-zerrenda
+        organizations: Organizations
+        participants: Participants
+        processes: Processes
+        proposals: Proposamenak
     filters:
-      f0: Ikusi dena
-      f1: Gobernuak
+      f0: All
+      f1: Government
       f2: Hiriak
       f3: GKEak
       f4: Unibertsitateak
+    installations:
+      link: See who is using it
+      subtitle: More than 450 organisations and institutions have proudly used Decidim.
+      title: They've already used Decidim
     intro: Decidim erabil dezakezu erakunde publiko edo pribatu batean, ehunka edo milaka parte-hartzaile potentzialekin, hala nola udal bat, elkarte bat, unibertsitate bat, GKE bat, sindikatu bat, auzo talde bat edo kooperatiba bat...
-    join: 400 entitate baino gehiagok, 250 gobernu komunitatek eta 150 belar-errok Decidim aukeratu dute beren prozesu demokratikoetarako.
     subtitle: Hiri, eskualde eta erakunde hauek Decidim erabiltzen ari dira
     title: Decidim dagoeneko erabiltzen

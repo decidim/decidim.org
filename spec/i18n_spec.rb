@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "i18n/tasks"
+require "i18n/backend/fallbacks"
 
 RSpec.describe I18n do
   let(:locales) do
@@ -35,5 +36,23 @@ RSpec.describe I18n do
     error_message = "#{inconsistent_interpolations.leaves.count} i18n keys have inconsistent interpolations.\n" \
                     "Run `i18n-tasks check-consistent-interpolations' to show them"
     expect(inconsistent_interpolations).to be_empty, error_message
+  end
+
+  context "with fallbacks enabled" do
+    before do
+      described_class.backend.store_translations(:en, fallback_test: { missing_key: "English fallback value" })
+    end
+
+    it "returns the localised string when the translation exists in the current locale" do
+      expect(described_class.t("404.title", locale: :es)).not_to match(/translation missing/)
+    end
+
+    it "falls back to English when the translation is missing in the current locale" do
+      [:es, :eu, :ca, :cs, :fr, :de, :hu, :ja, :ro, :fi, :"pt-BR"].each do |locale|
+        expect(described_class.t("fallback_test.missing_key", locale:))
+          .to eq("English fallback value"),
+              "Expected #{locale} to fall back to English for a missing key"
+      end
+    end
   end
 end
