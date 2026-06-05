@@ -26,3 +26,20 @@ description:
     <%= partial "partials/team", locals: { type: "coordination" } %>
   </div>
 </section>
+<section>
+  <div class="container md:pb-16 pb-10">
+
+</section>
+<section class="bg-red-100">
+  <div class="container py-10 md:py-16">
+    <h2 class="h2 text-red-500">
+      <%= t("team.banner.title") %>
+    </h2>
+    <p class="par-md text-red-500 pt-4">
+      <%= t("team.banner.subtitle") %>
+    </p>
+    <div class="inline-flex flex-col md:flex-row gap-4 par-md md:pt-10 pt-5">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("team.banner.link"), url: "/community" } %>
+    </div>
+  </div>
+</section>
