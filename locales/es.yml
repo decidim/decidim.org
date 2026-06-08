@@ -41,13 +41,10 @@ es:
   case_study:
     n1:
       org: Ayuntamiento de Helsinki
-      quote: Valoramos siete diferentes tipos de opciones de presupuestos participativos para encontrar la correcta plataforma para desplegar el proceso en Helsinki, con una interfaz fácil de usar y la modularidad necesaria para diferentes necesidades. Decidim ganó la evaluación y la primera instancia fue desarrollada en 2018.
     n2:
-      org: Code for Japan
-      quote: Decidim ofrece una arquitectura adaptable para poder adaptarla a cada situación particular.
+      org: Presupuesto participativo 2020-2023 en Barcelona
     n3:
-      org: Comisión Europea
-      quote: 'La plataforma fue lanzada el 19 de abril de 2021 y estuvo abierta a contribuciones hasta el 9 de mayo de 2022. Durante este período, se presentaron 18 859 ideas y 22 167 comentarios y se organizaron 6 661 eventos. Las contribuciones reunidas a través de la plataforma digital fueron tomadas en cuenta por los Paneles de Ciudadanos Europeos y debatidas y debatidas en el Pleno de la Conferencia: los otros dos pilares principales de la Conferencia.'
+      org: 'Comisión Europea: Conferencia para el futuro de Europa'
   community:
     community1: Propón y ayuda a definir nuevas características
     community2: Reporta errores y ayuda a los desarrolladores a arreglarlos
@@ -78,10 +75,11 @@ es:
     subtitle: Si quieres ponerse en contacto con nosotras, rellena el formulario o envíenos un correo electrónico a
     title: Contacto
   demo:
-    button: Demo online
-    p1: Conoce y prueba libremente la plataforma Decidim con la demo en línea.
-    strong: Demo en línea
-    title: Demo en línea
+    button: Demo
+  documentation:
+    intro: Aquí puedes encontrar la documentación actualizada y la guía paso a paso sobre cómo instalar, configurar y desarrollar Decidim por su cuenta. El sitio de documentación ayuda a cualquier persona u organización a entender cómo funciona Decidim.
+    subtitle: Aprende cómo empezar a usar Decidim.
+    title: Documentación
   faqs:
     cta: Consulta las preguntas frecuentes
     questions:
@@ -167,21 +165,48 @@ es:
       install: Instalación y licencia
       installation: Instalación y licencia
       users: Usuarios y roles
+  feature_cards:
+    meetings:
+      f3: Organiza <strong>reuniones</strong>presenciales o en remoto, gestiona las inscripciones y publica el orden del día.<br> ¡Y mucho más!
+    proposals:
+      f1: Collect <strong>proposals</strong> from participants, enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
+    voting:
+      f2: Prioritize proposals using various <strong>voting</strong> methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
   features:
-    intro: "<p>Puedes utilizar Decidim en una organización pública o privada, con cientos o miles de potenciales participantes, como un ayuntamiento, una asociación, una universidad, una ONG, un sindicato, un colectivo de barrio o cooperativa…</p><p>Gracias a Decidim podrás configurar espacios de participación (iniciativas, asambleas, procesos o consultas) y enriquecerlos a través de los múltiples componentes disponibles (encuentros presenciales, encuestas, propuestas, votaciones, seguimiento de resultados, comentarios y muchos más).</p>"
+    component_groups:
+      group_1:
+        title: Receive Contributions
+      group_2:
+        title: Discutir y deliberar
+      group_3:
+        title: Make Decisions
+      group_4:
+        title: Communicate Results to your audience
+    intro: You can use the Decidim software in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, public institution, associations, NGOs, universities, trade unions, cooperatives or neighbourhood communities. With Decidim you will be able to configure spaces for digital participation and organize contributions and discussions through the multiple available components.
+    modules:
+      button: Empezar
+      intro: Grow beyond the default components.
+      subtitle: The Decidim community has developed hundreds of modules to expand the platform beyond the basics and cater to your needs even better.
+      title: Módulos
+    need_help:
+      button: Partners
+      subtitle: Take a look at the partners community, Decidim official service providers that can assist you on the installation journey, the hosting and maintenance of your platform.
+      title: Need help in the installation?
     page:
       feature1:
+        label: Procesos participativos
         subtitle: Para democratizar asuntos comunes, paso a paso
         text: 'Procesos permite crear, activar/desactivar y administrar diferentes procesos de participación, articularlos en diferentes fases en las que pueden combinarse todos los componentes (un proceso de elección de los miembros de un comité, presupuestos participativos, un proceso de planificación estratégica, la redacción colaborativa de un reglamento o norma, el diseño de un espacio urbano o la producción de un plan de políticas públicas…).'
         title: Procesos participativos
       feature10:
         subtitle: Para analizar, sintetizar y construir en común
         text: El componente textos participativos se puede utilizar para convertir documentos de texto extenso en varias propuestas o resultados y, viceversa, para componer y mostrar un texto unificado basado en una colección de propuestas o resultados.
-        title: Textos participativos
+        title: Collaborative texts
       feature11:
+        label: Conferences
         subtitle: Donde los grandes eventos se estrenan
         text: Crear un sitio web para un gran evento. Unificar el programa uniendo una serie de reuniones predefinidas (chats, talleres, etc.), y gestionar asistentes.
-        title: Conferencia
+        title: Conferences
       feature12:
         subtitle: Porque la opinión de tu comunidad cuenta
         text: Diseñar y publicar encuestas. Mostrar y descargar resultados.
@@ -206,15 +231,29 @@ es:
         subtitle: Sencillo pero potente
         text: Envía mensajes de correo electrónico a todas las personas registradas en la plataforma o a aquellas que participen en un espacio específico.
         title: Boletín
+      feature18:
+        subtitle: To promote community deliberation
+        text: Ask a question about any topic related to a process, receive comments, participate in discussion threads and close the debate with a conclusion.
+        title: Debates
+      feature19:
+        subtitle: Democratic and transparent decision-making
+        text: Add your project proposal about your city district, vote and give support to those that resonate with you, co-create collective ideas and give a specific amount of money to each one. 
+        title: Presupuestos participativos
       feature2:
+        label: Órganos<br/>de participación
         subtitle: El poder de la autorganización colectiva
         text: 'Las Asambleas son un espacio que ofrece la posibilidad de constituir órganos o grupos de decisión (consejos, grupos de trabajo, comisiones, etc.) que se reúnen periódicamente, detallando su composición, listando y geolocalizando sus reuniones, y permitiendo la participación en las mismas. Por ejemplo: asistiendo si el aforo y la naturaleza de la asamblea lo permiten, añadiendo puntos al orden del día, o comentando las propuestas y decisiones tomadas por dicho órgano.'
         title: Órganos<br/>de participación
+      feature20:
+        subtitle: Simple and user-friendly voting processes
+        text: Set up elections to support decision-making. Upload your census or activate a token system for voting. Participants cast their votes through a secure voting booth, and once voting closes, you can publish the results.
+        title: Elections
       feature3:
-        subtitle: El derecho a decidir con todas las garantías democráticas
-        text: Consultas es un espacio que permite coordinar referendos, organizar discusiones y debates, publicar los resultados de las votaciones y conectarse a un sistema seguro de voto electrónico.
-        title: Votaciones
+        subtitle: Decide tu voto
+        text: 'Offer organisations the possibility of activating different voting systems around proposals: unlimited, limited to a given threshold, cost-based, etc.'
+        title: Conferences
       feature4:
+        label: Iniciativas
         subtitle: Configurar la agenda de todas, al alcance de todas
         text: Iniciativas es un espacio que permite a las participantes crear iniciativas de forma colaborativa, definir su trayectoria y objetivos, recoger apoyos, discutir, debatir y difundir iniciativas y definir puntos de encuentro donde se puedan recoger firmas de las asistentes o debates abiertos a otras personas miembros de la organización.
         title: Iniciativas
@@ -232,54 +271,87 @@ es:
         title: Resultados
       feature8:
         subtitle: Transparencia de extremo a extremo
-        text: Ofrece la posibilidad de subdividir los resultados en proyectos, definir y aplicar los estados de progreso en torno a su implementación, así como mostrar el grado de logro de los resultados agrupados por categorías y alcance.
+        text: Keep participants informed of the status of implementation. Based on the proposals, define results, create and apply progress reports on their implementation, and show the degree to which the results have been achieved.
         title: Rendición de cuentas
       feature9:
         subtitle: Conocer y no perderse nada
         text: El componente de encuentros ofrece a las organizaciones y a los participantes la oportunidad de convocar reuniones, determinar su lugar y hora, registrar y limitar el número de asistentes, definir la estructura y el contenido de la reunión, así como publicar las actas y las propuestas resultantes.
         title: Encuentros
-    subtitle: Para organizaciones democráticas y colectivos de cualquier tipo o tamaño.
+    section3:
+      text: Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic participation in all kinds of organizations. Choose the features that best suit your needs and customise your participatory process.
+      title: A <span class="text-red-500">customizable system</span> for <br/>participation
+    section4:
+      link: Try our online demo
+      title: Want to play and see how it works in a real-world environment?
+    subtitle: The platform for democratic organisations and communities of any size and kind.
     title: Funcionalidades
     type1:
       title: Espacios de participación
     type2:
+      subtitle: Participatory spaces can be combined with components that push participation and adapt to your needs. You can add all the features you want and customise your platform.
       title: Componentes
-    type3:
-      cta: Explorar los módulos
-      subtitle: Crece más allá de los componentes por defecto. La comunidad Decidim ha desarrollado cientos de módulos para ampliar la plataforma más allá de lo básico y satisfacer aún mejor tus necesidades.
-      title: Módulos
   first-steps:
+    contributors:
+      content: Check the contribution guidelines and collaborate in fixing or managing the code.
+      link: Let's do it
+      pre: For contributors
+      title: Want to contribute?
+    developers:
+      content: Install and configure your Decidim platform following the step by step documentation.
+      link: Empezar
+      pre: For developers
+      title: Decidim install guide
+    facilitators:
+      content: Do you have to configure a participatory process and don’t know how to start? Find out the guidelines to administrate a Decidim platform.
+      link: Check it out
+      pre: For facilitators
+      title: Understand how Decidim works
     first-steps1:
       content: Puedes instalarlo tú misma o encontrar a alguien que te ayude con soporte técnico.
       link1: Documentación
       pre: Para tecnólogas
       title: Instalando Decidim
     first-steps2:
-      content: Para organizaciones grandes o pequeñas, descubre cómo Decidim puede satisfacer tus necesidades.
+      content: For big or small organisations, discover how Decidim can help you to implement a democratic governance model.
       link1: Funcionalidades
       pre: Para organizaciones
-      title: La herramienta perfecta para ti
+      title: Community Governance
     first-steps3:
-      content: Si tu ciudad está pensando en implementar políticas participativas, descubre cómo puedes convencerles de que lo hagan.
+      content: If your government is considering the implementation of participatory policies, discover how Decidim can help you make the case and turn those ideas into reality.
       link1: Busca un socio
       pre: Para gobiernos
-      title: Decidim en tu ciudad
-    intro: Es un software libre y de código abierto, mantenido por una comunidad extensa y activa. Puedes usar Decidim en una organización pública o privada, con cientos o miles de participantes potenciales, como un ayuntamiento, una asociación, una universidad, una ONG, un sindicato, una asociación de vecinos o una cooperativa...
+      title: Democratize Public Decision-Making
+    intro: It’s a free/libre and open-source web-based software, maintained by an extensive and active community. It’s designed to help governments, organizations, and communities to engage people in transparent, structured decision-making processes.
     section2:
-      link: Explora todas las funcionalidades
-      subtitle: Las características flexibles de Decidim están diseñadas para servir a colectivos pequeños y grandes, tanto públicos como privados, con cientos o miles de usuarias potenciales.
-      title: '¿Es Decidim la herramienta adecuada para ti?'
+      link: Read more case studies
+      subtitle: Learn how cities, governments, and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some inspiring successful cases!
+      title: Ya usan Decidim
     section3:
-      cta: Lee más casos de uso en nuestro blog
       link: Lee el caso práctico
       title: Respaldado por la tecnología, la democracia y la experiencia
     section4:
-      button1: Acerca de la asociación
-      button2: Únete a la comunidad
-      intro: La <strong>Asociación de Software Libre de Decidim</strong>  es una asociación democrática para la gobernanza de la comunidad de Decidim.
-      subtitle: "Metadecidim es una comunidad que colabora en el diseño de la plataforma y la construcción del proyecto. Entre todas podemos diseñar y desarrollar nuevas funcionalidades y notificar bugs para una mejora continua de la plataforma."
+      button1: Quiénes somos
+      intro: The Decidim Free Software Association is a democratic association for the governance of the Decidim community in charge of maintaining the source code.
+      subtitle: Metadecidim is the community that collaborates in the design of the platform and the development of the project. Together we design and create new features and report bugs for continuous improvement of the platform.
       title: '¿Quién está detrás de la plataforma?'
-    subtitle: Decidim es una plataforma digital<br/>para la participación ciudadana
+    section5:
+      intro: 'With Decidim you can:'
+      link: Explore the features
+      subtitle: Decidim’s flexible features are designed to serve both small and large collectives, public and private organisations, with hundreds or thousands of potential users, such as city councils, associations, universities, NGOs or cooperatives.
+      title: Is Decidim the right tool for you?
+    section6:
+      intro: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework.
+      intro2: 'You can get started in two ways:'
+      title: How to Start Using Decidim
+    section7:
+      intro: They can install Decidim by following the steps in the official documentation site.
+      link: Read the installation guide
+      title: 'Your organization has developers:'
+    section8:
+      intro: You’ll need a tech company to install, configure, and maintain Decidim. We recommend working with a local provider or choosing one from our official partners page.
+      link: Busca un socio
+      title: 'Your organization does not have developers:'
+    subtitle: Decidim is a digital platform for<br/>democratic participation and<br/>community governance
     title: Primeros pasos con Decidim
   footer:
     about_us: Quiénes somos
@@ -319,9 +391,15 @@ es:
       heading: Cientos de organizaciones de todo el mundo confían en Decidim para sus procesos democráticos
       link: Descubre cómo
       title: Ya utilizan Decidim
+  installations:
+    download_csv: Download CSV file with all the installations
+    download_csv_short: Download CSV
+    intro: Decidim’s flexible features are designed to serve small and large collectives, both public and private, with communities ranging from hundreds to thousands of participants. Including city councils, associations, universities, NGOs and cooperatives. Below, you can explore the full database of all Decidim installations.
+    subtitle: They’ve already used Decidim.
+    title: Who uses Decidim
   legal-notice:
     section-1:
-      paragraph: '<p>Está accediendo a la web de la Associació de Software Lliure Decidim ("Decidim", "Nos" o "Nosotros") disponible a través del dominio web <a href="https://decidim.org">https:// decidim.org/</a> (en adelante, el "Sitio Web"), con domicilio en Sant Adria, Número 20 Fabrica de Creacio, Fabra I Coats, Barcelona, 08030, España y DNI número G67401174.<p><p><b >Puede contactarnos en: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p>'
+      paragraph: '<p>You are accessing the website of Associació de Software Lliure Decidim ("Decidim", "Us" or "We") available through the web domain <a href="https://decidim.org">https://decidim.org/</a> (hereinafter, the "Website"), domiciled in Carrer Concepción Arenal 165, Number 165, Canòdrom - Ateneu d''Innovació Digital i Democràtica, Barcelona, postal code 08027, Spain and ID number G67401174.</p><p><b>You can contact us at: <a href="mailto:hola@decidim.org">hola@decidim.org</a></b></p> '
       title: Quiénes somos
     section-2:
       paragraph: "<p>El propósito de este sitio web es proporcionar información general al público sobre Decidim, sus actividades y tecnología, que consiste en una plataforma libre de democracia participativa para ciudades y organizaciones, y la gestión de la comunidad de Decidim generada en todo el mundo a partir de nuestra tecnología de colaboración que permite el desarrollo de proyectos ciudadanos y asociados con una mayor participación social. Puedes probar libremente la plataforma Decidim con nuestra demo en línea.</p> <p>El propósito de las condiciones de uso de este Aviso Legal es gobernar el uso permitido de este Sitio Web y de los servicios y/o contenidos alojados de acuerdo con la Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico y otras disposiciones legales aplicables.</p>"
@@ -351,12 +429,12 @@ es:
   modules:
     auth: Autorización
     community: Comunidad
-    cta: Aprender cómo
     develop: Desarrolla tus propios módulos para expandir la plataforma más allá de lo básico y satisfacer tus necesidades.
+    intro: Would you like to see how other people are contributing to Decidim? Check out our current modules and the ones created by the community.
     more_info: Más información
     official: Módulos oficiales
     placeholder: Buscar...
-    subtitle: Usando módulos puedes ampliar la funcionalidad de Decidim y compartirla con otras.
+    subtitle: Extend the functionalities of Decidim and share it with others.
     title: Módulos
   nav:
     about: Acerca de
@@ -373,11 +451,14 @@ es:
     docs:
       path: https://docs.decidim.org/
       title: Documentación
-    donate: Dona
+    donate:
+      text: on the decidim platform for continuous improvements
+      title: Donate
     faqs: FAQs
     features: Funcionalidades
     first-steps: Primeros Pasos
     home: Inicio
+    installations: Installations
     legal-notice: Aviso legal
     menu: Menú
     modules: Módulos
@@ -479,28 +560,29 @@ es:
   testimonials:
     n1:
       org: Ayuntamiento de Barcelona (2015-2019)
-      quote: Gracias a Decidim, hemos conseguido en Barcelona coproducir un plan estratégico de ciudad conjuntamente con la ciudadanía. En el 2016 inauguramos el Plan de Acción Municipal en forma de proceso participativo a través de Decidim Barcelona. Actualmente dicho plan recoge casi 7 mil propuestas ciudadanas. Una de las ventajas de utilizar esta plataforma es que puedes seguir en todo momento el estado de implementación de las propuestas aceptadas.
+      quote: '"Thanks to Decidim, in Barcelona we have managed to co-produce a strategic city plan together with the citizens. In 2016 we inaugurated the Municipal Action Plan in the form of a participatory process through Decidim Barcelona. Currently, this plan includes almost 7 thousand citizen proposals. One of the advantages of using this platform is that you can monitor at all times the state of implementation of the approved proposals."'
     n2:
       org: Som Energia
-      quote: En Som Energia, con la implementación del Decidim, hemos generado un espacio más amable de participación. Estrenamos la herramienta en 2018, albergando la Asamblea General de la Cooperativa y meses más tarde, hemos llevado a debate el Rediseño de Imagen y la elaboración colaborativa de la Escuela de Som Energia, entre otros procesos de participación. En pocos meses se han registrado más de 3.500 personas participantes, 5 procesos participativos, 3 asambleas funcionando y más de 1.300 votos en la última consulta de la Asamblea General.
+      quote: '"With the implementation of Decidim in Som Energia we have generated a kinder space for participation. We released the tool in 2018, hosting the General Assembly of the Cooperative and months later we debated the Image Redesign and collaborative development of the School of Som Energia, among other participatory processes. In a few months, more than 3,500 participant people have registered, 5 participatory processes, 3 assemblies operating and more than 1,300 votes in the last General Assembly vote."'
     n3:
-      org: Presidente Municipal de Mérida Yucatán, México. Ayuntamiento de Mérida Yucatán, México
-      quote: La plataforma digital Decide Mérida fue una oportunidad que abrió como nunca los mecanismos de participación ciudadana para la elaboración del Plan Municipal de Desarrollo de Mérida 2018-2021. Tuvimos más de 3 mil interacciones ciudadanas entre propuestas, comentarios, sugerencias y apoyos que dieron lugar al mayor consenso posible sobre lo que es mejor para nuestra ciudad. Sin duda, la plataforma Decide Mérida seguirá siendo nuestra aliada para hacer de Mèrida una sociedad cada día más participativa.
+      org: City Council President of Mérida Yucatán, Mexico.
+      quote: '"The Decide Mérida digital platform was an opportunity that opened as never before the mechanisms of citizen participation for the elaboration of the Municipal Development Plan of Mérida 2018-2021. We had more than 3,000 citizen interactions including proposals, comments, suggestions and support that achieving the highest consensus possible about what is best for our city. Undoubtedly, the Decide Mérida platform will continue to be our ally in making Mérida an increasingly participative society."'
     n4:
       org: Ayuntamiento de Helsinki
-      quote: Los principios democráticos como la rendición de cuentas, la igualdad y la transparencia están en el centro del diseño. Decidim es está construido teniendo en mente la democracia, es su gran foco.
+      quote: '"What we appreciate is that it’s built with democracy in mind and therefore democracy is a big focus. Democratic principles such as accountability, equality and transparency are in the core of the design."'
     n5:
       org: Gobierno Abierto de Ciudad de México
-      quote: Prácticamente cada proceso participativo que ha llegado a nuestra mesa, lo hemos podido resolver usando las reglas de negocio de Decidim. Como herramienta, es una muy robusta. Sin embargo, la parte que nos parece más fuerte e importante es su comunidad, tanto de desarrolladoras como de aquellas que lo usan para procesos participativos. Convivir con ellas nos ha hecho dimensionar los desafíos que conlleva implementar la democracia participativa en el mundo real.
+      quote: '"Almost every participatory process that has come to our table, we have been able to solve it using Decidim’s business rules. As a tool, it is a very strong one. However, the part that seems strongest and most important to us is its community, both developers and those who use it for participatory processes. Coexisting with them has made us appreciate the challenges involved in implementing participatory democracy in the real world."'
     n6:
       org: "Mozilla Foundation\n"
-      quote: Sufrimos por falta de espacio público, es especialmente importante que recuperemos estos espacios públicos para nosotros. Las plataformas abiertas como Decidim hacen exactamente eso. No sólo es de código abierto para que otras personas puedan bifurcarlo, reutilizarlo y construir un proceso. También tiene estos valores que queremos reflejar en nuestra sociedad codificados en la forma en que está diseñado.
+      quote: '"We suffer under a lack of public space. Its particularly important that we reclaim these public spaces for us. Open platforms such as Decidim do exactly that. Is not only that is open source so other people can fork it, reuse it and build a process. It also has these values that we want to reflect in our society encoded in the way it’s designed."'
     n7:
       org: OpenForum Europe Research Director, Unión Europea
-      quote: El proceso comenzó en octubre de 2019 en la unidad de la DG Comunicación y Democracia de la Comisión Europea en el Centro Común de Investigación, el servicio de ciencia y conocimiento de la Comisión Europea. Un análisis de las necesidades de la Conferencia y de las herramientas que se ajustan a ellas, conducir a elegir la herramienta de código abierto Decidim por su madurez técnica, amplia comunidad y adaptabilidad.
+      quote: '"The process started in October 2019 at the European Commission’s DG Communication and eDemocracy unit at the Joint Research Centre, the European Commission’s science and knowledge service. An analysis of the needs of the Conference and which tools fit those, lead to choosing the open source tool Decidim for its technical maturity, broad community and adaptability."'
     n8:
       org: Pipeline to Power, trabajando para la Comisión de Participación Cívica de la NYC
-      quote: Parte de lo que hace que Decidim sea tan poderoso es que añade un nivel de abstracción al trabajo que separa los pasos de un proceso y las actividades asociadas con el proceso. Eso es parte de la arquitectura de la información, para que no sólo esté diciendo lo que está ocurriendo en cada paso, sino que diferentes partes de Decidim se comporten de manera diferente dependiendo de cuándo esté haciendo o dependiendo del paso en el proceso en el que se encuentre. El hecho de que sea personalizable realmente permite que Decidim sea moldeado a cómo hacemos nuestro trabajo y no nuestro trabajo para ser moldeado.
+      quote: '"Part of what makes Decidim so powerful is that it adds a level of abstraction to the work separating out  the steps of a process and the activities associated with the process. That’s part of the information architecture, so that not only you are saying what is happening at each step but different parts of Decidim behave differently depending on when you are doing or depending on what step in the process you are in. The fact that that’s customizable really allows Decidim to be moulded to how we are doing our work and not our work to be moulded."'
+    title: Testimonials
   thanks:
     message: Gracias por tu email, te responderemos en breve.
     title: Gracias por contactarnos
@@ -529,28 +611,33 @@ es:
     p5: Esta página de política de marcas estaba basada en <a href="%{rails_url}">Ruby on Rails</a> y <a href="%{wordpress_url}">Wordpress Foundation</a>.
     title: Política de marcas comerciales
   used_by:
-    cta: Empezar
+    case_studies:
+      link: Read more use cases
+      title: Case studies
     disclaimer: Los logotipos de las entidades colaboradoras son propiedad intelectual de sus respectivos titulares de derechos de autor. No pertenecen a la <br> licencia Creative Commons By-SA  con la que se licencia el resto del contenido del sitio.
     facts:
       subtitle: Decidim sigue creciendo y siendo adoptada por las organizaciones y la comunidad.
       title: Datos y cifras
       type:
-        comments: comentarios
-        countries: países
-        instances: instancias
-        institutions: instituciones
-        meetings: encuentros
-        organizations: organizaciones
-        participants: participantes
-        processes: procesos
-        proposals: propuestas
+        comments: Comentarios
+        countries: Countries
+        instances: Instances
+        institutions: Institutions
+        meetings: Encuentros
+        organizations: Organizations
+        participants: Participants
+        processes: Processes
+        proposals: Propuestas
     filters:
-      f0: Ver todos
-      f1: Gobiernos
+      f0: All
+      f1: Government
       f2: Ciudades
       f3: ONG
       f4: Universidades
+    installations:
+      link: See who is using it
+      subtitle: More than 450 organisations and institutions have proudly used Decidim.
+      title: They've already used Decidim
     intro: Puedes usar Decidim en una organización pública o privada, con cientos o miles de participantes potenciales, como un ayuntamiento, una asociación, una universidad, una ONG, un sindicato, un colectivo vecino o una cooperativa...
-    join: Más de 400 entidades, 250 comunidades governamentales y 150 comunidades de césped han elegido Decidim para sus procesos democráticos.
     subtitle: Estas ciudades, regiones y organizaciones ya están usando Decidim
     title: Ya usan Decidim
