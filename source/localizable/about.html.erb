@@ -45,12 +45,12 @@ description:
         <% chunk1 = (chunks[1] * 4) + chunks[1].take(2) %>
         <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1770px">
           <% chunk0.each do |value| %>
-            <div class="inline-block text-red-500 par-lg p-6 border border-red-500 rounded-xl whitespace-nowrap"><%= value %></div>
+            <div class="text-white bg-red-500 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap"><%= value %></div>
           <% end %>
         </div>
         <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1475px)">
           <% chunk1.each do |value| %>
-            <div class="inline-block text-red-500 par-lg p-6 border border-red-500 rounded-xl whitespace-nowrap"><%= value %></div>
+            <div class="text-white bg-red-500 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap"><%= value %></div>
           <% end %>
         </div>
       <% end %>
