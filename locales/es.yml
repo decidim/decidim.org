@@ -75,7 +75,7 @@ es:
     name: Nombre
     privacy_policy:
       accept: Acepto la <a href="%{privacy_policy_url}">Política de Privacidad</a>
-      message: "<p>Cuando la gente se ponga en contacto con nosotros mediante el formulario de contacto, correo electrónico o medios de comunicación similares, recogeremos automáticamente la siguiente información: nombre, correo electrónico entidad, dirección de correo electrónico y el contenido del mensaje del usuario para atender sus comentarios, peticiones, sugerencias, etc.</p> <p>Además, podemos procesar estos datos para estudios estadísticos a través de técnicas de seudonimización e incluso anonimización, tales como la agregación de datos, impidiendo que este procesamiento posterior identifique a las personas usuarias individualmente.</p>"
+      message: 'When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.<br>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.'
     reason: Motivo de contacto
     reasons:
       community: Quiero unirme a la Comunidad Decidim.
