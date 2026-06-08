@@ -25,9 +25,11 @@ description:
     </div>
   </div>
 </section>
+
 <section>
   <img src="/images/banner_about.svg" alt="" class="banner object-cover">
 </section>
+
 <section class="bg-red-100">
   <div class="py-12 md:pt-16 md:pb-20 overflow-hidden">
     <div class="container text-red-500">
@@ -67,6 +69,20 @@ description:
       <a class="par-md inline-block button" href="https://opencollective.com/decidim">
         <%= t("about.support_at_opencollective") %>
       </a>
+    </div>
+  </div>
+</section>
+
+<section class="container py-10 md:pt-16">
+  <div class="space-y-5 md:p-10 p-4 bg-gray-100 rounded-xl">
+    <h2 class="text-black font-normal text-2xl md:text-5xl md:font-light">
+      <%= t("about.bottom_section.title") %>
+    </h2>
+    <p class="par-md text-black">
+      <%= t("about.bottom_section.subtitle") %>
+    </p>
+    <div class="inline-flex flex-col md:flex-row gap-4 par-md">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("about.bottom_section.button"), url: "#{t(:path)}/contact", classes: "text-black", outline_classes: "outline-black md:rounded-2xl rounded-lg", span_classes: "text-[16px] leading-[22px]", hover_bg_classes: "hover:bg-white", padding_classes: "px-3 py-1 md:px-4 md:py-2.5", icon_classes: "w-4 h-4 md:w-6 md:h-6" } %>
     </div>
   </div>
 </section>
