@@ -1,3 +1,6 @@
 .flip-inner.rotate-y-180 {
   transform: rotateY(180deg);
 }
+.team-card {
+  @apply h-[485px]
+}
