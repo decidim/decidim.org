@@ -1,10 +1,10 @@
 <div class="md:grid md:grid-cols-3 grid-cols-2 gap-8">
   <% data.association.each do |member| %>
     <% if member.type == type %>
-      <div class="[perspective:1000px] cursor-pointer hover:shadow-lg transition-shadow duration-300 h-[485px]" onclick="const el=this.querySelector('.flip-inner');el.style.transform=el.style.transform?'':'rotateY(180deg)'">
+      <div class="[perspective:1000px] cursor-pointer hover:shadow-lg transition-shadow duration-300 w-full h-[485px]" onclick="const el=this.querySelector('.flip-inner');el.style.transform=el.style.transform?'':'rotateY(180deg)'">
         <div class="flip-inner relative rounded-lg w-full h-full transition-transform duration-500" style="transform-style:preserve-3d;">
           <div class="absolute inset-0 flex flex-col gap-1 [backface-visibility:hidden]">
-            <img src="<%= member.photo %>" alt="<%= member.name %>" class="w-96 h-96 object-cover" />
+            <img src="<%= member.photo %>" alt="<%= member.name %>" class="w-full h-96 object-cover" />
             <div class="p-4">
               <h6 class="font-semibold h6"><%= member.name %></h6>
               <p class="par-md"><%= t("team.members.#{member["slug"]}.role") %></p>
