@@ -20,9 +20,15 @@ description:
 </section>
 <section>
   <div class="container md:pb-16 pb-10">
-    <h2 class="h2 md:pb-6 pb-4"><%= t("team.technical_office") %></h2>
+    <h2 class="h2 md:pb-6 pb-5"><%= t("team.technical_office.title") %></h2>
+    <div class="par-md text-black pb-8 md:pb-10">
+      <%= t("team.technical_office.intro") %>
+    </div>
     <%= partial "partials/team", locals: { type: "technical" } %>
-    <h2 class="h2 md:pb-6 pt-10 pb-4"><%= t("team.coordination_committee") %></h2>
+    <h2 class="h2 md:pb-6 pt-10 pb-5"><%= t("team.coordination_committee.title") %></h2>
+    <div class="par-md text-black pb-8 md:pb-10">
+      <%= t("team.coordination_committee.intro") %>
+    </div>
     <%= partial "partials/team", locals: { type: "coordination" } %>
   </div>
 </section>
