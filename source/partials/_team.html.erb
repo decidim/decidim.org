@@ -11,7 +11,7 @@
             </div>
           </div>
           <div class="flip-back absolute inset-0 flex flex-col gap-3 p-4 bg-red-100 rounded shadow [backface-visibility:hidden] [transform:rotateY(180deg)]">
-            <p class="par-md"><%= t("team.members.#{member['key']}.bio") %></p>
+            <p class="par-sm"><%= t("team.members.#{member['key']}.bio") %></p>
             <% if member.linkedin_url && !member.linkedin_url.to_s.empty? %>
               <a href="<%= member.linkedin_url %>" target="_blank" rel="noopener noreferrer" class="mt-auto inline-flex items-center gap-1 text-md text-red-500 hover:underline" onclick="event.stopPropagation()">
                 <%= icon "ri-linkedin-box-fill", class: "w-5 h-5" rescue nil %>
