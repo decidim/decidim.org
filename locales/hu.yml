@@ -75,7 +75,7 @@ hu:
     name: Név
     privacy_policy:
       accept: Elfogadom a <a href="%{privacy_policy_url}">Adatvédelmi irányelveket</a>
-      message: "<p>Amikor az emberek kapcsolatba lépnek velünk a kapcsolatfelvételi űrlapon, e-mailben vagy hasonló kommunikációs eszközökön keresztül, automatikusan összegyűjtjük a következő adatokat: név, szervezet, e-mail cím és a felhasználói üzenet tartalma, hogy részt vehessünk az Ön észrevételeiben, kéréseiben, javaslataiban stb.</p> <p>Kiegészítésképpen ezeket az adatokat statisztikai tanulmányok céljából feldolgozhatjuk álnevesítéssel vagy akár anonimizálási technikákkal, például adatösszesítéssel, megakadályozva, hogy a későbbi feldolgozás során a felhasználókat egyénileg azonosítani lehessen.</p>"
+      message: 'When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.<br>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.'
     reason: Reason for contact
     reasons:
       community: I want to join the Decidim Community.
