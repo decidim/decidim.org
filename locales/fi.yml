@@ -75,7 +75,7 @@ fi:
     name: Nimi
     privacy_policy:
       accept: Hyväksyn <a href="%{privacy_policy_url}">tietosuojaselosteen</a>
-      message: "<p>Kun otat meihin yhteyttä yhteydenottolomakkeella, sähköpostilla tai muulla vastaavalla viestintävälineellä, keräämme automaattisesti sinusta seuraavat tiedot: nimi, organisaatio, sähköpostiosoite ja viestin sisältö, jotta voimme käsitellä yhteydenottosi, kommenttisi, pyyntösi, ehdotuksesi, jne.</p><p>Lisäksi voimme käsitellä tätä tietoa tilastollisissa tutkimuksissa käyttäen hyväksi pseudonymisointi- ja anonymisointitekniikoita, kuten tietojen aggrekointia tai koontia, mikä estää yksittäisten käyttäjien tunnistamisen ja yksilöinnin datan jatkokäsittelyn yhteydessä.</p>"
+      message: 'When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.<br>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.'
     reason: Yhteydenoton syy
     reasons:
       community: Haluan liittyä osaksi Decidim-yhteisöä.
