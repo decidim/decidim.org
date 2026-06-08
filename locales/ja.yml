@@ -75,7 +75,7 @@ ja:
     name: 名前
     privacy_policy:
       accept: <a href="%{privacy_policy_url}">プライバシーポリシー</a>に同意します
-      message: "<p>お問い合わせフォーム、電子メール、または同様の通信手段でお問い合わせいただいた場合、コメント、要望、提案などに対応するため、名前、事業体、電子メールアドレス、ユーザーメッセージの内容を自動的に収集します。</p> <p>加えて、利用者を個別に特定できないようにするため、仮名化、さらにはデータ集約などの匿名化技術を使用し、統計的な調査のためにこれらのデータを処理することがあります。</p>"
+      message: 'When people contact Us by the contact form, email or similar communication means, we will automatically collect the following information: name, entity, email address and the content of the User message in order to attend your comments, requests, suggestions, etc.<br>Additionally, we may process this data for statistical studies through pseudonymization and even anonymization techniques, such as data aggregation, preventing this subsequent processing from identifying Users individually.'
     reason: お問い合わせ理由
     reasons:
       community: Decidimコミュニティに参加したい。
