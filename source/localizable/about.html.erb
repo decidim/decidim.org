@@ -25,13 +25,17 @@ description:
     </div>
   </div>
 </section>
-
+<section>
+  <img src="/images/banner_about.svg" alt="" class="banner object-cover">
+</section>
 <section class="bg-red-100">
   <div class="py-12 md:pt-16 md:pb-20 overflow-hidden">
     <div class="container text-red-500">
-      <h6 class="h6"><%= t("about.values_title") %></h6>
-      <div class="par-xl mt-2"><%= t("about.values_intro") %></div>
-      <a class="block par-md mt-4 underline" href="<%= t(:path) %>/contract"><%= t("about.values_cta") %></a>
+      <h2 class="h2"><%= t("about.values_title") %></h2>
+      <div class="par-md py-5"><%= t("about.values_intro") %></div>
+      <div class="inline-flex flex-col md:flex-row gap-4 par-md">
+        <%= partial "/partials/arrow-link-rounded", locals: { text: t("about.values_cta"), url: "#{t(:path)}/contract" } %>
+      </div>
     </div>
     <div class="mt-12 md:mt-16 w-screen space-y-4 md:space-y-6 overflow-hidden">
       <% texts = t("about.values").map {|_k,v| v} %>
