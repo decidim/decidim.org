@@ -12,16 +12,24 @@ description:
       <p class="par-xl text-black py-5 md:py-5">
         <%= t("about.subtitle") %>
       </p>
-      <p class="par-md text-black pt-4 md:pb-5">
+      <p class="par-md text-black pt-4">
         <%= t("about.intro") %>
       </p>
     </div>
 
-    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-12 md:mt-16">
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-hand-heart-line", text: t("about.about")[0], url: "#{t(:path)}/about#support" } %>
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-mail-line", text: t("about.about")[1], url: "#{t(:path)}/contact" } %>
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-team-line", text: t("about.about")[2], url: "https://meta.decidim.org" } %>
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-newspaper-line", text: t("about.about")[3], url: "#{t(:path)}/press" } %>
+    <div class="flex flex-col md:flex-row justify-start items-stretch divide-y md:divide-y-0 divide-gray-300 border-b md:border-b-0 border-gray-300 md:py-24 py-10">
+      <% t("about.association").each do |key, item| %>
+        <div class="flex flex-col justify-between md:border-l py-5 border-gray-300 md:first:border-l-0 px-0 md:px-5 md:first:pl-0 md:py-0 w-full">
+          <div>
+            <div class="flex items-center space-x-2">
+              <%= icon item[:icon], class: "w-6 h-6" %>
+              <span class="font-semibold uppercase"><%= item[:title] %></span>
+            </div>
+            <p class="par-md text-gray-500 md:py-6"><%= item[:description] %></p>
+          </div>
+            <%= partial "partials/arrow-link", locals: { text: item[:url_name], url: item[:url], classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+        </div>
+      <% end %>
     </div>
   </div>
 </section>
