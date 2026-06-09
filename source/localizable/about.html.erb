@@ -4,7 +4,7 @@ description:
 ---
 
 <section>
-  <div class="container py-10 md:pt-16 md:pb-24">
+  <div class="container py-10 md:pt-16">
     <div class="md:w-3/5">
       <h1 class="h1 md:whitespace-nowrap">
         <%= t("about.title") %>
@@ -30,6 +30,21 @@ description:
             <%= partial "partials/arrow-link", locals: { text: item[:url_name], url: item[:url], classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
         </div>
       <% end %>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-red-100">
+  <div class="container flex md:flex-row flex-col justify-start items-stretch gap-5 py-12 md:py-16">
+    <div class="md:w-1/2">
+      <h2 class="h2 text-red-500"><%= t("about.mission.title") %></h2>
+      <p class="par-md text-red-500 pt-4"><%= t("about.mission.subtitle") %></p>
+    </div>
+    <div class="md:w-1/2">
+      <h2 class="h2 text-red-500"><%= t("about.vision.title") %></h2>
+      <li class="par-md text-red-500 pt-4"><%= t("about.vision.subtitle_1") %></li>
+      <li class="par-md text-red-500 pt-4"><%= t("about.vision.subtitle_2") %></li>
     </div>
   </div>
 </section>
