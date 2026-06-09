@@ -248,10 +248,10 @@ const caseStudyFilter = () => {
     let end   = start + CARDS_PER_PAGE;
 
     allCards.forEach(function (card) {
-      card.hidden = true;
+      card.style.display = "none";
     });
     filtered.slice(start, end).forEach(function (card) {
-      card.hidden = false;
+      card.style.display = "";
     });
 
     if (noResultsEl) {
@@ -271,4 +271,8 @@ const caseStudyFilter = () => {
   render();
 };
 
-caseStudyFilter();
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", caseStudyFilter);
+} else {
+  caseStudyFilter();
+}
