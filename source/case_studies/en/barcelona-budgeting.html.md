@@ -22,9 +22,7 @@ components_used:
   - Follow-up
   - Meetings
   - Participatory Budgets
-country: Brazil
-process_title: Participatory process design
-process_subtitle: 'The phases were structured into a process that lasted about a year and a half, activating different components and functionalities of Decidim at each stage:'
+country: Catalonia
 results_title: Results
 budget:
   value: 30 Million €
@@ -54,6 +52,8 @@ description: |-
   The process began before the pandemic, but the health crisis presented an additional challenge, requiring adaptation to restrictions while also encouraging online interaction between residents and the government, further promoting citizen empowerment.
 
   Some of the most popular proposals that were implemented included calming streets with green spaces designed for pedestrians in different neighborhoods across the city. Another success story was the r[enovation of the Campany sports field,](https://www.decidim.barcelona/processes/PressupostosParticipatius/f/4422/proposals/29142?included_in=Z2lkOi8vZGVjaWRpbS1iYXJjZWxvbmEvRGVjaWRpbTo6QnVkZ2V0czo6UHJvamVjdC8xMTc) where the infrastructure of Barcelona’s only cricket ground was improved thanks to a proposal put forward by a group of young women passionate about the sport.
+process_title: Participatory process design
+process_subtitle: 'The phases were structured into a process that lasted about a year and a half, activating different components and functionalities of Decidim at each stage:'
 phases:
   - title: Debate and proposal submission
     count_label: 1.982 proposals
