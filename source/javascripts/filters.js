@@ -199,7 +199,8 @@ const caseStudyFilter = () => {
       currentPage > 1
         ? function () {
           currentPage--;
-          render(); scrollToGrid(); }
+          render();
+          scrollToGrid(); }
         : null,
       currentPage === 1
         ? disabled
@@ -219,7 +220,9 @@ const caseStudyFilter = () => {
       }
       btn(p, `Page ${p}`,
         p !== currentPage
-          ? function () { currentPage = p; render(); scrollToGrid(); }
+          ? function () { currentPage = p;
+            render();
+            scrollToGrid(); }
           : null,
         p === currentPage
           ? active
@@ -231,7 +234,8 @@ const caseStudyFilter = () => {
       currentPage < totalPages
         ? function () {
           currentPage++;
-          render(); scrollToGrid(); }
+          render();
+          scrollToGrid(); }
         : null,
       currentPage === totalPages
         ? disabled
