@@ -221,7 +221,9 @@ const caseStudyFilter = () => {
         p !== currentPage
           ? function () { currentPage = p; render(); scrollToGrid(); }
           : null,
-        p === currentPage ? active : inactive);
+        p === currentPage
+          ? active
+          : inactive);
       prev = p;
     });
 
