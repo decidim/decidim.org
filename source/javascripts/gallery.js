@@ -11,16 +11,24 @@
  * @returns {void}
  */
 
-function selectGalleryImage(thumb) {
-  const main = document.querySelector('#main-gallery-image img');
+/**
+ * Switches the main gallery image and updates thumbnail active states.
+ *
+ * @param {HTMLElement} thumb - The clicked thumbnail element.
+ * @returns {void}
+ */
+const selectGalleryImage = function (thumb) {
+  const main = document.querySelector("#main-gallery-image img");
   main.src = thumb.dataset.src;
   main.alt = thumb.dataset.alt;
 
-  document.querySelectorAll('.gallery-thumb .thumb-overlay').forEach(overlay => {
-    overlay.classList.remove('opacity-0');
-    overlay.classList.add('opacity-100');
+  document.querySelectorAll(".gallery-thumb .thumb-overlay").forEach((overlay) => {
+    overlay.classList.remove("opacity-0");
+    overlay.classList.add("opacity-100");
   });
 
-  thumb.querySelector('.thumb-overlay').classList.remove('opacity-100');
-  thumb.querySelector('.thumb-overlay').classList.add('opacity-0');
-}
+  thumb.querySelector(".thumb-overlay").classList.remove("opacity-100");
+  thumb.querySelector(".thumb-overlay").classList.add("opacity-0");
+};
+
+window.selectGalleryImage = selectGalleryImage;
