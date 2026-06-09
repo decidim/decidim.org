@@ -32,6 +32,8 @@ const caseStudyFilter = () => {
   let paginationEl  = document.getElementById("cs-pagination");
   let noResultsEl   = document.getElementById("cs-no-results");
 
+  let chipsEl = document.getElementById("cs-active-chips");
+
   let allCards  = Array.from(grid.querySelectorAll("[data-cs-card]"));
   let currentPage = 1;
   let activeTypes     = {};
@@ -163,6 +165,35 @@ const caseStudyFilter = () => {
     }
     if (clearBtn) {
       clearBtn.classList.toggle("hidden", count === 0);
+    }
+    if (chipsEl) {
+      chipsEl.innerHTML = "";
+      const addChip = (val, map, container) => {
+        let chip = document.createElement("span");
+        chip.className = "inline-flex items-center gap-1 bg-white border border-gray-100 bg-gray-100 rounded-lg px-3 py-1 par-sm font-bold text-gray-500";
+        chip.textContent = val;
+        let x = document.createElement("button");
+        x.innerHTML = "&times;";
+        x.setAttribute("aria-label", `Remove ${val}`);
+        x.className = "ml-1 text-gray-400 hover:text-gray-700 leading-none";
+        x.addEventListener("click", function () {
+          Reflect.deleteProperty(map, val);
+          container.querySelectorAll("input").forEach(function (cb) {
+            if (cb.value === val) {
+              cb.checked = false;
+            }
+          });
+          onFilterChange();
+        });
+        chip.appendChild(x);
+        chipsEl.appendChild(chip);
+      };
+      Object.keys(activeTypes).forEach(function (v) {
+        addChip(v, activeTypes, typeContainer);
+      });
+      Object.keys(activeCountries).forEach(function (v) {
+        addChip(v, activeCountries, countryContainer);
+      });
     }
   }
 
