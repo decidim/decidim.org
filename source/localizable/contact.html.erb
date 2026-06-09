@@ -4,21 +4,21 @@ description:
 ---
 
 <section>
-  <div class="container pt-12 pb-6 md:pt-24 md:pb-12">
-    <div class="md:w-3/5 space-y-6">
-      <h1 class="h1 md:whitespace-nowrap">
+  <div class="container pt-10 md:pt-16 md:pb-24">
+    <div class="md:w-3/5">
+      <h1 class="h1 md:text-6xl md:whitespace-nowrap">
         <%= t("contact.title") %>
       </h1>
-      <p class="par-xl text-gray-500">
-        <%= t("contact.subtitle") %>&nbsp;<a class="underline" href="mailto:hola@decidim.org">hola@decidim.org</a>
+      <p class="par-xl text-black pt-5">
+        <%= t("contact.subtitle") %>&nbsp;<a class="text-red-500" href="mailto:hola@decidim.org">hola@decidim.org</a>
       </p>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="container container pt-6 pb-12 md:pt-20 md:pb-32">
-    <form class="flex flex-col space-y-6 md:w-1/2" method="post" action="/redirect/?page=/thanks" name="contact-en" netlify-honeypot="bot-field" data-netlify="true">
+  <div class="container py-10 md:pt-0 md:pb-16">
+    <form class="flex flex-col space-y-6 md:w-3/4" method="post" action="/redirect/?page=/thanks" name="contact-en" netlify-honeypot="bot-field" data-netlify="true">
       <p class="hidden" hidden>
         <label><%= t('contact.bot_field') %> <input name="bot-field" /></label>
       </p>
@@ -34,32 +34,39 @@ description:
         </span>
         <input id="email" name="email" type="email" required>
       </label>
-      <label for="reason" class="form-input">
-        <span>
-          <%= t("contact.reason") %>
-        </span>
+      <div class="form-input">
+        <span><%= t("contact.reason") %></span>
+        <div class="absolute right-5 md:right-4 top-[2.8rem] pointer-events-none">
+          <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 text-black" %>
+        </div>
         <select id="reason" name="reason" required>
           <option value="" selected disabled><%= t("contact.reasons.selected") %></option>
-          <option value="installing"><%= t("contact.reasons.installing") %></option>
-          <option value="service_provider"><%= t("contact.reasons.service_provider") %></option>
-          <option value="community"><%= t("contact.reasons.community") %></option>
-          <option value="researcher"><%= t("contact.reasons.researcher") %></option>
-          <option value="other"><%= t("contact.reasons.other") %></option>
+          <option value="<%= t("contact.reasons.installing") %>"><%= t("contact.reasons.installing") %></option>
+          <option value="<%= t("contact.reasons.service_provider") %>"><%= t("contact.reasons.service_provider") %></option>
+          <option value="<%= t("contact.reasons.community") %>"><%= t("contact.reasons.community") %></option>
+          <option value="<%= t("contact.reasons.researcher") %>"><%= t("contact.reasons.researcher") %></option>
+          <option value="<%= t("contact.reasons.other") %>"><%= t("contact.reasons.other") %></option>
         </select>
-      </label>
-      <label for="message" class="form-input">
-        <span>
+      </div>
+     <label for="message" class="form-input">
+        <div class="absolute top-0 left-0 right-0 px-5 md:px-4 pt-2 pb-2 bg-gray-100 rounded-t-lg border-gray-300 z-10 uppercase par-sm font-semibold">
           <%= t("contact.message") %>
-        </span>
-        <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+        </div>
+        <textarea id="message" name="message" cols="30" rows="10" required class="pt-12"></textarea>
       </label>
-      <label for="accept_privacy_policy" class="flex flex-row-reverse gap-x-2 hover:cursor-pointer">
-        <span class="prose"><%= I18n.t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></span>
-        <input type="checkbox" id="accept_privacy_policy" name="accept_privacy_policy" required/>
-      </label>
-      <%= t('contact.privacy_policy.message') %>
+      <div class="flex flex-row">
+        <div for="accept_privacy_policy" class="flex flex-row-reverse gap-x-2 hover:cursor-pointer">
+          <span class="prose"><%= I18n.t('contact.privacy_policy.accept', privacy_policy_url: "#{t(:path)}/privacy-policy") %></span>
+          <div class="flex items-center">
+            <input type="checkbox" id="accept_privacy_policy" name="accept_privacy_policy" required/>
+          </div>
+        </div>
+      </div>
+      <div class="par-sm text-gray-500 prose">
+        <%= t('contact.privacy_policy.message') %>
+      </div>
       <div class="par-md">
-        <button type="submit" class="button"><%= t("contact.send") %></button>
+        <button type="submit" class=" w-full sm:w-auto px-4 py-3 justify-center flex items-center text-red-500 bg-white hover:text-red-500 rounded-xl transition outline outline-1 outline-offset-[-1px] hover:outline-0 outline-red-500 hover:bg-red-100"><%= t("contact.send") %></button>
       </div>
     </form>
   </div>
