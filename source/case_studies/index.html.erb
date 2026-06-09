@@ -19,18 +19,18 @@ nav: case_studies
 </section>
 
 <div class="container pb-6">
-  <div class="flex flex-col md:flex-row gap-3 items-start">
+  <div class="flex flex-row gap-3 items-start pt-5">
     <div class="relative flex-1">
       <label class="sr-only" for="cs-search"><%= t("modules.placeholder") %></label>
       <input id="cs-search" data-cs-search class="bg-gray-50 border border-gray-300 rounded-xl w-full py-3 pl-9 pr-3 par-sm relative placeholder:text-gray-500 text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>" aria-label="<%= t('modules.placeholder') %>">
       <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 left-3 w-5 h-5" %>
     </div>
     <div class="relative" data-cs-filter-dropdown>
-      <button type="button" data-cs-filter-toggle class="flex items-center gap-2 bg-white border border-red-500 rounded-xl py-3 px-4 par-sm text-red-500 hover:bg-gray-50 transition-colors whitespace-nowrap">
-        <%= icon "ri-equalizer-line", class: "w-4 h-4" %>
-        <%= t("case_studies.filters") %>
+      <button type="button" data-cs-filter-toggle class="flex items-center gap-2 bg-white border border-red-500 rounded-xl md:py-3 md:px-4 py-3 px-3 par-sm text-red-500 hover:bg-gray-50 transition-colors whitespace-nowrap">
+        <%= icon "ri-equalizer-line", class: "w-5 h-5" %>
+        <span class="hidden md:inline"><%= t("case_studies.filters") %></span>
         <span data-cs-filter-badge class="hidden bg-red-500 text-white text-xs rounded-full w-4 h-4 flex justify-center font-medium"></span>
-        <%= icon "ri-arrow-up-s-line", class: "w-4 h-4 transition-transform data-[open]:rotate-180", "data-cs-filter-arrow" => true %>
+        <%= icon "ri-arrow-up-s-line", class: "hidden md:block w-4 h-4 transition-transform data-[open]:rotate-180", "data-cs-filter-arrow" => true %>
       </button>
       <div data-cs-filter-panel class="hidden absolute right-0 z-20 mt-2 w-72 bg-white border border-gray-50 rounded-2xl shadow-lg py-4">
         <div class="px-5 pb-3">
