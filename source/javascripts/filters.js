@@ -170,7 +170,7 @@ const caseStudyFilter = () => {
       chipsEl.innerHTML = "";
       const addChip = (val, map, container) => {
         let chip = document.createElement("span");
-        chip.className = "inline-flex items-center gap-1 bg-white border border-gray-100 bg-gray-100 rounded-lg px-3 py-1 par-sm font-bold text-gray-500";
+        chip.className = "inline-flex items-center gap-1 border border-gray-100 bg-gray-100 rounded-lg px-3 py-1 par-sm font-bold text-gray-500";
         chip.textContent = val;
         let x = document.createElement("button");
         x.innerHTML = "&times;";
