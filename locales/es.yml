@@ -480,6 +480,7 @@ es:
     press: Prensa
     privacy-policy: Política de Privacidad
     supporters: Supporters
+    team: Team
     text: Navegación
     thanks: Gracias por contactarnos
     trademark: Política de marcas comerciales
@@ -590,6 +591,69 @@ es:
       collaborators: 'These are the governments with which we have a Memorandum of Understanding:'
       public: These are the public institutions we collaborate with and that fund our work.
       supporters: 'Other organizations that trust us and from which we have received funding:'
+  team:
+    banner:
+      link: Discover the community
+      subtitle: Here you can meet the institutional supporters and partners that are part of the Decidim universe.
+      title: The Decidim community is even bigger
+    coordination_committee:
+      intro: The Coordination Committee is the governing and representative body of the Decidim Association. In practice, it works as the executive organ that ensures the association runs smoothly and stays aligned with its democratic and participatory mission.
+      title: Coordination Committee
+    intro: The Technical Office and the Coordination Committee are the key actors that manage and represent the Association.
+    members:
+      alejandra_gonzalez:
+        bio: A philosopher-developer, she has spent 9 years implementing civic technology projects with Mexican governments and organising citizen civic hacking communities. In 2019 she was director of Open Government in the Mexico City government where she first implemented Decidim, and has been part of the community ever since. She is currently director of strategy at Codeando México and part of the coordination committee at Decidim.
+        role: Vocal
+      andres_lucena:
+        bio: Andrés Pereira de Lucena is a software developer and systems administrator specializing in free software and technologies for citizen participation. For the past decade, he has worked on the implementation of participatory digital infrastructures with municipal and provincial governments and political organizations in Spain.
+        role: Chief Technology Officer
+      antonio_calleja_lopez:
+        bio: PhD in Sociology from the University of Exeter, DEA in Philosophy from the University of Seville and Master's Degree in Political Science from Arizona State University. He is the coordinator of Tecnopolítica.net at the UOC's IN3 and co-founder of Heuristica.barcelona. He studies the multiple connections between technology, politics and society, from the platformisation of social movements, the public sphere, political parties and the state to the socio-technical construction and governance of data and digital infrastructures. He approaches this from both a descriptive and normative perspective, at the intersection of academic research, technological development, social innovation and political action. He has been a Fulbright scholar, has participated in projects such as Decidim, Decode and D-cent, and has collaborated with media outlets such as El Salto, Eldiario.es, El Periódico and La Vanguardia.
+        role: Vocal
+      ben_gansky:
+        bio: I'm an artist, researcher, and civic engagement designer based in Minneapolis. In my creative work I collide technological artifacts + processes, stories, and humor in intermedia performances. My research deals with how people and organizations come to recognize and negotiate the politics of the digital tools they use. My civic engagement projects combine these interests to create experiences and programs for enlivening the intersection of digital politics and participatory democracy.
+        role: Vocal
+      carla_rocha:
+        bio: Dr Carla Silva Rocha Aguiar is a professor and researcher in Computer Science, specializing in Software Engineering. She is currently a member of the Department of Software Engineering at the University of Brasília (UnB). She boasts prolific research in software engineering, ranging from free software and agile methodologies to project-based teaching strategies. She coordinates the Brasil Participativo collaboration project with the Brazilian Federal Government. She has been actively involved in the free software community, fostering its growth and development. Founded the program "Big Open Source Siblings”, awarded by Gnome Engagement Challenge, which aims to reach underrepresented groups in tech who want to be mentored and assisted in learning how to work on open-source projects.
+        role: Vocal
+      carolina_romero:
+        bio: Carol Romero is a technologist with over 20 years of experience in digital innovation, open government, and citizen participation. Cofounder of Decidim, she is currently the project's Product Director.
+        role: Product Owner
+      david_igon:
+        bio: He works as a free software developer at PokeCode. He has been a member of the Decidim community since he began working there. He has always been involved in participation, co-operativism and free software.
+        role: Treasurer
+      elsa_boloix:
+        bio: Elsa is in charge of coordinating the communication and the Decidim community. She focuses on designing and implementing communication campaigns, creating engaging content, connecting the community and disseminating all about the Decidim ecosystem, use cases and Metadecidim. With experience in internal and external communication and creative transmedia work, she also coordinates the production and organisation of the Decidim Fest.
+        role: Communication & Community
+      julieta_pasetti:
+        bio: Visual communication and UX/UI designer, responsible for proposing designs, contributing creativity, and transforming ideas into dynamic and participatory interfaces, combining aesthetics and usability so that each interaction improves citizen participation.
+        role: UX/UI designer
+      maite_orellana:
+        bio: Maite is responsible for tasks related to administration, finance, human resources, and project and grant management, working closely with the Executive Management. She has previous experience in marketing, financial management and control, and human resources, both in for-profit and non-profit organizations.
+        role: Administration and HR
+      marta_anducas:
+        bio: Marta learned computer engineering at the UPF in Barcelona, participation in the Andean and Amazonian communities of Peru, creativity in her own search, and feminism in the oppression of psychological abuse. In 2019, her paths converged in Platoniq, an organisation where Creativity and Democracy coincide.
+        role: President
+      nil_homedes_busquets:
+        bio: Political scientist specializing in public policy, democratic participation, and technological sovereignty. He is currently the Director of the Technical Office at the Decidim Association and a member of Decidim's Product Team.
+        role: Executive Director
+      pauline_bessoles:
+        bio: Pauline Bessoles is an active member of the Decidim Association, where she contributes to the democratic governance of the project and the sustainability of the platform as a digital common. With a background in deploying Decidim in public institutions, she brings both hands-on experience and a strong commitment to participatory democracy. She currently works at XWiki SAS, a long-standing free software company, editor of XWiki and Cryptpad, where she continues to support open and collaborative digital infrastructures.
+        role: Vocal
+      tom_greenwood:
+        bio: A software developer originating from London, Tom works within the technical office. With a background in commercials in the artificial intelligence space, he switched careers in 2022 opting to better understand how to build software. After graduating from a Ruby on Rails focused Web Development program at Le Wagon, he is now involved in maintaining the Decidim application codebase and organising monthly global Developers community meet ups. In his spare time he is a keen rock climber, with a love for cats.
+        role: Junior Developer
+      txema_laullon:
+        bio: Txema is a member of the Decidim Association Coordination Committee.
+        role: Secretary
+      xabier_barandiaran:
+        bio: Xabier Barandiaran is a philosopher, engaged in the intersection of social practices, biological and cognitive sciences and technopolitics. He is developing an interdisciplinary approach bringing together insights from philosophy of mind, artificial life, neuroscience and social science, while actively involved in hacktivism, the reproduction of the knowledge commons and participatory democracy. He is a lecturer in philosophy at the University of the Basque Country and a researcher at IAS-Research Centre for Life, Mind, and Society. He is also co-founder of several social innovation initiatives such as Wikitoki, FLOK Society and Decidim. His academic and activist career has taken him to work in Spain, the UK, France, Sweden and Austria, with a PhD on the autonomy of cognitive agents and a strong involvement in the design of digital infrastructures for democracy, notably as director of democratic innovation at Barcelona City Council from 2016 to 2018.
+        role: Vocal
+    subtitle: We're a group of people who believe technology built in the open, by the people, can transform how societies participate and make decisions together.
+    technical_office:
+      intro: The professional team that works for the Decidim Association and handle the daily tasks of the project.
+      title: Technical Office
+    title: The Team
   testimonials:
     n1:
       org: Ayuntamiento de Barcelona (2015-2019)
