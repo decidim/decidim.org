@@ -175,7 +175,7 @@ const caseStudyFilter = () => {
         let x = document.createElement("button");
         x.innerHTML = "&times;";
         x.setAttribute("aria-label", `Remove ${val}`);
-        x.className = "ml-1 text-gray-400 hover:text-gray-700 leading-none";
+        x.className = "pl-1 text-2xl font-bold text-gray-400 hover:text-gray-700 leading-none";
         x.addEventListener("click", function () {
           Reflect.deleteProperty(map, val);
           container.querySelectorAll("input").forEach(function (cb) {
