@@ -9,14 +9,14 @@
         data-type="<%= cs.type.to_s %>"
         data-country="<%= cs.country.to_s %>">
     <div class="overflow-hidden rounded-t-lg bg-gray-300">
-      <img class="w-full aspect-[2/1] object-cover" src="<%= cs.gallery.first.image %>" alt="<%= cs.gallery.first.alt.present? ? cs.gallery.first.alt : cs.title %>">
+      <img class="w-full h-full aspect-[2/1] object-cover" src="<%= cs.gallery.first.image %>" alt="<%= cs.gallery.first.alt.present? ? cs.gallery.first.alt : cs.title %>">
     </div>
     <div class="flex gap-2 flex-wrap px-6 pt-4">
       <% if cs.type.present? %>
-        <span class="text-xs bg-red-100 text-red-500 rounded px-3 py-1"><%= cs.type %></span>
+        <span class="text-xs bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.type %></span>
       <% end %>
       <% if cs.country.present? %>
-        <span class="text-xs bg-red-100 text-red-500 rounded px-3 py-1"><%= cs.country %></span>
+        <span class="text-xs bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.country %></span>
       <% end %>
     </div>
     <h5 class="h5 py-3 px-6"><%= cs.title %></h5>
