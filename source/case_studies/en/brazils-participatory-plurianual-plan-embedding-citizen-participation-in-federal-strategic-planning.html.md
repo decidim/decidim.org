@@ -15,8 +15,6 @@ components_used:
   - Assemblies
   - Blog
 country: Brazil
-process_title: Participatory processes
-process_subtitle: "The participatory process for the Plan Plurianual 2024-2027 was the most extensive and complex ever undertaken at the federal level in Brazil. Its objective was to effectively incorporate citizens' priorities into the definition of national public policies for the 2024-2027 period. Through digital and in-person mechanisms, citizens were able to submit proposals, debate them, vote on them and prioritise them, contributing directly to the final content of the Plan. In total, 8,254 citizen proposals were collected, of which 76% were incorporated in whole or in part. The PPA is structured around six national strategic priorities and 88 programmes that guide the Federal Government's action: I – Fighting hunger and reducing inequality  II – Basic education  III – Health: primary and specialised care  IV – New Growth Acceleration Programme (New PAC)  V – Neo-industrialisation, work, employment and income  VI – Combating deforestation and responding to the climate emergency Citizen proposals were evaluated by technical teams, prioritised through public voting and finally integrated into the PPA programmes, ensuring traceability between social participation and government planning. The phases were structured into a process that activated different components and functionalities of Decidim in each case:"
 results_title: ''
 budget: null
 proposals_submitted:
@@ -36,6 +34,8 @@ description: |-
   In January 2023, President Luiz Inácio Lula da Silva promoted the reactivation of social participation as a central axis of government action, committing to more democratic, inclusive and transparent public planning. In this context, the development of the PPA 2024-2027 was proposed as a process open to citizens, combining traditional participation mechanisms with digital tools with national reach.
 
   To enable this large-scale participation, the Federal Government launched [Brasil Participativo](https://brasilparticipativo.presidencia.gov.br/) as a unified digital channel, allowing the participatory processes associated with the PPA to be concentrated in a single space.  The platform was developed using the free software Decidim and hosted by Dataprev, with the support of the Ministry of Management and Innovation in Public Services through the ColaboraGov program. Since its creation, it has been managed by the National Secretariat for Social Participation, within the General Secretariat of the Presidency of Brazil, in partnership with the Laboratório de Competência em Software Livre (LabLivre) at the University of Brasília (UnB), which is responsible for its technical development and maintenance.
+process_title: Participatory processes
+process_subtitle: "The participatory process for the Plan Plurianual 2024-2027 was the most extensive and complex ever undertaken at the federal level in Brazil. Its objective was to effectively incorporate citizens' priorities into the definition of national public policies for the 2024-2027 period. Through digital and in-person mechanisms, citizens were able to submit proposals, debate them, vote on them and prioritise them, contributing directly to the final content of the Plan. In total, 8,254 citizen proposals were collected, of which 76% were incorporated in whole or in part. The PPA is structured around six national strategic priorities and 88 programmes that guide the Federal Government's action: I – Fighting hunger and reducing inequality  II – Basic education  III – Health: primary and specialised care  IV – New Growth Acceleration Programme (New PAC)  V – Neo-industrialisation, work, employment and income  VI – Combating deforestation and responding to the climate emergency Citizen proposals were evaluated by technical teams, prioritised through public voting and finally integrated into the PPA programmes, ensuring traceability between social participation and government planning. The phases were structured into a process that activated different components and functionalities of Decidim in each case:"
 phases:
   - title: Development of the Strategic Framework
     count_label: (March to April 2023)
@@ -110,8 +110,7 @@ optional_section_3: |-
   - Exploring the responsible use of artificial intelligence to support citizens in drafting proposals and to assist public institutions in analyzing contributions, identifying priorities, and improving resource allocation. 
   - Launch of a Software-as-a-Service (SaaS) version tailored for subnational governments, enabling states and municipalities, that are closer to citizens’ everyday needs, to more easily deploy and manage their own digital participation platforms.
   - The development of conversational participation flows based on the understanding lowering cognitive and procedural barriers is essential to engage citizens who are not accustomed to navigating institutional platforms. In a context where mobile messaging apps are the primary digital environment for millions of Brazilians, embedding participation within familiar conversational interfaces significantly reduces friction in onboarding, authentication, and proposal submission.
-testimonial_link: https://www.youtube.com/watch?v=gTImfgUw6v4
-testimonial_link_text: President’s speech presenting the participatory process
+testimonial: <iframe width="560" height="315" src="https://www.youtube.com/embed/gTImfgUw6v4?si=lvGKUQtGH0_arYpe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 partners:
   - logo: /uploads/images.png
     name: LabLivre
@@ -130,4 +129,6 @@ partners:
   - logo: /uploads/Dataprev_logo_new_349x175.2e16d0ba.fill-279x140.png
     name: Dataprev
 collaboration_text: This use case has been written in collaboration with the Secretaria-Geral da Presidência da República, Cidade Democratica, University of Brasilia and LabLivre
+testimonial_link_text: President’s speech presenting the participatory process
+testimonial_link: https://www.youtube.com/watch?v=gTImfgUw6v4
 ---
