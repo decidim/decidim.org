@@ -278,7 +278,7 @@
           <div class="md:text-[32px] text-3xl font-bold text-red-500 md:pb-6 pb-5">
             <%= markdown(current_page.data.banner_subtitle) %>
           </div>
-          <div class="par-md text-red-500 prose prose-strong:text-red-500 max-w-none pb-4">
+          <div class="par-md text-red-500 prose prose-strong:text-red-500 prose-a:text-red-500 max-w-none pb-4">
             <%= markdown(current_page.data.banner) %>
           </div>
         </div>
@@ -326,7 +326,7 @@
           <p class="text-[32px] font-bold md:nowrap pb-5 md:pb-4">
             <%= t("case_studies.testimonial") %>
           </p>
-          <div class="prose prose-li:marker:text-black par-md max-w-none text-black">
+          <div class="prose prose-li:marker:text-black prose-a:text-red-500 par-md max-w-none text-black">
             <%= markdown(current_page.data.testimonial) %>
           </div>
         </div>
