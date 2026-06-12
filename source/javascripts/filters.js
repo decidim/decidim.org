@@ -200,7 +200,8 @@ const caseStudyFilter = () => {
   // Pagination
   const renderPagination = (totalPages) => {
     if (!paginationEl) {
-      return;}
+      return;
+    }
     paginationEl.innerHTML = "";
     if (totalPages <= 1) {
       paginationEl.classList.add("hidden");
@@ -208,14 +209,14 @@ const caseStudyFilter = () => {
     }
     paginationEl.classList.remove("hidden");
 
-    let base     = "px-4 py-2 rounded-lg par-sm font-medium border transition-colors";
-    let active   = `${base} bg-red-500 text-white border-red-500`;
-    let inactive = `${base} bg-white text-gray-700 border-gray-300 hover:bg-gray-50`;
-    let disabled = `${base} bg-white text-gray-300 border-gray-200 cursor-not-allowed`;
+    const activePage  = "w-9 h-9 rounded-full bg-red-100 text-red-500 font-semibold text-sm flex items-center justify-center";
+    const inactivePage = "w-9 h-9 rounded-full text-red-500 font-medium text-sm flex items-center justify-center hover:bg-gray-100 transition-colors";
+    const nextBtn     = "flex items-center gap-2 px-5 py-2 rounded-lg border-2 border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors ml-3";
+    const prevBtn     = "flex items-center gap-2 px-5 py-2 rounded-lg border-2 border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors mr-3";
 
     const btn = (label, ariaLabel, onClick, cls) => {
-      let b = document.createElement("button");
-      b.textContent = label;
+      const b = document.createElement("button");
+      b.innerHTML = label;
       b.setAttribute("aria-label", ariaLabel);
       b.className = cls;
       if (onClick) {
@@ -224,54 +225,46 @@ const caseStudyFilter = () => {
         b.disabled = true;
       }
       paginationEl.appendChild(b);
+    };
+
+    // Prev button — only show if not on page 1
+    if (currentPage > 1) {
+      btn("Prev <i class=\"ri-arrow-left-line text-xl\"></i>", "Previous page", () => {
+        currentPage--;
+        render();
+        scrollToGrid(); }, prevBtn);
     }
 
-    btn("←", "Previous page",
-      currentPage > 1
-        ? function () {
-          currentPage--;
-          render();
-          scrollToGrid(); }
-        : null,
-      currentPage === 1
-        ? disabled
-        : inactive);
-
+    // Page numbers
     const pageWindow = new Set([1, totalPages]);
     for (let i = Math.max(1, currentPage - 2); i <= Math.min(totalPages, currentPage + 2); i++) {
       pageWindow.add(i);
     }
+
     let prev = 0;
-    Array.from(pageWindow).sort((a, b) => a - b).forEach(function (p) {
+    Array.from(pageWindow).sort((a, b) => a - b).forEach((p) => {
       if (p - prev > 1) {
-        let ellipsis = document.createElement("span");
+        const ellipsis = document.createElement("span");
         ellipsis.textContent = "…";
-        ellipsis.className = `${base} border-transparent text-gray-400 cursor-default`;
+        ellipsis.className = "w-9 h-9 flex items-center justify-center text-gray-400 text-sm";
         paginationEl.appendChild(ellipsis);
       }
       btn(p, `Page ${p}`,
-        p !== currentPage
-          ? function () { currentPage = p;
-            render();
-            scrollToGrid(); }
-          : null,
-        p === currentPage
-          ? active
-          : inactive);
+        p !== currentPage ? () => { currentPage = p; render(); scrollToGrid(); } : null,
+        p === currentPage ? activePage : inactivePage
+      );
       prev = p;
     });
 
-    btn("→", "Next page",
-      currentPage < totalPages
-        ? function () {
-          currentPage++;
-          render();
-          scrollToGrid(); }
-        : null,
-      currentPage === totalPages
-        ? disabled
-        : inactive);
-  }
+    // Next button
+    if (currentPage < totalPages) {
+      btn("Next <i class=\"ri-arrow-right-line text-xl\"></i>", "Next page", () => {
+        currentPage++;
+        render();
+        scrollToGrid(); },
+      nextBtn);
+    }
+  };
 
   // Render
   const render = () => {
