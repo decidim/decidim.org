@@ -320,13 +320,15 @@
   </section>
 
   <section>
-    <% if current_page.data.testimonial_link.present? %>
+    <% if current_page.data.testimonial.present? %>
       <div class="container pb-10 md:py-10">
         <div class="max-w-[791px]">
           <p class="text-[32px] font-bold md:nowrap pb-5 md:pb-4">
             <%= t("case_studies.testimonial") %>
           </p>
-          <%= partial "partials/arrow-link", locals: { url: current_page.data.testimonial_link, text: current_page.data.testimonial_link_text.present? ? current_page.data.testimonial_link_text : current_page.data.testimonial_link, classes: "text-red-500 block underline", span_classes: "par-md", icon_classes: "w-4 h-4", icon_name: "ri-external-link-line" } %>
+          <div class="prose prose-li:marker:text-black par-md max-w-none text-black">
+            <%= markdown(current_page.data.testimonial) %>
+          </div>
         </div>
       </div>
     <% end %>

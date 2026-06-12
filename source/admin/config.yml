@@ -118,8 +118,7 @@ collections:
       - {label: "Optional Section 2", name: "optional_section_2", widget: "markdown", required: false}
       - {label: "Optional Section 3 Title", name: "optional_section_3_title", widget: "string", required: false}
       - {label: "Optional Section 3", name: "optional_section_3", widget: "markdown", required: false}
-      - {label: "Testimonial Link", name: "testimonial_link", widget: "string", required: false}
-      - {label: "Testimonial Link Text", name: "testimonial_link_text", widget: "string", required: false, hint: "Leave blank to use the URL as link text"}
+      - {label: "Testimonial", name: "testimonial", widget: "markdown", required: false, hint: "Add testimonial content with links, embedded videos, or other rich content"}
       - label: "Partners"
         name: "partners"
         widget: "list"
