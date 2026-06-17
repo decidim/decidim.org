@@ -32,15 +32,15 @@ You can access to the development web with http://localhost:4567/
 
 ## Sevilta CMS
 
-You can access the Sevilta CMS admin via http://localhost:4567/admin/
+You can access the Sevilta CMS admin at http://localhost:4567/admin/
 
-You can test the Sevilta CMS via access through a local environment.
+You can test the Sevilta CMS locally with:
 
 ```bash
 npx netlify-cms-proxy-server
 ```
 
-You need to have the middleman server running along side this command.
+You need to have the middleman server running alongside this command.
 
 ## Translations
 
