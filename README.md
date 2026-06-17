@@ -42,8 +42,6 @@ npx netlify-cms-proxy-server
 
 You need to have the middleman server running along side this command.
 
-NOTE: Access to changes to this environment are only accessbile via Google Chrome.
-
 ## Translations
 
 You can help us with translations to your locale. For doing so, you can:
