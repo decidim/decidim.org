@@ -75,7 +75,7 @@ const caseStudyFilter = () => {
       cb.checked = Boolean(activeMap[val]);
       cb.className = "rounded border-gray-300 text-red-500 focus:ring-red-400 w-4 h-4 cursor-pointer";
       cb.addEventListener("change", function () {
-        if (this.checked) {
+        if (cb.checked) {
           activeMap[val] = true; }
         else {
           Reflect.deleteProperty(activeMap, val);
@@ -117,11 +117,17 @@ const caseStudyFilter = () => {
     }
   });
 
+  const clearMap = (map) => {
+    Object.keys(map).forEach((key) => {
+      Reflect.deleteProperty(map, key);
+    });
+  };
+
   // Clear filters
   if (clearBtn) {
     clearBtn.addEventListener("click", function () {
-      activeTypes = {};
-      activeCountries = {};
+      clearMap(activeTypes);
+      clearMap(activeCountries);
       if (searchInput) {
         searchInput.value = "";
       }
@@ -214,7 +220,7 @@ const caseStudyFilter = () => {
     const nextBtn     = "flex items-center gap-2 px-5 py-2 rounded-lg border-2 border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors ml-3";
     const prevBtn     = "flex items-center gap-2 px-5 py-2 rounded-lg border-2 border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors mr-3";
 
-    const btn = (label, ariaLabel, onClick, cls) => {
+    const btn = ({ label, ariaLabel, onClick, cls }) => {
       const b = document.createElement("button");
       b.innerHTML = label;
       b.setAttribute("aria-label", ariaLabel);
