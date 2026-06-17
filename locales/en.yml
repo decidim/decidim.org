@@ -5,6 +5,25 @@ en:
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
+    association:
+      become_member:
+        description: Be part of the Association and participate in the project governance.
+        icon: ri-user-add-line
+        title: Want to become a member?
+        url: https://meta.decidim.org/assemblies/QuieroSerSocia?locale=en
+        url_name: Let us know
+      media_kit:
+        description: Looking for info? Check our press section.
+        icon: ri-tools-fill
+        title: Media kit
+        url: https://decidim.org/blog/
+        url_name: Press
+      support_us:
+        description: Contribute to the commons and the sustainability of Decidim.
+        icon: ri-hand-heart-line
+        title: Want to support us?
+        url: https://opencollective.com/decidim/donate?interval=oneTime&amount=1000&name=&legalName=&email=
+        url_name: Make a donation
     bottom_section:
       button: Let's talk about your project
       subtitle: We can help you with every step of using Decidim’s product, from participatory design to learning how to install Decidim.Have a collaboration idea? We'd love to hear about it.
