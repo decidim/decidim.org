@@ -19,8 +19,8 @@
         <span class="text-xs bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.country %></span>
       <% end %>
     </div>
-    <h5 class="h5 py-3 px-6"><%= cs.title %></h5>
-    <p class="par-md text-gray-500 px-6 pb-4 flex-1"><%= cs.subtitle %></p>
-    <%= partial "partials/arrow-link", locals: { text: t("case_studies.read"), url: resource.url, classes: "text-red-500 mt-auto block pl-6" } %>
+    <h5 class="h5 pt-4 px-6 line-clamp-2"><%= cs.title %></h5>
+    <p class="par-md pt-4 text-gray-500 px-6 line-clamp-3"><%= cs.subtitle %></p>
+    <%= partial "partials/arrow-link", locals: { text: t("case_studies.read"), url: resource.url, classes: "text-red-500 mt-auto block pl-6 pt-4" } %>
   </div>
 <% end %>
