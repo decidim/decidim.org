@@ -34,7 +34,6 @@ description:
   </div>
 </section>
 
-
 <section class="bg-red-100">
   <div class="container flex md:flex-row flex-col justify-start items-stretch gap-5 py-12 md:py-16">
     <div class="md:w-1/2">
@@ -86,9 +85,38 @@ description:
 </section>
 
 <section>
-  <div class="container pt-5">
-    <h2 class="h2"><%= t("about.recognition.title") %></h2>
-    <p class="par-md text-black py-5"><%= t("about.recognition.subtitle") %></p>
+  <div class="container py-5">
+    <h2 class="h2"><%= t("about.recognitions.title") %></h2>
+    <p class="par-md text-black py-5"><%= t("about.recognitions.subtitle") %></p>
+    <div class="flex flex-col divide-y divide-gray-300">
+      <div class="grid grid-cols-[auto_1fr_auto_2fr] items-center gap-6 py-5">
+        <img src="/images/dpga_icon.svg" alt="Digital Public Good logo" class="h-24 w-32" />
+        <h5 class="h5">Digital Public Good</h5>
+        <div class="par-lg border border-y-0 px-5">2023</div>
+        <div class="par-lg"><%= t("about.recognitions.public_good") %></div>
+      </div>
+
+      <div class="grid grid-cols-[auto_1fr_auto_2fr] items-center gap-6 py-5">
+        <img src="/images/nten_icon.svg" alt="Pizzigati Prize logo" class="h-24 w-32" />
+        <h5 class="h5">Pizzigati Prize</h5>
+        <div class="par-lg border border-y-0">2025</div>
+        <div class="par-lg"><%= t("about.recognitions.pizzigati_prize") %></div>
+      </div>
+
+      <div class="grid grid-cols-[auto_1fr_auto_2fr] items-center gap-6 py-5">
+        <img src="/images/osor_icon.svg" alt="OSOR logo" class="h-24 w-32" />
+        <h5 class="h5">OSOR Award</h5>
+        <div class="par-lg border border-y-0">2023</div>
+        <div class="par-lg"><%= t("about.recognitions.osor_award") %></div>
+      </div>
+
+      <div class="grid grid-cols-[auto_1fr_auto_2fr] items-center gap-6 py-5">
+        <img src="/images/sharing_&_reuse_icon.svg" alt="Sharing & Reuse logo" class="h-24 w-32" />
+        <h5 class="h5">Sharing & Reuse</h5>
+        <div class="par-lg border border-y-0">2019</div>
+        <div class="par-lg"><%= t("about.recognitions.sharing_reuse") %></div>
+      </div>
+    </div>
   </div>
 </section>
 
