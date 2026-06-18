@@ -5,6 +5,19 @@ en:
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
+    history:
+      title: Our history in a nutshell
+      timeline:
+        - year: "2011"
+          above: "All started with the 15M movement and the convergence of earlier hacktivists, autonomous and democratic activism in Spain and the rise of the technopolitical cycle."
+        - year: "2016"
+          below: "In Barcelona, in early 2016, a fork of Consul, the participatory platform of the Madrid City Council, was used to power up the site decidim.barcelona, the new digital venue for participatory processes in the city council."
+        - year: "2017"
+          above: "Technopolitical differences in vision and practice between the city council democratic innovation teams brought about a split between the two cities; as a result, Decidim was launched in early 2017 as a brand-new software with a more modular and co-developable architecture."
+        - year: "2019"
+          below: "In 2019 the Decidim Free Software Association was constituted and an agreement with the Barcelona City Council was signed, ceding to the Association the maintenance of the code base. This makes Decidim a public-common project."
+        - year: "2025"
+          above: "Until now, over 450 cities and organisations globally have embraced Decidim. And the Decidim Association has been growing as an international leader in democratic technologies and open source software."
     association:
       become_member:
         description: Be part of the Association and participate in the project governance.
