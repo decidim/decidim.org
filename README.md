@@ -30,11 +30,20 @@ bin/devcontainer bundle exec middleman s
 
 You can access to the development web with http://localhost:4567/
 
-## Sevilta CMS
+## Sveltia CMS
 
-You can access the Sevilta CMS admin at http://localhost:4567/admin/
+You can access the Sveltia CMS admin at http://localhost:4567/admin/
 
-You can test the Sevilta CMS locally with:
+If you wish to create or edit a form in Sveltia and test locally, make sure to configure your feature branch in the `source/admin/config.yml` file for example:
+
+```
+backend:
+  name: github
+  repo: decidim/decidim.org
+  branch: YOUR_BRANCH_NAME
+```
+
+You can test the Sveltia CMS with a local proxy server using:
 
 ```bash
 npx netlify-cms-proxy-server
