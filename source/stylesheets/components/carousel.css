@@ -1,0 +1,17 @@
+.scroll-gallery__item {
+  width: 389px;
+  height: 259px;
+  min-width: 389px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.5rem;
+  display: block;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .scroll-gallery__item {
+    width: 414px;
+    height: 425px;
+  }
+}
