@@ -9,7 +9,12 @@
         data-type="<%= cs.type.to_s %>"
         data-country="<%= cs.country.to_s %>">
     <div class="overflow-hidden rounded-t-lg bg-gray-300">
-      <img class="w-full h-full aspect-[2/1] object-cover" src="<%= cs.gallery.first.image %>" alt="<%= cs.gallery.first.alt.present? ? cs.gallery.first.alt : cs.title %>">
+      <% gallery_image = cs.gallery&.first %>
+        <% if gallery_image %>
+            <img class="w-full h-full aspect-[2/1] object-cover" src="<%= gallery_image.image %>" alt="<%= gallery_image.alt.present? ? gallery_image.alt : cs.title %>">
+          <% else %>
+            <img class="w-full h-full aspect-[2/1] object-cover" src="/images/placeholder.jpg" alt="<%= cs.title %>">
+        <% end %>
     </div>
     <div class="flex gap-2 flex-wrap px-6 pt-4">
       <% if cs.type.present? %>
