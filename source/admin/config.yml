@@ -10,7 +10,7 @@ local_backend: true
 backend:
   name: github
   repo: decidim/decidim.org
-  branch: inuse/case-studies
+  branch: main
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
