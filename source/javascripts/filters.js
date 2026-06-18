@@ -1,3 +1,9 @@
+/**
+ * Manages filtering and pagination for pages that need to utilise filtering.
+ * Handles search, type filters, pagination, and active filter pills under the search.
+ * Initializes on DOM ready or immediately if document is already loaded.
+ */
+
 const caseStudyFilter = () => {
   const CARDS_PER_PAGE = 6;
   const grid = document.getElementById("cs-grid");
