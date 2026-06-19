@@ -38,13 +38,13 @@ description:
   <div class="container flex md:flex-row flex-col justify-start items-stretch gap-5 py-12 md:py-16">
     <div class="md:w-1/2">
       <h2 class="h2 text-red-500"><%= t("about.mission.title") %></h2>
-      <p class="par-md text-red-500 pt-4"><%= t("about.mission.subtitle") %></p>
+      <p class="par-md text-red-500 pt-4"><%= t("about.mission.subtitle").html_safe %></p>
     </div>
     <div class="md:w-1/2">
       <h2 class="h2 text-red-500"><%= t("about.vision.title") %></h2>
       <div class="pl-4">
-        <li class="par-md text-red-500 pt-4"><%= t("about.vision.subtitle_1") %></li>
-        <li class="par-md text-red-500 pt-4"><%= t("about.vision.subtitle_2") %></li>
+        <li class="par-md text-red-500 pt-4"><%= t("about.vision.subtitle_1").html_safe %></li>
+        <li class="par-md text-red-500 pt-4"><%= t("about.vision.subtitle_2").html_safe %></li>
       </div>
     </div>
   </div>

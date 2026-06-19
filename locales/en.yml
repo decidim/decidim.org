@@ -43,7 +43,7 @@ en:
       title: Our history in a nutshell
     intro: The Decidim Free Software Association is the entity responsible for maintaining the Decidim source code and to foster an active and engaged community around it.
     mission:
-      subtitle: Our mission is to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, and values, in a free, open, collaborative and reflective way.
+      subtitle: Our mission is to <span class="underline decoration-2">contribute to the democratization of society</span> through the construction of technology, methodologies, practices, standards, and values, in a free, open, collaborative and reflective way.
       title: Mission
     partners:
       cta: You can also check our 2025 Activity Report
@@ -70,8 +70,8 @@ en:
     values_intro: Decidim is a technopolitical project that serves as a public commons infrastructure, combining institutional support with open and free code accessibility. From the beginning, Decidim has a social contract that defines the values of the project.
     values_title: A Technopolitical Project
     vision:
-      subtitle_1: The members of the Decidim Association share the vision of a radically democratic society in which every person takes part among equals in common life.
-      subtitle_2: 'The Association embodies its vision of society in its own governance: it is the community that decides the direction of the Decidim project and makes Decidim a technology of, by and, for all.'
+      subtitle_1: The members of the Decidim Association share the vision of a radically democratic society in which <span class="underline decoration-2">every person takes part among equals in common life.</span>
+      subtitle_2: 'The Association <span class="underline decoration-2">embodies its vision of society in its own governance:</span> it is the community that decides the direction of the Decidim project and makes Decidim a technology of, by and, for all.'
       title: Vision
   alert:
     button: Join
