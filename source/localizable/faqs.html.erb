@@ -18,23 +18,27 @@ description:
 
 <section>
   <div class="container pt-6 pb-12 md:pt-16 md:pb-32 space-y-16">
-  <% data.faqs.types.each do |name, type| %>
-    <% questions = t("faqs.questions").select {|key, question| type.questions.include? key.to_s } %>
-    <% if questions.length > 0 %>
-      <div class="space-y-4">
-        <div class="flex items-end space-x-2">
-          <h6 class="h6 bg-black text-white px-4 py-2 rounded-xl"><%= t("faqs.types.#{name}") %></h6>
-          <span class="w-4 h-4 rounded-full bg-black"></span>
-        </div>
-
-        <div class="mt-4 space-y-4" data-accordion="faqs">
-          <% questions.each do |key, item| %>
-            <%= partial "partials/faq-item", locals: { item: item, classes: "bg-gray-100" } %>
-          <% end %>
-        </div>
-      </div>
+    <% data.faqs.types.each do |name, type| %>
+      <% questions = t("faqs.questions").select {|key, question| type.questions.include? key.to_s } %>
+      <% if questions.length > 0 %>
+        <details class="group space-y-4">
+          <summary class="flex items-center space-x-2 cursor-pointer list-none">
+            <h6 class="h6 text-red-500 uppercase px-4 py-2 rounded-xl">
+              <%= t("faqs.types.#{name}") %>
+            </h6>
+            <div class="flex-none relative inline w-5 h-5">
+              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in text-red-500" %>
+              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out text-red-500" %>
+            </div>
+          </summary>
+          <div class="mt-4 space-y-4 group-open:block hidden">
+            <% questions.each do |key, item| %>
+              <%= partial "partials/faq-item", locals: { item: item, classes: "bg-gray-100" } %>
+            <% end %>
+          </div>
+        </details>
+      <% end %>
     <% end %>
-  <% end %>
   </div>
 </section>
 
