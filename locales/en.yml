@@ -710,7 +710,15 @@ en:
     p4: You can request permission by emailing associacio@decidim.org.
     p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
     title: Trademark policy
-  transparency-portal:
+  transparency_portal:
+    intro: 'In compliance with the Law of Transparency we collect in this section the transparency data of the Association.<br>The information you will find in the Transparency Portal is grouped by topics and includes the obligations established in:
+
+      '
+    intro2: 'If you do not find in the portal any information that you think it would be useful to publish, or you have found any incidence, you can send us your suggestions through the mail: associacio@decidim.org
+
+      '
+    l1: Chapter II of
+    l2: Title II of
     subtitle: Welcome to the Decidim Free Software Association Transparency Portal.
     title: Transparency Portal
   used_by:
