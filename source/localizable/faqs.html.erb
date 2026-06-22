@@ -22,8 +22,8 @@ description:
       <% questions = t("faqs.questions").select {|key, question| type.questions.include? key.to_s } %>
       <% if questions.length > 0 %>
         <details class="group space-y-4">
-          <summary class="flex items-center space-x-2 cursor-pointer list-none">
-            <h6 class="h6 text-red-500 uppercase px-4 py-2 rounded-xl">
+          <summary class="flex justify-between items-center space-x-2 cursor-pointer list-none border-b-2 border-red-500">
+            <h6 class="h6 text-red-500 uppercase px-4 pt-2 pb-3 rounded-xl">
               <%= t("faqs.types.#{name}") %>
             </h6>
             <div class="flex-none relative inline w-5 h-5">
@@ -33,7 +33,7 @@ description:
           </summary>
           <div class="mt-4 space-y-4 group-open:block hidden">
             <% questions.each do |key, item| %>
-              <%= partial "partials/faq-item", locals: { item: item, classes: "bg-gray-100" } %>
+              <%= partial "partials/faq-item", locals: { item: item, classes: "border-b border-gray-300" } %>
             <% end %>
           </div>
         </details>

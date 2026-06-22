@@ -1,5 +1,5 @@
 <% if item.is_a?(Hash) %>
-  <div class="p-5 rounded-xl overflow-hidden <%= classes ||= '' %>">
+  <div class="p-5 overflow-hidden <%= classes ||= '' %>">
     <h6 class="h6"><%= item[:question] %></h6>
     <div class="par-md text-black prose max-w-full mt-4">
       <%= item && markdown(item[:answer]) %>
