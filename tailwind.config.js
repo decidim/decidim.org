@@ -56,7 +56,12 @@ module.exports = {
         // duration will vary based on the amount of items
         "slide-y": "slideY 18s cubic-bezier(.19,1,.22,1) calc(2s * var(--translate-ix)) infinite",
       },
+      maxWidth: {
+        content: "791px"
+      }
     },
+  },
+  filters: {
   },
   plugins: [require("@tailwindcss/typography")],
 };
