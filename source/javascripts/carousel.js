@@ -7,20 +7,28 @@
 
 const scrollGallery = function () {
   const galleries = document.querySelectorAll("[data-scroll-gallery]");
-
   galleries.forEach((gallery) => {
+    const track = gallery.querySelector(".animate-slide-x");
 
-    /** @type {boolean} Whether a mouse drag is currently active */
     let isDown = false;
-
-    /** @type {number} X position where the drag started */
     let startX = 0;
-
-    /** @type {number} scrollLeft value at the moment the drag started */
     let scrollLeft = 0;
+
+    const pauseAnimation = () => {
+      if (track) {
+        track.style.animationPlayState = "paused";
+      }
+    };
+
+    const resumeAnimation = () => {
+      if (track) {
+        track.style.animationPlayState = "running";
+      }
+    };
 
     gallery.addEventListener("mousedown", (e) => {
       isDown = true;
+      pauseAnimation();
       gallery.classList.add("cursor-grabbing");
       gallery.classList.remove("cursor-grab");
       startX = e.pageX - gallery.offsetLeft;
@@ -29,12 +37,14 @@ const scrollGallery = function () {
 
     gallery.addEventListener("mouseleave", () => {
       isDown = false;
+      resumeAnimation();
       gallery.classList.remove("cursor-grabbing");
       gallery.classList.add("cursor-grab");
     });
 
     gallery.addEventListener("mouseup", () => {
       isDown = false;
+      resumeAnimation();
       gallery.classList.remove("cursor-grabbing");
       gallery.classList.add("cursor-grab");
     });
@@ -50,6 +60,7 @@ const scrollGallery = function () {
     });
 
     gallery.addEventListener("touchstart", (e) => {
+      pauseAnimation();
       startX = e.touches[0].pageX - gallery.offsetLeft;
       scrollLeft = gallery.scrollLeft;
     }, { passive: true });
@@ -58,7 +69,10 @@ const scrollGallery = function () {
       const x = e.touches[0].pageX - gallery.offsetLeft;
       gallery.scrollLeft = scrollLeft - (x - startX);
     }, { passive: true });
+
+    gallery.addEventListener("touchend", () => {
+      resumeAnimation();
+    }, { passive: true });
   });
 };
-
 scrollGallery();
