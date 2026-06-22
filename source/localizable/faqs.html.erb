@@ -18,16 +18,16 @@ description:
 
 <section>
   <div class="container pt-6 pb-12 md:pb-32 space-y-16">
-    <div id="faq-sections" class="space-y-16" data-filter>
+    <div id="faq-sections" class="space-y-16 max-w-content" data-filter>
       <div class="relative">
         <input class="bg-gray-50 border border-gray-300 rounded-xl w-full p-3 pl-9 pr-3 par-sm relative placeholder:text-gray-500 text-gray-500" type="text" aria-label="<%= t('modules.placeholder') %>" placeholder="<%= t('modules.placeholder') %>">
         <%= icon "ri-search-line", class: "text-gray-500 absolute top-6 -translate-y-1/2 md:pr-1 left-3 w-5 h-5" %>
       </div>
 
-      <% data.faqs.types.each do |name, type| %>
+      <% data.faqs.types.each_with_index do |(name, type), i| %>
         <% questions = t("faqs.questions").select {|key, question| type.questions.include? key.to_s } %>
         <% if questions.length > 0 %>
-          <details class="faq-section group space-y-4">
+          <details class="faq-section group space-y-4" <%= 'open' if i == 0 %>>
             <summary class="flex justify-between items-center space-x-2 cursor-pointer list-none border-b-2 border-red-500">
               <h6 class="h6 text-red-500 uppercase px-4 pt-2 pb-3 rounded-xl">
                 <%= t("faqs.types.#{name}") %>
