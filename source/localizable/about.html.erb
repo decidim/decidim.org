@@ -100,7 +100,7 @@ description:
             <% end %>
             <% if item[:below].present? %>
               <div class="absolute left-2 right-2" style="top: 300px;">
-                <p class="text-sm leading-relaxed m-0 pt-4"><%= item[:below] %></p>
+                <p class="text-sm leading-relaxed m-0 pt-4"><%= item[:below].html_safe %></p>
               </div>
             <% end %>
           </div>
