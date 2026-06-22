@@ -55,8 +55,8 @@ description:
     <div data-scroll-gallery class="overflow-hidden rounded-xl cursor-grab">
       <div id="gallery-track" class="flex gap-2 md:gap-5 px-1.5 md:px-2 animate-slide-x" style="--translate-x: -50%">
         <% images = %w[1 2 3 4 5 7] %>
-        <% (images * 2).each do |n| %>
-          <img src="/images/about_carousel_<%= n %>.jpg" alt="" class="scroll-gallery__item">
+        <% (images * 2).each do |foto| %>
+          <img src="/images/about_carousel_<%= foto %>.jpg" alt="" class="scroll-gallery__item">
         <% end %>
       </div>
     </div>
