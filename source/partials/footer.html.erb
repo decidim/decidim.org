@@ -77,7 +77,6 @@
             <% data.links.legal.each do |link| %>
               <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
             <% end %>
-            <%= link_to t("nav.transparency-portal"), transparency_portal_pdf_for_locale(I18n.locale), class: "block" %>
           </nav>
         </details>
       </div>
