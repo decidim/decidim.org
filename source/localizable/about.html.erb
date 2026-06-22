@@ -143,12 +143,12 @@ description:
         <% chunks = texts.each_slice((texts.length / 2) + 1).to_a %>
         <% chunk0 = (chunks[0] * 4) + chunks[0].take(2) %>
         <% chunk1 = (chunks[1] * 4) + chunks[1].take(2) %>
-        <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1770px">
+        <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1770px; animation-duration: 30s">
           <% chunk0.each do |value| %>
             <div class="text-white bg-red-500 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap"><%= value %></div>
           <% end %>
         </div>
-        <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1475px)">
+        <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1475px); animation-duration: 30s">
           <% chunk1.each do |value| %>
             <div class="text-white bg-red-500 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap"><%= value %></div>
           <% end %>
