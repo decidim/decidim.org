@@ -14,8 +14,9 @@ const handleClick = ({ target }) => {
   const parent = target.closest("[data-filter]");
   const { value } = target;
   if (parent) {
+    const searchValue = value.toLowerCase();
     [...parent.querySelectorAll("[data-filter-target]")].forEach((x) => {
-      const matches = x.textContent.match(new RegExp(value, "i"));
+      const matches = x.textContent.toLowerCase().includes(searchValue);
       if (!matches) {
         x.setAttribute("hidden", true);
       } else {
