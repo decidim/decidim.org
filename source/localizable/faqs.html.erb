@@ -27,7 +27,7 @@ description:
       <% data.faqs.types.each_with_index do |(name, type), i| %>
         <% questions = t("faqs.questions").select {|key, question| type.questions.include? key.to_s } %>
         <% if questions.length > 0 %>
-          <details class="faq-section group space-y-4" <%= 'open' if i == 0 %>>
+          <details class="faq-section group space-y-4" <%= "open" if i == 0 %>>
             <summary class="flex justify-between items-center space-x-2 cursor-pointer list-none border-b-2 border-red-500">
               <h6 class="h6 text-red-500 uppercase px-4 pt-2 pb-3 rounded-xl">
                 <%= t("faqs.types.#{name}") %>
