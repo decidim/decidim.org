@@ -3,7 +3,7 @@ title: The Decidim Swiss Local Chapter Is Born
 tags: ''
 ---
 
-![](/uploads/1781693992513.jpeg)
+![](/uploads/Members_DecidimSwitzerland_3_DSCF6453_cropped_low.jpg)
 
 #### Something significant for Decidim happened in Bern some weeks ago. In the heart of the Swiss capital, a group of Decidim service providers,city representatives, civic tech advocates and researchers, gathered with a shared purpose: to officially bring the Decidim Swiss Local Chapter into existence by signing up the agreement.
 
