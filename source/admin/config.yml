@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: decidim/decidim.org
-  branch: main
+  branch: community/partners-pages
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
