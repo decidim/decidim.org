@@ -36,51 +36,54 @@ description:
 
 <section>
   <div class="container md:py-16 py-10 space-y-6">
-    <div class="border-gray-300 border-b-1">
+    <div class="border-b border-gray-300 pb-6">
       <h6 class="h6 text-red-500 font-bold">
         <%= t("transparency_portal.institutional_information") %>
       </h6>
       <div class="flex flex-row items-center justify-between">
         Lorem ipsum
-        <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-external-link-line", url: "https://try.decidim.org/" } %>
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-external-link-line", url: "https://try.decidim.org/", padding_classes: "px-4 py-1", icon_classes: "w-5 h-5" } %>
       </div>
-      <div class="flex flex-row items-center">
+      <div class="flex flex-row items-center gap-2">
         <%= icon("ri-file-text-line", class: "w-4 h-4") %>
-        <div class="pl-2">PDF</div>
-          <div class="border-l-1 border-gray-500">
-          <%= icon("ri-scales-2-line", class: "w-4 h-4") %>
-          </div>
-        <div class="pl-2">2 Mb</div>
+        <span>PDF</span>
+        <span class="border-l border-gray-300 h-4"></span>
+        <%= icon("ri-scales-2-line", class: "w-4 h-4") %>
+        <span>2 Mb</span>
       </div>
     </div>
-   <div class="border-gray-300 border-b-1">
+
+    <div class="border-b border-gray-300 pb-6">
       <h6 class="h6 text-red-500 font-bold">
-        <%= t("transparency_portal.institutional_information") %>
+        <%= t("transparency_portal.agreements") %>
       </h6>
       <div class="flex flex-row items-center justify-between">
         Lorem ipsum
-        <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-external-link-line", url: "https://try.decidim.org/" } %>
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-external-link-line", url: "https://try.decidim.org/", padding_classes: "px-4 py-1", icon_classes: "w-5 h-5" } %>
       </div>
-      <div class="flex flex-row items-center">
+      <div class="flex flex-row items-center gap-2">
         <%= icon("ri-file-text-line", class: "w-4 h-4") %>
-        <div class="pl-2">PDF</div>
+        <span>PDF</span>
+        <span class="border-l border-gray-300 h-4"></span>
         <%= icon("ri-scales-2-line", class: "w-4 h-4") %>
-        <div class="pl-2">2 Mb</div>
+        <span>2 Mb</span>
       </div>
     </div>
-    <div class="border-gray-300 border-b-1">
+
+    <div class="border-b border-gray-300 pb-6">
       <h6 class="h6 text-red-500 font-bold">
-        <%= t("transparency_portal.institutional_information") %>
+        <%= t("transparency_portal.financial_management") %>
       </h6>
       <div class="flex flex-row items-center justify-between">
         Lorem ipsum
-        <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-external-link-line", url: "https://try.decidim.org/" } %>
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-external-link-line", url: "https://try.decidim.org/", padding_classes: "px-4 py-1", icon_classes: "w-5 h-5" } %>
       </div>
-      <div class="flex flex-row items-center">
+      <div class="flex flex-row items-center gap-2">
         <%= icon("ri-file-text-line", class: "w-4 h-4") %>
-        <div class="pl-2">PDF</div>
+        <span>PDF</span>
+        <span class="border-l border-gray-300 h-4"></span>
         <%= icon("ri-scales-2-line", class: "w-4 h-4") %>
-        <div class="pl-2">2 Mb</div>
+        <span>2 Mb</span>
       </div>
     </div>
   </div>
