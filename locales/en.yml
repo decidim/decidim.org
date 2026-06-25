@@ -152,16 +152,16 @@ en:
         question: What is the Decidim Association?
       q19:
         answer: In the [general assembly of the Decidim Association](https://meta.decidim.org/assemblies/general-assembly-association) you can find more info abous us, follow the activity of the meetings and check relevant information (statutes, legal agreements, the internal regulations)
-        question: How can I get more information about the Decidim Association?
+        question: How can I get more information about it?
       q20:
-        answer: Now the people involved in the project can be partners. [Here we explain in detail how you have to do it](https://meta.decidim.org/assemblies/QuieroSerSocia?locale=es)
+        answer: Even if you are an organisation or want to become an individual member [you can do so here checking the requirements](https://meta.decidim.org/en/assemblies/the-association/f/1758).
         question: How can I become a member of the Decidim Association?
       q21:
-        answer: Yes you can! Decidim is a non profit project and for the moment it depends completely on funding. Please find all details to fund the project at [OpenCollective](https://opencollective.com/decidim)
+        answer: Do you want to support the project even without having a specific link with the community? You can make a donation or contribution through this [form](https://opencollective.com/decidim#category-CONTRIBUTE)
         question: I want to fund the project. How can I proceed?
       q22:
-        answer: Yes, we have templates to formalize collaboration agreements. [Please contact us](/contact).
-        question: We want to make a formal collaboration agreement. Are there any templates we can use?
+        answer: Members have the right to participate in all the participation spaces of the Metadecidim platform with voice and vote, exercise their vote in strategic and internal decisions, elect or be elected in representative bodies, request and obtain explanations about the management of the positions of the Association, receive information about the activities and make common uses that are established.
+        question: What does it mean to become a member?
       q23:
         answer: Yes. [Contact us](/contact) for any question and we will answer you as soon as possible.
         question: Do you support institutions?
@@ -189,6 +189,9 @@ en:
       q31:
         answer: For contributing to the governance and product roadmap you should be a member of the Decidim Free Software Association. Even if you are an organisation or want to become an individual member [you can do so here checking the requirements.](https://meta.decidim.org/en/assemblies/the-association/f/1758)
         question: How can I contribute to the governance and codebase of the project?
+      q32:
+        answer: That's fantastic! You can send us an email with all the information at <a href="mailto:hola@decidim.org">hola@decidim.org</a> or get in touch with us via our social media channels
+        question: I have deployed a Decidim instance and want to share it with you.
     subtitle: If you can’t find your question answered below, contact us at <span class="underline decoration-2 text-red-500">hola@decidim.org</span>
     title: FAQs
     types:
