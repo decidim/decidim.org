@@ -129,7 +129,7 @@ en:
         question: I have ideas for new improvement features. I want to have a better understanding of the project. What can I do?
       q11:
         answer: The best way to solve your doubts quickly is through the Metadecidim community. Enter now in the process [Support Forum](https://meta.decidim.org/processes/supportforum?locale=en) and see if your question exists or if it has been answered and otherwise enter to ask questions. If you can't resolve your problem in this space, maybe it's time to contact us through the [contact form](/contact).
-        question: I have many doubts, of all kinds...where can I ask them or solve them?
+        question: I have many doubts...where can I ask them or solve them?
       q12:
         answer: You can check the latest version of our admin manual in the [Documentation section](https://docs.decidim.org).
         question: Is there any tutorial to start setting it up?
@@ -164,7 +164,7 @@ en:
         answer: Yes, we have templates to formalize collaboration agreements. [Please contact us](/contact).
         question: We want to make a formal collaboration agreement. Are there any templates we can use?
       q23:
-        answer: Yes, but you have to be patient. There are a lot of institutions that want to use Decidim right now and we are helping them step by step. [Contact us](/contact) for any question and we will answer you as soon as possible.
+        answer: Yes. [Contact us](/contact) for any question and we will answer you as soon as possible.
         question: Do you support institutions?
       q24:
         answer: Decidim and the Decidim logo are registered by the Association, they cannot be used as a commercial product nor cannot be sold. If used, the credit has to be referenced to the project. You can read more about this in our [Trademark policy](/trademark-policy).
@@ -178,6 +178,12 @@ en:
       q27:
         answer: It’s an international collaboration space to strengthen the governance of Decidim made up solely of those public institutions that have a signed collaboration agreement with the Decidim Association. The Institutions Committee is defined in its founding text as ‘the space that allows institutions to participate in governance and to convey needs and improvement proposals to the Decidim team.
         question: What’s the Decidim Association Public Institutions Committee?
+      q28:
+        answer: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework. [Check the steps to introduce yourself in the Decidim ecosystem.](/first-steps/)
+        question: How can I start?
+      q29:
+        answer: The documentation site helps any individual or organization to understand Decidim. It’s a step by step guide on how to install, configure and develop Decidim on your own. [Check it out.](/documentation)
+        question: What 's the Decidim Documentation?
     subtitle: If you can’t find your question answered below, contact us at <span class="underline decoration-2 text-red-500">hola@decidim.org</span>
     title: FAQs
     types:
