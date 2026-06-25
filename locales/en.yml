@@ -110,10 +110,10 @@ en:
         answer: Decidim makes it possible for thousands of people to organize themselves democratically by making proposals, attending public meetings, fostering decision-making discussions, deciding through different forms of voting and monitoring the implementation of decisions.
         question: What can a participant (user) of Decidim do?
       q05:
-        answer: Yes, we have an [online demo](/demo).
-        question: Do you have a Demo? I want to use Decidim now, without installing it, to see how it works.
+        answer: It’s an online platform where you can play, test and dive into the Decidim functionalities, components and system. You can check it out without installing it, to see how it works.
+        question: Whats the decidim demo?
       q06:
-        answer: We release a new version approximately every month. See the [record of versions](https://github.com/decidim/decidim/releases).
+        answer: We release a new version approximately every 6 months. See the [record of versions](https://github.com/decidim/decidim/releases).
         question: How often is the platform updated?
       q07:
         answer: Installing Decidim is easy but you need some knowledge and technical requirements. See the [documentation for installing Decidim](https://docs.decidim.org/en/install/).
@@ -184,6 +184,12 @@ en:
       q29:
         answer: The documentation site helps any individual or organization to understand Decidim. It’s a step by step guide on how to install, configure and develop Decidim on your own. [Check it out.](/documentation)
         question: What 's the Decidim Documentation?
+      q30:
+        answer: Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic participation in all kinds of organizations. Choose the features that best suit your needs and customise your participatory process.
+        question: Is Decidim customisable?
+      q31:
+        answer: For contributing to the governance and product roadmap you should be a member of the Decidim Free Software Association. Even if you are an organisation or want to become an individual member [you can do so here checking the requirements.](https://meta.decidim.org/en/assemblies/the-association/f/1758)
+        question: How can I contribute to the governance and codebase of the project?
     subtitle: If you can’t find your question answered below, contact us at <span class="underline decoration-2 text-red-500">hola@decidim.org</span>
     title: FAQs
     types:
