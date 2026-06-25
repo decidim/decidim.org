@@ -98,7 +98,7 @@ en:
     cta: Read all FAQs
     questions:
       q01:
-        answer: 'Decidim is a Free Open-Source participatory democracy  platform for cities and organizations. But Decidim is more than a digital platform: it’s a common''s free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
+        answer: 'Decidim is a Free Open-Source participatory democracy platform for cities and organizations. But Decidim is more than a digital platform: it’s a common free and open project and infrastructure involving code, documentation, design, training courses, a legal framework, collaborative interfaces, user and facilitation communities, and a common vision.'
         question: What is Decidim?
       q02:
         answer: It is currently used by cities and organizations worldwide. In fact, any group of people can use it, whether it is an NGO, university, trade union, cooperative, neighbourhood association, etc. Check the [complete list of currently active instances](/usedby/).
@@ -169,16 +169,26 @@ en:
       q24:
         answer: Decidim and the Decidim logo are registered by the Association, they cannot be used as a commercial product nor cannot be sold. If used, the credit has to be referenced to the project. You can read more about this in our [Trademark policy](/trademark-policy).
         question: What is Decidim's trademark policy?
+      q25:
+        answer: There are different ways to collaborate with the Association. We are defining a ladder of collaboration that goes from less to more. The goal is to propose a progressive path of collaboration between public organizations and the Decidim Association. You can check this out here.
+        question: How can governments partner with us?
+      q26:
+        answer: Decidim counts with a partner network that are official service providers for installing, managing and maintaining the platform for organisations of any type.
+        question: What do you need to become an official Decidim service provider?
+      q27:
+        answer: It’s an international collaboration space to strengthen the governance of Decidim made up solely of those public institutions that have a signed collaboration agreement with the Decidim Association. The Institutions Committee is defined in its founding text as ‘the space that allows institutions to participate in governance and to convey needs and improvement proposals to the Decidim team.
+        question: What’s the Decidim Association Public Institutions Committee?
     subtitle: If you can’t find your question answered below, contact us at <span class="underline decoration-2 text-red-500">hola@decidim.org</span>
     title: FAQs
     types:
       about: About Decidim
-      association: Association
+      association: Decidim Association
       community: Community and social contract
       features: Roadmap and features
       install: Installation and license
       installation: Installation and license
       users: Users and roles
+      partnerships: Partnerships
   feature_cards:
     meetings:
       f3: Organize face-to-face or online <strong>meetings</strong>, manage registrations, and publish the agenda.<br> And much more!
