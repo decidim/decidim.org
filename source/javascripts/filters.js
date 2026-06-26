@@ -32,7 +32,7 @@ const caseStudyFilter = () => {
   const activeTypes     = {};
   const activeCountries = {};
 
-  const CLS = {
+  const cssClasses = {
     pageActive: "w-9 h-9 rounded-full bg-red-100 text-red-500 font-semibold text-sm flex items-center justify-center",
     pageInactive: "w-9 h-9 rounded-full text-red-500 font-medium text-sm flex items-center justify-center hover:bg-gray-100 transition-colors",
     prev: "flex items-center gap-2 px-5 py-2 rounded-lg border-2 border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors mr-3",
@@ -44,7 +44,7 @@ const caseStudyFilter = () => {
     checkLabel: "flex items-center gap-2 par-sm text-gray-700 cursor-pointer hover:text-gray-900"
   };
 
-  const F = {};
+  const filter = {};
 
   const clearMap = (map) => {
     Object.keys(map).forEach((k) => Reflect.deleteProperty(map, k));
@@ -95,12 +95,12 @@ const caseStudyFilter = () => {
     chipsEl.innerHTML = "";
     const addChip = (val, map, container) => {
       const chip = document.createElement("span");
-      chip.className   = CLS.chip;
+      chip.className   = cssClasses.chip;
       chip.textContent = val;
       const x = document.createElement("button");
       x.innerHTML = "&times;";
       x.setAttribute("aria-label", `Remove ${val}`);
-      x.className = CLS.chipX;
+      x.className = cssClasses.chipX;
       x.addEventListener("click", () => {
         Reflect.deleteProperty(map, val);
         container?.querySelectorAll("input").forEach((cb) => {
@@ -108,7 +108,7 @@ const caseStudyFilter = () => {
             cb.checked = false;
           }
         });
-        F.onFilterChange();
+        filter.onFilterChange();
       });
       chip.appendChild(x);
       chipsEl.appendChild(chip);
@@ -129,24 +129,24 @@ const caseStudyFilter = () => {
     paginationEl.classList.remove("hidden");
 
     const appendBtn = ({ label, ariaLabel, onClick, cls }) => {
-      const b = document.createElement("button");
-      b.innerHTML = label;
-      b.setAttribute("aria-label", ariaLabel);
-      b.className = cls;
+      const button = document.createElement("button");
+      button.innerHTML = label;
+      button.setAttribute("aria-label", ariaLabel);
+      button.className = cls;
       if (onClick) {
-        b.addEventListener("click", onClick);
+        button.addEventListener("click", onClick);
       } else {
-        b.disabled = true;
+        button.disabled = true;
       }
-      paginationEl.appendChild(b);
+      paginationEl.appendChild(button);
     };
 
     if (currentPage > 1) {
       appendBtn({
         label: "Prev <i class=\"ri-arrow-left-line text-xl\"></i>",
         ariaLabel: "Previous page",
-        onClick: () => F.goToPage(currentPage - 1),
-        cls: CLS.prev
+        onClick: () => filter.goToPage(currentPage - 1),
+        cls: cssClasses.prev
       });
     }
 
@@ -160,18 +160,18 @@ const caseStudyFilter = () => {
       if (p - prev > 1) {
         const el = document.createElement("span");
         el.textContent = "\u2026";
-        el.className = CLS.ellipsis;
+        el.className = cssClasses.ellipsis;
         paginationEl.appendChild(el);
       }
       appendBtn({
         label: String(p),
         ariaLabel: `Page ${p}`,
         onClick: p !== currentPage
-          ? () => F.goToPage(p)
+          ? () => filter.goToPage(p)
           : null,
         cls: p === currentPage
-          ? CLS.pageActive
-          : CLS.pageInactive
+          ? cssClasses.pageActive
+          : cssClasses.pageInactive
       });
       prev = p;
     });
@@ -180,8 +180,8 @@ const caseStudyFilter = () => {
       appendBtn({
         label: "Next <i class=\"ri-arrow-right-line text-xl\"></i>",
         ariaLabel: "Next page",
-        onClick: () => F.goToPage(currentPage + 1),
-        cls: CLS.next
+        onClick: () => filter.goToPage(currentPage + 1),
+        cls: cssClasses.next
       });
     }
   };
@@ -205,12 +205,12 @@ const caseStudyFilter = () => {
     renderPagination(totalPages);
   };
 
-  F.onFilterChange = () => {
+  filter.onFilterChange = () => {
     currentPage = 1;
     render();
   };
 
-  F.goToPage = (page) => {
+  filter.goToPage = (page) => {
     currentPage = page;
     render();
     grid.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -223,21 +223,21 @@ const caseStudyFilter = () => {
     container.innerHTML = "";
     values.forEach((v) => {
       const label = document.createElement("label");
-      label.className = CLS.checkLabel;
-      const cb = document.createElement("input");
-      cb.type = "checkbox";
-      cb.value = v;
-      cb.checked = Boolean(activeMap[v]);
-      cb.className = CLS.checkbox;
-      cb.addEventListener("change", () => {
-        if (cb.checked) {
+      label.className = cssClasses.checkLabel;
+      const checkBox = document.createElement("input");
+      checkBox.type = "checkbox";
+      checkBox.value = v;
+      checkBox.checked = Boolean(activeMap[v]);
+      checkBox.className = cssClasses.checkbox;
+      checkBox.addEventListener("change", () => {
+        if (checkBox.checked) {
           activeMap[v] = true;
         } else {
           Reflect.deleteProperty(activeMap, v);
         }
-        F.onFilterChange();
+        filter.onFilterChange();
       });
-      label.append(cb, document.createTextNode(v));
+      label.append(checkBox, document.createTextNode(v));
       container.appendChild(label);
     });
   };
@@ -267,10 +267,10 @@ const caseStudyFilter = () => {
         cb.checked = false;
       });
     });
-    F.onFilterChange();
+    filter.onFilterChange();
   });
 
-  searchInput?.addEventListener("input", F.onFilterChange);
+  searchInput?.addEventListener("input", filter.onFilterChange);
   render();
 };
 
