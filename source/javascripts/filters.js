@@ -11,21 +11,18 @@ const caseStudyFilter = () => {
     return;
   }
 
-  const $  = (sel) => document.querySelector(sel);
-  const $$ = (el, sel) => Array.from(el.querySelectorAll(sel));
-
-  const searchInput      = $("[data-cs-search]");
-  const filterToggle     = $("[data-cs-filter-toggle]");
-  const filterPanel      = $("[data-cs-filter-panel]");
-  const filterArrow      = $("[data-cs-filter-arrow]");
-  const filterBadge      = $("[data-cs-filter-badge]");
-  const clearBtn         = $("[data-cs-clear-filters]");
+  const searchInput      = document.querySelector("[data-cs-search]");
+  const filterToggle     = document.querySelector("[data-cs-filter-toggle]");
+  const filterPanel      = document.querySelector("[data-cs-filter-panel]");
+  const filterArrow      = document.querySelector("[data-cs-filter-arrow]");
+  const filterBadge      = document.querySelector("[data-cs-filter-badge]");
+  const clearBtn         = document.querySelector("[data-cs-clear-filters]");
   const typeContainer    = document.getElementById("cs-type-checkboxes");
   const countryContainer = document.getElementById("cs-country-checkboxes");
   const paginationEl     = document.getElementById("cs-pagination");
   const noResultsEl      = document.getElementById("cs-no-results");
   const chipsEl          = document.getElementById("cs-active-chips");
-  const allCards         = $$(grid, "[data-cs-card]");
+  const allCards         = Array.from(grid.querySelectorAll("[data-cs-card]"));
 
   let currentPage = 1;
   let panelOpen   = false;
@@ -242,8 +239,8 @@ const caseStudyFilter = () => {
     });
   };
 
-  buildCheckboxes(typeContainer,     uniqueSorted("type"),    activeTypes);
-  buildCheckboxes(countryContainer,  uniqueSorted("country"), activeCountries);
+  buildCheckboxes(typeContainer,    uniqueSorted("type"),    activeTypes);
+  buildCheckboxes(countryContainer, uniqueSorted("country"), activeCountries);
 
   filterToggle?.addEventListener("click", (e) => {
     e.stopPropagation();
@@ -251,7 +248,7 @@ const caseStudyFilter = () => {
   });
 
   document.addEventListener("click", (e) => {
-    if (panelOpen && !$("[data-cs-filter-dropdown]")?.contains(e.target)) {
+    if (panelOpen && !document.querySelector("[data-cs-filter-dropdown]")?.contains(e.target)) {
       setPanel(false);
     }
   });
