@@ -114,7 +114,7 @@ testimonial: <iframe width="560" height="315" src="https://www.youtube.com/embed
 partners:
   - logo: /uploads/images.png
     name: LabLivre
-  - logo: /uploads/156733_Brasilia.avif
+  - logo: /uploads/brasilia_logo.png
     name: University of Brasilia
   - logo: /uploads/Cidade_Democratica.png
     name: Cidade Democratica
