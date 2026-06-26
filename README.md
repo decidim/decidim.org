@@ -32,7 +32,7 @@ You can access to the development web with http://localhost:4567/
 
 ## Sveltia CMS
 
-You can access the Sveltia CMS admin at http://localhost:4567/admin/
+You can access the Sveltia CMS admin at http://localhost:4567/admin/.
 
 If you wish to create or edit a form in Sveltia and test locally, make sure to configure your feature branch in the `source/admin/config.yml` file for example:
 
@@ -50,6 +50,8 @@ npx netlify-cms-proxy-server
 ```
 
 You need to have the middleman server running alongside this command.
+
+NOTE: Changes to the local cms via http://localhost:4567/admin/ are only accessible via Google Chrome.
 
 ## Translations
 
