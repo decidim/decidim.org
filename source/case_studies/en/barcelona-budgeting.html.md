@@ -42,7 +42,7 @@ selected_for_implementation:
 total_participants:
   value: '64.571'
   label: Total participants
-results_conclusion: 'The pandemic accelerated digitization: most of the 64,571 participants did so online, in contrast to the 11,970 in person.'
+results_conclusion: 'The pandemic accelerated digitization: most of the 52,601 participants did so online, in contrast to the 11,970 in person.'
 description_title: What you need to know
 description: |-
   Is it possible for neighbours to decide which projects they want to promote in their neighbourhoods?
