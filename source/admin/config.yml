@@ -18,7 +18,7 @@ collections:
     label: "Case studies"
     format: "yaml-frontmatter"
     extension: "html.md"
-    folder: "source/case_studies/en"
+    folder: "source/case-studies/en"
     create: true
     identifier_field: title
     fields:

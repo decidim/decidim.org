@@ -77,4 +77,4 @@ proxy "_redirects", "netlify-redirects", ignore: true
 proxy "_headers", "netlify-headers", ignore: true
 
 # Case studies
-page "/case_studies/en/*", layout: :case_studies_layout
+page "/case-studies/en/*", layout: :case_studies_layout

@@ -1,6 +1,6 @@
 <% limit = defined?(limit) ? limit : nil %>
 <% sitemap.resources
-    .select { |r| r.path.start_with?("case_studies/en/") && r.path.end_with?(".html") }
+    .select { |r| r.path.start_with?("case-studies/en/") && r.path.end_with?(".html") }
     .then { |resources| limit ? resources.first(limit) : resources }
     .each do |resource| %>
   <% cs = resource.data %>
