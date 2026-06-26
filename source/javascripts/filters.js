@@ -1,9 +1,37 @@
 /**
- * Manages filtering and pagination for pages that need to utilise filtering.
  * Handles search, type filters, pagination, and active filter pills under the search.
  * Initializes on DOM ready or immediately if document is already loaded.
+ *
+ * @example
+ * <input type="text" data-cs-search placeholder="Search..." />
+ *
+ * <button data-cs-filter-toggle>
+ *   Filters
+ *   <span data-cs-filter-badge class="hidden">0</span>
+ *   <i data-cs-filter-arrow></i>
+ * </button>
+ *
+ * <div data-cs-filter-dropdown>
+ *   <div data-cs-filter-panel class="hidden">
+ *     <div id="cs-type-checkboxes"></div>
+ *     <div id="cs-country-checkboxes"></div>
+ *     <button data-cs-clear-filters class="hidden">Clear filters</button>
+ *   </div>
+ * </div>
+ *
+ * <div id="cs-active-chips"></div>
+ *
+ * <div id="cs-grid">
+ *   <div data-cs-card data-type="Case Study" data-country="Spain">...</div>
+ *   <div data-cs-card data-type="White Paper" data-country="France">...</div>
+ * </div>
+ *
+ * <div id="cs-no-results" class="hidden">No results found.</div>
+ *
+ * <div id="cs-pagination"></div>
  */
 
+/* eslint-disable max-lines */
 const caseStudyFilter = () => {
   const CARDS_PER_PAGE = 6;
   const grid = document.getElementById("cs-grid");
