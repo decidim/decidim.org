@@ -42,7 +42,7 @@ selected_for_implementation:
 total_participants:
   value: '64.571'
   label: Total participants
-results_conclusion: 'The pandemic accelerated digitization: most of the 64,571 participants did so online, in contrast to the 11,970 in person.'
+results_conclusion: 'The pandemic accelerated digitization: most of the 52,601 participants did so online, in contrast to the 11,970 in person.'
 description_title: What you need to know
 description: |-
   Is it possible for neighbours to decide which projects they want to promote in their neighbourhoods?
@@ -51,7 +51,7 @@ description: |-
 
   The process began before the pandemic, but the health crisis presented an additional challenge, requiring adaptation to restrictions while also encouraging online interaction between residents and the government, further promoting citizen empowerment.
 
-  Some of the most popular proposals that were implemented included calming streets with green spaces designed for pedestrians in different neighborhoods across the city. Another success story was the r[enovation of the Campany sports field,](https://www.decidim.barcelona/processes/PressupostosParticipatius/f/4422/proposals/29142?included_in=Z2lkOi8vZGVjaWRpbS1iYXJjZWxvbmEvRGVjaWRpbTo6QnVkZ2V0czo6UHJvamVjdC8xMTc) where the infrastructure of Barcelona’s only cricket ground was improved thanks to a proposal put forward by a group of young women passionate about the sport.
+  Some of the most popular proposals that were implemented included calming streets with green spaces designed for pedestrians in different neighborhoods across the city. Another success story was the [renovation of the Campany sports field,](https://www.decidim.barcelona/processes/PressupostosParticipatius/f/4422/proposals/29142?included_in=Z2lkOi8vZGVjaWRpbS1iYXJjZWxvbmEvRGVjaWRpbTo6QnVkZ2V0czo6UHJvamVjdC8xMTc) where the infrastructure of Barcelona’s only cricket ground was improved thanks to a proposal put forward by a group of young women passionate about the sport.
 process_title: Participatory process design
 process_subtitle: 'The phases were structured into a process that lasted about a year and a half, activating different components and functionalities of Decidim at each stage:'
 phases:
@@ -123,9 +123,9 @@ optional_section_3: |-
 testimonial_link: https://www.3cat.cat/3catinfo/una-historia-dempoderament-femeni-a-les-del-criquet/noticia/3280178/
 testimonial_link_text: Testimonial
 partners:
-  - logo: /uploads/bcn_casestudies_logo.svg
+  - logo: /uploads/casestudies_logos_bcn.svg
     name: Barcelona
-  - logo: /uploads/decidim_bcn.svg
+  - logo: /uploads/casestudies_logos_decidim.svg
     name: decidim barcelona
 collaboration_text: This article has been written in collaboration with Barcelona City Council.
 image: /uploads/54183562561_e832935b77_k-1-.jpg
