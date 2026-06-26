@@ -75,3 +75,6 @@ end
 # Copy Netlify's configurations file on build
 proxy "_redirects", "netlify-redirects", ignore: true
 proxy "_headers", "netlify-headers", ignore: true
+
+# Case studies
+page "/case-studies/en/*", layout: :case_studies_layout

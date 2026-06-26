@@ -1,9 +1,31 @@
-<div class="flex flex-col md:flex-row items-stretch gap-5 pt-5 pb-5">
-  <% data.case_studies.first(3)&.each do |case_study| %>
-    <div class="md:w-1/3 flex flex-col pb-4 rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300">
-      <div class="overflow-hidden rounded-t-lg bg-gray-300"><img class="w-full aspect-[2/1] object-cover" src="<%= case_study.image %>" alt="<%= t("case_study.#{case_study.id}.org") %>"></div>
-      <h5 class="h5 py-3 md:px-4 px-3"><%= t("case_study.#{case_study.id}.org") %></h5>
-      <%= partial "partials/arrow-link", locals: { text: t("first-steps.section3.link"), url: case_study.url, classes: "text-red-500 mt-auto block md:px-4 px-3" } %>
+<% limit = defined?(limit) ? limit : nil %>
+<% sitemap.resources
+    .select { |r| r.path.start_with?("case-studies/en/") && r.path.end_with?(".html") }
+    .then { |resources| limit ? resources.first(limit) : resources }
+    .each do |resource| %>
+  <% cs = resource.data %>
+  <div class="flex flex-col pb-4 rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300 flex-1"
+        data-cs-card
+        data-type="<%= cs.type.to_s %>"
+        data-country="<%= cs.country.to_s %>">
+    <div class="overflow-hidden rounded-t-lg bg-gray-300">
+      <% gallery_image = cs.gallery&.first %>
+        <% if gallery_image %>
+            <img class="w-full h-full aspect-[2/1] object-cover" src="<%= gallery_image.image %>" alt="<%= gallery_image.alt.present? ? gallery_image.alt : cs.title %>">
+          <% else %>
+            <img class="w-full h-full aspect-[2/1] object-cover" src="/images/placeholder.jpg" alt="<%= cs.title %>">
+        <% end %>
     </div>
-  <% end %>
-</div>
+    <div class="flex gap-2 flex-wrap px-6 pt-4">
+      <% if cs.type.present? %>
+        <span class="text-xs bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.type %></span>
+      <% end %>
+      <% if cs.country.present? %>
+        <span class="text-xs bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.country %></span>
+      <% end %>
+    </div>
+    <h5 class="h5 pt-4 px-6 line-clamp-2"><%= cs.title %></h5>
+    <p class="par-md pt-4 text-gray-500 px-6 line-clamp-3"><%= cs.subtitle %></p>
+    <%= partial "partials/arrow-link", locals: { text: t("case_studies.read"), url: resource.url, classes: "text-red-500 mt-auto block pl-6 pt-4" } %>
+  </div>
+<% end %>
