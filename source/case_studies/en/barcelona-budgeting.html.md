@@ -123,7 +123,7 @@ optional_section_3: |-
 testimonial_link: https://www.3cat.cat/3catinfo/una-historia-dempoderament-femeni-a-les-del-criquet/noticia/3280178/
 testimonial_link_text: Testimonial
 partners:
-  - logo: /uploads/bcn_casestudies_logo.svg
+  - logo: /uploads/casestudies_logos_bcn.svg
     name: Barcelona
   - logo: /uploads/decidim_bcn.svg
     name: decidim barcelona
