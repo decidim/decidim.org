@@ -122,11 +122,8 @@ optional_section_3_title: Lessons learned
 optional_section_3: |-
   - Pandemic Adaptation
   - Allowing participation without registration for one-off actions is necessary.
-partners:
-  - logo: /uploads/casestudies_logos_bcn.svg
-    name: Barcelona
-  - logo: /uploads/casestudies_logos_decidim.svg
-    name: decidim barcelona
+testimonial: ''
+partners: []
 collaboration_text: This article has been written in collaboration with Barcelona City Council.
 image: /uploads/54183562561_e832935b77_k-1-.jpg
 testimonial_link: https://www.3cat.cat/3catinfo/una-historia-dempoderament-femeni-a-les-del-criquet/noticia/3280178/
