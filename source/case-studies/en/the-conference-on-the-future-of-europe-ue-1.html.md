@@ -1,4 +1,5 @@
 ---
+date: "2026-01-01"
 title: The Conference on the Future of Europe, UE
 subtitle: The European Commission used Decidim to implement the multilingual digital platform of the Conference on the Future of Europe
 website: https://wayback.archive-it.org/12090/20230418091815/https:/futureu.europa.eu/
