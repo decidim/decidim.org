@@ -4,16 +4,18 @@ subtitle: The first participatory budgets in the city, or how to promote democra
 website: https://www.decidim.barcelona/
 website_link_text: Access the Decidim.Barcelona platform
 gallery:
-  - image: /uploads/Oahu Honolulu View from Tantalus lookout 1.svg
-    alt: Team photo
-  - image: /uploads/photo_2026-05-04_16-07-23.jpg
-    alt: Close up signing
-  - image: /uploads/photo_2026-05-04_16-07-20.jpg
-    alt: Promotion
-  - image: /uploads/photo_2026-05-04_16-07-16.jpg
-    alt: Promotion
-  - image: /uploads/photo_2026-05-04_16-07-12.jpg
-    alt: Group photo
+  - image: /uploads/use-case-barcelona-01.jpg
+    alt: A women's team of cricketers posing for a team photo
+  - image: /uploads/use-case-barcelona-02.jpg
+    alt: Cricketer attempting to deflect a shot while on the field of play
+  - image: /uploads/use-case-barcelona-03.jpg
+    alt: Promoters preparing a stand of information about voting
+  - image: /uploads/use-case-barcelona-04.jpg
+    alt: Promoter providing information about voting to a number of participants
+  - image: /uploads/use-case-barcelona-05.jpg
+    alt: A person signing a document over a sign promoting municipal citizen engagement
+  - image: /uploads/use-case-barcelona-06.jpg
+    alt: A group of individuals posing for aerial photo in-front of a red chair
 type: Participatory Budgeting
 target: Barcelona citizens aged 14 years old and over
 components_used:
@@ -120,8 +122,6 @@ optional_section_3_title: Lessons learned
 optional_section_3: |-
   - Pandemic Adaptation
   - Allowing participation without registration for one-off actions is necessary.
-testimonial_link: https://www.3cat.cat/3catinfo/una-historia-dempoderament-femeni-a-les-del-criquet/noticia/3280178/
-testimonial_link_text: Testimonial
 partners:
   - logo: /uploads/casestudies_logos_bcn.svg
     name: Barcelona
@@ -129,5 +129,7 @@ partners:
     name: decidim barcelona
 collaboration_text: This article has been written in collaboration with Barcelona City Council.
 image: /uploads/54183562561_e832935b77_k-1-.jpg
+testimonial_link: https://www.3cat.cat/3catinfo/una-historia-dempoderament-femeni-a-les-del-criquet/noticia/3280178/
+testimonial_link_text: Testimonial
 url: www.decidim.org
 ---
