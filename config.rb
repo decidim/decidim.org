@@ -58,7 +58,7 @@ page "/*.json", layout: false
 page "/*.txt", layout: false
 
 # Blog
-activate :blog do |blog|
+activate :blog, name: "blog" do |blog|
   blog.paginate = false
   blog.layout = "blog_layout"
   blog.permalink = "blog/{year}-{month}-{day}-{title}.html"
@@ -77,4 +77,10 @@ proxy "_redirects", "netlify-redirects", ignore: true
 proxy "_headers", "netlify-headers", ignore: true
 
 # Case studies
-page "/case-studies/en/*", layout: :case_studies_layout
+activate :blog, name: "case_studies" do |cs|
+  cs.paginate = false
+  cs.layout = "case_studies_layout"
+  cs.permalink = "case-studies/en/{title}.html"
+  cs.sources = "case-studies/en/{title}.html"
+  cs.default_extension = ".md"
+end

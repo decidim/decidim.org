@@ -22,6 +22,7 @@ collections:
     create: true
     identifier_field: title
     fields:
+      - {label: "Date", name: "date", widget: "datetime", required: true}
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Subtitle", name: "subtitle", widget: "text", required: true}
       - {label: "Website", name: "website", widget: "string", type: "url", required: false}

@@ -30,11 +30,11 @@ phases_conclusion: ''
 banner_title: What were you looking for when deploying a Decidim
 banner_subtitle: 4 main points
 banner: |-
-  -Robustness: Our clients are primarily governments. Robustness is essential for them. 
+  -Robustness: Our clients are primarily governments. Robustness is essential for them.
 
-  -i18n support: It's important to be used in Japanese. 
+  -i18n support: It's important to be used in Japanese.
 
-  -User interface: It should be easy to use for non-technical people. 
+  -User interface: It should be easy to use for non-technical people.
 
   -Accessibility: We should cover various types of people.
 optional_section_1_title: What did you learn from this experience?
