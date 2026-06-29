@@ -18,18 +18,36 @@ description:
     </div>
 
     <div class="flex flex-col md:flex-row justify-start items-stretch divide-y md:divide-y-0 divide-gray-300 md:border-b-0 border-gray-300 md:py-24 pt-10">
-      <% t("about.association").each do |key, item| %>
-        <div class="flex flex-col justify-between md:border-l py-5 border-gray-300 md:first:border-l-0 px-0 md:px-5 md:first:pl-0 md:py-0 w-full">
-          <div>
-            <div class="flex items-center space-x-2 pb-4 md:pb-0">
-              <%= icon item[:icon], class: "w-6 h-6" %>
-              <span class="font-semibold uppercase"><%= item[:title] %></span>
-            </div>
-            <p class="par-md text-gray-500 md:py-6"><%= item[:description] %></p>
+      <div class="flex flex-col justify-between py-5 border-gray-300 px-0 md:pr-5 md:py-0 w-full">
+        <div>
+          <div class="flex items-center space-x-2 pb-4 md:pb-0">
+            <%= icon "ri-user-add-line", class: "w-6 h-6" %>
+            <span class="font-semibold uppercase"><%= t("about.association.become_member.title") %></span>
           </div>
-            <%= partial "partials/arrow-link", locals: { text: item[:url_name], url: item[:url], classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+          <p class="par-md text-gray-500 md:py-6"><%= t("about.association.become_member.description") %></p>
         </div>
-      <% end %>
+        <%= partial "partials/arrow-link", locals: { text: t("about.association.become_member.url_name"), url: t("about.association.become_member.url"), classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+      </div>
+      <div class="flex flex-col justify-between md:border-l py-5 border-gray-300 px-0 md:px-5 md:py-0 w-full">
+        <div>
+          <div class="flex items-center space-x-2 pb-4 md:pb-0">
+            <%= icon "ri-tools-fill", class: "w-6 h-6" %>
+            <span class="font-semibold uppercase"><%= t("about.association.media_kit.title") %></span>
+          </div>
+          <p class="par-md text-gray-500 md:py-6"><%= t("about.association.media_kit.description") %></p>
+        </div>
+        <%= partial "partials/arrow-link", locals: { text: t("about.association.media_kit.url_name"), url: t("about.association.media_kit.url"), classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+      </div>
+      <div class="flex flex-col justify-between md:border-l py-5 border-gray-300 px-0 md:px-5 md:py-0 w-full">
+        <div>
+          <div class="flex items-center space-x-2 pb-4 md:pb-0">
+            <%= icon "ri-hand-heart-line", class: "w-6 h-6" %>
+            <span class="font-semibold uppercase"><%= t("about.association.support_us.title") %></span>
+          </div>
+          <p class="par-md text-gray-500 md:py-6"><%= t("about.association.support_us.description") %></p>
+        </div>
+        <%= partial "partials/arrow-link", locals: { text: t("about.association.support_us.url_name"), url: t("about.association.support_us.url"), classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+      </div>
     </div>
   </div>
 </section>

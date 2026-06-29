@@ -123,7 +123,6 @@ search:
 ignore_unused:
   - 'nav.*'
   - 'about.values.*'
-  - 'about.association.*'
   - 'faqs.questions.*.{question, answer, type}'
   - 'index.cards.*.{title,link,content}'
   - 'first-steps.*.{pre,title,content,link1}'
