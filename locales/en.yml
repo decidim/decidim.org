@@ -56,8 +56,10 @@ en:
     clear_filters: Clear filters
     components: 'Components:'
     components_used: Components used
-    country: Country
-    filters: Filters
+    filters:
+      title: Filters
+      country: Country
+      type: Type
     intro: These cities, institutions and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some of the inspiring successful cases!
     no_results: No case studies found matching your filters.
     partners: Partners
@@ -66,7 +68,6 @@ en:
     target_public: Target public
     testimonial: Testimonial
     title: Case Studies
-    type: Type
     type_of_process: Type of process
     use_cases_index_path: Back to use cases
   community:
