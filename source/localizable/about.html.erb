@@ -53,7 +53,7 @@ description:
 <section>
   <div class="md:pt-16 md:pb-0 py-10 flex justify-center">
     <div data-scroll-gallery class="overflow-hidden cursor-grab">
-      <div id="gallery-track" class="flex gap-2 md:gap-5 px-1.5 md:px-2 animate-slide-x" style="--translate-x: -50%">
+      <div id="gallery-track" class="flex gap-2 md:gap-5 px-1.5 md:px-2 animate-slide-x" data-scroll-track style="--translate-x: -50%">
         <% images = %w[1 2 3 4 5 7] %>
         <% (images * 2).each do |foto| %>
           <img src="/images/about_carousel_<%= foto %>.jpg" alt="" class="scroll-gallery__item">
@@ -135,12 +135,12 @@ description:
         <% chunks = texts.each_slice((texts.length / 2) + 1).to_a %>
         <% chunk0 = (chunks[0] * 4) + chunks[0].take(2) %>
         <% chunk1 = (chunks[1] * 4) + chunks[1].take(2) %>
-        <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1770px; animation-duration: 30s">
+        <div class="flex gap-4 md:gap-6 animate-slide-x" data-scroll-track style="--translate-x: -1770px; animation-duration: 30s">
           <% chunk0.each do |value| %>
             <div class="text-white bg-red-500 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap"><%= value %></div>
           <% end %>
         </div>
-        <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1475px); animation-duration: 30s">
+        <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" data-scroll-track style="--translate-x: calc(-2000px + 1475px); animation-duration: 30s">
           <% chunk1.each do |value| %>
             <div class="text-white bg-red-500 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap"><%= value %></div>
           <% end %>

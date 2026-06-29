@@ -8,7 +8,7 @@
 const scrollGallery = function () {
   const galleries = document.querySelectorAll("[data-scroll-gallery]");
   galleries.forEach((gallery) => {
-    const track = gallery.querySelector(".animate-slide-x");
+    const track = gallery.querySelector("[data-scroll-track]");
 
     let isDown = false;
     let startX = 0;
