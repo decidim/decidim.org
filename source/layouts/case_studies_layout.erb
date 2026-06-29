@@ -20,7 +20,7 @@
   <section>
     <% if current_page.data.gallery.present? && current_page.data.gallery.any? %>
     <div class="container">
-      <div class="max-w-[791px]">
+      <div class="max-w-3xl">
         <div class="flex flex-col md:flex-row gap-2 md:h-[500px]">
           <div class="w-full md:flex-1 overflow-hidden rounded-lg h-[300px] md:h-full" id="main-gallery-image" data-gallery="main">
             <img class="w-full h-full object-cover" src="<%= current_page.data.gallery.first.image %>" alt="<%= current_page.data.gallery.first.alt %>">
@@ -44,7 +44,7 @@
 
   <section>
     <div class="container pt-8 md:pt-16">
-      <div class="max-w-[791px]">
+      <div class="max-w-3xl">
         <% if current_page.data.type.present? %>
           <div class="md:pb-10 pb-8">
             <p class="par-sm font-bold uppercase flex items-center gap-2 pb-3 border-b border-gray-300">
@@ -83,7 +83,7 @@
   <section>
     <% if current_page.data.budget&.value.present? || current_page.data.proposals_submitted&.value.present? || current_page.data.technically_validated&.value.present? || current_page.data.prioritized&.value.present? || current_page.data.selected_for_implementation&.value.present? || current_page.data.total_participants&.value.present? %>
       <div class="container md:pt-10">
-        <div class="max-w-[791px]">
+        <div class="max-w-3xl">
           <p class="par-sm font-bold uppercase flex items-center gap-2 md:pb-3 pb-2 border-b border-gray-300">
             <%= icon "ri-numbers-line", class: "w-4 h-4" %>
             <%= current_page.data.results_title.present? ? current_page.data.results_title : "Results" %>
@@ -131,7 +131,7 @@
     <% end %>
     <div class="container md:pt-5 md:pb-10 pt-5">
       <% if current_page.data.results_conclusion.present? %>
-        <div class="max-w-[791px]">
+        <div class="max-w-3xl">
           <div class="prose par-md max-w-none text-gray-500">
             <%= markdown(current_page.data.results_conclusion) %>
           </div>
@@ -143,7 +143,7 @@
   <section>
     <% if current_page.data.description.present? && current_page.data.description_title.present? %>
       <div class="container md:pb-10 md:pt-0 pt-10">
-        <div class="max-w-[791px]">
+        <div class="max-w-3xl">
           <p class="md:text-4xl text-3xl font-bold pb-5">
             <%= current_page.data.description_title %>
           </p>
@@ -157,7 +157,7 @@
 
   <section>
     <div class="container">
-      <div class="max-w-[791px]">
+      <div class="max-w-3xl">
         <p class="md:text-4xl text-3xl font-bold pt-10 md:pt-0 md:nowrap leading-none">
           <%= current_page.data.process_title %>
         </p>
@@ -168,7 +168,7 @@
     </div>
     <% if current_page.data.phases.present? && current_page.data.phases.any? %>
       <div class="container py-10 md:pt-5">
-        <div class="max-w-[791px]">
+        <div class="max-w-3xl">
           <div class="relative">
             <% current_page.data.phases.each_with_index do |phase, idx| %>
               <div class="relative <%= 'md:pt-10 md:pt-4 pt-4' if idx > 0 %>">
@@ -259,7 +259,7 @@
   <section>
     <% if current_page.data.phases_conclusion.present? %>
       <div class="container md:pb-10 pb-5">
-        <div class="max-w-[791px]">
+        <div class="max-w-3xl">
           <div class="prose par-md max-w-none text-black">
             <%= markdown(current_page.data.phases_conclusion) %>
           </div>
@@ -271,7 +271,7 @@
   <section class="overflow-hidden">
     <% if current_page.data.banner.present? && current_page.data.banner_title.present? && current_page.data.banner_subtitle.present? %>
       <div class="container">
-        <div class="md:max-w-[791px] bg-red-100 py-10 px-6 md:pr-16 md:pl-0 -mx-6 md:mx-0 relative before:absolute before:top-0 before:bottom-0 before:right-full before:w-screen before:bg-red-100 md:after:absolute md:after:top-0 md:after:bottom-0 md:after:left-full md:after:w-screen md:after:bg-white">
+        <div class="md:max-w-3xl bg-red-100 py-10 px-6 md:pr-16 md:pl-0 -mx-6 md:mx-0 relative before:absolute before:top-0 before:bottom-0 before:right-full before:w-screen before:bg-red-100 md:after:absolute md:after:top-0 md:after:bottom-0 md:after:left-full md:after:w-screen md:after:bg-white">
           <h2 class="md:text-4xl text-3xl text-red-500 font-light md:nowrap">
             <%= markdown(current_page.data.banner_title) %>
           </h2>
@@ -289,7 +289,7 @@
   <section>
     <% if current_page.data.optional_section_1.present? || current_page.data.optional_section_2.present? || current_page.data.optional_section_3.present? %>
       <div class="container pt-8">
-        <div class="max-w-[791px]">
+        <div class="max-w-3xl">
           <% if current_page.data.optional_section_1.present? %>
             <div class="prose prose-li:marker:text-black prose-p:!mt-0 prose-ul:!mt-0 prose-li:!mt-0 prose-li:!mb-0 par-md max-w-none text-black pb-10">
               <% if current_page.data.optional_section_1_title.present? %>
@@ -322,7 +322,7 @@
   <section>
     <% if current_page.data.testimonial.present? %>
       <div class="container pb-10 md:py-10">
-        <div class="max-w-[791px]">
+        <div class="max-w-3xl">
           <p class="md:text-4xl text-3xl font-bold md:nowrap pb-5 md:pb-4">
             <%= t("case_studies.testimonial") %>
           </p>
@@ -337,7 +337,7 @@
   <section class="md:pb-10">
     <% if current_page.data.partners.present? && current_page.data.partners.any? %>
       <div class="container">
-        <div class="max-w-[791px]">
+        <div class="max-w-3xl">
           <p class="md:text-4xl text-3xl font-bold md:nowrap pb-5 md:pb-4">
             <%= t("case_studies.partners") %>
           </p>
@@ -356,7 +356,7 @@
   <section>
     <% if current_page.data.collaboration_text.present? %>
       <div class="container pb-8 md:pb-16">
-        <div class="max-w-[791px]">
+        <div class="max-w-3xl">
           <div class="prose par-md max-w-none text-gray-500">
             <%= markdown(current_page.data.collaboration_text) %>
           </div>
