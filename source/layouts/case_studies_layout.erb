@@ -121,7 +121,7 @@
             <% end %>
             <% if current_page.data.total_participants&.value.present? %>
               <div class="flex flex-col justify-start md:w-96 w-full">
-                <p class="md:text-4xl text-3xl font-bold leading-none md:pb-4 pb-2"><%= current_page.data.total_participants.value %></p>
+                <p class="md:text-4xl text-3xl font-bold leading-none md:pb-4 pb-2 md:pt-5"><%= current_page.data.total_participants.value %></p>
                 <p class="par-md font-bold text-balance"><%= current_page.data.total_participants.label.present? ? current_page.data.total_participants.label : "Total participants" %></p>
               </div>
             <% end %>
