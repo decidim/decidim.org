@@ -10,7 +10,7 @@ description:
         <%= t("faqs.title") %>
       </h1>
       <p class="par-xl text-black">
-        <%= t("faqs.subtitle").html_safe %>
+        <%= I18n.t("faqs.subtitle_html", email: %{<a class="underline decoration-2 text-red-500" href="mailto:hola@decidim.org">hola@decidim.org</a>}) %>
       </p>
     </div>
   </div>

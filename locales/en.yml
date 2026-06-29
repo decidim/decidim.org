@@ -193,7 +193,7 @@ en:
       q32:
         answer: That's fantastic! You can send us an email with all the information at <a href="mailto:hola@decidim.org">hola@decidim.org</a> or get in touch with us via our social media channels
         question: I have deployed a Decidim instance and want to share it with you.
-    subtitle: If you can’t find your question answered below, contact us at <span class="underline decoration-2 text-red-500">hola@decidim.org</span>
+    subtitle_html: If you can’t find your question answered below, contact us at %{email}
     title: FAQs
     types:
       about: About Decidim
