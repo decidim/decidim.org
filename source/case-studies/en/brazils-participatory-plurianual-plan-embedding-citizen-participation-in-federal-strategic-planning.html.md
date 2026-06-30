@@ -17,16 +17,13 @@ components_used:
   - Blog
 country: Brazil
 results_title: ''
-budget: null
-proposals_submitted:
-  value: 'Proposals submitted in the Plan Plurianual (2024-2027): 8,254 proposals'
-  label: ''
-technically_validated: null
-prioritized: null
-selected_for_implementation: null
-total_participants:
-  value: 'Total participants: 1,419,729 direct interactions, all validated through Brazil’s secure public digital identity system'
-  label: ''
+results:
+  - metric: Proposals submitted
+    value: 'Proposals submitted in the Plan Plurianual (2024-2027): 8,254 proposals'
+    label: ''
+  - metric: Total participants
+    value: 'Total participants: 1,419,729 direct interactions, all validated through Brazil’s secure public digital identity system'
+    label: ''
 results_conclusion: 76% of proposals were incorporated into the Plan, 58% were fully integrated and 14% were partially integrated and 40 Government Ministries and Agencies were involved
 description_title: Key points
 description: |-

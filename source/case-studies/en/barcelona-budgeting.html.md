@@ -27,24 +27,25 @@ components_used:
   - Participatory Budgets
 country: Catalonia
 results_title: Results
-budget:
-  value: 30 Million €
-  label: Budget Allocated
-proposals_submitted:
-  value: '1.982'
-  label: Proposals submitted
-technically_validated:
-  value: '823'
-  label: Technically validated
-prioritized:
-  value: '204'
-  label: Prioritized
-selected_for_implementation:
-  value: '76'
-  label: Selected for implementation
-total_participants:
-  value: '64.571'
-  label: Total participants
+results:
+  - metric: Budget allocated
+    value: 30 Million €
+    label: Budget Allocated
+  - metric: Proposals submitted
+    value: '1.982'
+    label: Proposals submitted
+  - metric: Technically validated
+    value: '823'
+    label: Technically validated
+  - metric: Prioritized
+    value: '204'
+    label: Prioritized
+  - metric: Selected for implementation
+    value: '76'
+    label: Selected for implementation
+  - metric: Total participants
+    value: '64.571'
+    label: Total participants
 results_conclusion: 'The pandemic accelerated digitization: most of the 52,601 participants did so online, in contrast to the 11,970 in person.'
 description_title: What you need to know
 description: |-

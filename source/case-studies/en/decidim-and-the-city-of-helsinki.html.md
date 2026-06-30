@@ -14,12 +14,7 @@ country: Finland
 process_title: ''
 process_subtitle: ''
 results_title: ''
-budget: null
-proposals_submitted: null
-technically_validated: null
-prioritized: null
-selected_for_implementation: null
-total_participants: null
+results: []
 results_conclusion: ''
 description_title: Context
 description: |-
