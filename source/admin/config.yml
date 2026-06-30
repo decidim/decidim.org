@@ -35,9 +35,9 @@ collections:
       - {label: "Tags", name: "tags", widget: "select", options: ["releases", "casestudy"], required: false}
   - name: "Partners"
     label: "Partner"
-    format: yml
-    extension: yml
-    folder: data/partners/
+    format: yaml-frontmatter
+    extension: html.md
+    folder: source/partners/en
     create: true
     identifier_field: name
     fields:
