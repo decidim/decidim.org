@@ -48,48 +48,14 @@ collections:
         widget: "string"
         required: false
         hint: "Leave blank to use default: 'Results'"
-      - label: "Budget allocated"
-        name: "budget"
-        widget: "object"
+      - label: "Results"
+        name: "results"
+        widget: "list"
         required: false
         fields:
+          - {label: "Metric", name: "metric", widget: "select", options: ["Budget allocated", "Proposals submitted", "Technically validated", "Prioritized", "Selected for implementation", "Total participants"], required: true}
           - {label: "Value", name: "value", widget: "string", required: false, hint: "e.g. '30 Millions €'"}
-          - {label: "Label", name: "label", widget: "string", required: false, hint: "Leave blank to use default: 'Budget allocated'"}
-      - label: "Proposals submitted"
-        name: "proposals_submitted"
-        widget: "object"
-        required: false
-        fields:
-          - {label: "Value", name: "value", widget: "string", required: false, hint: "e.g. '1,982'"}
-          - {label: "Label", name: "label", widget: "string", required: false, hint: "Leave blank to use default: 'Proposals submitted'"}
-      - label: "Technically validated"
-        name: "technically_validated"
-        widget: "object"
-        required: false
-        fields:
-          - {label: "Value", name: "value", widget: "string", required: false, hint: "e.g. '823'"}
-          - {label: "Label", name: "label", widget: "string", required: false, hint: "Leave blank to use default: 'Technically validated'"}
-      - label: "Prioritized"
-        name: "prioritized"
-        widget: "object"
-        required: false
-        fields:
-          - {label: "Value", name: "value", widget: "string", required: false, hint: "e.g. '204'"}
-          - {label: "Label", name: "label", widget: "string", required: false, hint: "Leave blank to use default: 'Prioritized'"}
-      - label: "Selected for implementation"
-        name: "selected_for_implementation"
-        widget: "object"
-        required: false
-        fields:
-          - {label: "Value", name: "value", widget: "string", required: false, hint: "e.g. '76'"}
-          - {label: "Label", name: "label", widget: "string", required: false, hint: "Leave blank to use default: 'Selected for implementation'"}
-      - label: "Total participants"
-        name: "total_participants"
-        widget: "object"
-        required: false
-        fields:
-          - {label: "Value", name: "value", widget: "string", required: false, hint: "e.g. '40,000'"}
-          - {label: "Label", name: "label", widget: "string", required: false, hint: "Leave blank to use default: 'Total participants'"}
+          - {label: "Label", name: "label", widget: "string", required: false, hint: "Leave blank to use default metric name as label"}
       - {label: "Results conclusion", name: "results_conclusion", widget: "markdown", required: false}
       - {label: "Description Title", name: "description_title", widget: "string", required: true}
       - {label: "Description", name: "description", widget: "markdown", required: true}
