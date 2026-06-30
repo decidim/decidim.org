@@ -12,7 +12,7 @@ description:
       <p class="par-xl pt-5 md:pt-5">
         <%= t("community.subtitle") %>
       </p>
-      <div class="par-md pt-4 md:py-5">
+      <div class="par-md py-4 md:py-5">
         <%= t("community.intro") %>
       </div>
     </div>
@@ -22,11 +22,54 @@ description:
 </section>
 
 <section>
-  <div class="container">
+  <div class="container md:pb-16 py-10">
+    <h2 class="h2 md:whitespace-nowrap">
+      <%= t("community.gallery_section.title") %>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 md:pt-10 pt-5">
+      <div class="border-b md:border-b-0 md:border-r border-gray-300 pb-5 md:pb-0 md:pr-6 last:border-b-0 md:last:border-r-0">
+        <h5 class="par-lg font-semibold pb-2">
+          <%= t("community.gallery_section.shape_roadmap.title") %>
+        </h5>
+        <p class="par-md pb-5 md:pb-0">
+          <%= t("community.gallery_section.shape_roadmap.intro") %>
+        </p>
+      </div>
+      <div class="border-b md:border-b-0 md:border-r border-gray-300 pb-5 md:pb-0 md:px-6 last:border-b-0 md:last:border-r-0">
+        <h5 class="par-lg font-semibold pb-2">
+          <%= t("community.gallery_section.meet_and_connect.title") %>
+        </h5>
+        <p class="par-md pb-5 md:pb-0">
+          <%= t("community.gallery_section.meet_and_connect.intro") %>
+        </p>
+      </div>
+      <div class="md:pl-6">
+        <h5 class="par-lg font-semibold pb-2">
+          <%= t("community.gallery_section.participate_in_governance.title") %>
+        </h5>
+        <p class="par-md">
+          <%= t("community.gallery_section.participate_in_governance.intro") %>
+        </p>
+      </div>
+    </div>
   </div>
 </section>
 
 <section>
+</section>
+
+<section class="bg-red-100">
+  <div class="container py-10 md:py-16">
+    <h2 class="h2 text-red-500">
+      <%= t("community.banner.title") %>
+    </h2>
+    <p class="par-md text-red-500 md:pt-10 pt-5">
+      <%= t("community.banner.intro") %>
+    </p>
+    <div class="inline-flex flex-col md:flex-row gap-4 par-md md:pt-10 pt-5">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("community.banner.cta"), url: "https://meta.decidim.org/en/processes_groups/76", icon_name: "ri-external-link-line"  } %>
+    </div>
+  </div>
 </section>
 
 <section>
