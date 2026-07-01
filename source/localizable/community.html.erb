@@ -69,6 +69,43 @@ description:
 </section>
 
 <section>
+  <div class="container md:pt-16 pt-10">
+    <div class="flex flex-row items-center justify-between">
+      <h2 class="h2"><%= t("community.fest_editions.the_fest") %></h2>
+      <div class="hidden md:block">
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("community.fest_editions.all_about_cta"), url: "https://meta.decidim.org/es/conferences", icon_name: "ri-external-link-line" } %>
+      </div>
+    </div>
+    <div class="md:w-3/5">
+      <p class="par-md font-bold py-6"><%= t("community.fest_editions.subtitle") %></p>
+      <p class="par-md pb-6"><%= t("community.fest_editions.description1") %></p>
+      <p class="par-md"><%= t("community.fest_editions.description2") %></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container md:py-10 py-6">
+    <h2 class="h2 md:pb-10 pb-5"><%= t("community.fest_editions.title") %></h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5">
+      <% data.fest_editions.each do |edition| %>
+        <div class="border border-gray-300 rounded-lg overflow-hidden">
+          <img src="<%= edition.theme %>" alt="<%= edition.name %>" class="w-full h-64 object-cover object-center">
+          <div class="p-4">
+            <h5 class="par-lg font-semibold pb-10"><%= edition.name %></h5>
+            <div class="flex flex-row items-center pb-2">
+              <%= icon "ri-calendar-line", class: "text-gray-500 mr-2 w-5 h-5" %>
+              <p class="par-sm text-gray-500"><%= edition.date %></p>
+            </div>
+            <%= partial "partials/arrow-link", locals: { text: t("community.fest_editions.cta"), url: edition.link } %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <div class="md:hidden pt-10">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("community.fest_editions.all_about_cta"), url: "https://meta.decidim.org/es/conferences" } %>
+    </div>
+  </div>
 </section>
 
 <section class="bg-red-100">
