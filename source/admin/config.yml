@@ -54,6 +54,11 @@ collections:
       - {label: "Joined at", name: "joined_at", widget: "string", default: "YYYY.MM.DD", required: true}
       - {label: "Type", name: "type", widget: "select", options: ["Installation & Development", "Participation Design"], required: true}
       - {label: "Country", name: "country", widget: "select", options: ["Basque Country", "Catalonia", "Spain", "Europe", "United States", "Sweden", "Switzerland"], required: true}
+      - {label: "Working with Decidim", name: "working_with_decidim", widget: "string", required: true}
+      - {label: "Type of Service Provider", name: "type_of_service_provider", widget: "string", required: true}
+      - {label: "Most Relevant Experiences", name: "most_relevant_experiences", widget: "markdown", required: true}
+      - {label: "Website", name: "website", widget: "string", required: true}
+      - {label: "Email Address", name: "email_address", widget: "string", required: true}
   - name: "installation"
     label: "Installation"
     format: yml
