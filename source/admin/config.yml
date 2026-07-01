@@ -57,7 +57,6 @@ collections:
       - {label: "Working with Decidim", name: "working_with_decidim", widget: "string", required: true}
       - {label: "Type of Service Provider", name: "type_of_service_provider", widget: "string", required: true}
       - {label: "Most Relevant Experiences", name: "most_relevant_experiences", widget: "markdown", required: true}
-      - {label: "Website", name: "website", widget: "string", required: true}
       - {label: "Email Address", name: "email_address", widget: "string", required: true}
   - name: "installation"
     label: "Installation"
