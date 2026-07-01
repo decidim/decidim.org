@@ -131,7 +131,6 @@ partners:
   - logo: /uploads/bcn_casestudies_logo.svg
     name: The Ajuntament de Barcelona
 collaboration_text: This article has been written in collaboration with Barcelona City Council.
-image: /uploads/54183562561_e832935b77_k-1-.jpg
 testimonial_link: https://www.3cat.cat/3catinfo/una-historia-dempoderament-femeni-a-les-del-criquet/noticia/3280178/
 testimonial_link_text: Testimonial
 url: www.decidim.org
