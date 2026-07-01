@@ -1,3 +1,5 @@
+local_backend: true
+
 backend:
   name: github
   repo: decidim/decidim.org
@@ -36,7 +38,7 @@ collections:
   - name: "Partners"
     label: "Partner"
     format: yaml-frontmatter
-    extension: html.md
+    extension: "html.md"
     folder: source/partners/en
     create: true
     identifier_field: name

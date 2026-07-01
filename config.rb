@@ -68,6 +68,9 @@ activate :blog do |blog|
   blog.calendar_template = "blog/calendar.html"
 end
 
+# Partners layout
+page "/partners/en/*", layout: "partners_layout"
+
 configure :build do
   activate :images
 end
