@@ -55,7 +55,7 @@
             <%= icon "ri-global-line", class: "w-5 h-5" %>
             <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.website") %></h3>
           </div>
-          <p class="text-base pt-5 text-black"><%= current_page.data.url %></p>
+          <p class="text-base pt-5 text-black"><a href="<%= current_page.data.url %>"><%= current_page.data.url %></a></p>
         </div>
 
         <div class="pb-10">
