@@ -63,8 +63,7 @@
             <%= icon "ri-mail-line", class: "w-5 h-5" %>
             <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.email_address") %></h3>
           </div>
-          <p class="text-base pt-5 text-black"><%= current_page.data.email_address %></p>
-        </div>
+          <p class="text-base pt-5 text-black"><a href="mailto:<%= current_page.data.email_address %>"><%= current_page.data.email_address %></a></p>        </div>
       </div>
     </div>
   </section>
