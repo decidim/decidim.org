@@ -69,7 +69,13 @@ activate :blog do |blog|
 end
 
 # Partners layout
-page "/partners/en/*", layout: "partners_layout"
+activate :blog, name: "partners" do |cs|
+  cs.paginate = false
+  cs.layout = "partners_layout"
+  cs.permalink = "partners/en/{title}.html"
+  cs.sources = "partners/en/{title}.html"
+  cs.default_extension = ".md"
+end
 
 configure :build do
   activate :images

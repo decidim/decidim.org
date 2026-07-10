@@ -43,6 +43,7 @@ collections:
     create: true
     identifier_field: name
     fields:
+      - {label: "Date", name: "date", widget: "datetime", required: true}
       - {label: "Name", name: "name", widget: "string", required: true}
       - {label: "Subtitle", name: "subtitle", widget: "text", required: true}
       - {label: "URL", name: "url", widget: "string", required: true}
