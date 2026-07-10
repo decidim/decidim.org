@@ -1,0 +1,30 @@
+<div class="md:grid md:grid-cols-3 grid-cols-2 gap-5">
+  <% data.association.each do |member| %>
+    <% if member.type == type %>
+      <div class="[perspective:1000px] cursor-pointer hover:shadow-lg transition-shadow duration-300 w-full h-[485px] md:pb-0 pb-5"
+           role="button"
+           tabindex="0"
+           onclick="const el=this.querySelector('.flip-inner');el.style.transform=el.style.transform?'':'rotateY(180deg)'"
+           onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();const el=this.querySelector('.flip-inner');el.style.transform=el.style.transform?'':'rotateY(180deg)'}">
+        <div class="flip-inner relative w-full h-full transition-transform duration-500" style="transform-style:preserve-3d;">
+          <div class="absolute inset-0 flex flex-col gap-1 [backface-visibility:hidden]">
+            <img src="<%= member.photo %>" alt="<%= member.name %>" class="w-full h-96 object-cover rounded-t-lg" />
+            <div class="p-4">
+              <h6 class="font-semibold h6 pb-2"><%= member.name %></h6>
+              <p class="par-md text-gray-500 pb-4 md:pb-0"><%= t("team.members.#{member["slug"]}.role") %></p>
+            </div>
+          </div>
+          <div class="flip-back rounded-lg absolute inset-0 flex flex-col gap-3 p-5 bg-red-100 shadow [backface-visibility:hidden] [transform:rotateY(180deg)]">
+            <p class="par-sm"><%= t("team.members.#{member["slug"]}.bio") %></p>
+            <% if member.linkedin_url && !member.linkedin_url.to_s.empty? %>
+              <a href="<%= member.linkedin_url %>" target="_blank" rel="noopener noreferrer" class="mt-auto inline-flex items-center gap-1 text-md text-red-500 hover:underline" onclick="event.stopPropagation()">
+                <%= icon "ri-linkedin-box-fill", class: "w-5 h-5" rescue nil %>
+                /LinkedIn
+              </a>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>

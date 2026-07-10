@@ -1,0 +1,52 @@
+---
+nav: team
+description:
+---
+
+<section>
+  <div class="container pt-10 pb-10 md:pt-16 md:pb-24">
+    <div class="md:w-3/5">
+      <h1 class="h1 md:whitespace-nowrap">
+        <%= t("team.title") %>
+      </h1>
+      <p class="par-xl text-black pt-5">
+        <%= t("team.subtitle") %>
+      </p>
+      <div class="par-md text-black pt-4">
+        <%= t("team.intro") %>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container md:pb-16 pb-10">
+    <h2 class="h2 md:pb-6 pb-5"><%= t("team.technical_office.title") %></h2>
+    <div class="par-md text-black pb-8 md:pb-10">
+      <%= t("team.technical_office.intro") %>
+    </div>
+    <%= partial "partials/team", locals: { type: "technical" } %>
+    <h2 class="h2 md:pb-6 pt-10 pb-5"><%= t("team.coordination_committee.title") %></h2>
+    <div class="par-md text-black pb-8 md:pb-10">
+      <%= t("team.coordination_committee.intro") %>
+    </div>
+    <%= partial "partials/team", locals: { type: "coordination" } %>
+  </div>
+</section>
+
+<section>
+  <img src="/images/team/team_banner.jpg" alt="" class="banner object-cover grayscale">
+</section>
+
+<section class="bg-red-100">
+  <div class="container py-10 md:py-16">
+    <h2 class="h2 text-red-500">
+      <%= t("team.banner.title") %>
+    </h2>
+    <p class="par-md text-red-500 pt-4">
+      <%= t("team.banner.subtitle") %>
+    </p>
+    <div class="inline-flex flex-col md:flex-row gap-4 par-md md:pt-10 pt-5">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("team.banner.link"), url: "/community" } %>
+    </div>
+  </div>
+</section>
