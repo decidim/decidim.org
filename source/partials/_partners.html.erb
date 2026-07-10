@@ -1,11 +1,30 @@
-<p class="par-md pb-6 font-mediumj">
-  <%= t("partners.type.#{type}") %>
-</p>
-<div class="grid grid-cols-4 md:grid-cols-5 gap-6 md:gap-24 items-center pb-12">
-  <% data_sort_by(data_select_by_type(data.supporters, type), "joined_at").each do |_id, partner| %>
-    <a href="<%= partner.url %>" title="<%= partner.name %>" target="_blank" rel="noopener noreferrer">
-      <%= image_tag partner.image, alt: partner.name %>
-    </a>
-  <% end %>
-</div>
-
+<% limit = defined?(limit) ? limit : nil %>
+<% resources = blog(:partners).articles %>
+<% resources = limit ? resources.first(limit) : resources %>
+<% resources.each do |resource| %>
+  <% cs = resource.data %>
+  <div class="flex flex-col pb-4 rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300 flex-1"
+    data-cs-card
+    data-type="<%= cs.type.to_s %>"
+    data-country="<%= cs.country.to_s %>">
+    <div class="overflow-hidden rounded-t-lg bg-gray-300">
+      <% gallery_image = cs.gallery&.first %>
+      <% if cs.image %>
+        <img class="w-full h-full aspect-[2/1] object-cover" src="<%= cs.image %>" alt="<%= cs.title %>">
+      <% else %>
+        <img class="w-full h-full aspect-[2/1] object-cover" src="/images/placeholder.jpg" alt="<%= cs.title %>">
+      <% end %>
+    </div>
+    <div class="flex gap-2 flex-wrap px-6 pt-4">
+      <% if cs.type.present? %>
+        <span class="text-xs bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.type %></span>
+      <% end %>
+      <% if cs.country.present? %>
+        <span class="text-xs bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.country %></span>
+      <% end %>
+    </div>
+    <h5 class="h5 pt-4 px-6 line-clamp-2"><%= cs.title %></h5>
+    <p class="par-md pt-4 text-gray-500 px-6 line-clamp-3"><%= cs.subtitle %></p>
+    <%= partial "partials/arrow-link", locals: { text: t("case_studies.read"), url: resource.url, classes: "text-red-500 mt-auto block pl-6 pt-4" } %>
+  </div>
+<% end %>
