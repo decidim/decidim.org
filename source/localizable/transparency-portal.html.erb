@@ -36,15 +36,10 @@ description:
 
 <section>
   <div class="container md:py-16 py-10 space-y-6">
-    <div class="border-b border-gray-300 pb-6">
+    <div class="border-b border-gray-300 pb-6 space-y-2">
       <h6 class="h6 text-red-500 font-bold">
         <%= t("transparency_portal.institutional_information") %>
       </h6>
-      <div class="flex flex-row items-center justify-between">
-        <div class="hidden md:block">
-          <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-download-line", url: "/pdf/institutional_organizational_information_en.pdf", span_classes: "text-[16px]", padding_classes: "px-4 py-1", icon_classes: "w-4 h-4" } %>
-        </div>
-      </div>
       <div class="flex flex-row items-center justify-between">
         <div class="flex flex-row items-center gap-2">
           <%= icon("ri-file-text-line", class: "w-4 h-4") %>
@@ -53,21 +48,16 @@ description:
           <%= icon("ri-scales-2-line", class: "w-4 h-4") %>
           <span>162 Kb</span>
         </div>
-        <div class="md:hidden">
+        <div class="flex flex-row items-center justify-end">
           <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-download-line", url: "/pdf/institutional_organizational_information_en.pdf", span_classes: "text-[16px]", padding_classes: "px-4 py-1", icon_classes: "w-4 h-4" } %>
         </div>
       </div>
     </div>
 
-    <div class="border-b border-gray-300 pb-6">
+    <div class="border-b border-gray-300 pb-6 space-y-2">
       <h6 class="h6 text-red-500 font-bold">
         <%= t("transparency_portal.agreements") %>
       </h6>
-      <div class="flex flex-row items-center justify-between">
-        <div class="hidden md:block">
-          <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-download-line", url: "/pdf/contracts_agreements_grants_en.pdf", span_classes: "text-[16px]", padding_classes: "px-4 py-1", icon_classes: "w-4 h-4" } %>
-        </div>
-      </div>
       <div class="flex flex-row items-center justify-between">
         <div class="flex flex-row items-center gap-2">
           <%= icon("ri-file-text-line", class: "w-4 h-4") %>
@@ -76,21 +66,16 @@ description:
           <%= icon("ri-scales-2-line", class: "w-4 h-4") %>
           <span>144 Kb</span>
         </div>
-        <div class="md:hidden">
+        <div class="flex flex-row items-center justify-end">
           <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-download-line", url: "/pdf/contracts_agreements_grants_en.pdf", span_classes: "text-[16px]", padding_classes: "px-4 py-1", icon_classes: "w-4 h-4" } %>
         </div>
       </div>
     </div>
 
-    <div class="border-b border-gray-300 pb-6">
+    <div class="border-b border-gray-300 pb-6 space-y-2">
       <h6 class="h6 text-red-500 font-bold">
         <%= t("transparency_portal.financial_management") %>
       </h6>
-      <div class="flex flex-row items-center justify-between">
-        <div class="hidden md:block">
-          <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-download-line", url: "/pdf/financial_management_en.pdf", span_classes: "text-[16px]", padding_classes: "px-4 py-1", icon_classes: "w-4 h-4" } %>
-        </div>
-      </div>
       <div class="flex flex-row items-center justify-between">
         <div class="flex flex-row items-center gap-2">
           <%= icon("ri-file-text-line", class: "w-4 h-4") %>
@@ -99,7 +84,7 @@ description:
           <%= icon("ri-scales-2-line", class: "w-4 h-4") %>
           <span>2.5 Mb</span>
         </div>
-        <div class="md:hidden">
+        <div class="flex flex-row items-center justify-end">
           <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-download-line", url: "/pdf/financial_management_en.pdf", span_classes: "text-[16px]", padding_classes: "px-4 py-1", icon_classes: "w-4 h-4" } %>
         </div>
       </div>
