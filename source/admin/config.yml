@@ -55,7 +55,7 @@ collections:
       # - {label: "Joined at", name: "joined_at", widget: "datetime", date_format: "YYYY.MM.DD", time_format: false, required: true}
       # In the meantime we use a string as a workaround
       - {label: "Joined at", name: "joined_at", widget: "string", default: "YYYY.MM.DD", required: true}
-      - {label: "Type", name: "type", widget: "select", options: ["Installation & Development", "Participation Design"], required: true}
+      - {label: "Type", name: "type", widget: "select", options: ["Installation & Development", "Participation Design"], multiple: true, required: true}
       - {label: "Country", name: "country", widget: "select", options: ["Basque Country", "Catalonia", "Spain", "Europe", "United States", "Sweden", "Switzerland"], required: true}
       - {label: "Type of Service Provider", name: "type_of_service_provider", widget: "string", required: true}
       - {label: "Most Relevant Experiences", name: "most_relevant_experiences", widget: "markdown", required: true}
