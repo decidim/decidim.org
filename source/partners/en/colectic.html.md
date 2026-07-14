@@ -1,5 +1,4 @@
 ---
-date: "2026-01-01"
 name: Colectic
 subtitle: Colectic is a non-profit cooperative that works for the inclusion, autonomy and empowerment of people and communities. We understand and use technology as a tool for participation and social transformation.
 url: https://colectic.coop/
@@ -7,7 +6,7 @@ image: /uploads/partner_logo_colectic.svg
 joined_at: Since 2017
 type: Participation Design
 country: Catalonia
-type_of_service_provider: Participation consultant
+type_of_service_provider: Cooperative
 most_relevant_experiences: |-
   - [**Som Energia**](https://participa.somenergia.coop/)
 
@@ -21,4 +20,5 @@ most_relevant_experiences: |-
 
     For the Diputació de Barcelona and Decidim DDGI for the Diputació de Girona. Support service and resolution of queries and incidents in the administration of the Decidim platform for municipal technicians in the territorial area. Introductory and advanced training, and bespoke training proposals.
 email_address: area.participacio@colectic.coop
+date: 2026-01-01
 ---
