@@ -1,10 +1,12 @@
 ---
+date: 2026-07-14T16:07
 name: Octree
 subtitle: Founded in 2016, Octree has extensive experience in data-oriented web applications development. Their project Voca.city makes distributing Decidim platforms simple, reliable and affordable in any context.
 url: https://voca.city/
 image: /uploads/octree_logo_header.png
 joined_at: Since 2019
-type: Installation & Development
+type:
+  - Installation & Development
 country: Switzerland
 type_of_service_provider: Tech coop
 most_relevant_experiences: |-
