@@ -12,7 +12,7 @@
           &nbsp;&mdash;&nbsp;
           <span class="inline-block first-letter:uppercase">
             <% current_article.tags.each_with_index do |tag, index| %>
-              <%= link_to "#{tag}", tag_path(tag, blog: "blog") %> <%= "- " unless index+1 == current_article.tags.length %>
+              <%= link_to "#{tag}", tag_path(tag, "blog") %> <%= "- " unless index+1 == current_article.tags.length %>
             <% end %>
           </span>
         <% end %>
