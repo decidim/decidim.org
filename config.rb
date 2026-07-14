@@ -58,7 +58,7 @@ page "/*.json", layout: false
 page "/*.txt", layout: false
 
 # Blog
-activate :blog do |blog|
+activate :blog, name: "blog" do |blog|
   blog.paginate = false
   blog.layout = "blog_layout"
   blog.permalink = "blog/{year}-{month}-{day}-{title}.html"
