@@ -10,9 +10,9 @@
     <div class="overflow-hidden rounded-t-lg bg-white">
       <% gallery_image = cs.gallery&.first %>
       <% if cs.image %>
-        <img class="w-full h-40 aspect-[2/1] object-cover object-center" src="<%= cs.image %>" alt="<%= cs.alt.present? ? cs.alt : cs.title %>">
+        <img class="w-full h-40 aspect-[2/1] object-contain object-center p-5" src="<%= cs.image %>" alt="<%= cs.alt.present? ? cs.alt : cs.title %>">
       <% else %>
-        <img class="w-full h-40 aspect-[2/1] object-cover object-center" src="/images/placeholder.jpg" alt="<%= cs.title %>">
+        <img class="w-full h-40 aspect-[2/1] object-contain object-center p-5" src="/images/placeholder.jpg" alt="<%= cs.title %>">
       <% end %>
     </div>
     <div class="flex gap-2 flex-wrap px-6 pt-4">
