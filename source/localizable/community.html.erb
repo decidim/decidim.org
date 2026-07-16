@@ -26,8 +26,8 @@ description:
     <div data-scroll-gallery class="overflow-hidden cursor-grab">
       <div id="gallery-track" class="flex gap-2 md:gap-5 px-1.5 md:px-2 animate-slide-x" data-scroll-track style="--translate-x: -50%">
         <% images = %w[1 2 3 4 5 6] %>
-        <% (images * 2).each do |foto| %>
-          <img src="/images/community_carousel_<%= foto %>.jpg" alt="" class="w-64 md:w-96 md:h-96 h-64 rounded-lg object-cover object-center block pointer-events-none shrink-0">
+        <% (images * 2).each do |photo| %>
+          <img src="/images/community_carousel_<%= photo %>.jpg" alt="" class="w-64 md:w-96 md:h-96 h-64 rounded-lg object-cover object-center block pointer-events-none shrink-0">
         <% end %>
       </div>
     </div>
