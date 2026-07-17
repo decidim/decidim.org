@@ -17,7 +17,7 @@ RSpec.describe "faqs", type: :feature do
 
   it "has a search input inside the filter container" do
     within("#faq-sections") do
-      expect(page).to have_field("input[type='text']")
+      expect(page).to have_field("Search...")
     end
   end
 
