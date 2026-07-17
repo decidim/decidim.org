@@ -42,7 +42,7 @@ collections:
         required: false
         hint: "Add each component as a separate item"
         field: {label: "Component", name: "component", widget: "string"}
-      - {label: "Country", name: "country", widget: "select", options: ["Brazil", "Catalonia", "Europe", "Finland", "Japan"], required: true}
+      - {label: "Country", name: "country", widget: "string", required: true, hint: "Enter a country or region name (e.g. Brazil, Catalonia, Europe)"}
       - label: "Results section title"
         name: "results_title"
         widget: "string"
