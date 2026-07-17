@@ -13,28 +13,28 @@
  *
  * <div data-cs-filter-dropdown>
  *   <div data-cs-filter-panel class="hidden">
- *     <div id="cs-type-checkboxes"></div>
- *     <div id="cs-country-checkboxes"></div>
+ * <div data-cs-type-checkboxes></div>
+ *     <div data-cs-country-checkboxes></div>
  *     <button data-cs-clear-filters class="hidden">Clear filters</button>
  *   </div>
  * </div>
  *
- * <div id="cs-active-chips"></div>
+ * <div data-cs-active-chips></div>
  *
- * <div id="cs-grid">
+ * <div data-cs-grid>
  *   <div data-cs-card data-type="Case Study" data-country="Spain">...</div>
  *   <div data-cs-card data-type="White Paper" data-country="France">...</div>
  * </div>
  *
- * <div id="cs-no-results" class="hidden">No results found.</div>
+ * <div data-cs-no-results class="hidden">No results found.</div>
  *
- * <div id="cs-pagination"></div>
+ * <div data-cs-pagination></div>
  */
 
 /* eslint-disable max-lines */
 const caseStudyFilter = () => {
   const CARDS_PER_PAGE = 6;
-  const grid = document.getElementById("cs-grid");
+  const grid = document.querySelector("[data-cs-grid]");
   if (!grid) {
     return;
   }
@@ -45,11 +45,11 @@ const caseStudyFilter = () => {
   const filterArrow      = document.querySelector("[data-cs-filter-arrow]");
   const filterBadge      = document.querySelector("[data-cs-filter-badge]");
   const clearBtn         = document.querySelector("[data-cs-clear-filters]");
-  const typeContainer    = document.getElementById("cs-type-checkboxes");
-  const countryContainer = document.getElementById("cs-country-checkboxes");
-  const paginationEl     = document.getElementById("cs-pagination");
-  const noResultsEl      = document.getElementById("cs-no-results");
-  const chipsEl          = document.getElementById("cs-active-chips");
+  const typeContainer    = document.querySelector("[data-cs-type-checkboxes]");
+  const countryContainer = document.querySelector("[data-cs-country-checkboxes]");
+  const paginationEl     = document.querySelector("[data-cs-pagination]");
+  const noResultsEl      = document.querySelector("[data-cs-no-results]");
+  const chipsEl          = document.querySelector("[data-cs-active-chips]");
   const allCards         = Array.from(grid.querySelectorAll("[data-cs-card]"));
 
   let currentPage = 1;
