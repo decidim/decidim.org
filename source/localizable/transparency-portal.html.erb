@@ -1,0 +1,94 @@
+---
+nav: transparency-portal
+description:
+---
+<section>
+  <div class="container pt-10 md:pt-16 md:pb-5">
+    <div class="md:w-3/5">
+      <h1 class="h1 md:text-6xl md:whitespace-nowrap">
+        <%= t("transparency_portal.title") %>
+      </h1>
+      <p class="par-xl pt-5 md:pt-5">
+        <%= t("transparency_portal.subtitle") %>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="max-w-3xl">
+      <p class="par-md pt-4 md:pt-5">
+        <%= t("transparency_portal.intro") %>
+      </p>
+      <ul class="list-disc list-inside pl-4 par-md underline">
+        <li><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887"><%= t("transparency_portal.l1") %></a></li>
+        <li><a href="https://portaljuridic.gencat.cat/ca/document-del-pjur/?documentId=680124"><%= t("transparency_portal.l2") %></a></li>
+      </ul>
+      <p class="par-md">
+        <%= t("transparency_portal.intro2") %>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container md:py-16 py-10 space-y-6">
+    <div class="border-b border-gray-300 pb-6 space-y-2">
+      <h6 class="h6 text-red-500 font-bold">
+        <%= t("transparency_portal.institutional_information") %>
+      </h6>
+      <div class="flex flex-row items-center justify-between">
+        <div class="flex flex-row items-center gap-2">
+          <%= icon("ri-file-text-line", class: "w-4 h-4") %>
+          <span>PDF</span>
+          <span class="border-l border-gray-300 h-4"></span>
+          <%= icon("ri-scales-2-line", class: "w-4 h-4") %>
+          <span>162 Kb</span>
+        </div>
+        <div class="flex flex-row items-center justify-end">
+          <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-download-line", url: "/pdf/institutional_organizational_information_en.pdf", span_classes: "text-[16px]", padding_classes: "px-4 py-1", icon_classes: "w-4 h-4" } %>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-b border-gray-300 pb-6 space-y-2">
+      <h6 class="h6 text-red-500 font-bold">
+        <%= t("transparency_portal.agreements") %>
+      </h6>
+      <div class="flex flex-row items-center justify-between">
+        <div class="flex flex-row items-center gap-2">
+          <%= icon("ri-file-text-line", class: "w-4 h-4") %>
+          <span>PDF</span>
+          <span class="border-l border-gray-300 h-4"></span>
+          <%= icon("ri-scales-2-line", class: "w-4 h-4") %>
+          <span>144 Kb</span>
+        </div>
+        <div class="flex flex-row items-center justify-end">
+          <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-download-line", url: "/pdf/contracts_agreements_grants_en.pdf", span_classes: "text-[16px]", padding_classes: "px-4 py-1", icon_classes: "w-4 h-4" } %>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-b border-gray-300 pb-6 space-y-2">
+      <h6 class="h6 text-red-500 font-bold">
+        <%= t("transparency_portal.financial_management") %>
+      </h6>
+      <div class="flex flex-row items-center justify-between">
+        <div class="flex flex-row items-center gap-2">
+          <%= icon("ri-file-text-line", class: "w-4 h-4") %>
+          <span>PDF</span>
+          <span class="border-l border-gray-300 h-4"></span>
+          <%= icon("ri-scales-2-line", class: "w-4 h-4") %>
+          <span>2.5 Mb</span>
+        </div>
+        <div class="flex flex-row items-center justify-end">
+          <%= partial "partials/arrow-link-rounded", locals: { text: t("transparency_portal.cta"), icon_name: "ri-download-line", url: "/pdf/financial_management_en.pdf", span_classes: "text-[16px]", padding_classes: "px-4 py-1", icon_classes: "w-4 h-4" } %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<%= partial "/partials/cta-banner" %>
