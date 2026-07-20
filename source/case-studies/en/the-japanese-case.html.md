@@ -5,7 +5,7 @@ subtitle: The first Decidim instance in the Pacific island was deployed on the y
 website: https://kakogawa.diycities.jp/
 website_link_text: Kakogawa instance
 gallery:
-  - image: /uploads/Captura de pantalla de 2026-05-28 15-08-50.png
+  - image: /uploads/use-case-japan-01-banner.png
     alt: ''
 type: Strategic Planning
 target: Citizens from Kakogawa, Yosano, Nishiaizu and Kamaishi
@@ -42,7 +42,7 @@ optional_section_3: ''
 testimonial_link: ''
 testimonial_link_text: ''
 partners:
-  - logo: /uploads/codeforjapan_logo.svg
+  - logo: /uploads/use-case-japan-codeforjapan-logo.svg
     name: Code for Japan
 collaboration_text: ''
 ---

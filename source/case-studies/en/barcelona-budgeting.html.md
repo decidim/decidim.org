@@ -5,17 +5,17 @@ subtitle: The first participatory budgets in the city, or how to promote democra
 website: https://www.decidim.barcelona/
 website_link_text: Access the Decidim.Barcelona platform
 gallery:
-  - image: /uploads/use-case-barcelona-01.jpg
+  - image: /uploads/use-case-barcelona-01-banner.jpg
     alt: A women's team of cricketers posing for a team photo
-  - image: /uploads/use-case-barcelona-02.jpg
+  - image: /uploads/use-case-barcelona-02-banner.jpg
     alt: Cricketer attempting to deflect a shot while on the field of play
-  - image: /uploads/use-case-barcelona-03.jpg
+  - image: /uploads/use-case-barcelona-03-banner.jpg
     alt: Promoters preparing a stand of information about voting
-  - image: /uploads/use-case-barcelona-04.jpg
+  - image: /uploads/use-case-barcelona-04-banner.jpg
     alt: Promoter providing information about voting to a number of participants
-  - image: /uploads/use-case-barcelona-05.jpg
+  - image: /uploads/use-case-barcelona-05-banner.jpg
     alt: A person signing a document over a sign promoting municipal citizen engagement
-  - image: /uploads/use-case-barcelona-06.jpg
+  - image: /uploads/use-case-barcelona-06-banner.jpg
     alt: A group of individuals posing for aerial photo in-front of a red chair
 type: Participatory Budgeting
 target: Barcelona citizens aged 14 years old and over
@@ -126,9 +126,9 @@ optional_section_3: |-
   - Allowing participation without registration for one-off actions is necessary.
 testimonial: ''
 partners:
-  - logo: /uploads/casestudies_logos_decidim.svg
+  - logo: /uploads/use-case-barcelona-decidim-logo.svg
     name: Decidim Barcelona
-  - logo: /uploads/bcn_casestudies_logo.svg
+  - logo: /uploads/use-case-barcelona-city-logo.svg
     name: The Ajuntament de Barcelona
 collaboration_text: This article has been written in collaboration with Barcelona City Council.
 testimonial_link: https://www.3cat.cat/3catinfo/una-historia-dempoderament-femeni-a-les-del-criquet/noticia/3280178/

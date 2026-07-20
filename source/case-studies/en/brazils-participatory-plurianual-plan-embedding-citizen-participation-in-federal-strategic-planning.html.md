@@ -5,7 +5,7 @@ subtitle: A strategic planning process that led to the launch of the Brasil Part
 website: https://brasilparticipativo.presidencia.gov.br/
 website_link_text: Brasil Participativo
 gallery:
-  - image: /uploads/brazil_participativo_case_study.svg
+  - image: /uploads/use-case-brazil-01-banner.svg
     alt: ''
 type: Strategic Planning
 target: Brazilian citizens, public representatives, civil society organisations (NGOs), social movements, social programs beneficiaries
@@ -110,21 +110,21 @@ optional_section_3: |-
   - The development of conversational participation flows based on the understanding lowering cognitive and procedural barriers is essential to engage citizens who are not accustomed to navigating institutional platforms. In a context where mobile messaging apps are the primary digital environment for millions of Brazilians, embedding participation within familiar conversational interfaces significantly reduces friction in onboarding, authentication, and proposal submission.
 testimonial: <iframe width="560" height="315" src="https://www.youtube.com/embed/gTImfgUw6v4?si=lvGKUQtGH0_arYpe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 partners:
-  - logo: /uploads/images.png
+  - logo: /uploads/use-case-brazil-lab-livre-logo.png
     name: LabLivre
-  - logo: /uploads/brasilia_logo.png
+  - logo: /uploads/use-case-brazil-brasilia-logo.png
     name: University of Brasilia
-  - logo: /uploads/Cidade_Democratica.png
+  - logo: /uploads/use-case-brazil-cidade-democratica-logo.png
     name: Cidade Democratica
-  - logo: /uploads/imagesnomade.png
+  - logo: /uploads/use-case-brazil-nomade-tecnologias-logo.png
     name: Nomade Tecnologias
-  - logo: /uploads/feliclab_colorido.png
+  - logo: /uploads/use-case-brazil-feliclab-colorido-logo.png
     name: Felicilab
-  - logo: /uploads/MGISPAssinatura.png
+  - logo: /uploads/use-case-brazil-mgisp-logo.png
     name: Ministerio da Gestao e da Inovaçao em Serviços Públicos
-  - logo: /uploads/imagesenap.png
+  - logo: /uploads/use-case-brazil-enap-logo.png
     name: ENAP
-  - logo: /uploads/Dataprev_logo_new_349x175.2e16d0ba.fill-279x140.png
+  - logo: /uploads/use-case-brazil-dataprev-logo.png
     name: Dataprev
 collaboration_text: This use case has been written in collaboration with the Secretaria-Geral da Presidência da República, Cidade Democratica, University of Brasilia and LabLivre
 testimonial_link_text: President’s speech presenting the participatory process

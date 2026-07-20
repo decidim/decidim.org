@@ -5,7 +5,7 @@ subtitle: An interview with Sanna Moisala, Project manager of participatory serv
 website: https://omastadi.hel.fi/?locale=en
 website_link_text: Helsinki's Participatory platform
 gallery:
-  - image: /uploads/omastadi_helsinki.png
+  - image: /uploads/use-case-helsinki-01-banner.png
     alt: ''
 type: Participatory Budgeting
 target: Helsinki Citizens
@@ -41,7 +41,7 @@ optional_section_3: ''
 testimonial_link: ''
 testimonial_link_text: ''
 partners:
-  - logo: /uploads/helsinki-logo-black-e20089729b0336904ec1.svg
+  - logo: /uploads/use-case-helsinki-logo.svg
     name: Helsinki
 collaboration_text: ''
 ---

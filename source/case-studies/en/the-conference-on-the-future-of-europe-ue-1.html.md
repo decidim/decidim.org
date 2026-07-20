@@ -5,7 +5,7 @@ subtitle: The European Commission used Decidim to implement the multilingual dig
 website: https://wayback.archive-it.org/12090/20230418091815/https:/futureu.europa.eu/
 website_link_text: Conference on the Future of Europe repository
 gallery:
-  - image: /uploads/conference_future_of_europe.png
+  - image: /uploads/use-case-cofe-01-banner.png
     alt: ''
 type: Participatory Policy-Making
 target: EU Citizens
@@ -53,7 +53,7 @@ optional_section_3: ''
 testimonial_link: ''
 testimonial_link_text: ''
 partners:
-  - logo: /uploads/logo_cofe.svg
+  - logo: /uploads/use-case-cofe-logo.svg
     name: Conference on the Future of Europe
 collaboration_text: ''
 ---
