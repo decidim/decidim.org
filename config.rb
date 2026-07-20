@@ -80,7 +80,7 @@ proxy "_headers", "netlify-headers", ignore: true
 activate :blog, name: "case_studies" do |cs|
   cs.paginate = false
   cs.layout = "case_studies_layout"
-  cs.permalink = "case-studies/en/{title}.html"
+  cs.permalink = "case-studies/{title}.html"
   cs.sources = "case-studies/en/{title}.html"
   cs.default_extension = ".md"
 end
