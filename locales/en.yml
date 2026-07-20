@@ -76,7 +76,6 @@ en:
     p1: The Future of The Internet · October 13-14 Barcelona
     strong: Decidim Fest 22
   blog:
-    latest: Latest blog post
     read_more: Read more
     subtitle: Latest news from Decidim.
     tags:
@@ -469,10 +468,9 @@ en:
       feature5: Participatory budgeting
       feature6: Networked communication
       intro: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
-    used_by:
-      heading: Hundreds of organizations around the world trust Decidim for their democratic processes
-      link: Discover how
-      title: Already using Decidim
+    use_cases:
+      subtitle: Stories about Decidim in action, around the world with diverse purposes and contexts.
+      title: Use cases
   installations:
     download_csv: Download CSV file with all the installations
     download_csv_short: Download CSV

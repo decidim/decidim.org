@@ -69,6 +69,28 @@ pageClass: home
   </div>
 </section>
 
+<section class="md:py-16">
+  <div class="container pt-10">
+    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+      <h2 class="h2">
+        <%= t("index.use_cases.title") %>
+      </h2>
+      <div class="hidden md:block">
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
+      </div>
+    </div>
+    <p class="par-md md:py-6 pt-5 max-w-prose text-black">
+      <%= t("index.use_cases.subtitle") %>
+    </p>
+  </div>
+  <div class="container">
+    <%= partial "/partials/testimonial-cards" %>
+    <div class="md:hidden pb-10">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
+    </div>
+  </div>
+</section>
+
 <section class="md:pb-6">
   <img src="/images/home-banner.jpg" alt="" class="banner object-cover">
 </section>
