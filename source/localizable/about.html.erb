@@ -4,34 +4,148 @@ description:
 ---
 
 <section>
-  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
-    <div class="md:w-3/5 space-y-6">
+  <div class="container py-10 md:pt-16 md:pb-0">
+    <div class="md:w-3/5">
       <h1 class="h1 md:whitespace-nowrap">
         <%= t("about.title") %>
       </h1>
-      <p class="par-xl text-gray-500">
+      <p class="par-xl text-black py-4 md:py-5">
         <%= t("about.subtitle") %>
       </p>
-      <p class="par-md text-gray-500">
+      <p class="par-md text-black">
         <%= t("about.intro") %>
       </p>
     </div>
 
-    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-12 md:mt-16">
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-hand-heart-line", text: t("about.about")[0], url: "#{t(:path)}/about#support" } %>
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-mail-line", text: t("about.about")[1], url: "#{t(:path)}/contact" } %>
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-team-line", text: t("about.about")[2], url: "https://meta.decidim.org" } %>
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-newspaper-line", text: t("about.about")[3], url: "#{t(:path)}/press" } %>
+    <div class="flex flex-col md:flex-row justify-start items-stretch divide-y md:divide-y-0 divide-gray-300 md:border-b-0 border-gray-300 md:py-24 pt-10">
+      <div class="flex flex-col justify-between py-5 border-gray-300 px-0 md:pr-5 md:py-0 w-full">
+        <div>
+          <div class="flex items-center space-x-2 pb-4 md:pb-0">
+            <%= icon "ri-user-add-line", class: "w-6 h-6" %>
+            <span class="font-semibold uppercase"><%= t("about.association.become_member.title") %></span>
+          </div>
+          <p class="par-md text-gray-500 md:py-6"><%= t("about.association.become_member.description") %></p>
+        </div>
+        <%= partial "partials/arrow-link", locals: { text: t("about.association.become_member.url_name"), url: t("about.association.become_member.url"), classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+      </div>
+      <div class="flex flex-col justify-between md:border-l py-5 border-gray-300 px-0 md:px-5 md:py-0 w-full">
+        <div>
+          <div class="flex items-center space-x-2 pb-4 md:pb-0">
+            <%= icon "ri-tools-fill", class: "w-6 h-6" %>
+            <span class="font-semibold uppercase"><%= t("about.association.media_kit.title") %></span>
+          </div>
+          <p class="par-md text-gray-500 md:py-6"><%= t("about.association.media_kit.description") %></p>
+        </div>
+        <%= partial "partials/arrow-link", locals: { text: t("about.association.media_kit.url_name"), url: t("about.association.media_kit.url"), classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+      </div>
+      <div class="flex flex-col justify-between md:border-l py-5 border-gray-300 px-0 md:px-5 md:py-0 w-full">
+        <div>
+          <div class="flex items-center space-x-2 pb-4 md:pb-0">
+            <%= icon "ri-hand-heart-line", class: "w-6 h-6" %>
+            <span class="font-semibold uppercase"><%= t("about.association.support_us.title") %></span>
+          </div>
+          <p class="par-md text-gray-500 md:py-6"><%= t("about.association.support_us.description") %></p>
+        </div>
+        <%= partial "partials/arrow-link", locals: { text: t("about.association.support_us.url_name"), url: t("about.association.support_us.url"), classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="bg-red-100">
+  <div class="container flex md:flex-row flex-col justify-start items-stretch gap-5 py-12 md:py-16">
+    <div class="md:w-1/2">
+      <h2 class="h2 text-red-500"><%= t("about.mission.title") %></h2>
+      <p class="par-md text-red-500 pt-4"><%= t("about.mission.subtitle").html_safe %></p>
+    </div>
+    <div class="md:w-1/2">
+      <h2 class="h2 text-red-500"><%= t("about.vision.title") %></h2>
+      <div class="pl-4">
+        <li class="par-md text-red-500 pt-4"><%= t("about.vision.subtitle_1").html_safe %></li>
+        <li class="par-md text-red-500 pt-4"><%= t("about.vision.subtitle_2").html_safe %></li>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="md:pt-16 md:pb-0 py-10 flex justify-center">
+    <div data-scroll-gallery class="overflow-hidden cursor-grab">
+      <div id="gallery-track" class="flex gap-2 md:gap-5 px-1.5 md:px-2 animate-slide-x" data-scroll-track style="--translate-x: -50%">
+        <% images = %w[1 2 3 4 5 6] %>
+        <% (images * 2).each do |foto| %>
+          <img src="/images/about_carousel_<%= foto %>.jpg" alt="" class="max-w-sm md:max-w-md md:h-96 h-64 rounded-lg object-cover object-center block pointer-events-none shrink-0">
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container pb-12 md:py-16">
+    <h2 class="h2 text-black"><%= t("about.history.title") %></h2>
+    <div class="2xl:overflow-hidden overflow-x-auto px-4 overflow-y-hidden">
+      <div class="relative flex h-[500px] min-w-[1000px] mt-40">
+
+        <div class="absolute left-0 right-[-2rem] pointer-events-none z-0" style="top: 250px; transform: translateY(-50%);">
+          <%= image_tag "timeline_arrow.svg", class: "w-full h-auto", aria: { hidden: true } %>
+        </div>
+
+        <% t("about.history.timeline").each do |item| %>
+          <div class="flex-1 relative text-center px-2 z-10">
+            <% if item[:above].present? %>
+              <div class="absolute left-2 right-2 flex items-end justify-center" style="top: 0; bottom: calc(100% - 145px);">
+                <p class="text-sm leading-relaxed m-0"><%= item[:above] %></p>
+              </div>
+            <% end %>
+            <% if item[:above].present? %>
+              <div class="absolute left-0 right-0 flex justify-center" style="bottom: 290px;">
+                <%= image_tag "timeline_line.svg", class: "w-auto rotate-180", aria: { hidden: true } %>
+              </div>
+            <% end %>
+            <div class="absolute left-0 right-0 flex justify-center" style="top: calc(250px - 40px);">
+              <span class="text-xl font-bold text-red-500 leading-none"><%= item[:year] %></span>
+            </div>
+            <div class="absolute left-0 right-0 flex justify-center" style="top: 250px; transform: translateY(-50%);">
+              <%= image_tag "timeline_point.svg", class: "w-auto flex-shrink-0", aria: { hidden: true } %>
+            </div>
+            <% if item[:below].present? %>
+              <div class="absolute left-0 right-0 flex justify-center" style="top: 265px;">
+                <%= image_tag "timeline_line.svg", class: "w-auto", aria: { hidden: true } %>
+              </div>
+            <% end %>
+            <% if item[:below].present? %>
+              <div class="absolute left-2 right-2" style="top: 300px;">
+                <p class="text-sm leading-relaxed m-0 pt-4"><%= item[:below].html_safe %></p>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container md:py-10 pb-10">
+    <h2 class="h2 text-black pb-5"><%= t("about.partners.title") %></h2>
+    <p class="par-md pb-6"><%= t("about.partners.subtitle") %></p>
+    <%= partial "/partials/arrow-link", locals: { text: t("about.partners.cta"), url: "/pdf/decidim_activity_report_2025.pdf", icon_name: "ri-download-line", icon_classes: "h-5 w-5" } %>
+  </div>
+</section>
+
+<section>
+  <img src="/images/banner_about.svg" alt="" class="banner object-cover">
+</section>
+
+<section class="bg-red-100">
   <div class="py-12 md:pt-16 md:pb-20 overflow-hidden">
     <div class="container text-red-500">
-      <h6 class="h6"><%= t("about.values_title") %></h6>
-      <div class="par-xl mt-2"><%= t("about.values_intro") %></div>
-      <a class="block par-md mt-4 underline" href="<%= t(:path) %>/contract"><%= t("about.values_cta") %></a>
+      <h2 class="h2"><%= t("about.values_title") %></h2>
+      <div class="par-md py-5"><%= t("about.values_intro") %></div>
+      <div class="inline-flex flex-col md:flex-row gap-4 par-md">
+        <%= partial "/partials/arrow-link-rounded", locals: { text: t("about.values_cta"), url: "https://docs.decidim.org/en/develop/understand/social-contract" } %>
+      </div>
     </div>
     <div class="mt-12 md:mt-16 w-screen space-y-4 md:space-y-6 overflow-hidden">
       <% texts = t("about.values").map {|_k,v| v} %>
@@ -39,14 +153,14 @@ description:
         <% chunks = texts.each_slice((texts.length / 2) + 1).to_a %>
         <% chunk0 = (chunks[0] * 4) + chunks[0].take(2) %>
         <% chunk1 = (chunks[1] * 4) + chunks[1].take(2) %>
-        <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1770px">
+        <div class="flex gap-4 md:gap-6 animate-slide-x" data-scroll-track style="--translate-x: -1770px; animation-duration: 30s">
           <% chunk0.each do |value| %>
-            <div class="inline-block text-red-500 par-lg p-6 border border-red-500 rounded-xl whitespace-nowrap"><%= value %></div>
+            <div class="text-white bg-red-500 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap"><%= value %></div>
           <% end %>
         </div>
-        <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1475px)">
+        <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" data-scroll-track style="--translate-x: calc(-2000px + 1475px); animation-duration: 30s">
           <% chunk1.each do |value| %>
-            <div class="inline-block text-red-500 par-lg p-6 border border-red-500 rounded-xl whitespace-nowrap"><%= value %></div>
+            <div class="text-white bg-red-500 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap"><%= value %></div>
           <% end %>
         </div>
       <% end %>
@@ -55,18 +169,66 @@ description:
 </section>
 
 <section>
-  <div class="container py-12 md:py-32" id="support">
-    <div class="space-y-6 md:w-3/4">
-      <h3 class="h3"><%= t("about.support_title") %></h3>
-      <p class="par-lg text-gray-500"><%= t("about.support_subtitle") %></p>
-      <p class="par-md text-gray-500"><%= t("about.support_intro") %></p>
-      <a class="par-md inline-block button" href="https://opencollective.com/decidim">
-        <%= t("about.support_at_opencollective") %>
-      </a>
+  <div class="container md:py-16 py-8">
+    <h2 class="h2"><%= t("about.recognitions.title") %></h2>
+    <p class="par-md text-black py-5"><%= t("about.recognitions.subtitle") %></p>
+    <div class="flex flex-col divide-y divide-gray-300">
+
+      <div class="py-5 flex flex-col gap-3 md:grid md:grid-cols-[auto_1fr_auto_2fr] md:items-center items-start md:gap-5">
+        <img src="/images/dpga_icon.svg" alt="Digital Public Good logo" class="w-auto h-24 md:w-32" />
+        <div class="flex items-center justify-between w-full md:contents">
+          <h5 class="h5"><%= t("about.recognitions.digital_public_good") %></h5>
+          <span class="par-md text-gray-500 md:hidden">2023</span>
+        </div>
+        <div class="hidden par-lg md:flex border-x border-gray-300 w-36 h-24 items-center justify-center">2023</div>
+        <div class="par-md"><%= t("about.recognitions.public_good") %></div>
+      </div>
+
+      <div class="py-5 flex flex-col gap-3 md:grid md:grid-cols-[auto_1fr_auto_2fr] md:items-center items-start md:gap-5">
+        <img src="/images/nten_icon.svg" alt="Pizzigati Prize logo" class="w-auto h-24 md:w-32" />
+        <div class="flex items-center justify-between w-full md:contents">
+          <h5 class="h5">Pizzigati Prize</h5>
+          <span class="par-md text-gray-500 md:hidden">2025</span>
+        </div>
+        <div class="hidden par-lg md:flex border-x border-gray-300 w-36 h-24 items-center justify-center">2025</div>
+        <div class="par-md"><%= t("about.recognitions.pizzigati_prize") %></div>
+      </div>
+
+      <div class="py-5 flex flex-col gap-3 md:grid md:grid-cols-[auto_1fr_auto_2fr] md:items-center items-start md:gap-5">
+        <img src="/images/osor_icon.svg" alt="OSOR logo" class="w-auto h-24 md:w-32" />
+        <div class="flex items-center justify-between w-full md:contents">
+          <h5 class="h5">OSOR Award</h5>
+          <span class="par-md text-gray-500 md:hidden">2023</span>
+        </div>
+        <div class="hidden par-lg md:flex border-x border-gray-300 w-36 h-24 items-center justify-center">2023</div>
+        <div class="par-md"><%= t("about.recognitions.osor_award") %></div>
+      </div>
+
+      <div class="py-5 flex flex-col gap-3 md:grid md:grid-cols-[auto_1fr_auto_2fr] md:items-center items-start md:gap-5">
+        <img src="/images/sharing_&_reuse_icon.svg" alt="Sharing & Reuse logo" class="w-auto h-24 md:w-32" />
+        <div class="flex items-center justify-between w-full md:contents">
+          <h5 class="h5">Sharing & Reuse</h5>
+          <span class="par-md text-gray-500 md:hidden">2019</span>
+        </div>
+        <div class="hidden par-lg md:flex border-x border-gray-300 w-36 h-24 items-center justify-center">2019</div>
+        <div class="par-md"><%= t("about.recognitions.sharing_reuse") %></div>
+      </div>
+  </div>
+</div>
+</section>
+
+<section class="container pb-10 md:pb-16">
+  <div class="space-y-5 md:p-10 p-4 bg-gray-100 rounded-xl">
+    <h2 class="text-black font-normal text-2xl md:text-5xl md:font-light">
+      <%= t("about.bottom_section.title") %>
+    </h2>
+    <p class="par-md text-black">
+      <%= t("about.bottom_section.subtitle") %>
+    </p>
+    <div class="inline-flex flex-col md:flex-row gap-4 par-md">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("about.bottom_section.button"), url: "#{t(:path)}/contact", classes: "text-black", outline_classes: "outline-black md:rounded-2xl rounded-lg", span_classes: "text-[16px] leading-[22px]", hover_bg_classes: "hover:bg-white", padding_classes: "px-3 py-1 md:px-4 md:py-2.5", icon_classes: "w-4 h-4 md:w-6 md:h-6" } %>
     </div>
   </div>
 </section>
-
-<%= partial "/partials/faq" %>
 
 <%= partial "/partials/cta-banner" %>
