@@ -15,7 +15,7 @@ pageClass: home
   <% if alert_enabled? && homepage? %>
     <%= partial "/partials/alert-banner" %>
   <% end %>
-  <div class="container hidden md:block">
+  <div>
     <%= partial "partials/main_installations", locals: { classes: "py-8" } %>
   </div>
 </section>
@@ -102,7 +102,7 @@ pageClass: home
     <img src="/images/home-footer-banner.jpg" alt="" class="absolute banner object-cover">
     <div class="relative container h-full flex flex-col justify-end pb-8 md:pb-16">
       <div class="text-white">
-        <h1 class="h1"><%= t("index.footer_banner.heading") %></h1>
+        <h1 class="h2"><%= t("index.footer_banner.heading") %></h1>
         <p class="md:text-4xl text-2xl pt-8"><%= t("index.footer_banner.intro") %></p>
       </div>
     </div>

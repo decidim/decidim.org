@@ -1,7 +1,8 @@
-<div class="grid grid-cols-6 gap-8 md:gap-16 <%= classes ||= '' %>">
-  <% data_sort_by(data_select_home(data.installations), "priority").take(6).each_with_index do |logo, i| %>
-    <a class="h-8 md:h-16 block cursor-pointer md:col-span-1 <%= i > 4 ? 'col-span-6' : i > 2 ? 'col-span-3' : 'col-span-2' %>" href="<%= logo[1][:url] %>" target="_blank" rel="noopener noreferrer">
-      <img class="w-full h-full object-contain grayscale" src="<%= logo[1][:home_image] %>" alt="<%= logo[1][:name] %>">
+<% installations = data_sort_by(data_select_home(data.installations), "priority") %>
+<div class="grid grid-cols-2 sm:grid-cols-6 md:grid-cols-5 pb-5 md:pb-0 items-center text-black space-x-4">
+  <% installations.each do |id, use| %>
+    <a class="items-center justify-center inline-block p-5 md:p-6" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">
+      <img class="object-contain w-40 h-28 md:w-56 md:h-44 md:py-4" src="<%= use.image %>" alt="<%= use.title %>" />
     </a>
   <% end %>
 </div>
