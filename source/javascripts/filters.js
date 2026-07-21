@@ -14,7 +14,7 @@
  * <div data-cs-filter-dropdown>
  *   <div data-cs-filter-panel class="hidden">
  * <div data-cs-type-checkboxes></div>
- *     <div data-cs-country-checkboxes></div>
+ *     <div data-cs-region-checkboxes></div>
  *     <button data-cs-clear-filters class="hidden">Clear filters</button>
  *   </div>
  * </div>
@@ -22,8 +22,8 @@
  * <div data-cs-active-chips></div>
  *
  * <div data-cs-grid>
- *   <div data-cs-card data-type="Case Study" data-country="Spain">...</div>
- *   <div data-cs-card data-type="White Paper" data-country="France">...</div>
+ *   <div data-cs-card data-type="Case Study" data-region="Spain">...</div>
+ *   <div data-cs-card data-type="White Paper" data-region="France">...</div>
  * </div>
  *
  * <div data-cs-no-results class="hidden">No results found.</div>
@@ -46,7 +46,7 @@ const caseStudyFilter = () => {
   const filterBadge      = document.querySelector("[data-cs-filter-badge]");
   const clearBtn         = document.querySelector("[data-cs-clear-filters]");
   const typeContainer    = document.querySelector("[data-cs-type-checkboxes]");
-  const countryContainer = document.querySelector("[data-cs-country-checkboxes]");
+  const regionContainer  = document.querySelector("[data-cs-region-checkboxes]");
   const paginationEl     = document.querySelector("[data-cs-pagination]");
   const noResultsEl      = document.querySelector("[data-cs-no-results]");
   const chipsEl          = document.querySelector("[data-cs-active-chips]");
@@ -55,7 +55,7 @@ const caseStudyFilter = () => {
   let currentPage = 1;
   let panelOpen   = false;
   const activeTypes     = {};
-  const activeCountries = {};
+  const activeRegions = {};
 
   const cssClasses = {
     pageActive: "w-9 h-9 rounded-full bg-red-100 text-red-500 font-semibold text-sm flex items-center justify-center",
@@ -92,12 +92,12 @@ const caseStudyFilter = () => {
   const getFilteredCards = () => {
     const search          = searchInput?.value.toLowerCase().trim() ?? "";
     const typesActive     = Object.keys(activeTypes).length > 0;
-    const countriesActive = Object.keys(activeCountries).length > 0;
+    const regionsActive = Object.keys(activeRegions).length > 0;
     return allCards.filter((c) => {
       if (typesActive && !activeTypes[c.dataset.type]) {
         return false;
       }
-      if (countriesActive && !activeCountries[c.dataset.country]) {
+      if (regionsActive && !activeRegions[c.dataset.region]) {
         return false;
       }
       if (search && !c.textContent.toLowerCase().includes(search)) {
@@ -108,7 +108,7 @@ const caseStudyFilter = () => {
   };
 
   const updateBadgeAndClear = () => {
-    const count = Object.keys(activeTypes).length + Object.keys(activeCountries).length;
+    const count = Object.keys(activeTypes).length + Object.keys(activeRegions).length;
     if (filterBadge) {
       filterBadge.textContent = count;
       filterBadge.classList.toggle("hidden", count === 0);
@@ -139,7 +139,7 @@ const caseStudyFilter = () => {
       chipsEl.appendChild(chip);
     };
     Object.keys(activeTypes).forEach((v) => addChip(v, activeTypes, typeContainer));
-    Object.keys(activeCountries).forEach((v) => addChip(v, activeCountries, countryContainer));
+    Object.keys(activeRegions).forEach((v) => addChip(v, activeRegions, regionContainer));
   };
 
   const renderPagination = (totalPages) => {
@@ -268,7 +268,7 @@ const caseStudyFilter = () => {
   };
 
   buildCheckboxes(typeContainer,    uniqueSorted("type"),    activeTypes);
-  buildCheckboxes(countryContainer, uniqueSorted("country"), activeCountries);
+  buildCheckboxes(regionContainer, uniqueSorted("region"), activeRegions);
 
   filterToggle?.addEventListener("click", (e) => {
     e.stopPropagation();
@@ -283,11 +283,11 @@ const caseStudyFilter = () => {
 
   clearBtn?.addEventListener("click", () => {
     clearMap(activeTypes);
-    clearMap(activeCountries);
+    clearMap(activeRegions);
     if (searchInput) {
       searchInput.value = "";
     }
-    [typeContainer, countryContainer].forEach((c) => {
+    [typeContainer, regionContainer].forEach((c) => {
       c?.querySelectorAll("input").forEach((cb) => {
         cb.checked = false;
       });
