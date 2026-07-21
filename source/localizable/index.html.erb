@@ -2,23 +2,22 @@
 description:
 pageClass: home
 ---
-<section>
-  <div class="bg-cover bg-center xl:bg-[position:center_20%] 2xl:bg-[position:center_25%] bg-no-repeat hero">
+<section class="bg-gray-100">
     <div class="container pt-32 md:pt-56 pb-12 md:pb-16">
-      <div class="md:bg-red-500 md:p-8 text-white rounded-xl md:w-1/2">
+      <div class="md:w-1/2">
         <h1 class="h2"><%= t("index.hero.subheading") %></h1>
         <p class="par-md mt-6"><%= t("index.hero.intro") %></p>
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("index.hero.cta"), url: "#{t(:path)}/first-steps", classes: "inline-block mt-6 button par-md" } %>
       </div>
-      <a href="<%= t(:path) %>/first-steps" class="inline-block mt-6 button par-md"><%= t("index.hero.cta") %></a>
+      <img src="/images/home-hero.jpg" alt="" class="hidden md:block absolute top-0 right-0 h-full object-cover">
     </div>
-  </div>
   <% if alert_enabled? && homepage? %>
     <%= partial "/partials/alert-banner" %>
   <% end %>
 </section>
 
 <section>
-  <div class="container">
+  <div class="container md:pt-16 pt-10 space-y-10">
     <h2 class="h2"><%= t("index.installations.title") %></h2>
     <%= partial "partials/main_installations", locals: { classes: "py-10" } %>
     <%= partial "partials/arrow-link", locals: { text: t("index.installations.cta"), url: "#{t(:path)}/installations" } %>
