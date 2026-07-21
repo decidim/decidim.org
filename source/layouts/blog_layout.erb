@@ -1,7 +1,7 @@
 <% wrap_layout :layout do %>
   <div class="container pt-6 pb-6 md:pt-24 md:pb-32">
     <div class="pb-10">
-      <%= partial "partials/arrow-link", locals: { text: t("blog.blog_index_path"), url: "/blogs", reverse: true, icon_classes: "w-5 h-5" } %>
+      <%= partial "partials/arrow-link", locals: { text: t("blog.blog_index_path"), url: "/blog", reverse: true, icon_classes: "w-5 h-5" } %>
     </div>
     <h2 class="h2 pb-10"><%= current_article.title %></h2>
     <div class="par-md flex">
