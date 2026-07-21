@@ -15,8 +15,13 @@ pageClass: home
   <% if alert_enabled? && homepage? %>
     <%= partial "/partials/alert-banner" %>
   <% end %>
-  <div>
-    <%= partial "partials/main_installations", locals: { classes: "py-8" } %>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="h2"><%= t("index.installations.title") %></h2>
+    <%= partial "partials/main_installations", locals: { classes: "py-10" } %>
+    <%= partial "partials/arrow-link", locals: { text: t("index.installations.cta"), url: "#{t(:path)}/installations" } %>
   </div>
 </section>
 
