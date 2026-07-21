@@ -7,7 +7,7 @@ image: /uploads/images.jpeg
 joined_at: Since 2018
 type:
   - Installation & Development
-country: Catalonia
+region: Catalonia
 type_of_service_provider: PIME
 most_relevant_experiences: |-
   - **Architecture stabilisation and upgrade of New York City’s Decidim platform**

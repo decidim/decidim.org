@@ -7,7 +7,7 @@ image: /uploads/partner_logo_colectic.svg
 joined_at: Since 2017
 type:
   - Participation Design
-country: Catalonia
+region: Catalonia
 type_of_service_provider: Cooperative
 most_relevant_experiences: |-
   - [**Som Energia**](https://participa.somenergia.coop/)

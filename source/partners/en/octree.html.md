@@ -7,7 +7,7 @@ image: /uploads/octree_logo_header.png
 joined_at: Since 2019
 type:
   - Installation & Development
-country: Switzerland
+region: Switzerland
 type_of_service_provider: Tech coop
 most_relevant_experiences: |-
   - [**State of Geneva (CH)**](https://participer.ge.ch/)

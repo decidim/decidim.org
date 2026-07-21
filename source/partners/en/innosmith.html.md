@@ -7,10 +7,10 @@ image: /uploads/innosmith.png
 joined_at: Since 2020
 type:
   - Participation Design
-country: Switzerland
+region: Switzerland
 type_of_service_provider: GmbH (Limited Liability Company)
 most_relevant_experiences: |-
-  -  [**Dialog Luzern**](dialogluzern.ch) 
+  -  [**Dialog Luzern**](dialogluzern.ch)
 
   InnoSmith has supported the City of Lucerne since the launch of "Dialog Luzern" in 2020. Our role focused on co-project management and a comprehensive requirement analysis to tailor the platform to the city's specific democratic needs. We guided the IT vendor evaluation, developed the platform's governance concept, and established the terms of use. Furthermore, we conducted workshops for content managers and provided strategic coaching to ensure the long-term success of this central participation hub.
 
