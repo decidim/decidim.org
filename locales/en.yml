@@ -95,13 +95,24 @@ en:
     - Serves as a useful resource and handbook for the use of Decidim
     - This book is open access, which means that you have free and unlimited access
     title: The Decidim Book
-  case_study:
-    n1:
-      org: City of Helsinki
-    n2:
-      org: Participatory Budget 2020-2023 in Barcelona
-    n3:
-      org: 'European Commission: Conference for the Future of Europe'
+  case_studies:
+    clear_filters: Clear filters
+    components: 'Components:'
+    components_used: Components used
+    filters:
+      region: Region
+      title: Filters
+      type: Type
+    intro: These cities, institutions and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some of the inspiring successful cases!
+    no_results: No case studies found matching your filters.
+    partners: Partners
+    read: Read the case study
+    subtitle: Stories about Decidim in the real world
+    target_public: Target public
+    testimonial: Testimonial
+    title: Case Studies
+    type_of_process: Type of process
+    use_cases_index_path: Back to use cases
   community:
     banner:
       cta: Check the Community Agenda
@@ -523,6 +534,7 @@ en:
     association: Association
     blog: Blog
     book: Book
+    case-studies: Case studies
     close_menu: Close menu
     code: Code
     community: Community
