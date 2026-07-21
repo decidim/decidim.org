@@ -5,18 +5,57 @@ en:
     subtitle: Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
     title: Page not found
   about:
-    about:
-    - Support us
-    - Contact us
-    - Our assembly
-    - Press
-    intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_at_opencollective: Support us at Open Collective
-    support_intro: We want to contribute to the democratization of society through the construction of technology, methodologies, practices, standards, actions, narratives, and values, in a free, open, collaborative and reflective way.
-    support_subtitle: The Decidim Free Software Association is a democratic association for the governance of the Decidim community.
-    support_title: Support Decidim
-    title: About Decidim
+    association:
+      become_member:
+        description: Be part of the Association and participate in the project governance.
+        title: Want to become a member?
+        url: https://meta.decidim.org/assemblies/QuieroSerSocia?locale=en
+        url_name: Let us know
+      media_kit:
+        description: Looking for info? Check our press section.
+        title: Media kit
+        url: https://decidim.org/blog/
+        url_name: Press
+      support_us:
+        description: Contribute to the commons and the sustainability of Decidim.
+        title: Want to support us?
+        url: https://opencollective.com/decidim/donate?interval=oneTime&amount=1000&name=&legalName=&email=
+        url_name: Make a donation
+    bottom_section:
+      button: Let's talk about your project
+      subtitle: We can help you with every step of using Decidim's product, from participatory design to learning how to install Decidim. Have a collaboration idea? We'd love to hear about it.
+      title: Need help?
+    history:
+      timeline:
+      - year: 2011
+        above: All started with the 15M movement and the convergence of earlier hacktivists, autonomous and democratic activism in Spain and the rise of the technopolitical cycle.
+      - year: 2016
+        below: In Barcelona, in early 2016, a fork of Consul, the participatory platform of the Madrid City Council, was used to power up the site <a href="https://decidim.barcelona" class="underline decoration-1">decidim.barcelona</a>, the new digital venue for participatory processes in the city council.
+      - year: 2017
+        above: Technopolitical differences in vision and practice between the city council democratic innovation teams brought about a split between the two cities; as a result, Decidim was launched in early 2017 as a brand-new software with a more modular and co-developable architecture.
+      - year: 2019
+        below: In 2019 the Decidim Free Software Association was constituted and an agreement with the Barcelona City Council was signed, ceding to the Association the maintenance of the code base. This makes Decidim a public-common project.
+      - year: 2025
+        above: Until now, over 450 cities and organisations globally have embraced Decidim. And the Decidim Association has been growing as an international leader in democratic technologies and open source software.
+      title: Our history in a nutshell
+    intro: The Decidim Free Software Association is the entity responsible for maintaining the Decidim source code and to foster an active and engaged community around it.
+    mission:
+      subtitle: Our mission is to <span class="underline decoration-2">contribute to the democratization of society</span> through the construction of technology, methodologies, practices, standards, and values, in a free, open, collaborative and reflective way.
+      title: Mission
+    partners:
+      cta: You can also check our 2025 Activity Report
+      subtitle: The Association works on different projects related to democratic innovation, research, governance of digital commons, and the development of FLOSS technologies. We work in collaboration with leading organisations in their field.
+      title: Our recent work
+    recognitions:
+      digital_public_good: Digtal Public Good
+      osor_award: Decidim became finalist of the OSOR prize in the EU Public Services Open Source Achievement Awards
+      pizzigati_prize: Decidim was awarded with the Pizzigati Prize for Software in the Public Interest, promoted by NTEN
+      public_good: Decidim is recognized as a Digital Public Good by the Digital Public Goods Alliance
+      sharing_reuse: Decidim won the Sharing & Reuse Awards in the Most Innovative Open Source Projects category by the EU
+      subtitle: The Decidim Association has been proudly awarded with a series of recognitions for its contributions to open-source, democracy and participation.
+      title: Recognitions
+    subtitle: A non-profit for the governance of the Decidim community.
+    title: The Association
     values:
       v1: Compromise and responsibility
       v2: Equal opportunities and quality indicators
@@ -26,8 +65,12 @@ en:
       v6: Transparency, traceability and integrity
       v7: Continuous improvement and collaboration between organizations
     values_cta: Read the social contract
-    values_intro: "<p>From the beginning, Decidim has a social contract that includes the values of the project.</p><p>All members of the Decidim Free Software Association undertake to respect this contract.</p>"
-    values_title: Our values
+    values_intro: Decidim is a technopolitical project that serves as a public commons infrastructure, combining institutional support with open and free code accessibility. From the beginning, Decidim has a social contract that defines the values of the project.
+    values_title: A Technopolitical Project
+    vision:
+      subtitle_1: The members of the Decidim Association share the vision of a radically democratic society in which <span class="underline decoration-2">every person takes part among equals in common life.</span>
+      subtitle_2: The Association <span class="underline decoration-2">embodies its vision of society in its own governance:</span> it is the community that decides the direction of the Decidim project and makes Decidim a technology of, by and, for all.
+      title: Vision
   alert:
     button: Join
     p1: The Future of The Internet · October 13-14 Barcelona
@@ -52,21 +95,54 @@ en:
     - Serves as a useful resource and handbook for the use of Decidim
     - This book is open access, which means that you have free and unlimited access
     title: The Decidim Book
-  case_study:
-    n1:
-      org: City of Helsinki
-    n2:
-      org: Participatory Budget 2020-2023 in Barcelona
-    n3:
-      org: 'European Commission: Conference for the Future of Europe'
+  case_studies:
+    clear_filters: Clear filters
+    components: 'Components:'
+    components_used: Components used
+    filters:
+      region: Region
+      title: Filters
+      type: Type
+    intro: These cities, institutions and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some of the inspiring successful cases!
+    no_results: No case studies found matching your filters.
+    partners: Partners
+    read: Read the case study
+    subtitle: Stories about Decidim in the real world
+    target_public: Target public
+    testimonial: Testimonial
+    title: Case Studies
+    type_of_process: Type of process
+    use_cases_index_path: Back to use cases
   community:
-    community1: Propose and help define new features
-    community2: Report bugs and help the developers fix them
-    community3: Help shape the future of the platform
-    cta: Go to Metadecidim
-    figcaption: The Decidim Community during the Decidim Fest 2021
-    img_alt: Decidim Community Photo at Metadecidim Meeting 2016
-    intro: Metadecidim is a community that collaborates in the design of the platform and the construction of the project. Together we can design and develop new features and report bugs for continuous improvement of the platform.
+    banner:
+      cta: Check the Community Agenda
+      intro: We like to meet each other, either in person or online, to address different topics related to Decidim, democratic participation, free technologies or other issues related to the project. There are a wide range of spaces for community discussion and collaboration structured into community meetings and thematic groups. 
+      title: Community Meetings
+    cta:
+      button: Go to partners
+      text: Looking for the right partner to support your project? Explore our network of official service providers.
+      title: Find your Pro
+    cta_hero: Go to Metadecidim
+    fest_editions:
+      all_about_cta: All about Decidim Fest
+      cta: Check it out
+      description1: Every year the Decidim Fest reunites experts, projects and institutions from the technopolitical ecosystem to reflect on open source, citizen participation and social and democratic innovation.
+      description2: The event takes place at the Canòdrom, the Digital and Democratic Innovation Centre, an open space that hosts projects and organisations related to technology and democracy.
+      subtitle: The global conference of the Metadecidim community
+      the_fest: The Decidim Fest
+      title: Editions
+    gallery_section:
+      meet_and_connect:
+        intro: Connect with fellow members, share experiences, and find collaborators. Join working groups and attend community events.
+        title: Meet and Connect
+      participate_in_governance:
+        intro: Participate directly in the governance of a world-leading technopolitical project.
+        title: Participate in Governance
+      shape_roadmap:
+        intro: Propose new features, comment and vote on proposals, and join discussions.
+        title: Shape the Roadmap
+      title: What can you do at Metadecidim?
+    intro: The Decidim community is called Metadecidim, and it is made up of people and organizations that use the software and want to help improve it. Metadecidim is a community that collaborates in the design of the platform and the construction of the project.
     subtitle: A democratic community that manages the Decidim project in all its dimensions
     title: Metadecidim, our community
   contact:
@@ -458,6 +534,7 @@ en:
     association: Association
     blog: Blog
     book: Book
+    case-studies: Case studies
     close_menu: Close menu
     code: Code
     community: Community
@@ -725,6 +802,21 @@ en:
     p4: You can request permission by emailing associacio@decidim.org.
     p5: This trademark policy page was based in <a href="%{rails_url}">Ruby on Rails</a> and <a href="%{wordpress_url}">Wordpress Foundation</a>.
     title: Trademark policy
+  transparency_portal:
+    agreements: Contracts, agreements and grants
+    cta: Download
+    financial_management: Financial Management
+    institutional_information: Institutional and organizational information
+    intro: 'In compliance with the Law of Transparency we collect in this section the transparency data of the Association.<br>The information you will find in the Transparency Portal is grouped by topics and includes the obligations established in:
+
+      '
+    intro2: 'If you do not find in the portal any information that you think it would be useful to publish, or you have found any incidence, you can send us your suggestions through the mail: associacio@decidim.org
+
+      '
+    l1: Chapter II of Law 19/2013, of December 9, on transparency, access to public information and good governance (Spain).
+    l2: Title II of Law 19/2014, of December 29, on transparency, access to public information and good governance (Catalonia).
+    subtitle: Welcome to the Decidim Free Software Association Transparency Portal.
+    title: Transparency Portal
   used_by:
     case_studies:
       link: Read more use cases

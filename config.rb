@@ -84,3 +84,12 @@ end
 # Copy Netlify's configurations file on build
 proxy "_redirects", "netlify-redirects", ignore: true
 proxy "_headers", "netlify-headers", ignore: true
+
+# Case studies
+activate :blog, name: "case_studies" do |cs|
+  cs.paginate = false
+  cs.layout = "case_studies_layout"
+  cs.permalink = "case-studies/{title}.html"
+  cs.sources = "case-studies/en/{title}.html"
+  cs.default_extension = ".md"
+end

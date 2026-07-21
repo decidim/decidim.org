@@ -1,3 +1,10 @@
+## In order to access the Sveltia CMS for local development, you need to run alongside the Middleman server:
+##
+## npx netlify-cms-proxy-server
+##
+## Access to the CMS admin area is avaliable via http://localhost:4567/admin
+## Note: Access to the admin area is restricted only to the Google Chrome browser.
+
 local_backend: true
 
 backend:
@@ -7,6 +14,86 @@ backend:
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
+  - name: "case_studies"
+    label: "Case studies"
+    format: "yaml-frontmatter"
+    extension: "html.md"
+    folder: "source/case-studies/en"
+    create: true
+    identifier_field: title
+    fields:
+      - {label: "Date", name: "date", widget: "datetime", required: true}
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Subtitle", name: "subtitle", widget: "text", required: true}
+      - {label: "Website", name: "website", widget: "string", type: "url", required: false}
+      - {label: "Website Link Text", name: "website_link_text", widget: "string", required: false, hint: "Leave blank to use the URL as link text"}
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Image", name: "image", widget: "image", required: true}
+          - {label: "Alt text", name: "alt", widget: "string", required: false}
+      - {label: "Type", name: "type", widget: "select", options: ["Participatory Budgeting", "Strategic Planning", "Participatory Policy-Making", "Citizen Petitions", "Organizations", "Climate Policies"], required: true}
+      - {label: "Target public", name: "target", widget: "string", required: true}
+      - label: "Components used"
+        name: "components_used"
+        widget: "list"
+        required: false
+        hint: "Add each component as a separate item"
+        field: {label: "Component", name: "component", widget: "string"}
+      - {label: "Region", name: "region", widget: "string", required: true, hint: "Enter a country or region name (e.g. Brazil, Catalonia, Europe)"}
+      - label: "Results section title"
+        name: "results_title"
+        widget: "string"
+        required: false
+        hint: "Leave blank to use default: 'Results'"
+      - label: "Results"
+        name: "results"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Metric", name: "metric", widget: "select", options: ["Budget allocated", "Proposals submitted", "Technically validated", "Prioritized", "Selected for implementation", "Total participants"], required: true}
+          - {label: "Value", name: "value", widget: "string", required: false, hint: "e.g. '30 Millions €'"}
+          - {label: "Label", name: "label", widget: "string", required: false, hint: "Leave blank to use default metric name as label"}
+      - {label: "Results conclusion", name: "results_conclusion", widget: "markdown", required: false}
+      - {label: "Description Title", name: "description_title", widget: "string", required: true}
+      - {label: "Description", name: "description", widget: "markdown", required: true}
+      - {label: "Process title", name: "process_title", widget: "string", required: false}
+      - {label: "Process subtitle", name: "process_subtitle", widget: "string", required: false}
+      - label: "Phases"
+        name: "phases"
+        widget: list
+        required: false
+        fields:
+          - { label: Phase Title, name: title, widget: string }
+          - { label: Count Label, name: count_label, widget: string, required: false, hint: "e.g. '1,982 proposals'" }
+          - { label: Body, name: body, widget: markdown, required: false }
+          - label: "Components"
+            name: "components"
+            widget: list
+            required: false
+            fields:
+              - { label: Description, name: description, widget: markdown }
+      - {label: "Phases Conclusion", name: "phases_conclusion", widget: "markdown", required: false}
+      - {label: "Banner title", name: "banner_title", widget: "string", required: true}
+      - {label: "Banner subtitle", name: "banner_subtitle", widget: "string", required: true}
+      - {label: "Banner", name: "banner", widget: "markdown", required: true}
+      - {label: "Optional Section 1 Title", name: "optional_section_1_title", widget: "string", required: false}
+      - {label: "Optional Section 1", name: "optional_section_1", widget: "markdown", required: false}
+      - {label: "Optional Section 2 Title", name: "optional_section_2_title", widget: "string", required: false}
+      - {label: "Optional Section 2", name: "optional_section_2", widget: "markdown", required: false}
+      - {label: "Optional Section 3 Title", name: "optional_section_3_title", widget: "string", required: false}
+      - {label: "Optional Section 3", name: "optional_section_3", widget: "markdown", required: false}
+      - {label: "Testimonial", name: "testimonial", widget: "markdown", required: false, hint: "Add testimonial content with links, embedded videos, or other rich content"}
+      - label: "Partners"
+        name: "partners"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Logo", name: "logo", widget: "image", required: true}
+          - {label: "Name", name: "name", widget: "string", required: true}
+      - {label: "Collaboration text", name: "collaboration_text", widget: "markdown", required: false}
   - name: "settings"
     label: "Settings"
     description: >
@@ -88,6 +175,7 @@ collections:
       - {label: "Description", name: "description", widget: "text", required: true}
       - {label: "Type", name: "type", widget: "select", options: ["official", "community", "auth"], required: true}
   - name: "media-highlights"
+
     label: "Media highlights"
     format: yml
     extension: yml
