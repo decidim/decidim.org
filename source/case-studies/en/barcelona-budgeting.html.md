@@ -25,7 +25,7 @@ components_used:
   - Follow-up
   - Meetings
   - Participatory Budgets
-country: Catalonia
+region: Catalonia
 results_title: Results
 results:
   - metric: Budget allocated

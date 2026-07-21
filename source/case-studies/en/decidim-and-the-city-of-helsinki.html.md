@@ -10,7 +10,7 @@ gallery:
 type: Participatory Budgeting
 target: Helsinki Citizens
 components_used: []
-country: Finland
+region: Finland
 process_title: ''
 process_subtitle: ''
 results_title: ''

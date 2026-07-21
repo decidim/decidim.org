@@ -15,7 +15,7 @@ components_used:
   - Conferences
   - Assemblies
   - Blog
-country: Brazil
+region: Brazil
 results_title: ''
 results:
   - metric: Proposals submitted

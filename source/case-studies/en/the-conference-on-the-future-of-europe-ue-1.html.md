@@ -10,7 +10,7 @@ gallery:
 type: Participatory Policy-Making
 target: EU Citizens
 components_used: []
-country: Europe
+region: Europe
 results_title: ''
 results: []
 results_conclusion: ''

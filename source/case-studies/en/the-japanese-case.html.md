@@ -10,7 +10,7 @@ gallery:
 type: Strategic Planning
 target: Citizens from Kakogawa, Yosano, Nishiaizu and Kamaishi
 components_used: []
-country: Japan
+region: Japan
 process_title: ''
 process_subtitle: ''
 results_title: ''
