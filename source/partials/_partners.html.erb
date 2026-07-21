@@ -17,10 +17,10 @@
     </div>
     <div class="flex gap-2 flex-wrap px-6 pt-4">
       <% if cs.type.present? %>
-        <span class="text-xs bg-red-100 text-red-500 rounded px-2 py-1"><%= Array(cs.type).join(", ") %></span>
+        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= Array(cs.type).join(", ") %></span>
       <% end %>
       <% if cs.region.present? %>
-        <span class="text-xs bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.region %></span>
+        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.region %></span>
       <% end %>
     </div>
     <h5 class="h5 pt-4 px-6 line-clamp-2"><%= cs.title %></h5>
