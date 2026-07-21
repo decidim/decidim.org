@@ -29,7 +29,6 @@ nav: partners
         <input id="cs-search" data-cs-search class="bg-gray-50 border border-gray-300 rounded-xl w-full py-3 pl-9 pr-3 par-sm relative placeholder:text-gray-500 text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>" aria-label="<%= t('modules.placeholder') %>">
         <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 left-3 w-5 h-5" %>
       </div>
-
       <div class="relative" data-cs-filter-dropdown>
         <button type="button" data-cs-filter-toggle class="flex items-center gap-2 bg-white border border-red-500 rounded-xl md:py-3 md:px-4 py-3 px-3 par-sm text-red-500 hover:bg-gray-50 transition-colors whitespace-nowrap">
           <%= icon "ri-equalizer-line", class: "w-5 h-5" %>
@@ -52,13 +51,17 @@ nav: partners
           </div>
         </div>
       </div>
-      <div data-cs-active-chips class="flex flex-wrap gap-2 pt-3"></div>
     </div>
+    <div data-cs-active-chips class="flex flex-wrap gap-2 pt-3"></div>
+  </div>
+</section>
 
+<section>
+  <div class="container">
     <div id="cs-grid" data-cs-grid class="grid grid-cols-1 md:grid-cols-3 gap-5">
       <%= partial "partials/partners" %>
     </div>
-    <p data-cs-no-results class="text-center text-gray-500 par-md py-16 hidden"><%= t("case_studies.no_results") %></p>
+      <p data-cs-no-results class="text-center text-gray-500 par-md py-16 hidden"><%= t("case_studies.no_results") %></p>
   </div>
 </section>
 
