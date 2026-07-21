@@ -143,7 +143,7 @@ collections:
       # In the meantime we use a string as a workaround
       - {label: "Joined at", name: "joined_at", widget: "string", default: "YYYY.MM.DD", required: true}
       - {label: "Type", name: "type", widget: "select", options: ["Installation & Development", "Participation Design"], multiple: true, required: true}
-      - {label: "Region", name: "region", widget: "select", options: ["Basque Country", "Catalonia", "Spain", "Europe", "United States", "Sweden", "Switzerland"], required: true}
+      - {label: "Region", name: "region", widget: "string", required: true, hint: "Enter a country or region name (e.g. Brazil, Catalonia, Europe)"}
       - {label: "Type of Service Provider", name: "type_of_service_provider", widget: "string", required: true}
       - {label: "Most Relevant Experiences", name: "most_relevant_experiences", widget: "markdown", required: true}
       - {label: "Email Address", name: "email_address", widget: "string", required: true}
