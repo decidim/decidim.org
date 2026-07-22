@@ -3,7 +3,7 @@
 <% resources = limit ? resources.first(limit) : resources %>
 <% resources.each do |resource| %>
   <% cs = resource.data %>
-  <div class="flex flex-col pb-4 rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300 flex-1"
+  <div class="flex flex-col md:p-4 p-3 rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300 flex-1"
     data-cs-card
     data-type="<%= Array(cs.type).join(", ") %>"
     data-region="<%= cs.region.to_s %>">
@@ -15,7 +15,7 @@
         <img class="w-full h-28 object-contain object-center md:py-8 py-8 px-5" src="/images/placeholder.jpg" alt="<%= cs.title %>">
       <% end %>
     </div>
-    <div class="flex gap-2 flex-wrap px-6 pt-4">
+    <div class="flex gap-2 flex-wrap md:pb-16 md:h-16 overflow-hidden">
       <% Array(cs.type).each do |type| %>
         <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= type %></span>
       <% end %>
@@ -23,8 +23,7 @@
         <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.region %></span>
       <% end %>
     </div>
-    <h5 class="h5 pt-4 px-6 line-clamp-2"><%= cs.title %></h5>
-    <p class="pt-4 md:text-2xl text-xl font-bold text-black px-6"><%= cs.name %></p>
-    <%= partial "partials/arrow-link", locals: { text: t("partners.read"), url: resource.url, classes: "text-red-500 mt-auto block pl-6 pt-2" } %>
+    <p class="md:py-3 pb-4 pt-3 md:text-2xl text-xl font-bold text-black"><%= cs.name %></p>
+    <%= partial "partials/arrow-link", locals: { text: t("partners.read"), url: resource.url, classes: "text-red-500 mt-auto block" } %>
   </div>
 <% end %>
