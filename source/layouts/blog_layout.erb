@@ -32,6 +32,6 @@
     <article class="prose prose-xl text-black">
       <%= yield %>
     </article>
-    <%= partial "partials/arrow-link", locals: { url: current_page.data.website, text: current_page.data.website_link_text.present? ? current_page.data.website_link_text : current_page.data.website, classes: "text-red-500 mt-auto block pt-5", span_classes: "par-sm", icon_classes: "w-5 h-5", icon_name: "ri-external-link-line" } %>
+    <%= partial "partials/arrow-link", locals: { url: current_page.data.website, text: current_page.data.website_link_text.present? ? current_page.data.website_link_text : current_page.data.website, classes: "text-red-500 mt-auto block pt-5 md:pb-16 pb-10", span_classes: "par-sm", icon_classes: "w-5 h-5", icon_name: "ri-external-link-line" } %>
   </div>
 <% end %>
