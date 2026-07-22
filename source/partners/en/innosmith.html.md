@@ -25,5 +25,5 @@ most_relevant_experiences: |-
   - [**MeinQuartier.Zürich**](MeinQuartier.Zürich)
 
   For the City of Zurich, InnoSmith was responsible for the initial scoping and conceptual setup of the Decidim platform "MeinQuartier". A key focus was the transfer of Decidim know-how to internal municipal teams through coaching and hands-on training. We also managed the coordination of technical requirements for ongoing platform adjustments, ensuring that the tool remains a robust solution for neighborhood-level participation processes.
-email_address: innosmith.ch
+email_address: anthony@innosmith.ch
 ---
