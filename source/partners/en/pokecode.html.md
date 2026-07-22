@@ -1,5 +1,5 @@
 ---
-date: 2026-07-14T16:07
+date: 2018-04-14T16:07
 name: PokeCode
 subtitle: 'PokeCode is a forward-thinking, free open-source technology consultancy dedicated to fostering digital sovereignty and community-driven innovation. Founded in June 2022, PokeCode specializes in providing high-quality services for the Decidim platform. Our mission extends beyond technology: we strive to build a better world through open-source collaboration, fair labor practices, and inclusive community engagement.'
 url: https://pokecode.net/
@@ -7,6 +7,7 @@ image: /uploads/images.jpeg
 joined_at: Since 2018
 type:
   - Installation & Development
+  - Participation Design
 region: Catalonia
 type_of_service_provider: PIME
 most_relevant_experiences: |-
