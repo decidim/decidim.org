@@ -16,8 +16,8 @@
       <% end %>
     </div>
     <div class="flex gap-2 flex-wrap px-6 pt-4">
-      <% if cs.type.present? %>
-        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= Array(cs.type).join(", ") %></span>
+      <% Array(cs.type).each do |type| %>
+        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= type %></span>
       <% end %>
       <% if cs.region.present? %>
         <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.region %></span>
