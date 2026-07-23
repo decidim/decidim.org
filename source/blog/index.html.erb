@@ -2,19 +2,60 @@
 nav: blog
 ---
 
-<div class="container pt-10 md:pt-16 pb-10">
-  <div class="md:w-3/5">
-    <h1 class="h1 md:nowrap"><%= t("blog.title") %></h1>
-    <p class="par-xl text-gray-500">
-      <%= t("blog.subtitle") %>
-    </p>
+<section>
+  <div class="container pt-10 md:pt-16 md:pb-24">
+    <div class="md:w-3/5">
+      <h1 class="h1 md:nowrap">
+        <%= t("blog.title") %>
+      </h1>
+      <p class="par-xl pt-5 md:pt-5">
+        <%= t("blog.subtitle") %>
+      </p>
+    </div>
   </div>
+</section>
 
-  <div class="divide-y-4 divide-gray-100 mt-16">
-    <% blog(:blog).articles.each do |article| %>
-      <article class="py-6 md:py-12 md:w-3/5">
-        <%= partial "partials/article_preview", locals: {article: article} %>
-      </article>
-    <% end %>
+<section>
+  <div class="container pb-6">
+    <div class="flex flex-row gap-3 items-start pt-5">
+      <div class="relative flex-1">
+        <label class="sr-only" for="cs-search"><%= t("modules.placeholder") %></label>
+        <input id="cs-search" data-cs-search class="bg-gray-50 border border-gray-300 rounded-xl w-full py-3 pl-9 pr-3 par-sm relative placeholder:text-gray-500 text-gray-500" type="text" placeholder="<%= t('modules.placeholder') %>" aria-label="<%= t('modules.placeholder') %>">
+        <%= icon "ri-search-line", class: "text-gray-500 absolute top-1/2 -translate-y-1/2 left-3 w-5 h-5" %>
+      </div>
+      <div class="relative" data-cs-filter-dropdown>
+        <button type="button" data-cs-filter-toggle class="flex items-center gap-2 bg-white border border-red-500 rounded-xl md:py-3 md:px-4 py-3 px-3 par-sm text-red-500 hover:bg-gray-50 transition-colors whitespace-nowrap">
+          <%= icon "ri-equalizer-line", class: "w-5 h-5" %>
+          <span class="hidden md:inline"><%= t("case_studies.filters.title") %></span>
+          <span data-cs-filter-badge class="hidden bg-red-500 text-white text-xs rounded-full w-4 h-4 flex justify-center font-medium"></span>
+          <%= icon "ri-arrow-up-s-line", class: "hidden md:block w-4 h-4 transition-transform data-[open]:rotate-180", "data-cs-filter-arrow" => true %>
+        </button>
+        <div data-cs-filter-panel class="hidden absolute right-0 z-20 mt-2 w-72 bg-white border border-gray-50 rounded-2xl shadow-lg py-4">
+          <div class="px-5 pb-3">
+            <p class="par-sm font-semibold text-gray-500 pb-2"><%= t("case_studies.filters.type") %></p>
+            <div data-cs-type-checkboxes class="flex flex-col gap-1.5"></div>
+          </div>
+          <div class="border-t border-gray-100 mx-5 my-3"></div>
+          <div class="px-5">
+            <p class="par-sm font-semibold text-gray-500 pb-2"><%= t("case_studies.filters.region") %></p>
+            <div data-cs-region-checkboxes class="flex flex-col gap-1.5"></div>
+          </div>
+          <div class="px-5 pt-3">
+            <button type="button" data-cs-clear-filters class="par-sm text-red-500 hover:underline hidden"><%= t("case_studies.clear_filters") %></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-cs-active-chips class="flex flex-wrap gap-2 pt-3"></div>
   </div>
-</div>
+</section>
+
+<section>
+  <div class="container pb-16">
+    <div data-cs-grid class="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <%= partial "partials/blog_cards" %>
+    </div>
+    <p data-cs-no-results class="text-center text-gray-500 par-md py-16 hidden"><%= t("case_studies.no_results") %></p>
+    <div data-cs-pagination class="flex justify-end items-center gap-2 pt-10"></div>
+  </div>
+</section>
