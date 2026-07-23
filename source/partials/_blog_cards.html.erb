@@ -1,0 +1,31 @@
+<% limit = defined?(limit) ? limit : nil %>
+<% resources = blog(:blog).articles %>
+<% resources = limit ? resources.first(limit) : resources %>
+<% resources.each do |resource| %>
+  <% cs = resource.data %>
+  <div class="flex flex-col rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300 flex-1"
+    data-cs-card
+    data-type="<%= cs.tags.to_s %>"
+    data-region="<%= cs.region.to_s %>">
+    <div class="overflow-hidden rounded-t-lg bg-white">
+      <% gallery_image = cs.gallery&.first %>
+      <% if gallery_image %>
+        <img class="w-full h-full aspect-[2/1] object-cover line-clamp-2" src="<%= gallery_image.image %>" alt="<%= gallery_image.alt.present? ? gallery_image.alt : cs.title %>">
+      <% else %>
+        <img class="w-full h-full aspect-[2/1] object-cover line-clamp-2" src="/images/placeholder.jpg" alt="<%= cs.title %>">
+      <% end %>
+    </div>
+    <div class="flex gap-2 flex-wrap overflow-hidden md:px-4 px-3 pt-3">
+      <% if cs.tags.present? %>
+        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.tags %></span>
+      <% end %>
+    </div>
+    <div class="md:py-3 pb-4 pt-3 md:px-4 px-3">
+      <p class="md:text-2xl text-xl font-bold text-black line-clamp-3 min-h-0 md:h-16 md:pb-16"><%= cs.title %></p>
+    </div>
+    <div class="mt-auto">
+      <time class="par-sm text-gray-500 block md:px-4 px-3 pb-4"><%= resource.date.strftime('%d/%m/%Y') %></time>
+      <%= partial "partials/arrow-link", locals: { text: t("blog.read"), url: resource.url, classes: "text-red-500 block md:px-4 px-3 md:pb-4 pb-3" } %>
+    </div>
+  </div>
+<% end %>
