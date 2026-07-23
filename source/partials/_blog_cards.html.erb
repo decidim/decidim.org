@@ -3,9 +3,10 @@
 <% resources = limit ? resources.first(limit) : resources %>
 <% resources.each do |resource| %>
   <% cs = resource.data %>
+  <% tag = Array(cs.tags).first.to_s %>
   <div class="flex flex-col rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300 flex-1"
     data-cs-card
-    data-type="<%= cs.tags.to_s %>"
+    data-type="<%= tag %>"
     data-region="<%= cs.region.to_s %>">
     <div class="overflow-hidden rounded-t-lg bg-white">
       <% gallery_image = cs.gallery&.first %>
@@ -16,8 +17,8 @@
       <% end %>
     </div>
     <div class="flex gap-2 flex-wrap overflow-hidden md:px-4 px-3 pt-3">
-      <% if cs.tags.present? %>
-        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.tags %></span>
+      <% if tag.present? %>
+        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= tag %></span>
       <% end %>
     </div>
     <div class="md:py-3 pb-4 pt-3 md:px-4 px-3">
