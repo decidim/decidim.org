@@ -5,7 +5,7 @@
   <% cs = resource.data %>
   <div class="flex flex-col md:p-4 p-3 rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300 flex-1"
     data-cs-card
-    data-type="<%= Array(cs.type).join(", ") %>"
+    data-type="<%= Array(cs.type).join(" | ") %>"
     data-region="<%= cs.region.to_s %>">
     <div class="overflow-hidden rounded-t-lg bg-white">
       <% gallery_image = cs.gallery&.first %>
