@@ -2,21 +2,25 @@
 description:
 pageClass: home
 ---
-<section>
-  <div class="bg-cover bg-center xl:bg-[position:center_20%] 2xl:bg-[position:center_25%] bg-no-repeat hero">
+<section class="bg-gray-100">
     <div class="container pt-32 md:pt-56 pb-12 md:pb-16">
-      <div class="md:bg-red-500 md:p-8 text-white rounded-xl md:w-1/2">
+      <div class="md:w-1/2">
         <h1 class="h2"><%= t("index.hero.subheading") %></h1>
         <p class="par-md mt-6"><%= t("index.hero.intro") %></p>
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("index.hero.cta"), url: "#{t(:path)}/first-steps", classes: "inline-block mt-6 button par-md" } %>
       </div>
-      <a href="<%= t(:path) %>/first-steps" class="inline-block mt-6 button par-md"><%= t("index.hero.cta") %></a>
+      <img src="/images/home-hero.jpg" alt="" class="hidden md:block absolute top-0 right-0 h-full object-cover">
     </div>
-  </div>
   <% if alert_enabled? && homepage? %>
     <%= partial "/partials/alert-banner" %>
   <% end %>
-  <div class="container hidden md:block">
-    <%= partial "partials/main_installations", locals: { classes: "py-8" } %>
+</section>
+
+<section>
+  <div class="container md:pt-16 pt-10 space-y-10">
+    <h2 class="h2"><%= t("index.installations.title") %></h2>
+    <%= partial "partials/main_installations", locals: { classes: "py-10" } %>
+    <%= partial "partials/arrow-link", locals: { text: t("index.installations.cta"), url: "#{t(:path)}/installations" } %>
   </div>
 </section>
 
@@ -69,39 +73,42 @@ pageClass: home
   </div>
 </section>
 
-<%= partial "/partials/testimonials" %>
-
-<section class="bg-red-100">
-  <div class="container text-red-500 py-6 md:py-24">
-    <h6 class="h6 par-md text-red-500"><%= t('index.used_by.title') %></h6>
-    <p class="par-xl max-w-prose mt-2"><%= t('index.used_by.heading') %></p>
-    <a class="par-md max-w-prose underline mt-4 block" href="<%= t(:path) %>/usedby"><%= t('index.used_by.link') %></a>
-
-    <div class="mt-6 md:mt-24">
-      <% installations = data_sort_by(data_select_home(data.installations), "priority") %>
-      <div class="-mx-4 -my-2 md:-mx-16 md:-my-6 grid grid-cols-4 sm:grid-cols-6 md:grid-cols-6 gap-4 items-center">
-        <% installations.each do |id, use| %>
-          <a class="inline-block px-3 py-1 md:px-8 md:py-5 max-w-[100px] md:max-w[200px] lg:max-w-[150px]" href="<%= use.url %>" target="_blank" rel="noopener noreferrer">
-            <img class="object-cover w-full h-full" src="<%= use.home_image %>" alt="<%= use.title %>" />
-          </a>
-        <% end %>
+<section class="md:py-16">
+  <div class="container pt-10">
+    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+      <h2 class="h2">
+        <%= t("index.use_cases.title") %>
+      </h2>
+      <div class="hidden md:block">
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
       </div>
+    </div>
+    <p class="par-md md:py-6 pt-5 max-w-prose text-black">
+      <%= t("index.use_cases.subtitle") %>
+    </p>
+  </div>
+  <div class="container">
+    <%= partial "/partials/testimonial-cards" %>
+    <div class="md:hidden pb-10">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
     </div>
   </div>
 </section>
 
-<section>
-  <div class="container py-12 md:py-32">
-    <div class="flex items-end space-x-2">
-      <h6 class="h6 text-white bg-red-500 px-4 py-2 rounded-xl"><%= t("blog.latest") %></h6>
-      <span class="w-4 h-4 rounded-full bg-red-500"></span>
-    </div>
-    <div class="flex flex-col md:flex-row gap-6 mt-4">
-      <% blog(:blog).articles.take(2)&.each do |article| %>
-        <article class="md:w-1/2 bg-gray-100 p-6 rounded-xl">
-          <%= partial "partials/article_preview", locals: { article: article, strip: true } %>
-        </article>
-      <% end %>
+<section class="md:pb-6">
+  <img src="/images/home-banner.jpg" alt="" class="banner object-cover">
+</section>
+
+<%= partial "/partials/_case_study_cards" %>
+
+<section class="md:pt-16 pt-10">
+  <div class="banner relative">
+    <img src="/images/home-footer-banner.jpg" alt="" class="absolute banner object-cover">
+    <div class="relative container h-full flex flex-col justify-end pb-8 md:pb-16">
+      <div class="text-white">
+        <h1 class="h2"><%= t("index.footer_banner.heading") %></h1>
+        <p class="md:text-4xl text-2xl pt-8"><%= t("index.footer_banner.intro") %></p>
+      </div>
     </div>
   </div>
 </section>
