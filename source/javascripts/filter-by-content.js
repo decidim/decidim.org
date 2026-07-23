@@ -13,13 +13,25 @@
 const handleClick = ({ target }) => {
   const parent = target.closest("[data-filter]");
   const { value } = target;
-
   if (parent) {
-    [...parent.querySelectorAll("[data-filter-target]")].map((x) =>
-      (!x.textContent.match(new RegExp(value, "i"))
-        ? x.setAttribute("hidden", true)
-        : x.removeAttribute("hidden"))
-    );
+    const searchValue = value.toLowerCase();
+    [...parent.querySelectorAll("[data-filter-target]")].forEach((x) => {
+      const matches = x.textContent.toLowerCase().includes(searchValue);
+      if (!matches) {
+        x.setAttribute("hidden", true);
+      } else {
+        x.removeAttribute("hidden");
+        const details = x.closest("details");
+        if (details && value) {
+          details.setAttribute("open", "");
+        }
+      }
+    });
+
+    // Close empty sections when search is cleared
+    if (!value) {
+      parent.querySelectorAll("details").forEach((d) => d.removeAttribute("open"));
+    }
   }
 };
 

@@ -4,37 +4,50 @@ description:
 ---
 
 <section>
-  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
-    <div class="md:w-3/5 space-y-6">
-      <h1 class="h1 md:whitespace-nowrap">
+  <div class="container pt-10 md:pt-16 md:pb-24">
+    <div class="md:w-3/5">
+      <h1 class="h1 md:whitespace-nowrap pb-5">
         <%= t("faqs.title") %>
       </h1>
-      <p class="par-xl text-gray-500">
-        <%= t("faqs.subtitle") %>
+      <p class="par-xl text-black">
+        <%= I18n.t("faqs.subtitle_html", email: %{<a class="underline decoration-2 text-red-500" href="mailto:hola@decidim.org">hola@decidim.org</a>}) %>
       </p>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="container pt-6 pb-12 md:pt-16 md:pb-32 space-y-16">
-  <% data.faqs.types.each do |name, type| %>
-    <% questions = t("faqs.questions").select {|key, question| type.questions.include? key.to_s } %>
-    <% if questions.length > 0 %>
-      <div class="space-y-4">
-        <div class="flex items-end space-x-2">
-          <h6 class="h6 bg-black text-white px-4 py-2 rounded-xl"><%= t("faqs.types.#{name}") %></h6>
-          <span class="w-4 h-4 rounded-full bg-black"></span>
-        </div>
-
-        <div class="mt-4 space-y-4" data-accordion="faqs">
-          <% questions.each do |key, item| %>
-            <%= partial "partials/faq-item", locals: { item: item, classes: "bg-gray-100" } %>
-          <% end %>
-        </div>
+  <div class="container pt-6 pb-12 md:pb-32 space-y-16">
+    <div id="faq-sections" class="space-y-16 max-w-3xl" data-filter>
+      <div class="relative">
+        <input class="bg-gray-50 border border-gray-300 rounded-xl w-full p-3 pl-9 pr-3 par-sm relative placeholder:text-gray-500 text-gray-500" type="text" aria-label="<%= t('modules.placeholder') %>" placeholder="<%= t('modules.placeholder') %>">
+        <%= icon "ri-search-line", class: "text-gray-500 absolute top-6 -translate-y-1/2 md:pr-1 left-3 w-5 h-5" %>
       </div>
-    <% end %>
-  <% end %>
+
+      <% data.faqs.types.each_with_index do |(name, type), i| %>
+        <% questions = t("faqs.questions").select {|key, question| type.questions.include? key.to_s } %>
+        <% if questions.length > 0 %>
+          <details class="faq-section group space-y-4" <%= "open" if i == 0 %>>
+            <summary class="flex justify-between items-center space-x-2 cursor-pointer list-none border-b-2 border-red-500">
+              <h6 class="h6 text-red-500 uppercase px-4 pt-2 pb-3 rounded-xl">
+                <%= t("faqs.types.#{name}") %>
+              </h6>
+              <div class="flex-none relative inline w-5 h-5">
+                <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in text-red-500" %>
+                <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out text-red-500" %>
+              </div>
+            </summary>
+            <div class="mt-4 space-y-4 group-open:block hidden">
+              <% questions.each do |key, item| %>
+                <div data-filter-target>
+                  <%= partial "partials/faq-item", locals: { item: item, classes: "border-b border-gray-300" } %>
+                </div>
+              <% end %>
+            </div>
+          </details>
+        <% end %>
+      <% end %>
+    </div>
   </div>
 </section>
 
