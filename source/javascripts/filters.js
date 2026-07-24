@@ -13,7 +13,7 @@
  *
  * <div data-cs-filter-dropdown>
  *   <div data-cs-filter-panel class="hidden">
- * <div data-cs-type-checkboxes></div>
+ *     <div data-cs-type-checkboxes></div>
  *     <div data-cs-region-checkboxes></div>
  *     <button data-cs-clear-filters class="hidden">Clear filters</button>
  *   </div>
@@ -21,7 +21,7 @@
  *
  * <div data-cs-active-chips></div>
  *
- * <div data-cs-grid>
+ * <div data-cs-grid data-cs-per-page="9">
  *   <div data-cs-card data-type="Case Study" data-region="Spain">...</div>
  *   <div data-cs-card data-type="White Paper" data-region="France">...</div>
  * </div>
@@ -33,11 +33,14 @@
 
 /* eslint-disable max-lines */
 const caseStudyFilter = () => {
-  const CARDS_PER_PAGE = 6;
   const grid = document.querySelector("[data-cs-grid]");
   if (!grid) {
     return;
   }
+  const parsedPerPage  = parseInt(grid.dataset.csPerPage, 10);
+  const CARDS_PER_PAGE = Number.isFinite(parsedPerPage) && parsedPerPage > 0
+    ? parsedPerPage
+    : Infinity;
 
   const searchInput      = document.querySelector("[data-cs-search]");
   const filterToggle     = document.querySelector("[data-cs-filter-toggle]");
@@ -213,12 +216,19 @@ const caseStudyFilter = () => {
 
   const render = () => {
     const filtered   = getFilteredCards();
-    const totalPages = Math.max(1, Math.ceil(filtered.length / CARDS_PER_PAGE));
+    const isAll = CARDS_PER_PAGE === Infinity;
+    const totalPages = isAll
+      ? 1
+      : Math.max(1, Math.ceil(filtered.length / CARDS_PER_PAGE));
     if (currentPage > totalPages) {
       currentPage = totalPages;
     }
-    const start = (currentPage - 1) * CARDS_PER_PAGE;
-    const end   = start + CARDS_PER_PAGE;
+    const start = isAll
+      ? 0
+      : (currentPage - 1) * CARDS_PER_PAGE;
+    const end   = isAll
+      ? filtered.length
+      : start + CARDS_PER_PAGE;
     allCards.forEach((c) => {
       c.style.display = "none";
     });
