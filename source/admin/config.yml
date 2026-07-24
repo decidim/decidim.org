@@ -10,7 +10,7 @@ local_backend: true
 backend:
   name: github
   repo: decidim/decidim.org
-  branch: main
+  branch: news/blog-pages
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
@@ -120,8 +120,17 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Image", name: "image", widget: "image", required: true}
+          - {label: "Alt text", name: "alt", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-      - {label: "Tags", name: "tags", widget: "select", options: ["releases", "casestudy"], required: false}
+      - {label: "Tags", name: "tags", widget: "select", options: ["Announcements", "Opinion", "Project", "Product", "Releases"], required: true}
+      - {label: "Website", name: "website", widget: "string", type: "url", required: false}
+      - {label: "Website Link Text", name: "website_link_text", widget: "string", required: false, hint: "Leave blank to use the URL as link text"}
   - name: "Partners"
     label: "Partner"
     format: yml
