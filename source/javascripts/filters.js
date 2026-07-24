@@ -60,8 +60,8 @@ const caseStudyFilter = () => {
   const cssClasses = {
     pageActive: "w-9 h-9 rounded-full bg-red-100 text-red-500 font-semibold text-sm flex items-center justify-center",
     pageInactive: "w-9 h-9 rounded-full text-red-500 font-medium text-sm flex items-center justify-center hover:bg-gray-100 transition-colors",
-    prev: "flex items-center gap-2 px-5 py-2 rounded-lg border-2 border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors mr-3",
-    next: "flex items-center gap-2 px-5 py-2 rounded-lg border-2 border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors ml-3",
+    prev: "flex items-center gap-2 px-5 py-2 rounded-lg border border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors mr-3",
+    next: "flex items-center gap-2 px-5 py-2 rounded-lg border border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors ml-3",
     ellipsis: "w-9 h-9 flex items-center justify-center text-gray-400 text-sm",
     chip: "inline-flex items-center gap-1 border border-gray-100 bg-gray-100 rounded-lg px-3 py-1 par-sm font-bold text-gray-500",
     chipX: "pl-1 text-2xl font-bold text-gray-400 hover:text-gray-700 leading-none",
