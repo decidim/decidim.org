@@ -127,8 +127,8 @@ collections:
         fields:
           - {label: "Image", name: "image", widget: "image", required: true}
           - {label: "Alt text", name: "alt", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: true}
       - {label: "Tags", name: "tags", widget: "select", options: ["Announcements", "Opinion", "Project", "Product", "Releases"], required: true}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "Partners"
     label: "Partner"
     format: yml
