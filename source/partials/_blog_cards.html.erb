@@ -16,17 +16,17 @@
         <img class="w-full h-full aspect-[2/1] object-cover line-clamp-2" src="/images/placeholder.jpg" alt="<%= cs.title %>">
       <% end %>
     </div>
-    <div class="flex gap-2 flex-wrap overflow-hidden md:px-4 px-3 pt-3">
+    <div class="flex gap-2 flex-wrap overflow-hidden px-4 pt-3">
       <% if tag.present? %>
         <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= tag %></span>
       <% end %>
     </div>
-    <div class="md:py-3 pb-4 pt-3 md:px-4 px-3">
-      <p class="md:text-2xl text-xl font-bold text-black line-clamp-3 min-h-0 md:h-16 md:pb-16"><%= cs.title %></p>
+    <div class="md:py-3 pb-4 pt-3 px-4">
+      <p class="md:text-2xl text-xl font-bold text-black line-clamp-2 min-h-0 md:h-16 md:pb-16"><%= cs.title %></p>
     </div>
     <div class="mt-auto">
-      <time class="par-sm text-gray-500 block md:px-4 px-3 pb-4"><%= resource.date.strftime('%d/%m/%Y') %></time>
-      <%= partial "partials/arrow-link", locals: { text: t("blog.read"), url: resource.url, classes: "text-red-500 block md:px-4 px-3 md:pb-4 pb-3" } %>
+      <time class="par-sm text-gray-500 block px-4 pb-4"><%= resource.date.strftime('%d/%m/%Y') %></time>
+      <%= partial "partials/arrow-link", locals: { text: t("blog.read"), url: resource.url, classes: "text-red-500 block px-4 pb-4" } %>
     </div>
   </div>
 <% end %>
