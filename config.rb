@@ -69,12 +69,12 @@ activate :blog, name: "blog" do |blog|
 end
 
 # Partners layout
-activate :blog, name: "partners" do |cs|
-  cs.paginate = false
-  cs.layout = "partners_layout"
-  cs.permalink = "partners/en/{title}.html"
-  cs.sources = "partners/en/{title}.html"
-  cs.default_extension = ".md"
+activate :blog, name: "partners" do |partners|
+  partners.paginate = false
+  partners.layout = "partners_layout"
+  partners.permalink = "partners/en/{title}.html"
+  partners.sources = "partners/en/{title}.html"
+  partners.default_extension = ".md"
 end
 
 configure :build do
