@@ -58,14 +58,15 @@
           <p class="text-base pt-5 text-red-500 underline"><a href="<%= current_page.data.url %>"><%= current_page.data.url %></a></p>
         </div>
 
-        <div class="pb-10">
-          <div class="flex flex-row border-b border-gray-300">
-            <%= icon "ri-mail-line", class: "w-5 h-5" %>
-            <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.email_address") %></h3>
+        <% if current_page.data.email_address.present? %>
+          <div class="pb-10">
+            <div class="flex flex-row border-b border-gray-300">
+              <%= icon "ri-mail-line", class: "w-5 h-5" %>
+              <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.email_address") %></h3>
+            </div>
+            <p class="text-base pt-5 text-red-500 underline"><a href="mailto:<%= current_page.data.email_address %>"><%= current_page.data.email_address %></a></p>
           </div>
-          <p class="text-base pt-5 text-red-500 underline"><a href="mailto:<%= current_page.data.email_address %>"><%= current_page.data.email_address %></a></p>
-        </div>
-      </div>
+        <% end %>
     </div>
   </section>
 
