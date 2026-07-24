@@ -1,5 +1,5 @@
 ---
-date: "2026-01-01"
+date: "2026-01-04"
 title: 'Brazils Participatory Plurianual Plan: embedding citizen participation in federal strategic planning'
 subtitle: A strategic planning process that led to the launch of the Brasil Participativo platform
 website: https://brasilparticipativo.presidencia.gov.br/

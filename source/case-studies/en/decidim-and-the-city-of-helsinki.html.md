@@ -1,5 +1,5 @@
 ---
-date: "2026-01-01"
+date: "2026-01-02"
 title: Decidim and the city of Helsinki
 subtitle: An interview with Sanna Moisala, Project manager of participatory services at the The Helsinki City Executive Office. Digitalisation Unit.
 website: https://omastadi.hel.fi/?locale=en

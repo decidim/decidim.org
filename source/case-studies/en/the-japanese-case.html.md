@@ -1,5 +1,5 @@
 ---
-date: "2026-01-01"
+date: "2026-01-03"
 title: The Japanese Case
 subtitle: The first Decidim instance in the Pacific island was deployed on the year 2020 at Kakogawa, later came Yosano, Nishiaizu, Kamaishi and the community instance Meta.
 website: https://kakogawa.diycities.jp/

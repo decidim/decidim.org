@@ -94,7 +94,7 @@ description:
         <%= t("first-steps.section2.title") %>
       </h2>
       <div class="hidden md:block">
-        <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/case-studies" } %>
       </div>
     </div>
     <p class="par-md md:py-6 pt-5 max-w-prose text-black">
@@ -106,7 +106,7 @@ description:
       <%= partial "/partials/case-study-cards", locals: { limit: 3 } %>
     </div>
     <div class="md:hidden pb-10">
-      <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/case-studies" } %>
     </div>
   </div>
 </section>
