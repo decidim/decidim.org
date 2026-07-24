@@ -68,6 +68,15 @@ activate :blog, name: "blog" do |blog|
   blog.calendar_template = "blog/calendar.html"
 end
 
+# Partners layout
+activate :blog, name: "partners" do |cs|
+  cs.paginate = false
+  cs.layout = "partners_layout"
+  cs.permalink = "partners/en/{title}.html"
+  cs.sources = "partners/en/{title}.html"
+  cs.default_extension = ".md"
+end
+
 configure :build do
   activate :images
 end

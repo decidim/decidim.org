@@ -10,7 +10,7 @@ local_backend: true
 backend:
   name: github
   repo: decidim/decidim.org
-  branch: main
+  branch: community/partners-pages
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
@@ -124,13 +124,15 @@ collections:
       - {label: "Tags", name: "tags", widget: "select", options: ["releases", "casestudy"], required: false}
   - name: "Partners"
     label: "Partner"
-    format: yml
-    extension: yml
-    folder: data/partners/
+    format: yaml-frontmatter
+    extension: "html.md"
+    folder: source/partners/en
     create: true
     identifier_field: name
     fields:
+      - {label: "Date", name: "date", widget: "datetime", required: true}
       - {label: "Name", name: "name", widget: "string", required: true}
+      - {label: "Subtitle", name: "subtitle", widget: "text", required: true}
       - {label: "URL", name: "url", widget: "string", required: true}
       - {label: "Image", name: "image", widget: "image", required: true}
       # Maybe after these are fixed this can work as it should according to their docs:
@@ -140,7 +142,11 @@ collections:
       # - {label: "Joined at", name: "joined_at", widget: "datetime", date_format: "YYYY.MM.DD", time_format: false, required: true}
       # In the meantime we use a string as a workaround
       - {label: "Joined at", name: "joined_at", widget: "string", default: "YYYY.MM.DD", required: true}
-      - {label: "Type", name: "type", widget: "select", options: ["public", "provider", "other"], required: false}
+      - {label: "Type", name: "type", widget: "select", options: ["Installation & Development", "Participation Design"], multiple: true, required: true}
+      - {label: "Region", name: "region", widget: "string", required: true, hint: "Enter a country or region name (e.g. Brazil, Catalonia, Europe)"}
+      - {label: "Type of Service Provider", name: "type_of_service_provider", widget: "string", required: true}
+      - {label: "Most Relevant Experiences", name: "most_relevant_experiences", widget: "markdown", required: true}
+      - {label: "Email Address", name: "email_address", widget: "string", required: true}
   - name: "installation"
     label: "Installation"
     format: yml

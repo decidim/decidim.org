@@ -1,0 +1,73 @@
+<% wrap_layout :layout do %>
+ <section>
+    <div class="container pt-10 md:pt-16">
+      <div class="pb-10">
+        <%= partial "partials/arrow-link", locals: { text: t("partners.title"), url: "/partners", reverse: true, icon_classes: "w-5 h-5" } %>
+      </div>
+      <div class="md:w-3/5">
+        <h1 class="h1 md:nowrap ">
+          <%= current_page.data.name %>
+        </h1>
+        <p class="par-md pt-5 md:pt-5">
+          <%= current_page.data.subtitle %>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container py-10 md:pt-16 md:pb-24">
+      <div class="md:w-3/5">
+        <div class="pb-10">
+          <div class="flex flex-row border-b border-gray-300">
+            <%= icon "ri-map-pin-line", class: "w-5 h-5" %>
+            <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.region") %></h3>
+          </div>
+          <p class="text-base pt-5 text-black"><%= current_page.data.region %></p>
+        </div>
+
+        <div class="pb-10">
+          <div class="flex flex-row border-b border-gray-300">
+            <%= icon "ri-calendar-line", class: "w-5 h-5" %>
+            <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.joined_at") %></h3>
+          </div>
+          <p class="text-base pt-5 text-black"><%= current_page.data.joined_at %></p>
+        </div>
+
+        <div class="pb-10">
+          <div class="flex flex-row border-b border-gray-300">
+            <%= icon "ri-service-line", class: "w-5 h-5" %>
+            <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.type_of_service_provider") %></h3>
+          </div>
+          <p class="text-base pt-5 text-black"><%= current_page.data.type_of_service_provider %></p>
+        </div>
+
+        <div class="pb-10">
+          <div class="flex flex-row border-b border-gray-300">
+            <%= icon "ri-contacts-book-2-line", class: "w-5 h-5" %>
+            <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.most_relevant_experiences") %></h3>
+          </div>
+          <div class="text-base pt-5 text-black prose prose-li:marker:text-black prose-p:!mb-2 prose-p:!mt-0 prose-ul:!mt-0 prose-li:!mt-3 prose-li:!mb-0"><%= markdown(current_page.data.most_relevant_experiences) %></div>
+        </div>
+
+        <div class="pb-10">
+          <div class="flex flex-row border-b border-gray-300">
+            <%= icon "ri-global-line", class: "w-5 h-5" %>
+            <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.website") %></h3>
+          </div>
+          <p class="text-base pt-5 text-red-500 underline"><a href="<%= current_page.data.url %>"><%= current_page.data.url %></a></p>
+        </div>
+
+        <div class="pb-10">
+          <div class="flex flex-row border-b border-gray-300">
+            <%= icon "ri-mail-line", class: "w-5 h-5" %>
+            <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.email_address") %></h3>
+          </div>
+          <p class="text-base pt-5 text-red-500 underline"><a href="mailto:<%= current_page.data.email_address %>"><%= current_page.data.email_address %></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%= yield %>
+<% end %>

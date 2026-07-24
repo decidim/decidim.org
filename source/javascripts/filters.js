@@ -76,7 +76,9 @@ const caseStudyFilter = () => {
   };
 
   const uniqueSorted = (attr) => {
-    return [...new Set(allCards.map((c) => c.dataset[attr]).filter(Boolean))].sort();
+    return [...new Set(
+      allCards.flatMap((c) => (c.dataset[attr] || "").split(" | ").filter(Boolean))
+    )].sort();
   };
 
   const setPanel = (open) => {
@@ -94,8 +96,11 @@ const caseStudyFilter = () => {
     const typesActive     = Object.keys(activeTypes).length > 0;
     const regionsActive = Object.keys(activeRegions).length > 0;
     return allCards.filter((c) => {
-      if (typesActive && !activeTypes[c.dataset.type]) {
-        return false;
+      if (typesActive) {
+        const cardTypes = (c.dataset.type || "").split(" | ").filter(Boolean);
+        if (!cardTypes.some((t) => activeTypes[t])) {
+          return false;
+        }
       }
       if (regionsActive && !activeRegions[c.dataset.region]) {
         return false;
