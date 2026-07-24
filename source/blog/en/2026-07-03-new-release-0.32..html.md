@@ -1,9 +1,10 @@
 ---
 title: New release 0.32.
-tags: ''
+gallery:
+  - image: /uploads/Post LinkedIn(34).png
+    alt: ''
+tags: Releases
 ---
-
-![](/uploads/Post%20LinkedIn%2834%29.png)
 
 ## Improvements to existing features
 
@@ -11,7 +12,7 @@ tags: ''
 
 This version's headline feature is a redesigned navigation system, built to make in-depth browsing within Decidim easier and more intuitive. The upgrade centers on two major improvements: a new menu for both desktop and mobile, and a redesigned breadcrumb trail that helps users track where they are within a participatory space.
 
-![](/uploads/Frame%201%285%29.png)
+![](/uploads/Frame%201(5).png)
 
 You can check all the PRs related:
 
