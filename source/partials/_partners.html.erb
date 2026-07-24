@@ -1,5 +1,5 @@
 <% limit = defined?(limit) ? limit : nil %>
-<% resources = blog(:partners).articles %>
+<% resources = blog(:partners).articles.reverse %>
 <% resources = limit ? resources.first(limit) : resources %>
 <% resources.each do |resource| %>
   <% cs = resource.data %>
