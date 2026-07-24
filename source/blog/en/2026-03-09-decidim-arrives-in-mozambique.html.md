@@ -1,9 +1,12 @@
 ---
 title: Decidim arrives in Mozambique
-tags: ''
+gallery:
+  - image: /uploads/Post LinkedIn(7).png
+    alt: Decidim arrives in Mozambique
+  - image: /uploads/IMD4(1).jpeg
+    alt: Picture of the IMD team with Decidim in a room
+tags: Project
 ---
-
-![Decidim arrives in Mozambique cover design](/uploads/Post%20LinkedIn%287%29.png "Decidim arrives in Mozambique")
 
 [Llegeix el post en català](#cat) | [Lee el post en castellano](#cast)
 
@@ -65,11 +68,9 @@ In the chatbot, the reform proposals are presented to the participant, who can t
 
 During our trip, we were able to present the project to GIZ and European Union representatives in the country. They all recognised the potential of the platform and the challenges that such a project poses in the Mozambican context.
 
-![](/uploads/IMD4%281%29.jpeg)
-
 ![Photo of the IMD, MASC, Decidim meeting in Maputo.](/uploads/IMD3%281%29.jpeg)
 
----
+***
 
 [Català]
 
@@ -133,7 +134,7 @@ Al xatbot les propostes de reforma són presentades a la participant, perquè pu
 
 Durant el nostre viatge vam poder presentar el projecte a l’Agència de cooperació Alemana (GIZ) i als representants de la Unió Europea al país. Tots ells van constatar el potencial de la plataforma i els reptes que suposa un projecte així en el context Moçambicà.
 
----
+***
 
 [castellano]
 
