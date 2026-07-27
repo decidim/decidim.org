@@ -10,15 +10,15 @@ type:
 region: United States
 type_of_service_provider: Single Member LLC
 most_relevant_experiences: |-
-  - **It's Our Money**
+  ## **It's Our Money**
 
   Youth PB during the pandemic in NYC
 
-  - **#DotDotDot**
+  ## **#DotDotDot**
 
   Community led PB with experimental design
 
-  - **The People's Fellowship Seattle**
+  ## **The People's Fellowship Seattle**
 
   10 month youth program supporting $27M PB process
 email_address: francesco@wildestfuture.com
