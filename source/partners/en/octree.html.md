@@ -1,5 +1,5 @@
 ---
-date: 2026-07-14T16:07
+date: 2023-07-14T16:07
 name: Octree
 subtitle: Founded in 2016, Octree has extensive experience in data-oriented web applications development. Their project Voca.city makes distributing Decidim platforms simple, reliable and affordable in any context.
 url: https://voca.city/
