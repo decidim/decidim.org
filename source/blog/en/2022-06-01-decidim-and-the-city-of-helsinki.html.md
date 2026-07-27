@@ -4,7 +4,7 @@ tags: ["casestudy"]
 ---
 
 
-<img class="w-full h-full" src="/images/case_studies/omastadi_helsinki.png" alt="OmaStadi Helsinki screenshot">
+<img class="w-full h-full" src="/images/case-studies/omastadi_helsinki.png" alt="OmaStadi Helsinki screenshot">
 
 *Sanna Moisala, Project manager of participatory services at the The Helsinki City Executive Office. Digitalisation Unit*
 

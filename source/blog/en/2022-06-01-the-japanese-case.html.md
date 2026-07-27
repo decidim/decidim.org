@@ -3,7 +3,7 @@ title: The Japanese case
 tags: ["casestudy"]
 ---
 
-<img class="w-full h-full" src="/images/case_studies/metadecidim_japan.png" alt="Metadecidim Japan screenshot">
+<img class="w-full h-full" src="/images/case-studies/metadecidim_japan.png" alt="Metadecidim Japan screenshot">
 
 *Hal Seki. Founder of Code for Japan*
 
