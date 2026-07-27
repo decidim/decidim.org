@@ -1,5 +1,5 @@
 ---
-date: 2026-07-24T12:47
+date: 2024-11-24T12:47
 name: Komunikatik
 subtitle: We promote participatory and communication processes that connect citizens and government to create real impact. We are passionate about public-community collaboration and are experts in using digital technologies to mobilize people, build a shared narrative, and solve complex challenges. We collaborate, care for people, and harness collective intelligence.
 url: https://komunikatik.com/
