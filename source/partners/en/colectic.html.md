@@ -1,5 +1,5 @@
 ---
-date: 2026-07-14T16:12
+date: 2023-07-15T16:12
 name: Colectic
 subtitle: Colectic is a non-profit cooperative that works for the inclusion, autonomy and empowerment of people and communities. We understand and use technology as a tool for participation and social transformation.
 url: https://colectic.coop/
