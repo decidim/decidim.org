@@ -3,57 +3,57 @@
  * Initializes on DOM ready or immediately if document is already loaded.
  *
  * @example
- * <input type="text" data-cs-search placeholder="Search..." />
+ * <input type="text" data-filter-search placeholder="Search..." />
  *
- * <button data-cs-filter-toggle>
+ * <button data-filter-toggle>
  *   Filters
- *   <span data-cs-filter-badge class="hidden">0</span>
- *   <i data-cs-filter-arrow></i>
+ *   <span data-filter-badge class="hidden">0</span>
+ *   <i data-filter-arrow></i>
  * </button>
  *
- * <div data-cs-filter-dropdown>
- *   <div data-cs-filter-panel class="hidden">
- *     <div data-cs-type-checkboxes></div>
- *     <div data-cs-region-checkboxes></div>
- *     <button data-cs-clear-filters class="hidden">Clear filters</button>
+ * <div data-filter-dropdown>
+ *   <div data-filter-panel class="hidden">
+ *     <div data-filter-type-checkboxes></div>
+ *     <div data-filter-region-checkboxes></div>
+ *     <button data-filter-clear class="hidden">Clear filters</button>
  *   </div>
  * </div>
  *
- * <div data-cs-active-chips></div>
+ * <div data-filter-chips></div>
  *
- * <div data-cs-grid data-cs-per-page="9">
- *   <div data-cs-card data-type="Case Study" data-region="Spain">...</div>
- *   <div data-cs-card data-type="White Paper" data-region="France">...</div>
+ * <div data-filter-grid data-filter-per-page="9">
+ *   <div data-filter-card data-type="Case Study" data-region="Spain">...</div>
+ *   <div data-filter-card data-type="White Paper" data-region="France">...</div>
  * </div>
  *
- * <div data-cs-no-results class="hidden">No results found.</div>
+ * <div data-filter-no-results class="hidden">No results found.</div>
  *
- * <div data-cs-pagination></div>
+ * <div data-filter-pagination></div>
  */
 
 /* eslint-disable max-lines */
-const caseStudyFilter = () => {
-  const grid = document.querySelector("[data-cs-grid]");
+const genericFilter = () => {
+  const grid = document.querySelector("[data-filter-grid]");
   if (!grid) {
     return;
   }
-  const parsedPerPage  = parseInt(grid.dataset.csPerPage, 10);
+  const parsedPerPage  = parseInt(grid.dataset.filterPerPage, 10);
   const CARDS_PER_PAGE = Number.isFinite(parsedPerPage) && parsedPerPage > 0
     ? parsedPerPage
     : Infinity;
 
-  const searchInput      = document.querySelector("[data-cs-search]");
-  const filterToggle     = document.querySelector("[data-cs-filter-toggle]");
-  const filterPanel      = document.querySelector("[data-cs-filter-panel]");
-  const filterArrow      = document.querySelector("[data-cs-filter-arrow]");
-  const filterBadge      = document.querySelector("[data-cs-filter-badge]");
-  const clearBtn         = document.querySelector("[data-cs-clear-filters]");
-  const typeContainer    = document.querySelector("[data-cs-type-checkboxes]");
-  const regionContainer  = document.querySelector("[data-cs-region-checkboxes]");
-  const paginationEl     = document.querySelector("[data-cs-pagination]");
-  const noResultsEl      = document.querySelector("[data-cs-no-results]");
-  const chipsEl          = document.querySelector("[data-cs-active-chips]");
-  const allCards         = Array.from(grid.querySelectorAll("[data-cs-card]"));
+  const searchInput      = document.querySelector("[data-filter-search]");
+  const filterToggle     = document.querySelector("[data-filter-toggle]");
+  const filterPanel      = document.querySelector("[data-filter-panel]");
+  const filterArrow      = document.querySelector("[data-filter-arrow]");
+  const filterBadge      = document.querySelector("[data-filter-badge]");
+  const clearBtn         = document.querySelector("[data-filter-clear]");
+  const typeContainer    = document.querySelector("[data-filter-type-checkboxes]");
+  const regionContainer  = document.querySelector("[data-filter-region-checkboxes]");
+  const paginationEl     = document.querySelector("[data-filter-pagination]");
+  const noResultsEl      = document.querySelector("[data-filter-no-results]");
+  const chipsEl          = document.querySelector("[data-filter-chips]");
+  const allCards         = Array.from(grid.querySelectorAll("[data-filter-card]"));
 
   let currentPage = 1;
   let panelOpen   = false;
@@ -292,7 +292,7 @@ const caseStudyFilter = () => {
   });
 
   document.addEventListener("click", (e) => {
-    if (panelOpen && !document.querySelector("[data-cs-filter-dropdown]")?.contains(e.target)) {
+    if (panelOpen && !document.querySelector("[data-filter-dropdown]")?.contains(e.target)) {
       setPanel(false);
     }
   });
@@ -316,7 +316,7 @@ const caseStudyFilter = () => {
 };
 
 if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", caseStudyFilter);
+  document.addEventListener("DOMContentLoaded", genericFilter);
 } else {
-  caseStudyFilter();
+  genericFilter();
 }
