@@ -20,19 +20,19 @@ features:
 
 cards:
   - id: feature1
-    icon: ri-briefcase-line
+    image: /images/index/card_1.png
     title: card1.title
     content: card1.content
     link: card1.link
     url: /features
   - id: feature1
-    icon: ri-service-line
+    image: /images/index/card_2.png
     title: card2.title
     content: card2.content
     link: card2.link
     url: /contract
   - id: feature1
-    icon: ri-hand-heart-line
+    image: /images/index/card_3.png
     title: card3.title
     content: card3.content
     link: card3.link

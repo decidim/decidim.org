@@ -441,17 +441,17 @@ en:
   index:
     cards:
       card1:
-        content: We can help configure a system of democratic governance in all kinds of organizations.
-        link: Our features
-        title: Implementing a flexible democratic system
+        content: A platform designed entirely with free-open source software. No vendor lock-in, you can install decidim on your own server. You can improve it and contribute to the project.
+        link: First steps
+        title: Open source for digital sovereignty
       card2:
-        content: Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.
-        link: Social contract
+        content: Decidim ensures transparency, traceability, and integrity of information. It provides security, privacy, and data confidentiality to all participants. Our values are embedded in the code.
+        link: Read our social contract
         title: We take democracy very seriously
       card3:
-        content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
-        link: The community
-        title: It's yours. Use it. Share it. Improve it.
+        content: Become part of a global community that promotes democracy and free software. You’ll be able to take part in events, learn from others and be part of a model of technological governance that is unique in the world.
+        link: Join our community
+        title: A global community to participate in
     footer_banner:
       heading: Participation for social change
       intro: Empower your community by creating truly democratic processes. Avoid participatory washing, use Decidim to organize collective intelligence and transform reality.
@@ -470,7 +470,7 @@ en:
       feature4: Initiatives and citizen consultations
       feature5: Participatory budgeting
       feature6: Networked communication
-      intro: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
+      intro_html: "What makes <span class=\"text-red-500\">Decidim unique</span>?"
     use_cases:
       subtitle: Stories about Decidim in action, around the world with diverse purposes and contexts.
       title: Use cases

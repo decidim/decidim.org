@@ -3,13 +3,18 @@ description:
 pageClass: home
 ---
 <section class="bg-gray-100">
-    <div class="container pt-32 md:pt-56 pb-12 md:pb-16">
+    <div class="container relative pt-32 md:pt-56 pb-12 md:pb-24">
       <div class="md:w-1/2">
-        <h1 class="h2"><%= t("index.hero.subheading") %></h1>
-        <p class="par-md mt-6"><%= t("index.hero.intro") %></p>
-        <%= partial "partials/arrow-link-rounded", locals: { text: t("index.hero.cta"), url: "#{t(:path)}/first-steps", classes: "inline-block mt-6 button par-md" } %>
+        <h1 class="h1 md:text-6xl md:text-nowrap"><%= t("index.hero.subheading") %></h1>
+        <h3 class="h3 py-5 !font-light pt-5 pb-10"><%= t("index.hero.intro") %></h3>
+        <div class="w-fit">
+          <%= partial "partials/arrow-link-rounded", locals: { text: t("index.hero.cta"), url: "#{t(:path)}/first-steps" } %>
+        </div>
+        <img src="/images/index/index-hero.png" alt="" class="block md:hidden w-full mt-10 object-cover">
       </div>
-      <img src="/images/home-hero.jpg" alt="" class="hidden md:block absolute top-0 right-0 h-full object-cover">
+      <div class="w-fit">
+        <img src="/images/index/index-hero.png" alt="" class="hidden md:block absolute top-0 right-0 h-full object-cover">
+      </div>
     </div>
   <% if alert_enabled? && homepage? %>
     <%= partial "/partials/alert-banner" %>
@@ -52,28 +57,7 @@ pageClass: home
   </div>
 </section>
 
-<section class="bg-red-100 md:bg-transparent">
-  <div class="container py-12">
-    <p class="md:w-3/4 mx-auto text-center text-red-500 md:text-gray-500 par-xl"><%= t("index.subhero.intro") %></p>
-  </div>
-</section>
-
-<section>
-  <div class="container py-4 flex flex-col md:flex-row justify-between items-stretch divide-y-8 md:divide-y-0 divide-gray-100">
-    <% data.index.cards.each do |item| %>
-      <div class="flex flex-col md:border-l-8 border-gray-100 py-8 md:py-0 md:px-10 md:w-1/3">
-        <div class="flex flex-row-reverse md:flex-col">
-          <%= icon item.icon, class: "w-10 h-10 text-red-500 flex-none" %>
-          <h5 class="h5 md:mt-8"><%= t("index.cards.#{item.title}") %></h5>
-        </div>
-        <p class="par-md max-w-prose text-gray-500 mt-4 mb-6"><%= t("index.cards.#{item.content}") %></p>
-        <%= partial "partials/arrow-link", locals: { text: t("index.cards.#{item.link}"), url: url(item.url), classes: "text-red-500 mt-auto block" } %>
-      </div>
-    <% end %>
-  </div>
-</section>
-
-<section class="md:py-16">
+<section class="md:pb-16">
   <div class="container pt-10">
     <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
       <h2 class="h2">
@@ -95,7 +79,25 @@ pageClass: home
   </div>
 </section>
 
-<section class="md:pb-6">
+<section>
+  <h2 class="h2 container md:py-16 py-5"><%= t("index.subhero.intro_html") %></h2>
+  <div class="container py-4 flex flex-col md:flex-row justify-between items-stretch divide-y-2 md:divide-y-0 divide-gray-100">
+    <% data.index.cards.each_with_index do |item, index| %>
+      <div class="flex flex-col pb-8 md:py-0 md:pr-5 md:w-1/3">
+        <div class="flex flex-row-reverse md:flex-col">
+          <img src="<%= item.image %>" alt="" class="w-full h-full items-center">
+        </div>
+        <div class="<%= 'md:border-r-2 border-gray-100 md:pr-5' unless index == data.index.cards.length - 1 %> flex flex-col flex-1">
+          <p class="par-sm uppercase font-bold md:pt-8 pt-5"><%= t("index.cards.#{item.title}") %></p>
+          <p class="par-sm max-w-prose mt-4 mb-6"><%= t("index.cards.#{item.content}") %></p>
+          <%= partial "partials/arrow-link", locals: { text: t("index.cards.#{item.link}"), url: url(item.url), classes: "text-red-500 mt-auto block", icon_name: "ri-external-link-line", icon_classes: "w-4 h-4" } %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</section>
+
+<section class="md:pb-6 md:pt-16 pb-5">
   <img src="/images/home-banner.jpg" alt="" class="banner object-cover">
 </section>
 
