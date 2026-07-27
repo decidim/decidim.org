@@ -3,7 +3,7 @@ date: 2023-07-15T16:12
 name: Colectic
 subtitle: Colectic is a non-profit cooperative that works for the inclusion, autonomy and empowerment of people and communities. We understand and use technology as a tool for participation and social transformation.
 url: https://colectic.coop/
-image: /uploads/logo-colectic-partner.header.svg
+image: /uploads/logo-colectic-partner-header.svg
 joined_at: Since 2017
 type:
   - Participation Design

@@ -3,7 +3,7 @@ date: 2024-07-24T12:40
 name: Code for Japan
 subtitle: Code for Japan is one of the Code for communities and Japan’s largest civic tech community. As the only official Decidim partner in Japan, we promote participatory society by supporting the adoption and use of Decidim.
 url: https://www.code4japan.org/
-image: /uploads/codeforjapan_logo.6ccc2171.svg
+image: /uploads/logo-codeforjapn-partner-header.svg
 joined_at: 2020.07.24
 type:
   - Installation & Development
