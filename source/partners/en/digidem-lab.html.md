@@ -13,15 +13,15 @@ type:
 region: Sweden
 type_of_service_provider: Workers co-operative
 most_relevant_experiences: |-
-  - **City of Gothenburg:** 
+  ## **City of Gothenburg**
 
   Digidem Lab provides development, support, and training to enable the city to use Decidim as a hub for civic participation. To date, the platform has been used for participatory budgeting and citizens’ assemblies, with additional processes planned.
 
-  - **New York City**
+  ## **New York City**
 
   We delivered methodology workshops and developed a user testing framework for the Civic Engagement Commission during the implementation phase of the Decidim platform.
 
-  - **European Commission**
+  ## **European Commission**
 
   We conducted several workshops on designing participatory processes in Decidim for the Conference on the Future of Europe.
 email_address: petter@digidemlab.org
