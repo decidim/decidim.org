@@ -95,22 +95,10 @@ en:
     - Serves as a useful resource and handbook for the use of Decidim
     - This book is open access, which means that you have free and unlimited access
     title: The Decidim Book
-  filters:
-    clear: Clear filters
-    no_results: No results found matching your filters.
-    region: Region
-    title: Filters
-    type: Type
   case_studies:
-    clear_filters: Clear filters
     components: 'Components:'
     components_used: Components used
-    filters:
-      region: Region
-      title: Filters
-      type: Type
     intro: These cities, institutions and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some of the inspiring successful cases!
-    no_results: No case studies found matching your filters.
     partners: Partners
     read: Read the case study
     subtitle: Stories about Decidim in the real world
@@ -386,6 +374,12 @@ en:
     type2:
       subtitle: Participatory spaces can be combined with components that push participation and adapt to your needs. You can add all the features you want and customise your platform.
       title: Components
+  filters:
+    clear: Clear filters
+    no_results: No results found matching your filters.
+    region: Region
+    title: Filters
+    type: Type
   first-steps:
     contributors:
       content: Check the contribution guidelines and collaborate in fixing or managing the code.
