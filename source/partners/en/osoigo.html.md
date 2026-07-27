@@ -1,5 +1,5 @@
 ---
-date: 2026-07-24T12:51
+date: 2025-10-24T12:51
 name: Osoigo
 subtitle: Osoigo Next provides digital participation software and strategic consulting for governments, nonprofits and companies. Their hybrid service (digital and physical) enables opinion gathering, proposal creation, voting, participatory processes, and community engagement at scale.
 url: osoigonext.com
@@ -19,7 +19,6 @@ most_relevant_experiences: |-
   - Built a scalable, secure platform tailored for a major public media organisation.
   - Integrated multiple interaction modes (voting, discussion, proposals) in one system.
   - Anchored the platform in accessibility, traceability and usability.
-
   - [**Donostia‑San Sebastián – Participatory Process for the New PGOU**](https://www.osoigonext.com/proyectos-participacion/proceso-participativo-del-pgou-de-donostia-san-sebastian osoigonext.com+1)
 
   Osoigo Next was awarded the consultancy and technological development to support the participatory process of the new General Urban Development Plan (PGOU) for Donostia-San Sebastián.
@@ -28,7 +27,6 @@ most_relevant_experiences: |-
   - Designed a hybrid methodology combining digital platform + in-person workshops and sessions across neighbourhoods.
   - Developed a participation portal to present the PGOU draft, collect citizen proposals, enable interaction debates and voting.
   - Facilitated inclusive engagement by covering cultural, territorial, socio-economic and demographic dimensions of the city.
-
   - [**Gurea Geroa – Youth Participation Platform (Basque Country)**](https://www.osoigonext.com/proyectos-participacion/gurea-geroa-la-encuesta-que-recogera-las-opiniones-de-la-juventud-sobre-la-dificil-situacion-de-la-vivienda osoigonext.com+1)
 
   Gurea Geroa is a digital participation space created for the youth of Euskadi (Basque Country) to voice opinions, proposals and solutions around public-policies topics (initially housing, then further themes).
