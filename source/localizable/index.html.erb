@@ -72,8 +72,11 @@ pageClass: home
     </p>
   </div>
   <div class="container">
-    <%= partial "/partials/testimonial-cards" %>
-    <div class="md:hidden pb-10">
+    <div class="flex flex-col md:flex-row items-stretch gap-5 pt-5 pb-5">
+      <%= partial "/partials/case-study-cards", locals: { limit: 3 } %>
+    </div>
+  </div>
+    <div class="md:hidden md:pb-0 pb-10">
       <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
     </div>
   </div>
@@ -101,7 +104,7 @@ pageClass: home
   <img src="/images/home-banner.jpg" alt="" class="banner object-cover">
 </section>
 
-<%= partial "/partials/_case_study_cards" %>
+<%= partial "/partials/testimonials" %>
 
 <section class="md:pt-16 pt-10">
   <div class="banner relative">
