@@ -1,5 +1,5 @@
 ---
-date: 2026-07-24T12:44
+date: 2024-07-26T12:44
 name: Digidem Lab
 subtitle: |-
   Digidem Lab is an independent democracy lab and consultancy that supports organizations, municipalities and public institutions in conducting effective and inclusive citizen dialogues.
