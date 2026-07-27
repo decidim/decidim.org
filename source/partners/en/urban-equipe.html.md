@@ -2,7 +2,7 @@
 date: 2024-07-24T13:01
 name: Urban Equipe
 subtitle: Urban Equipe is an association that is committed to the democratization of urban development and design. Urban Equipe is organized as a non-profit association and as such is committed to its purpose in all its projects. To achieve its purpose, it initiates participatory projects, organizes knowledge exchange and carries out assignments in accordance with its purpose, with a focus on municipalities and civil society organizations in the field of urban development. Urban Equipe has been a Decidim partner since 2024.
-url: urban-equipe.ch
+url: https://urban-equipe.ch
 image: /uploads/logo_partner_urban_equipe.svg
 joined_at: 2024.07.24
 type:
