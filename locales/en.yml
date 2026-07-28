@@ -271,22 +271,10 @@ en:
         title: Make Decisions
       group_4:
         title: Communicate Results to your audience
-    intro: You can use the Decidim software in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, public institution, associations, NGOs, universities, trade unions, cooperatives or neighbourhood communities. With Decidim you will be able to configure spaces for digital participation and organize contributions and discussions through the multiple available components.
-    index_feature1:
-      title: Run participatory processes 
-      text: To foster debate, assessment, and decision-making on issues that matter to your community.
-    index_feature2:
-      title: Collect proposals from participants
-      text: Enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
-    index_feature3:
-      title: Vote and select proosals
-      text: You can use various voting methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
-    index_feature4:
-      title: Organize face-to-face or online meetings for co-creation
-      text: Manage registrations, publish the agenda and upload the proposals co-created in a session.
     index_feature5:
-      title: Comment and discuss with your community
       text: Engage your community in a deliberation topic, and follow the discussion with different visualizations of the arguments.
+      title: Comment and discuss with your community
+    intro: You can use the Decidim software in a public or private organisation, with hundreds or thousands of potential participants, such as a city council, public institution, associations, NGOs, universities, trade unions, cooperatives or neighbourhood communities. With Decidim you will be able to configure spaces for digital participation and organize contributions and discussions through the multiple available components.
     modules:
       button: Get started
       intro: Grow beyond the default components.
@@ -490,13 +478,21 @@ en:
       title: More than 500 organizations using Decidim
     subhero:
       cta: All product features
-      feature1: Strategic planning
-      feature2: Participatory processes
-      feature3: Assemblies
-      feature4: Initiatives and citizen consultations
-      feature5: Participatory budgeting
-      feature6: Networked communication
+      index_feature1:
+        text: To foster debate, assessment, and decision-making on issues that matter to your community.
+        title: Run participatory processes 
+      index_feature2:
+        text: Enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
+        title: Collect proposals from participants
+      index_feature3:
+        text: You can use various voting methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
+        title: Vote and select proosals
+      index_feature4:
+        text: Manage registrations, publish the agenda and upload the proposals co-created in a session.
+        title: Organize face-to-face or online meetings for co-creation
       intro_html: What makes <span class="text-red-500">Decidim unique</span>?
+      subtitle: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
+      title: What can you do with Decidim?
     use_cases:
       subtitle: Stories about Decidim in action, around the world with diverse purposes and contexts.
       title: Use cases
