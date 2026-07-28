@@ -3,6 +3,7 @@ title: The Decidim Association launches the Committee of Public Institutions wit
 gallery:
   - image: /uploads/foto.jpg
     alt: ''
+tags: Announcements
 ---
 
 ![](/uploads/foto.jpg)
