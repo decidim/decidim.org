@@ -18,7 +18,7 @@ most_relevant_experiences: |-
 
   Building a shared vision from the territories. We supported UPV/EHU in designing a shared territorial governance: designing the participation process and the platform, implementing the proposal, and providing administrative support.
 
-  ## [**Participa311**](https://participa.somenergia.coop/)
+  ## [**Participa311**](https://comunitat311.diba.cat/)
 
   For the Diputació de Barcelona and Decidim DDGI for the Diputació de Girona. Support service and resolution of queries and incidents in the administration of the Decidim platform for municipal technicians in the territorial area. Introductory and advanced training, and bespoke training proposals.
 email_address: area.participacio@colectic.coop
