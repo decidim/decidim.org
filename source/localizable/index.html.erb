@@ -22,9 +22,9 @@ pageClass: home
 </section>
 
 <section>
-  <div class="container md:pt-16 pt-10 space-y-10">
+  <div class="container md:pt-16 pt-10">
     <h2 class="h2"><%= t("index.installations.title") %></h2>
-    <%= partial "partials/main_installations", locals: { classes: "py-10" } %>
+    <%= partial "partials/main_installations", locals: { classes: "md:py-10 py-5" } %>
     <%= partial "partials/arrow-link", locals: { text: t("index.installations.cta"), url: "#{t(:path)}/installations" } %>
   </div>
 </section>
