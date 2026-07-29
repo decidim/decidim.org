@@ -4,14 +4,14 @@ pageClass: home
 ---
 <section class="bg-gray-100">
     <div class="container relative pt-32 md:pt-56 pb-12 md:pb-24">
-      <div class="md:w-1/2">
+      <div class="md:w-3/5">
         <h1 class="h1 md:text-6xl md:text-nowrap"><%= t("index.hero.subheading") %></h1>
         <h3 class="h3 py-5 !font-light pt-5 pb-10"><%= t("index.hero.intro") %></h3>
-        <div class="w-fit">
-          <%= partial "partials/arrow-link-rounded", locals: { text: t("index.hero.cta"), url: "#{t(:path)}/first-steps" } %>
-        </div>
-        <img src="/images/index/index-hero.png" alt="" class="block md:hidden w-full mt-10 object-cover">
       </div>
+      <div class="w-fit">
+        <%= partial "partials/arrow-link-rounded", locals: { text: t("index.hero.cta"), url: "#{t(:path)}/first-steps" } %>
+      </div>
+      <img src="/images/index/index-hero.png" alt="" class="block md:hidden w-full mt-10 object-cover">
       <div class="w-fit">
         <img src="/images/index/index-hero.png" alt="" class="hidden md:block absolute top-0 right-0 h-full object-cover">
       </div>
