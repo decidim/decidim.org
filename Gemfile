@@ -26,7 +26,9 @@ gem "rubocop-rspec", "~> 3.0"
 gem "rubocop-rspec_rails", "~> 2.29"
 
 group :test do
-  gem "capybara", "~> 3.37"
+  gem "capybara", "~> 3.40"
+  gem "puma", "~> 6.0"
   gem "rake", "~> 13.0"
   gem "rspec", "~> 3.11"
+  gem "selenium-webdriver"
 end
