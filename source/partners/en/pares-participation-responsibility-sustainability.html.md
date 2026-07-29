@@ -15,7 +15,7 @@ type:
 region: Italy
 type_of_service_provider: Private Social Cooperative
 most_relevant_experiences: |-
-  ## [**Municipality of Vignola – Participatory budgeting**](https://partecipa.comune.vignola.mo.it/)**.**
+  ## [**Municipality of Vignola – Participatory budgeting**](https://partecipa.comune.vignola.mo.it/)
 
   Since 2021, Pares has been supporting the Municipality of Vignola (Emilia-Romagna) in its participatory budgeting, handling the implementation and management of the Decidim platform, coordinating activities, providing training on participatory budgeting and digital citizenship, and facilitating the online process.
 
