@@ -21,7 +21,7 @@ Capybara.server = :puma
 
 Capybara.register_driver :selenium_chrome do |app|
   options = Selenium::WebDriver::Chrome::Options.new(
-    args: `%w[headless disable-gpu no-sandbox disable-dev-shm-usage]`
+    args: %w(--headless=new --no-sandbox --disable-gpu --disable-dev-shm-usage)
   )
   Capybara::Selenium::Driver.new(app, browser: :chrome, options:)
 end
