@@ -15,12 +15,12 @@
         <img class="w-full h-full aspect-[2/1] object-cover" src="/images/placeholder.jpg" alt="<%= cs.title %>">
       <% end %>
     </div>
-    <div class="flex gap-2 flex-wrap px-6 pt-4">
+    <div class="flex gap-2 flex-wrap md:px-6 px-3 pt-4">
       <% if cs.type.present? %>
-        <span class="text-xs bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.type %></span>
+        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.type %></span>
       <% end %>
       <% if cs.region.present? %>
-        <span class="text-xs bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.region %></span>
+        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.region %></span>
       <% end %>
     </div>
     <h5 class="h5 pt-4 md:px-6 px-3 line-clamp-2"><%= cs.title %></h5>
