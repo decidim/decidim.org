@@ -82,7 +82,7 @@ description:
 </section>
 
 <section>
-  <div class="container pb-12 md:py-16">
+  <div class="container hidden md:block pb-12 md:py-16">
     <h2 class="h2 text-black"><%= t("about.history.title") %></h2>
     <div class="2xl:overflow-hidden overflow-x-auto px-4 overflow-y-hidden">
       <div class="relative flex h-[500px] min-w-[1000px] mt-40">
@@ -122,6 +122,34 @@ description:
           </div>
         <% end %>
       </div>
+    </div>
+  </div>
+  <div class="container md:hidden block pb-6">
+    <h2 class="h2 text-black pb-6"><%= t("about.history.title") %></h2>
+    <div class="relative">
+      <% timeline = t("about.history.timeline") %>
+      <% timeline.each_with_index do |item, index| %>
+        <% is_last = index == timeline.length - 1 %>
+        <div class="relative flex gap-4 pb-8 last:pb-0">
+          <% unless is_last %>
+            <div class="absolute left-3 -translate-x-1/2 top-6 bottom-8 w-0.5 bg-red-500 z-0"></div>
+          <% end %>
+
+          <div class="relative flex-shrink-0 w-6 z-10">
+            <%= image_tag "timeline_point.svg", class: "w-6 h-6", aria: { hidden: true } %>
+            <% if is_last %>
+              <%= image_tag "timeline_arrow_down.svg", class: "w-40 h-40", aria: { hidden: true } %>
+            <% end %>
+          </div>
+
+          <div class="pb-2 -mt-1 relative z-10">
+            <span class="block text-xl font-bold text-red-500 leading-none mb-2"><%= item[:year] %></span>
+            <p class="text-sm leading-relaxed m-0">
+              <%= (item[:above].presence || item[:below]).html_safe %>
+            </p>
+          </div>
+        </div>
+      <% end %>
     </div>
   </div>
 </section>
@@ -213,8 +241,8 @@ description:
         <div class="hidden par-lg md:flex border-x border-gray-300 w-36 h-24 items-center justify-center">2019</div>
         <div class="par-md"><%= t("about.recognitions.sharing_reuse") %></div>
       </div>
+    </div>
   </div>
-</div>
 </section>
 
 <section class="container pb-10 md:pb-16">
