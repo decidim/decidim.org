@@ -12,9 +12,7 @@ RSpec.describe "index", type: :feature do
   end
 
   it "displays the correct title header content" do
-    within "h1" do
-      expect(page).to have_content(/Decidim is a digital platform for citizen participation/i)
-    end
+    expect(page).to have_css "h1", text: /A digital platform for participation and community governance./i
   end
 
   it "has a navigation with a details element" do
