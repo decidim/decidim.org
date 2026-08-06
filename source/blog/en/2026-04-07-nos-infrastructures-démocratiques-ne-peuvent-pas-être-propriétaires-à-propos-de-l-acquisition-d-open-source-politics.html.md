@@ -1,5 +1,8 @@
 ---
 title: "Nos infrastructures démocratiques ne peuvent pas être propriétaires : à propos de l'acquisition d'Open Source Politics"
+gallery:
+  - image: /uploads/blog-OSP-01-banner.png
+    alt: ''
 tags: Opinion
 ---
 
