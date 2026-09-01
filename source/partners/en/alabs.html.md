@@ -9,7 +9,7 @@ subtitle: |-
   transparency, and citizen empowerment. Our work connects software development with
   institutional consulting, education, and community-driven innovation.
 url: https://alabs.org
-image: /uploads/logo.svg
+image: /uploads/logo-partner-alabs.svg
 joined_at: 2017.07.24
 type:
   - Installation & Development
