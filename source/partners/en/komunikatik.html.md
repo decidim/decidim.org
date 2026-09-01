@@ -3,7 +3,7 @@ date: 2024-11-24T12:47
 name: Komunikatik
 subtitle: We promote participatory and communication processes that connect citizens and government to create real impact. We are passionate about public-community collaboration and are experts in using digital technologies to mobilize people, build a shared narrative, and solve complex challenges. We collaborate, care for people, and harness collective intelligence.
 url: https://komunikatik.com/
-image: /uploads/logo-komunikatik.png
+image: /uploads/logo-partner-komunikatik.png
 joined_at: 2017.07.24
 type:
   - Installation & Development

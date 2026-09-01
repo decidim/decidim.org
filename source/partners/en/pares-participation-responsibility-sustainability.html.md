@@ -7,7 +7,7 @@ subtitle: |-
   Pares supports local communities, public administrations and companies, non profit and civil society organizations, schools and training agencies, through a variety of tailored projects that mix collaborative training, co-design and participatory processes, digital cooperation, impact evaluation.
   In recent years Pares has focused on the designing, implementation and management of digital tools and platforms for participation, online collaboration and co-design, and it is currently involved in projects with public administrations and organisations using e-democracy software platforms to support citizen participation.
 url: https://www.pares.it/
-image: /uploads/Pares_logo_1111_giallo.jpg
+image: /uploads/logo-partner-pares.jpg
 joined_at: 2020.07.24
 type:
   - Installation & Development
