@@ -2,6 +2,7 @@
 
 require "rspec"
 require "capybara/rspec"
+require "selenium-webdriver"
 
 require "middleman-core"
 require "middleman-core/rack"
@@ -15,6 +16,17 @@ middleman_app = Middleman::Application.new do
 end
 
 Capybara.app = Middleman::Rack.new(middleman_app).to_app
+
+Capybara.server = :puma
+
+Capybara.register_driver :selenium_chrome do |app|
+  options = Selenium::WebDriver::Chrome::Options.new(
+    args: %w(--headless=new --no-sandbox --disable-gpu --disable-dev-shm-usage)
+  )
+  Capybara::Selenium::Driver.new(app, browser: :chrome, options:)
+end
+
+Capybara.javascript_driver = :selenium_chrome
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
