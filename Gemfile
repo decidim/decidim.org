@@ -30,5 +30,5 @@ group :test do
   gem "puma", "~> 6.0"
   gem "rake", "~> 13.0"
   gem "rspec", "~> 3.11"
-  gem "selenium-webdriver"
+  gem "selenium-webdriver", "~> 4.32"
 end
