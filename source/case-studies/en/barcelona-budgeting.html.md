@@ -1,5 +1,5 @@
 ---
-date: "2026-01-01"
+date: "2026-01-05"
 title: Participatory Budgets 2020-2023 in Barcelona
 subtitle: The first participatory budgets in the city, or how to promote democratic transparency and citizen empowerment
 website: https://www.decidim.barcelona/

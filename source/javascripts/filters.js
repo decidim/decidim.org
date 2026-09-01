@@ -203,7 +203,7 @@ const caseStudyFilter = () => {
 
     if (currentPage < totalPages) {
       appendBtn({
-        label: "Next <svg class=\"w-5 h-5\" fill=\"currentColor\"><use xlink:href=\"/images/remixicon.symbol.svg#ri-arrow-right-line\"></use></svg",
+        label: "Next <svg class=\"w-5 h-5\" fill=\"currentColor\"><use xlink:href=\"/images/remixicon.symbol.svg#ri-arrow-right-line\"></use></svg>",
         ariaLabel: "Next page",
         onClick: () => filter.goToPage(currentPage + 1),
         cls: cssClasses.next
