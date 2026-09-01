@@ -102,7 +102,9 @@ description:
     </p>
   </div>
   <div class="container">
-    <%= partial "/partials/testimonial-cards" %>
+    <div class="flex flex-col md:flex-row items-stretch gap-5 pt-5 pb-5">
+      <%= partial "/partials/case-study-cards", locals: { limit: 3 } %>
+    </div>
     <div class="md:hidden pb-10">
       <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/features" } %>
     </div>

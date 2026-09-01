@@ -3,7 +3,7 @@ title: The Conference on the Future of Europe, UE
 tags: ["casestudy"]
 ---
 
-<img class="w-full h-full" src="/images/case_studies/conference_future_of_europe.png" alt="The Conference on the Future of Europe screenshot">
+<img class="w-full h-full" src="/images/case-studies/conference_future_of_europe.png" alt="The Conference on the Future of Europe screenshot">
 
 *Paulo Rosa, Policy Analyst at the European Commission*
 
