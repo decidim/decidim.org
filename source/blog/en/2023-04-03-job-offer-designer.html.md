@@ -1,6 +1,11 @@
 ---
-title: "Job offer: Designer"
+title: 'Job offer: Designer'
+gallery:
+  - image: /uploads/blog-designer-01-banner.png
+    alt: ''
+tags: Announcements
 ---
+
 ## What’s the job
 
 We are looking for someone who can help us improve the PX (Participant Experience) of Decidim and also to work on reviewing and improving the graphic identity of the project. You will work with an interdisciplinary team focused on how technology can help to empower citizens for social change and improve democracy.
@@ -54,8 +59,8 @@ This is a perfect job if you are someone:
 * Flexible hours to organize your schedule according to your needs.
 * Part-time (10 hours per week).
 * Salary between 7k and 10k per 7 months
-* * Residents in Spain: We can either hire you or pay you through invoices.
-  * Residents outside Spain: Payment by invoice only.
+* \* Residents in Spain: We can either hire you or pay you through invoices.
+    - Residents outside Spain: Payment by invoice only.
 * To be part of a project for the democratization of society with a global projection. And most important, together with a team of good people.
 
 This job offer is for a short period (7 months approximate), depending on the financial situation of the association we will see if the duration can be extended.

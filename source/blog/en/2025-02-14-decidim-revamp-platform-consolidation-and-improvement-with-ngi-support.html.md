@@ -1,11 +1,16 @@
 ---
-title: "Decidim Revamp: Platform Consolidation and Improvement with NGI Support"
+title: 'Decidim Revamp: Platform Consolidation and Improvement with NGI Support'
+gallery:
+  - image: /uploads/blog-revamp-01-banner.png
+    alt: ''
+tags: Product
 ---
+
 Decidim has been selected as part of the projects funded by the **NGI Zero Commons Fund**, under the **NGI - Zero Commons Fund** call. This support will enable us to implement significant enhancements to the platform through the **Decidim Revamp** project. [More details on the project selection](https://nlnet.nl/news/2024/20241014-announcing-CommonsFund-call.html).
 
 **Project Description**
 
-The goal of *Decidim Revamp* is to consolidate Decidim's main functionalities, fix critical bugs, and organize the code after years of continuous development. This project focuses on the less visible but essential work needed to ensure clean and sustainable code for the long term. By the end of the project, we aim for the software to be more accessible for people with disabilities, have better-structured and fully updated documentation, and optimize module functionality with a cleaner and more efficient codebase.
+The goal of _Decidim Revamp_ is to consolidate Decidim's main functionalities, fix critical bugs, and organize the code after years of continuous development. This project focuses on the less visible but essential work needed to ensure clean and sustainable code for the long term. By the end of the project, we aim for the software to be more accessible for people with disabilities, have better-structured and fully updated documentation, and optimize module functionality with a cleaner and more efficient codebase.
 
 ### EPICS and Project Tasks
 
@@ -45,7 +50,7 @@ The project will be divided into four main development areas, each with specific
 
 ### Progress and Updates
 
-You can track the development of *Decidim Revamp* and learn more about updates through our [project page on GitHub](https://github.com/orgs/decidim/projects/24/views/20?query=sort%3Aupdated-desc+is%3Aopen&filterQuery=-status%3AReconsider-status%3AReconsider%2C%22In+progress%22%2C%22Product+review%22%2C%22Contractor+review%22%2C%22Maintainers+review%22%2CMerged%2CDocumented%2CReconsider+funder%3ANLNet).
+You can track the development of _Decidim Revamp_ and learn more about updates through our [project page on GitHub](https://github.com/orgs/decidim/projects/24/views/20?query=sort%3Aupdated-desc+is%3Aopen&filterQuery=-status%3AReconsider-status%3AReconsider%2C%22In+progress%22%2C%22Product+review%22%2C%22Contractor+review%22%2C%22Maintainers+review%22%2CMerged%2CDocumented%2CReconsider+funder%3ANLNet).
 
 We thank **nlnet Foundation** for supporting this project and helping strengthen Decidim as a more accessible, sustainable participation platform prepared for future challenges.
 

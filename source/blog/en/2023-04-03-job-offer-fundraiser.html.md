@@ -1,6 +1,11 @@
 ---
-title: "Job offer: Fundraiser"
+title: 'Job offer: Fundraiser'
+gallery:
+  - image: /uploads/blog-fundraiser-01-banner.png
+    alt: ''
+tags: Announcements
 ---
+
 ## What’s the job
 
 We’re looking for someone who will be responsible for creating a sustainability plan for the Association and find new funding opportunities. 
@@ -55,8 +60,8 @@ This is a perfect job if you are someone:
 * Part-time (10 hours per week).
 * The job offer is for 7 months
 * Salary between 10k and 13k € per 7 months. 
-* * Residents in Spain: We can either hire you or pay you through invoices.
-  * Residents outside Spain: Payment by invoice only.
+* \* Residents in Spain: We can either hire you or pay you through invoices.
+    - Residents outside Spain: Payment by invoice only.
 * To be part of a project for the democratization of society with a global projection. And most important, together with a team of good people.
 
 This job offer is for a short period (7 months approximate), during this time we want to have somebody in the team looking for new funding and laying the groundwork for us to pluralise our income sources. 
@@ -77,7 +82,5 @@ If you’re interested send us your updated CV and motivational letter to jobs@d
 Deadline: April 17, 2023
 
 From April 17 onwards, we will evaluate the applications in order to award the vacancy during the next month.
-
-
 
 The data provided will be kept until the end of this process or until you exercise your right of withdrawal. Therefore, you have the right to access your personal data, rectify inaccurate data or request its deletion when the data is no longer necessary. You may exercise this right by sending an e-mail to jobs@decidim.org The data will not be passed on to third parties.

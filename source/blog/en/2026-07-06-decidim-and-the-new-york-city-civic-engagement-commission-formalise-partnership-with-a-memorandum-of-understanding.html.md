@@ -1,15 +1,18 @@
 ---
 title: Decidim and the New York City Civic Engagement Commission formalise Partnership with a Memorandum of Understanding
-tags: ''
+gallery:
+  - image: /uploads/Post LinkedIn(35).png
+    alt: ''
+  - image: /uploads/photo_2026-07-03_09-55-59.jpg
+    alt: ''
+  - image: /uploads/photo_2026-07-03_09-56-06.jpg
+    alt: ''
+tags: Announcements
 ---
-
-![](/uploads/Post%20LinkedIn%2835%29.png)
 
 ##### On June 24, the Decidim Association and the New York City Civic Engagement Commission, signed a Memorandum of Understanding (MoU) during a ceremony in NYC. The event brought together representatives from both organisations, alongside delegates from Barcelona City Council and the Government of Catalonia. 
 
 The agreement marks a significant milestone for the Decidim project, making New York City the first local government outside Catalonia to establish a formal collaboration framework with the Decidim Association. 
-
-![](/uploads/photo_2026-07-03_09-55-59.jpg)
 
 The partnership lays the foundation for deeper collaboration between the two organisations, with a shared commitment to strengthening participatory democracy through open-source digital infrastructure. 
 
@@ -32,8 +35,6 @@ On Wednesday, the 24th, we met with the team from the Office of Mass Engagement,
 ## **Decidim at the United Nations: Cities, Democracy and Open Source**
 
 The collaboration continued during the United Nations Open Source Week, where Decidim co-organised the panel Cities, Democracy and Open-Source. The session brought together representatives from cities and public institutions around the world to discuss how open-source technologies can strengthen democratic governance by making public systems more transparent, auditable and accountable.
-
-![](/uploads/photo_2026-07-03_09-56-06.jpg)
 
 Participants explored the role of cities in building public digital infrastructures and highlighted the importance of involving residents not only in civic participation, but also in the design, governance and evolution of the digital tools that support democracy. 
 
