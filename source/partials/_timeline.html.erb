@@ -1,37 +1,37 @@
 <div class="container hidden lg:block pb-12 lg:py-16">
-  <h2 class="h2 text-black"><%= t("about.history.title") %></h2>
-  <div class="2xl:overflow-hidden overflow-x-auto px-4 md:pt-5 overflow-y-clip" style="scrollbar-gutter: stable;">
+  <h2 class="h2 text-black md:pb-20"><%= t("about.history.title") %></h2>
+  <div class="px-4 md:pt-5">
     <div class="relative flex h-[500px] w-full">
 
-      <div class="absolute left-0 right-0 pointer-events-none z-0" style="top: 250px; transform: translateY(-50%);">
+      <div class="absolute left-0 right-0 pointer-events-none z-0 top-[250px] -translate-y-1/2">
         <%= image_tag "timeline_arrow.svg", class: "w-full h-auto", aria: { hidden: true } %>
       </div>
 
       <% t("about.history.timeline").each do |item| %>
         <div class="flex-1 relative text-center px-2 z-10 min-w-0">
           <% if item[:above].present? %>
-            <div class="absolute left-2 right-2 flex items-end justify-center" style="top: 0; bottom: calc(100% - 145px);">
-              <p class="text-xs leading-relaxed m-0" style="font-size: clamp(0.625rem, 0.45vw + 0.2rem, 0.75rem);"><%= item[:above] %></p>
+            <div class="absolute left-2 right-2 flex items-end justify-center top-[30px] bottom-[calc(100%-150px)]">
+              <p class="text-sm text-balance"><%= item[:above] %></p>
             </div>
           <% end %>
           <% if item[:above].present? %>
-            <div class="absolute left-0 right-0 flex justify-center" style="bottom: 290px;">
+            <div class="absolute left-0 right-0 flex justify-center bottom-[290px]">
               <%= image_tag "timeline_line.svg", class: "w-auto rotate-180", aria: { hidden: true } %>
             </div>
           <% end %>
-          <div class="absolute left-0 right-0 flex justify-center" style="top: calc(250px - 40px);">
-            <span class="text-lg font-bold text-red-500 leading-tight style="font-size: clamp(0.8rem, 0.5vw + 0.2rem, 1.125rem);"><%= item[:year] %></span>
+          <div class="absolute left-0 right-0 flex justify-center top-[210px]">
+            <span class="text-lg font-bold text-red-500 leading-tight"><%= item[:year] %></span>
           </div>
-          <div class="absolute left-0 right-0 flex justify-center" style="top: 250px; transform: translateY(-50%);">
+          <div class="absolute left-0 right-0 flex justify-center top-[250px] -translate-y-1/2">
             <%= image_tag "timeline_point.svg", class: "w-auto flex-shrink-0", aria: { hidden: true } %>
           </div>
           <% if item[:below].present? %>
-            <div class="absolute left-0 right-0 flex justify-center" style="top: 265px;">
+            <div class="absolute left-0 right-0 flex justify-center top-[265px]">
               <%= image_tag "timeline_line.svg", class: "w-auto", aria: { hidden: true } %>
             </div>
           <% end %>
           <% if item[:below].present? %>
-            <div class="absolute left-2 right-2" style="top: 300px;">
+            <div class="absolute left-2 right-2 top-[300px]">
               <p class="text-sm leading-relaxed m-0 pt-4"><%= item[:below].html_safe %></p>
             </div>
           <% end %>
