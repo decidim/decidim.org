@@ -1,7 +1,7 @@
-<div class="container hidden md:block pb-12 md:py-16">
+<div class="container hidden lg:block pb-12 lg:py-16">
   <h2 class="h2 text-black"><%= t("about.history.title") %></h2>
   <div class="2xl:overflow-hidden overflow-x-auto px-4 md:pt-5 overflow-y-clip" style="scrollbar-gutter: stable;">
-    <div class="relative flex h-[500px] w-full mt-16">
+    <div class="relative flex h-[500px] w-full">
 
       <div class="absolute left-0 right-0 pointer-events-none z-0" style="top: 250px; transform: translateY(-50%);">
         <%= image_tag "timeline_arrow.svg", class: "w-full h-auto", aria: { hidden: true } %>
@@ -20,7 +20,7 @@
             </div>
           <% end %>
           <div class="absolute left-0 right-0 flex justify-center" style="top: calc(250px - 40px);">
-            <span class="text-lg font-bold text-red-500 leading-none" style="font-size: clamp(0.8rem, 0.5vw + 0.2rem, 1.125rem);"><%= item[:year] %></span>
+            <span class="text-lg font-bold text-red-500 leading-tight style="font-size: clamp(0.8rem, 0.5vw + 0.2rem, 1.125rem);"><%= item[:year] %></span>
           </div>
           <div class="absolute left-0 right-0 flex justify-center" style="top: 250px; transform: translateY(-50%);">
             <%= image_tag "timeline_point.svg", class: "w-auto flex-shrink-0", aria: { hidden: true } %>
@@ -40,7 +40,7 @@
     </div>
   </div>
 </div>
-<div class="container md:hidden block pb-6">
+<div class="container lg:hidden block pb-6 md:pt-10">
   <h2 class="h2 text-black pb-6"><%= t("about.history.title") %></h2>
   <div class="relative">
     <% timeline = t("about.history.timeline") %>
@@ -48,7 +48,7 @@
       <% is_last = index == timeline.length - 1 %>
       <div class="relative flex gap-4 pb-8 last:pb-0">
         <% unless is_last %>
-          <div class="absolute left-3 -translate-x-1/2 top-6 bottom-5 w-[1px] bg-red-500 z-0"></div>
+          <div class="absolute left-3 -translate-x-1/2 top-6 bottom-0 w-[1px] bg-red-500 z-0"></div>
         <% end %>
 
         <div class="relative flex-shrink-0 w-6 z-10">
