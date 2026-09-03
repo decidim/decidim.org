@@ -1,10 +1,14 @@
 <% direction = direction ||= "down" %>
 
 <% if show_language_selector? %>
-<details class="inline-block relative no-animate">
+<details class="inline-block relative no-animate group">
 
-  <summary class="flex space-x-2 items-center cursor-pointer"><%= icon "ri-global-line", class: "w-5 h-5 no-toggle" %> <span class="uppercase"><%= I18n.locale %></span></summary>
-
+  <summary class="flex space-x-2 items-center cursor-pointer"><%= icon "ri-global-line", class: "w-5 h-5 no-toggle" %> <span class="uppercase"><%= I18n.locale %></span>
+    <span class="flex w-4 h-4 text-red-500">
+      <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
+      <svg class="w-4 h-4 absolute hidden group-open:block no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-up-s-line"></use></svg>
+    </span>
+  </summary>
   <ul role="list" class="absolute -left-3 shadow-md pointer-events-none overflow-hidden transition <%= direction == 'up' ? 'pb-8 rounded-t-xl -translate-y-full' : 'rounded-b-xl' %>">
     <% data.languages.each do |lang| %>
       <li class="bg-white text-black pointer-events-auto first:pt-3 last:pb-3">

@@ -2,8 +2,8 @@
   <%= partial "/partials/alert-banner" %>
 <% end %>
 <header class="bg-transparent w-full min-h-[5rem] <%= 'absolute top-0 left-0 z-10 text-white filter-img-alt' if homepage? %>">
-  <div class="container pt-6 md:pt-12 pb-4 flex flex-col md:flex-row justify-between items-center pointer-events-none <%= 'absolute md:relative' unless homepage? %>">
-    <div class="w-full md:w-auto flex justify-between items-center pointer-events-auto">
+  <div class="w-full md:px-12 p-5 md:pt-10 pb-4 flex flex-row justify-between items-center">
+    <div class="flex justify-between items-center flex-1 md:flex-none">
       <a href="<%= t(:path) %>/">
         <img class="hidden md:block" src="/images/decidim-logo-claim.svg" alt="Decidim" />
         <img class="block md:hidden" src="/images/decidim-symbol.svg" alt="Decidim" />
@@ -17,16 +17,88 @@
         </div>
       </button>
     </div>
-    <nav class="-translate-y-[200%] md:translate-y-0 transition mt-10 md:mt-0 w-full md:w-auto md:h-auto flex flex-col md:flex-row items-center gap-12 md:gap-8 pointer-events-auto">
-      <div class="w-full md:w-auto flex flex-col md:flex-row items-start md:items-center md:gap-8 divide-y-4 md:divide-y-0 divide-gray-100 border-y-4 md:border-y-0 border-gray-100">
-        <%= link_to t('nav.first-steps'), "#{t(:path)}/first-steps", class: "inline-block py-4 w-full md:w-auto" %>
-        <%= link_to t('nav.features'), "#{t(:path)}/features", class: "inline-block py-4 w-full md:w-auto" %>
-        <%= link_to t('nav.community'), "#{t(:path)}/community", class: "inline-block py-4 w-full md:w-auto" %>
-        <%= link_to t('nav.book'), "#{t(:path)}/book", class: "inline-block py-4 w-full md:w-auto" %>
-        <%= link_to t('nav.about'), "#{t(:path)}/about", class: "inline-block py-4 w-full md:w-auto" %>
+    <nav class="hidden md:flex md:flex-row items-center gap-8 flex-1 justify-center mx-auto">
+      <div class="flex flex-row items-center gap-8" data-accordion="header">
+
+        <details class="group relative">
+          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500">
+            <span>Product</span>
+            <span class="flex w-4 h-4 text-red-500">
+              <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
+              <svg class="w-4 h-4 absolute hidden group-open:block no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-up-s-line"></use></svg>
+            </span>
+          </summary>
+          <nav class="text-red-500 absolute top-full left-0 bg-white shadow-lg min-w-[200px] py-2 px-4 space-y-0 opacity-100 group-open:border-b-2 group-open:border-red-500">
+            <%= link_to t('nav.first-steps'), "#{t(:path)}/first-steps", class: "block py-2" %>
+            <%= link_to t('nav.features'), "#{t(:path)}/features", class: "block py-2" %>
+            <%= link_to t('nav.modules'), "#{t(:path)}/modules", class: "block py-2" %>
+            <%= link_to t('nav.docs.title'), "#{t(:path)}/documentation", class: "block py-2" %>
+          </nav>
+        </details>
+
+        <details class="group relative">
+          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500">
+            <span>In use</span>
+            <span class="flex w-4 h-4 text-red-500">
+              <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
+              <svg class="w-4 h-4 absolute hidden group-open:block no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-up-s-line"></use></svg>
+            </span>
+          </summary>
+          <nav class="text-red-500 absolute top-full left-0 bg-white shadow-lg min-w-[200px] py-2 px-4 space-y-0 opacity-100 group-open:border-b-2 group-open:border-red-500">
+            <%= link_to t('nav.used_by'), "#{t(:path)}/usedby", class: "block py-2" %>
+            <%= link_to t('nav.installations'), "#{t(:path)}/installations", class: "block py-2" %>
+            <%= link_to t('nav.case-studies'), "#{t(:path)}/case-studies", class: "block py-2" %>
+          </nav>
+        </details>
+
+        <details class="group relative">
+          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500">
+            <span>About us</span>
+            <span class="flex w-4 h-4 text-red-500">
+              <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
+              <svg class="w-4 h-4 absolute hidden group-open:block no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-up-s-line"></use></svg>
+            </span>
+          </summary>
+          <nav class="text-red-500 absolute top-full left-0 bg-white shadow-lg min-w-[200px] py-2 px-4 space-y-0 opacity-100 group-open:border-b-2 group-open:border-red-500">
+            <%= link_to t('nav.association'), "#{t(:path)}/about", class: "block py-2" %>
+            <%= link_to t('nav.team'), "#{t(:path)}/team", class: "block py-2" %>
+            <%= link_to t('nav.book'), "#{t(:path)}/book", class: "block py-2" %>
+            <%= link_to t('nav.supporters'), "#{t(:path)}/supporters", class: "block py-2" %>
+            <%= link_to t('nav.contact'), "#{t(:path)}/contact", class: "block py-2" %>
+          </nav>
+        </details>
+
+        <details class="group relative">
+          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500">
+            <span>Community</span>
+            <span class="flex w-4 h-4 text-red-500">
+              <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
+              <svg class="w-4 h-4 absolute hidden group-open:block no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-up-s-line"></use></svg>
+            </span>
+          </summary>
+          <nav class="text-red-500 absolute top-full left-0 bg-white shadow-lg min-w-[200px] py-2 px-4 space-y-0 opacity-100 group-open:border-b-2 group-open:border-red-500">
+            <%= link_to "Metadecidim", "#{t(:path)}/community", class: "block md:py-2" %>
+            <%= link_to t('nav.partners'), "#{t(:path)}/partners", class: "block py-2" %>
+          </nav>
+        </details>
+
+        <details class="group relative">
+          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500">
+            <span>News</span>
+            <span class="flex w-4 h-4 text-red-500">
+              <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
+              <svg class="w-4 h-4 absolute hidden group-open:block no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-up-s-line"></use></svg>
+            </span>
+          </summary>
+          <nav class="text-red-500 absolute top-full left-0 bg-white shadow-lg min-w-[200px] py-2 px-4 space-y-0 opacity-100 group-open:border-b-2 group-open:border-red-500">
+            <%= link_to t('nav.blog'), "#{t(:path)}/blog", class: "block py-2" %>
+          </nav>
+        </details>
       </div>
-      <%= link_to t('demo.button'), "https://try.decidim.org/", target: "_blank", rel: "noopener noreferrer", class: "button inline-block text-center py-4 w-full md:w-auto" %>
-      <%= partial "/partials/language-selector" %>
     </nav>
+    <div class="hidden md:flex items-center gap-4 ml-auto">
+      <%= link_to t('demo.button'), "https://try.decidim.org/", target: "_blank", rel: "noopener noreferrer", class: "button inline-block text-center py-4" %>
+      <%= partial "/partials/language-selector" %>
+    </div>
   </div>
 </header>
