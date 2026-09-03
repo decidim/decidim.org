@@ -29,8 +29,8 @@ nav: case-studies
       <button type="button" data-filter-toggle class="flex items-center gap-2 bg-white border border-red-500 rounded-xl md:py-3 md:px-4 py-3 px-3 par-sm text-red-500 hover:bg-gray-50 transition-colors whitespace-nowrap">
         <%= icon "ri-equalizer-line", class: "w-5 h-5" %>
         <span class="hidden md:inline"><%= t("case_studies.filters.title") %></span>
-        <span data-cs-filter-badge class="hidden bg-red-500 text-white text-xs rounded-full w-4 h-4 flex justify-center font-medium"></span>
-        <%= icon "ri-arrow-down-s-line", class: "hidden md:block w-4 h-4 transition-transform data-[open]:rotate-180", "data-cs-filter-arrow" => true %>
+        <span data-filter-badge class="hidden bg-red-500 text-white text-xs rounded-full w-4 h-4 flex justify-center font-medium"></span>
+        <%= icon "ri-arrow-down-s-line", class: "hidden md:block w-4 h-4 transition-transform data-[open]:rotate-180", "data-filter-arrow" => true %>
       </button>
       <div data-filter-panel class="hidden absolute right-0 z-20 mt-2 w-72 bg-white border border-gray-50 rounded-2xl shadow-lg py-4">
         <div class="px-5 pb-3">
