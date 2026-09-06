@@ -1,7 +1,12 @@
 ---
-title: "Job offer: Junior RoR developer"
+title: 'Job offer: Junior RoR developer'
+gallery:
+  - image: /uploads/blog-RoR-01-banner.png
+    alt: ''
+tags: Announcements
 ---
-\[job offer closed]
+
+[job offer closed]
 
 ## What’s the job
 

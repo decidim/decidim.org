@@ -1,6 +1,11 @@
 ---
-title: "Decidim Book: a gift for our  7th Anniversary"
+title: 'Decidim Book: a gift for our  7th Anniversary'
+gallery:
+  - image: /uploads/blog-book-01-banner.png
+    alt: ''
+tags: Announcements
 ---
+
 > We have been busy building Decidim, now it is time to think it through. (p. vii)
 
 Today marks the 7th anniversary of Decidim’s birth. As a gift, we release its **book**: [“Decidim, a technopolitical network for participatory democracy. Philosophy, practice, and autonomy of a collective platform in the age of Digital Intelligence"](https://link.springer.com/book/9783031507830) (2024, Springer). Born in Barcelona on February 1st, 2017, Decidim has experienced a relentless growth. It has expanded to over 30 countries, boasting 500 active installations and 3 million participants worldwide. It coordinates hundreds of participation processes, and is designed to facilitate, broaden, and catalyse democracy. Alongside the platform, its community has flourished, now encompassing thousands of members globally. This book is a testament to that journey.

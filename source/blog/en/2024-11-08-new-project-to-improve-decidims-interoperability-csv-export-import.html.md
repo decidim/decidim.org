@@ -1,7 +1,12 @@
 ---
 title: "New project to improve Decidim's interoperability: CSV Export/Import"
+gallery:
+  - image: /uploads/blog-metagov-01-banner.png
+    alt: ''
+tags: Project
 ---
-Decidim's project *"Interoperable CSV Exports/Imports for Participatory Objects on the Decidim Platform"* has been selected and will receive funding to undertake a new initiative aimed at improving the platform's interoperability, supported by [Metagov](https://metagov.github.io/interop/).
+
+Decidim's project _"Interoperable CSV Exports/Imports for Participatory Objects on the Decidim Platform"_ has been selected and will receive funding to undertake a new initiative aimed at improving the platform's interoperability, supported by [Metagov](https://metagov.github.io/interop/).
 
 ### What is the Project About?
 

@@ -1,9 +1,12 @@
 ---
 title: Decidim is recognized as a Digital Public Good
+gallery:
+  - image: /uploads/blog-DPG-01-banner.png
+    alt: ''
+tags: Announcements
 ---
-Today, Decidim was added to the Digital Public Goods Alliance [DPG Registry](http://digitalpublicgoods.net/registry/). The goal of the DPGA and its registry is to promote digital public goods in order to create a more equitable world. Being recognised as a DPG increases the visibility, support for, and prominence of open projects that have the potential to tackle global challenges. To become a digital public good, all projects are required to meet the [DPG Standard](http://digitalpublicgoods.net/standard/) to ensure that projects truly encapsulate open source principles. 
 
-![Digital Public Goods Alliance logo](/uploads/logo.svg)
+Today, Decidim was added to the Digital Public Goods Alliance [DPG Registry](http://digitalpublicgoods.net/registry/). The goal of the DPGA and its registry is to promote digital public goods in order to create a more equitable world. Being recognised as a DPG increases the visibility, support for, and prominence of open projects that have the potential to tackle global challenges. To become a digital public good, all projects are required to meet the [DPG Standard](http://digitalpublicgoods.net/standard/) to ensure that projects truly encapsulate open source principles. 
 
 Decidim is software financed primarily through public money by the government of Barcelona and the Generalitat of Catalunya. However, it was designed [from day one](https://docs.decidim.org/en/v0.27/whitepaper/decidim-a-brief-overview) to be a tool with an open license and that could be re-used by any others that wanted to kickstart digital democracy projects. It is not often the case that governments think like this about their software, they usually focus on building tools that will only serve their constituents and they are wary of publishing their code in fear that they would be criticized or hacked. Barcelona has fully embraced the political idea of [the commons](https://en.wikipedia.org/wiki/Commons). We understand that some assets should serve everyone and be owned and maintained by the people. Which is why they made the valiant choice to make this software re-usable.
 

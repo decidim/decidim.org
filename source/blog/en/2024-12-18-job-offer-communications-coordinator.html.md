@@ -1,6 +1,11 @@
 ---
 title: Job Offer - Communications Coordinator
+gallery:
+  - image: /uploads/blog-communication-01-banner.png
+    alt: ''
+tags: Announcements
 ---
+
 [Llegeix el post en català](#cat)
 
 ## [](#en)Description
@@ -86,7 +91,7 @@ From January 15th we will evaluate the candidacies to resolve the process during
 
 The data provided will be kept until the end of this process or until exercise the right of withdrawal. Therefore, you have the right to access your personal data, rectify inaccurate data or request its deletion when the data is no longer needed. You can exercise this right by sending an email to jobs@decidim.org. The data will not be transmitted to third parties.
 
-*(Català)*
+_(Català)_
 
 # <a name="cat"></a> Oferta de feina - Coordinadora de comunicacions
 
