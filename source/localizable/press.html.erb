@@ -60,7 +60,7 @@ description:
   <div class="container py-8 md:pt-16 md:pb-0">
     <h2 class="h2"><%= t("press.social_media") %></h2>
     <div class="grid md:grid-cols-3 gap-2 md:gap-10 mt-7 md:mt-14">
-      <% data.links.social_media.each do |link| %>
+      <% data.links.social_media.select { |link| link.press }.each do |link| %>
         <a href="<%= link.url %>" class="flex items-center">
           <%= icon link.icon, class: "w-6 h-6" %>
           <p class="par-md text-red-500 first-letter:uppercase pl-2"><%= link.name %></p>

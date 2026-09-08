@@ -63,35 +63,44 @@ social_media:
     icon: ri-github-fill
     url: https://github.com/decidim/decidim
     footer: false
+    press: true
   - name: Twitter
     icon: ri-twitter-fill
     url: https://twitter.com/decidim_org
     footer: true
+    press: false
   - name: YouTube
     icon: ri-youtube-fill
     url: https://www.youtube.com/channel/UCbxXpC5MmKImcGFzUJxdAUw
     footer: true
+    press: true
   - name: Instagram
     icon: ri-instagram-fill
     url: https://www.instagram.com/decidim_org/
     footer: true
+    press: true
   - name: Mastodon
     icon: ri-mastodon-fill
     url:  https://freeradical.zone/@decidim
     footer: false
+    press: true
   - name: Telegram
     icon: ri-telegram-fill
     url: https://t.me/s/decidim
     footer: true
+    press: true
   - name: Matrix
     icon: uploads/logo-element.svg
     url: https://matrix.to/#/#decidim:matrix.org
     footer: true
+    press: true
   - name: Linkedin
     icon: ri-linkedin-fill
     url: https://gt.linkedin.com/company/decidim/
     footer: false
+    press: true
   - name: BlueSky
     icon: ri-bluesky-fill
     url: https://bsky.app/profile/decidim.org
     footer: false
+    press: true
