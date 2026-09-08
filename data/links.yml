@@ -70,12 +70,12 @@ social_media:
     footer: true
     press: false
   - name: YouTube
-    icon: ri-youtube-fill
+    icon: ri-youtube-line
     url: https://www.youtube.com/channel/UCbxXpC5MmKImcGFzUJxdAUw
     footer: true
     press: true
   - name: Instagram
-    icon: ri-instagram-fill
+    icon: ri-instagram-line
     url: https://www.instagram.com/decidim_org/
     footer: true
     press: true
@@ -85,7 +85,7 @@ social_media:
     footer: false
     press: true
   - name: Telegram
-    icon: ri-telegram-fill
+    icon: ri-telegram-line
     url: https://t.me/s/decidim
     footer: true
     press: true
@@ -95,7 +95,7 @@ social_media:
     footer: true
     press: true
   - name: Linkedin
-    icon: ri-linkedin-fill
+    icon: ri-linkedin-box-fill
     url: https://gt.linkedin.com/company/decidim/
     footer: false
     press: true
