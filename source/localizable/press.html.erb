@@ -39,9 +39,9 @@ description:
   <div class="container pt-6 pb-12 md:pt-16 md:pb-16">
     <div class="md:w-3/4">
       <h3 class="h3"><%= t("press.highlights") %></h3>
-      <div class="divide-y-4 divide-gray-100 mt-6 md:mt-8">
+      <div class="divide-y-4 divide-gray-100 mt-6 md:mt-8" data-accordion>
         <div></div>
-        <% data.media.each do |media| %>
+        <% data.media.first(5).each do |media| %>
           <a href="<%= media[1].url %>" target="_blank" rel="noopener noreferrer" class="flex justify-between space-x-4 py-6">
             <div>
               <h6 class="h6"><%= media[1].title %></h6>
@@ -49,6 +49,26 @@ description:
             </div>
             <%= icon "ri-newspaper-line", class: "w-10 h-10 text-gray-300 flex-none" %>
           </a>
+        <% end %>
+
+        <% if data.media.length > 5 %>
+          <details class="list-none group flex flex-col">
+            <summary class="flex items-center gap-2 text-red-500 font-medium hover:opacity-80 cursor-pointer py-6 group-open:order-last">
+              <span>View more</span>
+              <div class="transition-transform duration-300 group-open:rotate-180" style="transform-origin: center;">
+                <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 no-toggle" %>
+              </div>
+            </summary>
+            <% data.media.drop(5).each do |media| %>
+              <a href="<%= media[1].url %>" target="_blank" rel="noopener noreferrer" class="flex justify-between space-x-4 py-6 border-t-4 border-gray-100">
+                <div>
+                  <h6 class="h6"><%= media[1].title %></h6>
+                  <p class="par-sm max-w-prose text-gray-500"><%= media[1].source %></p>
+                </div>
+                <%= icon "ri-newspaper-line", class: "w-10 h-10 text-gray-300 flex-none" %>
+              </a>
+            <% end %>
+          </details>
         <% end %>
         <div></div>
       </div>
