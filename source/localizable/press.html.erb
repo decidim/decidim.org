@@ -21,8 +21,8 @@ description:
     <div class="grid md:grid-cols-3 gap-2 md:gap-16 mt-6 md:mt-12">
       <% data.press.kit.each_with_index do |item, i| %>
         <% border_class = [1, 2, 4, 5].include?(i) ? "md:border-l-2 md:border-gray-300 md:pl-5" : "" %>
-        <div class="flex md:flex-col space-x-7 md:space-x-0 md:space-y-6 rounded-xl md:rounded-none bg-red-100 md:bg-transparent md:py-0 md:pr-10 <%= border_class %>">
-          <div class="md:space-y-6">
+        <div class="flex md:flex-col space-x-7 md:space-x-0 md:space-y-6 rounded-xl md:rounded-none md:bg-transparent md:py-0 md:pr-10 <%= border_class %>">
+          <div class="md:space-y-6 md:gap-0 gap-6 border-b-2 border-gray-300 md:border-b-0">
             <p class="font-bold uppercase flex items-center space-x-3">
               <%= icon item.icon, class: "w-6 h-6 flex-none brightness-0" %>
               <span><%= t("press.links.link#{i+1}.title") %></span>
