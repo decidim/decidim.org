@@ -18,7 +18,7 @@ description:
 
 <section>
   <div class="container pb-6 md:pt-0 md:pb-16">
-    <div class="grid md:grid-cols-3 gap-2 md:gap-16 mt-6 md:mt-12">
+    <div class="grid md:grid-cols-3 gap-2 md:gap-16">
       <% data.press.kit.each_with_index do |item, i| %>
         <% border_class = [1, 2, 4, 5].include?(i) ? "md:border-l-2 md:border-gray-300 md:pl-5" : "" %>
         <div class="flex md:flex-col space-x-7 md:space-x-0 rounded-xl md:rounded-none md:bg-transparent md:py-0 md:pr-10 <%= border_class %>">
