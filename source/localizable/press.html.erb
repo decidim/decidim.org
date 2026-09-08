@@ -20,7 +20,8 @@ description:
   <div class="container py-6 md:pt-0 md:pb-16">
     <div class="grid md:grid-cols-3 gap-2 md:gap-16 mt-6 md:mt-12">
       <% data.press.kit.each_with_index do |item, i| %>
-        <div class="flex md:flex-col space-x-7 md:space-x-0 md:space-y-6 rounded-xl md:rounded-none bg-red-100 md:bg-transparent md:py-0 md:pr-10">
+        <% border_class = [1, 2, 4, 5].include?(i) ? "md:border-l-2 md:border-gray-300 md:pl-5" : "" %>
+        <div class="flex md:flex-col space-x-7 md:space-x-0 md:space-y-6 rounded-xl md:rounded-none bg-red-100 md:bg-transparent md:py-0 md:pr-10 <%= border_class %>">
           <div class="md:space-y-6">
             <h5 class="h5 uppercase flex items-center space-x-3">
               <%= icon item.icon, class: "w-6 h-6 flex-none brightness-0" %>
