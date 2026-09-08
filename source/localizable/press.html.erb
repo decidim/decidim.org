@@ -62,7 +62,7 @@ description:
     <div class="grid md:grid-cols-3 gap-2 md:gap-10 mt-7 md:mt-14">
       <% press_links = data.links.social_media.select { |link| link.press } %>
       <% press_links.each_with_index do |link, i| %>
-        <% border_class = (i % 3 != 2 && i != press_links.length - 1) ? "md:border-r-2" : "" %>
+        <% border_class = (i % 3 != 0) ? "md:border-l-2 md:border-gray-300 md:pl-5" : "" %>
         <a href="<%= link.url %>" class="flex items-center md:p-0 py-5 <%= border_class %> md:border-b-0 border-b-2 border-gray-300">
           <%= icon link.icon, class: "w-6 h-6" %>
           <p class="par-md text-red-500 first-letter:uppercase pl-2"><%= link.name %></p>
