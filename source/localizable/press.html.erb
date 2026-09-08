@@ -7,7 +7,7 @@ description:
   <div class="container pt-10 pb-10 md:pt-16 md:pb-24">
     <div class="md:w-3/5">
       <h1 class="h1 md:whitespace-nowrap">
-        <%= t("press.kit") %>
+        <%= t("press.title") %>
       </h1>
       <p class="par-xl pt-5">
         <%= t("press.subtitle") %>&nbsp;<a class="underline text-red-500" href="mailto:hola@decidim.org">hola@decidim.org</a>
@@ -17,7 +17,25 @@ description:
 </section>
 
 <section>
-  <div class="container pt-6 pb-12 md:pt-16 md:pb-32">
+  <div class="container py-6 md:pt-0 md:pb-16">
+    <div class="grid md:grid-cols-3 gap-2 md:gap-16 mt-6 md:mt-12">
+      <% data.press.kit.each_with_index do |item, i| %>
+        <div class="flex md:flex-col space-x-7 md:space-x-0 md:space-y-6 rounded-xl md:rounded-none bg-red-100 md:bg-transparent md:py-0 md:pr-10">
+          <div class="md:space-y-6">
+            <h5 class="h5 uppercase flex items-center space-x-3">
+              <%= icon item.icon, class: "w-6 h-6 flex-none brightness-0" %>
+              <span><%= t("press.links.link#{i+1}.title") %></span>
+            </h5>
+            <%= partial "partials/arrow-link", locals: { text: t("press.links.link#{i+1}.link"), url: item.url, classes: "text-red-500 mt-auto block" } %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container pt-6 pb-12 md:pt-16 md:pb-16">
     <div class="md:w-3/4">
       <h3 class="h3"><%= t("press.highlights") %></h3>
       <div class="divide-y-4 divide-gray-100 mt-6 md:mt-8">
@@ -37,45 +55,28 @@ description:
   </div>
 </section>
 
-<%= partial "/partials/facts" %>
-
 <section>
-  <div class="container pt-12 pb-16 md:pt-32 mb:pb-16">
-    <img class="w-full" src="/images/world-map.png" alt="world map">
-  </div>
-</section>
-
-<section>
-  <div class="container py-6 md:py-16">
-    <h3 class="h3"><%= t("press.kit") %></h3>
-    <div class="grid md:grid-cols-3 gap-2 md:gap-16 mt-6 md:mt-12">
-      <% data.press.kit.each_with_index do |item, i| %>
-        <div class="flex md:flex-col space-x-7 md:space-x-0 md:space-y-6 rounded-xl md:rounded-none bg-red-100 md:bg-transparent md:border-l-8 border-gray-100 p-6 md:py-0 md:px-10">
-          <%= icon item.icon, class: "w-10 h-10 text-red-500 flex-none" %>
-          <div class="md:space-y-6">
-            <h5 class="h5"><%= t("press.links.link#{i+1}.title") %></h5>
-            <%= partial "partials/arrow-link", locals: { text: t("press.links.link#{i+1}.link"), url: item.url, classes: "text-red-500 mt-auto block" } %>
-          </div>
-        </div>
-      <% end %>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container py-8 md:py-16">
-    <h3 class="h3"><%= t("press.social_media") %></h3>
-    <div class="grid md:grid-cols-4 gap-2 md:gap-10 mt-7 md:mt-14">
+  <div class="container py-8 md:pt-16 md:pb-0">
+    <h2 class="h2"><%= t("press.social_media") %></h2>
+    <div class="grid md:grid-cols-3 gap-2 md:gap-10 mt-7 md:mt-14">
       <% data.links.social_media.each do |link| %>
-        <a href="<%= link.url %>" class="flex items-center space-x-7">
-          <%= icon link.icon, class: "text-gray-300 w-10 h-10" %>
-          <h5 class="h5 first-letter:uppercase"><%= link.name %></h5>
+        <a href="<%= link.url %>" class="flex items-center">
+          <%= icon link.icon, class: "w-6 h-6" %>
+          <p class="par-md text-red-500 first-letter:uppercase pl-2"><%= link.name %></p>
         </a>
       <% end %>
     </div>
   </div>
 </section>
 
-<%= partial "/partials/faq" %>
+<section class="container py-10 md:py-16 items-stretch space-y-6 md:space-y-0 md:space-x-6">
+  <div class="flex flex-col p-4 md:p-10 bg-gray-100 rounded-xl">
+    <h2 class="text-black font-normal text-2xl md:text-5xl md:font-light"><%= t("press.cta.title") %></h2>
+
+    <span class="flex flex-row gap-4 par-md mt-auto md:pt-10 pt-5">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("press.cta.button"), url: "/blog", classes: "text-black", outline_classes: "outline-black md:rounded-2xl rounded-lg", hover_bg_classes: "hover:bg-white", span_classes: "md:text-xl text-base leading-[22px]", padding_classes: "px-3 py-1 md:px-4 md:py-2.5", icon_classes: "w-4 h-4 md:w-6 md:h-6" } %>
+    </span>
+  </div>
+</section>
 
 <%= partial "/partials/cta-banner" %>
