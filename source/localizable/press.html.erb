@@ -45,7 +45,7 @@ description:
             <span class="par-md font-bold pt-5 md:py-6 pr-4"><%= media[1].title %></span>
             <span class="flex items-center par-md md:py-6 md:px-4 pr-4 md:border-l md:border-r border-gray-300"><%= media[1].source %></span>
             <div class="flex items-center gap-2 pt-5 pb-4 md:py-6 md:px-4 pr-4">
-              <%= partial "partials/arrow-link", locals: { text: t("press.read-more"), url: media[1].url, classes: "text-red-500", span_classes: "par-sm", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+              <%= partial "partials/arrow-link", locals: { text: t("press.read_more"), url: media[1].url, classes: "text-red-500", span_classes: "par-sm", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
             </div>
           </div>
           <% unless i == 4 %>
@@ -59,7 +59,7 @@ description:
       <% if data.media.length > 5 %>
         <details class="list-none group flex flex-col">
           <summary class="flex items-center gap-2 text-red-500 font-medium hover:opacity-80 cursor-pointer py-6 group-open:order-last">
-            <span><%= t("press.view-more") %></span>
+            <span><%= t("press.view_more") %></span>
             <div class="transition-transform duration-300 group-open:rotate-180">
               <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 no-toggle" %>
             </div>
@@ -73,7 +73,7 @@ description:
                 <span class="par-md font-bold pt-5 md:py-6 pr-4"><%= media[1].title %></span>
                 <span class="flex items-center par-md md:py-6 md:px-4 pr-4 md:border-l md:border-r border-gray-300"><%= media[1].source %></span>
                 <div class="flex items-center gap-2 pt-5 pb-4 md:py-6 md:px-4 pr-4">
-                  <%= partial "partials/arrow-link", locals: { text: t("press.read-more"), url: media[1].url, classes: "text-red-500", span_classes: "par-sm", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+                  <%= partial "partials/arrow-link", locals: { text: t("press.read_more"), url: media[1].url, classes: "text-red-500", span_classes: "par-sm", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
                 </div>
               </div>
               <% unless i == data.media.drop(5).length - 1 %>
