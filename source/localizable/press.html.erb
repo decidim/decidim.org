@@ -4,57 +4,30 @@ description:
 ---
 
 <section>
-  <div class="container pt-6 pb-6 md:pt-24 md:pb-12">
-    <div class="md:w-3/5 space-y-6">
+  <div class="container pt-10 pb-10 md:pt-16 md:pb-24">
+    <div class="md:w-3/5">
       <h1 class="h1 md:whitespace-nowrap">
         <%= t("press.title") %>
       </h1>
-      <p class="par-xl text-gray-500">
-        <%= t("press.subtitle") %>&nbsp;<a class="underline" href="mailto:hola@decidim.org">hola@decidim.org</a>
+      <p class="par-xl pt-5">
+        <%= t("press.subtitle") %>&nbsp;<a class="underline text-red-500" href="mailto:hola@decidim.org">hola@decidim.org</a>
       </p>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="container pt-6 pb-12 md:pt-16 md:pb-32">
-    <div class="md:w-3/4">
-      <h3 class="h3"><%= t("press.highlights") %></h3>
-      <div class="divide-y-4 divide-gray-100 mt-6 md:mt-8">
-        <div></div>
-        <% data.media.each do |media| %>
-          <a href="<%= media[1].url %>" target="_blank" rel="noopener noreferrer" class="flex justify-between space-x-4 py-6">
-            <div>
-              <h6 class="h6"><%= media[1].title %></h6>
-              <p class="par-sm max-w-prose text-gray-500"><%= media[1].source %></p>
-            </div>
-            <%= icon "ri-newspaper-line", class: "w-10 h-10 text-gray-300 flex-none" %>
-          </a>
-        <% end %>
-        <div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<%= partial "/partials/facts" %>
-
-<section>
-  <div class="container pt-12 pb-16 md:pt-32 mb:pb-16">
-    <img class="w-full" src="/images/world-map.png" alt="world map">
-  </div>
-</section>
-
-<section>
-  <div class="container py-6 md:py-16">
-    <h3 class="h3"><%= t("press.kit") %></h3>
-    <div class="grid md:grid-cols-3 gap-2 md:gap-16 mt-6 md:mt-12">
+  <div class="container pb-6 md:pt-0 md:pb-16">
+    <div class="grid md:grid-cols-3 gap-2 md:gap-16">
       <% data.press.kit.each_with_index do |item, i| %>
-        <div class="flex md:flex-col space-x-7 md:space-x-0 md:space-y-6 rounded-xl md:rounded-none bg-red-100 md:bg-transparent md:border-l-8 border-gray-100 p-6 md:py-0 md:px-10">
-          <%= icon item.icon, class: "w-10 h-10 text-red-500 flex-none" %>
-          <div class="md:space-y-6">
-            <h5 class="h5"><%= t("press.links.link#{i+1}.title") %></h5>
-            <%= partial "partials/arrow-link", locals: { text: t("press.links.link#{i+1}.link"), url: item.url, classes: "text-red-500 mt-auto block" } %>
+        <% border_class = [1, 2, 4, 5].include?(i) ? "md:border-l-2 md:border-gray-300 md:pl-5" : "" %>
+        <div class="flex md:flex-col space-x-7 md:space-x-0 rounded-xl md:rounded-none md:bg-transparent md:py-0 md:pr-10 <%= border_class %>">
+          <div class="border-b-2 border-gray-300 md:border-b-0 w-full md:pb-0 pb-5">
+            <p class="font-bold uppercase flex items-center space-x-3 pb-6 pt-5 md:pt-0">
+              <%= icon item.icon, class: "w-6 h-6 brightness-0" %>
+              <span><%= t("press.links.link#{i+1}.title") %></span>
+            </p>
+            <%= partial "partials/arrow-link", locals: { text: t("press.links.link#{i+1}.link"), url: item.url, classes: "text-red-500" } %>
           </div>
         </div>
       <% end %>
@@ -63,19 +36,83 @@ description:
 </section>
 
 <section>
-  <div class="container py-8 md:py-16">
-    <h3 class="h3"><%= t("press.social_media") %></h3>
-    <div class="grid md:grid-cols-4 gap-2 md:gap-10 mt-7 md:mt-14">
-      <% data.links.social_media.each do |link| %>
-        <a href="<%= link.url %>" class="flex items-center space-x-7">
-          <%= icon link.icon, class: "text-gray-300 w-10 h-10" %>
-          <h5 class="h5 first-letter:uppercase"><%= link.name %></h5>
+  <div class="container pt-6 pb-10 md:pt-16 md:pb-16">
+    <h2 class="h2"><%= t("press.highlights") %></h2>
+    <div class="pt-6 md:pt-8" data-accordion>
+      <% data.media.first(5).each_with_index do |media, i| %>
+        <div class="pt-5 md:pt-0">
+          <div class="md:grid md:grid-cols-3">
+            <span class="par-md font-bold pt-5 md:py-6 pr-4"><%= media[1].title %></span>
+            <span class="flex items-center par-md md:py-6 md:px-4 pr-4 md:border-l md:border-r border-gray-300"><%= media[1].source %></span>
+            <div class="flex items-center gap-2 pt-5 pb-4 md:py-6 md:px-4 pr-4">
+              <%= partial "partials/arrow-link", locals: { text: t("press.read_more"), url: media[1].url, classes: "text-red-500", span_classes: "par-sm", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+            </div>
+          </div>
+          <% unless i == 4 %>
+            <div class="flex items-center md:py-6">
+              <span class="w-full border-b border-gray-300"></span>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+
+      <% if data.media.length > 5 %>
+        <details class="list-none group flex flex-col">
+          <summary class="flex items-center gap-2 text-red-500 font-medium hover:opacity-80 cursor-pointer py-6 group-open:order-last">
+            <span><%= t("press.view_more") %></span>
+            <div class="transition-transform duration-300 group-open:rotate-180">
+              <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 no-toggle" %>
+            </div>
+          </summary>
+          <div class="flex items-center md:py-6">
+            <span class="w-full border-b border-gray-300"></span>
+          </div>
+          <% data.media.drop(5).each_with_index do |media, i| %>
+            <div class="pt-5 md:pt-0">
+              <div class="md:grid md:grid-cols-3">
+                <span class="par-md font-bold pt-5 md:py-6 pr-4"><%= media[1].title %></span>
+                <span class="flex items-center par-md md:py-6 md:px-4 pr-4 md:border-l md:border-r border-gray-300"><%= media[1].source %></span>
+                <div class="flex items-center gap-2 pt-5 pb-4 md:py-6 md:px-4 pr-4">
+                  <%= partial "partials/arrow-link", locals: { text: t("press.read_more"), url: media[1].url, classes: "text-red-500", span_classes: "par-sm", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+                </div>
+              </div>
+              <% unless i == data.media.drop(5).length - 1 %>
+                <div class="flex items-center md:py-6">
+                  <span class="w-full border-b border-gray-300"></span>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </details>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container md:pt-16 md:pb-0">
+    <h2 class="h2"><%= t("press.social_media") %></h2>
+    <div class="grid md:grid-cols-3 gap-2 md:gap-10 mt-7 md:mt-14">
+      <% press_links = data.links.social_media.select { |link| link.press } %>
+      <% press_links.each_with_index do |link, i| %>
+        <% border_class = (i % 3 != 0) ? "md:border-l-2 md:border-gray-300 md:pl-5" : "" %>
+        <a href="<%= link.url %>" class="flex items-center md:p-0 py-5 <%= border_class %> md:border-b-0 border-b-2 border-gray-300">
+          <%= icon link.icon, class: "w-6 h-6" %>
+          <p class="par-md text-red-500 first-letter:uppercase pl-2"><%= link.name %></p>
         </a>
       <% end %>
     </div>
   </div>
 </section>
 
-<%= partial "/partials/faq" %>
+<section class="container py-10 md:py-16 items-stretch space-y-6 md:space-y-0 md:space-x-6">
+  <div class="flex flex-col p-4 md:p-10 bg-gray-100 rounded-xl">
+    <h2 class="text-black font-normal text-2xl md:text-5xl md:font-light"><%= t("press.cta.title") %></h2>
+
+    <span class="flex flex-row gap-4 par-md mt-auto md:pt-10 pt-5">
+      <%= partial "partials/arrow-link-rounded", locals: { text: t("press.cta.button"), url: "/blog", classes: "text-black", outline_classes: "outline-black md:rounded-2xl rounded-lg", hover_bg_classes: "hover:bg-white", span_classes: "md:text-xl text-base leading-[22px]", padding_classes: "px-3 py-1 md:px-4 md:py-2.5", icon_classes: "w-4 h-4 md:w-6 md:h-6" } %>
+    </span>
+  </div>
+</section>
 
 <%= partial "/partials/cta-banner" %>
