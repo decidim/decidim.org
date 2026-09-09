@@ -1,6 +1,8 @@
 <% if alert_enabled? && !homepage? %>
   <%= partial "/partials/alert-banner" %>
 <% end %>
+<% current_path = current_page.url.gsub(%r{\A/(?:(en|es|eu|ca|cs|fr|de|hu|ja|pt-BR|ro|fi)/)?}, "").chomp("/") %>
+<% is_active = ->(slugs) { slugs.any? { |s| current_path == s || current_path.start_with?("#{s}/") } } %>
 <header class="min-h-[5rem]">
   <div class="w-full md:px-12 p-5 md:pt-10 md:pb-5 flex flex-row justify-between items-center">
     <div class="flex justify-between items-center flex-1 md:flex-none">
@@ -21,7 +23,7 @@
       <div class="flex flex-row items-center gap-8" data-accordion="header">
 
         <details class="group relative">
-          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500">
+          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition border-b-2 border-transparent group-open:font-bold group-open:bg-red-100 group-open:border-red-500 group-open:text-red-500<%= is_active.call(%w[first-steps features modules documentation]) ? " text-red-500 relative before:absolute before:inset-x-0 before:-bottom-0.5 before:h-0.5 before:bg-red-500" : "" %>">
             <span><%= t("nav.product") %></span>
             <span class="flex w-4 h-4 text-red-500">
               <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
@@ -37,7 +39,7 @@
         </details>
 
         <details class="group relative">
-          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500">
+          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition border-b-2 border-transparent group-open:font-bold group-open:bg-red-100 group-open:border-red-500 group-open:text-red-500<%= is_active.call(%w[usedby installations case-studies]) ? " text-red-500 relative before:absolute before:inset-x-0 before:-bottom-0.5 before:h-0.5 before:bg-red-500" : "" %>">
             <span><%= t("nav.in_use") %></span>
             <span class="flex w-4 h-4 text-red-500">
               <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
@@ -51,7 +53,7 @@
           </nav>
         </details>
         <details class="group relative">
-          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500">
+          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition border-b-2 border-transparent group-open:font-bold group-open:bg-red-100 group-open:border-red-500 group-open:text-red-500<%= is_active.call(%w[about team book supporters contact]) ? " text-red-500 relative before:absolute before:inset-x-0 before:-bottom-0.5 before:h-0.5 before:bg-red-500" : "" %>">
             <span><%= t("nav.about_us") %></span>
             <span class="flex w-4 h-4 text-red-500">
               <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
@@ -68,7 +70,7 @@
         </details>
 
         <details class="group relative">
-          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500">
+          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition border-b-2 border-transparent group-open:font-bold group-open:bg-red-100 group-open:border-red-500 group-open:text-red-500<%= is_active.call(%w[community partners]) ? " text-red-500 relative before:absolute before:inset-x-0 before:-bottom-0.5 before:h-0.5 before:bg-red-500" : "" %>">
             <span><%= t("nav.community") %></span>
             <span class="flex w-4 h-4 text-red-500">
               <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
@@ -82,7 +84,7 @@
         </details>
 
         <details class="group relative">
-          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500">
+          <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition border-b-2 border-transparent group-open:font-bold group-open:bg-red-100 group-open:border-red-500 group-open:text-red-500<%= is_active.call(%w[blog]) ? " text-red-500 relative before:absolute before:inset-x-0 before:-bottom-0.5 before:h-0.5 before:bg-red-500" : "" %>">
             <span><%= t("nav.news") %></span>
             <span class="flex w-4 h-4 text-red-500">
               <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
@@ -103,8 +105,8 @@
 
   <nav data-mobile-menu class="md:!hidden">
     <div class="flex flex-col p-5 space-y-0" data-accordion="mobile">
-      <details class="group border-b border-gray-100 open:border-b-2 open:border-red-500">
-        <summary class="flex items-center justify-between gap-2 pt-3 pb-5 cursor-pointer list-none transition group-open:font-bold group-open:text-red-500">
+      <details class="group border-b <%= is_active.call(%w[first-steps features modules documentation]) ? "border-red-500" : "border-gray-100" %> open:border-b-2 open:border-red-500">
+        <summary class="flex items-center justify-between gap-2 pt-3 pb-5 cursor-pointer list-none transition group-open:font-bold group-open:text-red-500<%= is_active.call(%w[first-steps features modules documentation]) ? " text-red-500" : "" %>">
           <span><%= t("nav.product") %></span>
           <span class="flex w-4 h-4 text-red-500">
             <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
@@ -119,8 +121,8 @@
         </nav>
       </details>
 
-      <details class="group border-b border-gray-100 open:border-b-2 open:border-red-500">
-        <summary class="flex items-center justify-between gap-2 pt-3 pb-5 cursor-pointer list-none transition group-open:font-bold group-open:text-red-500">
+      <details class="group border-b <%= is_active.call(%w[usedby installations case-studies]) ? "border-red-500" : "border-gray-100" %> open:border-b-2 open:border-red-500">
+        <summary class="flex items-center justify-between gap-2 pt-3 pb-5 cursor-pointer list-none transition group-open:font-bold group-open:text-red-500<%= is_active.call(%w[usedby installations case-studies]) ? " text-red-500" : "" %>">
           <span><%= t("nav.in_use") %></span>
           <span class="flex w-4 h-4 text-red-500">
             <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
@@ -134,8 +136,8 @@
         </nav>
       </details>
 
-      <details class="group border-b border-gray-100 open:border-b-2 open:border-red-500">
-        <summary class="flex items-center justify-between gap-2 pt-3 pb-5 cursor-pointer list-none transition group-open:font-bold group-open:text-red-500">
+      <details class="group border-b <%= is_active.call(%w[about team book supporters contact]) ? "border-red-500" : "border-gray-100" %> open:border-b-2 open:border-red-500">
+        <summary class="flex items-center justify-between gap-2 pt-3 pb-5 cursor-pointer list-none transition group-open:font-bold group-open:text-red-500<%= is_active.call(%w[about team book supporters contact]) ? " text-red-500" : "" %>">
           <span><%= t("nav.about_us") %></span>
           <span class="flex w-4 h-4 text-red-500">
             <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
@@ -151,8 +153,8 @@
         </nav>
       </details>
 
-      <details class="group border-b border-gray-100 open:border-b-2 open:border-red-500">
-        <summary class="flex items-center justify-between gap-2 pt-3 pb-5 cursor-pointer list-none transition group-open:font-bold group-open:text-red-500">
+      <details class="group border-b <%= is_active.call(%w[community partners]) ? "border-red-500" : "border-gray-100" %> open:border-b-2 open:border-red-500">
+        <summary class="flex items-center justify-between gap-2 pt-3 pb-5 cursor-pointer list-none transition group-open:font-bold group-open:text-red-500<%= is_active.call(%w[community partners]) ? " text-red-500" : "" %>">
           <span><%= t("nav.community") %></span>
           <span class="flex w-4 h-4 text-red-500">
             <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
@@ -165,8 +167,8 @@
         </nav>
       </details>
 
-      <details class="group border-b border-gray-100 open:border-b-2 open:border-red-500">
-        <summary class="flex items-center justify-between gap-2 pt-3 pb-5 cursor-pointer list-none transition group-open:font-bold group-open:text-red-500">
+      <details class="group border-b <%= is_active.call(%w[blog]) ? "border-red-500" : "border-gray-100" %> open:border-b-2 open:border-red-500">
+        <summary class="flex items-center justify-between gap-2 pt-3 pb-5 cursor-pointer list-none transition group-open:font-bold group-open:text-red-500<%= is_active.call(%w[blog]) ? " text-red-500" : "" %>">
           <span><%= t("nav.news") %></span>
           <span class="flex w-4 h-4 text-red-500">
             <svg class="w-4 h-4 absolute group-open:hidden no-toggle" fill="currentColor"><use xlink:href="/images/remixicon.symbol.svg#ri-arrow-down-s-line"></use></svg>
