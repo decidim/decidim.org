@@ -178,8 +178,10 @@
         </nav>
       </details>
 
-      <div class="py-8 flex flex-col gap-3">
-        <%= link_to t("demo.button"), "https://try.decidim.org/", target: "_blank", rel: "noopener noreferrer", class: "button inline-block text-center py-3" %>
+      <div class="flex flex-col gap-3">
+        <div class="py-8 flex flex-col">
+          <%= link_to t("demo.button"), "https://try.decidim.org/", target: "_blank", rel: "noopener noreferrer", class: "button inline-block text-center py-3" %>
+        </div>
         <div class="flex justify-center">
           <%= partial "/partials/language-selector" %>
         </div>
