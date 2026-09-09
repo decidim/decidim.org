@@ -3,6 +3,12 @@ header {
     display: none;
   }
 
+  [data-toggle-header] {
+    svg + svg {
+      @apply hidden;
+    }
+  }
+
   &.filter-img-alt img {
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(243deg) brightness(100%) contrast(105%);
   }
@@ -32,11 +38,11 @@ header {
       }
 
       svg {
-        @apply animate-fade-out;
+        @apply hidden;
       }
 
       svg + svg {
-        @apply animate-fade-in;
+        @apply block;
       }
     }
   }
