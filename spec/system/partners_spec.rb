@@ -33,4 +33,24 @@ RSpec.describe "partners", type: :feature do
 
     expect(page).to have_css("[data-filter-card]", count: 1, text: "Octree")
   end
+
+  it "provides no matchable cards when the search term does not match any partner information", :js do
+    fill_in "Search...", with: "no results here today!"
+
+    expect(page).to have_css("[data-filter-card]", count: 0)
+  end
+
+  it "provides a message when the search term does not match any partner information", :js do
+    fill_in "Search...", with: "no results here today!"
+
+    expect(page).to have_text("No results found matching your filters.")
+  end
+
+  it "allows the clearing of filters within the filter panel", :js do
+    find("[data-filter-toggle]").click
+    check "Catalonia"
+    check "Installation & Development"
+
+    expect(page).to have_text("Clear filters")
+  end
 end
