@@ -5,6 +5,7 @@ subtitle: InnoSmith is a Swiss-based boutique consultancy specializing in digita
 url: https://innosmith.ch
 image:
   image: /uploads/logo-partner-innosmith.png
+  alt: InnoSmith logo
 joined_at: Since 2020
 type:
   - Participation Design

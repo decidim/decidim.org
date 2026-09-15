@@ -5,6 +5,7 @@ subtitle: 'PokeCode is a forward-thinking, free open-source technology consultan
 url: https://pokecode.net/
 image:
   image: /uploads/logo-partner-pokecode.jpeg
+  alt: PokeCode logo
 joined_at: Since 2022
 type:
   - Installation & Development

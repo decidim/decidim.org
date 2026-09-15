@@ -5,6 +5,7 @@ subtitle: Code for Japan is one of the Code for communities and Japan’s larges
 url: https://www.code4japan.org/
 image:
   image: /uploads/logo-partner-codeforjapan.svg
+  alt: Code for Japan logo
 joined_at: 2020.07.24
 type:
   - Installation & Development

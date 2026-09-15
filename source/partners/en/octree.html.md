@@ -5,6 +5,7 @@ subtitle: Founded in 2016, Octree has extensive experience in data-oriented web 
 url: https://voca.city/
 image:
   image: /uploads/logo-partner-octree.png
+  alt: Octree logo
 joined_at: Since 2019
 type:
   - Installation & Development
