@@ -102,7 +102,7 @@ pageClass: home
         <div class="<%= 'md:border-r-2 border-gray-100 md:pr-5' unless index == data.index.cards.length - 1 %> flex flex-col flex-1">
           <p class="par-sm uppercase font-bold md:pt-8 pt-5"><%= t("index.cards.#{item.title}") %></p>
           <p class="par-sm max-w-prose mt-4 mb-6"><%= t("index.cards.#{item.content}") %></p>
-          <%= partial "partials/arrow-link", locals: { text: t("index.cards.#{item.link}"), url: url(item.url), classes: "text-red-500 mt-auto block", icon_name: "ri-external-link-line", icon_classes: "w-4 h-4" } %>
+          <%= partial "partials/arrow-link", locals: { text: t("index.cards.#{item.link}"), url: url(item.url), classes: "text-red-500 mt-auto block", icon_name: "ri-arrow-right-line", icon_classes: "w-4 h-4" } %>
         </div>
       </div>
     <% end %>
