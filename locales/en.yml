@@ -76,7 +76,6 @@ en:
     p1: The Future of The Internet · October 13-14 Barcelona
     strong: Decidim Fest 22
   blog:
-    latest: Latest blog post
     read_more: Read more
     subtitle: Latest news from Decidim.
     tags:
@@ -478,34 +477,50 @@ en:
   index:
     cards:
       card1:
-        content: We can help configure a system of democratic governance in all kinds of organizations.
-        link: Our features
-        title: Implementing a flexible democratic system
+        content: A platform designed entirely with free-open source software. No vendor lock-in, you can install decidim on your own server. You can improve it and contribute to the project.
+        link: First steps
+        title: Open source for digital sovereignty
       card2:
-        content: Decidim ensures transparency, traceability and integrity of information like never before. It provides security, privacy and confidentiality to all participants.
-        link: Social contract
+        content: Decidim ensures transparency, traceability, and integrity of information. It provides security, privacy, and data confidentiality to all participants. Our values are embedded in the code.
+        link: Read our social contract
         title: We take democracy very seriously
       card3:
-        content: A platform designed entirely with free software, open and collaborative content thanks to the Metadecidim community.
-        link: The community
-        title: It's yours. Use it. Share it. Improve it.
+        content: Become part of a global community that promotes democracy and free software. You’ll be able to take part in events, learn from others and be part of a model of technological governance that is unique in the world.
+        link: Join our community
+        title: A global community to participate in
+    footer_banner:
+      heading: Participation for social change
+      intro: Empower your community by creating truly democratic processes. Avoid participatory washing, use Decidim to organize collective intelligence and transform reality.
     hero:
       cta: Get started
-      intro: Free/libre, open and safe technology.<br/>With all democratic guarantees.<br/>Reprogramming democracy is now possible with Decidim.
-      subheading: Decidim is a digital platform for citizen participation
+      intro: Open-Source infrastructure with all democratic guarantees.
+      subheading: A digital platform for participation and community governance.
+    installations:
+      cta: Discover who is using Decidim
+      title: More than 500 organizations using Decidim
     subhero:
-      cta: Explore all features
-      feature1: Strategic planning
-      feature2: Participatory processes
-      feature3: Assemblies
-      feature4: Initiatives and citizen consultations
-      feature5: Participatory budgeting
-      feature6: Networked communication
-      intro: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
-    used_by:
-      heading: Hundreds of organizations around the world trust Decidim for their democratic processes
-      link: Discover how
-      title: Already using Decidim
+      cta: All product features
+      index_feature1:
+        text: To foster debate, assessment, and decision-making on issues that matter to your community.
+        title: Run participatory processes
+      index_feature2:
+        text: Enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
+        title: Collect proposals from participants
+      index_feature3:
+        text: You can use various voting methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
+        title: Vote and select proosals
+      index_feature4:
+        text: Manage registrations, publish the agenda and upload the proposals co-created in a session.
+        title: Organize face-to-face or online meetings for co-creation
+      index_feature5:
+        text: Engage your community in a deliberation topic, and follow the discussion with different visualizations of the arguments.
+        title: Comment and discuss with your community
+      intro_html: What makes <span class="text-red-500">Decidim unique</span>?
+      subtitle: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
+      title: What can you do with Decidim?
+    use_cases:
+      subtitle: Stories about Decidim in action, around the world with diverse purposes and contexts.
+      title: Use cases
   installations:
     download_csv: Download CSV file with all the installations
     download_csv_short: Download CSV
