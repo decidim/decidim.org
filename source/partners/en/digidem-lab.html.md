@@ -5,7 +5,8 @@ subtitle: |-
   Digidem Lab is an independent democracy lab and consultancy that supports organizations, municipalities and public institutions in conducting effective and inclusive citizen dialogues.
   We study, develop and offer internationally proven digital tools and methods for civic participation and create citizen-centered processes to reach underrepresented groups.
 url: https://digidemlab.org/en
-image: /uploads/logo-partner-digidemlab.png
+image:
+  image: /uploads/logo-partner-digidemlab.png
 joined_at: 2020.07.24
 type:
   - Installation & Development
