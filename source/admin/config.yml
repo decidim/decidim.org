@@ -134,7 +134,13 @@ collections:
       - {label: "Name", name: "name", widget: "string", required: true}
       - {label: "Subtitle", name: "subtitle", widget: "text", required: true}
       - {label: "URL", name: "url", widget: "string", required: true}
-      - {label: "Image", name: "image", widget: "image", required: true}
+      - label: "Image"
+        name: "image"
+        widget: "object"
+        required: true
+        fields:
+          - {label: "Image", name: "image", widget: "image", required: true}
+          - {label: "Alt text", name: "alt", widget: "string", required: false}
       # Maybe after these are fixed this can work as it should according to their docs:
       # * https://github.com/decaporg/decap-cms/pull/7091
       # * https://github.com/decaporg/decap-cms/issues/7090
