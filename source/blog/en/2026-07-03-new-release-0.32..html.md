@@ -1,7 +1,7 @@
 ---
 title: New release 0.32.
 gallery:
-  - image: /uploads/Post LinkedIn(34).png
+  - image: /uploads/PostLinkedIn(34).png
     alt: ''
 tags: Releases
 ---

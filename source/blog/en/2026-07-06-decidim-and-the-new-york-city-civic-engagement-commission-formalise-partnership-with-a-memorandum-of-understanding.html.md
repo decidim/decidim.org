@@ -1,7 +1,7 @@
 ---
 title: Decidim and the New York City Civic Engagement Commission formalise Partnership with a Memorandum of Understanding
 gallery:
-  - image: /uploads/Post LinkedIn(35).png
+  - image: /uploads/PostLinkedIn(35).png
     alt: ''
   - image: /uploads/photo_2026-07-03_09-55-59.jpg
     alt: ''
