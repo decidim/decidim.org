@@ -5,7 +5,7 @@ subtitle: Osoigo Next provides digital participation software and strategic cons
 url: https://osoigonext.com/
 image:
   image: /uploads/logo-partner-osoigo.svg
-  alt: Osoigo logo
+  alt: ""
 joined_at: 2025.07.24
 type:
   - Installation & Development

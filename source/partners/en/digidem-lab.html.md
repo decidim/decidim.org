@@ -7,7 +7,7 @@ subtitle: |-
 url: https://digidemlab.org/en
 image:
   image: /uploads/logo-partner-digidemlab.png
-  alt: Digdem Lab logo
+  alt: ""
 joined_at: 2020.07.24
 type:
   - Installation & Development

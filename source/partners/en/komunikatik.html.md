@@ -5,7 +5,7 @@ subtitle: We promote participatory and communication processes that connect citi
 url: https://komunikatik.com/
 image:
   image: /uploads/logo-partner-komunikatik.png
-  alt: Komunikatik logo
+  alt: ""
 joined_at: 2017.07.24
 type:
   - Installation & Development

@@ -5,7 +5,7 @@ subtitle: Colectic is a non-profit cooperative that works for the inclusion, aut
 url: https://colectic.coop/
 image:
   image: /uploads/logo-partner-colectic.svg
-  alt: Colectic logo
+  alt: ""
 joined_at: Since 2017
 type:
   - Participation Design

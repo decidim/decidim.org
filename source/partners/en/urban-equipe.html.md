@@ -5,7 +5,7 @@ subtitle: Urban Equipe is an association that is committed to the democratizatio
 url: https://urban-equipe.ch
 image:
   image: /uploads/logo-partner-urbanequipe.svg
-  alt: Urban Equipe logo
+  alt: ""
 joined_at: 2024.07.24
 type:
   - Installation & Development

@@ -5,7 +5,7 @@ subtitle: Wildest Future is a democracy design studio that specializes in full s
 url: https://wildestfuture.com
 image:
   image: /uploads/logo-partner-wildestfuture.png
-  alt: Wildest future logo
+  alt: ""
 joined_at: Since 2020
 type:
   - Participation Design

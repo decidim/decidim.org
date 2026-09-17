@@ -9,7 +9,7 @@ subtitle: |-
 url: https://www.pares.it/
 image:
   image: /uploads/logo-partner-pares.jpg
-  alt: Pares logo
+  alt: ""
 joined_at: 2020.07.24
 type:
   - Installation & Development
