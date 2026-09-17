@@ -51,6 +51,8 @@ RSpec.describe "partners", type: :feature do
     check "Catalonia"
     check "Installation & Development"
 
-    expect(page).to have_text("Clear filters")
+    find("[data-filter-clear]").click
+    expect(page).to have_unchecked_field("Catalonia")
+    expect(page).to have_unchecked_field("Installation & Development")
   end
 end
