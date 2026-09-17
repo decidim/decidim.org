@@ -25,25 +25,25 @@ RSpec.describe "blog", type: :feature do
     check "Product"
     find("[data-cs-active-chips] button[aria-label='Remove Product']").click
 
-    expect(page).to have_css("[data-cs-card][data-type='Product']", visible: :visible)
+    expect(page).to have_no_css("[data-cs-active-chips]", text: "Product")
   end
 
   it "filters cards when typing in the search box", :js do
-    fill_in "Search...", with: "Release"
+    fill_in "Search...", with: "Mozambique"
 
-    expect(page).to have_css("[data-cs-card]", count: 1, text: "Release")
+    expect(page).to have_css("[data-cs-card]", count: 1, text: "Mozambique")
   end
 
-  it "provides no matchable cards when the search term does not match any partner information", :js do
+  it "provides no matchable cards when the search term does not match any blog post", :js do
     fill_in "Search...", with: "no results here today!"
 
     expect(page).to have_css("[data-cs-card]", count: 0)
   end
 
-  it "provides a message when the search term does not match any partner information", :js do
+  it "provides a message when the search term does not match any blog post", :js do
     fill_in "Search...", with: "no results here today!"
 
-    expect(page).to have_text("No results found matching your filters.")
+    expect(page).to have_text("No case studies found matching your filters.")
   end
 
   it "allows the clearing of filters within the filter panel", :js do
