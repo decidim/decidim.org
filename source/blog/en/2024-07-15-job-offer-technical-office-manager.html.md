@@ -1,6 +1,11 @@
 ---
-title: "Job offer: Technical Office Manager"
+title: 'Job offer: Technical Office Manager'
+gallery:
+  - image: /uploads/blog-OT-01-banner.png
+    alt: ''
+tags: Announcements
 ---
+
 [Ver post en castellano](#cast)
 
 [Veure post en català](#cat)
@@ -120,7 +125,7 @@ The data provided will be retained until the end of this process or until you ex
 
 - - -
 
-\[Castellano]
+[Castellano]
 
 ## <a name="cast"></a> Oferta de trabajo
 
@@ -243,7 +248,7 @@ A partir del 1 de septiembre evaluaremos las candidaturas y resolveremos el proc
 
 Los datos facilitados se conservarán hasta el final de este proceso o hasta que usted ejerza su derecho de retractación. Por lo tanto, tiene derecho a acceder a sus datos personales, rectificar los datos inexactos o solicitar su supresión cuando los datos ya no sean necesarios. Puede ejercer este derecho enviando un correo electrónico a <jobs@decidim.org>. Los datos no se transmitirán a terceros.
 
-\[Català]
+[Català]
 
 ## <a name="cat"></a> Oferta de treball
 

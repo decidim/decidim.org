@@ -1,6 +1,11 @@
 ---
-title: "Oferta de feina: Dissenyadora  UX/UI"
+title: 'Oferta de feina: Dissenyadora  UX/UI'
+gallery:
+  - image: /uploads/blog-UX-01-banner.png
+    alt: ''
+tags: Announcements
 ---
+
 [Ver post en castellano](https://decidim.org/blog/2024-03-05-oferta-de-feina-dissenyadora-ux-ui/#cast)
 
 ## Descripció
@@ -87,7 +92,7 @@ A partir del 17 de març avaluarem les candidatures per resoldre el procés dura
 
 Les dades facilitades es conservaran fins al final d'aquest procés o fins que exerceixi el dret de retractació. Per tant, teniu dret a accedir a les vostres dades personals, rectificar les dades inexactes o sol·licitar la seva supressió quan les dades ja no siguin necessàries. Podeu exercir aquest dret enviant un correu electrònic a jobs@decidim.org. Les dades no es transmetran a tercers.
 
-\[Castellano]
+[Castellano]
 
 ## <a name="cast"></a> Oferta de trabajo
 

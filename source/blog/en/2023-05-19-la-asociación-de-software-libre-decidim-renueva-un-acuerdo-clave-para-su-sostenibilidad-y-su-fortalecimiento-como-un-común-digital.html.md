@@ -1,7 +1,11 @@
 ---
-title: The Decidim Free Software Association renews a key agreement for its
-  sustainability and its strengthening as a digital commons
+title: The Decidim Free Software Association renews a key agreement for its sustainability and its strengthening as a digital commons
+gallery:
+  - image: /uploads/blog-agreement-01-banner.png
+    alt: ''
+tags: Announcements
 ---
+
 * [Ver post en cast](/blog/2023-05-19-la-asociacion-de-software-libre-decidim-renueva-un-acuerdo-clave-para-su-sostenibilidad-y-su-fortalecimiento-como-un-comun-digital/#cast)
 * [V﻿eure post en cat](/blog/2023-05-19-la-asociacion-de-software-libre-decidim-renueva-un-acuerdo-clave-para-su-sostenibilidad-y-su-fortalecimiento-como-un-comun-digital/#cat)
 
@@ -14,8 +18,6 @@ The City Council, as the main promoter of the project, and Localret as a key pla
 The renewal of this agreement is essential to guarantee the governance model and the future of the project. Thanks to this agreement, the public-community management of Decidim is materialised, as it provides the Decidim Association with the necessary legal framework to be able to manage the Decidim source code, in collaboration with the Barcelona City Council and Localret.
 
 This text is a reference when it comes to thinking about the implementation of public-community management of digital commons, being a unique example in the world of how to implement free software as a public policy with a community governance.
-
-
 
 In the future, it will be essential to preserve this collaborative relationship between public administrations and Decidim, as the long-term sustainability of the project depends on it.
 
@@ -41,13 +43,9 @@ El concejal de Derechos de la Ciudadanía y Participación del Ayuntamiento de B
 
 Localret, el consorci local format per les administracions locals de Catalunya per acompanyar els municipis en la seva transformació digital, l'Ajuntament de Barcelona i l'Associació de Programari Lliure Decidim han renovat el seu compromís de col·laboració per promoure la democràcia participativa a través de Decidim, un programari codi lliure i obert que s'inscriu com a projecte tecnopolític amb un fort compromís social i d'ètica tecnològica.
 
-
-
 Durant els propers 4 anys, aquest acord permetrà estendre i aprofundir la feina que es fa a través de la plataforma Decidim i així afavorir la realització de processos d'alta qualitat i impacte democràtics, desplegant-se a ajuntaments, associacions, universitats, cooperatives, sindicats, ONG's i tota mena de col·lectius.
 
 L'Ajuntament, en qualitat de promotor principal del projecte i, Localret com a actor fonamental en la seva extensió i coordinació interinstitucional, reconeixen l'Associació de Programari Lliure Decidim com a legítima responsable de la gestió del patrimoni ciutadà i digital del projecte Decidim. La plataforma és un patrimoni de naturalesa publico-comunitària i de caràcter internacional, que és el resultat de la col·laboració entre múltiples institucions, agents i organitzacions socials i ciutadania en general, que inclou els repositoris de programari i els serveis digitals associats.
-
-
 
 La renovació d‟aquest acord és fonamental per garantir el model de governança i el futur del projecte. A traves d’aquest conveni es materialitza la gestió publico-comunitària de Decidim, dotant a l'Associació Decidim del marc legal necessari per poder gestionar el codi font de Decidim, en col·laboració amb l'Ajuntament de Barcelona i Localret.
 

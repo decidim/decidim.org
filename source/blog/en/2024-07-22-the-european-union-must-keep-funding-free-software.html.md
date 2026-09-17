@@ -1,6 +1,11 @@
 ---
 title: The European Union must keep funding free software
+gallery:
+  - image: /uploads/blog-EU-01-banner.png
+    alt: ''
+tags: Opinion
 ---
+
 The Decidim Association is joining other organisations in calling on the European Commission to sustain its funding for the Next Generation Internet.
 
 We thank the [petites singularités](https://ps.zoethical.org/pub/lettre-publique-aux-ncp-au-sujet-de-ngi/) association for their leadership in starting this open letter, and are grateful to [OW2](https://www.ow2.org/view/Events/The_European_Union_must_keep_funding_free_software_open_letter) for the English translation.

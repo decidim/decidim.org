@@ -1,9 +1,12 @@
 ---
 title: The Decidim Swiss Local Chapter Is Born
-tags: ''
+gallery:
+  - image: /uploads/Members_DecidimSwitzerland_3_DSCF6453_cropped_low.jpg
+    alt: ''
+  - image: /uploads/Founding_assembly_DecidimSwitzerland_3_DSCF6384_full.jpg
+    alt: ''
+tags: Announcements
 ---
-
-![](/uploads/Members_DecidimSwitzerland_3_DSCF6453_cropped_low.jpg)
 
 #### Something significant for Decidim happened in Bern some weeks ago. In the heart of the Swiss capital, a group of Decidim service providers,city representatives, civic tech advocates and researchers, gathered with a shared purpose: to officially bring the Decidim Swiss Local Chapter into existence by signing up the agreement.
 
@@ -18,8 +21,6 @@ Participants of the event gathered for introductions and a roundtable that set a
 After a presentation tracing how the Swiss Local Chapter came to be, the room moved into group brainstorming. Participants shaped the chapter's structure and future direction together, in true Decidim spirit: openly, collectively, and with genuine investment in the outcome.
 
 Representatives from the state of Geneva, the city of Lausanne, the city of Neuchâtel, the city of Winterthur and the city of Zürich were present at the event.
-
-![](/uploads/Founding_assembly_DecidimSwitzerland_3_DSCF6384_full.jpg)
 
 ### **The Internationalisation Model**
 
