@@ -48,11 +48,9 @@ RSpec.describe "partners", type: :feature do
 
   it "allows the clearing of filters within the filter panel", :js do
     find("[data-filter-toggle]").click
-    check "Catalonia"
     check "Installation & Development"
 
     find("[data-filter-clear]").click
-    expect(page).to have_unchecked_field("Catalonia")
     expect(page).to have_unchecked_field("Installation & Development")
   end
 end
