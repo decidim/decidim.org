@@ -17,7 +17,7 @@ description:
 </section>
 
 <section>
-  <div class="container pb-6 md:pt-0 md:pb-16">
+  <div class="container pb-6 md:py-0">
     <div class="grid md:grid-cols-3 gap-2 md:gap-16">
       <% data.press.kit.each_with_index do |item, i| %>
         <% border_class = [1, 2, 4, 5].include?(i) ? "md:border-l-2 md:border-gray-300 md:pl-5" : "" %>
@@ -90,7 +90,7 @@ description:
 </section>
 
 <section>
-  <div class="container md:pt-16 md:pb-0">
+  <div class="container md:pb-0">
     <h2 class="h2"><%= t("press.social_media") %></h2>
     <div class="grid md:grid-cols-3 gap-2 md:gap-10 mt-7 md:mt-14">
       <% press_links = data.links.social_media.select { |link| link.press } %>
