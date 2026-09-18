@@ -6,7 +6,7 @@ url: https://www.code4japan.org/
 image:
   image: /uploads/logo-partner-codeforjapan.svg
   alt: ""
-joined_at: 2020.07.24
+joined_at: 2024.02.22
 type:
   - Installation & Development
   - Participation Design

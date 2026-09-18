@@ -12,7 +12,7 @@ url: https://alabs.org
 image:
   image: /uploads/logo-partner-alabs.svg
   alt: ""
-joined_at: 2017.07.24
+joined_at: 2024.06.25
 type:
   - Installation & Development
   - Participation Design

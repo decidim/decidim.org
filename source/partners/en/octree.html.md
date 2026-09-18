@@ -6,7 +6,7 @@ url: https://voca.city/
 image:
   image: /uploads/logo-partner-octree.png
   alt: ""
-joined_at: Since 2019
+joined_at: 2022.12.23
 type:
   - Installation & Development
 region: Switzerland

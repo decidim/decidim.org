@@ -6,7 +6,7 @@ url: https://colectic.coop/
 image:
   image: /uploads/logo-partner-colectic.svg
   alt: ""
-joined_at: Since 2017
+joined_at: 2022.12.29
 type:
   - Participation Design
 region: Catalonia

@@ -6,7 +6,7 @@ url: https://komunikatik.com/
 image:
   image: /uploads/logo-partner-komunikatik.png
   alt: ""
-joined_at: 2017.07.24
+joined_at: 2024.10.15
 type:
   - Installation & Development
   - Participation Design

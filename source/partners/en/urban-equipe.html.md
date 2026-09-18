@@ -6,7 +6,7 @@ url: https://urban-equipe.ch
 image:
   image: /uploads/logo-partner-urbanequipe.svg
   alt: ""
-joined_at: 2024.07.24
+joined_at: 2024.02.29
 type:
   - Installation & Development
   - Participation Design

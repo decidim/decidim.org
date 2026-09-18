@@ -6,7 +6,7 @@ url: https://wildestfuture.com
 image:
   image: /uploads/logo-partner-wildestfuture.png
   alt: ""
-joined_at: Since 2020
+joined_at: 2023.03.03
 type:
   - Participation Design
 region: United States

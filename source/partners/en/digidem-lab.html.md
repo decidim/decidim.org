@@ -8,7 +8,7 @@ url: https://digidemlab.org/en
 image:
   image: /uploads/logo-partner-digidemlab.png
   alt: ""
-joined_at: 2020.07.24
+joined_at: 2024.04.11
 type:
   - Installation & Development
   - Participation Design

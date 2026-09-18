@@ -6,7 +6,7 @@ url: https://innosmith.ch
 image:
   image: /uploads/logo-partner-innosmith.png
   alt: ""
-joined_at: Since 2020
+joined_at: "2026-02-10"
 type:
   - Participation Design
 region: Switzerland

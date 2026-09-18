@@ -10,7 +10,7 @@ url: https://www.pares.it/
 image:
   image: /uploads/logo-partner-pares.jpg
   alt: ""
-joined_at: 2020.07.24
+joined_at: 2026.04.23
 type:
   - Installation & Development
   - Participation Design

@@ -6,7 +6,7 @@ url: https://pokecode.net/
 image:
   image: /uploads/logo-partner-pokecode.jpeg
   alt: ""
-joined_at: Since 2022
+joined_at: 2022.10.11
 type:
   - Installation & Development
   - Participation Design
