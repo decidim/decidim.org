@@ -6,7 +6,7 @@ url: https://osoigonext.com/
 image:
   image: /uploads/logo-partner-osoigo.svg
   alt: ""
-joined_at: "2025-11-26"
+joined_at: 2025.11.26
 type:
   - Installation & Development
   - Participation Design
