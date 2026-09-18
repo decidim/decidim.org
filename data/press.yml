@@ -1,13 +1,19 @@
 kit:
   - icon: /images/decidim-symbol.svg
+    name: Logo
     url: https://decidim.org/pdf/identity-manual-ca.pdf
-  - icon: ri-movie-2-line
-    url: https://www.youtube.com/watch?v=f6JMgJAQ2tc
+  - icon: ri-git-repository-line
+    name: Brandbook
+    url: https://link.springer.com/book/10.1007/978-3-031-50784-7
   - icon: ri-map-2-line
+    name: Brochure
     url: https://decidim.org/pdf/Decidim_Triptic_EN.pdf
-  - icon: ri-vidicon-2-line
-    url: https://meta.decidim.org/conferences
-  - icon: ri-video-line
-    url: https://www.youtube.com/channel/UCbxXpC5MmKImcGFzUJxdAUw
-  - icon: ri-book-read-line
-    url: https://zotero.org/groups/1607464/metadecidim/collections/DWR7CKGM
+  - icon: ri-pages-line
+    name: Academic papers
+    url: https://www.zotero.org/groups/1607464/metadecidim/collections/DWR7CKGM
+  - icon: ri-mic-line
+    name: Webinar
+    url: https://www.youtube.com/playlist?list=PLBVFc6pGI8xE
+  - icon: ri-live-line
+    name: Spot
+    url: https://www.youtube.com/watch?v=f6JMgJAQ2tc
