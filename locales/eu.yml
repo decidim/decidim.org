@@ -6,29 +6,29 @@ eu:
   about:
     association:
       become_member:
-        description: Be part of the Association and participate in the project governance.
-        title: Want to become a member?
-        url: https://meta.decidim.org/assemblies/QuieroSerSocia?locale=en
-        url_name: Let us know
+        description: Elkarteko kide izatea eta proiektuaren gobernantzan parte hartzea.
+        title: Bazkide izan nahi?
+        url: https://meta.decidim.org/assemblies/Bazkideizannahidut?locale=eu
+        url_name: Jakinarazi iezaguzu
       media_kit:
-        description: Looking for info? Check our press section.
-        title: Media kit
+        description: Informazioa bilatzen? Ikus gure prentsa-atala.
+        title: Multimedia-kita
         url: https://decidim.org/blog/
         url_name: Komunikabideak
       support_us:
-        description: Contribute to the commons and the sustainability of Decidim.
-        title: Want to support us?
+        description: Komunei eta Decidim-en iraunkortasunari laguntzea.
+        title: Gure laguntza izan nahi duzu?
         url: https://opencollective.com/decidim/donate?interval=oneTime&amount=1000&name=&legalName=&email=
-        url_name: Make a donation
+        url_name: Egin dohaintza bat
     bottom_section:
-      button: Let's talk about your project
-      subtitle: We can help you with every step of using Decidim's product, from participatory design to learning how to install Decidim. Have a collaboration idea? We'd love to hear about it.
-      title: Need help?
+      button: Hitz egin dezagun zure proiektuaz
+      subtitle: Decidim-en produktua erabiltzeko urrats guztietan lagunduko dizugu, diseinu parte-hartzailetik hasi eta Decidim instalatzen ikasteraino. Lankidetza-ideiarik duzu? Gustura entzungo genuke.
+      title: Laguntza behar duzu?
     history:
       timeline:
         - 
           year: 2011
-          above: All started with the 15M movement and the convergence of earlier hacktivists, autonomous and democratic activism in Spain and the rise of the technopolitical cycle.
+          above: Guztia M15 mugimenduarekin eta aurreko hacktibisten bateratzearekin, Espainiako aktibismo autonomo eta demokratikoarekin eta ziklo teknopolitikoaren gorakadarekin hasi zen.
         - 
           year: 2016
           below: In Barcelona, in early 2016, a fork of Consul, the participatory platform of the Madrid City Council, was used to power up the site <a href="https://decidim.barcelona" class="underline decoration-1">decidim.barcelona</a>, the new digital venue for participatory processes in the city council.
@@ -41,15 +41,15 @@ eu:
         - 
           year: 2025
           above: Until now, over 450 cities and organisations globally have embraced Decidim. And the Decidim Association has been growing as an international leader in democratic technologies and open source software.
-      title: Our history in a nutshell
+      title: Gure historia, hitz gutxitan
     intro: Gizartea demokratizatzen lagundu nahi dugu teknologia, metodologia, praktika, estandar, ekintza, narrazio eta balioen eraikuntzaren bidez, modu aske, ireki, kolaboratibo eta gogoetatsuan.
     mission:
       subtitle: Our mission is to <span class="underline decoration-2">contribute to the democratization of society</span> through the construction of technology, methodologies, practices, standards, and values, in a free, open, collaborative and reflective way.
-      title: Mission
+      title: Xedea
     partners:
       cta: You can also check our 2025 Activity Report
       subtitle: The Association works on different projects related to democratic innovation, research, governance of digital commons, and the development of FLOSS technologies. We work in collaboration with leading organisations in their field.
-      title: Our recent work
+      title: Gure azkenaldiko lana
     recognitions:
       digital_public_good: Digtal Public Good
       osor_award: Decidim became finalist of the OSOR prize in the EU Public Services Open Source Achievement Awards
@@ -57,7 +57,7 @@ eu:
       public_good: Decidim is recognized as a Digital Public Good by the Digital Public Goods Alliance
       sharing_reuse: Decidim won the Sharing & Reuse Awards in the Most Innovative Open Source Projects category by the EU
       subtitle: The Decidim Association has been proudly awarded with a series of recognitions for its contributions to open-source, democracy and participation.
-      title: Recognitions
+      title: Aintzatespenak
     subtitle: Decidim Software Libreko Elkartea elkarte demokratikoa da Decidim komunitatea gobernatzeko.
     title: Decidim-i buruz
     values:
@@ -74,7 +74,7 @@ eu:
     vision:
       subtitle_1: The members of the Decidim Association share the vision of a radically democratic society in which <span class="underline decoration-2">every person takes part among equals in common life.</span>
       subtitle_2: The Association <span class="underline decoration-2">embodies its vision of society in its own governance:</span> it is the community that decides the direction of the Decidim project and makes Decidim a technology of, by and, for all.
-      title: Vision
+      title: Ikuspegia
   alert:
     button: Bat egin
     p1: The Future of The Internet · October 13-14 Barcelona
@@ -100,7 +100,7 @@ eu:
       - Liburu hau sarbide irekia da, eta horrek esan nahi du sarrera librea eta mugagabea duzula
     title: Decidim liburua
   case_studies:
-    clear_filters: Clear filters
+    clear_filters: Iragazki argiak
     components: 'Components:'
     components_used: Components used
     filters:
@@ -119,33 +119,33 @@ eu:
     use_cases_index_path: Back to use cases
   community:
     banner:
-      cta: Check the Community Agenda
-      intro: We like to meet each other, either in person or online, to address different topics related to Decidim, democratic participation, free technologies or other issues related to the project. There are a wide range of spaces for community discussion and collaboration structured into community meetings and thematic groups. 
-      title: Community Meetings
+      cta: Komunitatearen agenda kontsultatzea
+      intro: Elkar ezagutzea gustatzen zaigu, aurrez aurre edo online, Decidim-ekin, parte-hartze demokratikoarekin, teknologia libreekin edo proiektuarekin lotutako beste gai batzuekin lotutako hainbat gai jorratzeko. Eztabaida eta lankidetza komunitariorako espazio ugari daude, bilera komunitarioetan eta talde tematikoetan egituratuta.
+      title: Komunitateko bilerak
     cta:
-      button: Go to partners
+      button: Inplementatzaileetara joan
       text: Looking for the right partner to support your project? Explore our network of official service providers.
-      title: Find your Pro
-    cta_hero: Go to Metadecidim
+      title: Aurkitu zure Pro
+    cta_hero: Metadecidimera joan
     fest_editions:
-      all_about_cta: All about Decidim Fest
+      all_about_cta: Decidim Festi buruzko guztia
       cta: Begirada bat eman
-      description1: Every year the Decidim Fest reunites experts, projects and institutions from the technopolitical ecosystem to reflect on open source, citizen participation and social and democratic innovation.
-      description2: The event takes place at the Canòdrom, the Digital and Democratic Innovation Centre, an open space that hosts projects and organisations related to technology and democracy.
-      subtitle: The global conference of the Metadecidim community
-      the_fest: The Decidim Fest
-      title: Editions
+      description1: Urtero, Decidim Fest jaialdiak ekosistema teknopolitikoko adituak, proiektuak eta erakundeak elkartzen ditu kode irekiari, herritarren parte-hartzeari eta berrikuntza sozial eta demokratikoari buruz hausnartzeko.
+      description2: Ekitaldia Canòdrom-en egiten da, Berrikuntza Digital eta Demokratikorako Zentroan, teknologiarekin eta demokraziarekin lotutako proiektuak eta erakundeak hartzen dituen espazio irekian.
+      subtitle: Metadecidim komunitatearen konferentzia globala
+      the_fest: Decidim Fest jaialdia
+      title: Edizioak
     gallery_section:
       meet_and_connect:
-        intro: Connect with fellow members, share experiences, and find collaborators. Join working groups and attend community events.
-        title: Meet and Connect
+        intro: Ikaskideekin konektatzea, esperientziak partekatzea eta kolaboratzaileak aurkitzea. Lan-taldeetan parte hartzea eta komunitateko ekitaldietara joatea.
+        title: Ezagutu eta konektatu
       participate_in_governance:
-        intro: Participate directly in the governance of a world-leading technopolitical project.
-        title: Participate in Governance
+        intro: Munduan liderra den proiektu teknopolitiko baten gobernantzan zuzenean parte hartzea.
+        title: Gobernantzan parte hartzea
       shape_roadmap:
-        intro: Propose new features, comment and vote on proposals, and join discussions.
-        title: Shape the Roadmap
-      title: What can you do at Metadecidim?
+        intro: Ezaugarri berriak proposatzea, proposamenak komentatzea eta bozkatzea, eta eztabaidak batzea.
+        title: Bide orria moldatzea
+      title: Zer egin daiteke Metadecidimen?
     intro: Metadecidim plataforma diseinatzen eta proiektua eraikitzen laguntzen duen komunitate bat da. Elkarrekin funtzio berriak diseinatu eta garatu ditzakegu eta akatsen berri eman plataformaren etengabeko hobekuntzarako.
     subtitle: Decidim proiektua dimentsio guztietan kudeatzen duen gizarte demokratikoa
     title: Metadecidim, gure komunitatea
@@ -250,14 +250,14 @@ eu:
         answer: Decidim eta Decidim-en logoa Elkarteak erregistratzen ditu, ezin dira produktu komertzial gisa erabili eta ezin dira saldu. Erabiltzen bada, kreditua proiektuarekin erlazionatu behar da. Honi buruz gehiago irakur dezakezu gure [Trademark policy](/trademark-policy).
         question: Zein da Decidim-en marka-politika?
       q25:
-        answer: There are different ways to collaborate with the Association. We are defining a ladder of collaboration that goes from less to more. The goal is to propose a progressive path of collaboration between public organizations and the Decidim Association. You can check this out here.
+        answer: Elkartearekin elkarlanean aritzeko modu ezberdinak daude. Gutxiagotik gehiagora doan elkarlanerako eskailera bat definitzen ari gara. Helburua da erakunde publikoen eta Decidim Elkartearen arteko elkarlanerako bide aurrerakoi bat proposatzea. Hemen egiazta dezakezu hori.
         question: Nola har dezakete parte gobernuek gurekin?
       q26:
-        answer: Decidim counts with a partner network that are official service providers for installing, managing and maintaining the platform for organisations of any type.
-        question: What do you need to become an official Decidim service provider?
+        answer: Decidim-ek edozein motatako erakundeentzako plataforma instalatzeko, kudeatzeko eta mantentzeko zerbitzu ofizialen hornitzaile diren bazkide-sare batekin kontatzen du.
+        question: Zer behar duzu Decidim zerbitzu-hornitzaile ofizial izateko?
       q27:
-        answer: It’s an international collaboration space to strengthen the governance of Decidim made up solely of those public institutions that have a signed collaboration agreement with the Decidim Association. The Institutions Committee is defined in its founding text as ‘the space that allows institutions to participate in governance and to convey needs and improvement proposals to the Decidim team.
-        question: What’s the Decidim Association Public Institutions Committee?
+        answer: 'Decidim-en gobernantza indartzeko nazioarteko lankidetza-gune bat da, Decidim Elkartearekin lankidetza-hitzarmena sinatuta duten erakunde publikoek soilik osatua. Erakunde Batzordea honela definitzen da bere sortze-testuan: ‘erakundeei gobernantzan parte hartzeko eta Decidim taldeari beharrak eta hobekuntza-proposamenak helarazteko aukera ematen dien espazioa.'
+        question: Zer da Decidim Elkarteko Erakunde Publikoen Batzordea?
       q28:
         answer: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework. [Check the steps to introduce yourself in the Decidim ecosystem.](/first-steps/)
         question: How can I start?
@@ -825,13 +825,13 @@ eu:
   transparency_portal:
     agreements: Contracts, agreements and grants
     cta: Deskargatu
-    financial_management: Financial Management
-    institutional_information: Institutional and organizational information
-    intro: 'In compliance with the Law of Transparency we collect in this section the transparency data of the Association.<br>The information you will find in the Transparency Portal is grouped by topics and includes the obligations established in: '
-    intro2: 'If you do not find in the portal any information that you think it would be useful to publish, or you have found any incidence, you can send us your suggestions through the mail: associacio@decidim.org '
-    l1: Chapter II of Law 19/2013, of December 9, on transparency, access to public information and good governance (Spain).
-    l2: Title II of Law 19/2014, of December 29, on transparency, access to public information and good governance (Catalonia).
-    subtitle: Welcome to the Decidim Free Software Association Transparency Portal.
+    financial_management: Finantza-kudeaketa
+    institutional_information: Informazio instituzionala eta antolakuntzakoa
+    intro: 'Gardentasunari buruzko Legea betez, atal honetan Elkartearen gardentasun-datuak jasotzen ditugu.<br>Gardentasunaren Atarian aurkituko duzun informazioa gaika multzokatuta dago, eta hemen ezarritako betebeharrak jasotzen ditu:'
+    intro2: 'Atarian argitaratzea komeni zaizuela iruditzen zaizuen informaziorik aurkitzen ez baduzue, edo gorabeheraren bat topatu baduzue, bidali zuen iradokizunak helbide honetara: associacio@decidim.org'
+    l1: Gardentasunari, informazio publikoa eskuratzeko bideari eta gobernu onari buruzko abenduaren 9ko 19/2013 Legearen II. kapitulua (Espainia).
+    l2: Gardentasunari, informazio publikoa eskuratzeko bideari eta gobernu onari buruzko abenduaren 29ko 19/2014 Legearen (Katalunia) II. titulua.
+    subtitle: Ongi etorri Decidim Software Librearen Elkartearen Gardentasun Atarira.
     title: Gardentasun Ataria
   used_by:
     case_studies:
