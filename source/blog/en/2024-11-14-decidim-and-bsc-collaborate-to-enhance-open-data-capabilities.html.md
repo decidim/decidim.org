@@ -6,7 +6,7 @@ gallery:
 tags: Project
 ---
 
-New collaboration with the [**VCity**](<>) project, led by the Barcelona Supercomputing Center (BSC) and funded by the UNICO I+D Cloud España Digital 2026 program. This project aims to develop _Urban Digital Twins_, advanced digital tools that enable public administrations to make evidence-based decisions.
+New collaboration with the [**VCity**](https://www.vcity.tech/) project, led by the Barcelona Supercomputing Center (BSC) and funded by the UNICO I+D Cloud España Digital 2026 program. This project aims to develop _Urban Digital Twins_, advanced digital tools that enable public administrations to make evidence-based decisions.
 
 ### Why is this project important for Decidim?
 
