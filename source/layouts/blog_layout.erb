@@ -7,6 +7,14 @@
       <h2 class="h2 pb-10 md:nowrap"><%= current_article.title %></h2>
       <div class="par-md flex md:pb-10 pb-5">
         <time><%= current_article.date.strftime('%d/%m/%Y') %></time>
+        <% if current_article.tags.present? && current_article.tags.length > 0 %>
+          &nbsp;&mdash;&nbsp;
+          <span class="inline-block first-letter:uppercase">
+            <% current_article.tags.each_with_index do |tag, index| %>
+              <%= link_to "#{tag}", tag_path(tag, "blog") %> <%= "- " unless index+1 == current_article.tags.length %>
+            <% end %>
+          </span>
+        <% end %>
       </div>
     </div>
     <% if current_page.data.gallery.present? && current_page.data.gallery.any? %>

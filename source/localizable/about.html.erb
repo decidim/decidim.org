@@ -89,6 +89,9 @@ description:
   <div class="container md:py-10 pb-10">
     <h2 class="h2 text-black pb-5"><%= t("about.partners.title") %></h2>
     <p class="par-md pb-6"><%= t("about.partners.subtitle") %></p>
+    <div class="flex flex-col md:flex-row items-stretch gap-5 pt-5 pb-5">
+      <%= partial "/partials/partners", locals: { limit: 3 } %>
+    </div>
     <%= partial "/partials/arrow-link", locals: { text: t("about.partners.cta"), url: "/pdf/decidim_activity_report_2025.pdf", icon_name: "ri-download-line", icon_classes: "h-5 w-5" } %>
   </div>
 </section>
@@ -134,7 +137,7 @@ description:
     <div class="flex flex-col divide-y divide-gray-300">
 
       <div class="py-5 flex flex-col gap-3 md:grid md:grid-cols-[auto_1fr_auto_2fr] md:items-center items-start md:gap-5">
-        <img src="/images/dpga_icon.svg" alt="Digital Public Good logo" class="w-auto h-24 md:w-32" />
+        <img src="/images/logo-dpga.svg" alt="Digital Public Good logo" class="w-auto h-24 md:w-32" />
         <div class="flex items-center justify-between w-full md:contents">
           <h5 class="h5"><%= t("about.recognitions.digital_public_good") %></h5>
           <span class="par-md text-gray-500 md:hidden">2023</span>
