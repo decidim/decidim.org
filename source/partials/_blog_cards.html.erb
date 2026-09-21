@@ -5,7 +5,7 @@
   <% cs = resource.data %>
   <% tag = Array(cs.tags).first.to_s %>
   <div class="flex flex-col rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300 flex-1"
-    data-cs-card
+    data-filter-card
     data-type="<%= tag %>"
     data-region="<%= cs.region.to_s %>">
     <div class="overflow-hidden rounded-t-lg bg-white">
