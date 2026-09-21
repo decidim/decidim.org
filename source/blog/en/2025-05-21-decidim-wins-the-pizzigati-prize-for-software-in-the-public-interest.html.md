@@ -8,7 +8,7 @@ tags: Announcements
 
 ![](/uploads/post-linkedin-7-.png)
 
-We’re honored to share that **Decidim** has been awarded with the [**Pizzigati Prize for Software in the Public Interest**](https://www.nten.org/change/pizzigati-prize), promoted by[ **NTEN**](https://www.nten.org/change/pizzigati-prize). This recognition celebrates the life and legacy of **Antonio “Tony” Pizzigati**, a pioneer of open source computing and a passionate advocate for technology in service of the public good.
+We’re honored to share that **Decidim** has been awarded with the [**Pizzigati Prize for Software in the Public Interest**](https://www.nten.org/change/pizzigati-prize), promoted by [**NTEN**](https://www.nten.org/change/pizzigati-prize). This recognition celebrates the life and legacy of **Antonio “Tony” Pizzigati**, a pioneer of open source computing and a passionate advocate for technology in service of the public good.
 
 The **Pizzigati Prize** uplifts open-source projects that empower the nonprofit sector, offering both financial support and public recognition to initiatives driving real social impact. With its guiding motto, _“We all benefit when we work together,”_ the prize honors software that strengthens communities, promotes collaboration, and amplifies the reach of public-interest work.
 
