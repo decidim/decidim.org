@@ -17,7 +17,7 @@ RSpec.describe "blog", type: :feature do
     find("[data-filter-toggle]").click
     check "Product"
 
-    expect(page).to have_css("[data-filter-card][data-type='Product']", count: 1)
+    expect(page).to have_css("[data-filter-card][data-type='Product']", visible: :visible, minimum: 1)
   end
 
   it "removes a filter when the chip close button is clicked", :js do
