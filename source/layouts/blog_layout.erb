@@ -26,11 +26,11 @@
           <% if current_page.data.gallery.length > 1 %>
           <div class="flex md:flex-col flex-row gap-2 md:w-36 md:pl-3 overflow-x-auto md:overflow-x-visible overflow-y-visible md:overflow-y-visible">
             <% current_page.data.gallery.each_with_index do |photo, i| %>
-            <div class="flex-shrink-0 md:flex-1 w-28 h-20 md:w-auto md:h-auto overflow-hidden rounded-lg relative cursor-pointer gallery-thumb"
-              onclick="selectGalleryImage(this)" data-src="<%= photo.image %>" data-alt="<%= photo.alt %>" data-gallery-thumb>
+            <button type="button" class="flex-shrink-0 md:flex-1 w-28 h-20 md:w-auto md:h-auto overflow-hidden rounded-lg relative cursor-pointer gallery-thumb"
+              onclick="selectGalleryImage(this)" data-src="<%= photo.image %>" data-alt="<%= photo.alt %>" data-gallery-thumb aria-pressed="<%= i == 0 ? 'true' : 'false' %>">
               <img class="w-full h-full object-cover" src="<%= photo.image %>" alt="<%= photo.alt %>">
             <div class="absolute inset-0 bg-gray-100/40 rounded-lg transition-opacity duration-200 thumb-overlay <%= i == 0 ? 'opacity-0' : 'opacity-100' %>" data-overlay></div>
-            </div>
+            </button>
             <% end %>
             <% target_thumbs = 6 %>
             <% [target_thumbs - current_page.data.gallery.length, 0].max.times do %>
