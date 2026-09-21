@@ -85,7 +85,7 @@ description:
 <section>
   <div class="container md:pb-0">
     <h2 class="h2"><%= t("press.social_media") %></h2>
-    <div class="grid md:grid-cols-3 gap-2 md:gap-16 mt-7 md:mt-14">
+    <div class="grid md:grid-cols-3 gap-2 md:gap-10 mt-7 md:mt-14">
       <% press_links = data.links.social_media.select { |link| link.press } %>
       <% press_links.each_with_index do |link, i| %>
         <% border_class = (i % 3 != 0) ? "md:border-l md:border-gray-300 md:pl-5" : "" %>
