@@ -53,4 +53,4 @@ Aquest text és una referència a l'hora de pensar la posada en pràctica de la 
 
 En el futur, serà fonamental preservar aquesta relació de col·laboració entre les administracions públiques i Decidim, ja que en depèn la sostenibilitat del projecte a llarg termini.
 
-El regidor de Drets de la Ciutadania i Participació de l'Ajuntament de Barcelona, Marc Serra; el president de Localret, Jaume Oliveras, i del president de l’Associació de Programari Lliure Decidim, Nil Homedes han signat l’acord que entrarà en vigor el 23 de maig.
+El regidor de Drets de la Ciutadania i Participació de l'Ajuntament de Barcelona, Marc Serra; el president de Localret, Jaume Oliveras, i el president de l’Associació de Programari Lliure Decidim, Nil Homedes han signat l’acord que entrarà en vigor el 23 de maig.
