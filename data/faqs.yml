@@ -5,8 +5,10 @@ types:
       - q02
       - q11
       - q23
+      - q28
   users:
     questions:
+      - q29
       - q03
       - q04
   features:
@@ -14,6 +16,8 @@ types:
       - q05
       - q06
       - q14
+      - q30
+      - q31
   community:
     questions:
       - q13
@@ -27,6 +31,11 @@ types:
       - q09
       - q10
       - q12
+  partnerships:
+    questions:
+      - q25
+      - q26
+      - q27
   association:
     questions:
       - q18
@@ -35,3 +44,4 @@ types:
       - q21
       - q22
       - q24
+      - q32
