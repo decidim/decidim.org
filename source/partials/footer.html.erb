@@ -19,13 +19,13 @@
     <div class="flex mt-6 md:mt-12">
 
       <%# "mobile menu footer" %>
-      <div class="block md:hidden w-full divide-y-2 divide-gray-500 border-y-2 border-gray-500 cursor-pointer" data-accordion="footer">
+      <div class="block md:hidden w-full divide-y-2 divide-gray-500 cursor-pointer" data-accordion="footer">
         <details class="w-full group">
-          <summary class="flex items-center justify-between space-x-4 py-2">
+          <summary class="flex items-center justify-between space-x-4 py-2 border-b-2 border-gray-500">
             <h3 class="font-bold">Decidim</h3>
-            <div class="flex-none relative inline w-5 h-5">
-              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
-              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
+            <div class="flex-none w-5 h-5">
+              <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
+              <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
             </div>
           </summary>
           <nav class="space-y-3 group-open:py-3 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
@@ -36,11 +36,11 @@
         </details>
 
         <details class="w-full group">
-          <summary class="flex items-center justify-between space-x-4 py-2">
+          <summary class="flex items-center justify-between space-x-4 py-2 border-b-2 border-gray-500">
             <h3 class="font-bold"><%= t("footer.about_us") %></h3>
-            <div class="flex-none relative inline w-5 h-5">
-              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
-              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
+            <div class="flex-none w-5 h-5">
+              <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
+              <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
             </div>
           </summary>
           <nav class="space-y-3 group-open:py-3 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
@@ -51,11 +51,11 @@
         </details>
 
         <details class="w-full group">
-          <summary class="flex items-center justify-between space-x-4 py-2">
+          <summary class="flex items-center justify-between space-x-4 py-2 border-b-2 border-gray-500">
             <h3 class="font-bold"><%= t("footer.up_to_date") %></h3>
-            <div class="flex-none relative inline w-5 h-5">
-              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
-              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
+            <div class="flex-none w-5 h-5">
+              <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
+              <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
             </div>
           </summary>
           <nav class="space-y-3 group-open:py-3 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
@@ -66,11 +66,11 @@
         </details>
 
         <details class="w-full group">
-          <summary class="flex items-center justify-between space-x-4 py-2">
+          <summary class="flex items-center justify-between space-x-4 py-2 border-b-2 border-gray-500">
             <h3 class="font-bold"><%= t("footer.legal") %></h3>
-            <div class="flex-none relative inline w-5 h-5">
-              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
-              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
+            <div class="flex-none w-5 h-5">
+              <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
+              <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
             </div>
           </summary>
           <nav class="space-y-3 group-open:py-3 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
@@ -78,6 +78,12 @@
               <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
             <% end %>
           </nav>
+        </details>
+
+        <details class="w-full group">
+          <summary class="flex items-center justify-between space-x-4 py-2">
+            <h3 class="font-bold"><%= link_to t("faqs.title"), "/faqs", class: "font-bold" %></h3>
+          </summary>
         </details>
       </div>
 
@@ -155,7 +161,7 @@
     </div>
 
     <nav class="flex md:hidden items-center justify-between mt-8">
-      <% data.links.social_media.each do |link| %>
+      <% data_select_footer_social_media(data.links.social_media).each do |link| %>
         <% link_to link.url, target: "_blank", rel: "noopener noreferrer" do %>
           <%= icon link.icon, class: "w-4 h-4" %>
         <% end %>
