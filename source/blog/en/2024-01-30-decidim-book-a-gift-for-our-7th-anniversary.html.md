@@ -1,5 +1,5 @@
 ---
-title: 'Decidim Book: a gift for our  7th Anniversary'
+title: 'Decidim Book: a gift for our 7th Anniversary'
 gallery:
   - image: /uploads/blog-book-01-banner.png
     alt: ''

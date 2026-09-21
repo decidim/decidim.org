@@ -1,5 +1,5 @@
 ---
-title: 'Oferta de feina: Dissenyadora  UX/UI'
+title: 'Oferta de feina: Dissenyadora UX/UI'
 gallery:
   - image: /uploads/blog-UX-01-banner.png
     alt: ''
