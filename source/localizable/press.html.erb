@@ -48,11 +48,9 @@ description:
               <%= partial "partials/arrow-link", locals: { text: t("press.read_more"), url: media[1].url, classes: "text-red-500", span_classes: "par-sm", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
             </div>
           </div>
-          <% unless i == 4 %>
-            <div class="flex items-center md:py-6">
-              <span class="w-full border-b border-gray-300"></span>
-            </div>
-          <% end %>
+          <div class="flex items-center md:py-6">
+            <span class="w-full border-b border-gray-300"></span>
+          </div>
         </div>
       <% end %>
 
@@ -64,9 +62,6 @@ description:
               <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 no-toggle" %>
             </div>
           </summary>
-          <div class="flex items-center md:py-6">
-            <span class="w-full border-b border-gray-300"></span>
-          </div>
           <% data.media.drop(5).each_with_index do |media, i| %>
             <div class="pt-5 md:pt-0">
               <div class="md:grid md:grid-cols-3 md:gap-16">
@@ -76,11 +71,9 @@ description:
                   <%= partial "partials/arrow-link", locals: { text: t("press.read_more"), url: media[1].url, classes: "text-red-500", span_classes: "par-sm", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
                 </div>
               </div>
-              <% unless i == data.media.drop(5).length - 1 %>
-                <div class="flex items-center md:py-6">
-                  <span class="w-full border-b border-gray-300"></span>
-                </div>
-              <% end %>
+              <div class="flex items-center md:py-6">
+                <span class="w-full border-b border-gray-300"></span>
+              </div>
             </div>
           <% end %>
         </details>
