@@ -2,7 +2,7 @@
 title: Decidim and BSC collaborate to enhance Open Data capabilities
 gallery:
   - image: /uploads/blog-bsc-banner.jpg
-    alt: 'BSC and Decidim collaboration banner'
+    alt: ''
 tags: Project
 ---
 
