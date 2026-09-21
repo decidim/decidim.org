@@ -59,8 +59,8 @@ This is a perfect job if you are someone:
 * Flexible hours to organize your schedule according to your needs.
 * Part-time (10 hours per week).
 * Salary between 7k and 10k per 7 months
-* \* Residents in Spain: We can either hire you or pay you through invoices.
-    - Residents outside Spain: Payment by invoice only.
+* Residents in Spain: We can either hire you or pay you through invoices.
+* Residents outside Spain: Payment by invoice only.
 * To be part of a project for the democratization of society with a global projection. And most important, together with a team of good people.
 
 This job offer is for a short period (7 months approximate), depending on the financial situation of the association we will see if the duration can be extended.
