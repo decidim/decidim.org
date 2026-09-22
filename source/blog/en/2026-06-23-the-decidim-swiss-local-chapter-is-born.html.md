@@ -1,10 +1,10 @@
 ---
 title: The Decidim Swiss Local Chapter Is Born
 gallery:
-  - image: /uploads/Members_DecidimSwitzerland_3_DSCF6453_cropped_low.jpg
-    alt: ''
-  - image: /uploads/Founding_assembly_DecidimSwitzerland_3_DSCF6384_full.jpg
-    alt: ''
+  - image: /uploads/blog-switzerland-01-banner.jpg
+    alt: 'Group photo of the swiss local chapter'
+  - image: /uploads/blog-switzerland-02-banner.jpg
+    alt: 'Photo of the swiss chapters first general assembly'
 tags: Announcements
 ---
 

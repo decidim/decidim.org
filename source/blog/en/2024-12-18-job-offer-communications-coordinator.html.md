@@ -2,7 +2,7 @@
 title: Job Offer - Communications Coordinator
 gallery:
   - image: /uploads/blog-communication-01-banner.png
-    alt: ''
+    alt: 'Banner for communication manager job offer'
 tags: Announcements
 ---
 

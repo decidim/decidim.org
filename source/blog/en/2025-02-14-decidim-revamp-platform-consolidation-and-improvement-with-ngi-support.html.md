@@ -2,7 +2,7 @@
 title: 'Decidim Revamp: Platform Consolidation and Improvement with NGI Support'
 gallery:
   - image: /uploads/blog-revamp-01-banner.png
-    alt: ''
+    alt: 'Banner for the decidim revamp'
 tags: Product
 ---
 

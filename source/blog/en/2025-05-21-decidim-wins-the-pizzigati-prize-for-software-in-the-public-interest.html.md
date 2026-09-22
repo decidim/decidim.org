@@ -2,7 +2,7 @@
 title: Decidim Wins the Pizzigati Prize for Software in the Public Interest
 gallery:
   - image: /uploads/blog-pizzigati-01-banner.png
-    alt: ''
+    alt: 'Banner highlighting Decidim winning the Pizzigati prize'
 tags: Announcements
 ---
 

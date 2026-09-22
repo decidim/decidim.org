@@ -2,7 +2,7 @@
 title: Decidim is recognized as a Digital Public Good
 gallery:
   - image: /uploads/blog-DPG-01-banner.png
-    alt: ''
+    alt: 'Banner for dpg recognition'
 tags: Announcements
 ---
 

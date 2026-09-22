@@ -2,7 +2,7 @@
 title: 'Job offer: Junior RoR developer'
 gallery:
   - image: /uploads/blog-RoR-01-banner.png
-    alt: ''
+    alt: 'Banner for a junior RoR developer'
 tags: Announcements
 ---
 

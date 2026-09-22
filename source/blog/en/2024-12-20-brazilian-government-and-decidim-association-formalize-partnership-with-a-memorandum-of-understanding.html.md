@@ -2,11 +2,11 @@
 title: Brazilian Government and Decidim Association Formalize Partnership with a Memorandum of Understanding
 gallery:
   - image: /uploads/blog-brazil-01-banner.jpg
-    alt: ''
-  - image: /uploads/54183852159_4bc0ff93ce_k.jpg
-    alt: ''
-  - image: /uploads/54183562561_e832935b77_k-1-.jpg
-    alt: ''
+    alt: 'MOU signature banner'
+  - image: /uploads/blog-brazil-02-banner.jpg
+    alt: 'Close up of the MOU being signed'
+  - image: /uploads/blog-brazil-03-banner.jpg
+    alt: 'Group photo of the MOU attendees'
 tags: Announcements
 website: https://meta.decidim.org/en/processes/news/f/1719/posts/362?commentId=27277
 website_link_text: Read the text of the MOU here

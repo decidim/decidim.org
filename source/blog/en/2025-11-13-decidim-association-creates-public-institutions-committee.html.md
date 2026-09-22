@@ -1,8 +1,8 @@
 ---
 title: The Decidim Association launches the Committee of Public Institutions with six global institutions
 gallery:
-  - image: /uploads/foto.jpg
-    alt: ''
+  - image: /uploads/blog-institutions-committee-banner.jpg
+    alt: 'Banner photo of the attendees during the committee public institiutions launch'
 tags: Announcements
 ---
 

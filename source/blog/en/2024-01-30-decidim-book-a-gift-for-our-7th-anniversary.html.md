@@ -2,7 +2,7 @@
 title: 'Decidim Book: a gift for our 7th Anniversary'
 gallery:
   - image: /uploads/blog-book-01-banner.png
-    alt: ''
+    alt: 'Banner for the decidim book on 7th anniversary'
 tags: Announcements
 ---
 
@@ -24,7 +24,7 @@ We offer this book as both a toolkit and a political device for action and thoug
 
 We invite not just to read this book, but to actively engage with it and transcend its boundaries. In true Decidim spirit, this work is copyleft, open, freedom enhancing, and collaborative: you are free to copy, modify, and distribute it, always adhering to the CC-BY-SA licence.
 
-> In an age of disbelief and despair, of hypermediatically narrated doom and collapse, this is a necessary step: to take part in the reimagining and recrafting of the future. Hopefully, Decidim and Metadecidim will help to such a recraft of our collective selves (and also our personal ones) along with our present and future worlds.(p. 131) 
+> In an age of disbelief and despair, of hypermediatically narrated doom and collapse, this is a necessary step: to take part in the reimagining and recrafting of the future. Hopefully, Decidim and Metadecidim will help to such a recraft of our collective selves (and also our personal ones) along with our present and future worlds.(p. 131)
 
 This work is the culmination of a seven-year collective endeavour involving countless individuals. Their contributions have been indispensable. For this reason, we want to close this post by celebrating the participation in Decidim, and by inviting everyone to engage with us in the technopolitical battles (and peaces) of the present and the future.
 
@@ -52,7 +52,7 @@ Publicamos este libro como una herramienta, como un dispositivo político de acc
 
 Os invitamos no solo a leer este libro, sino también a seguir construyendo con él y más allá de él. Como todo en Decidim, este trabajo es un producto copyleft, abierto, libre y colaborativo: sois libres de copiarlo, modificarlo y distribuirlo, siempre respetando la licencia CC-BY-SA.
 
-> In an age of disbelief and despair, of hypermediatically narrated doom and collapse, this is a necessary step: to take part in the reimagining and recrafting of the future. Hopefully, Decidim and Metadecidim will help to such a recraft of our collective selves (and also our personal ones) along with our present and future worlds.(p. 131) 
+> In an age of disbelief and despair, of hypermediatically narrated doom and collapse, this is a necessary step: to take part in the reimagining and recrafting of the future. Hopefully, Decidim and Metadecidim will help to such a recraft of our collective selves (and also our personal ones) along with our present and future worlds.(p. 131)
 
 Este trabajo es el resultado de un proyecto colectivo que, a lo largo de estos siete años, ha involucrado a muchísimas personas. Sin ellas no hubiera sido posible. Por eso queremos cerrar este post celebrando la participación en la comunidad Decidim invitando, una vez más, a las múltiples luchas (y paces) tecnopolíticas del presente y del futuro.
 
@@ -80,7 +80,7 @@ Publiquem aquest llibre com una eina, com un dispositiu polític d'acció i pens
 
 Us convidem no només a llegir aquest llibre, també a continuar construint amb ell i més enllà d'ell. Com tot a Decidim, aquest treball és un producte copyleft, obert, lliure i col·laboratiu: sou lliures de copiar-lo, modificar-lo i distribuir-lo, sempre respectant la llicència CC-BY-SA.
 
-> In an age of disbelief and despair, of hypermediatically narrated doom and collapse, this is a necessary step: to take part in the reimagining and recrafting of the future. Hopefully, Decidim and Metadecidim will help to such a recraft of our collective selves (and also our personal ones) along with our present and future worlds.(p. 131) 
+> In an age of disbelief and despair, of hypermediatically narrated doom and collapse, this is a necessary step: to take part in the reimagining and recrafting of the future. Hopefully, Decidim and Metadecidim will help to such a recraft of our collective selves (and also our personal ones) along with our present and future worlds.(p. 131)
 
 Aquest treball és el resultat d'un projecte col·lectiu que, al llarg d'aquests set anys, ha involucrat a moltíssimes persones. Sense elles no hauria estat possible. Per això volem tancar aquest post celebrant la participació en la comunitat Decidim convidant, una vegada més, a les múltiples lluites (i paus) tecnopolítiques del present i del futur.
 

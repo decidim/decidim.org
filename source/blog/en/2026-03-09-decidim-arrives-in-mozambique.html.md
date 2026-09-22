@@ -1,9 +1,9 @@
 ---
 title: Decidim arrives in Mozambique
 gallery:
-  - image: /uploads/PostLinkedIn(7).png
+  - image: /uploads/blog-mozambique-01-banner.png
     alt: Decidim arrives in Mozambique
-  - image: /uploads/IMD4(1).jpeg
+  - image: /uploads/blog-mozambique-02-banner.jpeg
     alt: Picture of the IMD team with Decidim in a room
 tags: Project
 ---

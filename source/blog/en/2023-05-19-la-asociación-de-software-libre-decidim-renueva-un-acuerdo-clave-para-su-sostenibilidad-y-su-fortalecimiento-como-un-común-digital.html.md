@@ -2,7 +2,7 @@
 title: The Decidim Free Software Association renews a key agreement for its sustainability and its strengthening as a digital commons
 gallery:
   - image: /uploads/blog-agreement-01-banner.png
-    alt: ''
+    alt: 'Banner for agreement on sustainbility and strenghing digital commons'
 tags: Announcements
 ---
 

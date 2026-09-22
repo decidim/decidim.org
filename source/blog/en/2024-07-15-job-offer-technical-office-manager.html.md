@@ -2,7 +2,7 @@
 title: 'Job offer: Technical Office Manager'
 gallery:
   - image: /uploads/blog-OT-01-banner.png
-    alt: ''
+    alt: 'Banner for technical office manager job offer'
 tags: Announcements
 ---
 
@@ -158,15 +158,15 @@ En el día a día tus tareas serán:
 
 ### Fundraising y presupuesto
 
-* Buscar activamente nuevas oportunidades de financiación de carácter público, filantrópico o privado. 
-* Escribir y presentar proyectos alineados con la misión y función de la Asociación Decidim. 
+* Buscar activamente nuevas oportunidades de financiación de carácter público, filantrópico o privado.
+* Escribir y presentar proyectos alineados con la misión y función de la Asociación Decidim.
 * Definir y revisar anualmente el plan de sostenibilidad económica.
-* Elaborar conjuntamente con el Comité de Coordinación y el personal de la Asociación el presupuesto anual. 
+* Elaborar conjuntamente con el Comité de Coordinación y el personal de la Asociación el presupuesto anual.
 
 ### Alianzas estratégicas
 
 * Buscar activamente y gestionar nuevas alianzas estratégicas con organizaciones que puedan ayudar al trabajo y misión de la Asociación Decidim.
-* Gestionar las relaciones con los actuales aliados de Decidim para fortalecerlas y buscar posibles colaboraciones. 
+* Gestionar las relaciones con los actuales aliados de Decidim para fortalecerlas y buscar posibles colaboraciones.
 
 ### Coordinación y recursos humanos
 
@@ -183,22 +183,22 @@ En el día a día tus tareas serán:
 
 ### Producto
 
-* Participar en la elaboración de la hoja de ruta de nuevos desarrollos y funcionalidades juntamente con el equipo de producto. 
-* Gestionar los proyectos de nuevos desarrollos y evolutivos de Decidim, coordinando el trabajo con las empresas de desarrollo. 
+* Participar en la elaboración de la hoja de ruta de nuevos desarrollos y funcionalidades juntamente con el equipo de producto.
+* Gestionar los proyectos de nuevos desarrollos y evolutivos de Decidim, coordinando el trabajo con las empresas de desarrollo.
 * Participar en el Quality Assurance revisando los nuevos desarrollos.
 
 ### Comunidad y partners
 
-* Diseñar, gestionar, dinamizar y evaluar los procesos de participación de la comunidad a través de la plataforma Metadecidim. 
+* Diseñar, gestionar, dinamizar y evaluar los procesos de participación de la comunidad a través de la plataforma Metadecidim.
 * Gestionar y hacer seguimiento de la política de partners de Decidim, organizando reuniones de seguimiento con los partners y atendiendo sus demandas.
-* Trabajar para ampliar las empresas proveedoras de servicio que son partners oficiales y contribuyen al proyecto. 
-* Atender el correo de contacto, dando respuesta a las peticiones que llegan o redirigiendo la comunicación a las personas o equipos pertinentes. 
+* Trabajar para ampliar las empresas proveedoras de servicio que son partners oficiales y contribuyen al proyecto.
+* Atender el correo de contacto, dando respuesta a las peticiones que llegan o redirigiendo la comunicación a las personas o equipos pertinentes.
 
 ### Rendición de cuentas
 
 * Rendir cuentas regularmente frente al Comité de Coordinación, explicando detalladamente el trabajo realizado y consultando aquellas decisiones que requieran de su aprobación.
 * Rendir cuentas anualmente frente a la Asamblea General de la Asociación Decidim en cumplimiento con lo que disponga la normativa interna (en proceso de redacción).
-* Dar soporte al Comité de Coordinación en las actividades necesarias para su correcto funcionamiento. 
+* Dar soporte al Comité de Coordinación en las actividades necesarias para su correcto funcionamiento.
 * Asistir a las reuniones del Comité de Coordinación, con voz pero sin voto, operando como organizador y proveyendo en todo lo requerido para el óptimo funcionamiento de las mismas.
 
 ## A quién buscamos
@@ -281,15 +281,15 @@ En el dia a dia les teves tasques seran:
 
 ### Fundraising i pressupost
 
-* Buscar activament noves oportunitats de finançament de caràcter públic, filantròpic o privat. 
-* Escriure i presentar projectes alineats amb la missió i funció de l'Associació Decidim. 
+* Buscar activament noves oportunitats de finançament de caràcter públic, filantròpic o privat.
+* Escriure i presentar projectes alineats amb la missió i funció de l'Associació Decidim.
 * Definir i revisar anualment el pla de sostenibilitat econòmica.
-* Elaborar conjuntament amb el Comitè de Coordinació i el personal de l'Associació el pressupost anual. 
+* Elaborar conjuntament amb el Comitè de Coordinació i el personal de l'Associació el pressupost anual.
 
 ### Aliances estratègiques
 
 * Buscar activament i gestionar noves aliances estratègiques amb organitzacions que puguin ajudar al treball i missió de l'Associació Decidim.
-* Gestionar les relacions amb els actuals aliats de Decidim per a enfortir-les i buscar possibles col·laboracions. 
+* Gestionar les relacions amb els actuals aliats de Decidim per a enfortir-les i buscar possibles col·laboracions.
 
 ### Coordinació i recursos humans
 
@@ -306,22 +306,22 @@ En el dia a dia les teves tasques seran:
 
 ### Producte
 
-* Participar en l'elaboració del full de ruta de nous desenvolupaments i funcionalitats juntament amb l'equip de producte. 
-* Gestionar els projectes de nous desenvolupaments i evolutius de Decidim, coordinant el treball amb les empreses de desenvolupament. 
+* Participar en l'elaboració del full de ruta de nous desenvolupaments i funcionalitats juntament amb l'equip de producte.
+* Gestionar els projectes de nous desenvolupaments i evolutius de Decidim, coordinant el treball amb les empreses de desenvolupament.
 * Participar en el Quality Assurance revisant els nous desenvolupaments.
 
 ### Comunitat i partners
 
-* Dissenyar, gestionar, dinamitzar i avaluar els processos de participació de la comunitat a través de la plataforma Metadecidim. 
+* Dissenyar, gestionar, dinamitzar i avaluar els processos de participació de la comunitat a través de la plataforma Metadecidim.
 * Gestionar i fer seguiment de la política de partners de Decidim, organitzant reunions de seguiment amb els partners i atenent les seves demandes.
-* Treballar per a ampliar les empreses proveïdores de servei que són partners oficials i contribueixen al projecte. 
-* Atendre el correu de contacte, donant resposta a les peticions que arriben o redirigint la comunicació a les persones o equips pertinents. 
+* Treballar per a ampliar les empreses proveïdores de servei que són partners oficials i contribueixen al projecte.
+* Atendre el correu de contacte, donant resposta a les peticions que arriben o redirigint la comunicació a les persones o equips pertinents.
 
 ### Rendició de comptes
 
 * Rendir comptes regularment enfront del Comitè de Coordinació, explicant detalladament el treball realitzat i consultant aquelles decisions que requereixin de la seva aprovació.
 * Rendir comptes anualment enfront de l'Assemblea General de l'Associació Decidim en compliment amb el que disposi la normativa interna (en procés de redacció).
-* Donar suport al Comitè de Coordinació en les activitats necessàries per al seu correcte funcionament. 
+* Donar suport al Comitè de Coordinació en les activitats necessàries per al seu correcte funcionament.
 * Assistir a les reunions del Comitè de Coordinació, amb veu però sense vot, operant com a organitzador i proveint en tot el requerit per a l'òptim funcionament d'aquestes.
 
 ## A qui busquem

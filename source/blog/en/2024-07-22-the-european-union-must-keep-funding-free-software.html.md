@@ -2,7 +2,7 @@
 title: The European Union must keep funding free software
 gallery:
   - image: /uploads/blog-EU-01-banner.png
-    alt: ''
+    alt: 'Banner for EU free software sovereignty'
 tags: Opinion
 ---
 

@@ -2,7 +2,7 @@
 title: 'The MultiPoD project: A European Public Space for Citizen Deliberation'
 gallery:
   - image: /uploads/img-20241210-wa0022.jpg
-    alt: ''
+    alt: 'Banner for the European Multipod project'
 tags: Project
 ---
 

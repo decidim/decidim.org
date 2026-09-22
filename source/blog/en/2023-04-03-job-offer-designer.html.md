@@ -2,7 +2,7 @@
 title: 'Job offer: Designer'
 gallery:
   - image: /uploads/blog-designer-01-banner.png
-    alt: ''
+    alt: 'Banner for job offer for a designer'
 tags: Announcements
 ---
 

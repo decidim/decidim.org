@@ -2,7 +2,7 @@
 title: 'Job offer: Fundraiser'
 gallery:
   - image: /uploads/blog-fundraiser-01-banner.png
-    alt: ''
+    alt: 'Banner for a fundrasier job offer'
 tags: Announcements
 ---
 

@@ -2,7 +2,7 @@
 title: "New project to improve Decidim's interoperability: CSV Export/Import"
 gallery:
   - image: /uploads/blog-metagov-01-banner.png
-    alt: ''
+    alt: 'Banner for new decidim metagov annoucement'
 tags: Project
 ---
 
