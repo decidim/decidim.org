@@ -11,9 +11,9 @@ pageClass: home
       <div class="w-fit">
         <%= partial "partials/arrow-link-rounded", locals: { text: t("index.hero.cta"), url: "#{t(:path)}/first-steps" } %>
       </div>
-      <img src="/images/index/index-hero.png" alt="" class="block md:hidden w-full mt-10 object-cover">
+      <%= image_tag "/images/index/index-hero.png", alt: "Hero image of the Decidim homepage", class: "block md:hidden w-full mt-10 object-cover" %>
       <div class="w-fit">
-        <img src="/images/index/index-hero.png" alt="" class="hidden md:block absolute top-0 right-0 md:h-5/6 h-full object-cover">
+        <%= image_tag "/images/index/index-hero.png", alt: "Hero image of the Decidim homepage", class: "hidden md:block absolute top-0 right-0 md:h-5/6 h-full object-cover" %>
       </div>
     </div>
   <% if alert_enabled? && homepage? %>
@@ -48,7 +48,7 @@ pageClass: home
     <% data.index.features.each_with_index do |feat, i| %>
       <div class="flex flex-col md:flex-row items-center md:gap-12 bg-gray-50 border-gray-300 <%= i.odd? ? 'md:flex-row-reverse md:border-l-8 border-l-4' : 'md:border-r-8 border-r-4' %>">
         <div class="w-full md:w-1/2 rounded-xl overflow-hidden">
-          <img class="w-full h-auto object-cover" src="<%= feat.image %>" alt="<%= t("index.subhero.#{feat.id}.title") %>">
+          <%= image_tag feat.image, class: "w-full h-auto object-cover", alt: t("index.subhero.#{feat.id}.title") %>
         </div>
         <div class="w-full md:w-1/2 md:p-16 px-5 pb-5">
           <h3 class="text-2xl md:text-3xl font-bold md:pb-6 md:pt-8 py-4">
@@ -97,7 +97,7 @@ pageClass: home
     <% data.index.cards.each_with_index do |item, index| %>
       <div class="flex flex-col pb-8 md:py-0 md:pr-5 md:w-1/3">
         <div class="flex flex-row-reverse md:flex-col">
-          <img src="<%= item.image %>" alt="" class="w-full h-full items-center">
+          <%= image_tag item.image, alt: t("index.cards.#{item.title}"), class: "w-full h-full items-center" %>
         </div>
         <div class="<%= 'md:border-r-2 border-gray-100 md:pr-5' unless index == data.index.cards.length - 1 %> flex flex-col flex-1">
           <p class="par-sm uppercase font-bold md:pt-8 pt-5"><%= t("index.cards.#{item.title}") %></p>
@@ -110,14 +110,14 @@ pageClass: home
 </section>
 
 <section class="md:pb-6 md:pt-16 pb-5">
-  <img src="/images/home-banner.jpg" alt="" class="banner object-cover">
+  <%= image_tag "/images/home-banner.jpg", alt: "A banner depicting an assembly", class: "banner object-cover" %>
 </section>
 
 <%= partial "/partials/testimonials" %>
 
 <section class="md:pt-16 pt-10">
   <div class="relative h-[448px] md:h-[576px]">
-    <img src="/images/home-footer-banner.jpg" alt="" class="absolute inset-0 w-full h-full object-cover">
+    <%= image_tag "/images/home-footer-banner.jpg", alt: "A footer banner depicting a focus group", class: "absolute inset-0 w-full h-full object-cover" %>
     <div class="relative container h-full flex flex-col justify-end pb-8 md:pb-16">
       <div class="text-white">
         <h2 class="h2"><%= t("index.footer_banner.heading") %></h2>
