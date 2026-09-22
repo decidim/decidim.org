@@ -17,8 +17,128 @@
         </div>
       </button>
     </div>
-    <%= partial "partials/header_desktop" %>
+    <nav class="hidden md:flex md:flex-row items-center gap-8 flex-1 justify-center mx-auto">
+      <div class="flex flex-row items-center gap-8" data-accordion="header">
+
+        <%= partial "partials/nav-dropdown", locals: {
+          title: t("nav.product"),
+          links: [
+            { text: t("nav.first-steps"), url: "#{t(:path)}/first-steps" },
+            { text: t("nav.features"), url: "#{t(:path)}/features" },
+            { text: t("nav.modules"), url: "#{t(:path)}/modules" },
+            { text: t("nav.docs.title"), url: "#{t(:path)}/documentation" }
+          ]
+        } %>
+
+        <%= partial "partials/nav-dropdown", locals: {
+          title: t("nav.in_use"),
+          links: [
+            { text: t("nav.used_by"), url: "#{t(:path)}/usedby" },
+            { text: t("nav.installations"), url: "#{t(:path)}/installations" },
+            { text: t("nav.case-studies"), url: "#{t(:path)}/case-studies" }
+          ]
+        } %>
+
+        <%= partial "partials/nav-dropdown", locals: {
+          title: t("nav.about_us"),
+          links: [
+            { text: t("nav.association"), url: "#{t(:path)}/about" },
+            { text: t("nav.team"), url: "#{t(:path)}/team" },
+            { text: t("nav.book"), url: "#{t(:path)}/book" },
+            { text: t("nav.supporters"), url: "#{t(:path)}/supporters" },
+            { text: t("nav.contact"), url: "#{t(:path)}/contact" }
+          ]
+        } %>
+
+        <%= partial "partials/nav-dropdown", locals: {
+          title: t("nav.community"),
+          links: [
+            { text: "Metadecidim", url: "#{t(:path)}/community" },
+            { text: t("nav.partners"), url: "#{t(:path)}/partners" }
+          ]
+        } %>
+
+        <%= partial "partials/nav-dropdown", locals: {
+          title: t("nav.news"),
+          links: [
+            { text: t("nav.blog"), url: "#{t(:path)}/blog" }
+          ]
+        } %>
+
+      </div>
+    </nav>
+    <div class="hidden md:flex items-center gap-8 ml-auto">
+      <%= link_to t("demo.button"), "https://try.decidim.org/", target: "_blank", rel: "noopener noreferrer", class: "button inline-block text-center py-4" %>
+      <%= partial "/partials/language-selector" %>
+    </div>
   </div>
 
-  <%= partial "partials/header_mobile" %>
+  <nav data-mobile-menu class="md:!hidden">
+    <div class="flex flex-col p-5 space-y-0" data-accordion="mobile">
+
+      <%= partial "partials/nav-dropdown", locals: {
+        variant: "mobile",
+        title: t("nav.product"),
+        list_padding: "pl-2",
+        links: [
+          { text: t("nav.first-steps"), url: "#{t(:path)}/first-steps", class: "block" },
+          { text: t("nav.features"), url: "#{t(:path)}/features", class: "block py-4" },
+          { text: t("nav.modules"), url: "#{t(:path)}/modules", class: "block pb-4" },
+          { text: t("nav.docs.title"), url: "#{t(:path)}/documentation", class: "block pb-4" }
+        ]
+      } %>
+
+      <%= partial "partials/nav-dropdown", locals: {
+        variant: "mobile",
+        title: t("nav.in_use"),
+        list_padding: "pl-4",
+        links: [
+          { text: t("nav.used_by"), url: "#{t(:path)}/usedby", class: "block" },
+          { text: t("nav.installations"), url: "#{t(:path)}/installations", class: "block py-4" },
+          { text: t("nav.case-studies"), url: "#{t(:path)}/case-studies", class: "block pb-4" }
+        ]
+      } %>
+
+      <%= partial "partials/nav-dropdown", locals: {
+        variant: "mobile",
+        title: t("nav.about_us"),
+        list_padding: "pl-4",
+        links: [
+          { text: t("nav.association"), url: "#{t(:path)}/about", class: "block" },
+          { text: t("nav.team"), url: "#{t(:path)}/team", class: "block py-4" },
+          { text: t("nav.book"), url: "#{t(:path)}/book", class: "block py-2" },
+          { text: t("nav.supporters"), url: "#{t(:path)}/supporters", class: "block py-4" },
+          { text: t("nav.contact"), url: "#{t(:path)}/contact", class: "block pb-4" }
+        ]
+      } %>
+
+      <%= partial "partials/nav-dropdown", locals: {
+        variant: "mobile",
+        title: t("nav.community"),
+        list_padding: "pl-4",
+        links: [
+          { text: "Metadecidim", url: "#{t(:path)}/community", class: "block" },
+          { text: t("nav.partners"), url: "#{t(:path)}/partners", class: "block py-4" }
+        ]
+      } %>
+
+      <%= partial "partials/nav-dropdown", locals: {
+        variant: "mobile",
+        title: t("nav.news"),
+        list_padding: "pl-4",
+        links: [
+          { text: t("nav.blog"), url: "#{t(:path)}/blog", class: "block pb-4" }
+        ]
+      } %>
+
+      <div class="flex flex-col">
+        <div class="py-8 flex flex-col">
+          <%= link_to t("demo.button"), "https://try.decidim.org/", target: "_blank", rel: "noopener noreferrer", class: "button inline-block text-center py-3" %>
+        </div>
+        <div class="flex justify-center">
+          <%= partial "/partials/language-selector" %>
+        </div>
+      </div>
+    </div>
+  </nav>
 </header>

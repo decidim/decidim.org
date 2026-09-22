@@ -1,0 +1,24 @@
+<%
+  mobile = defined?(variant) && variant.to_s == "mobile"
+  dropdown_item_class = defined?(item_class) ? item_class : nil
+  dropdown_item_class ||= mobile ? "block" : "block p-1 rounded hover:bg-red-100"
+  list_class = if mobile
+    "text-red-500 #{defined?(list_padding) ? list_padding : "pl-4"} space-y-0"
+  else
+    "text-red-500 absolute top-full left-0 bg-white shadow-lg min-w-[200px] p-2 space-y-0 opacity-100 group-open:border-b-2 group-open:border-red-500"
+  end
+%>
+<details class="<%= mobile ? "group border-b border-gray-100 open:border-b-2 open:border-red-500" : "group relative" %>">
+  <summary class="<%= mobile ? "flex items-center justify-between gap-2 pt-3 pb-5 cursor-pointer list-none transition group-open:font-bold group-open:text-red-500" : "flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500 rounded-t-sm" %>">
+    <span><%= title %></span>
+    <span class="flex w-4 h-4 text-red-500">
+      <%= icon "ri-arrow-down-s-line", class: "#{mobile ? "w-4 h-4 absolute" : "w-5 h-5"} group-open:hidden no-toggle" %>
+      <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block #{mobile ? "w-4 h-4 absolute" : "w-5 h-5"} no-toggle" %>
+    </span>
+  </summary>
+  <ul class="<%= list_class %>">
+    <% links.each do |link| %>
+      <li><%= link_to link[:text], link[:url], class: link[:class] || dropdown_item_class %></li>
+    <% end %>
+  </ul>
+</details>
