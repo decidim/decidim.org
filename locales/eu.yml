@@ -108,11 +108,11 @@ eu:
     partners: Tokiko inplementatzaileak
     read: Irakurri kasua
     subtitle: Stories about Decidim in the real world
-    target_public: Target public
-    testimonial: Testimonial
-    title: Case Studies
-    type_of_process: Type of process
-    use_cases_index_path: Back to use cases
+    target_public: Xede publikoa
+    testimonial: Lekukotza
+    title: Kasu-azterketak
+    type_of_process: Prozesu-mota
+    use_cases_index_path: Itzuli adibidetara
   community:
     banner:
       cta: Komunitatearen agenda kontsultatzea
@@ -256,20 +256,20 @@ eu:
         question: Zer da Decidim Elkarteko Erakunde Publikoen Batzordea?
       q28:
         answer: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework. [Check the steps to introduce yourself in the Decidim ecosystem.](/first-steps/)
-        question: How can I start?
+        question: Nola hasi behar dut?
       q29:
-        answer: The documentation site helps any individual or organization to understand Decidim. It’s a step by step guide on how to install, configure and develop Decidim on your own. [Check it out.](/documentation)
-        question: What 's the Decidim Documentation?
+        answer: Dokumentazio-guneak edozein norbanako edo erakunderi laguntzen dio Decidim ulertzen. Urratsez urratseko gida bat da, Decidim zure kabuz nola instalatu, konfiguratu eta garatu jakiteko. [Egiaztatu.](/documentation)
+        question: Zer da Decidim Dokumentazioa?
       q30:
         answer: Bere arkitektura modularrari eta logika eskalagarriari esker, era guztietako erakundeetan partaidetza demokratikorako sistema sendo bat konfigura dezakezu. Aukeratu zure beharretara hobekien egokitzen diren funtzioak eta pertsonalizatu zure partaidetza-prozesua.
-        question: Is Decidim customisable?
+        question: Decidim pertsonalizagarria da?
       q31:
-        answer: For contributing to the governance and product roadmap you should be a member of the Decidim Free Software Association. Even if you are an organisation or want to become an individual member [you can do so here checking the requirements.](https://meta.decidim.org/en/assemblies/the-association/f/1758)
-        question: How can I contribute to the governance and codebase of the project?
+        answer: Gobernantzaren eta produktuen bide-orrian laguntzeagatik, Decidim Software Librearen Elkarteko kide izan behar duzu. Nahiz eta erakunde bat izan edo banakako kide izan nahi baduzu, hemen egin dezakezu eskakizunak egiaztatuz.](https://meta.decidim.org/en/assemblies/the-association/f/1758)
+        question: Nola lagun dezaket proiektuaren gobernantzan eta kode-oinarrian?
       q32:
-        answer: That's fantastic! You can send us an email with all the information at <a href="mailto:hola@decidim.org">hola@decidim.org</a> or get in touch with us via our social media channels
-        question: I have deployed a Decidim instance and want to share it with you.
-    subtitle_html: If you can’t find your question answered below, contact us at %{email}
+        answer: Hori zoragarria da! <a href="mailto:hola@decidim.org">hola@decidim.org</a> helbidera mezu elektroniko bat bidal diezagukezu informazio guztiarekin, edo gurekin harremanetan jar zaitezke sare sozialetako gure kanalen bidez
+        question: Decidim instantzia bat zabaldu dut eta zurekin partekatu nahi dut.
+    subtitle_html: Ondoren erantzuten zaizun galdera aurkitzen ez baduzu, jar zaitez gurekin harremanetan %{email} helbidean
     title: FAQ-ak
     types:
       about: Decidim-i buruz
@@ -407,10 +407,10 @@ eu:
       title: Osagaiak
   filters:
     clear: Iragazkiak garbitu
-    no_results: No results found matching your filters.
-    region: Region
+    no_results: Ez da aurkitu zure iragazkiekin bat datorren emaitzarik.
+    region: Eskualdea
     title: Iragazkiak
-    type: Type
+    type: Mota
   first-steps:
     contributors:
       content: Kotizazio-jarraibideak egiaztatzea eta kodea finkatzen edo kudeatzen laguntzea.
@@ -603,16 +603,16 @@ eu:
     title: Buletina
   partners:
     cta:
-      button: See our partnership policy
-      title: Want to become a partner?
-    email_address: Email address
-    intro1: Decidim counts with a global network of official partner organisations that provide professional services for installing, managing, maintaining, and customising the platform, as well as consulting and strategic support to help you design the best digital participation experience for your organisation.
+      button: Ikus ezazu gure lankidetza-politika
+      title: Inplementatzailea izan nahi?
+    email_address: Helbide elektronikoa
+    intro1: Decidim-ek erakunde laguntzaile ofizialen sare global bat du, plataforma instalatzeko, kudeatzeko, mantentzeko eta pertsonalizatzeko zerbitzu profesionalak eskaintzen dituena, bai eta aholkularitza eta laguntza estrategikoa ere, zure erakunderako parte-hartze digitaleko esperientzia onena diseinatzen laguntzeko.
     intro2: Looking for the right partner to support your project? Explore our network of official service providers.
-    joined_at: Working with Decidim since
-    most_relevant_experiences: Most relevant experiences
-    read: See more
-    region: Region
-    subtitle: The professional community providing Decidim services
+    joined_at: Geroztik Decidim-ekin lanean
+    most_relevant_experiences: Esperientzia garrantzitsuenak
+    read: Gehiago ikusi
+    region: Eskualdea
+    subtitle: Decidim zerbitzuak ematen dituen komunitate profesionala
     title: Tokiko inplementatzaileak
     type_of_service_provider: Type of Service Provider
     website: Website
