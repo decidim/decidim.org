@@ -1,0 +1,82 @@
+<nav class="hidden md:flex md:flex-row items-center gap-8 flex-1 justify-center mx-auto">
+  <div class="flex flex-row items-center gap-8" data-accordion="header">
+
+    <details class="group relative">
+      <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500 rounded-t-sm">
+        <span><%= t("nav.product") %></span>
+        <span class="flex w-4 h-4 text-red-500">
+          <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
+          <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
+        </span>
+      </summary>
+      <nav class="text-red-500 absolute top-full left-0 bg-white shadow-lg min-w-[200px] p-2 space-y-0 opacity-100 group-open:border-b-2 group-open:border-red-500">
+        <%= link_to t("nav.first-steps"), "#{t(:path)}/first-steps", class: "block p-1 rounded hover:bg-red-100" %>
+        <%= link_to t("nav.features"), "#{t(:path)}/features", class: "block p-1 rounded hover:bg-red-100" %>
+        <%= link_to t("nav.modules"), "#{t(:path)}/modules", class: "block p-1 rounded hover:bg-red-100" %>
+        <%= link_to t("nav.docs.title"), "#{t(:path)}/documentation", class: "block p-1 rounded hover:bg-red-100" %>
+      </nav>
+    </details>
+
+    <details class="group relative">
+      <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500 rounded-t-sm">
+        <span><%= t("nav.in_use") %></span>
+        <span class="flex w-4 h-4 text-red-500">
+          <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
+          <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
+        </span>
+      </summary>
+      <nav class="text-red-500 absolute top-full left-0 bg-white shadow-lg min-w-[200px] p-2 space-y-0 opacity-100 group-open:border-b-2 group-open:border-red-500">
+        <%= link_to t("nav.used_by"), "#{t(:path)}/usedby", class: "block p-1 rounded hover:bg-red-100" %>
+        <%= link_to t("nav.installations"), "#{t(:path)}/installations", class: "block p-1 rounded hover:bg-red-100" %>
+        <%= link_to t("nav.case-studies"), "#{t(:path)}/case-studies", class: "block p-1 rounded hover:bg-red-100" %>
+      </nav>
+    </details>
+    <details class="group relative">
+      <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500 rounded-t-sm">
+        <span><%= t("nav.about_us") %></span>
+        <span class="flex w-4 h-4 text-red-500">
+          <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
+          <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
+        </span>
+      </summary>
+      <nav class="text-red-500 absolute top-full left-0 bg-white shadow-lg min-w-[200px] p-2 space-y-0 opacity-100 group-open:border-b-2 group-open:border-red-500">
+        <%= link_to t("nav.association"), "#{t(:path)}/about", class: "block p-1 rounded hover:bg-red-100" %>
+        <%= link_to t("nav.team"), "#{t(:path)}/team", class: "block p-1 rounded hover:bg-red-100" %>
+        <%= link_to t("nav.book"), "#{t(:path)}/book", class: "block p-1 rounded hover:bg-red-100" %>
+        <%= link_to t("nav.supporters"), "#{t(:path)}/supporters", class: "block p-1 rounded hover:bg-red-100" %>
+        <%= link_to t("nav.contact"), "#{t(:path)}/contact", class: "block p-1 rounded hover:bg-red-100" %>
+      </nav>
+    </details>
+
+    <details class="group relative">
+      <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500 rounded-t-sm">
+        <span><%= t("nav.community") %></span>
+        <span class="flex w-4 h-4 text-red-500">
+          <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
+          <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
+        </span>
+      </summary>
+      <nav class="text-red-500 absolute top-full left-0 bg-white shadow-lg min-w-[200px] p-2 space-y-0 opacity-100 group-open:border-b-2 group-open:border-red-500">
+        <%= link_to "Metadecidim", "#{t(:path)}/community", class: "block p-1 rounded hover:bg-red-100" %>
+        <%= link_to t("nav.partners"), "#{t(:path)}/partners", class: "block p-1 rounded hover:bg-red-100" %>
+      </nav>
+    </details>
+
+    <details class="group relative">
+      <summary class="flex items-center gap-2 py-0 px-2 cursor-pointer list-none transition group-open:font-bold group-open:bg-red-100 group-open:border-b-2 group-open:border-red-500 group-open:text-red-500 rounded-t-sm">
+        <span><%= t("nav.news") %></span>
+        <span class="flex w-4 h-4 text-red-500">
+          <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
+          <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
+        </span>
+      </summary>
+      <nav class="text-red-500 absolute top-full left-0 bg-white shadow-lg min-w-[200px] p-2 space-y-0 opacity-100 group-open:border-b-2 group-open:border-red-500">
+        <%= link_to t("nav.blog"), "#{t(:path)}/blog", class: "block p-1 rounded hover:bg-red-100" %>
+      </nav>
+    </details>
+  </div>
+</nav>
+<div class="hidden md:flex items-center gap-8 ml-auto">
+  <%= link_to t("demo.button"), "https://try.decidim.org/", target: "_blank", rel: "noopener noreferrer", class: "button inline-block text-center py-4" %>
+  <%= partial "/partials/language-selector" %>
+</div>
