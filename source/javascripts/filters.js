@@ -3,54 +3,57 @@
  * Initializes on DOM ready or immediately if document is already loaded.
  *
  * @example
- * <input type="text" data-cs-search placeholder="Search..." />
+ * <input type="text" data-filter-search placeholder="Search..." />
  *
- * <button data-cs-filter-toggle>
+ * <button data-filter-toggle>
  *   Filters
- *   <span data-cs-filter-badge class="hidden">0</span>
- *   <i data-cs-filter-arrow></i>
+ *   <span data-filter-badge class="hidden">0</span>
+ *   <i data-filter-arrow></i>
  * </button>
  *
- * <div data-cs-filter-dropdown>
- *   <div data-cs-filter-panel class="hidden">
- * <div data-cs-type-checkboxes></div>
- *     <div data-cs-region-checkboxes></div>
- *     <button data-cs-clear-filters class="hidden">Clear filters</button>
+ * <div data-filter-dropdown>
+ *   <div data-filter-panel class="hidden">
+ *     <div data-filter-type-checkboxes></div>
+ *     <div data-filter-region-checkboxes></div>
+ *     <button data-filter-clear class="hidden">Clear filters</button>
  *   </div>
  * </div>
  *
- * <div data-cs-active-chips></div>
+ * <div data-filter-chips></div>
  *
- * <div data-cs-grid>
- *   <div data-cs-card data-type="Case Study" data-region="Spain">...</div>
- *   <div data-cs-card data-type="White Paper" data-region="France">...</div>
+ * <div data-filter-grid data-filter-per-page="9">
+ *   <div data-filter-card data-type="Case Study" data-region="Spain">...</div>
+ *   <div data-filter-card data-type="White Paper" data-region="France">...</div>
  * </div>
  *
- * <div data-cs-no-results class="hidden">No results found.</div>
+ * <div data-filter-no-results class="hidden">No results found.</div>
  *
- * <div data-cs-pagination></div>
+ * <div data-filter-pagination></div>
  */
 
 /* eslint-disable max-lines */
-const caseStudyFilter = () => {
-  const CARDS_PER_PAGE = 6;
-  const grid = document.querySelector("[data-cs-grid]");
+const genericFilter = () => {
+  const grid = document.querySelector("[data-filter-grid]");
   if (!grid) {
     return;
   }
+  const parsedPerPage  = parseInt(grid.dataset.filterPerPage, 10);
+  const CARDS_PER_PAGE = Number.isFinite(parsedPerPage) && parsedPerPage > 0
+    ? parsedPerPage
+    : Infinity;
 
-  const searchInput      = document.querySelector("[data-cs-search]");
-  const filterToggle     = document.querySelector("[data-cs-filter-toggle]");
-  const filterPanel      = document.querySelector("[data-cs-filter-panel]");
-  const filterArrow      = document.querySelector("[data-cs-filter-arrow]");
-  const filterBadge      = document.querySelector("[data-cs-filter-badge]");
-  const clearBtn         = document.querySelector("[data-cs-clear-filters]");
-  const typeContainer    = document.querySelector("[data-cs-type-checkboxes]");
-  const regionContainer  = document.querySelector("[data-cs-region-checkboxes]");
-  const paginationEl     = document.querySelector("[data-cs-pagination]");
-  const noResultsEl      = document.querySelector("[data-cs-no-results]");
-  const chipsEl          = document.querySelector("[data-cs-active-chips]");
-  const allCards         = Array.from(grid.querySelectorAll("[data-cs-card]"));
+  const searchInput      = document.querySelector("[data-filter-search]");
+  const filterToggle     = document.querySelector("[data-filter-toggle]");
+  const filterPanel      = document.querySelector("[data-filter-panel]");
+  const filterArrow      = document.querySelector("[data-filter-arrow]");
+  const filterBadge      = document.querySelector("[data-filter-badge]");
+  const clearBtn         = document.querySelector("[data-filter-clear]");
+  const typeContainer    = document.querySelector("[data-filter-type-checkboxes]");
+  const regionContainer  = document.querySelector("[data-filter-region-checkboxes]");
+  const paginationEl     = document.querySelector("[data-filter-pagination]");
+  const noResultsEl      = document.querySelector("[data-filter-no-results]");
+  const chipsEl          = document.querySelector("[data-filter-chips]");
+  const allCards         = Array.from(grid.querySelectorAll("[data-filter-card]"));
 
   let currentPage = 1;
   let panelOpen   = false;
@@ -60,8 +63,8 @@ const caseStudyFilter = () => {
   const cssClasses = {
     pageActive: "w-9 h-9 rounded-full bg-red-100 text-red-500 font-semibold text-sm flex items-center justify-center",
     pageInactive: "w-9 h-9 rounded-full text-red-500 font-medium text-sm flex items-center justify-center hover:bg-gray-100 transition-colors",
-    prev: "flex items-center gap-2 px-5 py-2 rounded-lg border-2 border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors mr-3",
-    next: "flex items-center gap-2 px-5 py-2 rounded-lg border-2 border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors ml-3",
+    prev: "flex items-center gap-2 px-5 py-2 rounded-lg border border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors mr-3",
+    next: "flex items-center gap-2 px-5 py-2 rounded-lg border border-red-400 text-red-500 font-medium text-sm hover:bg-red-50 transition-colors ml-3",
     ellipsis: "w-9 h-9 flex items-center justify-center text-gray-400 text-sm",
     chip: "inline-flex items-center gap-1 border border-gray-100 bg-gray-100 rounded-lg px-3 py-1 par-sm font-bold text-gray-500",
     chipX: "pl-1 text-2xl font-bold text-gray-400 hover:text-gray-700 leading-none",
@@ -76,7 +79,9 @@ const caseStudyFilter = () => {
   };
 
   const uniqueSorted = (attr) => {
-    return [...new Set(allCards.map((c) => c.dataset[attr]).filter(Boolean))].sort();
+    return [...new Set(
+      allCards.flatMap((c) => (c.dataset[attr] || "").split(" | ").filter(Boolean))
+    )].sort();
   };
 
   const setPanel = (open) => {
@@ -94,8 +99,11 @@ const caseStudyFilter = () => {
     const typesActive     = Object.keys(activeTypes).length > 0;
     const regionsActive = Object.keys(activeRegions).length > 0;
     return allCards.filter((c) => {
-      if (typesActive && !activeTypes[c.dataset.type]) {
-        return false;
+      if (typesActive) {
+        const cardTypes = (c.dataset.type || "").split(" | ").filter(Boolean);
+        if (!cardTypes.some((t) => activeTypes[t])) {
+          return false;
+        }
       }
       if (regionsActive && !activeRegions[c.dataset.region]) {
         return false;
@@ -168,7 +176,7 @@ const caseStudyFilter = () => {
 
     if (currentPage > 1) {
       appendBtn({
-        label: "Prev <i class=\"ri-arrow-left-line text-xl\"></i>",
+        label: "<svg class=\"w-5 h-5\" fill=\"currentColor\"><use xlink:href=\"/images/remixicon.symbol.svg#ri-arrow-left-line\"></use></svg> Prev",
         ariaLabel: "Previous page",
         onClick: () => filter.goToPage(currentPage - 1),
         cls: cssClasses.prev
@@ -203,7 +211,7 @@ const caseStudyFilter = () => {
 
     if (currentPage < totalPages) {
       appendBtn({
-        label: "Next <i class=\"ri-arrow-right-line text-xl\"></i>",
+        label: "Next <svg class=\"w-5 h-5\" fill=\"currentColor\"><use xlink:href=\"/images/remixicon.symbol.svg#ri-arrow-right-line\"></use></svg>",
         ariaLabel: "Next page",
         onClick: () => filter.goToPage(currentPage + 1),
         cls: cssClasses.next
@@ -213,12 +221,20 @@ const caseStudyFilter = () => {
 
   const render = () => {
     const filtered   = getFilteredCards();
-    const totalPages = Math.max(1, Math.ceil(filtered.length / CARDS_PER_PAGE));
+    const isAll = CARDS_PER_PAGE === Infinity;
+    const totalPages = isAll
+      ? 1
+      : Math.max(1, Math.ceil(filtered.length / CARDS_PER_PAGE));
+
     if (currentPage > totalPages) {
       currentPage = totalPages;
     }
-    const start = (currentPage - 1) * CARDS_PER_PAGE;
-    const end   = start + CARDS_PER_PAGE;
+    const start = isAll
+      ? 0
+      : (currentPage - 1) * CARDS_PER_PAGE;
+    const end   = isAll
+      ? filtered.length
+      : start + CARDS_PER_PAGE;
     allCards.forEach((c) => {
       c.style.display = "none";
     });
@@ -276,7 +292,7 @@ const caseStudyFilter = () => {
   });
 
   document.addEventListener("click", (e) => {
-    if (panelOpen && !document.querySelector("[data-cs-filter-dropdown]")?.contains(e.target)) {
+    if (panelOpen && !document.querySelector("[data-filter-dropdown]")?.contains(e.target)) {
       setPanel(false);
     }
   });
@@ -300,7 +316,7 @@ const caseStudyFilter = () => {
 };
 
 if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", caseStudyFilter);
+  document.addEventListener("DOMContentLoaded", genericFilter);
 } else {
-  caseStudyFilter();
+  genericFilter();
 }
