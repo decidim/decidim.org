@@ -56,7 +56,7 @@ description:
 
       <% if data.media.length > 5 %>
         <details class="list-none group flex flex-col">
-          <summary class="flex items-center gap-2 text-red-500 font-medium hover:opacity-80 cursor-pointer pb-6 group-open:order-last">
+          <summary class="flex items-center gap-2 text-red-500 font-medium hover:opacity-80 cursor-pointer pb-6 md:pt-0 pt-5 group-open:order-last">
             <span><%= t("press.view_more") %></span>
             <div class="transition-transform duration-300 group-open:rotate-180">
               <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 no-toggle" %>
