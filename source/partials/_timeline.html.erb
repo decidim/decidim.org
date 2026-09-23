@@ -20,7 +20,7 @@
             </div>
           <% end %>
           <div class="absolute left-0 right-0 flex justify-center top-[210px]">
-            <span class="text-lg font-bold text-red-500 leading-tight"><%= item[:year] %></span>
+            <span class="text-lg font-bold text-red-900 leading-tight"><%= item[:year] %></span>
           </div>
           <div class="absolute left-0 right-0 flex justify-center top-[250px] -translate-y-1/2">
             <%= image_tag "timeline_point.svg", class: "w-auto flex-shrink-0", aria: { hidden: true } %>
@@ -59,7 +59,7 @@
         </div>
 
         <div class="pb-2 -mt-1 relative z-10">
-          <span class="block text-xl font-bold text-red-500 leading-none pt-1 pb-2"><%= item[:year] %></span>
+          <span class="block text-xl font-bold text-red-900 leading-none pt-1 pb-2"><%= item[:year] %></span>
           <p class="text-sm leading-relaxed">
             <%= (item[:above].presence || item[:below]).html_safe %>
           </p>

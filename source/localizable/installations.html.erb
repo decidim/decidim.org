@@ -16,7 +16,7 @@ description:
         <%= t("installations.intro") %>
       </div>
       <p class="md:pt-5 pt-4 md:pb-0 pb-10 par-md">
-        <a href="/uploads/installations.csv" download class="text-red-500 inline-flex items-center gap-2">
+        <a href="/uploads/installations.csv" download class="text-red-900 inline-flex items-center gap-2">
           <span class="md:hidden"><%= t("installations.download_csv_short") %></span>
           <span class="hidden md:inline"><%= t("installations.download_csv") %></span>
           <%= icon("ri-download-line", class: "w-6 h-6 shrink-0") %>
@@ -42,7 +42,7 @@ description:
 
     <ul role="tablist" aria-label="<%= t('installations.title') %>" class="flex items-center gap-3 md:gap-4 flex-wrap md:pt-6 mb-8 md:mb-16">
       <% filters.each_with_index do |filter, i| %>
-        <li id="used-by-tab-f<%= i %>" role="tab" aria-selected="<%= i == 0 %>" aria-controls="used-by-panel-f<%= i %>" tabindex="<%= i == 0 ? 0 : -1 %>" class="flex items-center px-4 py-2 rounded-xl text-red-500 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="f<%= i %>">
+        <li id="used-by-tab-f<%= i %>" role="tab" aria-selected="<%= i == 0 %>" aria-controls="used-by-panel-f<%= i %>" tabindex="<%= i == 0 ? 0 : -1 %>" class="flex items-center px-4 py-2 rounded-xl text-red-900 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="f<%= i %>">
           <span class="par-md whitespace-nowrap">
             <%= t("used_by.filters.f#{i}") %>
           </span>

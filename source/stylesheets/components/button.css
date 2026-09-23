@@ -11,7 +11,7 @@
   }
 
   &.hollow {
-    @apply bg-transparent border text-red-500;
+    @apply bg-transparent border text-red-900;
 
     &:active,
     &:hover {

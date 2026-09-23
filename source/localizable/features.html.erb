@@ -28,7 +28,7 @@ description:
     <div class="hidden md:block border-gray-100" data-tabs="features">
       <ul role="tablist" class="flex items-center space-x-4 py-10">
         <% data.features.spaces.each_with_index do |use, i| %>
-          <li role="tab" tabindex="0" class="items-center px-4 py-2 rounded-xl text-red-500 bg-red-100 outline-offset-[-1px] hover:text-white hover:bg-red-500 flex gap-2 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
+          <li role="tab" tabindex="0" class="items-center px-4 py-2 rounded-xl text-red-900 bg-red-100 outline-offset-[-1px] hover:text-white hover:bg-red-500 flex gap-2 transition cursor-pointer <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
             <%= icon use.icon, class: "w-5 h-5" %>
             <span class="par-md">
               <%= t("features.page.#{use.id}.title") %>
@@ -57,7 +57,7 @@ description:
     <div class="md:hidden mt-6 flex flex-col" data-tabs="features-mobile">
       <ul role="tablist" class="flex items-center gap-2">
         <% data.features.spaces.each_with_index do |use, i| %>
-          <li role="tab" tabindex="0" class="flex items-center gap-2 px-3 py-2.5 rounded-xl text-red-500 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer flex-shrink-0 <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
+          <li role="tab" tabindex="0" class="flex items-center gap-2 px-3 py-2.5 rounded-xl text-red-900 bg-red-100 hover:text-white hover:bg-red-500 transition cursor-pointer flex-shrink-0 <%= 'is-selected' if i == 0 %>" data-tab-id="<%= use.id %>">
             <%= icon use.icon, class: "w-5 h-5 flex-shrink-0" %>
             <span class="par-sm tab-title">
               <%= t("features.page.#{use.id}.title") %>
@@ -89,7 +89,7 @@ description:
 
 <section class="bg-red-100">
   <div class="container py-10 md:py-16">
-    <h2 class="h2 text-red-500">
+    <h2 class="h2 text-red-900">
       <%= t("features.section4.title") %>
     </h2>
     <div class="inline-flex flex-col md:flex-row gap-4 par-md md:pt-10 pt-5">

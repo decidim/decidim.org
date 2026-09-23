@@ -1,6 +1,6 @@
 [data-tabs] {
   [data-tab-id].is-selected {
-    @apply md:text-red-500;
+    @apply md:text-red-900;
 
     > :last-child {
       @apply block;
