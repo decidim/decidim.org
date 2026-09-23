@@ -111,7 +111,7 @@ description:
               <%= icon "ri-calendar-line", class: "text-gray-500 mr-2 w-5 h-5" %>
               <p class="par-sm text-gray-500"><%= edition.date %></p>
             </div>
-            <%= partial "partials/arrow-link", locals: { text: t("community.fest_editions.cta"), url: edition.link } %>
+            <%= partial "partials/arrow-link", locals: { text: t("community.fest_editions.cta"), url: edition.link, classes: "text-red-900" } %>
           </div>
         </div>
       <% end %>
