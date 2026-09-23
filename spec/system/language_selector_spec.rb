@@ -50,6 +50,6 @@ RSpec.describe "language selector", type: :feature do
       click_link "English", visible: false
     end
 
-    expect(page).to have_content "Decidim is a digital platform for citizen participation"
+    expect(page).to have_content "A digital platform for participation and community governance."
   end
 end
