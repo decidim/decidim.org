@@ -1,9 +1,9 @@
 .button {
-  @apply text-white bg-red-500 px-4 py-2 rounded-xl transition cursor-pointer;
+  @apply text-white bg-red-900 px-4 py-2 rounded-xl transition cursor-pointer;
 
   &:active,
   &:hover {
-    @apply bg-red-900;
+    @apply bg-white text-red-900 outline outline-1 outline-red-900;
   }
 
   &.small {
