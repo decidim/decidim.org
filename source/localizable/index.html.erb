@@ -5,7 +5,7 @@ pageClass: home
 <section>
   <div class="bg-cover bg-center xl:bg-[position:center_20%] 2xl:bg-[position:center_25%] bg-no-repeat hero">
     <div class="container pt-32 md:pt-56 pb-12 md:pb-16">
-      <div class="md:bg-red-500 md:p-8 text-white rounded-xl md:w-1/2">
+      <div class="md:bg-red-900 md:p-8 text-white rounded-xl md:w-1/2">
         <h1 class="h2"><%= t("index.hero.subheading") %></h1>
         <p class="par-md mt-6"><%= t("index.hero.intro") %></p>
       </div>
@@ -95,8 +95,8 @@ pageClass: home
 <section>
   <div class="container py-12 md:py-32">
     <div class="flex items-end space-x-2">
-      <h6 class="h6 text-white bg-red-500 px-4 py-2 rounded-xl"><%= t("blog.latest") %></h6>
-      <span class="w-4 h-4 rounded-full bg-red-500"></span>
+      <h6 class="h6 text-white bg-red-900 px-4 py-2 rounded-xl"><%= t("blog.latest") %></h6>
+      <span class="w-4 h-4 rounded-full bg-red-900"></span>
     </div>
     <div class="flex flex-col md:flex-row gap-6 mt-4">
       <% blog(:blog).articles.take(2)&.each do |article| %>
