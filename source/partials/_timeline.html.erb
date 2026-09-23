@@ -4,7 +4,7 @@
     <div class="relative flex h-[500px] w-full">
 
       <div class="absolute left-0 right-0 pointer-events-none z-0 top-[250px] -translate-y-1/2">
-        <%= image_tag "timeline_arrow.svg", class: "w-full h-auto", aria: { hidden: true } %>
+        <%= image_tag "timeline-arrow-red-900.svg", class: "w-full h-auto", aria: { hidden: true } %>
       </div>
 
       <% t("about.history.timeline").each do |item| %>
@@ -16,18 +16,18 @@
           <% end %>
           <% if item[:above].present? %>
             <div class="absolute left-0 right-0 flex justify-center bottom-[290px]">
-              <%= image_tag "timeline_line.svg", class: "w-auto rotate-180", aria: { hidden: true } %>
+              <%= image_tag "timeline-line-red-900.svg", class: "w-auto rotate-180", aria: { hidden: true } %>
             </div>
           <% end %>
           <div class="absolute left-0 right-0 flex justify-center top-[210px]">
             <span class="text-lg font-bold text-red-900 leading-tight"><%= item[:year] %></span>
           </div>
           <div class="absolute left-0 right-0 flex justify-center top-[250px] -translate-y-1/2">
-            <%= image_tag "timeline_point.svg", class: "w-auto flex-shrink-0", aria: { hidden: true } %>
+            <%= image_tag "timeline-point-red-900.svg", class: "w-auto flex-shrink-0", aria: { hidden: true } %>
           </div>
           <% if item[:below].present? %>
             <div class="absolute left-0 right-0 flex justify-center top-[265px]">
-              <%= image_tag "timeline_line.svg", class: "w-auto", aria: { hidden: true } %>
+              <%= image_tag "timeline-line-red-900.svg", class: "w-auto", aria: { hidden: true } %>
             </div>
           <% end %>
           <% if item[:below].present? %>
@@ -48,13 +48,13 @@
       <% is_last = index == timeline.length - 1 %>
       <div class="relative flex gap-4 pb-8 last:pb-0">
         <% unless is_last %>
-          <div class="absolute left-3 -translate-x-1/2 top-6 bottom-0 w-[1px] bg-red-500 z-0"></div>
+          <div class="absolute left-3 -translate-x-1/2 top-6 bottom-0 w-[1px] bg-red-900 z-0"></div>
         <% end %>
 
         <div class="relative flex-shrink-0 w-6 z-10">
-          <%= image_tag "timeline_point.svg", class: "w-6 h-6", aria: { hidden: true } %>
+          <%= image_tag "timeline-point-red-900.svg", class: "w-6 h-6", aria: { hidden: true } %>
           <% if is_last %>
-            <%= image_tag "timeline_arrow_down.svg", class: "w-40 h-32", aria: { hidden: true } %>
+            <%= image_tag "timeline-arrow-down-red-900.svg", class: "w-40 h-32", aria: { hidden: true } %>
           <% end %>
         </div>
 
