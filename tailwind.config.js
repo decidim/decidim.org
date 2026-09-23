@@ -1,4 +1,7 @@
-module.exports = {
+import typography from "@tailwindcss/typography";
+import lineClamp from "@tailwindcss/line-clamp";
+
+export default {
   content: ["./source/**/*.{html,js,erb}"],
   safelist: [
     "prose-li:!mt-0",
@@ -53,7 +56,7 @@ module.exports = {
           "8%": { opacity: 1, transform: "translate3d(0, calc(-100% * var(--translate-ix)), 0)" },
           "10%": { opacity: 0, transform: "translate3d(0, calc(-100% - (100% * var(--translate-ix))), 0)" },
           "100%": { opacity: 0, transform: "translate3d(0, calc(-100% - (100% * var(--translate-ix))), 0)" }
-        },
+        }
       },
       animation: {
         "fade-in": "fadeIn 0.3s ease-in-out forwards",
@@ -64,7 +67,5 @@ module.exports = {
       }
     }
   },
-  plugins: [require("@tailwindcss/typography"),
-    require("@tailwindcss/line-clamp")
-  ]
+  plugins: [typography, lineClamp]
 };
