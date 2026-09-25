@@ -30,9 +30,9 @@ You can check all the PRs related:
 
 A series of improvements have been made to enhance the new election component, including the ability for participants to verify whether they are on the census before starting the election.
 
-- ![Banner detailing election settings within the component](/uploads/blog-032-03-banner.png)
+![Banner detailing election settings within the component](/uploads/blog-032-03-banner.png)
 
-Add “Maximum choices” field for Election questions [#15318](https://github.com/decidim/decidim/pull/15318)
+- Add “Maximum choices” field for Election questions [#15318](https://github.com/decidim/decidim/pull/15318)
 
 - Add pre-election census check for scheduled elections [#15329](https://github.com/decidim/decidim/pull/15329)
 - Display the description of each question in the voting booth [#15324](https://github.com/decidim/decidim/pull/15324)
