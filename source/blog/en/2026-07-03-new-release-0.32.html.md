@@ -1,9 +1,10 @@
 ---
-title: New release 0.32.
-tags: ''
+title: New release 0.32
+gallery:
+  - image: /uploads/blog-032-01-banner.png
+    alt: 'A screenshot of the Metadecidim website homepage next to a black box with the Decidim logo announcing: "Decidim v0.32 is here! New navigation menu, improvements to elections, smarter content sorting, better comments performance and an upgrade to Rails 8.1"'
+tags: Releases
 ---
-
-![](/uploads/Post%20LinkedIn%2834%29.png)
 
 ## Improvements to existing features
 
@@ -11,7 +12,7 @@ tags: ''
 
 This version's headline feature is a redesigned navigation system, built to make in-depth browsing within Decidim easier and more intuitive. The upgrade centers on two major improvements: a new menu for both desktop and mobile, and a redesigned breadcrumb trail that helps users track where they are within a participatory space.
 
-![](/uploads/Frame%201%285%29.png)
+![Decidim 0.32 redesigned navigation menu and breadcrumb trail](/uploads/blog-032-02-banner.png)
 
 You can check all the PRs related:
 
@@ -29,9 +30,9 @@ You can check all the PRs related:
 
 A series of improvements have been made to enhance the new election component, including the ability for participants to verify whether they are on the census before starting the election.
 
-- ![](/uploads/Release%20Party%20-%2014_05_2026%283%29.png)
+![Banner detailing election settings within the component](/uploads/blog-032-03-banner.png)
 
-Add “Maximum choices” field for Election questions [#15318](https://github.com/decidim/decidim/pull/15318)
+- Add “Maximum choices” field for Election questions [#15318](https://github.com/decidim/decidim/pull/15318)
 
 - Add pre-election census check for scheduled elections [#15329](https://github.com/decidim/decidim/pull/15329)
 - Display the description of each question in the voting booth [#15324](https://github.com/decidim/decidim/pull/15324)
