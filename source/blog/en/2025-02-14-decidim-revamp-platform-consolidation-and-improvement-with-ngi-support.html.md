@@ -2,7 +2,7 @@
 title: 'Decidim Revamp: Platform Consolidation and Improvement with NGI Support'
 gallery:
   - image: /uploads/blog-revamp-01-banner.png
-    alt: 'Banner for the decidim revamp'
+    alt: 'Decidim, NLnet Foundation, and NGI Zero Core logos on a red background with text reading "Decidim Revamp: Platform Consolidation and Improvement with NGI Support." Below, black-and-white photos of several people speaking into microphones are layered over colorful abstract shapes.'
 tags: Product
 ---
 

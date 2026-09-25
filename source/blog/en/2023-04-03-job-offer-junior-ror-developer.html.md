@@ -2,7 +2,7 @@
 title: 'Job offer: Junior RoR developer'
 gallery:
   - image: /uploads/blog-RoR-01-banner.png
-    alt: 'Banner for a junior RoR developer'
+    alt: 'Yellow and orange graphic featuring the Decidim logo and the text ‘Job Offer: Junior RoR developer’.'
 tags: Announcements
 ---
 

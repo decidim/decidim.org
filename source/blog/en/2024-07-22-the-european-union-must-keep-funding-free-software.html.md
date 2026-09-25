@@ -2,7 +2,7 @@
 title: The European Union must keep funding free software
 gallery:
   - image: /uploads/blog-EU-01-banner.png
-    alt: 'Banner for EU free software sovereignty'
+    alt: 'Red promotional graphic with abstract geometric and patterned shapes. Centered white text reads, “The European Union must keep funding free software,” with the Decidim logo below.'
 tags: Opinion
 ---
 

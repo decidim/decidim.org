@@ -2,7 +2,7 @@
 title: Decidim Wins the Pizzigati Prize for Software in the Public Interest
 gallery:
   - image: /uploads/blog-pizzigati-01-banner.png
-    alt: 'Banner highlighting Decidim winning the Pizzigati prize'
+    alt: 'Decidim logo on a red background with abstract pink leaf-like shapes and white dots. Text reads: "Decidim has been awarded with the Pizzigati Prize for Software in the Public Interest" with the NTEN logo below.'
 tags: Announcements
 ---
 

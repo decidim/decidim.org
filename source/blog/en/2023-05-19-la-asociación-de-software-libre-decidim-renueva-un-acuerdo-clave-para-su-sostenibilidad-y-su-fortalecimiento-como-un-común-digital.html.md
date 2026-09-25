@@ -2,7 +2,7 @@
 title: The Decidim Free Software Association renews a key agreement for its sustainability and its strengthening as a digital commons
 gallery:
   - image: /uploads/blog-agreement-01-banner.png
-    alt: 'Banner for agreement on sustainbility and strenghing digital commons'
+    alt: 'Decidim logo on a red background with abstract pink leaf-like shapes and white dots. Text reads: "The Decidim Free Software Association renews a key agreement for its sustainability and its strengthening as a digital commons."'
 tags: Announcements
 ---
 

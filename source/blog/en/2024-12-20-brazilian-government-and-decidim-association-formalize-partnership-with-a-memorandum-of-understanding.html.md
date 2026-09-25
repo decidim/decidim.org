@@ -2,11 +2,11 @@
 title: Brazilian Government and Decidim Association Formalize Partnership with a Memorandum of Understanding
 gallery:
   - image: /uploads/blog-brazil-01-banner.jpg
-    alt: 'MOU signature banner'
+    alt: 'Text reading "Memorandum of Understanding" above a white banner showing the Decidim logo and the Brazilian federal governments "Governo Federal Brasil, União e Reconstrução" logo, set against a brown patterned background.'
   - image: /uploads/blog-brazil-02-banner.jpg
-    alt: 'Close up of the MOU being signed'
+    alt: 'A man in a dark suit signs a document at a wooden desk while a woman in a black dress watches, with another person partially visible to the left. A framed portrait hangs on the wall behind them'
   - image: /uploads/blog-brazil-03-banner.jpg
-    alt: 'Group photo of the MOU attendees'
+    alt: 'A group of ten people stand smiling behind a wooden conference table in a meeting room, with two people in the center holding up signed documents.'
 tags: Announcements
 website: https://meta.decidim.org/en/processes/news/f/1719/posts/362?commentId=27277
 website_link_text: Read the text of the MOU here

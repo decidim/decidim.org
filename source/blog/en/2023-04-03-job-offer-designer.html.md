@@ -2,7 +2,7 @@
 title: 'Job offer: Designer'
 gallery:
   - image: /uploads/blog-designer-01-banner.png
-    alt: 'Banner for job offer for a designer'
+    alt: 'Yellow and orange graphic featuring the Decidim logo and the text ‘Job Offer: Designer’.'
 tags: Announcements
 ---
 

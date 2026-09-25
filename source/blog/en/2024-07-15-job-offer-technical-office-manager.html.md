@@ -2,7 +2,7 @@
 title: 'Job offer: Technical Office Manager'
 gallery:
   - image: /uploads/blog-OT-01-banner.png
-    alt: 'Banner for technical office manager job offer'
+    alt: 'Yellow and orange abstract background with the Decidim logo and text reading "Job Offer: Technical Office Manager".'
 tags: Announcements
 ---
 

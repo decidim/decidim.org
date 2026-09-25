@@ -2,7 +2,7 @@
 title: "Nos infrastructures démocratiques ne peuvent pas être propriétaires : à propos de l'acquisition d'Open Source Politics"
 gallery:
   - image: /uploads/blog-OSP-01-banner.png
-    alt: 'Banner photo on free open source democratic infrastructures'
+    alt: 'Red abstract background with black and pink circles and geometric patterns, text reading "Democratic infrastructure cannot be proprietary: A statement on Open Source Politics acquisition" and the Decidim logo.'
 tags: Opinion
 ---
 

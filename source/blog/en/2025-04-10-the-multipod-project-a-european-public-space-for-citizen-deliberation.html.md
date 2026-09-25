@@ -1,8 +1,8 @@
 ---
 title: 'The MultiPoD project: A European Public Space for Citizen Deliberation'
 gallery:
-  - image: /uploads/img-20241210-wa0022.jpg
-    alt: 'Banner for the European Multipod project'
+  - image: /uploads/blog-multipod-banner.jpg
+    alt: 'A group of about fifteen people pose together indoors beneath a decorative round ceiling fixture with hanging light bulbs, with a "Future Health Lab" backdrop visible on the right.'
 tags: Project
 ---
 

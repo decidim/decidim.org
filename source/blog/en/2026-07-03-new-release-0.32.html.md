@@ -2,7 +2,7 @@
 title: New release 0.32
 gallery:
   - image: /uploads/blog-032-01-banner.png
-    alt: 'New version update banner'
+    alt: 'A screenshot of the Metadecidim website homepage next to a black box with the Decidim logo announcing: "Decidim v0.32 is here! New navigation menu, improvements to elections, smarter content sorting, better comments performance and an upgrade to Rails 8.1"'
 tags: Releases
 ---
 

@@ -2,7 +2,7 @@
 title: 'Oferta de feina: Dissenyadora UX/UI'
 gallery:
   - image: /uploads/blog-UX-01-banner.png
-    alt: 'Banner for UX designer job offer'
+    alt: 'Yellow promotional graphic advertising a UX/UI designer job opening. The text reads “Oferta de feina: Dissenyadora UX/UI,” with the Decidim logo below, on an abstract yellow and brown background with white decorative patterns.'
 tags: Announcements
 ---
 

@@ -2,7 +2,7 @@
 title: 'Decidim Book: a gift for our 7th Anniversary'
 gallery:
   - image: /uploads/blog-book-01-banner.png
-    alt: 'Banner for the decidim book on 7th anniversary'
+    alt: 'Promotional graphic for the book Decidim, a Technopolitical Network for Participatory Democracy. The book is shown in print and on a tablet, alongside a black panel reading “Decidim Book” with the Decidim logo, against a blue patterned background with red and purple geometric shapes.'
 tags: Announcements
 ---
 

@@ -2,9 +2,9 @@
 title: The Decidim Swiss Local Chapter Is Born
 gallery:
   - image: /uploads/blog-switzerland-01-banner.jpg
-    alt: 'Group photo of the swiss local chapter'
+    alt: 'A group of people pose together on a European street lined with historic buildings and cafes, with three people crouched in front holding a document.'
   - image: /uploads/blog-switzerland-02-banner.jpg
-    alt: 'Photo of the swiss chapters first general assembly'
+    alt: 'Attendees raise their hands to vote during a "Founding Assembly" meeting, with a presentation slide projected on screen and two men standing at the front of the stone-walled room.'
 tags: Announcements
 ---
 

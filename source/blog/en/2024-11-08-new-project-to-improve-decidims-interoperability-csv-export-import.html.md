@@ -2,7 +2,7 @@
 title: "New project to improve Decidim's interoperability: CSV Export/Import"
 gallery:
   - image: /uploads/blog-metagov-01-banner.png
-    alt: 'Banner for new decidim metagov annoucement'
+    alt: 'Decidim and Metagov logos on a red background with text reading "New project to improve Decidims interoperability: CSV Export/Import." Below, black-and-white photos of several people speaking into microphones are layered over colorful abstract shapes.'
 tags: Project
 ---
 

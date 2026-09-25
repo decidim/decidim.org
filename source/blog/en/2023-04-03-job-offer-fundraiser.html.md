@@ -2,7 +2,7 @@
 title: 'Job offer: Fundraiser'
 gallery:
   - image: /uploads/blog-fundraiser-01-banner.png
-    alt: 'Banner for a fundrasier job offer'
+    alt: 'Yellow and orange graphic featuring the Decidim logo and the text ‘Job Offer: Fundraiser’.'
 tags: Announcements
 ---
 

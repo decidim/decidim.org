@@ -2,9 +2,9 @@
 title: Decidim arrives in Mozambique
 gallery:
   - image: /uploads/blog-mozambique-01-banner.png
-    alt: Decidim arrives in Mozambique
+    alt: 'Red abstract background with black and pink circles and geometric patterns, text reading "Decidim arrives in Mozambique" and the Decidim logo.'
   - image: /uploads/blog-mozambique-02-banner.jpeg
-    alt: Picture of the IMD team with Decidim in a room
+    alt: 'A group of people sit around a conference table with laptops and water bottles during a training session, with a screen in the background displaying "Treinamento em gestão de plataformas para IMD e MASC" (Portuguese for platform management training for IMD and MASC).'
 tags: Project
 ---
 

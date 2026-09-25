@@ -2,7 +2,7 @@
 title: Job Offer - Communications Coordinator
 gallery:
   - image: /uploads/blog-communication-01-banner.png
-    alt: 'Banner for communication manager job offer'
+    alt: 'Yellow and orange abstract background with the Decidim logo and text reading "Job Offer: Communication and Community Coordinator."'
 tags: Announcements
 ---
 

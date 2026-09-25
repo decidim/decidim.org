@@ -2,7 +2,7 @@
 title: Decidim is recognized as a Digital Public Good
 gallery:
   - image: /uploads/blog-DPG-01-banner.png
-    alt: 'Banner for dpg recognition'
+    alt: 'Decidim logo on a red background with abstract pink leaf-like shapes and white dots. Text reads: "Decidim has been recognized as a Digital Public Good."'
 tags: Announcements
 ---
 

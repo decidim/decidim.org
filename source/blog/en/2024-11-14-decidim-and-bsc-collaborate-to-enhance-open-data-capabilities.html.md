@@ -2,7 +2,7 @@
 title: Decidim and BSC collaborate to enhance Open Data capabilities
 gallery:
   - image: /uploads/blog-bsc-banner.jpg
-    alt: 'Banner for Decidim and BSC collaboration'
+    alt: 'White banner with the Barcelona Supercomputing Center, Y-CITY, and Decidim logos, set against a red and orange patterned background'
 tags: Project
 ---
 
