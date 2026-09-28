@@ -10,7 +10,7 @@ local_backend: true
 backend:
   name: github
   repo: decidim/decidim.org
-  branch: main
+  branch: news/presskit
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
@@ -114,7 +114,7 @@ collections:
     label: "Post"
     folder: "source/blog/en"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    summary: "{{title}} -- {{year}}-{{month}}-{{day}}"
+    summary: "{{title}}"
     extension: "html.md"
     format: "yaml-frontmatter"
     create: true
@@ -186,8 +186,11 @@ collections:
     format: yml
     extension: yml
     folder: data/media/
+    identifier_field: title
+    sortable_fields: ["date"]
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "URL", name: "url", widget: "string", required: true}
-      - {label: "Source", name: "source", widget: "string", required: true}
+      - {label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, required: true, hint: "Publication date. Recents are shown first."}
+      - {label: "URL", name: "url", widget: "string", type: "url", required: true, hint: "Link to the article"}
+      - {label: "Source", name: "source", widget: "string", required: true, hint: "Name of the publication, e.g. La Vanguardia"}
