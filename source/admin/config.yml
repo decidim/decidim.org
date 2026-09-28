@@ -191,6 +191,6 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, required: true, hint: "Publication date. Recents are shown first."}
+      - {label: "Date", name: "date", widget: "datetime", required: true, hint: "Publication date. Most recent are shown first."}
       - {label: "URL", name: "url", widget: "string", type: "url", required: true, hint: "Link to the article"}
       - {label: "Source", name: "source", widget: "string", required: true, hint: "Name of the publication, e.g. La Vanguardia"}
