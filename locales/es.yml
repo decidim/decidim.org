@@ -269,7 +269,7 @@ es:
       q32:
         answer: That's fantastic! You can send us an email with all the information at <a href="mailto:hola@decidim.org">hola@decidim.org</a> or get in touch with us via our social media channels
         question: I have deployed a Decidim instance and want to share it with you.
-    subtitle_html: If you can’t find your question answered below, contact us at %{email}
+    subtitle_html: Si no encuentras respuesta a tu pregunta, escríbenos a %{email}
     title: FAQs
     types:
       about: Quiénes somos
@@ -410,7 +410,7 @@ es:
     no_results: No results found matching your filters.
     region: Region
     title: Filters
-    type: Type
+    type: Tipo
   first-steps:
     contributors:
       content: Check the contribution guidelines and collaborate in fixing or managing the code.
