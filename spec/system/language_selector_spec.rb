@@ -22,31 +22,23 @@ RSpec.describe "language selector", type: :feature do
   end
 
   it "displays Castellano in the language selector" do
-    within "nav details" do
-      expect(page).to have_text "Castellano"
-    end
+    expect(page).to have_css "details.no-animate", text: "Castellano"
   end
 
   it "displays Català in the language selector" do
-    within "nav details" do
-      expect(page).to have_text "Català"
-    end
+    expect(page).to have_css "details.no-animate", text: "Català"
   end
 
   it "displays English in the language selector" do
-    within "nav details" do
-      expect(page).to have_text "English"
-    end
+    expect(page).to have_css "details.no-animate", text: "English"
   end
 
   it "displays Français in the language selector" do
-    within "nav details" do
-      expect(page).to have_text "Français"
-    end
+    expect(page).to have_css "details.no-animate", text: "Français"
   end
 
   it "changes the locale to English when clicked" do
-    within "nav details" do
+    within first("details.no-animate") do
       click_link "English", visible: false
     end
 
