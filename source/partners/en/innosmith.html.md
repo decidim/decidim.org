@@ -1,5 +1,5 @@
 ---
-date: 2026-07-14T16:07:00
+date: 2026-02-10T16:07:00
 name: InnoSmith
 subtitle: InnoSmith is a Swiss-based boutique consultancy specializing in digital co-creation and e-participation. We bridge the gap between organizational strategy and technical execution. As expert participation consultants, we focus on strategic process design, platform configuration, and coaching. We ensure that Decidim is not just a tool, but a driver for real democratic impact, acting as the expert link between public administrations and technical implementation partners.
 url: https://innosmith.ch
