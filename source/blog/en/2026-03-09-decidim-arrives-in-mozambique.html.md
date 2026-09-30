@@ -1,9 +1,12 @@
 ---
 title: Decidim arrives in Mozambique
-tags: ''
+gallery:
+  - image: /uploads/blog-mozambique-01-banner.png
+    alt: 'Red abstract background with black and pink circles and geometric patterns, text reading "Decidim arrives in Mozambique" and the Decidim logo.'
+  - image: /uploads/blog-mozambique-02-banner.jpeg
+    alt: 'A group of people sit around a conference table with laptops and water bottles during a training session, with a screen in the background displaying "Treinamento em gestão de plataformas para IMD e MASC" (Portuguese for platform management training for IMD and MASC).'
+tags: Project
 ---
-
-![Decidim arrives in Mozambique cover design](/uploads/Post%20LinkedIn%287%29.png "Decidim arrives in Mozambique")
 
 [Llegeix el post en català](#cat) | [Lee el post en castellano](#cast)
 
@@ -65,11 +68,9 @@ In the chatbot, the reform proposals are presented to the participant, who can t
 
 During our trip, we were able to present the project to GIZ and European Union representatives in the country. They all recognised the potential of the platform and the challenges that such a project poses in the Mozambican context.
 
-![](/uploads/IMD4%281%29.jpeg)
-
 ![Photo of the IMD, MASC, Decidim meeting in Maputo.](/uploads/IMD3%281%29.jpeg)
 
----
+***
 
 [Català]
 
@@ -133,7 +134,7 @@ Al xatbot les propostes de reforma són presentades a la participant, perquè pu
 
 Durant el nostre viatge vam poder presentar el projecte a l’Agència de cooperació Alemana (GIZ) i als representants de la Unió Europea al país. Tots ells van constatar el potencial de la plataforma i els reptes que suposa un projecte així en el context Moçambicà.
 
----
+***
 
 [castellano]
 
