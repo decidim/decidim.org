@@ -12,11 +12,15 @@ const selectGalleryImage = function (thumb) {
   main.src = thumb.dataset.src;
   main.alt = thumb.dataset.alt;
 
+  document.querySelectorAll("[data-gallery-thumb]").forEach((el) => {
+    el.setAttribute("aria-pressed", "false");
+  });
   document.querySelectorAll("[data-gallery-thumb] [data-overlay]").forEach((overlay) => {
     overlay.classList.remove("opacity-0");
     overlay.classList.add("opacity-100");
   });
 
+  thumb.setAttribute("aria-pressed", "true");
   thumb.querySelector("[data-overlay]").classList.remove("opacity-100");
   thumb.querySelector("[data-overlay]").classList.add("opacity-0");
 };
