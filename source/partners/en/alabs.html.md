@@ -11,7 +11,7 @@ subtitle: |-
 url: https://alabs.org
 image:
   image: /uploads/logo-partner-alabs.svg
-  alt: ""
+  alt: ''
 joined_at: 2024.06.25
 type:
   - Installation & Development
