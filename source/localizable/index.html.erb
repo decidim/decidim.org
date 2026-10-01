@@ -4,7 +4,7 @@ pageClass: home
 ---
 <section class="bg-gray-100">
     <div class="container relative pt-10 md:pt-24 pb-12 md:pb-24">
-      <div class="md:w-3/5 relative z-10">
+      <div class="md:w-3/5 lg:w-1/2 relative z-10">
         <h1 class="md:text-6xl h1"><%= t("index.hero.subheading") %></h1>
         <h3 class="h3 py-5 !font-light md:pt-5 md:pb-10"><%= t("index.hero.intro") %></h3>
       </div>
@@ -13,7 +13,7 @@ pageClass: home
       </div>
       <%= image_tag "/images/index/index-hero.png", alt: "Hero image of the Decidim homepage", class: "block md:hidden w-full mt-10 object-cover" %>
       <div class="w-fit">
-        <%= image_tag "/images/index/index-hero.png", alt: "Hero image of the Decidim homepage", class: "hidden md:block absolute top-0 right-0 md:h-5/6 h-full md:w-1/2 object-contain object-right" %>
+        <%= image_tag "/images/index/index-hero.png", alt: "Hero image of the Decidim homepage", class: "hidden md:block absolute top-0 right-12 h-full w-3/5 object-contain object-right" %>
       </div>
     </div>
   <% if alert_enabled? && homepage? %>
