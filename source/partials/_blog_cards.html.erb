@@ -18,7 +18,7 @@
     </div>
     <div class="flex gap-2 flex-wrap overflow-hidden px-4 pt-3">
       <% if tag.present? %>
-        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= tag %></span>
+        <span class="text-sm bg-red-100 text-red-900 rounded px-2 py-1"><%= tag %></span>
       <% end %>
     </div>
     <div class="md:py-3 pb-4 pt-3 px-4">
@@ -26,7 +26,7 @@
     </div>
     <div class="mt-auto">
       <time class="par-sm text-gray-500 block px-4 pb-4"><%= resource.date.strftime('%d/%m/%Y') %></time>
-      <%= partial "partials/arrow-link", locals: { text: t("blog.read"), url: resource.url, classes: "text-red-500 block px-4 pb-4" } %>
+      <%= partial "partials/arrow-link", locals: { text: t("blog.read"), url: resource.url, classes: "text-red-900 block px-4 pb-4" } %>
     </div>
   </div>
 <% end %>
