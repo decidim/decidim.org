@@ -1,6 +1,11 @@
 ---
-title: "Oferta de feina: Dissenyadora  UX/UI"
+title: 'Oferta de feina: Dissenyadora UX/UI'
+gallery:
+  - image: /uploads/blog-UX-01-banner.png
+    alt: 'Yellow promotional graphic advertising a UX/UI designer job opening. The text reads “Oferta de feina: Dissenyadora UX/UI,” with the Decidim logo below, on an abstract yellow and brown background with white decorative patterns.'
+tags: Announcements
 ---
+
 [Ver post en castellano](https://decidim.org/blog/2024-03-05-oferta-de-feina-dissenyadora-ux-ui/#cast)
 
 ## Descripció
@@ -11,17 +16,17 @@ En el dia a dia les teves tasques seran:
 
 * Dirigir i supervisar lestratègia UI/UX de Decidim.
 * Produir solucions de disseny UX convincents a través de wireframes, dissenys visuals i prototips.
-* Disseny d'elements i eines d'interfície d'usuari, com ara menús de navegació, pestanyes i ginys.	
+* Disseny d'elements i eines d'interfície d'usuari, com ara menús de navegació, pestanyes i ginys.
 * Realitzar proves d'usuari de les funcionalitats de Decidim.
 * Control de qualitat i Q&A del disseny dels nous desenvolupaments.
 * Detectar problemes d'accessibilitat i proposar solucions.
 * Detectar problemes d'usabilitat i proposar solucions	.
-* Participar en les reunions de l'equip de Producte.	
+* Participar en les reunions de l'equip de Producte.
 * Assessorament sobre UX/UI a l'equip de producte.
 * Crear i mantenir recursos de disseny per a la comunitat.
 * Participar en la comunitat de disseny Decidim.
 * Crear diferents recursos comunicatius.
-* Revisió UX/UI del lloc web decidim.org	
+* Revisió UX/UI del lloc web decidim.org
 * Revisió UX/UI de Metadecidim.
 
 ## Què és Decidim
@@ -72,7 +77,7 @@ Formar part d‟un projecte que treballa per a la democratització de la societa
 
 Com a "coses que volem, però sabem que seran difícils d'aconseguir i estem obertes a deixar-les passar".
 
-* Coneixements bàsics de programació	
+* Coneixements bàsics de programació
 * Experiència de treball o col·laboració en projectes de programari lliure
 * Apassionat de la democràcia, la tecnologia lliure, els drets 	digitals i com el poder de la gent pot donar forma al futur.
 * Experiència en l'àmbit associatiu i/o en organitzacions, moviments socials o qualsevol lluita per la defensa dels drets humans.
@@ -87,7 +92,7 @@ A partir del 17 de març avaluarem les candidatures per resoldre el procés dura
 
 Les dades facilitades es conservaran fins al final d'aquest procés o fins que exerceixi el dret de retractació. Per tant, teniu dret a accedir a les vostres dades personals, rectificar les dades inexactes o sol·licitar la seva supressió quan les dades ja no siguin necessàries. Podeu exercir aquest dret enviant un correu electrònic a jobs@decidim.org. Les dades no es transmetran a tercers.
 
-\[Castellano]
+[Castellano]
 
 ## <a name="cast"></a> Oferta de trabajo
 
@@ -96,17 +101,17 @@ Buscamos a alguien que pueda ayudarnos a mejorar la Experiencia de la Participan
 * En el día a día tus tareas serán:
 * Dirigir y supervisar la estrategia UI/UX de Decidim.
 * Producir soluciones de diseño UX convincentes a través de wireframes, diseños visuales y prototipos.
-* Diseño de elementos y herramientas de interfaz de usuario, como 	menús de navegación, pestañas y widgets. 	
+* Diseño de elementos y herramientas de interfaz de usuario, como 	menús de navegación, pestañas y widgets.
 * Realizar pruebas de usuario de las funcionalidades de Decidim
 * Control de calidad y Q&A del diseño de los nuevos desarrollos
 * Detectar problemas de accesibilidad y proponer soluciones
-* Detectar problemas de usabilidad y proponer soluciones	
-* Participar en las reuniones del equipo de Producto 		
+* Detectar problemas de usabilidad y proponer soluciones
+* Participar en las reuniones del equipo de Producto
 * Asesoramiento sobre UX/UI al equipo de producto
-* Crear y mantener recursos de diseño para la comunidad 	
-* Participar en la comunidad de diseño Decidim 	
-* Crear diferentes recursos comunicativos 	
-* Revisión UX/UI del sitio web decidim.org 	
+* Crear y mantener recursos de diseño para la comunidad
+* Participar en la comunidad de diseño Decidim
+* Crear diferentes recursos comunicativos
+* Revisión UX/UI del sitio web decidim.org
 * Revisión UX/UI de Metadecidim
 
 ## Qué es Decidim
@@ -137,9 +142,9 @@ Este es un trabajo perfecto para ti si eres alguien:
 * Con experiencia en diseño de software UX/UI.
 * Atenta a los detalles y la calidad.
 * Proactiva y que trabaja de forma autónoma
-* Con habilidades sociales y de comunicación. Actualmente, tenemos problemas con la brecha de género y los prejuicios, por lo que es importante ser feminista. 
+* Con habilidades sociales y de comunicación. Actualmente, tenemos problemas con la brecha de género y los prejuicios, por lo que es importante ser feminista.
 * Inglés y catalán o español fluidos.
-* Residente en Barcelona o alrededores. 
+* Residente en Barcelona o alrededores.
 
 ## Qué ofrecemos
 
@@ -152,7 +157,7 @@ Este es un trabajo perfecto para ti si eres alguien:
 ## Se valorará positivamente
 
 * Como "cosas que queremos, pero sabemos que serán difíciles de conseguir y estamos abiertas a dejarlas pasar".
-* Conocimientos básicos de programación  	
+* Conocimientos básicos de programación
 * Experiencia de trabajo o colaboración en proyectos de software libre
 * Apasionado de la democracia, la tecnología libre, los derechos digitales y cómo el poder de la gente puede dar forma al futuro.
 * Experiencia en el ámbito asociativo y/o en organizaciones, movimientos sociales o cualquier lucha por la defensa de los derechos humanos.
