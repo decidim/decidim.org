@@ -19,15 +19,15 @@ description:
 <section>
   <div class="container pb-6 md:py-0">
     <div class="grid md:grid-cols-3 gap-2 md:gap-16">
-      <% data.press.kit.each_with_index do |item, i| %>
-        <% border_class = [1, 2, 4, 5].include?(i) ? "md:border-l md:border-gray-300 md:pl-5" : "" %>
+      <% data.press.kit.each.with_index(1) do |item, i| %>
+        <% border_class = [2, 3, 5, 6].include?(i) ? "md:border-l md:border-gray-300 md:pl-5" : "" %>
         <div class="flex md:flex-col space-x-7 md:space-x-0 rounded-xl md:rounded-none md:bg-transparent md:py-0 md:pr-10 <%= border_class %>">
           <div class="border-b border-gray-300 md:border-b-0 w-full md:pb-0 pb-5">
             <p class="font-bold uppercase flex items-center space-x-3 pb-6 pt-5 md:pt-0">
               <%= icon item.icon, class: "w-6 h-6 brightness-0" %>
-              <span><%= t("press.links.link#{i+1}.title") %></span>
+              <span><%= t("press.links.link#{i}.title") %></span>
             </p>
-            <%= partial "partials/arrow-link", locals: { text: t("press.links.link#{i+1}.link"), url: item.url, classes: "text-red-500" } %>
+            <%= partial "partials/arrow-link", locals: { text: t("press.links.link#{i}.link"), url: item.url, classes: "text-red-500" } %>
           </div>
         </div>
       <% end %>
@@ -40,7 +40,7 @@ description:
     <h2 class="h2"><%= t("press.highlights") %></h2>
     <% media_items = data_sort_media_by_date(data.media) %>
     <div class="pt-6 md:pt-8" data-accordion>
-      <% media_items.first(5).each_with_index do |media, i| %>
+      <% media_items.first(5).each do |media| %>
         <div class="pt-5 md:pt-0">
           <div class="md:grid md:grid-cols-3 md:gap-16">
             <span class="par-md font-bold pt-5 md:py-6 pr-4"><%= media[1].title %></span>
@@ -63,7 +63,7 @@ description:
               <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 no-toggle" %>
             </div>
           </summary>
-          <% media_items.drop(5).each_with_index do |media, i| %>
+          <% media_items.drop(5).each do |media| %>
             <div class="pt-5 md:pt-0">
               <div class="md:grid md:grid-cols-3 md:gap-16">
                 <span class="par-md font-bold pt-5 md:py-6 pr-4"><%= media[1].title %></span>
