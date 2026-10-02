@@ -22,7 +22,7 @@ collections:
     create: true
     identifier_field: title
     fields:
-      - {label: "Date", name: "date", widget: "datetime", required: true}
+      - {label: "Date", name: "date", widget: "datetime", date_format: "YYYY.MM.DD", time_format: false, required: true}
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Subtitle", name: "subtitle", widget: "text", required: true}
       - {label: "Website", name: "website", widget: "string", type: "url", required: false}
@@ -114,14 +114,21 @@ collections:
     label: "Post"
     folder: "source/blog/en"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    summary: "{{title}} -- {{year}}-{{month}}-{{day}}"
+    summary: "{{title}}"
     extension: "html.md"
     format: "yaml-frontmatter"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Image", name: "image", widget: "image", required: true}
+          - {label: "Alt text", name: "alt", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "select", options: ["Announcements", "Opinion", "Project", "Product", "Releases"], required: true}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-      - {label: "Tags", name: "tags", widget: "select", options: ["releases", "casestudy"], required: false}
   - name: "Partners"
     label: "Partner"
     format: yaml-frontmatter
@@ -130,7 +137,7 @@ collections:
     create: true
     identifier_field: name
     fields:
-      - {label: "Date", name: "date", widget: "datetime", required: true}
+      - {label: "Date", name: "date", widget: "datetime", date_format: "YYYY.MM.DD", time_format: false, required: true}
       - {label: "Name", name: "name", widget: "string", required: true}
       - {label: "Subtitle", name: "subtitle", widget: "text", required: true}
       - {label: "URL", name: "url", widget: "string", required: true}
