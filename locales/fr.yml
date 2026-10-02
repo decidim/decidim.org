@@ -13,7 +13,7 @@ fr:
       media_kit:
         description: Looking for info? Check our press section.
         title: Media kit
-        url: https://decidim.org/blog/
+        url: https://decidim.org/press/
         url_name: Presse
       support_us:
         description: Contribute to the commons and the sustainability of Decidim.
@@ -51,7 +51,7 @@ fr:
       subtitle: The Association works on different projects related to democratic innovation, research, governance of digital commons, and the development of FLOSS technologies. We work in collaboration with leading organisations in their field.
       title: Our recent work
     recognitions:
-      digital_public_good: Digtal Public Good
+      digital_public_good: Digital Public Good
       osor_award: Decidim became finalist of the OSOR prize in the EU Public Services Open Source Achievement Awards
       pizzigati_prize: Decidim was awarded with the Pizzigati Prize for Software in the Public Interest, promoted by NTEN
       public_good: Decidim is recognized as a Digital Public Good by the Digital Public Goods Alliance
@@ -188,8 +188,8 @@ fr:
         answer: Decidim permet à des milliers de personnes de s'organiser démocratiquement en faisant des propositions, en participant à des réunions publiques, en favorisant les prises de décision, en prenant des décisions par le biais de différentes formes de vote et en contrôlant la mise en œuvre des décisions.
         question: Que peut faire un utilisateur de Decidim ?
       q05:
-        answer: Oui, nous avons une [démo en ligne](/demo).
-        question: Vous avez une démo ? Je veux tester Decidim maintenant, sans l'installer, pour voir comment cela fonctionne.
+        answer: It's an online platform where you can play, test and dive into the Decidim functionalities, components and system. You can check it out without installing it, to see how it works.
+        question: What's the Decidim demo?
       q06:
         answer: Nous publions une nouvelle version environ chaque mois. Voir [l'historique des versions](https://github.com/decidim/decidim/releases).
         question: À quelle fréquence la plateforme est-elle mise à jour ?
@@ -221,7 +221,7 @@ fr:
         answer: "[Metadecidim](http://meta.decidim.org) est la plateforme de la communauté Decidim qui collabore au design du logiciel et à la construction du projet Decidim. Nous nous rencontrons régulièrement à travers les [SOM (Metadecidim Operative Sessions)](https://meta.decidim.org/assemblies/eix-comunitat?locale=es) et les [séminaires de recherche LAB](https://meta.decidim.org/assemblies/eix-lab). Rendez-vous sur [meta.decidim.org](http://meta.decidim.org) pour vous joindre aux discussions et pour rejoindre la communauté. Vous êtes les bienvenus ;-)"
         question: Qu'est-ce que la communauté Metadecidim ?
       q16:
-        answer: Bien sûr, que vous pouvez ! La communauté participe via des processus participatifs, des débats, des traductions, etc. que vous pourriez trouver dans Metadecidim. Decidim est né à Barcelone, c'est pourquoi il y a un lien territorial fort avec cette ville, mais c'est avant tout un projet en faveur des communs.
+        answer: Of course! You don't need to be a technology expert or developer, just interested in participatory democracy, technopolitical spaces, citizen initiatives and movements. You can contribute to the project by just assisting meetings, collaborating, proposing and participating in the different active processes in the community.
         question: Puis-je rejoindre la communauté Metadecidim même si je ne vis pas à Barcelone ?
       q17:
         answer: Toute personne de bonne foi et ayant une attitude correcte à l'égard de la collaboration démocratique.
@@ -248,20 +248,20 @@ fr:
         answer: Decidim et le logo Decidim sont enregistrés par l'Association, ils ne peuvent pas être utilisés comme un produit commercial et ne peuvent pas être vendus. S'il est utilisé, le crédit doit être référencé au projet. Vous pouvez en savoir plus dans notre [politique de marque](/trademark-policy).
         question: Quelle est la politique de Decidim en matière de marques commerciales ?
       q25:
-        answer: There are different ways to collaborate with the Association. We are defining a ladder of collaboration that goes from less to more. The goal is to propose a progressive path of collaboration between public organizations and the Decidim Association. You can check this out here.
+        answer: There are different ways to collaborate with the Association. We are defining a ladder of collaboration that goes from less to more. The goal is to propose a progressive path of collaboration between public organizations and the Decidim Association. You can check this out [here](https://decidim.org/how-to-support/).
         question: How can governments partner with us?
       q26:
         answer: Decidim counts with a partner network that are official service providers for installing, managing and maintaining the platform for organisations of any type.
         question: What do you need to become an official Decidim service provider?
       q27:
-        answer: It’s an international collaboration space to strengthen the governance of Decidim made up solely of those public institutions that have a signed collaboration agreement with the Decidim Association. The Institutions Committee is defined in its founding text as ‘the space that allows institutions to participate in governance and to convey needs and improvement proposals to the Decidim team.
-        question: What’s the Decidim Association Public Institutions Committee?
+        answer: It's an international collaboration space to strengthen the governance of Decidim made up solely of those public institutions that have a signed collaboration agreement with the Decidim Association. The Institutions Committee is defined in its founding text as the space that allows institutions to participate in governance and to convey needs and improvement proposals to the Decidim team.
+        question: What's the Decidim Association Public Institutions Committee?
       q28:
         answer: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework. [Check the steps to introduce yourself in the Decidim ecosystem.](/first-steps/)
         question: How can I start?
       q29:
-        answer: The documentation site helps any individual or organization to understand Decidim. It’s a step by step guide on how to install, configure and develop Decidim on your own. [Check it out.](/documentation)
-        question: What 's the Decidim Documentation?
+        answer: The documentation site helps any individual or organization to understand Decidim. It's a step by step guide on how to install, configure and develop Decidim on your own. [Check it out.](/documentation)
+        question: What's the Decidim Documentation?
       q30:
         answer: Thanks to its modular architecture and scalable logic, you can configure a powerful system of democratic participation in all kinds of organizations. Choose the features that best suit your needs and customise your participatory process.
         question: Is Decidim customisable?
@@ -271,7 +271,7 @@ fr:
       q32:
         answer: That's fantastic! You can send us an email with all the information at <a href="mailto:hola@decidim.org">hola@decidim.org</a> or get in touch with us via our social media channels
         question: I have deployed a Decidim instance and want to share it with you.
-    subtitle_html: If you can’t find your question answered below, contact us at %{email}
+    subtitle_html: If you can't find your question answered below, contact us at %{email}
     title: Foire aux questions
     types:
       about: À propos de Decidim
