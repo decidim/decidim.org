@@ -38,8 +38,7 @@ description:
 <section>
   <div class="container pt-6 pb-10 md:pt-16 md:pb-16">
     <h2 class="h2"><%= t("press.highlights") %></h2>
-    <% dated = data.media.to_a.select { |media| media[1].date }.sort_by { |media| DateTime.parse(media[1].date.to_s) rescue DateTime.now }.reverse %>
-    <% media_items = dated + data.media.to_a.reject { |media| media[1].date } %>
+    <% media_items = data_sort_media_by_date(data.media) %>
     <div class="pt-6 md:pt-8" data-accordion>
       <% media_items.first(5).each_with_index do |media, i| %>
         <div class="pt-5 md:pt-0">
