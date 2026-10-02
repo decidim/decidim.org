@@ -70,14 +70,14 @@ description:
         <% chunk2 = (chunks[2] * 4) + chunks[2].take(2) %>
         <div class="flex gap-4 md:gap-6 animate-slide-x" style="--translate-x: -1380px">
           <% chunk0.each do |f| %>
-            <div class="text-red-500 bg-red-100 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap">
+            <div class="text-red-900 bg-red-100 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap">
               <span><%= f[1][:title] %></span>
             </div>
           <% end %>
         </div>
         <div class="flex gap-4 md:gap-6 -translate-x-[2000px] animate-slide-x" style="--translate-x: calc(-2000px + 1313px)">
           <% chunk1.each do |f| %>
-            <div class="text-red-500 bg-red-100 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap">
+            <div class="text-red-900 bg-red-100 rounded-xl par-md py-2 px-4 flex items-baseline space-x-2 whitespace-nowrap">
               <span><%= f[1][:title] %></span>
             </div>
           <% end %>
@@ -133,7 +133,7 @@ description:
           <p class="par-md max-w-prose text-black">
             <%= t("first-steps.section7.intro") %>
           </p>
-          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section7.link"), url: "https://docs.decidim.org/en/develop/install/", classes: "text-red-500 par-md mt-auto block", span_classes: "text-[20px] leading-[28px]", icon_name: "ri-external-link-line", icon_classes: "w-6 h-6" } %>
+          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section7.link"), url: "https://docs.decidim.org/en/develop/install/", classes: "text-red-900 par-md mt-auto block", span_classes: "text-[20px] leading-[28px]", icon_name: "ri-external-link-line", icon_classes: "w-6 h-6" } %>
         </div>
       </div>
       <div class="flex flex-col gap-5">
@@ -143,7 +143,7 @@ description:
         <p class="par-md max-w-prose text-black">
           <%= t("first-steps.section8.intro") %>
         </p>
-          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section8.link"), url: "#{t(:path)}/partners", classes: "text-red-500 mt-auto block", span_classes: "text-[20px] leading-[28px]", icon_classes: "w-6 h-6" } %>
+          <%= partial "partials/arrow-link", locals: { text: t("first-steps.section8.link"), url: "#{t(:path)}/partners", classes: "text-red-900 mt-auto block", span_classes: "text-[20px] leading-[28px]", icon_classes: "w-6 h-6" } %>
       </div>
     </div>
     <div class="w-full md:w-2/5">

@@ -16,7 +16,7 @@ description:
         <%= t("documentation.intro") %>
       </div>
     </div>
-    <%= partial "partials/arrow-link", locals: { text: t("documentation.title"), url: "https://docs.decidim.org", classes: "text-red-500 par-md mt-auto block pt-5", span_classes: "text-[20px] leading-[28px]", icon_name: "ri-external-link-line", icon_classes: "w-6 h-6" } %>
+    <%= partial "partials/arrow-link", locals: { text: t("documentation.title"), url: "https://docs.decidim.org", classes: "text-red-900 par-md mt-auto block pt-5", span_classes: "text-[20px] leading-[28px]", icon_name: "ri-external-link-line", icon_classes: "w-6 h-6" } %>
   </div>
 </section>
 
@@ -32,7 +32,7 @@ description:
           <h5 class="h5 pt-6"><%= t("first-steps.#{item.i18n_key}.title") %></h5>
           <p class="par-md max-w-prose text-black pt-3 md:pb-6"><%= t("first-steps.#{item.i18n_key}.content") %></p>
         </div>
-        <%= partial "partials/arrow-link", locals: { text: t("first-steps.#{item.i18n_key}.link"), url: item.url, classes: "text-red-500 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
+        <%= partial "partials/arrow-link", locals: { text: t("first-steps.#{item.i18n_key}.link"), url: item.url, classes: "text-red-900 par-md block pt-4 md:pt-0", span_classes: "text-[16px]", icon_name: "ri-external-link-line", icon_classes: "w-5 h-5" } %>
       </div>
     <% end %>
   </div>
