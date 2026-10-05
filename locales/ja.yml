@@ -6,32 +6,32 @@ ja:
   about:
     association:
       become_member:
-        description: アソシエーションの一員として、プロジェクトガバナンスにご参加ください。
-        title: メンバーになりませんか？
+        description: アソシエーションの一員として、プロジェクトの運営にご参加ください。
+        title: メンバーになる
         url: https://meta.decidim.org/assemblies/QuieroSerSocia?locale=en
-        url_name: 連絡先
+        url_name: お問い合わせ先
       media_kit:
         description: 情報をお探しですか? プレスセクションをご覧ください。
         title: メディアキット
         url: https://decidim.org/press/
         url_name: プレス
       support_us:
-        description: Contribute to the commons and the sustainability of Decidim.
-        title: Want to support us?
+        description: Decidimの継続的な開発と公共的な活動をご支援ください。
+        title: Decidimを支援する
         url: https://opencollective.com/decidim/donate?interval=oneTime&amount=1000&name=&legalName=&email=
         url_name: 寄付をする
     bottom_section:
-      button: Let's talk about your project
-      subtitle: We can help you with every step of using Decidim's product, from participatory design to learning how to install Decidim. Have a collaboration idea? We'd love to hear about it.
-      title: Need help?
+      button: あなたのプロジェクトについてご相談ください
+      subtitle: 私たちは参加型デザインからDecidimのインストール方法まで、Decidimの製品を使用するすべてのステップをお手伝いします。 コラボレーションのアイデアがありますか？　ぜひお聞かせください。
+      title: お困りですか？
     history:
       timeline:
         - 
           year: 2011
-          above: All started with the 15M movement and the convergence of earlier hacktivists, autonomous and democratic activism in Spain and the rise of the technopolitical cycle.
+          above: すべてはM15運動とスペインにおける初期ハックティビスト、自律的、民主的な活動、そしてテクノ政治サイクルの台頭によって始まりました。
         - 
           year: 2016
-          below: In Barcelona, in early 2016, a fork of Consul, the participatory platform of the Madrid City Council, was used to power up the site <a href="https://decidim.barcelona" class="underline decoration-1">decidim.barcelona</a>, the new digital venue for participatory processes in the city council.
+          below: 2016年初頭、バルセロナ市では、マドリード市議会が開発した市民参加プラットフォーム「Consul」をフォークし、市の参加型プロセスをオンラインで実施するための新たな場として、<a href="https://decidim.barcelona" class="underline decoration-1">decidim.barcelona</a> を立ち上げました。
         - 
           year: 2017
           above: Technopolitical differences in vision and practice between the city council democratic innovation teams brought about a split between the two cities; as a result, Decidim was launched in early 2017 as a brand-new software with a more modular and co-developable architecture.
