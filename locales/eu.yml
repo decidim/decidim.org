@@ -51,7 +51,7 @@ eu:
       subtitle: Elkarteak berrikuntza demokratikoarekin, ikerketarekin, komun digitalen gobernantzarekin eta FLOSS teknologien garapenarekin lotutako hainbat proiektutan lan egiten du. Beren esparruan liderrak diren erakundeekin lan egiten dugu.
       title: Gure azkenaldiko lana
     recognitions:
-      digital_public_good: Digital Public Good
+      digital_public_good: Ondasun Digital Publikoa
       osor_award: Decidim OSOR sariaren finalista bihurtu zen EBko Zerbitzu Publikoen Kode Irekiko Lorpen Sarietan
       pizzigati_prize: Decidim NTENek sustatutako Interes Publikoko Softwarearen Pizzigati sariarekin saritu zuten
       public_good: Decidim Ondasun Publiko Digital gisa aitortzen du Ondasun Publiko Digitalen Aliantzak
@@ -80,11 +80,11 @@ eu:
     p1: The Future of The Internet · October 13-14 Barcelona
     strong: Decidim Fest 22
   blog:
-    back: Back to blog
+    back: Blogera itzuli
     latest: Azken blog-argitalpena
-    read: Read the blog
+    read: Bloga irakurri
     read_more: Gehiago irakurri
-    subtitle: Latest news from Decidim
+    subtitle: Decidim-en azken berriak
     tags:
       title: Etiketatutako artikuluak
     title: Bloga
@@ -188,8 +188,8 @@ eu:
         answer: Decidim delakoak milaka pertsona demokratikoki antolatzeko aukera ematen du, proposamenak eginez, bilera publikoetara joanez, erabakiak hartzeko eztabaidak sustatuz, botoa emateko modu desberdinen bidez erabakiz eta erabakien betearazpena kontrolatuz.
         question: Zer egin dezake Decidim-eko parte-hartzaile batek?
       q05:
-        answer: It's an online platform where you can play, test and dive into the Decidim functionalities, components and system. You can check it out without installing it, to see how it works.
-        question: What's the Decidim demo?
+        answer: Jokatzeko, probatzeko eta Decidim funtzionalitateetan, osagaietan eta sisteman murgiltzeko online plataforma bat da. Instalatu gabe egiazta dezakezu, nola funtzionatzen duen ikusteko.
+        question: Zer da Decidim demoa?
       q06:
         answer: Bertsio berri bat argitaratzen dugu, gutxi gorabehera hilero. Ikusi [record of versions].
         question: Zenbatean behin eguneratzen da plataforma?
@@ -221,7 +221,7 @@ eu:
         answer: "[Metadecidim](http://meta.decidim.org) Decidim komunitatea da, plataformaren diseinuan eta Decidim proiektuaren eraikuntzan elkarlanean aritzen dena. Aldizka biltzen gara Community Meetings-en bidez, plataformaren alderdi teknologikoei buruz hitz egiteko, eta Labs-en bidez, [Research](https://meta.decidim.org/assemblies/eix-lab) bileretarako. Urteko gure konferentzia Decidim Fest da. Joan [meta.decidim.org](http://meta.decidim.org) webgunera deialdiak gertutik jarraitzeko eta komunitatean parte hartu nahi baduzu. Gustura hartuko zaitugu ;-)"
         question: Zer da Metadecidim komunitatea?
       q16:
-        answer: Of course! You don't need to be a technology expert or developer, just interested in participatory democracy, technopolitical spaces, citizen initiatives and movements. You can contribute to the project by just assisting meetings, collaborating, proposing and participating in the different active processes in the community.
+        answer: Jakina! Ez da teknologian aditua edo garatzailea izan behar, soilik demokrazia parte-hartzailean, espazio teknopolitikoetan, herritarren ekimenetan eta mugimenduetan interesatua. Proiektuari ekarpenak egiteko, nahikoa da bileretara bertaratzea, lankidetzan aritzea, proposatzea eta komunitateko prozesu aktiboetan parte hartzea.
         question: Metadecidim komunitatean sar naiteke Bartzelonan bizi ez banaiz ere?
       q17:
         answer: Elkarlan demokratikoarekiko fede ona eta jarrera zuzena duen edonor.
@@ -248,20 +248,20 @@ eu:
         answer: Decidim eta Decidim-en logoa Elkarteak erregistratzen ditu, ezin dira produktu komertzial gisa erabili eta ezin dira saldu. Erabiltzen bada, kreditua proiektuarekin erlazionatu behar da. Honi buruz gehiago irakur dezakezu gure [Trademark policy](/trademark-policy).
         question: Zein da Decidim-en marka-politika?
       q25:
-        answer: There are different ways to collaborate with the Association. We are defining a ladder of collaboration that goes from less to more. The goal is to propose a progressive path of collaboration between public organizations and the Decidim Association. You can check this out [here](https://decidim.org/how-to-support/).
+        answer: Elkartearekin elkarlanean aritzeko modu ezberdinak daude. Gutxiagotik gehiagora doan elkarlanerako eskailera bat definitzen ari gara. Helburua erakunde publikoen eta Decidim Elkartearen arteko elkarlanerako bide aurrerakoi bat proposatzea da. Hemen ikus dezakezu [hemen](https://decidim.org/how-to-support/).
         question: Nola har dezakete parte gobernuek gurekin?
       q26:
         answer: Decidim-ek edozein motatako erakundeentzako plataforma instalatzeko, kudeatzeko eta mantentzeko zerbitzu ofizialen hornitzaile diren bazkide-sare batekin kontatzen du.
         question: Zer behar duzu Decidim zerbitzu-hornitzaile ofizial izateko?
       q27:
-        answer: It's an international collaboration space to strengthen the governance of Decidim made up solely of those public institutions that have a signed collaboration agreement with the Decidim Association. The Institutions Committee is defined in its founding text as the space that allows institutions to participate in governance and to convey needs and improvement proposals to the Decidim team.
-        question: What's the Decidim Association Public Institutions Committee?
+        answer: 'Decidim-en gobernua indartzeko nazioarteko lankidetza-gune bat da, Decidim Elkartearekin lankidetza-hitzarmena sinatuta duten erakunde publikoek soilik osatzen dutena. Erakundeen Batzordea honela definitzen da sortze-testuan: erakundeek gobernantzan parte hartzeko eta Decidim taldeari beharrak eta hobekuntza-proposamenak helarazteko aukera ematen duen gunea.'
+        question: Zer da Decidim Elkarteko Erakunde Publikoen Batzordea?
       q28:
         answer: To start using Decidim, you must install the application on a server. Because Decidim is built with Ruby on Rails, the installation requires a developer with experience in this framework. [Check the steps to introduce yourself in the Decidim ecosystem.](/first-steps/)
         question: Nola hasi behar dut?
       q29:
-        answer: The documentation site helps any individual or organization to understand Decidim. It's a step by step guide on how to install, configure and develop Decidim on your own. [Check it out.](/documentation)
-        question: What's the Decidim Documentation?
+        answer: Dokumentazio-guneak edozein norbanako edo erakunderi laguntzen dio Decidim ulertzen. Urratsez urratseko gida bat da, Decidim zure kabuz nola instalatu, konfiguratu eta garatu jakiteko. [Egiaztatu. ](/documentation)
+        question: Zer da Decidim Dokumentazioa?
       q30:
         answer: Bere arkitektura modularrari eta logika eskalagarriari esker, era guztietako erakundeetan partaidetza demokratikorako sistema sendo bat konfigura dezakezu. Aukeratu zure beharretara hobekien egokitzen diren funtzioak eta pertsonalizatu zure partaidetza-prozesua.
         question: Decidim pertsonalizagarria da?
@@ -271,7 +271,7 @@ eu:
       q32:
         answer: Hori zoragarria da! <a href="mailto:hola@decidim.org">hola@decidim.org</a> helbidera mezu elektroniko bat bidal diezagukezu informazio guztiarekin, edo gurekin harremanetan jar zaitezke sare sozialetako gure kanalen bidez
         question: Decidim instantzia bat zabaldu dut eta zurekin partekatu nahi dut.
-    subtitle_html: If you can't find your question answered below, contact us at %{email}
+    subtitle_html: Ondoren erantzuten zaizun galdera aurkitzen ez baduzu, jar zaitez gurekin harremanetan %{email} helbidean
     title: FAQ-ak
     types:
       about: Decidim-i buruz
@@ -584,17 +584,17 @@ eu:
     first-steps: Lehen urratsak
     home: Hasiera
     how-to-support: Nola babestu Decidim
-    in_use: In use
+    in_use: Erabiltzen
     installations: Instalazioak
     legal-notice: Informazio legala
     menu: Menua
     modules: Moduloak
-    news: News
+    news: Berriak
     partners: Tokiko inplementatzaileak
     partnership-policy: Tokiko inplementatzailetzako politika
     press: Komunikabideak
     privacy-policy: Pribatutasun politika
-    product: Product
+    product: Produktua
     supporters: Babesleak
     team: Taldea
     text: Nabigazioa
