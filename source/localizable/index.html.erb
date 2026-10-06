@@ -14,7 +14,7 @@ pageClass: home
 
     <div class="flex md:basis-3/5 md:justify-end xl:-mr-40 2xl:-mr-52">
       <%= image_tag "/images/index/index-hero.png",
-        alt: "Participants gathered around a table, collaborating on a document during a Decidim community event",
+        alt: t("index.alt.hero"),
         class: "w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-4xl object-contain" %>
     </div>
   </div>
@@ -113,14 +113,14 @@ pageClass: home
 </section>
 
 <section class="md:pb-6 md:pt-16 pb-5">
-  <%= image_tag "/images/home-banner.jpg", alt: "A banner depicting an assembly", class: "banner object-cover" %>
+  <%= image_tag "/images/home-banner.jpg", alt: t("index.alt.banner"), class: "banner object-cover" %>
 </section>
 
 <%= partial "/partials/testimonials" %>
 
 <section class="md:pt-16 pt-10">
   <div class="relative h-[448px] md:h-[576px]">
-    <%= image_tag "/images/home-footer-banner.jpg", alt: "A footer banner depicting a focus group", class: "absolute inset-0 w-full h-full object-cover" %>
+    <%= image_tag "/images/home-footer-banner.jpg", alt: t("index.alt.footer"), class: "absolute inset-0 w-full h-full object-cover" %>
     <div class="relative container h-full flex flex-col justify-end pb-8 md:pb-16">
       <div class="text-white">
         <h2 class="h2"><%= t("index.footer_banner.heading") %></h2>
