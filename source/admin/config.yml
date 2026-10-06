@@ -10,7 +10,7 @@ local_backend: true
 backend:
   name: github
   repo: decidim/decidim.org
-  branch: main
+  branch: news/presskit
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
