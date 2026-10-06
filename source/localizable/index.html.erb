@@ -88,9 +88,8 @@ pageClass: home
       <%= partial "/partials/case-study-cards", locals: { limit: 3 } %>
     </div>
   </div>
-    <div class="container md:hidden md:pb-0 pb-10">
-      <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/case-studies" } %>
-    </div>
+  <div class="container md:hidden md:pb-0 pb-10">
+    <%= partial "partials/arrow-link-rounded", locals: { text: t("first-steps.section2.link"), url: "#{t(:path)}/case-studies" } %>
   </div>
 </section>
 
