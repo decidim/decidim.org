@@ -118,9 +118,9 @@ pageClass: home
 <%= partial "/partials/testimonials" %>
 
 <section class="md:pt-16 pt-10">
-  <div class="relative h-96">
+  <div class="relative min-h-96 flex flex-col">
     <%= image_tag "/images/home-footer-banner.jpg", alt: t("index.alt.footer"), class: "absolute inset-0 w-full h-full object-cover" %>
-    <div class="relative container h-full flex flex-col justify-end pb-8 md:pb-16">
+    <div class="relative container flex-1 h-full flex flex-col justify-end pb-8 md:pb-16">
       <div class="text-white">
         <h2 class="h2"><%= t("index.footer_banner.heading") %></h2>
         <p class="h3 !font-light pt-8"><%= t("index.footer_banner.intro") %></p>
