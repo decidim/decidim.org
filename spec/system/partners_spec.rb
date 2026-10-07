@@ -53,4 +53,8 @@ RSpec.describe "partners", type: :feature do
     find("[data-filter-clear]").click
     expect(page).to have_unchecked_field("Installation & Development")
   end
+
+  it "does not paginate the page", :js do
+    expect(page).to have_no_css("[data-filter-pagination] button")
+  end
 end
