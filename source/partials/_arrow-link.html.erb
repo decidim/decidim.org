@@ -1,9 +1,9 @@
-<a href="<%= url %>" class="flex items-center space-x-1 par-md hover:text-red-900 <%= classes ||= 'text-red-500' %>">
+<a href="<%= url %>" <%= "id=\"#{link_id}\"".html_safe if defined?(link_id) && link_id %> <%= "aria-labelledby=\"#{aria_labelledby}\"".html_safe if defined?(aria_labelledby) && aria_labelledby %> class="flex items-center space-x-1 par-md hover:text-red-900 <%= classes ||= 'text-red-500' %>">
   <% if defined?(reverse) && reverse %>
     <%= icon(icon_name ||= "ri-arrow-left-line", { class: "#{icon_classes ||= 'md:w-4 md:h-4 w-4 h-4'} mt-1 block self-center shrink-0" }) %>
-    <span class="pl-1 <%= span_classes ||= 'par-sm' %>"><%= text %></span>
+    <span class="pl-1 <%= span_classes ||= 'par-sm' %>" <%= "id=\"#{span_id}\"".html_safe if defined?(span_id) && span_id %>><%= text %></span>
   <% else %>
-    <span class="pr-1 <%= span_classes ||= 'par-sm' %>"><%= text %></span>
+    <span class="pr-1 <%= span_classes ||= 'par-sm' %>" <%= "id=\"#{span_id}\"".html_safe if defined?(span_id) && span_id %>><%= text %></span>
     <%= icon(icon_name ||= "ri-arrow-right-line", { class: "#{icon_classes ||= 'md:w-4 md:h-4 w-4 h-4'} mt-1 block self-center shrink-0" }) %>
   <% end %>
 </a>
