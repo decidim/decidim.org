@@ -81,7 +81,6 @@ cs:
     strong: Decidim Fest 22
   blog:
     back: Back to blog
-    latest: Poslední příspěvky na blogu
     read: Read the blog
     read_more: Přečtěte si více
     subtitle: Latest news from Decidim
@@ -484,36 +483,56 @@ cs:
     trademark: Decidim název a logo je registrovaná ochranná známka Associacio<unk> de Software Lliure Decidim.
     up_to_date: Zůstaňte v obraze
   index:
+    alt:
+      banner: A banner depicting an assembly
+      footer: A footer banner depicting a focus group
+      hero: Participants gathered around a table, collaborating on a document during a Decidim community event
     cards:
       card1:
-        content: Můžeme pomoci konfigurovat systém demokratického vládnutí v nejrůznějších organizacích.
-        link: Naše funkce
-        title: Zavedení pružného demokratického systému
+        content: A platform designed entirely with free-open source software. No vendor lock-in, you can install decidim on your own server. You can improve it and contribute to the project.
+        link: První kroky
+        title: Open source for digital sovereignty
       card2:
-        content: Decidim zajišťuje transparentnost, sledovatelnost a integritu informací jako nikdy předtím. Poskytuje bezpečnost a soukromí a důvěrnost všem účastníkům.
-        link: Sociální smlouva
+        content: Decidim ensures transparency, traceability, and integrity of information. It provides security, privacy, and data confidentiality to all participants. Our values are embedded in the code.
+        link: Read our social contract
         title: Demokracii bereme velmi vážně
       card3:
-        content: Platforma navržená zcela se svobodným softwarem, otevřeným a spolupracujícím obsahem díky komunitě Metadecidim.
-        link: Komunita
-        title: Je to vás. Používejte to. Sdílejte to. Zlepšete to.
+        content: Become part of a global community that promotes democracy and free software. You’ll be able to take part in events, learn from others and be part of a model of technological governance that is unique in the world.
+        link: Join our community
+        title: A global community to participate in
+    footer_banner:
+      heading: Participation for social change
+      intro: Empower your community by creating truly democratic processes. Avoid participatory washing, use Decidim to organize collective intelligence and transform reality.
     hero:
       cta: Začínáme
-      intro: Dostupná a bezpečná technologie.<br/>Se všemi demokratickými zárukami.<br/>Přeprogramování demokracie je nyní možné s Decidim.
-      subheading: Decidim je digitální platforma pro participaci občanů
+      intro: Free/Libre Open Source infrastructure with all democratic guarantees.
+      subheading: A digital platform for participation and community governance.
+    installations:
+      cta: Discover who is using Decidim
+      title: More than 500 organizations using Decidim
     subhero:
-      cta: Prozkoumejte všechny funkce
-      feature1: Strategické plánování
-      feature2: Participační procesy
-      feature3: Shromáždění
-      feature4: Iniciativy a konzultace občanů
-      feature5: Participativní rozpočty
-      feature6: Síťová komunikace
-      intro: Decidim pomáhá občanům, organizacím a veřejným institucím, aby se demokraticky organizovali v jakémkoliv rozsahu.
-    used_by:
-      heading: Stovky organizací po celém světě důvěřují Decidimu ve své demokratické procesy
-      link: Zjistěte, jak
-      title: Již používají Decidim
+      cta: All product features
+      index_feature1:
+        text: To foster debate, assessment, and decision-making on issues that matter to your community.
+        title: Run participatory processes
+      index_feature2:
+        text: Enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
+        title: Collect proposals from participants
+      index_feature3:
+        text: You can use various voting methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
+        title: Vote and select proposals
+      index_feature4:
+        text: Manage registrations, publish the agenda and upload the proposals co-created in a session.
+        title: Organize face-to-face or online meetings for co-creation
+      index_feature5:
+        text: Engage your community in a deliberation topic, and follow the discussion with different visualizations of the arguments.
+        title: Comment and discuss with your community
+      intro_html: What makes <span class="text-red-500">Decidim unique</span>?
+      subtitle: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
+      title: What can you do with Decidim?
+    use_cases:
+      subtitle: Stories about Decidim in action, around the world with diverse purposes and contexts.
+      title: Případy použití
   installations:
     download_csv: Stáhnout CSV soubor se všemi instalacemi
     download_csv_short: Stáhnout CSV
