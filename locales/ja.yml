@@ -81,7 +81,6 @@ ja:
     strong: Decidim Fest 22
   blog:
     back: Back to blog
-    latest: 最新の投稿
     read: Read the blog
     read_more: もっと読む
     subtitle: Decidimの最新情報
@@ -484,36 +483,56 @@ ja:
     trademark: Decidimの名称およびロゴは、Associacio's de Software Lliure Decidimの登録商標です。
     up_to_date: 最新情報
   index:
+    alt:
+      banner: A banner depicting an assembly
+      footer: A footer banner depicting a focus group
+      hero: Participants gathered around a table, collaborating on a document during a Decidim community event
     cards:
       card1:
-        content: あらゆる種類の組織における民主的な統治体制の構築を支援できます。
-        link: 機能
-        title: 柔軟な民主的体制の実装
+        content: A platform designed entirely with free-open source software. No vendor lock-in, you can install decidim on your own server. You can improve it and contribute to the project.
+        link: 最初のステップ
+        title: Open source for digital sovereignty
       card2:
-        content: Decidimは、かつてないほど情報の透明性、追跡可能性、完全性を保証します。すべての参加者にセキュリティ、プライバシー、機密保持を提供します。
-        link: 社会契約
+        content: Decidim ensures transparency, traceability, and integrity of information. It provides security, privacy, and data confidentiality to all participants. Our values are embedded in the code.
+        link: Read our social contract
         title: 私たちは民主主義を非常に重視しています
       card3:
-        content: Metadecidimコミュニティによる、すべてが自由ソフトウェアで設計され、オープンでコラボレーティブなコンテンツを提供するプラットフォームです。
-        link: コミュニティ
-        title: あなたのものです。利用してください。共有してください。改善してください。
+        content: Become part of a global community that promotes democracy and free software. You’ll be able to take part in events, learn from others and be part of a model of technological governance that is unique in the world.
+        link: Join our community
+        title: A global community to participate in
+    footer_banner:
+      heading: Participation for social change
+      intro: Empower your community by creating truly democratic processes. Avoid participatory washing, use Decidim to organize collective intelligence and transform reality.
     hero:
       cta: はじめる
-      intro: 自由、オープンで安全なテクノロジー。<br/>民主的な意思決定の保証。<br/>民主主義の再構築 (Reprogramming) は、Decidimが可能にします。
-      subheading: Decidimは市民参加のためのデジタルプラットフォームです
+      intro: Free/Libre Open Source infrastructure with all democratic guarantees.
+      subheading: A digital platform for participation and community governance.
+    installations:
+      cta: Discover who is using Decidim
+      title: More than 500 organizations using Decidim
     subhero:
-      cta: すべての機能を見る
-      feature1: 戦略的な計画立案
-      feature2: 参加型プロセス
-      feature3: 直接参加型の機関
-      feature4: イニシアチブと市民相談
-      feature5: 参加型予算編成
-      feature6: コミュニケーションのネットワーク
-      intro: Decidim は、市民、組織、公的機関が民主的に自律するのを、小さな単位から大きな単位まで支援します。
-    used_by:
-      heading: 世界中の何百もの組織がDecidimによる民主的プロセスを信頼しています。
-      link: 詳しく見る
-      title: Decidimは広く使われています
+      cta: All product features
+      index_feature1:
+        text: To foster debate, assessment, and decision-making on issues that matter to your community.
+        title: Run participatory processes
+      index_feature2:
+        text: Enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
+        title: Collect proposals from participants
+      index_feature3:
+        text: You can use various voting methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
+        title: Vote and select proposals
+      index_feature4:
+        text: Manage registrations, publish the agenda and upload the proposals co-created in a session.
+        title: Organize face-to-face or online meetings for co-creation
+      index_feature5:
+        text: Engage your community in a deliberation topic, and follow the discussion with different visualizations of the arguments.
+        title: Comment and discuss with your community
+      intro_html: What makes <span class="text-red-500">Decidim unique</span>?
+      subtitle: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
+      title: What can you do with Decidim?
+    use_cases:
+      subtitle: Stories about Decidim in action, around the world with diverse purposes and contexts.
+      title: 活用事例
   installations:
     download_csv: すべてのインストール内容を含むCSVファイルをダウンロード
     download_csv_short: Download CSV
