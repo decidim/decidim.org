@@ -28,7 +28,7 @@ pageClass: home
   <div class="container md:pt-16 pt-10">
     <h2 class="h2"><%= t("index.installations.title") %></h2>
     <%= partial "partials/main_installations", locals: { classes: "md:py-10 py-5" } %>
-    <%= partial "partials/arrow-link", locals: { text: t("index.installations.cta"), url: "#{t(:path)}/installations" } %>
+    <%= partial "partials/arrow-link", locals: { text: t("index.installations.cta"), classes: "text-red-900 mt-auto block", url: "#{t(:path)}/installations" } %>
   </div>
 </section>
 
@@ -104,7 +104,7 @@ pageClass: home
         <div class="<%= 'md:border-r-2 border-gray-100 md:pr-5' unless index == data.index.cards.length - 1 %> flex flex-col flex-1">
           <p class="par-sm uppercase font-bold md:pt-8 pt-5"><%= t("index.cards.#{item.title}") %></p>
           <p class="par-sm max-w-prose mt-4 mb-6"><%= t("index.cards.#{item.content}") %></p>
-          <%= partial "partials/arrow-link", locals: { text: t("index.cards.#{item.link}"), url: url(item.url), classes: "text-red-500 mt-auto block", icon_name: "ri-arrow-right-line", icon_classes: "w-4 h-4" } %>
+          <%= partial "partials/arrow-link", locals: { text: t("index.cards.#{item.link}"), url: url(item.url), classes: "text-red-900 mt-auto block", icon_name: "ri-arrow-right-line", icon_classes: "w-4 h-4" } %>
         </div>
       </div>
     <% end %>
