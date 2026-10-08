@@ -53,6 +53,18 @@ module DataHelpers
     end
   end
 
+  # Orders the press media hits for display, most recent first
+  # Dates are required in the admin panel, which writes them as YYYY.MM.DD
+  # so Middleman loads them as Date objects
+  # Used for the media highlights in the press page
+  #
+  # @param media [Hash] A hash with the file name of the media hit as key and the middleman data hash as value
+  #                    example: data.media
+  # @return [Array<String, Middleman::Util::EnhancedHash>]
+  def data_sort_media_by_date(media)
+    media.to_a.sort_by { |_, m| m["date"] }.reverse
+  end
+
   # Clean an HTML string from image tags
   # Used for the blog snippets or summaries in the homepage
   #
