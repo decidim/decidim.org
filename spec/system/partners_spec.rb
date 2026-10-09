@@ -53,4 +53,10 @@ RSpec.describe "partners", type: :feature do
     find("[data-filter-clear]").click
     expect(page).to have_unchecked_field("Installation & Development")
   end
+
+  it "does not paginate the page", :js do # rubocop:disable RSpec/MultipleExpectations
+    expect(page).to have_css("[data-filter-region-checkboxes] input")
+    expect(page).to have_css("[data-filter-card]", count: 12, visible: :visible)
+    expect(page).to have_no_css("[data-filter-pagination] button")
+  end
 end
