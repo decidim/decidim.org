@@ -2,14 +2,6 @@
   <div class="container py-4">
     <div class="flex items-baseline md:items-center mt-4 md:mt-8">
       <a class="w-3/4" href="<%= t(:path) %>/"><img src="/images/decidim-symbol-white.svg" alt="Decidim" /></a>
-
-      <nav class="hidden md:flex items-center w-1/4 space-x-2">
-        <% data.links.social_media.each do |link| %>
-          <% link_to link.url, target: "_blank", rel: "noopener noreferrer", title: link.name do %>
-            <%= icon link.icon, class: "w-4 h-4" %>
-          <% end %>
-        <% end %>
-      </nav>
     </div>
 
     <div class="flex mt-6 md:mt-12">
@@ -164,8 +156,16 @@
       <% end %>
     </nav>
 
-    <div class="flex md:flex-row pt-6 md:border-t border-gray-500">
-      <h3 class="flex items-center font-bold md:pr-5"><%= t("footer.supported_by") %></h3>
+    <nav class="hidden md:flex justify-end space-x-2 md:pb-5">
+      <% data_select_footer_social_media(data.links.social_media).each do |link| %>
+        <% link_to link.url, target: "_blank", rel: "noopener noreferrer", title: link.name do %>
+          <%= icon link.icon, class: "w-4 h-4" %>
+        <% end %>
+      <% end %>
+    </nav>
+
+    <div class="flex md:flex-row flex-col pt-6 md:border-t border-gray-500">
+      <h3 class="flex items-center font-bold md:pb-0 pb-4 md:pr-5"><%= t("footer.supported_by") %></h3>
       <div class="flex items-center space-x-5">
         <% link_to "http://www.barcelona.cat", class: "w-24 h-5 flex items-center", target: "_blank", rel: "noopener noreferrer" do %>
           <%= image_tag "/images/logo_footer_barcelona.svg", resize: "150x50", alt: "Ajuntament de Barcelona" %>
