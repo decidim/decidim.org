@@ -1,50 +1,46 @@
-decidim:
+product:
   - name: nav.first-steps
     url: /first-steps
   - name: nav.features
     url: /features
-  - name: nav.used_by
-    url: /usedby
-  - name: nav.installations
-    url: /installations
-  - name: nav.demo
-    url: https://try.decidim.org/
   - name: nav.modules
     url: /modules
   - name: nav.docs.title
     url: /documentation
-  - name: nav.code
-    url: https://github.com/decidim/decidim
 
-about_us:
+in_use:
+  - name: nav.used_by
+    url: /usedby
+  - name: nav.installations
+    url: /installations
+  - name: nav.case-studies
+    url: /case-studies
+
+about:
   - name: nav.association
     url: /about
   - name: nav.team
     url: /team
-  - name: nav.community
-    url: /community
-  - name: nav.contract
-    url: /contract
-  - name: nav.partners
-    url: /partners
+  - name: nav.book
+    url: /book
   - name: nav.supporters
     url: /supporters
-  - name: nav.faqs
-    url: /faqs
+
+contact:
   - name: nav.contact
     url: /contact
 
-stay_up_to_date:
-  - name: nav.blog
-    url: /blog
-  - name: nav.book
-    url: /book
+community:
+  - name: nav.community
+    url: /community
+  - name: nav.partners
+    url: /partners
+
+news:
   - name: nav.press
     url: /press
-  - name: nav.academy
-    url: https://www.zotero.org/groups/1607464/metadecidim/collections/DWR7CKGM
-  - name: nav.case-studies
-    url: /case-studies
+  - name: nav.blog
+    url: /blog
 
 legal:
   - name: nav.legal-notice
@@ -53,10 +49,12 @@ legal:
     url: /privacy-policy
   - name: nav.trademark
     url: /trademark-policy
-  - name: nav.partnership-policy
-    url: /partnership-policy
   - name: nav.transparency-portal
     url: /transparency-portal
+
+faqs:
+  - name: nav.faqs
+    url: /faqs
 
 social_media:
   - name: GitHub
