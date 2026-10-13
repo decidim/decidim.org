@@ -21,6 +21,15 @@ module DataHelpers
     data.select { |_, m| m["home"] }
   end
 
+  # Extract the data files that has the usedby=true key and value
+  # Used for the installations in the used by page
+  #
+  # @param data [Middleman::Util::EnhancedHash] The data hash from Middleman
+  # @return [Middleman::Util::EnhancedHash]
+  def data_select_usedby(data)
+    data.select { |_, m| m["usedby"] }
+  end
+
   # Extract from the data files that has the footer=true key and value
   # Used for the social media links in the footer
   #

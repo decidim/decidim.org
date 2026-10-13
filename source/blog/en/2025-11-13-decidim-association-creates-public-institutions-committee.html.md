@@ -1,5 +1,9 @@
 ---
 title: The Decidim Association launches the Committee of Public Institutions with six global institutions
+gallery:
+  - image: /uploads/blog-institutions-committee-banner.jpg
+    alt: 'A large group of people pose together on a marble floor inside a grand historic building with stone archways and hanging chandeliers.'
+tags: Announcements
 ---
 
 ![](/uploads/foto.jpg)
