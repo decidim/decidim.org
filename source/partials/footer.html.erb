@@ -8,7 +8,7 @@
 
     <nav class="flex md:hidden items-center justify-between mt-8">
       <% data_select_footer_social_media(data.links.social_media).each do |link| %>
-        <% link_to link.url, target: "_blank", rel: "noopener noreferrer" do %>
+        <% link_to link.url, target: "_blank", rel: "noopener noreferrer", "aria-label": link.name do %>
           <%= icon link.icon, class: "w-4 h-4" %>
         <% end %>
       <% end %>
