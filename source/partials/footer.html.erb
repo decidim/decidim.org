@@ -156,7 +156,7 @@
       <% end %>
     </nav>
 
-    <nav class="hidden md:flex justify-end space-x-2 md:pb-5">
+    <nav class="hidden md:flex justify-end space-x-3 md:pb-5">
       <% data_select_footer_social_media(data.links.social_media).each do |link| %>
         <% link_to link.url, target: "_blank", rel: "noopener noreferrer", title: link.name do %>
           <%= icon link.icon, class: "w-5 h-5" %>
