@@ -87,6 +87,7 @@ const genericFilter = () => {
   const setPanel = (open) => {
     panelOpen = open;
     filterPanel?.classList.toggle("hidden", !open);
+    filterToggle?.setAttribute("aria-expanded", String(open));
     if (filterArrow) {
       filterArrow.style.transform = open
         ? "rotate(180deg)"

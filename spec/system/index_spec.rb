@@ -12,9 +12,7 @@ RSpec.describe "index", type: :feature do
   end
 
   it "displays the correct title header content" do
-    within "h1" do
-      expect(page).to have_content(/Decidim is a digital platform for citizen participation/i)
-    end
+    expect(page).to have_css "h1", text: /A digital platform for participation and community governance./i
   end
 
   it "has a navigation with a details element" do
@@ -22,26 +20,18 @@ RSpec.describe "index", type: :feature do
   end
 
   it "displays Castellano in the language selector" do
-    within "nav details" do
-      expect(page).to have_text "Castellano"
-    end
+    expect(page).to have_css "details.no-animate", text: "Castellano"
   end
 
   it "displays Català in the language selector" do
-    within "nav details" do
-      expect(page).to have_text "Català"
-    end
+    expect(page).to have_css "details.no-animate", text: "Català"
   end
 
   it "displays English in the language selector" do
-    within "nav details" do
-      expect(page).to have_text "English"
-    end
+    expect(page).to have_css "details.no-animate", text: "English"
   end
 
   it "displays Français in the language selector" do
-    within "nav details" do
-      expect(page).to have_text "Français"
-    end
+    expect(page).to have_css "details.no-animate", text: "Français"
   end
 end
