@@ -70,10 +70,10 @@ description:
 
 <section class="bg-red-100">
   <div class="container py-10 md:py-16">
-    <h2 class="h2 text-red-500">
+    <h2 class="h2 text-red-900">
       <%= t("community.banner.title") %>
     </h2>
-    <p class="par-md text-red-500 md:pt-10 pt-5">
+    <p class="par-md text-red-900 md:pt-10 pt-5">
       <%= t("community.banner.intro") %>
     </p>
     <div class="inline-flex flex-col md:flex-row gap-4 par-md md:pt-10 pt-5">
@@ -111,7 +111,7 @@ description:
               <%= icon "ri-calendar-line", class: "text-gray-500 mr-2 w-5 h-5" %>
               <p class="par-sm text-gray-500"><%= edition.date %></p>
             </div>
-            <%= partial "partials/arrow-link", locals: { text: t("community.fest_editions.cta"), url: edition.link } %>
+            <%= partial "partials/arrow-link", locals: { text: t("community.fest_editions.cta"), url: edition.link, classes: "text-red-900" } %>
           </div>
         </div>
       <% end %>

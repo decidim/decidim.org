@@ -17,13 +17,13 @@
     </div>
     <div class="flex gap-2 flex-wrap md:pb-16 md:h-16 overflow-hidden">
       <% Array(cs.type).each do |type| %>
-        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= type %></span>
+        <span class="text-sm bg-red-100 text-red-900 rounded px-2 py-1"><%= type %></span>
       <% end %>
       <% if cs.region.present? %>
-        <span class="text-sm bg-red-100 text-red-500 rounded px-2 py-1"><%= cs.region %></span>
+        <span class="text-sm bg-red-100 text-red-900 rounded px-2 py-1"><%= cs.region %></span>
       <% end %>
     </div>
     <p class="md:py-3 pb-4 pt-3 md:text-2xl text-xl font-bold text-black"><%= cs.name %></p>
-    <%= partial "partials/arrow-link", locals: { text: t("partners.read"), url: resource.url, classes: "text-red-500 mt-auto block" } %>
+    <%= partial "partials/arrow-link", locals: { text: t("partners.read"), url: resource.url, classes: "text-red-900 mt-auto block" } %>
   </div>
 <% end %>
