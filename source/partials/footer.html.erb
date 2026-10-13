@@ -10,14 +10,14 @@
       <div class="block md:hidden w-full divide-y-2 divide-gray-500 cursor-pointer" data-accordion="footer">
         <details class="w-full group">
           <summary class="flex items-center justify-between space-x-4 py-2 border-b border-gray-500">
-            <h3 class="font-bold">Decidim</h3>
+            <h3 class="font-bold"><%= t("footer.product") %></h3>
             <div class="flex-none w-5 h-5">
               <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
               <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
             </div>
           </summary>
           <nav class="space-y-3 group-open:py-3 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
-            <% data.links.decidim.each do |link| %>
+            <% data.links.product.each do |link| %>
               <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
             <% end %>
           </nav>
@@ -25,14 +25,14 @@
 
         <details class="w-full group">
           <summary class="flex items-center justify-between space-x-4 py-2 border-b border-gray-500">
-            <h3 class="font-bold"><%= t("footer.about_us") %></h3>
+            <h3 class="font-bold"><%= t("footer.in_use") %></h3>
             <div class="flex-none w-5 h-5">
               <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
               <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
             </div>
           </summary>
           <nav class="space-y-3 group-open:py-3 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
-            <% data.links.about_us.each do |link| %>
+            <% data.links.in_use.each do |link| %>
               <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
             <% end %>
           </nav>
@@ -40,14 +40,14 @@
 
         <details class="w-full group">
           <summary class="flex items-center justify-between space-x-4 py-2 border-b border-gray-500">
-            <h3 class="font-bold"><%= t("footer.up_to_date") %></h3>
+            <h3 class="font-bold"><%= t("footer.about") %></h3>
             <div class="flex-none w-5 h-5">
               <%= icon "ri-arrow-down-s-line", class: "w-5 h-5 group-open:hidden no-toggle" %>
               <%= icon "ri-arrow-up-s-line", class: "hidden group-open:block w-5 h-5 no-toggle" %>
             </div>
           </summary>
           <nav class="space-y-3 group-open:py-3 pointer-events-none -translate-y-full max-h-0 opacity-0 transition-all">
-            <% data.links.stay_up_to_date.each do |link| %>
+            <% data.links.about.each do |link| %>
               <%= link_to t(link.name, default: link.name), link.url, class: "block" %>
             <% end %>
           </nav>
@@ -76,75 +76,72 @@
       </div>
 
       <%# "desktop menu footer" %>
-      <div class="hidden md:block w-3/4 columns-3 space-y-9 md:pb-6">
-        <div class="break-inside-avoid">
-          <div class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
-            <h3 class="font-bold">Decidim</h3>
-            <div class="block md:hidden flex-none relative w-5 h-5">
-              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
-              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
-            </div>
+      <div class="hidden md:grid w-3/4 grid-cols-4 gap-6 md:pb-6">
+        <div class="space-y-9">
+          <div class="space-y-3">
+            <h3 class="font-bold uppercase"><%= t("footer.product") %></h3>
+            <nav class="space-y-3">
+              <% data.links.product.each do |link| %>
+                <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
+              <% end %>
+            </nav>
           </div>
-          <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
-            <% data.links.decidim.each do |link| %>
-              <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
-            <% end %>
-          </nav>
+
+          <div class="space-y-3">
+            <h3 class="font-bold uppercase"><%= t("footer.in_use") %></h3>
+            <nav class="space-y-3">
+              <% data.links.in_use.each do |link| %>
+                <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
+              <% end %>
+            </nav>
+          </div>
         </div>
 
-        <div class="break-inside-avoid">
-          <div class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
-            <h3 class="font-bold"><%= t("footer.about_us") %></h3>
-            <div class="block md:hidden flex-none relative w-5 h-5">
-              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
-              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
-            </div>
+        <div class="space-y-9">
+          <div class="space-y-3">
+            <h3 class="font-bold uppercase"><%= t("footer.about") %></h3>
+            <nav class="space-y-3">
+              <% data.links.about.each do |link| %>
+                <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
+              <% end %>
+            </nav>
           </div>
-          <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
-            <% data.links.about_us.each do |link| %>
-              <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
-            <% end %>
-          </nav>
+
+          <h3 class="font-bold uppercase"><%= link_to t("footer.contact"), url(data.links.contact.first.url) %></h3>
         </div>
 
-        <div class="break-inside-avoid">
-          <div class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
-            <h3 class="font-bold"><%= t("footer.up_to_date") %></h3>
-            <div class="block md:hidden flex-none relative w-5 h-5">
-              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
-              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
-            </div>
+        <div class="space-y-9">
+          <div class="space-y-3">
+            <h3 class="font-bold uppercase"><%= t("footer.community") %></h3>
+            <nav class="space-y-3">
+              <% data.links.community.each do |link| %>
+                <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
+              <% end %>
+            </nav>
           </div>
-          <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
-            <% data.links.stay_up_to_date.each do |link| %>
-              <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
-            <% end %>
-          </nav>
+
+          <div class="space-y-3">
+            <h3 class="font-bold uppercase"><%= t("footer.news") %></h3>
+            <nav class="space-y-3">
+              <% data.links.news.each do |link| %>
+                <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
+              <% end %>
+            </nav>
+          </div>
         </div>
 
-        <div class="break-inside-avoid">
-          <div class="flex items-center justify-between space-x-4 py-2 md:py-0 md:mb-3">
-            <h3 class="font-bold"><%= t("footer.legal") %></h3>
-            <div class="block md:hidden flex-none relative w-5 h-5">
-              <%= icon "ri-add-line", class: "absolute w-5 h-5 animate-fade-in" %>
-              <%= icon "ri-subtract-line", class: "absolute w-5 h-5 animate-fade-out" %>
-            </div>
+        <div class="space-y-9">
+          <div class="space-y-3">
+            <h3 class="font-bold uppercase"><%= t("footer.legal") %></h3>
+            <nav class="space-y-3">
+              <% data.links.legal.each do |link| %>
+                <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
+              <% end %>
+            </nav>
           </div>
-          <nav class="space-y-3 break-inside-avoid pointer-events-none md:pointer-events-auto -translate-y-full md:translate-y-0 max-h-0 md:max-h-full opacity-0 md:opacity-100 transition-all">
-            <% data.links.legal.each do |link| %>
-              <%= link_to t(link.name, default: link.name), url(link.url), class: "block" %>
-            <% end %>
-          </nav>
-        </div>
-      </div>
 
-      <div class="hidden md:block w-1/4">
-        <h3 class="font-bold mb-3"><%= t("footer.follow_us") %></h3>
-        <nav class="space-y-3">
-          <% data_select_footer_social_media(data.links.social_media).each do |link| %>
-            <%= link_to link.name, link.url, class: "block first-letter:uppercase", target: "_blank", rel: "noopener noreferrer" %>
-          <% end %>
-        </nav>
+          <h3 class="font-bold uppercase"><%= link_to t("footer.faqs"), url(data.links.faqs.first.url) %></h3>
+        </div>
       </div>
     </div>
 
@@ -165,7 +162,7 @@
     </nav>
 
     <div class="flex md:flex-row flex-col pt-6 md:border-t border-gray-500">
-      <h3 class="flex items-center font-bold md:pb-0 pb-4 md:pr-5"><%= t("footer.supported_by") %></h3>
+      <h3 class="flex items-center md:pb-0 pb-4 md:pr-5"><%= t("footer.supported_by") %></h3>
       <div class="flex items-center space-x-5">
         <% link_to "http://www.barcelona.cat", class: "w-24 h-5 flex items-center", target: "_blank", rel: "noopener noreferrer" do %>
           <%= image_tag "/images/logo_footer_barcelona.svg", resize: "150x50", alt: "Ajuntament de Barcelona" %>
