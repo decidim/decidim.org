@@ -4,7 +4,7 @@
 <% resources.each do |resource| %>
   <% cs = resource.data %>
   <% tag = Array(cs.tags).first.to_s %>
-  <a href="<%= resource.url %>" class="flex flex-col rounded-lg outline outline-1 outline-offset-0 outline-gray-300 flex-1 shadow-md hover:shadow-lg transition-shadow cursor-pointer overflow-hidden"
+  <a href="<%= resource.url %>" class="flex flex-col rounded-lg outline outline-1 outline-offset-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-900 outline-gray-300 flex-1 shadow-md hover:shadow-lg transition-shadow cursor-pointer overflow-hidden"
     data-filter-card
     data-type="<%= tag %>"
     data-region="<%= cs.region.to_s %>">
