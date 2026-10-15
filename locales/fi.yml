@@ -660,31 +660,35 @@ fi:
     title: Yhteistyökumppanien ehdot
   path: '/fi'
   press:
+    article_cta: Go to the article
+    cta:
+      button: Read our latest news
+      title: Stay up to date with Decidim!
     highlights: Median kohokohdat
-    kit: Lehdistöpaketti
     links:
       link1:
-        link: Lataa
-        title: Logotiedostot
+        link: Download Brandbook
+        title: Brandbook
       link2:
-        link: Katso
-        title: Esittelyvideo
+        link: Download whitepaper
+        title: Whitepaper
       link3:
-        link: Lataa
+        link: Download brochure
         title: Esite
       link4:
-        link: Siirry sivustolle
-        title: Decidim Fest
+        link: Go to Zotero repository
+        title: Academic papers
       link5:
-        link: YouTube-kanava
-        title: Videot
+        link: Go to YouTube
+        title: Webinar
       link6:
-        link: Zotero-viitetietokanta
-        title: Akateemiset julkaisut
+        link: Go to Youtube
+        title: Spot
     sign_up: Tilaa Metadecidim-uutiskirje
-    social_media: Seuraa meitä sosiaalisessa mediassa
+    social_media: Social media
     subtitle: Lehdistökysymyksissä, ota yhteyttä osoitteeseen
-    title: Lehdistö
+    title: Press kit
+    view_more: View more
   privacy-policy:
     section-1:
       paragraph: <p>Associació de Software Lliure Decidim ("<a href="%{decidim_url}">Decidim</a>", "Yhdistys" tai "me") omistaa tämän verkkosivuston, joka on saatavissa verkko-osoitteessa <a href="https://decidim.org/fi/">https://decidim.org/</a> (jäljempänä "Verkkosivusto"), ja toimii henkilötietojen rekisterinpitäjänä kaikille Verkkosivuston käyttäjille ("Sinä", "Käyttäjä").</p><p><a href="%{decidim_url}">Decidim</a> on sitoutunut suojaamaan kaikkien Verkkosivuston Käyttäjien, kumppanijäsenten ja <a href="%{decidim_url}">Decidim</a>-yhteisön jäsenten yksityisyyttä. Tämä Tietosuojaseloste esittää Verkkosivuston kautta kerättyjen henkilötietojen käyttöön, mukaan lukien vapaan avoimen lähdekoodin osallistuvan demokratian alustamme demo-palvelu, sekä <a href="%{decidim_url}">Decidimiin</a> ja <a href="%{decidim_url}">Decidim</a>-yhteisön hallinnointiin liittyvien yksilöiden tietojen käsittelyyn liittyvät käytäntömme, joko tällä Verkkosivustolla tai millä tahansa muulla <a href="%{decidim_url}">Decidimin</a> hallinnoimalla alustalla.</p><p>Tämä Tietosuojaseloste on osa Lakitekstejämme yhdessä <a href="%{legal_notice_url}">Oikeudellisen ilmoituksen</a> kanssa.</p>
