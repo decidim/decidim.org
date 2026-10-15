@@ -6,29 +6,29 @@ ca:
   about:
     association:
       become_member:
-        description: Be part of the Association and participate in the project governance.
-        title: Want to become a member?
+        description: Forma part de l'Associació i participa en la governança del projecte.
+        title: Vols convertir-te en sòcia?
         url: https://meta.decidim.org/assemblies/QuieroSerSocia?locale=en
-        url_name: Let us know
+        url_name: Diguen'ns-ho
       media_kit:
-        description: Looking for info? Check our press section.
+        description: Busques informació? Dona un cop d'ull a la secció de premsa.
         title: Media kit
         url: https://decidim.org/press/
         url_name: Prensa
       support_us:
-        description: Contribute to the commons and the sustainability of Decidim.
-        title: Want to support us?
+        description: Contribució als comuns i a la sostenibilitat de Decidim.
+        title: Vols donar suport al projecte?
         url: https://opencollective.com/decidim/donate?interval=oneTime&amount=1000&name=&legalName=&email=
-        url_name: Make a donation
+        url_name: Fes una donació
     bottom_section:
-      button: Let's talk about your project
-      subtitle: We can help you with every step of using Decidim's product, from participatory design to learning how to install Decidim. Have a collaboration idea? We'd love to hear about it.
-      title: Need help?
+      button: Parlem sobre el projecte
+      subtitle: Et podem ajudar en totes les fases d'ús del producte, des del disseny participatiu fins a aprendre com instal·lar Decidim. Tens una idea de col·laboració? Ens encantaria saber-ne més.
+      title: Necessites ajuda?
     history:
       timeline:
         - 
           year: 2011
-          above: All started with the 15M movement and the convergence of earlier hacktivists, autonomous and democratic activism in Spain and the rise of the technopolitical cycle.
+          above: Tot va començar amb el moviment del 15M i la convergència entre les primeres hacktivistes, l'activisme autonòmic i democràtic a Espanya i l'apogeu del cicle tecnopolític.
         - 
           year: 2016
           below: In Barcelona, in early 2016, a fork of Consul, the participatory platform of the Madrid City Council, was used to power up the site <a href="https://decidim.barcelona" class="underline decoration-1">decidim.barcelona</a>, the new digital venue for participatory processes in the city council.
