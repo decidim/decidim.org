@@ -660,31 +660,35 @@ eu:
     title: Tokiko inplementatzailetzako politika
   path: '/eu'
   press:
+    article_cta: Go to the article
+    cta:
+      button: Read our latest news
+      title: Stay up to date with Decidim!
     highlights: Albiste aipagarriak
-    kit: Prentsa-txostena
     links:
       link1:
-        link: Deskargatu
-        title: Logoaren fitxategiak
+        link: Download Brandbook
+        title: Brandbook
       link2:
-        link: Ikusi
-        title: Sustapen-iragarkia
+        link: Download whitepaper
+        title: Whitepaper
       link3:
-        link: Deskargatu
+        link: Download brochure
         title: Liburuxka
       link4:
-        link: Webgunerako
-        title: Decidim Fest
+        link: Go to Zotero repository
+        title: Academic papers
       link5:
-        link: Youtube-ko kanala
-        title: Bideoak
+        link: Go to YouTube
+        title: Webinar
       link6:
-        link: Zotero biltegia
-        title: Paper akademikoak
+        link: Go to Youtube
+        title: Spot
     sign_up: Eman izena gure Metadecidim buletinean
-    social_media: Jarrai gaitzazu sare sozialetan
+    social_media: Social media
     subtitle: Komunikabideei buruzko kontsultak egiteko, bidali mezu elektroniko bat ondorengo helbidera
-    title: Komunikabideak
+    title: Press kit
+    view_more: View more
   privacy-policy:
     section-1:
       paragraph: "<p>Decidim software libreko elkartea (\"<a href=\"%{decidim_url}\">Decidim</a>\" edo “gu”) webgune honen jabea da, <a href=\"https://decidim.org/\">https://decidim.org/</a> web-domeinuaren bidez eskuragarri dagoena (aurrerantzean, \"Webgunea\"), eta Webguneko erabiltzaile guztien datu pertsonalen tratamenduaren arduradun gisa jarduten du (“Zuk/zure”, “Erabiltzailea”).</p> \n\n<p><a href=\"%{decidim_url}\">Decidim</a> Webguneko erabiltzaileen, bere kide elkartuen eta <a href=\"%{decidim_url}\">Decidim</a> komunitateko kideen pribatutasuna babesteko konpromisoa hartzen du. Pribatutasun-politika honek Webgunearen bidez bildutako datu pertsonalen erabilerari buruzko gure praktikak azaltzen ditu, gure parte-hartze demokratikorako plataforma libre eta kode irekiko demoaren barne, baita <a href=\"%{decidim_url}\">Decidim</a>-ekin lotutako pertsonen datuen tratamendua eta <a href=\"%{decidim_url}\">Decidim</a> komunitatearen kudeaketa ere, Webgune honetan edo <a href=\"%{decidim_url}\">Decidim</a>-ek kudeatutako beste plataforma batzuetan.</p> \n\n<p>Pribatutasun-politika hau gure Lege Testuen parte da, <a href=\"%{legal_notice_url}\">Lege Oharra</a> barne.</p>"
