@@ -3,7 +3,7 @@
 <% resources = limit ? resources.first(limit) : resources %>
 <% resources.each do |resource| %>
   <% cs = resource.data %>
-  <a href="<%= resource.url %>" class="flex flex-col md:p-4 p-3 rounded-lg outline outline-1 outline-offset-0 outline-gray-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-900 flex-1 shadow-md hover:shadow-lg transition-shadow cursor-pointer overflow-hidden"
+  <a href="<%= resource.url %>" class="flex flex-col md:p-4 p-3 rounded-lg stroke-1 outline outline-1 outline-offset-0 outline-gray-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-900 flex-1 shadow-md hover:shadow-lg transition-shadow cursor-pointer overflow-hidden"
     data-filter-card
     data-type="<%= Array(cs.type).join(" | ") %>"
     data-region="<%= cs.region.to_s %>">
