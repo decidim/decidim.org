@@ -58,7 +58,7 @@ social_media:
   - name: GitHub
     icon: ri-github-fill
     url: https://github.com/decidim/decidim
-    footer: false
+    footer: true
     press: true
   - name: Twitter
     icon: ri-twitter-fill
@@ -75,11 +75,6 @@ social_media:
     url: https://www.instagram.com/decidim_org/
     footer: true
     press: true
-  - name: Mastodon
-    icon: ri-mastodon-fill
-    url:  https://freeradical.zone/@decidim
-    footer: false
-    press: true
   - name: Telegram
     icon: ri-telegram-line
     url: https://t.me/s/decidim
@@ -90,10 +85,15 @@ social_media:
     url: https://matrix.to/#/#decidim:matrix.org
     footer: true
     press: true
+  - name: Mastodon
+    icon: ri-mastodon-fill
+    url:  https://freeradical.zone/@decidim
+    footer: true
+    press: true
   - name: Linkedin
     icon: ri-linkedin-box-fill
     url: https://gt.linkedin.com/company/decidim/
-    footer: false
+    footer: true
     press: true
   - name: BlueSky
     icon: ri-bluesky-fill
