@@ -3,7 +3,7 @@
 <% resources = limit ? resources.first(limit) : resources %>
 <% resources.each do |resource| %>
   <% cs = resource.data %>
-  <div class="flex flex-col md:p-4 p-3 rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300 flex-1"
+  <a href="<%= resource.url %>" class="flex flex-col md:p-4 p-3 rounded-lg stroke-1 outline outline-1 outline-offset-0 outline-gray-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-900 flex-1 shadow-md hover:shadow-lg transition-shadow cursor-pointer overflow-hidden"
     data-filter-card
     data-type="<%= Array(cs.type).join(" | ") %>"
     data-region="<%= cs.region.to_s %>">
@@ -24,6 +24,9 @@
       <% end %>
     </div>
     <p class="md:py-3 pb-4 pt-3 md:text-2xl text-xl font-bold text-black"><%= cs.name %></p>
-    <%= partial "partials/arrow-link", locals: { text: t("partners.read"), url: resource.url, classes: "text-red-500 mt-auto block" } %>
-  </div>
+    <div class="text-red-500 mt-auto flex items-center gap-2">
+      <span><%= t("partners.read") %></span>
+      <%= icon "ri-arrow-right-line", class: "w-4 h-4 mt-1 block self-center shrink-0" %>
+    </div>
+  </a>
 <% end %>
