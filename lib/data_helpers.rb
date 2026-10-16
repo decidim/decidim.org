@@ -63,7 +63,7 @@ module DataHelpers
     resources = slugs.map { |s| resources.find { |r| r.url.include?(s) } }.compact if slugs
     limit ? resources.first(limit) : resources
   end
-  
+
   # Orders the press media hits for display, most recent first
   # Dates are required in the admin panel, which writes them as YYYY.MM.DD
   # so Middleman loads them as Date objects
