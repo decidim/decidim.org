@@ -53,6 +53,17 @@ module DataHelpers
     end
   end
 
+  # Select the blog resources to render as cards.
+  #
+  # @param resources [Array] The blog articles
+  # @param slugs [Array<String>, nil] Restrict (and order) to the articles whose URL includes one of these slugs
+  # @param limit [Integer, nil] Maximum number of articles to return
+  # @return [Array]
+  def select_blog_cards(resources, slugs: nil, limit: nil)
+    resources = slugs.map { |s| resources.find { |r| r.url.include?(s) } }.compact if slugs
+    limit ? resources.first(limit) : resources
+  end
+
   # Clean an HTML string from image tags
   # Used for the blog snippets or summaries in the homepage
   #
