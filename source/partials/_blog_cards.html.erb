@@ -1,8 +1,4 @@
-<% limit = defined?(limit) ? limit : nil %>
-<% slugs = defined?(slugs) ? slugs : nil %>
-<% resources = blog(:blog).articles %>
-<% resources = slugs ? slugs.map { |s| resources.find { |r| r.url.include?(s) } }.compact : resources %>
-<% resources = limit ? resources.first(limit) : resources %>
+<% resources = select_blog_cards(blog(:blog).articles, slugs: defined?(slugs) ? slugs : nil, limit: defined?(limit) ? limit : nil) %>
 <% resources.each do |resource| %>
   <% cs = resource.data %>
   <% tag = Array(cs.tags).first.to_s %>
