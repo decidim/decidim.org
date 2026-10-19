@@ -9,7 +9,7 @@
     <nav class="flex md:hidden items-center justify-between mt-8">
       <% data_select_footer_social_media(data.links.social_media).each do |link| %>
         <% link_to link.url, target: "_blank", rel: "noopener noreferrer", "aria-label": link.name do %>
-          <%= icon link.icon, class: "w-4 h-4" %>
+          <%= icon link.icon, class: "w-4 h-4 brightness-0 invert" %>
         <% end %>
       <% end %>
     </nav>
@@ -17,7 +17,7 @@
     <nav class="hidden md:flex justify-end space-x-3 md:pb-5 md:w-3/4">
       <% data_select_footer_social_media(data.links.social_media).each do |link| %>
         <% link_to link.url, target: "_blank", rel: "noopener noreferrer", title: link.name do %>
-          <%= icon link.icon, class: "w-5 h-5" %>
+          <%= icon link.icon, class: "w-5 h-5 brightness-0 invert" %>
         <% end %>
       <% end %>
     </nav>
