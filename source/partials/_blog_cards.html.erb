@@ -4,7 +4,7 @@
 <% resources.each do |resource| %>
   <% cs = resource.data %>
   <% tag = Array(cs.tags).first.to_s %>
-  <div class="flex flex-col rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300 flex-1"
+  <a href="<%= resource.url %>" class="flex flex-col rounded-lg stroke-1 outline outline-1 outline-offset-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-900 outline-gray-300 flex-1 shadow-md hover:shadow-lg transition-shadow cursor-pointer overflow-hidden"
     data-filter-card
     data-type="<%= tag %>"
     data-region="<%= cs.region.to_s %>">
@@ -26,7 +26,10 @@
     </div>
     <div class="mt-auto">
       <time class="par-sm text-gray-500 block px-4 pb-4"><%= resource.date.strftime('%d/%m/%Y') %></time>
-      <%= partial "partials/arrow-link", locals: { text: t("blog.read"), url: resource.url, classes: "text-red-500 block px-4 pb-4" } %>
+      <div class="text-red-500 mt-auto flex items-center gap-2 md:pb-4 md:pl-4 px-4 pb-4">
+        <span><%= t("blog.read") %></span>
+        <%= icon "ri-arrow-right-line", class: "w-4 h-4 mt-1 block self-center shrink-0" %>
+      </div>
     </div>
-  </div>
+  </a>
 <% end %>
