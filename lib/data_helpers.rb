@@ -56,12 +56,10 @@ module DataHelpers
   # Select the blog resources to render as cards.
   #
   # @param resources [Array] The blog articles
-  # @param slugs [Array<String>, nil] Restrict (and order) to the articles whose URL includes one of these slugs
-  # @param limit [Integer, nil] Maximum number of articles to return
+  # @param slugs [Array<String>] Restrict (and order) to the articles whose URL includes one of these slugs
   # @return [Array]
-  def select_blog_cards(resources, slugs: nil, limit: nil)
-    resources = slugs.map { |s| resources.find { |r| r.url.include?(s) } }.compact if slugs
-    limit ? resources.first(limit) : resources
+  def select_blog_cards(resources, slugs:)
+    slugs.map { |s| resources.find { |r| r.url.include?(s) } }.compact
   end
 
   # Orders the press media hits for display, most recent first
