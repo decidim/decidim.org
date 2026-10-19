@@ -11,6 +11,7 @@ backend:
   name: github
   repo: decidim/decidim.org
   branch: main
+  base_url: https://auth.deploy.decidim.org
 media_folder: "source/uploads"
 public_folder: "/uploads/"
 collections:
