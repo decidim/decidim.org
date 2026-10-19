@@ -1,5 +1,5 @@
 <% slugs = ["2024-11-14-decidim-and-bsc-collaborate-to-enhance-open-data-capabilities", "2025-02-14-decidim-revamp-platform-consolidation-and-improvement-with-ngi-support", "2025-04-10-the-multipod-project-a-european-public-space-for-citizen-deliberation"] %>
-<% resources = select_blog_cards(blog(:blog).articles, slugs: %>
+<% resources = select_blog_cards(blog(:blog).articles, slugs:) %>
 <% resources.each do |resource| %>
   <% cs = resource.data %>
   <% tag = Array(cs.tags).first.to_s %>
