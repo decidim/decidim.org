@@ -1,6 +1,6 @@
 <footer class="bg-black text-white par-xs">
   <div class="container py-4">
-    <div class="flex items-baseline md:items-center mt-4 md:mt-8">
+    <div class="flex md:hidden items-baseline mt-4">
       <a class="w-3/4" href="<%= t(:path) %>/"><img src="/images/decidim-symbol-white.svg" alt="Decidim" /></a>
     </div>
 
@@ -14,7 +14,7 @@
       <% end %>
     </nav>
 
-    <nav class="hidden md:flex justify-end space-x-3 md:pb-5 md:w-3/4">
+    <nav class="hidden md:flex justify-end space-x-3 md:pb-5 md:w-full">
       <% data_select_footer_social_media(data.links.social_media).each do |link| %>
         <% link_to link.url, target: "_blank", rel: "noopener noreferrer", title: link.name do %>
           <%= icon link.icon, class: "w-5 h-5 brightness-0 invert" %>
@@ -22,7 +22,7 @@
       <% end %>
     </nav>
 
-    <div class="flex md:flex-row flex-col pt-6 md:border-t border-gray-500 md:w-3/4">
+    <div class="flex md:flex-row flex-col pt-6 md:border-t border-gray-500 md:w-full">
       <h3 class="flex items-center md:pb-0 pb-4 md:pr-5"><%= t("footer.supported_by") %></h3>
       <div class="flex items-center space-x-5">
         <% link_to "http://www.barcelona.cat", class: "w-24 h-5 flex items-center", target: "_blank", rel: "noopener noreferrer" do %>
