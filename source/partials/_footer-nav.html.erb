@@ -98,9 +98,10 @@
       </div>
 
       <%# "desktop menu footer" %>
-      <div class="hidden md:grid w-full grid-cols-5 gap-6">
-        <a href="<%= t(:path) %>/" class="flex items-start self-start"><img src="/images/decidim-symbol-white.svg" alt="Decidim" /></a>
+      <div class="hidden md:flex w-full gap-6">
+        <%= link_to image_tag("/images/decidim-symbol-white.svg", alt: "Decidim"), t(:path) + "/", class: "flex items-start self-start md:pr-10" %>
 
+        <div class="grid grid-cols-4 gap-6 flex-1">
         <div class="space-y-9">
           <div class="space-y-3">
             <h3 class="font-bold uppercase"><%= t("footer.product") %></h3>
@@ -160,6 +161,7 @@
             </nav>
           </div>
           <h3 class="font-bold uppercase"><%= link_to t("footer.faqs"), url(data.links.faqs.first.url) %></h3>
+        </div>
         </div>
       </div>
     </div>
