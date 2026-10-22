@@ -24,6 +24,9 @@
       <% end %>
     </div>
     <p class="md:py-3 pb-4 pt-3 md:text-2xl text-xl font-bold text-black"><%= cs.name %></p>
-    <%= partial "partials/arrow-link", locals: { text: t("partners.read"), url: resource.url, classes: "text-red-900 mt-auto block" } %>
-  </div>
+    <div class="text-red-900 mt-auto flex items-center gap-2">
+      <span><%= t("partners.read") %></span>
+      <%= icon "ri-arrow-right-line", class: "w-4 h-4 mt-1 block self-center shrink-0" %>
+    </div>
+  </a>
 <% end %>

@@ -24,7 +24,10 @@
     </div>
     <div class="mt-auto">
       <time class="par-sm text-gray-500 block px-4 pb-4"><%= resource.date.strftime('%d/%m/%Y') %></time>
-      <%= partial "partials/arrow-link", locals: { text: t("blog.read"), url: resource.url, classes: "text-red-900 block px-4 pb-4" } %>
+      <div class="text-red-900 mt-auto flex items-center gap-2 md:pb-4 md:pl-4 px-4 pb-4">
+        <span><%= t("blog.read") %></span>
+        <%= icon "ri-arrow-right-line", class: "w-4 h-4 mt-1 block self-center shrink-0" %>
+      </div>
     </div>
   </a>
 <% end %>
