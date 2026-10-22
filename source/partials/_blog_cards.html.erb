@@ -1,10 +1,8 @@
-<% limit = defined?(limit) ? limit : nil %>
-<% resources = blog(:blog).articles %>
-<% resources = limit ? resources.first(limit) : resources %>
+<% resources = select_blog_cards(blog(:blog).articles, slugs: defined?(slugs) ? slugs : nil, limit: defined?(limit) ? limit : nil) %>
 <% resources.each do |resource| %>
   <% cs = resource.data %>
   <% tag = Array(cs.tags).first.to_s %>
-  <div class="flex flex-col rounded-lg outline outline-1 outline-offset-[-1px] outline-gray-300 flex-1"
+  <a href="<%= resource.url %>" class="flex flex-col rounded-lg stroke-1 outline outline-1 outline-offset-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-900 outline-gray-300 flex-1 shadow-md hover:shadow-lg transition-shadow cursor-pointer overflow-hidden"
     data-filter-card
     data-type="<%= tag %>"
     data-region="<%= cs.region.to_s %>">
@@ -28,5 +26,5 @@
       <time class="par-sm text-gray-500 block px-4 pb-4"><%= resource.date.strftime('%d/%m/%Y') %></time>
       <%= partial "partials/arrow-link", locals: { text: t("blog.read"), url: resource.url, classes: "text-red-900 block px-4 pb-4" } %>
     </div>
-  </div>
+  </a>
 <% end %>

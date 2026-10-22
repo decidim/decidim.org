@@ -18,12 +18,15 @@ description:
 
 <section>
   <div class="container py-10 md:pt-0 md:pb-16">
-    <form class="flex flex-col space-y-6 md:w-3/4" method="post" action="/redirect/?page=/thanks" name="contact-en" netlify-honeypot="bot-field" data-netlify="true">
+    <% formlander = data.formlander %>
+    <form class="flex flex-col space-y-6 md:w-3/4" method="post" action="<%= formlander.endpoint %>?token=<%= formlander.token %>">
+      <input type="hidden" name="_success_url" value="<%= formlander.site_url %><%= t(:path) %>/thanks">
+      <input type="hidden" name="_error_url" value="<%= formlander.site_url %><%= t(:path) %>/contact">
       <p class="hidden" hidden>
-        <label><%= t('contact.bot_field') %> <input name="bot-field" /></label>
+        <label><%= t('contact.bot_field') %> <input name="__fl_hp" value="" tabindex="-1" autocomplete="off" /></label>
       </p>
       <label for="name" class="form-input">
-        <input id="name" name="name" type="text" required>
+        <input id="name" name="name" type="text" autocomplete="name" required>
         <span>
           <%= t("contact.name") %>
         </span>
@@ -32,7 +35,7 @@ description:
         <span>
           <%= t("contact.email") %>
         </span>
-        <input id="email" name="email" type="email" required>
+        <input id="email" name="email" type="email" autocomplete="email" required>
       </label>
       <div class="form-input">
         <span><%= t("contact.reason") %></span>
