@@ -77,7 +77,7 @@ eu:
       title: Ikuspegia
   alert:
     button: Bat egin
-    p1: The Future of The Internet · October 13-14 Barcelona
+    p1: The Future of The Internet · Urriak 13-14 Bartzelona
     strong: Decidim Fest 22
   blog:
     back: Blogera itzuli
@@ -121,7 +121,7 @@ eu:
       title: Komunitateko bilerak
     cta:
       button: Inplementatzaileetara joan
-      text: Looking for the right partner to support your project? Explore our network of official service providers.
+      text: Zure proiektua babesteko inplementatzaile egokia bilatzen ari zara? Egin begirada bat gure zerbitzu-hornitzaile ofizialen sareari.
       title: Aurkitu zure Pro
     cta_hero: Metadecidimera joan
     fest_editions:
@@ -265,7 +265,7 @@ eu:
         answer: Bere arkitektura modularrari eta logika eskalagarriari esker, era guztietako erakundeetan partaidetza demokratikorako sistema sendo bat konfigura dezakezu. Aukeratu zure beharretara hobekien egokitzen diren funtzioak eta pertsonalizatu zure partaidetza-prozesua.
         question: Decidim pertsonalizagarria da?
       q31:
-        answer: Gobernantzaren eta produktuen bide-orrian laguntzeagatik, Decidim Software Librearen Elkarteko kide izan behar duzu. Nahiz eta erakunde bat izan edo banakako kide izan nahi baduzu, hemen egin dezakezu eskakizunak egiaztatuz.](https://meta.decidim.org/en/assemblies/the-association/f/1758)
+        answer: Gobernantzari eta produktuen bide-orriari laguntzeko, Decidim Software Librearen Elkarteko kide izan behar duzu. Erakunde bat izan edo banakako kide izan nahi baduzu ere, [hemen egin dezakezu, eskakizunak egiaztatuz.](https://meta.decidim.org/en/assemblies/the-association/f/1758)
         question: Nola lagun dezaket proiektuaren gobernantzan eta kode-oinarrian?
       q32:
         answer: Hori zoragarria da! <a href="mailto:hola@decidim.org">hola@decidim.org</a> helbidera mezu elektroniko bat bidal diezagukezu informazio guztiarekin, edo gurekin harremanetan jar zaitezke sare sozialetako gure kanalen bidez
@@ -484,54 +484,54 @@ eu:
     up_to_date: Egon eguneratuta
   index:
     alt:
-      banner: A banner depicting an assembly
-      footer: A footer banner depicting a focus group
-      hero: Participants gathered around a table, collaborating on a document during a Decidim community event
+      banner: Batzar bat irudikatzen duen bannerra
+      footer: Oineko banner bat focus group bat irudikatzen duena
+      hero: Decidim komunitateko ekitaldi batean, mahai baten inguruan bildutako parte-hartzaileak, dokumentu batean elkarlanean
     cards:
       card1:
-        content: A platform designed entirely with free-open source software. No vendor lock-in, you can install decidim on your own server. You can improve it and contribute to the project.
+        content: Software libre eta kode irekiko teknologiarekin erabat diseinatutako plataforma bat. Hornitzailearekiko mendekotasunik gabea, Decidim zure zerbitzari propioan instala dezakezu. Hobetu dezakezu eta proiektuari lagundu.
         link: Lehen urratsak
-        title: Open source for digital sovereignty
+        title: Kode irekia subiranotasun digitalerako
       card2:
-        content: Decidim ensures transparency, traceability, and integrity of information. It provides security, privacy, and data confidentiality to all participants. Our values are embedded in the code.
-        link: Read our social contract
+        content: Decidim-ek informazioaren gardentasuna, trazabilitatea eta osotasuna bermatzen ditu. Segurtasuna, pribatutasuna eta datuen konfidentzialtasuna eskaintzen dizkie parte-hartzaile guztiei. Gure balioak kodean txertatuta daude.
+        link: Irakurri gure kontratu soziala
         title: Demokrazia oso serio hartzen dugu
       card3:
-        content: Become part of a global community that promotes democracy and free software. You’ll be able to take part in events, learn from others and be part of a model of technological governance that is unique in the world.
-        link: Join our community
-        title: A global community to participate in
+        content: Egin bat demokrazia eta software librea sustatzen dituen komunitate globalarekin. Ekitaldietan parte hartu, besteen esperientziatik ikasi eta munduan bakarra den gobernantza teknologikoko eredu baten parte izango zara.
+        link: Batu gure komunitatera
+        title: Parte hartzeko komunitate global bat
     footer_banner:
-      heading: Participation for social change
-      intro: Empower your community by creating truly democratic processes. Avoid participatory washing, use Decidim to organize collective intelligence and transform reality.
+      heading: Partaidetza aldaketa sozialerako
+      intro: Indartu zure komunitatea benetako prozesu demokratikoak sortuz. Saihestu partaidetza-garbiketa, eta erabili Decidim adimen kolektiboa antolatzeko eta errealitatea eraldatzeko.
     hero:
       cta: Hasi erabiltzen
-      intro: Free/Libre Open Source infrastructure with all democratic guarantees.
-      subheading: A digital platform for participation and community governance.
+      intro: Kode irekiko azpiegitura librea, berme demokratiko guztiekin.
+      subheading: Partaidetzarako eta gobernantza komunitariorako plataforma digitala.
     installations:
-      cta: Discover who is using Decidim
-      title: More than 500 organizations using Decidim
+      cta: Ezagutu nork erabiltzen duen Decidim
+      title: 500 erakunde baino gehiago Decidim erabiltzen
     subhero:
-      cta: All product features
+      cta: Produktuaren funtzionalitate guztiak
       index_feature1:
-        text: To foster debate, assessment, and decision-making on issues that matter to your community.
-        title: Run participatory processes
+        text: Zure komunitatearentzat garrantzitsuak diren gaiei buruzko eztabaida, balorazioa eta erabakiak hartzea sustatzeko.
+        title: Partaidetza-prozesuak abian jarri
       index_feature2:
-        text: Enriched with geolocation and attachments, merge similar ones, and set a workflow for official approval or rejection.
-        title: Collect proposals from participants
+        text: Geolokalizazioarekin eta eranskinarekin aberastuta, antzekoak batzea eta onespen edo gaitzespen ofizialerako lan-fluxu bat ezartzea.
+        title: Parte-hartzaileen proposamenak bildu
       index_feature3:
-        text: You can use various voting methods, such as setting minimum and maximum thresholds, weighted voting, or participatory budgeting.
-        title: Vote and select proposals
+        text: Bozketa-metodo desberdinak erabil ditzakezu, hala nola gutxieneko eta gehieneko atalaseak ezartzea, boto haztatua edo aurrekontu parte-hartzaileak.
+        title: Bozkatu eta hautatu proposamenak
       index_feature4:
-        text: Manage registrations, publish the agenda and upload the proposals co-created in a session.
-        title: Organize face-to-face or online meetings for co-creation
+        text: Izen-emateak kudeatu, agenda argitaratu eta saio batean elkarrekin sortutako proposamenak igo.
+        title: Aurrez aurreko edo online bilerak antolatu elkarlanean sortzeko
       index_feature5:
-        text: Engage your community in a deliberation topic, and follow the discussion with different visualizations of the arguments.
-        title: Comment and discuss with your community
-      intro_html: What makes <span class="text-red-500">Decidim unique</span>?
-      subtitle: Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.
-      title: What can you do with Decidim?
+        text: Inplikatu zure komunitatea deliberazio-gai batean, eta jarraitu eztabaida argudioen bistaratze desberdinen bidez.
+        title: Iruzkindu eta eztabaidatu zure komunitatearekin
+      intro_html: Zerk egiten du <span class="text-red-500">Decidim bakarra</span>?
+      subtitle: Decidim-ek herritarrei, erakundeei eta erakunde publikoei laguntzen die demokratikoki autoantolatzen, eskala guztietan.
+      title: Zer egin dezakezu Decidim-ekin?
     use_cases:
-      subtitle: Stories about Decidim in action, around the world with diverse purposes and contexts.
+      subtitle: 'Decidim ekintzan: mundu osoan zehar, helburu eta testuinguru askotarikoak.'
       title: Erabilera-kasuak
   installations:
     download_csv: Deskargatu CSV fitxategia instalazio guztiekin
@@ -632,7 +632,7 @@ eu:
       title: Inplementatzailea izan nahi?
     email_address: Helbide elektronikoa
     intro1: Decidim-ek erakunde laguntzaile ofizialen sare global bat du, plataforma instalatzeko, kudeatzeko, mantentzeko eta pertsonalizatzeko zerbitzu profesionalak eskaintzen dituena, bai eta aholkularitza eta laguntza estrategikoa ere, zure erakunderako parte-hartze digitaleko esperientzia onena diseinatzen laguntzeko.
-    intro2: Looking for the right partner to support your project? Explore our network of official service providers.
+    intro2: Zure proiektua babesteko inplementatzaile egokia bilatzen ari zara? Egin begirada bat gure zerbitzu-hornitzaile ofizialen sareari.
     joined_at: Geroztik Decidim-ekin lanean
     most_relevant_experiences: Esperientzia garrantzitsuenak
     read: Gehiago ikusi
@@ -660,35 +660,35 @@ eu:
     title: Tokiko inplementatzailetzako politika
   path: '/eu'
   press:
-    article_cta: Go to the article
+    article_cta: Joan artikulura
     cta:
-      button: Read our latest news
-      title: Stay up to date with Decidim!
+      button: Irakurri gure azken berriak
+      title: Egon Decidim-en azken berriekin eguneratuta!
     highlights: Albiste aipagarriak
     links:
       link1:
-        link: Download Brandbook
-        title: Brandbook
+        link: Deskargatu marka-liburua
+        title: Marka-liburua
       link2:
-        link: Download whitepaper
-        title: Whitepaper
+        link: Deskargatu liburu zuria
+        title: Liburu zuria
       link3:
-        link: Download brochure
+        link: Deskargatu liburuxka
         title: Liburuxka
       link4:
-        link: Go to Zotero repository
-        title: Academic papers
+        link: Joan Zotero biltegira
+        title: Lan akademikoak
       link5:
-        link: Go to YouTube
-        title: Webinar
+        link: Joan YouTubera
+        title: Webinarra
       link6:
-        link: Go to Youtube
-        title: Spot
+        link: Joan Youtubera
+        title: Iragarkia
     sign_up: Eman izena gure Metadecidim buletinean
-    social_media: Social media
+    social_media: Sare sozialak
     subtitle: Komunikabideei buruzko kontsultak egiteko, bidali mezu elektroniko bat ondorengo helbidera
-    title: Press kit
-    view_more: View more
+    title: Prentsa-kita
+    view_more: Ikusi gehiago
   privacy-policy:
     section-1:
       paragraph: "<p>Decidim software libreko elkartea (\"<a href=\"%{decidim_url}\">Decidim</a>\" edo “gu”) webgune honen jabea da, <a href=\"https://decidim.org/\">https://decidim.org/</a> web-domeinuaren bidez eskuragarri dagoena (aurrerantzean, \"Webgunea\"), eta Webguneko erabiltzaile guztien datu pertsonalen tratamenduaren arduradun gisa jarduten du (“Zuk/zure”, “Erabiltzailea”).</p> \n\n<p><a href=\"%{decidim_url}\">Decidim</a> Webguneko erabiltzaileen, bere kide elkartuen eta <a href=\"%{decidim_url}\">Decidim</a> komunitateko kideen pribatutasuna babesteko konpromisoa hartzen du. Pribatutasun-politika honek Webgunearen bidez bildutako datu pertsonalen erabilerari buruzko gure praktikak azaltzen ditu, gure parte-hartze demokratikorako plataforma libre eta kode irekiko demoaren barne, baita <a href=\"%{decidim_url}\">Decidim</a>-ekin lotutako pertsonen datuen tratamendua eta <a href=\"%{decidim_url}\">Decidim</a> komunitatearen kudeaketa ere, Webgune honetan edo <a href=\"%{decidim_url}\">Decidim</a>-ek kudeatutako beste plataforma batzuetan.</p> \n\n<p>Pribatutasun-politika hau gure Lege Testuen parte da, <a href=\"%{legal_notice_url}\">Lege Oharra</a> barne.</p>"
@@ -746,7 +746,7 @@ eu:
   team:
     banner:
       link: Ezagutu komunitatea
-      subtitle: Here you can meet the institutional supporters and partners that are part of the Decidim universe.
+      subtitle: Hemen Decidim unibertsoaren parte diren erakunde babesle eta inplementatzaileak ezagutu ditzakezu.
       title: Decidim komunitatea are handiagoa da
     coordination_committee:
       intro: Koordinazio Batzordea Decidim Elkartearen gobernu- eta ordezkaritza-organoa da. Praktikan, elkartea arazorik gabe funtzionatzen duela eta bere misio demokratiko eta parte-hartzailearekin lerrokatuta geratzen dela ziurtatzen duen organo betearazle gisa funtzionatzen du.
@@ -770,7 +770,7 @@ eu:
         role: Batzordekidea
       carolina_romero:
         bio: Carol 20 urte baino gehiagoko esperientzia duen teknologoa da berrikuntza digitalean, gobernu irekian eta herritarren parte-hartzean. Decidim-en sortzaileetako bat, gaur egun proiektuaren Produktu Zuzendaria da.
-        role: Co-Director
+        role: Zuzendari kidea
       david_igon:
         bio: David software libreko garatzailea da PokeCoden. Decidim komunitateko kidea da bertan lanean hasi zenetik. Parte hartzean, kooperatibismoan eta software librean aritu da beti.
         role: Diruzaina
@@ -787,8 +787,8 @@ eu:
         bio: Martak ingeniaritza informatikoa ikasi zuen Bartzelonako UPFn, Peruko Andeetako eta Amazoniako komunitateetan parte hartzen, sormena bere bilaketan, eta feminismoa tratu txar psikologikoen zapalkuntzan. 2019an, bere ibilbideek bat egin zuten Platoniq-en, Sormena eta Demokrazia bat datozen erakundean.
         role: Presidentea
       nil_homedes_busquets:
-        bio: Nil is a political scientist specializing in public policy, democratic participation, and technological sovereignty. He is currently Co-director of the Technical Office at the Decidim Association and a member of Decidim's Product Team.
-        role: Co-Director
+        bio: Nil politologo bat da, politika publikoetan, parte-hartze demokratikoan eta subiranotasun teknologikoan espezializatua. Gaur egun Decidim Elkarteko Bulego Teknikoko zuzendari kidea da eta Decidim-eko Produktu Taldeko kidea.
+        role: Zuzendari kidea
       pauline_bessoles:
         bio: Pauline Decidim Elkarteko kide aktiboa da, eta proiektuaren gobernantza demokratikoan eta plataformaren jasangarritasunean laguntzen du, komun digital gisa. Decidim erakunde publikoetan hedatzeko prestakuntza du, eta esperientzia eta demokrazia parte-hartzailearen aldeko apustu sendoa eskaintzen ditu. Gaur egun, XWiki SASen lan egiten du, software libreko enpresa luzean, XWiki eta Cryptpad-en editorean, non azpiegitura digital ireki eta kolaboratiboak babesten jarraitzen duen.
         role: Batzordekidea
