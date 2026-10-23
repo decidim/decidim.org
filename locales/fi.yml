@@ -6,58 +6,58 @@ fi:
   about:
     association:
       become_member:
-        description: Be part of the Association and participate in the project governance.
-        title: Want to become a member?
+        description: Liity yhdistykseen ja osallistu projektin hallinnointiin.
+        title: Haluatko jäseneksi?
         url: https://meta.decidim.org/assemblies/QuieroSerSocia?locale=en
-        url_name: Let us know
+        url_name: Kerro meille
       media_kit:
-        description: Looking for info? Check our press section.
-        title: Media kit
-        url: https://decidim.org/press/
+        description: Etsitkö lisätietoja? Tutustu lehdistö-osioon.
+        title: Mediapaketti
+        url: https://decidim.org/fi/press
         url_name: Lehdistö
       support_us:
-        description: Contribute to the commons and the sustainability of Decidim.
-        title: Want to support us?
+        description: Tue yhteistä hyvää ja Decidim-hankkeen kestävää kehitystä.
+        title: Haluatko tukea meitä?
         url: https://opencollective.com/decidim/donate?interval=oneTime&amount=1000&name=&legalName=&email=
-        url_name: Make a donation
+        url_name: Tee lahjoitus
     bottom_section:
-      button: Let's talk about your project
-      subtitle: We can help you with every step of using Decidim's product, from participatory design to learning how to install Decidim. Have a collaboration idea? We'd love to hear about it.
-      title: Need help?
+      button: Kerro hankkeestasi
+      subtitle: Voimme auttaa sinua kaikissa Decidim-ohjelmiston vaiheissa, oli kyseessä osallistavien prosessien suunnittelu tai Decidim-ohjelmiston asennus. Onko sinulla yhteistyöidea? Kuulemme siitä mielellämme.
+      title: Tarvitsetko apua?
     history:
       timeline:
         - 
           year: 2011
-          above: All started with the 15M movement and the convergence of earlier hacktivists, autonomous and democratic activism in Spain and the rise of the technopolitical cycle.
+          above: Hanke sai alkunsa Espanjan 15-M -liikkeestä Espanjassa ja "haktivistien" sekä autonomisten ja demokraattisten toimijoiden yhteistyöstä Espanjassa teknopoliittisen liikehdinnän trendin seurauksena.
         - 
           year: 2016
-          below: In Barcelona, in early 2016, a fork of Consul, the participatory platform of the Madrid City Council, was used to power up the site <a href="https://decidim.barcelona" class="underline decoration-1">decidim.barcelona</a>, the new digital venue for participatory processes in the city council.
+          below: Vuoden 2016 alussa Barcelona otti käyttöön oman kehityshaaransa Consul-ohjelmistosta, eli Madridin kehittämästä digitaalisesta osallistumisalustasta. Kyseinen ohjelmisto toimi <a href="https://decidim.barcelona" class="underline decoration-1">decidim.barcelona</a>-sivuston moottorina, josta muodostui kaupungin uusi digitaalinen kohtauspaikka kaupunginhallituksen osallistaville prosesseille.
         - 
           year: 2017
-          above: Technopolitical differences in vision and practice between the city council democratic innovation teams brought about a split between the two cities; as a result, Decidim was launched in early 2017 as a brand-new software with a more modular and co-developable architecture.
+          above: Erimielisyydet kahden kaupungin demokraattisen innovaation toimikuntien välillä koskien hankkeen visiota ja toimintamalleja ajoi nämä toimikunnat erilleen toisistaan. Tämän johdosta uusi Decidim-hanke lanseerattiin alkuvuodesta 2017. Uusi hanke tarkoitti täysin uutta ohjelmistoa, jonka arkkitehtuuri suunniteltiin modulaariseksi ja yhteiskehittämiseen kannustavaksi.
         - 
           year: 2019
-          below: In 2019 the Decidim Free Software Association was constituted and an agreement with the Barcelona City Council was signed, ceding to the Association the maintenance of the code base. This makes Decidim a public-common project.
+          below: Vuonna 2019 perustettiin Decidim-yhdistys, joka allekirjoitti sopimuksen Barcelonan kaupungin kanssa, minkä avulla hankkeen koodin ylläpitovastuu siirrettiin yhdistykselle. Tämän ansiosta Decidimistä muodostui yleishyödyllinen hanke.
         - 
           year: 2025
-          above: Until now, over 450 cities and organisations globally have embraced Decidim. And the Decidim Association has been growing as an international leader in democratic technologies and open source software.
-      title: Our history in a nutshell
+          above: Tämän mennessä yli 450 kaupunkia ja organisaatiota ympäri maailman ovat hyödyntäneet Decidimiä. Decidim-yhdistys on omalta osaltaan kasvanut kansainvälisesti demokraattisten avoimen lähdekoodin teknologioiden tunnistettavaksi toimijaksi.
+      title: Tarinamme lyhyesti
     intro: Haluamme edistää yhteiskunnan demokratisoitumista teknologian, menetelmien, käytäntöjen, standardien, tekojen, narratiivien ja arvojen kautta; vapalla, avoimella, osallistavalla ja pohtivalla tavalla.
     mission:
-      subtitle: Our mission is to <span class="underline decoration-2">contribute to the democratization of society</span> through the construction of technology, methodologies, practices, standards, and values, in a free, open, collaborative and reflective way.
-      title: Mission
+      subtitle: Haluamme edistää <span class="underline decoration-2">yhteiskunnan demokratisoitumista</span> teknologian, menetelmien, käytäntöjen, standardien ja arvojen kautta; vapalla, avoimella, osallistavalla ja pohtivalla tavalla.
+      title: Missio
     partners:
-      cta: You can also check our 2025 Activity Report
-      subtitle: The Association works on different projects related to democratic innovation, research, governance of digital commons, and the development of FLOSS technologies. We work in collaboration with leading organisations in their field.
-      title: Our recent work
+      cta: Voit myös tutustua vuoden 2025 toimintakertomukseen
+      subtitle: Yhdistys työskentelee eri hankkeissa, jotka liittyvät demokraattiseen innovointiin, tutkimukseen, digitaalisten yleishyödykkeiden hallinnointiin sekä avointen ja vapaiden teknologiaratkaisuiden kehittämiseen. Teemme yhteistyötä omien alojensa johtavien organisaatioiden kanssa.
+      title: Viimeaikaisia hankkeitamme
     recognitions:
-      digital_public_good: Digital Public Good
-      osor_award: Decidim became finalist of the OSOR prize in the EU Public Services Open Source Achievement Awards
-      pizzigati_prize: Decidim was awarded with the Pizzigati Prize for Software in the Public Interest, promoted by NTEN
-      public_good: Decidim is recognized as a Digital Public Good by the Digital Public Goods Alliance
-      sharing_reuse: Decidim won the Sharing & Reuse Awards in the Most Innovative Open Source Projects category by the EU
-      subtitle: The Decidim Association has been proudly awarded with a series of recognitions for its contributions to open-source, democracy and participation.
-      title: Recognitions
+      digital_public_good: Digitaalinen julkishyödyke
+      osor_award: Decidim oli OSOR-palkintogaalan finalisti, missä palkitaan EU:n julkisen sektorin avoimen lähdekoodin saavutuksia
+      pizzigati_prize: NTEN-järjestö myönsi Decidimille Pizzigati-palkinnon, jolla palkitaan julkista etua ajavia ohjelmistoja
+      public_good: Digitaalisten julkishyödykkeiden järjestö (Digital Public Goods Alliance) tunnusti Decidimin digitaaliseksi julkishyödykkeeksi
+      sharing_reuse: Decidim voitti Sharing & Reuse -palkinnon EU:n innovatiivisimpien avoimen lähdekoodin hankkeiden kategoriassa
+      subtitle: Decidim-yhdistykselle on myönnetty useita tunnustuksia sen työstä avoimen lähdekoodin, demokratian ja osallistamisen saralla.
+      title: Tunnustukset
     subtitle: Vapaan Decidim-ohjelmiston yhdistys ("Decidim Free Software Association") on demokraattinen yhdistys, jonka tehtävänä on hallinnoida Decidim-yhteisöä.
     title: Tietoa Decidimistä
     values:
@@ -72,18 +72,18 @@ fi:
     values_intro: <p>Alusta alkaen Decidim-hankkeella on ollut sosiaalinen sopimus, joka määrittelee arvomme.</p><p>Kaikki Decidim-yhdistyksen jäsenet kunnioittavat tätä sopimusta.</p>
     values_title: Arvomme
     vision:
-      subtitle_1: The members of the Decidim Association share the vision of a radically democratic society in which <span class="underline decoration-2">every person takes part among equals in common life.</span>
-      subtitle_2: The Association <span class="underline decoration-2">embodies its vision of society in its own governance:</span> it is the community that decides the direction of the Decidim project and makes Decidim a technology of, by and, for all.
-      title: Vision
+      subtitle_1: Decidim-yhdistyksen jäsenet jakavat näkemyksen radikaalisti demokraattisesta yhteiskunnasta, jossa <span class="underline decoration-2">jokainen ihminen osallistuu yhteiskunnan tasavertaisena jäsenenä.</span>
+      subtitle_2: Yhdistys <span class="underline decoration-2">ilmentää yhteiskunnallista visiotaan omassa hallinnossaan:</span> se on yhteisö, joka päättää Decidim-hankkeen suunnasta ja tekee Decidimistä teknologian, joka luodaan yhdessä, jota käytetään yhdessä ja joka tuo kaikki yhteen.
+      title: Visio
   alert:
     button: Liity
     p1: Internetin tulevaisuus · 13.-14. lokakuuta Barcelonassa
     strong: Decidim Fest 22
   blog:
-    back: Back to blog
-    read: Read the blog
+    back: Takaisin blogiin
+    read: Lue blogia
     read_more: Lue lisää
-    subtitle: Latest news from Decidim
+    subtitle: Ajankohtaisimpia uutisia Decidimistä
     tags:
       title: Artikkelit, jotka on merkitty
     title: Blogi
@@ -101,33 +101,33 @@ fi:
       - Tämä kirja on avoimen saatavuuden teos, mikä tarkoittaa, että sinulla on vapaa ja rajoittamaton oikeus siihen
     title: Decidim-kirja
   case_studies:
-    components: 'Components:'
-    components_used: Components used
+    components: 'Komponentit:'
+    components_used: Käytetyt komponentit
     filters:
-      title: Filters
-    intro: These cities, institutions and organisations are already using Decidim in different ways and scenarios, with diverse purposes and stories. Check out some of the inspiring successful cases!
+      title: Suodattimet
+    intro: Nämä kaupungit, instituutiot ja organisaatiot käyttävät jo Decidimiä erilaisin tarkoituksin ja erilaisin tavoin. Tutustu inspiroiviin käyttötarinoihin!
     partners: Yhteistyökumppanit
     read: Lue käyttötarinoita
-    subtitle: Stories about Decidim in the real world
-    target_public: Target public
-    testimonial: Testimonial
-    title: Case Studies
-    type_of_process: Type of process
-    use_cases_index_path: Back to use cases
+    subtitle: Tarinoita Decidimistä oikeassa elämässä
+    target_public: Kohdeyleisö
+    testimonial: Suositus
+    title: Käyttötarinat
+    type_of_process: Prosessin tyyppi
+    use_cases_index_path: Takaisin käyttötarinoihin
   community:
     banner:
-      cta: Check the Community Agenda
-      intro: We like to meet each other, either in person or online, to address different topics related to Decidim, democratic participation, free technologies or other issues related to the project. There are a wide range of spaces for community discussion and collaboration structured into community meetings and thematic groups. 
-      title: Community Meetings
+      cta: Tutustu tuleviin tapaamisiin
+      intro: Haluamme tavata toisiamme joko fyysisesti tai verkossa käsitelläksemme Decidimiin liittyviä erilaisia asioita, kuten demokraattista osallistumista, vapaita teknologioita tai muita hankkeeseen liittyviä asioita. Yhteisökeskusteluille ja yhteistyölle on monia erilaisia paikkoja, joihin pääsee mukaan osallistumalla yhteisön tapaamisiin tai teemaryhmiin. 
+      title: Yhteisön tapaamiset
     cta:
-      button: Go to partners
-      text: Looking for the right partner to support your project? Explore our network of official service providers.
-      title: Find your Pro
-    cta_hero: Go to Metadecidim
+      button: Tutustu kumppaneihin
+      text: Etsitkö oikeanlaista kumppania hankkeesi tueksi? Tutustu yhteistyökumppaniemme verkostoon.
+      title: Etsi oma asiantuntijasi
+    cta_hero: Siirry Metadecidimiin
     fest_editions:
-      all_about_cta: All about Decidim Fest
+      all_about_cta: Tietoa Decidim Fest -tapahtumasta
       cta: Tutustu
-      description1: Every year the Decidim Fest reunites experts, projects and institutions from the technopolitical ecosystem to reflect on open source, citizen participation and social and democratic innovation.
+      description1: Joka vuosi Decidim Fest kokoaa yhteen asiantuntijoita, hankkeita ja instituutioita hankkeen ympärillä toimivasta ekosysteemistä. Tapahtumassa käsitellään ja reflektoidaan ajatuksia avoimesta lähdekoodista, kansalaisosallistumisesta sekä sosiaalisesta ja demokraattisesta innovaatiosta.
       description2: The event takes place at the Canòdrom, the Digital and Democratic Innovation Centre, an open space that hosts projects and organisations related to technology and democracy.
       subtitle: The global conference of the Metadecidim community
       the_fest: The Decidim Fest
@@ -410,7 +410,7 @@ fi:
     clear: Clear filters
     no_results: No results found matching your filters.
     region: Region
-    title: Filters
+    title: Suodattimet
     type: Type
   first-steps:
     contributors:
@@ -632,7 +632,7 @@ fi:
       title: Want to become a partner?
     email_address: Email address
     intro1: Decidim counts with a global network of official partner organisations that provide professional services for installing, managing, maintaining, and customising the platform, as well as consulting and strategic support to help you design the best digital participation experience for your organisation.
-    intro2: Looking for the right partner to support your project? Explore our network of official service providers.
+    intro2: Etsitkö oikeanlaista kumppania hankkeesi tueksi? Tutustu yhteistyökumppaniemme verkostoon.
     joined_at: Working with Decidim since
     most_relevant_experiences: Most relevant experiences
     read: See more
