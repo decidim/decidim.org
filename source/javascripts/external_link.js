@@ -1,5 +1,3 @@
-import icon from "ri-external-link-line";
-
 const DEFAULT_MESSAGES = {
   externalLink: "External link",
   opensInNewTab: "Opens in new tab"
@@ -59,7 +57,7 @@ export default class ExternalLink {
   }
 
   generateIcon() {
-    return icon("external-link-line", { class: "fill-current" });
+    return "<svg class=\"fill-current\"><use xlink:href=\"/images/remixicon.symbol.svg#ri-external-link-line\"></use></svg>";
   }
 
   generateScreenReaderLabel(node) {
