@@ -3,13 +3,17 @@
  * anchors that opt out via the data-external-link="false" attribute.
  */
 
-document.querySelectorAll("a").forEach((node) => {
-  if (node.dataset.externalLink === "false") {
-    return;
-  }
-  const href = node.getAttribute("href") || "";
-  const external = (/^\/link\?external_url=/).test(href) || new RegExp(`^https?://((?!${location.host}).)+`).test(href);
-  if (external) {
-    node.setAttribute("target", "_blank");
-  }
-});
+const externalLink = function () {
+  document.querySelectorAll("a").forEach((node) => {
+    if (node.dataset.externalLink === "false") {
+      return;
+    }
+    const href = node.getAttribute("href") || "";
+    const external = (/^\/link\?external_url=/).test(href) || new RegExp(`^https?://((?!${location.host}).)+`).test(href);
+    if (external) {
+      node.setAttribute("target", "_blank");
+    }
+  });
+};
+
+externalLink();
