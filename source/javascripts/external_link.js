@@ -1,7 +1,17 @@
 /**
- * Adds target="_blank" to every link pointing outside of decidim.org, excluding
- * anchors that opt out via the data-external-link="false" attribute.
+ * Checks whether a given href resolves to a different host than the current page.
+ * @param {string} href - The href attribute value to check.
+ * @returns {boolean} Whether the href points to an external host.
  */
+
+const isExternalHref = function (href) {
+  try {
+    const url = new URL(href, location.href);
+    return (/^https?:$/).test(url.protocol) && url.host !== location.host;
+  } catch {
+    return false;
+  }
+};
 
 const externalLink = function () {
   document.querySelectorAll("a").forEach((node) => {
@@ -9,7 +19,7 @@ const externalLink = function () {
       return;
     }
     const href = node.getAttribute("href") || "";
-    const external = (/^\/link\?external_url=/).test(href) || new RegExp(`^https?://((?!${location.host}).)+`).test(href);
+    const external = (/^\/link\?external_url=/).test(href) || isExternalHref(href);
     if (external) {
       node.setAttribute("target", "_blank");
     }
