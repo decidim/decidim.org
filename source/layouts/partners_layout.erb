@@ -2,7 +2,7 @@
  <section>
     <div class="container pt-10 md:pt-16">
       <div class="pb-10">
-        <%= partial "partials/arrow-link", locals: { text: t("partners.title"), url: "/partners", reverse: true, icon_classes: "w-5 h-5" } %>
+        <%= partial "partials/arrow-link", locals: { text: t("partners.title"), classes: "text-red-900 mt-auto block", url: "/partners", reverse: true, icon_classes: "w-5 h-5" } %>
       </div>
       <div class="md:w-3/5">
         <h1 class="h1 md:nowrap ">
@@ -55,7 +55,7 @@
             <%= icon "ri-global-line", class: "w-5 h-5" %>
             <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.website") %></h3>
           </div>
-          <p class="text-base pt-5 text-red-500 underline"><a href="<%= current_page.data.url %>"><%= current_page.data.url %></a></p>
+          <p class="text-base pt-5 text-red-900 underline"><a href="<%= current_page.data.url %>"><%= current_page.data.url %></a></p>
         </div>
 
         <% if current_page.data.email_address.present? %>
@@ -64,7 +64,7 @@
               <%= icon "ri-mail-line", class: "w-5 h-5" %>
               <h3 class="font-bold text-sm uppercase tracking-wide pb-3 pl-2 text-black"><%= t("partners.email_address") %></h3>
             </div>
-            <p class="text-base pt-5 text-red-500 underline"><a href="mailto:<%= current_page.data.email_address %>"><%= current_page.data.email_address %></a></p>
+            <p class="text-base pt-5 text-red-900 underline"><a href="mailto:<%= current_page.data.email_address %>"><%= current_page.data.email_address %></a></p>
           </div>
         <% end %>
     </div>
