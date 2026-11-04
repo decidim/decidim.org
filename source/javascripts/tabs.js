@@ -85,8 +85,10 @@ const tabs = function() {
     container.addEventListener("touchend", function (event) {
       const endX = event.changedTouches[0].clientX;
       if (Math.abs(endX - startX) < SWIPE_THRESHOLD) {
-        handleTabClick({ event, type: container.dataset.tabs });
-        event.preventDefault();
+        if (event.target.closest("[data-tab-id]")) {
+          handleTabClick({ event, type: container.dataset.tabs });
+          event.preventDefault();
+        }
       } else {
         handleTouch({ event, startX, endX, type: container.dataset.tabs });
       }
