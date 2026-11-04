@@ -1,6 +1,6 @@
 [data-tabs] {
   [data-tab-id].is-selected {
-    @apply md:text-red-500;
+    @apply md:text-red-900;
 
     > :last-child {
       @apply block;
@@ -15,7 +15,7 @@
 [data-tabs="index"],
 [data-tabs="testimonials"] {
   [data-tab-id][data-tab-mobile].is-selected {
-    @apply bg-red-500;
+    @apply bg-red-900;
   }
 }
 
@@ -29,7 +29,7 @@
 [data-tabs="used_by"],
 [data-tabs="features-mobile"] {
   [data-tab-id].is-selected {
-    @apply text-white bg-red-500;
+    @apply text-white bg-red-900;
   }
 }
 
@@ -41,6 +41,6 @@
 
 [data-tabs="used_by"] {
   [data-tab-id].is-selected {
-    @apply text-white bg-red-500;
+    @apply text-white bg-red-900;
   }
 }
