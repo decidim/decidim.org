@@ -1,4 +1,4 @@
-ARG RUBY_VERSION=3.1.2
+ARG RUBY_VERSION=3.4.7
 FROM ghcr.io/rails/devcontainer/images/ruby:$RUBY_VERSION
 
 RUN wget -q -O /tmp/google-chrome-key.pub https://dl-ssl.google.com/linux/linux_signing_key.pub \
