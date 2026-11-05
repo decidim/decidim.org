@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 
+gem "bigdecimal"
 gem "i18n-tasks", "~> 1.0"
 gem "middleman", "~> 4.4"
 gem "middleman-livereload", "~> 3.4"
