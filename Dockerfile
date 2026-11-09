@@ -1,6 +1,6 @@
 FROM node:22.14.0-bullseye-slim AS node
 
-FROM ruby:3.1.2-bullseye AS build
+FROM ruby:3.4.7-bookworm AS build
 
 COPY --from=node /usr/local/bin/node /usr/local/bin/node
 COPY --from=node /usr/local/lib/node_modules/npm /usr/local/lib/node_modules/npm
