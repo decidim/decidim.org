@@ -1,5 +1,6 @@
 /**
- * Checks whether a given href resolves to a different host than the current page.
+ * Checks whether a given href resolves to a different host than the current page
+ * and opens it in a new tab. 
  * @param {string} href - The href attribute value to check.
  * @returns {boolean} Whether the href points to an external host.
  */
