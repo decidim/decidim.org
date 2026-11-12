@@ -26,6 +26,12 @@ RSpec.describe "external links", :js, type: :feature do
     expect(page).to have_css("script[src*='external_link']", visible: :all)
   end
 
+  it "opens an external link on the community page in a new tab" do
+    visit "/community"
+
+    expect(page).to have_css("a[href='https://meta.decidim.org/'][target='_blank']")
+  end
+
   it "opens absolute external links in a new tab" do
     render_links('<a id="link" href="https://example.com/page">external</a>')
 
