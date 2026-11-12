@@ -22,6 +22,10 @@ RSpec.describe "external links", :js, type: :feature do
     expect(page).to have_no_css("#{selector}[target]")
   end
 
+  def expect_unchanged_target(selector)
+    expect(page).to have_css("#{selector}[target='_blank']")
+  end
+
   it "is loaded by the layout" do
     expect(page).to have_css("script[src*='external_link']", visible: :all)
   end
@@ -62,6 +66,12 @@ RSpec.describe "external links", :js, type: :feature do
     expect_same_tab("#link")
   end
 
+  it "leaves the target of internal links alone" do
+    render_links('<a id="link" href="/about" target="_blank">internal</a>')
+
+    expect_unchanged_target("#link")
+  end
+
   it "leaves non-http links alone" do
     render_links('<a id="link" href="mailto:hello@example.com">email</a>')
 
@@ -78,6 +88,12 @@ RSpec.describe "external links", :js, type: :feature do
     render_links('<a id="link" href="https://example.com" data-external-link="false">external</a>')
 
     expect_same_tab("#link")
+  end
+
+  it "leaves the target of links with data-external-link=false alone" do
+    render_links('<a id="link" href="https://example.com" target="_blank" data-external-link="false">external</a>')
+
+    expect_unchanged_target("#link")
   end
 
   it "opens lookalike hosts in a new tab" do
