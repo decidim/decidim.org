@@ -105,6 +105,7 @@
           ${typeLabel}
         </span>
         <a href="${escapeHtml(installation.url)}"
+           target="_blank"
            rel="noopener noreferrer"
            class="text-sm block truncate transition-colors"
            style="color: #ff3333;"
