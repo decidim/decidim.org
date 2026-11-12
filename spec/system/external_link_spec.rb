@@ -73,4 +73,18 @@ RSpec.describe "external links", :js, type: :feature do
 
     expect_same_tab("#link")
   end
+
+  it "opens lookalike hosts in a new tab" do
+    target = page.evaluate_script(<<~JS)
+      (function() {
+        const location = new URL("https://decidim.org/");
+        const document = window.document.createElement("div");
+        document.innerHTML = '<a href="https://decidim.org.evil.example/">external</a>';
+        #{source}
+        return document.querySelector("a").getAttribute("target");
+      })()
+    JS
+
+    expect(target).to eq("_blank")
+  end
 end
