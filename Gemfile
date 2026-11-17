@@ -2,7 +2,9 @@
 
 source "https://rubygems.org"
 
+gem "base64"
 gem "bigdecimal"
+gem "drb"
 gem "i18n-tasks", "~> 1.0"
 gem "middleman", "~> 4.4"
 gem "middleman-livereload", "~> 3.4"
