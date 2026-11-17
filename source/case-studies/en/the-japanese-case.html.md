@@ -79,7 +79,7 @@ phases:
     components: []
 phases_conclusion: ''
 banner_title: Impact
-banner_subtitle: What
+banner_subtitle: Interesting facts about it
 banner: |-
   - "Kakoterasu" was chosen by residents and is the facility's official name
   - The Smart City Vision was adopted and 17 measures are tracked in public
@@ -95,13 +95,19 @@ optional_section_2: |-
   - Workshops that connect a 3D city model and AR tools with Decidim comment votes
   - Accountability used continuously for six years to publish the progress of every measure of the Smart City Vision
   - A standing process inviting suggestions about the platform itself, feeding UI/UX improvements
-optional_section_3_title: ''
-optional_section_3: ''
-testimonial: ''
+optional_section_3_title: Lessons learned
+optional_section_3: |-
+  - Improve the platform step by step with each Decidim upgrade. Over six years Kakogawa moved from localisation to LINE login, custom content blocks and Decidim 0.30, treating each version as an opportunity for UI/UX improvement.
+  - Do not leave it to the digital team alone. Line departments — station redevelopment, comprehensive planning, tourism, welfare — open and run their own processes, while the Digital Reform Division maintains the platform. This is what keeps the site alive.
+  - Online works as a "24-hour notice board" to gather voices; convergence happens face to face. Installing Decidim is easy; being an organisation that can use it is the real test.
+testimonial: |-
+  - Kakogawa City's Decidim page: [https://www.city.kakogawa.lg.jp/soshikikarasagasu/kikakubu/jouhouseisakuka/ict_1/36257.html](https://www.city.kakogawa.lg.jp/soshikikarasagasu/kikakubu/jouhouseisakuka/ict_1/36257.html)
+  - Column by the city's Smart City team (Seijiyama, Aug 2022): [https://seijiyama.jp/article/columns/lm/lm20220815.html](https://seijiyama.jp/article/columns/lm/lm20220815.html)
+  - Interview with Mayor Okada (Nikkei BP, Jan 2025): [https://project.nikkeibp.co.jp/atclppp/021900032/112600031/](https://project.nikkeibp.co.jp/atclppp/021900032/112600031/)
 partners:
   - logo: /uploads/use-case-japan-codeforjapan-logo.svg
     name: Code for Japan
-collaboration_text: ''
+collaboration_text: Code for Japan (operated by Kakogawa City, Digital Reform Promotion Division)
 testimonial_link: ''
 testimonial_link_text: ''
 ---
