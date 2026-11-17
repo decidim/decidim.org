@@ -78,20 +78,23 @@ phases:
     body: 'From beginner support to a "mutual help" phase: residents share how they help family and neighbours use smartphones (Proposals); staff outreach classes are reported on Blogs.'
     components: []
 phases_conclusion: ''
-banner_title: What were you looking for when deploying a Decidim
-banner_subtitle: 4 main points
+banner_title: Impact
+banner_subtitle: What
 banner: |-
-  -Robustness: Our clients are primarily governments. Robustness is essential for them.
-
-  -i18n support: It's important to be used in Japanese.
-
-  -User interface: It should be easy to use for non-technical people.
-
-  -Accessibility: We should cover various types of people.
-optional_section_1_title: What did you learn from this experience?
-optional_section_1: 'Open-Government in Japan is halfway down the road. But, we feel the potential of our fellow in each region, especially future generations, for developing digital competencies: In a depopulated town, a group of junior high school students uses Decidim to make a proposal for community development. Adults in and outside the town make efforts to implement their proposals. Those experiences will create a new base of citizenship for the young generation.'
-optional_section_2_title: ''
-optional_section_2: ''
+  - "Kakoterasu" was chosen by residents and is the facility's official name
+  - The Smart City Vision was adopted and 17 measures are tracked in public
+  - Services that started as residents' proposals: a shared-bicycle service, digital signage at bus stops, and a digital stamp rally through the shopping streets
+  - A high-school students' proposal — promoting the city's local sock industry as a gift of gratitude to family — was refined with pro-bono support from NEC employees and is being run by the students themselves (outside the municipal budget)
+  - Strong participation by young people (about 40% of early participants were teenagers)
+optional_section_1_title: Meetings and engagement
+optional_section_1: The pattern is "collect widely online, converge in person, then widen again." In-person workshops (3D/AR, students, deliberation forum, station area) alternate with online idea calls, and every workshop result is published as a meeting or blog post. For six years the secretariat has replied individually to residents' comments and reported back the changes made — for example, improving a community-watch app's guidance page after user feedback. Offline activities such as outreach classes and street trials are also documented on the platform.
+optional_section_2_title: Innovations
+optional_section_2: |-
+  - Japan's first municipal Decidim; the Japanese localisation was produced jointly by the city and Code for Japan
+  - LINE login to lower the registration barrier
+  - Workshops that connect a 3D city model and AR tools with Decidim comment votes
+  - Accountability used continuously for six years to publish the progress of every measure of the Smart City Vision
+  - A standing process inviting suggestions about the platform itself, feeding UI/UX improvements
 optional_section_3_title: ''
 optional_section_3: ''
 testimonial: ''
