@@ -290,12 +290,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  base64
-  bigdecimal
+  base64 (~> 0.3)
+  bigdecimal (~> 4.1)
   builder (~> 3.0)
   capybara (~> 3.40)
   debug (~> 1.6)
-  drb
+  drb (~> 2.2)
   i18n-tasks (~> 1.0)
   image_optim (~> 0.30)
   middleman (~> 4.4)
@@ -303,7 +303,7 @@ DEPENDENCIES
   middleman-images (~> 0.2)
   middleman-livereload (~> 3.4)
   mini_magick (~> 4.11)
-  mutex_m
+  mutex_m (~> 0.3)
   nokogiri (~> 1.13.6)
   puma (~> 6.0)
   rake (~> 13.0)
