@@ -2,11 +2,13 @@
 
 source "https://rubygems.org"
 
-gem "bigdecimal"
+gem "base64", "~> 0.3"
+gem "bigdecimal", "~> 4.1"
+gem "drb", "~> 2.2"
 gem "i18n-tasks", "~> 1.0"
 gem "middleman", "~> 4.4"
 gem "middleman-livereload", "~> 3.4"
-gem "mutex_m"
+gem "mutex_m", "~> 0.3"
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 gem "wdm", "~> 0.1", platforms: [:mswin, :mingw]
 
