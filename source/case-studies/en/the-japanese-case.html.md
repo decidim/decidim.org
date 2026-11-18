@@ -1,7 +1,7 @@
 ---
 date: 2026.11.17
 title: "Japan's first municipal Decidim: six years of participation, from a Smart City vision to redesigning the station area"
-subtitle: Kakogawa City (Hyogo Prefecture, pop. ~260,000) launched Japan's first municipal Decidim in October 2020. Across 25 participatory processes it has co-created its Smart City Vision, published progress on every measure, let residents name a new public facility by vote, and opened the redesign of the main station area and the next Comprehensive Plan to public input.
+subtitle: Kakogawa City (Hyogo Prefecture, pop. ~260,000) launched Japan's first municipal Decidim in October 2020. Across 25 participatory processes it has co-created its Smart City Vision, published progress on every measure, let residents name a new public facility by vote, and opened the redesign of the main station area and the next Comprehensive Plan to public input
 website: https://kakogawa.diycities.jp/
 website_link_text: Kakogawa instance
 gallery:
