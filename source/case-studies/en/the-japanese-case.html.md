@@ -52,8 +52,17 @@ phases:
       Two in-person meetings were held between the online phases to converge the discussion. Since adoption, a dedicated process publishes 17 accountability results plus annual meetings and blog reports.
     components: []
   - title: Naming "Kakoterasu" (2021)
-    count_label: Crowd-sourced names → shortlist → Decidim vote → offline sticker ballots → decision.
-    body: Until the facility opened, construction updates and opening events were shared on the same process so that voters felt ownership of "their" building.
+    count_label: ''
+    body: |-
+      → Crowd-sourced names 
+
+      → shortlist 
+
+      → Decidim vote 
+
+      → offline sticker ballots → decision
+
+      Until the facility opened, construction updates and opening events were shared on the same process so that voters felt ownership of "their" building.
     components: []
   - title: Kakogawa Station area (2022–2028)
     count_label: ''
