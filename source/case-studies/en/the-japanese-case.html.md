@@ -29,8 +29,8 @@ results:
     value: 540 proposals (148 accepted)
     label: 3,259 comments, 387 votes, 66 debates, 20 accountability results
   - metric: Prioritized
-    value: 3 shortlisted on Decidim
-    label: ''
+    value: '3'
+    label: Shortlisted on Decidim
 results_conclusion: 'The instance has won a series of awards: Manifesto Award 2021 (Communication Strategy), Japan DX Award 2022 (Microsoft Prize)'
 description_title: Why did you choose Decidim?
 description: |-
