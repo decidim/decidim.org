@@ -1,38 +1,20 @@
 # Linting
 
-- JavaScript linting:
+- JavaScript (ESLint), checked in CI:
 
 ```bash
 npm run lint
-# Expected time: ~6 seconds
-# May show warnings about React version and import paths - this is normal
+npm run lint:fix
 ```
 
-- Ruby linting:
+- Ruby (RuboCop with the Decidim shared config), checked in CI:
 
 ```bash
-bundle exec rubocop
-# Expected time: ~1.5 seconds
-# Use --parallel for faster execution
-# Use -a flag for auto-correction
+bundle exec rubocop -P
+bundle exec rubocop -a
 ```
 
-- ERB linting:
-
-```bash
-bundle exec erblint --lint-all
-# use --autocorrect flag for auto-correction
-```
-
-- CSS/SCSS linting:
-
-```bash
-npm run stylelint
-npm run prettier
-# Use npm run prettify to fix formatting
-```
-
-- Normalize and sort translation keys:
+- Translation keys: only edit `locales/en.yml` (see `locales.md`); keep keys sorted:
 
 ```bash
 bundle exec i18n-tasks normalize --locales en
