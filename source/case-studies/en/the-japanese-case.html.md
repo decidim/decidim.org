@@ -26,10 +26,10 @@ results:
     value: 7,416 registered users
     label: 25 participatory processes; 15 assemblies
   - metric: Proposals submitted
-    value: 540 proposals (148 accepted), 3,259 comments, 387 votes, 66 debates, 20 accountability results
-    label: ''
+    value: 540 proposals (148 accepted)
+    label: 3,259 comments, 387 votes, 66 debates, 20 accountability results
   - metric: Prioritized
-    value: 'Facility naming: ~400 crowd-sourced names → 9 → 3 shortlisted on Decidim → final choice combined online voting (3,919 votes) with sticker ballots at the city hall and neighbourhood circulars → "Kakoterasu"'
+    value: 3 shortlisted on Decidim
     label: ''
 results_conclusion: 'The instance has won a series of awards: Manifesto Award 2021 (Communication Strategy), Japan DX Award 2022 (Microsoft Prize)'
 description_title: Why did you choose Decidim?
