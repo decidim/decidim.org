@@ -9,4 +9,7 @@ services:
     - ../:/workspaces/decidim-org:cached
     ports:
       - "${DEVCONTAINER_APP_PORT:-4567}:4567"
+    dns:
+      - ${DEVCONTAINER_DNS:-1.1.1.1}
+      - ${DEVCONTAINER_DNS_FALLBACK:-8.8.8.8}
     command: sleep infinity
