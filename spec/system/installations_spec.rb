@@ -21,6 +21,10 @@ RSpec.describe "installations", type: :feature do
     expect(page.status_code).to eq(200)
   end
 
+  it "displays the highlighted facts" do
+    expect(page).to have_css("[data-fact-counter]", count: 3)
+  end
+
   context "when accessing the CSV installation download file" do
     it "has a download csv link" do
       expect(page).to have_link(href: "/uploads/installations.csv")
