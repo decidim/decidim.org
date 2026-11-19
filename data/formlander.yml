@@ -1,0 +1,8 @@
+# Formlander form backend (https://formlander.com).
+#
+# Deploy Formlander on Dokploy as the `forms` application (see
+# DOKPLOY_MIGRATION.md), create a form with the slug `contact`, and copy its
+# token here. The token is public: it only allows submitting to this form.
+site_url: https://decidim.org
+endpoint: https://forms.deploy.decidim.org/forms/contact/submit
+token: 4afe0770d6ee8a8d991d8dfadf80d601f6613a41d4147487

@@ -32,6 +32,7 @@ GEM
       erubi (~> 1.4)
       parser (>= 2.4)
       smart_properties
+    bigdecimal (4.1.3)
     builder (3.2.4)
     capybara (3.40.0)
       addressable
@@ -54,6 +55,7 @@ GEM
       reline (>= 0.3.1)
     diff-lcs (1.5.0)
     dotenv (2.8.1)
+    drb (2.2.3)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -162,6 +164,7 @@ GEM
     mini_mime (1.1.5)
     mini_portile2 (2.8.9)
     minitest (5.17.0)
+    mutex_m (0.3.0)
     nio4r (2.7.5)
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
@@ -287,9 +290,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  base64 (~> 0.3)
+  bigdecimal (~> 4.1)
   builder (~> 3.0)
   capybara (~> 3.40)
   debug (~> 1.6)
+  drb (~> 2.2)
   i18n-tasks (~> 1.0)
   image_optim (~> 0.30)
   middleman (~> 4.4)
@@ -297,6 +303,7 @@ DEPENDENCIES
   middleman-images (~> 0.2)
   middleman-livereload (~> 3.4)
   mini_magick (~> 4.11)
+  mutex_m (~> 0.3)
   nokogiri (~> 1.13.6)
   puma (~> 6.0)
   rake (~> 13.0)
