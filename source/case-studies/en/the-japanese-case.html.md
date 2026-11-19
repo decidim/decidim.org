@@ -23,8 +23,8 @@ region: Japan
 results_title: ''
 results:
   - metric: Total participants
-    value: 7,416 registered users; 25 participatory processes; 15 assemblies
-    label: ''
+    value: 7,416 registered users
+    label: 25 participatory processes; 15 assemblies
   - metric: Proposals submitted
     value: 540 proposals (148 accepted), 3,259 comments, 387 votes, 66 debates, 20 accountability results
     label: ''
