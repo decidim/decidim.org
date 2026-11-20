@@ -33,7 +33,6 @@
         <%= partial "partials/nav-dropdown", locals: {
           title: t("nav.in_use"),
           links: [
-            { text: t("nav.used_by"), url: "#{t(:path)}/usedby" },
             { text: t("nav.installations"), url: "#{t(:path)}/installations" },
             { text: t("nav.case-studies"), url: "#{t(:path)}/case-studies" }
           ]
@@ -94,9 +93,8 @@
         title: t("nav.in_use"),
         list_padding: "pl-4",
         links: [
-          { text: t("nav.used_by"), url: "#{t(:path)}/usedby", class: "block" },
-          { text: t("nav.installations"), url: "#{t(:path)}/installations", class: "block py-4" },
-          { text: t("nav.case-studies"), url: "#{t(:path)}/case-studies", class: "block pb-4" }
+          { text: t("nav.installations"), url: "#{t(:path)}/installations", class: "block" },
+          { text: t("nav.case-studies"), url: "#{t(:path)}/case-studies", class: "block py-4" }
         ]
       } %>
 

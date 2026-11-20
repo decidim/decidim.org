@@ -21,6 +21,10 @@ RSpec.describe "installations", type: :feature do
     expect(page.status_code).to eq(200)
   end
 
+  it "displays the highlighted facts" do
+    expect(page).to have_css("[data-fact-counter]", count: 3)
+  end
+
   context "when accessing the CSV installation download file" do
     it "has a download csv link" do
       expect(page).to have_link(href: "/uploads/installations.csv")
@@ -36,6 +40,142 @@ RSpec.describe "installations", type: :feature do
       csv_content = File.read(File.join(__dir__, "../../source/uploads/installations.csv"))
 
       expect(csv_content).to include('"title","url","image","type","priority","home"')
+    end
+  end
+
+  context "when JavaScript is enabled", :js do
+    before do
+      page.current_window.resize_to(390, 500)
+      visit "/installations"
+      wait_for_facts_script
+    end
+
+    it "counts up once and does not restart when re-entering the viewport", :aggregate_failures do
+      expected = fact_targets
+
+      track_fact_counter_changes
+      scroll_to_facts
+      wait_for_fact_counter_changes
+      wait_for_final_fact_values
+
+      expect(page.evaluate_script("window.factCounterChanges")).to be_positive
+      expect(fact_values).to eq(expected)
+
+      page.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+      wait_until_facts_are_outside_viewport
+      changes_after_animation = page.evaluate_script("window.factCounterChanges")
+
+      scroll_to_facts
+      page.driver.browser.execute_async_script("setTimeout(arguments[0], 1100)")
+
+      expect(page.evaluate_script("window.factCounterChanges")).to eq(changes_after_animation)
+      expect(fact_values).to eq(expected)
+    end
+  end
+
+  context "when reduced motion is enabled", :js do
+    before do
+      emulate_reduced_motion
+      page.current_window.resize_to(390, 500)
+      visit "/installations"
+      wait_for_facts_script
+    end
+
+    after do
+      page.driver.browser.execute_cdp("Emulation.setEmulatedMedia", features: [])
+    end
+
+    it "shows the final values without counting", :aggregate_failures do
+      reduced_motion = page.evaluate_script(
+        "window.matchMedia('(prefers-reduced-motion: reduce)').matches"
+      )
+      expect(reduced_motion).to be true
+      expected = fact_targets
+
+      scroll_to_facts
+      page.driver.browser.execute_async_script("setTimeout(arguments[0], 150)")
+
+      expect(fact_values).to eq(expected)
+    end
+  end
+
+  private
+
+  def emulate_reduced_motion
+    page.driver.browser.execute_cdp(
+      "Emulation.setEmulatedMedia",
+      features: [{ name: "prefers-reduced-motion", value: "reduce" }]
+    )
+  end
+
+  def fact_targets
+    page.all("[data-fact-counter]").map { |counter| counter["data-fact-value"] }
+  end
+
+  def fact_values
+    page.all("[data-fact-counter]").map(&:text)
+  end
+
+  def scroll_to_facts
+    page.execute_script(
+      "document.querySelector('[data-fact-counter]').scrollIntoView({ block: 'center' })"
+    )
+  end
+
+  def track_fact_counter_changes
+    page.execute_script(<<~JS)
+      window.factCounterChanges = 0;
+      const counter = document.querySelector("[data-fact-counter]");
+      new MutationObserver(() => {
+        if (counter.textContent.trim() !== counter.dataset.factValue) {
+          window.factCounterChanges += 1;
+        }
+      }).observe(counter, { childList: true, characterData: true, subtree: true });
+    JS
+  end
+
+  def wait_for_facts_script
+    page.driver.browser.execute_async_script(<<~JS)
+      const done = arguments[0];
+      const check = () => {
+        if (typeof factsCounter === "function") {
+          done();
+        } else {
+          setTimeout(check, 25);
+        }
+      };
+      check();
+    JS
+  end
+
+  def wait_for_fact_counter_changes
+    page.document.synchronize do
+      started = page.evaluate_script("window.factCounterChanges").positive?
+      raise Capybara::ExpectationNotMet, "Fact counter animation did not start" unless started
+    end
+  end
+
+  def wait_for_final_fact_values
+    fact_targets.each do |target|
+      expect(page).to have_css(
+        "[data-fact-counter][data-fact-value='#{target}']",
+        text: target
+      )
+    end
+  end
+
+  def wait_until_facts_are_outside_viewport
+    page.driver.browser.execute_async_script("setTimeout(arguments[0], 100)")
+
+    page.document.synchronize do
+      outside_viewport = page.evaluate_script(<<~JS)
+        (() => {
+          const rect = document.querySelector("[data-fact-counter]").getBoundingClientRect();
+          return rect.bottom < 0 || rect.top > window.innerHeight;
+        })()
+      JS
+
+      raise Capybara::ExpectationNotMet, "Facts are still inside the viewport" unless outside_viewport
     end
   end
 end

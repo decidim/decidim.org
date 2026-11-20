@@ -1,16 +1,22 @@
-<section class="bg-red-100">
-  <div class="container pt-10 md:py-16 text-red-500">
-    <h2 class="h2 md:pb-5"><%= t("used_by.facts.title") %></h2>
-    <p class="par-md py-5 md:py-0 max-w-prose"><%= t("used_by.facts.subtitle") %></p>
-    <div class="pb-10 md:py-0 md:pt-10">
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-5 justify-items-start">
-        <% data.facts.each_with_index do |use, ix| %>
-          <div class="flex flex-col justify-center md:w-96 md:h-36 w-40 h-16" style="--translate-ix: <%= ix %>">
-            <p class="par-2xl"><%= get_statistic_for_fact(use.text, use.value, data) %></p>
+<section class="bg-white">
+  <div class="container pb-10 md:pb-16 text-black">
+    <div class="pt-10 md:pt-0">
+      <div class="grid grid-cols-3 gap-x-3 md:gap-x-4 gap-y-5 justify-items-start">
+        <% data.facts.select { |fact| %w[instances countries institutions].include?(fact.text) }.each do |use| %>
+          <% statistic = get_statistic_for_fact(use.text, use.value, data) %>
+          <div class="flex flex-col justify-center md:h-36">
+            <p class="par-2xl" data-fact-counter data-fact-value="<%= statistic %>"><%= statistic %></p>
             <p class="md:text-2xl font-bold"><%= t("used_by.facts.type.#{use.text}") %></p>
           </div>
         <% end %>
       </div>
+      <p class="pt-4 md:pt-5 par-md">
+        <a href="/uploads/installations.csv" download class="text-red-500 inline-flex items-center gap-2">
+          <span class="md:hidden"><%= t("installations.download_csv_short") %></span>
+          <span class="hidden md:inline"><%= t("installations.download_csv") %></span>
+          <%= icon("ri-download-line", class: "w-6 h-6 shrink-0") %>
+        </a>
+      </p>
     </div>
   </div>
 </section>
