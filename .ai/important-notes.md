@@ -1,9 +1,11 @@
 # Important Notes
 
-- **NEVER CANCEL** builds or tests that take more than 2 minutes - builds can take 3+ minutes, full test suites for a module 60+ minutes
-- Always use the exact Ruby and Node versions specified in `.ruby-version` and `.node-version`.
-- The development app (`rake development_app`) is the primary way to create a working Decidim application for development
-- Each `decidim-*` directory is an independent gem with its own tests and dependencies
-- Always run full validation scenarios after making changes to ensure functionality works end-to-end
-- **Changes to decidim-generators**: When making changes to `decidim-generators` that affect application configuration (files like `config/application.rb`, `config/environments/*`, etc) or other generated files, also document these changes in `RELEASE_NOTES.md`
-- Read more about testing (like how to run parallel tests) at @docs/modules/develop/pages/testing.adoc
+- Use the exact Ruby and Node versions in `.ruby-version` and `.node-version`.
+- Development server: `bundle exec middleman server` (http://localhost:4567).
+  Production build: `bundle exec middleman build`, output in `build/`, served by
+  nginx (see `Dockerfile` and `nginx.conf`).
+- Tests: `bundle exec rspec`. System specs render pages with Capybara and need
+  Google Chrome. There is no database or background service to run.
+- Content is edited through the Sveltia CMS at `/admin` (see
+  `source/admin/config.yml`). For translations, only edit `locales/en.yml`.
+- Details: `introduction.md`, `testing.md`, `linting.md`.
