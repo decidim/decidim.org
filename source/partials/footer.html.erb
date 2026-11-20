@@ -5,7 +5,7 @@
 
       <nav class="hidden md:flex items-center w-1/4 space-x-2">
         <% data.links.social_media.each do |link| %>
-          <% link_to link.url, target: "_blank", rel: "noopener noreferrer", title: link.name do %>
+          <% link_to link.url,  rel: "noopener noreferrer", title: link.name do %>
             <%= icon link.icon, class: "w-4 h-4" %>
           <% end %>
         <% end %>
@@ -148,7 +148,7 @@
         <h3 class="font-bold mb-3"><%= t("footer.follow_us") %></h3>
         <nav class="space-y-3">
           <% data_select_footer_social_media(data.links.social_media).each do |link| %>
-            <%= link_to link.name, link.url, class: "block first-letter:uppercase", target: "_blank", rel: "noopener noreferrer" %>
+            <%= link_to link.name, link.url, class: "block first-letter:uppercase", rel: "noopener noreferrer" %>
           <% end %>
         </nav>
       </div>
@@ -156,7 +156,7 @@
 
     <nav class="flex md:hidden items-center justify-between mt-8">
       <% data.links.social_media.each do |link| %>
-        <% link_to link.url, target: "_blank", rel: "noopener noreferrer" do %>
+        <% link_to link.url, rel: "noopener noreferrer" do %>
           <%= icon link.icon, class: "w-4 h-4" %>
         <% end %>
       <% end %>
@@ -165,16 +165,16 @@
     <div class="mt-12">
       <h3 class="font-bold mb-3"><%= t("footer.supported_by") %></h3>
       <div class="flex items-center space-x-8">
-        <% link_to "http://www.barcelona.cat", class: "w-36 h-12 flex items-center", target: "_blank", rel: "noopener noreferrer" do %>
+        <% link_to "http://www.barcelona.cat", class: "w-36 h-12 flex items-center", rel: "noopener noreferrer" do %>
           <%= image_tag "/images/logo_footer_barcelona.svg", resize: "150x50", alt: "Ajuntament de Barcelona" %>
         <% end %>
-        <% link_to "http://www.localret.cat", class: "w-36 h-12 flex items-center", target: "_blank", rel: "noopener noreferrer" do %>
+        <% link_to "http://www.localret.cat", class: "w-36 h-12 flex items-center", rel: "noopener noreferrer" do %>
           <%= image_tag "/images/logo_footer_localret.png", resize: "150x50", alt: "Localret" %>
         <% end %>
-        <% link_to "http://www.gencat.cat", class: "w-36 h-12 flex items-center", target: "_blank", rel: "noopener noreferrer" do %>
+        <% link_to "http://www.gencat.cat", class: "w-36 h-12 flex items-center", rel: "noopener noreferrer" do %>
           <%= image_tag "/images/logo_footer_gencat.png", resize: "150x50", alt: "Generalitat de Catalunya" %>
         <% end %>
-        <% link_to "https://www.diba.cat/", class: "w-36 h-12 flex items-center", target: "_blank", rel: "noopener noreferrer" do %>
+        <% link_to "https://www.diba.cat/", class: "w-36 h-12 flex items-center", rel: "noopener noreferrer" do %>
           <%= image_tag "/images/logo_footer_diba.png", resize: "150x50", alt: "Diputació de Barcelona" %>
         <% end %>
       </div>

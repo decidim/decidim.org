@@ -23,7 +23,7 @@ description:
       <input type="hidden" name="_success_url" value="<%= formlander.site_url %><%= t(:path) %>/thanks">
       <input type="hidden" name="_error_url" value="<%= formlander.site_url %><%= t(:path) %>/contact">
       <p class="hidden" hidden>
-        <label><%= t('contact.bot_field') %> <input name="__fl_hp" value="" tabindex="-1" autocomplete="off" /></label>
+        <label><%= t('contact.bot_field') %> <input type="text" name="__fl_hp" class="formlander-hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none"></label>
       </p>
       <label for="name" class="form-input">
         <input id="name" name="name" type="text" autocomplete="name" required>
