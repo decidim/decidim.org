@@ -15,11 +15,29 @@ description:
         <%= t("404.intro") %>
       </p>
     </div>
+  </div>
 
-    <div class="flex flex-col divide-y-2 md:divide-y-0 divide-red-500 border-red-500 border-y-2 md:border-y-0 md:flex-row md:space-x-16 mt-16">
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-mail-line", text: t("nav.contact"), url: "#{t(:path)}/contact" } %>
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-book-3-line", text: t("nav.docs.title"), url: "https://docs.decidim.org/" } %>
-      <%= partial "/partials/cta-bare", locals: { classes: "text-red-500", icon: "ri-pages-line", text: t("nav.demo"), url: "https://try.decidim.org/" } %>
+  <div class="container flex flex-col divide-y md:divide-y-0 divide-gray-300 border-gray-300 border-y-0 md:border-y-0 md:flex-row md:divide-x md:divide-gray-300 md:gap-x-60 py-10 md:pb-24">
+    <div class="py-6 md:py-0">
+      <div class="flex items-center space-x-2">
+        <%= icon "ri-mail-line", class: "w-5 h-5" %>
+        <h2 class="font-bold text-sm uppercase tracking-wide text-black"><%= t("404.contact_title") %></h2>
+      </div>
+      <%= partial "partials/arrow-link", locals: { text: t("404.contact_link"), url: "#{t(:path)}/contact", classes: "text-red-500 pt-6", icon_name: "ri-arrow-right-line" } %>
+    </div>
+    <div class="md:pl-5 py-6 md:py-0">
+      <div class="flex items-center space-x-2">
+        <%= icon "ri-book-3-line", class: "w-5 h-5" %>
+        <h2 class="font-bold text-sm uppercase tracking-wide text-black"><%= t("404.docs_title") %></h2>
+      </div>
+      <%= partial "partials/arrow-link", locals: { text: t("404.docs_link"), url: "https://docs.decidim.org/", classes: "text-red-500 pt-6", icon_name: "ri-external-link-line" } %>
+    </div>
+    <div class="md:pl-5 py-6 md:py-0">
+      <div class="flex items-center space-x-2">
+        <%= icon "ri-pages-line", class: "w-5 h-5" %>
+        <h2 class="font-bold text-sm uppercase tracking-wide text-black"><%= t("404.demo_title") %></h2>
+      </div>
+      <%= partial "partials/arrow-link", locals: { text: t("404.demo_link"), url: "https://try.decidim.org/", classes: "text-red-500 pt-6", icon_name: "ri-external-link-line" } %>
     </div>
   </div>
 </section>
