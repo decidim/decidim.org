@@ -2,7 +2,7 @@
   <div class="container py-4">
     <div class="flex md:hidden items-center justify-between mt-4">
       <a href="<%= t(:path) %>/"><img src="/images/decidim-symbol-white.svg" alt="Decidim" /></a>
-      <%= partial "/partials/language-selector", locals: { arrow_color: "text-white" } %>
+      <%= partial "/partials/language-selector", locals: { arrow_color: "text-white", direction: "up" } %>
     </div>
 
     <%= partial "partials/footer-nav" %>
@@ -18,7 +18,7 @@
     <div class="hidden md:flex md:w-full md:justify-end">
       <div class="inline-flex flex-col">
         <div class="flex justify-start md:pb-6">
-          <%= partial "/partials/language-selector", locals: { arrow_color: "text-white" } %>
+          <%= partial "/partials/language-selector", locals: { arrow_color: "text-white", direction: "up" } %>
         </div>
         <nav class="flex space-x-3 md:pb-5">
           <% data_select_footer_social_media(data.links.social_media).each do |link| %>
