@@ -24,7 +24,12 @@ RSpec.describe "language selector", type: :feature do
   it "displays the current language name in the summary" do
     within first("details.no-animate summary") do
       expect(page).to have_content "Català"
-      expect(page).not_to have_content "CA"
+    end
+  end
+
+  it "does not display the locale code in the summary" do
+    within first("details.no-animate summary") do
+      expect(page).to have_no_content "CA"
     end
   end
 
