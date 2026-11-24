@@ -4,7 +4,7 @@ description:
 ---
 
 <section>
-  <div class="container pt-10 md:pt-16 md:pb-24">
+  <div class="container pt-10 md:pt-16 md:pb-10">
     <div class="md:w-3/5">
       <h1 class="h1 md:text-6xl md:whitespace-nowrap">
         <%= t("installations.title") %>
@@ -15,16 +15,11 @@ description:
       <div class="par-md pt-4 md:pt-5">
         <%= t("installations.intro") %>
       </div>
-      <p class="md:pt-5 pt-4 md:pb-0 pb-10 par-md">
-        <a href="/uploads/installations.csv" download class="text-red-500 inline-flex items-center gap-2">
-          <span class="md:hidden"><%= t("installations.download_csv_short") %></span>
-          <span class="hidden md:inline"><%= t("installations.download_csv") %></span>
-          <%= icon("ri-download-line", class: "w-6 h-6 shrink-0") %>
-        </a>
-      </p>
     </div>
   </div>
 </section>
+
+<%= partial "/partials/facts" %>
 
 <section>
   <div class="container md:pb-16 pb-10" data-tabs="used_by" data-filter data-click-only>
