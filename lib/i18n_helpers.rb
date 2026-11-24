@@ -52,6 +52,16 @@ module I18nHelpers
     !current_page.path.include?("blog")
   end
 
+  # Return the display name for a locale, as defined in data/languages.yml.
+  # Falls back to the locale code when it isn't listed.
+  #
+  # @param [Symbol] loc The locale
+  # @return [String]
+  def language_name_for_locale(loc = I18n.locale)
+    language = data.languages.find { |lang| lang.path.to_s == loc.to_s }
+    language&.name || loc.to_s
+  end
+
   # Returns the correct PDF for the transparency portal depending on the locale
   # @param [Symbol]
   # @return [String]
