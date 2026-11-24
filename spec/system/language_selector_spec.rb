@@ -21,6 +21,13 @@ RSpec.describe "language selector", type: :feature do
     expect(page).to have_css "nav details"
   end
 
+  it "displays the current language name in the summary" do
+    within first("details.no-animate summary") do
+      expect(page).to have_content "Català"
+      expect(page).not_to have_content "CA"
+    end
+  end
+
   it "displays Castellano in the language selector" do
     expect(page).to have_css "details.no-animate", text: "Castellano"
   end
