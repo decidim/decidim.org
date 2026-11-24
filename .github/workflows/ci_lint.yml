@@ -8,14 +8,14 @@ on:
       - "chore/l10n*"
 env:
   CI: "true"
-  NODE_VERSION: 16.9.1
+  NODE_VERSION: 22.14.0
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
   cancel-in-progress: true
 jobs:
   lint_js:
     name: Lint JS
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
